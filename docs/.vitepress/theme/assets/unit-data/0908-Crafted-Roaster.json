@@ -1,0 +1,1307 @@
+{
+  "unitId": "0908-Crafted-Roaster",
+  "title": "精工炙热熔炉",
+  "originalName": "Roaster/Home Village",
+  "module": "upgrade-temp",
+  "imgFolder": "crafted_buildings/0908",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Roaster/Home_Village",
+    "revision": 624970,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Roaster/Home_Village?oldid=624970",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 2,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Town Hall Level",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "Number Available",
+            "raw": "Number Available"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          }
+        ],
+        [
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          },
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          },
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          },
+          {
+            "status": "known",
+            "value": 15,
+            "raw": "15"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          },
+          {
+            "status": "known",
+            "value": 17,
+            "raw": "17"
+          },
+          {
+            "status": "known",
+            "value": 18,
+            "raw": "18"
+          }
+        ],
+        [
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 3,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Size"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "3x3",
+            "raw": "3x3"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 4,
+      "section": "Statistics",
+      "title": "Common Statistics",
+      "headers": [
+        "Range",
+        "Attack Speed",
+        "Time Bewtween Bursts",
+        "Damage Type",
+        "Unit Type Targeted"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "10 tiles",
+            "raw": "10 tiles"
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": "0.25?s"
+          },
+          {
+            "status": "known",
+            "value": "1.5s",
+            "raw": "1.5s"
+          },
+          {
+            "status": "known",
+            "value": "Area Splash - 1.5 tiles",
+            "raw": "Area Splash - 1.5 tiles"
+          },
+          {
+            "status": "known",
+            "value": "Ground & Air",
+            "raw": "Ground & Air"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 5,
+      "section": "Statistics",
+      "title": "Module 1: Hitpoints",
+      "headers": [
+        "Level",
+        "Hitpoints",
+        "Cost",
+        "Build Time",
+        "Experience Gained"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 960,
+            "raw": "960"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 1500,
+            "raw": "1,500"
+          },
+          {
+            "status": "known",
+            "value": 3500000,
+            "raw": "3,500,000"
+          },
+          {
+            "status": "known",
+            "value": 21600,
+            "raw": "6h",
+            "unit": "seconds",
+            "displayInput": "0,6,0,0"
+          },
+          {
+            "status": "known",
+            "value": 146,
+            "raw": "146"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 2000,
+            "raw": "2,000"
+          },
+          {
+            "status": "known",
+            "value": 4500000,
+            "raw": "4,500,000"
+          },
+          {
+            "status": "known",
+            "value": 28800,
+            "raw": "8h",
+            "unit": "seconds",
+            "displayInput": "0,8,0,0"
+          },
+          {
+            "status": "known",
+            "value": 169,
+            "raw": "169"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 2500,
+            "raw": "2,500"
+          },
+          {
+            "status": "known",
+            "value": 5500000,
+            "raw": "5,500,000"
+          },
+          {
+            "status": "known",
+            "value": 36000,
+            "raw": "10h",
+            "unit": "seconds",
+            "displayInput": "0,10,0,0"
+          },
+          {
+            "status": "known",
+            "value": 189,
+            "raw": "189"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 3000,
+            "raw": "3,000"
+          },
+          {
+            "status": "known",
+            "value": 6500000,
+            "raw": "6,500,000"
+          },
+          {
+            "status": "known",
+            "value": 43200,
+            "raw": "12h",
+            "unit": "seconds",
+            "displayInput": "0,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 207,
+            "raw": "207"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 3500,
+            "raw": "3,500"
+          },
+          {
+            "status": "known",
+            "value": 7500000,
+            "raw": "7,500,000"
+          },
+          {
+            "status": "known",
+            "value": 50400,
+            "raw": "14h",
+            "unit": "seconds",
+            "displayInput": "0,14,0,0"
+          },
+          {
+            "status": "known",
+            "value": 224,
+            "raw": "224"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": 4000,
+            "raw": "4,000"
+          },
+          {
+            "status": "known",
+            "value": 8500000,
+            "raw": "8,500,000"
+          },
+          {
+            "status": "known",
+            "value": 93600,
+            "raw": "1d 2h",
+            "unit": "seconds",
+            "displayInput": "1,2,0,0"
+          },
+          {
+            "status": "known",
+            "value": 305,
+            "raw": "305"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": 4500,
+            "raw": "4,500"
+          },
+          {
+            "status": "known",
+            "value": 10000000,
+            "raw": "10,000,000"
+          },
+          {
+            "status": "known",
+            "value": 187200,
+            "raw": "2d 4h",
+            "unit": "seconds",
+            "displayInput": "2,4,0,0"
+          },
+          {
+            "status": "known",
+            "value": 432,
+            "raw": "432"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          },
+          {
+            "status": "known",
+            "value": 5200,
+            "raw": "5,200"
+          },
+          {
+            "status": "known",
+            "value": 11500000,
+            "raw": "11,500,000"
+          },
+          {
+            "status": "known",
+            "value": 367200,
+            "raw": "4d 6h",
+            "unit": "seconds",
+            "displayInput": "4,6,0,0"
+          },
+          {
+            "status": "known",
+            "value": 605,
+            "raw": "605"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 6000,
+            "raw": "6,000"
+          },
+          {
+            "status": "known",
+            "value": 13000000,
+            "raw": "13,000,000"
+          },
+          {
+            "status": "known",
+            "value": 734400,
+            "raw": "8d 12h",
+            "unit": "seconds",
+            "displayInput": "8,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 856,
+            "raw": "856"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 2,
+          "type": "cost",
+          "icon": "Elixir",
+          "gpClass": "building",
+          "noGoldPass": false
+        },
+        {
+          "column": 3,
+          "type": "time",
+          "gpClass": "building",
+          "noGoldPass": false
+        }
+      ]
+    },
+    {
+      "sourceTableIndex": 6,
+      "section": "Statistics",
+      "title": "Module 2: Damage",
+      "headers": [
+        "Level",
+        "Damage per Hit",
+        "Cost",
+        "Build Time",
+        "Experience Gained"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 85,
+            "raw": "85"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 90,
+            "raw": "90"
+          },
+          {
+            "status": "known",
+            "value": 4000000,
+            "raw": "4,000,000"
+          },
+          {
+            "status": "known",
+            "value": 28800,
+            "raw": "8h",
+            "unit": "seconds",
+            "displayInput": "0,8,0,0"
+          },
+          {
+            "status": "known",
+            "value": 169,
+            "raw": "169"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 95,
+            "raw": "95"
+          },
+          {
+            "status": "known",
+            "value": 5000000,
+            "raw": "5,000,000"
+          },
+          {
+            "status": "known",
+            "value": 36000,
+            "raw": "10h",
+            "unit": "seconds",
+            "displayInput": "0,10,0,0"
+          },
+          {
+            "status": "known",
+            "value": 189,
+            "raw": "189"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 100,
+            "raw": "100"
+          },
+          {
+            "status": "known",
+            "value": 6000000,
+            "raw": "6,000,000"
+          },
+          {
+            "status": "known",
+            "value": 39600,
+            "raw": "11h",
+            "unit": "seconds",
+            "displayInput": "0,11,0,0"
+          },
+          {
+            "status": "known",
+            "value": 198,
+            "raw": "198"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 105,
+            "raw": "105"
+          },
+          {
+            "status": "known",
+            "value": 7500000,
+            "raw": "7,500,000"
+          },
+          {
+            "status": "known",
+            "value": 46800,
+            "raw": "13h",
+            "unit": "seconds",
+            "displayInput": "0,13,0,0"
+          },
+          {
+            "status": "known",
+            "value": 216,
+            "raw": "216"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 110,
+            "raw": "110"
+          },
+          {
+            "status": "known",
+            "value": 9000000,
+            "raw": "9,000,000"
+          },
+          {
+            "status": "known",
+            "value": 54000,
+            "raw": "15h",
+            "unit": "seconds",
+            "displayInput": "0,15,0,0"
+          },
+          {
+            "status": "known",
+            "value": 232,
+            "raw": "232"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": 115,
+            "raw": "115"
+          },
+          {
+            "status": "known",
+            "value": 10500000,
+            "raw": "10,500,000"
+          },
+          {
+            "status": "known",
+            "value": 97200,
+            "raw": "1d 3h",
+            "unit": "seconds",
+            "displayInput": "1,3,0,0"
+          },
+          {
+            "status": "known",
+            "value": 311,
+            "raw": "311"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": 120,
+            "raw": "120"
+          },
+          {
+            "status": "known",
+            "value": 12000000,
+            "raw": "12,000,000"
+          },
+          {
+            "status": "known",
+            "value": 194400,
+            "raw": "2d 6h",
+            "unit": "seconds",
+            "displayInput": "2,6,0,0"
+          },
+          {
+            "status": "known",
+            "value": 440,
+            "raw": "440"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          },
+          {
+            "status": "known",
+            "value": 125,
+            "raw": "125"
+          },
+          {
+            "status": "known",
+            "value": 13500000,
+            "raw": "13,500,000"
+          },
+          {
+            "status": "known",
+            "value": 388800,
+            "raw": "4d 12h",
+            "unit": "seconds",
+            "displayInput": "4,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 623,
+            "raw": "623"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 135,
+            "raw": "135"
+          },
+          {
+            "status": "known",
+            "value": 15000000,
+            "raw": "15,000,000"
+          },
+          {
+            "status": "known",
+            "value": 777600,
+            "raw": "9d",
+            "unit": "seconds",
+            "displayInput": "9,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 881,
+            "raw": "881"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 2,
+          "type": "cost",
+          "icon": "Gold",
+          "gpClass": "building",
+          "noGoldPass": false
+        },
+        {
+          "column": 3,
+          "type": "time",
+          "gpClass": "building",
+          "noGoldPass": false
+        }
+      ]
+    },
+    {
+      "sourceTableIndex": 7,
+      "section": "Statistics",
+      "title": "Module 3: Burst Fire",
+      "headers": [
+        "Level",
+        "Burst Count",
+        "Cost",
+        "Build Time",
+        "Experience Gained"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          },
+          {
+            "status": "known",
+            "value": 30000,
+            "raw": "30,000"
+          },
+          {
+            "status": "known",
+            "value": 14400,
+            "raw": "4h",
+            "unit": "seconds",
+            "displayInput": "0,4,0,0"
+          },
+          {
+            "status": "known",
+            "value": 120,
+            "raw": "120"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 40000,
+            "raw": "40,000"
+          },
+          {
+            "status": "known",
+            "value": 21600,
+            "raw": "6h",
+            "unit": "seconds",
+            "displayInput": "0,6,0,0"
+          },
+          {
+            "status": "known",
+            "value": 146,
+            "raw": "146"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          },
+          {
+            "status": "known",
+            "value": 50000,
+            "raw": "50,000"
+          },
+          {
+            "status": "known",
+            "value": 28800,
+            "raw": "8h",
+            "unit": "seconds",
+            "displayInput": "0,8,0,0"
+          },
+          {
+            "status": "known",
+            "value": 169,
+            "raw": "169"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          },
+          {
+            "status": "known",
+            "value": 60000,
+            "raw": "60,000"
+          },
+          {
+            "status": "known",
+            "value": 36000,
+            "raw": "10h",
+            "unit": "seconds",
+            "displayInput": "0,10,0,0"
+          },
+          {
+            "status": "known",
+            "value": 189,
+            "raw": "189"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          },
+          {
+            "status": "known",
+            "value": 70000,
+            "raw": "70,000"
+          },
+          {
+            "status": "known",
+            "value": 43200,
+            "raw": "12h",
+            "unit": "seconds",
+            "displayInput": "0,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 207,
+            "raw": "207"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          },
+          {
+            "status": "known",
+            "value": 80000,
+            "raw": "80,000"
+          },
+          {
+            "status": "known",
+            "value": 86400,
+            "raw": "1d",
+            "unit": "seconds",
+            "displayInput": "1,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 293,
+            "raw": "293"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": 15,
+            "raw": "15"
+          },
+          {
+            "status": "known",
+            "value": 90000,
+            "raw": "90,000"
+          },
+          {
+            "status": "known",
+            "value": 172800,
+            "raw": "2d",
+            "unit": "seconds",
+            "displayInput": "2,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 415,
+            "raw": "415"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          },
+          {
+            "status": "known",
+            "value": 100000,
+            "raw": "100,000"
+          },
+          {
+            "status": "known",
+            "value": 345600,
+            "raw": "4d",
+            "unit": "seconds",
+            "displayInput": "4,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 587,
+            "raw": "587"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 17,
+            "raw": "17"
+          },
+          {
+            "status": "known",
+            "value": 110000,
+            "raw": "110,000"
+          },
+          {
+            "status": "known",
+            "value": 691200,
+            "raw": "8d",
+            "unit": "seconds",
+            "displayInput": "8,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 831,
+            "raw": "831"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 2,
+          "type": "cost",
+          "icon": "Dark_Elixir",
+          "gpClass": "building",
+          "noGoldPass": false
+        },
+        {
+          "column": 3,
+          "type": "time",
+          "gpClass": "building",
+          "noGoldPass": false
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "name": "Roaster10_Crafted.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/9/98/Roaster10_Crafted.png/revision/latest/scale-to-width-down/200?cb=20260330141652",
+      "alt": "Roaster10 Crafted",
+      "localPath": "/images/wiki/0908-Crafted-Roaster/f6c5d978aa-Roaster10_Crafted.png",
+      "logicalPath": "/upgrade/crafted_buildings/0908/Roaster10_Crafted.png"
+    },
+    {
+      "name": "Roaster1_Crafted.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/a/a4/Roaster1_Crafted.png/revision/latest/scale-to-width-down/100?cb=20260330141305",
+      "alt": "Roaster1 Crafted",
+      "localPath": "/images/wiki/0908-Crafted-Roaster/8a2ecb7ca5-Roaster1_Crafted.png",
+      "logicalPath": "/upgrade/crafted_buildings/0908/Roaster1_Crafted.png"
+    },
+    {
+      "name": "Roaster2_Crafted.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/5/57/Roaster2_Crafted.png/revision/latest/scale-to-width-down/100?cb=20260330141330",
+      "alt": "Roaster2 Crafted",
+      "localPath": "/images/wiki/0908-Crafted-Roaster/95dd5325bf-Roaster2_Crafted.png",
+      "logicalPath": "/upgrade/crafted_buildings/0908/Roaster2_Crafted.png"
+    },
+    {
+      "name": "Roaster3_Crafted.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/8/86/Roaster3_Crafted.png/revision/latest/scale-to-width-down/100?cb=20260330141355",
+      "alt": "Roaster3 Crafted",
+      "localPath": "/images/wiki/0908-Crafted-Roaster/44be327abd-Roaster3_Crafted.png",
+      "logicalPath": "/upgrade/crafted_buildings/0908/Roaster3_Crafted.png"
+    },
+    {
+      "name": "Roaster4_Crafted.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/3/3a/Roaster4_Crafted.png/revision/latest/scale-to-width-down/100?cb=20260330141446",
+      "alt": "Roaster4 Crafted",
+      "localPath": "/images/wiki/0908-Crafted-Roaster/aaa13036e8-Roaster4_Crafted.png",
+      "logicalPath": "/upgrade/crafted_buildings/0908/Roaster4_Crafted.png"
+    },
+    {
+      "name": "Roaster5_Crafted.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/2/26/Roaster5_Crafted.png/revision/latest/scale-to-width-down/100?cb=20260330141508",
+      "alt": "Roaster5 Crafted",
+      "localPath": "/images/wiki/0908-Crafted-Roaster/8942e03d3d-Roaster5_Crafted.png",
+      "logicalPath": "/upgrade/crafted_buildings/0908/Roaster5_Crafted.png"
+    },
+    {
+      "name": "Roaster6_Crafted.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/d/d4/Roaster6_Crafted.png/revision/latest/scale-to-width-down/100?cb=20260330141529",
+      "alt": "Roaster6 Crafted",
+      "localPath": "/images/wiki/0908-Crafted-Roaster/51af8b28e8-Roaster6_Crafted.png",
+      "logicalPath": "/upgrade/crafted_buildings/0908/Roaster6_Crafted.png"
+    },
+    {
+      "name": "Roaster7_Crafted.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/a/ab/Roaster7_Crafted.png/revision/latest/scale-to-width-down/100?cb=20260330141550",
+      "alt": "Roaster7 Crafted",
+      "localPath": "/images/wiki/0908-Crafted-Roaster/2783281729-Roaster7_Crafted.png",
+      "logicalPath": "/upgrade/crafted_buildings/0908/Roaster7_Crafted.png"
+    },
+    {
+      "name": "Roaster8_Crafted.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/8/8c/Roaster8_Crafted.png/revision/latest/scale-to-width-down/100?cb=20260330141615",
+      "alt": "Roaster8 Crafted",
+      "localPath": "/images/wiki/0908-Crafted-Roaster/28194c1730-Roaster8_Crafted.png",
+      "logicalPath": "/upgrade/crafted_buildings/0908/Roaster8_Crafted.png"
+    },
+    {
+      "name": "Roaster9_Crafted.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/a/a9/Roaster9_Crafted.png/revision/latest/scale-to-width-down/100?cb=20260330141632",
+      "alt": "Roaster9 Crafted",
+      "localPath": "/images/wiki/0908-Crafted-Roaster/ae6e50c81b-Roaster9_Crafted.png",
+      "logicalPath": "/upgrade/crafted_buildings/0908/Roaster9_Crafted.png"
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-02-23",
+      "description": "Added to the game files."
+    },
+    {
+      "date": "2026-03-27",
+      "description": "Reduced hitpoints at levels 2 to 9: Level 2: 1,520 -> 1,500 Hitpoints Level 3: 2,080 -> 2,000 Hitpoints Level 4: 2,640 -> 2,500 Hitpoints Level 5: 3,200 -> 3,000 Hitpoints Level 6: 3,760 -> 3,500 Hitpoints Level 7: 4,320 -> 4,000 Hitpoints Level 8: 4,880 -> 4,500 Hitpoints Level 9: 5,440 -> 5,200 Hitpoints Reduced damage per hit at levels 2 to 9: Level 2: 55 -> 54 Damage Level 3: 60 -> 58 Damage Level 4: 65 -> 62 Damage Level 5: 70 -> 66 Damage Level 6: 75 -> 70 Damage Level 7: 80 -> 75 Damage Level 8: 85 -> 80 Damage Level 9: 90 -> 87 Damage Changed upgrade cost for all modules: Module 1 (Hitpoints): Level 2: 4,000,000 -> 3,500,000 Elixir Level 3: 5,000,000 -> 4,500,000 Elixir Level 4: 6,000,000 -> 5,500,000 Elixir Level 5: 7,000,000 -> 6,500,000 Elixir Level 6: 8,000,000 -> 7,500,000 Elixir Level 7: 9,000,000 -> 8,500,000 Elixir Level 9: 11,000,000 -> 11,500,000 Elixir Level 10: 12,000,000 -> 13,000,000 Elixir Module 2 (Damage): Level 2: 5,000,000 -> 4,000,000 Gold Level 3: 6,500,000 -> 5,000,000 Gold Level 4: 8,000,000 -> 6,000,000 Gold Level 5: 9,500,000 -> 7,500,000 Gold Level 6: 10,000,000 -> 9,000,000 Gold Level 8: 11,000,000 -> 12,000,000 Gold Level 9: 11,500,000 -> 13,500,000 Gold Level 10: 12,000,000 -> 15,000,000 Gold Module 3 (Burst Fire): Level 2: 25,000 -> 30,000 Dark Elixir Level 3: 30,000 -> 40,000 Dark Elixir Level 4: 35,000 -> 50,000 Dark Elixir Level 5: 40,000 -> 60,000 Dark Elixir Level 6: 55,000 -> 70,000 Dark Elixir Level 7: 70,000 -> 80,000 Dark Elixir Level 8: 85,000 -> 90,000 Dark Elixir Level 10: 115,000 -> 110,000 Dark Elixir Change upgrade time for all modules: Module 1 (Hitpoints): Level 2: 1d -> 6h Time Level 3: 1d 6h -> 8h Time Level 4: 1d 12h -> 10h Time Level 5: 1d 18h -> 12h Time Level 6: 2d -> 14h Time Level 7: 2d 6h -> 1d 2h Time Level 8: 2d 12h -> 2d 4h Time Level 9: 2d 18h -> 4d 6h Time Level 10: 3d -> 8d 12h Time Module 2 (Damage): Level 2: 12h -> 8h Time Level 3: 16h -> 10h Time Level 4: 20h -> 11h Time Level 5: 1d -> 13h Time Level 6: 1d 6h -> 15h Time Level 7: 1d 12h -> 1d 3h Time Level 8: 2d -> 2d 6h Time Level 9: 2d 12h -> 4d 12h Time Level 10: 3d -> 9d Time Module 3 (Burst Fire): Level 2: 1d 12h -> 4h Time Level 3: 2d -> 6h Time Level 4: 2d 12h -> 8h Time Level 5: 2d 14h -> 10h Time Level 6: 2d 16h -> 12h Time Level 7: 2d 18h -> 1d Time Level 8: 2d 20h -> 2d Time Level 9: 2d 22h -> 4d Time Level 10: 3d -> 8d Time"
+    },
+    {
+      "date": "2026-03-30",
+      "description": "Announced the Roaster, with 30 levels. Roaster1 Crafted Roaster2 Crafted Roaster3 Crafted Roaster4 Crafted Roaster5 Crafted Roaster6 Crafted Roaster7 Crafted Roaster8 Crafted Roaster9 Crafted Roaster10 Crafted"
+    },
+    {
+      "date": "2026-04-01",
+      "description": "Added the Roaster."
+    },
+    {
+      "date": "2026-05-26",
+      "description": "Increased attack time between bursts from 1.80s to 1.50s Attack Speed Increased damage radius from 1.2 tiles to 1.5 tiles Radius Increased damage per hit at all levels: Level 1: 50 -> 85 Damage Level 2: 54 -> 90 Damage Level 3: 58 -> 95 Damage Level 4: 62 -> 100 Damage Level 5: 66 -> 105 Damage Level 6: 70 -> 110 Damage Level 7: 75 -> 115 Damage Level 8: 80 -> 120 Damage Level 9: 87 -> 125 Damage Level 10: 95 -> 135 Damage Increased burst count by 2 at all levels Burst Fire"
+    },
+    {
+      "date": "2026-07-31",
+      "description": "Removed the Roaster."
+    }
+  ],
+  "facts": [],
+  "notices": [
+    "家乡精工防御，属于 2026 年 4 月 1 日至 7 月 30 日的批次，现已结束；与夜世界同名防御分开记录。"
+  ]
+}

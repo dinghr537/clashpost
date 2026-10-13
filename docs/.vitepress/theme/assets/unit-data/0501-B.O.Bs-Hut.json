@@ -1,0 +1,256 @@
+{
+  "unitId": "0501-B.O.Bs-Hut",
+  "title": "小博木屋",
+  "originalName": "B.O.B's Hut",
+  "module": "upgrade-home",
+  "imgFolder": "home_buildings/0501",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/B.O.B%27s_Hut",
+    "revision": 624826,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/B.O.B%27s_Hut?oldid=624826",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 0,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Town Hall Level",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "Number Available",
+            "raw": "Number Available"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          }
+        ],
+        [
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          },
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          },
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          },
+          {
+            "status": "known",
+            "value": 15,
+            "raw": "15"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          },
+          {
+            "status": "known",
+            "value": 17,
+            "raw": "17"
+          },
+          {
+            "status": "known",
+            "value": 18,
+            "raw": "18"
+          }
+        ],
+        [
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 1,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Size"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "2x2",
+            "raw": "2x2"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 2,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Hitpoints",
+        "Build Cost",
+        "Build Time"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 250,
+            "raw": "250"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A (Owned)"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "None"
+          }
+        ]
+      ],
+      "extraInfo": []
+    }
+  ],
+  "images": [
+    {
+      "name": "B.O.Bs_Hut.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0501/B.O.Bs_Hut.png",
+      "alt": "小博木屋",
+      "localPath": "/images/original/upgrade/home_buildings/0501/B.O.Bs_Hut.webp",
+      "logicalPath": "/upgrade/home_buildings/0501/B.O.Bs_Hut.png"
+    }
+  ],
+  "history": [],
+  "facts": [
+    "The B.O.B's Hut is unlocked once the B.O.B Control is built and fully upgraded. The hut also requires Town Hall 10, though this is an indirect requirement stemming from the B.O.B Hut upgrades."
+  ],
+  "notices": []
+}

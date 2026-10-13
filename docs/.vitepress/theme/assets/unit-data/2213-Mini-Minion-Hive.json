@@ -1,0 +1,346 @@
+{
+  "unitId": "2213-Mini-Minion-Hive",
+  "title": "迷你亡灵巢",
+  "originalName": "Mini-Minion Hive",
+  "module": "upgrade-capital",
+  "imgFolder": "capital_buildings/2213",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Mini-Minion_Hive",
+    "revision": 621768,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Mini-Minion_Hive?oldid=621768",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 3,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Number Available",
+        "District Hall Level / 1",
+        "District Hall Level / 2",
+        "District Hall Level / 3",
+        "District Hall Level / 4"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "Skeleton Park",
+            "raw": "Skeleton Park"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": "Goblin Mines",
+            "raw": "Goblin Mines"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 4,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Size"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "3x3",
+            "raw": "3x3"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 5,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Level",
+        "Damage per Second",
+        "Mini-Minion Damage",
+        "Hitpoints",
+        "Build Cost",
+        "District Hall Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 223,
+            "raw": "223"
+          },
+          {
+            "status": "known",
+            "value": 75,
+            "raw": "75"
+          },
+          {
+            "status": "known",
+            "value": 4400,
+            "raw": "4,400"
+          },
+          {
+            "status": "known",
+            "value": 17500,
+            "raw": "17,500"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 267,
+            "raw": "267"
+          },
+          {
+            "status": "known",
+            "value": 90,
+            "raw": "90"
+          },
+          {
+            "status": "known",
+            "value": 4800,
+            "raw": "4,800"
+          },
+          {
+            "status": "known",
+            "value": 35000,
+            "raw": "35,000"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 312,
+            "raw": "312"
+          },
+          {
+            "status": "known",
+            "value": 105,
+            "raw": "105"
+          },
+          {
+            "status": "known",
+            "value": 5200,
+            "raw": "5,200"
+          },
+          {
+            "status": "known",
+            "value": 70000,
+            "raw": "70,000"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 357,
+            "raw": "357"
+          },
+          {
+            "status": "known",
+            "value": 120,
+            "raw": "120"
+          },
+          {
+            "status": "known",
+            "value": 5600,
+            "raw": "5,600"
+          },
+          {
+            "status": "known",
+            "value": 113000,
+            "raw": "113,000"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 4,
+          "type": "cost",
+          "icon": "Gold3",
+          "gpClass": "building",
+          "noGoldPass": true
+        }
+      ]
+    },
+    {
+      "sourceTableIndex": 6,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Range",
+        "Time Between Bursts",
+        "Mini-Minions Per Burst",
+        "Damage Type",
+        "Unit Type Targeted"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "14 tiles",
+            "raw": "14 tiles"
+          },
+          {
+            "status": "known",
+            "value": "1.5s",
+            "raw": "1.5s"
+          },
+          {
+            "status": "known",
+            "value": "12 shots",
+            "raw": "12 shots"
+          },
+          {
+            "status": "known",
+            "value": "Single Target",
+            "raw": "Single Target"
+          },
+          {
+            "status": "known",
+            "value": "Ground & Air",
+            "raw": "Ground & Air"
+          }
+        ]
+      ],
+      "extraInfo": []
+    }
+  ],
+  "images": [
+    {
+      "name": "Mini-Minion_Hive4.png",
+      "url": "https://static.clashpost.com/upgrade/capital_buildings/2213/Mini-Minion_Hive4.png",
+      "alt": "迷你亡灵巢",
+      "localPath": "/images/original/upgrade/capital_buildings/2213/Mini-Minion_Hive4.webp",
+      "logicalPath": "/upgrade/capital_buildings/2213/Mini-Minion_Hive4.png"
+    },
+    {
+      "name": "Mini-Minion_Hive_Ruin.png",
+      "url": "https://static.clashpost.com/upgrade/capital_buildings/2213/Mini-Minion_Hive_Ruin.png",
+      "alt": "废墟",
+      "localPath": "/images/original/upgrade/capital_buildings/2213/Mini-Minion_Hive_Ruin.webp",
+      "logicalPath": "/upgrade/capital_buildings/2213/Mini-Minion_Hive_Ruin.png"
+    },
+    {
+      "name": "Mini-Minion_Hive1.png",
+      "url": "https://static.clashpost.com/upgrade/capital_buildings/2213/Mini-Minion_Hive1.png",
+      "alt": "1 级",
+      "localPath": "/images/original/upgrade/capital_buildings/2213/Mini-Minion_Hive1.webp",
+      "logicalPath": "/upgrade/capital_buildings/2213/Mini-Minion_Hive1.png"
+    },
+    {
+      "name": "Mini-Minion_Hive2.png",
+      "url": "https://static.clashpost.com/upgrade/capital_buildings/2213/Mini-Minion_Hive2.png",
+      "alt": "2 级",
+      "localPath": "/images/original/upgrade/capital_buildings/2213/Mini-Minion_Hive2.webp",
+      "logicalPath": "/upgrade/capital_buildings/2213/Mini-Minion_Hive2.png"
+    },
+    {
+      "name": "Mini-Minion_Hive3.png",
+      "url": "https://static.clashpost.com/upgrade/capital_buildings/2213/Mini-Minion_Hive3.png",
+      "alt": "3 级",
+      "localPath": "/images/original/upgrade/capital_buildings/2213/Mini-Minion_Hive3.webp",
+      "logicalPath": "/upgrade/capital_buildings/2213/Mini-Minion_Hive3.png"
+    },
+    {
+      "name": "Mini_Minion_Hive_level4_info.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/4/41/Mini_Minion_Hive_level4_info.png/revision/latest/scale-to-width-down/185?cb=20250318145258",
+      "alt": "",
+      "localPath": "/images/wiki/2213-Mini-Minion-Hive/22d0f90eea-Mini_Minion_Hive_level4_info.png",
+      "logicalPath": "/upgrade/capital_buildings/2213/Mini_Minion_Hive_level4_info.png"
+    }
+  ],
+  "history": [],
+  "facts": [],
+  "notices": []
+}

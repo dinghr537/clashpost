@@ -1,0 +1,583 @@
+{
+  "unitId": "0316-Firespitter",
+  "title": "火焰喷射器",
+  "originalName": "Firespitter",
+  "module": "upgrade-home",
+  "imgFolder": "home_buildings/0316",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Firespitter",
+    "revision": 625397,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Firespitter?oldid=625397",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 2,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Town Hall Level",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "Number Available",
+            "raw": "Number Available"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          }
+        ],
+        [
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          },
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          },
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          },
+          {
+            "status": "known",
+            "value": 15,
+            "raw": "15"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          },
+          {
+            "status": "known",
+            "value": 17,
+            "raw": "17"
+          },
+          {
+            "status": "known",
+            "value": 18,
+            "raw": "18"
+          }
+        ],
+        [
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 3,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Size"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "3x3",
+            "raw": "3x3"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 4,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Level",
+        "Damage per Second",
+        "Damage per Hit",
+        "Hitpoints",
+        "Cost",
+        "Build Time",
+        "Experience Gained",
+        "Town Hall Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 410,
+            "raw": "410"
+          },
+          {
+            "status": "known",
+            "value": 46.03,
+            "raw": "46.03"
+          },
+          {
+            "status": "known",
+            "value": 4500,
+            "raw": "4,500"
+          },
+          {
+            "status": "known",
+            "value": 17000000,
+            "raw": "17,000,000"
+          },
+          {
+            "status": "known",
+            "value": 734400,
+            "raw": "8d 12h",
+            "unit": "seconds",
+            "displayInput": "8,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 856,
+            "raw": "856"
+          },
+          {
+            "status": "known",
+            "value": 17,
+            "raw": "17"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 437,
+            "raw": "437"
+          },
+          {
+            "status": "known",
+            "value": 49.05,
+            "raw": "49.05"
+          },
+          {
+            "status": "known",
+            "value": 5000,
+            "raw": "5,000"
+          },
+          {
+            "status": "known",
+            "value": 18000000,
+            "raw": "18,000,000"
+          },
+          {
+            "status": "known",
+            "value": 864000,
+            "raw": "10d",
+            "unit": "seconds",
+            "displayInput": "10,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 929,
+            "raw": "929"
+          },
+          {
+            "status": "known",
+            "value": 17,
+            "raw": "17"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 455,
+            "raw": "455"
+          },
+          {
+            "status": "known",
+            "value": 51.07,
+            "raw": "51.07"
+          },
+          {
+            "status": "known",
+            "value": 5300,
+            "raw": "5,300"
+          },
+          {
+            "status": "known",
+            "value": 29000000,
+            "raw": "29,000,000"
+          },
+          {
+            "status": "known",
+            "value": 1296000,
+            "raw": "15d",
+            "unit": "seconds",
+            "displayInput": "15,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 1138,
+            "raw": "1,138"
+          },
+          {
+            "status": "known",
+            "value": 18,
+            "raw": "18"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 4,
+          "type": "cost",
+          "icon": "Gold",
+          "gpClass": "building",
+          "noGoldPass": false
+        },
+        {
+          "column": 5,
+          "type": "time",
+          "gpClass": "building",
+          "noGoldPass": false
+        }
+      ]
+    },
+    {
+      "sourceTableIndex": 6,
+      "section": "Statistics",
+      "title": "Supercharges",
+      "headers": [
+        "Charge Level ⚡",
+        "Damage per Second",
+        "Damage per Hit",
+        "Hitpoints",
+        "Cost",
+        "Build Time",
+        "Experience Gained",
+        "Town Hall Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 473,
+            "raw": "473"
+          },
+          {
+            "status": "known",
+            "value": 53.08,
+            "raw": "53.08"
+          },
+          {
+            "status": "known",
+            "value": 5300,
+            "raw": "5,300"
+          },
+          {
+            "status": "known",
+            "value": 14000000,
+            "raw": "14,000,000"
+          },
+          {
+            "status": "known",
+            "value": 561600,
+            "raw": "6d 12h",
+            "unit": "seconds",
+            "displayInput": "6,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 749,
+            "raw": "749"
+          },
+          {
+            "status": "known",
+            "value": 18,
+            "raw": "18"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 473,
+            "raw": "473"
+          },
+          {
+            "status": "known",
+            "value": 53.08,
+            "raw": "53.08"
+          },
+          {
+            "status": "known",
+            "value": 5550,
+            "raw": "5,550"
+          },
+          {
+            "status": "known",
+            "value": 12000000,
+            "raw": "12,000,000"
+          },
+          {
+            "status": "known",
+            "value": 648000,
+            "raw": "7d 12h",
+            "unit": "seconds",
+            "displayInput": "7,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 804,
+            "raw": "804"
+          },
+          {
+            "status": "known",
+            "value": 18,
+            "raw": "18"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 4,
+          "type": "cost",
+          "icon": "Gold",
+          "gpClass": "building",
+          "noGoldPass": false
+        },
+        {
+          "column": 5,
+          "type": "time",
+          "gpClass": "building",
+          "noGoldPass": false
+        }
+      ]
+    },
+    {
+      "sourceTableIndex": 7,
+      "section": "Statistics",
+      "title": "Supercharges",
+      "headers": [
+        "Range",
+        "Attack Speed",
+        "Time Between Bursts",
+        "Shots Per Burst",
+        "Damage Type",
+        "Unit Type Targeted",
+        "Favorite Target"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "16 tiles",
+            "raw": "16 tiles"
+          },
+          {
+            "status": "known",
+            "value": "0.064s",
+            "raw": "0.064s"
+          },
+          {
+            "status": "known",
+            "value": "1.0167s",
+            "raw": "1.0167s"
+          },
+          {
+            "status": "known",
+            "value": "20 shots",
+            "raw": "20 shots"
+          },
+          {
+            "status": "known",
+            "value": "Multiple Targets",
+            "raw": "Multiple Targets"
+          },
+          {
+            "status": "known",
+            "value": "Ground & Air",
+            "raw": "Ground & Air"
+          },
+          {
+            "status": "known",
+            "value": "Any",
+            "raw": "Any"
+          }
+        ]
+      ],
+      "extraInfo": []
+    }
+  ],
+  "images": [
+    {
+      "name": "Firespitter3.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0316/Firespitter3.png",
+      "alt": "火焰喷射器",
+      "localPath": "/images/original/upgrade/home_buildings/0316/Firespitter3.webp",
+      "logicalPath": "/upgrade/home_buildings/0316/Firespitter3.png"
+    },
+    {
+      "name": "Firespitter1.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0316/Firespitter1.png",
+      "alt": "1 级",
+      "localPath": "/images/original/upgrade/home_buildings/0316/Firespitter1.webp",
+      "logicalPath": "/upgrade/home_buildings/0316/Firespitter1.png"
+    },
+    {
+      "name": "Firespitter2.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0316/Firespitter2.png",
+      "alt": "2 级",
+      "localPath": "/images/original/upgrade/home_buildings/0316/Firespitter2.webp",
+      "logicalPath": "/upgrade/home_buildings/0316/Firespitter2.png"
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-02-23",
+      "description": "Added the level 3 Firespitter. Firespitter3 Removed the Supercharges at level 2. Icon Supercharge ⚡ Updated displayed damage per second: Level 1: 399 -> 410 Damage Level 2: 425 -> 437 Damage"
+    }
+  ],
+  "facts": [
+    "The Firespitter is a defensive building unlocked at Town Hall level 17. It attacks by firing a hail of small molten iron balls at enemies in a straight line. These projectiles do a small amount of damage, but come in bursts of 20 shots and can hit two targets each."
+  ],
+  "notices": []
+}

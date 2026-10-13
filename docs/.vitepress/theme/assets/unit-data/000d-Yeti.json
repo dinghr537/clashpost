@@ -1,0 +1,560 @@
+{
+  "unitId": "000d-Yeti",
+  "title": "大雪怪",
+  "originalName": "Yeti",
+  "module": "upgrade-home",
+  "imgFolder": "home_tech/000d",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Yeti",
+    "revision": 624065,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Yeti?oldid=624065",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 2,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Preferred Target",
+        "Attack Type",
+        "Housing Space",
+        "Movement Speed",
+        "Attack Speed",
+        "Barracks Level Required",
+        "Range"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "Any",
+            "raw": "Any"
+          },
+          {
+            "status": "known",
+            "value": "Melee (Ground Only)",
+            "raw": "Melee (Ground Only)"
+          },
+          {
+            "status": "known",
+            "value": 18,
+            "raw": "18"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          },
+          {
+            "status": "known",
+            "value": "1s",
+            "raw": "1s"
+          },
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          },
+          {
+            "status": "known",
+            "value": "0.8 tiles",
+            "raw": "0.8 tiles"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 3,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Level",
+        "Damage per Second",
+        "Damage per Attack",
+        "Hitpoints",
+        "Yetimites spawned",
+        "Research Cost",
+        "Research Time",
+        "Laboratory Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 230,
+            "raw": "230"
+          },
+          {
+            "status": "known",
+            "value": 230,
+            "raw": "230"
+          },
+          {
+            "status": "known",
+            "value": 2900,
+            "raw": "2,900"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 250,
+            "raw": "250"
+          },
+          {
+            "status": "known",
+            "value": 250,
+            "raw": "250"
+          },
+          {
+            "status": "known",
+            "value": 3200,
+            "raw": "3,200"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          },
+          {
+            "status": "known",
+            "value": 5000000,
+            "raw": "5,000,000"
+          },
+          {
+            "status": "known",
+            "value": 259200,
+            "raw": "3d",
+            "unit": "seconds",
+            "displayInput": "3,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 270,
+            "raw": "270"
+          },
+          {
+            "status": "known",
+            "value": 270,
+            "raw": "270"
+          },
+          {
+            "status": "known",
+            "value": 3500,
+            "raw": "3,500"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 6500000,
+            "raw": "6,500,000"
+          },
+          {
+            "status": "known",
+            "value": 388800,
+            "raw": "4d 12h",
+            "unit": "seconds",
+            "displayInput": "4,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 290,
+            "raw": "290"
+          },
+          {
+            "status": "known",
+            "value": 290,
+            "raw": "290"
+          },
+          {
+            "status": "known",
+            "value": 3700,
+            "raw": "3,700"
+          },
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          },
+          {
+            "status": "known",
+            "value": 10000000,
+            "raw": "10,000,000"
+          },
+          {
+            "status": "known",
+            "value": 604800,
+            "raw": "7d",
+            "unit": "seconds",
+            "displayInput": "7,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 310,
+            "raw": "310"
+          },
+          {
+            "status": "known",
+            "value": 310,
+            "raw": "310"
+          },
+          {
+            "status": "known",
+            "value": 3900,
+            "raw": "3,900"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          },
+          {
+            "status": "known",
+            "value": 12000000,
+            "raw": "12,000,000"
+          },
+          {
+            "status": "known",
+            "value": 648000,
+            "raw": "7d 12h",
+            "unit": "seconds",
+            "displayInput": "7,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 330,
+            "raw": "330"
+          },
+          {
+            "status": "known",
+            "value": 330,
+            "raw": "330"
+          },
+          {
+            "status": "known",
+            "value": 4100,
+            "raw": "4,100"
+          },
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          },
+          {
+            "status": "known",
+            "value": 14500000,
+            "raw": "14,500,000"
+          },
+          {
+            "status": "known",
+            "value": 712800,
+            "raw": "8d 6h",
+            "unit": "seconds",
+            "displayInput": "8,6,0,0"
+          },
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": 350,
+            "raw": "350"
+          },
+          {
+            "status": "known",
+            "value": 350,
+            "raw": "350"
+          },
+          {
+            "status": "known",
+            "value": 4300,
+            "raw": "4,300"
+          },
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          },
+          {
+            "status": "known",
+            "value": 17000000,
+            "raw": "17,000,000"
+          },
+          {
+            "status": "known",
+            "value": 864000,
+            "raw": "10d",
+            "unit": "seconds",
+            "displayInput": "10,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 15,
+            "raw": "15"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": 380,
+            "raw": "380"
+          },
+          {
+            "status": "known",
+            "value": 380,
+            "raw": "380"
+          },
+          {
+            "status": "known",
+            "value": 4650,
+            "raw": "4,650"
+          },
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          },
+          {
+            "status": "known",
+            "value": 27500000,
+            "raw": "27,500,000"
+          },
+          {
+            "status": "known",
+            "value": 1339200,
+            "raw": "15d 12h",
+            "unit": "seconds",
+            "displayInput": "15,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 5,
+          "type": "cost",
+          "icon": "Elixir",
+          "gpClass": "research",
+          "noGoldPass": false
+        },
+        {
+          "column": 6,
+          "type": "time",
+          "gpClass": "research",
+          "noGoldPass": false
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "name": "Yeti_info.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/000d/Yeti_info.png",
+      "alt": "大雪怪",
+      "localPath": "/images/original/upgrade/home_tech/000d/Yeti_info.webp",
+      "logicalPath": "/upgrade/home_tech/000d/Yeti_info.png"
+    },
+    {
+      "name": "Yeti1.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/000d/Yeti1.png",
+      "alt": "1 级",
+      "localPath": "/images/original/upgrade/home_tech/000d/Yeti1.webp",
+      "logicalPath": "/upgrade/home_tech/000d/Yeti1.png"
+    },
+    {
+      "name": "Yeti2.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/000d/Yeti2.png",
+      "alt": "2 级",
+      "localPath": "/images/original/upgrade/home_tech/000d/Yeti2.webp",
+      "logicalPath": "/upgrade/home_tech/000d/Yeti2.png"
+    },
+    {
+      "name": "Yeti3.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/000d/Yeti3.png",
+      "alt": "3 - 4 级",
+      "localPath": "/images/original/upgrade/home_tech/000d/Yeti3.webp",
+      "logicalPath": "/upgrade/home_tech/000d/Yeti3.png"
+    },
+    {
+      "name": "Yeti5.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/000d/Yeti5.png",
+      "alt": "5 级",
+      "localPath": "/images/original/upgrade/home_tech/000d/Yeti5.webp",
+      "logicalPath": "/upgrade/home_tech/000d/Yeti5.png"
+    },
+    {
+      "name": "Yeti6.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/000d/Yeti6.png",
+      "alt": "6 级",
+      "localPath": "/images/original/upgrade/home_tech/000d/Yeti6.webp",
+      "logicalPath": "/upgrade/home_tech/000d/Yeti6.png"
+    },
+    {
+      "name": "Yeti7.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/000d/Yeti7.png",
+      "alt": "7 级",
+      "localPath": "/images/original/upgrade/home_tech/000d/Yeti7.webp",
+      "logicalPath": "/upgrade/home_tech/000d/Yeti7.png"
+    },
+    {
+      "name": "Yetimite_info.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/000d/Yetimite_info.png",
+      "alt": "大雪怪",
+      "localPath": "/images/original/upgrade/home_tech/000d/Yetimite_info.webp",
+      "logicalPath": "/upgrade/home_tech/000d/Yetimite_info.png"
+    },
+    {
+      "name": "Yetimite1.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/000d/Yetimite1.png",
+      "alt": "1 级",
+      "localPath": "/images/original/upgrade/home_tech/000d/Yetimite1.webp",
+      "logicalPath": "/upgrade/home_tech/000d/Yetimite1.png"
+    },
+    {
+      "name": "Yetimite2.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/000d/Yetimite2.png",
+      "alt": "2 级",
+      "localPath": "/images/original/upgrade/home_tech/000d/Yetimite2.webp",
+      "logicalPath": "/upgrade/home_tech/000d/Yetimite2.png"
+    },
+    {
+      "name": "Yetimite3.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/000d/Yetimite3.png",
+      "alt": "3 - 5 级",
+      "localPath": "/images/original/upgrade/home_tech/000d/Yetimite3.webp",
+      "logicalPath": "/upgrade/home_tech/000d/Yetimite3.png"
+    },
+    {
+      "name": "Yetimite6.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/000d/Yetimite6.png",
+      "alt": "6 级",
+      "localPath": "/images/original/upgrade/home_tech/000d/Yetimite6.webp",
+      "logicalPath": "/upgrade/home_tech/000d/Yetimite6.png"
+    },
+    {
+      "name": "Yetimite7.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/000d/Yetimite7.png",
+      "alt": "7 级",
+      "localPath": "/images/original/upgrade/home_tech/000d/Yetimite7.webp",
+      "logicalPath": "/upgrade/home_tech/000d/Yetimite7.png"
+    },
+    {
+      "name": "Yeti8.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/d/d8/Yeti8.png/revision/latest/scale-to-width-down/105?cb=20260708051439",
+      "alt": "Yeti8",
+      "localPath": "/images/wiki/000d-Yeti/c52c5b4718-Yeti8.png",
+      "logicalPath": "/upgrade/home_tech/000d/Yeti8.png"
+    }
+  ],
+  "history": [],
+  "facts": [
+    "The Yeti is the fourteenth Elixir Troop unlocked once the Barracks is upgraded to level 14, which requires Town Hall level 12. He is a slow-moving, single-target damaging Troop.",
+    "Yetis possess above-average health and attack compared to most damage units. When deployed, they carry a set amount of Yetimites; for every 600 damage he takes, a Yeti spawns a Yetimite, if he still has any remaining. Once destroyed, a Yeti releases any remaining Yetimites he still has."
+  ],
+  "notices": []
+}

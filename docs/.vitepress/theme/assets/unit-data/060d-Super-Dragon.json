@@ -1,0 +1,465 @@
+{
+  "unitId": "060d-Super-Dragon",
+  "title": "超级飞龙",
+  "originalName": "Super Dragon",
+  "module": "upgrade-home",
+  "imgFolder": "home_tech/060d",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Super_Dragon",
+    "revision": 613580,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Super_Dragon?oldid=613580",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 1,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Preferred Target",
+        "Attack Type",
+        "Housing Space",
+        "Movement Speed",
+        "Time Between Shots",
+        "Time Between Bursts",
+        "Shots per Burst",
+        "Range",
+        "Special Ability"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "Any",
+            "raw": "Any"
+          },
+          {
+            "status": "known",
+            "value": "Area Splash",
+            "raw": "Area Splash"
+          },
+          {
+            "status": "known",
+            "value": 40,
+            "raw": "40"
+          },
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          },
+          {
+            "status": "known",
+            "value": "0.192s",
+            "raw": "0.192s"
+          },
+          {
+            "status": "known",
+            "value": "1.8s",
+            "raw": "1.8s"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": "3 tiles",
+            "raw": "3 tiles"
+          },
+          {
+            "status": "known",
+            "value": "Roast",
+            "raw": "Roast"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 2,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Boost Cost",
+        "Boost Duration",
+        "Dragon Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 25000,
+            "raw": "25,000"
+          },
+          {
+            "status": "known",
+            "value": "3d",
+            "raw": "3d"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 0,
+          "type": "cost",
+          "icon": "Dark_Elixir",
+          "gpClass": "research",
+          "noGoldPass": true
+        }
+      ]
+    },
+    {
+      "sourceTableIndex": 3,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Level",
+        "Damage per Second",
+        "Damage per Attack",
+        "Hitpoints",
+        "Town Hall Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 300,
+            "raw": "300"
+          },
+          {
+            "status": "known",
+            "value": 108,
+            "raw": "108"
+          },
+          {
+            "status": "known",
+            "value": 3900,
+            "raw": "3,900"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 325,
+            "raw": "325"
+          },
+          {
+            "status": "known",
+            "value": 117,
+            "raw": "117"
+          },
+          {
+            "status": "known",
+            "value": 4500,
+            "raw": "4,500"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 351,
+            "raw": "351"
+          },
+          {
+            "status": "known",
+            "value": 126,
+            "raw": "126"
+          },
+          {
+            "status": "known",
+            "value": 5100,
+            "raw": "5,100"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 376,
+            "raw": "376"
+          },
+          {
+            "status": "known",
+            "value": 135,
+            "raw": "135"
+          },
+          {
+            "status": "known",
+            "value": 5600,
+            "raw": "5,600"
+          },
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": 401,
+            "raw": "401"
+          },
+          {
+            "status": "known",
+            "value": 144.07,
+            "raw": "144.07"
+          },
+          {
+            "status": "known",
+            "value": 6100,
+            "raw": "6,100"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": 426,
+            "raw": "426"
+          },
+          {
+            "status": "known",
+            "value": 153.03,
+            "raw": "153.03"
+          },
+          {
+            "status": "known",
+            "value": 6400,
+            "raw": "6,400"
+          },
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          },
+          {
+            "status": "known",
+            "value": 451,
+            "raw": "451"
+          },
+          {
+            "status": "known",
+            "value": 161.99,
+            "raw": "161.99"
+          },
+          {
+            "status": "known",
+            "value": 6700,
+            "raw": "6,700"
+          },
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 476,
+            "raw": "476"
+          },
+          {
+            "status": "known",
+            "value": 170.95,
+            "raw": "170.95"
+          },
+          {
+            "status": "known",
+            "value": 7200,
+            "raw": "7,200"
+          },
+          {
+            "status": "known",
+            "value": 15,
+            "raw": "15"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          },
+          {
+            "status": "known",
+            "value": 496,
+            "raw": "496"
+          },
+          {
+            "status": "known",
+            "value": 178.12,
+            "raw": "178.12"
+          },
+          {
+            "status": "known",
+            "value": 7600,
+            "raw": "7,600"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          },
+          {
+            "status": "known",
+            "value": 516,
+            "raw": "516"
+          },
+          {
+            "status": "known",
+            "value": 185.29,
+            "raw": "185.29"
+          },
+          {
+            "status": "known",
+            "value": 8000,
+            "raw": "8,000"
+          },
+          {
+            "status": "known",
+            "value": 17,
+            "raw": "17"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          },
+          {
+            "status": "known",
+            "value": 536,
+            "raw": "536"
+          },
+          {
+            "status": "known",
+            "value": 192.46,
+            "raw": "192.46"
+          },
+          {
+            "status": "known",
+            "value": 8400,
+            "raw": "8,400"
+          },
+          {
+            "status": "known",
+            "value": 18,
+            "raw": "18"
+          }
+        ]
+      ],
+      "extraInfo": []
+    }
+  ],
+  "images": [
+    {
+      "name": "Super_Dragon_info.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/060d/Super_Dragon_info.png",
+      "alt": "超级飞龙",
+      "localPath": "/images/original/upgrade/home_tech/060d/Super_Dragon_info.webp",
+      "logicalPath": "/upgrade/home_tech/060d/Super_Dragon_info.png"
+    },
+    {
+      "name": "Super_Dragon7.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/060d/Super_Dragon7.png",
+      "alt": "所有等级",
+      "localPath": "/images/original/upgrade/home_tech/060d/Super_Dragon7.webp",
+      "logicalPath": "/upgrade/home_tech/060d/Super_Dragon7.png"
+    },
+    {
+      "name": "Super_Dragon_info_2.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/b/bf/Super_Dragon_info_2.png/revision/latest/scale-to-width-down/185?cb=20260102220832",
+      "alt": "",
+      "localPath": "/images/wiki/060d-Super-Dragon/fc8970b789-Super_Dragon_info_2.png",
+      "logicalPath": "/upgrade/home_tech/060d/Super_Dragon_info_2.png"
+    }
+  ],
+  "history": [],
+  "facts": [
+    "The Super Dragon is a Super Troop based on the Dragon. It can be unlocked by boosting the Dragon when the Dragon is at least level 7.",
+    "Boosting the Dragon requires 25,000 Dark Elixir or a Super Potion, and doing so allows the Dragon to be boosted for 3 days. The level of Super Dragon you obtain from the boost corresponds to the level of Dragon you have.",
+    "Because of the level requirement, players require Town Hall 12 in order to boost Dragons into Super Dragons. However, players require a level 8 Clan Castle or greater in order to get donated one, meaning not many people can get one.",
+    "The Super Dragon is the subject of the Super Dragon Spotlight event, where he can be boosted for free for the duration of the event. Additionally, he is available at lower levels below his normal minimum level, so that the event is accessible to players as low as Town Hall level 8."
+  ],
+  "notices": []
+}

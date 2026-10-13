@@ -1,0 +1,953 @@
+{
+  "unitId": "2200-Walls",
+  "title": "城墙",
+  "originalName": "Wall/Clan Capital",
+  "module": "upgrade-capital",
+  "imgFolder": "capital_buildings/2200",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Wall/Clan_Capital",
+    "revision": 624174,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Wall/Clan_Capital?oldid=624174",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 2,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Capital Hall Level",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "Number Available",
+            "raw": "Number Available"
+          },
+          {
+            "status": "known",
+            "value": 80,
+            "raw": "80"
+          },
+          {
+            "status": "known",
+            "value": 120,
+            "raw": "120"
+          },
+          {
+            "status": "known",
+            "value": 160,
+            "raw": "160"
+          },
+          {
+            "status": "known",
+            "value": 180,
+            "raw": "180"
+          },
+          {
+            "status": "known",
+            "value": 200,
+            "raw": "200"
+          },
+          {
+            "status": "known",
+            "value": 220,
+            "raw": "220"
+          },
+          {
+            "status": "known",
+            "value": 240,
+            "raw": "240"
+          },
+          {
+            "status": "known",
+            "value": 260,
+            "raw": "260"
+          },
+          {
+            "status": "known",
+            "value": 280,
+            "raw": "280"
+          },
+          {
+            "status": "known",
+            "value": 280,
+            "raw": "280"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 3,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Size"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "1x1",
+            "raw": "1x1"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 4,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Number Available",
+        "District Hall Level / 1",
+        "District Hall Level / 2",
+        "District Hall Level / 3",
+        "District Hall Level / 4",
+        "District Hall Level / 5"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "Barbarian Camp",
+            "raw": "Barbarian Camp"
+          },
+          {
+            "status": "known",
+            "value": 50,
+            "raw": "50"
+          },
+          {
+            "status": "known",
+            "value": 100,
+            "raw": "100"
+          },
+          {
+            "status": "known",
+            "value": 140,
+            "raw": "140"
+          },
+          {
+            "status": "known",
+            "value": 180,
+            "raw": "180"
+          },
+          {
+            "status": "known",
+            "value": 200,
+            "raw": "200"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": "Wizard Valley",
+            "raw": "Wizard Valley"
+          },
+          {
+            "status": "known",
+            "value": 80,
+            "raw": "80"
+          },
+          {
+            "status": "known",
+            "value": 120,
+            "raw": "120"
+          },
+          {
+            "status": "known",
+            "value": 140,
+            "raw": "140"
+          },
+          {
+            "status": "known",
+            "value": 160,
+            "raw": "160"
+          },
+          {
+            "status": "known",
+            "value": 180,
+            "raw": "180"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": "Balloon Lagoon",
+            "raw": "Balloon Lagoon"
+          },
+          {
+            "status": "known",
+            "value": 60,
+            "raw": "60"
+          },
+          {
+            "status": "known",
+            "value": 80,
+            "raw": "80"
+          },
+          {
+            "status": "known",
+            "value": 100,
+            "raw": "100"
+          },
+          {
+            "status": "known",
+            "value": 120,
+            "raw": "120"
+          },
+          {
+            "status": "known",
+            "value": 120,
+            "raw": "120"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": "Builder's Workshop",
+            "raw": "Builder's Workshop"
+          },
+          {
+            "status": "known",
+            "value": 100,
+            "raw": "100"
+          },
+          {
+            "status": "known",
+            "value": 120,
+            "raw": "120"
+          },
+          {
+            "status": "known",
+            "value": 140,
+            "raw": "140"
+          },
+          {
+            "status": "known",
+            "value": 160,
+            "raw": "160"
+          },
+          {
+            "status": "known",
+            "value": 180,
+            "raw": "180"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": "Dragon Cliffs",
+            "raw": "Dragon Cliffs"
+          },
+          {
+            "status": "known",
+            "value": 80,
+            "raw": "80"
+          },
+          {
+            "status": "known",
+            "value": 100,
+            "raw": "100"
+          },
+          {
+            "status": "known",
+            "value": 120,
+            "raw": "120"
+          },
+          {
+            "status": "known",
+            "value": 140,
+            "raw": "140"
+          },
+          {
+            "status": "known",
+            "value": 140,
+            "raw": "140"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": "Golem Quarry",
+            "raw": "Golem Quarry"
+          },
+          {
+            "status": "known",
+            "value": 60,
+            "raw": "60"
+          },
+          {
+            "status": "known",
+            "value": 100,
+            "raw": "100"
+          },
+          {
+            "status": "known",
+            "value": 120,
+            "raw": "120"
+          },
+          {
+            "status": "known",
+            "value": 140,
+            "raw": "140"
+          },
+          {
+            "status": "known",
+            "value": 160,
+            "raw": "160"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": "Skeleton Park",
+            "raw": "Skeleton Park"
+          },
+          {
+            "status": "known",
+            "value": 80,
+            "raw": "80"
+          },
+          {
+            "status": "known",
+            "value": 80,
+            "raw": "80"
+          },
+          {
+            "status": "known",
+            "value": 80,
+            "raw": "80"
+          },
+          {
+            "status": "known",
+            "value": 100,
+            "raw": "100"
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": "Goblin Mines",
+            "raw": "Goblin Mines"
+          },
+          {
+            "status": "known",
+            "value": 30,
+            "raw": "30"
+          },
+          {
+            "status": "known",
+            "value": 60,
+            "raw": "60"
+          },
+          {
+            "status": "known",
+            "value": 80,
+            "raw": "80"
+          },
+          {
+            "status": "known",
+            "value": 100,
+            "raw": "100"
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 5,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Level",
+        "Hitpoints",
+        "Build Cost",
+        "Cumulative Build Cost",
+        "Capital Hall Level Required",
+        "District Hall Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 5000,
+            "raw": "5,000"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 6500,
+            "raw": "6,500"
+          },
+          {
+            "status": "known",
+            "value": 500,
+            "raw": "500"
+          },
+          {
+            "status": "known",
+            "value": 500,
+            "raw": "500"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 8000,
+            "raw": "8,000"
+          },
+          {
+            "status": "known",
+            "value": 1500,
+            "raw": "1,500"
+          },
+          {
+            "status": "known",
+            "value": 2000,
+            "raw": "2,000"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 9500,
+            "raw": "9,500"
+          },
+          {
+            "status": "known",
+            "value": 3500,
+            "raw": "3,500"
+          },
+          {
+            "status": "known",
+            "value": 5500,
+            "raw": "5,500"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 11000,
+            "raw": "11,000"
+          },
+          {
+            "status": "known",
+            "value": 6000,
+            "raw": "6,000"
+          },
+          {
+            "status": "known",
+            "value": 11500,
+            "raw": "11,500"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 2,
+          "type": "cost",
+          "icon": "Gold3",
+          "gpClass": "building",
+          "noGoldPass": true
+        },
+        {
+          "column": 3,
+          "type": "cost",
+          "icon": "Gold3",
+          "gpClass": "building",
+          "noGoldPass": true
+        }
+      ]
+    },
+    {
+      "sourceTableIndex": 6,
+      "section": "Statistics",
+      "title": "Cost of Upgrading Walls in a District",
+      "headers": [
+        "Level",
+        "Build Cost / Capital Peak",
+        "Build Cost / Barbarian Camp",
+        "Build Cost / Wizard Valley",
+        "Build Cost / Balloon Lagoon",
+        "Build Cost / Builder's Workshop",
+        "Build Cost / Dragon Cliffs",
+        "Build Cost / Golem Quarry",
+        "Build Cost / Skeleton Park",
+        "Build Cost / Goblin Mines"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 140000,
+            "raw": "140,000"
+          },
+          {
+            "status": "known",
+            "value": 100000,
+            "raw": "100,000"
+          },
+          {
+            "status": "known",
+            "value": 90000,
+            "raw": "90,000"
+          },
+          {
+            "status": "known",
+            "value": 60000,
+            "raw": "60,000"
+          },
+          {
+            "status": "known",
+            "value": 90000,
+            "raw": "90,000"
+          },
+          {
+            "status": "known",
+            "value": 70000,
+            "raw": "70,000"
+          },
+          {
+            "status": "known",
+            "value": 80000,
+            "raw": "80,000"
+          },
+          {
+            "status": "known",
+            "value": 50000,
+            "raw": "50,000"
+          },
+          {
+            "status": "known",
+            "value": 50000,
+            "raw": "50,000"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 420000,
+            "raw": "420,000"
+          },
+          {
+            "status": "known",
+            "value": 300000,
+            "raw": "300,000"
+          },
+          {
+            "status": "known",
+            "value": 270000,
+            "raw": "270,000"
+          },
+          {
+            "status": "known",
+            "value": 180000,
+            "raw": "180,000"
+          },
+          {
+            "status": "known",
+            "value": 270000,
+            "raw": "270,000"
+          },
+          {
+            "status": "known",
+            "value": 210000,
+            "raw": "210,000"
+          },
+          {
+            "status": "known",
+            "value": 240000,
+            "raw": "240,000"
+          },
+          {
+            "status": "known",
+            "value": 150000,
+            "raw": "150,000"
+          },
+          {
+            "status": "known",
+            "value": 150000,
+            "raw": "150,000"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 980000,
+            "raw": "980,000"
+          },
+          {
+            "status": "known",
+            "value": 700000,
+            "raw": "700,000"
+          },
+          {
+            "status": "known",
+            "value": 630000,
+            "raw": "630,000"
+          },
+          {
+            "status": "known",
+            "value": 420000,
+            "raw": "420,000"
+          },
+          {
+            "status": "known",
+            "value": 630000,
+            "raw": "630,000"
+          },
+          {
+            "status": "known",
+            "value": 490000,
+            "raw": "490,000"
+          },
+          {
+            "status": "known",
+            "value": 560000,
+            "raw": "560,000"
+          },
+          {
+            "status": "known",
+            "value": 350000,
+            "raw": "350,000"
+          },
+          {
+            "status": "known",
+            "value": 350000,
+            "raw": "350,000"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 1680000,
+            "raw": "1,680,000"
+          },
+          {
+            "status": "known",
+            "value": 1200000,
+            "raw": "1,200,000"
+          },
+          {
+            "status": "known",
+            "value": 1080000,
+            "raw": "1,080,000"
+          },
+          {
+            "status": "known",
+            "value": 720000,
+            "raw": "720,000"
+          },
+          {
+            "status": "known",
+            "value": 1080000,
+            "raw": "1,080,000"
+          },
+          {
+            "status": "known",
+            "value": 840000,
+            "raw": "840,000"
+          },
+          {
+            "status": "known",
+            "value": 960000,
+            "raw": "960,000"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 1,
+          "type": "cost",
+          "icon": "Gold3",
+          "gpClass": "building",
+          "noGoldPass": true
+        },
+        {
+          "column": 2,
+          "type": "cost",
+          "icon": "Gold3",
+          "gpClass": "building",
+          "noGoldPass": true
+        },
+        {
+          "column": 3,
+          "type": "cost",
+          "icon": "Gold3",
+          "gpClass": "building",
+          "noGoldPass": true
+        },
+        {
+          "column": 4,
+          "type": "cost",
+          "icon": "Gold3",
+          "gpClass": "building",
+          "noGoldPass": true
+        },
+        {
+          "column": 5,
+          "type": "cost",
+          "icon": "Gold3",
+          "gpClass": "building",
+          "noGoldPass": true
+        },
+        {
+          "column": 6,
+          "type": "cost",
+          "icon": "Gold3",
+          "gpClass": "building",
+          "noGoldPass": true
+        },
+        {
+          "column": 7,
+          "type": "cost",
+          "icon": "Gold3",
+          "gpClass": "building",
+          "noGoldPass": true
+        },
+        {
+          "column": 8,
+          "type": "cost",
+          "icon": "Gold3",
+          "gpClass": "building",
+          "noGoldPass": true
+        },
+        {
+          "column": 9,
+          "type": "cost",
+          "icon": "Gold3",
+          "gpClass": "building",
+          "noGoldPass": true
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "name": "Wall5.png",
+      "url": "https://static.clashpost.com/upgrade/capital_buildings/2200/Wall5.png",
+      "alt": "城墙",
+      "localPath": "/images/original/upgrade/capital_buildings/2200/Wall5.webp",
+      "logicalPath": "/upgrade/capital_buildings/2200/Wall5.png"
+    },
+    {
+      "name": "Wall_Ruin.png",
+      "url": "https://static.clashpost.com/upgrade/capital_buildings/2200/Wall_Ruin.png",
+      "alt": "废墟",
+      "localPath": "/images/original/upgrade/capital_buildings/2200/Wall_Ruin.webp",
+      "logicalPath": "/upgrade/capital_buildings/2200/Wall_Ruin.png"
+    },
+    {
+      "name": "Wall1.png",
+      "url": "https://static.clashpost.com/upgrade/capital_buildings/2200/Wall1.png",
+      "alt": "1 级",
+      "localPath": "/images/original/upgrade/capital_buildings/2200/Wall1.webp",
+      "logicalPath": "/upgrade/capital_buildings/2200/Wall1.png"
+    },
+    {
+      "name": "Wall2.png",
+      "url": "https://static.clashpost.com/upgrade/capital_buildings/2200/Wall2.png",
+      "alt": "2 级",
+      "localPath": "/images/original/upgrade/capital_buildings/2200/Wall2.webp",
+      "logicalPath": "/upgrade/capital_buildings/2200/Wall2.png"
+    },
+    {
+      "name": "Wall3.png",
+      "url": "https://static.clashpost.com/upgrade/capital_buildings/2200/Wall3.png",
+      "alt": "3 级",
+      "localPath": "/images/original/upgrade/capital_buildings/2200/Wall3.webp",
+      "logicalPath": "/upgrade/capital_buildings/2200/Wall3.png"
+    },
+    {
+      "name": "Wall4.png",
+      "url": "https://static.clashpost.com/upgrade/capital_buildings/2200/Wall4.png",
+      "alt": "4 级",
+      "localPath": "/images/original/upgrade/capital_buildings/2200/Wall4.webp",
+      "logicalPath": "/upgrade/capital_buildings/2200/Wall4.png"
+    },
+    {
+      "name": "Wall1_Corner.png",
+      "url": "https://static.clashpost.com/upgrade/capital_buildings/2200/Wall1_Corner.png",
+      "alt": "1 级",
+      "localPath": "/images/original/upgrade/capital_buildings/2200/Wall1_Corner.webp",
+      "logicalPath": "/upgrade/capital_buildings/2200/Wall1_Corner.png"
+    },
+    {
+      "name": "Wall2_Corner.png",
+      "url": "https://static.clashpost.com/upgrade/capital_buildings/2200/Wall2_Corner.png",
+      "alt": "2 级",
+      "localPath": "/images/original/upgrade/capital_buildings/2200/Wall2_Corner.webp",
+      "logicalPath": "/upgrade/capital_buildings/2200/Wall2_Corner.png"
+    },
+    {
+      "name": "Wall3_Corner.png",
+      "url": "https://static.clashpost.com/upgrade/capital_buildings/2200/Wall3_Corner.png",
+      "alt": "3 级",
+      "localPath": "/images/original/upgrade/capital_buildings/2200/Wall3_Corner.webp",
+      "logicalPath": "/upgrade/capital_buildings/2200/Wall3_Corner.png"
+    },
+    {
+      "name": "Wall4_Corner.png",
+      "url": "https://static.clashpost.com/upgrade/capital_buildings/2200/Wall4_Corner.png",
+      "alt": "4 级",
+      "localPath": "/images/original/upgrade/capital_buildings/2200/Wall4_Corner.webp",
+      "logicalPath": "/upgrade/capital_buildings/2200/Wall4_Corner.png"
+    },
+    {
+      "name": "Wall5_Corner.png",
+      "url": "https://static.clashpost.com/upgrade/capital_buildings/2200/Wall5_Corner.png",
+      "alt": "5 级",
+      "localPath": "/images/original/upgrade/capital_buildings/2200/Wall5_Corner.webp",
+      "logicalPath": "/upgrade/capital_buildings/2200/Wall5_Corner.png"
+    }
+  ],
+  "history": [],
+  "facts": [
+    "Walls shouldn't be your first priority as there is a fixed increase in hitpoints but an increase in cost. A level 3 wall should be sufficient to slow defenders."
+  ],
+  "notices": []
+}

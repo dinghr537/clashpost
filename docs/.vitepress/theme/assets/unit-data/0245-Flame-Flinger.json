@@ -1,0 +1,410 @@
+{
+  "unitId": "0245-Flame-Flinger",
+  "title": "攻城烈焰车",
+  "originalName": "Flame Flinger",
+  "module": "upgrade-home",
+  "imgFolder": "home_tech/0245",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Flame_Flinger",
+    "revision": 624810,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Flame_Flinger?oldid=624810",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 2,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Preferred Target",
+        "Attack Type",
+        "Range",
+        "Housing Space",
+        "Movement Speed",
+        "Time between Bursts",
+        "Shots per Burst",
+        "HP Decay per Second",
+        "Workshop Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "Defenses",
+            "raw": "Defenses"
+          },
+          {
+            "status": "known",
+            "value": "Area Splash (Ground Only)",
+            "raw": "Area Splash (Ground Only)"
+          },
+          {
+            "status": "known",
+            "value": "11 tiles",
+            "raw": "11 tiles"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": "5s",
+            "raw": "5s"
+          },
+          {
+            "status": "known",
+            "value": "3 shots",
+            "raw": "3 shots"
+          },
+          {
+            "status": "known",
+            "value": 17,
+            "raw": "17"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 3,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Level",
+        "Damage per Second",
+        "Damage per Hit",
+        "Flame Maximum DPS",
+        "Lifetime",
+        "Hitpoints",
+        "Research Cost",
+        "Research Time",
+        "Laboratory Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 124,
+            "raw": "124"
+          },
+          {
+            "status": "known",
+            "value": 225,
+            "raw": "225"
+          },
+          {
+            "status": "known",
+            "value": 80,
+            "raw": "80"
+          },
+          {
+            "status": "known",
+            "value": "100.00s",
+            "raw": "100.00s"
+          },
+          {
+            "status": "known",
+            "value": 1700,
+            "raw": "1,700"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 137,
+            "raw": "137"
+          },
+          {
+            "status": "known",
+            "value": 250,
+            "raw": "250"
+          },
+          {
+            "status": "known",
+            "value": 95,
+            "raw": "95"
+          },
+          {
+            "status": "known",
+            "value": "105.88s",
+            "raw": "105.88s"
+          },
+          {
+            "status": "known",
+            "value": 1800,
+            "raw": "1,800"
+          },
+          {
+            "status": "known",
+            "value": 5500000,
+            "raw": "5,500,000"
+          },
+          {
+            "status": "known",
+            "value": 259200,
+            "raw": "3d",
+            "unit": "seconds",
+            "displayInput": "3,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 151,
+            "raw": "151"
+          },
+          {
+            "status": "known",
+            "value": 275,
+            "raw": "275"
+          },
+          {
+            "status": "known",
+            "value": 105,
+            "raw": "105"
+          },
+          {
+            "status": "known",
+            "value": "111.76s",
+            "raw": "111.76s"
+          },
+          {
+            "status": "known",
+            "value": 1900,
+            "raw": "1,900"
+          },
+          {
+            "status": "known",
+            "value": 8000000,
+            "raw": "8,000,000"
+          },
+          {
+            "status": "known",
+            "value": 345600,
+            "raw": "4d",
+            "unit": "seconds",
+            "displayInput": "4,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 165,
+            "raw": "165"
+          },
+          {
+            "status": "known",
+            "value": 300,
+            "raw": "300"
+          },
+          {
+            "status": "known",
+            "value": 120,
+            "raw": "120"
+          },
+          {
+            "status": "known",
+            "value": "117.64s",
+            "raw": "117.64s"
+          },
+          {
+            "status": "known",
+            "value": 2000,
+            "raw": "2,000"
+          },
+          {
+            "status": "known",
+            "value": 10000000,
+            "raw": "10,000,000"
+          },
+          {
+            "status": "known",
+            "value": 604800,
+            "raw": "7d",
+            "unit": "seconds",
+            "displayInput": "7,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 179,
+            "raw": "179"
+          },
+          {
+            "status": "known",
+            "value": 325,
+            "raw": "325"
+          },
+          {
+            "status": "known",
+            "value": 130,
+            "raw": "130"
+          },
+          {
+            "status": "known",
+            "value": "123.52s",
+            "raw": "123.52s"
+          },
+          {
+            "status": "known",
+            "value": 2100,
+            "raw": "2,100"
+          },
+          {
+            "status": "known",
+            "value": 18000000,
+            "raw": "18,000,000"
+          },
+          {
+            "status": "known",
+            "value": 1036800,
+            "raw": "12d",
+            "unit": "seconds",
+            "displayInput": "12,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 6,
+          "type": "cost",
+          "icon": "Elixir",
+          "gpClass": "research",
+          "noGoldPass": false
+        },
+        {
+          "column": 7,
+          "type": "time",
+          "gpClass": "research",
+          "noGoldPass": false
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "name": "Flame_Flinger.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0245/Flame_Flinger.png",
+      "alt": "攻城烈焰车",
+      "localPath": "/images/original/upgrade/home_tech/0245/Flame_Flinger.webp",
+      "logicalPath": "/upgrade/home_tech/0245/Flame_Flinger.png"
+    },
+    {
+      "name": "Flame_Flinger1.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0245/Flame_Flinger1.png",
+      "alt": "1 级",
+      "localPath": "/images/original/upgrade/home_tech/0245/Flame_Flinger1.webp",
+      "logicalPath": "/upgrade/home_tech/0245/Flame_Flinger1.png"
+    },
+    {
+      "name": "Flame_Flinger2.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0245/Flame_Flinger2.png",
+      "alt": "2 级",
+      "localPath": "/images/original/upgrade/home_tech/0245/Flame_Flinger2.webp",
+      "logicalPath": "/upgrade/home_tech/0245/Flame_Flinger2.png"
+    },
+    {
+      "name": "Flame_Flinger3.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0245/Flame_Flinger3.png",
+      "alt": "3 级",
+      "localPath": "/images/original/upgrade/home_tech/0245/Flame_Flinger3.webp",
+      "logicalPath": "/upgrade/home_tech/0245/Flame_Flinger3.png"
+    },
+    {
+      "name": "Flame_Flinger4.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0245/Flame_Flinger4.png",
+      "alt": "4 级",
+      "localPath": "/images/original/upgrade/home_tech/0245/Flame_Flinger4.webp",
+      "logicalPath": "/upgrade/home_tech/0245/Flame_Flinger4.png"
+    },
+    {
+      "name": "Flame_Flinger5.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0245/Flame_Flinger5.png",
+      "alt": "5 级",
+      "localPath": "/images/original/upgrade/home_tech/0245/Flame_Flinger5.webp",
+      "logicalPath": "/upgrade/home_tech/0245/Flame_Flinger5.png"
+    }
+  ],
+  "history": [],
+  "facts": [
+    "The Flame Flinger is the sixth Siege Machine unlocked at Workshop level 6, which requires Town Hall level 14.",
+    "The Flame Flinger requires a level 8 Clan Castle in order to be received as a Clan Castle reinforcement. This means that the usage of the Flame Flinger is only limited to players at Town Hall 12 and above."
+  ],
+  "notices": []
+}

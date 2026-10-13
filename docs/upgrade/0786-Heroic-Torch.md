@@ -2,106 +2,16 @@
 title: "部落冲突 coc 英雄火炬装备升级数据"
 navTitle: "英雄火炬"
 shownTitle: "英雄火炬"
-description: "英雄火炬是大守护者的第三件史诗装备，它在 2025 年 8 月的水花大赛活动中首次开放购买。2. 技能持续期间，英雄火炬能为光环内的单位提供弹跳法术的效果，同时提升单位的移动速度，减少他们受到的伤害。"
 module: upgrade-home
 imgFolder: home_heroes/0786
 wiki: https://clashofclans.fandom.com/wiki/Heroic_Torch
 canonical: /upgrade/0786-Heroic-Torch
+dataSyncedOn: 2026-10-13
 ---
 
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Heroic_Torch.png" :imgAlt="$frontmatter.navTitle" description="激发附近部队的斗志，让他们能够穿过城墙、加速移动，并降低所受伤害" :isSmallImg="true" />
-
-<SmallTitle>说明</SmallTitle>
-
-1. 英雄火炬是 [大守护者](/upgrade/0202-Grand-Warden) 的第三件史诗装备，它在 2025 年 8 月的水花大赛活动中首次开放购买。
-2. 技能持续期间，英雄火炬能为光环内的单位提供弹跳法术的效果，同时提升单位的移动速度，减少他们受到的伤害。
-    - 英雄火炬对攻城机器无效。
-    - 大守护者自身可以享受到英雄火炬的加成效果。
-    - 其他英雄只能获得一半的加速效果，但其他效果不受影响。
-3. 和 [永恒书卷](/upgrade/0780-Eternal-Tome) 类似，弹跳、减伤等效果只对光环内的单位有效，离开光环 1 秒后的部队就会失去英雄火炬的效果。在技能生效期间，进入光环或在光环内生成的单位亦可获得英雄火炬的效果。
-4. 此外，英雄火炬可以提高大守护者的生命值和每秒伤害属性，以及增加开启技能时恢复的生命值。
-5. 关于英雄火炬的减伤效果能否和 [冰障法术](/upgrade/0780-Eternal-Tome)、[永恒书卷](/upgrade/0780-Eternal-Tome) 叠加的问题，目前没有人测试，根据我们多年的经验，大概率是不能直接叠加，取效果最强的那个。
-
-<SmallTitle>属性</SmallTitle>
-
-<UnitProperties>
-    <UnitProperty pKey="技能类型" pValue="主动技能" />
-    <UnitProperty pKey="装备稀有度" pValue="史诗" />
-</UnitProperties>
-
-<SmallTitle>升级数据</SmallTitle>
-
 <script setup>
-const tableExtraInfo = [
-    {
-        "column": 7,
-        "type": "cost",
-        "icon": "Shiny_Ore",
-        "noGoldPass": true
-    },
-    {
-        "column": 8,
-        "type": "cost",
-        "icon": "Glowy_Ore",
-        "noGoldPass": true
-    },
-    {
-        "column": 9,
-        "type": "cost",
-        "icon": "Starry_Ore",
-        "noGoldPass": true
-    }
-];
+import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
+import unitData from "@/assets/unit-data/0786-Heroic-Torch.json";
 </script>
 
-<UnitTable :tableExtraInfo="tableExtraInfo">
-
-| 等级 |技能<br>持续时间|速度提高|减伤比例|英雄<br>回血增加|英雄每秒<br>伤害增加|英雄<br>生命值增加|升级费用|升级费用|升级费用|所需<br>铁匠铺等级|所需<br>大本等级|
-| ---- |     ---      |  ---   |  ---  |      ---      |        ---       |        ---      |  ---  |  ---  |   ---  |       ---       |       ---      |
-|   1  |     16 秒    |    5   |   6%  |      110      |        12        |        35       |   \   |   \   |   \    |         1       |       11       |
-|   2  |     16 秒    |    5   |   6%  |      120      |        13        |        40       |   120 |   -   |    -   |         1       |       11       |
-|   3  |     17 秒    |    6   |   7%  |      130      |        14        |        42       |   240 |   20  |    -   |         1       |       11       |
-|   4  |     17 秒    |    6   |   7%  |      140      |        16        |        45       |   400 |   -   |    -   |         1       |       11       |
-|   5  |     17 秒    |    6   |   7%  |      150      |        18        |        50       |   600 |   -   |    -   |         1       |       11       |
-|   6  |     18 秒    |    6   |   8%  |      160      |        20        |        52       |   840 |  100  |    -   |         1       |       11       |
-|   7  |     18 秒    |    6   |   8%  |      170      |        22        |        55       |  1120 |   -   |    -   |         1       |       11       |
-|   8  |     18 秒    |    6   |   8%  |      180      |        24        |        60       |  1440 |   -   |    -   |         1       |       11       |
-|   9  |     19 秒    |    7   |   9%  |      190      |        27        |        63       |  1800 |  200  |    10  |         1       |       11       |
-|  10  |     19 秒    |    7   |   9%  |      200      |        29        |        66       |  1900 |   -   |    -   |         1       |       11       |
-|  11  |     19 秒    |    7   |   9%  |      210      |        31        |        71       |  2000 |   -   |    -   |         1       |       11       |
-|  12  |     21 秒    |    7   |  10%  |      220      |        34        |        74       |  2100 |  400  |    20  |         1       |       11       |
-|  13  |     21 秒    |    7   |  10%  |      230      |        36        |        77       |  2200 |   -   |    -   |         3       |       11       |
-|  14  |     21 秒    |    7   |  10%  |      240      |        38        |        82       |  2300 |   -   |    -   |         3       |       11       |
-|  15  |     23 秒    |    7   |  11%  |      250      |        41        |        85       |  2400 |  600  |    30  |         3       |       11       |
-|  16  |     23 秒    |    7   |  11%  |      260      |        43        |        88       |  2500 |   -   |    -   |         5       |       12       |
-|  17  |     23 秒    |    7   |  11%  |      270      |        45        |        93       |  2600 |   -   |    -   |         5       |       12       |
-|  18  |     24 秒    |    8   |  12%  |      285      |        48        |        96       |  2700 |  600  |    50  |         5       |       12       |
-|  19  |     24 秒    |    8   |  12%  |      295      |        51        |        99       |  2800 |   -   |    -   |         7       |       14       |
-|  20  |     24 秒    |    8   |  12%  |      305      |        54        |       104       |  2900 |   -   |    -   |         7       |       14       |
-|  21  |     25 秒    |    8   |  13%  |      320      |        58        |       107       |  3000 |  600  |   100  |         7       |       14       |
-|  22  |     25 秒    |    8   |  13%  |      330      |        61        |       110       |  3100 |   -   |    -   |         8       |       15       |
-|  23  |     25 秒    |    8   |  13%  |      340      |        64        |       115       |  3200 |   -   |    -   |         8       |       15       |
-|  24  |     26 秒    |    8   |  14%  |      355      |        68        |       118       |  3300 |  600  |   120  |         8       |       15       |
-|  25  |     26 秒    |    8   |  14%  |      365      |        71        |       121       |  3400 |   -   |    -   |         9       |       16       |
-|  26  |     26 秒    |    8   |  14%  |      375      |        74        |       126       |  3500 |   -   |    -   |         9       |       16       |
-|  27  |   27.5 秒    |    9   |  15%  |      390      |        78        |       137       |  3600 |  600  |   150  |         9       |       16       |
-</UnitTable>
-
-注意：
-1. 上表的 8 点移动速度代表 1 格/秒。
-2. 如果升级费用中有多种资源，则同时需要多种资源才能升级。
-
-<SmallTitle>更新历史</SmallTitle>
-
-<Timeline>
-    <TimelineItem date="2026/01/12">
-        <TimelineRow>1 ~ 27 级英雄火炬的持续时间、减伤比例、英雄回血增加值、英雄每秒伤害增加值、英雄生命值增加值提升。</TimelineRow>
-    </TimelineItem>
-    <TimelineItem date="2025/10/06">
-        <TimelineRow>现在大守护者自身可以享受到英雄火炬的全部加成效果了。在此之前，大守护者只能享受到装备的减伤效果，不能享受其加速效果。</TimelineRow>
-    </TimelineItem>
-    <TimelineItem date="2025/08/08">
-        <TimelineRow>新装备：英雄火炬。</TimelineRow>
-    </TimelineItem>
-    <TimelineItem :historyBottom="true" />
-</Timeline>
+<SyncedUnitData :data="unitData" />

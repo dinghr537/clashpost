@@ -1,0 +1,820 @@
+{
+  "unitId": "1007-Night-Witch",
+  "title": "暗夜女巫",
+  "originalName": "Night Witch",
+  "module": "upgrade-bh",
+  "imgFolder": "bh_tech/1007",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Night_Witch",
+    "revision": 624859,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Night_Witch?oldid=624859",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 1,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Spring Weight",
+        "Number of Units per Army Camp",
+        "Preferred Target",
+        "Attack Type",
+        "Movement Speed",
+        "Attack Speed",
+        "Builder Barracks Level Required",
+        "Range",
+        "Special Ability"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": "Any",
+            "raw": "Any"
+          },
+          {
+            "status": "known",
+            "value": "Area Splash",
+            "raw": "Area Splash"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          },
+          {
+            "status": "known",
+            "value": "0.7s",
+            "raw": "0.7s"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": "4 tiles",
+            "raw": "4 tiles"
+          },
+          {
+            "status": "known",
+            "value": "Bat Swarm",
+            "raw": "Bat Swarm"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 2,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Level",
+        "Damage per Second",
+        "Damage per Attack",
+        "Hitpoints",
+        "Bats Summon Cooldown",
+        "Bats Summoned",
+        "Number of Bat Swarm",
+        "Research Cost",
+        "Research Time",
+        "Star Laboratory Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          },
+          {
+            "status": "known",
+            "value": 176,
+            "raw": "176"
+          },
+          {
+            "status": "known",
+            "value": 123.2,
+            "raw": "123.2"
+          },
+          {
+            "status": "known",
+            "value": 750,
+            "raw": "750"
+          },
+          {
+            "status": "known",
+            "value": "6.0s",
+            "raw": "6.0s"
+          },
+          {
+            "status": "known",
+            "value": "3 (Max 4)",
+            "raw": "3 (Max 4)"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 176,
+            "raw": "176"
+          },
+          {
+            "status": "known",
+            "value": 123.2,
+            "raw": "123.2"
+          },
+          {
+            "status": "known",
+            "value": 750,
+            "raw": "750"
+          },
+          {
+            "status": "known",
+            "value": "4.8s",
+            "raw": "4.8s"
+          },
+          {
+            "status": "known",
+            "value": "3 (Max 4)",
+            "raw": "3 (Max 4)"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": 1400000,
+            "raw": "1,400,000"
+          },
+          {
+            "status": "known",
+            "value": 172800,
+            "raw": "2d",
+            "unit": "seconds",
+            "displayInput": "2,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          },
+          {
+            "status": "known",
+            "value": 193,
+            "raw": "193"
+          },
+          {
+            "status": "known",
+            "value": 135.1,
+            "raw": "135.1"
+          },
+          {
+            "status": "known",
+            "value": 830,
+            "raw": "830"
+          },
+          {
+            "status": "known",
+            "value": "4.8s",
+            "raw": "4.8s"
+          },
+          {
+            "status": "known",
+            "value": "3 (Max 4)",
+            "raw": "3 (Max 4)"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": 1600000,
+            "raw": "1,600,000"
+          },
+          {
+            "status": "known",
+            "value": 172800,
+            "raw": "2d",
+            "unit": "seconds",
+            "displayInput": "2,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          },
+          {
+            "status": "known",
+            "value": 193,
+            "raw": "193"
+          },
+          {
+            "status": "known",
+            "value": 135.1,
+            "raw": "135.1"
+          },
+          {
+            "status": "known",
+            "value": 830,
+            "raw": "830"
+          },
+          {
+            "status": "known",
+            "value": "4.8s",
+            "raw": "4.8s"
+          },
+          {
+            "status": "known",
+            "value": "3 (Max 4)",
+            "raw": "3 (Max 4)"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": 1800000,
+            "raw": "1,800,000"
+          },
+          {
+            "status": "known",
+            "value": 216000,
+            "raw": "2d 12h",
+            "unit": "seconds",
+            "displayInput": "2,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          },
+          {
+            "status": "known",
+            "value": 216,
+            "raw": "216"
+          },
+          {
+            "status": "known",
+            "value": 151.2,
+            "raw": "151.2"
+          },
+          {
+            "status": "known",
+            "value": 915,
+            "raw": "915"
+          },
+          {
+            "status": "known",
+            "value": "4.8s",
+            "raw": "4.8s"
+          },
+          {
+            "status": "known",
+            "value": "3 (Max 4)",
+            "raw": "3 (Max 4)"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": 2500000,
+            "raw": "2,500,000"
+          },
+          {
+            "status": "known",
+            "value": 302400,
+            "raw": "3d 12h",
+            "unit": "seconds",
+            "displayInput": "3,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          },
+          {
+            "status": "known",
+            "value": 216,
+            "raw": "216"
+          },
+          {
+            "status": "known",
+            "value": 151.2,
+            "raw": "151.2"
+          },
+          {
+            "status": "known",
+            "value": 915,
+            "raw": "915"
+          },
+          {
+            "status": "known",
+            "value": "4.8s",
+            "raw": "4.8s"
+          },
+          {
+            "status": "known",
+            "value": "4 (Max 5)",
+            "raw": "4 (Max 5)"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": 2700000,
+            "raw": "2,700,000"
+          },
+          {
+            "status": "known",
+            "value": 388800,
+            "raw": "4d 12h",
+            "unit": "seconds",
+            "displayInput": "4,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 15,
+            "raw": "15"
+          },
+          {
+            "status": "known",
+            "value": 234,
+            "raw": "234"
+          },
+          {
+            "status": "known",
+            "value": 163.8,
+            "raw": "163.8"
+          },
+          {
+            "status": "known",
+            "value": 1000,
+            "raw": "1,000"
+          },
+          {
+            "status": "known",
+            "value": "4.8s",
+            "raw": "4.8s"
+          },
+          {
+            "status": "known",
+            "value": "4 (Max 5)",
+            "raw": "4 (Max 5)"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": 3500000,
+            "raw": "3,500,000"
+          },
+          {
+            "status": "known",
+            "value": 475200,
+            "raw": "5d 12h",
+            "unit": "seconds",
+            "displayInput": "5,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          },
+          {
+            "status": "known",
+            "value": 234,
+            "raw": "234"
+          },
+          {
+            "status": "known",
+            "value": 163.8,
+            "raw": "163.8"
+          },
+          {
+            "status": "known",
+            "value": 1000,
+            "raw": "1,000"
+          },
+          {
+            "status": "known",
+            "value": "4.8s",
+            "raw": "4.8s"
+          },
+          {
+            "status": "known",
+            "value": "4 (Max 5)",
+            "raw": "4 (Max 5)"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          },
+          {
+            "status": "known",
+            "value": 3700000,
+            "raw": "3,700,000"
+          },
+          {
+            "status": "known",
+            "value": 475200,
+            "raw": "5d 12h",
+            "unit": "seconds",
+            "displayInput": "5,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 17,
+            "raw": "17"
+          },
+          {
+            "status": "known",
+            "value": 257,
+            "raw": "257"
+          },
+          {
+            "status": "known",
+            "value": 179.9,
+            "raw": "179.9"
+          },
+          {
+            "status": "known",
+            "value": 1100,
+            "raw": "1,100"
+          },
+          {
+            "status": "known",
+            "value": "4.8s",
+            "raw": "4.8s"
+          },
+          {
+            "status": "known",
+            "value": "4 (Max 5)",
+            "raw": "4 (Max 5)"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          },
+          {
+            "status": "known",
+            "value": 4200000,
+            "raw": "4,200,000"
+          },
+          {
+            "status": "known",
+            "value": 518400,
+            "raw": "6d",
+            "unit": "seconds",
+            "displayInput": "6,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 18,
+            "raw": "18"
+          },
+          {
+            "status": "known",
+            "value": 257,
+            "raw": "257"
+          },
+          {
+            "status": "known",
+            "value": 179.9,
+            "raw": "179.9"
+          },
+          {
+            "status": "known",
+            "value": 1100,
+            "raw": "1,100"
+          },
+          {
+            "status": "known",
+            "value": "4.8s",
+            "raw": "4.8s"
+          },
+          {
+            "status": "known",
+            "value": "4 (Max 5)",
+            "raw": "4 (Max 5)"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 4400000,
+            "raw": "4,400,000"
+          },
+          {
+            "status": "known",
+            "value": 518400,
+            "raw": "6d",
+            "unit": "seconds",
+            "displayInput": "6,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 19,
+            "raw": "19"
+          },
+          {
+            "status": "known",
+            "value": 278,
+            "raw": "278"
+          },
+          {
+            "status": "known",
+            "value": 194.6,
+            "raw": "194.6"
+          },
+          {
+            "status": "known",
+            "value": 1220,
+            "raw": "1,220"
+          },
+          {
+            "status": "known",
+            "value": "4.8s",
+            "raw": "4.8s"
+          },
+          {
+            "status": "known",
+            "value": "4 (Max 5)",
+            "raw": "4 (Max 5)"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 5200000,
+            "raw": "5,200,000"
+          },
+          {
+            "status": "known",
+            "value": 561600,
+            "raw": "6d 12h",
+            "unit": "seconds",
+            "displayInput": "6,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 20,
+            "raw": "20"
+          },
+          {
+            "status": "known",
+            "value": 278,
+            "raw": "278"
+          },
+          {
+            "status": "known",
+            "value": 194.6,
+            "raw": "194.6"
+          },
+          {
+            "status": "known",
+            "value": 1220,
+            "raw": "1,220"
+          },
+          {
+            "status": "known",
+            "value": "4.8s",
+            "raw": "4.8s"
+          },
+          {
+            "status": "known",
+            "value": "4 (Max 5)",
+            "raw": "4 (Max 5)"
+          },
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          },
+          {
+            "status": "known",
+            "value": 5600000,
+            "raw": "5,600,000"
+          },
+          {
+            "status": "known",
+            "value": 561600,
+            "raw": "6d 12h",
+            "unit": "seconds",
+            "displayInput": "6,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 7,
+          "type": "cost",
+          "icon": "Elixir2",
+          "gpClass": "research",
+          "noGoldPass": false
+        },
+        {
+          "column": 8,
+          "type": "time",
+          "gpClass": "research",
+          "noGoldPass": false
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "name": "Night_Witch_info.png",
+      "url": "https://static.clashpost.com/upgrade/bh_tech/1007/Night_Witch_info.png",
+      "alt": "暗夜女巫",
+      "localPath": "/images/original/upgrade/bh_tech/1007/Night_Witch_info.webp",
+      "logicalPath": "/upgrade/bh_tech/1007/Night_Witch_info.png"
+    },
+    {
+      "name": "Night_Witch9.png",
+      "url": "https://static.clashpost.com/upgrade/bh_tech/1007/Night_Witch9.png",
+      "alt": "9 - 11 级",
+      "localPath": "/images/original/upgrade/bh_tech/1007/Night_Witch9.webp",
+      "logicalPath": "/upgrade/bh_tech/1007/Night_Witch9.png"
+    },
+    {
+      "name": "Night_Witch12.png",
+      "url": "https://static.clashpost.com/upgrade/bh_tech/1007/Night_Witch12.png",
+      "alt": "12 - 15 级",
+      "localPath": "/images/original/upgrade/bh_tech/1007/Night_Witch12.webp",
+      "logicalPath": "/upgrade/bh_tech/1007/Night_Witch12.png"
+    },
+    {
+      "name": "Night_Witch16.png",
+      "url": "https://static.clashpost.com/upgrade/bh_tech/1007/Night_Witch16.png",
+      "alt": "16 - 17 级",
+      "localPath": "/images/original/upgrade/bh_tech/1007/Night_Witch16.webp",
+      "logicalPath": "/upgrade/bh_tech/1007/Night_Witch16.png"
+    },
+    {
+      "name": "Night_Witch18.png",
+      "url": "https://static.clashpost.com/upgrade/bh_tech/1007/Night_Witch18.png",
+      "alt": "18 - 19 级",
+      "localPath": "/images/original/upgrade/bh_tech/1007/Night_Witch18.webp",
+      "logicalPath": "/upgrade/bh_tech/1007/Night_Witch18.png"
+    },
+    {
+      "name": "Night_Witch20.png",
+      "url": "https://static.clashpost.com/upgrade/bh_tech/1007/Night_Witch20.png",
+      "alt": "20 级",
+      "localPath": "/images/original/upgrade/bh_tech/1007/Night_Witch20.webp",
+      "logicalPath": "/upgrade/bh_tech/1007/Night_Witch20.png"
+    },
+    {
+      "name": "Night_Witch_Bat1.png",
+      "url": "https://static.clashpost.com/upgrade/bh_tech/1007/Night_Witch_Bat1.png",
+      "alt": "蝙蝠",
+      "localPath": "/images/original/upgrade/bh_tech/1007/Night_Witch_Bat1.webp",
+      "logicalPath": "/upgrade/bh_tech/1007/Night_Witch_Bat1.png"
+    }
+  ],
+  "history": [],
+  "facts": [
+    "The Night Witch is the eighth Builder Base Troop in the Builder Base, which is unlocked by upgrading the Builder Barracks to level 8, which requires Builder Hall level 6. She is the Builder Base version of the Witch."
+  ],
+  "notices": []
+}

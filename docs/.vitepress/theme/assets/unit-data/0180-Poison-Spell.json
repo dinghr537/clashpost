@@ -1,0 +1,577 @@
+{
+  "unitId": "0180-Poison-Spell",
+  "title": "毒药法术",
+  "originalName": "Poison Spell",
+  "module": "upgrade-home",
+  "imgFolder": "home_tech/0180",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Poison_Spell",
+    "revision": 624974,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Poison_Spell?oldid=624974",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 1,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Radius",
+        "Spell Duration",
+        "Damage Type",
+        "Housing Space",
+        "Targets",
+        "Dark Spell Factory Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "4 tiles",
+            "raw": "4 tiles"
+          },
+          {
+            "status": "known",
+            "value": "16 Seconds",
+            "raw": "16 Seconds"
+          },
+          {
+            "status": "known",
+            "value": "Area Splash",
+            "raw": "Area Splash"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": "Ground & Air",
+            "raw": "Ground & Air"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 2,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Level",
+        "Max damage per second",
+        "Speed Decrease",
+        "Attack Rate Decrease",
+        "Research Cost",
+        "Research Time",
+        "Laboratory Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 90,
+            "raw": "90"
+          },
+          {
+            "status": "known",
+            "value": "26%",
+            "raw": "26%"
+          },
+          {
+            "status": "known",
+            "value": "35%",
+            "raw": "35%"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 115,
+            "raw": "115"
+          },
+          {
+            "status": "known",
+            "value": "30%",
+            "raw": "30%"
+          },
+          {
+            "status": "known",
+            "value": "40%",
+            "raw": "40%"
+          },
+          {
+            "status": "known",
+            "value": 5000,
+            "raw": "5,000"
+          },
+          {
+            "status": "known",
+            "value": 21600,
+            "raw": "6h",
+            "unit": "seconds",
+            "displayInput": "0,6,0,0"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 145,
+            "raw": "145"
+          },
+          {
+            "status": "known",
+            "value": "34%",
+            "raw": "34%"
+          },
+          {
+            "status": "known",
+            "value": "45%",
+            "raw": "45%"
+          },
+          {
+            "status": "known",
+            "value": 10000,
+            "raw": "10,000"
+          },
+          {
+            "status": "known",
+            "value": 64800,
+            "raw": "18h",
+            "unit": "seconds",
+            "displayInput": "0,18,0,0"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 180,
+            "raw": "180"
+          },
+          {
+            "status": "known",
+            "value": "38%",
+            "raw": "38%"
+          },
+          {
+            "status": "known",
+            "value": "50%",
+            "raw": "50%"
+          },
+          {
+            "status": "known",
+            "value": 21500,
+            "raw": "21,500"
+          },
+          {
+            "status": "known",
+            "value": 172800,
+            "raw": "2d",
+            "unit": "seconds",
+            "displayInput": "2,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 220,
+            "raw": "220"
+          },
+          {
+            "status": "known",
+            "value": "40%",
+            "raw": "40%"
+          },
+          {
+            "status": "known",
+            "value": "55%",
+            "raw": "55%"
+          },
+          {
+            "status": "known",
+            "value": 35000,
+            "raw": "35,000"
+          },
+          {
+            "status": "known",
+            "value": 259200,
+            "raw": "3d",
+            "unit": "seconds",
+            "displayInput": "3,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 260,
+            "raw": "260"
+          },
+          {
+            "status": "known",
+            "value": "42%",
+            "raw": "42%"
+          },
+          {
+            "status": "known",
+            "value": "60%",
+            "raw": "60%"
+          },
+          {
+            "status": "known",
+            "value": 55000,
+            "raw": "55,000"
+          },
+          {
+            "status": "known",
+            "value": 345600,
+            "raw": "4d",
+            "unit": "seconds",
+            "displayInput": "4,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": 280,
+            "raw": "280"
+          },
+          {
+            "status": "known",
+            "value": "44%",
+            "raw": "44%"
+          },
+          {
+            "status": "known",
+            "value": "65%",
+            "raw": "65%"
+          },
+          {
+            "status": "known",
+            "value": 77500,
+            "raw": "77,500"
+          },
+          {
+            "status": "known",
+            "value": 432000,
+            "raw": "5d",
+            "unit": "seconds",
+            "displayInput": "5,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": 300,
+            "raw": "300"
+          },
+          {
+            "status": "known",
+            "value": "46%",
+            "raw": "46%"
+          },
+          {
+            "status": "known",
+            "value": "68%",
+            "raw": "68%"
+          },
+          {
+            "status": "known",
+            "value": 100000,
+            "raw": "100,000"
+          },
+          {
+            "status": "known",
+            "value": 561600,
+            "raw": "6d 12h",
+            "unit": "seconds",
+            "displayInput": "6,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          },
+          {
+            "status": "known",
+            "value": 320,
+            "raw": "320"
+          },
+          {
+            "status": "known",
+            "value": "48%",
+            "raw": "48%"
+          },
+          {
+            "status": "known",
+            "value": "70%",
+            "raw": "70%"
+          },
+          {
+            "status": "known",
+            "value": 135000,
+            "raw": "135,000"
+          },
+          {
+            "status": "known",
+            "value": 604800,
+            "raw": "7d",
+            "unit": "seconds",
+            "displayInput": "7,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 340,
+            "raw": "340"
+          },
+          {
+            "status": "known",
+            "value": "50%",
+            "raw": "50%"
+          },
+          {
+            "status": "known",
+            "value": "72%",
+            "raw": "72%"
+          },
+          {
+            "status": "known",
+            "value": 175000,
+            "raw": "175,000"
+          },
+          {
+            "status": "known",
+            "value": 691200,
+            "raw": "8d",
+            "unit": "seconds",
+            "displayInput": "8,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          },
+          {
+            "status": "known",
+            "value": 360,
+            "raw": "360"
+          },
+          {
+            "status": "known",
+            "value": "51%",
+            "raw": "51%"
+          },
+          {
+            "status": "known",
+            "value": "73%",
+            "raw": "73%"
+          },
+          {
+            "status": "known",
+            "value": 230000,
+            "raw": "230,000"
+          },
+          {
+            "status": "known",
+            "value": 835200,
+            "raw": "9d 16h",
+            "unit": "seconds",
+            "displayInput": "9,16,0,0"
+          },
+          {
+            "status": "known",
+            "value": 15,
+            "raw": "15"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          },
+          {
+            "status": "known",
+            "value": 380,
+            "raw": "380"
+          },
+          {
+            "status": "known",
+            "value": "52%",
+            "raw": "52%"
+          },
+          {
+            "status": "known",
+            "value": "74%",
+            "raw": "74%"
+          },
+          {
+            "status": "known",
+            "value": 350000,
+            "raw": "350,000"
+          },
+          {
+            "status": "known",
+            "value": 1252800,
+            "raw": "14d 12h",
+            "unit": "seconds",
+            "displayInput": "14,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 4,
+          "type": "cost",
+          "icon": "Dark_Elixir",
+          "gpClass": "research",
+          "noGoldPass": false
+        },
+        {
+          "column": 5,
+          "type": "time",
+          "gpClass": "research",
+          "noGoldPass": false
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "name": "Poison_Spell.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0180/Poison_Spell.png",
+      "alt": "毒药法术",
+      "localPath": "/images/original/upgrade/home_tech/0180/Poison_Spell.webp",
+      "logicalPath": "/upgrade/home_tech/0180/Poison_Spell.png"
+    }
+  ],
+  "history": [],
+  "facts": [
+    "The Poison Spell slowly ramps up in damage the longer a unit stays poisoned. The effect lasts for an additional 6 seconds after the unit leaves the poison radius."
+  ],
+  "notices": []
+}

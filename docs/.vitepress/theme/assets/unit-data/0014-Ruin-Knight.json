@@ -1,0 +1,225 @@
+{
+  "unitId": "0014-Ruin-Knight",
+  "title": "Ruin Knight",
+  "originalName": "Ruin Witch/Ruin Knight",
+  "module": "upgrade-home",
+  "imgFolder": "home_tech/0014",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Ruin_Witch/Ruin_Knight",
+    "revision": 625189,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Ruin_Witch/Ruin_Knight?oldid=625189",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 1,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Preferred Target",
+        "Damage Multiplier",
+        "Attack Type",
+        "Housing Space",
+        "Movement Speed",
+        "Attack Speed",
+        "Range"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "None",
+            "raw": "None"
+          },
+          {
+            "status": "known",
+            "value": "Walls (Damage x3)",
+            "raw": "Walls (Damage x3)"
+          },
+          {
+            "status": "known",
+            "value": "Single Target",
+            "raw": "Single Target"
+          },
+          {
+            "status": "known",
+            "value": 20,
+            "raw": "20"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          },
+          {
+            "status": "known",
+            "value": "1s",
+            "raw": "1s"
+          },
+          {
+            "status": "known",
+            "value": "0.6 tiles",
+            "raw": "0.6 tiles"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 2,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Level",
+        "Damage per Second",
+        "Damage per Attack",
+        "Damage vs Walls",
+        "Hitpoints"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 255,
+            "raw": "255"
+          },
+          {
+            "status": "known",
+            "value": 255,
+            "raw": "255"
+          },
+          {
+            "status": "known",
+            "value": 765,
+            "raw": "765"
+          },
+          {
+            "status": "known",
+            "value": 3100,
+            "raw": "3,100"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 285,
+            "raw": "285"
+          },
+          {
+            "status": "known",
+            "value": 285,
+            "raw": "285"
+          },
+          {
+            "status": "known",
+            "value": 855,
+            "raw": "855"
+          },
+          {
+            "status": "known",
+            "value": 3400,
+            "raw": "3,400"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 315,
+            "raw": "315"
+          },
+          {
+            "status": "known",
+            "value": 315,
+            "raw": "315"
+          },
+          {
+            "status": "known",
+            "value": 945,
+            "raw": "945"
+          },
+          {
+            "status": "known",
+            "value": 3700,
+            "raw": "3,700"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 345,
+            "raw": "345"
+          },
+          {
+            "status": "known",
+            "value": 345,
+            "raw": "345"
+          },
+          {
+            "status": "known",
+            "value": 1035,
+            "raw": "1,035"
+          },
+          {
+            "status": "known",
+            "value": 4000,
+            "raw": "4,000"
+          }
+        ]
+      ],
+      "extraInfo": []
+    }
+  ],
+  "images": [
+    {
+      "name": "Ruin_Knight_info.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/9/94/Ruin_Knight_info.png/revision/latest/scale-to-width-down/300?cb=20260615150319",
+      "alt": "Ruin Knight info",
+      "localPath": "/images/wiki/0014-Ruin-Knight/a3f06a0919-Ruin_Knight_info.png",
+      "logicalPath": "/upgrade/home_tech/0014/Ruin_Knight_info.png"
+    },
+    {
+      "name": "Ruin_Knight1.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/f/f1/Ruin_Knight1.png/revision/latest/scale-to-width-down/85?cb=20260614153532",
+      "alt": "Ruin Knight1",
+      "localPath": "/images/wiki/0014-Ruin-Knight/5ad37ceb01-Ruin_Knight1.png",
+      "logicalPath": "/upgrade/home_tech/0014/Ruin_Knight1.png"
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-06-16",
+      "description": "Added the Ruin Knight with four levels. Ruin Knight1"
+    },
+    {
+      "date": "2026-08-31",
+      "description": "Removed the Ruin Knight hitpoint decay. Damage Reduction"
+    }
+  ],
+  "facts": [],
+  "notices": [
+    "Ruin Knight 是 Ruin Witch 的召唤物，等级随召唤它的部队变化，不能单独升级。"
+  ]
+}

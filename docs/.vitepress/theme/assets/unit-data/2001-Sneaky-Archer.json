@@ -1,0 +1,281 @@
+{
+  "unitId": "2001-Sneaky-Archer",
+  "title": "隐秘弓箭手",
+  "originalName": "Sneaky Archer/Clan Capital",
+  "module": "upgrade-capital",
+  "imgFolder": "capital_tech/2001",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Sneaky_Archer/Clan_Capital",
+    "revision": 622230,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Sneaky_Archer/Clan_Capital?oldid=622230",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 2,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Squad Housing Space",
+        "Units Deployed"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": "Sneaky Archer x5",
+            "raw": "Sneaky Archer x5"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 3,
+      "section": "Statistics",
+      "title": "Sneaky Archer",
+      "headers": [
+        "Preferred Target",
+        "Attack Type",
+        "Housing Space",
+        "Movement Speed",
+        "Attack Speed",
+        "Range",
+        "Special Ability",
+        "Sneaky Archer Barracks Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "None",
+            "raw": "None"
+          },
+          {
+            "status": "known",
+            "value": "Ranged (Ground & Air)",
+            "raw": "Ranged (Ground & Air)"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          },
+          {
+            "status": "known",
+            "value": "1s",
+            "raw": "1s"
+          },
+          {
+            "status": "known",
+            "value": "2.75 tiles",
+            "raw": "2.75 tiles"
+          },
+          {
+            "status": "known",
+            "value": "Cloak",
+            "raw": "Cloak"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 4,
+      "section": "Statistics",
+      "title": "Sneaky Archer",
+      "headers": [
+        "Level",
+        "Damage per Second",
+        "Damage per Hit",
+        "Hitpoints",
+        "Sneaky Archer Barracks Level"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 60,
+            "raw": "60"
+          },
+          {
+            "status": "known",
+            "value": 60,
+            "raw": "60"
+          },
+          {
+            "status": "known",
+            "value": 100,
+            "raw": "100"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 64,
+            "raw": "64"
+          },
+          {
+            "status": "known",
+            "value": 64,
+            "raw": "64"
+          },
+          {
+            "status": "known",
+            "value": 120,
+            "raw": "120"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 68,
+            "raw": "68"
+          },
+          {
+            "status": "known",
+            "value": 68,
+            "raw": "68"
+          },
+          {
+            "status": "known",
+            "value": 140,
+            "raw": "140"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 71,
+            "raw": "71"
+          },
+          {
+            "status": "known",
+            "value": 71,
+            "raw": "71"
+          },
+          {
+            "status": "known",
+            "value": 160,
+            "raw": "160"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 74,
+            "raw": "74"
+          },
+          {
+            "status": "known",
+            "value": 74,
+            "raw": "74"
+          },
+          {
+            "status": "known",
+            "value": 180,
+            "raw": "180"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          }
+        ]
+      ],
+      "extraInfo": []
+    }
+  ],
+  "images": [
+    {
+      "name": "Sneaky_Archer_info.png",
+      "url": "https://static.clashpost.com/upgrade/capital_tech/2001/Sneaky_Archer_info.png",
+      "alt": "隐秘弓箭手",
+      "localPath": "/images/original/upgrade/capital_tech/2001/Sneaky_Archer_info.webp",
+      "logicalPath": "/upgrade/capital_tech/2001/Sneaky_Archer_info.png"
+    },
+    {
+      "name": "Sneaky_Archer1.png",
+      "url": "https://static.clashpost.com/upgrade/capital_tech/2001/Sneaky_Archer1.png",
+      "alt": "所有等级",
+      "localPath": "/images/original/upgrade/capital_tech/2001/Sneaky_Archer1.webp",
+      "logicalPath": "/upgrade/capital_tech/2001/Sneaky_Archer1.png"
+    },
+    {
+      "name": "Sneaky_Archer_Barracks5.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/9/95/Sneaky_Archer_Barracks5.png/revision/latest/scale-to-width-down/32?cb=20231217041435",
+      "alt": "Sneaky Archer Barracks",
+      "localPath": "/images/wiki/2001-Sneaky-Archer/0ef7291181-Sneaky_Archer_Barracks5.png",
+      "logicalPath": "/upgrade/capital_tech/2001/Sneaky_Archer_Barracks5.png"
+    }
+  ],
+  "history": [],
+  "facts": [
+    "Sneaky Archers are troops available in the Clan Capital, available when the Sneaky Archer Barracks is constructed (this occurs automatically after the Barbarian Camp district is unlocked, when the Capital Hall is upgraded to level 2).",
+    "Sneaky Archers are ranged troops that, like Sneaky Archers in the Builder Base, are invisible to defenses for the first 5 seconds after deployment. They deal good damage per second for their housing space, but have low hitpoints. In the Clan Capital, they can only be deployed in squads of five."
+  ],
+  "notices": []
+}

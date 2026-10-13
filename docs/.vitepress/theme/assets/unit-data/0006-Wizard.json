@@ -1,0 +1,783 @@
+{
+  "unitId": "0006-Wizard",
+  "title": "法师",
+  "originalName": "Wizard",
+  "module": "upgrade-home",
+  "imgFolder": "home_tech/0006",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Wizard",
+    "revision": 625289,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Wizard?oldid=625289",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 2,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Preferred Target",
+        "Attack Type",
+        "Housing Space",
+        "Movement Speed",
+        "Attack Speed",
+        "Barracks Level Required",
+        "Range"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "None",
+            "raw": "None"
+          },
+          {
+            "status": "known",
+            "value": "Area Splash 0.3 Tile Radius (Ground & Air)",
+            "raw": "Area Splash 0.3 Tile Radius (Ground & Air)"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          },
+          {
+            "status": "known",
+            "value": "1.5s",
+            "raw": "1.5s"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": "3 tiles",
+            "raw": "3 tiles"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 3,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Level",
+        "Damage per Second",
+        "Damage per Attack",
+        "Hitpoints",
+        "Research Cost",
+        "Research Time",
+        "Laboratory Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 50,
+            "raw": "50"
+          },
+          {
+            "status": "known",
+            "value": 75,
+            "raw": "75"
+          },
+          {
+            "status": "known",
+            "value": 75,
+            "raw": "75"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 70,
+            "raw": "70"
+          },
+          {
+            "status": "known",
+            "value": 105,
+            "raw": "105"
+          },
+          {
+            "status": "known",
+            "value": 90,
+            "raw": "90"
+          },
+          {
+            "status": "known",
+            "value": 120000,
+            "raw": "120,000"
+          },
+          {
+            "status": "known",
+            "value": 14400,
+            "raw": "4h",
+            "unit": "seconds",
+            "displayInput": "0,4,0,0"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 90,
+            "raw": "90"
+          },
+          {
+            "status": "known",
+            "value": 135,
+            "raw": "135"
+          },
+          {
+            "status": "known",
+            "value": 108,
+            "raw": "108"
+          },
+          {
+            "status": "known",
+            "value": 300000,
+            "raw": "300,000"
+          },
+          {
+            "status": "known",
+            "value": 18000,
+            "raw": "5h",
+            "unit": "seconds",
+            "displayInput": "0,5,0,0"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 125,
+            "raw": "125"
+          },
+          {
+            "status": "known",
+            "value": 187.5,
+            "raw": "187.5"
+          },
+          {
+            "status": "known",
+            "value": 135,
+            "raw": "135"
+          },
+          {
+            "status": "known",
+            "value": 600000,
+            "raw": "600,000"
+          },
+          {
+            "status": "known",
+            "value": 43200,
+            "raw": "12h",
+            "unit": "seconds",
+            "displayInput": "0,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 170,
+            "raw": "170"
+          },
+          {
+            "status": "known",
+            "value": 255,
+            "raw": "255"
+          },
+          {
+            "status": "known",
+            "value": 165,
+            "raw": "165"
+          },
+          {
+            "status": "known",
+            "value": 1200000,
+            "raw": "1,200,000"
+          },
+          {
+            "status": "known",
+            "value": 64800,
+            "raw": "18h",
+            "unit": "seconds",
+            "displayInput": "0,18,0,0"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 185,
+            "raw": "185"
+          },
+          {
+            "status": "known",
+            "value": 277.5,
+            "raw": "277.5"
+          },
+          {
+            "status": "known",
+            "value": 180,
+            "raw": "180"
+          },
+          {
+            "status": "known",
+            "value": 2000000,
+            "raw": "2,000,000"
+          },
+          {
+            "status": "known",
+            "value": 129600,
+            "raw": "1d 12h",
+            "unit": "seconds",
+            "displayInput": "1,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": 200,
+            "raw": "200"
+          },
+          {
+            "status": "known",
+            "value": 300,
+            "raw": "300"
+          },
+          {
+            "status": "known",
+            "value": 195,
+            "raw": "195"
+          },
+          {
+            "status": "known",
+            "value": 2500000,
+            "raw": "2,500,000"
+          },
+          {
+            "status": "known",
+            "value": 172800,
+            "raw": "2d",
+            "unit": "seconds",
+            "displayInput": "2,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": 215,
+            "raw": "215"
+          },
+          {
+            "status": "known",
+            "value": 322.5,
+            "raw": "322.5"
+          },
+          {
+            "status": "known",
+            "value": 210,
+            "raw": "210"
+          },
+          {
+            "status": "known",
+            "value": 3100000,
+            "raw": "3,100,000"
+          },
+          {
+            "status": "known",
+            "value": 194400,
+            "raw": "2d 6h",
+            "unit": "seconds",
+            "displayInput": "2,6,0,0"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          },
+          {
+            "status": "known",
+            "value": 230,
+            "raw": "230"
+          },
+          {
+            "status": "known",
+            "value": 345,
+            "raw": "345"
+          },
+          {
+            "status": "known",
+            "value": 230,
+            "raw": "230"
+          },
+          {
+            "status": "known",
+            "value": 4000000,
+            "raw": "4,000,000"
+          },
+          {
+            "status": "known",
+            "value": 216000,
+            "raw": "2d 12h",
+            "unit": "seconds",
+            "displayInput": "2,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 245,
+            "raw": "245"
+          },
+          {
+            "status": "known",
+            "value": 367.5,
+            "raw": "367.5"
+          },
+          {
+            "status": "known",
+            "value": 250,
+            "raw": "250"
+          },
+          {
+            "status": "known",
+            "value": 5500000,
+            "raw": "5,500,000"
+          },
+          {
+            "status": "known",
+            "value": 302400,
+            "raw": "3d 12h",
+            "unit": "seconds",
+            "displayInput": "3,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          },
+          {
+            "status": "known",
+            "value": 260,
+            "raw": "260"
+          },
+          {
+            "status": "known",
+            "value": 390,
+            "raw": "390"
+          },
+          {
+            "status": "known",
+            "value": 270,
+            "raw": "270"
+          },
+          {
+            "status": "known",
+            "value": 10000000,
+            "raw": "10,000,000"
+          },
+          {
+            "status": "known",
+            "value": 475200,
+            "raw": "5d 12h",
+            "unit": "seconds",
+            "displayInput": "5,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          },
+          {
+            "status": "known",
+            "value": 275,
+            "raw": "275"
+          },
+          {
+            "status": "known",
+            "value": 412.5,
+            "raw": "412.5"
+          },
+          {
+            "status": "known",
+            "value": 290,
+            "raw": "290"
+          },
+          {
+            "status": "known",
+            "value": 11500000,
+            "raw": "11,500,000"
+          },
+          {
+            "status": "known",
+            "value": 604800,
+            "raw": "7d",
+            "unit": "seconds",
+            "displayInput": "7,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          },
+          {
+            "status": "known",
+            "value": 290,
+            "raw": "290"
+          },
+          {
+            "status": "known",
+            "value": 435,
+            "raw": "435"
+          },
+          {
+            "status": "known",
+            "value": 310,
+            "raw": "310"
+          },
+          {
+            "status": "known",
+            "value": 16000000,
+            "raw": "16,000,000"
+          },
+          {
+            "status": "known",
+            "value": 907200,
+            "raw": "10d 12h",
+            "unit": "seconds",
+            "displayInput": "10,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 15,
+            "raw": "15"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          },
+          {
+            "status": "known",
+            "value": 310,
+            "raw": "310"
+          },
+          {
+            "status": "known",
+            "value": 465,
+            "raw": "465"
+          },
+          {
+            "status": "known",
+            "value": 330,
+            "raw": "330"
+          },
+          {
+            "status": "known",
+            "value": 27000000,
+            "raw": "27,000,000"
+          },
+          {
+            "status": "known",
+            "value": 1209600,
+            "raw": "14d",
+            "unit": "seconds",
+            "displayInput": "14,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 4,
+          "type": "cost",
+          "icon": "Elixir",
+          "gpClass": "research",
+          "noGoldPass": false
+        },
+        {
+          "column": 5,
+          "type": "time",
+          "gpClass": "research",
+          "noGoldPass": false
+        }
+      ]
+    },
+    {
+      "sourceTableIndex": 4,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Super Troop",
+        "Boost Cost",
+        "Wizard Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "Super Wizard",
+            "raw": "Super Wizard"
+          },
+          {
+            "status": "known",
+            "value": 25000,
+            "raw": "25,000"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 1,
+          "type": "cost",
+          "icon": "Dark_Elixir",
+          "gpClass": "research",
+          "noGoldPass": true
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "name": "Wizard_info.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0006/Wizard_info.png",
+      "alt": "法师",
+      "localPath": "/images/original/upgrade/home_tech/0006/Wizard_info.webp",
+      "logicalPath": "/upgrade/home_tech/0006/Wizard_info.png"
+    },
+    {
+      "name": "Wizard1.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0006/Wizard1.png",
+      "alt": "1 - 2 级",
+      "localPath": "/images/original/upgrade/home_tech/0006/Wizard1.webp",
+      "logicalPath": "/upgrade/home_tech/0006/Wizard1.png"
+    },
+    {
+      "name": "Wizard3.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0006/Wizard3.png",
+      "alt": "3 - 4 级",
+      "localPath": "/images/original/upgrade/home_tech/0006/Wizard3.webp",
+      "logicalPath": "/upgrade/home_tech/0006/Wizard3.png"
+    },
+    {
+      "name": "Wizard5.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0006/Wizard5.png",
+      "alt": "5 级",
+      "localPath": "/images/original/upgrade/home_tech/0006/Wizard5.webp",
+      "logicalPath": "/upgrade/home_tech/0006/Wizard5.png"
+    },
+    {
+      "name": "Wizard6.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0006/Wizard6.png",
+      "alt": "6 级",
+      "localPath": "/images/original/upgrade/home_tech/0006/Wizard6.webp",
+      "logicalPath": "/upgrade/home_tech/0006/Wizard6.png"
+    },
+    {
+      "name": "Wizard7.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0006/Wizard7.png",
+      "alt": "7 级",
+      "localPath": "/images/original/upgrade/home_tech/0006/Wizard7.webp",
+      "logicalPath": "/upgrade/home_tech/0006/Wizard7.png"
+    },
+    {
+      "name": "Wizard8.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0006/Wizard8.png",
+      "alt": "8 级",
+      "localPath": "/images/original/upgrade/home_tech/0006/Wizard8.webp",
+      "logicalPath": "/upgrade/home_tech/0006/Wizard8.png"
+    },
+    {
+      "name": "Wizard9.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0006/Wizard9.png",
+      "alt": "9 级",
+      "localPath": "/images/original/upgrade/home_tech/0006/Wizard9.webp",
+      "logicalPath": "/upgrade/home_tech/0006/Wizard9.png"
+    },
+    {
+      "name": "Wizard10.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0006/Wizard10.png",
+      "alt": "10 级",
+      "localPath": "/images/original/upgrade/home_tech/0006/Wizard10.webp",
+      "logicalPath": "/upgrade/home_tech/0006/Wizard10.png"
+    },
+    {
+      "name": "Wizard11.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0006/Wizard11.png",
+      "alt": "11 级",
+      "localPath": "/images/original/upgrade/home_tech/0006/Wizard11.webp",
+      "logicalPath": "/upgrade/home_tech/0006/Wizard11.png"
+    },
+    {
+      "name": "Wizard12.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0006/Wizard12.png",
+      "alt": "12 级",
+      "localPath": "/images/original/upgrade/home_tech/0006/Wizard12.webp",
+      "logicalPath": "/upgrade/home_tech/0006/Wizard12.png"
+    },
+    {
+      "name": "Wizard13.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0006/Wizard13.png",
+      "alt": "13 级",
+      "localPath": "/images/original/upgrade/home_tech/0006/Wizard13.webp",
+      "logicalPath": "/upgrade/home_tech/0006/Wizard13.png"
+    },
+    {
+      "name": "Wizard14.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0006/Wizard14.png",
+      "alt": "14 级",
+      "localPath": "/images/original/upgrade/home_tech/0006/Wizard14.webp",
+      "logicalPath": "/upgrade/home_tech/0006/Wizard14.png"
+    }
+  ],
+  "history": [],
+  "facts": [
+    "The Wizard is the seventh Elixir Troop unlocked at Barracks level 7, which requires Town Hall level 6. He is a fragile ground unit with high splash damage and range."
+  ],
+  "notices": []
+}

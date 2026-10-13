@@ -1,0 +1,281 @@
+{
+  "unitId": "2006-Rocket-Balloon",
+  "title": "火箭气球兵",
+  "originalName": "Rocket Balloon/Clan Capital",
+  "module": "upgrade-capital",
+  "imgFolder": "capital_tech/2006",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Rocket_Balloon/Clan_Capital",
+    "revision": 622225,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Rocket_Balloon/Clan_Capital?oldid=622225",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 3,
+      "section": "Statistics",
+      "title": "\"Rocket Balloons\" Squad",
+      "headers": [
+        "Squad Housing Space",
+        "Units Deployed"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 15,
+            "raw": "15"
+          },
+          {
+            "status": "known",
+            "value": "Rocket Balloon x2",
+            "raw": "Rocket Balloon x2"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 4,
+      "section": "Statistics",
+      "title": "Rocket Balloon",
+      "headers": [
+        "Preferred Target",
+        "Attack Type",
+        "Housing Space",
+        "Movement Speed",
+        "Attack Speed",
+        "Range",
+        "Special Ability"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "Defenses",
+            "raw": "Defenses"
+          },
+          {
+            "status": "known",
+            "value": "Area Splash (Ground Only)",
+            "raw": "Area Splash (Ground Only)"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          },
+          {
+            "status": "known",
+            "value": "3s",
+            "raw": "3s"
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": "?"
+          },
+          {
+            "status": "known",
+            "value": "Boosters",
+            "raw": "Boosters"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 5,
+      "section": "Statistics",
+      "title": "Rocket Balloon",
+      "headers": [
+        "Level",
+        "Damage per Second",
+        "Damage per Hit",
+        "Damage when Destroyed",
+        "Hitpoints"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 175,
+            "raw": "175"
+          },
+          {
+            "status": "known",
+            "value": 525,
+            "raw": "525"
+          },
+          {
+            "status": "known",
+            "value": 400,
+            "raw": "400"
+          },
+          {
+            "status": "known",
+            "value": 720,
+            "raw": "720"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 200,
+            "raw": "200"
+          },
+          {
+            "status": "known",
+            "value": 600,
+            "raw": "600"
+          },
+          {
+            "status": "known",
+            "value": 450,
+            "raw": "450"
+          },
+          {
+            "status": "known",
+            "value": 800,
+            "raw": "800"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 225,
+            "raw": "225"
+          },
+          {
+            "status": "known",
+            "value": 675,
+            "raw": "675"
+          },
+          {
+            "status": "known",
+            "value": 500,
+            "raw": "500"
+          },
+          {
+            "status": "known",
+            "value": 880,
+            "raw": "880"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 250,
+            "raw": "250"
+          },
+          {
+            "status": "known",
+            "value": 750,
+            "raw": "750"
+          },
+          {
+            "status": "known",
+            "value": 550,
+            "raw": "550"
+          },
+          {
+            "status": "known",
+            "value": 960,
+            "raw": "960"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 275,
+            "raw": "275"
+          },
+          {
+            "status": "known",
+            "value": 825,
+            "raw": "825"
+          },
+          {
+            "status": "known",
+            "value": 600,
+            "raw": "600"
+          },
+          {
+            "status": "known",
+            "value": 1040,
+            "raw": "1,040"
+          }
+        ]
+      ],
+      "extraInfo": []
+    }
+  ],
+  "images": [
+    {
+      "name": "Rocket_Balloon_info.png",
+      "url": "https://static.clashpost.com/upgrade/capital_tech/2006/Rocket_Balloon_info.png",
+      "alt": "火箭气球兵",
+      "localPath": "/images/original/upgrade/capital_tech/2006/Rocket_Balloon_info.webp",
+      "logicalPath": "/upgrade/capital_tech/2006/Rocket_Balloon_info.png"
+    },
+    {
+      "name": "Rocket_Balloon1.png",
+      "url": "https://static.clashpost.com/upgrade/capital_tech/2006/Rocket_Balloon1.png",
+      "alt": "所有等级",
+      "localPath": "/images/original/upgrade/capital_tech/2006/Rocket_Balloon1.webp",
+      "logicalPath": "/upgrade/capital_tech/2006/Rocket_Balloon1.png"
+    },
+    {
+      "name": "Rocket_Balloons1.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/4/47/Rocket_Balloons1.png/revision/latest/scale-to-width-down/150?cb=20251010153323",
+      "alt": "Rocket Balloons1",
+      "localPath": "/images/wiki/2006-Rocket-Balloon/053a3a19b5-Rocket_Balloons1.png",
+      "logicalPath": "/upgrade/capital_tech/2006/Rocket_Balloons1.png"
+    },
+    {
+      "name": "Rocket_Balloon8.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/3/3f/Rocket_Balloon8.png/revision/latest/scale-to-width-down/168?cb=20210731070454",
+      "alt": "",
+      "localPath": "/images/wiki/2006-Rocket-Balloon/24fd6afe20-Rocket_Balloon8.png",
+      "logicalPath": "/upgrade/capital_tech/2006/Rocket_Balloon8.png"
+    }
+  ],
+  "history": [],
+  "facts": [
+    "Rocket Balloons are troops available in the Clan Capital, available when the Rocket Balloon Barracks is constructed (this occurs automatically after the Balloon Lagoon district is unlocked, when the Capital Hall is upgraded to level 4)."
+  ],
+  "notices": []
+}

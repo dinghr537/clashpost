@@ -1,0 +1,943 @@
+{
+  "unitId": "07e2-Stun-Blaster",
+  "title": "爆震器",
+  "originalName": "Stun Blaster",
+  "module": "upgrade-home",
+  "imgFolder": "home_heroes/07e2",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Stun_Blaster",
+    "revision": 624501,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Stun_Blaster?oldid=624501",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 3,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Level",
+        "Ability Total Damage",
+        "Stun Duration",
+        "Hero Boosts / Damage per Second Increase",
+        "Hero Boosts / Health Recovery",
+        "Hero Boosts / Hitpoint Increase",
+        "Upgrade Cost / Shiny Ore",
+        "Upgrade Cost / Glowy Ore",
+        "Blacksmith Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 150,
+            "raw": "150"
+          },
+          {
+            "status": "known",
+            "value": "4.5s",
+            "raw": "4.5s"
+          },
+          {
+            "status": "known",
+            "value": 40,
+            "raw": "40"
+          },
+          {
+            "status": "known",
+            "value": 150,
+            "raw": "150"
+          },
+          {
+            "status": "known",
+            "value": 450,
+            "raw": "450"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 150,
+            "raw": "150"
+          },
+          {
+            "status": "known",
+            "value": "4.5s",
+            "raw": "4.5s"
+          },
+          {
+            "status": "known",
+            "value": 43,
+            "raw": "43"
+          },
+          {
+            "status": "known",
+            "value": 250,
+            "raw": "250"
+          },
+          {
+            "status": "known",
+            "value": 650,
+            "raw": "650"
+          },
+          {
+            "status": "known",
+            "value": 120,
+            "raw": "120"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 200,
+            "raw": "200"
+          },
+          {
+            "status": "known",
+            "value": "5s",
+            "raw": "5s"
+          },
+          {
+            "status": "known",
+            "value": 46,
+            "raw": "46"
+          },
+          {
+            "status": "known",
+            "value": 350,
+            "raw": "350"
+          },
+          {
+            "status": "known",
+            "value": 850,
+            "raw": "850"
+          },
+          {
+            "status": "known",
+            "value": 240,
+            "raw": "240"
+          },
+          {
+            "status": "known",
+            "value": 20,
+            "raw": "20"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 200,
+            "raw": "200"
+          },
+          {
+            "status": "known",
+            "value": "5s",
+            "raw": "5s"
+          },
+          {
+            "status": "known",
+            "value": 49,
+            "raw": "49"
+          },
+          {
+            "status": "known",
+            "value": 450,
+            "raw": "450"
+          },
+          {
+            "status": "known",
+            "value": 1000,
+            "raw": "1,000"
+          },
+          {
+            "status": "known",
+            "value": 400,
+            "raw": "400"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 200,
+            "raw": "200"
+          },
+          {
+            "status": "known",
+            "value": "5s",
+            "raw": "5s"
+          },
+          {
+            "status": "known",
+            "value": 52,
+            "raw": "52"
+          },
+          {
+            "status": "known",
+            "value": 550,
+            "raw": "550"
+          },
+          {
+            "status": "known",
+            "value": 1150,
+            "raw": "1,150"
+          },
+          {
+            "status": "known",
+            "value": 600,
+            "raw": "600"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 250,
+            "raw": "250"
+          },
+          {
+            "status": "known",
+            "value": "5.5s",
+            "raw": "5.5s"
+          },
+          {
+            "status": "known",
+            "value": 55,
+            "raw": "55"
+          },
+          {
+            "status": "known",
+            "value": 650,
+            "raw": "650"
+          },
+          {
+            "status": "known",
+            "value": 1300,
+            "raw": "1,300"
+          },
+          {
+            "status": "known",
+            "value": 940,
+            "raw": "940"
+          },
+          {
+            "status": "known",
+            "value": 100,
+            "raw": "100"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": 250,
+            "raw": "250"
+          },
+          {
+            "status": "known",
+            "value": "5.5s",
+            "raw": "5.5s"
+          },
+          {
+            "status": "known",
+            "value": 58,
+            "raw": "58"
+          },
+          {
+            "status": "known",
+            "value": 750,
+            "raw": "750"
+          },
+          {
+            "status": "known",
+            "value": 1450,
+            "raw": "1,450"
+          },
+          {
+            "status": "known",
+            "value": 1120,
+            "raw": "1,120"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": 250,
+            "raw": "250"
+          },
+          {
+            "status": "known",
+            "value": "5.5s",
+            "raw": "5.5s"
+          },
+          {
+            "status": "known",
+            "value": 61,
+            "raw": "61"
+          },
+          {
+            "status": "known",
+            "value": 850,
+            "raw": "850"
+          },
+          {
+            "status": "known",
+            "value": 1600,
+            "raw": "1,600"
+          },
+          {
+            "status": "known",
+            "value": 1440,
+            "raw": "1,440"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          },
+          {
+            "status": "known",
+            "value": 300,
+            "raw": "300"
+          },
+          {
+            "status": "known",
+            "value": "6s",
+            "raw": "6s"
+          },
+          {
+            "status": "known",
+            "value": 64,
+            "raw": "64"
+          },
+          {
+            "status": "known",
+            "value": 950,
+            "raw": "950"
+          },
+          {
+            "status": "known",
+            "value": 1750,
+            "raw": "1,750"
+          },
+          {
+            "status": "known",
+            "value": 1800,
+            "raw": "1,800"
+          },
+          {
+            "status": "known",
+            "value": 200,
+            "raw": "200"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 300,
+            "raw": "300"
+          },
+          {
+            "status": "known",
+            "value": "6s",
+            "raw": "6s"
+          },
+          {
+            "status": "known",
+            "value": 67,
+            "raw": "67"
+          },
+          {
+            "status": "known",
+            "value": 1050,
+            "raw": "1,050"
+          },
+          {
+            "status": "known",
+            "value": 1900,
+            "raw": "1,900"
+          },
+          {
+            "status": "known",
+            "value": 1900,
+            "raw": "1,900"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          },
+          {
+            "status": "known",
+            "value": 300,
+            "raw": "300"
+          },
+          {
+            "status": "known",
+            "value": "6s",
+            "raw": "6s"
+          },
+          {
+            "status": "known",
+            "value": 70,
+            "raw": "70"
+          },
+          {
+            "status": "known",
+            "value": 1100,
+            "raw": "1,100"
+          },
+          {
+            "status": "known",
+            "value": 2000,
+            "raw": "2,000"
+          },
+          {
+            "status": "known",
+            "value": 2000,
+            "raw": "2,000"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          },
+          {
+            "status": "known",
+            "value": 350,
+            "raw": "350"
+          },
+          {
+            "status": "known",
+            "value": "6.5s",
+            "raw": "6.5s"
+          },
+          {
+            "status": "known",
+            "value": 73,
+            "raw": "73"
+          },
+          {
+            "status": "known",
+            "value": 1150,
+            "raw": "1,150"
+          },
+          {
+            "status": "known",
+            "value": 2100,
+            "raw": "2,100"
+          },
+          {
+            "status": "known",
+            "value": 2100,
+            "raw": "2,100"
+          },
+          {
+            "status": "known",
+            "value": 400,
+            "raw": "400"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          },
+          {
+            "status": "known",
+            "value": 350,
+            "raw": "350"
+          },
+          {
+            "status": "known",
+            "value": "6.5s",
+            "raw": "6.5s"
+          },
+          {
+            "status": "known",
+            "value": 76,
+            "raw": "76"
+          },
+          {
+            "status": "known",
+            "value": 1180,
+            "raw": "1,180"
+          },
+          {
+            "status": "known",
+            "value": 2200,
+            "raw": "2,200"
+          },
+          {
+            "status": "known",
+            "value": 2200,
+            "raw": "2,200"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          },
+          {
+            "status": "known",
+            "value": 350,
+            "raw": "350"
+          },
+          {
+            "status": "known",
+            "value": "6.5s",
+            "raw": "6.5s"
+          },
+          {
+            "status": "known",
+            "value": 79,
+            "raw": "79"
+          },
+          {
+            "status": "known",
+            "value": 1210,
+            "raw": "1,210"
+          },
+          {
+            "status": "known",
+            "value": 2275,
+            "raw": "2,275"
+          },
+          {
+            "status": "known",
+            "value": 2300,
+            "raw": "2,300"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 15,
+            "raw": "15"
+          },
+          {
+            "status": "known",
+            "value": 375,
+            "raw": "375"
+          },
+          {
+            "status": "known",
+            "value": "7s",
+            "raw": "7s"
+          },
+          {
+            "status": "known",
+            "value": 82,
+            "raw": "82"
+          },
+          {
+            "status": "known",
+            "value": 1240,
+            "raw": "1,240"
+          },
+          {
+            "status": "known",
+            "value": 2325,
+            "raw": "2,325"
+          },
+          {
+            "status": "known",
+            "value": 2400,
+            "raw": "2,400"
+          },
+          {
+            "status": "known",
+            "value": 600,
+            "raw": "600"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          },
+          {
+            "status": "known",
+            "value": 375,
+            "raw": "375"
+          },
+          {
+            "status": "known",
+            "value": "7s",
+            "raw": "7s"
+          },
+          {
+            "status": "known",
+            "value": 85,
+            "raw": "85"
+          },
+          {
+            "status": "known",
+            "value": 1270,
+            "raw": "1,270"
+          },
+          {
+            "status": "known",
+            "value": 2375,
+            "raw": "2,375"
+          },
+          {
+            "status": "known",
+            "value": 2500,
+            "raw": "2,500"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 17,
+            "raw": "17"
+          },
+          {
+            "status": "known",
+            "value": 375,
+            "raw": "375"
+          },
+          {
+            "status": "known",
+            "value": "7s",
+            "raw": "7s"
+          },
+          {
+            "status": "known",
+            "value": 88,
+            "raw": "88"
+          },
+          {
+            "status": "known",
+            "value": 1290,
+            "raw": "1,290"
+          },
+          {
+            "status": "known",
+            "value": 2400,
+            "raw": "2,400"
+          },
+          {
+            "status": "known",
+            "value": 2600,
+            "raw": "2,600"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 18,
+            "raw": "18"
+          },
+          {
+            "status": "known",
+            "value": 400,
+            "raw": "400"
+          },
+          {
+            "status": "known",
+            "value": "7.5s",
+            "raw": "7.5s"
+          },
+          {
+            "status": "known",
+            "value": 90,
+            "raw": "90"
+          },
+          {
+            "status": "known",
+            "value": 1300,
+            "raw": "1,300"
+          },
+          {
+            "status": "known",
+            "value": 2400,
+            "raw": "2,400"
+          },
+          {
+            "status": "known",
+            "value": 2700,
+            "raw": "2,700"
+          },
+          {
+            "status": "known",
+            "value": 600,
+            "raw": "600"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 6,
+          "type": "cost",
+          "icon": "Shiny_Ore",
+          "gpClass": "research",
+          "noGoldPass": true
+        },
+        {
+          "column": 7,
+          "type": "cost",
+          "icon": "Glowy_Ore",
+          "gpClass": "research",
+          "noGoldPass": true
+        }
+      ]
+    },
+    {
+      "sourceTableIndex": 4,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Damage Radius"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "8 tiles",
+            "raw": "8 tiles"
+          }
+        ]
+      ],
+      "extraInfo": []
+    }
+  ],
+  "images": [
+    {
+      "name": "Stun_Blaster_info.png",
+      "url": "https://static.clashpost.com/upgrade/home_heroes/07e2/Stun_Blaster_info.png",
+      "alt": "爆震器",
+      "localPath": "/images/original/upgrade/home_heroes/07e2/Stun_Blaster_info.webp",
+      "logicalPath": "/upgrade/home_heroes/07e2/Stun_Blaster_info.png"
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-02-22",
+      "description": "Announce the Dragon Duke, with the Stun Blaster shown."
+    },
+    {
+      "date": "2026-02-23",
+      "description": "Added the Stun Blaster, unavailable to be obtained as the Dragon Duke is imprisoned."
+    },
+    {
+      "date": "2026-02-27",
+      "description": "Explained how the Stun Blaster works."
+    }
+  ],
+  "facts": [
+    "The Stun Blaster is a piece of Common Hero Equipment for the Dragon Duke. It is unlocked when the Blacksmith is upgraded to level 9, which requires Town Hall 16."
+  ],
+  "notices": []
+}

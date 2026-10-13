@@ -1,0 +1,480 @@
+{
+  "unitId": "110e-X-Bow",
+  "title": "X连弩",
+  "originalName": "X-Bow/Builder Base",
+  "module": "upgrade-bh",
+  "imgFolder": "bh_buildings/110e",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/X-Bow/Builder_Base",
+    "revision": 622625,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/X-Bow/Builder_Base?oldid=622625",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 1,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Number Available",
+        "Builder Hall Level / 1",
+        "Builder Hall Level / 2",
+        "Builder Hall Level / 3",
+        "Builder Hall Level / 4",
+        "Builder Hall Level / 5",
+        "Builder Hall Level / 6",
+        "Builder Hall Level / 7",
+        "Builder Hall Level / 8",
+        "Builder Hall Level / 9",
+        "Builder Hall Level / 10"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "Total",
+            "raw": "Total"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 2,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Size"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "3x3",
+            "raw": "3x3"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 3,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Level",
+        "Damage per Second",
+        "Damage per Shot",
+        "Hitpoints",
+        "Build Cost",
+        "Build Time",
+        "Experience Gained",
+        "Builder Hall Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 80,
+            "raw": "80"
+          },
+          {
+            "status": "known",
+            "value": 15.36,
+            "raw": "15.36"
+          },
+          {
+            "status": "known",
+            "value": 1700,
+            "raw": "1,700"
+          },
+          {
+            "status": "known",
+            "value": 4400000,
+            "raw": "4,400,000"
+          },
+          {
+            "status": "known",
+            "value": 604800,
+            "raw": "7d",
+            "unit": "seconds",
+            "displayInput": "7,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 777,
+            "raw": "777"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 88,
+            "raw": "88"
+          },
+          {
+            "status": "known",
+            "value": 16.9,
+            "raw": "16.9"
+          },
+          {
+            "status": "known",
+            "value": 1900,
+            "raw": "1,900"
+          },
+          {
+            "status": "known",
+            "value": 4800000,
+            "raw": "4,800,000"
+          },
+          {
+            "status": "known",
+            "value": 691200,
+            "raw": "8d",
+            "unit": "seconds",
+            "displayInput": "8,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 831,
+            "raw": "831"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 96,
+            "raw": "96"
+          },
+          {
+            "status": "known",
+            "value": 18.43,
+            "raw": "18.43"
+          },
+          {
+            "status": "known",
+            "value": 2100,
+            "raw": "2,100"
+          },
+          {
+            "status": "known",
+            "value": 5200000,
+            "raw": "5,200,000"
+          },
+          {
+            "status": "known",
+            "value": 864000,
+            "raw": "10d",
+            "unit": "seconds",
+            "displayInput": "10,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 929,
+            "raw": "929"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 106,
+            "raw": "106"
+          },
+          {
+            "status": "known",
+            "value": 20.35,
+            "raw": "20.35"
+          },
+          {
+            "status": "known",
+            "value": 2350,
+            "raw": "2,350"
+          },
+          {
+            "status": "known",
+            "value": 5600000,
+            "raw": "5,600,000"
+          },
+          {
+            "status": "known",
+            "value": 950400,
+            "raw": "11d",
+            "unit": "seconds",
+            "displayInput": "11,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 974,
+            "raw": "974"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 116,
+            "raw": "116"
+          },
+          {
+            "status": "known",
+            "value": 22.27,
+            "raw": "22.27"
+          },
+          {
+            "status": "known",
+            "value": 2600,
+            "raw": "2,600"
+          },
+          {
+            "status": "known",
+            "value": 6000000,
+            "raw": "6,000,000"
+          },
+          {
+            "status": "known",
+            "value": 1036800,
+            "raw": "12d",
+            "unit": "seconds",
+            "displayInput": "12,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 1018,
+            "raw": "1,018"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 4,
+          "type": "cost",
+          "icon": "Gold2",
+          "gpClass": "building",
+          "noGoldPass": false
+        },
+        {
+          "column": 5,
+          "type": "time",
+          "gpClass": "building",
+          "noGoldPass": false
+        }
+      ]
+    },
+    {
+      "sourceTableIndex": 4,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Range",
+        "Attack Speed",
+        "Damage Type",
+        "Unit Type Targeted"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          },
+          {
+            "status": "known",
+            "value": "0.192s",
+            "raw": "0.192s"
+          },
+          {
+            "status": "known",
+            "value": "Single Target",
+            "raw": "Single Target"
+          },
+          {
+            "status": "known",
+            "value": "GroundAir",
+            "raw": "GroundAir"
+          }
+        ]
+      ],
+      "extraInfo": []
+    }
+  ],
+  "images": [
+    {
+      "name": "X-Bow5_Ground.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/110e/X-Bow5_Ground.png",
+      "alt": "X连弩",
+      "localPath": "/images/original/upgrade/bh_buildings/110e/X-Bow5_Ground.webp",
+      "logicalPath": "/upgrade/bh_buildings/110e/X-Bow5_Ground.png"
+    },
+    {
+      "name": "X-Bow1_Ground.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/110e/X-Bow1_Ground.png",
+      "alt": "1 级",
+      "localPath": "/images/original/upgrade/bh_buildings/110e/X-Bow1_Ground.webp",
+      "logicalPath": "/upgrade/bh_buildings/110e/X-Bow1_Ground.png"
+    },
+    {
+      "name": "X-Bow2_Ground.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/110e/X-Bow2_Ground.png",
+      "alt": "2 级",
+      "localPath": "/images/original/upgrade/bh_buildings/110e/X-Bow2_Ground.webp",
+      "logicalPath": "/upgrade/bh_buildings/110e/X-Bow2_Ground.png"
+    },
+    {
+      "name": "X-Bow3_Ground.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/110e/X-Bow3_Ground.png",
+      "alt": "3 级",
+      "localPath": "/images/original/upgrade/bh_buildings/110e/X-Bow3_Ground.webp",
+      "logicalPath": "/upgrade/bh_buildings/110e/X-Bow3_Ground.png"
+    },
+    {
+      "name": "X-Bow4_Ground.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/110e/X-Bow4_Ground.png",
+      "alt": "4 级",
+      "localPath": "/images/original/upgrade/bh_buildings/110e/X-Bow4_Ground.webp",
+      "logicalPath": "/upgrade/bh_buildings/110e/X-Bow4_Ground.png"
+    },
+    {
+      "name": "X-Bow1_Air.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/110e/X-Bow1_Air.png",
+      "alt": "1 级",
+      "localPath": "/images/original/upgrade/bh_buildings/110e/X-Bow1_Air.webp",
+      "logicalPath": "/upgrade/bh_buildings/110e/X-Bow1_Air.png"
+    },
+    {
+      "name": "X-Bow2_Air.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/110e/X-Bow2_Air.png",
+      "alt": "2 级",
+      "localPath": "/images/original/upgrade/bh_buildings/110e/X-Bow2_Air.webp",
+      "logicalPath": "/upgrade/bh_buildings/110e/X-Bow2_Air.png"
+    },
+    {
+      "name": "X-Bow3_Air.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/110e/X-Bow3_Air.png",
+      "alt": "3 级",
+      "localPath": "/images/original/upgrade/bh_buildings/110e/X-Bow3_Air.webp",
+      "logicalPath": "/upgrade/bh_buildings/110e/X-Bow3_Air.png"
+    },
+    {
+      "name": "X-Bow4_Air.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/110e/X-Bow4_Air.png",
+      "alt": "4 级",
+      "localPath": "/images/original/upgrade/bh_buildings/110e/X-Bow4_Air.webp",
+      "logicalPath": "/upgrade/bh_buildings/110e/X-Bow4_Air.png"
+    },
+    {
+      "name": "X-Bow5_Air.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/110e/X-Bow5_Air.png",
+      "alt": "5 级",
+      "localPath": "/images/original/upgrade/bh_buildings/110e/X-Bow5_Air.webp",
+      "logicalPath": "/upgrade/bh_buildings/110e/X-Bow5_Air.png"
+    }
+  ],
+  "history": [],
+  "facts": [
+    "The X-Bow is a single-target, rapid-firing defense that is unlocked at Builder Hall 10. It attacks by shooting blue Elixir at units from a long range.",
+    "It can be configured to two modes - Ground Mode, which can only target ground troops, or Air Mode, which can only target air units. Unlike the Home Village version, the X-Bow can never target both ground and air troops at the same time and has the same range in both modes, at 12 tiles."
+  ],
+  "notices": []
+}

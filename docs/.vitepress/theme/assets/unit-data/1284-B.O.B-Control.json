@@ -1,0 +1,433 @@
+{
+  "unitId": "1284-B.O.B-Control",
+  "title": "小博控制室",
+  "originalName": "B.O.B Control",
+  "module": "upgrade-bh",
+  "imgFolder": "bh_buildings/1284",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/B.O.B_Control",
+    "revision": 625668,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/B.O.B_Control?oldid=625668",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 1,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Number Available",
+        "Builder Hall Level / 1",
+        "Builder Hall Level / 2",
+        "Builder Hall Level / 3",
+        "Builder Hall Level / 4",
+        "Builder Hall Level / 5",
+        "Builder Hall Level / 6",
+        "Builder Hall Level / 7",
+        "Builder Hall Level / 8",
+        "Builder Hall Level / 9",
+        "Builder Hall Level / 10"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "Total",
+            "raw": "Total"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": "Stage 1 Limit",
+            "raw": "Stage 1 Limit"
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": "Stage 2 Limit",
+            "raw": "Stage 2 Limit"
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 2,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Size"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "2x2",
+            "raw": "2x2"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 3,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Hitpoints",
+        "Build Cost",
+        "Build Time",
+        "Builder Hall Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 250,
+            "raw": "250"
+          },
+          {
+            "status": "known",
+            "value": 100000,
+            "raw": "100,000"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "None"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 1,
+          "type": "cost",
+          "icon": "Gold2",
+          "gpClass": "building",
+          "noGoldPass": false
+        }
+      ]
+    },
+    {
+      "sourceTableIndex": 4,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Upgrade Requirements / Level",
+        "Upgrade Requirements / Requirement",
+        "Upgrade Requirements / Description"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "Level 1",
+            "raw": "Level 1"
+          },
+          {
+            "status": "known",
+            "value": "Reach Builder Hall 9 and 100,000",
+            "raw": "Reach Builder Hall 9 and 100,000"
+          },
+          {
+            "status": "known",
+            "value": "Complete the below requirements to upgrade. Once all four requirements are completed, you will unlock Master Builder's latest invention: B.O.B!",
+            "raw": "Complete the below requirements to upgrade. Once all four requirements are completed, you will unlock Master Builder's latest invention: B.O.B!"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": "Level 1",
+            "raw": "Level 1"
+          },
+          {
+            "status": "known",
+            "value": "Reach Builder Hall 9 and 100,000",
+            "raw": "Reach Builder Hall 9 and 100,000"
+          },
+          {
+            "status": "known",
+            "value": "Working in the Home Village will teach Master Builder how to make an undetectable spy the Builders will never suspect. Complete by Gearing Up three buildings in the Home Village.",
+            "raw": "Working in the Home Village will teach Master Builder how to make an undetectable spy the Builders will never suspect. Complete by Gearing Up three buildings in the Home Village."
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": "Level 2",
+            "raw": "Level 2"
+          },
+          {
+            "status": "known",
+            "value": "Gear Up all 3 buildings: Cannon, Archer Tower, Mortar",
+            "raw": "Gear Up all 3 buildings: Cannon, Archer Tower, Mortar"
+          },
+          {
+            "status": "known",
+            "value": "Studying the deadliest Troops may seem like an odd requirement for building a non-violent automaton and it really is. Complete by upgrading any Builder Base Troop to level 18",
+            "raw": "Studying the deadliest Troops may seem like an odd requirement for building a non-violent automaton and it really is. Complete by upgrading any Builder Base Troop to level 18"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": "Level 3",
+            "raw": "Level 3"
+          },
+          {
+            "status": "known",
+            "value": "Upgrade any Troop to level 18",
+            "raw": "Upgrade any Troop to level 18"
+          },
+          {
+            "status": "known",
+            "value": "Only successfully upgrading a tough Defense will teach the Master Builder how to build an unstoppably tough builder. Complete by upgrading any Builder Base Defense to level 9",
+            "raw": "Only successfully upgrading a tough Defense will teach the Master Builder how to build an unstoppably tough builder. Complete by upgrading any Builder Base Defense to level 9"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": "Level 4",
+            "raw": "Level 4"
+          },
+          {
+            "status": "known",
+            "value": "Upgrade any Defense to level 9",
+            "raw": "Upgrade any Defense to level 9"
+          },
+          {
+            "status": "known",
+            "value": "Piloting powerful Heroes will give Master Builder the knowledge needed to make B.O.B a strong, independent robot. Complete by upgrading Builder Base Heroes to a total level of 45",
+            "raw": "Piloting powerful Heroes will give Master Builder the knowledge needed to make B.O.B a strong, independent robot. Complete by upgrading Builder Base Heroes to a total level of 45"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": "Level 5",
+            "raw": "Level 5"
+          },
+          {
+            "status": "known",
+            "value": "Upgrade Battle Machine and Battle Copter to a total level of 45",
+            "raw": "Upgrade Battle Machine and Battle Copter to a total level of 45"
+          },
+          {
+            "status": "known",
+            "value": "B.O.B completed!B.O.B is now helping out in the Home Village! Hopefully, none of the Builders there notice anything out of the ordinary.",
+            "raw": "B.O.B completed!B.O.B is now helping out in the Home Village! Hopefully, none of the Builders there notice anything out of the ordinary."
+          }
+        ]
+      ],
+      "extraInfo": []
+    }
+  ],
+  "images": [
+    {
+      "name": "B.O.B_Control5.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1284/B.O.B_Control5.png",
+      "alt": "小博控制室",
+      "localPath": "/images/original/upgrade/bh_buildings/1284/B.O.B_Control5.webp",
+      "logicalPath": "/upgrade/bh_buildings/1284/B.O.B_Control5.png"
+    },
+    {
+      "name": "B.O.B_Control1.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1284/B.O.B_Control1.png",
+      "alt": "1 级",
+      "localPath": "/images/original/upgrade/bh_buildings/1284/B.O.B_Control1.webp",
+      "logicalPath": "/upgrade/bh_buildings/1284/B.O.B_Control1.png"
+    },
+    {
+      "name": "B.O.B_Control2.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1284/B.O.B_Control2.png",
+      "alt": "2 级",
+      "localPath": "/images/original/upgrade/bh_buildings/1284/B.O.B_Control2.webp",
+      "logicalPath": "/upgrade/bh_buildings/1284/B.O.B_Control2.png"
+    },
+    {
+      "name": "B.O.B_Control3.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1284/B.O.B_Control3.png",
+      "alt": "3 级",
+      "localPath": "/images/original/upgrade/bh_buildings/1284/B.O.B_Control3.webp",
+      "logicalPath": "/upgrade/bh_buildings/1284/B.O.B_Control3.png"
+    },
+    {
+      "name": "B.O.B_Control4.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1284/B.O.B_Control4.png",
+      "alt": "4 级",
+      "localPath": "/images/original/upgrade/bh_buildings/1284/B.O.B_Control4.webp",
+      "logicalPath": "/upgrade/bh_buildings/1284/B.O.B_Control4.png"
+    }
+  ],
+  "history": [],
+  "facts": [
+    "The B.O.B Control is a building unlocked at Builder Hall 9. The B.O.B Control does nothing when initially built and will only serve as a distraction. However, once upgraded to level 5, it enables the B.O.B's Hut to be built in the Home Village, allowing B.O.B to function there.",
+    "Gearing up a Cannon, Archer Tower, and a Mortar in the Home Village. This requires a level 7 Cannon, a level 10 Archer Tower and a level 8 Mortar respectively in the Home Village, and a level 4 Double Cannon, a level 6 Archer Tower, and a level 8 Multi Mortar in the Builder Base.",
+    "Upgrading any troop to level 18 (which requires Star Laboratory level 9).",
+    "Upgrading any defensive building in the Builder Base to level 9.",
+    "Upgrading the Battle Machine and Battle Copter to a combined level of 45."
+  ],
+  "notices": []
+}

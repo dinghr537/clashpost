@@ -1,0 +1,502 @@
+{
+  "unitId": "1009-Power-P.E.K.K.A",
+  "title": "雷霆皮卡",
+  "originalName": "Power P.E.K.K.A",
+  "module": "upgrade-bh",
+  "imgFolder": "bh_tech/1009",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Power_P.E.K.K.A",
+    "revision": 596971,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Power_P.E.K.K.A?oldid=596971",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 1,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Spring Weight",
+        "Attack Type",
+        "Movement Speed",
+        "Attack Speed",
+        "Number of Units per Army Camp",
+        "Builder Barracks Level Required",
+        "Range",
+        "Special Ability"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 22,
+            "raw": "22"
+          },
+          {
+            "status": "known",
+            "value": "Single Target",
+            "raw": "Single Target"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          },
+          {
+            "status": "known",
+            "value": "1.8s",
+            "raw": "1.8s"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": "0.8 tiles",
+            "raw": "0.8 tiles"
+          },
+          {
+            "status": "known",
+            "value": "Overcharge",
+            "raw": "Overcharge"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 3,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Level",
+        "Damage per Second",
+        "Damage per Attack",
+        "Hitpoints",
+        "Overcharge Damage",
+        "Research Cost",
+        "Research Time",
+        "Star Laboratory Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          },
+          {
+            "status": "known",
+            "value": 420,
+            "raw": "420"
+          },
+          {
+            "status": "known",
+            "value": 756,
+            "raw": "756"
+          },
+          {
+            "status": "known",
+            "value": 3900,
+            "raw": "3,900"
+          },
+          {
+            "status": "known",
+            "value": 920,
+            "raw": "920"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          },
+          {
+            "status": "known",
+            "value": 420,
+            "raw": "420"
+          },
+          {
+            "status": "known",
+            "value": 756,
+            "raw": "756"
+          },
+          {
+            "status": "known",
+            "value": 3900,
+            "raw": "3,900"
+          },
+          {
+            "status": "known",
+            "value": 1060,
+            "raw": "1,060"
+          },
+          {
+            "status": "known",
+            "value": 3600000,
+            "raw": "3,600,000"
+          },
+          {
+            "status": "known",
+            "value": 388800,
+            "raw": "4d 12h",
+            "unit": "seconds",
+            "displayInput": "4,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 15,
+            "raw": "15"
+          },
+          {
+            "status": "known",
+            "value": 460,
+            "raw": "460"
+          },
+          {
+            "status": "known",
+            "value": 828,
+            "raw": "828"
+          },
+          {
+            "status": "known",
+            "value": 4290,
+            "raw": "4,290"
+          },
+          {
+            "status": "known",
+            "value": 1060,
+            "raw": "1,060"
+          },
+          {
+            "status": "known",
+            "value": 3800000,
+            "raw": "3,800,000"
+          },
+          {
+            "status": "known",
+            "value": 475200,
+            "raw": "5d 12h",
+            "unit": "seconds",
+            "displayInput": "5,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          },
+          {
+            "status": "known",
+            "value": 460,
+            "raw": "460"
+          },
+          {
+            "status": "known",
+            "value": 828,
+            "raw": "828"
+          },
+          {
+            "status": "known",
+            "value": 4290,
+            "raw": "4,290"
+          },
+          {
+            "status": "known",
+            "value": 1200,
+            "raw": "1,200"
+          },
+          {
+            "status": "known",
+            "value": 4000000,
+            "raw": "4,000,000"
+          },
+          {
+            "status": "known",
+            "value": 475200,
+            "raw": "5d 12h",
+            "unit": "seconds",
+            "displayInput": "5,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 17,
+            "raw": "17"
+          },
+          {
+            "status": "known",
+            "value": 500,
+            "raw": "500"
+          },
+          {
+            "status": "known",
+            "value": 900,
+            "raw": "900"
+          },
+          {
+            "status": "known",
+            "value": 4719,
+            "raw": "4,719"
+          },
+          {
+            "status": "known",
+            "value": 1200,
+            "raw": "1,200"
+          },
+          {
+            "status": "known",
+            "value": 4600000,
+            "raw": "4,600,000"
+          },
+          {
+            "status": "known",
+            "value": 518400,
+            "raw": "6d",
+            "unit": "seconds",
+            "displayInput": "6,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 18,
+            "raw": "18"
+          },
+          {
+            "status": "known",
+            "value": 500,
+            "raw": "500"
+          },
+          {
+            "status": "known",
+            "value": 900,
+            "raw": "900"
+          },
+          {
+            "status": "known",
+            "value": 4719,
+            "raw": "4,719"
+          },
+          {
+            "status": "known",
+            "value": 1350,
+            "raw": "1,350"
+          },
+          {
+            "status": "known",
+            "value": 4800000,
+            "raw": "4,800,000"
+          },
+          {
+            "status": "known",
+            "value": 518400,
+            "raw": "6d",
+            "unit": "seconds",
+            "displayInput": "6,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 19,
+            "raw": "19"
+          },
+          {
+            "status": "known",
+            "value": 560,
+            "raw": "560"
+          },
+          {
+            "status": "known",
+            "value": 1008,
+            "raw": "1,008"
+          },
+          {
+            "status": "known",
+            "value": 5191,
+            "raw": "5,191"
+          },
+          {
+            "status": "known",
+            "value": 1350,
+            "raw": "1,350"
+          },
+          {
+            "status": "known",
+            "value": 5600000,
+            "raw": "5,600,000"
+          },
+          {
+            "status": "known",
+            "value": 561600,
+            "raw": "6d 12h",
+            "unit": "seconds",
+            "displayInput": "6,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 20,
+            "raw": "20"
+          },
+          {
+            "status": "known",
+            "value": 560,
+            "raw": "560"
+          },
+          {
+            "status": "known",
+            "value": 1008,
+            "raw": "1,008"
+          },
+          {
+            "status": "known",
+            "value": 5191,
+            "raw": "5,191"
+          },
+          {
+            "status": "known",
+            "value": 1500,
+            "raw": "1,500"
+          },
+          {
+            "status": "known",
+            "value": 5800000,
+            "raw": "5,800,000"
+          },
+          {
+            "status": "known",
+            "value": 561600,
+            "raw": "6d 12h",
+            "unit": "seconds",
+            "displayInput": "6,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 5,
+          "type": "cost",
+          "icon": "Elixir2",
+          "gpClass": "research",
+          "noGoldPass": false
+        },
+        {
+          "column": 6,
+          "type": "time",
+          "gpClass": "research",
+          "noGoldPass": false
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "name": "Power_P.E.K.K.A_info.png",
+      "url": "https://static.clashpost.com/upgrade/bh_tech/1009/Power_P.E.K.K.A_info.png",
+      "alt": "雷霆皮卡",
+      "localPath": "/images/original/upgrade/bh_tech/1009/Power_P.E.K.K.A_info.webp",
+      "logicalPath": "/upgrade/bh_tech/1009/Power_P.E.K.K.A_info.png"
+    },
+    {
+      "name": "Power_P.E.K.K.A13.png",
+      "url": "https://static.clashpost.com/upgrade/bh_tech/1009/Power_P.E.K.K.A13.png",
+      "alt": "13 - 15 级",
+      "localPath": "/images/original/upgrade/bh_tech/1009/Power_P.E.K.K.A13.webp",
+      "logicalPath": "/upgrade/bh_tech/1009/Power_P.E.K.K.A13.png"
+    },
+    {
+      "name": "Power_P.E.K.K.A16.png",
+      "url": "https://static.clashpost.com/upgrade/bh_tech/1009/Power_P.E.K.K.A16.png",
+      "alt": "16 - 17 级",
+      "localPath": "/images/original/upgrade/bh_tech/1009/Power_P.E.K.K.A16.webp",
+      "logicalPath": "/upgrade/bh_tech/1009/Power_P.E.K.K.A16.png"
+    },
+    {
+      "name": "Power_P.E.K.K.A18.png",
+      "url": "https://static.clashpost.com/upgrade/bh_tech/1009/Power_P.E.K.K.A18.png",
+      "alt": "18 - 19 级",
+      "localPath": "/images/original/upgrade/bh_tech/1009/Power_P.E.K.K.A18.webp",
+      "logicalPath": "/upgrade/bh_tech/1009/Power_P.E.K.K.A18.png"
+    },
+    {
+      "name": "Power_P.E.K.K.A20.png",
+      "url": "https://static.clashpost.com/upgrade/bh_tech/1009/Power_P.E.K.K.A20.png",
+      "alt": "20 级",
+      "localPath": "/images/original/upgrade/bh_tech/1009/Power_P.E.K.K.A20.webp",
+      "logicalPath": "/upgrade/bh_tech/1009/Power_P.E.K.K.A20.png"
+    }
+  ],
+  "history": [],
+  "facts": [
+    "The Power P.E.K.K.A (formerly Super P.E.K.K.A) is the third-to-last troop unlocked in the Builder Base once the Builder Barracks is upgraded to level 10 that requires Builder Hall level 8. She is a Builder Base troop version of the P.E.K.K.A."
+  ],
+  "notices": []
+}

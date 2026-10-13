@@ -1,0 +1,446 @@
+{
+  "unitId": "0242-Stone-Slammer",
+  "title": "攻城气球",
+  "originalName": "Stone Slammer",
+  "module": "upgrade-home",
+  "imgFolder": "home_tech/0242",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Stone_Slammer",
+    "revision": 624370,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Stone_Slammer?oldid=624370",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 2,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Preferred Target",
+        "Attack Type",
+        "Movement Speed",
+        "Attack Speed",
+        "Workshop Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "Defenses",
+            "raw": "Defenses"
+          },
+          {
+            "status": "known",
+            "value": "Area Splash 1 and 3 tile Radius (Ground Only)",
+            "raw": "Area Splash 1 and 3 tile Radius (Ground Only)"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          },
+          {
+            "status": "known",
+            "value": "2.5s",
+            "raw": "2.5s"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 3,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Level",
+        "Damage per Second",
+        "Damage per Hit / Hitbox 1",
+        "Damage per Hit / Hitbox 2",
+        "Damage when Destroyed",
+        "Hitpoints",
+        "Research Cost",
+        "Research Time",
+        "Laboratory Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 400,
+            "raw": "400"
+          },
+          {
+            "status": "known",
+            "value": 1000,
+            "raw": "1,000"
+          },
+          {
+            "status": "known",
+            "value": "100-200",
+            "raw": "100-200"
+          },
+          {
+            "status": "known",
+            "value": 500,
+            "raw": "500"
+          },
+          {
+            "status": "known",
+            "value": 5600,
+            "raw": "5,600"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 500,
+            "raw": "500"
+          },
+          {
+            "status": "known",
+            "value": 1250,
+            "raw": "1,250"
+          },
+          {
+            "status": "known",
+            "value": "150-300",
+            "raw": "150-300"
+          },
+          {
+            "status": "known",
+            "value": 500,
+            "raw": "500"
+          },
+          {
+            "status": "known",
+            "value": 5900,
+            "raw": "5,900"
+          },
+          {
+            "status": "known",
+            "value": 2500000,
+            "raw": "2,500,000"
+          },
+          {
+            "status": "known",
+            "value": 172800,
+            "raw": "2d",
+            "unit": "seconds",
+            "displayInput": "2,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 600,
+            "raw": "600"
+          },
+          {
+            "status": "known",
+            "value": 1500,
+            "raw": "1,500"
+          },
+          {
+            "status": "known",
+            "value": "200-400",
+            "raw": "200-400"
+          },
+          {
+            "status": "known",
+            "value": 500,
+            "raw": "500"
+          },
+          {
+            "status": "known",
+            "value": 6200,
+            "raw": "6,200"
+          },
+          {
+            "status": "known",
+            "value": 3500000,
+            "raw": "3,500,000"
+          },
+          {
+            "status": "known",
+            "value": 259200,
+            "raw": "3d",
+            "unit": "seconds",
+            "displayInput": "3,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 700,
+            "raw": "700"
+          },
+          {
+            "status": "known",
+            "value": 1750,
+            "raw": "1,750"
+          },
+          {
+            "status": "known",
+            "value": "250-500",
+            "raw": "250-500"
+          },
+          {
+            "status": "known",
+            "value": 500,
+            "raw": "500"
+          },
+          {
+            "status": "known",
+            "value": 6500,
+            "raw": "6,500"
+          },
+          {
+            "status": "known",
+            "value": 6500000,
+            "raw": "6,500,000"
+          },
+          {
+            "status": "known",
+            "value": 604800,
+            "raw": "7d",
+            "unit": "seconds",
+            "displayInput": "7,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 750,
+            "raw": "750"
+          },
+          {
+            "status": "known",
+            "value": 1875,
+            "raw": "1,875"
+          },
+          {
+            "status": "known",
+            "value": "300-600",
+            "raw": "300-600"
+          },
+          {
+            "status": "known",
+            "value": 500,
+            "raw": "500"
+          },
+          {
+            "status": "known",
+            "value": 6800,
+            "raw": "6,800"
+          },
+          {
+            "status": "known",
+            "value": 10000000,
+            "raw": "10,000,000"
+          },
+          {
+            "status": "known",
+            "value": 777600,
+            "raw": "9d",
+            "unit": "seconds",
+            "displayInput": "9,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 820,
+            "raw": "820"
+          },
+          {
+            "status": "known",
+            "value": 2050,
+            "raw": "2,050"
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": "350?-700?"
+          },
+          {
+            "status": "known",
+            "value": 500,
+            "raw": "500"
+          },
+          {
+            "status": "known",
+            "value": 7200,
+            "raw": "7,200"
+          },
+          {
+            "status": "known",
+            "value": 26000000,
+            "raw": "26,000,000"
+          },
+          {
+            "status": "known",
+            "value": 1166400,
+            "raw": "13d 12h",
+            "unit": "seconds",
+            "displayInput": "13,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 6,
+          "type": "cost",
+          "icon": "Elixir",
+          "gpClass": "research",
+          "noGoldPass": false
+        },
+        {
+          "column": 7,
+          "type": "time",
+          "gpClass": "research",
+          "noGoldPass": false
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "name": "Stone_Slammer.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0242/Stone_Slammer.png",
+      "alt": "攻城气球",
+      "localPath": "/images/original/upgrade/home_tech/0242/Stone_Slammer.webp",
+      "logicalPath": "/upgrade/home_tech/0242/Stone_Slammer.png"
+    },
+    {
+      "name": "Stone_Slammer1.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0242/Stone_Slammer1.png",
+      "alt": "1 级",
+      "localPath": "/images/original/upgrade/home_tech/0242/Stone_Slammer1.webp",
+      "logicalPath": "/upgrade/home_tech/0242/Stone_Slammer1.png"
+    },
+    {
+      "name": "Stone_Slammer2.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0242/Stone_Slammer2.png",
+      "alt": "2 级",
+      "localPath": "/images/original/upgrade/home_tech/0242/Stone_Slammer2.webp",
+      "logicalPath": "/upgrade/home_tech/0242/Stone_Slammer2.png"
+    },
+    {
+      "name": "Stone_Slammer3.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0242/Stone_Slammer3.png",
+      "alt": "3 级",
+      "localPath": "/images/original/upgrade/home_tech/0242/Stone_Slammer3.webp",
+      "logicalPath": "/upgrade/home_tech/0242/Stone_Slammer3.png"
+    },
+    {
+      "name": "Stone_Slammer4.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0242/Stone_Slammer4.png",
+      "alt": "4 级",
+      "localPath": "/images/original/upgrade/home_tech/0242/Stone_Slammer4.webp",
+      "logicalPath": "/upgrade/home_tech/0242/Stone_Slammer4.png"
+    },
+    {
+      "name": "Stone_Slammer5.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0242/Stone_Slammer5.png",
+      "alt": "5 级",
+      "localPath": "/images/original/upgrade/home_tech/0242/Stone_Slammer5.webp",
+      "logicalPath": "/upgrade/home_tech/0242/Stone_Slammer5.png"
+    },
+    {
+      "name": "Stone_Slammer6.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0242/Stone_Slammer6.png",
+      "alt": "6 级",
+      "localPath": "/images/original/upgrade/home_tech/0242/Stone_Slammer6.webp",
+      "logicalPath": "/upgrade/home_tech/0242/Stone_Slammer6.png"
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-02-23",
+      "description": "Added the level 6 Stone Slammer. Stone Slammer6"
+    }
+  ],
+  "facts": [
+    "The Stone Slammer is the third Siege Machine unlocked at Workshop level 3, which requires Town Hall level 12."
+  ],
+  "notices": []
+}

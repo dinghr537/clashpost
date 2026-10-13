@@ -1,72 +1,39 @@
-# 升级数据结构约定
+# 当前升级数据结构
 
-这是后续迁移的结构约定，当前页面仍以原 Markdown 为数据来源。差异报告是核对产物，不直接作为页面的数据文件。
+已同步单位的数据保存在 `docs/.vitepress/theme/assets/unit-data/<unitId>.json`，同名 Markdown 只保留页面元数据并调用 `SyncedUnitData.vue`。未同步的往期活动单位暂保留原 Markdown。
 
-## 单位与等级
+## 来源和范围
 
-- `unitId` 沿用页面单位 ID，例如 `0200-Barbarian-King`。
-- `village` 区分 `home`、`builder`、`capital`。
-- `mode` 标识标准、改装等模式；不同模式分开记录。
-- 等级保存在 `levels`。每个等级拥有 `variants`，没有分支条件也明确提供一个默认变体。
-- 同等级可以有多个互斥条件变体，以 `variantId` 区分，不能仅按等级去重。
+`unitId` 沿用原项目编号，`module` 区分家乡、夜世界、都城和活动单位。家乡精工防御与夜世界同名建筑拥有不同编号。
 
-## 字段状态
+`sync` 保存来源 URL、固定 Wiki 修订链接、修订号、同步日期、状态和范围。`synced` 表示已经采用该来源的统计表，不表示独立核验了游戏数值，也不表示完整的更新历史。
 
-数值字段使用 `{ "status": "known", "value": 120 }`，数值为非负整数。`value: 0` 是明确的零，不等于未知或不适用。
+## 表格和条件
 
-不适用使用 `{ "status": "not_applicable", "value": null }`；未取得或未解决使用 `{ "status": "unknown", "value": null }`。取自页面时可保留 `raw` 原文与简短 `note`，不能仅用 `null` 代表所有情况。
+`tables` 分开保存来源中不同模式、普通等级、蓄能、数量和属性表。每张表保留 `sourceTableIndex`、章节、标题、完整表头和行。多行表头用 ` / ` 合并分组名；跨行或跨列的单元格展开，所有原始等级与条件行保留。
 
-## 费用、时间与前置条件
+同等级的不同条件不能按等级去重。例如蛮王一级在四、五、六本的属性分支仍是三行。来源缺少前置列时不推导补齐。装备三种矿石费用各占一列，不能覆盖成单一费用；墙的金币、圣水和城墙戒指费用也是独立列。
 
-- `upgradeCosts.status` 为 `known` 时，`value` 是资源到数量的映射，例如 `{ "Shiny_Ore": 240, "Glowy_Ore": 20 }`，表示两种资源同时需要。零消耗用数量 `0` 明确表达，缺失资源不能自动补零。
-- 整体费用未知或不适用时，分别用对应状态和 `value: null`。只有部分资源已知时，整体仍标 `unknown`，可在 `knownParts` 记录已取得的资源数量，避免展示成完整费用。
-- `upgradeTimeSeconds` 存整数秒数。瞬时升级使用已知的 `0`，没有时间字段的适用性需要确认后标记，不能直接从空白推断。
-- `requirements` 保存升级前置条件，例如英雄殿堂、实验室、铁匠铺和大本等级，各条件也保留字段状态。
-- `appliesWhen` 描述变体适用条件；它与升级前置条件分开。例如蛮王一级属性可能随当前大本等级变化。
-- 来源直接给出的前置条件记录 `basis: "source"`。确需从其他表推导时，记录 `basis: "derived"` 和推导依据，不让推导条件看起来像来源原值。
+## 字段状态和数值
 
-示例：地震金靴 3 级的多资源费用与时间字段。这里只示范结构，数值取自现有仓库，尚未同步新来源：
+每个单元格具有 `status`、`value` 和 `raw`：
 
-```json
-{
-  "unitId": "0702-Earthquake-Boots",
-  "village": "home",
-  "mode": "default",
-  "sync": {
-    "sourceUrl": null,
-    "syncedOn": null,
-    "scope": "legacy upgrade table",
-    "status": "legacy"
-  },
-  "levels": [
-    {
-      "level": 3,
-      "variants": [
-        {
-          "variantId": "default",
-          "appliesWhen": {},
-          "upgradeCosts": {
-            "status": "known",
-            "value": { "Shiny_Ore": 240, "Glowy_Ore": 20 }
-          },
-          "upgradeTimeSeconds": {
-            "status": "unknown",
-            "value": null,
-            "note": "旧表没有时间列；迁移时确认是否不适用。"
-          },
-          "requirements": {
-            "blacksmithLevel": { "status": "known", "value": 1, "basis": "source" },
-            "townHallLevel": { "status": "known", "value": 8, "basis": "source" }
-          }
-        }
-      ]
-    }
-  ]
-}
-```
+- `known`：明确的数值或原文。`value: 0` 是确定的零；`Free` 转为零。
+- `not_applicable`：来源明确标记不适用，`value: null`。前置条件或时间的 `N/A`、`None` 不等于零。攻击偏好的 `None` 则表示“无偏好”，保留为已知文本。
+- `unknown`：来源空白、问号或条件未给出可用值，`value: null`。排版中的空表头也保留原始空白；数量表的重复行标题只在展示层复用。
 
-## 同步信息与发布检查
+数值可以是整数或小数；其他带单位、百分比、范围、倍率或条件的内容保留原文。升级时间额外保存 `unit: "seconds"` 和整数秒数；`displayInput` 使用原月卡组件的天、小时、分、秒格式，不能把时间当普通数字显示。
 
-`sync` 至少记录 `sourceUrl`、`syncedOn`、`scope` 和 `status`（`legacy`、`partial`、`synced`）。`synced` 表示这一范围正确同步了指定来源，不表示独立验证了游戏数值。可取得修订号或版本时补充记录。
+## 月卡展示
 
-若同一单位部分等级或字段采用不同来源，其变体或字段应覆盖默认 `sync` 信息，避免整页被误标为全部同步。实际迁移时先检查单位和模式、等级与变体组合、费用资源、字段状态与数值是否合法，再生成页面。
+`extraInfo` 指定费用资源、时间列、建筑或研究折扣类型，以及 `noGoldPass`。费用资源来自对应表头图标或明确的资源名称。宝石、矿石、城墙戒指、累计基础费用、加速价格和都城金不参与升级月卡折扣。
+
+存储值始终为基础值，月卡在页面计算。未知和不适用的单元格跳过计算。一般属性和矿石容量不会被当作升级费用。
+
+## 图片和历史
+
+`images` 保存确切单位的本地路径及来源。优先使用原站图片，只从同一单位的 Wiki 页面补充新单位、新等级或缺失图片；不跨村庄匹配同名建筑。补图来源和修订链接保存于 `docs/public/images/wiki-sources.json`。
+
+`history` 保存来源可取得的 2026 年日期和变更描述，不能视为游戏完整修订记录。官网公告、活动开放时间或 Clash Ninja 补充条目单独保留 `sourceUrl` 与类型；公告日、来源记录日和本站同步日不混为一谈。
+
+`facts` 只保留简短的数字条件与能力参数。`notices` 说明已停用蓄能、已结束活动等特殊状态。攻略、投资回报比较和装备旧迁移表不作为当前升级数据导入。

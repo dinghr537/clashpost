@@ -1,0 +1,470 @@
+{
+  "unitId": "060b-Rocket-Balloon",
+  "title": "火箭气球兵",
+  "originalName": "Rocket Balloon",
+  "module": "upgrade-home",
+  "imgFolder": "home_tech/060b",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Rocket_Balloon",
+    "revision": 588358,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Rocket_Balloon?oldid=588358",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 1,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Preferred Target",
+        "Attack Type",
+        "Housing Space",
+        "Movement Speed",
+        "Attack Speed",
+        "Range",
+        "Death Damage Radius",
+        "Special Ability",
+        "Boosters Movement Speed Increase"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "Defenses",
+            "raw": "Defenses"
+          },
+          {
+            "status": "known",
+            "value": "Area Splash",
+            "raw": "Area Splash"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          },
+          {
+            "status": "known",
+            "value": "3s",
+            "raw": "3s"
+          },
+          {
+            "status": "known",
+            "value": "0.5 tiles",
+            "raw": "0.5 tiles"
+          },
+          {
+            "status": "known",
+            "value": "1.2 tiles",
+            "raw": "1.2 tiles"
+          },
+          {
+            "status": "known",
+            "value": "Boosters",
+            "raw": "Boosters"
+          },
+          {
+            "status": "known",
+            "value": 52,
+            "raw": "52"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 2,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Boost Cost",
+        "Boost Duration",
+        "Balloon Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 25000,
+            "raw": "25,000"
+          },
+          {
+            "status": "known",
+            "value": "3d",
+            "raw": "3d"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 0,
+          "type": "cost",
+          "icon": "Dark_Elixir",
+          "gpClass": "research",
+          "noGoldPass": true
+        }
+      ]
+    },
+    {
+      "sourceTableIndex": 3,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Level",
+        "Damage per Second",
+        "Damage per Attack",
+        "Damage Upon Death",
+        "Hitpoints",
+        "Town Hall Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 170,
+            "raw": "170"
+          },
+          {
+            "status": "known",
+            "value": 510,
+            "raw": "510"
+          },
+          {
+            "status": "known",
+            "value": 300,
+            "raw": "300"
+          },
+          {
+            "status": "known",
+            "value": 390,
+            "raw": "390"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 220,
+            "raw": "220"
+          },
+          {
+            "status": "known",
+            "value": 660,
+            "raw": "660"
+          },
+          {
+            "status": "known",
+            "value": 400,
+            "raw": "400"
+          },
+          {
+            "status": "known",
+            "value": 545,
+            "raw": "545"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": 260,
+            "raw": "260"
+          },
+          {
+            "status": "known",
+            "value": 780,
+            "raw": "780"
+          },
+          {
+            "status": "known",
+            "value": 500,
+            "raw": "500"
+          },
+          {
+            "status": "known",
+            "value": 690,
+            "raw": "690"
+          },
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": 270,
+            "raw": "270"
+          },
+          {
+            "status": "known",
+            "value": 810,
+            "raw": "810"
+          },
+          {
+            "status": "known",
+            "value": 580,
+            "raw": "580"
+          },
+          {
+            "status": "known",
+            "value": 840,
+            "raw": "840"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          },
+          {
+            "status": "known",
+            "value": 280,
+            "raw": "280"
+          },
+          {
+            "status": "known",
+            "value": 840,
+            "raw": "840"
+          },
+          {
+            "status": "known",
+            "value": 620,
+            "raw": "620"
+          },
+          {
+            "status": "known",
+            "value": 940,
+            "raw": "940"
+          },
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 285,
+            "raw": "285"
+          },
+          {
+            "status": "known",
+            "value": 855,
+            "raw": "855"
+          },
+          {
+            "status": "known",
+            "value": 650,
+            "raw": "650"
+          },
+          {
+            "status": "known",
+            "value": 1040,
+            "raw": "1,040"
+          },
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          },
+          {
+            "status": "known",
+            "value": 290,
+            "raw": "290"
+          },
+          {
+            "status": "known",
+            "value": 870,
+            "raw": "870"
+          },
+          {
+            "status": "known",
+            "value": 700,
+            "raw": "700"
+          },
+          {
+            "status": "known",
+            "value": 1140,
+            "raw": "1,140"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          },
+          {
+            "status": "known",
+            "value": 304,
+            "raw": "304"
+          },
+          {
+            "status": "known",
+            "value": 912,
+            "raw": "912"
+          },
+          {
+            "status": "known",
+            "value": 730,
+            "raw": "730"
+          },
+          {
+            "status": "known",
+            "value": 1240,
+            "raw": "1,240"
+          },
+          {
+            "status": "known",
+            "value": 17,
+            "raw": "17"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          },
+          {
+            "status": "known",
+            "value": 326,
+            "raw": "326"
+          },
+          {
+            "status": "known",
+            "value": 978,
+            "raw": "978"
+          },
+          {
+            "status": "known",
+            "value": 760,
+            "raw": "760"
+          },
+          {
+            "status": "known",
+            "value": 1360,
+            "raw": "1,360"
+          },
+          {
+            "status": "known",
+            "value": 18,
+            "raw": "18"
+          }
+        ]
+      ],
+      "extraInfo": []
+    }
+  ],
+  "images": [
+    {
+      "name": "Rocket_Balloon_info.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/060b/Rocket_Balloon_info.png",
+      "alt": "火箭气球兵",
+      "localPath": "/images/original/upgrade/home_tech/060b/Rocket_Balloon_info.webp",
+      "logicalPath": "/upgrade/home_tech/060b/Rocket_Balloon_info.png"
+    },
+    {
+      "name": "Rocket_Balloon8.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/060b/Rocket_Balloon8.png",
+      "alt": "所有等级",
+      "localPath": "/images/original/upgrade/home_tech/060b/Rocket_Balloon8.webp",
+      "logicalPath": "/upgrade/home_tech/060b/Rocket_Balloon8.png"
+    },
+    {
+      "name": "Rocket_Balloon_info_2.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/8/8b/Rocket_Balloon_info_2.png/revision/latest/scale-to-width-down/169?cb=20260102101121",
+      "alt": "",
+      "localPath": "/images/wiki/060b-Rocket-Balloon/de8a5f9cbe-Rocket_Balloon_info_2.png",
+      "logicalPath": "/upgrade/home_tech/060b/Rocket_Balloon_info_2.png"
+    },
+    {
+      "name": "Rocket_Balloon_Concept_Art1.jpg",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/5/5b/Rocket_Balloon_Concept_Art1.jpg/revision/latest/scale-to-width-down/185?cb=20250825162114",
+      "alt": "Concepts design of Rocket Balloon.",
+      "localPath": "/images/wiki/060b-Rocket-Balloon/f7ed38cf11-Rocket_Balloon_Concept_Art1.jpg",
+      "logicalPath": "/upgrade/home_tech/060b/Rocket_Balloon_Concept_Art1.jpg"
+    },
+    {
+      "name": "Rocket_Balloon_Concept_Art2.jpg",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/0/00/Rocket_Balloon_Concept_Art2.jpg/revision/latest/scale-to-width-down/185?cb=20250825162212",
+      "alt": "Ditto.",
+      "localPath": "/images/wiki/060b-Rocket-Balloon/d85c7a6cf8-Rocket_Balloon_Concept_Art2.jpg",
+      "logicalPath": "/upgrade/home_tech/060b/Rocket_Balloon_Concept_Art2.jpg"
+    }
+  ],
+  "history": [],
+  "facts": [
+    "The Rocket Balloon is a Super Troop based on the Balloon. It can be unlocked by boosting the Balloon when the Balloon is at least level 8.",
+    "Boosting the Balloon requires 25,000 Dark Elixir or a Super Potion, and doing so allows the Balloon to be boosted for 3 days. The level of Rocket Balloon you obtain from the boost corresponds to the level of Balloon you have.",
+    "Because of the level requirement, players require Town Hall 12 in order to boost Balloons into Rocket Balloons. However, because of the Laboratory level cap, players require a level 6 Clan Castle or greater in order to get donated one, allowing anyone Town Hall 10 or above to get one."
+  ],
+  "notices": []
+}

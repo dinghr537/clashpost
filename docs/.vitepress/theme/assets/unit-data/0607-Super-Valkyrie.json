@@ -1,0 +1,312 @@
+{
+  "unitId": "0607-Super-Valkyrie",
+  "title": "超级瓦基丽武神",
+  "originalName": "Super Valkyrie",
+  "module": "upgrade-home",
+  "imgFolder": "home_tech/0607",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Super_Valkyrie",
+    "revision": 622824,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Super_Valkyrie?oldid=622824",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 1,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Preferred Target",
+        "Attack Type",
+        "Housing Space",
+        "Movement Speed",
+        "Attack Speed",
+        "Range",
+        "Special Ability"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "None",
+            "raw": "None"
+          },
+          {
+            "status": "known",
+            "value": "Area Splash (Ground Only)",
+            "raw": "Area Splash (Ground Only)"
+          },
+          {
+            "status": "known",
+            "value": 20,
+            "raw": "20"
+          },
+          {
+            "status": "known",
+            "value": 24,
+            "raw": "24"
+          },
+          {
+            "status": "known",
+            "value": "1.1s",
+            "raw": "1.1s"
+          },
+          {
+            "status": "known",
+            "value": "0.6 tiles",
+            "raw": "0.6 tiles"
+          },
+          {
+            "status": "known",
+            "value": "Farewell Gift",
+            "raw": "Farewell Gift"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 2,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Boost Cost",
+        "Boost Duration",
+        "Valkyrie Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 25000,
+            "raw": "25,000"
+          },
+          {
+            "status": "known",
+            "value": "3d",
+            "raw": "3d"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 0,
+          "type": "cost",
+          "icon": "Dark_Elixir",
+          "gpClass": "research",
+          "noGoldPass": true
+        }
+      ]
+    },
+    {
+      "sourceTableIndex": 3,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Level",
+        "Damage per Second",
+        "Damage per Hit",
+        "Hitpoints"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": 250,
+            "raw": "250"
+          },
+          {
+            "status": "known",
+            "value": 275,
+            "raw": "275"
+          },
+          {
+            "status": "known",
+            "value": 2400,
+            "raw": "2,400"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": 300,
+            "raw": "300"
+          },
+          {
+            "status": "known",
+            "value": 330,
+            "raw": "330"
+          },
+          {
+            "status": "known",
+            "value": 2700,
+            "raw": "2,700"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          },
+          {
+            "status": "known",
+            "value": 325,
+            "raw": "325"
+          },
+          {
+            "status": "known",
+            "value": 357.5,
+            "raw": "357.5"
+          },
+          {
+            "status": "known",
+            "value": 2900,
+            "raw": "2,900"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 350,
+            "raw": "350"
+          },
+          {
+            "status": "known",
+            "value": 385,
+            "raw": "385"
+          },
+          {
+            "status": "known",
+            "value": 3400,
+            "raw": "3,400"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          },
+          {
+            "status": "known",
+            "value": 375,
+            "raw": "375"
+          },
+          {
+            "status": "known",
+            "value": 412.5,
+            "raw": "412.5"
+          },
+          {
+            "status": "known",
+            "value": 3900,
+            "raw": "3,900"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          },
+          {
+            "status": "known",
+            "value": 405,
+            "raw": "405"
+          },
+          {
+            "status": "known",
+            "value": 445.5,
+            "raw": "445.5"
+          },
+          {
+            "status": "known",
+            "value": 4500,
+            "raw": "4,500"
+          }
+        ]
+      ],
+      "extraInfo": []
+    }
+  ],
+  "images": [
+    {
+      "name": "Super_Valkyrie_info.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0607/Super_Valkyrie_info.png",
+      "alt": "超级瓦基丽武神",
+      "localPath": "/images/original/upgrade/home_tech/0607/Super_Valkyrie_info.webp",
+      "logicalPath": "/upgrade/home_tech/0607/Super_Valkyrie_info.png"
+    },
+    {
+      "name": "Super_Valkyrie7.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0607/Super_Valkyrie7.png",
+      "alt": "所有等级",
+      "localPath": "/images/original/upgrade/home_tech/0607/Super_Valkyrie7.webp",
+      "logicalPath": "/upgrade/home_tech/0607/Super_Valkyrie7.png"
+    },
+    {
+      "name": "Super_Valkyrie_info_2.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/2/2b/Super_Valkyrie_info_2.png/revision/latest/scale-to-width-down/126?cb=20260707233548",
+      "alt": "",
+      "localPath": "/images/wiki/0607-Super-Valkyrie/3693f46395-Super_Valkyrie_info_2.png",
+      "logicalPath": "/upgrade/home_tech/0607/Super_Valkyrie_info_2.png"
+    },
+    {
+      "name": "SuperValkyrieConcepts1.jpeg",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/7/7b/SuperValkyrieConcepts1.jpeg/revision/latest/scale-to-width-down/185?cb=20210818002006",
+      "alt": "Concept designs of Super Valkyrie.",
+      "localPath": "/images/wiki/0607-Super-Valkyrie/73bb4f6009-SuperValkyrieConcepts1.jpeg",
+      "logicalPath": "/upgrade/home_tech/0607/SuperValkyrieConcepts1.jpeg"
+    },
+    {
+      "name": "SuperValkyrieConcepts2.jpeg",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/1/14/SuperValkyrieConcepts2.jpeg/revision/latest/scale-to-width-down/185?cb=20210818002009",
+      "alt": "More concept designs of Super Valkyrie.",
+      "localPath": "/images/wiki/0607-Super-Valkyrie/18d77ffa01-SuperValkyrieConcepts2.jpeg",
+      "logicalPath": "/upgrade/home_tech/0607/SuperValkyrieConcepts2.jpeg"
+    },
+    {
+      "name": "Super_Valkyrie_3D_model.jpeg",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/4/4d/Super_Valkyrie_3D_model.jpeg/revision/latest/scale-to-width-down/185?cb=20210820070216",
+      "alt": "3D model of Super Valkyrie.",
+      "localPath": "/images/wiki/0607-Super-Valkyrie/7126d4421f-Super_Valkyrie_3D_model.jpeg",
+      "logicalPath": "/upgrade/home_tech/0607/Super_Valkyrie_3D_model.jpeg"
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-04-27",
+      "description": "Added the level 12 Super Valkyrie."
+    }
+  ],
+  "facts": [
+    "The Super Valkyrie is a Super Troop based on the Valkyrie. It can be unlocked by boosting the Valkyrie when the Valkyrie is at least level 7.",
+    "Boosting the Valkyrie requires 25,000 Dark Elixir or a Super Potion, and doing so allows the Valkyrie to be boosted for 3 days. The level of Super Valkyrie you obtain from the boost corresponds to the level of Valkyrie you have.",
+    "Because of the level requirement, players require Town Hall 12 in order to boost Valkyries into Super Valkyries. However, because of the Laboratory level cap, players require a level 6 Clan Castle or greater in order to get donated one, allowing anyone Town Hall 10 or above to get one."
+  ],
+  "notices": []
+}

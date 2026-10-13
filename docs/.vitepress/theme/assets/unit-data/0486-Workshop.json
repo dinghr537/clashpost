@@ -1,0 +1,711 @@
+{
+  "unitId": "0486-Workshop",
+  "title": "攻城机器工坊",
+  "originalName": "Workshop",
+  "module": "upgrade-home",
+  "imgFolder": "home_buildings/0486",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Workshop",
+    "revision": 624497,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Workshop?oldid=624497",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 1,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Town Hall Level",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "Number Available",
+            "raw": "Number Available"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          }
+        ],
+        [
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          },
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          },
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          },
+          {
+            "status": "known",
+            "value": 15,
+            "raw": "15"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          },
+          {
+            "status": "known",
+            "value": 17,
+            "raw": "17"
+          },
+          {
+            "status": "known",
+            "value": 18,
+            "raw": "18"
+          }
+        ],
+        [
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 2,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Size"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "4x4",
+            "raw": "4x4"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 3,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Level",
+        "Unlocked Siege Machine",
+        "Siege Machine Capacity",
+        "Hitpoints",
+        "Build Cost",
+        "Build Time",
+        "Experience Gained",
+        "Town Hall Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": "Wall Wrecker",
+            "raw": "Wall Wrecker"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1000,
+            "raw": "1,000"
+          },
+          {
+            "status": "known",
+            "value": 2400000,
+            "raw": "2,400,000"
+          },
+          {
+            "status": "known",
+            "value": 172800,
+            "raw": "2d",
+            "unit": "seconds",
+            "displayInput": "2,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 415,
+            "raw": "415"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": "Battle Blimp",
+            "raw": "Battle Blimp"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 1100,
+            "raw": "1,100"
+          },
+          {
+            "status": "known",
+            "value": 3700000,
+            "raw": "3,700,000"
+          },
+          {
+            "status": "known",
+            "value": 259200,
+            "raw": "3d",
+            "unit": "seconds",
+            "displayInput": "3,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 509,
+            "raw": "509"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": "Stone Slammer",
+            "raw": "Stone Slammer"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 1200,
+            "raw": "1,200"
+          },
+          {
+            "status": "known",
+            "value": 5000000,
+            "raw": "5,000,000"
+          },
+          {
+            "status": "known",
+            "value": 302400,
+            "raw": "3d 12h",
+            "unit": "seconds",
+            "displayInput": "3,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 549,
+            "raw": "549"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": "Siege Barracks",
+            "raw": "Siege Barracks"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 1300,
+            "raw": "1,300"
+          },
+          {
+            "status": "known",
+            "value": 8700000,
+            "raw": "8,700,000"
+          },
+          {
+            "status": "known",
+            "value": 345600,
+            "raw": "4d",
+            "unit": "seconds",
+            "displayInput": "4,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 587,
+            "raw": "587"
+          },
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": "Log Launcher",
+            "raw": "Log Launcher"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 1400,
+            "raw": "1,400"
+          },
+          {
+            "status": "known",
+            "value": 9000000,
+            "raw": "9,000,000"
+          },
+          {
+            "status": "known",
+            "value": 432000,
+            "raw": "5d",
+            "unit": "seconds",
+            "displayInput": "5,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 657,
+            "raw": "657"
+          },
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": "Flame Flinger",
+            "raw": "Flame Flinger"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 1500,
+            "raw": "1,500"
+          },
+          {
+            "status": "known",
+            "value": 10000000,
+            "raw": "10,000,000"
+          },
+          {
+            "status": "known",
+            "value": 475200,
+            "raw": "5d 12h",
+            "unit": "seconds",
+            "displayInput": "5,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 689,
+            "raw": "689"
+          },
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": "Battle Drill",
+            "raw": "Battle Drill"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 1600,
+            "raw": "1,600"
+          },
+          {
+            "status": "known",
+            "value": 11000000,
+            "raw": "11,000,000"
+          },
+          {
+            "status": "known",
+            "value": 518400,
+            "raw": "6d",
+            "unit": "seconds",
+            "displayInput": "6,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 720,
+            "raw": "720"
+          },
+          {
+            "status": "known",
+            "value": 15,
+            "raw": "15"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": "Troop Launcher",
+            "raw": "Troop Launcher"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 1700,
+            "raw": "1,700"
+          },
+          {
+            "status": "known",
+            "value": 13000000,
+            "raw": "13,000,000"
+          },
+          {
+            "status": "known",
+            "value": 604800,
+            "raw": "7d",
+            "unit": "seconds",
+            "displayInput": "7,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 777,
+            "raw": "777"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          },
+          {
+            "status": "known",
+            "value": "Sky Wagon",
+            "raw": "Sky Wagon"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 1800,
+            "raw": "1,800"
+          },
+          {
+            "status": "known",
+            "value": 26000000,
+            "raw": "26,000,000"
+          },
+          {
+            "status": "known",
+            "value": 1166400,
+            "raw": "13d 12h",
+            "unit": "seconds",
+            "displayInput": "13,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 1080,
+            "raw": "1,080"
+          },
+          {
+            "status": "known",
+            "value": 17,
+            "raw": "17"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 4,
+          "type": "cost",
+          "icon": "Elixir",
+          "gpClass": "building",
+          "noGoldPass": false
+        },
+        {
+          "column": 5,
+          "type": "time",
+          "gpClass": "building",
+          "noGoldPass": false
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "name": "Workshop8.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0486/Workshop8.png",
+      "alt": "攻城机器工坊",
+      "localPath": "/images/original/upgrade/home_buildings/0486/Workshop8.webp",
+      "logicalPath": "/upgrade/home_buildings/0486/Workshop8.png"
+    },
+    {
+      "name": "Workshop1.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0486/Workshop1.png",
+      "alt": "1 级",
+      "localPath": "/images/original/upgrade/home_buildings/0486/Workshop1.webp",
+      "logicalPath": "/upgrade/home_buildings/0486/Workshop1.png"
+    },
+    {
+      "name": "Workshop2.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0486/Workshop2.png",
+      "alt": "2 级",
+      "localPath": "/images/original/upgrade/home_buildings/0486/Workshop2.webp",
+      "logicalPath": "/upgrade/home_buildings/0486/Workshop2.png"
+    },
+    {
+      "name": "Workshop3.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0486/Workshop3.png",
+      "alt": "3 级",
+      "localPath": "/images/original/upgrade/home_buildings/0486/Workshop3.webp",
+      "logicalPath": "/upgrade/home_buildings/0486/Workshop3.png"
+    },
+    {
+      "name": "Workshop4.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0486/Workshop4.png",
+      "alt": "4 级",
+      "localPath": "/images/original/upgrade/home_buildings/0486/Workshop4.webp",
+      "logicalPath": "/upgrade/home_buildings/0486/Workshop4.png"
+    },
+    {
+      "name": "Workshop5.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0486/Workshop5.png",
+      "alt": "5 级",
+      "localPath": "/images/original/upgrade/home_buildings/0486/Workshop5.webp",
+      "logicalPath": "/upgrade/home_buildings/0486/Workshop5.png"
+    },
+    {
+      "name": "Workshop6.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0486/Workshop6.png",
+      "alt": "6 级",
+      "localPath": "/images/original/upgrade/home_buildings/0486/Workshop6.webp",
+      "logicalPath": "/upgrade/home_buildings/0486/Workshop6.png"
+    },
+    {
+      "name": "Workshop7.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0486/Workshop7.png",
+      "alt": "7 级",
+      "localPath": "/images/original/upgrade/home_buildings/0486/Workshop7.webp",
+      "logicalPath": "/upgrade/home_buildings/0486/Workshop7.png"
+    },
+    {
+      "name": "Workshop9.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/8/8c/Workshop9.png/revision/latest/scale-to-width-down/280?cb=20260426165656",
+      "alt": "Workshop9",
+      "localPath": "/images/wiki/0486-Workshop/1f299e4205-Workshop9.png",
+      "logicalPath": "/upgrade/home_buildings/0486/Workshop9.png"
+    }
+  ],
+  "history": [],
+  "facts": [
+    "The Workshop is an army building that constructs Siege Machines, which are special weapons that carry your Clan Castle troops. Siege Machines are upgraded using Elixir in the Laboratory. The Workshop is unlocked at Town Hall level 12.",
+    "Siege Machines can be donated to players with Clan Castle level 6 or higher."
+  ],
+  "notices": []
+}

@@ -1,0 +1,129 @@
+{
+  "unitId": "2508-Goblin-Hut",
+  "title": "哥布林小屋",
+  "originalName": "Houses",
+  "module": "upgrade-capital",
+  "imgFolder": "capital_buildings/2508",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Houses",
+    "revision": 600144,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Houses?oldid=600144",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 29,
+      "section": "List of Houses",
+      "title": "Goblin Hut",
+      "headers": [
+        "Number Available",
+        "District Hall Level / 1",
+        "District Hall Level / 2",
+        "District Hall Level / 3",
+        "District Hall Level / 4"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "Goblin Mines",
+            "raw": "Goblin Mines"
+          },
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          },
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          },
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          },
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 30,
+      "section": "List of Houses",
+      "title": "Goblin Hut",
+      "headers": [
+        "Size"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "2x2",
+            "raw": "2x2"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 31,
+      "section": "List of Houses",
+      "title": "Goblin Hut",
+      "headers": [
+        "Hitpoints",
+        "Build Cost"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 650,
+            "raw": "650"
+          },
+          {
+            "status": "known",
+            "value": 500,
+            "raw": "500"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 1,
+          "type": "cost",
+          "icon": "Gold3",
+          "gpClass": "building",
+          "noGoldPass": true
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "name": "Goblin_Hut.png",
+      "url": "https://static.clashpost.com/upgrade/capital_buildings/2508/Goblin_Hut.png",
+      "alt": "哥布林小屋",
+      "localPath": "/images/original/upgrade/capital_buildings/2508/Goblin_Hut.webp",
+      "logicalPath": "/upgrade/capital_buildings/2508/Goblin_Hut.png"
+    },
+    {
+      "name": "Goblin_Hut_Ruin.png",
+      "url": "https://static.clashpost.com/upgrade/capital_buildings/2508/Goblin_Hut_Ruin.png",
+      "alt": "废墟",
+      "localPath": "/images/original/upgrade/capital_buildings/2508/Goblin_Hut_Ruin.webp",
+      "logicalPath": "/upgrade/capital_buildings/2508/Goblin_Hut_Ruin.png"
+    }
+  ],
+  "history": [],
+  "facts": [],
+  "notices": []
+}

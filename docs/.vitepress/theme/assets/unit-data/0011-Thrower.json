@@ -1,0 +1,308 @@
+{
+  "unitId": "0011-Thrower",
+  "title": "巨矛投手",
+  "originalName": "Thrower",
+  "module": "upgrade-home",
+  "imgFolder": "home_tech/0011",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Thrower",
+    "revision": 625391,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Thrower?oldid=625391",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 2,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Preferred Target",
+        "Attack Type",
+        "Housing Space",
+        "Movement Speed",
+        "Attack Speed",
+        "Barracks Level Required",
+        "Range"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "None",
+            "raw": "None"
+          },
+          {
+            "status": "known",
+            "value": "Single Target (Ground & Air)",
+            "raw": "Single Target (Ground & Air)"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          },
+          {
+            "status": "known",
+            "value": "2.5s",
+            "raw": "2.5s"
+          },
+          {
+            "status": "known",
+            "value": 18,
+            "raw": "18"
+          },
+          {
+            "status": "known",
+            "value": "6 tiles",
+            "raw": "6 tiles"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 3,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Level",
+        "Damage per Second",
+        "Damage per Attack",
+        "Hitpoints",
+        "Research Cost",
+        "Research Time",
+        "Laboratory Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 190,
+            "raw": "190"
+          },
+          {
+            "status": "known",
+            "value": 475,
+            "raw": "475"
+          },
+          {
+            "status": "known",
+            "value": 2200,
+            "raw": "2,200"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 210,
+            "raw": "210"
+          },
+          {
+            "status": "known",
+            "value": 525,
+            "raw": "525"
+          },
+          {
+            "status": "known",
+            "value": 2350,
+            "raw": "2,350"
+          },
+          {
+            "status": "known",
+            "value": 16000000,
+            "raw": "16,000,000"
+          },
+          {
+            "status": "known",
+            "value": 820800,
+            "raw": "9d 12h",
+            "unit": "seconds",
+            "displayInput": "9,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 220,
+            "raw": "220"
+          },
+          {
+            "status": "known",
+            "value": 550,
+            "raw": "550"
+          },
+          {
+            "status": "known",
+            "value": 2500,
+            "raw": "2,500"
+          },
+          {
+            "status": "known",
+            "value": 18000000,
+            "raw": "18,000,000"
+          },
+          {
+            "status": "known",
+            "value": 907200,
+            "raw": "10d 12h",
+            "unit": "seconds",
+            "displayInput": "10,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 15,
+            "raw": "15"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 230,
+            "raw": "230"
+          },
+          {
+            "status": "known",
+            "value": 575,
+            "raw": "575"
+          },
+          {
+            "status": "known",
+            "value": 2650,
+            "raw": "2,650"
+          },
+          {
+            "status": "known",
+            "value": 27000000,
+            "raw": "27,000,000"
+          },
+          {
+            "status": "known",
+            "value": 1296000,
+            "raw": "15d",
+            "unit": "seconds",
+            "displayInput": "15,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 4,
+          "type": "cost",
+          "icon": "Elixir",
+          "gpClass": "research",
+          "noGoldPass": false
+        },
+        {
+          "column": 5,
+          "type": "time",
+          "gpClass": "research",
+          "noGoldPass": false
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "name": "Thrower_info.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0011/Thrower_info.png",
+      "alt": "巨矛投手",
+      "localPath": "/images/original/upgrade/home_tech/0011/Thrower_info.webp",
+      "logicalPath": "/upgrade/home_tech/0011/Thrower_info.png"
+    },
+    {
+      "name": "Thrower1.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0011/Thrower1.png",
+      "alt": "1 级",
+      "localPath": "/images/original/upgrade/home_tech/0011/Thrower1.webp",
+      "logicalPath": "/upgrade/home_tech/0011/Thrower1.png"
+    },
+    {
+      "name": "Thrower2.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0011/Thrower2.png",
+      "alt": "2 级",
+      "localPath": "/images/original/upgrade/home_tech/0011/Thrower2.webp",
+      "logicalPath": "/upgrade/home_tech/0011/Thrower2.png"
+    },
+    {
+      "name": "Thrower3.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0011/Thrower3.png",
+      "alt": "3 级",
+      "localPath": "/images/original/upgrade/home_tech/0011/Thrower3.webp",
+      "logicalPath": "/upgrade/home_tech/0011/Thrower3.png"
+    },
+    {
+      "name": "Thrower4.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0011/Thrower4.png",
+      "alt": "4 级",
+      "localPath": "/images/original/upgrade/home_tech/0011/Thrower4.webp",
+      "logicalPath": "/upgrade/home_tech/0011/Thrower4.png"
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-02-23",
+      "description": "Reduced hitpoints at level 4 from 2,900 to 2,800. Hitpoints Reduced damage at level 4 from 250 to 240. Damage"
+    },
+    {
+      "date": "2026-09-22",
+      "description": "Reduced movement speed from 18 to 16. Movement Speed Reduced hitpoints at levels 3 and 4: Level 3: 2,600 -> 2,500 Hitpoints Level 4: 2,800 -> 2,650 Hitpoints Reduced damages at levels 3 and 4: Level 3: 230 -> 220 Damage Level 4: 240 -> 230 Damage"
+    }
+  ],
+  "facts": [
+    "The Thrower is the eighteenth Elixir troop unlocked at Barracks level 18, which requires Town Hall level 16. He is a ground unit with moderate hitpoints and damage but has a long attack range, which can hit both ground and air targets."
+  ],
+  "notices": []
+}

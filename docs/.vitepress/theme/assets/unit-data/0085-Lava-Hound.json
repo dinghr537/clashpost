@@ -1,0 +1,649 @@
+{
+  "unitId": "0085-Lava-Hound",
+  "title": "熔岩猎犬",
+  "originalName": "Lava Hound",
+  "module": "upgrade-home",
+  "imgFolder": "home_tech/0085",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Lava_Hound",
+    "revision": 624357,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Lava_Hound?oldid=624357",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 2,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Preferred Target",
+        "Attack Type",
+        "Housing Space",
+        "Movement Speed",
+        "Attack Speed",
+        "Dark Barracks Level Required",
+        "Range"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "Air Defense",
+            "raw": "Air Defense"
+          },
+          {
+            "status": "known",
+            "value": "Melee (Ground Only)",
+            "raw": "Melee (Ground Only)"
+          },
+          {
+            "status": "known",
+            "value": 30,
+            "raw": "30"
+          },
+          {
+            "status": "known",
+            "value": 20,
+            "raw": "20"
+          },
+          {
+            "status": "known",
+            "value": "2s",
+            "raw": "2s"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": "1 tile",
+            "raw": "1 tile"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 3,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Level",
+        "Damage per Second",
+        "Damage per Hit",
+        "Damage Upon Death",
+        "Lava Pups Spawned (After Death) / On Offense",
+        "Lava Pups Spawned (After Death) / On Defense",
+        "Hitpoints",
+        "Research Cost",
+        "Research Time",
+        "Laboratory Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 20,
+            "raw": "20"
+          },
+          {
+            "status": "known",
+            "value": 100,
+            "raw": "100"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": 6100,
+            "raw": "6,100"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          },
+          {
+            "status": "known",
+            "value": 24,
+            "raw": "24"
+          },
+          {
+            "status": "known",
+            "value": 150,
+            "raw": "150"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          },
+          {
+            "status": "known",
+            "value": 6500,
+            "raw": "6,500"
+          },
+          {
+            "status": "known",
+            "value": 14000,
+            "raw": "14,000"
+          },
+          {
+            "status": "known",
+            "value": 172800,
+            "raw": "2d",
+            "unit": "seconds",
+            "displayInput": "2,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          },
+          {
+            "status": "known",
+            "value": 28,
+            "raw": "28"
+          },
+          {
+            "status": "known",
+            "value": 200,
+            "raw": "200"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 6800,
+            "raw": "6,800"
+          },
+          {
+            "status": "known",
+            "value": 21500,
+            "raw": "21,500"
+          },
+          {
+            "status": "known",
+            "value": 216000,
+            "raw": "2d 12h",
+            "unit": "seconds",
+            "displayInput": "2,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          },
+          {
+            "status": "known",
+            "value": 32,
+            "raw": "32"
+          },
+          {
+            "status": "known",
+            "value": 250,
+            "raw": "250"
+          },
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          },
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          },
+          {
+            "status": "known",
+            "value": 7200,
+            "raw": "7,200"
+          },
+          {
+            "status": "known",
+            "value": 42500,
+            "raw": "42,500"
+          },
+          {
+            "status": "known",
+            "value": 259200,
+            "raw": "3d",
+            "unit": "seconds",
+            "displayInput": "3,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 18,
+            "raw": "18"
+          },
+          {
+            "status": "known",
+            "value": 36,
+            "raw": "36"
+          },
+          {
+            "status": "known",
+            "value": 300,
+            "raw": "300"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          },
+          {
+            "status": "known",
+            "value": 7600,
+            "raw": "7,600"
+          },
+          {
+            "status": "known",
+            "value": 60000,
+            "raw": "60,000"
+          },
+          {
+            "status": "known",
+            "value": 345600,
+            "raw": "4d",
+            "unit": "seconds",
+            "displayInput": "4,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 20,
+            "raw": "20"
+          },
+          {
+            "status": "known",
+            "value": 40,
+            "raw": "40"
+          },
+          {
+            "status": "known",
+            "value": 350,
+            "raw": "350"
+          },
+          {
+            "status": "known",
+            "value": 18,
+            "raw": "18"
+          },
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          },
+          {
+            "status": "known",
+            "value": 8000,
+            "raw": "8,000"
+          },
+          {
+            "status": "known",
+            "value": 80000,
+            "raw": "80,000"
+          },
+          {
+            "status": "known",
+            "value": 604800,
+            "raw": "7d",
+            "unit": "seconds",
+            "displayInput": "7,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": 22,
+            "raw": "22"
+          },
+          {
+            "status": "known",
+            "value": 44,
+            "raw": "44"
+          },
+          {
+            "status": "known",
+            "value": 400,
+            "raw": "400"
+          },
+          {
+            "status": "known",
+            "value": 20,
+            "raw": "20"
+          },
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          },
+          {
+            "status": "known",
+            "value": 8500,
+            "raw": "8,500"
+          },
+          {
+            "status": "known",
+            "value": 200000,
+            "raw": "200,000"
+          },
+          {
+            "status": "known",
+            "value": 691200,
+            "raw": "8d",
+            "unit": "seconds",
+            "displayInput": "8,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": 24,
+            "raw": "24"
+          },
+          {
+            "status": "known",
+            "value": 48,
+            "raw": "48"
+          },
+          {
+            "status": "known",
+            "value": 450,
+            "raw": "450"
+          },
+          {
+            "status": "known",
+            "value": 22,
+            "raw": "22"
+          },
+          {
+            "status": "known",
+            "value": 15,
+            "raw": "15"
+          },
+          {
+            "status": "known",
+            "value": 9500,
+            "raw": "9,500"
+          },
+          {
+            "status": "known",
+            "value": 345000,
+            "raw": "345,000"
+          },
+          {
+            "status": "known",
+            "value": 1317600,
+            "raw": "15d 6h",
+            "unit": "seconds",
+            "displayInput": "15,6,0,0"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 7,
+          "type": "cost",
+          "icon": "Dark_Elixir",
+          "gpClass": "research",
+          "noGoldPass": false
+        },
+        {
+          "column": 8,
+          "type": "time",
+          "gpClass": "research",
+          "noGoldPass": false
+        }
+      ]
+    },
+    {
+      "sourceTableIndex": 4,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Super Troop",
+        "Boost Cost",
+        "Lava Hound Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "Ice Hound",
+            "raw": "Ice Hound"
+          },
+          {
+            "status": "known",
+            "value": 25000,
+            "raw": "25,000"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 1,
+          "type": "cost",
+          "icon": "Dark_Elixir",
+          "gpClass": "research",
+          "noGoldPass": true
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "name": "Lava_Hound_info.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0085/Lava_Hound_info.png",
+      "alt": "熔岩猎犬",
+      "localPath": "/images/original/upgrade/home_tech/0085/Lava_Hound_info.webp",
+      "logicalPath": "/upgrade/home_tech/0085/Lava_Hound_info.png"
+    },
+    {
+      "name": "Lava_Hound1.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0085/Lava_Hound1.png",
+      "alt": "1 - 2 级",
+      "localPath": "/images/original/upgrade/home_tech/0085/Lava_Hound1.webp",
+      "logicalPath": "/upgrade/home_tech/0085/Lava_Hound1.png"
+    },
+    {
+      "name": "Lava_Hound3.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0085/Lava_Hound3.png",
+      "alt": "3 级",
+      "localPath": "/images/original/upgrade/home_tech/0085/Lava_Hound3.webp",
+      "logicalPath": "/upgrade/home_tech/0085/Lava_Hound3.png"
+    },
+    {
+      "name": "Lava_Hound4.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0085/Lava_Hound4.png",
+      "alt": "4 级",
+      "localPath": "/images/original/upgrade/home_tech/0085/Lava_Hound4.webp",
+      "logicalPath": "/upgrade/home_tech/0085/Lava_Hound4.png"
+    },
+    {
+      "name": "Lava_Hound5.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0085/Lava_Hound5.png",
+      "alt": "5 级",
+      "localPath": "/images/original/upgrade/home_tech/0085/Lava_Hound5.webp",
+      "logicalPath": "/upgrade/home_tech/0085/Lava_Hound5.png"
+    },
+    {
+      "name": "Lava_Hound6.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0085/Lava_Hound6.png",
+      "alt": "6 级",
+      "localPath": "/images/original/upgrade/home_tech/0085/Lava_Hound6.webp",
+      "logicalPath": "/upgrade/home_tech/0085/Lava_Hound6.png"
+    },
+    {
+      "name": "Lava_Hound7.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0085/Lava_Hound7.png",
+      "alt": "7 级",
+      "localPath": "/images/original/upgrade/home_tech/0085/Lava_Hound7.webp",
+      "logicalPath": "/upgrade/home_tech/0085/Lava_Hound7.png"
+    },
+    {
+      "name": "Lava_Hound8.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0085/Lava_Hound8.png",
+      "alt": "8 级",
+      "localPath": "/images/original/upgrade/home_tech/0085/Lava_Hound8.webp",
+      "logicalPath": "/upgrade/home_tech/0085/Lava_Hound8.png"
+    },
+    {
+      "name": "Lava_Pup.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0085/Lava_Pup.png",
+      "alt": "迷你熔岩猎犬",
+      "localPath": "/images/original/upgrade/home_tech/0085/Lava_Pup.webp",
+      "logicalPath": "/upgrade/home_tech/0085/Lava_Pup.png"
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-02-23",
+      "description": "Added the level 8 Lava hound. Lava Hound8"
+    }
+  ],
+  "facts": [
+    "The Lava Hound is the sixth Dark Elixir Troop unlocked at Dark Barracks level 6, which requires Town Hall level 9. He is a high-hitpoint aerial tank with low damage and moderate speed."
+  ],
+  "notices": []
+}

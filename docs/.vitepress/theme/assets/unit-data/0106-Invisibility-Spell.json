@@ -1,0 +1,203 @@
+{
+  "unitId": "0106-Invisibility-Spell",
+  "title": "隐形法术",
+  "originalName": "Invisibility Spell",
+  "module": "upgrade-home",
+  "imgFolder": "home_tech/0106",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Invisibility_Spell",
+    "revision": 623168,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Invisibility_Spell?oldid=623168",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 1,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Effect Radius",
+        "Housing Space",
+        "Spell Factory Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "4 tiles",
+            "raw": "4 tiles"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 2,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Level",
+        "Duration",
+        "Research Cost",
+        "Research Time",
+        "Laboratory Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": "3.5s",
+            "raw": "3.5s"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": "3.75s",
+            "raw": "3.75s"
+          },
+          {
+            "status": "known",
+            "value": 5000000,
+            "raw": "5,000,000"
+          },
+          {
+            "status": "known",
+            "value": 259200,
+            "raw": "3d",
+            "unit": "seconds",
+            "displayInput": "3,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": "4s",
+            "raw": "4s"
+          },
+          {
+            "status": "known",
+            "value": 6000000,
+            "raw": "6,000,000"
+          },
+          {
+            "status": "known",
+            "value": 345600,
+            "raw": "4d",
+            "unit": "seconds",
+            "displayInput": "4,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": "4.25s",
+            "raw": "4.25s"
+          },
+          {
+            "status": "known",
+            "value": 7000000,
+            "raw": "7,000,000"
+          },
+          {
+            "status": "known",
+            "value": 432000,
+            "raw": "5d",
+            "unit": "seconds",
+            "displayInput": "5,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 2,
+          "type": "cost",
+          "icon": "Elixir",
+          "gpClass": "research",
+          "noGoldPass": false
+        },
+        {
+          "column": 3,
+          "type": "time",
+          "gpClass": "research",
+          "noGoldPass": false
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "name": "Invisibility_Spell.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0106/Invisibility_Spell.png",
+      "alt": "隐形法术",
+      "localPath": "/images/original/upgrade/home_tech/0106/Invisibility_Spell.webp",
+      "logicalPath": "/upgrade/home_tech/0106/Invisibility_Spell.png"
+    }
+  ],
+  "history": [],
+  "facts": [],
+  "notices": []
+}

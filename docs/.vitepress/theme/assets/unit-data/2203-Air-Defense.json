@@ -1,0 +1,688 @@
+{
+  "unitId": "2203-Air-Defense",
+  "title": "防空火箭",
+  "originalName": "Air Defense",
+  "module": "upgrade-capital",
+  "imgFolder": "capital_buildings/2203",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Air_Defense",
+    "revision": 603809,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Air_Defense?oldid=603809",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 3,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Capital Hall Level",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "Number Available",
+            "raw": "Number Available"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 4,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Size"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "2x2",
+            "raw": "2x2"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 5,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Number Available",
+        "District Hall Level / 1",
+        "District Hall Level / 2",
+        "District Hall Level / 3",
+        "District Hall Level / 4",
+        "District Hall Level / 5"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "Barbarian Camp",
+            "raw": "Barbarian Camp"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": "Wizard Valley",
+            "raw": "Wizard Valley"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": "Balloon Lagoon",
+            "raw": "Balloon Lagoon"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": "Builder's Workshop",
+            "raw": "Builder's Workshop"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": "Dragon Cliffs",
+            "raw": "Dragon Cliffs"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": "Golem Quarry",
+            "raw": "Golem Quarry"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": "Skeleton Park",
+            "raw": "Skeleton Park"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": "Goblin Mines",
+            "raw": "Goblin Mines"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 6,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Level",
+        "Damage per Second",
+        "Damage per Shot",
+        "Hitpoints",
+        "Build Cost",
+        "Capital Hall Level Required",
+        "District Hall Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 260,
+            "raw": "260"
+          },
+          {
+            "status": "known",
+            "value": 390,
+            "raw": "390"
+          },
+          {
+            "status": "known",
+            "value": 1400,
+            "raw": "1,400"
+          },
+          {
+            "status": "known",
+            "value": 3500,
+            "raw": "3,500"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 290,
+            "raw": "290"
+          },
+          {
+            "status": "known",
+            "value": 435,
+            "raw": "435"
+          },
+          {
+            "status": "known",
+            "value": 1500,
+            "raw": "1,500"
+          },
+          {
+            "status": "known",
+            "value": 7000,
+            "raw": "7,000"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 320,
+            "raw": "320"
+          },
+          {
+            "status": "known",
+            "value": 480,
+            "raw": "480"
+          },
+          {
+            "status": "known",
+            "value": 1600,
+            "raw": "1,600"
+          },
+          {
+            "status": "known",
+            "value": 14000,
+            "raw": "14,000"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 350,
+            "raw": "350"
+          },
+          {
+            "status": "known",
+            "value": 525,
+            "raw": "525"
+          },
+          {
+            "status": "known",
+            "value": 1700,
+            "raw": "1,700"
+          },
+          {
+            "status": "known",
+            "value": 24000,
+            "raw": "24,000"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 380,
+            "raw": "380"
+          },
+          {
+            "status": "known",
+            "value": 570,
+            "raw": "570"
+          },
+          {
+            "status": "known",
+            "value": 1800,
+            "raw": "1,800"
+          },
+          {
+            "status": "known",
+            "value": 40000,
+            "raw": "40,000"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 4,
+          "type": "cost",
+          "icon": "Gold3",
+          "gpClass": "building",
+          "noGoldPass": true
+        }
+      ]
+    },
+    {
+      "sourceTableIndex": 7,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Range",
+        "Attack Speed",
+        "Damage Type",
+        "Unit Type Targeted"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": "1.5s",
+            "raw": "1.5s"
+          },
+          {
+            "status": "known",
+            "value": "Single Target",
+            "raw": "Single Target"
+          },
+          {
+            "status": "known",
+            "value": "Air",
+            "raw": "Air"
+          }
+        ]
+      ],
+      "extraInfo": []
+    }
+  ],
+  "images": [
+    {
+      "name": "Air_Defense5.png",
+      "url": "https://static.clashpost.com/upgrade/capital_buildings/2203/Air_Defense5.png",
+      "alt": "防空火箭",
+      "localPath": "/images/original/upgrade/capital_buildings/2203/Air_Defense5.webp",
+      "logicalPath": "/upgrade/capital_buildings/2203/Air_Defense5.png"
+    },
+    {
+      "name": "Air_Defense_Ruin.png",
+      "url": "https://static.clashpost.com/upgrade/capital_buildings/2203/Air_Defense_Ruin.png",
+      "alt": "废墟",
+      "localPath": "/images/original/upgrade/capital_buildings/2203/Air_Defense_Ruin.webp",
+      "logicalPath": "/upgrade/capital_buildings/2203/Air_Defense_Ruin.png"
+    },
+    {
+      "name": "Air_Defense1.png",
+      "url": "https://static.clashpost.com/upgrade/capital_buildings/2203/Air_Defense1.png",
+      "alt": "1 级",
+      "localPath": "/images/original/upgrade/capital_buildings/2203/Air_Defense1.webp",
+      "logicalPath": "/upgrade/capital_buildings/2203/Air_Defense1.png"
+    },
+    {
+      "name": "Air_Defense2.png",
+      "url": "https://static.clashpost.com/upgrade/capital_buildings/2203/Air_Defense2.png",
+      "alt": "2 级",
+      "localPath": "/images/original/upgrade/capital_buildings/2203/Air_Defense2.webp",
+      "logicalPath": "/upgrade/capital_buildings/2203/Air_Defense2.png"
+    },
+    {
+      "name": "Air_Defense3.png",
+      "url": "https://static.clashpost.com/upgrade/capital_buildings/2203/Air_Defense3.png",
+      "alt": "3 级",
+      "localPath": "/images/original/upgrade/capital_buildings/2203/Air_Defense3.webp",
+      "logicalPath": "/upgrade/capital_buildings/2203/Air_Defense3.png"
+    },
+    {
+      "name": "Air_Defense4.png",
+      "url": "https://static.clashpost.com/upgrade/capital_buildings/2203/Air_Defense4.png",
+      "alt": "4 级",
+      "localPath": "/images/original/upgrade/capital_buildings/2203/Air_Defense4.webp",
+      "logicalPath": "/upgrade/capital_buildings/2203/Air_Defense4.png"
+    },
+    {
+      "name": "Air_Defense5C.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/d/d8/Air_Defense5C.png/revision/latest?cb=20221225050449",
+      "alt": "Air Defense5C",
+      "localPath": "/images/wiki/2203-Air-Defense/4918900145-Air_Defense5C.png",
+      "logicalPath": "/upgrade/capital_buildings/2203/Air_Defense5C.png"
+    }
+  ],
+  "history": [],
+  "facts": [
+    "Air Defenses are among the first defensive buildings unlocked in the Clan Capital, available at Clan Capital level 1. They are the Clan Capital version of the Home Village counterpart."
+  ],
+  "notices": []
+}

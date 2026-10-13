@@ -1,0 +1,125 @@
+{
+  "unitId": "2105-Graveyard-Spell",
+  "title": "骷髅召唤法术",
+  "originalName": "Graveyard Spell",
+  "module": "upgrade-capital",
+  "imgFolder": "capital_tech/2105",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Graveyard_Spell",
+    "revision": 624173,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Graveyard_Spell?oldid=624173",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 2,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Duration",
+        "Housing Space",
+        "Required Spell Factory"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "2 attacks",
+            "raw": "2 attacks"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": "Graveyard Spell Factory",
+            "raw": "Graveyard Spell Factory"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 3,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Level",
+        "Skeleton Count"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 21,
+            "raw": "21"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 24,
+            "raw": "24"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 27,
+            "raw": "27"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 29,
+            "raw": "29"
+          }
+        ]
+      ],
+      "extraInfo": []
+    }
+  ],
+  "images": [
+    {
+      "name": "Graveyard_Spell_info.png",
+      "url": "https://static.clashpost.com/upgrade/capital_tech/2105/Graveyard_Spell_info.png",
+      "alt": "骷髅召唤法术",
+      "localPath": "/images/original/upgrade/capital_tech/2105/Graveyard_Spell_info.webp",
+      "logicalPath": "/upgrade/capital_tech/2105/Graveyard_Spell_info.png"
+    }
+  ],
+  "history": [],
+  "facts": [
+    "The Graveyard Spell is a Spell unlocked in the Clan Capital, available when the Graveyard Spell Factory is constructed (this requires a level 2 District Hall in the Skeleton Park district).",
+    "Ground units defeated and air units defeated are counted separately; for example, if 5 housing space of ground units are defeated while 10 housing space of air units are defeated, only 1 ground Skeleton and 3 air Skeletons will spawn, not 5 total Skeletons.",
+    "Skeletons, whether spawned by this spell or by other means, do not add any housing space. Skeleton Barrels count as 5 housing space, added as soon as they break.",
+    "Battle Rams do not add any housing space when the ram breaks, but each individual Barbarian is worth 1.25 housing space (5 housing space for 4 Barbarians). Siege Carts count as 25 housing space, added when the cart breaks."
+  ],
+  "notices": []
+}

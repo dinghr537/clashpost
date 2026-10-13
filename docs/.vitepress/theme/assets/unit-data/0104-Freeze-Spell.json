@@ -1,0 +1,319 @@
+{
+  "unitId": "0104-Freeze-Spell",
+  "title": "冰冻法术",
+  "originalName": "Freeze Spell",
+  "module": "upgrade-home",
+  "imgFolder": "home_tech/0104",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Freeze_Spell",
+    "revision": 622839,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Freeze_Spell?oldid=622839",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 1,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Radius",
+        "Housing Space",
+        "Spell Factory Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "3.5 tiles",
+            "raw": "3.5 tiles"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 2,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Level",
+        "Freeze Time",
+        "Research Cost",
+        "Research Time",
+        "Laboratory Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": "2.5 seconds",
+            "raw": "2.5 seconds"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": "3.0 seconds",
+            "raw": "3.0 seconds"
+          },
+          {
+            "status": "known",
+            "value": 1200000,
+            "raw": "1,200,000"
+          },
+          {
+            "status": "known",
+            "value": 86400,
+            "raw": "1d",
+            "unit": "seconds",
+            "displayInput": "1,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": "3.5 seconds",
+            "raw": "3.5 seconds"
+          },
+          {
+            "status": "known",
+            "value": 1700000,
+            "raw": "1,700,000"
+          },
+          {
+            "status": "known",
+            "value": 129600,
+            "raw": "1d 12h",
+            "unit": "seconds",
+            "displayInput": "1,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": "4.0 seconds",
+            "raw": "4.0 seconds"
+          },
+          {
+            "status": "known",
+            "value": 3000000,
+            "raw": "3,000,000"
+          },
+          {
+            "status": "known",
+            "value": 172800,
+            "raw": "2d",
+            "unit": "seconds",
+            "displayInput": "2,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": "4.5 seconds",
+            "raw": "4.5 seconds"
+          },
+          {
+            "status": "known",
+            "value": 4200000,
+            "raw": "4,200,000"
+          },
+          {
+            "status": "known",
+            "value": 216000,
+            "raw": "2d 12h",
+            "unit": "seconds",
+            "displayInput": "2,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": "5.0 seconds",
+            "raw": "5.0 seconds"
+          },
+          {
+            "status": "known",
+            "value": 6000000,
+            "raw": "6,000,000"
+          },
+          {
+            "status": "known",
+            "value": 302400,
+            "raw": "3d 12h",
+            "unit": "seconds",
+            "displayInput": "3,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": "5.5 seconds",
+            "raw": "5.5 seconds"
+          },
+          {
+            "status": "known",
+            "value": 7000000,
+            "raw": "7,000,000"
+          },
+          {
+            "status": "known",
+            "value": 432000,
+            "raw": "5d",
+            "unit": "seconds",
+            "displayInput": "5,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": "6.0 seconds",
+            "raw": "6.0 seconds"
+          },
+          {
+            "status": "known",
+            "value": 28000000,
+            "raw": "28,000,000"
+          },
+          {
+            "status": "known",
+            "value": 1339200,
+            "raw": "15d 12h",
+            "unit": "seconds",
+            "displayInput": "15,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 2,
+          "type": "cost",
+          "icon": "Elixir",
+          "gpClass": "research",
+          "noGoldPass": false
+        },
+        {
+          "column": 3,
+          "type": "time",
+          "gpClass": "research",
+          "noGoldPass": false
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "name": "Freeze_Spell.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0104/Freeze_Spell.png",
+      "alt": "冰冻法术",
+      "localPath": "/images/original/upgrade/home_tech/0104/Freeze_Spell.webp",
+      "logicalPath": "/upgrade/home_tech/0104/Freeze_Spell.png"
+    }
+  ],
+  "history": [],
+  "facts": [],
+  "notices": []
+}

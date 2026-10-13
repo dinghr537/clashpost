@@ -1,0 +1,428 @@
+{
+  "unitId": "000e-Dragon-Rider",
+  "title": "龙骑士",
+  "originalName": "Dragon Rider",
+  "module": "upgrade-home",
+  "imgFolder": "home_tech/000e",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Dragon_Rider",
+    "revision": 625318,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Dragon_Rider?oldid=625318",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 2,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Preferred Target",
+        "Attack Type",
+        "Housing Space",
+        "Movement Speed",
+        "Attack Speed",
+        "Range",
+        "Death Damage Radius",
+        "Barracks Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "Defenses",
+            "raw": "Defenses"
+          },
+          {
+            "status": "known",
+            "value": "Single Target",
+            "raw": "Single Target"
+          },
+          {
+            "status": "known",
+            "value": 25,
+            "raw": "25"
+          },
+          {
+            "status": "known",
+            "value": 20,
+            "raw": "20"
+          },
+          {
+            "status": "known",
+            "value": "1.2s",
+            "raw": "1.2s"
+          },
+          {
+            "status": "known",
+            "value": "4 tiles",
+            "raw": "4 tiles"
+          },
+          {
+            "status": "known",
+            "value": "2 tiles",
+            "raw": "2 tiles"
+          },
+          {
+            "status": "known",
+            "value": 15,
+            "raw": "15"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 3,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Level",
+        "Damage per Second",
+        "Damage per Attack",
+        "Damage Upon Death",
+        "Hitpoints",
+        "Research Cost",
+        "Research Time",
+        "Laboratory Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 340,
+            "raw": "340"
+          },
+          {
+            "status": "known",
+            "value": 408,
+            "raw": "408"
+          },
+          {
+            "status": "known",
+            "value": 700,
+            "raw": "700"
+          },
+          {
+            "status": "known",
+            "value": 4100,
+            "raw": "4,100"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 370,
+            "raw": "370"
+          },
+          {
+            "status": "known",
+            "value": 444,
+            "raw": "444"
+          },
+          {
+            "status": "known",
+            "value": 800,
+            "raw": "800"
+          },
+          {
+            "status": "known",
+            "value": 4400,
+            "raw": "4,400"
+          },
+          {
+            "status": "known",
+            "value": 7500000,
+            "raw": "7,500,000"
+          },
+          {
+            "status": "known",
+            "value": 518400,
+            "raw": "6d",
+            "unit": "seconds",
+            "displayInput": "6,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 400,
+            "raw": "400"
+          },
+          {
+            "status": "known",
+            "value": 480,
+            "raw": "480"
+          },
+          {
+            "status": "known",
+            "value": 900,
+            "raw": "900"
+          },
+          {
+            "status": "known",
+            "value": 4700,
+            "raw": "4,700"
+          },
+          {
+            "status": "known",
+            "value": 12000000,
+            "raw": "12,000,000"
+          },
+          {
+            "status": "known",
+            "value": 691200,
+            "raw": "8d",
+            "unit": "seconds",
+            "displayInput": "8,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 430,
+            "raw": "430"
+          },
+          {
+            "status": "known",
+            "value": 516,
+            "raw": "516"
+          },
+          {
+            "status": "known",
+            "value": 1000,
+            "raw": "1,000"
+          },
+          {
+            "status": "known",
+            "value": 5100,
+            "raw": "5,100"
+          },
+          {
+            "status": "known",
+            "value": 14500000,
+            "raw": "14,500,000"
+          },
+          {
+            "status": "known",
+            "value": 777600,
+            "raw": "9d",
+            "unit": "seconds",
+            "displayInput": "9,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 470,
+            "raw": "470"
+          },
+          {
+            "status": "known",
+            "value": 564,
+            "raw": "564"
+          },
+          {
+            "status": "known",
+            "value": 1100,
+            "raw": "1,100"
+          },
+          {
+            "status": "known",
+            "value": 5600,
+            "raw": "5,600"
+          },
+          {
+            "status": "known",
+            "value": 19000000,
+            "raw": "19,000,000"
+          },
+          {
+            "status": "known",
+            "value": 885600,
+            "raw": "10d 6h",
+            "unit": "seconds",
+            "displayInput": "10,6,0,0"
+          },
+          {
+            "status": "known",
+            "value": 15,
+            "raw": "15"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 490,
+            "raw": "490"
+          },
+          {
+            "status": "known",
+            "value": 588,
+            "raw": "588"
+          },
+          {
+            "status": "known",
+            "value": 1200,
+            "raw": "1,200"
+          },
+          {
+            "status": "known",
+            "value": 5900,
+            "raw": "5,900"
+          },
+          {
+            "status": "known",
+            "value": 29500000,
+            "raw": "29,500,000"
+          },
+          {
+            "status": "known",
+            "value": 1339200,
+            "raw": "15d 12h",
+            "unit": "seconds",
+            "displayInput": "15,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 5,
+          "type": "cost",
+          "icon": "Elixir",
+          "gpClass": "research",
+          "noGoldPass": false
+        },
+        {
+          "column": 6,
+          "type": "time",
+          "gpClass": "research",
+          "noGoldPass": false
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "name": "Dragon_Rider_info.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/000e/Dragon_Rider_info.png",
+      "alt": "龙骑士",
+      "localPath": "/images/original/upgrade/home_tech/000e/Dragon_Rider_info.webp",
+      "logicalPath": "/upgrade/home_tech/000e/Dragon_Rider_info.png"
+    },
+    {
+      "name": "Dragon_Rider1.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/000e/Dragon_Rider1.png",
+      "alt": "1 级",
+      "localPath": "/images/original/upgrade/home_tech/000e/Dragon_Rider1.webp",
+      "logicalPath": "/upgrade/home_tech/000e/Dragon_Rider1.png"
+    },
+    {
+      "name": "Dragon_Rider2.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/000e/Dragon_Rider2.png",
+      "alt": "2 级",
+      "localPath": "/images/original/upgrade/home_tech/000e/Dragon_Rider2.webp",
+      "logicalPath": "/upgrade/home_tech/000e/Dragon_Rider2.png"
+    },
+    {
+      "name": "Dragon_Rider3.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/000e/Dragon_Rider3.png",
+      "alt": "3 级",
+      "localPath": "/images/original/upgrade/home_tech/000e/Dragon_Rider3.webp",
+      "logicalPath": "/upgrade/home_tech/000e/Dragon_Rider3.png"
+    },
+    {
+      "name": "Dragon_Rider4.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/000e/Dragon_Rider4.png",
+      "alt": "4 级",
+      "localPath": "/images/original/upgrade/home_tech/000e/Dragon_Rider4.webp",
+      "logicalPath": "/upgrade/home_tech/000e/Dragon_Rider4.png"
+    },
+    {
+      "name": "Dragon_Rider5.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/000e/Dragon_Rider5.png",
+      "alt": "5 级",
+      "localPath": "/images/original/upgrade/home_tech/000e/Dragon_Rider5.webp",
+      "logicalPath": "/upgrade/home_tech/000e/Dragon_Rider5.png"
+    },
+    {
+      "name": "Dragon_Rider6.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/000e/Dragon_Rider6.png",
+      "alt": "6 级",
+      "localPath": "/images/original/upgrade/home_tech/000e/Dragon_Rider6.webp",
+      "logicalPath": "/upgrade/home_tech/000e/Dragon_Rider6.png"
+    }
+  ],
+  "history": [],
+  "facts": [
+    "The Dragon Rider is the fifteenth Elixir Troop unlocked in the Barracks when it has been upgraded to level 15, which requires Town Hall level 13. This flying unit is a mechanized dragon ridden by a Skeleton that prioritizes defenses."
+  ],
+  "notices": []
+}

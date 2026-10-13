@@ -1,0 +1,238 @@
+{
+  "unitId": "0187-Angry-Spell",
+  "title": "Angry Spell",
+  "originalName": "Angry Spell",
+  "module": "upgrade-home",
+  "imgFolder": "home_tech/0187",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Angry_Spell",
+    "revision": 625021,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Angry_Spell?oldid=625021",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 1,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Radius",
+        "Effect Type",
+        "Targets",
+        "Housing Space",
+        "Dark Spell Factory Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "6 tiles",
+            "raw": "6 tiles"
+          },
+          {
+            "status": "known",
+            "value": "Area Splash",
+            "raw": "Area Splash"
+          },
+          {
+            "status": "known",
+            "value": "Ground & Air",
+            "raw": "Ground & Air"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 2,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Level",
+        "Anger Duration",
+        "Duration",
+        "Research Cost",
+        "Research Time",
+        "Laboratory Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": "7s",
+            "raw": "7s"
+          },
+          {
+            "status": "known",
+            "value": "5s",
+            "raw": "5s"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": "8s",
+            "raw": "8s"
+          },
+          {
+            "status": "known",
+            "value": "5s",
+            "raw": "5s"
+          },
+          {
+            "status": "known",
+            "value": 150000,
+            "raw": "150,000"
+          },
+          {
+            "status": "known",
+            "value": 806400,
+            "raw": "9d 8h",
+            "unit": "seconds",
+            "displayInput": "9,8,0,0"
+          },
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": "10s",
+            "raw": "10s"
+          },
+          {
+            "status": "known",
+            "value": "5s",
+            "raw": "5s"
+          },
+          {
+            "status": "known",
+            "value": 250000,
+            "raw": "250,000"
+          },
+          {
+            "status": "known",
+            "value": 1036800,
+            "raw": "12d",
+            "unit": "seconds",
+            "displayInput": "12,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 15,
+            "raw": "15"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": "12s",
+            "raw": "12s"
+          },
+          {
+            "status": "known",
+            "value": "5s",
+            "raw": "5s"
+          },
+          {
+            "status": "known",
+            "value": 400000,
+            "raw": "400,000"
+          },
+          {
+            "status": "known",
+            "value": 1296000,
+            "raw": "15d",
+            "unit": "seconds",
+            "displayInput": "15,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 3,
+          "type": "cost",
+          "icon": "Dark_Elixir",
+          "gpClass": "research",
+          "noGoldPass": false
+        },
+        {
+          "column": 4,
+          "type": "time",
+          "gpClass": "research",
+          "noGoldPass": false
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "name": "Angry_Spell_info.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/9/92/Angry_Spell_info.png/revision/latest/scale-to-width-down/200?cb=20260614152411",
+      "alt": "Angry Spell info",
+      "localPath": "/images/wiki/0187-Angry-Spell/270a9a730f-Angry_Spell_info.png",
+      "logicalPath": "/upgrade/home_tech/0187/Angry_Spell_info.png"
+    }
+  ],
+  "history": [],
+  "facts": [
+    "The Angry Spell is the eighth and currently the final Dark Spell unlocked at level 8 Dark Spell Factory, which requires Town Hall level 15."
+  ],
+  "notices": []
+}

@@ -1,0 +1,306 @@
+{
+  "unitId": "0186-Ice-Block-Spell",
+  "title": "冰障法术",
+  "originalName": "Ice Block Spell",
+  "module": "upgrade-home",
+  "imgFolder": "home_tech/0186",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Ice_Block_Spell",
+    "revision": 623794,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Ice_Block_Spell?oldid=623794",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 1,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Radius",
+        "Effect Type",
+        "Targets",
+        "Housing Space",
+        "Dark Spell Factory Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "5 tiles",
+            "raw": "5 tiles"
+          },
+          {
+            "status": "known",
+            "value": "Area Splash",
+            "raw": "Area Splash"
+          },
+          {
+            "status": "known",
+            "value": "Ground & Air",
+            "raw": "Ground & Air"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 2,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Level",
+        "Incoming Damage Reduction",
+        "Duration",
+        "Research Cost",
+        "Research Time",
+        "Laboratory Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": "86%",
+            "raw": "86%"
+          },
+          {
+            "status": "known",
+            "value": "7s",
+            "raw": "7s"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": "88%",
+            "raw": "88%"
+          },
+          {
+            "status": "known",
+            "value": "7s",
+            "raw": "7s"
+          },
+          {
+            "status": "known",
+            "value": 140000,
+            "raw": "140,000"
+          },
+          {
+            "status": "known",
+            "value": 864000,
+            "raw": "10d",
+            "unit": "seconds",
+            "displayInput": "10,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": "90%",
+            "raw": "90%"
+          },
+          {
+            "status": "known",
+            "value": "7s",
+            "raw": "7s"
+          },
+          {
+            "status": "known",
+            "value": 200000,
+            "raw": "200,000"
+          },
+          {
+            "status": "known",
+            "value": 950400,
+            "raw": "11d",
+            "unit": "seconds",
+            "displayInput": "11,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": "92%",
+            "raw": "92%"
+          },
+          {
+            "status": "known",
+            "value": "7s",
+            "raw": "7s"
+          },
+          {
+            "status": "known",
+            "value": 280000,
+            "raw": "280,000"
+          },
+          {
+            "status": "known",
+            "value": 1036800,
+            "raw": "12d",
+            "unit": "seconds",
+            "displayInput": "12,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": "94%",
+            "raw": "94%"
+          },
+          {
+            "status": "known",
+            "value": "7s",
+            "raw": "7s"
+          },
+          {
+            "status": "known",
+            "value": 320000,
+            "raw": "320,000"
+          },
+          {
+            "status": "known",
+            "value": 1209600,
+            "raw": "14d",
+            "unit": "seconds",
+            "displayInput": "14,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 15,
+            "raw": "15"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": "96%",
+            "raw": "96%"
+          },
+          {
+            "status": "known",
+            "value": "7s",
+            "raw": "7s"
+          },
+          {
+            "status": "known",
+            "value": 380000,
+            "raw": "380,000"
+          },
+          {
+            "status": "known",
+            "value": 1382400,
+            "raw": "16d",
+            "unit": "seconds",
+            "displayInput": "16,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 3,
+          "type": "cost",
+          "icon": "Dark_Elixir",
+          "gpClass": "research",
+          "noGoldPass": false
+        },
+        {
+          "column": 4,
+          "type": "time",
+          "gpClass": "research",
+          "noGoldPass": false
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "name": "Ice_Block_Spell_info.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0186/Ice_Block_Spell_info.png",
+      "alt": "冰障法术",
+      "localPath": "/images/original/upgrade/home_tech/0186/Ice_Block_Spell_info.webp",
+      "logicalPath": "/upgrade/home_tech/0186/Ice_Block_Spell_info.png"
+    }
+  ],
+  "history": [],
+  "facts": [
+    "The Ice Block Spell is the seventh Dark Spell unlocked at level 7 Dark Spell Factory, which requires Town Hall level 14."
+  ],
+  "notices": []
+}

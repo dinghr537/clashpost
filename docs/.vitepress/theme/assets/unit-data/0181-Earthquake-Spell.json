@@ -1,0 +1,416 @@
+{
+  "unitId": "0181-Earthquake-Spell",
+  "title": "地震法术",
+  "originalName": "Earthquake Spell",
+  "module": "upgrade-home",
+  "imgFolder": "home_tech/0181",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Earthquake_Spell",
+    "revision": 622962,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Earthquake_Spell?oldid=622962",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 1,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Damage Type",
+        "Housing Space",
+        "Targets",
+        "Favorite Target",
+        "Dark Spell Factory Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "Area Splash",
+            "raw": "Area Splash"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": "Buildings & Walls",
+            "raw": "Buildings & Walls"
+          },
+          {
+            "status": "known",
+            "value": "Walls",
+            "raw": "Walls"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 2,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Level",
+        "Building Damage %",
+        "Troop Damage %",
+        "Radius",
+        "Research Cost",
+        "Research Time",
+        "Laboratory Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": "14.5%",
+            "raw": "14.5%"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "known",
+            "value": "3.5 tiles",
+            "raw": "3.5 tiles"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": "17%",
+            "raw": "17%"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "known",
+            "value": "3.8 tiles",
+            "raw": "3.8 tiles"
+          },
+          {
+            "status": "known",
+            "value": 6000,
+            "raw": "6,000"
+          },
+          {
+            "status": "known",
+            "value": 43200,
+            "raw": "12h",
+            "unit": "seconds",
+            "displayInput": "0,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": "21%",
+            "raw": "21%"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "known",
+            "value": "4.1 tiles",
+            "raw": "4.1 tiles"
+          },
+          {
+            "status": "known",
+            "value": 12000,
+            "raw": "12,000"
+          },
+          {
+            "status": "known",
+            "value": 86400,
+            "raw": "1d",
+            "unit": "seconds",
+            "displayInput": "1,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": "25%",
+            "raw": "25%"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "known",
+            "value": "4.4 tiles",
+            "raw": "4.4 tiles"
+          },
+          {
+            "status": "known",
+            "value": 25500,
+            "raw": "25,500"
+          },
+          {
+            "status": "known",
+            "value": 259200,
+            "raw": "3d",
+            "unit": "seconds",
+            "displayInput": "3,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": "29%",
+            "raw": "29%"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "known",
+            "value": "4.7 tiles",
+            "raw": "4.7 tiles"
+          },
+          {
+            "status": "known",
+            "value": 42000,
+            "raw": "42,000"
+          },
+          {
+            "status": "known",
+            "value": 302400,
+            "raw": "3d 12h",
+            "unit": "seconds",
+            "displayInput": "3,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": "29%",
+            "raw": "29%"
+          },
+          {
+            "status": "known",
+            "value": "5%",
+            "raw": "5%"
+          },
+          {
+            "status": "known",
+            "value": "4.7 tiles",
+            "raw": "4.7 tiles"
+          },
+          {
+            "status": "known",
+            "value": 120000,
+            "raw": "120,000"
+          },
+          {
+            "status": "known",
+            "value": 691200,
+            "raw": "8d",
+            "unit": "seconds",
+            "displayInput": "8,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": "29%",
+            "raw": "29%"
+          },
+          {
+            "status": "known",
+            "value": "10%",
+            "raw": "10%"
+          },
+          {
+            "status": "known",
+            "value": "4.7 tiles",
+            "raw": "4.7 tiles"
+          },
+          {
+            "status": "known",
+            "value": 200000,
+            "raw": "200,000"
+          },
+          {
+            "status": "known",
+            "value": 777600,
+            "raw": "9d",
+            "unit": "seconds",
+            "displayInput": "9,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": "29%",
+            "raw": "29%"
+          },
+          {
+            "status": "known",
+            "value": "14.5%",
+            "raw": "14.5%"
+          },
+          {
+            "status": "known",
+            "value": "4.7 tiles",
+            "raw": "4.7 tiles"
+          },
+          {
+            "status": "known",
+            "value": 330000,
+            "raw": "330,000"
+          },
+          {
+            "status": "known",
+            "value": 1166400,
+            "raw": "13d 12h",
+            "unit": "seconds",
+            "displayInput": "13,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 4,
+          "type": "cost",
+          "icon": "Dark_Elixir",
+          "gpClass": "research",
+          "noGoldPass": false
+        },
+        {
+          "column": 5,
+          "type": "time",
+          "gpClass": "research",
+          "noGoldPass": false
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "name": "Earthquake_Spell.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0181/Earthquake_Spell.png",
+      "alt": "地震法术",
+      "localPath": "/images/original/upgrade/home_tech/0181/Earthquake_Spell.webp",
+      "logicalPath": "/upgrade/home_tech/0181/Earthquake_Spell.png"
+    }
+  ],
+  "history": [],
+  "facts": [
+    "Successive Earthquake Spells do less damage on the same target. The second dropped on a target will do 1/3 of its normal damage. The third will do 1/5th, the fourth will do 1/7th, and so on. Damage percentage is scaled on the target's max health.",
+    "Four Earthquake Spells will destroy Walls of any level under all conditions. However, 3 Earthquake Spells of any level cannot destroy a Wall of any level. This is caused by the nature of the Earthquake Spell, which only deals percentage damage and no absolute amount of damage at all."
+  ],
+  "notices": []
+}

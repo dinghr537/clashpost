@@ -1,0 +1,659 @@
+{
+  "unitId": "1183-Mega-Mine",
+  "title": "巨型地雷",
+  "originalName": "Mega Mine",
+  "module": "upgrade-bh",
+  "imgFolder": "bh_buildings/1183",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Mega_Mine",
+    "revision": 592217,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Mega_Mine?oldid=592217",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 1,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Number Available",
+        "Builder Hall Level / 1",
+        "Builder Hall Level / 2",
+        "Builder Hall Level / 3",
+        "Builder Hall Level / 4",
+        "Builder Hall Level / 5",
+        "Builder Hall Level / 6",
+        "Builder Hall Level / 7",
+        "Builder Hall Level / 8",
+        "Builder Hall Level / 9",
+        "Builder Hall Level / 10"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "Total",
+            "raw": "Total"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 2,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Size"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "2x2",
+            "raw": "2x2"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 3,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Level",
+        "Damage",
+        "Cost",
+        "Build Time",
+        "Experience Gained",
+        "Builder Hall Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 250,
+            "raw": "250"
+          },
+          {
+            "status": "known",
+            "value": 30000,
+            "raw": "30,000"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 275,
+            "raw": "275"
+          },
+          {
+            "status": "known",
+            "value": 40000,
+            "raw": "40,000"
+          },
+          {
+            "status": "known",
+            "value": 3600,
+            "raw": "1h",
+            "unit": "seconds",
+            "displayInput": "0,1,0,0"
+          },
+          {
+            "status": "known",
+            "value": 60,
+            "raw": "60"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 300,
+            "raw": "300"
+          },
+          {
+            "status": "known",
+            "value": 50000,
+            "raw": "50,000"
+          },
+          {
+            "status": "known",
+            "value": 10800,
+            "raw": "3h",
+            "unit": "seconds",
+            "displayInput": "0,3,0,0"
+          },
+          {
+            "status": "known",
+            "value": 103,
+            "raw": "103"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 330,
+            "raw": "330"
+          },
+          {
+            "status": "known",
+            "value": 80000,
+            "raw": "80,000"
+          },
+          {
+            "status": "known",
+            "value": 21600,
+            "raw": "6h",
+            "unit": "seconds",
+            "displayInput": "0,6,0,0"
+          },
+          {
+            "status": "known",
+            "value": 146,
+            "raw": "146"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 360,
+            "raw": "360"
+          },
+          {
+            "status": "known",
+            "value": 120000,
+            "raw": "120,000"
+          },
+          {
+            "status": "known",
+            "value": 43200,
+            "raw": "12h",
+            "unit": "seconds",
+            "displayInput": "0,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 169,
+            "raw": "169"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 395,
+            "raw": "395"
+          },
+          {
+            "status": "known",
+            "value": 300000,
+            "raw": "300,000"
+          },
+          {
+            "status": "known",
+            "value": 86400,
+            "raw": "1d",
+            "unit": "seconds",
+            "displayInput": "1,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 293,
+            "raw": "293"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": 430,
+            "raw": "430"
+          },
+          {
+            "status": "known",
+            "value": 600000,
+            "raw": "600,000"
+          },
+          {
+            "status": "known",
+            "value": 129600,
+            "raw": "1d 12h",
+            "unit": "seconds",
+            "displayInput": "1,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 360,
+            "raw": "360"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": 470,
+            "raw": "470"
+          },
+          {
+            "status": "known",
+            "value": 1000000,
+            "raw": "1,000,000"
+          },
+          {
+            "status": "known",
+            "value": 172800,
+            "raw": "2d",
+            "unit": "seconds",
+            "displayInput": "2,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 415,
+            "raw": "415"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          },
+          {
+            "status": "known",
+            "value": 510,
+            "raw": "510"
+          },
+          {
+            "status": "known",
+            "value": 1400000,
+            "raw": "1,400,000"
+          },
+          {
+            "status": "known",
+            "value": 259200,
+            "raw": "3d",
+            "unit": "seconds",
+            "displayInput": "3,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 509,
+            "raw": "509"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 550,
+            "raw": "550"
+          },
+          {
+            "status": "known",
+            "value": 2500000,
+            "raw": "2,500,000"
+          },
+          {
+            "status": "known",
+            "value": 345600,
+            "raw": "4d",
+            "unit": "seconds",
+            "displayInput": "4,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 587,
+            "raw": "587"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 2,
+          "type": "cost",
+          "icon": "Gold2",
+          "gpClass": "building",
+          "noGoldPass": false
+        },
+        {
+          "column": 3,
+          "type": "time",
+          "gpClass": "building",
+          "noGoldPass": false
+        }
+      ]
+    },
+    {
+      "sourceTableIndex": 4,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Trigger Radius",
+        "Damage Radius",
+        "Damage Type"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "3 tiles",
+            "raw": "3 tiles"
+          },
+          {
+            "status": "known",
+            "value": "4 tiles",
+            "raw": "4 tiles"
+          },
+          {
+            "status": "known",
+            "value": "Area Splash",
+            "raw": "Area Splash"
+          }
+        ]
+      ],
+      "extraInfo": []
+    }
+  ],
+  "images": [
+    {
+      "name": "Mega_Mine10.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1183/Mega_Mine10.png",
+      "alt": "巨型地雷",
+      "localPath": "/images/original/upgrade/bh_buildings/1183/Mega_Mine10.webp",
+      "logicalPath": "/upgrade/bh_buildings/1183/Mega_Mine10.png"
+    },
+    {
+      "name": "Mega_Mine1.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1183/Mega_Mine1.png",
+      "alt": "1 级",
+      "localPath": "/images/original/upgrade/bh_buildings/1183/Mega_Mine1.webp",
+      "logicalPath": "/upgrade/bh_buildings/1183/Mega_Mine1.png"
+    },
+    {
+      "name": "Mega_Mine2.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1183/Mega_Mine2.png",
+      "alt": "2 级",
+      "localPath": "/images/original/upgrade/bh_buildings/1183/Mega_Mine2.webp",
+      "logicalPath": "/upgrade/bh_buildings/1183/Mega_Mine2.png"
+    },
+    {
+      "name": "Mega_Mine3.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1183/Mega_Mine3.png",
+      "alt": "3 级",
+      "localPath": "/images/original/upgrade/bh_buildings/1183/Mega_Mine3.webp",
+      "logicalPath": "/upgrade/bh_buildings/1183/Mega_Mine3.png"
+    },
+    {
+      "name": "Mega_Mine4.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1183/Mega_Mine4.png",
+      "alt": "4 级",
+      "localPath": "/images/original/upgrade/bh_buildings/1183/Mega_Mine4.webp",
+      "logicalPath": "/upgrade/bh_buildings/1183/Mega_Mine4.png"
+    },
+    {
+      "name": "Mega_Mine5.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1183/Mega_Mine5.png",
+      "alt": "5 级",
+      "localPath": "/images/original/upgrade/bh_buildings/1183/Mega_Mine5.webp",
+      "logicalPath": "/upgrade/bh_buildings/1183/Mega_Mine5.png"
+    },
+    {
+      "name": "Mega_Mine6.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1183/Mega_Mine6.png",
+      "alt": "6 级",
+      "localPath": "/images/original/upgrade/bh_buildings/1183/Mega_Mine6.webp",
+      "logicalPath": "/upgrade/bh_buildings/1183/Mega_Mine6.png"
+    },
+    {
+      "name": "Mega_Mine7.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1183/Mega_Mine7.png",
+      "alt": "7 级",
+      "localPath": "/images/original/upgrade/bh_buildings/1183/Mega_Mine7.webp",
+      "logicalPath": "/upgrade/bh_buildings/1183/Mega_Mine7.png"
+    },
+    {
+      "name": "Mega_Mine8.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1183/Mega_Mine8.png",
+      "alt": "8 级",
+      "localPath": "/images/original/upgrade/bh_buildings/1183/Mega_Mine8.webp",
+      "logicalPath": "/upgrade/bh_buildings/1183/Mega_Mine8.png"
+    },
+    {
+      "name": "Mega_Mine9.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1183/Mega_Mine9.png",
+      "alt": "9 级",
+      "localPath": "/images/original/upgrade/bh_buildings/1183/Mega_Mine9.webp",
+      "logicalPath": "/upgrade/bh_buildings/1183/Mega_Mine9.png"
+    },
+    {
+      "name": "Mega_Mine1_Air.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1183/Mega_Mine1_Air.png",
+      "alt": "1 级",
+      "localPath": "/images/original/upgrade/bh_buildings/1183/Mega_Mine1_Air.webp",
+      "logicalPath": "/upgrade/bh_buildings/1183/Mega_Mine1_Air.png"
+    },
+    {
+      "name": "Mega_Mine2_Air.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1183/Mega_Mine2_Air.png",
+      "alt": "2 级",
+      "localPath": "/images/original/upgrade/bh_buildings/1183/Mega_Mine2_Air.webp",
+      "logicalPath": "/upgrade/bh_buildings/1183/Mega_Mine2_Air.png"
+    },
+    {
+      "name": "Mega_Mine3_Air.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1183/Mega_Mine3_Air.png",
+      "alt": "3 级",
+      "localPath": "/images/original/upgrade/bh_buildings/1183/Mega_Mine3_Air.webp",
+      "logicalPath": "/upgrade/bh_buildings/1183/Mega_Mine3_Air.png"
+    },
+    {
+      "name": "Mega_Mine4_Air.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1183/Mega_Mine4_Air.png",
+      "alt": "4 级",
+      "localPath": "/images/original/upgrade/bh_buildings/1183/Mega_Mine4_Air.webp",
+      "logicalPath": "/upgrade/bh_buildings/1183/Mega_Mine4_Air.png"
+    },
+    {
+      "name": "Mega_Mine5_Air.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1183/Mega_Mine5_Air.png",
+      "alt": "5 级",
+      "localPath": "/images/original/upgrade/bh_buildings/1183/Mega_Mine5_Air.webp",
+      "logicalPath": "/upgrade/bh_buildings/1183/Mega_Mine5_Air.png"
+    },
+    {
+      "name": "Mega_Mine6_Air.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1183/Mega_Mine6_Air.png",
+      "alt": "6 级",
+      "localPath": "/images/original/upgrade/bh_buildings/1183/Mega_Mine6_Air.webp",
+      "logicalPath": "/upgrade/bh_buildings/1183/Mega_Mine6_Air.png"
+    },
+    {
+      "name": "Mega_Mine7_Air.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1183/Mega_Mine7_Air.png",
+      "alt": "7 级",
+      "localPath": "/images/original/upgrade/bh_buildings/1183/Mega_Mine7_Air.webp",
+      "logicalPath": "/upgrade/bh_buildings/1183/Mega_Mine7_Air.png"
+    },
+    {
+      "name": "Mega_Mine8_Air.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1183/Mega_Mine8_Air.png",
+      "alt": "8 级",
+      "localPath": "/images/original/upgrade/bh_buildings/1183/Mega_Mine8_Air.webp",
+      "logicalPath": "/upgrade/bh_buildings/1183/Mega_Mine8_Air.png"
+    },
+    {
+      "name": "Mega_Mine9_Air.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1183/Mega_Mine9_Air.png",
+      "alt": "9 级",
+      "localPath": "/images/original/upgrade/bh_buildings/1183/Mega_Mine9_Air.webp",
+      "logicalPath": "/upgrade/bh_buildings/1183/Mega_Mine9_Air.png"
+    },
+    {
+      "name": "Mega_Mine10_Air.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1183/Mega_Mine10_Air.png",
+      "alt": "10 级",
+      "localPath": "/images/original/upgrade/bh_buildings/1183/Mega_Mine10_Air.webp",
+      "logicalPath": "/upgrade/bh_buildings/1183/Mega_Mine10_Air.png"
+    }
+  ],
+  "history": [],
+  "facts": [
+    "The Mega Mine is a trap in Builder Base, unlocked at Builder Hall level 4. The Mega Mine functions similarly to the Giant Bomb in the Home Village, however, it can be set to target either ground or air and has a larger explosion radius."
+  ],
+  "notices": []
+}

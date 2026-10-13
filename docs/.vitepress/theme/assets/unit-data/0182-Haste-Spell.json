@@ -1,0 +1,370 @@
+{
+  "unitId": "0182-Haste-Spell",
+  "title": "急速法术",
+  "originalName": "Haste Spell",
+  "module": "upgrade-home",
+  "imgFolder": "home_tech/0182",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Haste_Spell",
+    "revision": 620321,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Haste_Spell?oldid=620321",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 1,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Effect Type",
+        "Housing Space",
+        "Targets",
+        "Dark Spell Factory Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "Area Splash",
+            "raw": "Area Splash"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": "Ground & Air",
+            "raw": "Ground & Air"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 2,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Level",
+        "Speed Increase",
+        "Spell Duration",
+        "Radius",
+        "Research Cost",
+        "Research Time",
+        "Laboratory Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 28,
+            "raw": "28"
+          },
+          {
+            "status": "known",
+            "value": "10 seconds",
+            "raw": "10 seconds"
+          },
+          {
+            "status": "known",
+            "value": "4 tiles",
+            "raw": "4 tiles"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 34,
+            "raw": "34"
+          },
+          {
+            "status": "known",
+            "value": "15 seconds",
+            "raw": "15 seconds"
+          },
+          {
+            "status": "known",
+            "value": "4 tiles",
+            "raw": "4 tiles"
+          },
+          {
+            "status": "known",
+            "value": 8000,
+            "raw": "8,000"
+          },
+          {
+            "status": "known",
+            "value": 86400,
+            "raw": "1d",
+            "unit": "seconds",
+            "displayInput": "1,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 40,
+            "raw": "40"
+          },
+          {
+            "status": "known",
+            "value": "20 seconds",
+            "raw": "20 seconds"
+          },
+          {
+            "status": "known",
+            "value": "4 tiles",
+            "raw": "4 tiles"
+          },
+          {
+            "status": "known",
+            "value": 17000,
+            "raw": "17,000"
+          },
+          {
+            "status": "known",
+            "value": 172800,
+            "raw": "2d",
+            "unit": "seconds",
+            "displayInput": "2,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 46,
+            "raw": "46"
+          },
+          {
+            "status": "known",
+            "value": "25 seconds",
+            "raw": "25 seconds"
+          },
+          {
+            "status": "known",
+            "value": "4 tiles",
+            "raw": "4 tiles"
+          },
+          {
+            "status": "known",
+            "value": 30000,
+            "raw": "30,000"
+          },
+          {
+            "status": "known",
+            "value": 259200,
+            "raw": "3d",
+            "unit": "seconds",
+            "displayInput": "3,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 52,
+            "raw": "52"
+          },
+          {
+            "status": "known",
+            "value": "30 seconds",
+            "raw": "30 seconds"
+          },
+          {
+            "status": "known",
+            "value": "4 tiles",
+            "raw": "4 tiles"
+          },
+          {
+            "status": "known",
+            "value": 38500,
+            "raw": "38,500"
+          },
+          {
+            "status": "known",
+            "value": 345600,
+            "raw": "4d",
+            "unit": "seconds",
+            "displayInput": "4,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 56,
+            "raw": "56"
+          },
+          {
+            "status": "known",
+            "value": "30 seconds",
+            "raw": "30 seconds"
+          },
+          {
+            "status": "known",
+            "value": "4 tiles",
+            "raw": "4 tiles"
+          },
+          {
+            "status": "known",
+            "value": 200000,
+            "raw": "200,000"
+          },
+          {
+            "status": "known",
+            "value": 777600,
+            "raw": "9d",
+            "unit": "seconds",
+            "displayInput": "9,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 15,
+            "raw": "15"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": 56,
+            "raw": "56"
+          },
+          {
+            "status": "known",
+            "value": "30 seconds",
+            "raw": "30 seconds"
+          },
+          {
+            "status": "known",
+            "value": "5 tiles",
+            "raw": "5 tiles"
+          },
+          {
+            "status": "known",
+            "value": 320000,
+            "raw": "320,000"
+          },
+          {
+            "status": "known",
+            "value": 1080000,
+            "raw": "12d 12h",
+            "unit": "seconds",
+            "displayInput": "12,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 4,
+          "type": "cost",
+          "icon": "Dark_Elixir",
+          "gpClass": "research",
+          "noGoldPass": false
+        },
+        {
+          "column": 5,
+          "type": "time",
+          "gpClass": "research",
+          "noGoldPass": false
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "name": "Haste_Spell.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0182/Haste_Spell.png",
+      "alt": "急速法术",
+      "localPath": "/images/original/upgrade/home_tech/0182/Haste_Spell.webp",
+      "logicalPath": "/upgrade/home_tech/0182/Haste_Spell.png"
+    }
+  ],
+  "history": [],
+  "facts": [
+    "Like with Healing Spells and Rage Spells, the Haste Spell has a reduced effect on Heroes, only granting 50% of its speed boost to them."
+  ],
+  "notices": []
+}

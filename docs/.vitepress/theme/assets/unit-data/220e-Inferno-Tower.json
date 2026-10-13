@@ -1,0 +1,586 @@
+{
+  "unitId": "220e-Inferno-Tower",
+  "title": "地狱之塔",
+  "originalName": "Inferno Tower/Clan Capital",
+  "module": "upgrade-capital",
+  "imgFolder": "capital_buildings/220e",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Inferno_Tower/Clan_Capital",
+    "revision": 618170,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Inferno_Tower/Clan_Capital?oldid=618170",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 3,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Capital Hall Level",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "Number Available",
+            "raw": "Number Available"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 4,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Size"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "3x3",
+            "raw": "3x3"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 5,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Number Available",
+        "District Hall Level / 1",
+        "District Hall Level / 2",
+        "District Hall Level / 3",
+        "District Hall Level / 4",
+        "District Hall Level / 5"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "Wizard Valley",
+            "raw": "Wizard Valley"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": "Balloon Lagoon",
+            "raw": "Balloon Lagoon"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": "Dragon Cliffs",
+            "raw": "Dragon Cliffs"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": "Goblin Mines",
+            "raw": "Goblin Mines"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 6,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Level",
+        "Damage per Second / Initial",
+        "Damage per Second / After 2.5s",
+        "Damage per Second / After 7.5s",
+        "Hitpoints",
+        "Build Cost",
+        "Capital Hall Level Required",
+        "District Hall Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 200,
+            "raw": "200"
+          },
+          {
+            "status": "known",
+            "value": 500,
+            "raw": "500"
+          },
+          {
+            "status": "known",
+            "value": 2000,
+            "raw": "2,000"
+          },
+          {
+            "status": "known",
+            "value": 3600,
+            "raw": "3,600"
+          },
+          {
+            "status": "known",
+            "value": 15000,
+            "raw": "15,000"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 230,
+            "raw": "230"
+          },
+          {
+            "status": "known",
+            "value": 575,
+            "raw": "575"
+          },
+          {
+            "status": "known",
+            "value": 2300,
+            "raw": "2,300"
+          },
+          {
+            "status": "known",
+            "value": 4000,
+            "raw": "4,000"
+          },
+          {
+            "status": "known",
+            "value": 30000,
+            "raw": "30,000"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 260,
+            "raw": "260"
+          },
+          {
+            "status": "known",
+            "value": 650,
+            "raw": "650"
+          },
+          {
+            "status": "known",
+            "value": 2600,
+            "raw": "2,600"
+          },
+          {
+            "status": "known",
+            "value": 4400,
+            "raw": "4,400"
+          },
+          {
+            "status": "known",
+            "value": 60000,
+            "raw": "60,000"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 290,
+            "raw": "290"
+          },
+          {
+            "status": "known",
+            "value": 725,
+            "raw": "725"
+          },
+          {
+            "status": "known",
+            "value": 2900,
+            "raw": "2,900"
+          },
+          {
+            "status": "known",
+            "value": 4800,
+            "raw": "4,800"
+          },
+          {
+            "status": "known",
+            "value": 93000,
+            "raw": "93,000"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 320,
+            "raw": "320"
+          },
+          {
+            "status": "known",
+            "value": 800,
+            "raw": "800"
+          },
+          {
+            "status": "known",
+            "value": 3200,
+            "raw": "3,200"
+          },
+          {
+            "status": "known",
+            "value": 5200,
+            "raw": "5,200"
+          },
+          {
+            "status": "known",
+            "value": 155000,
+            "raw": "155,000"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 5,
+          "type": "cost",
+          "icon": "Gold3",
+          "gpClass": "building",
+          "noGoldPass": true
+        }
+      ]
+    },
+    {
+      "sourceTableIndex": 7,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Range",
+        "Attack Speed",
+        "Damage Type",
+        "Unit Type Targeted"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          },
+          {
+            "status": "known",
+            "value": "0.128s",
+            "raw": "0.128s"
+          },
+          {
+            "status": "known",
+            "value": "Single Target",
+            "raw": "Single Target"
+          },
+          {
+            "status": "known",
+            "value": "Ground & Air",
+            "raw": "Ground & Air"
+          }
+        ]
+      ],
+      "extraInfo": []
+    }
+  ],
+  "images": [
+    {
+      "name": "Inferno_Tower5.png",
+      "url": "https://static.clashpost.com/upgrade/capital_buildings/220e/Inferno_Tower5.png",
+      "alt": "地狱之塔",
+      "localPath": "/images/original/upgrade/capital_buildings/220e/Inferno_Tower5.webp",
+      "logicalPath": "/upgrade/capital_buildings/220e/Inferno_Tower5.png"
+    },
+    {
+      "name": "Inferno_Tower_Ruin.png",
+      "url": "https://static.clashpost.com/upgrade/capital_buildings/220e/Inferno_Tower_Ruin.png",
+      "alt": "废墟",
+      "localPath": "/images/original/upgrade/capital_buildings/220e/Inferno_Tower_Ruin.webp",
+      "logicalPath": "/upgrade/capital_buildings/220e/Inferno_Tower_Ruin.png"
+    },
+    {
+      "name": "Inferno_Tower1.png",
+      "url": "https://static.clashpost.com/upgrade/capital_buildings/220e/Inferno_Tower1.png",
+      "alt": "1 级",
+      "localPath": "/images/original/upgrade/capital_buildings/220e/Inferno_Tower1.webp",
+      "logicalPath": "/upgrade/capital_buildings/220e/Inferno_Tower1.png"
+    },
+    {
+      "name": "Inferno_Tower2.png",
+      "url": "https://static.clashpost.com/upgrade/capital_buildings/220e/Inferno_Tower2.png",
+      "alt": "2 级",
+      "localPath": "/images/original/upgrade/capital_buildings/220e/Inferno_Tower2.webp",
+      "logicalPath": "/upgrade/capital_buildings/220e/Inferno_Tower2.png"
+    },
+    {
+      "name": "Inferno_Tower3.png",
+      "url": "https://static.clashpost.com/upgrade/capital_buildings/220e/Inferno_Tower3.png",
+      "alt": "3 级",
+      "localPath": "/images/original/upgrade/capital_buildings/220e/Inferno_Tower3.webp",
+      "logicalPath": "/upgrade/capital_buildings/220e/Inferno_Tower3.png"
+    },
+    {
+      "name": "Inferno_Tower4.png",
+      "url": "https://static.clashpost.com/upgrade/capital_buildings/220e/Inferno_Tower4.png",
+      "alt": "4 级",
+      "localPath": "/images/original/upgrade/capital_buildings/220e/Inferno_Tower4.webp",
+      "logicalPath": "/upgrade/capital_buildings/220e/Inferno_Tower4.png"
+    },
+    {
+      "name": "Inferno_Tower5C.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/9/97/Inferno_Tower5C.png/revision/latest/scale-to-width-down/240?cb=20220507090714",
+      "alt": "Inferno Tower5C",
+      "localPath": "/images/wiki/220e-Inferno-Tower/b0cf52ce52-Inferno_Tower5C.png",
+      "logicalPath": "/upgrade/capital_buildings/220e/Inferno_Tower5C.png"
+    }
+  ],
+  "history": [],
+  "facts": [
+    "The Inferno Tower is a defensive building in the Clan Capital, unlocked at Capital Hall level 6."
+  ],
+  "notices": []
+}

@@ -1,0 +1,355 @@
+{
+  "unitId": "060e-Super-Miner",
+  "title": "超级矿工",
+  "originalName": "Super Miner",
+  "module": "upgrade-home",
+  "imgFolder": "home_tech/060e",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Super_Miner",
+    "revision": 620353,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Super_Miner?oldid=620353",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 1,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Preferred Target",
+        "Attack Type",
+        "Housing Space",
+        "Movement Speed",
+        "Attack Speed",
+        "Range",
+        "Special Ability"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "None",
+            "raw": "None"
+          },
+          {
+            "status": "known",
+            "value": "Single Target",
+            "raw": "Single Target"
+          },
+          {
+            "status": "known",
+            "value": 24,
+            "raw": "24"
+          },
+          {
+            "status": "known",
+            "value": 32,
+            "raw": "32"
+          },
+          {
+            "status": "known",
+            "value": "0.25s",
+            "raw": "0.25s"
+          },
+          {
+            "status": "known",
+            "value": "0.6 tiles",
+            "raw": "0.6 tiles"
+          },
+          {
+            "status": "known",
+            "value": "Last Blast",
+            "raw": "Last Blast"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 2,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Boost Cost",
+        "Boost Duration",
+        "Miner Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 25000,
+            "raw": "25,000"
+          },
+          {
+            "status": "known",
+            "value": "3d",
+            "raw": "3d"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 0,
+          "type": "cost",
+          "icon": "Dark_Elixir",
+          "gpClass": "research",
+          "noGoldPass": true
+        }
+      ]
+    },
+    {
+      "sourceTableIndex": 3,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Level",
+        "Damage per Second / Initial",
+        "Damage per Second / After 1.5s",
+        "Damage per Second / After 3s",
+        "Damage when Destroyed",
+        "Hitpoints"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": 170,
+            "raw": "170"
+          },
+          {
+            "status": "known",
+            "value": 340,
+            "raw": "340"
+          },
+          {
+            "status": "known",
+            "value": 520,
+            "raw": "520"
+          },
+          {
+            "status": "known",
+            "value": 1400,
+            "raw": "1,400"
+          },
+          {
+            "status": "known",
+            "value": 3000,
+            "raw": "3,000"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": 185,
+            "raw": "185"
+          },
+          {
+            "status": "known",
+            "value": 370,
+            "raw": "370"
+          },
+          {
+            "status": "known",
+            "value": 560,
+            "raw": "560"
+          },
+          {
+            "status": "known",
+            "value": 1600,
+            "raw": "1,600"
+          },
+          {
+            "status": "known",
+            "value": 3300,
+            "raw": "3,300"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          },
+          {
+            "status": "known",
+            "value": 205,
+            "raw": "205"
+          },
+          {
+            "status": "known",
+            "value": 405,
+            "raw": "405"
+          },
+          {
+            "status": "known",
+            "value": 605,
+            "raw": "605"
+          },
+          {
+            "status": "known",
+            "value": 1800,
+            "raw": "1,800"
+          },
+          {
+            "status": "known",
+            "value": 3600,
+            "raw": "3,600"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 225,
+            "raw": "225"
+          },
+          {
+            "status": "known",
+            "value": 440,
+            "raw": "440"
+          },
+          {
+            "status": "known",
+            "value": 650,
+            "raw": "650"
+          },
+          {
+            "status": "known",
+            "value": 2000,
+            "raw": "2,000"
+          },
+          {
+            "status": "known",
+            "value": 4000,
+            "raw": "4,000"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          },
+          {
+            "status": "known",
+            "value": 245,
+            "raw": "245"
+          },
+          {
+            "status": "known",
+            "value": 475,
+            "raw": "475"
+          },
+          {
+            "status": "known",
+            "value": 695,
+            "raw": "695"
+          },
+          {
+            "status": "known",
+            "value": 2200,
+            "raw": "2,200"
+          },
+          {
+            "status": "known",
+            "value": 4400,
+            "raw": "4,400"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          },
+          {
+            "status": "known",
+            "value": 265,
+            "raw": "265"
+          },
+          {
+            "status": "known",
+            "value": 510,
+            "raw": "510"
+          },
+          {
+            "status": "known",
+            "value": 740,
+            "raw": "740"
+          },
+          {
+            "status": "known",
+            "value": 2400,
+            "raw": "2,400"
+          },
+          {
+            "status": "known",
+            "value": 5000,
+            "raw": "5,000"
+          }
+        ]
+      ],
+      "extraInfo": []
+    }
+  ],
+  "images": [
+    {
+      "name": "Super_Miner_info.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/060e/Super_Miner_info.png",
+      "alt": "超级矿工",
+      "localPath": "/images/original/upgrade/home_tech/060e/Super_Miner_info.webp",
+      "logicalPath": "/upgrade/home_tech/060e/Super_Miner_info.png"
+    },
+    {
+      "name": "Super_Miner7.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/060e/Super_Miner7.png",
+      "alt": "所有等级",
+      "localPath": "/images/original/upgrade/home_tech/060e/Super_Miner7.webp",
+      "logicalPath": "/upgrade/home_tech/060e/Super_Miner7.png"
+    },
+    {
+      "name": "Super_Miner_info_2.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/f/f5/Super_Miner_info_2.png/revision/latest/scale-to-width-down/185?cb=20221212121930",
+      "alt": "Super Miner's render from the info box but with a smile and without grass",
+      "localPath": "/images/wiki/060e-Super-Miner/df3c09efa0-Super_Miner_info_2.png",
+      "logicalPath": "/upgrade/home_tech/060e/Super_Miner_info_2.png"
+    },
+    {
+      "name": "Super_Miner_info_3.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/8/8a/Super_Miner_info_3.png/revision/latest/scale-to-width-down/115?cb=20221212122034",
+      "alt": "Alternate render of the Super Miner",
+      "localPath": "/images/wiki/060e-Super-Miner/076a63af16-Super_Miner_info_3.png",
+      "logicalPath": "/upgrade/home_tech/060e/Super_Miner_info_3.png"
+    }
+  ],
+  "history": [],
+  "facts": [
+    "The Super Miner is a Super Troop based on the Miner. It can be unlocked by boosting the Miner when the Miner is at least level 7.",
+    "Boosting the Miner requires 25,000 Dark Elixir or a Super Potion, and doing so allows the Miner to be boosted for 3 days. The level of Super Miner you obtain from the boost corresponds to the level of Miner you have.",
+    "The Super Miner uses a drill to attack, doing damage that increases the longer he attacks, similar to the Inferno Dragon. The Super Miner also carries an explosive barrel, which detonates upon his death; the bomb greatly damages all buildings and enemy ground units within a 2-tile radius."
+  ],
+  "notices": []
+}

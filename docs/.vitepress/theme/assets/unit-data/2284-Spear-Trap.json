@@ -1,0 +1,287 @@
+{
+  "unitId": "2284-Spear-Trap",
+  "title": "投矛陷阱",
+  "originalName": "Spear Trap",
+  "module": "upgrade-capital",
+  "imgFolder": "capital_buildings/2284",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Spear_Trap",
+    "revision": 614572,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Spear_Trap?oldid=614572",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 1,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Size"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "2x2",
+            "raw": "2x2"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 2,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Number Available",
+        "District Hall Level / 1",
+        "District Hall Level / 2",
+        "District Hall Level / 3",
+        "District Hall Level / 4"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "Goblin Mines",
+            "raw": "Goblin Mines"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 3,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Level",
+        "Damage",
+        "Projectile Count",
+        "Build Cost",
+        "District Hall Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 120,
+            "raw": "120"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 3000,
+            "raw": "3,000"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 140,
+            "raw": "140"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 6000,
+            "raw": "6,000"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 160,
+            "raw": "160"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 12000,
+            "raw": "12,000"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 180,
+            "raw": "180"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": 20000,
+            "raw": "20,000"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 3,
+          "type": "cost",
+          "icon": "Gold3",
+          "gpClass": "building",
+          "noGoldPass": true
+        }
+      ]
+    },
+    {
+      "sourceTableIndex": 4,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Trigger Radius",
+        "Damage Type",
+        "Favorite Target",
+        "Targets"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "10 tiles",
+            "raw": "10 tiles"
+          },
+          {
+            "status": "known",
+            "value": "Single Target (per spear)",
+            "raw": "Single Target (per spear)"
+          },
+          {
+            "status": "known",
+            "value": "Any",
+            "raw": "Any"
+          },
+          {
+            "status": "known",
+            "value": "Ground & Air",
+            "raw": "Ground & Air"
+          }
+        ]
+      ],
+      "extraInfo": []
+    }
+  ],
+  "images": [
+    {
+      "name": "Spear_Trap4.png",
+      "url": "https://static.clashpost.com/upgrade/capital_buildings/2284/Spear_Trap4.png",
+      "alt": "投矛陷阱",
+      "localPath": "/images/original/upgrade/capital_buildings/2284/Spear_Trap4.webp",
+      "logicalPath": "/upgrade/capital_buildings/2284/Spear_Trap4.png"
+    },
+    {
+      "name": "Spear_Trap_Ruin.png",
+      "url": "https://static.clashpost.com/upgrade/capital_buildings/2284/Spear_Trap_Ruin.png",
+      "alt": "废墟",
+      "localPath": "/images/original/upgrade/capital_buildings/2284/Spear_Trap_Ruin.webp",
+      "logicalPath": "/upgrade/capital_buildings/2284/Spear_Trap_Ruin.png"
+    },
+    {
+      "name": "Spear_Trap1.png",
+      "url": "https://static.clashpost.com/upgrade/capital_buildings/2284/Spear_Trap1.png",
+      "alt": "1 级",
+      "localPath": "/images/original/upgrade/capital_buildings/2284/Spear_Trap1.webp",
+      "logicalPath": "/upgrade/capital_buildings/2284/Spear_Trap1.png"
+    },
+    {
+      "name": "Spear_Trap2.png",
+      "url": "https://static.clashpost.com/upgrade/capital_buildings/2284/Spear_Trap2.png",
+      "alt": "2 级",
+      "localPath": "/images/original/upgrade/capital_buildings/2284/Spear_Trap2.webp",
+      "logicalPath": "/upgrade/capital_buildings/2284/Spear_Trap2.png"
+    },
+    {
+      "name": "Spear_Trap3.png",
+      "url": "https://static.clashpost.com/upgrade/capital_buildings/2284/Spear_Trap3.png",
+      "alt": "3 级",
+      "localPath": "/images/original/upgrade/capital_buildings/2284/Spear_Trap3.webp",
+      "logicalPath": "/upgrade/capital_buildings/2284/Spear_Trap3.png"
+    }
+  ],
+  "history": [],
+  "facts": [
+    "Spear Traps are a trap available in the Clan Capital, available in the Goblin Mines district. When enough troops (at least 8 housing spaces' worth) move within its radius, it launches multiple spears, each of which hits a single enemy."
+  ],
+  "notices": []
+}

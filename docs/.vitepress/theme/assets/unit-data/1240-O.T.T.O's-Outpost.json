@@ -1,0 +1,731 @@
+{
+  "unitId": "1240-O.T.T.O's-Outpost",
+  "title": "奥仔哨站",
+  "originalName": "O.T.T.O's Outpost",
+  "module": "upgrade-bh",
+  "imgFolder": "bh_buildings/1240",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/O.T.T.O%27s_Outpost",
+    "revision": 624851,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/O.T.T.O%27s_Outpost?oldid=624851",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 1,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Number Available",
+        "Builder Hall Level / 1",
+        "Builder Hall Level / 2",
+        "Builder Hall Level / 3",
+        "Builder Hall Level / 4",
+        "Builder Hall Level / 5",
+        "Builder Hall Level / 6",
+        "Builder Hall Level / 7",
+        "Builder Hall Level / 8",
+        "Builder Hall Level / 9",
+        "Builder Hall Level / 10"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "Total",
+            "raw": "Total"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": "Stage 1 Limit",
+            "raw": "Stage 1 Limit"
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": "Stage 2 Limit",
+            "raw": "Stage 2 Limit"
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 2,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Size"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "4x4",
+            "raw": "4x4"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 3,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Level",
+        "Hitpoints",
+        "Spawned Zappies",
+        "Build Cost",
+        "Build Time",
+        "Experience Gained",
+        "Builder Hall Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 650,
+            "raw": "650"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 800,
+            "raw": "800"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 1000000,
+            "raw": "1,000,000"
+          },
+          {
+            "status": "known",
+            "value": 86400,
+            "raw": "1d",
+            "unit": "seconds",
+            "displayInput": "1,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 293,
+            "raw": "293"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 975,
+            "raw": "975"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 1250000,
+            "raw": "1,250,000"
+          },
+          {
+            "status": "known",
+            "value": 172800,
+            "raw": "2d",
+            "unit": "seconds",
+            "displayInput": "2,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 415,
+            "raw": "415"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 1150,
+            "raw": "1,150"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 1500000,
+            "raw": "1,500,000"
+          },
+          {
+            "status": "known",
+            "value": 259200,
+            "raw": "3d",
+            "unit": "seconds",
+            "displayInput": "3,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 509,
+            "raw": "509"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 1350,
+            "raw": "1,350"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 1750000,
+            "raw": "1,750,000"
+          },
+          {
+            "status": "known",
+            "value": 345600,
+            "raw": "4d",
+            "unit": "seconds",
+            "displayInput": "4,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 587,
+            "raw": "587"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 1600,
+            "raw": "1,600"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 2000000,
+            "raw": "2,000,000"
+          },
+          {
+            "status": "known",
+            "value": 432000,
+            "raw": "5d",
+            "unit": "seconds",
+            "displayInput": "5,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 657,
+            "raw": "657"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": 1850,
+            "raw": "1,850"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 3000000,
+            "raw": "3,000,000"
+          },
+          {
+            "status": "known",
+            "value": 604800,
+            "raw": "7d",
+            "unit": "seconds",
+            "displayInput": "7,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 777,
+            "raw": "777"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": 2150,
+            "raw": "2,150"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 4000000,
+            "raw": "4,000,000"
+          },
+          {
+            "status": "known",
+            "value": 777600,
+            "raw": "9d",
+            "unit": "seconds",
+            "displayInput": "9,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 881,
+            "raw": "881"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          },
+          {
+            "status": "known",
+            "value": 2450,
+            "raw": "2,450"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 5000000,
+            "raw": "5,000,000"
+          },
+          {
+            "status": "known",
+            "value": 864000,
+            "raw": "10d",
+            "unit": "seconds",
+            "displayInput": "10,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 929,
+            "raw": "929"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 2750,
+            "raw": "2,750"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 6000000,
+            "raw": "6,000,000"
+          },
+          {
+            "status": "known",
+            "value": 950400,
+            "raw": "11d",
+            "unit": "seconds",
+            "displayInput": "11,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 974,
+            "raw": "974"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 3,
+          "type": "cost",
+          "icon": "Gold2",
+          "gpClass": "building",
+          "noGoldPass": false
+        },
+        {
+          "column": 4,
+          "type": "time",
+          "gpClass": "building",
+          "noGoldPass": false
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "name": "O.T.T.O's_Outpost10.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1240/O.T.T.O's_Outpost10.png",
+      "alt": "奥仔哨站",
+      "localPath": "/images/original/upgrade/bh_buildings/1240/O.T.T.O's_Outpost10.webp",
+      "logicalPath": "/upgrade/bh_buildings/1240/O.T.T.O's_Outpost10.png"
+    },
+    {
+      "name": "O.T.T.O's_Outpost1_thumb.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1240/O.T.T.O's_Outpost1_thumb.png",
+      "alt": "1 级",
+      "localPath": "/images/original/upgrade/bh_buildings/1240/O.T.T.O's_Outpost1_thumb.webp",
+      "logicalPath": "/upgrade/bh_buildings/1240/O.T.T.O's_Outpost1_thumb.png"
+    },
+    {
+      "name": "O.T.T.O's_Outpost2_thumb.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1240/O.T.T.O's_Outpost2_thumb.png",
+      "alt": "2 级",
+      "localPath": "/images/original/upgrade/bh_buildings/1240/O.T.T.O's_Outpost2_thumb.webp",
+      "logicalPath": "/upgrade/bh_buildings/1240/O.T.T.O's_Outpost2_thumb.png"
+    },
+    {
+      "name": "O.T.T.O's_Outpost3_thumb.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1240/O.T.T.O's_Outpost3_thumb.png",
+      "alt": "3 级",
+      "localPath": "/images/original/upgrade/bh_buildings/1240/O.T.T.O's_Outpost3_thumb.webp",
+      "logicalPath": "/upgrade/bh_buildings/1240/O.T.T.O's_Outpost3_thumb.png"
+    },
+    {
+      "name": "O.T.T.O's_Outpost4_thumb.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1240/O.T.T.O's_Outpost4_thumb.png",
+      "alt": "4 级",
+      "localPath": "/images/original/upgrade/bh_buildings/1240/O.T.T.O's_Outpost4_thumb.webp",
+      "logicalPath": "/upgrade/bh_buildings/1240/O.T.T.O's_Outpost4_thumb.png"
+    },
+    {
+      "name": "O.T.T.O's_Outpost5_thumb.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1240/O.T.T.O's_Outpost5_thumb.png",
+      "alt": "5 级",
+      "localPath": "/images/original/upgrade/bh_buildings/1240/O.T.T.O's_Outpost5_thumb.webp",
+      "logicalPath": "/upgrade/bh_buildings/1240/O.T.T.O's_Outpost5_thumb.png"
+    },
+    {
+      "name": "O.T.T.O's_Outpost6_thumb.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1240/O.T.T.O's_Outpost6_thumb.png",
+      "alt": "6 级",
+      "localPath": "/images/original/upgrade/bh_buildings/1240/O.T.T.O's_Outpost6_thumb.webp",
+      "logicalPath": "/upgrade/bh_buildings/1240/O.T.T.O's_Outpost6_thumb.png"
+    },
+    {
+      "name": "O.T.T.O's_Outpost7_thumb.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1240/O.T.T.O's_Outpost7_thumb.png",
+      "alt": "7 级",
+      "localPath": "/images/original/upgrade/bh_buildings/1240/O.T.T.O's_Outpost7_thumb.webp",
+      "logicalPath": "/upgrade/bh_buildings/1240/O.T.T.O's_Outpost7_thumb.png"
+    },
+    {
+      "name": "O.T.T.O's_Outpost8_thumb.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1240/O.T.T.O's_Outpost8_thumb.png",
+      "alt": "8 级",
+      "localPath": "/images/original/upgrade/bh_buildings/1240/O.T.T.O's_Outpost8_thumb.webp",
+      "logicalPath": "/upgrade/bh_buildings/1240/O.T.T.O's_Outpost8_thumb.png"
+    },
+    {
+      "name": "O.T.T.O's_Outpost9_thumb.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1240/O.T.T.O's_Outpost9_thumb.png",
+      "alt": "9 级",
+      "localPath": "/images/original/upgrade/bh_buildings/1240/O.T.T.O's_Outpost9_thumb.webp",
+      "logicalPath": "/upgrade/bh_buildings/1240/O.T.T.O's_Outpost9_thumb.png"
+    },
+    {
+      "name": "O.T.T.O's_Outpost10_thumb.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1240/O.T.T.O's_Outpost10_thumb.png",
+      "alt": "10 级",
+      "localPath": "/images/original/upgrade/bh_buildings/1240/O.T.T.O's_Outpost10_thumb.webp",
+      "logicalPath": "/upgrade/bh_buildings/1240/O.T.T.O's_Outpost10_thumb.png"
+    }
+  ],
+  "history": [],
+  "facts": [
+    "Despite having defensive capabilities via its Zappies, the O.T.T.O's Outpost does not count as a defensive building for stage quotas (it is instead locked to being placed in stage two). It will not meet the defense-upgrading requirement of B.O.B Control if it is upgraded to level 9."
+  ],
+  "notices": []
+}

@@ -1,0 +1,1633 @@
+{
+  "unitId": "090b-Hot-Candle",
+  "title": "Hot Candle",
+  "originalName": "Hot Candle",
+  "module": "upgrade-temp",
+  "imgFolder": "crafted_buildings/090b",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Hot_Candle",
+    "revision": 625464,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Hot_Candle?oldid=625464",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 4,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Town Hall Level",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "Number Available",
+            "raw": "Number Available"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          }
+        ],
+        [
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          },
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          },
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          },
+          {
+            "status": "known",
+            "value": 15,
+            "raw": "15"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          },
+          {
+            "status": "known",
+            "value": 17,
+            "raw": "17"
+          },
+          {
+            "status": "known",
+            "value": 18,
+            "raw": "18"
+          }
+        ],
+        [
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 5,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Size"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "3x3",
+            "raw": "3x3"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 6,
+      "section": "Statistics",
+      "title": "Common Statistics",
+      "headers": [
+        "Range",
+        "Attack Speed",
+        "Damage Type",
+        "Unit Type Targeted",
+        "Number of Targets / Base Form",
+        "Number of Targets / First Decay",
+        "Number of Targets / Second Decay"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "10.5 Tiles",
+            "raw": "10.5 Tiles"
+          },
+          {
+            "status": "known",
+            "value": "0.5s",
+            "raw": "0.5s"
+          },
+          {
+            "status": "known",
+            "value": "Single Target",
+            "raw": "Single Target"
+          },
+          {
+            "status": "known",
+            "value": "Ground & Air",
+            "raw": "Ground & Air"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 7,
+      "section": "Statistics",
+      "title": "Module 1: Hitpoints",
+      "headers": [
+        "Level",
+        "Hitpoints",
+        "Cost",
+        "Build Time",
+        "Experience Gained",
+        "Town Hall Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1600,
+            "raw": "1,600"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 1800,
+            "raw": "1,800"
+          },
+          {
+            "status": "known",
+            "value": 3500000,
+            "raw": "3,500,000"
+          },
+          {
+            "status": "known",
+            "value": 21600,
+            "raw": "6h",
+            "unit": "seconds",
+            "displayInput": "0,6,0,0"
+          },
+          {
+            "status": "known",
+            "value": 146,
+            "raw": "146"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 2150,
+            "raw": "2,150"
+          },
+          {
+            "status": "known",
+            "value": 4500000,
+            "raw": "4,500,000"
+          },
+          {
+            "status": "known",
+            "value": 28800,
+            "raw": "8h",
+            "unit": "seconds",
+            "displayInput": "0,8,0,0"
+          },
+          {
+            "status": "known",
+            "value": 169,
+            "raw": "169"
+          },
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 2500,
+            "raw": "2,500"
+          },
+          {
+            "status": "known",
+            "value": 5500000,
+            "raw": "5,500,000"
+          },
+          {
+            "status": "known",
+            "value": 36000,
+            "raw": "10h",
+            "unit": "seconds",
+            "displayInput": "0,10,0,0"
+          },
+          {
+            "status": "known",
+            "value": 189,
+            "raw": "189"
+          },
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 2700,
+            "raw": "2,700"
+          },
+          {
+            "status": "known",
+            "value": 6500000,
+            "raw": "6,500,000"
+          },
+          {
+            "status": "known",
+            "value": 43200,
+            "raw": "12h",
+            "unit": "seconds",
+            "displayInput": "0,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 207,
+            "raw": "207"
+          },
+          {
+            "status": "known",
+            "value": 15,
+            "raw": "15"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 3150,
+            "raw": "3,150"
+          },
+          {
+            "status": "known",
+            "value": 7500000,
+            "raw": "7,500,000"
+          },
+          {
+            "status": "known",
+            "value": 64800,
+            "raw": "18h",
+            "unit": "seconds",
+            "displayInput": "0,18,0,0"
+          },
+          {
+            "status": "known",
+            "value": 254,
+            "raw": "254"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": 3900,
+            "raw": "3,900"
+          },
+          {
+            "status": "known",
+            "value": 8500000,
+            "raw": "8,500,000"
+          },
+          {
+            "status": "known",
+            "value": 154800,
+            "raw": "1d 19h",
+            "unit": "seconds",
+            "displayInput": "1,19,0,0"
+          },
+          {
+            "status": "known",
+            "value": 393,
+            "raw": "393"
+          },
+          {
+            "status": "known",
+            "value": 17,
+            "raw": "17"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": 4500,
+            "raw": "4,500"
+          },
+          {
+            "status": "known",
+            "value": 10000000,
+            "raw": "10,000,000"
+          },
+          {
+            "status": "known",
+            "value": 288000,
+            "raw": "3d 8h",
+            "unit": "seconds",
+            "displayInput": "3,8,0,0"
+          },
+          {
+            "status": "known",
+            "value": 536,
+            "raw": "536"
+          },
+          {
+            "status": "known",
+            "value": 18,
+            "raw": "18"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          },
+          {
+            "status": "known",
+            "value": 5200,
+            "raw": "5,200"
+          },
+          {
+            "status": "known",
+            "value": 11500000,
+            "raw": "11,500,000"
+          },
+          {
+            "status": "known",
+            "value": 496800,
+            "raw": "5d 18h",
+            "unit": "seconds",
+            "displayInput": "5,18,0,0"
+          },
+          {
+            "status": "known",
+            "value": 704,
+            "raw": "704"
+          },
+          {
+            "status": "known",
+            "value": 18,
+            "raw": "18"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 6000,
+            "raw": "6,000"
+          },
+          {
+            "status": "known",
+            "value": 13000000,
+            "raw": "13,000,000"
+          },
+          {
+            "status": "known",
+            "value": 820800,
+            "raw": "9d 12h",
+            "unit": "seconds",
+            "displayInput": "9,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 905,
+            "raw": "905"
+          },
+          {
+            "status": "known",
+            "value": 18,
+            "raw": "18"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 2,
+          "type": "cost",
+          "icon": "Elixir",
+          "gpClass": "building",
+          "noGoldPass": false
+        },
+        {
+          "column": 3,
+          "type": "time",
+          "gpClass": "building",
+          "noGoldPass": false
+        }
+      ]
+    },
+    {
+      "sourceTableIndex": 8,
+      "section": "Statistics",
+      "title": "Module 2: Damage",
+      "headers": [
+        "Level",
+        "Damage per Second per Flame",
+        "Damage per Hit",
+        "Cost",
+        "Build Time",
+        "Experience Gained",
+        "Town Hall Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 80,
+            "raw": "80"
+          },
+          {
+            "status": "known",
+            "value": 40,
+            "raw": "40"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 100,
+            "raw": "100"
+          },
+          {
+            "status": "known",
+            "value": 50,
+            "raw": "50"
+          },
+          {
+            "status": "known",
+            "value": 4000000,
+            "raw": "4,000,000"
+          },
+          {
+            "status": "known",
+            "value": 28800,
+            "raw": "8h",
+            "unit": "seconds",
+            "displayInput": "0,8,0,0"
+          },
+          {
+            "status": "known",
+            "value": 169,
+            "raw": "169"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 120,
+            "raw": "120"
+          },
+          {
+            "status": "known",
+            "value": 60,
+            "raw": "60"
+          },
+          {
+            "status": "known",
+            "value": 5000000,
+            "raw": "5,000,000"
+          },
+          {
+            "status": "known",
+            "value": 36000,
+            "raw": "10h",
+            "unit": "seconds",
+            "displayInput": "0,10,0,0"
+          },
+          {
+            "status": "known",
+            "value": 189,
+            "raw": "189"
+          },
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 150,
+            "raw": "150"
+          },
+          {
+            "status": "known",
+            "value": 75,
+            "raw": "75"
+          },
+          {
+            "status": "known",
+            "value": 6000000,
+            "raw": "6,000,000"
+          },
+          {
+            "status": "known",
+            "value": 39600,
+            "raw": "11h",
+            "unit": "seconds",
+            "displayInput": "0,11,0,0"
+          },
+          {
+            "status": "known",
+            "value": 198,
+            "raw": "198"
+          },
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 160,
+            "raw": "160"
+          },
+          {
+            "status": "known",
+            "value": 80,
+            "raw": "80"
+          },
+          {
+            "status": "known",
+            "value": 7500000,
+            "raw": "7,500,000"
+          },
+          {
+            "status": "known",
+            "value": 46800,
+            "raw": "13h",
+            "unit": "seconds",
+            "displayInput": "0,13,0,0"
+          },
+          {
+            "status": "known",
+            "value": 216,
+            "raw": "216"
+          },
+          {
+            "status": "known",
+            "value": 15,
+            "raw": "15"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 180,
+            "raw": "180"
+          },
+          {
+            "status": "known",
+            "value": 90,
+            "raw": "90"
+          },
+          {
+            "status": "known",
+            "value": 9000000,
+            "raw": "9,000,000"
+          },
+          {
+            "status": "known",
+            "value": 68400,
+            "raw": "19h",
+            "unit": "seconds",
+            "displayInput": "0,19,0,0"
+          },
+          {
+            "status": "known",
+            "value": 261,
+            "raw": "261"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": 190,
+            "raw": "190"
+          },
+          {
+            "status": "known",
+            "value": 95,
+            "raw": "95"
+          },
+          {
+            "status": "known",
+            "value": 10500000,
+            "raw": "10,500,000"
+          },
+          {
+            "status": "known",
+            "value": 165600,
+            "raw": "1d 22h",
+            "unit": "seconds",
+            "displayInput": "1,22,0,0"
+          },
+          {
+            "status": "known",
+            "value": 406,
+            "raw": "406"
+          },
+          {
+            "status": "known",
+            "value": 17,
+            "raw": "17"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": 210,
+            "raw": "210"
+          },
+          {
+            "status": "known",
+            "value": 105,
+            "raw": "105"
+          },
+          {
+            "status": "known",
+            "value": 12000000,
+            "raw": "12,000,000"
+          },
+          {
+            "status": "known",
+            "value": 298800,
+            "raw": "3d 11h",
+            "unit": "seconds",
+            "displayInput": "3,11,0,0"
+          },
+          {
+            "status": "known",
+            "value": 546,
+            "raw": "546"
+          },
+          {
+            "status": "known",
+            "value": 18,
+            "raw": "18"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          },
+          {
+            "status": "known",
+            "value": 230,
+            "raw": "230"
+          },
+          {
+            "status": "known",
+            "value": 115,
+            "raw": "115"
+          },
+          {
+            "status": "known",
+            "value": 13500000,
+            "raw": "13,500,000"
+          },
+          {
+            "status": "known",
+            "value": 532800,
+            "raw": "6d 4h",
+            "unit": "seconds",
+            "displayInput": "6,4,0,0"
+          },
+          {
+            "status": "known",
+            "value": 729,
+            "raw": "729"
+          },
+          {
+            "status": "known",
+            "value": 18,
+            "raw": "18"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 250,
+            "raw": "250"
+          },
+          {
+            "status": "known",
+            "value": 125,
+            "raw": "125"
+          },
+          {
+            "status": "known",
+            "value": 15000000,
+            "raw": "15,000,000"
+          },
+          {
+            "status": "known",
+            "value": 864000,
+            "raw": "10d",
+            "unit": "seconds",
+            "displayInput": "10,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 929,
+            "raw": "929"
+          },
+          {
+            "status": "known",
+            "value": 18,
+            "raw": "18"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 3,
+          "type": "cost",
+          "icon": "Gold",
+          "gpClass": "building",
+          "noGoldPass": false
+        },
+        {
+          "column": 4,
+          "type": "time",
+          "gpClass": "building",
+          "noGoldPass": false
+        }
+      ]
+    },
+    {
+      "sourceTableIndex": 9,
+      "section": "Statistics",
+      "title": "Module 3: Seconds Active",
+      "headers": [
+        "Level",
+        "Total Seconds Active / Base Form",
+        "Total Seconds Active / First Decay",
+        "Total Seconds Active / Second Decay",
+        "Cost",
+        "Build Time",
+        "Experience Gained",
+        "Town Hall Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": "59s",
+            "raw": "59s"
+          },
+          {
+            "status": "known",
+            "value": "60s - 94s",
+            "raw": "60s - 94s"
+          },
+          {
+            "status": "known",
+            "value": "95s+",
+            "raw": "95s+"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": "61s",
+            "raw": "61s"
+          },
+          {
+            "status": "known",
+            "value": "62s - 98s",
+            "raw": "62s - 98s"
+          },
+          {
+            "status": "known",
+            "value": "99s+",
+            "raw": "99s+"
+          },
+          {
+            "status": "known",
+            "value": 30000,
+            "raw": "30,000"
+          },
+          {
+            "status": "known",
+            "value": 14400,
+            "raw": "4h",
+            "unit": "seconds",
+            "displayInput": "0,4,0,0"
+          },
+          {
+            "status": "known",
+            "value": 120,
+            "raw": "120"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": "63s",
+            "raw": "63s"
+          },
+          {
+            "status": "known",
+            "value": "64s - 102s",
+            "raw": "64s - 102s"
+          },
+          {
+            "status": "known",
+            "value": "103s+",
+            "raw": "103s+"
+          },
+          {
+            "status": "known",
+            "value": 40000,
+            "raw": "40,000"
+          },
+          {
+            "status": "known",
+            "value": 21600,
+            "raw": "6h",
+            "unit": "seconds",
+            "displayInput": "0,6,0,0"
+          },
+          {
+            "status": "known",
+            "value": 146,
+            "raw": "146"
+          },
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": "65s",
+            "raw": "65s"
+          },
+          {
+            "status": "known",
+            "value": "66s - 106s",
+            "raw": "66s - 106s"
+          },
+          {
+            "status": "known",
+            "value": "107s+",
+            "raw": "107s+"
+          },
+          {
+            "status": "known",
+            "value": 50000,
+            "raw": "50,000"
+          },
+          {
+            "status": "known",
+            "value": 28800,
+            "raw": "8h",
+            "unit": "seconds",
+            "displayInput": "0,8,0,0"
+          },
+          {
+            "status": "known",
+            "value": 169,
+            "raw": "169"
+          },
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": "67s",
+            "raw": "67s"
+          },
+          {
+            "status": "known",
+            "value": "68s - 110s",
+            "raw": "68s - 110s"
+          },
+          {
+            "status": "known",
+            "value": "111s+",
+            "raw": "111s+"
+          },
+          {
+            "status": "known",
+            "value": 60000,
+            "raw": "60,000"
+          },
+          {
+            "status": "known",
+            "value": 36000,
+            "raw": "10h",
+            "unit": "seconds",
+            "displayInput": "0,10,0,0"
+          },
+          {
+            "status": "known",
+            "value": 189,
+            "raw": "189"
+          },
+          {
+            "status": "known",
+            "value": 15,
+            "raw": "15"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": "69s",
+            "raw": "69s"
+          },
+          {
+            "status": "known",
+            "value": "70s - 114s",
+            "raw": "70s - 114s"
+          },
+          {
+            "status": "known",
+            "value": "115s+",
+            "raw": "115s+"
+          },
+          {
+            "status": "known",
+            "value": 70000,
+            "raw": "70,000"
+          },
+          {
+            "status": "known",
+            "value": 57600,
+            "raw": "16h",
+            "unit": "seconds",
+            "displayInput": "0,16,0,0"
+          },
+          {
+            "status": "known",
+            "value": 240,
+            "raw": "240"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": "71s",
+            "raw": "71s"
+          },
+          {
+            "status": "known",
+            "value": "72s - 118s",
+            "raw": "72s - 118s"
+          },
+          {
+            "status": "known",
+            "value": "119s+",
+            "raw": "119s+"
+          },
+          {
+            "status": "known",
+            "value": 80000,
+            "raw": "80,000"
+          },
+          {
+            "status": "known",
+            "value": 144000,
+            "raw": "1d 16h",
+            "unit": "seconds",
+            "displayInput": "1,16,0,0"
+          },
+          {
+            "status": "known",
+            "value": 379,
+            "raw": "379"
+          },
+          {
+            "status": "known",
+            "value": 17,
+            "raw": "17"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": "73s",
+            "raw": "73s"
+          },
+          {
+            "status": "known",
+            "value": "74s - 122s",
+            "raw": "74s - 122s"
+          },
+          {
+            "status": "known",
+            "value": "123s+",
+            "raw": "123s+"
+          },
+          {
+            "status": "known",
+            "value": 90000,
+            "raw": "90,000"
+          },
+          {
+            "status": "known",
+            "value": 266400,
+            "raw": "3d 2h",
+            "unit": "seconds",
+            "displayInput": "3,2,0,0"
+          },
+          {
+            "status": "known",
+            "value": 516,
+            "raw": "516"
+          },
+          {
+            "status": "known",
+            "value": 18,
+            "raw": "18"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          },
+          {
+            "status": "known",
+            "value": "75s",
+            "raw": "75s"
+          },
+          {
+            "status": "known",
+            "value": "76s - 126s",
+            "raw": "76s - 126s"
+          },
+          {
+            "status": "known",
+            "value": "127s+",
+            "raw": "127s+"
+          },
+          {
+            "status": "known",
+            "value": 100000,
+            "raw": "100,000"
+          },
+          {
+            "status": "known",
+            "value": 453600,
+            "raw": "5d 6h",
+            "unit": "seconds",
+            "displayInput": "5,6,0,0"
+          },
+          {
+            "status": "known",
+            "value": 673,
+            "raw": "673"
+          },
+          {
+            "status": "known",
+            "value": 18,
+            "raw": "18"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": "77s",
+            "raw": "77s"
+          },
+          {
+            "status": "known",
+            "value": "78s - 131s",
+            "raw": "78s - 131s"
+          },
+          {
+            "status": "known",
+            "value": "132s+",
+            "raw": "132s+"
+          },
+          {
+            "status": "known",
+            "value": 110000,
+            "raw": "110,000"
+          },
+          {
+            "status": "known",
+            "value": 777600,
+            "raw": "9d",
+            "unit": "seconds",
+            "displayInput": "9,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 881,
+            "raw": "881"
+          },
+          {
+            "status": "known",
+            "value": 18,
+            "raw": "18"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 4,
+          "type": "cost",
+          "icon": "Dark_Elixir",
+          "gpClass": "building",
+          "noGoldPass": false
+        },
+        {
+          "column": 5,
+          "type": "time",
+          "gpClass": "building",
+          "noGoldPass": false
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "name": "Hot_Candle4-1.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/9/97/Hot_Candle4-1.png/revision/latest/scale-to-width-down/200?cb=20260713110056",
+      "alt": "Hot Candle4-1",
+      "localPath": "/images/wiki/090b-Hot-Candle/4449bd1e5e-Hot_Candle4-1.png",
+      "logicalPath": "/upgrade/crafted_buildings/090b/Hot_Candle4-1.png"
+    },
+    {
+      "name": "Hot_Candle1-1.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/c/cc/Hot_Candle1-1.png/revision/latest/scale-to-width-down/110?cb=20260713105937",
+      "alt": "Hot Candle1-1",
+      "localPath": "/images/wiki/090b-Hot-Candle/98843ed858-Hot_Candle1-1.png",
+      "logicalPath": "/upgrade/crafted_buildings/090b/Hot_Candle1-1.png"
+    },
+    {
+      "name": "Hot_Candle2-1.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/5/56/Hot_Candle2-1.png/revision/latest/scale-to-width-down/110?cb=20260713110007",
+      "alt": "Hot Candle2-1",
+      "localPath": "/images/wiki/090b-Hot-Candle/2b144a4ae7-Hot_Candle2-1.png",
+      "logicalPath": "/upgrade/crafted_buildings/090b/Hot_Candle2-1.png"
+    },
+    {
+      "name": "Hot_Candle3-1.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/1/18/Hot_Candle3-1.png/revision/latest/scale-to-width-down/110?cb=20260713110029",
+      "alt": "Hot Candle3-1",
+      "localPath": "/images/wiki/090b-Hot-Candle/0bc7c920ea-Hot_Candle3-1.png",
+      "logicalPath": "/upgrade/crafted_buildings/090b/Hot_Candle3-1.png"
+    },
+    {
+      "name": "Hot_Candle1-2.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/4/44/Hot_Candle1-2.png/revision/latest/scale-to-width-down/110?cb=20260713110129",
+      "alt": "Hot Candle1-2",
+      "localPath": "/images/wiki/090b-Hot-Candle/430de2f84b-Hot_Candle1-2.png",
+      "logicalPath": "/upgrade/crafted_buildings/090b/Hot_Candle1-2.png"
+    },
+    {
+      "name": "Hot_Candle2-2.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/e/ec/Hot_Candle2-2.png/revision/latest/scale-to-width-down/110?cb=20260713110154",
+      "alt": "Hot Candle2-2",
+      "localPath": "/images/wiki/090b-Hot-Candle/79c62c4069-Hot_Candle2-2.png",
+      "logicalPath": "/upgrade/crafted_buildings/090b/Hot_Candle2-2.png"
+    },
+    {
+      "name": "Hot_Candle3-2.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/9/90/Hot_Candle3-2.png/revision/latest/scale-to-width-down/110?cb=20260713110215",
+      "alt": "Hot Candle3-2",
+      "localPath": "/images/wiki/090b-Hot-Candle/e3715f2865-Hot_Candle3-2.png",
+      "logicalPath": "/upgrade/crafted_buildings/090b/Hot_Candle3-2.png"
+    },
+    {
+      "name": "Hot_Candle4-2.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/0/0d/Hot_Candle4-2.png/revision/latest/scale-to-width-down/110?cb=20260713110243",
+      "alt": "Hot Candle4-2",
+      "localPath": "/images/wiki/090b-Hot-Candle/aac3e17888-Hot_Candle4-2.png",
+      "logicalPath": "/upgrade/crafted_buildings/090b/Hot_Candle4-2.png"
+    },
+    {
+      "name": "Hot_Candle1-3.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e8/Hot_Candle1-3.png/revision/latest/scale-to-width-down/110?cb=20260713110320",
+      "alt": "Hot Candle1-3",
+      "localPath": "/images/wiki/090b-Hot-Candle/1e6b1513a6-Hot_Candle1-3.png",
+      "logicalPath": "/upgrade/crafted_buildings/090b/Hot_Candle1-3.png"
+    },
+    {
+      "name": "Hot_Candle2-3.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/7/77/Hot_Candle2-3.png/revision/latest/scale-to-width-down/110?cb=20260713110355",
+      "alt": "Hot Candle2-3",
+      "localPath": "/images/wiki/090b-Hot-Candle/bd340e8254-Hot_Candle2-3.png",
+      "logicalPath": "/upgrade/crafted_buildings/090b/Hot_Candle2-3.png"
+    },
+    {
+      "name": "Hot_Candle3-3.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/6/65/Hot_Candle3-3.png/revision/latest/scale-to-width-down/110?cb=20260713110417",
+      "alt": "Hot Candle3-3",
+      "localPath": "/images/wiki/090b-Hot-Candle/916099e1e7-Hot_Candle3-3.png",
+      "logicalPath": "/upgrade/crafted_buildings/090b/Hot_Candle3-3.png"
+    },
+    {
+      "name": "Hot_Candle4-3.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/0/05/Hot_Candle4-3.png/revision/latest/scale-to-width-down/110?cb=20260713110446",
+      "alt": "Hot Candle4-3",
+      "localPath": "/images/wiki/090b-Hot-Candle/c430b21f89-Hot_Candle4-3.png",
+      "logicalPath": "/upgrade/crafted_buildings/090b/Hot_Candle4-3.png"
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-06-16",
+      "description": "Added to the game files."
+    },
+    {
+      "date": "2026-07-30",
+      "description": "Announced the Hot Candle, with 30 levels. Hot Candle1-1 Hot Candle2-1 Hot Candle3-1 Hot Candle4-1"
+    },
+    {
+      "date": "2026-07-31",
+      "description": "Fixed a bug where the Hot Candle decay timer counting scouting attack time, by setting the decay timer to start when a building is destroyed."
+    },
+    {
+      "date": "2026-08-01",
+      "description": "Added the Hot Candle."
+    },
+    {
+      "date": "2026-08-31",
+      "description": "Changed the decay timer to start when a troop is deployed (the original intended behavior)."
+    }
+  ],
+  "facts": [],
+  "notices": []
+}

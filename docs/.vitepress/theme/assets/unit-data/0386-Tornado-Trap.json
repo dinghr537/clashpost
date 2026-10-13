@@ -1,0 +1,434 @@
+{
+  "unitId": "0386-Tornado-Trap",
+  "title": "飓风陷阱",
+  "originalName": "Tornado Trap",
+  "module": "upgrade-home",
+  "imgFolder": "home_buildings/0386",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Tornado_Trap",
+    "revision": 619079,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Tornado_Trap?oldid=619079",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 1,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Town Hall Level",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "Number Available",
+            "raw": "Number Available"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          }
+        ],
+        [
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          },
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          },
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          },
+          {
+            "status": "known",
+            "value": 15,
+            "raw": "15"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          },
+          {
+            "status": "known",
+            "value": 17,
+            "raw": "17"
+          },
+          {
+            "status": "known",
+            "value": 18,
+            "raw": "18"
+          }
+        ],
+        [
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 2,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Size"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "1x1",
+            "raw": "1x1"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 3,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Level",
+        "Duration",
+        "Total Damage",
+        "Cost",
+        "Build Time",
+        "Experience Gained",
+        "Town Hall Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": "5 seconds",
+            "raw": "5 seconds"
+          },
+          {
+            "status": "known",
+            "value": 39,
+            "raw": "39"
+          },
+          {
+            "status": "known",
+            "value": 1800000,
+            "raw": "1,800,000"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": "6 seconds",
+            "raw": "6 seconds"
+          },
+          {
+            "status": "known",
+            "value": 47,
+            "raw": "47"
+          },
+          {
+            "status": "known",
+            "value": 2000000,
+            "raw": "2,000,000"
+          },
+          {
+            "status": "known",
+            "value": 86400,
+            "raw": "1d",
+            "unit": "seconds",
+            "displayInput": "1,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 293,
+            "raw": "293"
+          },
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": "7 seconds",
+            "raw": "7 seconds"
+          },
+          {
+            "status": "known",
+            "value": 55,
+            "raw": "55"
+          },
+          {
+            "status": "known",
+            "value": 2500000,
+            "raw": "2,500,000"
+          },
+          {
+            "status": "known",
+            "value": 172800,
+            "raw": "2d",
+            "unit": "seconds",
+            "displayInput": "2,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 415,
+            "raw": "415"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 3,
+          "type": "cost",
+          "icon": "Gold",
+          "gpClass": "building",
+          "noGoldPass": false
+        },
+        {
+          "column": 4,
+          "type": "time",
+          "gpClass": "building",
+          "noGoldPass": false
+        }
+      ]
+    },
+    {
+      "sourceTableIndex": 4,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Damage per Second",
+        "Trigger Radius",
+        "Damage Radius",
+        "Damage Type",
+        "Unit Type Targeted",
+        "Favorite Target"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": "3 tiles",
+            "raw": "3 tiles"
+          },
+          {
+            "status": "known",
+            "value": "3 tiles",
+            "raw": "3 tiles"
+          },
+          {
+            "status": "known",
+            "value": "Area Splash",
+            "raw": "Area Splash"
+          },
+          {
+            "status": "known",
+            "value": "Ground & Air",
+            "raw": "Ground & Air"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "None"
+          }
+        ]
+      ],
+      "extraInfo": []
+    }
+  ],
+  "images": [
+    {
+      "name": "Tornado_Trap_info.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0386/Tornado_Trap_info.png",
+      "alt": "飓风陷阱",
+      "localPath": "/images/original/upgrade/home_buildings/0386/Tornado_Trap_info.webp",
+      "logicalPath": "/upgrade/home_buildings/0386/Tornado_Trap_info.png"
+    },
+    {
+      "name": "Tornado_Trap1.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0386/Tornado_Trap1.png",
+      "alt": "1 级",
+      "localPath": "/images/original/upgrade/home_buildings/0386/Tornado_Trap1.webp",
+      "logicalPath": "/upgrade/home_buildings/0386/Tornado_Trap1.png"
+    },
+    {
+      "name": "Tornado_Trap2.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0386/Tornado_Trap2.png",
+      "alt": "2 - 3 级",
+      "localPath": "/images/original/upgrade/home_buildings/0386/Tornado_Trap2.webp",
+      "logicalPath": "/upgrade/home_buildings/0386/Tornado_Trap2.png"
+    }
+  ],
+  "history": [],
+  "facts": [
+    "The Tornado Trap is a trap unlocked at Town Hall level 11. When triggered, it pulls in attacking troops, forcibly moving them, and does small damage to them."
+  ],
+  "notices": []
+}

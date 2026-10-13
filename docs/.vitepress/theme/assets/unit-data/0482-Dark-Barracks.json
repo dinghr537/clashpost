@@ -1,0 +1,856 @@
+{
+  "unitId": "0482-Dark-Barracks",
+  "title": "暗黑训练营",
+  "originalName": "Dark Barracks",
+  "module": "upgrade-home",
+  "imgFolder": "home_buildings/0482",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Dark_Barracks",
+    "revision": 623607,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Dark_Barracks?oldid=623607",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 1,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Town Hall Level",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "Number Available",
+            "raw": "Number Available"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          }
+        ],
+        [
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          },
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          },
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          },
+          {
+            "status": "known",
+            "value": 15,
+            "raw": "15"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          },
+          {
+            "status": "known",
+            "value": 17,
+            "raw": "17"
+          },
+          {
+            "status": "known",
+            "value": 18,
+            "raw": "18"
+          }
+        ],
+        [
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 2,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Size"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "3x3",
+            "raw": "3x3"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 3,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Level",
+        "Unlocked Unit",
+        "Hitpoints",
+        "Build Cost",
+        "Build Time",
+        "Experience Gained",
+        "Town Hall Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": "Minion",
+            "raw": "Minion"
+          },
+          {
+            "status": "known",
+            "value": 500,
+            "raw": "500"
+          },
+          {
+            "status": "known",
+            "value": 200000,
+            "raw": "200,000"
+          },
+          {
+            "status": "known",
+            "value": 28800,
+            "raw": "8h",
+            "unit": "seconds",
+            "displayInput": "0,8,0,0"
+          },
+          {
+            "status": "known",
+            "value": 169,
+            "raw": "169"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": "Hog Rider",
+            "raw": "Hog Rider"
+          },
+          {
+            "status": "known",
+            "value": 550,
+            "raw": "550"
+          },
+          {
+            "status": "known",
+            "value": 600000,
+            "raw": "600,000"
+          },
+          {
+            "status": "known",
+            "value": 86400,
+            "raw": "1d",
+            "unit": "seconds",
+            "displayInput": "1,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 293,
+            "raw": "293"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": "Valkyrie",
+            "raw": "Valkyrie"
+          },
+          {
+            "status": "known",
+            "value": 600,
+            "raw": "600"
+          },
+          {
+            "status": "known",
+            "value": 1000000,
+            "raw": "1,000,000"
+          },
+          {
+            "status": "known",
+            "value": 129600,
+            "raw": "1d 12h",
+            "unit": "seconds",
+            "displayInput": "1,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 360,
+            "raw": "360"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": "Golem",
+            "raw": "Golem"
+          },
+          {
+            "status": "known",
+            "value": 650,
+            "raw": "650"
+          },
+          {
+            "status": "known",
+            "value": 1600000,
+            "raw": "1,600,000"
+          },
+          {
+            "status": "known",
+            "value": 172800,
+            "raw": "2d",
+            "unit": "seconds",
+            "displayInput": "2,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 415,
+            "raw": "415"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": "Witch",
+            "raw": "Witch"
+          },
+          {
+            "status": "known",
+            "value": 700,
+            "raw": "700"
+          },
+          {
+            "status": "known",
+            "value": 2200000,
+            "raw": "2,200,000"
+          },
+          {
+            "status": "known",
+            "value": 216000,
+            "raw": "2d 12h",
+            "unit": "seconds",
+            "displayInput": "2,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 464,
+            "raw": "464"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": "Lava Hound",
+            "raw": "Lava Hound"
+          },
+          {
+            "status": "known",
+            "value": 750,
+            "raw": "750"
+          },
+          {
+            "status": "known",
+            "value": 2900000,
+            "raw": "2,900,000"
+          },
+          {
+            "status": "known",
+            "value": 259200,
+            "raw": "3d",
+            "unit": "seconds",
+            "displayInput": "3,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 509,
+            "raw": "509"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": "Bowler",
+            "raw": "Bowler"
+          },
+          {
+            "status": "known",
+            "value": 800,
+            "raw": "800"
+          },
+          {
+            "status": "known",
+            "value": 4000000,
+            "raw": "4,000,000"
+          },
+          {
+            "status": "known",
+            "value": 432000,
+            "raw": "5d",
+            "unit": "seconds",
+            "displayInput": "5,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 657,
+            "raw": "657"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": "Ice Golem",
+            "raw": "Ice Golem"
+          },
+          {
+            "status": "known",
+            "value": 850,
+            "raw": "850"
+          },
+          {
+            "status": "known",
+            "value": 7000000,
+            "raw": "7,000,000"
+          },
+          {
+            "status": "known",
+            "value": 518400,
+            "raw": "6d",
+            "unit": "seconds",
+            "displayInput": "6,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 720,
+            "raw": "720"
+          },
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          },
+          {
+            "status": "known",
+            "value": "Headhunter",
+            "raw": "Headhunter"
+          },
+          {
+            "status": "known",
+            "value": 900,
+            "raw": "900"
+          },
+          {
+            "status": "known",
+            "value": 7200000,
+            "raw": "7,200,000"
+          },
+          {
+            "status": "known",
+            "value": 604800,
+            "raw": "7d",
+            "unit": "seconds",
+            "displayInput": "7,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 777,
+            "raw": "777"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": "Apprentice Warden",
+            "raw": "Apprentice Warden"
+          },
+          {
+            "status": "known",
+            "value": 950,
+            "raw": "950"
+          },
+          {
+            "status": "known",
+            "value": 10000000,
+            "raw": "10,000,000"
+          },
+          {
+            "status": "known",
+            "value": 648000,
+            "raw": "7d 12h",
+            "unit": "seconds",
+            "displayInput": "7,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 804,
+            "raw": "804"
+          },
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          },
+          {
+            "status": "known",
+            "value": "Druid",
+            "raw": "Druid"
+          },
+          {
+            "status": "known",
+            "value": 1000,
+            "raw": "1,000"
+          },
+          {
+            "status": "known",
+            "value": 12000000,
+            "raw": "12,000,000"
+          },
+          {
+            "status": "known",
+            "value": 691200,
+            "raw": "8d",
+            "unit": "seconds",
+            "displayInput": "8,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 831,
+            "raw": "831"
+          },
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          },
+          {
+            "status": "known",
+            "value": "Furnace",
+            "raw": "Furnace"
+          },
+          {
+            "status": "known",
+            "value": 1050,
+            "raw": "1,050"
+          },
+          {
+            "status": "known",
+            "value": 20000000,
+            "raw": "20,000,000"
+          },
+          {
+            "status": "known",
+            "value": 777600,
+            "raw": "9d",
+            "unit": "seconds",
+            "displayInput": "9,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 881,
+            "raw": "881"
+          },
+          {
+            "status": "known",
+            "value": 15,
+            "raw": "15"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          },
+          {
+            "status": "known",
+            "value": "Ruin Witch",
+            "raw": "Ruin Witch"
+          },
+          {
+            "status": "known",
+            "value": 1100,
+            "raw": "1,100"
+          },
+          {
+            "status": "known",
+            "value": 23000000,
+            "raw": "23,000,000"
+          },
+          {
+            "status": "known",
+            "value": 864000,
+            "raw": "10d",
+            "unit": "seconds",
+            "displayInput": "10,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 929,
+            "raw": "929"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 3,
+          "type": "cost",
+          "icon": "Elixir",
+          "gpClass": "building",
+          "noGoldPass": false
+        },
+        {
+          "column": 4,
+          "type": "time",
+          "gpClass": "building",
+          "noGoldPass": false
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "name": "Dark_Barracks12_info.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0482/Dark_Barracks12_info.png",
+      "alt": "暗黑训练营",
+      "localPath": "/images/original/upgrade/home_buildings/0482/Dark_Barracks12_info.webp",
+      "logicalPath": "/upgrade/home_buildings/0482/Dark_Barracks12_info.png"
+    },
+    {
+      "name": "Dark_Barracks1.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0482/Dark_Barracks1.png",
+      "alt": "1 级",
+      "localPath": "/images/original/upgrade/home_buildings/0482/Dark_Barracks1.webp",
+      "logicalPath": "/upgrade/home_buildings/0482/Dark_Barracks1.png"
+    },
+    {
+      "name": "Dark_Barracks2.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0482/Dark_Barracks2.png",
+      "alt": "2 级",
+      "localPath": "/images/original/upgrade/home_buildings/0482/Dark_Barracks2.webp",
+      "logicalPath": "/upgrade/home_buildings/0482/Dark_Barracks2.png"
+    },
+    {
+      "name": "Dark_Barracks3.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0482/Dark_Barracks3.png",
+      "alt": "3 级",
+      "localPath": "/images/original/upgrade/home_buildings/0482/Dark_Barracks3.webp",
+      "logicalPath": "/upgrade/home_buildings/0482/Dark_Barracks3.png"
+    },
+    {
+      "name": "Dark_Barracks4.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0482/Dark_Barracks4.png",
+      "alt": "4 级",
+      "localPath": "/images/original/upgrade/home_buildings/0482/Dark_Barracks4.webp",
+      "logicalPath": "/upgrade/home_buildings/0482/Dark_Barracks4.png"
+    },
+    {
+      "name": "Dark_Barracks5.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0482/Dark_Barracks5.png",
+      "alt": "5 级",
+      "localPath": "/images/original/upgrade/home_buildings/0482/Dark_Barracks5.webp",
+      "logicalPath": "/upgrade/home_buildings/0482/Dark_Barracks5.png"
+    },
+    {
+      "name": "Dark_Barracks6.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0482/Dark_Barracks6.png",
+      "alt": "6 级",
+      "localPath": "/images/original/upgrade/home_buildings/0482/Dark_Barracks6.webp",
+      "logicalPath": "/upgrade/home_buildings/0482/Dark_Barracks6.png"
+    },
+    {
+      "name": "Dark_Barracks7.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0482/Dark_Barracks7.png",
+      "alt": "7 级",
+      "localPath": "/images/original/upgrade/home_buildings/0482/Dark_Barracks7.webp",
+      "logicalPath": "/upgrade/home_buildings/0482/Dark_Barracks7.png"
+    },
+    {
+      "name": "Dark_Barracks8.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0482/Dark_Barracks8.png",
+      "alt": "8 级",
+      "localPath": "/images/original/upgrade/home_buildings/0482/Dark_Barracks8.webp",
+      "logicalPath": "/upgrade/home_buildings/0482/Dark_Barracks8.png"
+    },
+    {
+      "name": "Dark_Barracks9.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0482/Dark_Barracks9.png",
+      "alt": "9 级",
+      "localPath": "/images/original/upgrade/home_buildings/0482/Dark_Barracks9.webp",
+      "logicalPath": "/upgrade/home_buildings/0482/Dark_Barracks9.png"
+    },
+    {
+      "name": "Dark_Barracks10.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0482/Dark_Barracks10.png",
+      "alt": "10 级",
+      "localPath": "/images/original/upgrade/home_buildings/0482/Dark_Barracks10.webp",
+      "logicalPath": "/upgrade/home_buildings/0482/Dark_Barracks10.png"
+    },
+    {
+      "name": "Dark_Barracks11.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0482/Dark_Barracks11.png",
+      "alt": "11 级",
+      "localPath": "/images/original/upgrade/home_buildings/0482/Dark_Barracks11.webp",
+      "logicalPath": "/upgrade/home_buildings/0482/Dark_Barracks11.png"
+    },
+    {
+      "name": "Dark_Barracks12.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0482/Dark_Barracks12.png",
+      "alt": "12 级",
+      "localPath": "/images/original/upgrade/home_buildings/0482/Dark_Barracks12.webp",
+      "logicalPath": "/upgrade/home_buildings/0482/Dark_Barracks12.png"
+    },
+    {
+      "name": "Dark_Barracks13.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/1/1e/Dark_Barracks13.png/revision/latest/scale-to-width-down/210?cb=20260614153906",
+      "alt": "Dark Barracks13",
+      "localPath": "/images/wiki/0482-Dark-Barracks/5084422580-Dark_Barracks13.png",
+      "logicalPath": "/upgrade/home_buildings/0482/Dark_Barracks13.png"
+    }
+  ],
+  "history": [],
+  "facts": [
+    "Dark Barracks allow you to train Dark Elixir Troops, which, like normal troops trained with Elixir, will be stationed in Army Camps. It is unlocked at Town Hall level 7.",
+    "Upgrading the Dark Barracks unlocks new troop types. There are a total of 12 troops unlockable in the Dark Barracks."
+  ],
+  "notices": []
+}

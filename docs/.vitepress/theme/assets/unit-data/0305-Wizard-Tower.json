@@ -1,0 +1,1163 @@
+{
+  "unitId": "0305-Wizard-Tower",
+  "title": "法师塔",
+  "originalName": "Wizard Tower",
+  "module": "upgrade-home",
+  "imgFolder": "home_buildings/0305",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Wizard_Tower",
+    "revision": 625327,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Wizard_Tower?oldid=625327",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 2,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Town Hall Level",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "Number Available",
+            "raw": "Number Available"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          }
+        ],
+        [
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          },
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          },
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          },
+          {
+            "status": "known",
+            "value": 15,
+            "raw": "15"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          },
+          {
+            "status": "known",
+            "value": 17,
+            "raw": "17"
+          },
+          {
+            "status": "known",
+            "value": 18,
+            "raw": "18"
+          }
+        ],
+        [
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": "6/2",
+            "raw": "6/2"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 3,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Size"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "3x3",
+            "raw": "3x3"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 4,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Level",
+        "Damage per Second",
+        "Damage per Shot",
+        "Hitpoints",
+        "Cost",
+        "Build Time",
+        "Experience Gained",
+        "Town Hall Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          },
+          {
+            "status": "known",
+            "value": 14.3,
+            "raw": "14.3"
+          },
+          {
+            "status": "known",
+            "value": 620,
+            "raw": "620"
+          },
+          {
+            "status": "known",
+            "value": 100000,
+            "raw": "100,000"
+          },
+          {
+            "status": "known",
+            "value": 3600,
+            "raw": "1h",
+            "unit": "seconds",
+            "displayInput": "0,1,0,0"
+          },
+          {
+            "status": "known",
+            "value": 60,
+            "raw": "60"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          },
+          {
+            "status": "known",
+            "value": 16.9,
+            "raw": "16.9"
+          },
+          {
+            "status": "known",
+            "value": 650,
+            "raw": "650"
+          },
+          {
+            "status": "known",
+            "value": 150000,
+            "raw": "150,000"
+          },
+          {
+            "status": "known",
+            "value": 5400,
+            "raw": "1h 30m",
+            "unit": "seconds",
+            "displayInput": "0,1,30,0"
+          },
+          {
+            "status": "known",
+            "value": 73,
+            "raw": "73"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          },
+          {
+            "status": "known",
+            "value": 20.8,
+            "raw": "20.8"
+          },
+          {
+            "status": "known",
+            "value": 680,
+            "raw": "680"
+          },
+          {
+            "status": "known",
+            "value": 250000,
+            "raw": "250,000"
+          },
+          {
+            "status": "known",
+            "value": 14400,
+            "raw": "4h",
+            "unit": "seconds",
+            "displayInput": "0,4,0,0"
+          },
+          {
+            "status": "known",
+            "value": 120,
+            "raw": "120"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 20,
+            "raw": "20"
+          },
+          {
+            "status": "known",
+            "value": 26,
+            "raw": "26"
+          },
+          {
+            "status": "known",
+            "value": 730,
+            "raw": "730"
+          },
+          {
+            "status": "known",
+            "value": 400000,
+            "raw": "400,000"
+          },
+          {
+            "status": "known",
+            "value": 28800,
+            "raw": "8h",
+            "unit": "seconds",
+            "displayInput": "0,8,0,0"
+          },
+          {
+            "status": "known",
+            "value": 169,
+            "raw": "169"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 24,
+            "raw": "24"
+          },
+          {
+            "status": "known",
+            "value": 31.2,
+            "raw": "31.2"
+          },
+          {
+            "status": "known",
+            "value": 840,
+            "raw": "840"
+          },
+          {
+            "status": "known",
+            "value": 550000,
+            "raw": "550,000"
+          },
+          {
+            "status": "known",
+            "value": 36000,
+            "raw": "10h",
+            "unit": "seconds",
+            "displayInput": "0,10,0,0"
+          },
+          {
+            "status": "known",
+            "value": 189,
+            "raw": "189"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 32,
+            "raw": "32"
+          },
+          {
+            "status": "known",
+            "value": 41.6,
+            "raw": "41.6"
+          },
+          {
+            "status": "known",
+            "value": 960,
+            "raw": "960"
+          },
+          {
+            "status": "known",
+            "value": 660000,
+            "raw": "660,000"
+          },
+          {
+            "status": "known",
+            "value": 43200,
+            "raw": "12h",
+            "unit": "seconds",
+            "displayInput": "0,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 207,
+            "raw": "207"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": 40,
+            "raw": "40"
+          },
+          {
+            "status": "known",
+            "value": 52,
+            "raw": "52"
+          },
+          {
+            "status": "known",
+            "value": 1200,
+            "raw": "1,200"
+          },
+          {
+            "status": "known",
+            "value": 1000000,
+            "raw": "1,000,000"
+          },
+          {
+            "status": "known",
+            "value": 64800,
+            "raw": "18h",
+            "unit": "seconds",
+            "displayInput": "0,18,0,0"
+          },
+          {
+            "status": "known",
+            "value": 254,
+            "raw": "254"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": 45,
+            "raw": "45"
+          },
+          {
+            "status": "known",
+            "value": 58.5,
+            "raw": "58.5"
+          },
+          {
+            "status": "known",
+            "value": 1440,
+            "raw": "1,440"
+          },
+          {
+            "status": "known",
+            "value": 1100000,
+            "raw": "1,100,000"
+          },
+          {
+            "status": "known",
+            "value": 72000,
+            "raw": "20h",
+            "unit": "seconds",
+            "displayInput": "0,20,0,0"
+          },
+          {
+            "status": "known",
+            "value": 268,
+            "raw": "268"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          },
+          {
+            "status": "known",
+            "value": 50,
+            "raw": "50"
+          },
+          {
+            "status": "known",
+            "value": 65,
+            "raw": "65"
+          },
+          {
+            "status": "known",
+            "value": 1600,
+            "raw": "1,600"
+          },
+          {
+            "status": "known",
+            "value": 1300000,
+            "raw": "1,300,000"
+          },
+          {
+            "status": "known",
+            "value": 86400,
+            "raw": "1d",
+            "unit": "seconds",
+            "displayInput": "1,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 293,
+            "raw": "293"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 62,
+            "raw": "62"
+          },
+          {
+            "status": "known",
+            "value": 80.6,
+            "raw": "80.6"
+          },
+          {
+            "status": "known",
+            "value": 1900,
+            "raw": "1,900"
+          },
+          {
+            "status": "known",
+            "value": 2000000,
+            "raw": "2,000,000"
+          },
+          {
+            "status": "known",
+            "value": 108000,
+            "raw": "1d 6h",
+            "unit": "seconds",
+            "displayInput": "1,6,0,0"
+          },
+          {
+            "status": "known",
+            "value": 328,
+            "raw": "328"
+          },
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          },
+          {
+            "status": "known",
+            "value": 70,
+            "raw": "70"
+          },
+          {
+            "status": "known",
+            "value": 91,
+            "raw": "91"
+          },
+          {
+            "status": "known",
+            "value": 2120,
+            "raw": "2,120"
+          },
+          {
+            "status": "known",
+            "value": 2500000,
+            "raw": "2,500,000"
+          },
+          {
+            "status": "known",
+            "value": 129600,
+            "raw": "1d 12h",
+            "unit": "seconds",
+            "displayInput": "1,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 360,
+            "raw": "360"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          },
+          {
+            "status": "known",
+            "value": 78,
+            "raw": "78"
+          },
+          {
+            "status": "known",
+            "value": 101.4,
+            "raw": "101.4"
+          },
+          {
+            "status": "known",
+            "value": 2240,
+            "raw": "2,240"
+          },
+          {
+            "status": "known",
+            "value": 2600000,
+            "raw": "2,600,000"
+          },
+          {
+            "status": "known",
+            "value": 151200,
+            "raw": "1d 18h",
+            "unit": "seconds",
+            "displayInput": "1,18,0,0"
+          },
+          {
+            "status": "known",
+            "value": 388,
+            "raw": "388"
+          },
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          },
+          {
+            "status": "known",
+            "value": 84,
+            "raw": "84"
+          },
+          {
+            "status": "known",
+            "value": 109.2,
+            "raw": "109.2"
+          },
+          {
+            "status": "known",
+            "value": 2500,
+            "raw": "2,500"
+          },
+          {
+            "status": "known",
+            "value": 3000000,
+            "raw": "3,000,000"
+          },
+          {
+            "status": "known",
+            "value": 172800,
+            "raw": "2d",
+            "unit": "seconds",
+            "displayInput": "2,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 415,
+            "raw": "415"
+          },
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          },
+          {
+            "status": "known",
+            "value": 90,
+            "raw": "90"
+          },
+          {
+            "status": "known",
+            "value": 117,
+            "raw": "117"
+          },
+          {
+            "status": "known",
+            "value": 2800,
+            "raw": "2,800"
+          },
+          {
+            "status": "known",
+            "value": 4500000,
+            "raw": "4,500,000"
+          },
+          {
+            "status": "known",
+            "value": 259200,
+            "raw": "3d",
+            "unit": "seconds",
+            "displayInput": "3,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 509,
+            "raw": "509"
+          },
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 15,
+            "raw": "15"
+          },
+          {
+            "status": "known",
+            "value": 95,
+            "raw": "95"
+          },
+          {
+            "status": "known",
+            "value": 123.5,
+            "raw": "123.5"
+          },
+          {
+            "status": "known",
+            "value": 3000,
+            "raw": "3,000"
+          },
+          {
+            "status": "known",
+            "value": 5500000,
+            "raw": "5,500,000"
+          },
+          {
+            "status": "known",
+            "value": 345600,
+            "raw": "4d",
+            "unit": "seconds",
+            "displayInput": "4,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 587,
+            "raw": "587"
+          },
+          {
+            "status": "known",
+            "value": 15,
+            "raw": "15"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          },
+          {
+            "status": "known",
+            "value": 102,
+            "raw": "102"
+          },
+          {
+            "status": "known",
+            "value": 132.6,
+            "raw": "132.6"
+          },
+          {
+            "status": "known",
+            "value": 3150,
+            "raw": "3,150"
+          },
+          {
+            "status": "known",
+            "value": 8000000,
+            "raw": "8,000,000"
+          },
+          {
+            "status": "known",
+            "value": 388800,
+            "raw": "4d 12h",
+            "unit": "seconds",
+            "displayInput": "4,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 623,
+            "raw": "623"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 17,
+            "raw": "17"
+          },
+          {
+            "status": "known",
+            "value": 110,
+            "raw": "110"
+          },
+          {
+            "status": "known",
+            "value": 143,
+            "raw": "143"
+          },
+          {
+            "status": "known",
+            "value": 3300,
+            "raw": "3,300"
+          },
+          {
+            "status": "known",
+            "value": 14000000,
+            "raw": "14,000,000"
+          },
+          {
+            "status": "known",
+            "value": 475200,
+            "raw": "5d 12h",
+            "unit": "seconds",
+            "displayInput": "5,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 689,
+            "raw": "689"
+          },
+          {
+            "status": "known",
+            "value": 17,
+            "raw": "17"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 4,
+          "type": "cost",
+          "icon": "Gold",
+          "gpClass": "building",
+          "noGoldPass": false
+        },
+        {
+          "column": 5,
+          "type": "time",
+          "gpClass": "building",
+          "noGoldPass": false
+        }
+      ]
+    },
+    {
+      "sourceTableIndex": 5,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Range",
+        "Attack Speed",
+        "Damage Type",
+        "Unit Type Targeted"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": "1.3s",
+            "raw": "1.3s"
+          },
+          {
+            "status": "known",
+            "value": "Splash - 1 tile",
+            "raw": "Splash - 1 tile"
+          },
+          {
+            "status": "known",
+            "value": "Ground & Air",
+            "raw": "Ground & Air"
+          }
+        ]
+      ],
+      "extraInfo": []
+    }
+  ],
+  "images": [
+    {
+      "name": "Wizard_Tower17.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0305/Wizard_Tower17.png",
+      "alt": "法师塔",
+      "localPath": "/images/original/upgrade/home_buildings/0305/Wizard_Tower17.webp",
+      "logicalPath": "/upgrade/home_buildings/0305/Wizard_Tower17.png"
+    },
+    {
+      "name": "Wizard_Tower1.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0305/Wizard_Tower1.png",
+      "alt": "1 级",
+      "localPath": "/images/original/upgrade/home_buildings/0305/Wizard_Tower1.webp",
+      "logicalPath": "/upgrade/home_buildings/0305/Wizard_Tower1.png"
+    },
+    {
+      "name": "Wizard_Tower2.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0305/Wizard_Tower2.png",
+      "alt": "2 级",
+      "localPath": "/images/original/upgrade/home_buildings/0305/Wizard_Tower2.webp",
+      "logicalPath": "/upgrade/home_buildings/0305/Wizard_Tower2.png"
+    },
+    {
+      "name": "Wizard_Tower3.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0305/Wizard_Tower3.png",
+      "alt": "3 级",
+      "localPath": "/images/original/upgrade/home_buildings/0305/Wizard_Tower3.webp",
+      "logicalPath": "/upgrade/home_buildings/0305/Wizard_Tower3.png"
+    },
+    {
+      "name": "Wizard_Tower4.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0305/Wizard_Tower4.png",
+      "alt": "4 级",
+      "localPath": "/images/original/upgrade/home_buildings/0305/Wizard_Tower4.webp",
+      "logicalPath": "/upgrade/home_buildings/0305/Wizard_Tower4.png"
+    },
+    {
+      "name": "Wizard_Tower5.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0305/Wizard_Tower5.png",
+      "alt": "5 级",
+      "localPath": "/images/original/upgrade/home_buildings/0305/Wizard_Tower5.webp",
+      "logicalPath": "/upgrade/home_buildings/0305/Wizard_Tower5.png"
+    },
+    {
+      "name": "Wizard_Tower6.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0305/Wizard_Tower6.png",
+      "alt": "6 级",
+      "localPath": "/images/original/upgrade/home_buildings/0305/Wizard_Tower6.webp",
+      "logicalPath": "/upgrade/home_buildings/0305/Wizard_Tower6.png"
+    },
+    {
+      "name": "Wizard_Tower7.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0305/Wizard_Tower7.png",
+      "alt": "7 级",
+      "localPath": "/images/original/upgrade/home_buildings/0305/Wizard_Tower7.webp",
+      "logicalPath": "/upgrade/home_buildings/0305/Wizard_Tower7.png"
+    },
+    {
+      "name": "Wizard_Tower8.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0305/Wizard_Tower8.png",
+      "alt": "8 级",
+      "localPath": "/images/original/upgrade/home_buildings/0305/Wizard_Tower8.webp",
+      "logicalPath": "/upgrade/home_buildings/0305/Wizard_Tower8.png"
+    },
+    {
+      "name": "Wizard_Tower9.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0305/Wizard_Tower9.png",
+      "alt": "9 级",
+      "localPath": "/images/original/upgrade/home_buildings/0305/Wizard_Tower9.webp",
+      "logicalPath": "/upgrade/home_buildings/0305/Wizard_Tower9.png"
+    },
+    {
+      "name": "Wizard_Tower10.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0305/Wizard_Tower10.png",
+      "alt": "10 级",
+      "localPath": "/images/original/upgrade/home_buildings/0305/Wizard_Tower10.webp",
+      "logicalPath": "/upgrade/home_buildings/0305/Wizard_Tower10.png"
+    },
+    {
+      "name": "Wizard_Tower11.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0305/Wizard_Tower11.png",
+      "alt": "11 级",
+      "localPath": "/images/original/upgrade/home_buildings/0305/Wizard_Tower11.webp",
+      "logicalPath": "/upgrade/home_buildings/0305/Wizard_Tower11.png"
+    },
+    {
+      "name": "Wizard_Tower12.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0305/Wizard_Tower12.png",
+      "alt": "12 级",
+      "localPath": "/images/original/upgrade/home_buildings/0305/Wizard_Tower12.webp",
+      "logicalPath": "/upgrade/home_buildings/0305/Wizard_Tower12.png"
+    },
+    {
+      "name": "Wizard_Tower13.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0305/Wizard_Tower13.png",
+      "alt": "13 级",
+      "localPath": "/images/original/upgrade/home_buildings/0305/Wizard_Tower13.webp",
+      "logicalPath": "/upgrade/home_buildings/0305/Wizard_Tower13.png"
+    },
+    {
+      "name": "Wizard_Tower14.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0305/Wizard_Tower14.png",
+      "alt": "14 级",
+      "localPath": "/images/original/upgrade/home_buildings/0305/Wizard_Tower14.webp",
+      "logicalPath": "/upgrade/home_buildings/0305/Wizard_Tower14.png"
+    },
+    {
+      "name": "Wizard_Tower15.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0305/Wizard_Tower15.png",
+      "alt": "15 级",
+      "localPath": "/images/original/upgrade/home_buildings/0305/Wizard_Tower15.webp",
+      "logicalPath": "/upgrade/home_buildings/0305/Wizard_Tower15.png"
+    },
+    {
+      "name": "Wizard_Tower16.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0305/Wizard_Tower16.png",
+      "alt": "16 级",
+      "localPath": "/images/original/upgrade/home_buildings/0305/Wizard_Tower16.webp",
+      "logicalPath": "/upgrade/home_buildings/0305/Wizard_Tower16.png"
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-04-27",
+      "description": "四月更新公告：十七级升级时间从 8 天 12 小时缩短为 5 天 12 小时。",
+      "sourceUrl": "https://www.clash.ninja/blog/april-2026-update-is-live",
+      "type": "announcement"
+    }
+  ],
+  "facts": [
+    "At Town Hall 18, two level 17 Wizard Towers can be merged to form a Super Wizard Tower."
+  ],
+  "notices": [
+    "来源已停用该单位的蓄能；升级表以当前普通等级为准。"
+  ]
+}

@@ -1,0 +1,513 @@
+{
+  "unitId": "060a-Ice-Hound",
+  "title": "寒冰猎犬",
+  "originalName": "Ice Hound",
+  "module": "upgrade-home",
+  "imgFolder": "home_tech/060a",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Ice_Hound",
+    "revision": 622637,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Ice_Hound?oldid=622637",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 1,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Preferred Target",
+        "Attack Type",
+        "Housing Space",
+        "Movement Speed",
+        "Attack Speed",
+        "Range",
+        "Special Ability"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "Air Defense",
+            "raw": "Air Defense"
+          },
+          {
+            "status": "known",
+            "value": "Melee (Ground Only)",
+            "raw": "Melee (Ground Only)"
+          },
+          {
+            "status": "known",
+            "value": 40,
+            "raw": "40"
+          },
+          {
+            "status": "known",
+            "value": 20,
+            "raw": "20"
+          },
+          {
+            "status": "known",
+            "value": "2s",
+            "raw": "2s"
+          },
+          {
+            "status": "known",
+            "value": "0.75 tiles",
+            "raw": "0.75 tiles"
+          },
+          {
+            "status": "known",
+            "value": "Dish Served Cold",
+            "raw": "Dish Served Cold"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 2,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Boost Cost",
+        "Boost Duration",
+        "Lava Hound Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 25000,
+            "raw": "25,000"
+          },
+          {
+            "status": "known",
+            "value": "3d",
+            "raw": "3d"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 0,
+          "type": "cost",
+          "icon": "Dark_Elixir",
+          "gpClass": "research",
+          "noGoldPass": true
+        }
+      ]
+    },
+    {
+      "sourceTableIndex": 3,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Level",
+        "Damage per Second",
+        "Damage per Attack",
+        "Freeze Time when Destroyed",
+        "Ice Pups Spawned / On Offense",
+        "Ice Pups Spawned / On Defense",
+        "Hitpoints",
+        "Town Hall Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": "3.75s",
+            "raw": "3.75s"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 7500,
+            "raw": "7,500"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": "3.75s",
+            "raw": "3.75s"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": 8000,
+            "raw": "8,000"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          },
+          {
+            "status": "known",
+            "value": "3.75s",
+            "raw": "3.75s"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": 8500,
+            "raw": "8,500"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          },
+          {
+            "status": "known",
+            "value": "3.75s",
+            "raw": "3.75s"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          },
+          {
+            "status": "known",
+            "value": 9000,
+            "raw": "9,000"
+          },
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 20,
+            "raw": "20"
+          },
+          {
+            "status": "known",
+            "value": "3.75s",
+            "raw": "3.75s"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 9500,
+            "raw": "9,500"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 15,
+            "raw": "15"
+          },
+          {
+            "status": "known",
+            "value": 30,
+            "raw": "30"
+          },
+          {
+            "status": "known",
+            "value": "4.25s",
+            "raw": "4.25s"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          },
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          },
+          {
+            "status": "known",
+            "value": 10000,
+            "raw": "10,000"
+          },
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": 20,
+            "raw": "20"
+          },
+          {
+            "status": "known",
+            "value": 40,
+            "raw": "40"
+          },
+          {
+            "status": "known",
+            "value": "4.75s",
+            "raw": "4.75s"
+          },
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          },
+          {
+            "status": "known",
+            "value": 10500,
+            "raw": "10,500"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": 25,
+            "raw": "25"
+          },
+          {
+            "status": "known",
+            "value": 50,
+            "raw": "50"
+          },
+          {
+            "status": "known",
+            "value": "5.25s",
+            "raw": "5.25s"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          },
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          },
+          {
+            "status": "known",
+            "value": 11500,
+            "raw": "11,500"
+          },
+          {
+            "status": "known",
+            "value": 18,
+            "raw": "18"
+          }
+        ]
+      ],
+      "extraInfo": []
+    }
+  ],
+  "images": [
+    {
+      "name": "Ice_Hound.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/060a/Ice_Hound.png",
+      "alt": "寒冰猎犬",
+      "localPath": "/images/original/upgrade/home_tech/060a/Ice_Hound.webp",
+      "logicalPath": "/upgrade/home_tech/060a/Ice_Hound.png"
+    },
+    {
+      "name": "Ice_Hound5.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/060a/Ice_Hound5.png",
+      "alt": "所有等级",
+      "localPath": "/images/original/upgrade/home_tech/060a/Ice_Hound5.webp",
+      "logicalPath": "/upgrade/home_tech/060a/Ice_Hound5.png"
+    },
+    {
+      "name": "Ice_Pup.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/060a/Ice_Pup.png",
+      "alt": "迷你寒冰猎犬",
+      "localPath": "/images/original/upgrade/home_tech/060a/Ice_Pup.webp",
+      "logicalPath": "/upgrade/home_tech/060a/Ice_Pup.png"
+    },
+    {
+      "name": "Ice_Hound_info_2.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b1/Ice_Hound_info_2.png/revision/latest/scale-to-width-down/157?cb=20210818085044",
+      "alt": "Ice Hound render",
+      "localPath": "/images/wiki/060a-Ice-Hound/86c0ac70fd-Ice_Hound_info_2.png",
+      "logicalPath": "/upgrade/home_tech/060a/Ice_Hound_info_2.png"
+    },
+    {
+      "name": "Ice_Hound_beta_pose_2.jpeg",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b8/Ice_Hound_beta_pose_2.jpeg/revision/latest/scale-to-width-down/185?cb=20210821063206",
+      "alt": "Beta Art",
+      "localPath": "/images/wiki/060a-Ice-Hound/722808de89-Ice_Hound_beta_pose_2.jpeg",
+      "logicalPath": "/upgrade/home_tech/060a/Ice_Hound_beta_pose_2.jpeg"
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-02-23",
+      "description": "Added the level 8 Ice hound."
+    }
+  ],
+  "facts": [
+    "The Ice Hound is a Super Troop based on the Lava Hound. It can be unlocked by boosting the Lava Hound when the Lava Hound is at least level 5.",
+    "Boosting the Lava Hound requires 25,000 Dark Elixir or a Super Potion, and doing so allows the Lava Hound to be boosted for 3 days. The level of Ice Hound you obtain from the boost corresponds to the level of Lava Hound you have.",
+    "Because of the level requirement, players require Town Hall 12 in order to boost Lava Hounds into Ice Hounds. However, players require a level 8 Clan Castle or greater in order to get donated one, meaning that they likely already have the troop unlocked or can do so at the same Town Hall level."
+  ],
+  "notices": []
+}

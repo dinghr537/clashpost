@@ -1,0 +1,469 @@
+{
+  "unitId": "1281-Army-Camp",
+  "title": "兵营",
+  "originalName": "Army Camp/Builder Base",
+  "module": "upgrade-bh",
+  "imgFolder": "bh_buildings/1281",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Army_Camp/Builder_Base",
+    "revision": 621989,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Army_Camp/Builder_Base?oldid=621989",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 1,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Number Available",
+        "Builder Hall Level / 1",
+        "Builder Hall Level / 2",
+        "Builder Hall Level / 3",
+        "Builder Hall Level / 4",
+        "Builder Hall Level / 5",
+        "Builder Hall Level / 6",
+        "Builder Hall Level / 7",
+        "Builder Hall Level / 8",
+        "Builder Hall Level / 9",
+        "Builder Hall Level / 10"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "Total",
+            "raw": "Total"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": "Stage 1 Limit",
+            "raw": "Stage 1 Limit"
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": "Stage 2 Limit",
+            "raw": "Stage 2 Limit"
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 2,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Size"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "3x3",
+            "raw": "3x3"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 3,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Hitpoints"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 300,
+            "raw": "300"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 4,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Number of Army Camps",
+        "Build Cost",
+        "Build Time",
+        "Experience Gained",
+        "Builder Hall Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 12000,
+            "raw": "12,000"
+          },
+          {
+            "status": "known",
+            "value": 300,
+            "raw": "5m",
+            "unit": "seconds",
+            "displayInput": "0,0,5,0"
+          },
+          {
+            "status": "known",
+            "value": 17,
+            "raw": "17"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 180000,
+            "raw": "180,000"
+          },
+          {
+            "status": "known",
+            "value": 10800,
+            "raw": "3h",
+            "unit": "seconds",
+            "displayInput": "0,3,0,0"
+          },
+          {
+            "status": "known",
+            "value": 103,
+            "raw": "103"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 350000,
+            "raw": "350,000"
+          },
+          {
+            "status": "known",
+            "value": 28800,
+            "raw": "8h",
+            "unit": "seconds",
+            "displayInput": "0,8,0,0"
+          },
+          {
+            "status": "known",
+            "value": 169,
+            "raw": "169"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 2000000,
+            "raw": "2,000,000"
+          },
+          {
+            "status": "known",
+            "value": 259200,
+            "raw": "3d",
+            "unit": "seconds",
+            "displayInput": "3,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 509,
+            "raw": "509"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 3000000,
+            "raw": "3,000,000"
+          },
+          {
+            "status": "known",
+            "value": 518400,
+            "raw": "6d",
+            "unit": "seconds",
+            "displayInput": "6,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 720,
+            "raw": "720"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 1,
+          "type": "cost",
+          "icon": "Elixir2",
+          "gpClass": "building",
+          "noGoldPass": false
+        },
+        {
+          "column": 2,
+          "type": "time",
+          "gpClass": "building",
+          "noGoldPass": false
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "name": "Army_Camp.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1281/Army_Camp.png",
+      "alt": "兵营",
+      "localPath": "/images/original/upgrade/bh_buildings/1281/Army_Camp.webp",
+      "logicalPath": "/upgrade/bh_buildings/1281/Army_Camp.png"
+    },
+    {
+      "name": "Army_Camp_Ruin.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1281/Army_Camp_Ruin.png",
+      "alt": "废墟",
+      "localPath": "/images/original/upgrade/bh_buildings/1281/Army_Camp_Ruin.webp",
+      "logicalPath": "/upgrade/bh_buildings/1281/Army_Camp_Ruin.png"
+    }
+  ],
+  "history": [],
+  "facts": [
+    "Army Camps take up a 3x3 space.",
+    "The build cost and build time for the Army Camp increases the more Army Camps you own. At Builder Hall level 10, you can have a maximum of six Army Camps."
+  ],
+  "notices": []
+}

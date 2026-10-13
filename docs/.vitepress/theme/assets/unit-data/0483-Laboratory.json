@@ -1,0 +1,913 @@
+{
+  "unitId": "0483-Laboratory",
+  "title": "实验室",
+  "originalName": "Laboratory",
+  "module": "upgrade-home",
+  "imgFolder": "home_buildings/0483",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Laboratory",
+    "revision": 625132,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Laboratory?oldid=625132",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 1,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Town Hall Level",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "Number Available",
+            "raw": "Number Available"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          }
+        ],
+        [
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          },
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          },
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          },
+          {
+            "status": "known",
+            "value": 15,
+            "raw": "15"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          },
+          {
+            "status": "known",
+            "value": 17,
+            "raw": "17"
+          },
+          {
+            "status": "known",
+            "value": 18,
+            "raw": "18"
+          }
+        ],
+        [
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 2,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Size"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "3x3",
+            "raw": "3x3"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 3,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Level",
+        "Hitpoints",
+        "Build Cost",
+        "Build Time",
+        "Experience Gained",
+        "Town Hall Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 500,
+            "raw": "500"
+          },
+          {
+            "status": "known",
+            "value": 5000,
+            "raw": "5,000"
+          },
+          {
+            "status": "known",
+            "value": 60,
+            "raw": "1m",
+            "unit": "seconds",
+            "displayInput": "0,0,1,0"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 550,
+            "raw": "550"
+          },
+          {
+            "status": "known",
+            "value": 25000,
+            "raw": "25,000"
+          },
+          {
+            "status": "known",
+            "value": 1800,
+            "raw": "30m",
+            "unit": "seconds",
+            "displayInput": "0,0,30,0"
+          },
+          {
+            "status": "known",
+            "value": 42,
+            "raw": "42"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 600,
+            "raw": "600"
+          },
+          {
+            "status": "known",
+            "value": 50000,
+            "raw": "50,000"
+          },
+          {
+            "status": "known",
+            "value": 7200,
+            "raw": "2h",
+            "unit": "seconds",
+            "displayInput": "0,2,0,0"
+          },
+          {
+            "status": "known",
+            "value": 84,
+            "raw": "84"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 650,
+            "raw": "650"
+          },
+          {
+            "status": "known",
+            "value": 100000,
+            "raw": "100,000"
+          },
+          {
+            "status": "known",
+            "value": 14400,
+            "raw": "4h",
+            "unit": "seconds",
+            "displayInput": "0,4,0,0"
+          },
+          {
+            "status": "known",
+            "value": 120,
+            "raw": "120"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 700,
+            "raw": "700"
+          },
+          {
+            "status": "known",
+            "value": 200000,
+            "raw": "200,000"
+          },
+          {
+            "status": "known",
+            "value": 28800,
+            "raw": "8h",
+            "unit": "seconds",
+            "displayInput": "0,8,0,0"
+          },
+          {
+            "status": "known",
+            "value": 169,
+            "raw": "169"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 750,
+            "raw": "750"
+          },
+          {
+            "status": "known",
+            "value": 400000,
+            "raw": "400,000"
+          },
+          {
+            "status": "known",
+            "value": 57600,
+            "raw": "16h",
+            "unit": "seconds",
+            "displayInput": "0,16,0,0"
+          },
+          {
+            "status": "known",
+            "value": 240,
+            "raw": "240"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": 830,
+            "raw": "830"
+          },
+          {
+            "status": "known",
+            "value": 800000,
+            "raw": "800,000"
+          },
+          {
+            "status": "known",
+            "value": 86400,
+            "raw": "1d",
+            "unit": "seconds",
+            "displayInput": "1,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 293,
+            "raw": "293"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": 950,
+            "raw": "950"
+          },
+          {
+            "status": "known",
+            "value": 1300000,
+            "raw": "1,300,000"
+          },
+          {
+            "status": "known",
+            "value": 151200,
+            "raw": "1d 18h",
+            "unit": "seconds",
+            "displayInput": "1,18,0,0"
+          },
+          {
+            "status": "known",
+            "value": 388,
+            "raw": "388"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          },
+          {
+            "status": "known",
+            "value": 1070,
+            "raw": "1,070"
+          },
+          {
+            "status": "known",
+            "value": 2100000,
+            "raw": "2,100,000"
+          },
+          {
+            "status": "known",
+            "value": 237600,
+            "raw": "2d 18h",
+            "unit": "seconds",
+            "displayInput": "2,18,0,0"
+          },
+          {
+            "status": "known",
+            "value": 487,
+            "raw": "487"
+          },
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 1140,
+            "raw": "1,140"
+          },
+          {
+            "status": "known",
+            "value": 3800000,
+            "raw": "3,800,000"
+          },
+          {
+            "status": "known",
+            "value": 345600,
+            "raw": "4d",
+            "unit": "seconds",
+            "displayInput": "4,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 587,
+            "raw": "587"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          },
+          {
+            "status": "known",
+            "value": 1210,
+            "raw": "1,210"
+          },
+          {
+            "status": "known",
+            "value": 5500000,
+            "raw": "5,500,000"
+          },
+          {
+            "status": "known",
+            "value": 518400,
+            "raw": "6d",
+            "unit": "seconds",
+            "displayInput": "6,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 720,
+            "raw": "720"
+          },
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          },
+          {
+            "status": "known",
+            "value": 1280,
+            "raw": "1,280"
+          },
+          {
+            "status": "known",
+            "value": 8100000,
+            "raw": "8,100,000"
+          },
+          {
+            "status": "known",
+            "value": 604800,
+            "raw": "7d",
+            "unit": "seconds",
+            "displayInput": "7,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 777,
+            "raw": "777"
+          },
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          },
+          {
+            "status": "known",
+            "value": 1350,
+            "raw": "1,350"
+          },
+          {
+            "status": "known",
+            "value": 10800000,
+            "raw": "10,800,000"
+          },
+          {
+            "status": "known",
+            "value": 691200,
+            "raw": "8d",
+            "unit": "seconds",
+            "displayInput": "8,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 831,
+            "raw": "831"
+          },
+          {
+            "status": "known",
+            "value": 15,
+            "raw": "15"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          },
+          {
+            "status": "known",
+            "value": 1400,
+            "raw": "1,400"
+          },
+          {
+            "status": "known",
+            "value": 13000000,
+            "raw": "13,000,000"
+          },
+          {
+            "status": "known",
+            "value": 777600,
+            "raw": "9d",
+            "unit": "seconds",
+            "displayInput": "9,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 881,
+            "raw": "881"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 15,
+            "raw": "15"
+          },
+          {
+            "status": "known",
+            "value": 1450,
+            "raw": "1,450"
+          },
+          {
+            "status": "known",
+            "value": 18000000,
+            "raw": "18,000,000"
+          },
+          {
+            "status": "known",
+            "value": 864000,
+            "raw": "10d",
+            "unit": "seconds",
+            "displayInput": "10,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 929,
+            "raw": "929"
+          },
+          {
+            "status": "known",
+            "value": 17,
+            "raw": "17"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          },
+          {
+            "status": "known",
+            "value": 1500,
+            "raw": "1,500"
+          },
+          {
+            "status": "known",
+            "value": 27000000,
+            "raw": "27,000,000"
+          },
+          {
+            "status": "known",
+            "value": 1382400,
+            "raw": "16d",
+            "unit": "seconds",
+            "displayInput": "16,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 1175,
+            "raw": "1,175"
+          },
+          {
+            "status": "known",
+            "value": 18,
+            "raw": "18"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 2,
+          "type": "cost",
+          "icon": "Elixir",
+          "gpClass": "building",
+          "noGoldPass": false
+        },
+        {
+          "column": 3,
+          "type": "time",
+          "gpClass": "building",
+          "noGoldPass": false
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "name": "Laboratory16_hd.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0483/Laboratory16_hd.png",
+      "alt": "实验室",
+      "localPath": "/images/original/upgrade/home_buildings/0483/Laboratory16_hd.webp",
+      "logicalPath": "/upgrade/home_buildings/0483/Laboratory16_hd.png"
+    },
+    {
+      "name": "Laboratory1.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0483/Laboratory1.png",
+      "alt": "1 级",
+      "localPath": "/images/original/upgrade/home_buildings/0483/Laboratory1.webp",
+      "logicalPath": "/upgrade/home_buildings/0483/Laboratory1.png"
+    },
+    {
+      "name": "Laboratory2.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0483/Laboratory2.png",
+      "alt": "2 级",
+      "localPath": "/images/original/upgrade/home_buildings/0483/Laboratory2.webp",
+      "logicalPath": "/upgrade/home_buildings/0483/Laboratory2.png"
+    },
+    {
+      "name": "Laboratory3.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0483/Laboratory3.png",
+      "alt": "3 级",
+      "localPath": "/images/original/upgrade/home_buildings/0483/Laboratory3.webp",
+      "logicalPath": "/upgrade/home_buildings/0483/Laboratory3.png"
+    },
+    {
+      "name": "Laboratory4.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0483/Laboratory4.png",
+      "alt": "4 级",
+      "localPath": "/images/original/upgrade/home_buildings/0483/Laboratory4.webp",
+      "logicalPath": "/upgrade/home_buildings/0483/Laboratory4.png"
+    },
+    {
+      "name": "Laboratory5.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0483/Laboratory5.png",
+      "alt": "5 级",
+      "localPath": "/images/original/upgrade/home_buildings/0483/Laboratory5.webp",
+      "logicalPath": "/upgrade/home_buildings/0483/Laboratory5.png"
+    },
+    {
+      "name": "Laboratory6.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0483/Laboratory6.png",
+      "alt": "6 级",
+      "localPath": "/images/original/upgrade/home_buildings/0483/Laboratory6.webp",
+      "logicalPath": "/upgrade/home_buildings/0483/Laboratory6.png"
+    },
+    {
+      "name": "Laboratory7.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0483/Laboratory7.png",
+      "alt": "7 级",
+      "localPath": "/images/original/upgrade/home_buildings/0483/Laboratory7.webp",
+      "logicalPath": "/upgrade/home_buildings/0483/Laboratory7.png"
+    },
+    {
+      "name": "Laboratory8.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0483/Laboratory8.png",
+      "alt": "8 级",
+      "localPath": "/images/original/upgrade/home_buildings/0483/Laboratory8.webp",
+      "logicalPath": "/upgrade/home_buildings/0483/Laboratory8.png"
+    },
+    {
+      "name": "Laboratory9.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0483/Laboratory9.png",
+      "alt": "9 级",
+      "localPath": "/images/original/upgrade/home_buildings/0483/Laboratory9.webp",
+      "logicalPath": "/upgrade/home_buildings/0483/Laboratory9.png"
+    },
+    {
+      "name": "Laboratory10.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0483/Laboratory10.png",
+      "alt": "10 级",
+      "localPath": "/images/original/upgrade/home_buildings/0483/Laboratory10.webp",
+      "logicalPath": "/upgrade/home_buildings/0483/Laboratory10.png"
+    },
+    {
+      "name": "Laboratory11.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0483/Laboratory11.png",
+      "alt": "11 级",
+      "localPath": "/images/original/upgrade/home_buildings/0483/Laboratory11.webp",
+      "logicalPath": "/upgrade/home_buildings/0483/Laboratory11.png"
+    },
+    {
+      "name": "Laboratory12.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0483/Laboratory12.png",
+      "alt": "12 级",
+      "localPath": "/images/original/upgrade/home_buildings/0483/Laboratory12.webp",
+      "logicalPath": "/upgrade/home_buildings/0483/Laboratory12.png"
+    },
+    {
+      "name": "Laboratory13.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0483/Laboratory13.png",
+      "alt": "13 级",
+      "localPath": "/images/original/upgrade/home_buildings/0483/Laboratory13.webp",
+      "logicalPath": "/upgrade/home_buildings/0483/Laboratory13.png"
+    },
+    {
+      "name": "Laboratory14.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0483/Laboratory14.png",
+      "alt": "14 级",
+      "localPath": "/images/original/upgrade/home_buildings/0483/Laboratory14.webp",
+      "logicalPath": "/upgrade/home_buildings/0483/Laboratory14.png"
+    },
+    {
+      "name": "Laboratory15.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0483/Laboratory15.png",
+      "alt": "15 级",
+      "localPath": "/images/original/upgrade/home_buildings/0483/Laboratory15.webp",
+      "logicalPath": "/upgrade/home_buildings/0483/Laboratory15.png"
+    },
+    {
+      "name": "Laboratory16.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0483/Laboratory16.png",
+      "alt": "16 级",
+      "localPath": "/images/original/upgrade/home_buildings/0483/Laboratory16.webp",
+      "logicalPath": "/upgrade/home_buildings/0483/Laboratory16.png"
+    }
+  ],
+  "history": [],
+  "facts": [
+    "The Laboratory is a building where you can upgrade your Troops, Spells and Siege Machines, improving their stats such as damage and hitpoints. The Laboratory is unlocked at Town Hall level 3.",
+    "The Laboratories emit a purple (level 1-6), blue (level 7), red (level 8) or yellow (level 9-12) glow from the entrances when upgrading something."
+  ],
+  "notices": []
+}

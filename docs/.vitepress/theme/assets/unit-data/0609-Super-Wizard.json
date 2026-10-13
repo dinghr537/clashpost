@@ -1,0 +1,350 @@
+{
+  "unitId": "0609-Super-Wizard",
+  "title": "超级法师",
+  "originalName": "Super Wizard",
+  "module": "upgrade-home",
+  "imgFolder": "home_tech/0609",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Super_Wizard",
+    "revision": 618174,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Super_Wizard?oldid=618174",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 1,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Preferred Target",
+        "Attack Type",
+        "Chain Damage Decay",
+        "Chain Distance",
+        "Housing Space",
+        "Movement Speed",
+        "Attack Speed",
+        "Range",
+        "Special Ability"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "None",
+            "raw": "None"
+          },
+          {
+            "status": "known",
+            "value": "Single Target",
+            "raw": "Single Target"
+          },
+          {
+            "status": "known",
+            "value": "60%",
+            "raw": "60%"
+          },
+          {
+            "status": "known",
+            "value": "3 tiles",
+            "raw": "3 tiles"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 20,
+            "raw": "20"
+          },
+          {
+            "status": "known",
+            "value": "2s",
+            "raw": "2s"
+          },
+          {
+            "status": "known",
+            "value": "3 tiles",
+            "raw": "3 tiles"
+          },
+          {
+            "status": "known",
+            "value": "Chain Magic",
+            "raw": "Chain Magic"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 2,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Boost Cost",
+        "Boost Duration",
+        "Wizard Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 25000,
+            "raw": "25,000"
+          },
+          {
+            "status": "known",
+            "value": "3d",
+            "raw": "3d"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 0,
+          "type": "cost",
+          "icon": "Dark_Elixir",
+          "gpClass": "research",
+          "noGoldPass": true
+        }
+      ]
+    },
+    {
+      "sourceTableIndex": 3,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Level",
+        "Damage per Second",
+        "Damage per Hit (Primary)",
+        "Damage per Hit (Secondary)",
+        "Hitpoints"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          },
+          {
+            "status": "known",
+            "value": 220,
+            "raw": "220"
+          },
+          {
+            "status": "known",
+            "value": 440,
+            "raw": "440"
+          },
+          {
+            "status": "known",
+            "value": 176,
+            "raw": "176"
+          },
+          {
+            "status": "known",
+            "value": 545,
+            "raw": "545"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 240,
+            "raw": "240"
+          },
+          {
+            "status": "known",
+            "value": 480,
+            "raw": "480"
+          },
+          {
+            "status": "known",
+            "value": 192,
+            "raw": "192"
+          },
+          {
+            "status": "known",
+            "value": 705,
+            "raw": "705"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          },
+          {
+            "status": "known",
+            "value": 265,
+            "raw": "265"
+          },
+          {
+            "status": "known",
+            "value": 530,
+            "raw": "530"
+          },
+          {
+            "status": "known",
+            "value": 212,
+            "raw": "212"
+          },
+          {
+            "status": "known",
+            "value": 760,
+            "raw": "760"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          },
+          {
+            "status": "known",
+            "value": 285,
+            "raw": "285"
+          },
+          {
+            "status": "known",
+            "value": 570,
+            "raw": "570"
+          },
+          {
+            "status": "known",
+            "value": 228,
+            "raw": "228"
+          },
+          {
+            "status": "known",
+            "value": 815,
+            "raw": "815"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          },
+          {
+            "status": "known",
+            "value": 305,
+            "raw": "305"
+          },
+          {
+            "status": "known",
+            "value": 610,
+            "raw": "610"
+          },
+          {
+            "status": "known",
+            "value": 244,
+            "raw": "244"
+          },
+          {
+            "status": "known",
+            "value": 870,
+            "raw": "870"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          },
+          {
+            "status": "known",
+            "value": 335,
+            "raw": "335"
+          },
+          {
+            "status": "known",
+            "value": 670,
+            "raw": "670"
+          },
+          {
+            "status": "known",
+            "value": 268,
+            "raw": "268"
+          },
+          {
+            "status": "known",
+            "value": 925,
+            "raw": "925"
+          }
+        ]
+      ],
+      "extraInfo": []
+    }
+  ],
+  "images": [
+    {
+      "name": "Super_Wizard_info.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0609/Super_Wizard_info.png",
+      "alt": "超级法师",
+      "localPath": "/images/original/upgrade/home_tech/0609/Super_Wizard_info.webp",
+      "logicalPath": "/upgrade/home_tech/0609/Super_Wizard_info.png"
+    },
+    {
+      "name": "Super_Wizard9.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0609/Super_Wizard9.png",
+      "alt": "所有等级",
+      "localPath": "/images/original/upgrade/home_tech/0609/Super_Wizard9.webp",
+      "logicalPath": "/upgrade/home_tech/0609/Super_Wizard9.png"
+    },
+    {
+      "name": "Super_Wizard_info_1.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/2/2d/Super_Wizard_info_1.png/revision/latest/scale-to-width-down/132?cb=20251115233932",
+      "alt": "Super Wizard's info image",
+      "localPath": "/images/wiki/0609-Super-Wizard/75609f2a60-Super_Wizard_info_1.png",
+      "logicalPath": "/upgrade/home_tech/0609/Super_Wizard_info_1.png"
+    },
+    {
+      "name": "Super_Wizard_info_2.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/f/fe/Super_Wizard_info_2.png/revision/latest/scale-to-width-down/154?cb=20251111193314",
+      "alt": "Super Wizard's alternate render",
+      "localPath": "/images/wiki/0609-Super-Wizard/a922168df5-Super_Wizard_info_2.png",
+      "logicalPath": "/upgrade/home_tech/0609/Super_Wizard_info_2.png"
+    },
+    {
+      "name": "SuperWizardConcepts2.jpeg",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/d/df/SuperWizardConcepts2.jpeg/revision/latest/scale-to-width-down/185?cb=20210818000918",
+      "alt": "More concept designs of Super Wizard.",
+      "localPath": "/images/wiki/0609-Super-Wizard/cab6ec728c-SuperWizardConcepts2.jpeg",
+      "logicalPath": "/upgrade/home_tech/0609/SuperWizardConcepts2.jpeg"
+    },
+    {
+      "name": "Super_Wizard_3D_model.jpeg",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/9/9e/Super_Wizard_3D_model.jpeg/revision/latest/scale-to-width-down/185?cb=20210819195622",
+      "alt": "3D model of Super Wizard.",
+      "localPath": "/images/wiki/0609-Super-Wizard/f175f12eea-Super_Wizard_3D_model.jpeg",
+      "logicalPath": "/upgrade/home_tech/0609/Super_Wizard_3D_model.jpeg"
+    }
+  ],
+  "history": [],
+  "facts": [
+    "The Super Wizard is a Super Troop based on the Wizard. It can be unlocked by boosting the Wizard when the Wizard is at least level 9.",
+    "Boosting the Wizard requires 25,000 Dark Elixir or a Super Potion, and doing so allows the Wizard to be boosted for 3 days. The level of Super Wizard you obtain from the boost corresponds to the level of Wizard you have.",
+    "Because of the level requirement, players require Town Hall 12 in order to boost Wizards into Super Wizards. However, because of the Laboratory level cap, players require a level 6 Clan Castle or greater in order to get donated one, allowing anyone Town Hall 10 or above to get one."
+  ],
+  "notices": []
+}

@@ -1,0 +1,364 @@
+{
+  "unitId": "1241-Zappy",
+  "title": "电击车",
+  "originalName": "O.T.T.O's Outpost/Zappy",
+  "module": "upgrade-bh",
+  "imgFolder": "bh_buildings/1241",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/O.T.T.O%27s_Outpost/Zappy",
+    "revision": 625592,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/O.T.T.O%27s_Outpost/Zappy?oldid=625592",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 0,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Preferred Target",
+        "Attack Type",
+        "Movement Speed",
+        "Attack Speed",
+        "Range"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "None",
+            "raw": "None"
+          },
+          {
+            "status": "known",
+            "value": "Ranged (Ground & Air)",
+            "raw": "Ranged (Ground & Air)"
+          },
+          {
+            "status": "known",
+            "value": 24,
+            "raw": "24"
+          },
+          {
+            "status": "known",
+            "value": "1s",
+            "raw": "1s"
+          },
+          {
+            "status": "known",
+            "value": "3 tiles",
+            "raw": "3 tiles"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 1,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Level",
+        "Damage per Second",
+        "Damage per Attack",
+        "Hitpoints",
+        "O.T.T.O's Outpost Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 42,
+            "raw": "42"
+          },
+          {
+            "status": "known",
+            "value": 42,
+            "raw": "42"
+          },
+          {
+            "status": "known",
+            "value": 330,
+            "raw": "330"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 46,
+            "raw": "46"
+          },
+          {
+            "status": "known",
+            "value": 46,
+            "raw": "46"
+          },
+          {
+            "status": "known",
+            "value": 350,
+            "raw": "350"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 50,
+            "raw": "50"
+          },
+          {
+            "status": "known",
+            "value": 50,
+            "raw": "50"
+          },
+          {
+            "status": "known",
+            "value": 369,
+            "raw": "369"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 55,
+            "raw": "55"
+          },
+          {
+            "status": "known",
+            "value": 55,
+            "raw": "55"
+          },
+          {
+            "status": "known",
+            "value": 389,
+            "raw": "389"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 59,
+            "raw": "59"
+          },
+          {
+            "status": "known",
+            "value": 59,
+            "raw": "59"
+          },
+          {
+            "status": "known",
+            "value": 408,
+            "raw": "408"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 63,
+            "raw": "63"
+          },
+          {
+            "status": "known",
+            "value": 63,
+            "raw": "63"
+          },
+          {
+            "status": "known",
+            "value": 428,
+            "raw": "428"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": 67,
+            "raw": "67"
+          },
+          {
+            "status": "known",
+            "value": 67,
+            "raw": "67"
+          },
+          {
+            "status": "known",
+            "value": 447,
+            "raw": "447"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": 71,
+            "raw": "71"
+          },
+          {
+            "status": "known",
+            "value": 71,
+            "raw": "71"
+          },
+          {
+            "status": "known",
+            "value": 467,
+            "raw": "467"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          },
+          {
+            "status": "known",
+            "value": 76,
+            "raw": "76"
+          },
+          {
+            "status": "known",
+            "value": 76,
+            "raw": "76"
+          },
+          {
+            "status": "known",
+            "value": 486,
+            "raw": "486"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 80,
+            "raw": "80"
+          },
+          {
+            "status": "known",
+            "value": 80,
+            "raw": "80"
+          },
+          {
+            "status": "known",
+            "value": 518,
+            "raw": "518"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          }
+        ]
+      ],
+      "extraInfo": []
+    }
+  ],
+  "images": [
+    {
+      "name": "Zappy_info.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1241/Zappy_info.png",
+      "alt": "电击车",
+      "localPath": "/images/original/upgrade/bh_buildings/1241/Zappy_info.webp",
+      "logicalPath": "/upgrade/bh_buildings/1241/Zappy_info.png"
+    },
+    {
+      "name": "Zappy1.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1241/Zappy1.png",
+      "alt": "1 级",
+      "localPath": "/images/original/upgrade/bh_buildings/1241/Zappy1.webp",
+      "logicalPath": "/upgrade/bh_buildings/1241/Zappy1.png"
+    }
+  ],
+  "history": [],
+  "facts": [],
+  "notices": []
+}

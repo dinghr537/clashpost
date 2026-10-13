@@ -1,0 +1,664 @@
+{
+  "unitId": "2280-Mine",
+  "title": "地雷",
+  "originalName": "Mine/Clan Capital",
+  "module": "upgrade-capital",
+  "imgFolder": "capital_buildings/2280",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Mine/Clan_Capital",
+    "revision": 622722,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Mine/Clan_Capital?oldid=622722",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 2,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Capital Hall Level",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "Number Available",
+            "raw": "Number Available"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 3,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Size"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "1x1",
+            "raw": "1x1"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 4,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Number Available",
+        "District Hall Level / 1",
+        "District Hall Level / 2",
+        "District Hall Level / 3",
+        "District Hall Level / 4",
+        "District Hall Level / 5"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "Barbarian Camp",
+            "raw": "Barbarian Camp"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": "Wizard Valley",
+            "raw": "Wizard Valley"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": "Balloon Lagoon",
+            "raw": "Balloon Lagoon"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": "Builder's Workshop",
+            "raw": "Builder's Workshop"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": "Dragon Cliffs",
+            "raw": "Dragon Cliffs"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": "Golem Quarry",
+            "raw": "Golem Quarry"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": "Skeleton Park",
+            "raw": "Skeleton Park"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": "Goblin Mines",
+            "raw": "Goblin Mines"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 5,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Level",
+        "Damage",
+        "Build Cost",
+        "Capital Hall Level Required",
+        "District Hall Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 120,
+            "raw": "120"
+          },
+          {
+            "status": "known",
+            "value": 1000,
+            "raw": "1,000"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 140,
+            "raw": "140"
+          },
+          {
+            "status": "known",
+            "value": 2000,
+            "raw": "2,000"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 160,
+            "raw": "160"
+          },
+          {
+            "status": "known",
+            "value": 4000,
+            "raw": "4,000"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 180,
+            "raw": "180"
+          },
+          {
+            "status": "known",
+            "value": 9000,
+            "raw": "9,000"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 200,
+            "raw": "200"
+          },
+          {
+            "status": "known",
+            "value": 15000,
+            "raw": "15,000"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 2,
+          "type": "cost",
+          "icon": "Gold3",
+          "gpClass": "building",
+          "noGoldPass": true
+        }
+      ]
+    },
+    {
+      "sourceTableIndex": 6,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Trigger Radius",
+        "Damage Radius",
+        "Damage Type",
+        "Favorite Target"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "1.5 tiles",
+            "raw": "1.5 tiles"
+          },
+          {
+            "status": "known",
+            "value": "3 tiles",
+            "raw": "3 tiles"
+          },
+          {
+            "status": "known",
+            "value": "Area Splash",
+            "raw": "Area Splash"
+          },
+          {
+            "status": "known",
+            "value": "Any",
+            "raw": "Any"
+          }
+        ]
+      ],
+      "extraInfo": []
+    }
+  ],
+  "images": [
+    {
+      "name": "Mine5.png",
+      "url": "https://static.clashpost.com/upgrade/capital_buildings/2280/Mine5.png",
+      "alt": "地雷",
+      "localPath": "/images/original/upgrade/capital_buildings/2280/Mine5.webp",
+      "logicalPath": "/upgrade/capital_buildings/2280/Mine5.png"
+    },
+    {
+      "name": "Small_Trap_Ruin.png",
+      "url": "https://static.clashpost.com/upgrade/capital_buildings/2280/Small_Trap_Ruin.png",
+      "alt": "废墟",
+      "localPath": "/images/original/upgrade/capital_buildings/2280/Small_Trap_Ruin.webp",
+      "logicalPath": "/upgrade/capital_buildings/2280/Small_Trap_Ruin.png"
+    },
+    {
+      "name": "Mine1.png",
+      "url": "https://static.clashpost.com/upgrade/capital_buildings/2280/Mine1.png",
+      "alt": "1 级",
+      "localPath": "/images/original/upgrade/capital_buildings/2280/Mine1.webp",
+      "logicalPath": "/upgrade/capital_buildings/2280/Mine1.png"
+    },
+    {
+      "name": "Mine2.png",
+      "url": "https://static.clashpost.com/upgrade/capital_buildings/2280/Mine2.png",
+      "alt": "2 级",
+      "localPath": "/images/original/upgrade/capital_buildings/2280/Mine2.webp",
+      "logicalPath": "/upgrade/capital_buildings/2280/Mine2.png"
+    },
+    {
+      "name": "Mine3.png",
+      "url": "https://static.clashpost.com/upgrade/capital_buildings/2280/Mine3.png",
+      "alt": "3 级",
+      "localPath": "/images/original/upgrade/capital_buildings/2280/Mine3.webp",
+      "logicalPath": "/upgrade/capital_buildings/2280/Mine3.png"
+    },
+    {
+      "name": "Mine4.png",
+      "url": "https://static.clashpost.com/upgrade/capital_buildings/2280/Mine4.png",
+      "alt": "4 级",
+      "localPath": "/images/original/upgrade/capital_buildings/2280/Mine4.webp",
+      "logicalPath": "/upgrade/capital_buildings/2280/Mine4.png"
+    },
+    {
+      "name": "Mine1_Air.png",
+      "url": "https://static.clashpost.com/upgrade/capital_buildings/2280/Mine1_Air.png",
+      "alt": "1 级",
+      "localPath": "/images/original/upgrade/capital_buildings/2280/Mine1_Air.webp",
+      "logicalPath": "/upgrade/capital_buildings/2280/Mine1_Air.png"
+    },
+    {
+      "name": "Mine2_Air.png",
+      "url": "https://static.clashpost.com/upgrade/capital_buildings/2280/Mine2_Air.png",
+      "alt": "2 级",
+      "localPath": "/images/original/upgrade/capital_buildings/2280/Mine2_Air.webp",
+      "logicalPath": "/upgrade/capital_buildings/2280/Mine2_Air.png"
+    },
+    {
+      "name": "Mine3_Air.png",
+      "url": "https://static.clashpost.com/upgrade/capital_buildings/2280/Mine3_Air.png",
+      "alt": "3 级",
+      "localPath": "/images/original/upgrade/capital_buildings/2280/Mine3_Air.webp",
+      "logicalPath": "/upgrade/capital_buildings/2280/Mine3_Air.png"
+    },
+    {
+      "name": "Mine4_Air.png",
+      "url": "https://static.clashpost.com/upgrade/capital_buildings/2280/Mine4_Air.png",
+      "alt": "4 级",
+      "localPath": "/images/original/upgrade/capital_buildings/2280/Mine4_Air.webp",
+      "logicalPath": "/upgrade/capital_buildings/2280/Mine4_Air.png"
+    },
+    {
+      "name": "Mine5_Air.png",
+      "url": "https://static.clashpost.com/upgrade/capital_buildings/2280/Mine5_Air.png",
+      "alt": "5 级",
+      "localPath": "/images/original/upgrade/capital_buildings/2280/Mine5_Air.webp",
+      "logicalPath": "/upgrade/capital_buildings/2280/Mine5_Air.png"
+    }
+  ],
+  "history": [],
+  "facts": [
+    "Mines are a trap available in the Clan Capital, available at Capital Hall level 1 as traps that are already set into the Capital Peak when the Clan Capital is unlocked."
+  ],
+  "notices": []
+}

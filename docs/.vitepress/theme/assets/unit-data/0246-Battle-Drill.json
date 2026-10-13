@@ -1,0 +1,397 @@
+{
+  "unitId": "0246-Battle-Drill",
+  "title": "攻城钻机",
+  "originalName": "Battle Drill",
+  "module": "upgrade-home",
+  "imgFolder": "home_tech/0246",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Battle_Drill",
+    "revision": 624361,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Battle_Drill?oldid=624361",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 2,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Preferred Target",
+        "Attack Type",
+        "Range",
+        "Housing Space",
+        "Movement Speed",
+        "Attack Speed",
+        "Workshop Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "Defenses",
+            "raw": "Defenses"
+          },
+          {
+            "status": "known",
+            "value": "Single Target (Ground Only)",
+            "raw": "Single Target (Ground Only)"
+          },
+          {
+            "status": "known",
+            "value": "1 tile",
+            "raw": "1 tile"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 24,
+            "raw": "24"
+          },
+          {
+            "status": "known",
+            "value": "1.7s",
+            "raw": "1.7s"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 3,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Level",
+        "Damage per Second",
+        "Damage per Attack",
+        "Hitpoints",
+        "Research Cost",
+        "Research Time",
+        "Laboratory Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 430,
+            "raw": "430"
+          },
+          {
+            "status": "known",
+            "value": 731,
+            "raw": "731"
+          },
+          {
+            "status": "known",
+            "value": 4800,
+            "raw": "4,800"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 470,
+            "raw": "470"
+          },
+          {
+            "status": "known",
+            "value": 799,
+            "raw": "799"
+          },
+          {
+            "status": "known",
+            "value": 5100,
+            "raw": "5,100"
+          },
+          {
+            "status": "known",
+            "value": 6000000,
+            "raw": "6,000,000"
+          },
+          {
+            "status": "known",
+            "value": 345600,
+            "raw": "4d",
+            "unit": "seconds",
+            "displayInput": "4,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 510,
+            "raw": "510"
+          },
+          {
+            "status": "known",
+            "value": 867,
+            "raw": "867"
+          },
+          {
+            "status": "known",
+            "value": 5400,
+            "raw": "5,400"
+          },
+          {
+            "status": "known",
+            "value": 8500000,
+            "raw": "8,500,000"
+          },
+          {
+            "status": "known",
+            "value": 432000,
+            "raw": "5d",
+            "unit": "seconds",
+            "displayInput": "5,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 550,
+            "raw": "550"
+          },
+          {
+            "status": "known",
+            "value": 935,
+            "raw": "935"
+          },
+          {
+            "status": "known",
+            "value": 5800,
+            "raw": "5,800"
+          },
+          {
+            "status": "known",
+            "value": 10000000,
+            "raw": "10,000,000"
+          },
+          {
+            "status": "known",
+            "value": 691200,
+            "raw": "8d",
+            "unit": "seconds",
+            "displayInput": "8,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 590,
+            "raw": "590"
+          },
+          {
+            "status": "known",
+            "value": 1003,
+            "raw": "1,003"
+          },
+          {
+            "status": "known",
+            "value": 6300,
+            "raw": "6,300"
+          },
+          {
+            "status": "known",
+            "value": 17000000,
+            "raw": "17,000,000"
+          },
+          {
+            "status": "known",
+            "value": 777600,
+            "raw": "9d",
+            "unit": "seconds",
+            "displayInput": "9,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 15,
+            "raw": "15"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 640,
+            "raw": "640"
+          },
+          {
+            "status": "known",
+            "value": 1088,
+            "raw": "1,088"
+          },
+          {
+            "status": "known",
+            "value": 6900,
+            "raw": "6,900"
+          },
+          {
+            "status": "known",
+            "value": 28000000,
+            "raw": "28,000,000"
+          },
+          {
+            "status": "known",
+            "value": 1339200,
+            "raw": "15d 12h",
+            "unit": "seconds",
+            "displayInput": "15,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 4,
+          "type": "cost",
+          "icon": "Elixir",
+          "gpClass": "research",
+          "noGoldPass": false
+        },
+        {
+          "column": 5,
+          "type": "time",
+          "gpClass": "research",
+          "noGoldPass": false
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "name": "Battle_Drill_info.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0246/Battle_Drill_info.png",
+      "alt": "攻城钻机",
+      "localPath": "/images/original/upgrade/home_tech/0246/Battle_Drill_info.webp",
+      "logicalPath": "/upgrade/home_tech/0246/Battle_Drill_info.png"
+    },
+    {
+      "name": "Battle_Drill1.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0246/Battle_Drill1.png",
+      "alt": "1 级",
+      "localPath": "/images/original/upgrade/home_tech/0246/Battle_Drill1.webp",
+      "logicalPath": "/upgrade/home_tech/0246/Battle_Drill1.png"
+    },
+    {
+      "name": "Battle_Drill2.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0246/Battle_Drill2.png",
+      "alt": "2 级",
+      "localPath": "/images/original/upgrade/home_tech/0246/Battle_Drill2.webp",
+      "logicalPath": "/upgrade/home_tech/0246/Battle_Drill2.png"
+    },
+    {
+      "name": "Battle_Drill3.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0246/Battle_Drill3.png",
+      "alt": "3 级",
+      "localPath": "/images/original/upgrade/home_tech/0246/Battle_Drill3.webp",
+      "logicalPath": "/upgrade/home_tech/0246/Battle_Drill3.png"
+    },
+    {
+      "name": "Battle_Drill4.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0246/Battle_Drill4.png",
+      "alt": "4 级",
+      "localPath": "/images/original/upgrade/home_tech/0246/Battle_Drill4.webp",
+      "logicalPath": "/upgrade/home_tech/0246/Battle_Drill4.png"
+    },
+    {
+      "name": "Battle_Drill5.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0246/Battle_Drill5.png",
+      "alt": "5 级",
+      "localPath": "/images/original/upgrade/home_tech/0246/Battle_Drill5.webp",
+      "logicalPath": "/upgrade/home_tech/0246/Battle_Drill5.png"
+    },
+    {
+      "name": "Battle_Drill6.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/b/be/Battle_Drill6.png/revision/latest/scale-to-width-down/100?cb=20260426085443",
+      "alt": "Battle Drill6",
+      "localPath": "/images/wiki/0246-Battle-Drill/5b12b1aa7c-Battle_Drill6.png",
+      "logicalPath": "/upgrade/home_tech/0246/Battle_Drill6.png"
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-04-27",
+      "description": "Added the level 6 Battle Drill. Battle Drill6"
+    }
+  ],
+  "facts": [
+    "The Battle Drill is the seventh Siege Machine unlocked at Workshop level 7, which requires Town Hall level 15.",
+    "The Battle Drill requires a level 9 Clan Castle in order to be received as a Clan Castle reinforcement. This means that the usage of the Battle Drill is only limited to players at Town Hall 13 and above."
+  ],
+  "notices": []
+}

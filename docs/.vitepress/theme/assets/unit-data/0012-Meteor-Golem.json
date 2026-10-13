@@ -1,0 +1,578 @@
+{
+  "unitId": "0012-Meteor-Golem",
+  "title": "陨石戈仑",
+  "originalName": "Meteor Golem",
+  "module": "upgrade-home",
+  "imgFolder": "home_tech/0012",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Meteor_Golem",
+    "revision": 624499,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Meteor_Golem?oldid=624499",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 2,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Preferred Target",
+        "Target Multiplier",
+        "Attack Type",
+        "Housing Space",
+        "Movement Speed",
+        "Attack Speed",
+        "Barracks Level Required",
+        "Range"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "None",
+            "raw": "None"
+          },
+          {
+            "status": "known",
+            "value": "Walls (5x Damage)",
+            "raw": "Walls (5x Damage)"
+          },
+          {
+            "status": "known",
+            "value": "Area Splash (Ground & Air)",
+            "raw": "Area Splash (Ground & Air)"
+          },
+          {
+            "status": "known",
+            "value": 40,
+            "raw": "40"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          },
+          {
+            "status": "known",
+            "value": "1s",
+            "raw": "1s"
+          },
+          {
+            "status": "known",
+            "value": 19,
+            "raw": "19"
+          },
+          {
+            "status": "known",
+            "value": "5 tiles",
+            "raw": "5 tiles"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 3,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Level",
+        "Damage",
+        "Hitpoints",
+        "Upgrade Cost",
+        "Upgrade Time",
+        "Laboratory Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 480,
+            "raw": "480"
+          },
+          {
+            "status": "known",
+            "value": 14500,
+            "raw": "14,500"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 530,
+            "raw": "530"
+          },
+          {
+            "status": "known",
+            "value": 16000,
+            "raw": "16,000"
+          },
+          {
+            "status": "known",
+            "value": 28000000,
+            "raw": "28,000,000"
+          },
+          {
+            "status": "known",
+            "value": 1209600,
+            "raw": "14d",
+            "unit": "seconds",
+            "displayInput": "14,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 15,
+            "raw": "15"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 580,
+            "raw": "580"
+          },
+          {
+            "status": "known",
+            "value": 17500,
+            "raw": "17,500"
+          },
+          {
+            "status": "known",
+            "value": 30000000,
+            "raw": "30,000,000"
+          },
+          {
+            "status": "known",
+            "value": 1382400,
+            "raw": "16d",
+            "unit": "seconds",
+            "displayInput": "16,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 3,
+          "type": "cost",
+          "icon": "Elixir",
+          "gpClass": "research",
+          "noGoldPass": false
+        },
+        {
+          "column": 4,
+          "type": "time",
+          "gpClass": "research",
+          "noGoldPass": false
+        }
+      ]
+    },
+    {
+      "sourceTableIndex": 4,
+      "section": "Statistics",
+      "title": "As Temporary Troop",
+      "headers": [
+        "Level",
+        "Damage",
+        "Hitpoints",
+        "Town Hall Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 170,
+            "raw": "170"
+          },
+          {
+            "status": "known",
+            "value": 4000,
+            "raw": "4,000"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 198,
+            "raw": "198"
+          },
+          {
+            "status": "known",
+            "value": 5000,
+            "raw": "5,000"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 226,
+            "raw": "226"
+          },
+          {
+            "status": "known",
+            "value": 6000,
+            "raw": "6,000"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 254,
+            "raw": "254"
+          },
+          {
+            "status": "known",
+            "value": 7000,
+            "raw": "7,000"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 282,
+            "raw": "282"
+          },
+          {
+            "status": "known",
+            "value": 8000,
+            "raw": "8,000"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 310,
+            "raw": "310"
+          },
+          {
+            "status": "known",
+            "value": 8500,
+            "raw": "8,500"
+          },
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": 338,
+            "raw": "338"
+          },
+          {
+            "status": "known",
+            "value": 9000,
+            "raw": "9,000"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": 366,
+            "raw": "366"
+          },
+          {
+            "status": "known",
+            "value": 10000,
+            "raw": "10,000"
+          },
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          },
+          {
+            "status": "known",
+            "value": 394,
+            "raw": "394"
+          },
+          {
+            "status": "known",
+            "value": 11000,
+            "raw": "11,000"
+          },
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 430,
+            "raw": "430"
+          },
+          {
+            "status": "known",
+            "value": 12000,
+            "raw": "12,000"
+          },
+          {
+            "status": "known",
+            "value": 15,
+            "raw": "15"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          },
+          {
+            "status": "known",
+            "value": 465,
+            "raw": "465"
+          },
+          {
+            "status": "known",
+            "value": 13000,
+            "raw": "13,000"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          },
+          {
+            "status": "known",
+            "value": 500,
+            "raw": "500"
+          },
+          {
+            "status": "known",
+            "value": 14500,
+            "raw": "14,500"
+          },
+          {
+            "status": "known",
+            "value": 17,
+            "raw": "17"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          },
+          {
+            "status": "known",
+            "value": 550,
+            "raw": "550"
+          },
+          {
+            "status": "known",
+            "value": 16000,
+            "raw": "16,000"
+          },
+          {
+            "status": "known",
+            "value": 18,
+            "raw": "18"
+          }
+        ]
+      ],
+      "extraInfo": []
+    }
+  ],
+  "images": [
+    {
+      "name": "Meteor_Golem_info.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0012/Meteor_Golem_info.png",
+      "alt": "陨石戈仑",
+      "localPath": "/images/original/upgrade/home_tech/0012/Meteor_Golem_info.webp",
+      "logicalPath": "/upgrade/home_tech/0012/Meteor_Golem_info.png"
+    },
+    {
+      "name": "Meteor_Golem1.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0012/Meteor_Golem1.png",
+      "alt": "1 级",
+      "localPath": "/images/original/upgrade/home_tech/0012/Meteor_Golem1.webp",
+      "logicalPath": "/upgrade/home_tech/0012/Meteor_Golem1.png"
+    },
+    {
+      "name": "Meteor_Golem2.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0012/Meteor_Golem2.png",
+      "alt": "2 级",
+      "localPath": "/images/original/upgrade/home_tech/0012/Meteor_Golem2.webp",
+      "logicalPath": "/upgrade/home_tech/0012/Meteor_Golem2.png"
+    },
+    {
+      "name": "Meteor_Golem3.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0012/Meteor_Golem3.png",
+      "alt": "3 级",
+      "localPath": "/images/original/upgrade/home_tech/0012/Meteor_Golem3.webp",
+      "logicalPath": "/upgrade/home_tech/0012/Meteor_Golem3.png"
+    },
+    {
+      "name": "Meteormite_info.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0012/Meteormite_info.png",
+      "alt": "陨石戈仑",
+      "localPath": "/images/original/upgrade/home_tech/0012/Meteormite_info.webp",
+      "logicalPath": "/upgrade/home_tech/0012/Meteormite_info.png"
+    },
+    {
+      "name": "Meteormite1.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0012/Meteormite1.png",
+      "alt": "1 级",
+      "localPath": "/images/original/upgrade/home_tech/0012/Meteormite1.webp",
+      "logicalPath": "/upgrade/home_tech/0012/Meteormite1.png"
+    },
+    {
+      "name": "Meteormite2.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0012/Meteormite2.png",
+      "alt": "2 级",
+      "localPath": "/images/original/upgrade/home_tech/0012/Meteormite2.webp",
+      "logicalPath": "/upgrade/home_tech/0012/Meteormite2.png"
+    },
+    {
+      "name": "Meteormite3.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0012/Meteormite3.png",
+      "alt": "3 级",
+      "localPath": "/images/original/upgrade/home_tech/0012/Meteormite3.webp",
+      "logicalPath": "/upgrade/home_tech/0012/Meteormite3.png"
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-07-14",
+      "description": "Increased hitpoint at all levels: Level 1: 13,000 -> 14,500 Hitpoints Level 2: 14,500 -> 16,000 Hitpoints Level 3: 16,000 -> 17,500 Hitpoints Increased damage at all levels: Level 1: 450 -> 480 Damage Level 2: 500 -> 530 Damage Level 3: 550 -> 580 Damage"
+    }
+  ],
+  "facts": [
+    "Originally, the Meteor Golem was a Temporary Troop introduced in the Cosmic Rock event. They were unlocked after accumulating 100 Cosmic Shards in the event.",
+    "The Meteor Golem is the nineteeth Elixir Troop and currently the last one unlocked by upgrading the Barracks to level 19.",
+    "Each Meteormite spawned through this attack starts with half the current health of the Meteor Golem, rounded down to the nearest 1% of Meteormite health. Thus a damaged Meteor Golem will spawn damaged Meteormites upon splitting up."
+  ],
+  "notices": []
+}

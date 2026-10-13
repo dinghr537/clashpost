@@ -25,6 +25,9 @@ class ImageReferences(HTMLParser):
         src = attrs.get('imgsrc') or (attrs.get('src') if tag == 'pic' else None)
         if not src:
             return
+        if src.startswith('/images/'):
+            self.references.add(src)
+            return
         if src.startswith(HOST):
             self.references.add(src[len(HOST):])
         elif src.startswith('/upgrade/'):
@@ -44,6 +47,9 @@ def main():
     parser.add_argument('--output', type=Path)
     args = parser.parse_args()
     mapping = json.loads((ROOT / 'docs/.vitepress/theme/assets/original-image-manifest.json').read_text())
+    supplemental = ROOT / 'docs/.vitepress/theme/assets/supplemental-image-manifest.json'
+    if supplemental.exists():
+        mapping = {**json.loads(supplemental.read_text()), **mapping}
     references = {}
     pages = list((ROOT / 'docs/upgrade').rglob('*.md')) + [ROOT / 'docs/index.md', ROOT / 'docs/upgrade.md']
     for page in pages:
@@ -57,13 +63,23 @@ def main():
         for icon, property_resource in resources:
             for resource in (icon or property_resource).split(','):
                 references.setdefault(f'/resources/{resource.strip()}.png', set()).add(str(page.relative_to(ROOT)))
+    for path in (ROOT / 'docs/.vitepress/theme/assets/unit-data').glob('*.json'):
+        record = json.loads(path.read_text())
+        for image in record['images']:
+            references.setdefault(image.get('localPath') or image['logicalPath'], set()).add(str(path.relative_to(ROOT)))
+        for table in record['tables']:
+            for info in table['extraInfo']:
+                for icon in info.get('icon', '').split(','):
+                    if icon:
+                        references.setdefault('/resources/' + icon + '.png', set()).add(str(path.relative_to(ROOT)))
     missing = []
     for image, pages in sorted(references.items()):
-        local = mapping.get(image) or mapping.get(re.sub(r'\.(png|jpe?g)$', '.webp', image, flags=re.I))
+        local = image if image.startswith('/images/') else mapping.get(image) or mapping.get(re.sub(r'\.(png|jpe?g)$', '.webp', image, flags=re.I))
         if not local:
             missing.append({'sourceUrl': HOST + image, 'pages': sorted(pages)})
     broken_files = [local for local in mapping.values() if not (ROOT / 'docs/public' / local.lstrip('/')).is_file()]
-    report = {'originalFiles': len(mapping), 'primaryReferences': len(references),
+    broken_files.extend(image for image in references if image.startswith('/images/') and not (ROOT / 'docs/public' / image.lstrip('/')).is_file())
+    report = {'mappedFiles': len(mapping), 'primaryReferences': len(references),
               'resolvedReferences': len(references) - len(missing), 'missing': missing,
               'brokenLocalFiles': sorted(set(broken_files))}
     if args.output:

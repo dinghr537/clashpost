@@ -1,0 +1,2435 @@
+{
+  "unitId": "10f0-Battle-Machine",
+  "title": "战争机器",
+  "originalName": "Battle Machine",
+  "module": "upgrade-bh",
+  "imgFolder": "bh_tech/10f0",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Battle_Machine",
+    "revision": 624846,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Battle_Machine?oldid=624846",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 1,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Preferred Target",
+        "Attack Type",
+        "Movement Speed",
+        "Attack Speed",
+        "Range"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "None",
+            "raw": "None"
+          },
+          {
+            "status": "known",
+            "value": "Melee (Ground Only)",
+            "raw": "Melee (Ground Only)"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          },
+          {
+            "status": "known",
+            "value": "1.2s",
+            "raw": "1.2s"
+          },
+          {
+            "status": "known",
+            "value": "1.25 tiles",
+            "raw": "1.25 tiles"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 2,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Level",
+        "Damage per Second",
+        "Damage per Hit",
+        "Hitpoints",
+        "Ability Level",
+        "Upgrade Cost",
+        "Upgrade Time",
+        "Builder Hall Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 125,
+            "raw": "125"
+          },
+          {
+            "status": "known",
+            "value": 150,
+            "raw": "150"
+          },
+          {
+            "status": "known",
+            "value": 3000,
+            "raw": "3,000"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "known",
+            "value": 900000,
+            "raw": "900,000"
+          },
+          {
+            "status": "known",
+            "value": 43200,
+            "raw": "12h",
+            "unit": "seconds",
+            "displayInput": "0,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 127,
+            "raw": "127"
+          },
+          {
+            "status": "known",
+            "value": 152.4,
+            "raw": "152.4"
+          },
+          {
+            "status": "known",
+            "value": 3070,
+            "raw": "3,070"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "known",
+            "value": 1000000,
+            "raw": "1,000,000"
+          },
+          {
+            "status": "known",
+            "value": 43200,
+            "raw": "12h",
+            "unit": "seconds",
+            "displayInput": "0,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 130,
+            "raw": "130"
+          },
+          {
+            "status": "known",
+            "value": 156,
+            "raw": "156"
+          },
+          {
+            "status": "known",
+            "value": 3140,
+            "raw": "3,140"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "known",
+            "value": 1100000,
+            "raw": "1,100,000"
+          },
+          {
+            "status": "known",
+            "value": 43200,
+            "raw": "12h",
+            "unit": "seconds",
+            "displayInput": "0,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 132,
+            "raw": "132"
+          },
+          {
+            "status": "known",
+            "value": 158.4,
+            "raw": "158.4"
+          },
+          {
+            "status": "known",
+            "value": 3210,
+            "raw": "3,210"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "known",
+            "value": 1200000,
+            "raw": "1,200,000"
+          },
+          {
+            "status": "known",
+            "value": 86400,
+            "raw": "1d",
+            "unit": "seconds",
+            "displayInput": "1,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 135,
+            "raw": "135"
+          },
+          {
+            "status": "known",
+            "value": 162,
+            "raw": "162"
+          },
+          {
+            "status": "known",
+            "value": 3280,
+            "raw": "3,280"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1300000,
+            "raw": "1,300,000"
+          },
+          {
+            "status": "known",
+            "value": 86400,
+            "raw": "1d",
+            "unit": "seconds",
+            "displayInput": "1,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 137,
+            "raw": "137"
+          },
+          {
+            "status": "known",
+            "value": 164.4,
+            "raw": "164.4"
+          },
+          {
+            "status": "known",
+            "value": 3350,
+            "raw": "3,350"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1500000,
+            "raw": "1,500,000"
+          },
+          {
+            "status": "known",
+            "value": 129600,
+            "raw": "1d 12h",
+            "unit": "seconds",
+            "displayInput": "1,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": 140,
+            "raw": "140"
+          },
+          {
+            "status": "known",
+            "value": 168,
+            "raw": "168"
+          },
+          {
+            "status": "known",
+            "value": 3420,
+            "raw": "3,420"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1600000,
+            "raw": "1,600,000"
+          },
+          {
+            "status": "known",
+            "value": 129600,
+            "raw": "1d 12h",
+            "unit": "seconds",
+            "displayInput": "1,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": 142,
+            "raw": "142"
+          },
+          {
+            "status": "known",
+            "value": 170.4,
+            "raw": "170.4"
+          },
+          {
+            "status": "known",
+            "value": 3490,
+            "raw": "3,490"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1700000,
+            "raw": "1,700,000"
+          },
+          {
+            "status": "known",
+            "value": 172800,
+            "raw": "2d",
+            "unit": "seconds",
+            "displayInput": "2,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          },
+          {
+            "status": "known",
+            "value": 145,
+            "raw": "145"
+          },
+          {
+            "status": "known",
+            "value": 174,
+            "raw": "174"
+          },
+          {
+            "status": "known",
+            "value": 3560,
+            "raw": "3,560"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1800000,
+            "raw": "1,800,000"
+          },
+          {
+            "status": "known",
+            "value": 172800,
+            "raw": "2d",
+            "unit": "seconds",
+            "displayInput": "2,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 147,
+            "raw": "147"
+          },
+          {
+            "status": "known",
+            "value": 176.4,
+            "raw": "176.4"
+          },
+          {
+            "status": "known",
+            "value": 3630,
+            "raw": "3,630"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 1900000,
+            "raw": "1,900,000"
+          },
+          {
+            "status": "known",
+            "value": 216000,
+            "raw": "2d 12h",
+            "unit": "seconds",
+            "displayInput": "2,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          },
+          {
+            "status": "known",
+            "value": 150,
+            "raw": "150"
+          },
+          {
+            "status": "known",
+            "value": 180,
+            "raw": "180"
+          },
+          {
+            "status": "known",
+            "value": 3700,
+            "raw": "3,700"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 2100000,
+            "raw": "2,100,000"
+          },
+          {
+            "status": "known",
+            "value": 216000,
+            "raw": "2d 12h",
+            "unit": "seconds",
+            "displayInput": "2,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          },
+          {
+            "status": "known",
+            "value": 154,
+            "raw": "154"
+          },
+          {
+            "status": "known",
+            "value": 184.8,
+            "raw": "184.8"
+          },
+          {
+            "status": "known",
+            "value": 3770,
+            "raw": "3,770"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 2200000,
+            "raw": "2,200,000"
+          },
+          {
+            "status": "known",
+            "value": 259200,
+            "raw": "3d",
+            "unit": "seconds",
+            "displayInput": "3,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          },
+          {
+            "status": "known",
+            "value": 157,
+            "raw": "157"
+          },
+          {
+            "status": "known",
+            "value": 188.4,
+            "raw": "188.4"
+          },
+          {
+            "status": "known",
+            "value": 3840,
+            "raw": "3,840"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 2300000,
+            "raw": "2,300,000"
+          },
+          {
+            "status": "known",
+            "value": 259200,
+            "raw": "3d",
+            "unit": "seconds",
+            "displayInput": "3,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          },
+          {
+            "status": "known",
+            "value": 160,
+            "raw": "160"
+          },
+          {
+            "status": "known",
+            "value": 192,
+            "raw": "192"
+          },
+          {
+            "status": "known",
+            "value": 3910,
+            "raw": "3,910"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 2400000,
+            "raw": "2,400,000"
+          },
+          {
+            "status": "known",
+            "value": 302400,
+            "raw": "3d 12h",
+            "unit": "seconds",
+            "displayInput": "3,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 15,
+            "raw": "15"
+          },
+          {
+            "status": "known",
+            "value": 164,
+            "raw": "164"
+          },
+          {
+            "status": "known",
+            "value": 196.8,
+            "raw": "196.8"
+          },
+          {
+            "status": "known",
+            "value": 3980,
+            "raw": "3,980"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 2500000,
+            "raw": "2,500,000"
+          },
+          {
+            "status": "known",
+            "value": 302400,
+            "raw": "3d 12h",
+            "unit": "seconds",
+            "displayInput": "3,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          },
+          {
+            "status": "known",
+            "value": 167,
+            "raw": "167"
+          },
+          {
+            "status": "known",
+            "value": 200.4,
+            "raw": "200.4"
+          },
+          {
+            "status": "known",
+            "value": 4050,
+            "raw": "4,050"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 2600000,
+            "raw": "2,600,000"
+          },
+          {
+            "status": "known",
+            "value": 345600,
+            "raw": "4d",
+            "unit": "seconds",
+            "displayInput": "4,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 17,
+            "raw": "17"
+          },
+          {
+            "status": "known",
+            "value": 170,
+            "raw": "170"
+          },
+          {
+            "status": "known",
+            "value": 204,
+            "raw": "204"
+          },
+          {
+            "status": "known",
+            "value": 4120,
+            "raw": "4,120"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 2700000,
+            "raw": "2,700,000"
+          },
+          {
+            "status": "known",
+            "value": 345600,
+            "raw": "4d",
+            "unit": "seconds",
+            "displayInput": "4,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 18,
+            "raw": "18"
+          },
+          {
+            "status": "known",
+            "value": 174,
+            "raw": "174"
+          },
+          {
+            "status": "known",
+            "value": 208.8,
+            "raw": "208.8"
+          },
+          {
+            "status": "known",
+            "value": 4190,
+            "raw": "4,190"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 2800000,
+            "raw": "2,800,000"
+          },
+          {
+            "status": "known",
+            "value": 345600,
+            "raw": "4d",
+            "unit": "seconds",
+            "displayInput": "4,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 19,
+            "raw": "19"
+          },
+          {
+            "status": "known",
+            "value": 177,
+            "raw": "177"
+          },
+          {
+            "status": "known",
+            "value": 212.4,
+            "raw": "212.4"
+          },
+          {
+            "status": "known",
+            "value": 4260,
+            "raw": "4,260"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 2900000,
+            "raw": "2,900,000"
+          },
+          {
+            "status": "known",
+            "value": 345600,
+            "raw": "4d",
+            "unit": "seconds",
+            "displayInput": "4,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 20,
+            "raw": "20"
+          },
+          {
+            "status": "known",
+            "value": 180,
+            "raw": "180"
+          },
+          {
+            "status": "known",
+            "value": 216,
+            "raw": "216"
+          },
+          {
+            "status": "known",
+            "value": 4330,
+            "raw": "4,330"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 3000000,
+            "raw": "3,000,000"
+          },
+          {
+            "status": "known",
+            "value": 345600,
+            "raw": "4d",
+            "unit": "seconds",
+            "displayInput": "4,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 21,
+            "raw": "21"
+          },
+          {
+            "status": "known",
+            "value": 186,
+            "raw": "186"
+          },
+          {
+            "status": "known",
+            "value": 223.2,
+            "raw": "223.2"
+          },
+          {
+            "status": "known",
+            "value": 4400,
+            "raw": "4,400"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 3100000,
+            "raw": "3,100,000"
+          },
+          {
+            "status": "known",
+            "value": 432000,
+            "raw": "5d",
+            "unit": "seconds",
+            "displayInput": "5,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 22,
+            "raw": "22"
+          },
+          {
+            "status": "known",
+            "value": 192,
+            "raw": "192"
+          },
+          {
+            "status": "known",
+            "value": 230.4,
+            "raw": "230.4"
+          },
+          {
+            "status": "known",
+            "value": 4470,
+            "raw": "4,470"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 3200000,
+            "raw": "3,200,000"
+          },
+          {
+            "status": "known",
+            "value": 432000,
+            "raw": "5d",
+            "unit": "seconds",
+            "displayInput": "5,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 23,
+            "raw": "23"
+          },
+          {
+            "status": "known",
+            "value": 198,
+            "raw": "198"
+          },
+          {
+            "status": "known",
+            "value": 237.6,
+            "raw": "237.6"
+          },
+          {
+            "status": "known",
+            "value": 4540,
+            "raw": "4,540"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 3300000,
+            "raw": "3,300,000"
+          },
+          {
+            "status": "known",
+            "value": 432000,
+            "raw": "5d",
+            "unit": "seconds",
+            "displayInput": "5,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 24,
+            "raw": "24"
+          },
+          {
+            "status": "known",
+            "value": 204,
+            "raw": "204"
+          },
+          {
+            "status": "known",
+            "value": 244.8,
+            "raw": "244.8"
+          },
+          {
+            "status": "known",
+            "value": 4610,
+            "raw": "4,610"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 3400000,
+            "raw": "3,400,000"
+          },
+          {
+            "status": "known",
+            "value": 432000,
+            "raw": "5d",
+            "unit": "seconds",
+            "displayInput": "5,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 25,
+            "raw": "25"
+          },
+          {
+            "status": "known",
+            "value": 210,
+            "raw": "210"
+          },
+          {
+            "status": "known",
+            "value": 252,
+            "raw": "252"
+          },
+          {
+            "status": "known",
+            "value": 4680,
+            "raw": "4,680"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 3500000,
+            "raw": "3,500,000"
+          },
+          {
+            "status": "known",
+            "value": 432000,
+            "raw": "5d",
+            "unit": "seconds",
+            "displayInput": "5,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 26,
+            "raw": "26"
+          },
+          {
+            "status": "known",
+            "value": 218,
+            "raw": "218"
+          },
+          {
+            "status": "known",
+            "value": 261.6,
+            "raw": "261.6"
+          },
+          {
+            "status": "known",
+            "value": 4750,
+            "raw": "4,750"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 3600000,
+            "raw": "3,600,000"
+          },
+          {
+            "status": "known",
+            "value": 518400,
+            "raw": "6d",
+            "unit": "seconds",
+            "displayInput": "6,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 27,
+            "raw": "27"
+          },
+          {
+            "status": "known",
+            "value": 226,
+            "raw": "226"
+          },
+          {
+            "status": "known",
+            "value": 271.2,
+            "raw": "271.2"
+          },
+          {
+            "status": "known",
+            "value": 4820,
+            "raw": "4,820"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 3700000,
+            "raw": "3,700,000"
+          },
+          {
+            "status": "known",
+            "value": 518400,
+            "raw": "6d",
+            "unit": "seconds",
+            "displayInput": "6,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 28,
+            "raw": "28"
+          },
+          {
+            "status": "known",
+            "value": 234,
+            "raw": "234"
+          },
+          {
+            "status": "known",
+            "value": 280.8,
+            "raw": "280.8"
+          },
+          {
+            "status": "known",
+            "value": 4890,
+            "raw": "4,890"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 3800000,
+            "raw": "3,800,000"
+          },
+          {
+            "status": "known",
+            "value": 518400,
+            "raw": "6d",
+            "unit": "seconds",
+            "displayInput": "6,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 29,
+            "raw": "29"
+          },
+          {
+            "status": "known",
+            "value": 242,
+            "raw": "242"
+          },
+          {
+            "status": "known",
+            "value": 290.4,
+            "raw": "290.4"
+          },
+          {
+            "status": "known",
+            "value": 4960,
+            "raw": "4,960"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 3900000,
+            "raw": "3,900,000"
+          },
+          {
+            "status": "known",
+            "value": 518400,
+            "raw": "6d",
+            "unit": "seconds",
+            "displayInput": "6,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 30,
+            "raw": "30"
+          },
+          {
+            "status": "known",
+            "value": 250,
+            "raw": "250"
+          },
+          {
+            "status": "known",
+            "value": 300,
+            "raw": "300"
+          },
+          {
+            "status": "known",
+            "value": 5030,
+            "raw": "5,030"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 4000000,
+            "raw": "4,000,000"
+          },
+          {
+            "status": "known",
+            "value": 518400,
+            "raw": "6d",
+            "unit": "seconds",
+            "displayInput": "6,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 31,
+            "raw": "31"
+          },
+          {
+            "status": "known",
+            "value": 258,
+            "raw": "258"
+          },
+          {
+            "status": "known",
+            "value": 309.6,
+            "raw": "309.6"
+          },
+          {
+            "status": "known",
+            "value": 5100,
+            "raw": "5,100"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 4100000,
+            "raw": "4,100,000"
+          },
+          {
+            "status": "known",
+            "value": 604800,
+            "raw": "7d",
+            "unit": "seconds",
+            "displayInput": "7,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 32,
+            "raw": "32"
+          },
+          {
+            "status": "known",
+            "value": 266,
+            "raw": "266"
+          },
+          {
+            "status": "known",
+            "value": 319.2,
+            "raw": "319.2"
+          },
+          {
+            "status": "known",
+            "value": 5170,
+            "raw": "5,170"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 4200000,
+            "raw": "4,200,000"
+          },
+          {
+            "status": "known",
+            "value": 604800,
+            "raw": "7d",
+            "unit": "seconds",
+            "displayInput": "7,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 33,
+            "raw": "33"
+          },
+          {
+            "status": "known",
+            "value": 274,
+            "raw": "274"
+          },
+          {
+            "status": "known",
+            "value": 328.8,
+            "raw": "328.8"
+          },
+          {
+            "status": "known",
+            "value": 5240,
+            "raw": "5,240"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 4300000,
+            "raw": "4,300,000"
+          },
+          {
+            "status": "known",
+            "value": 604800,
+            "raw": "7d",
+            "unit": "seconds",
+            "displayInput": "7,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 34,
+            "raw": "34"
+          },
+          {
+            "status": "known",
+            "value": 282,
+            "raw": "282"
+          },
+          {
+            "status": "known",
+            "value": 338.4,
+            "raw": "338.4"
+          },
+          {
+            "status": "known",
+            "value": 5310,
+            "raw": "5,310"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 4400000,
+            "raw": "4,400,000"
+          },
+          {
+            "status": "known",
+            "value": 604800,
+            "raw": "7d",
+            "unit": "seconds",
+            "displayInput": "7,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 35,
+            "raw": "35"
+          },
+          {
+            "status": "known",
+            "value": 290,
+            "raw": "290"
+          },
+          {
+            "status": "known",
+            "value": 348,
+            "raw": "348"
+          },
+          {
+            "status": "known",
+            "value": 5380,
+            "raw": "5,380"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": 4500000,
+            "raw": "4,500,000"
+          },
+          {
+            "status": "known",
+            "value": 604800,
+            "raw": "7d",
+            "unit": "seconds",
+            "displayInput": "7,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 5,
+          "type": "cost",
+          "icon": "Elixir2",
+          "gpClass": "research",
+          "noGoldPass": false
+        },
+        {
+          "column": 6,
+          "type": "time",
+          "gpClass": "research",
+          "noGoldPass": false
+        }
+      ]
+    },
+    {
+      "sourceTableIndex": 4,
+      "section": "Statistics",
+      "title": "Charge Level 1",
+      "headers": [
+        "Ability Level",
+        "Ability DPS",
+        "Ability DPH",
+        "Health Recovery",
+        "Number of Targets"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 360,
+            "raw": "360"
+          },
+          {
+            "status": "known",
+            "value": 432,
+            "raw": "432"
+          },
+          {
+            "status": "known",
+            "value": 800,
+            "raw": "800"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 400,
+            "raw": "400"
+          },
+          {
+            "status": "known",
+            "value": 480,
+            "raw": "480"
+          },
+          {
+            "status": "known",
+            "value": 850,
+            "raw": "850"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 440,
+            "raw": "440"
+          },
+          {
+            "status": "known",
+            "value": 528,
+            "raw": "528"
+          },
+          {
+            "status": "known",
+            "value": 900,
+            "raw": "900"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 480,
+            "raw": "480"
+          },
+          {
+            "status": "known",
+            "value": 576,
+            "raw": "576"
+          },
+          {
+            "status": "known",
+            "value": 950,
+            "raw": "950"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 520,
+            "raw": "520"
+          },
+          {
+            "status": "known",
+            "value": 624,
+            "raw": "624"
+          },
+          {
+            "status": "known",
+            "value": 1000,
+            "raw": "1,000"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 560,
+            "raw": "560"
+          },
+          {
+            "status": "known",
+            "value": 672,
+            "raw": "672"
+          },
+          {
+            "status": "known",
+            "value": 1050,
+            "raw": "1,050"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": 600,
+            "raw": "600"
+          },
+          {
+            "status": "known",
+            "value": 716,
+            "raw": "716"
+          },
+          {
+            "status": "known",
+            "value": 1100,
+            "raw": "1,100"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 5,
+      "section": "Statistics",
+      "title": "Charge Level 2",
+      "headers": [
+        "Attack Type",
+        "Chain Damage Decay",
+        "Chain Distance"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "Chain Lightning",
+            "raw": "Chain Lightning"
+          },
+          {
+            "status": "known",
+            "value": "-50%",
+            "raw": "-50%"
+          },
+          {
+            "status": "known",
+            "value": "3 tiles",
+            "raw": "3 tiles"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 6,
+      "section": "Statistics",
+      "title": "Charge Level 2",
+      "headers": [
+        "Ability Level",
+        "Ability DPS (Primary Target)",
+        "Ability DPH (Primary Target)",
+        "Health Recovery",
+        "Number of Targets"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 585,
+            "raw": "585"
+          },
+          {
+            "status": "known",
+            "value": 702,
+            "raw": "702"
+          },
+          {
+            "status": "known",
+            "value": 1600,
+            "raw": "1,600"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 650,
+            "raw": "650"
+          },
+          {
+            "status": "known",
+            "value": 780,
+            "raw": "780"
+          },
+          {
+            "status": "known",
+            "value": 1700,
+            "raw": "1,700"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 715,
+            "raw": "715"
+          },
+          {
+            "status": "known",
+            "value": 858,
+            "raw": "858"
+          },
+          {
+            "status": "known",
+            "value": 1800,
+            "raw": "1,800"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 780,
+            "raw": "780"
+          },
+          {
+            "status": "known",
+            "value": 936,
+            "raw": "936"
+          },
+          {
+            "status": "known",
+            "value": 1900,
+            "raw": "1,900"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 845,
+            "raw": "845"
+          },
+          {
+            "status": "known",
+            "value": 1014,
+            "raw": "1,014"
+          },
+          {
+            "status": "known",
+            "value": 2000,
+            "raw": "2,000"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 910,
+            "raw": "910"
+          },
+          {
+            "status": "known",
+            "value": 1092,
+            "raw": "1,092"
+          },
+          {
+            "status": "known",
+            "value": 2100,
+            "raw": "2,100"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": 975,
+            "raw": "975"
+          },
+          {
+            "status": "known",
+            "value": 1170,
+            "raw": "1,170"
+          },
+          {
+            "status": "known",
+            "value": 2200,
+            "raw": "2,200"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 7,
+      "section": "Statistics",
+      "title": "Charge Level 3",
+      "headers": [
+        "Attack Type",
+        "Chain Damage Decay",
+        "Chain Distance"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "Chain Lightning",
+            "raw": "Chain Lightning"
+          },
+          {
+            "status": "known",
+            "value": "-30%",
+            "raw": "-30%"
+          },
+          {
+            "status": "known",
+            "value": "3 tiles",
+            "raw": "3 tiles"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 8,
+      "section": "Statistics",
+      "title": "Charge Level 3",
+      "headers": [
+        "Ability Level",
+        "Ability DPS (Primary Target)",
+        "Ability DPH (Primary Target)",
+        "Health Recovery",
+        "Number of Targets"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 810,
+            "raw": "810"
+          },
+          {
+            "status": "known",
+            "value": 972,
+            "raw": "972"
+          },
+          {
+            "status": "known",
+            "value": 2400,
+            "raw": "2,400"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 900,
+            "raw": "900"
+          },
+          {
+            "status": "known",
+            "value": 1080,
+            "raw": "1,080"
+          },
+          {
+            "status": "known",
+            "value": 2550,
+            "raw": "2,550"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 990,
+            "raw": "990"
+          },
+          {
+            "status": "known",
+            "value": 1188,
+            "raw": "1,188"
+          },
+          {
+            "status": "known",
+            "value": 2700,
+            "raw": "2,700"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 1080,
+            "raw": "1,080"
+          },
+          {
+            "status": "known",
+            "value": 1296,
+            "raw": "1,296"
+          },
+          {
+            "status": "known",
+            "value": 2850,
+            "raw": "2,850"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 1170,
+            "raw": "1,170"
+          },
+          {
+            "status": "known",
+            "value": 1404,
+            "raw": "1,404"
+          },
+          {
+            "status": "known",
+            "value": 3000,
+            "raw": "3,000"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 1260,
+            "raw": "1,260"
+          },
+          {
+            "status": "known",
+            "value": 1512,
+            "raw": "1,512"
+          },
+          {
+            "status": "known",
+            "value": 3150,
+            "raw": "3,150"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": 1350,
+            "raw": "1,350"
+          },
+          {
+            "status": "known",
+            "value": 1620,
+            "raw": "1,620"
+          },
+          {
+            "status": "known",
+            "value": 3300,
+            "raw": "3,300"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          }
+        ]
+      ],
+      "extraInfo": []
+    }
+  ],
+  "images": [
+    {
+      "name": "Battle_Machine_info.png",
+      "url": "https://static.clashpost.com/upgrade/bh_tech/10f0/Battle_Machine_info.png",
+      "alt": "战争机器",
+      "localPath": "/images/original/upgrade/bh_tech/10f0/Battle_Machine_info.webp",
+      "logicalPath": "/upgrade/bh_tech/10f0/Battle_Machine_info.png"
+    },
+    {
+      "name": "Battle_Machine_Ruin.png",
+      "url": "https://static.clashpost.com/upgrade/bh_tech/10f0/Battle_Machine_Ruin.png",
+      "alt": "废墟",
+      "localPath": "/images/original/upgrade/bh_tech/10f0/Battle_Machine_Ruin.webp",
+      "logicalPath": "/upgrade/bh_tech/10f0/Battle_Machine_Ruin.png"
+    },
+    {
+      "name": "Battle_Machine_Altar.png",
+      "url": "https://static.clashpost.com/upgrade/bh_tech/10f0/Battle_Machine_Altar.png",
+      "alt": "王座",
+      "localPath": "/images/original/upgrade/bh_tech/10f0/Battle_Machine_Altar.webp",
+      "logicalPath": "/upgrade/bh_tech/10f0/Battle_Machine_Altar.png"
+    },
+    {
+      "name": "Battle_Machine_Updating.png",
+      "url": "https://static.clashpost.com/upgrade/bh_tech/10f0/Battle_Machine_Updating.png",
+      "alt": "升级中",
+      "localPath": "/images/original/upgrade/bh_tech/10f0/Battle_Machine_Updating.webp",
+      "logicalPath": "/upgrade/bh_tech/10f0/Battle_Machine_Updating.png"
+    },
+    {
+      "name": "Battle_Machine_3D_preview.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/0/09/Battle_Machine_3D_preview.png/revision/latest?cb=20230520085804",
+      "alt": "Battle Machine 3D preview",
+      "localPath": "/images/wiki/10f0-Battle-Machine/3814a76521-Battle_Machine_3D_preview.png",
+      "logicalPath": "/upgrade/bh_tech/10f0/Battle_Machine_3D_preview.png"
+    },
+    {
+      "name": "Battle_Machine_of_the_North_3D_preview.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/6/6c/Battle_Machine_of_the_North_3D_preview.png/revision/latest?cb=20240118143849",
+      "alt": "Battle Machine of the North 3D preview",
+      "localPath": "/images/wiki/10f0-Battle-Machine/3ba2db6159-Battle_Machine_of_the_North_3D_preview.png",
+      "logicalPath": "/upgrade/bh_tech/10f0/Battle_Machine_of_the_North_3D_preview.png"
+    },
+    {
+      "name": "Battle_Machine_3D.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/3/33/Battle_Machine_3D.png/revision/latest?cb=20230520091954",
+      "alt": "Battle Machine 3D",
+      "localPath": "/images/wiki/10f0-Battle-Machine/d6ba66b00d-Battle_Machine_3D.png",
+      "logicalPath": "/upgrade/bh_tech/10f0/Battle_Machine_3D.png"
+    },
+    {
+      "name": "Battle_Machine_of_the_North_3D.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/a/ab/Battle_Machine_of_the_North_3D.png/revision/latest?cb=20240118143850",
+      "alt": "Battle Machine of the North 3D",
+      "localPath": "/images/wiki/10f0-Battle-Machine/abffb33c62-Battle_Machine_of_the_North_3D.png",
+      "logicalPath": "/upgrade/bh_tech/10f0/Battle_Machine_of_the_North_3D.png"
+    },
+    {
+      "name": "Battle_Machine_3D_KO.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b4/Battle_Machine_3D_KO.png/revision/latest?cb=20230520085814",
+      "alt": "Battle Machine 3D KO",
+      "localPath": "/images/wiki/10f0-Battle-Machine/f5d7729cda-Battle_Machine_3D_KO.png",
+      "logicalPath": "/upgrade/bh_tech/10f0/Battle_Machine_3D_KO.png"
+    },
+    {
+      "name": "Battle_Machine_of_the_North_3D_KO.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b8/Battle_Machine_of_the_North_3D_KO.png/revision/latest?cb=20240118143847",
+      "alt": "Battle Machine of the North 3D KO",
+      "localPath": "/images/wiki/10f0-Battle-Machine/604ea139ac-Battle_Machine_of_the_North_3D_KO.png",
+      "logicalPath": "/upgrade/bh_tech/10f0/Battle_Machine_of_the_North_3D_KO.png"
+    },
+    {
+      "name": "Battle_Machine_3D_downed.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/c/c2/Battle_Machine_3D_downed.png/revision/latest?cb=20230705235746",
+      "alt": "Battle Machine 3D downed",
+      "localPath": "/images/wiki/10f0-Battle-Machine/b5f20d88c0-Battle_Machine_3D_downed.png",
+      "logicalPath": "/upgrade/bh_tech/10f0/Battle_Machine_3D_downed.png"
+    },
+    {
+      "name": "Battle_Machine_of_the_North_3D_downed.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/5/57/Battle_Machine_of_the_North_3D_downed.png/revision/latest?cb=20240118143846",
+      "alt": "Battle Machine of the North 3D downed",
+      "localPath": "/images/wiki/10f0-Battle-Machine/76c24de026-Battle_Machine_of_the_North_3D_downed.png",
+      "logicalPath": "/upgrade/bh_tech/10f0/Battle_Machine_of_the_North_3D_downed.png"
+    },
+    {
+      "name": "Battle_Machine1.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/4/44/Battle_Machine1.png/revision/latest?cb=20170526043502",
+      "alt": "Battle Machine1",
+      "localPath": "/images/wiki/10f0-Battle-Machine/b2ac705e67-Battle_Machine1.png",
+      "logicalPath": "/upgrade/bh_tech/10f0/Battle_Machine1.png"
+    },
+    {
+      "name": "Battle_Machine10.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/5/53/Battle_Machine10.png/revision/latest?cb=20170526043503",
+      "alt": "Battle Machine10",
+      "localPath": "/images/wiki/10f0-Battle-Machine/836f4b1cc0-Battle_Machine10.png",
+      "logicalPath": "/upgrade/bh_tech/10f0/Battle_Machine10.png"
+    },
+    {
+      "name": "Battle_Machine20.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/6/6f/Battle_Machine20.png/revision/latest?cb=20170526043503",
+      "alt": "Battle Machine20",
+      "localPath": "/images/wiki/10f0-Battle-Machine/11c6749578-Battle_Machine20.png",
+      "logicalPath": "/upgrade/bh_tech/10f0/Battle_Machine20.png"
+    },
+    {
+      "name": "Battle_Machine26.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/c/cf/Battle_Machine26.png/revision/latest?cb=20170526043504",
+      "alt": "Battle Machine26",
+      "localPath": "/images/wiki/10f0-Battle-Machine/29ea7e5b44-Battle_Machine26.png",
+      "logicalPath": "/upgrade/bh_tech/10f0/Battle_Machine26.png"
+    },
+    {
+      "name": "Battle_Machine30.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/7/7c/Battle_Machine30.png/revision/latest?cb=20190621204043",
+      "alt": "Battle Machine30",
+      "localPath": "/images/wiki/10f0-Battle-Machine/3fa1f8d205-Battle_Machine30.png",
+      "logicalPath": "/upgrade/bh_tech/10f0/Battle_Machine30.png"
+    }
+  ],
+  "history": [],
+  "facts": [
+    "The Battle Machine is the first Hero unlocked in the Builder Base. It requires Builder Hall 5 and 900,000 Builder Elixir to repair.",
+    "When deployed, the Battle Machine will start with the ability charged up to level 1. It takes about 40 seconds to charge up to level 3 from the moment the ability is activated.",
+    "At level 5, the Battle Machine unlocks the Electric Hammer ability. When used, it is momentarily stunned, regenerates some of its health and does increased damage for its next three attacks. This ability is improved every five levels.",
+    "The Battle Machine can currently be upgraded to level 35.",
+    "The Battle Machine is coded to have a spring weight of 25 for the purposes of Push Traps and Spring Traps. However, it is immune to them regardless.",
+    "At level 15 and higher, its 2nd and 3rd tier of its ability additionally chains lightning between buildings."
+  ],
+  "notices": []
+}

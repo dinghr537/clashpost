@@ -1,0 +1,459 @@
+{
+  "unitId": "0608-Super-Minion",
+  "title": "超级亡灵",
+  "originalName": "Super Minion",
+  "module": "upgrade-home",
+  "imgFolder": "home_tech/0608",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Super_Minion",
+    "revision": 620782,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Super_Minion?oldid=620782",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 1,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Preferred Target",
+        "Attack Type",
+        "Housing Space",
+        "Movement Speed",
+        "Attack Speed",
+        "Range",
+        "Special Ability"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "None",
+            "raw": "None"
+          },
+          {
+            "status": "known",
+            "value": "Single Target",
+            "raw": "Single Target"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          },
+          {
+            "status": "known",
+            "value": "1s",
+            "raw": "1s"
+          },
+          {
+            "status": "known",
+            "value": "4 tiles (Normal) 10.25 tiles (Long Shot)",
+            "raw": "4 tiles (Normal) 10.25 tiles (Long Shot)"
+          },
+          {
+            "status": "known",
+            "value": "Long Shot",
+            "raw": "Long Shot"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 2,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Boost Cost",
+        "Boost Duration",
+        "Minion Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 25000,
+            "raw": "25,000"
+          },
+          {
+            "status": "known",
+            "value": "3d",
+            "raw": "3d"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 0,
+          "type": "cost",
+          "icon": "Dark_Elixir",
+          "gpClass": "research",
+          "noGoldPass": true
+        }
+      ]
+    },
+    {
+      "sourceTableIndex": 3,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Level",
+        "Damage per Second",
+        "Damage per Shot",
+        "Hitpoints",
+        "Town Hall Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 200,
+            "raw": "200"
+          },
+          {
+            "status": "known",
+            "value": 200,
+            "raw": "200"
+          },
+          {
+            "status": "known",
+            "value": 1100,
+            "raw": "1,100"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 225,
+            "raw": "225"
+          },
+          {
+            "status": "known",
+            "value": 225,
+            "raw": "225"
+          },
+          {
+            "status": "known",
+            "value": 1200,
+            "raw": "1,200"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 250,
+            "raw": "250"
+          },
+          {
+            "status": "known",
+            "value": 250,
+            "raw": "250"
+          },
+          {
+            "status": "known",
+            "value": 1300,
+            "raw": "1,300"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": 275,
+            "raw": "275"
+          },
+          {
+            "status": "known",
+            "value": 275,
+            "raw": "275"
+          },
+          {
+            "status": "known",
+            "value": 1400,
+            "raw": "1,400"
+          },
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": 300,
+            "raw": "300"
+          },
+          {
+            "status": "known",
+            "value": 300,
+            "raw": "300"
+          },
+          {
+            "status": "known",
+            "value": 1500,
+            "raw": "1,500"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          },
+          {
+            "status": "known",
+            "value": 325,
+            "raw": "325"
+          },
+          {
+            "status": "known",
+            "value": 325,
+            "raw": "325"
+          },
+          {
+            "status": "known",
+            "value": 1600,
+            "raw": "1,600"
+          },
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 350,
+            "raw": "350"
+          },
+          {
+            "status": "known",
+            "value": 350,
+            "raw": "350"
+          },
+          {
+            "status": "known",
+            "value": 1700,
+            "raw": "1,700"
+          },
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          },
+          {
+            "status": "known",
+            "value": 360,
+            "raw": "360"
+          },
+          {
+            "status": "known",
+            "value": 360,
+            "raw": "360"
+          },
+          {
+            "status": "known",
+            "value": 1800,
+            "raw": "1,800"
+          },
+          {
+            "status": "known",
+            "value": 15,
+            "raw": "15"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          },
+          {
+            "status": "known",
+            "value": 370,
+            "raw": "370"
+          },
+          {
+            "status": "known",
+            "value": 370,
+            "raw": "370"
+          },
+          {
+            "status": "known",
+            "value": 1900,
+            "raw": "1,900"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          },
+          {
+            "status": "known",
+            "value": 385,
+            "raw": "385"
+          },
+          {
+            "status": "known",
+            "value": 385,
+            "raw": "385"
+          },
+          {
+            "status": "known",
+            "value": 2100,
+            "raw": "2,100"
+          },
+          {
+            "status": "known",
+            "value": 17,
+            "raw": "17"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          },
+          {
+            "status": "known",
+            "value": 400,
+            "raw": "400"
+          },
+          {
+            "status": "known",
+            "value": 400,
+            "raw": "400"
+          },
+          {
+            "status": "known",
+            "value": 2300,
+            "raw": "2,300"
+          },
+          {
+            "status": "known",
+            "value": 18,
+            "raw": "18"
+          }
+        ]
+      ],
+      "extraInfo": []
+    }
+  ],
+  "images": [
+    {
+      "name": "Super_Minion_info.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0608/Super_Minion_info.png",
+      "alt": "超级亡灵",
+      "localPath": "/images/original/upgrade/home_tech/0608/Super_Minion_info.webp",
+      "logicalPath": "/upgrade/home_tech/0608/Super_Minion_info.png"
+    },
+    {
+      "name": "Super_Minion8.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0608/Super_Minion8.png",
+      "alt": "所有等级",
+      "localPath": "/images/original/upgrade/home_tech/0608/Super_Minion8.webp",
+      "logicalPath": "/upgrade/home_tech/0608/Super_Minion8.png"
+    },
+    {
+      "name": "Super_Minion_info_2.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e3/Super_Minion_info_2.png/revision/latest/scale-to-width-down/185?cb=20260707233306",
+      "alt": "",
+      "localPath": "/images/wiki/0608-Super-Minion/d1865e16e6-Super_Minion_info_2.png",
+      "logicalPath": "/upgrade/home_tech/0608/Super_Minion_info_2.png"
+    },
+    {
+      "name": "Super_Minion_3D_model.jpeg",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/5/5d/Super_Minion_3D_model.jpeg/revision/latest/scale-to-width-down/185?cb=20210820070218",
+      "alt": "3D model of Super Minion.",
+      "localPath": "/images/wiki/0608-Super-Minion/a8c0f6dbab-Super_Minion_3D_model.jpeg",
+      "logicalPath": "/upgrade/home_tech/0608/Super_Minion_3D_model.jpeg"
+    }
+  ],
+  "history": [],
+  "facts": [
+    "The Super Minion is a Super Troop based on the Minion. It can be unlocked by boosting the Minion when the Minion is at least level 8.",
+    "Boosting the Minion requires 25,000 Dark Elixir or a Super Potion, and doing so allows the Minion to be boosted for 3 days. The level of Super Minion you obtain from the boost corresponds to the level of Minion you have.",
+    "Because of the level requirement, players require Town Hall 12 in order to boost Minions into Super Minions. However, because of the Laboratory level cap, players require a level 6 Clan Castle or greater in order to get donated one, allowing anyone Town Hall 10 or above to get one."
+  ],
+  "notices": []
+}

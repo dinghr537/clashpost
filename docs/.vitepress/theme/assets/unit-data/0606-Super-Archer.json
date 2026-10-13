@@ -1,0 +1,315 @@
+{
+  "unitId": "0606-Super-Archer",
+  "title": "超级弓箭手",
+  "originalName": "Super Archer",
+  "module": "upgrade-home",
+  "imgFolder": "home_tech/0606",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Super_Archer",
+    "revision": 621780,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Super_Archer?oldid=621780",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 1,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Preferred Target",
+        "Attack Type",
+        "Housing Space",
+        "Movement Speed",
+        "Attack Speed",
+        "Range",
+        "Special Ability"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "None",
+            "raw": "None"
+          },
+          {
+            "status": "known",
+            "value": "Ranged (Ground & Air)",
+            "raw": "Ranged (Ground & Air)"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          },
+          {
+            "status": "known",
+            "value": 24,
+            "raw": "24"
+          },
+          {
+            "status": "known",
+            "value": "1.5s",
+            "raw": "1.5s"
+          },
+          {
+            "status": "known",
+            "value": "6 (Target) 12 (Projectile)",
+            "raw": "6 (Target) 12 (Projectile)"
+          },
+          {
+            "status": "known",
+            "value": "Sharp Shot",
+            "raw": "Sharp Shot"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 2,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Boost Cost",
+        "Boost Duration",
+        "Archer Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 25000,
+            "raw": "25,000"
+          },
+          {
+            "status": "known",
+            "value": "3d",
+            "raw": "3d"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 0,
+          "type": "cost",
+          "icon": "Dark_Elixir",
+          "gpClass": "research",
+          "noGoldPass": true
+        }
+      ]
+    },
+    {
+      "sourceTableIndex": 3,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Level",
+        "Damage per Second",
+        "Damage per Hit",
+        "Hitpoints"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": 120,
+            "raw": "120"
+          },
+          {
+            "status": "known",
+            "value": 180,
+            "raw": "180"
+          },
+          {
+            "status": "known",
+            "value": 450,
+            "raw": "450"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          },
+          {
+            "status": "known",
+            "value": 132,
+            "raw": "132"
+          },
+          {
+            "status": "known",
+            "value": 198,
+            "raw": "198"
+          },
+          {
+            "status": "known",
+            "value": 510,
+            "raw": "510"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 144,
+            "raw": "144"
+          },
+          {
+            "status": "known",
+            "value": 216,
+            "raw": "216"
+          },
+          {
+            "status": "known",
+            "value": 565,
+            "raw": "565"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          },
+          {
+            "status": "known",
+            "value": 156,
+            "raw": "156"
+          },
+          {
+            "status": "known",
+            "value": 234,
+            "raw": "234"
+          },
+          {
+            "status": "known",
+            "value": 605,
+            "raw": "605"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          },
+          {
+            "status": "known",
+            "value": 162,
+            "raw": "162"
+          },
+          {
+            "status": "known",
+            "value": 243,
+            "raw": "243"
+          },
+          {
+            "status": "known",
+            "value": 645,
+            "raw": "645"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          },
+          {
+            "status": "known",
+            "value": 166,
+            "raw": "166"
+          },
+          {
+            "status": "known",
+            "value": 249,
+            "raw": "249"
+          },
+          {
+            "status": "known",
+            "value": 685,
+            "raw": "685"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          },
+          {
+            "status": "known",
+            "value": 170,
+            "raw": "170"
+          },
+          {
+            "status": "known",
+            "value": 255,
+            "raw": "255"
+          },
+          {
+            "status": "known",
+            "value": 725,
+            "raw": "725"
+          }
+        ]
+      ],
+      "extraInfo": []
+    }
+  ],
+  "images": [
+    {
+      "name": "Super_Archer_info.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0606/Super_Archer_info.png",
+      "alt": "超级弓箭手",
+      "localPath": "/images/original/upgrade/home_tech/0606/Super_Archer_info.webp",
+      "logicalPath": "/upgrade/home_tech/0606/Super_Archer_info.png"
+    },
+    {
+      "name": "Super_Archer8.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0606/Super_Archer8.png",
+      "alt": "所有等级",
+      "localPath": "/images/original/upgrade/home_tech/0606/Super_Archer8.webp",
+      "logicalPath": "/upgrade/home_tech/0606/Super_Archer8.png"
+    },
+    {
+      "name": "Super_Archer_info_2.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b2/Super_Archer_info_2.png/revision/latest/scale-to-width-down/130?cb=20260707232612",
+      "alt": "",
+      "localPath": "/images/wiki/0606-Super-Archer/8b5a171083-Super_Archer_info_2.png",
+      "logicalPath": "/upgrade/home_tech/0606/Super_Archer_info_2.png"
+    },
+    {
+      "name": "Super_Archer_3D_model.jpeg",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/a/aa/Super_Archer_3D_model.jpeg/revision/latest/scale-to-width-down/185?cb=20210819195627",
+      "alt": "3D model of Super Archer.",
+      "localPath": "/images/wiki/0606-Super-Archer/c122f8c7d3-Super_Archer_3D_model.jpeg",
+      "logicalPath": "/upgrade/home_tech/0606/Super_Archer_3D_model.jpeg"
+    }
+  ],
+  "history": [],
+  "facts": [
+    "The Super Archer is a Super Troop based on the Archer. It can be unlocked by boosting the Archer when the Archer is at least level 8.",
+    "Boosting the Archer requires 25,000 Dark Elixir or a Super Potion, and doing so allows the Archer to be boosted for 3 days. The level of Super Archer you obtain from the boost corresponds to the level of Archer you have.",
+    "Because of the level requirement, players require Town Hall 11 in order to boost Archers into Super Archers. However, because of the Laboratory level cap, players require a level 5 Clan Castle or greater in order to get donated one, allowing anyone Town Hall 9 or above to get one."
+  ],
+  "notices": []
+}

@@ -1,0 +1,217 @@
+{
+  "unitId": "2010-Mega-Sparky",
+  "title": "超级电磁炮",
+  "originalName": "Mega Sparky",
+  "module": "upgrade-capital",
+  "imgFolder": "capital_tech/2010",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Mega_Sparky",
+    "revision": 620573,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Mega_Sparky?oldid=620573",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 3,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Preferred Target",
+        "Attack Type",
+        "Housing Space",
+        "Movement Speed",
+        "Attack Speed",
+        "Range"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "Defenses",
+            "raw": "Defenses"
+          },
+          {
+            "status": "known",
+            "value": "Area Splash (3-tile radius; Ground only)",
+            "raw": "Area Splash (3-tile radius; Ground only)"
+          },
+          {
+            "status": "known",
+            "value": 100,
+            "raw": "100"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": "4s",
+            "raw": "4s"
+          },
+          {
+            "status": "known",
+            "value": "4 tiles",
+            "raw": "4 tiles"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 4,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Level",
+        "Damage per Second",
+        "Damage per Shot",
+        "Hitpoints"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 400,
+            "raw": "400"
+          },
+          {
+            "status": "known",
+            "value": 1600,
+            "raw": "1,600"
+          },
+          {
+            "status": "known",
+            "value": 10000,
+            "raw": "10,000"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 450,
+            "raw": "450"
+          },
+          {
+            "status": "known",
+            "value": 1800,
+            "raw": "1,800"
+          },
+          {
+            "status": "known",
+            "value": 11200,
+            "raw": "11,200"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 500,
+            "raw": "500"
+          },
+          {
+            "status": "known",
+            "value": 2000,
+            "raw": "2,000"
+          },
+          {
+            "status": "known",
+            "value": 12400,
+            "raw": "12,400"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 550,
+            "raw": "550"
+          },
+          {
+            "status": "known",
+            "value": 2200,
+            "raw": "2,200"
+          },
+          {
+            "status": "known",
+            "value": 13600,
+            "raw": "13,600"
+          }
+        ]
+      ],
+      "extraInfo": []
+    }
+  ],
+  "images": [
+    {
+      "name": "Mega_Sparky_info.png",
+      "url": "https://static.clashpost.com/upgrade/capital_tech/2010/Mega_Sparky_info.png",
+      "alt": "超级电磁炮",
+      "localPath": "/images/original/upgrade/capital_tech/2010/Mega_Sparky_info.webp",
+      "logicalPath": "/upgrade/capital_tech/2010/Mega_Sparky_info.png"
+    },
+    {
+      "name": "Mega_Sparky1.png",
+      "url": "https://static.clashpost.com/upgrade/capital_tech/2010/Mega_Sparky1.png",
+      "alt": "所有等级",
+      "localPath": "/images/original/upgrade/capital_tech/2010/Mega_Sparky1.webp",
+      "logicalPath": "/upgrade/capital_tech/2010/Mega_Sparky1.png"
+    },
+    {
+      "name": "Mega_Sparky_info_2.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/f/f7/Mega_Sparky_info_2.png/revision/latest/scale-to-width-down/107?cb=20260627040255",
+      "alt": "Mega Sparky's alternate render.",
+      "localPath": "/images/wiki/2010-Mega-Sparky/36b289436f-Mega_Sparky_info_2.png",
+      "logicalPath": "/upgrade/capital_tech/2010/Mega_Sparky_info_2.png"
+    },
+    {
+      "name": "Mega_Sparky_concept_Art2.jpg",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/4/47/Mega_Sparky_concept_Art2.jpg/revision/latest/scale-to-width-down/185?cb=20250827150931",
+      "alt": "First concepts design of Mega Sparky.",
+      "localPath": "/images/wiki/2010-Mega-Sparky/74b01f7e99-Mega_Sparky_concept_Art2.jpg",
+      "logicalPath": "/upgrade/capital_tech/2010/Mega_Sparky_concept_Art2.jpg"
+    },
+    {
+      "name": "Mega_Sparky_concept_Art1.jpg",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/0/0e/Mega_Sparky_concept_Art1.jpg/revision/latest/scale-to-width-down/185?cb=20250827150849",
+      "alt": "Second concepts design from the glass jar.",
+      "localPath": "/images/wiki/2010-Mega-Sparky/762bf31f7f-Mega_Sparky_concept_Art1.jpg",
+      "logicalPath": "/upgrade/capital_tech/2010/Mega_Sparky_concept_Art1.jpg"
+    },
+    {
+      "name": "Mega_Sparky_concept_Art3.jpg",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/3/37/Mega_Sparky_concept_Art3.jpg/revision/latest/scale-to-width-down/185?cb=20250827151023",
+      "alt": "Final concepts design of Mega Sparky.",
+      "localPath": "/images/wiki/2010-Mega-Sparky/58665a5359-Mega_Sparky_concept_Art3.jpg",
+      "logicalPath": "/upgrade/capital_tech/2010/Mega_Sparky_concept_Art3.jpg"
+    }
+  ],
+  "history": [],
+  "facts": [
+    "The Mega Sparky is a troop in the Clan Capital, unlocked when the Mega Sparky Workshop is constructed (this requires a level 2 District Hall in the Goblin Mines, requiring Capital Hall level 9)."
+  ],
+  "notices": []
+}

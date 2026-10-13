@@ -1,0 +1,100 @@
+{
+  "unitId": "0e81-Birthday-Boom",
+  "title": "生日大爆炸",
+  "originalName": "Birthday Boom",
+  "module": "upgrade-temp",
+  "imgFolder": "temp_others/0e81",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Birthday_Boom",
+    "revision": 625013,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Birthday_Boom?oldid=625013",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 1,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Total Damage",
+        "Damage vs Town Hall",
+        "Damage Type",
+        "Targets",
+        "Radius",
+        "Freeze Duration",
+        "Housing Space"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 500,
+            "raw": "500"
+          },
+          {
+            "status": "known",
+            "value": 350,
+            "raw": "350"
+          },
+          {
+            "status": "known",
+            "value": "Area Splash",
+            "raw": "Area Splash"
+          },
+          {
+            "status": "known",
+            "value": "Ground & Air",
+            "raw": "Ground & Air"
+          },
+          {
+            "status": "known",
+            "value": "2.5 tiles",
+            "raw": "2.5 tiles"
+          },
+          {
+            "status": "known",
+            "value": "2s",
+            "raw": "2s"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          }
+        ]
+      ],
+      "extraInfo": []
+    }
+  ],
+  "images": [
+    {
+      "name": "Birthday_Boom.png",
+      "url": "https://static.clashpost.com/upgrade/temp_others/0e81/Birthday_Boom.png",
+      "alt": "生日大爆炸",
+      "localPath": "/images/original/upgrade/temp_others/0e81/Birthday_Boom.webp",
+      "logicalPath": "/upgrade/temp_others/0e81/Birthday_Boom.png"
+    },
+    {
+      "name": "BirthdayBoom1.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/a/a9/BirthdayBoom1.png/revision/latest/scale-to-width-down/55?cb=20170820101635",
+      "alt": "Birthday Present",
+      "localPath": "/images/wiki/0e81-Birthday-Boom/976945ae5d-BirthdayBoom1.png",
+      "logicalPath": "/upgrade/temp_others/0e81/BirthdayBoom1.png"
+    },
+    {
+      "name": "BirthdayBoom2.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/0/07/BirthdayBoom2.png/revision/latest/scale-to-width-down/55?cb=20170820101647",
+      "alt": "Bomb",
+      "localPath": "/images/wiki/0e81-Birthday-Boom/2061602c48-BirthdayBoom2.png",
+      "logicalPath": "/upgrade/temp_others/0e81/BirthdayBoom2.png"
+    }
+  ],
+  "history": [],
+  "facts": [],
+  "notices": [
+    "临时单位的来源表格同步日期不表示活动开放日期；本期可用状态在页首另行说明。"
+  ]
+}

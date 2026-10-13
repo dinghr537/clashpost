@@ -1,0 +1,956 @@
+{
+  "unitId": "0083-Golem",
+  "title": "戈仑石人",
+  "originalName": "Golem",
+  "module": "upgrade-home",
+  "imgFolder": "home_tech/0083",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Golem",
+    "revision": 625101,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Golem?oldid=625101",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 2,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Preferred Target",
+        "Attack Type",
+        "Housing Space",
+        "Movement Speed",
+        "Attack Speed",
+        "Dark Barracks Level Required",
+        "Range",
+        "Death Damage Radius"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "Defenses",
+            "raw": "Defenses"
+          },
+          {
+            "status": "known",
+            "value": "Melee (Ground Only)",
+            "raw": "Melee (Ground Only)"
+          },
+          {
+            "status": "known",
+            "value": 30,
+            "raw": "30"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          },
+          {
+            "status": "known",
+            "value": "2.4s",
+            "raw": "2.4s"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": "1 tile",
+            "raw": "1 tile"
+          },
+          {
+            "status": "known",
+            "value": "1.5 tiles",
+            "raw": "1.5 tiles"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 3,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Level",
+        "Damage per Second",
+        "Damage per Hit",
+        "Damage Upon Death",
+        "Golemites spawned Upon Death",
+        "Hitpoints",
+        "Research Cost",
+        "Research Time",
+        "Laboratory Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 35,
+            "raw": "35"
+          },
+          {
+            "status": "known",
+            "value": 84,
+            "raw": "84"
+          },
+          {
+            "status": "known",
+            "value": 350,
+            "raw": "350"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 5100,
+            "raw": "5,100"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 40,
+            "raw": "40"
+          },
+          {
+            "status": "known",
+            "value": 96,
+            "raw": "96"
+          },
+          {
+            "status": "known",
+            "value": 400,
+            "raw": "400"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 5400,
+            "raw": "5,400"
+          },
+          {
+            "status": "known",
+            "value": 4000,
+            "raw": "4,000"
+          },
+          {
+            "status": "known",
+            "value": 57600,
+            "raw": "16h",
+            "unit": "seconds",
+            "displayInput": "0,16,0,0"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 45,
+            "raw": "45"
+          },
+          {
+            "status": "known",
+            "value": 108,
+            "raw": "108"
+          },
+          {
+            "status": "known",
+            "value": 450,
+            "raw": "450"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 5700,
+            "raw": "5,700"
+          },
+          {
+            "status": "known",
+            "value": 6000,
+            "raw": "6,000"
+          },
+          {
+            "status": "known",
+            "value": 129600,
+            "raw": "1d 12h",
+            "unit": "seconds",
+            "displayInput": "1,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 50,
+            "raw": "50"
+          },
+          {
+            "status": "known",
+            "value": 120,
+            "raw": "120"
+          },
+          {
+            "status": "known",
+            "value": 500,
+            "raw": "500"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 6000,
+            "raw": "6,000"
+          },
+          {
+            "status": "known",
+            "value": 10000,
+            "raw": "10,000"
+          },
+          {
+            "status": "known",
+            "value": 172800,
+            "raw": "2d",
+            "unit": "seconds",
+            "displayInput": "2,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 55,
+            "raw": "55"
+          },
+          {
+            "status": "known",
+            "value": 132,
+            "raw": "132"
+          },
+          {
+            "status": "known",
+            "value": 550,
+            "raw": "550"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 6300,
+            "raw": "6,300"
+          },
+          {
+            "status": "known",
+            "value": 18500,
+            "raw": "18,500"
+          },
+          {
+            "status": "known",
+            "value": 194400,
+            "raw": "2d 6h",
+            "unit": "seconds",
+            "displayInput": "2,6,0,0"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 60,
+            "raw": "60"
+          },
+          {
+            "status": "known",
+            "value": 144,
+            "raw": "144"
+          },
+          {
+            "status": "known",
+            "value": 600,
+            "raw": "600"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 6600,
+            "raw": "6,600"
+          },
+          {
+            "status": "known",
+            "value": 26500,
+            "raw": "26,500"
+          },
+          {
+            "status": "known",
+            "value": 216000,
+            "raw": "2d 12h",
+            "unit": "seconds",
+            "displayInput": "2,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": 65,
+            "raw": "65"
+          },
+          {
+            "status": "known",
+            "value": 156,
+            "raw": "156"
+          },
+          {
+            "status": "known",
+            "value": 650,
+            "raw": "650"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 7000,
+            "raw": "7,000"
+          },
+          {
+            "status": "known",
+            "value": 38500,
+            "raw": "38,500"
+          },
+          {
+            "status": "known",
+            "value": 237600,
+            "raw": "2d 18h",
+            "unit": "seconds",
+            "displayInput": "2,18,0,0"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": 70,
+            "raw": "70"
+          },
+          {
+            "status": "known",
+            "value": 168,
+            "raw": "168"
+          },
+          {
+            "status": "known",
+            "value": 700,
+            "raw": "700"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 7500,
+            "raw": "7,500"
+          },
+          {
+            "status": "known",
+            "value": 50000,
+            "raw": "50,000"
+          },
+          {
+            "status": "known",
+            "value": 259200,
+            "raw": "3d",
+            "unit": "seconds",
+            "displayInput": "3,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          },
+          {
+            "status": "known",
+            "value": 75,
+            "raw": "75"
+          },
+          {
+            "status": "known",
+            "value": 180,
+            "raw": "180"
+          },
+          {
+            "status": "known",
+            "value": 750,
+            "raw": "750"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 7900,
+            "raw": "7,900"
+          },
+          {
+            "status": "known",
+            "value": 62500,
+            "raw": "62,500"
+          },
+          {
+            "status": "known",
+            "value": 302400,
+            "raw": "3d 12h",
+            "unit": "seconds",
+            "displayInput": "3,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 80,
+            "raw": "80"
+          },
+          {
+            "status": "known",
+            "value": 192,
+            "raw": "192"
+          },
+          {
+            "status": "known",
+            "value": 800,
+            "raw": "800"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 8200,
+            "raw": "8,200"
+          },
+          {
+            "status": "known",
+            "value": 80000,
+            "raw": "80,000"
+          },
+          {
+            "status": "known",
+            "value": 345600,
+            "raw": "4d",
+            "unit": "seconds",
+            "displayInput": "4,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          },
+          {
+            "status": "known",
+            "value": 85,
+            "raw": "85"
+          },
+          {
+            "status": "known",
+            "value": 204,
+            "raw": "204"
+          },
+          {
+            "status": "known",
+            "value": 850,
+            "raw": "850"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 8500,
+            "raw": "8,500"
+          },
+          {
+            "status": "known",
+            "value": 105000,
+            "raw": "105,000"
+          },
+          {
+            "status": "known",
+            "value": 432000,
+            "raw": "5d",
+            "unit": "seconds",
+            "displayInput": "5,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          },
+          {
+            "status": "known",
+            "value": 90,
+            "raw": "90"
+          },
+          {
+            "status": "known",
+            "value": 216,
+            "raw": "216"
+          },
+          {
+            "status": "known",
+            "value": 900,
+            "raw": "900"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 8800,
+            "raw": "8,800"
+          },
+          {
+            "status": "known",
+            "value": 122500,
+            "raw": "122,500"
+          },
+          {
+            "status": "known",
+            "value": 475200,
+            "raw": "5d 12h",
+            "unit": "seconds",
+            "displayInput": "5,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          },
+          {
+            "status": "known",
+            "value": 95,
+            "raw": "95"
+          },
+          {
+            "status": "known",
+            "value": 228,
+            "raw": "228"
+          },
+          {
+            "status": "known",
+            "value": 950,
+            "raw": "950"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 9200,
+            "raw": "9,200"
+          },
+          {
+            "status": "known",
+            "value": 175000,
+            "raw": "175,000"
+          },
+          {
+            "status": "known",
+            "value": 518400,
+            "raw": "6d",
+            "unit": "seconds",
+            "displayInput": "6,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          },
+          {
+            "status": "known",
+            "value": 100,
+            "raw": "100"
+          },
+          {
+            "status": "known",
+            "value": 240,
+            "raw": "240"
+          },
+          {
+            "status": "known",
+            "value": 1000,
+            "raw": "1,000"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 9600,
+            "raw": "9,600"
+          },
+          {
+            "status": "known",
+            "value": 230000,
+            "raw": "230,000"
+          },
+          {
+            "status": "known",
+            "value": 864000,
+            "raw": "10d",
+            "unit": "seconds",
+            "displayInput": "10,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 15,
+            "raw": "15"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 15,
+            "raw": "15"
+          },
+          {
+            "status": "known",
+            "value": 120,
+            "raw": "120"
+          },
+          {
+            "status": "known",
+            "value": 288,
+            "raw": "288"
+          },
+          {
+            "status": "known",
+            "value": 1050,
+            "raw": "1,050"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 10600,
+            "raw": "10,600"
+          },
+          {
+            "status": "known",
+            "value": 350000,
+            "raw": "350,000"
+          },
+          {
+            "status": "known",
+            "value": 1252800,
+            "raw": "14d 12h",
+            "unit": "seconds",
+            "displayInput": "14,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 6,
+          "type": "cost",
+          "icon": "Dark_Elixir",
+          "gpClass": "research",
+          "noGoldPass": false
+        },
+        {
+          "column": 7,
+          "type": "time",
+          "gpClass": "research",
+          "noGoldPass": false
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "name": "Golem_info.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0083/Golem_info.png",
+      "alt": "戈仑石人",
+      "localPath": "/images/original/upgrade/home_tech/0083/Golem_info.webp",
+      "logicalPath": "/upgrade/home_tech/0083/Golem_info.png"
+    },
+    {
+      "name": "Golem1.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0083/Golem1.png",
+      "alt": "1 - 2 级",
+      "localPath": "/images/original/upgrade/home_tech/0083/Golem1.webp",
+      "logicalPath": "/upgrade/home_tech/0083/Golem1.png"
+    },
+    {
+      "name": "Golem3.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0083/Golem3.png",
+      "alt": "3 - 4 级",
+      "localPath": "/images/original/upgrade/home_tech/0083/Golem3.webp",
+      "logicalPath": "/upgrade/home_tech/0083/Golem3.png"
+    },
+    {
+      "name": "Golem5.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0083/Golem5.png",
+      "alt": "5 级",
+      "localPath": "/images/original/upgrade/home_tech/0083/Golem5.webp",
+      "logicalPath": "/upgrade/home_tech/0083/Golem5.png"
+    },
+    {
+      "name": "Golem6.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0083/Golem6.png",
+      "alt": "6 级",
+      "localPath": "/images/original/upgrade/home_tech/0083/Golem6.webp",
+      "logicalPath": "/upgrade/home_tech/0083/Golem6.png"
+    },
+    {
+      "name": "Golem7.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0083/Golem7.png",
+      "alt": "7 级",
+      "localPath": "/images/original/upgrade/home_tech/0083/Golem7.webp",
+      "logicalPath": "/upgrade/home_tech/0083/Golem7.png"
+    },
+    {
+      "name": "Golem8.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0083/Golem8.png",
+      "alt": "8 级",
+      "localPath": "/images/original/upgrade/home_tech/0083/Golem8.webp",
+      "logicalPath": "/upgrade/home_tech/0083/Golem8.png"
+    },
+    {
+      "name": "Golem9.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0083/Golem9.png",
+      "alt": "9 级",
+      "localPath": "/images/original/upgrade/home_tech/0083/Golem9.webp",
+      "logicalPath": "/upgrade/home_tech/0083/Golem9.png"
+    },
+    {
+      "name": "Golem10.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0083/Golem10.png",
+      "alt": "10 级",
+      "localPath": "/images/original/upgrade/home_tech/0083/Golem10.webp",
+      "logicalPath": "/upgrade/home_tech/0083/Golem10.png"
+    },
+    {
+      "name": "Golem11.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0083/Golem11.png",
+      "alt": "11 级",
+      "localPath": "/images/original/upgrade/home_tech/0083/Golem11.webp",
+      "logicalPath": "/upgrade/home_tech/0083/Golem11.png"
+    },
+    {
+      "name": "Golem12.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0083/Golem12.png",
+      "alt": "12 级",
+      "localPath": "/images/original/upgrade/home_tech/0083/Golem12.webp",
+      "logicalPath": "/upgrade/home_tech/0083/Golem12.png"
+    },
+    {
+      "name": "Golem13.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0083/Golem13.png",
+      "alt": "13 级",
+      "localPath": "/images/original/upgrade/home_tech/0083/Golem13.webp",
+      "logicalPath": "/upgrade/home_tech/0083/Golem13.png"
+    },
+    {
+      "name": "Golem14.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0083/Golem14.png",
+      "alt": "14 级",
+      "localPath": "/images/original/upgrade/home_tech/0083/Golem14.webp",
+      "logicalPath": "/upgrade/home_tech/0083/Golem14.png"
+    },
+    {
+      "name": "Golemite_info.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0083/Golemite_info.png",
+      "alt": "戈仑石人",
+      "localPath": "/images/original/upgrade/home_tech/0083/Golemite_info.webp",
+      "logicalPath": "/upgrade/home_tech/0083/Golemite_info.png"
+    },
+    {
+      "name": "Golem15.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/1/1f/Golem15.png/revision/latest/scale-to-width-down/85?cb=20260427191537",
+      "alt": "Golem15",
+      "localPath": "/images/wiki/0083-Golem/42aaa429da-Golem15.png",
+      "logicalPath": "/upgrade/home_tech/0083/Golem15.png"
+    }
+  ],
+  "history": [],
+  "facts": [
+    "The Golem is the fourth Dark Elixir Troop unlocked once the Dark Barracks is upgraded to level 4. He is a slow defense-targeting ground troop with low damage but massive hitpoints."
+  ],
+  "notices": []
+}

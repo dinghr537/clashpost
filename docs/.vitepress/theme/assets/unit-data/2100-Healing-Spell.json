@@ -1,0 +1,170 @@
+{
+  "unitId": "2100-Healing-Spell",
+  "title": "疗伤法术",
+  "originalName": "Healing Spell/Clan Capital",
+  "module": "upgrade-capital",
+  "imgFolder": "capital_tech/2100",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Healing_Spell/Clan_Capital",
+    "revision": 620091,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Healing_Spell/Clan_Capital?oldid=620091",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 1,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Radius",
+        "Duration",
+        "Time Between Pulses",
+        "Housing Space",
+        "Required Spell Factory"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "4.5 tiles",
+            "raw": "4.5 tiles"
+          },
+          {
+            "status": "known",
+            "value": "2 attacks",
+            "raw": "2 attacks"
+          },
+          {
+            "status": "known",
+            "value": "0.3s",
+            "raw": "0.3s"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": "Heal Spell Factory",
+            "raw": "Heal Spell Factory"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 2,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Level",
+        "Healing per Second",
+        "Healing per Pulse"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 80,
+            "raw": "80"
+          },
+          {
+            "status": "known",
+            "value": 24,
+            "raw": "24"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 93,
+            "raw": "93"
+          },
+          {
+            "status": "known",
+            "value": 28,
+            "raw": "28"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 106,
+            "raw": "106"
+          },
+          {
+            "status": "known",
+            "value": 32,
+            "raw": "32"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 120,
+            "raw": "120"
+          },
+          {
+            "status": "known",
+            "value": 36,
+            "raw": "36"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 133,
+            "raw": "133"
+          },
+          {
+            "status": "known",
+            "value": 40,
+            "raw": "40"
+          }
+        ]
+      ],
+      "extraInfo": []
+    }
+  ],
+  "images": [
+    {
+      "name": "Healing_Spell_info.png",
+      "url": "https://static.clashpost.com/upgrade/capital_tech/2100/Healing_Spell_info.png",
+      "alt": "疗伤法术",
+      "localPath": "/images/original/upgrade/capital_tech/2100/Healing_Spell_info.webp",
+      "logicalPath": "/upgrade/capital_tech/2100/Healing_Spell_info.png"
+    }
+  ],
+  "history": [],
+  "facts": [],
+  "notices": []
+}

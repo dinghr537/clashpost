@@ -1,0 +1,553 @@
+{
+  "unitId": "220d-Rocket-Artillery",
+  "title": "火箭炮",
+  "originalName": "Rocket Artillery",
+  "module": "upgrade-capital",
+  "imgFolder": "capital_buildings/220d",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Rocket_Artillery",
+    "revision": 602695,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Rocket_Artillery?oldid=602695",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 2,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Capital Hall Level",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "Number Available",
+            "raw": "Number Available"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 3,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Size"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "3x3",
+            "raw": "3x3"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 4,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Number Available",
+        "District Hall Level / 1",
+        "District Hall Level / 2",
+        "District Hall Level / 3",
+        "District Hall Level / 4",
+        "District Hall Level / 5"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "Barbarian Camp",
+            "raw": "Barbarian Camp"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": "Balloon Lagoon",
+            "raw": "Balloon Lagoon"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": "Golem Quarry",
+            "raw": "Golem Quarry"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": "Skeleton Park",
+            "raw": "Skeleton Park"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 5,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Level",
+        "Damage per Second",
+        "Damage per Shot",
+        "Hitpoints",
+        "Build Cost",
+        "Capital Hall Level Required",
+        "District Hall Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 140,
+            "raw": "140"
+          },
+          {
+            "status": "known",
+            "value": 560,
+            "raw": "560"
+          },
+          {
+            "status": "known",
+            "value": 2400,
+            "raw": "2,400"
+          },
+          {
+            "status": "known",
+            "value": 12500,
+            "raw": "12,500"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 160,
+            "raw": "160"
+          },
+          {
+            "status": "known",
+            "value": 640,
+            "raw": "640"
+          },
+          {
+            "status": "known",
+            "value": 2800,
+            "raw": "2,800"
+          },
+          {
+            "status": "known",
+            "value": 25000,
+            "raw": "25,000"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 180,
+            "raw": "180"
+          },
+          {
+            "status": "known",
+            "value": 720,
+            "raw": "720"
+          },
+          {
+            "status": "known",
+            "value": 3200,
+            "raw": "3,200"
+          },
+          {
+            "status": "known",
+            "value": 50000,
+            "raw": "50,000"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 200,
+            "raw": "200"
+          },
+          {
+            "status": "known",
+            "value": 800,
+            "raw": "800"
+          },
+          {
+            "status": "known",
+            "value": 3600,
+            "raw": "3,600"
+          },
+          {
+            "status": "known",
+            "value": 78000,
+            "raw": "78,000"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 220,
+            "raw": "220"
+          },
+          {
+            "status": "known",
+            "value": 880,
+            "raw": "880"
+          },
+          {
+            "status": "known",
+            "value": 4000,
+            "raw": "4,000"
+          },
+          {
+            "status": "known",
+            "value": 130000,
+            "raw": "130,000"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 4,
+          "type": "cost",
+          "icon": "Gold3",
+          "gpClass": "building",
+          "noGoldPass": true
+        }
+      ]
+    },
+    {
+      "sourceTableIndex": 6,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Range",
+        "Attack Speed",
+        "Damage Type",
+        "Unit Type Targeted"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "3-12",
+            "raw": "3-12"
+          },
+          {
+            "status": "known",
+            "value": "4s",
+            "raw": "4s"
+          },
+          {
+            "status": "known",
+            "value": "Splash -1.5 tiles",
+            "raw": "Splash -1.5 tiles"
+          },
+          {
+            "status": "known",
+            "value": "Ground & Air",
+            "raw": "Ground & Air"
+          }
+        ]
+      ],
+      "extraInfo": []
+    }
+  ],
+  "images": [
+    {
+      "name": "Rocket_Artillery5.png",
+      "url": "https://static.clashpost.com/upgrade/capital_buildings/220d/Rocket_Artillery5.png",
+      "alt": "火箭炮",
+      "localPath": "/images/original/upgrade/capital_buildings/220d/Rocket_Artillery5.webp",
+      "logicalPath": "/upgrade/capital_buildings/220d/Rocket_Artillery5.png"
+    },
+    {
+      "name": "Rocket_Artillery_Ruin.png",
+      "url": "https://static.clashpost.com/upgrade/capital_buildings/220d/Rocket_Artillery_Ruin.png",
+      "alt": "废墟",
+      "localPath": "/images/original/upgrade/capital_buildings/220d/Rocket_Artillery_Ruin.webp",
+      "logicalPath": "/upgrade/capital_buildings/220d/Rocket_Artillery_Ruin.png"
+    },
+    {
+      "name": "Rocket_Artillery1.png",
+      "url": "https://static.clashpost.com/upgrade/capital_buildings/220d/Rocket_Artillery1.png",
+      "alt": "1 级",
+      "localPath": "/images/original/upgrade/capital_buildings/220d/Rocket_Artillery1.webp",
+      "logicalPath": "/upgrade/capital_buildings/220d/Rocket_Artillery1.png"
+    },
+    {
+      "name": "Rocket_Artillery2.png",
+      "url": "https://static.clashpost.com/upgrade/capital_buildings/220d/Rocket_Artillery2.png",
+      "alt": "2 级",
+      "localPath": "/images/original/upgrade/capital_buildings/220d/Rocket_Artillery2.webp",
+      "logicalPath": "/upgrade/capital_buildings/220d/Rocket_Artillery2.png"
+    },
+    {
+      "name": "Rocket_Artillery3.png",
+      "url": "https://static.clashpost.com/upgrade/capital_buildings/220d/Rocket_Artillery3.png",
+      "alt": "3 级",
+      "localPath": "/images/original/upgrade/capital_buildings/220d/Rocket_Artillery3.webp",
+      "logicalPath": "/upgrade/capital_buildings/220d/Rocket_Artillery3.png"
+    },
+    {
+      "name": "Rocket_Artillery4.png",
+      "url": "https://static.clashpost.com/upgrade/capital_buildings/220d/Rocket_Artillery4.png",
+      "alt": "4 级",
+      "localPath": "/images/original/upgrade/capital_buildings/220d/Rocket_Artillery4.webp",
+      "logicalPath": "/upgrade/capital_buildings/220d/Rocket_Artillery4.png"
+    }
+  ],
+  "history": [],
+  "facts": [
+    "The Rocket Artillery is a defensive building in the Clan Capital, unlocked at Capital Hall level 5."
+  ],
+  "notices": []
+}

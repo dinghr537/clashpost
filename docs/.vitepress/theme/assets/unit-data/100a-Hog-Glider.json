@@ -1,0 +1,618 @@
+{
+  "unitId": "100a-Hog-Glider",
+  "title": "野猪飞骑",
+  "originalName": "Hog Glider",
+  "module": "upgrade-bh",
+  "imgFolder": "bh_tech/100a",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Hog_Glider",
+    "revision": 622516,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Hog_Glider?oldid=622516",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 1,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Number of Units per Army Camp",
+        "Preferred Target",
+        "Attack Type",
+        "Movement Speed",
+        "Range",
+        "Builder Barracks Level Required",
+        "Special Ability"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": "Defenses",
+            "raw": "Defenses"
+          },
+          {
+            "status": "known",
+            "value": "Melee (Ground Only)",
+            "raw": "Melee (Ground Only)"
+          },
+          {
+            "status": "known",
+            "value": 24,
+            "raw": "24"
+          },
+          {
+            "status": "known",
+            "value": "0.25 tiles",
+            "raw": "0.25 tiles"
+          },
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          },
+          {
+            "status": "known",
+            "value": "Stunning Glide",
+            "raw": "Stunning Glide"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 2,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Level",
+        "Damage",
+        "Hitpoints",
+        "Stun Duration",
+        "Research Cost",
+        "Research Time",
+        "Star Laboratory Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 15,
+            "raw": "15"
+          },
+          {
+            "status": "known",
+            "value": 180,
+            "raw": "180"
+          },
+          {
+            "status": "known",
+            "value": 600,
+            "raw": "600"
+          },
+          {
+            "status": "known",
+            "value": "5.0s",
+            "raw": "5.0s"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          },
+          {
+            "status": "known",
+            "value": 220,
+            "raw": "220"
+          },
+          {
+            "status": "known",
+            "value": 650,
+            "raw": "650"
+          },
+          {
+            "status": "known",
+            "value": "5.0s",
+            "raw": "5.0s"
+          },
+          {
+            "status": "known",
+            "value": 4000000,
+            "raw": "4,000,000"
+          },
+          {
+            "status": "known",
+            "value": 475200,
+            "raw": "5d 12h",
+            "unit": "seconds",
+            "displayInput": "5,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 17,
+            "raw": "17"
+          },
+          {
+            "status": "known",
+            "value": 220,
+            "raw": "220"
+          },
+          {
+            "status": "known",
+            "value": 650,
+            "raw": "650"
+          },
+          {
+            "status": "known",
+            "value": "5.0s",
+            "raw": "5.0s"
+          },
+          {
+            "status": "known",
+            "value": 4200000,
+            "raw": "4,200,000"
+          },
+          {
+            "status": "known",
+            "value": 518400,
+            "raw": "6d",
+            "unit": "seconds",
+            "displayInput": "6,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 18,
+            "raw": "18"
+          },
+          {
+            "status": "known",
+            "value": 220,
+            "raw": "220"
+          },
+          {
+            "status": "known",
+            "value": 650,
+            "raw": "650"
+          },
+          {
+            "status": "known",
+            "value": "6.0s",
+            "raw": "6.0s"
+          },
+          {
+            "status": "known",
+            "value": 4400000,
+            "raw": "4,400,000"
+          },
+          {
+            "status": "known",
+            "value": 518400,
+            "raw": "6d",
+            "unit": "seconds",
+            "displayInput": "6,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 19,
+            "raw": "19"
+          },
+          {
+            "status": "known",
+            "value": 220,
+            "raw": "220"
+          },
+          {
+            "status": "known",
+            "value": 650,
+            "raw": "650"
+          },
+          {
+            "status": "known",
+            "value": "6.0s",
+            "raw": "6.0s"
+          },
+          {
+            "status": "known",
+            "value": 5400000,
+            "raw": "5,400,000"
+          },
+          {
+            "status": "known",
+            "value": 561600,
+            "raw": "6d 12h",
+            "unit": "seconds",
+            "displayInput": "6,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 20,
+            "raw": "20"
+          },
+          {
+            "status": "known",
+            "value": 260,
+            "raw": "260"
+          },
+          {
+            "status": "known",
+            "value": 700,
+            "raw": "700"
+          },
+          {
+            "status": "known",
+            "value": "6.0s",
+            "raw": "6.0s"
+          },
+          {
+            "status": "known",
+            "value": 5800000,
+            "raw": "5,800,000"
+          },
+          {
+            "status": "known",
+            "value": 561600,
+            "raw": "6d 12h",
+            "unit": "seconds",
+            "displayInput": "6,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 4,
+          "type": "cost",
+          "icon": "Elixir2",
+          "gpClass": "research",
+          "noGoldPass": false
+        },
+        {
+          "column": 5,
+          "type": "time",
+          "gpClass": "research",
+          "noGoldPass": false
+        }
+      ]
+    },
+    {
+      "sourceTableIndex": 3,
+      "section": "Statistics",
+      "title": "Hog Rider",
+      "headers": [
+        "Spring Weight",
+        "Preferred Target",
+        "Attack Type",
+        "Movement Speed",
+        "Attack Speed",
+        "Range"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          },
+          {
+            "status": "known",
+            "value": "Defenses",
+            "raw": "Defenses"
+          },
+          {
+            "status": "known",
+            "value": "Melee (Ground Only)",
+            "raw": "Melee (Ground Only)"
+          },
+          {
+            "status": "known",
+            "value": 32,
+            "raw": "32"
+          },
+          {
+            "status": "known",
+            "value": "1s",
+            "raw": "1s"
+          },
+          {
+            "status": "known",
+            "value": "0.75 tiles",
+            "raw": "0.75 tiles"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 4,
+      "section": "Statistics",
+      "title": "Hog Rider",
+      "headers": [
+        "Level",
+        "Damage per Second",
+        "Damage per Attack",
+        "Hitpoints"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 15,
+            "raw": "15"
+          },
+          {
+            "status": "known",
+            "value": 112,
+            "raw": "112"
+          },
+          {
+            "status": "known",
+            "value": 112,
+            "raw": "112"
+          },
+          {
+            "status": "known",
+            "value": 1267,
+            "raw": "1,267"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          },
+          {
+            "status": "known",
+            "value": 112,
+            "raw": "112"
+          },
+          {
+            "status": "known",
+            "value": 112,
+            "raw": "112"
+          },
+          {
+            "status": "known",
+            "value": 1267,
+            "raw": "1,267"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 17,
+            "raw": "17"
+          },
+          {
+            "status": "known",
+            "value": 125,
+            "raw": "125"
+          },
+          {
+            "status": "known",
+            "value": 125,
+            "raw": "125"
+          },
+          {
+            "status": "known",
+            "value": 1393,
+            "raw": "1,393"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 18,
+            "raw": "18"
+          },
+          {
+            "status": "known",
+            "value": 125,
+            "raw": "125"
+          },
+          {
+            "status": "known",
+            "value": 125,
+            "raw": "125"
+          },
+          {
+            "status": "known",
+            "value": 1393,
+            "raw": "1,393"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 19,
+            "raw": "19"
+          },
+          {
+            "status": "known",
+            "value": 139,
+            "raw": "139"
+          },
+          {
+            "status": "known",
+            "value": 139,
+            "raw": "139"
+          },
+          {
+            "status": "known",
+            "value": 1533,
+            "raw": "1,533"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 20,
+            "raw": "20"
+          },
+          {
+            "status": "known",
+            "value": 139,
+            "raw": "139"
+          },
+          {
+            "status": "known",
+            "value": 139,
+            "raw": "139"
+          },
+          {
+            "status": "known",
+            "value": 1533,
+            "raw": "1,533"
+          }
+        ]
+      ],
+      "extraInfo": []
+    }
+  ],
+  "images": [
+    {
+      "name": "Hog_Glider_info.png",
+      "url": "https://static.clashpost.com/upgrade/bh_tech/100a/Hog_Glider_info.png",
+      "alt": "野猪飞骑",
+      "localPath": "/images/original/upgrade/bh_tech/100a/Hog_Glider_info.webp",
+      "logicalPath": "/upgrade/bh_tech/100a/Hog_Glider_info.png"
+    },
+    {
+      "name": "Hog_Glider15.png",
+      "url": "https://static.clashpost.com/upgrade/bh_tech/100a/Hog_Glider15.png",
+      "alt": "15 - 16 级",
+      "localPath": "/images/original/upgrade/bh_tech/100a/Hog_Glider15.webp",
+      "logicalPath": "/upgrade/bh_tech/100a/Hog_Glider15.png"
+    },
+    {
+      "name": "Hog_Glider17.png",
+      "url": "https://static.clashpost.com/upgrade/bh_tech/100a/Hog_Glider17.png",
+      "alt": "17 级",
+      "localPath": "/images/original/upgrade/bh_tech/100a/Hog_Glider17.webp",
+      "logicalPath": "/upgrade/bh_tech/100a/Hog_Glider17.png"
+    },
+    {
+      "name": "Hog_Glider18.png",
+      "url": "https://static.clashpost.com/upgrade/bh_tech/100a/Hog_Glider18.png",
+      "alt": "18 级",
+      "localPath": "/images/original/upgrade/bh_tech/100a/Hog_Glider18.webp",
+      "logicalPath": "/upgrade/bh_tech/100a/Hog_Glider18.png"
+    },
+    {
+      "name": "Hog_Glider19.png",
+      "url": "https://static.clashpost.com/upgrade/bh_tech/100a/Hog_Glider19.png",
+      "alt": "19 级",
+      "localPath": "/images/original/upgrade/bh_tech/100a/Hog_Glider19.webp",
+      "logicalPath": "/upgrade/bh_tech/100a/Hog_Glider19.png"
+    },
+    {
+      "name": "Hog_Glider20.png",
+      "url": "https://static.clashpost.com/upgrade/bh_tech/100a/Hog_Glider20.png",
+      "alt": "20 级",
+      "localPath": "/images/original/upgrade/bh_tech/100a/Hog_Glider20.webp",
+      "logicalPath": "/upgrade/bh_tech/100a/Hog_Glider20.png"
+    },
+    {
+      "name": "Hog_Rider_info.png",
+      "url": "https://static.clashpost.com/upgrade/bh_tech/100a/Hog_Rider_info.png",
+      "alt": "野猪飞骑",
+      "localPath": "/images/original/upgrade/bh_tech/100a/Hog_Rider_info.webp",
+      "logicalPath": "/upgrade/bh_tech/100a/Hog_Rider_info.png"
+    },
+    {
+      "name": "Hog_Rider15.png",
+      "url": "https://static.clashpost.com/upgrade/bh_tech/100a/Hog_Rider15.png",
+      "alt": "15 - 16 级",
+      "localPath": "/images/original/upgrade/bh_tech/100a/Hog_Rider15.webp",
+      "logicalPath": "/upgrade/bh_tech/100a/Hog_Rider15.png"
+    },
+    {
+      "name": "Hog_Rider17.png",
+      "url": "https://static.clashpost.com/upgrade/bh_tech/100a/Hog_Rider17.png",
+      "alt": "17 级",
+      "localPath": "/images/original/upgrade/bh_tech/100a/Hog_Rider17.webp",
+      "logicalPath": "/upgrade/bh_tech/100a/Hog_Rider17.png"
+    },
+    {
+      "name": "Hog_Rider18.png",
+      "url": "https://static.clashpost.com/upgrade/bh_tech/100a/Hog_Rider18.png",
+      "alt": "18 级",
+      "localPath": "/images/original/upgrade/bh_tech/100a/Hog_Rider18.webp",
+      "logicalPath": "/upgrade/bh_tech/100a/Hog_Rider18.png"
+    },
+    {
+      "name": "Hog_Rider19.png",
+      "url": "https://static.clashpost.com/upgrade/bh_tech/100a/Hog_Rider19.png",
+      "alt": "19 级",
+      "localPath": "/images/original/upgrade/bh_tech/100a/Hog_Rider19.webp",
+      "logicalPath": "/upgrade/bh_tech/100a/Hog_Rider19.png"
+    },
+    {
+      "name": "Hog_Rider20.png",
+      "url": "https://static.clashpost.com/upgrade/bh_tech/100a/Hog_Rider20.png",
+      "alt": "20 级",
+      "localPath": "/images/original/upgrade/bh_tech/100a/Hog_Rider20.webp",
+      "logicalPath": "/upgrade/bh_tech/100a/Hog_Rider20.png"
+    }
+  ],
+  "history": [],
+  "facts": [],
+  "notices": []
+}

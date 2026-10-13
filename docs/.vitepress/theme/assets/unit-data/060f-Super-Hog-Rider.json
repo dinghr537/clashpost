@@ -1,0 +1,312 @@
+{
+  "unitId": "060f-Super-Hog-Rider",
+  "title": "超级野猪骑士",
+  "originalName": "Super Hog Rider",
+  "module": "upgrade-home",
+  "imgFolder": "home_tech/060f",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Super_Hog_Rider",
+    "revision": 621779,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Super_Hog_Rider?oldid=621779",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 1,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Preferred Target",
+        "Attack Type",
+        "Housing Space",
+        "Movement Speed",
+        "Attack Speed",
+        "Range",
+        "Special Ability"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "Defenses",
+            "raw": "Defenses"
+          },
+          {
+            "status": "known",
+            "value": "Single Target (Ground Only)",
+            "raw": "Single Target (Ground Only)"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          },
+          {
+            "status": "known",
+            "value": 24,
+            "raw": "24"
+          },
+          {
+            "status": "known",
+            "value": "1s",
+            "raw": "1s"
+          },
+          {
+            "status": "known",
+            "value": "0.6 tiles",
+            "raw": "0.6 tiles"
+          },
+          {
+            "status": "known",
+            "value": "Divide and Conquer",
+            "raw": "Divide and Conquer"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 2,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Boost Cost",
+        "Boost Duration",
+        "Hog Rider Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 25000,
+            "raw": "25,000"
+          },
+          {
+            "status": "known",
+            "value": "3d",
+            "raw": "3d"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 0,
+          "type": "cost",
+          "icon": "Dark_Elixir",
+          "gpClass": "research",
+          "noGoldPass": true
+        }
+      ]
+    },
+    {
+      "sourceTableIndex": 3,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Level",
+        "Damage per Second",
+        "Damage per Hit",
+        "Hitpoints"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 180,
+            "raw": "180"
+          },
+          {
+            "status": "known",
+            "value": 180,
+            "raw": "180"
+          },
+          {
+            "status": "known",
+            "value": 1500,
+            "raw": "1,500"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          },
+          {
+            "status": "known",
+            "value": 200,
+            "raw": "200"
+          },
+          {
+            "status": "known",
+            "value": 200,
+            "raw": "200"
+          },
+          {
+            "status": "known",
+            "value": 1600,
+            "raw": "1,600"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          },
+          {
+            "status": "known",
+            "value": 230,
+            "raw": "230"
+          },
+          {
+            "status": "known",
+            "value": 230,
+            "raw": "230"
+          },
+          {
+            "status": "known",
+            "value": 1750,
+            "raw": "1,750"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          },
+          {
+            "status": "known",
+            "value": 250,
+            "raw": "250"
+          },
+          {
+            "status": "known",
+            "value": 250,
+            "raw": "250"
+          },
+          {
+            "status": "known",
+            "value": 1900,
+            "raw": "1,900"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          },
+          {
+            "status": "known",
+            "value": 270,
+            "raw": "270"
+          },
+          {
+            "status": "known",
+            "value": 270,
+            "raw": "270"
+          },
+          {
+            "status": "known",
+            "value": 2100,
+            "raw": "2,100"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 15,
+            "raw": "15"
+          },
+          {
+            "status": "known",
+            "value": 300,
+            "raw": "300"
+          },
+          {
+            "status": "known",
+            "value": 300,
+            "raw": "300"
+          },
+          {
+            "status": "known",
+            "value": 2350,
+            "raw": "2,350"
+          }
+        ]
+      ],
+      "extraInfo": []
+    }
+  ],
+  "images": [
+    {
+      "name": "Super_Hog_Rider_info.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/060f/Super_Hog_Rider_info.png",
+      "alt": "超级野猪骑士",
+      "localPath": "/images/original/upgrade/home_tech/060f/Super_Hog_Rider_info.webp",
+      "logicalPath": "/upgrade/home_tech/060f/Super_Hog_Rider_info.png"
+    },
+    {
+      "name": "Super_Hog_Rider10.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/060f/Super_Hog_Rider10.png",
+      "alt": "所有等级",
+      "localPath": "/images/original/upgrade/home_tech/060f/Super_Hog_Rider10.webp",
+      "logicalPath": "/upgrade/home_tech/060f/Super_Hog_Rider10.png"
+    },
+    {
+      "name": "Super_Hog_info.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/060f/Super_Hog_info.png",
+      "alt": "超级野猪骑士",
+      "localPath": "/images/original/upgrade/home_tech/060f/Super_Hog_info.webp",
+      "logicalPath": "/upgrade/home_tech/060f/Super_Hog_info.png"
+    },
+    {
+      "name": "Super_Hog10.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/060f/Super_Hog10.png",
+      "alt": "所有等级",
+      "localPath": "/images/original/upgrade/home_tech/060f/Super_Hog10.webp",
+      "logicalPath": "/upgrade/home_tech/060f/Super_Hog10.png"
+    },
+    {
+      "name": "Super_Rider_info.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/060f/Super_Rider_info.png",
+      "alt": "超级野猪骑士",
+      "localPath": "/images/original/upgrade/home_tech/060f/Super_Rider_info.webp",
+      "logicalPath": "/upgrade/home_tech/060f/Super_Rider_info.png"
+    },
+    {
+      "name": "Super_Rider10.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/060f/Super_Rider10.png",
+      "alt": "所有等级",
+      "localPath": "/images/original/upgrade/home_tech/060f/Super_Rider10.webp",
+      "logicalPath": "/upgrade/home_tech/060f/Super_Rider10.png"
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-02-23",
+      "description": "Added the level 15 Super Hog Rider."
+    }
+  ],
+  "facts": [
+    "The Super Hog Rider is a Super Troop based on the Hog Rider. It can be unlocked by boosting the Hog Rider when the Hog Rider is at least level 10.",
+    "Boosting the Hog Rider requires 25,000 Dark Elixir or a Super Potion, and doing so allows the Hog Rider to be boosted for 3 days. The level of Super Hog Rider you obtain from the boost corresponds to the level of Hog Rider you have.",
+    "Because of the level requirements to boost Hog Riders into Super Hog Riders, players require a level 7 Clan Castle to hold one, even though space for it exists in Clan Castles as low as level 2."
+  ],
+  "notices": []
+}

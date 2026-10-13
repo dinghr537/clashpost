@@ -1,0 +1,606 @@
+{
+  "unitId": "0086-Bowler",
+  "title": "巨石投手",
+  "originalName": "Bowler",
+  "module": "upgrade-home",
+  "imgFolder": "home_tech/0086",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Bowler",
+    "revision": 625333,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Bowler?oldid=625333",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 2,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Preferred Target",
+        "Attack Type",
+        "Housing Space",
+        "Movement Speed",
+        "Attack Speed",
+        "Dark Barracks Level Required",
+        "Range"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "None",
+            "raw": "None"
+          },
+          {
+            "status": "known",
+            "value": "Area Splash",
+            "raw": "Area Splash"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          },
+          {
+            "status": "known",
+            "value": "2.2s",
+            "raw": "2.2s"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": "3 tiles from first target - can hit more",
+            "raw": "3 tiles from first target - can hit more"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 3,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Level",
+        "Damage per Second",
+        "Damage per Hit",
+        "Hitpoints",
+        "Research Cost",
+        "Research Time",
+        "Laboratory Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 60,
+            "raw": "60"
+          },
+          {
+            "status": "known",
+            "value": 132,
+            "raw": "132"
+          },
+          {
+            "status": "known",
+            "value": 325,
+            "raw": "325"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 72,
+            "raw": "72"
+          },
+          {
+            "status": "known",
+            "value": 158.4,
+            "raw": "158.4"
+          },
+          {
+            "status": "known",
+            "value": 375,
+            "raw": "375"
+          },
+          {
+            "status": "known",
+            "value": 32500,
+            "raw": "32,500"
+          },
+          {
+            "status": "known",
+            "value": 172800,
+            "raw": "2d",
+            "unit": "seconds",
+            "displayInput": "2,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 84,
+            "raw": "84"
+          },
+          {
+            "status": "known",
+            "value": 184.8,
+            "raw": "184.8"
+          },
+          {
+            "status": "known",
+            "value": 420,
+            "raw": "420"
+          },
+          {
+            "status": "known",
+            "value": 44000,
+            "raw": "44,000"
+          },
+          {
+            "status": "known",
+            "value": 216000,
+            "raw": "2d 12h",
+            "unit": "seconds",
+            "displayInput": "2,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 96,
+            "raw": "96"
+          },
+          {
+            "status": "known",
+            "value": 211.2,
+            "raw": "211.2"
+          },
+          {
+            "status": "known",
+            "value": 470,
+            "raw": "470"
+          },
+          {
+            "status": "known",
+            "value": 62500,
+            "raw": "62,500"
+          },
+          {
+            "status": "known",
+            "value": 259200,
+            "raw": "3d",
+            "unit": "seconds",
+            "displayInput": "3,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 102,
+            "raw": "102"
+          },
+          {
+            "status": "known",
+            "value": 224.4,
+            "raw": "224.4"
+          },
+          {
+            "status": "known",
+            "value": 505,
+            "raw": "505"
+          },
+          {
+            "status": "known",
+            "value": 85000,
+            "raw": "85,000"
+          },
+          {
+            "status": "known",
+            "value": 345600,
+            "raw": "4d",
+            "unit": "seconds",
+            "displayInput": "4,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 108,
+            "raw": "108"
+          },
+          {
+            "status": "known",
+            "value": 237.6,
+            "raw": "237.6"
+          },
+          {
+            "status": "known",
+            "value": 530,
+            "raw": "530"
+          },
+          {
+            "status": "known",
+            "value": 110000,
+            "raw": "110,000"
+          },
+          {
+            "status": "known",
+            "value": 518400,
+            "raw": "6d",
+            "unit": "seconds",
+            "displayInput": "6,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": 114,
+            "raw": "114"
+          },
+          {
+            "status": "known",
+            "value": 250.8,
+            "raw": "250.8"
+          },
+          {
+            "status": "known",
+            "value": 565,
+            "raw": "565"
+          },
+          {
+            "status": "known",
+            "value": 145000,
+            "raw": "145,000"
+          },
+          {
+            "status": "known",
+            "value": 604800,
+            "raw": "7d",
+            "unit": "seconds",
+            "displayInput": "7,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": 126,
+            "raw": "126"
+          },
+          {
+            "status": "known",
+            "value": 277.2,
+            "raw": "277.2"
+          },
+          {
+            "status": "known",
+            "value": 600,
+            "raw": "600"
+          },
+          {
+            "status": "known",
+            "value": 175000,
+            "raw": "175,000"
+          },
+          {
+            "status": "known",
+            "value": 648000,
+            "raw": "7d 12h",
+            "unit": "seconds",
+            "displayInput": "7,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          },
+          {
+            "status": "known",
+            "value": 140,
+            "raw": "140"
+          },
+          {
+            "status": "known",
+            "value": 308,
+            "raw": "308"
+          },
+          {
+            "status": "known",
+            "value": 700,
+            "raw": "700"
+          },
+          {
+            "status": "known",
+            "value": 260000,
+            "raw": "260,000"
+          },
+          {
+            "status": "known",
+            "value": 864000,
+            "raw": "10d",
+            "unit": "seconds",
+            "displayInput": "10,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 15,
+            "raw": "15"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 160,
+            "raw": "160"
+          },
+          {
+            "status": "known",
+            "value": 352,
+            "raw": "352"
+          },
+          {
+            "status": "known",
+            "value": 860,
+            "raw": "860"
+          },
+          {
+            "status": "known",
+            "value": 360000,
+            "raw": "360,000"
+          },
+          {
+            "status": "known",
+            "value": 1296000,
+            "raw": "15d",
+            "unit": "seconds",
+            "displayInput": "15,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 4,
+          "type": "cost",
+          "icon": "Dark_Elixir",
+          "gpClass": "research",
+          "noGoldPass": false
+        },
+        {
+          "column": 5,
+          "type": "time",
+          "gpClass": "research",
+          "noGoldPass": false
+        }
+      ]
+    },
+    {
+      "sourceTableIndex": 4,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Super Troop",
+        "Boost Cost",
+        "Bowler Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "Super Bowler",
+            "raw": "Super Bowler"
+          },
+          {
+            "status": "known",
+            "value": 25000,
+            "raw": "25,000"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 1,
+          "type": "cost",
+          "icon": "Dark_Elixir",
+          "gpClass": "research",
+          "noGoldPass": true
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "name": "Bowler_info.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0086/Bowler_info.png",
+      "alt": "巨石投手",
+      "localPath": "/images/original/upgrade/home_tech/0086/Bowler_info.webp",
+      "logicalPath": "/upgrade/home_tech/0086/Bowler_info.png"
+    },
+    {
+      "name": "Bowler1.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0086/Bowler1.png",
+      "alt": "1 - 2 级",
+      "localPath": "/images/original/upgrade/home_tech/0086/Bowler1.webp",
+      "logicalPath": "/upgrade/home_tech/0086/Bowler1.png"
+    },
+    {
+      "name": "Bowler3.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0086/Bowler3.png",
+      "alt": "3 级",
+      "localPath": "/images/original/upgrade/home_tech/0086/Bowler3.webp",
+      "logicalPath": "/upgrade/home_tech/0086/Bowler3.png"
+    },
+    {
+      "name": "Bowler4.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0086/Bowler4.png",
+      "alt": "4 级",
+      "localPath": "/images/original/upgrade/home_tech/0086/Bowler4.webp",
+      "logicalPath": "/upgrade/home_tech/0086/Bowler4.png"
+    },
+    {
+      "name": "Bowler5.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0086/Bowler5.png",
+      "alt": "5 级",
+      "localPath": "/images/original/upgrade/home_tech/0086/Bowler5.webp",
+      "logicalPath": "/upgrade/home_tech/0086/Bowler5.png"
+    },
+    {
+      "name": "Bowler6.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0086/Bowler6.png",
+      "alt": "6 级",
+      "localPath": "/images/original/upgrade/home_tech/0086/Bowler6.webp",
+      "logicalPath": "/upgrade/home_tech/0086/Bowler6.png"
+    },
+    {
+      "name": "Bowler7.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0086/Bowler7.png",
+      "alt": "7 级",
+      "localPath": "/images/original/upgrade/home_tech/0086/Bowler7.webp",
+      "logicalPath": "/upgrade/home_tech/0086/Bowler7.png"
+    },
+    {
+      "name": "Bowler8.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0086/Bowler8.png",
+      "alt": "8 级",
+      "localPath": "/images/original/upgrade/home_tech/0086/Bowler8.webp",
+      "logicalPath": "/upgrade/home_tech/0086/Bowler8.png"
+    },
+    {
+      "name": "Bowler9.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0086/Bowler9.png",
+      "alt": "9 级",
+      "localPath": "/images/original/upgrade/home_tech/0086/Bowler9.webp",
+      "logicalPath": "/upgrade/home_tech/0086/Bowler9.png"
+    },
+    {
+      "name": "Bowler10.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0086/Bowler10.png",
+      "alt": "10 级",
+      "localPath": "/images/original/upgrade/home_tech/0086/Bowler10.webp",
+      "logicalPath": "/upgrade/home_tech/0086/Bowler10.png"
+    }
+  ],
+  "history": [],
+  "facts": [
+    "The Bowler is the seventh Dark Elixir troop that is unlocked at Dark Barracks level 7, which requies Town Hall level 10."
+  ],
+  "notices": []
+}

@@ -1,0 +1,414 @@
+{
+  "unitId": "000f-Electro-Titan",
+  "title": "雷霆泰坦",
+  "originalName": "Electro Titan",
+  "module": "upgrade-home",
+  "imgFolder": "home_tech/000f",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Electro_Titan",
+    "revision": 624602,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Electro_Titan?oldid=624602",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 2,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Preferred Target",
+        "Attack Type",
+        "Housing Space",
+        "Movement Speed",
+        "Attack Speed",
+        "Aura Attack Speed",
+        "Range",
+        "Aura Radius",
+        "Barracks Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "None",
+            "raw": "None"
+          },
+          {
+            "status": "known",
+            "value": "Ranged (Ground & Air)",
+            "raw": "Ranged (Ground & Air)"
+          },
+          {
+            "status": "known",
+            "value": 32,
+            "raw": "32"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          },
+          {
+            "status": "known",
+            "value": "1.5s",
+            "raw": "1.5s"
+          },
+          {
+            "status": "known",
+            "value": "0.4s",
+            "raw": "0.4s"
+          },
+          {
+            "status": "known",
+            "value": "1.25 tiles",
+            "raw": "1.25 tiles"
+          },
+          {
+            "status": "known",
+            "value": "3.5 tiles",
+            "raw": "3.5 tiles"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 3,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Level",
+        "Damage per Second",
+        "Damage per Hit",
+        "Aura Damage per Second",
+        "Aura Damage per Hit",
+        "Hitpoints",
+        "Research Cost",
+        "Research Time",
+        "Laboratory Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 180,
+            "raw": "180"
+          },
+          {
+            "status": "known",
+            "value": 270,
+            "raw": "270"
+          },
+          {
+            "status": "known",
+            "value": 75,
+            "raw": "75"
+          },
+          {
+            "status": "known",
+            "value": 30,
+            "raw": "30"
+          },
+          {
+            "status": "known",
+            "value": 7200,
+            "raw": "7,200"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 200,
+            "raw": "200"
+          },
+          {
+            "status": "known",
+            "value": 300,
+            "raw": "300"
+          },
+          {
+            "status": "known",
+            "value": 100,
+            "raw": "100"
+          },
+          {
+            "status": "known",
+            "value": 40,
+            "raw": "40"
+          },
+          {
+            "status": "known",
+            "value": 7700,
+            "raw": "7,700"
+          },
+          {
+            "status": "known",
+            "value": 14000000,
+            "raw": "14,000,000"
+          },
+          {
+            "status": "known",
+            "value": 691200,
+            "raw": "8d",
+            "unit": "seconds",
+            "displayInput": "8,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 220,
+            "raw": "220"
+          },
+          {
+            "status": "known",
+            "value": 330,
+            "raw": "330"
+          },
+          {
+            "status": "known",
+            "value": 125,
+            "raw": "125"
+          },
+          {
+            "status": "known",
+            "value": 50,
+            "raw": "50"
+          },
+          {
+            "status": "known",
+            "value": 8200,
+            "raw": "8,200"
+          },
+          {
+            "status": "known",
+            "value": 16000000,
+            "raw": "16,000,000"
+          },
+          {
+            "status": "known",
+            "value": 777600,
+            "raw": "9d",
+            "unit": "seconds",
+            "displayInput": "9,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 240,
+            "raw": "240"
+          },
+          {
+            "status": "known",
+            "value": 360,
+            "raw": "360"
+          },
+          {
+            "status": "known",
+            "value": 137.5,
+            "raw": "137.5"
+          },
+          {
+            "status": "known",
+            "value": 55,
+            "raw": "55"
+          },
+          {
+            "status": "known",
+            "value": 8700,
+            "raw": "8,700"
+          },
+          {
+            "status": "known",
+            "value": 18500000,
+            "raw": "18,500,000"
+          },
+          {
+            "status": "known",
+            "value": 950400,
+            "raw": "11d",
+            "unit": "seconds",
+            "displayInput": "11,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 270,
+            "raw": "270"
+          },
+          {
+            "status": "known",
+            "value": 405,
+            "raw": "405"
+          },
+          {
+            "status": "known",
+            "value": 150,
+            "raw": "150"
+          },
+          {
+            "status": "known",
+            "value": 60,
+            "raw": "60"
+          },
+          {
+            "status": "known",
+            "value": 9200,
+            "raw": "9,200"
+          },
+          {
+            "status": "known",
+            "value": 30000000,
+            "raw": "30,000,000"
+          },
+          {
+            "status": "known",
+            "value": 1382400,
+            "raw": "16d",
+            "unit": "seconds",
+            "displayInput": "16,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 6,
+          "type": "cost",
+          "icon": "Elixir",
+          "gpClass": "research",
+          "noGoldPass": false
+        },
+        {
+          "column": 7,
+          "type": "time",
+          "gpClass": "research",
+          "noGoldPass": false
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "name": "Electro_Titan_info.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/000f/Electro_Titan_info.png",
+      "alt": "雷霆泰坦",
+      "localPath": "/images/original/upgrade/home_tech/000f/Electro_Titan_info.webp",
+      "logicalPath": "/upgrade/home_tech/000f/Electro_Titan_info.png"
+    },
+    {
+      "name": "Electro_Titan1.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/000f/Electro_Titan1.png",
+      "alt": "1 级",
+      "localPath": "/images/original/upgrade/home_tech/000f/Electro_Titan1.webp",
+      "logicalPath": "/upgrade/home_tech/000f/Electro_Titan1.png"
+    },
+    {
+      "name": "Electro_Titan2.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/000f/Electro_Titan2.png",
+      "alt": "2 级",
+      "localPath": "/images/original/upgrade/home_tech/000f/Electro_Titan2.webp",
+      "logicalPath": "/upgrade/home_tech/000f/Electro_Titan2.png"
+    },
+    {
+      "name": "Electro_Titan3.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/000f/Electro_Titan3.png",
+      "alt": "3 级",
+      "localPath": "/images/original/upgrade/home_tech/000f/Electro_Titan3.webp",
+      "logicalPath": "/upgrade/home_tech/000f/Electro_Titan3.png"
+    },
+    {
+      "name": "Electro_Titan4.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/000f/Electro_Titan4.png",
+      "alt": "4 级",
+      "localPath": "/images/original/upgrade/home_tech/000f/Electro_Titan4.webp",
+      "logicalPath": "/upgrade/home_tech/000f/Electro_Titan4.png"
+    },
+    {
+      "name": "Electro_Titan5.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/000f/Electro_Titan5.png",
+      "alt": "5 级",
+      "localPath": "/images/original/upgrade/home_tech/000f/Electro_Titan5.webp",
+      "logicalPath": "/upgrade/home_tech/000f/Electro_Titan5.png"
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-02-23",
+      "description": "Added the level 5 Electro Titan. Electro Titan5"
+    }
+  ],
+  "facts": [
+    "The Electro Titan is the sixteenth Elixir Troop unlocked at Barracks level 16, which requires Town Hall 14."
+  ],
+  "notices": []
+}

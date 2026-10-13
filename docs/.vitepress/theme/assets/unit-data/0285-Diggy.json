@@ -1,0 +1,796 @@
+{
+  "unitId": "0285-Diggy",
+  "title": "地兽",
+  "originalName": "Diggy",
+  "module": "upgrade-home",
+  "imgFolder": "home_heroes/0285",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Diggy",
+    "revision": 625147,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Diggy?oldid=625147",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 3,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Preferred Target",
+        "Targets",
+        "Attack Type",
+        "Movement Speed",
+        "Attack Speed",
+        "Pet House Level Required",
+        "Range",
+        "Special Ability"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "Hero's Target",
+            "raw": "Hero's Target"
+          },
+          {
+            "status": "known",
+            "value": "Ground",
+            "raw": "Ground"
+          },
+          {
+            "status": "known",
+            "value": "Single Target",
+            "raw": "Single Target"
+          },
+          {
+            "status": "known",
+            "value": 32,
+            "raw": "32"
+          },
+          {
+            "status": "known",
+            "value": "1.1s",
+            "raw": "1.1s"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": "0.8 tiles",
+            "raw": "0.8 tiles"
+          },
+          {
+            "status": "known",
+            "value": "Stunning Surprise",
+            "raw": "Stunning Surprise"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 4,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Level",
+        "Damage per Second",
+        "Damage per Hit",
+        "Stun Duration",
+        "Hitpoints",
+        "Upgrade Cost",
+        "Upgrade Time",
+        "Pet House Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 105,
+            "raw": "105"
+          },
+          {
+            "status": "known",
+            "value": 115.5,
+            "raw": "115.5"
+          },
+          {
+            "status": "known",
+            "value": "2s",
+            "raw": "2s"
+          },
+          {
+            "status": "known",
+            "value": 3650,
+            "raw": "3,650"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 110,
+            "raw": "110"
+          },
+          {
+            "status": "known",
+            "value": 121,
+            "raw": "121"
+          },
+          {
+            "status": "known",
+            "value": "2s",
+            "raw": "2s"
+          },
+          {
+            "status": "known",
+            "value": 3800,
+            "raw": "3,800"
+          },
+          {
+            "status": "known",
+            "value": 90000,
+            "raw": "90,000"
+          },
+          {
+            "status": "known",
+            "value": 129600,
+            "raw": "1d 12h",
+            "unit": "seconds",
+            "displayInput": "1,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 115,
+            "raw": "115"
+          },
+          {
+            "status": "known",
+            "value": 126.5,
+            "raw": "126.5"
+          },
+          {
+            "status": "known",
+            "value": "2s",
+            "raw": "2s"
+          },
+          {
+            "status": "known",
+            "value": 3950,
+            "raw": "3,950"
+          },
+          {
+            "status": "known",
+            "value": 105000,
+            "raw": "105,000"
+          },
+          {
+            "status": "known",
+            "value": 172800,
+            "raw": "2d",
+            "unit": "seconds",
+            "displayInput": "2,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 120,
+            "raw": "120"
+          },
+          {
+            "status": "known",
+            "value": 132,
+            "raw": "132"
+          },
+          {
+            "status": "known",
+            "value": "2s",
+            "raw": "2s"
+          },
+          {
+            "status": "known",
+            "value": 4100,
+            "raw": "4,100"
+          },
+          {
+            "status": "known",
+            "value": 120000,
+            "raw": "120,000"
+          },
+          {
+            "status": "known",
+            "value": 259200,
+            "raw": "3d",
+            "unit": "seconds",
+            "displayInput": "3,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 125,
+            "raw": "125"
+          },
+          {
+            "status": "known",
+            "value": 137.5,
+            "raw": "137.5"
+          },
+          {
+            "status": "known",
+            "value": "2.5s",
+            "raw": "2.5s"
+          },
+          {
+            "status": "known",
+            "value": 4250,
+            "raw": "4,250"
+          },
+          {
+            "status": "known",
+            "value": 130000,
+            "raw": "130,000"
+          },
+          {
+            "status": "known",
+            "value": 345600,
+            "raw": "4d",
+            "unit": "seconds",
+            "displayInput": "4,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 130,
+            "raw": "130"
+          },
+          {
+            "status": "known",
+            "value": 143,
+            "raw": "143"
+          },
+          {
+            "status": "known",
+            "value": "2.5s",
+            "raw": "2.5s"
+          },
+          {
+            "status": "known",
+            "value": 4400,
+            "raw": "4,400"
+          },
+          {
+            "status": "known",
+            "value": 140000,
+            "raw": "140,000"
+          },
+          {
+            "status": "known",
+            "value": 388800,
+            "raw": "4d 12h",
+            "unit": "seconds",
+            "displayInput": "4,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": 135,
+            "raw": "135"
+          },
+          {
+            "status": "known",
+            "value": 148.5,
+            "raw": "148.5"
+          },
+          {
+            "status": "known",
+            "value": "2.5s",
+            "raw": "2.5s"
+          },
+          {
+            "status": "known",
+            "value": 4550,
+            "raw": "4,550"
+          },
+          {
+            "status": "known",
+            "value": 150000,
+            "raw": "150,000"
+          },
+          {
+            "status": "known",
+            "value": 432000,
+            "raw": "5d",
+            "unit": "seconds",
+            "displayInput": "5,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": 140,
+            "raw": "140"
+          },
+          {
+            "status": "known",
+            "value": 154,
+            "raw": "154"
+          },
+          {
+            "status": "known",
+            "value": "2.5s",
+            "raw": "2.5s"
+          },
+          {
+            "status": "known",
+            "value": 4700,
+            "raw": "4,700"
+          },
+          {
+            "status": "known",
+            "value": 160000,
+            "raw": "160,000"
+          },
+          {
+            "status": "known",
+            "value": 475200,
+            "raw": "5d 12h",
+            "unit": "seconds",
+            "displayInput": "5,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          },
+          {
+            "status": "known",
+            "value": 145,
+            "raw": "145"
+          },
+          {
+            "status": "known",
+            "value": 159.5,
+            "raw": "159.5"
+          },
+          {
+            "status": "known",
+            "value": "2.5s",
+            "raw": "2.5s"
+          },
+          {
+            "status": "known",
+            "value": 4850,
+            "raw": "4,850"
+          },
+          {
+            "status": "known",
+            "value": 170000,
+            "raw": "170,000"
+          },
+          {
+            "status": "known",
+            "value": 518400,
+            "raw": "6d",
+            "unit": "seconds",
+            "displayInput": "6,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 150,
+            "raw": "150"
+          },
+          {
+            "status": "known",
+            "value": 165,
+            "raw": "165"
+          },
+          {
+            "status": "known",
+            "value": "3s",
+            "raw": "3s"
+          },
+          {
+            "status": "known",
+            "value": 5000,
+            "raw": "5,000"
+          },
+          {
+            "status": "known",
+            "value": 180000,
+            "raw": "180,000"
+          },
+          {
+            "status": "known",
+            "value": 561600,
+            "raw": "6d 12h",
+            "unit": "seconds",
+            "displayInput": "6,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          },
+          {
+            "status": "known",
+            "value": 155,
+            "raw": "155"
+          },
+          {
+            "status": "known",
+            "value": 170.5,
+            "raw": "170.5"
+          },
+          {
+            "status": "known",
+            "value": "3s",
+            "raw": "3s"
+          },
+          {
+            "status": "known",
+            "value": 5150,
+            "raw": "5,150"
+          },
+          {
+            "status": "known",
+            "value": 220000,
+            "raw": "220,000"
+          },
+          {
+            "status": "known",
+            "value": 604800,
+            "raw": "7d",
+            "unit": "seconds",
+            "displayInput": "7,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          },
+          {
+            "status": "known",
+            "value": 160,
+            "raw": "160"
+          },
+          {
+            "status": "known",
+            "value": 176,
+            "raw": "176"
+          },
+          {
+            "status": "known",
+            "value": "3s",
+            "raw": "3s"
+          },
+          {
+            "status": "known",
+            "value": 5300,
+            "raw": "5,300"
+          },
+          {
+            "status": "known",
+            "value": 250000,
+            "raw": "250,000"
+          },
+          {
+            "status": "known",
+            "value": 648000,
+            "raw": "7d 12h",
+            "unit": "seconds",
+            "displayInput": "7,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          },
+          {
+            "status": "known",
+            "value": 165,
+            "raw": "165"
+          },
+          {
+            "status": "known",
+            "value": 181.5,
+            "raw": "181.5"
+          },
+          {
+            "status": "known",
+            "value": "3s",
+            "raw": "3s"
+          },
+          {
+            "status": "known",
+            "value": 5450,
+            "raw": "5,450"
+          },
+          {
+            "status": "known",
+            "value": 280000,
+            "raw": "280,000"
+          },
+          {
+            "status": "known",
+            "value": 691200,
+            "raw": "8d",
+            "unit": "seconds",
+            "displayInput": "8,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          },
+          {
+            "status": "known",
+            "value": 170,
+            "raw": "170"
+          },
+          {
+            "status": "known",
+            "value": 187,
+            "raw": "187"
+          },
+          {
+            "status": "known",
+            "value": "3s",
+            "raw": "3s"
+          },
+          {
+            "status": "known",
+            "value": 5600,
+            "raw": "5,600"
+          },
+          {
+            "status": "known",
+            "value": 310000,
+            "raw": "310,000"
+          },
+          {
+            "status": "known",
+            "value": 691200,
+            "raw": "8d",
+            "unit": "seconds",
+            "displayInput": "8,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 15,
+            "raw": "15"
+          },
+          {
+            "status": "known",
+            "value": 175,
+            "raw": "175"
+          },
+          {
+            "status": "known",
+            "value": 192.5,
+            "raw": "192.5"
+          },
+          {
+            "status": "known",
+            "value": "3.5s",
+            "raw": "3.5s"
+          },
+          {
+            "status": "known",
+            "value": 5750,
+            "raw": "5,750"
+          },
+          {
+            "status": "known",
+            "value": 350000,
+            "raw": "350,000"
+          },
+          {
+            "status": "known",
+            "value": 691200,
+            "raw": "8d",
+            "unit": "seconds",
+            "displayInput": "8,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 5,
+          "type": "cost",
+          "icon": "Dark_Elixir",
+          "gpClass": "research",
+          "noGoldPass": false
+        },
+        {
+          "column": 6,
+          "type": "time",
+          "gpClass": "research",
+          "noGoldPass": false
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "name": "Diggy_info.png",
+      "url": "https://static.clashpost.com/upgrade/home_heroes/0285/Diggy_info.png",
+      "alt": "地兽",
+      "localPath": "/images/original/upgrade/home_heroes/0285/Diggy_info.webp",
+      "logicalPath": "/upgrade/home_heroes/0285/Diggy_info.png"
+    },
+    {
+      "name": "Diggy_field.png",
+      "url": "https://static.clashpost.com/upgrade/home_heroes/0285/Diggy_field.png",
+      "alt": "所有等级",
+      "localPath": "/images/original/upgrade/home_heroes/0285/Diggy_field.webp",
+      "logicalPath": "/upgrade/home_heroes/0285/Diggy_field.png"
+    },
+    {
+      "name": "Diggy_info_2.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/7/7e/Diggy_info_2.png/revision/latest/scale-to-width-down/185?cb=20221012064335",
+      "alt": "",
+      "localPath": "/images/wiki/0285-Diggy/f44ff28f84-Diggy_info_2.png",
+      "logicalPath": "/upgrade/home_heroes/0285/Diggy_info_2.png"
+    }
+  ],
+  "history": [],
+  "facts": [
+    "Diggy is the sixth pet unlocked, which is done when the Pet House is upgraded to level 6 (this requires Town Hall level 15)."
+  ],
+  "notices": []
+}

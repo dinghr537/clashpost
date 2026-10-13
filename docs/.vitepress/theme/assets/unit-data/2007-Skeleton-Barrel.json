@@ -1,0 +1,236 @@
+{
+  "unitId": "2007-Skeleton-Barrel",
+  "title": "骷髅飞桶",
+  "originalName": "Skeleton Barrel/Clan Capital",
+  "module": "upgrade-capital",
+  "imgFolder": "capital_tech/2007",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Skeleton_Barrel/Clan_Capital",
+    "revision": 617387,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Skeleton_Barrel/Clan_Capital?oldid=617387",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 2,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Squad Housing Space",
+        "Units Deployed"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 15,
+            "raw": "15"
+          },
+          {
+            "status": "known",
+            "value": "Skeleton Barrel x3",
+            "raw": "Skeleton Barrel x3"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 3,
+      "section": "Statistics",
+      "title": "Skeleton Barrel",
+      "headers": [
+        "Preferred Target",
+        "Attack Type",
+        "Housing Space",
+        "Movement Speed",
+        "Range"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "Defenses",
+            "raw": "Defenses"
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": "Melee (Ground Only) Splash - ? tiles"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": "?"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 4,
+      "section": "Statistics",
+      "title": "Skeleton Barrel",
+      "headers": [
+        "Level",
+        "Damage",
+        "Spawned Skeletons",
+        "Hitpoints"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 324,
+            "raw": "324"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": 700,
+            "raw": "700"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 486,
+            "raw": "486"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          },
+          {
+            "status": "known",
+            "value": 800,
+            "raw": "800"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 594,
+            "raw": "594"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 850,
+            "raw": "850"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 708,
+            "raw": "708"
+          },
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          },
+          {
+            "status": "known",
+            "value": 1050,
+            "raw": "1,050"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 768,
+            "raw": "768"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          },
+          {
+            "status": "known",
+            "value": 1200,
+            "raw": "1,200"
+          }
+        ]
+      ],
+      "extraInfo": []
+    }
+  ],
+  "images": [
+    {
+      "name": "Skeleton_Barrel_info.png",
+      "url": "https://static.clashpost.com/upgrade/capital_tech/2007/Skeleton_Barrel_info.png",
+      "alt": "骷髅飞桶",
+      "localPath": "/images/original/upgrade/capital_tech/2007/Skeleton_Barrel_info.webp",
+      "logicalPath": "/upgrade/capital_tech/2007/Skeleton_Barrel_info.png"
+    },
+    {
+      "name": "Skeleton_Barrel1.png",
+      "url": "https://static.clashpost.com/upgrade/capital_tech/2007/Skeleton_Barrel1.png",
+      "alt": "所有等级",
+      "localPath": "/images/original/upgrade/capital_tech/2007/Skeleton_Barrel1.webp",
+      "logicalPath": "/upgrade/capital_tech/2007/Skeleton_Barrel1.png"
+    },
+    {
+      "name": "Skeleton_Barrels1.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e5/Skeleton_Barrels1.png/revision/latest/scale-to-width-down/120?cb=20251010153309",
+      "alt": "Skeleton Barrels1",
+      "localPath": "/images/wiki/2007-Skeleton-Barrel/758404ec5e-Skeleton_Barrels1.png",
+      "logicalPath": "/upgrade/capital_tech/2007/Skeleton_Barrels1.png"
+    }
+  ],
+  "history": [],
+  "facts": [
+    "Skeleton Barrels are troops available in the Clan Capital, available when the Skeleton Barrel Barracks is constructed (this requires the Balloon Lagoon district to be unlocked, and consequently requires the Capital Hall to be upgraded to level 4)."
+  ],
+  "notices": []
+}

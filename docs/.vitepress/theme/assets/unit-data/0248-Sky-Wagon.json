@@ -1,0 +1,486 @@
+{
+  "unitId": "0248-Sky-Wagon",
+  "title": "空中战车",
+  "originalName": "Sky Wagon",
+  "module": "upgrade-home",
+  "imgFolder": "home_tech/0248",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Sky_Wagon",
+    "revision": 624686,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Sky_Wagon?oldid=624686",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 2,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Range",
+        "Housing Space",
+        "Movement Speed",
+        "Attack Speed",
+        "Workshop Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "5.5 tiles",
+            "raw": "5.5 tiles"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          },
+          {
+            "status": "known",
+            "value": "8s",
+            "raw": "8s"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 3,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Level",
+        "Damage per Second",
+        "Damage per Hit",
+        "Hitpoints",
+        "Barrel Count",
+        "Research Cost",
+        "Research Time",
+        "Laboratory Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": 3600,
+            "raw": "3,600"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          },
+          {
+            "status": "known",
+            "value": 3800,
+            "raw": "3,800"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 22000000,
+            "raw": "22,000,000"
+          },
+          {
+            "status": "known",
+            "value": 864000,
+            "raw": "10d",
+            "unit": "seconds",
+            "displayInput": "10,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 15,
+            "raw": "15"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 24,
+            "raw": "24"
+          },
+          {
+            "status": "known",
+            "value": 4000,
+            "raw": "4,000"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 26000000,
+            "raw": "26,000,000"
+          },
+          {
+            "status": "known",
+            "value": 1166400,
+            "raw": "13d 12h",
+            "unit": "seconds",
+            "displayInput": "13,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 32,
+            "raw": "32"
+          },
+          {
+            "status": "known",
+            "value": 4200,
+            "raw": "4,200"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 29000000,
+            "raw": "29,000,000"
+          },
+          {
+            "status": "known",
+            "value": 1382400,
+            "raw": "16d",
+            "unit": "seconds",
+            "displayInput": "16,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 5,
+          "type": "cost",
+          "icon": "Elixir",
+          "gpClass": "research",
+          "noGoldPass": false
+        },
+        {
+          "column": 6,
+          "type": "time",
+          "gpClass": "research",
+          "noGoldPass": false
+        }
+      ]
+    },
+    {
+      "sourceTableIndex": 4,
+      "section": "Statistics",
+      "title": "Troops Barrel",
+      "headers": [
+        "Level",
+        "Troops Spawned / Minions",
+        "Troops Spawned / Balloon",
+        "Troops Spawned / Baby Dragon",
+        "Troop Levels / Minions",
+        "Troop Levels / Balloon",
+        "Troop Levels / Baby Dragon"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          },
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          },
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          }
+        ]
+      ],
+      "extraInfo": []
+    }
+  ],
+  "images": [
+    {
+      "name": "Sky_Wagon_info.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0248/Sky_Wagon_info.png",
+      "alt": "空中战车",
+      "localPath": "/images/original/upgrade/home_tech/0248/Sky_Wagon_info.webp",
+      "logicalPath": "/upgrade/home_tech/0248/Sky_Wagon_info.png"
+    },
+    {
+      "name": "Sky_Wagon1.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0248/Sky_Wagon1.png",
+      "alt": "1 级",
+      "localPath": "/images/original/upgrade/home_tech/0248/Sky_Wagon1.webp",
+      "logicalPath": "/upgrade/home_tech/0248/Sky_Wagon1.png"
+    },
+    {
+      "name": "Sky_Wagon2.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0248/Sky_Wagon2.png",
+      "alt": "2 级",
+      "localPath": "/images/original/upgrade/home_tech/0248/Sky_Wagon2.webp",
+      "logicalPath": "/upgrade/home_tech/0248/Sky_Wagon2.png"
+    },
+    {
+      "name": "Sky_Wagon3.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0248/Sky_Wagon3.png",
+      "alt": "3 级",
+      "localPath": "/images/original/upgrade/home_tech/0248/Sky_Wagon3.webp",
+      "logicalPath": "/upgrade/home_tech/0248/Sky_Wagon3.png"
+    },
+    {
+      "name": "Sky_Wagon4.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0248/Sky_Wagon4.png",
+      "alt": "4 级",
+      "localPath": "/images/original/upgrade/home_tech/0248/Sky_Wagon4.webp",
+      "logicalPath": "/upgrade/home_tech/0248/Sky_Wagon4.png"
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-04-26",
+      "description": "Announced the Sky Wagon, with four levels. Sky Wagon1 Sky Wagon2 Sky Wagon3 Sky Wagon4"
+    },
+    {
+      "date": "2026-04-27",
+      "description": "Added the Sky Wagon."
+    },
+    {
+      "date": "2026-05-26",
+      "description": "Decreased barrel count at all levels: Level 1-2: 5 -> 4 Number Level 3-4: 6 -> 5 Number Decreased troop levels at all levels: Level 1: Minion: 11 -> 10 Level Balloon: 10 -> 9 Level Baby Dragon: 9 -> 8 Level Level 2: Minion: 12 -> 11 Level Balloon: 11 -> 10 Level Baby Dragon: 10 -> 9 Level Level 3: Minion: 13 -> 12 Level Balloon: 12 -> 11 Level Baby Dragon: 11 -> 10 Level Level 4: Minion: 14 -> 13 Level Balloon: 13 -> 12 Level Baby Dragon: 12 -> 11 Level Decreased spawned Minions at all levels: Level 1: 3 -> 2 Summon Capacity Level 2: 4 -> 3 Summon Capacity Level 3-4: 5 -> 4 Summon Capacity"
+    }
+  ],
+  "facts": [
+    "The Sky Wagon is the ninth Siege Machine unlocked at Workshop level 9, which requires Town Hall level 17."
+  ],
+  "notices": []
+}

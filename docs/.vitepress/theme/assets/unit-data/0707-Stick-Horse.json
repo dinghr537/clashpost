@@ -1,0 +1,1485 @@
+{
+  "unitId": "0707-Stick-Horse",
+  "title": "木棍马驹",
+  "originalName": "Stick Horse",
+  "module": "upgrade-home",
+  "imgFolder": "home_heroes/0707",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Stick_Horse",
+    "revision": 622735,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Stick_Horse?oldid=622735",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 3,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Level",
+        "Ability Attributes / Ability Duration",
+        "Ability Attributes / Movement Speed Increase",
+        "Ability Attributes / Attack Speed Increase",
+        "Hero Boost / Damage per Second Increase",
+        "Hero Boost / Hitpoint Increase",
+        "Upgrade Cost / Shiny Ore",
+        "Upgrade Cost / Glowy Ore",
+        "Upgrade Cost / Starry Ore",
+        "Blacksmith Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": "12s",
+            "raw": "12s"
+          },
+          {
+            "status": "known",
+            "value": 9.5,
+            "raw": "9.5"
+          },
+          {
+            "status": "known",
+            "value": "+2%",
+            "raw": "+2%"
+          },
+          {
+            "status": "known",
+            "value": 35,
+            "raw": "35"
+          },
+          {
+            "status": "known",
+            "value": 311,
+            "raw": "311"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": "12s",
+            "raw": "12s"
+          },
+          {
+            "status": "known",
+            "value": 9.5,
+            "raw": "9.5"
+          },
+          {
+            "status": "known",
+            "value": "+2%",
+            "raw": "+2%"
+          },
+          {
+            "status": "known",
+            "value": 38,
+            "raw": "38"
+          },
+          {
+            "status": "known",
+            "value": 482,
+            "raw": "482"
+          },
+          {
+            "status": "known",
+            "value": 120,
+            "raw": "120"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": "14s",
+            "raw": "14s"
+          },
+          {
+            "status": "known",
+            "value": 11.1,
+            "raw": "11.1"
+          },
+          {
+            "status": "known",
+            "value": "+5%",
+            "raw": "+5%"
+          },
+          {
+            "status": "known",
+            "value": 42,
+            "raw": "42"
+          },
+          {
+            "status": "known",
+            "value": 653,
+            "raw": "653"
+          },
+          {
+            "status": "known",
+            "value": 240,
+            "raw": "240"
+          },
+          {
+            "status": "known",
+            "value": 20,
+            "raw": "20"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": "14s",
+            "raw": "14s"
+          },
+          {
+            "status": "known",
+            "value": 11.1,
+            "raw": "11.1"
+          },
+          {
+            "status": "known",
+            "value": "+5%",
+            "raw": "+5%"
+          },
+          {
+            "status": "known",
+            "value": 45,
+            "raw": "45"
+          },
+          {
+            "status": "known",
+            "value": 824,
+            "raw": "824"
+          },
+          {
+            "status": "known",
+            "value": 400,
+            "raw": "400"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": "14s",
+            "raw": "14s"
+          },
+          {
+            "status": "known",
+            "value": 11.1,
+            "raw": "11.1"
+          },
+          {
+            "status": "known",
+            "value": "+5%",
+            "raw": "+5%"
+          },
+          {
+            "status": "known",
+            "value": 49,
+            "raw": "49"
+          },
+          {
+            "status": "known",
+            "value": 994,
+            "raw": "994"
+          },
+          {
+            "status": "known",
+            "value": 600,
+            "raw": "600"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": "16s",
+            "raw": "16s"
+          },
+          {
+            "status": "known",
+            "value": 12.7,
+            "raw": "12.7"
+          },
+          {
+            "status": "known",
+            "value": "+8%",
+            "raw": "+8%"
+          },
+          {
+            "status": "known",
+            "value": 52,
+            "raw": "52"
+          },
+          {
+            "status": "known",
+            "value": 1165,
+            "raw": "1,165"
+          },
+          {
+            "status": "known",
+            "value": 840,
+            "raw": "840"
+          },
+          {
+            "status": "known",
+            "value": 100,
+            "raw": "100"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": "16s",
+            "raw": "16s"
+          },
+          {
+            "status": "known",
+            "value": 12.7,
+            "raw": "12.7"
+          },
+          {
+            "status": "known",
+            "value": "+8%",
+            "raw": "+8%"
+          },
+          {
+            "status": "known",
+            "value": 55,
+            "raw": "55"
+          },
+          {
+            "status": "known",
+            "value": 1336,
+            "raw": "1,336"
+          },
+          {
+            "status": "known",
+            "value": 1120,
+            "raw": "1,120"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": "16s",
+            "raw": "16s"
+          },
+          {
+            "status": "known",
+            "value": 12.7,
+            "raw": "12.7"
+          },
+          {
+            "status": "known",
+            "value": "+8%",
+            "raw": "+8%"
+          },
+          {
+            "status": "known",
+            "value": 58,
+            "raw": "58"
+          },
+          {
+            "status": "known",
+            "value": 1507,
+            "raw": "1,507"
+          },
+          {
+            "status": "known",
+            "value": 1440,
+            "raw": "1,440"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          },
+          {
+            "status": "known",
+            "value": "18s",
+            "raw": "18s"
+          },
+          {
+            "status": "known",
+            "value": 14.3,
+            "raw": "14.3"
+          },
+          {
+            "status": "known",
+            "value": "+11%",
+            "raw": "+11%"
+          },
+          {
+            "status": "known",
+            "value": 65,
+            "raw": "65"
+          },
+          {
+            "status": "known",
+            "value": 1678,
+            "raw": "1,678"
+          },
+          {
+            "status": "known",
+            "value": 1800,
+            "raw": "1,800"
+          },
+          {
+            "status": "known",
+            "value": 200,
+            "raw": "200"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": "18s",
+            "raw": "18s"
+          },
+          {
+            "status": "known",
+            "value": 14.3,
+            "raw": "14.3"
+          },
+          {
+            "status": "known",
+            "value": "+11%",
+            "raw": "+11%"
+          },
+          {
+            "status": "known",
+            "value": 76,
+            "raw": "76"
+          },
+          {
+            "status": "known",
+            "value": 1849,
+            "raw": "1,849"
+          },
+          {
+            "status": "known",
+            "value": 1900,
+            "raw": "1,900"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          },
+          {
+            "status": "known",
+            "value": "18s",
+            "raw": "18s"
+          },
+          {
+            "status": "known",
+            "value": 14.3,
+            "raw": "14.3"
+          },
+          {
+            "status": "known",
+            "value": "+11%",
+            "raw": "+11%"
+          },
+          {
+            "status": "known",
+            "value": 88,
+            "raw": "88"
+          },
+          {
+            "status": "known",
+            "value": 2020,
+            "raw": "2,020"
+          },
+          {
+            "status": "known",
+            "value": 2000,
+            "raw": "2,000"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          },
+          {
+            "status": "known",
+            "value": "20s",
+            "raw": "20s"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          },
+          {
+            "status": "known",
+            "value": "+14%",
+            "raw": "+14%"
+          },
+          {
+            "status": "known",
+            "value": 101,
+            "raw": "101"
+          },
+          {
+            "status": "known",
+            "value": 2191,
+            "raw": "2,191"
+          },
+          {
+            "status": "known",
+            "value": 2100,
+            "raw": "2,100"
+          },
+          {
+            "status": "known",
+            "value": 400,
+            "raw": "400"
+          },
+          {
+            "status": "known",
+            "value": 20,
+            "raw": "20"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          },
+          {
+            "status": "known",
+            "value": "20s",
+            "raw": "20s"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          },
+          {
+            "status": "known",
+            "value": "+14%",
+            "raw": "+14%"
+          },
+          {
+            "status": "known",
+            "value": 112,
+            "raw": "112"
+          },
+          {
+            "status": "known",
+            "value": 2361,
+            "raw": "2,361"
+          },
+          {
+            "status": "known",
+            "value": 2200,
+            "raw": "2,200"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          },
+          {
+            "status": "known",
+            "value": "20s",
+            "raw": "20s"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          },
+          {
+            "status": "known",
+            "value": "+14%",
+            "raw": "+14%"
+          },
+          {
+            "status": "known",
+            "value": 124,
+            "raw": "124"
+          },
+          {
+            "status": "known",
+            "value": 2532,
+            "raw": "2,532"
+          },
+          {
+            "status": "known",
+            "value": 2300,
+            "raw": "2,300"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 15,
+            "raw": "15"
+          },
+          {
+            "status": "known",
+            "value": "22s",
+            "raw": "22s"
+          },
+          {
+            "status": "known",
+            "value": 17.5,
+            "raw": "17.5"
+          },
+          {
+            "status": "known",
+            "value": "+17%",
+            "raw": "+17%"
+          },
+          {
+            "status": "known",
+            "value": 135,
+            "raw": "135"
+          },
+          {
+            "status": "known",
+            "value": 2703,
+            "raw": "2,703"
+          },
+          {
+            "status": "known",
+            "value": 2400,
+            "raw": "2,400"
+          },
+          {
+            "status": "known",
+            "value": 600,
+            "raw": "600"
+          },
+          {
+            "status": "known",
+            "value": 30,
+            "raw": "30"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          },
+          {
+            "status": "known",
+            "value": "22s",
+            "raw": "22s"
+          },
+          {
+            "status": "known",
+            "value": 17.5,
+            "raw": "17.5"
+          },
+          {
+            "status": "known",
+            "value": "+17%",
+            "raw": "+17%"
+          },
+          {
+            "status": "known",
+            "value": 148,
+            "raw": "148"
+          },
+          {
+            "status": "known",
+            "value": 2874,
+            "raw": "2,874"
+          },
+          {
+            "status": "known",
+            "value": 2500,
+            "raw": "2,500"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 17,
+            "raw": "17"
+          },
+          {
+            "status": "known",
+            "value": "22s",
+            "raw": "22s"
+          },
+          {
+            "status": "known",
+            "value": 17.5,
+            "raw": "17.5"
+          },
+          {
+            "status": "known",
+            "value": "+17%",
+            "raw": "+17%"
+          },
+          {
+            "status": "known",
+            "value": 159,
+            "raw": "159"
+          },
+          {
+            "status": "known",
+            "value": 3031,
+            "raw": "3,031"
+          },
+          {
+            "status": "known",
+            "value": 2600,
+            "raw": "2,600"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 18,
+            "raw": "18"
+          },
+          {
+            "status": "known",
+            "value": "24s",
+            "raw": "24s"
+          },
+          {
+            "status": "known",
+            "value": 19.1,
+            "raw": "19.1"
+          },
+          {
+            "status": "known",
+            "value": "+21%",
+            "raw": "+21%"
+          },
+          {
+            "status": "known",
+            "value": 171,
+            "raw": "171"
+          },
+          {
+            "status": "known",
+            "value": 3189,
+            "raw": "3,189"
+          },
+          {
+            "status": "known",
+            "value": 2700,
+            "raw": "2,700"
+          },
+          {
+            "status": "known",
+            "value": 600,
+            "raw": "600"
+          },
+          {
+            "status": "known",
+            "value": 50,
+            "raw": "50"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 19,
+            "raw": "19"
+          },
+          {
+            "status": "known",
+            "value": "24s",
+            "raw": "24s"
+          },
+          {
+            "status": "known",
+            "value": 19.1,
+            "raw": "19.1"
+          },
+          {
+            "status": "known",
+            "value": "+21%",
+            "raw": "+21%"
+          },
+          {
+            "status": "known",
+            "value": 176,
+            "raw": "176"
+          },
+          {
+            "status": "known",
+            "value": 3346,
+            "raw": "3,346"
+          },
+          {
+            "status": "known",
+            "value": 2800,
+            "raw": "2,800"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 20,
+            "raw": "20"
+          },
+          {
+            "status": "known",
+            "value": "24s",
+            "raw": "24s"
+          },
+          {
+            "status": "known",
+            "value": 19.1,
+            "raw": "19.1"
+          },
+          {
+            "status": "known",
+            "value": "+21%",
+            "raw": "+21%"
+          },
+          {
+            "status": "known",
+            "value": 182,
+            "raw": "182"
+          },
+          {
+            "status": "known",
+            "value": 3504,
+            "raw": "3,504"
+          },
+          {
+            "status": "known",
+            "value": 2900,
+            "raw": "2,900"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 21,
+            "raw": "21"
+          },
+          {
+            "status": "known",
+            "value": "26s",
+            "raw": "26s"
+          },
+          {
+            "status": "known",
+            "value": 20.7,
+            "raw": "20.7"
+          },
+          {
+            "status": "known",
+            "value": "+25%",
+            "raw": "+25%"
+          },
+          {
+            "status": "known",
+            "value": 188,
+            "raw": "188"
+          },
+          {
+            "status": "known",
+            "value": 3661,
+            "raw": "3,661"
+          },
+          {
+            "status": "known",
+            "value": 3000,
+            "raw": "3,000"
+          },
+          {
+            "status": "known",
+            "value": 600,
+            "raw": "600"
+          },
+          {
+            "status": "known",
+            "value": 100,
+            "raw": "100"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 22,
+            "raw": "22"
+          },
+          {
+            "status": "known",
+            "value": "26s",
+            "raw": "26s"
+          },
+          {
+            "status": "known",
+            "value": 20.7,
+            "raw": "20.7"
+          },
+          {
+            "status": "known",
+            "value": "+25%",
+            "raw": "+25%"
+          },
+          {
+            "status": "known",
+            "value": 194,
+            "raw": "194"
+          },
+          {
+            "status": "known",
+            "value": 3819,
+            "raw": "3,819"
+          },
+          {
+            "status": "known",
+            "value": 3100,
+            "raw": "3,100"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 23,
+            "raw": "23"
+          },
+          {
+            "status": "known",
+            "value": "26s",
+            "raw": "26s"
+          },
+          {
+            "status": "known",
+            "value": 20.7,
+            "raw": "20.7"
+          },
+          {
+            "status": "known",
+            "value": "+25%",
+            "raw": "+25%"
+          },
+          {
+            "status": "known",
+            "value": 199,
+            "raw": "199"
+          },
+          {
+            "status": "known",
+            "value": 3976,
+            "raw": "3,976"
+          },
+          {
+            "status": "known",
+            "value": 3200,
+            "raw": "3,200"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 24,
+            "raw": "24"
+          },
+          {
+            "status": "known",
+            "value": "28s",
+            "raw": "28s"
+          },
+          {
+            "status": "known",
+            "value": 22.3,
+            "raw": "22.3"
+          },
+          {
+            "status": "known",
+            "value": "+29%",
+            "raw": "+29%"
+          },
+          {
+            "status": "known",
+            "value": 205,
+            "raw": "205"
+          },
+          {
+            "status": "known",
+            "value": 4134,
+            "raw": "4,134"
+          },
+          {
+            "status": "known",
+            "value": 3300,
+            "raw": "3,300"
+          },
+          {
+            "status": "known",
+            "value": 600,
+            "raw": "600"
+          },
+          {
+            "status": "known",
+            "value": 120,
+            "raw": "120"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 25,
+            "raw": "25"
+          },
+          {
+            "status": "known",
+            "value": "28s",
+            "raw": "28s"
+          },
+          {
+            "status": "known",
+            "value": 22.3,
+            "raw": "22.3"
+          },
+          {
+            "status": "known",
+            "value": "+29%",
+            "raw": "+29%"
+          },
+          {
+            "status": "known",
+            "value": 211,
+            "raw": "211"
+          },
+          {
+            "status": "known",
+            "value": 4291,
+            "raw": "4,291"
+          },
+          {
+            "status": "known",
+            "value": 3400,
+            "raw": "3,400"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 26,
+            "raw": "26"
+          },
+          {
+            "status": "known",
+            "value": "28s",
+            "raw": "28s"
+          },
+          {
+            "status": "known",
+            "value": 22.3,
+            "raw": "22.3"
+          },
+          {
+            "status": "known",
+            "value": "+29%",
+            "raw": "+29%"
+          },
+          {
+            "status": "known",
+            "value": 217,
+            "raw": "217"
+          },
+          {
+            "status": "known",
+            "value": 4449,
+            "raw": "4,449"
+          },
+          {
+            "status": "known",
+            "value": 3500,
+            "raw": "3,500"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 27,
+            "raw": "27"
+          },
+          {
+            "status": "known",
+            "value": "30s",
+            "raw": "30s"
+          },
+          {
+            "status": "known",
+            "value": 24,
+            "raw": "24"
+          },
+          {
+            "status": "known",
+            "value": "+33%",
+            "raw": "+33%"
+          },
+          {
+            "status": "known",
+            "value": 222,
+            "raw": "222"
+          },
+          {
+            "status": "known",
+            "value": 4606,
+            "raw": "4,606"
+          },
+          {
+            "status": "known",
+            "value": 3600,
+            "raw": "3,600"
+          },
+          {
+            "status": "known",
+            "value": 600,
+            "raw": "600"
+          },
+          {
+            "status": "known",
+            "value": 150,
+            "raw": "150"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 6,
+          "type": "cost",
+          "icon": "Shiny_Ore",
+          "gpClass": "research",
+          "noGoldPass": true
+        },
+        {
+          "column": 7,
+          "type": "cost",
+          "icon": "Glowy_Ore",
+          "gpClass": "research",
+          "noGoldPass": true
+        },
+        {
+          "column": 8,
+          "type": "cost",
+          "icon": "Starry_Ore",
+          "gpClass": "research",
+          "noGoldPass": true
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "name": "Stick_Horse_info.png",
+      "url": "https://static.clashpost.com/upgrade/home_heroes/0707/Stick_Horse_info.png",
+      "alt": "木棍马驹",
+      "localPath": "/images/original/upgrade/home_heroes/0707/Stick_Horse_info.webp",
+      "logicalPath": "/upgrade/home_heroes/0707/Stick_Horse_info.png"
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-02-09",
+      "description": "Made the Stick Horse available in the Wise Warriors event."
+    },
+    {
+      "date": "2026-02-23",
+      "description": "Fixed a bug where the Jump Spell can disabled Stick Horse jump ability after entering the spell radius."
+    }
+  ],
+  "facts": [],
+  "notices": []
+}

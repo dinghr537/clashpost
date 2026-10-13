@@ -7,10 +7,11 @@
 export const notificationInfo = {
     "hasNotification": true,
     "notificationCount": 1,
-    "currentNotificationId": 17,
-    "notificationTitle": "部落驿站升级数据维护说明",
+    "currentNotificationId": 18,
+    "notificationTitle": "升级数据同步至 2026-10-13",
     "notificationHTML": "<p>本项目作为部落驿站的继承项目，专注于升级等级、费用、时间与前置条件查询。</p>" +
-        "<p>当前沿用原项目历史资料，各单位的收录进度不同，尚未完成最新版本同步。后续更新会记录来源与同步日期。</p>" +
+        "<p>常驻单位、精工防御及本次同步的临时单位已采用 Clash of Clans Wiki 当前表格，补充新增单位与 2026 年更新记录。每页可查看同步日期和来源修订。</p>" +
+        "<p>未重新核对的往期临时单位仍保留历史数据，并在页面上说明。</p>" +
         "<p>本站仅提供升级数据查询，安装包下载已关闭。</p>"
 };
 
@@ -20,5 +21,13 @@ export const notificationInfo = {
  * availableTempUnits 目前可以训练的临时兵种
  * availableCraftedBuildings 目前可以使用的精工防御
  */
-export const availableTempUnits = [];
-export const availableCraftedBuildings = [];
+export const availableTempUnits = ["0e1d", "0e0b", "0e0c", "0e07", "0e03"];
+export const availableCraftedBuildings = ["0909", "090a", "090b"];
+export const temporaryAvailability = {
+    startsAt: "2026-10-08T08:00:00Z",
+    endsAt: "2026-10-25T08:00:00Z",
+    sourceUrl: "https://supercell.com/en/games/clashofclans/blog/news/the-portal-panic-medal-event-rifts-its-way-into-clash/"
+};
+export function isTemporaryAvailable(unitId, now = Date.now()) {
+    return availableTempUnits.includes(unitId) && now >= Date.parse(temporaryAvailability.startsAt) && now < Date.parse(temporaryAvailability.endsAt);
+}

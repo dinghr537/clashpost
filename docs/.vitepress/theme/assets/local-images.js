@@ -1,4 +1,5 @@
 import originalManifest from "./original-image-manifest.json";
+import supplementalManifest from "./supplemental-image-manifest.json";
 
 export const imagePlaceholder = "/images/unavailable.svg";
 
@@ -9,5 +10,6 @@ export function resolveImage(src) {
     const originalPath = src.replace("https://static.clashpost.com", "").split("?")[0];
     return originalManifest[originalPath]
         || originalManifest[originalPath.replace(/\.(png|jpe?g)$/i, ".webp")]
+        || supplementalManifest[originalPath]
         || imagePlaceholder;
 }

@@ -1,0 +1,134 @@
+{
+  "unitId": "2101-Jump-Spell",
+  "title": "弹跳法术",
+  "originalName": "Jump Spell/Clan Capital",
+  "module": "upgrade-capital",
+  "imgFolder": "capital_tech/2101",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Jump_Spell/Clan_Capital",
+    "revision": 610405,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Jump_Spell/Clan_Capital?oldid=610405",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 1,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Duration",
+        "Housing Space",
+        "Required Spell Factory"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "2 attacks",
+            "raw": "2 attacks"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": "Jump Spell Factory",
+            "raw": "Jump Spell Factory"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 2,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Level",
+        "Spell Radius"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": "3.2 tiles",
+            "raw": "3.2 tiles"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": "3.4 tiles",
+            "raw": "3.4 tiles"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": "3.6 tiles",
+            "raw": "3.6 tiles"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": "3.8 tiles",
+            "raw": "3.8 tiles"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": "4 tiles",
+            "raw": "4 tiles"
+          }
+        ]
+      ],
+      "extraInfo": []
+    }
+  ],
+  "images": [
+    {
+      "name": "Jump_Spell_info.png",
+      "url": "https://static.clashpost.com/upgrade/capital_tech/2101/Jump_Spell_info.png",
+      "alt": "弹跳法术",
+      "localPath": "/images/original/upgrade/capital_tech/2101/Jump_Spell_info.webp",
+      "logicalPath": "/upgrade/capital_tech/2101/Jump_Spell_info.png"
+    }
+  ],
+  "history": [],
+  "facts": [
+    "The Jump Spell is a Spell unlocked in the Clan Capital, available when the Jump Spell Factory is constructed (this requires a level 2 District Hall in the Wizard Valley district)."
+  ],
+  "notices": []
+}

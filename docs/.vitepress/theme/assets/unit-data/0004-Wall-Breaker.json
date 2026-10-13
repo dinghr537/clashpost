@@ -1,0 +1,880 @@
+{
+  "unitId": "0004-Wall-Breaker",
+  "title": "炸弹人",
+  "originalName": "Wall Breaker",
+  "module": "upgrade-home",
+  "imgFolder": "home_tech/0004",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Wall_Breaker",
+    "revision": 624864,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Wall_Breaker?oldid=624864",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 2,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Preferred Target",
+        "Attack Type",
+        "Housing Space",
+        "Movement Speed",
+        "Attack Speed",
+        "Barracks Level Required",
+        "Range",
+        "Damage Radius"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "Walls (Damage x40)",
+            "raw": "Walls (Damage x40)"
+          },
+          {
+            "status": "known",
+            "value": "Area Splash (Ground Only)",
+            "raw": "Area Splash (Ground Only)"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 24,
+            "raw": "24"
+          },
+          {
+            "status": "known",
+            "value": "1s",
+            "raw": "1s"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": "1 tile",
+            "raw": "1 tile"
+          },
+          {
+            "status": "known",
+            "value": "2 tiles",
+            "raw": "2 tiles"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 3,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Level",
+        "Damage",
+        "Damage when destroyed",
+        "Damage vs. Walls",
+        "Damage when destroyed vs. Walls",
+        "Hitpoints",
+        "Research Cost",
+        "Research Time",
+        "Laboratory Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 400,
+            "raw": "400"
+          },
+          {
+            "status": "known",
+            "value": 240,
+            "raw": "240"
+          },
+          {
+            "status": "known",
+            "value": 20,
+            "raw": "20"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 20,
+            "raw": "20"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          },
+          {
+            "status": "known",
+            "value": 800,
+            "raw": "800"
+          },
+          {
+            "status": "known",
+            "value": 360,
+            "raw": "360"
+          },
+          {
+            "status": "known",
+            "value": 24,
+            "raw": "24"
+          },
+          {
+            "status": "known",
+            "value": 80000,
+            "raw": "80,000"
+          },
+          {
+            "status": "known",
+            "value": 10800,
+            "raw": "3h",
+            "unit": "seconds",
+            "displayInput": "0,3,0,0"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 25,
+            "raw": "25"
+          },
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          },
+          {
+            "status": "known",
+            "value": 1000,
+            "raw": "1,000"
+          },
+          {
+            "status": "known",
+            "value": 520,
+            "raw": "520"
+          },
+          {
+            "status": "known",
+            "value": 29,
+            "raw": "29"
+          },
+          {
+            "status": "known",
+            "value": 200000,
+            "raw": "200,000"
+          },
+          {
+            "status": "known",
+            "value": 14400,
+            "raw": "4h",
+            "unit": "seconds",
+            "displayInput": "0,4,0,0"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 30,
+            "raw": "30"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          },
+          {
+            "status": "known",
+            "value": 1200,
+            "raw": "1,200"
+          },
+          {
+            "status": "known",
+            "value": 640,
+            "raw": "640"
+          },
+          {
+            "status": "known",
+            "value": 35,
+            "raw": "35"
+          },
+          {
+            "status": "known",
+            "value": 450000,
+            "raw": "450,000"
+          },
+          {
+            "status": "known",
+            "value": 43200,
+            "raw": "12h",
+            "unit": "seconds",
+            "displayInput": "0,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 43,
+            "raw": "43"
+          },
+          {
+            "status": "known",
+            "value": 23,
+            "raw": "23"
+          },
+          {
+            "status": "known",
+            "value": 1720,
+            "raw": "1,720"
+          },
+          {
+            "status": "known",
+            "value": 920,
+            "raw": "920"
+          },
+          {
+            "status": "known",
+            "value": 53,
+            "raw": "53"
+          },
+          {
+            "status": "known",
+            "value": 1000000,
+            "raw": "1,000,000"
+          },
+          {
+            "status": "known",
+            "value": 57600,
+            "raw": "16h",
+            "unit": "seconds",
+            "displayInput": "0,16,0,0"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 55,
+            "raw": "55"
+          },
+          {
+            "status": "known",
+            "value": 30,
+            "raw": "30"
+          },
+          {
+            "status": "known",
+            "value": 2200,
+            "raw": "2,200"
+          },
+          {
+            "status": "known",
+            "value": 1200,
+            "raw": "1,200"
+          },
+          {
+            "status": "known",
+            "value": 72,
+            "raw": "72"
+          },
+          {
+            "status": "known",
+            "value": 2400000,
+            "raw": "2,400,000"
+          },
+          {
+            "status": "known",
+            "value": 86400,
+            "raw": "1d",
+            "unit": "seconds",
+            "displayInput": "1,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": 66,
+            "raw": "66"
+          },
+          {
+            "status": "known",
+            "value": 36,
+            "raw": "36"
+          },
+          {
+            "status": "known",
+            "value": 2640,
+            "raw": "2,640"
+          },
+          {
+            "status": "known",
+            "value": 1440,
+            "raw": "1,440"
+          },
+          {
+            "status": "known",
+            "value": 82,
+            "raw": "82"
+          },
+          {
+            "status": "known",
+            "value": 2800000,
+            "raw": "2,800,000"
+          },
+          {
+            "status": "known",
+            "value": 129600,
+            "raw": "1d 12h",
+            "unit": "seconds",
+            "displayInput": "1,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": 75,
+            "raw": "75"
+          },
+          {
+            "status": "known",
+            "value": 42,
+            "raw": "42"
+          },
+          {
+            "status": "known",
+            "value": 3000,
+            "raw": "3,000"
+          },
+          {
+            "status": "known",
+            "value": 1680,
+            "raw": "1,680"
+          },
+          {
+            "status": "known",
+            "value": 92,
+            "raw": "92"
+          },
+          {
+            "status": "known",
+            "value": 3800000,
+            "raw": "3,800,000"
+          },
+          {
+            "status": "known",
+            "value": 216000,
+            "raw": "2d 12h",
+            "unit": "seconds",
+            "displayInput": "2,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          },
+          {
+            "status": "known",
+            "value": 86,
+            "raw": "86"
+          },
+          {
+            "status": "known",
+            "value": 48,
+            "raw": "48"
+          },
+          {
+            "status": "known",
+            "value": 3440,
+            "raw": "3,440"
+          },
+          {
+            "status": "known",
+            "value": 1920,
+            "raw": "1,920"
+          },
+          {
+            "status": "known",
+            "value": 112,
+            "raw": "112"
+          },
+          {
+            "status": "known",
+            "value": 5200000,
+            "raw": "5,200,000"
+          },
+          {
+            "status": "known",
+            "value": 259200,
+            "raw": "3d",
+            "unit": "seconds",
+            "displayInput": "3,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 94,
+            "raw": "94"
+          },
+          {
+            "status": "known",
+            "value": 54,
+            "raw": "54"
+          },
+          {
+            "status": "known",
+            "value": 3760,
+            "raw": "3,760"
+          },
+          {
+            "status": "known",
+            "value": 2160,
+            "raw": "2,160"
+          },
+          {
+            "status": "known",
+            "value": 130,
+            "raw": "130"
+          },
+          {
+            "status": "known",
+            "value": 6500000,
+            "raw": "6,500,000"
+          },
+          {
+            "status": "known",
+            "value": 432000,
+            "raw": "5d",
+            "unit": "seconds",
+            "displayInput": "5,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          },
+          {
+            "status": "known",
+            "value": 102,
+            "raw": "102"
+          },
+          {
+            "status": "known",
+            "value": 60,
+            "raw": "60"
+          },
+          {
+            "status": "known",
+            "value": 4080,
+            "raw": "4,080"
+          },
+          {
+            "status": "known",
+            "value": 2400,
+            "raw": "2,400"
+          },
+          {
+            "status": "known",
+            "value": 140,
+            "raw": "140"
+          },
+          {
+            "status": "known",
+            "value": 9500000,
+            "raw": "9,500,000"
+          },
+          {
+            "status": "known",
+            "value": 475200,
+            "raw": "5d 12h",
+            "unit": "seconds",
+            "displayInput": "5,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          },
+          {
+            "status": "known",
+            "value": 110,
+            "raw": "110"
+          },
+          {
+            "status": "known",
+            "value": 66,
+            "raw": "66"
+          },
+          {
+            "status": "known",
+            "value": 4400,
+            "raw": "4,400"
+          },
+          {
+            "status": "known",
+            "value": 2640,
+            "raw": "2,640"
+          },
+          {
+            "status": "known",
+            "value": 150,
+            "raw": "150"
+          },
+          {
+            "status": "known",
+            "value": 11000000,
+            "raw": "11,000,000"
+          },
+          {
+            "status": "known",
+            "value": 518400,
+            "raw": "6d",
+            "unit": "seconds",
+            "displayInput": "6,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          },
+          {
+            "status": "known",
+            "value": 118,
+            "raw": "118"
+          },
+          {
+            "status": "known",
+            "value": 72,
+            "raw": "72"
+          },
+          {
+            "status": "known",
+            "value": 4720,
+            "raw": "4,720"
+          },
+          {
+            "status": "known",
+            "value": 2880,
+            "raw": "2,880"
+          },
+          {
+            "status": "known",
+            "value": 160,
+            "raw": "160"
+          },
+          {
+            "status": "known",
+            "value": 15500000,
+            "raw": "15,500,000"
+          },
+          {
+            "status": "known",
+            "value": 864000,
+            "raw": "10d",
+            "unit": "seconds",
+            "displayInput": "10,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 15,
+            "raw": "15"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          },
+          {
+            "status": "known",
+            "value": 126,
+            "raw": "126"
+          },
+          {
+            "status": "known",
+            "value": 78,
+            "raw": "78"
+          },
+          {
+            "status": "known",
+            "value": 5040,
+            "raw": "5,040"
+          },
+          {
+            "status": "known",
+            "value": 3120,
+            "raw": "3,120"
+          },
+          {
+            "status": "known",
+            "value": 170,
+            "raw": "170"
+          },
+          {
+            "status": "known",
+            "value": 26000000,
+            "raw": "26,000,000"
+          },
+          {
+            "status": "known",
+            "value": 1209600,
+            "raw": "14d",
+            "unit": "seconds",
+            "displayInput": "14,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 6,
+          "type": "cost",
+          "icon": "Elixir",
+          "gpClass": "research",
+          "noGoldPass": false
+        },
+        {
+          "column": 7,
+          "type": "time",
+          "gpClass": "research",
+          "noGoldPass": false
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "name": "Wall_Breaker_info.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0004/Wall_Breaker_info.png",
+      "alt": "炸弹人",
+      "localPath": "/images/original/upgrade/home_tech/0004/Wall_Breaker_info.webp",
+      "logicalPath": "/upgrade/home_tech/0004/Wall_Breaker_info.png"
+    },
+    {
+      "name": "Wall_Breaker1.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0004/Wall_Breaker1.png",
+      "alt": "1 - 2 级",
+      "localPath": "/images/original/upgrade/home_tech/0004/Wall_Breaker1.webp",
+      "logicalPath": "/upgrade/home_tech/0004/Wall_Breaker1.png"
+    },
+    {
+      "name": "Wall_Breaker3.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0004/Wall_Breaker3.png",
+      "alt": "3 - 4 级",
+      "localPath": "/images/original/upgrade/home_tech/0004/Wall_Breaker3.webp",
+      "logicalPath": "/upgrade/home_tech/0004/Wall_Breaker3.png"
+    },
+    {
+      "name": "Wall_Breaker5.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0004/Wall_Breaker5.png",
+      "alt": "5 级",
+      "localPath": "/images/original/upgrade/home_tech/0004/Wall_Breaker5.webp",
+      "logicalPath": "/upgrade/home_tech/0004/Wall_Breaker5.png"
+    },
+    {
+      "name": "Wall_Breaker6.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0004/Wall_Breaker6.png",
+      "alt": "6 级",
+      "localPath": "/images/original/upgrade/home_tech/0004/Wall_Breaker6.webp",
+      "logicalPath": "/upgrade/home_tech/0004/Wall_Breaker6.png"
+    },
+    {
+      "name": "Wall_Breaker7.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0004/Wall_Breaker7.png",
+      "alt": "7 - 9 级",
+      "localPath": "/images/original/upgrade/home_tech/0004/Wall_Breaker7.webp",
+      "logicalPath": "/upgrade/home_tech/0004/Wall_Breaker7.png"
+    },
+    {
+      "name": "Wall_Breaker10.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0004/Wall_Breaker10.png",
+      "alt": "10 级",
+      "localPath": "/images/original/upgrade/home_tech/0004/Wall_Breaker10.webp",
+      "logicalPath": "/upgrade/home_tech/0004/Wall_Breaker10.png"
+    },
+    {
+      "name": "Wall_Breaker11.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0004/Wall_Breaker11.png",
+      "alt": "11 级",
+      "localPath": "/images/original/upgrade/home_tech/0004/Wall_Breaker11.webp",
+      "logicalPath": "/upgrade/home_tech/0004/Wall_Breaker11.png"
+    },
+    {
+      "name": "Wall_Breaker12.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0004/Wall_Breaker12.png",
+      "alt": "12 级",
+      "localPath": "/images/original/upgrade/home_tech/0004/Wall_Breaker12.webp",
+      "logicalPath": "/upgrade/home_tech/0004/Wall_Breaker12.png"
+    },
+    {
+      "name": "Wall_Breaker13.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0004/Wall_Breaker13.png",
+      "alt": "13 级",
+      "localPath": "/images/original/upgrade/home_tech/0004/Wall_Breaker13.webp",
+      "logicalPath": "/upgrade/home_tech/0004/Wall_Breaker13.png"
+    },
+    {
+      "name": "Wall_Breaker14.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0004/Wall_Breaker14.png",
+      "alt": "14 级",
+      "localPath": "/images/original/upgrade/home_tech/0004/Wall_Breaker14.webp",
+      "logicalPath": "/upgrade/home_tech/0004/Wall_Breaker14.png"
+    }
+  ],
+  "history": [],
+  "facts": [
+    "The Wall Breaker is the fifth Elixir Troop unlocked at Barracks level 4, which requires Town Hall level 3. As his name suggests, Wall Breakers favor going after Walls, dealing massive damage to them.",
+    "The Wall Breaker attacks by locating the nearest protected (read: Wall enclosed) building and destroying its protective Walls, blowing himself up in the process. He deals splash damage around his target and deals 40x damage to Walls."
+  ],
+  "notices": []
+}

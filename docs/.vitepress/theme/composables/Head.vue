@@ -180,7 +180,7 @@ onMounted(() => {
             const cookieIdString = getCookie("cp-notification-id");
             const cookieId = cookieIdString ? parseFloat(cookieIdString) : 0;
             // 如果当前的通知 ID 大于 cookie 中存储的 ID，则展示新通知并把新 ID 存入 cookie
-            if (cookieId < currentNotificationId) {
+            if (notificationCountIcon && cookieId < currentNotificationId) {
                 notificationCountIcon.style.display = "block";
             }
         }, 300);

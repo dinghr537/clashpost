@@ -1,0 +1,129 @@
+{
+  "unitId": "2507-Goblin-Outpost",
+  "title": "哥布林前哨基地",
+  "originalName": "Houses",
+  "module": "upgrade-capital",
+  "imgFolder": "capital_buildings/2507",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Houses",
+    "revision": 600144,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Houses?oldid=600144",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 25,
+      "section": "List of Houses",
+      "title": "Goblin Outpost",
+      "headers": [
+        "Number Available",
+        "District Hall Level / 1",
+        "District Hall Level / 2",
+        "District Hall Level / 3",
+        "District Hall Level / 4"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "Goblin Mines",
+            "raw": "Goblin Mines"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 26,
+      "section": "List of Houses",
+      "title": "Goblin Outpost",
+      "headers": [
+        "Size"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "2x2",
+            "raw": "2x2"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 27,
+      "section": "List of Houses",
+      "title": "Goblin Outpost",
+      "headers": [
+        "Hitpoints",
+        "Build Cost"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 650,
+            "raw": "650"
+          },
+          {
+            "status": "known",
+            "value": 500,
+            "raw": "500"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 1,
+          "type": "cost",
+          "icon": "Gold3",
+          "gpClass": "building",
+          "noGoldPass": true
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "name": "Goblin_Outpost.png",
+      "url": "https://static.clashpost.com/upgrade/capital_buildings/2507/Goblin_Outpost.png",
+      "alt": "哥布林前哨基地",
+      "localPath": "/images/original/upgrade/capital_buildings/2507/Goblin_Outpost.webp",
+      "logicalPath": "/upgrade/capital_buildings/2507/Goblin_Outpost.png"
+    },
+    {
+      "name": "Goblin_Outpost_Ruin.png",
+      "url": "https://static.clashpost.com/upgrade/capital_buildings/2507/Goblin_Outpost_Ruin.png",
+      "alt": "废墟",
+      "localPath": "/images/original/upgrade/capital_buildings/2507/Goblin_Outpost_Ruin.webp",
+      "logicalPath": "/upgrade/capital_buildings/2507/Goblin_Outpost_Ruin.png"
+    }
+  ],
+  "history": [],
+  "facts": [],
+  "notices": []
+}

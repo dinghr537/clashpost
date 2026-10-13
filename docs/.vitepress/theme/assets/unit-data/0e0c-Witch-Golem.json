@@ -1,0 +1,707 @@
+{
+  "unitId": "0e0c-Witch-Golem",
+  "title": "女巫戈仑",
+  "originalName": "Witch Golem",
+  "module": "upgrade-temp",
+  "imgFolder": "temp_troops/0e0c",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Witch_Golem",
+    "revision": 625498,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Witch_Golem?oldid=625498",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 3,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Preferred Target",
+        "Attack Type",
+        "Housing Space",
+        "Movement Speed",
+        "Attack Speed",
+        "Barracks Level Required",
+        "Range",
+        "Death Damage Radius"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "Defenses",
+            "raw": "Defenses"
+          },
+          {
+            "status": "known",
+            "value": "Area Splash (Ground only)",
+            "raw": "Area Splash (Ground only)"
+          },
+          {
+            "status": "known",
+            "value": 41,
+            "raw": "41"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          },
+          {
+            "status": "known",
+            "value": "2.4s",
+            "raw": "2.4s"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": "1 tile",
+            "raw": "1 tile"
+          },
+          {
+            "status": "known",
+            "value": "1.5 tiles",
+            "raw": "1.5 tiles"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 5,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Level",
+        "Damage per Second",
+        "Damage per Attack",
+        "Hitpoints",
+        "Skeletons per Summon",
+        "Damage when Destroyed",
+        "Big Boys Summoned (After Death)",
+        "Town Hall Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 140,
+            "raw": "140"
+          },
+          {
+            "status": "known",
+            "value": 336,
+            "raw": "336"
+          },
+          {
+            "status": "known",
+            "value": 3400,
+            "raw": "3,400"
+          },
+          {
+            "status": "known",
+            "value": "8 (Max 14)",
+            "raw": "8 (Max 14)"
+          },
+          {
+            "status": "known",
+            "value": 150,
+            "raw": "150"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 155,
+            "raw": "155"
+          },
+          {
+            "status": "known",
+            "value": 372,
+            "raw": "372"
+          },
+          {
+            "status": "known",
+            "value": 4700,
+            "raw": "4,700"
+          },
+          {
+            "status": "known",
+            "value": "8 (Max 16)",
+            "raw": "8 (Max 16)"
+          },
+          {
+            "status": "known",
+            "value": 200,
+            "raw": "200"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 170,
+            "raw": "170"
+          },
+          {
+            "status": "known",
+            "value": 408,
+            "raw": "408"
+          },
+          {
+            "status": "known",
+            "value": 5600,
+            "raw": "5,600"
+          },
+          {
+            "status": "known",
+            "value": "9 (Max 18)",
+            "raw": "9 (Max 18)"
+          },
+          {
+            "status": "known",
+            "value": 250,
+            "raw": "250"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 185,
+            "raw": "185"
+          },
+          {
+            "status": "known",
+            "value": 444,
+            "raw": "444"
+          },
+          {
+            "status": "known",
+            "value": 6400,
+            "raw": "6,400"
+          },
+          {
+            "status": "known",
+            "value": "9 (Max 20)",
+            "raw": "9 (Max 20)"
+          },
+          {
+            "status": "known",
+            "value": 350,
+            "raw": "350"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 200,
+            "raw": "200"
+          },
+          {
+            "status": "known",
+            "value": 480,
+            "raw": "480"
+          },
+          {
+            "status": "known",
+            "value": 6900,
+            "raw": "6,900"
+          },
+          {
+            "status": "known",
+            "value": "10 (Max 22)",
+            "raw": "10 (Max 22)"
+          },
+          {
+            "status": "known",
+            "value": 550,
+            "raw": "550"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 215,
+            "raw": "215"
+          },
+          {
+            "status": "known",
+            "value": 516,
+            "raw": "516"
+          },
+          {
+            "status": "known",
+            "value": 7300,
+            "raw": "7,300"
+          },
+          {
+            "status": "known",
+            "value": "10 (Max 24)",
+            "raw": "10 (Max 24)"
+          },
+          {
+            "status": "known",
+            "value": 650,
+            "raw": "650"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": 230,
+            "raw": "230"
+          },
+          {
+            "status": "known",
+            "value": 552,
+            "raw": "552"
+          },
+          {
+            "status": "known",
+            "value": 7700,
+            "raw": "7,700"
+          },
+          {
+            "status": "known",
+            "value": "11 (Max 26)",
+            "raw": "11 (Max 26)"
+          },
+          {
+            "status": "known",
+            "value": 750,
+            "raw": "750"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": 245,
+            "raw": "245"
+          },
+          {
+            "status": "known",
+            "value": 588,
+            "raw": "588"
+          },
+          {
+            "status": "known",
+            "value": 8200,
+            "raw": "8,200"
+          },
+          {
+            "status": "known",
+            "value": "11 (Max 28)",
+            "raw": "11 (Max 28)"
+          },
+          {
+            "status": "known",
+            "value": 800,
+            "raw": "800"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          },
+          {
+            "status": "known",
+            "value": 260,
+            "raw": "260"
+          },
+          {
+            "status": "known",
+            "value": 624,
+            "raw": "624"
+          },
+          {
+            "status": "known",
+            "value": 8600,
+            "raw": "8,600"
+          },
+          {
+            "status": "known",
+            "value": "12 (Max 30)",
+            "raw": "12 (Max 30)"
+          },
+          {
+            "status": "known",
+            "value": 850,
+            "raw": "850"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 275,
+            "raw": "275"
+          },
+          {
+            "status": "known",
+            "value": 660,
+            "raw": "660"
+          },
+          {
+            "status": "known",
+            "value": 9000,
+            "raw": "9,000"
+          },
+          {
+            "status": "known",
+            "value": "12 (Max 32)",
+            "raw": "12 (Max 32)"
+          },
+          {
+            "status": "known",
+            "value": 900,
+            "raw": "900"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 15,
+            "raw": "15"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          },
+          {
+            "status": "known",
+            "value": 290,
+            "raw": "290"
+          },
+          {
+            "status": "known",
+            "value": 696,
+            "raw": "696"
+          },
+          {
+            "status": "known",
+            "value": 9400,
+            "raw": "9,400"
+          },
+          {
+            "status": "known",
+            "value": "13 (Max 34)",
+            "raw": "13 (Max 34)"
+          },
+          {
+            "status": "known",
+            "value": 950,
+            "raw": "950"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          },
+          {
+            "status": "known",
+            "value": 305,
+            "raw": "305"
+          },
+          {
+            "status": "known",
+            "value": 732,
+            "raw": "732"
+          },
+          {
+            "status": "known",
+            "value": 9800,
+            "raw": "9,800"
+          },
+          {
+            "status": "known",
+            "value": "13 (Max 36)",
+            "raw": "13 (Max 36)"
+          },
+          {
+            "status": "known",
+            "value": 1000,
+            "raw": "1,000"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 17,
+            "raw": "17"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          },
+          {
+            "status": "known",
+            "value": 320,
+            "raw": "320"
+          },
+          {
+            "status": "known",
+            "value": 768,
+            "raw": "768"
+          },
+          {
+            "status": "known",
+            "value": 10400,
+            "raw": "10,400"
+          },
+          {
+            "status": "known",
+            "value": "14 (Max 38)",
+            "raw": "14 (Max 38)"
+          },
+          {
+            "status": "known",
+            "value": 1050,
+            "raw": "1,050"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 18,
+            "raw": "18"
+          }
+        ]
+      ],
+      "extraInfo": []
+    }
+  ],
+  "images": [
+    {
+      "name": "Witch_Golem_info.png",
+      "url": "https://static.clashpost.com/upgrade/temp_troops/0e0c/Witch_Golem_info.png",
+      "alt": "女巫戈仑",
+      "localPath": "/images/original/upgrade/temp_troops/0e0c/Witch_Golem_info.webp",
+      "logicalPath": "/upgrade/temp_troops/0e0c/Witch_Golem_info.png"
+    },
+    {
+      "name": "Witch_Golem1.png",
+      "url": "https://static.clashpost.com/upgrade/temp_troops/0e0c/Witch_Golem1.png",
+      "alt": "所有等级",
+      "localPath": "/images/original/upgrade/temp_troops/0e0c/Witch_Golem1.webp",
+      "logicalPath": "/upgrade/temp_troops/0e0c/Witch_Golem1.png"
+    },
+    {
+      "name": "Skeleton_Witch_Golem_info.png",
+      "url": "https://static.clashpost.com/upgrade/temp_troops/0e0c/Skeleton_Witch_Golem_info.png",
+      "alt": "女巫戈仑",
+      "localPath": "/images/original/upgrade/temp_troops/0e0c/Skeleton_Witch_Golem_info.webp",
+      "logicalPath": "/upgrade/temp_troops/0e0c/Skeleton_Witch_Golem_info.png"
+    },
+    {
+      "name": "Skeleton1.png",
+      "url": "https://static.clashpost.com/upgrade/temp_troops/0e0c/Skeleton1.png",
+      "alt": "所有等级",
+      "localPath": "/images/original/upgrade/temp_troops/0e0c/Skeleton1.webp",
+      "logicalPath": "/upgrade/temp_troops/0e0c/Skeleton1.png"
+    },
+    {
+      "name": "Big_Boy_Witch_Golem.png",
+      "url": "https://static.clashpost.com/upgrade/temp_troops/0e0c/Big_Boy_Witch_Golem.png",
+      "alt": "女巫戈仑",
+      "localPath": "/images/original/upgrade/temp_troops/0e0c/Big_Boy_Witch_Golem.webp",
+      "logicalPath": "/upgrade/temp_troops/0e0c/Big_Boy_Witch_Golem.png"
+    },
+    {
+      "name": "Big_Boy.png",
+      "url": "https://static.clashpost.com/upgrade/temp_troops/0e0c/Big_Boy.png",
+      "alt": "所有等级",
+      "localPath": "/images/original/upgrade/temp_troops/0e0c/Big_Boy.webp",
+      "logicalPath": "/upgrade/temp_troops/0e0c/Big_Boy.png"
+    },
+    {
+      "name": "Witch_Golem_info_2.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/5/5b/Witch_Golem_info_2.png/revision/latest/scale-to-width-down/150?cb=20231012151755",
+      "alt": "",
+      "localPath": "/images/wiki/0e0c-Witch-Golem/17a7ccd1ff-Witch_Golem_info_2.png",
+      "logicalPath": "/upgrade/temp_troops/0e0c/Witch_Golem_info_2.png"
+    },
+    {
+      "name": "Witch_Golem_info_3.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/9/94/Witch_Golem_info_3.png/revision/latest/scale-to-width-down/185?cb=20231012151757",
+      "alt": "",
+      "localPath": "/images/wiki/0e0c-Witch-Golem/cf1c989e12-Witch_Golem_info_3.png",
+      "logicalPath": "/upgrade/temp_troops/0e0c/Witch_Golem_info_3.png"
+    }
+  ],
+  "history": [],
+  "facts": [
+    "The Witch Golem is one of four temporary troops introduced in the Mashup Madness event for Clash-o-Ween 2023, where it could be unlocked after accumulating 55,000 Sour Elixir in the event. It returned in the Mashup Mania event for Clash-o-Ween 2024, where it can be unlocked with 3,000 Sour Elixir."
+  ],
+  "notices": [
+    "临时单位的来源表格同步日期不表示活动开放日期；本期可用状态在页首另行说明。"
+  ]
+}

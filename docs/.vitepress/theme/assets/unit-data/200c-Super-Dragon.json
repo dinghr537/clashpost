@@ -1,0 +1,238 @@
+{
+  "unitId": "200c-Super-Dragon",
+  "title": "超级飞龙",
+  "originalName": "Super Dragon/Clan Capital",
+  "module": "upgrade-capital",
+  "imgFolder": "capital_tech/200c",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Super_Dragon/Clan_Capital",
+    "revision": 622513,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Super_Dragon/Clan_Capital?oldid=622513",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 3,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Preferred Target",
+        "Attack Type",
+        "Housing Space",
+        "Movement Speed",
+        "Time Between Shots",
+        "Time Between Bursts",
+        "Range",
+        "Special Ability"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "None",
+            "raw": "None"
+          },
+          {
+            "status": "known",
+            "value": "Area Splash (Ground & Air)",
+            "raw": "Area Splash (Ground & Air)"
+          },
+          {
+            "status": "known",
+            "value": 40,
+            "raw": "40"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": "0.192s",
+            "raw": "0.192s"
+          },
+          {
+            "status": "known",
+            "value": "1.8s",
+            "raw": "1.8s"
+          },
+          {
+            "status": "known",
+            "value": "3 tiles",
+            "raw": "3 tiles"
+          },
+          {
+            "status": "known",
+            "value": "Roast",
+            "raw": "Roast"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 4,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Level",
+        "Damage per Second",
+        "Damage per Hit",
+        "Hitpoints"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 400,
+            "raw": "400"
+          },
+          {
+            "status": "known",
+            "value": 151.2,
+            "raw": "151.2"
+          },
+          {
+            "status": "known",
+            "value": 5800,
+            "raw": "5,800"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 438,
+            "raw": "438"
+          },
+          {
+            "status": "known",
+            "value": 165.6,
+            "raw": "165.6"
+          },
+          {
+            "status": "known",
+            "value": 6300,
+            "raw": "6,300"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 476,
+            "raw": "476"
+          },
+          {
+            "status": "known",
+            "value": 180,
+            "raw": "180"
+          },
+          {
+            "status": "known",
+            "value": 6800,
+            "raw": "6,800"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 514,
+            "raw": "514"
+          },
+          {
+            "status": "known",
+            "value": 194.4,
+            "raw": "194.4"
+          },
+          {
+            "status": "known",
+            "value": 7200,
+            "raw": "7,200"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 552,
+            "raw": "552"
+          },
+          {
+            "status": "known",
+            "value": 208.8,
+            "raw": "208.8"
+          },
+          {
+            "status": "known",
+            "value": 7600,
+            "raw": "7,600"
+          }
+        ]
+      ],
+      "extraInfo": []
+    }
+  ],
+  "images": [
+    {
+      "name": "Super_Dragon_info.png",
+      "url": "https://static.clashpost.com/upgrade/capital_tech/200c/Super_Dragon_info.png",
+      "alt": "超级飞龙",
+      "localPath": "/images/original/upgrade/capital_tech/200c/Super_Dragon_info.webp",
+      "logicalPath": "/upgrade/capital_tech/200c/Super_Dragon_info.png"
+    },
+    {
+      "name": "Super_Dragon1.png",
+      "url": "https://static.clashpost.com/upgrade/capital_tech/200c/Super_Dragon1.png",
+      "alt": "所有等级",
+      "localPath": "/images/original/upgrade/capital_tech/200c/Super_Dragon1.webp",
+      "logicalPath": "/upgrade/capital_tech/200c/Super_Dragon1.png"
+    },
+    {
+      "name": "Super_Dragon7.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/c/c4/Super_Dragon7.png/revision/latest/scale-to-width-down/150?cb=20211209195922",
+      "alt": "Super Dragon7",
+      "localPath": "/images/wiki/200c-Super-Dragon/3a33d99d4d-Super_Dragon7.png",
+      "logicalPath": "/upgrade/capital_tech/200c/Super_Dragon7.png"
+    },
+    {
+      "name": "Super_Dragon_info_2.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/b/bf/Super_Dragon_info_2.png/revision/latest/scale-to-width-down/185?cb=20260102220832",
+      "alt": "",
+      "localPath": "/images/wiki/200c-Super-Dragon/fc8970b789-Super_Dragon_info_2.png",
+      "logicalPath": "/upgrade/capital_tech/200c/Super_Dragon_info_2.png"
+    }
+  ],
+  "history": [],
+  "facts": [
+    "The Super Dragon is a troop available in the Clan Capital, available when the Super Dragon Barracks is constructed (this requires a level 2 District Hall in the Dragon Cliffs district, and hence Capital Hall level 7).",
+    "The Super Dragon is the Super version of the Dragon that shoots bursts of flames similar to the Roaster in the Builder Base. His flame bursts hit 10 times, each doing splash damage over a sizable area of effect (about 1-tile radius)."
+  ],
+  "notices": []
+}

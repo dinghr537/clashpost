@@ -1,0 +1,128 @@
+{
+  "unitId": "2106-Endless-Haste-Spell",
+  "title": "永恒急速法术",
+  "originalName": "Endless Haste Spell",
+  "module": "upgrade-capital",
+  "imgFolder": "capital_tech/2106",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Endless_Haste_Spell",
+    "revision": 624171,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Endless_Haste_Spell?oldid=624171",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 0,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Duration",
+        "Radius",
+        "Housing Space",
+        "Required Spell Factory"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "4 attacks",
+            "raw": "4 attacks"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": "Endless Haste Spell Factory",
+            "raw": "Endless Haste Spell Factory"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 1,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Level",
+        "Speed Increase"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          }
+        ]
+      ],
+      "extraInfo": []
+    }
+  ],
+  "images": [
+    {
+      "name": "Endless_Haste_Spell_info.png",
+      "url": "https://static.clashpost.com/upgrade/capital_tech/2106/Endless_Haste_Spell_info.png",
+      "alt": "永恒急速法术",
+      "localPath": "/images/original/upgrade/capital_tech/2106/Endless_Haste_Spell_info.webp",
+      "logicalPath": "/upgrade/capital_tech/2106/Endless_Haste_Spell_info.png"
+    }
+  ],
+  "history": [],
+  "facts": [
+    "The Endless Haste Spell is a spell in the Clan Capital, unlocked when the Endless Haste Spell Factory is constructed (This requires a level 2 District Hall in the Goblin Mines district, which requires Capital Hall level 9)."
+  ],
+  "notices": []
+}

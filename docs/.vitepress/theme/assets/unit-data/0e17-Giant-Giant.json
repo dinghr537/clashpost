@@ -1,0 +1,590 @@
+{
+  "unitId": "0e17-Giant-Giant",
+  "title": "霸天巨人",
+  "originalName": "Giant Giant",
+  "module": "upgrade-temp",
+  "imgFolder": "temp_troops/0e17",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Giant_Giant",
+    "revision": 624650,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Giant_Giant?oldid=624650",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 2,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Preferred Target",
+        "Attack Type",
+        "Housing Space",
+        "Movement Speed",
+        "Attack Speed",
+        "Barracks Level Required",
+        "Range",
+        "Rage Duration",
+        "Rage Damage Increase",
+        "Rage Speed Increase"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "Defenses",
+            "raw": "Defenses"
+          },
+          {
+            "status": "known",
+            "value": "Splash Damage (Ground Only)",
+            "raw": "Splash Damage (Ground Only)"
+          },
+          {
+            "status": "known",
+            "value": 50,
+            "raw": "50"
+          },
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          },
+          {
+            "status": "known",
+            "value": "2s",
+            "raw": "2s"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": "1 tile",
+            "raw": "1 tile"
+          },
+          {
+            "status": "known",
+            "value": "20s",
+            "raw": "20s"
+          },
+          {
+            "status": "known",
+            "value": "50%",
+            "raw": "50%"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 3,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Level",
+        "Damage per Second",
+        "Damage per Attack",
+        "Hitpoints",
+        "Town Hall Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 115,
+            "raw": "115"
+          },
+          {
+            "status": "known",
+            "value": 230,
+            "raw": "230"
+          },
+          {
+            "status": "known",
+            "value": 800,
+            "raw": "800"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 145,
+            "raw": "145"
+          },
+          {
+            "status": "known",
+            "value": 290,
+            "raw": "290"
+          },
+          {
+            "status": "known",
+            "value": 1600,
+            "raw": "1,600"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 170,
+            "raw": "170"
+          },
+          {
+            "status": "known",
+            "value": 340,
+            "raw": "340"
+          },
+          {
+            "status": "known",
+            "value": 2400,
+            "raw": "2,400"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 195,
+            "raw": "195"
+          },
+          {
+            "status": "known",
+            "value": 390,
+            "raw": "390"
+          },
+          {
+            "status": "known",
+            "value": 3200,
+            "raw": "3,200"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 245,
+            "raw": "245"
+          },
+          {
+            "status": "known",
+            "value": 490,
+            "raw": "490"
+          },
+          {
+            "status": "known",
+            "value": 5000,
+            "raw": "5,000"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 320,
+            "raw": "320"
+          },
+          {
+            "status": "known",
+            "value": 640,
+            "raw": "640"
+          },
+          {
+            "status": "known",
+            "value": 7200,
+            "raw": "7,200"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": 440,
+            "raw": "440"
+          },
+          {
+            "status": "known",
+            "value": 880,
+            "raw": "880"
+          },
+          {
+            "status": "known",
+            "value": 9300,
+            "raw": "9,300"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": 550,
+            "raw": "550"
+          },
+          {
+            "status": "known",
+            "value": 1100,
+            "raw": "1,100"
+          },
+          {
+            "status": "known",
+            "value": 12800,
+            "raw": "12,800"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          },
+          {
+            "status": "known",
+            "value": 635,
+            "raw": "635"
+          },
+          {
+            "status": "known",
+            "value": 1270,
+            "raw": "1,270"
+          },
+          {
+            "status": "known",
+            "value": 15200,
+            "raw": "15,200"
+          },
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 700,
+            "raw": "700"
+          },
+          {
+            "status": "known",
+            "value": 1400,
+            "raw": "1,400"
+          },
+          {
+            "status": "known",
+            "value": 18500,
+            "raw": "18,500"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": "11!",
+            "raw": "11!"
+          },
+          {
+            "status": "known",
+            "value": 795,
+            "raw": "795"
+          },
+          {
+            "status": "known",
+            "value": 1590,
+            "raw": "1,590"
+          },
+          {
+            "status": "known",
+            "value": 20500,
+            "raw": "20,500"
+          },
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": "12!",
+            "raw": "12!"
+          },
+          {
+            "status": "known",
+            "value": 835,
+            "raw": "835"
+          },
+          {
+            "status": "known",
+            "value": 1670,
+            "raw": "1,670"
+          },
+          {
+            "status": "known",
+            "value": 22000,
+            "raw": "22,000"
+          },
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": "13!",
+            "raw": "13!"
+          },
+          {
+            "status": "known",
+            "value": 875,
+            "raw": "875"
+          },
+          {
+            "status": "known",
+            "value": 1750,
+            "raw": "1,750"
+          },
+          {
+            "status": "known",
+            "value": 23000,
+            "raw": "23,000"
+          },
+          {
+            "status": "known",
+            "value": 15,
+            "raw": "15"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": "14!",
+            "raw": "14!"
+          },
+          {
+            "status": "known",
+            "value": 935,
+            "raw": "935"
+          },
+          {
+            "status": "known",
+            "value": 1870,
+            "raw": "1,870"
+          },
+          {
+            "status": "known",
+            "value": 24500,
+            "raw": "24,500"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": "15!",
+            "raw": "15!"
+          },
+          {
+            "status": "known",
+            "value": 995,
+            "raw": "995"
+          },
+          {
+            "status": "known",
+            "value": 1990,
+            "raw": "1,990"
+          },
+          {
+            "status": "known",
+            "value": 26000,
+            "raw": "26,000"
+          },
+          {
+            "status": "known",
+            "value": 17,
+            "raw": "17"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": "16!",
+            "raw": "16!"
+          },
+          {
+            "status": "known",
+            "value": 1060,
+            "raw": "1,060"
+          },
+          {
+            "status": "known",
+            "value": 2120,
+            "raw": "2,120"
+          },
+          {
+            "status": "known",
+            "value": 27500,
+            "raw": "27,500"
+          },
+          {
+            "status": "known",
+            "value": 18,
+            "raw": "18"
+          }
+        ]
+      ],
+      "extraInfo": []
+    }
+  ],
+  "images": [
+    {
+      "name": "Giant_Giant_info.png",
+      "url": "https://static.clashpost.com/upgrade/temp_troops/0e17/Giant_Giant_info.png",
+      "alt": "霸天巨人",
+      "localPath": "/images/original/upgrade/temp_troops/0e17/Giant_Giant_info.webp",
+      "logicalPath": "/upgrade/temp_troops/0e17/Giant_Giant_info.png"
+    },
+    {
+      "name": "Giant_Giant1.png",
+      "url": "https://static.clashpost.com/upgrade/temp_troops/0e17/Giant_Giant1.png",
+      "alt": "所有等级",
+      "localPath": "/images/original/upgrade/temp_troops/0e17/Giant_Giant1.webp",
+      "logicalPath": "/upgrade/temp_troops/0e17/Giant_Giant1.png"
+    },
+    {
+      "name": "Giant_Giant_info2.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/c/cf/Giant_Giant_info2.png/revision/latest/scale-to-width-down/185?cb=20250410144228",
+      "alt": "Giant Giant's pose, used as his avatar icon; full view",
+      "localPath": "/images/wiki/0e17-Giant-Giant/51427cc6cc-Giant_Giant_info2.png",
+      "logicalPath": "/upgrade/temp_troops/0e17/Giant_Giant_info2.png"
+    },
+    {
+      "name": "Giant_Giant_info3.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/2/2d/Giant_Giant_info3.png/revision/latest/scale-to-width-down/185?cb=20250410144245",
+      "alt": "",
+      "localPath": "/images/wiki/0e17-Giant-Giant/6ff1780f8e-Giant_Giant_info3.png",
+      "logicalPath": "/upgrade/temp_troops/0e17/Giant_Giant_info3.png"
+    },
+    {
+      "name": "Giant_Giant_info4.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/7/75/Giant_Giant_info4.png/revision/latest/scale-to-width-down/185?cb=20250410144305",
+      "alt": "",
+      "localPath": "/images/wiki/0e17-Giant-Giant/aae8a2cfa6-Giant_Giant_info4.png",
+      "logicalPath": "/upgrade/temp_troops/0e17/Giant_Giant_info4.png"
+    },
+    {
+      "name": "Giant_Giant_info5.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/f/f2/Giant_Giant_info5.png/revision/latest/scale-to-width-down/185?cb=20250410144320",
+      "alt": "",
+      "localPath": "/images/wiki/0e17-Giant-Giant/fe841bb656-Giant_Giant_info5.png",
+      "logicalPath": "/upgrade/temp_troops/0e17/Giant_Giant_info5.png"
+    }
+  ],
+  "history": [],
+  "facts": [
+    "The Giant Giant was a temporary troop appearing in the Friend or Foe medal event. He was unlocked when 100 are obtained. Since the end of the ClashaMania season, he can now only be summoned by the Action Figure.",
+    "He is a massive Giant with extremely high hitpoints and high damage per second. He deals splash damage, allowing him to damage defenses behind Walls as well as attack groups of defending troops. He also has a hidden 2x damage multiplier against Walls.",
+    "When reduced to half health, the Giant Giant will enter an enraged state where he gains increased damage and movement speed. This rage effect lasts for 20 seconds."
+  ],
+  "notices": [
+    "临时单位的来源表格同步日期不表示活动开放日期；本期可用状态在页首另行说明。"
+  ]
+}

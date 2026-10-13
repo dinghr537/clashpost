@@ -1,0 +1,268 @@
+{
+  "unitId": "0601-Sneaky-Goblin",
+  "title": "隐秘哥布林",
+  "originalName": "Sneaky Goblin",
+  "module": "upgrade-home",
+  "imgFolder": "home_tech/0601",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Sneaky_Goblin",
+    "revision": 622829,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Sneaky_Goblin?oldid=622829",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 1,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Preferred Target",
+        "Attack Type",
+        "Housing Space",
+        "Movement Speed",
+        "Attack Speed",
+        "Range",
+        "Special Ability"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "Resources (Damage x2)",
+            "raw": "Resources (Damage x2)"
+          },
+          {
+            "status": "known",
+            "value": "Melee (Ground Only)",
+            "raw": "Melee (Ground Only)"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 32,
+            "raw": "32"
+          },
+          {
+            "status": "known",
+            "value": "1s",
+            "raw": "1s"
+          },
+          {
+            "status": "known",
+            "value": "0.4 tiles",
+            "raw": "0.4 tiles"
+          },
+          {
+            "status": "known",
+            "value": "Cloak",
+            "raw": "Cloak"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 2,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Boost Cost",
+        "Boost Duration",
+        "Goblin Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 25000,
+            "raw": "25,000"
+          },
+          {
+            "status": "known",
+            "value": "3d",
+            "raw": "3d"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 0,
+          "type": "cost",
+          "icon": "Dark_Elixir",
+          "gpClass": "research",
+          "noGoldPass": true
+        }
+      ]
+    },
+    {
+      "sourceTableIndex": 3,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Level",
+        "Damage per Second",
+        "Damage per Attack",
+        "DPS on Resource Buildings",
+        "Hitpoints"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": 155,
+            "raw": "155"
+          },
+          {
+            "status": "known",
+            "value": 155,
+            "raw": "155"
+          },
+          {
+            "status": "known",
+            "value": 310,
+            "raw": "310"
+          },
+          {
+            "status": "known",
+            "value": 270,
+            "raw": "270"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": 170,
+            "raw": "170"
+          },
+          {
+            "status": "known",
+            "value": 170,
+            "raw": "170"
+          },
+          {
+            "status": "known",
+            "value": 340,
+            "raw": "340"
+          },
+          {
+            "status": "known",
+            "value": 320,
+            "raw": "320"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          },
+          {
+            "status": "known",
+            "value": 180,
+            "raw": "180"
+          },
+          {
+            "status": "known",
+            "value": 180,
+            "raw": "180"
+          },
+          {
+            "status": "known",
+            "value": 360,
+            "raw": "360"
+          },
+          {
+            "status": "known",
+            "value": 350,
+            "raw": "350"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 190,
+            "raw": "190"
+          },
+          {
+            "status": "known",
+            "value": 190,
+            "raw": "190"
+          },
+          {
+            "status": "known",
+            "value": 380,
+            "raw": "380"
+          },
+          {
+            "status": "known",
+            "value": 380,
+            "raw": "380"
+          }
+        ]
+      ],
+      "extraInfo": []
+    }
+  ],
+  "images": [
+    {
+      "name": "Sneaky_Goblin_info.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0601/Sneaky_Goblin_info.png",
+      "alt": "隐秘哥布林",
+      "localPath": "/images/original/upgrade/home_tech/0601/Sneaky_Goblin_info.webp",
+      "logicalPath": "/upgrade/home_tech/0601/Sneaky_Goblin_info.png"
+    },
+    {
+      "name": "Sneaky_Goblin7.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0601/Sneaky_Goblin7.png",
+      "alt": "所有等级",
+      "localPath": "/images/original/upgrade/home_tech/0601/Sneaky_Goblin7.webp",
+      "logicalPath": "/upgrade/home_tech/0601/Sneaky_Goblin7.png"
+    },
+    {
+      "name": "Sneaky_Goblin_info_2.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/d/dc/Sneaky_Goblin_info_2.png/revision/latest/scale-to-width-down/185?cb=20260707232725",
+      "alt": "",
+      "localPath": "/images/wiki/0601-Sneaky-Goblin/a1cd478d96-Sneaky_Goblin_info_2.png",
+      "logicalPath": "/upgrade/home_tech/0601/Sneaky_Goblin_info_2.png"
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-04-27",
+      "description": "Added level 10 Sneaky Goblin."
+    }
+  ],
+  "facts": [
+    "The Sneaky Goblin is a Super Troop based on the Goblin. It can be unlocked by boosting the Goblin when the Goblin is at least level 7, and when the Town Hall is upgraded to level 11 or higher.",
+    "Boosting the Goblin requires 25,000 Dark Elixir or a Super Potion, and doing so allows the Goblin to be boosted for 3 days. The level of Sneaky Goblin you obtain from the boost corresponds to the level of Goblin you have.",
+    "The Sneaky Goblin is the Super Troop version of the Goblin that does more damage and has more hitpoints. His Cloak ability enables him to remain invisible for 5 seconds after he is deployed much like the Sneaky Archer."
+  ],
+  "notices": []
+}

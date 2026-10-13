@@ -1,0 +1,817 @@
+{
+  "unitId": "0e1d-Totem-Thrower",
+  "title": "Totem Thrower",
+  "originalName": "Totem Thrower",
+  "module": "upgrade-temp",
+  "imgFolder": "temp_troops/0e1d",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Totem_Thrower",
+    "revision": 625663,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Totem_Thrower?oldid=625663",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 1,
+      "section": "Statistics",
+      "title": "Totem Thrower",
+      "headers": [
+        "Preferred Target",
+        "Attack Type",
+        "Housing Space",
+        "Movement Speed",
+        "Attack Speed",
+        "Range"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "None",
+            "raw": "None"
+          },
+          {
+            "status": "known",
+            "value": "Single Target (Ground Only)",
+            "raw": "Single Target (Ground Only)"
+          },
+          {
+            "status": "known",
+            "value": 28,
+            "raw": "28"
+          },
+          {
+            "status": "known",
+            "value": 22,
+            "raw": "22"
+          },
+          {
+            "status": "known",
+            "value": "2.5s",
+            "raw": "2.5s"
+          },
+          {
+            "status": "known",
+            "value": "6 tiles",
+            "raw": "6 tiles"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 2,
+      "section": "Statistics",
+      "title": "Totem Thrower",
+      "headers": [
+        "Level",
+        "Damage per Second",
+        "Damage per Attack",
+        "Hitpoints",
+        "Tiny Totem Level",
+        "Town Hall Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 215,
+            "raw": "215"
+          },
+          {
+            "status": "known",
+            "value": 537.5,
+            "raw": "537.5"
+          },
+          {
+            "status": "known",
+            "value": 2000,
+            "raw": "2,000"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 216,
+            "raw": "216"
+          },
+          {
+            "status": "known",
+            "value": 540,
+            "raw": "540"
+          },
+          {
+            "status": "known",
+            "value": 2100,
+            "raw": "2,100"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 217,
+            "raw": "217"
+          },
+          {
+            "status": "known",
+            "value": 542.5,
+            "raw": "542.5"
+          },
+          {
+            "status": "known",
+            "value": 2200,
+            "raw": "2,200"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 218,
+            "raw": "218"
+          },
+          {
+            "status": "known",
+            "value": 545,
+            "raw": "545"
+          },
+          {
+            "status": "known",
+            "value": 2300,
+            "raw": "2,300"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 219,
+            "raw": "219"
+          },
+          {
+            "status": "known",
+            "value": 547.5,
+            "raw": "547.5"
+          },
+          {
+            "status": "known",
+            "value": 2400,
+            "raw": "2,400"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 250,
+            "raw": "250"
+          },
+          {
+            "status": "known",
+            "value": 625,
+            "raw": "625"
+          },
+          {
+            "status": "known",
+            "value": 2600,
+            "raw": "2,600"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": 251,
+            "raw": "251"
+          },
+          {
+            "status": "known",
+            "value": 627.5,
+            "raw": "627.5"
+          },
+          {
+            "status": "known",
+            "value": 2700,
+            "raw": "2,700"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": 252,
+            "raw": "252"
+          },
+          {
+            "status": "known",
+            "value": 630,
+            "raw": "630"
+          },
+          {
+            "status": "known",
+            "value": 2800,
+            "raw": "2,800"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          },
+          {
+            "status": "known",
+            "value": 253,
+            "raw": "253"
+          },
+          {
+            "status": "known",
+            "value": 632.5,
+            "raw": "632.5"
+          },
+          {
+            "status": "known",
+            "value": 2900,
+            "raw": "2,900"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 295,
+            "raw": "295"
+          },
+          {
+            "status": "known",
+            "value": 737.5,
+            "raw": "737.5"
+          },
+          {
+            "status": "known",
+            "value": 3200,
+            "raw": "3,200"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          },
+          {
+            "status": "known",
+            "value": 296,
+            "raw": "296"
+          },
+          {
+            "status": "known",
+            "value": 740,
+            "raw": "740"
+          },
+          {
+            "status": "known",
+            "value": 3300,
+            "raw": "3,300"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          },
+          {
+            "status": "known",
+            "value": 297,
+            "raw": "297"
+          },
+          {
+            "status": "known",
+            "value": 742.5,
+            "raw": "742.5"
+          },
+          {
+            "status": "known",
+            "value": 3400,
+            "raw": "3,400"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          },
+          {
+            "status": "known",
+            "value": 298,
+            "raw": "298"
+          },
+          {
+            "status": "known",
+            "value": 745,
+            "raw": "745"
+          },
+          {
+            "status": "known",
+            "value": 3500,
+            "raw": "3,500"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          },
+          {
+            "status": "known",
+            "value": 330,
+            "raw": "330"
+          },
+          {
+            "status": "known",
+            "value": 825,
+            "raw": "825"
+          },
+          {
+            "status": "known",
+            "value": 3900,
+            "raw": "3,900"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 15,
+            "raw": "15"
+          },
+          {
+            "status": "known",
+            "value": 355,
+            "raw": "355"
+          },
+          {
+            "status": "known",
+            "value": 887.5,
+            "raw": "887.5"
+          },
+          {
+            "status": "known",
+            "value": 4200,
+            "raw": "4,200"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 15,
+            "raw": "15"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          },
+          {
+            "status": "known",
+            "value": 395,
+            "raw": "395"
+          },
+          {
+            "status": "known",
+            "value": 987.5,
+            "raw": "987.5"
+          },
+          {
+            "status": "known",
+            "value": 4600,
+            "raw": "4,600"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 17,
+            "raw": "17"
+          },
+          {
+            "status": "known",
+            "value": 430,
+            "raw": "430"
+          },
+          {
+            "status": "known",
+            "value": 1075,
+            "raw": "1,075"
+          },
+          {
+            "status": "known",
+            "value": 5100,
+            "raw": "5,100"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 17,
+            "raw": "17"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 18,
+            "raw": "18"
+          },
+          {
+            "status": "known",
+            "value": 450,
+            "raw": "450"
+          },
+          {
+            "status": "known",
+            "value": 1125,
+            "raw": "1,125"
+          },
+          {
+            "status": "known",
+            "value": 5600,
+            "raw": "5,600"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 18,
+            "raw": "18"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 4,
+      "section": "Statistics",
+      "title": "Tiny Totem",
+      "headers": [
+        "Level",
+        "Totem Hitpoints",
+        "Stun Duration"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 3840,
+            "raw": "3,840"
+          },
+          {
+            "status": "known",
+            "value": "0.2s",
+            "raw": "0.2s"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 6720,
+            "raw": "6,720"
+          },
+          {
+            "status": "known",
+            "value": "0.3s",
+            "raw": "0.3s"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 9600,
+            "raw": "9,600"
+          },
+          {
+            "status": "known",
+            "value": "0.4s",
+            "raw": "0.4s"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 12400,
+            "raw": "12,400"
+          },
+          {
+            "status": "known",
+            "value": "0.5s",
+            "raw": "0.5s"
+          }
+        ]
+      ],
+      "extraInfo": []
+    }
+  ],
+  "images": [
+    {
+      "name": "Totem_Thrower_info.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/7/77/Totem_Thrower_info.png/revision/latest/scale-to-width-down/250?cb=20261006150352",
+      "alt": "Totem Thrower info",
+      "localPath": "/images/wiki/0e1d-Totem-Thrower/80c7cabc25-Totem_Thrower_info.png",
+      "logicalPath": "/upgrade/temp_troops/0e1d/Totem_Thrower_info.png"
+    },
+    {
+      "name": "Totem_Thrower1.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/a/a5/Totem_Thrower1.png/revision/latest/scale-to-width-down/120?cb=20260911225619",
+      "alt": "Totem Thrower1",
+      "localPath": "/images/wiki/0e1d-Totem-Thrower/21f1f59ee2-Totem_Thrower1.png",
+      "logicalPath": "/upgrade/temp_troops/0e1d/Totem_Thrower1.png"
+    },
+    {
+      "name": "Totem_Thrower_info2.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/0/09/Totem_Thrower_info2.png/revision/latest/scale-to-width-down/161?cb=20261005163406",
+      "alt": "",
+      "localPath": "/images/wiki/0e1d-Totem-Thrower/dc23f0b84d-Totem_Thrower_info2.png",
+      "logicalPath": "/upgrade/temp_troops/0e1d/Totem_Thrower_info2.png"
+    },
+    {
+      "name": "Totem_Thrower_info3.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/1/1c/Totem_Thrower_info3.png/revision/latest/scale-to-width-down/161?cb=20261005163427",
+      "alt": "",
+      "localPath": "/images/wiki/0e1d-Totem-Thrower/8dfaf0b3ab-Totem_Thrower_info3.png",
+      "logicalPath": "/upgrade/temp_troops/0e1d/Totem_Thrower_info3.png"
+    },
+    {
+      "name": "Totem_Thrower_info4.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/7/75/Totem_Thrower_info4.png/revision/latest/scale-to-width-down/161?cb=20261005163449",
+      "alt": "",
+      "localPath": "/images/wiki/0e1d-Totem-Thrower/178b052598-Totem_Thrower_info4.png",
+      "logicalPath": "/upgrade/temp_troops/0e1d/Totem_Thrower_info4.png"
+    },
+    {
+      "name": "Totem_Thrower_info5.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/8/8b/Totem_Thrower_info5.png/revision/latest/scale-to-width-down/161?cb=20261005163510",
+      "alt": "",
+      "localPath": "/images/wiki/0e1d-Totem-Thrower/8b48cf9854-Totem_Thrower_info5.png",
+      "logicalPath": "/upgrade/temp_troops/0e1d/Totem_Thrower_info5.png"
+    },
+    {
+      "name": "Totem_Thrower_info6.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/8/86/Totem_Thrower_info6.png/revision/latest/scale-to-width-down/161?cb=20261005163531",
+      "alt": "",
+      "localPath": "/images/wiki/0e1d-Totem-Thrower/6ca53ab936-Totem_Thrower_info6.png",
+      "logicalPath": "/upgrade/temp_troops/0e1d/Totem_Thrower_info6.png"
+    },
+    {
+      "name": "Totem_Thrower_info7.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/8/8f/Totem_Thrower_info7.png/revision/latest/scale-to-width-down/161?cb=20261005163553",
+      "alt": "",
+      "localPath": "/images/wiki/0e1d-Totem-Thrower/b3427b9bf9-Totem_Thrower_info7.png",
+      "logicalPath": "/upgrade/temp_troops/0e1d/Totem_Thrower_info7.png"
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-08-31",
+      "description": "The Totem Thrower was added to the game files, with 18 distinct levels. Totem Thrower1"
+    },
+    {
+      "date": "2026-09-22",
+      "description": "Increased damage at all levels: Level 1: 204 -> 215 Damage Level 2: 205 -> 216 Damage Level 3: 206 -> 217 Damage Level 4: 207 -> 218 Damage Level 5: 208 -> 219 Damage Level 6: 234 -> 250 Damage Level 7: 235 -> 251 Damage Level 8: 236 -> 252 Damage Level 9: 237 -> 253 Damage Level 10: 270 -> 295 Damage Level 11: 271 -> 296 Damage Level 12: 272 -> 297 Damage Level 13: 273 -> 298 Damage Level 14: 300 -> 330 Damage Level 15: 318 -> 355 Damage Level 16: 354 -> 395 Damage Level 17: 384 -> 430 Damage Level 18: 402 -> 450 Damage Increased hitpoints at levels 2 to 18: Level 2: 2,052 -> 2,100 Hitpoints Level 3: 2,064 -> 2,200 Hitpoints Level 4: 2,076 -> 2,300 Hitpoints Level 5: 2,088 -> 2,400 Hitpoints Level 6: 2,520 -> 2,600 Hitpoints Level 7: 2,532 -> 2,700 Hitpoints Level 8: 2,544 -> 2,800 Hitpoints Level 9: 2,556 -> 2,900 Hitpoints Level 10: 3,048 -> 3,200 Hitpoints Level 11: 3,060 -> 3,300 Hitpoints Level 12: 3,072 -> 3,400 Hitpoints Level 13: 3,084 -> 3,500 Hitpoints Level 14: 3,480 -> 3,900 Hitpoints Level 15: 3,720 -> 4,200 Hitpoints Level 16: 3,960 -> 4,600 Hitpoints Level 17: 4,380 -> 5,100 Hitpoints Level 18: 4,680 -> 5,600 Hitpoints Reduced hitpoints at level 1 from 2,040 to 2,000. Hitpoints Increased Tiny Totem stun Duration at all levels: Level 1: 0.1s -> 0.2s Stun Level 2: 0.1s -> 0.3s Stun Level 3: 0.2s -> 0.4s Stun Level 4: 0.2s -> 0.5s Stun"
+    },
+    {
+      "date": "2026-10-08",
+      "description": "在 Portal Panic 活动中开放使用，活动截至 10 月 25 日。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/news/the-portal-panic-medal-event-rifts-its-way-into-clash/",
+      "type": "availability"
+    }
+  ],
+  "facts": [],
+  "notices": [
+    "临时单位的来源表格同步日期不表示活动开放日期；本期可用状态在页首另行说明。"
+  ]
+}

@@ -1,0 +1,264 @@
+{
+  "unitId": "2005-Super-Wizard",
+  "title": "超级法师",
+  "originalName": "Super Wizard/Clan Capital",
+  "module": "upgrade-capital",
+  "imgFolder": "capital_tech/2005",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Super_Wizard/Clan_Capital",
+    "revision": 622258,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Super_Wizard/Clan_Capital?oldid=622258",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 3,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Preferred Target",
+        "Attack Type",
+        "Housing Space",
+        "Movement Speed",
+        "Attack Speed",
+        "Range",
+        "Special Ability"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "None",
+            "raw": "None"
+          },
+          {
+            "status": "known",
+            "value": "Single Target",
+            "raw": "Single Target"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          },
+          {
+            "status": "known",
+            "value": "2s",
+            "raw": "2s"
+          },
+          {
+            "status": "known",
+            "value": "3 tiles",
+            "raw": "3 tiles"
+          },
+          {
+            "status": "known",
+            "value": "Chain Magic",
+            "raw": "Chain Magic"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 4,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Level",
+        "Damage per Second",
+        "Damage per Attack (Primary Target)",
+        "Secondary Chain Damage (per Target)",
+        "Hitpoints"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 160,
+            "raw": "160"
+          },
+          {
+            "status": "known",
+            "value": 320,
+            "raw": "320"
+          },
+          {
+            "status": "known",
+            "value": 128,
+            "raw": "128"
+          },
+          {
+            "status": "known",
+            "value": 600,
+            "raw": "600"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 180,
+            "raw": "180"
+          },
+          {
+            "status": "known",
+            "value": 360,
+            "raw": "360"
+          },
+          {
+            "status": "known",
+            "value": 144,
+            "raw": "144"
+          },
+          {
+            "status": "known",
+            "value": 700,
+            "raw": "700"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 200,
+            "raw": "200"
+          },
+          {
+            "status": "known",
+            "value": 400,
+            "raw": "400"
+          },
+          {
+            "status": "known",
+            "value": 160,
+            "raw": "160"
+          },
+          {
+            "status": "known",
+            "value": 800,
+            "raw": "800"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 220,
+            "raw": "220"
+          },
+          {
+            "status": "known",
+            "value": 440,
+            "raw": "440"
+          },
+          {
+            "status": "known",
+            "value": 176,
+            "raw": "176"
+          },
+          {
+            "status": "known",
+            "value": 900,
+            "raw": "900"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 240,
+            "raw": "240"
+          },
+          {
+            "status": "known",
+            "value": 480,
+            "raw": "480"
+          },
+          {
+            "status": "known",
+            "value": 192,
+            "raw": "192"
+          },
+          {
+            "status": "known",
+            "value": 1000,
+            "raw": "1,000"
+          }
+        ]
+      ],
+      "extraInfo": []
+    }
+  ],
+  "images": [
+    {
+      "name": "Super_Wizard_info.png",
+      "url": "https://static.clashpost.com/upgrade/capital_tech/2005/Super_Wizard_info.png",
+      "alt": "超级法师",
+      "localPath": "/images/original/upgrade/capital_tech/2005/Super_Wizard_info.webp",
+      "logicalPath": "/upgrade/capital_tech/2005/Super_Wizard_info.png"
+    },
+    {
+      "name": "Super_Wizard1.png",
+      "url": "https://static.clashpost.com/upgrade/capital_tech/2005/Super_Wizard1.png",
+      "alt": "所有等级",
+      "localPath": "/images/original/upgrade/capital_tech/2005/Super_Wizard1.webp",
+      "logicalPath": "/upgrade/capital_tech/2005/Super_Wizard1.png"
+    },
+    {
+      "name": "Super_Wizard9.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/d/d0/Super_Wizard9.png/revision/latest?cb=20201205195307",
+      "alt": "Super Wizard9",
+      "localPath": "/images/wiki/2005-Super-Wizard/99e7d1369f-Super_Wizard9.png",
+      "logicalPath": "/upgrade/capital_tech/2005/Super_Wizard9.png"
+    },
+    {
+      "name": "Super_Wizard_info_1.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/2/2d/Super_Wizard_info_1.png/revision/latest/scale-to-width-down/132?cb=20251115233932",
+      "alt": "Super Wizard Render 1",
+      "localPath": "/images/wiki/2005-Super-Wizard/75609f2a60-Super_Wizard_info_1.png",
+      "logicalPath": "/upgrade/capital_tech/2005/Super_Wizard_info_1.png"
+    },
+    {
+      "name": "Super_Wizard_info_2.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/f/fe/Super_Wizard_info_2.png/revision/latest/scale-to-width-down/154?cb=20251111193314",
+      "alt": "Super Wizard's Render 2",
+      "localPath": "/images/wiki/2005-Super-Wizard/a922168df5-Super_Wizard_info_2.png",
+      "logicalPath": "/upgrade/capital_tech/2005/Super_Wizard_info_2.png"
+    }
+  ],
+  "history": [],
+  "facts": [
+    "The Super Wizard is a troop available in the Clan Capital, when the Super Wizard Barracks is constructed (this requires unlocking the Wizard Valley district, which requires Capital Hall level 3)."
+  ],
+  "notices": []
+}

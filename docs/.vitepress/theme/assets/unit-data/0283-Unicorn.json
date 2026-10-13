@@ -1,0 +1,720 @@
+{
+  "unitId": "0283-Unicorn",
+  "title": "独角",
+  "originalName": "Unicorn",
+  "module": "upgrade-home",
+  "imgFolder": "home_heroes/0283",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Unicorn",
+    "revision": 619842,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Unicorn?oldid=619842",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 2,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Preferred Healing Target",
+        "Healing Targets",
+        "Effect Type",
+        "Movement Speed",
+        "Healing Speed",
+        "Pet House Level Required",
+        "Healing Range",
+        "Special Ability"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "Hero",
+            "raw": "Hero"
+          },
+          {
+            "status": "known",
+            "value": "Ground and Air",
+            "raw": "Ground and Air"
+          },
+          {
+            "status": "known",
+            "value": "Single Target",
+            "raw": "Single Target"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          },
+          {
+            "status": "known",
+            "value": "1s",
+            "raw": "1s"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": "2.5 tiles",
+            "raw": "2.5 tiles"
+          },
+          {
+            "status": "known",
+            "value": "Personal Healer",
+            "raw": "Personal Healer"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 3,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Level",
+        "Healing per Second",
+        "Healing per Pulse",
+        "Hitpoints",
+        "Upgrade Cost",
+        "Upgrade Time",
+        "Pet House Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 50,
+            "raw": "50"
+          },
+          {
+            "status": "known",
+            "value": 50,
+            "raw": "50"
+          },
+          {
+            "status": "known",
+            "value": 1400,
+            "raw": "1,400"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 53,
+            "raw": "53"
+          },
+          {
+            "status": "known",
+            "value": 53,
+            "raw": "53"
+          },
+          {
+            "status": "known",
+            "value": 1450,
+            "raw": "1,450"
+          },
+          {
+            "status": "known",
+            "value": 50000,
+            "raw": "50,000"
+          },
+          {
+            "status": "known",
+            "value": 129600,
+            "raw": "1d 12h",
+            "unit": "seconds",
+            "displayInput": "1,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 56,
+            "raw": "56"
+          },
+          {
+            "status": "known",
+            "value": 56,
+            "raw": "56"
+          },
+          {
+            "status": "known",
+            "value": 1500,
+            "raw": "1,500"
+          },
+          {
+            "status": "known",
+            "value": 65000,
+            "raw": "65,000"
+          },
+          {
+            "status": "known",
+            "value": 172800,
+            "raw": "2d",
+            "unit": "seconds",
+            "displayInput": "2,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 58,
+            "raw": "58"
+          },
+          {
+            "status": "known",
+            "value": 58,
+            "raw": "58"
+          },
+          {
+            "status": "known",
+            "value": 1550,
+            "raw": "1,550"
+          },
+          {
+            "status": "known",
+            "value": 80000,
+            "raw": "80,000"
+          },
+          {
+            "status": "known",
+            "value": 259200,
+            "raw": "3d",
+            "unit": "seconds",
+            "displayInput": "3,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 60,
+            "raw": "60"
+          },
+          {
+            "status": "known",
+            "value": 60,
+            "raw": "60"
+          },
+          {
+            "status": "known",
+            "value": 1600,
+            "raw": "1,600"
+          },
+          {
+            "status": "known",
+            "value": 95000,
+            "raw": "95,000"
+          },
+          {
+            "status": "known",
+            "value": 345600,
+            "raw": "4d",
+            "unit": "seconds",
+            "displayInput": "4,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 62,
+            "raw": "62"
+          },
+          {
+            "status": "known",
+            "value": 62,
+            "raw": "62"
+          },
+          {
+            "status": "known",
+            "value": 1675,
+            "raw": "1,675"
+          },
+          {
+            "status": "known",
+            "value": 110000,
+            "raw": "110,000"
+          },
+          {
+            "status": "known",
+            "value": 388800,
+            "raw": "4d 12h",
+            "unit": "seconds",
+            "displayInput": "4,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": 64,
+            "raw": "64"
+          },
+          {
+            "status": "known",
+            "value": 64,
+            "raw": "64"
+          },
+          {
+            "status": "known",
+            "value": 1725,
+            "raw": "1,725"
+          },
+          {
+            "status": "known",
+            "value": 125000,
+            "raw": "125,000"
+          },
+          {
+            "status": "known",
+            "value": 432000,
+            "raw": "5d",
+            "unit": "seconds",
+            "displayInput": "5,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": 66,
+            "raw": "66"
+          },
+          {
+            "status": "known",
+            "value": 66,
+            "raw": "66"
+          },
+          {
+            "status": "known",
+            "value": 1800,
+            "raw": "1,800"
+          },
+          {
+            "status": "known",
+            "value": 140000,
+            "raw": "140,000"
+          },
+          {
+            "status": "known",
+            "value": 475200,
+            "raw": "5d 12h",
+            "unit": "seconds",
+            "displayInput": "5,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          },
+          {
+            "status": "known",
+            "value": 68,
+            "raw": "68"
+          },
+          {
+            "status": "known",
+            "value": 68,
+            "raw": "68"
+          },
+          {
+            "status": "known",
+            "value": 1875,
+            "raw": "1,875"
+          },
+          {
+            "status": "known",
+            "value": 155000,
+            "raw": "155,000"
+          },
+          {
+            "status": "known",
+            "value": 518400,
+            "raw": "6d",
+            "unit": "seconds",
+            "displayInput": "6,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 70,
+            "raw": "70"
+          },
+          {
+            "status": "known",
+            "value": 70,
+            "raw": "70"
+          },
+          {
+            "status": "known",
+            "value": 1950,
+            "raw": "1,950"
+          },
+          {
+            "status": "known",
+            "value": 170000,
+            "raw": "170,000"
+          },
+          {
+            "status": "known",
+            "value": 561600,
+            "raw": "6d 12h",
+            "unit": "seconds",
+            "displayInput": "6,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          },
+          {
+            "status": "known",
+            "value": 71,
+            "raw": "71"
+          },
+          {
+            "status": "known",
+            "value": 71,
+            "raw": "71"
+          },
+          {
+            "status": "known",
+            "value": 2025,
+            "raw": "2,025"
+          },
+          {
+            "status": "known",
+            "value": 200000,
+            "raw": "200,000"
+          },
+          {
+            "status": "known",
+            "value": 604800,
+            "raw": "7d",
+            "unit": "seconds",
+            "displayInput": "7,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          },
+          {
+            "status": "known",
+            "value": 72,
+            "raw": "72"
+          },
+          {
+            "status": "known",
+            "value": 72,
+            "raw": "72"
+          },
+          {
+            "status": "known",
+            "value": 2100,
+            "raw": "2,100"
+          },
+          {
+            "status": "known",
+            "value": 230000,
+            "raw": "230,000"
+          },
+          {
+            "status": "known",
+            "value": 691200,
+            "raw": "8d",
+            "unit": "seconds",
+            "displayInput": "8,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          },
+          {
+            "status": "known",
+            "value": 73,
+            "raw": "73"
+          },
+          {
+            "status": "known",
+            "value": 73,
+            "raw": "73"
+          },
+          {
+            "status": "known",
+            "value": 2175,
+            "raw": "2,175"
+          },
+          {
+            "status": "known",
+            "value": 260000,
+            "raw": "260,000"
+          },
+          {
+            "status": "known",
+            "value": 691200,
+            "raw": "8d",
+            "unit": "seconds",
+            "displayInput": "8,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          },
+          {
+            "status": "known",
+            "value": 74,
+            "raw": "74"
+          },
+          {
+            "status": "known",
+            "value": 74,
+            "raw": "74"
+          },
+          {
+            "status": "known",
+            "value": 2250,
+            "raw": "2,250"
+          },
+          {
+            "status": "known",
+            "value": 290000,
+            "raw": "290,000"
+          },
+          {
+            "status": "known",
+            "value": 691200,
+            "raw": "8d",
+            "unit": "seconds",
+            "displayInput": "8,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 15,
+            "raw": "15"
+          },
+          {
+            "status": "known",
+            "value": 75,
+            "raw": "75"
+          },
+          {
+            "status": "known",
+            "value": 75,
+            "raw": "75"
+          },
+          {
+            "status": "known",
+            "value": 2325,
+            "raw": "2,325"
+          },
+          {
+            "status": "known",
+            "value": 320000,
+            "raw": "320,000"
+          },
+          {
+            "status": "known",
+            "value": 691200,
+            "raw": "8d",
+            "unit": "seconds",
+            "displayInput": "8,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 4,
+          "type": "cost",
+          "icon": "Dark_Elixir",
+          "gpClass": "research",
+          "noGoldPass": false
+        },
+        {
+          "column": 5,
+          "type": "time",
+          "gpClass": "research",
+          "noGoldPass": false
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "name": "Unicorn_info.png",
+      "url": "https://static.clashpost.com/upgrade/home_heroes/0283/Unicorn_info.png",
+      "alt": "独角",
+      "localPath": "/images/original/upgrade/home_heroes/0283/Unicorn_info.webp",
+      "logicalPath": "/upgrade/home_heroes/0283/Unicorn_info.png"
+    },
+    {
+      "name": "Unicorn_field.png",
+      "url": "https://static.clashpost.com/upgrade/home_heroes/0283/Unicorn_field.png",
+      "alt": "所有等级",
+      "localPath": "/images/original/upgrade/home_heroes/0283/Unicorn_field.webp",
+      "logicalPath": "/upgrade/home_heroes/0283/Unicorn_field.png"
+    },
+    {
+      "name": "Unicorn_info_2.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/9/93/Unicorn_info_2.png/revision/latest/scale-to-width-down/158?cb=20260409170611",
+      "alt": "",
+      "localPath": "/images/wiki/0283-Unicorn/f8c0ca44ee-Unicorn_info_2.png",
+      "logicalPath": "/upgrade/home_heroes/0283/Unicorn_info_2.png"
+    }
+  ],
+  "history": [],
+  "facts": [
+    "The Unicorn is the fourth Pet unlocked from the Pet House, when the Pet House is upgraded to level 4. It heals its assigned Hero just like a Healer does."
+  ],
+  "notices": []
+}

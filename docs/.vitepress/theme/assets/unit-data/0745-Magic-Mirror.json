@@ -1,0 +1,1612 @@
+{
+  "unitId": "0745-Magic-Mirror",
+  "title": "克隆魔镜",
+  "originalName": "Magic Mirror",
+  "module": "upgrade-home",
+  "imgFolder": "home_heroes/0745",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Magic_Mirror",
+    "revision": 621024,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Magic_Mirror?oldid=621024",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 3,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Level",
+        "Ability Attributes / Clones",
+        "Ability Attributes / Clone Duration",
+        "Ability Attributes / Clone DPS",
+        "Ability Attributes / Clone Health",
+        "Hero Boost / HP Recovery Increase",
+        "Hero Boost / Hitpoint Increase",
+        "Upgrade Cost / Shiny Ore",
+        "Upgrade Cost / Glowy Ore",
+        "Upgrade Cost / Starry Ore",
+        "Blacksmith Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": "20s",
+            "raw": "20s"
+          },
+          {
+            "status": "known",
+            "value": 136,
+            "raw": "136"
+          },
+          {
+            "status": "known",
+            "value": 580,
+            "raw": "580"
+          },
+          {
+            "status": "known",
+            "value": 198,
+            "raw": "198"
+          },
+          {
+            "status": "known",
+            "value": 88,
+            "raw": "88"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": "20s",
+            "raw": "20s"
+          },
+          {
+            "status": "known",
+            "value": 136,
+            "raw": "136"
+          },
+          {
+            "status": "known",
+            "value": 580,
+            "raw": "580"
+          },
+          {
+            "status": "known",
+            "value": 229,
+            "raw": "229"
+          },
+          {
+            "status": "known",
+            "value": 96,
+            "raw": "96"
+          },
+          {
+            "status": "known",
+            "value": 120,
+            "raw": "120"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": "20s",
+            "raw": "20s"
+          },
+          {
+            "status": "known",
+            "value": 206,
+            "raw": "206"
+          },
+          {
+            "status": "known",
+            "value": 873,
+            "raw": "873"
+          },
+          {
+            "status": "known",
+            "value": 250,
+            "raw": "250"
+          },
+          {
+            "status": "known",
+            "value": 113,
+            "raw": "113"
+          },
+          {
+            "status": "known",
+            "value": 240,
+            "raw": "240"
+          },
+          {
+            "status": "known",
+            "value": 20,
+            "raw": "20"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": "20s",
+            "raw": "20s"
+          },
+          {
+            "status": "known",
+            "value": 206,
+            "raw": "206"
+          },
+          {
+            "status": "known",
+            "value": 873,
+            "raw": "873"
+          },
+          {
+            "status": "known",
+            "value": 271,
+            "raw": "271"
+          },
+          {
+            "status": "known",
+            "value": 131,
+            "raw": "131"
+          },
+          {
+            "status": "known",
+            "value": 400,
+            "raw": "400"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": "20s",
+            "raw": "20s"
+          },
+          {
+            "status": "known",
+            "value": 206,
+            "raw": "206"
+          },
+          {
+            "status": "known",
+            "value": 873,
+            "raw": "873"
+          },
+          {
+            "status": "known",
+            "value": 294,
+            "raw": "294"
+          },
+          {
+            "status": "known",
+            "value": 157,
+            "raw": "157"
+          },
+          {
+            "status": "known",
+            "value": 600,
+            "raw": "600"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": "20s",
+            "raw": "20s"
+          },
+          {
+            "status": "known",
+            "value": 276,
+            "raw": "276"
+          },
+          {
+            "status": "known",
+            "value": 1166,
+            "raw": "1,166"
+          },
+          {
+            "status": "known",
+            "value": 317,
+            "raw": "317"
+          },
+          {
+            "status": "known",
+            "value": 184,
+            "raw": "184"
+          },
+          {
+            "status": "known",
+            "value": 840,
+            "raw": "840"
+          },
+          {
+            "status": "known",
+            "value": 100,
+            "raw": "100"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": "20s",
+            "raw": "20s"
+          },
+          {
+            "status": "known",
+            "value": 276,
+            "raw": "276"
+          },
+          {
+            "status": "known",
+            "value": 1166,
+            "raw": "1,166"
+          },
+          {
+            "status": "known",
+            "value": 344,
+            "raw": "344"
+          },
+          {
+            "status": "known",
+            "value": 228,
+            "raw": "228"
+          },
+          {
+            "status": "known",
+            "value": 1120,
+            "raw": "1,120"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": "20s",
+            "raw": "20s"
+          },
+          {
+            "status": "known",
+            "value": 276,
+            "raw": "276"
+          },
+          {
+            "status": "known",
+            "value": 1166,
+            "raw": "1,166"
+          },
+          {
+            "status": "known",
+            "value": 372,
+            "raw": "372"
+          },
+          {
+            "status": "known",
+            "value": 272,
+            "raw": "272"
+          },
+          {
+            "status": "known",
+            "value": 1440,
+            "raw": "1,440"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": "25s",
+            "raw": "25s"
+          },
+          {
+            "status": "known",
+            "value": 346,
+            "raw": "346"
+          },
+          {
+            "status": "known",
+            "value": 1459,
+            "raw": "1,459"
+          },
+          {
+            "status": "known",
+            "value": 397,
+            "raw": "397"
+          },
+          {
+            "status": "known",
+            "value": 307,
+            "raw": "307"
+          },
+          {
+            "status": "known",
+            "value": 1800,
+            "raw": "1,800"
+          },
+          {
+            "status": "known",
+            "value": 200,
+            "raw": "200"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": "25s",
+            "raw": "25s"
+          },
+          {
+            "status": "known",
+            "value": 346,
+            "raw": "346"
+          },
+          {
+            "status": "known",
+            "value": 1459,
+            "raw": "1,459"
+          },
+          {
+            "status": "known",
+            "value": 423,
+            "raw": "423"
+          },
+          {
+            "status": "known",
+            "value": 342,
+            "raw": "342"
+          },
+          {
+            "status": "known",
+            "value": 1900,
+            "raw": "1,900"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": "25s",
+            "raw": "25s"
+          },
+          {
+            "status": "known",
+            "value": 346,
+            "raw": "346"
+          },
+          {
+            "status": "known",
+            "value": 1459,
+            "raw": "1,459"
+          },
+          {
+            "status": "known",
+            "value": 448,
+            "raw": "448"
+          },
+          {
+            "status": "known",
+            "value": 377,
+            "raw": "377"
+          },
+          {
+            "status": "known",
+            "value": 2000,
+            "raw": "2,000"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": "25s",
+            "raw": "25s"
+          },
+          {
+            "status": "known",
+            "value": 416,
+            "raw": "416"
+          },
+          {
+            "status": "known",
+            "value": 1752,
+            "raw": "1,752"
+          },
+          {
+            "status": "known",
+            "value": 474,
+            "raw": "474"
+          },
+          {
+            "status": "known",
+            "value": 412,
+            "raw": "412"
+          },
+          {
+            "status": "known",
+            "value": 2100,
+            "raw": "2,100"
+          },
+          {
+            "status": "known",
+            "value": 400,
+            "raw": "400"
+          },
+          {
+            "status": "known",
+            "value": 20,
+            "raw": "20"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": "25s",
+            "raw": "25s"
+          },
+          {
+            "status": "known",
+            "value": 416,
+            "raw": "416"
+          },
+          {
+            "status": "known",
+            "value": 1752,
+            "raw": "1,752"
+          },
+          {
+            "status": "known",
+            "value": 498,
+            "raw": "498"
+          },
+          {
+            "status": "known",
+            "value": 448,
+            "raw": "448"
+          },
+          {
+            "status": "known",
+            "value": 2200,
+            "raw": "2,200"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": "25s",
+            "raw": "25s"
+          },
+          {
+            "status": "known",
+            "value": 416,
+            "raw": "416"
+          },
+          {
+            "status": "known",
+            "value": 1752,
+            "raw": "1,752"
+          },
+          {
+            "status": "known",
+            "value": 529,
+            "raw": "529"
+          },
+          {
+            "status": "known",
+            "value": 483,
+            "raw": "483"
+          },
+          {
+            "status": "known",
+            "value": 2300,
+            "raw": "2,300"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 15,
+            "raw": "15"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": "25s",
+            "raw": "25s"
+          },
+          {
+            "status": "known",
+            "value": 486,
+            "raw": "486"
+          },
+          {
+            "status": "known",
+            "value": 2045,
+            "raw": "2,045"
+          },
+          {
+            "status": "known",
+            "value": 560,
+            "raw": "560"
+          },
+          {
+            "status": "known",
+            "value": 518,
+            "raw": "518"
+          },
+          {
+            "status": "known",
+            "value": 2400,
+            "raw": "2,400"
+          },
+          {
+            "status": "known",
+            "value": 600,
+            "raw": "600"
+          },
+          {
+            "status": "known",
+            "value": 30,
+            "raw": "30"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": "25s",
+            "raw": "25s"
+          },
+          {
+            "status": "known",
+            "value": 486,
+            "raw": "486"
+          },
+          {
+            "status": "known",
+            "value": 2045,
+            "raw": "2,045"
+          },
+          {
+            "status": "known",
+            "value": 591,
+            "raw": "591"
+          },
+          {
+            "status": "known",
+            "value": 553,
+            "raw": "553"
+          },
+          {
+            "status": "known",
+            "value": 2500,
+            "raw": "2,500"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 17,
+            "raw": "17"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": "25s",
+            "raw": "25s"
+          },
+          {
+            "status": "known",
+            "value": 486,
+            "raw": "486"
+          },
+          {
+            "status": "known",
+            "value": 2045,
+            "raw": "2,045"
+          },
+          {
+            "status": "known",
+            "value": 622,
+            "raw": "622"
+          },
+          {
+            "status": "known",
+            "value": 588,
+            "raw": "588"
+          },
+          {
+            "status": "known",
+            "value": 2600,
+            "raw": "2,600"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 18,
+            "raw": "18"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": "25s",
+            "raw": "25s"
+          },
+          {
+            "status": "known",
+            "value": 556,
+            "raw": "556"
+          },
+          {
+            "status": "known",
+            "value": 2338,
+            "raw": "2,338"
+          },
+          {
+            "status": "known",
+            "value": 652,
+            "raw": "652"
+          },
+          {
+            "status": "known",
+            "value": 624,
+            "raw": "624"
+          },
+          {
+            "status": "known",
+            "value": 2700,
+            "raw": "2,700"
+          },
+          {
+            "status": "known",
+            "value": 600,
+            "raw": "600"
+          },
+          {
+            "status": "known",
+            "value": 50,
+            "raw": "50"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 19,
+            "raw": "19"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": "25s",
+            "raw": "25s"
+          },
+          {
+            "status": "known",
+            "value": 556,
+            "raw": "556"
+          },
+          {
+            "status": "known",
+            "value": 2338,
+            "raw": "2,338"
+          },
+          {
+            "status": "known",
+            "value": 679,
+            "raw": "679"
+          },
+          {
+            "status": "known",
+            "value": 650,
+            "raw": "650"
+          },
+          {
+            "status": "known",
+            "value": 2800,
+            "raw": "2,800"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 20,
+            "raw": "20"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": "25s",
+            "raw": "25s"
+          },
+          {
+            "status": "known",
+            "value": 556,
+            "raw": "556"
+          },
+          {
+            "status": "known",
+            "value": 2338,
+            "raw": "2,338"
+          },
+          {
+            "status": "known",
+            "value": 706,
+            "raw": "706"
+          },
+          {
+            "status": "known",
+            "value": 676,
+            "raw": "676"
+          },
+          {
+            "status": "known",
+            "value": 2900,
+            "raw": "2,900"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 21,
+            "raw": "21"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": "25s",
+            "raw": "25s"
+          },
+          {
+            "status": "known",
+            "value": 626,
+            "raw": "626"
+          },
+          {
+            "status": "known",
+            "value": 2631,
+            "raw": "2,631"
+          },
+          {
+            "status": "known",
+            "value": 732,
+            "raw": "732"
+          },
+          {
+            "status": "known",
+            "value": 703,
+            "raw": "703"
+          },
+          {
+            "status": "known",
+            "value": 3000,
+            "raw": "3,000"
+          },
+          {
+            "status": "known",
+            "value": 600,
+            "raw": "600"
+          },
+          {
+            "status": "known",
+            "value": 100,
+            "raw": "100"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 22,
+            "raw": "22"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": "25s",
+            "raw": "25s"
+          },
+          {
+            "status": "known",
+            "value": 626,
+            "raw": "626"
+          },
+          {
+            "status": "known",
+            "value": 2631,
+            "raw": "2,631"
+          },
+          {
+            "status": "known",
+            "value": 759,
+            "raw": "759"
+          },
+          {
+            "status": "known",
+            "value": 729,
+            "raw": "729"
+          },
+          {
+            "status": "known",
+            "value": 3100,
+            "raw": "3,100"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 23,
+            "raw": "23"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": "25s",
+            "raw": "25s"
+          },
+          {
+            "status": "known",
+            "value": 626,
+            "raw": "626"
+          },
+          {
+            "status": "known",
+            "value": 2631,
+            "raw": "2,631"
+          },
+          {
+            "status": "known",
+            "value": 784,
+            "raw": "784"
+          },
+          {
+            "status": "known",
+            "value": 756,
+            "raw": "756"
+          },
+          {
+            "status": "known",
+            "value": 3200,
+            "raw": "3,200"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 24,
+            "raw": "24"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": "25s",
+            "raw": "25s"
+          },
+          {
+            "status": "known",
+            "value": 696,
+            "raw": "696"
+          },
+          {
+            "status": "known",
+            "value": 2924,
+            "raw": "2,924"
+          },
+          {
+            "status": "known",
+            "value": 811,
+            "raw": "811"
+          },
+          {
+            "status": "known",
+            "value": 782,
+            "raw": "782"
+          },
+          {
+            "status": "known",
+            "value": 3300,
+            "raw": "3,300"
+          },
+          {
+            "status": "known",
+            "value": 600,
+            "raw": "600"
+          },
+          {
+            "status": "known",
+            "value": 120,
+            "raw": "120"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 25,
+            "raw": "25"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": "25s",
+            "raw": "25s"
+          },
+          {
+            "status": "known",
+            "value": 696,
+            "raw": "696"
+          },
+          {
+            "status": "known",
+            "value": 2924,
+            "raw": "2,924"
+          },
+          {
+            "status": "known",
+            "value": 838,
+            "raw": "838"
+          },
+          {
+            "status": "known",
+            "value": 808,
+            "raw": "808"
+          },
+          {
+            "status": "known",
+            "value": 3400,
+            "raw": "3,400"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 26,
+            "raw": "26"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": "25s",
+            "raw": "25s"
+          },
+          {
+            "status": "known",
+            "value": 696,
+            "raw": "696"
+          },
+          {
+            "status": "known",
+            "value": 2924,
+            "raw": "2,924"
+          },
+          {
+            "status": "known",
+            "value": 864,
+            "raw": "864"
+          },
+          {
+            "status": "known",
+            "value": 835,
+            "raw": "835"
+          },
+          {
+            "status": "known",
+            "value": 3500,
+            "raw": "3,500"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 27,
+            "raw": "27"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": "30s",
+            "raw": "30s"
+          },
+          {
+            "status": "known",
+            "value": 765,
+            "raw": "765"
+          },
+          {
+            "status": "known",
+            "value": 3216,
+            "raw": "3,216"
+          },
+          {
+            "status": "known",
+            "value": 891,
+            "raw": "891"
+          },
+          {
+            "status": "known",
+            "value": 861,
+            "raw": "861"
+          },
+          {
+            "status": "known",
+            "value": 3600,
+            "raw": "3,600"
+          },
+          {
+            "status": "known",
+            "value": 600,
+            "raw": "600"
+          },
+          {
+            "status": "known",
+            "value": 150,
+            "raw": "150"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 7,
+          "type": "cost",
+          "icon": "Shiny_Ore",
+          "gpClass": "research",
+          "noGoldPass": true
+        },
+        {
+          "column": 8,
+          "type": "cost",
+          "icon": "Glowy_Ore",
+          "gpClass": "research",
+          "noGoldPass": true
+        },
+        {
+          "column": 9,
+          "type": "cost",
+          "icon": "Starry_Ore",
+          "gpClass": "research",
+          "noGoldPass": true
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "name": "Magic_Mirror_info.png",
+      "url": "https://static.clashpost.com/upgrade/home_heroes/0745/Magic_Mirror_info.png",
+      "alt": "克隆魔镜",
+      "localPath": "/images/original/upgrade/home_heroes/0745/Magic_Mirror_info.webp",
+      "logicalPath": "/upgrade/home_heroes/0745/Magic_Mirror_info.png"
+    }
+  ],
+  "history": [],
+  "facts": [],
+  "notices": []
+}

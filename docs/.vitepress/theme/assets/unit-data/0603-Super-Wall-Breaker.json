@@ -1,0 +1,470 @@
+{
+  "unitId": "0603-Super-Wall-Breaker",
+  "title": "超级炸弹人",
+  "originalName": "Super Wall Breaker",
+  "module": "upgrade-home",
+  "imgFolder": "home_tech/0603",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Super_Wall_Breaker",
+    "revision": 624690,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Super_Wall_Breaker?oldid=624690",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 1,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Preferred Target",
+        "Attack Type",
+        "Housing Space",
+        "Movement Speed",
+        "Range",
+        "Special Ability"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "Walls (Damage x40)",
+            "raw": "Walls (Damage x40)"
+          },
+          {
+            "status": "known",
+            "value": "Melee (Ground Only) Splash (1.6 tiles)",
+            "raw": "Melee (Ground Only) Splash (1.6 tiles)"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": 28,
+            "raw": "28"
+          },
+          {
+            "status": "known",
+            "value": "0.6 tiles",
+            "raw": "0.6 tiles"
+          },
+          {
+            "status": "known",
+            "value": "Mega Bomb",
+            "raw": "Mega Bomb"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 2,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Boost Cost",
+        "Boost Duration",
+        "Wall Breaker Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 25000,
+            "raw": "25,000"
+          },
+          {
+            "status": "known",
+            "value": "3d",
+            "raw": "3d"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 0,
+          "type": "cost",
+          "icon": "Dark_Elixir",
+          "gpClass": "research",
+          "noGoldPass": true
+        }
+      ]
+    },
+    {
+      "sourceTableIndex": 3,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Level",
+        "Damage",
+        "Damage when destroyed",
+        "Damage to Walls",
+        "Damage when destroyed to Walls",
+        "Hitpoints"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 34,
+            "raw": "34"
+          },
+          {
+            "status": "known",
+            "value": 105,
+            "raw": "105"
+          },
+          {
+            "status": "known",
+            "value": 1360,
+            "raw": "1,360"
+          },
+          {
+            "status": "known",
+            "value": 4200,
+            "raw": "4,200"
+          },
+          {
+            "status": "known",
+            "value": 250,
+            "raw": "250"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 56,
+            "raw": "56"
+          },
+          {
+            "status": "known",
+            "value": 140,
+            "raw": "140"
+          },
+          {
+            "status": "known",
+            "value": 2240,
+            "raw": "2,240"
+          },
+          {
+            "status": "known",
+            "value": 5600,
+            "raw": "5,600"
+          },
+          {
+            "status": "known",
+            "value": 300,
+            "raw": "300"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": 78,
+            "raw": "78"
+          },
+          {
+            "status": "known",
+            "value": 175,
+            "raw": "175"
+          },
+          {
+            "status": "known",
+            "value": 3120,
+            "raw": "3,120"
+          },
+          {
+            "status": "known",
+            "value": 7000,
+            "raw": "7,000"
+          },
+          {
+            "status": "known",
+            "value": 350,
+            "raw": "350"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": 100,
+            "raw": "100"
+          },
+          {
+            "status": "known",
+            "value": 225,
+            "raw": "225"
+          },
+          {
+            "status": "known",
+            "value": 4000,
+            "raw": "4,000"
+          },
+          {
+            "status": "known",
+            "value": 9000,
+            "raw": "9,000"
+          },
+          {
+            "status": "known",
+            "value": 400,
+            "raw": "400"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          },
+          {
+            "status": "known",
+            "value": 120,
+            "raw": "120"
+          },
+          {
+            "status": "known",
+            "value": 275,
+            "raw": "275"
+          },
+          {
+            "status": "known",
+            "value": 4800,
+            "raw": "4,800"
+          },
+          {
+            "status": "known",
+            "value": 11000,
+            "raw": "11,000"
+          },
+          {
+            "status": "known",
+            "value": 450,
+            "raw": "450"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 130,
+            "raw": "130"
+          },
+          {
+            "status": "known",
+            "value": 313,
+            "raw": "313"
+          },
+          {
+            "status": "known",
+            "value": 5200,
+            "raw": "5,200"
+          },
+          {
+            "status": "known",
+            "value": 12520,
+            "raw": "12,520"
+          },
+          {
+            "status": "known",
+            "value": 475,
+            "raw": "475"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          },
+          {
+            "status": "known",
+            "value": 140,
+            "raw": "140"
+          },
+          {
+            "status": "known",
+            "value": 338,
+            "raw": "338"
+          },
+          {
+            "status": "known",
+            "value": 5600,
+            "raw": "5,600"
+          },
+          {
+            "status": "known",
+            "value": 13520,
+            "raw": "13,520"
+          },
+          {
+            "status": "known",
+            "value": 500,
+            "raw": "500"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          },
+          {
+            "status": "known",
+            "value": 150,
+            "raw": "150"
+          },
+          {
+            "status": "known",
+            "value": 363,
+            "raw": "363"
+          },
+          {
+            "status": "known",
+            "value": 6000,
+            "raw": "6,000"
+          },
+          {
+            "status": "known",
+            "value": 14520,
+            "raw": "14,520"
+          },
+          {
+            "status": "known",
+            "value": 525,
+            "raw": "525"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          },
+          {
+            "status": "known",
+            "value": 160,
+            "raw": "160"
+          },
+          {
+            "status": "known",
+            "value": 388,
+            "raw": "388"
+          },
+          {
+            "status": "known",
+            "value": 6400,
+            "raw": "6,400"
+          },
+          {
+            "status": "known",
+            "value": 15520,
+            "raw": "15,520"
+          },
+          {
+            "status": "known",
+            "value": 550,
+            "raw": "550"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          },
+          {
+            "status": "known",
+            "value": 170,
+            "raw": "170"
+          },
+          {
+            "status": "known",
+            "value": 413,
+            "raw": "413"
+          },
+          {
+            "status": "known",
+            "value": 6800,
+            "raw": "6,800"
+          },
+          {
+            "status": "known",
+            "value": 16520,
+            "raw": "16,520"
+          },
+          {
+            "status": "known",
+            "value": 575,
+            "raw": "575"
+          }
+        ]
+      ],
+      "extraInfo": []
+    }
+  ],
+  "images": [
+    {
+      "name": "Super_Wall_Breaker_info.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0603/Super_Wall_Breaker_info.png",
+      "alt": "超级炸弹人",
+      "localPath": "/images/original/upgrade/home_tech/0603/Super_Wall_Breaker_info.webp",
+      "logicalPath": "/upgrade/home_tech/0603/Super_Wall_Breaker_info.png"
+    },
+    {
+      "name": "Super_Wall_Breaker7.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0603/Super_Wall_Breaker7.png",
+      "alt": "所有等级",
+      "localPath": "/images/original/upgrade/home_tech/0603/Super_Wall_Breaker7.webp",
+      "logicalPath": "/upgrade/home_tech/0603/Super_Wall_Breaker7.png"
+    },
+    {
+      "name": "Super_Wall_Breaker_info_2.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b4/Super_Wall_Breaker_info_2.png/revision/latest/scale-to-width-down/114?cb=20260707232803",
+      "alt": "",
+      "localPath": "/images/wiki/0603-Super-Wall-Breaker/f4fbd9a193-Super_Wall_Breaker_info_2.png",
+      "logicalPath": "/upgrade/home_tech/0603/Super_Wall_Breaker_info_2.png"
+    }
+  ],
+  "history": [],
+  "facts": [
+    "The Super Wall Breaker is a Super Troop based on the Wall Breaker. It can be unlocked by boosting the Wall Breaker when the Wall Breaker is at least level 7.",
+    "Boosting the Wall Breaker requires 25,000 Dark Elixir or a Super Potion, and doing so allows the Wall Breaker to be boosted for 3 days. The level of Super Wall Breaker you obtain from the boost corresponds to the level of Wall Breaker you have.",
+    "Because of the level requirement, players require Town Hall 11 in order to boost Wall Breakers into Super Wall Breakers. However, players require a level 5 Clan Castle or greater in order to get donated one, allowing anyone Town Hall 9 or above to get one."
+  ],
+  "notices": []
+}

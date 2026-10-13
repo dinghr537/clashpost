@@ -1,0 +1,285 @@
+{
+  "unitId": "048a-Crafting-Station",
+  "title": "精制台",
+  "originalName": "Crafting Station",
+  "module": "upgrade-home",
+  "imgFolder": "home_buildings/048a",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Crafting_Station",
+    "revision": 624956,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Crafting_Station?oldid=624956",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 0,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Town Hall Level",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "Number Available",
+            "raw": "Number Available"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          }
+        ],
+        [
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          },
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          },
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          },
+          {
+            "status": "known",
+            "value": 15,
+            "raw": "15"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          },
+          {
+            "status": "known",
+            "value": 17,
+            "raw": "17"
+          },
+          {
+            "status": "known",
+            "value": 18,
+            "raw": "18"
+          }
+        ],
+        [
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 1,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Size"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "3x3",
+            "raw": "3x3"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 2,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Hitpoints",
+        "Build Cost",
+        "Build Time"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1000,
+            "raw": "1,000"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "None"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "None"
+          }
+        ]
+      ],
+      "extraInfo": []
+    }
+  ],
+  "images": [
+    {
+      "name": "Crafting_Station_info.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/048a/Crafting_Station_info.png",
+      "alt": "精制台",
+      "localPath": "/images/original/upgrade/home_buildings/048a/Crafting_Station_info.webp",
+      "logicalPath": "/upgrade/home_buildings/048a/Crafting_Station_info.png"
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-03-30",
+      "description": "Announced the Roaster, Air Bombs, and Lava Launcher. Roaster1 Crafted Roaster2 Crafted Roaster3 Crafted Roaster4 Crafted Roaster5 Crafted Roaster6 Crafted Roaster7 Crafted Roaster8 Crafted Roaster9 Crafted Roaster10 Crafted Air Bombs1 Crafted Air Bombs2 Crafted Air Bombs3 Crafted Air Bombs4 Crafted Air Bombs5 Crafted Air Bombs6 Crafted Air Bombs7 Crafted Air Bombs8 Crafted Air Bombs9 Crafted Air Bombs10 Crafted Lava Launcher1 Crafted Lava Launcher2 Crafted Lava Launcher3 Crafted Lava Launcher4 Crafted Lava Launcher5 Crafted Lava Launcher6 Crafted Lava Launcher7 Crafted"
+    },
+    {
+      "date": "2026-03-31",
+      "description": "Removed all the defenses from the Crafting Station."
+    },
+    {
+      "date": "2026-04-01",
+      "description": "Added the Phase 3 Crafted Defenses."
+    },
+    {
+      "date": "2026-07-30",
+      "description": "Announced the Hot Candle, Hero Hunter, and Cake-A-Pult. Hot Candle1-1 Hot Candle2-1 Hot Candle3-1 Hot Candle4-1 Hero Hunter1 Hero Hunter2 Hero Hunter3 Hero Hunter4 Cake-A-Pult1 Cake-A-Pult2 Cake-A-Pult3 Cake-A-Pult4"
+    },
+    {
+      "date": "2026-07-31",
+      "description": "Removed all the defenses from the Crafting Station."
+    },
+    {
+      "date": "2026-08-01",
+      "description": "Added the Phase 4 Crafted Defenses. Made Crafting Station available for Town Hall 11."
+    }
+  ],
+  "facts": [
+    "The Crafting Station is a defensive building unlocked at the highest Town Hall level (currently level 18), which can be toggled between three different modes, each with their advantages and disadvantages. It is free and covers a 3x3 area of the base.",
+    "Modules are improvements of defenses that can be upgraded, up to level 10 each. Each module controls a certain aspect of the defense, such as hitpoints, damage, attack frequency or unique effects.",
+    "Crafted Defenses will always defend the village, even while upgrading. They will also start at level 3 (level 1 for each of the three modules), and can be upgraded up to level 30 (with all modules at level 10).",
+    "Leveling one Crafted Defense to the maximum gives a total of 216 .",
+    "Leveling all current available three Crafted Defenses to the maximum gives a total of 648 ."
+  ],
+  "notices": []
+}

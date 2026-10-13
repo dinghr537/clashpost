@@ -1,0 +1,558 @@
+{
+  "unitId": "0318-Super-Wizard-Tower",
+  "title": "超级法师塔",
+  "originalName": "Super Wizard Tower",
+  "module": "upgrade-home",
+  "imgFolder": "home_buildings/0318",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Super_Wizard_Tower",
+    "revision": 618175,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Super_Wizard_Tower?oldid=618175",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 2,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Town Hall Level",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "Number Available",
+            "raw": "Number Available"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          }
+        ],
+        [
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          },
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          },
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          },
+          {
+            "status": "known",
+            "value": 15,
+            "raw": "15"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          },
+          {
+            "status": "known",
+            "value": 17,
+            "raw": "17"
+          },
+          {
+            "status": "known",
+            "value": 18,
+            "raw": "18"
+          }
+        ],
+        [
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 3,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Size"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "3x3",
+            "raw": "3x3"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 4,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Level",
+        "Damage per Second",
+        "Damage per Hit (Primary)",
+        "Damage per Hit (Secondary)",
+        "Hitpoints",
+        "Build Cost",
+        "Build Time",
+        "Experience Gained",
+        "Town Hall Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 290,
+            "raw": "290"
+          },
+          {
+            "status": "known",
+            "value": 377,
+            "raw": "377"
+          },
+          {
+            "status": "known",
+            "value": 150.8,
+            "raw": "150.8"
+          },
+          {
+            "status": "known",
+            "value": 6000,
+            "raw": "6,000"
+          },
+          {
+            "status": "known",
+            "value": 29000000,
+            "raw": "29,000,000"
+          },
+          {
+            "status": "known",
+            "value": 1123200,
+            "raw": "13d",
+            "unit": "seconds",
+            "displayInput": "13,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 1059,
+            "raw": "1,059"
+          },
+          {
+            "status": "known",
+            "value": 18,
+            "raw": "18"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 320,
+            "raw": "320"
+          },
+          {
+            "status": "known",
+            "value": 416,
+            "raw": "416"
+          },
+          {
+            "status": "known",
+            "value": 166.4,
+            "raw": "166.4"
+          },
+          {
+            "status": "known",
+            "value": 6300,
+            "raw": "6,300"
+          },
+          {
+            "status": "known",
+            "value": 30000000,
+            "raw": "30,000,000"
+          },
+          {
+            "status": "known",
+            "value": 1209600,
+            "raw": "14d",
+            "unit": "seconds",
+            "displayInput": "14,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 1099,
+            "raw": "1,099"
+          },
+          {
+            "status": "known",
+            "value": 18,
+            "raw": "18"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 5,
+          "type": "cost",
+          "icon": "Gold",
+          "gpClass": "building",
+          "noGoldPass": false
+        },
+        {
+          "column": 6,
+          "type": "time",
+          "gpClass": "building",
+          "noGoldPass": false
+        }
+      ]
+    },
+    {
+      "sourceTableIndex": 6,
+      "section": "Statistics",
+      "title": "Supercharges",
+      "headers": [
+        "Charge Level ⚡",
+        "Damage per Second",
+        "Damage per Hit (Primary)",
+        "Damage per Hit (Secondary)",
+        "Hitpoints",
+        "Build Cost",
+        "Build Time",
+        "Experience Gained",
+        "Town Hall Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 327,
+            "raw": "327"
+          },
+          {
+            "status": "known",
+            "value": 425.1,
+            "raw": "425.1"
+          },
+          {
+            "status": "known",
+            "value": 170.04,
+            "raw": "170.04"
+          },
+          {
+            "status": "known",
+            "value": 6300,
+            "raw": "6,300"
+          },
+          {
+            "status": "known",
+            "value": 12000000,
+            "raw": "12,000,000"
+          },
+          {
+            "status": "known",
+            "value": 518400,
+            "raw": "6d",
+            "unit": "seconds",
+            "displayInput": "6,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 720,
+            "raw": "720"
+          },
+          {
+            "status": "known",
+            "value": 18,
+            "raw": "18"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 327,
+            "raw": "327"
+          },
+          {
+            "status": "known",
+            "value": 425.1,
+            "raw": "425.1"
+          },
+          {
+            "status": "known",
+            "value": 170.04,
+            "raw": "170.04"
+          },
+          {
+            "status": "known",
+            "value": 6450,
+            "raw": "6,450"
+          },
+          {
+            "status": "known",
+            "value": 14000000,
+            "raw": "14,000,000"
+          },
+          {
+            "status": "known",
+            "value": 604800,
+            "raw": "7d",
+            "unit": "seconds",
+            "displayInput": "7,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 777,
+            "raw": "777"
+          },
+          {
+            "status": "known",
+            "value": 18,
+            "raw": "18"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 5,
+          "type": "cost",
+          "icon": "Gold",
+          "gpClass": "building",
+          "noGoldPass": false
+        },
+        {
+          "column": 6,
+          "type": "time",
+          "gpClass": "building",
+          "noGoldPass": false
+        }
+      ]
+    },
+    {
+      "sourceTableIndex": 7,
+      "section": "Statistics",
+      "title": "Supercharges",
+      "headers": [
+        "Range",
+        "Attack Speed",
+        "Damage Type",
+        "Chain Damage Decay",
+        "Chain Distance",
+        "Unit Type Targeted"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "8 tiles",
+            "raw": "8 tiles"
+          },
+          {
+            "status": "known",
+            "value": "1.3s",
+            "raw": "1.3s"
+          },
+          {
+            "status": "known",
+            "value": "Single Target (Chain Lightning; up to 15 other targets)",
+            "raw": "Single Target (Chain Lightning; up to 15 other targets)"
+          },
+          {
+            "status": "known",
+            "value": "60%",
+            "raw": "60%"
+          },
+          {
+            "status": "known",
+            "value": "4 tiles",
+            "raw": "4 tiles"
+          },
+          {
+            "status": "known",
+            "value": "Ground & Air",
+            "raw": "Ground & Air"
+          }
+        ]
+      ],
+      "extraInfo": []
+    }
+  ],
+  "images": [
+    {
+      "name": "Super_Wizard_Tower2_hd.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0318/Super_Wizard_Tower2_hd.png",
+      "alt": "超级法师塔",
+      "localPath": "/images/original/upgrade/home_buildings/0318/Super_Wizard_Tower2_hd.webp",
+      "logicalPath": "/upgrade/home_buildings/0318/Super_Wizard_Tower2_hd.png"
+    },
+    {
+      "name": "Super_Wizard_Tower_Ruin.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0318/Super_Wizard_Tower_Ruin.png",
+      "alt": "建造中",
+      "localPath": "/images/original/upgrade/home_buildings/0318/Super_Wizard_Tower_Ruin.webp",
+      "logicalPath": "/upgrade/home_buildings/0318/Super_Wizard_Tower_Ruin.png"
+    },
+    {
+      "name": "Super_Wizard_Tower1.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0318/Super_Wizard_Tower1.png",
+      "alt": "1 级",
+      "localPath": "/images/original/upgrade/home_buildings/0318/Super_Wizard_Tower1.webp",
+      "logicalPath": "/upgrade/home_buildings/0318/Super_Wizard_Tower1.png"
+    },
+    {
+      "name": "Super_Wizard_Tower2.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0318/Super_Wizard_Tower2.png",
+      "alt": "2 级",
+      "localPath": "/images/original/upgrade/home_buildings/0318/Super_Wizard_Tower2.webp",
+      "logicalPath": "/upgrade/home_buildings/0318/Super_Wizard_Tower2.png"
+    }
+  ],
+  "history": [],
+  "facts": [
+    "The Super Wizard Tower is a defense that unlocks at Town Hall 18 and is constructed by merging two level 17 Wizard Towers together.",
+    "Compared to two normal Wizard Towers, the Super Wizard Tower starts off with 9.1% less health but each bolt deals 31.8% more damage than the two combined, and getting extra range."
+  ],
+  "notices": []
+}

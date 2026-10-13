@@ -80,6 +80,7 @@ if (activeTabCookieValue === "home-techniques") {
         <ListItem name="冰封箭矢" imgSrc="0744/Frozen_Arrow_thumb.png" link="0744-Frozen-Arrow" />
         <ListItem name="克隆魔镜" imgSrc="0745/Magic_Mirror_thumb.png" link="0745-Magic-Mirror" />
         <ListItem name="动作人偶" imgSrc="0746/Action_Figure_thumb.png" link="0746-Action-Figure" />
+        <ListItem name="Monolith Arrow" imgSrc="/images/wiki/0747-Monolith-Arrow/3e4efefce8-Monolith_Arrow.png" link="0747-Monolith-Arrow" />
     </ListItems>
     <ListItems title="装备（亡灵王子）" imgFolder="home_heroes">
         <ListItem name="护卫玩偶" imgSrc="0720/Henchmen_Puppet_thumb.png" link="0720-Henchmen-Puppet" />
@@ -88,6 +89,7 @@ if (activeTabCookieValue === "home-techniques") {
         <ListItem name="贵族哑铃" imgSrc="0723/Noble_Iron_thumb.png" link="0723-Noble-Iron" />
         <listItem name="暗黑皇冠" imgSrc="0724/Dark_Crown.png" link="0724-Dark-Crown" />
         <listItem name="陨石法杖" imgSrc="0725/Meteor_Staff_thumb.png" link="0725-Meteor-Staff" />
+        <ListItem name="Portal Pendant" imgSrc="/images/wiki/0726-Portal-Pendant/2b3d178372-Portal_Pendant.png" link="0726-Portal-Pendant" />
     </ListItems>
     <ListItems title="装备（大守护者）" imgFolder="home_heroes">
         <ListItem name="永恒书卷" imgSrc="0780/Eternal_Tome_thumb.png" link="0780-Eternal-Tome" />
@@ -113,6 +115,7 @@ if (activeTabCookieValue === "home-techniques") {
         <ListItem name="爆震器" imgSrc="07e2/Stun_Blaster_thumb.png" link="07e2-Stun-Blaster" />
         <ListItem name="雷电獠牙" imgSrc="07e4/Electro_Fangs_thumb.png" link="07e4-Electro-Fangs" />
         <ListItem name="火箭背包" imgSrc="07e3/Rocket_Backpack_thumb.png" link="07e3-Rocket-Backpack" />
+        <ListItem name="Revenge Deck" imgSrc="/images/wiki/07e5-Revenge-Deck/3923a84b72-Revenge_Deck.png" link="07e5-Revenge-Deck" />
     </ListItems>
 </SwitchTabGroup>
 
@@ -151,6 +154,8 @@ if (activeTabCookieValue === "home-techniques") {
         <ListItem name="守护者学徒" imgSrc="0089/Apprentice_Warden_thumb.png" link="0089-Apprentice-Warden" />
         <ListItem name="德鲁伊" imgSrc="008a/Druid_thumb.png" link="008a-Druid" />
         <ListItem name="烈焰熔炉" imgSrc="008b/Furnace_thumb.png" link="008b-Furnace" />
+        <ListItem name="Ruin Witch" imgSrc="/images/wiki/0013-Ruin-Witch/78d8f4a05a-Ruin_Witch_info.png" link="0013-Ruin-Witch" />
+        <ListItem name="Ruin Knight" imgSrc="/images/wiki/0014-Ruin-Knight/a3f06a0919-Ruin_Knight_info.png" link="0014-Ruin-Knight" />
     </ListItems>
     <ListItems title="超级兵" imgFolder="home_tech">
         <ListItem name="超级野蛮人" imgSrc="0600/Super_Barbarian_thumb.png" link="0600-Super-Barbarian" />
@@ -189,6 +194,7 @@ if (activeTabCookieValue === "home-techniques") {
         <ListItem name="蝙蝠法术" imgSrc="0184/Bat_Spell.png" link="0184-Bat-Spell" />
         <ListItem name="蔓生法术" imgSrc="0185/Overgrowth_Spell.png" link="0185-Overgrowth-Spell" />
         <ListItem name="冰障法术" imgSrc="0186/Ice_Block_Spell_thumb.png" link="0186-Ice-Block-Spell" />
+        <ListItem name="Angry Spell" imgSrc="/images/wiki/0187-Angry-Spell/270a9a730f-Angry_Spell_info.png" link="0187-Angry-Spell" />
     </ListItems>
     <ListItems title="攻城机器" imgFolder="home_tech">
         <ListItem name="攻城战车" imgSrc="0240/Wall_Wrecker_thumb.png" link="0240-Wall-Wrecker" />
@@ -205,6 +211,7 @@ if (activeTabCookieValue === "home-techniques") {
         <ListItem name="实验助理" imgSrc="0800/Lab_Assistant_thumb.png" link="0800-Lab-Assistant" />
         <ListItem name="建筑工人学徒" imgSrc="0801/Builder%27s_Apprentice_thumb.png" link="0801-Builder%27s-Apprentice" />
         <ListItem name="炼金术士" imgSrc="0802/Alchemist_thumb.png" link="0802-Alchemist" />
+        <ListItem name="Prospector" imgSrc="/images/wiki/0803-Prospector/f64c91b49f-Prospector_interface.png" link="0803-Prospector" />
     </ListItems>
 </SwitchTabGroup>
 
@@ -218,6 +225,7 @@ if (activeTabCookieValue === "home-techniques") {
     <ListItems title="守卫" imgFolder="home_th">
         <ListItem name="远袭者" imgSrc="0840/Longshot_thumb.png" link="0840-Longshot" />
         <ListItem name="粉碎者" imgSrc="0841/Smasher_thumb.png" link="0841-Smasher" />
+        <ListItem name="滚木守卫" imgSrc="/images/wiki/0842-Logger/f2babe6c6c-Logger1.png" link="0842-Logger" />
     </ListItems>
 </SwitchTabGroup>
 

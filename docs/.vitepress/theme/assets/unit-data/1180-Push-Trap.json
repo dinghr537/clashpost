@@ -1,0 +1,559 @@
+{
+  "unitId": "1180-Push-Trap",
+  "title": "弹射陷阱",
+  "originalName": "Push Trap",
+  "module": "upgrade-bh",
+  "imgFolder": "bh_buildings/1180",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Push_Trap",
+    "revision": 620914,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Push_Trap?oldid=620914",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 1,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Number Available",
+        "Builder Hall Level / 1",
+        "Builder Hall Level / 2",
+        "Builder Hall Level / 3",
+        "Builder Hall Level / 4",
+        "Builder Hall Level / 5",
+        "Builder Hall Level / 6",
+        "Builder Hall Level / 7",
+        "Builder Hall Level / 8",
+        "Builder Hall Level / 9",
+        "Builder Hall Level / 10"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "Total",
+            "raw": "Total"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 2,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Size"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "2x2",
+            "raw": "2x2"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 3,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Level",
+        "Spring Capacity",
+        "Cost",
+        "Build Time",
+        "Experience Gained",
+        "Builder Hall Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": 1000,
+            "raw": "1,000"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 3000,
+            "raw": "3,000"
+          },
+          {
+            "status": "known",
+            "value": 300,
+            "raw": "5m",
+            "unit": "seconds",
+            "displayInput": "0,0,5,0"
+          },
+          {
+            "status": "known",
+            "value": 17,
+            "raw": "17"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          },
+          {
+            "status": "known",
+            "value": 10000,
+            "raw": "10,000"
+          },
+          {
+            "status": "known",
+            "value": 1200,
+            "raw": "20m",
+            "unit": "seconds",
+            "displayInput": "0,0,20,0"
+          },
+          {
+            "status": "known",
+            "value": 34,
+            "raw": "34"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          },
+          {
+            "status": "known",
+            "value": 20000,
+            "raw": "20,000"
+          },
+          {
+            "status": "known",
+            "value": 7200,
+            "raw": "2h",
+            "unit": "seconds",
+            "displayInput": "0,2,0,0"
+          },
+          {
+            "status": "known",
+            "value": 84,
+            "raw": "84"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          },
+          {
+            "status": "known",
+            "value": 40000,
+            "raw": "40,000"
+          },
+          {
+            "status": "known",
+            "value": 14400,
+            "raw": "4h",
+            "unit": "seconds",
+            "displayInput": "0,4,0,0"
+          },
+          {
+            "status": "known",
+            "value": 120,
+            "raw": "120"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 18,
+            "raw": "18"
+          },
+          {
+            "status": "known",
+            "value": 60000,
+            "raw": "60,000"
+          },
+          {
+            "status": "known",
+            "value": 43200,
+            "raw": "12h",
+            "unit": "seconds",
+            "displayInput": "0,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 207,
+            "raw": "207"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": 20,
+            "raw": "20"
+          },
+          {
+            "status": "known",
+            "value": 100000,
+            "raw": "100,000"
+          },
+          {
+            "status": "known",
+            "value": 57600,
+            "raw": "16h",
+            "unit": "seconds",
+            "displayInput": "0,16,0,0"
+          },
+          {
+            "status": "known",
+            "value": 240,
+            "raw": "240"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": 22,
+            "raw": "22"
+          },
+          {
+            "status": "known",
+            "value": 200000,
+            "raw": "200,000"
+          },
+          {
+            "status": "known",
+            "value": 86400,
+            "raw": "1d",
+            "unit": "seconds",
+            "displayInput": "1,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 293,
+            "raw": "293"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          },
+          {
+            "status": "known",
+            "value": 24,
+            "raw": "24"
+          },
+          {
+            "status": "known",
+            "value": 300000,
+            "raw": "300,000"
+          },
+          {
+            "status": "known",
+            "value": 129600,
+            "raw": "1d 12h",
+            "unit": "seconds",
+            "displayInput": "1,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 360,
+            "raw": "360"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 26,
+            "raw": "26"
+          },
+          {
+            "status": "known",
+            "value": 500000,
+            "raw": "500,000"
+          },
+          {
+            "status": "known",
+            "value": 172800,
+            "raw": "2d",
+            "unit": "seconds",
+            "displayInput": "2,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 415,
+            "raw": "415"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 2,
+          "type": "cost",
+          "icon": "Gold2",
+          "gpClass": "building",
+          "noGoldPass": false
+        },
+        {
+          "column": 3,
+          "type": "time",
+          "gpClass": "building",
+          "noGoldPass": false
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "name": "Push_Trap10.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1180/Push_Trap10.png",
+      "alt": "弹射陷阱",
+      "localPath": "/images/original/upgrade/bh_buildings/1180/Push_Trap10.webp",
+      "logicalPath": "/upgrade/bh_buildings/1180/Push_Trap10.png"
+    },
+    {
+      "name": "Push_Trap1.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1180/Push_Trap1.png",
+      "alt": "1 级",
+      "localPath": "/images/original/upgrade/bh_buildings/1180/Push_Trap1.webp",
+      "logicalPath": "/upgrade/bh_buildings/1180/Push_Trap1.png"
+    },
+    {
+      "name": "Push_Trap2.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1180/Push_Trap2.png",
+      "alt": "2 级",
+      "localPath": "/images/original/upgrade/bh_buildings/1180/Push_Trap2.webp",
+      "logicalPath": "/upgrade/bh_buildings/1180/Push_Trap2.png"
+    },
+    {
+      "name": "Push_Trap3.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1180/Push_Trap3.png",
+      "alt": "3 级",
+      "localPath": "/images/original/upgrade/bh_buildings/1180/Push_Trap3.webp",
+      "logicalPath": "/upgrade/bh_buildings/1180/Push_Trap3.png"
+    },
+    {
+      "name": "Push_Trap4.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1180/Push_Trap4.png",
+      "alt": "4 级",
+      "localPath": "/images/original/upgrade/bh_buildings/1180/Push_Trap4.webp",
+      "logicalPath": "/upgrade/bh_buildings/1180/Push_Trap4.png"
+    },
+    {
+      "name": "Push_Trap5.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1180/Push_Trap5.png",
+      "alt": "5 级",
+      "localPath": "/images/original/upgrade/bh_buildings/1180/Push_Trap5.webp",
+      "logicalPath": "/upgrade/bh_buildings/1180/Push_Trap5.png"
+    },
+    {
+      "name": "Push_Trap6.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1180/Push_Trap6.png",
+      "alt": "6 级",
+      "localPath": "/images/original/upgrade/bh_buildings/1180/Push_Trap6.webp",
+      "logicalPath": "/upgrade/bh_buildings/1180/Push_Trap6.png"
+    },
+    {
+      "name": "Push_Trap7.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1180/Push_Trap7.png",
+      "alt": "7 级",
+      "localPath": "/images/original/upgrade/bh_buildings/1180/Push_Trap7.webp",
+      "logicalPath": "/upgrade/bh_buildings/1180/Push_Trap7.png"
+    },
+    {
+      "name": "Push_Trap8.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1180/Push_Trap8.png",
+      "alt": "8 级",
+      "localPath": "/images/original/upgrade/bh_buildings/1180/Push_Trap8.webp",
+      "logicalPath": "/upgrade/bh_buildings/1180/Push_Trap8.png"
+    },
+    {
+      "name": "Push_Trap9.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1180/Push_Trap9.png",
+      "alt": "9 级",
+      "localPath": "/images/original/upgrade/bh_buildings/1180/Push_Trap9.webp",
+      "logicalPath": "/upgrade/bh_buildings/1180/Push_Trap9.png"
+    }
+  ],
+  "history": [],
+  "facts": [
+    "The Battle Machine has a spring weight of 25, but cannot be affected by this trap."
+  ],
+  "notices": []
+}

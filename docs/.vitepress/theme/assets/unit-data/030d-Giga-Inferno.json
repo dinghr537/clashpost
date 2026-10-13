@@ -1,0 +1,585 @@
+{
+  "unitId": "030d-Giga-Inferno",
+  "title": "巨型地狱之塔",
+  "originalName": "Town Hall/Giga Inferno",
+  "module": "upgrade-home",
+  "imgFolder": "home_buildings/030d",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Town_Hall/Giga_Inferno",
+    "revision": 616218,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Town_Hall/Giga_Inferno?oldid=616218",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 2,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Damage per Second per Target",
+        "Damage per Hit",
+        "Number of Targets",
+        "Damage when Destroyed",
+        "Death Damage Radius",
+        "Speed Decrease",
+        "Attack Rate Decrease",
+        "Slowdown Time when Destroyed",
+        "Hitpoints"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 220,
+            "raw": "220"
+          },
+          {
+            "status": "known",
+            "value": 28.16,
+            "raw": "28.16"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 700,
+            "raw": "700"
+          },
+          {
+            "status": "known",
+            "value": "4 tiles",
+            "raw": "4 tiles"
+          },
+          {
+            "status": "known",
+            "value": "50%",
+            "raw": "50%"
+          },
+          {
+            "status": "known",
+            "value": "50%",
+            "raw": "50%"
+          },
+          {
+            "status": "known",
+            "value": "8s",
+            "raw": "8s"
+          },
+          {
+            "status": "known",
+            "value": 8200,
+            "raw": "8,200"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 3,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Range",
+        "Attack Speed",
+        "Damage Type",
+        "Unit Type Targeted"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": "0.128s",
+            "raw": "0.128s"
+          },
+          {
+            "status": "known",
+            "value": "Multiple Targets",
+            "raw": "Multiple Targets"
+          },
+          {
+            "status": "known",
+            "value": "Ground & Air",
+            "raw": "Ground & Air"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 10,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Damage per Second per Target",
+        "Damage per Hit",
+        "Number of targets",
+        "Damage when destroyed",
+        "Death Damage Radius",
+        "Poison Max DPS",
+        "Speed decrease",
+        "Attack Rate decrease",
+        "Poison duration when Destroyed",
+        "Hitpoints"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 280,
+            "raw": "280"
+          },
+          {
+            "status": "known",
+            "value": 35.84,
+            "raw": "35.84"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 900,
+            "raw": "900"
+          },
+          {
+            "status": "known",
+            "value": "4 tiles",
+            "raw": "4 tiles"
+          },
+          {
+            "status": "known",
+            "value": 180,
+            "raw": "180"
+          },
+          {
+            "status": "known",
+            "value": "50%",
+            "raw": "50%"
+          },
+          {
+            "status": "known",
+            "value": "50%",
+            "raw": "50%"
+          },
+          {
+            "status": "known",
+            "value": "12s",
+            "raw": "12s"
+          },
+          {
+            "status": "known",
+            "value": 8900,
+            "raw": "8,900"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 11,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Range",
+        "Attack Speed",
+        "Damage Type",
+        "Unit Type Targeted"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": "0.128s",
+            "raw": "0.128s"
+          },
+          {
+            "status": "known",
+            "value": "Multiple Targets",
+            "raw": "Multiple Targets"
+          },
+          {
+            "status": "known",
+            "value": "Ground & Air",
+            "raw": "Ground & Air"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 18,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Damage per Second per Target",
+        "Damage per Hit",
+        "Number of Targets",
+        "Damage when Destroyed",
+        "Death Damage Radius",
+        "Poison Max DPS",
+        "Speed Decrease",
+        "Attack Rate Decrease",
+        "Poison duration when Destroyed",
+        "Hitpoints"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 300,
+            "raw": "300"
+          },
+          {
+            "status": "known",
+            "value": 38.4,
+            "raw": "38.4"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 1000,
+            "raw": "1,000"
+          },
+          {
+            "status": "known",
+            "value": "4.5 tiles",
+            "raw": "4.5 tiles"
+          },
+          {
+            "status": "known",
+            "value": 180,
+            "raw": "180"
+          },
+          {
+            "status": "known",
+            "value": "50%",
+            "raw": "50%"
+          },
+          {
+            "status": "known",
+            "value": "50%",
+            "raw": "50%"
+          },
+          {
+            "status": "known",
+            "value": "12s",
+            "raw": "12s"
+          },
+          {
+            "status": "known",
+            "value": 9600,
+            "raw": "9,600"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 19,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Range",
+        "Attack Speed",
+        "Damage Type",
+        "Unit Type Targeted"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": "0.128s",
+            "raw": "0.128s"
+          },
+          {
+            "status": "known",
+            "value": "Multiple Targets",
+            "raw": "Multiple Targets"
+          },
+          {
+            "status": "known",
+            "value": "Ground & Air",
+            "raw": "Ground & Air"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 26,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Damage per Second per Target",
+        "Damage per Hit",
+        "Number of Targets",
+        "Damage when Destroyed",
+        "Death Damage Radius",
+        "Poison Max DPS",
+        "Speed Decrease",
+        "Attack Rate Decrease",
+        "Poison duration when Destroyed",
+        "Hitpoints"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 300,
+            "raw": "300"
+          },
+          {
+            "status": "known",
+            "value": 38.4,
+            "raw": "38.4"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 1100,
+            "raw": "1,100"
+          },
+          {
+            "status": "known",
+            "value": "4.5 tiles",
+            "raw": "4.5 tiles"
+          },
+          {
+            "status": "known",
+            "value": 180,
+            "raw": "180"
+          },
+          {
+            "status": "known",
+            "value": "50%",
+            "raw": "50%"
+          },
+          {
+            "status": "known",
+            "value": "50%",
+            "raw": "50%"
+          },
+          {
+            "status": "known",
+            "value": "12s",
+            "raw": "12s"
+          },
+          {
+            "status": "known",
+            "value": 10000,
+            "raw": "10,000"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 27,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Range",
+        "Attack Speed",
+        "Damage Type",
+        "Unit Type Targeted"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": "0.128s",
+            "raw": "0.128s"
+          },
+          {
+            "status": "known",
+            "value": "Multiple Targets",
+            "raw": "Multiple Targets"
+          },
+          {
+            "status": "known",
+            "value": "Ground & Air",
+            "raw": "Ground & Air"
+          }
+        ]
+      ],
+      "extraInfo": []
+    }
+  ],
+  "images": [
+    {
+      "name": "Giga_Inferno13.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/030d/Giga_Inferno13.png",
+      "alt": "巨型地狱之塔",
+      "localPath": "/images/original/upgrade/home_buildings/030d/Giga_Inferno13.webp",
+      "logicalPath": "/upgrade/home_buildings/030d/Giga_Inferno13.png"
+    },
+    {
+      "name": "Giga_Inferno13_1.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/030d/Giga_Inferno13_1.png",
+      "alt": "1 级",
+      "localPath": "/images/original/upgrade/home_buildings/030d/Giga_Inferno13_1.webp",
+      "logicalPath": "/upgrade/home_buildings/030d/Giga_Inferno13_1.png"
+    },
+    {
+      "name": "Giga_Inferno13_2.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/030d/Giga_Inferno13_2.png",
+      "alt": "2 级",
+      "localPath": "/images/original/upgrade/home_buildings/030d/Giga_Inferno13_2.webp",
+      "logicalPath": "/upgrade/home_buildings/030d/Giga_Inferno13_2.png"
+    },
+    {
+      "name": "Giga_Inferno13_3.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/030d/Giga_Inferno13_3.png",
+      "alt": "3 级",
+      "localPath": "/images/original/upgrade/home_buildings/030d/Giga_Inferno13_3.webp",
+      "logicalPath": "/upgrade/home_buildings/030d/Giga_Inferno13_3.png"
+    },
+    {
+      "name": "Giga_Inferno13_4.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/030d/Giga_Inferno13_4.png",
+      "alt": "4 级",
+      "localPath": "/images/original/upgrade/home_buildings/030d/Giga_Inferno13_4.webp",
+      "logicalPath": "/upgrade/home_buildings/030d/Giga_Inferno13_4.png"
+    },
+    {
+      "name": "Giga_Inferno13_5.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/030d/Giga_Inferno13_5.png",
+      "alt": "5 级",
+      "localPath": "/images/original/upgrade/home_buildings/030d/Giga_Inferno13_5.webp",
+      "logicalPath": "/upgrade/home_buildings/030d/Giga_Inferno13_5.png"
+    },
+    {
+      "name": "Giga_Inferno14.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/030d/Giga_Inferno14.png",
+      "alt": "巨型地狱之塔",
+      "localPath": "/images/original/upgrade/home_buildings/030d/Giga_Inferno14.webp",
+      "logicalPath": "/upgrade/home_buildings/030d/Giga_Inferno14.png"
+    },
+    {
+      "name": "Giga_Inferno14_1.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/030d/Giga_Inferno14_1.png",
+      "alt": "1 级",
+      "localPath": "/images/original/upgrade/home_buildings/030d/Giga_Inferno14_1.webp",
+      "logicalPath": "/upgrade/home_buildings/030d/Giga_Inferno14_1.png"
+    },
+    {
+      "name": "Giga_Inferno14_2.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/030d/Giga_Inferno14_2.png",
+      "alt": "2 级",
+      "localPath": "/images/original/upgrade/home_buildings/030d/Giga_Inferno14_2.webp",
+      "logicalPath": "/upgrade/home_buildings/030d/Giga_Inferno14_2.png"
+    },
+    {
+      "name": "Giga_Inferno14_3.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/030d/Giga_Inferno14_3.png",
+      "alt": "3 级",
+      "localPath": "/images/original/upgrade/home_buildings/030d/Giga_Inferno14_3.webp",
+      "logicalPath": "/upgrade/home_buildings/030d/Giga_Inferno14_3.png"
+    },
+    {
+      "name": "Giga_Inferno14_4.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/030d/Giga_Inferno14_4.png",
+      "alt": "4 级",
+      "localPath": "/images/original/upgrade/home_buildings/030d/Giga_Inferno14_4.webp",
+      "logicalPath": "/upgrade/home_buildings/030d/Giga_Inferno14_4.png"
+    },
+    {
+      "name": "Giga_Inferno14_5.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/030d/Giga_Inferno14_5.png",
+      "alt": "5 级",
+      "localPath": "/images/original/upgrade/home_buildings/030d/Giga_Inferno14_5.webp",
+      "logicalPath": "/upgrade/home_buildings/030d/Giga_Inferno14_5.png"
+    },
+    {
+      "name": "Giga_Inferno15.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/030d/Giga_Inferno15.png",
+      "alt": "巨型地狱之塔",
+      "localPath": "/images/original/upgrade/home_buildings/030d/Giga_Inferno15.webp",
+      "logicalPath": "/upgrade/home_buildings/030d/Giga_Inferno15.png"
+    },
+    {
+      "name": "Giga_Inferno15_1.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/030d/Giga_Inferno15_1.png",
+      "alt": "1 级",
+      "localPath": "/images/original/upgrade/home_buildings/030d/Giga_Inferno15_1.webp",
+      "logicalPath": "/upgrade/home_buildings/030d/Giga_Inferno15_1.png"
+    },
+    {
+      "name": "Giga_Inferno15_2.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/030d/Giga_Inferno15_2.png",
+      "alt": "2 级",
+      "localPath": "/images/original/upgrade/home_buildings/030d/Giga_Inferno15_2.webp",
+      "logicalPath": "/upgrade/home_buildings/030d/Giga_Inferno15_2.png"
+    },
+    {
+      "name": "Giga_Inferno15_3.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/030d/Giga_Inferno15_3.png",
+      "alt": "3 级",
+      "localPath": "/images/original/upgrade/home_buildings/030d/Giga_Inferno15_3.webp",
+      "logicalPath": "/upgrade/home_buildings/030d/Giga_Inferno15_3.png"
+    },
+    {
+      "name": "Giga_Inferno15_4.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/030d/Giga_Inferno15_4.png",
+      "alt": "4 级",
+      "localPath": "/images/original/upgrade/home_buildings/030d/Giga_Inferno15_4.webp",
+      "logicalPath": "/upgrade/home_buildings/030d/Giga_Inferno15_4.png"
+    },
+    {
+      "name": "Giga_Inferno15_5.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/030d/Giga_Inferno15_5.png",
+      "alt": "5 级",
+      "localPath": "/images/original/upgrade/home_buildings/030d/Giga_Inferno15_5.webp",
+      "logicalPath": "/upgrade/home_buildings/030d/Giga_Inferno15_5.png"
+    },
+    {
+      "name": "Giga_Inferno16.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/030d/Giga_Inferno16.png",
+      "alt": "巨型地狱之塔",
+      "localPath": "/images/original/upgrade/home_buildings/030d/Giga_Inferno16.webp",
+      "logicalPath": "/upgrade/home_buildings/030d/Giga_Inferno16.png"
+    }
+  ],
+  "history": [],
+  "facts": [
+    "The Giga Inferno deals very high damage per second to multiple targets at once. It only emerges when the Town Hall is damaged or when 51% of the base is destroyed.",
+    "The Giga Inferno deals high damage per second to multiple targets at once. It only emerges when the Town Hall is damaged, or when 51% of the base is destroyed."
+  ],
+  "notices": []
+}

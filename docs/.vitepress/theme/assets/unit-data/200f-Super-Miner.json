@@ -1,0 +1,258 @@
+{
+  "unitId": "200f-Super-Miner",
+  "title": "超级矿工",
+  "originalName": "Super Miner/Clan Capital",
+  "module": "upgrade-capital",
+  "imgFolder": "capital_tech/200f",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Super_Miner/Clan_Capital",
+    "revision": 622259,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Super_Miner/Clan_Capital?oldid=622259",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 3,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Preferred Target",
+        "Attack Type",
+        "Housing Space",
+        "Movement Speed",
+        "Attack Speed",
+        "Range",
+        "Special Ability"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "Any",
+            "raw": "Any"
+          },
+          {
+            "status": "known",
+            "value": "Single Target",
+            "raw": "Single Target"
+          },
+          {
+            "status": "known",
+            "value": 25,
+            "raw": "25"
+          },
+          {
+            "status": "known",
+            "value": 24,
+            "raw": "24"
+          },
+          {
+            "status": "known",
+            "value": "0.25s",
+            "raw": "0.25s"
+          },
+          {
+            "status": "known",
+            "value": "0.6 tiles",
+            "raw": "0.6 tiles"
+          },
+          {
+            "status": "known",
+            "value": "Last Blast",
+            "raw": "Last Blast"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 4,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Level",
+        "Damage per Second / Initial",
+        "Damage per Second / After 1.5s",
+        "Damage per Second / After 3s",
+        "Damage when Destroyed",
+        "Hitpoints"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 160,
+            "raw": "160"
+          },
+          {
+            "status": "known",
+            "value": 340,
+            "raw": "340"
+          },
+          {
+            "status": "known",
+            "value": 630,
+            "raw": "630"
+          },
+          {
+            "status": "known",
+            "value": 1400,
+            "raw": "1,400"
+          },
+          {
+            "status": "known",
+            "value": 3300,
+            "raw": "3,300"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 170,
+            "raw": "170"
+          },
+          {
+            "status": "known",
+            "value": 370,
+            "raw": "370"
+          },
+          {
+            "status": "known",
+            "value": 660,
+            "raw": "660"
+          },
+          {
+            "status": "known",
+            "value": 1700,
+            "raw": "1,700"
+          },
+          {
+            "status": "known",
+            "value": 3500,
+            "raw": "3,500"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 180,
+            "raw": "180"
+          },
+          {
+            "status": "known",
+            "value": 400,
+            "raw": "400"
+          },
+          {
+            "status": "known",
+            "value": 690,
+            "raw": "690"
+          },
+          {
+            "status": "known",
+            "value": 2000,
+            "raw": "2,000"
+          },
+          {
+            "status": "known",
+            "value": 3.7,
+            "raw": "3.700"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 190,
+            "raw": "190"
+          },
+          {
+            "status": "known",
+            "value": 430,
+            "raw": "430"
+          },
+          {
+            "status": "known",
+            "value": 720,
+            "raw": "720"
+          },
+          {
+            "status": "known",
+            "value": 2300,
+            "raw": "2,300"
+          },
+          {
+            "status": "known",
+            "value": 3900,
+            "raw": "3,900"
+          }
+        ]
+      ],
+      "extraInfo": []
+    }
+  ],
+  "images": [
+    {
+      "name": "Super_Miner_info.png",
+      "url": "https://static.clashpost.com/upgrade/capital_tech/200f/Super_Miner_info.png",
+      "alt": "超级矿工",
+      "localPath": "/images/original/upgrade/capital_tech/200f/Super_Miner_info.webp",
+      "logicalPath": "/upgrade/capital_tech/200f/Super_Miner_info.png"
+    },
+    {
+      "name": "Super_Miner1.png",
+      "url": "https://static.clashpost.com/upgrade/capital_tech/200f/Super_Miner1.png",
+      "alt": "所有等级",
+      "localPath": "/images/original/upgrade/capital_tech/200f/Super_Miner1.webp",
+      "logicalPath": "/upgrade/capital_tech/200f/Super_Miner1.png"
+    },
+    {
+      "name": "Super_Miner7.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/6/64/Super_Miner7.png/revision/latest/scale-to-width-down/100?cb=20221212210817",
+      "alt": "Super Miner7",
+      "localPath": "/images/wiki/200f-Super-Miner/af7fb4feb4-Super_Miner7.png",
+      "logicalPath": "/upgrade/capital_tech/200f/Super_Miner7.png"
+    },
+    {
+      "name": "Super_Miner_info_2.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/f/f5/Super_Miner_info_2.png/revision/latest/scale-to-width-down/185?cb=20221212121930",
+      "alt": "",
+      "localPath": "/images/wiki/200f-Super-Miner/df3c09efa0-Super_Miner_info_2.png",
+      "logicalPath": "/upgrade/capital_tech/200f/Super_Miner_info_2.png"
+    },
+    {
+      "name": "Super_Miner_info_3.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/8/8a/Super_Miner_info_3.png/revision/latest/scale-to-width-down/115?cb=20221212122034",
+      "alt": "",
+      "localPath": "/images/wiki/200f-Super-Miner/076a63af16-Super_Miner_info_3.png",
+      "logicalPath": "/upgrade/capital_tech/200f/Super_Miner_info_3.png"
+    }
+  ],
+  "history": [],
+  "facts": [
+    "The Super Miner is a troop in the Clan Capital, unlocked when the Super Miner Barracks is constructed (this requires unlocking the Goblin Mines district, requiring Capital Hall level 9)."
+  ],
+  "notices": []
+}

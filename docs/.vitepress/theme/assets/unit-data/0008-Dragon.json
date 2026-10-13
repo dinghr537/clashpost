@@ -1,0 +1,751 @@
+{
+  "unitId": "0008-Dragon",
+  "title": "飞龙",
+  "originalName": "Dragon",
+  "module": "upgrade-home",
+  "imgFolder": "home_tech/0008",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Dragon",
+    "revision": 624759,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Dragon?oldid=624759",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 2,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Preferred Target",
+        "Attack Type",
+        "Housing Space",
+        "Movement Speed",
+        "Attack Speed",
+        "Barracks Level Required",
+        "Range"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "None",
+            "raw": "None"
+          },
+          {
+            "status": "known",
+            "value": "Area Splash 0.3 Tile Radius (Ground & Air)",
+            "raw": "Area Splash 0.3 Tile Radius (Ground & Air)"
+          },
+          {
+            "status": "known",
+            "value": 20,
+            "raw": "20"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          },
+          {
+            "status": "known",
+            "value": "1.25s",
+            "raw": "1.25s"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          },
+          {
+            "status": "known",
+            "value": "3 tiles",
+            "raw": "3 tiles"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 3,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Level",
+        "Damage per Second",
+        "Damage per Attack",
+        "Hitpoints",
+        "Research Cost",
+        "Research Time",
+        "Laboratory Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 140,
+            "raw": "140"
+          },
+          {
+            "status": "known",
+            "value": 175,
+            "raw": "175"
+          },
+          {
+            "status": "known",
+            "value": 1900,
+            "raw": "1,900"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 160,
+            "raw": "160"
+          },
+          {
+            "status": "known",
+            "value": 200,
+            "raw": "200"
+          },
+          {
+            "status": "known",
+            "value": 2100,
+            "raw": "2,100"
+          },
+          {
+            "status": "known",
+            "value": 1000000,
+            "raw": "1,000,000"
+          },
+          {
+            "status": "known",
+            "value": 64800,
+            "raw": "18h",
+            "unit": "seconds",
+            "displayInput": "0,18,0,0"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 180,
+            "raw": "180"
+          },
+          {
+            "status": "known",
+            "value": 225,
+            "raw": "225"
+          },
+          {
+            "status": "known",
+            "value": 2300,
+            "raw": "2,300"
+          },
+          {
+            "status": "known",
+            "value": 2000000,
+            "raw": "2,000,000"
+          },
+          {
+            "status": "known",
+            "value": 129600,
+            "raw": "1d 12h",
+            "unit": "seconds",
+            "displayInput": "1,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 210,
+            "raw": "210"
+          },
+          {
+            "status": "known",
+            "value": 262.5,
+            "raw": "262.5"
+          },
+          {
+            "status": "known",
+            "value": 2700,
+            "raw": "2,700"
+          },
+          {
+            "status": "known",
+            "value": 3000000,
+            "raw": "3,000,000"
+          },
+          {
+            "status": "known",
+            "value": 172800,
+            "raw": "2d",
+            "unit": "seconds",
+            "displayInput": "2,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 240,
+            "raw": "240"
+          },
+          {
+            "status": "known",
+            "value": 300,
+            "raw": "300"
+          },
+          {
+            "status": "known",
+            "value": 3100,
+            "raw": "3,100"
+          },
+          {
+            "status": "known",
+            "value": 3800000,
+            "raw": "3,800,000"
+          },
+          {
+            "status": "known",
+            "value": 259200,
+            "raw": "3d",
+            "unit": "seconds",
+            "displayInput": "3,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 270,
+            "raw": "270"
+          },
+          {
+            "status": "known",
+            "value": 337.5,
+            "raw": "337.5"
+          },
+          {
+            "status": "known",
+            "value": 3400,
+            "raw": "3,400"
+          },
+          {
+            "status": "known",
+            "value": 4900000,
+            "raw": "4,900,000"
+          },
+          {
+            "status": "known",
+            "value": 345600,
+            "raw": "4d",
+            "unit": "seconds",
+            "displayInput": "4,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": 310,
+            "raw": "310"
+          },
+          {
+            "status": "known",
+            "value": 387.5,
+            "raw": "387.5"
+          },
+          {
+            "status": "known",
+            "value": 3900,
+            "raw": "3,900"
+          },
+          {
+            "status": "known",
+            "value": 5000000,
+            "raw": "5,000,000"
+          },
+          {
+            "status": "known",
+            "value": 388800,
+            "raw": "4d 12h",
+            "unit": "seconds",
+            "displayInput": "4,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": 330,
+            "raw": "330"
+          },
+          {
+            "status": "known",
+            "value": 412.5,
+            "raw": "412.5"
+          },
+          {
+            "status": "known",
+            "value": 4200,
+            "raw": "4,200"
+          },
+          {
+            "status": "known",
+            "value": 7500000,
+            "raw": "7,500,000"
+          },
+          {
+            "status": "known",
+            "value": 432000,
+            "raw": "5d",
+            "unit": "seconds",
+            "displayInput": "5,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          },
+          {
+            "status": "known",
+            "value": 350,
+            "raw": "350"
+          },
+          {
+            "status": "known",
+            "value": 437.5,
+            "raw": "437.5"
+          },
+          {
+            "status": "known",
+            "value": 4500,
+            "raw": "4,500"
+          },
+          {
+            "status": "known",
+            "value": 10500000,
+            "raw": "10,500,000"
+          },
+          {
+            "status": "known",
+            "value": 604800,
+            "raw": "7d",
+            "unit": "seconds",
+            "displayInput": "7,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 370,
+            "raw": "370"
+          },
+          {
+            "status": "known",
+            "value": 462.5,
+            "raw": "462.5"
+          },
+          {
+            "status": "known",
+            "value": 4900,
+            "raw": "4,900"
+          },
+          {
+            "status": "known",
+            "value": 12000000,
+            "raw": "12,000,000"
+          },
+          {
+            "status": "known",
+            "value": 648000,
+            "raw": "7d 12h",
+            "unit": "seconds",
+            "displayInput": "7,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          },
+          {
+            "status": "known",
+            "value": 390,
+            "raw": "390"
+          },
+          {
+            "status": "known",
+            "value": 487.5,
+            "raw": "487.5"
+          },
+          {
+            "status": "known",
+            "value": 5300,
+            "raw": "5,300"
+          },
+          {
+            "status": "known",
+            "value": 14000000,
+            "raw": "14,000,000"
+          },
+          {
+            "status": "known",
+            "value": 734400,
+            "raw": "8d 12h",
+            "unit": "seconds",
+            "displayInput": "8,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          },
+          {
+            "status": "known",
+            "value": 410,
+            "raw": "410"
+          },
+          {
+            "status": "known",
+            "value": 512.5,
+            "raw": "512.5"
+          },
+          {
+            "status": "known",
+            "value": 5700,
+            "raw": "5,700"
+          },
+          {
+            "status": "known",
+            "value": 18500000,
+            "raw": "18,500,000"
+          },
+          {
+            "status": "known",
+            "value": 864000,
+            "raw": "10d",
+            "unit": "seconds",
+            "displayInput": "10,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 15,
+            "raw": "15"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          },
+          {
+            "status": "known",
+            "value": 430,
+            "raw": "430"
+          },
+          {
+            "status": "known",
+            "value": 537.5,
+            "raw": "537.5"
+          },
+          {
+            "status": "known",
+            "value": 6000,
+            "raw": "6,000"
+          },
+          {
+            "status": "known",
+            "value": 28500000,
+            "raw": "28,500,000"
+          },
+          {
+            "status": "known",
+            "value": 1296000,
+            "raw": "15d",
+            "unit": "seconds",
+            "displayInput": "15,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 4,
+          "type": "cost",
+          "icon": "Elixir",
+          "gpClass": "research",
+          "noGoldPass": false
+        },
+        {
+          "column": 5,
+          "type": "time",
+          "gpClass": "research",
+          "noGoldPass": false
+        }
+      ]
+    },
+    {
+      "sourceTableIndex": 4,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Super Troop",
+        "Boost Cost",
+        "Dragon Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "Super Dragon",
+            "raw": "Super Dragon"
+          },
+          {
+            "status": "known",
+            "value": 25000,
+            "raw": "25,000"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 1,
+          "type": "cost",
+          "icon": "Dark_Elixir",
+          "gpClass": "research",
+          "noGoldPass": true
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "name": "Dragon_info.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0008/Dragon_info.png",
+      "alt": "飞龙",
+      "localPath": "/images/original/upgrade/home_tech/0008/Dragon_info.webp",
+      "logicalPath": "/upgrade/home_tech/0008/Dragon_info.png"
+    },
+    {
+      "name": "Dragon1.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0008/Dragon1.png",
+      "alt": "1 级",
+      "localPath": "/images/original/upgrade/home_tech/0008/Dragon1.webp",
+      "logicalPath": "/upgrade/home_tech/0008/Dragon1.png"
+    },
+    {
+      "name": "Dragon2.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0008/Dragon2.png",
+      "alt": "2 级",
+      "localPath": "/images/original/upgrade/home_tech/0008/Dragon2.webp",
+      "logicalPath": "/upgrade/home_tech/0008/Dragon2.png"
+    },
+    {
+      "name": "Dragon3.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0008/Dragon3.png",
+      "alt": "3 级",
+      "localPath": "/images/original/upgrade/home_tech/0008/Dragon3.webp",
+      "logicalPath": "/upgrade/home_tech/0008/Dragon3.png"
+    },
+    {
+      "name": "Dragon4.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0008/Dragon4.png",
+      "alt": "4 级",
+      "localPath": "/images/original/upgrade/home_tech/0008/Dragon4.webp",
+      "logicalPath": "/upgrade/home_tech/0008/Dragon4.png"
+    },
+    {
+      "name": "Dragon5.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0008/Dragon5.png",
+      "alt": "5 级",
+      "localPath": "/images/original/upgrade/home_tech/0008/Dragon5.webp",
+      "logicalPath": "/upgrade/home_tech/0008/Dragon5.png"
+    },
+    {
+      "name": "Dragon6.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0008/Dragon6.png",
+      "alt": "6 级",
+      "localPath": "/images/original/upgrade/home_tech/0008/Dragon6.webp",
+      "logicalPath": "/upgrade/home_tech/0008/Dragon6.png"
+    },
+    {
+      "name": "Dragon7.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0008/Dragon7.png",
+      "alt": "7 级",
+      "localPath": "/images/original/upgrade/home_tech/0008/Dragon7.webp",
+      "logicalPath": "/upgrade/home_tech/0008/Dragon7.png"
+    },
+    {
+      "name": "Dragon8.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0008/Dragon8.png",
+      "alt": "8 级",
+      "localPath": "/images/original/upgrade/home_tech/0008/Dragon8.webp",
+      "logicalPath": "/upgrade/home_tech/0008/Dragon8.png"
+    },
+    {
+      "name": "Dragon9.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0008/Dragon9.png",
+      "alt": "9 级",
+      "localPath": "/images/original/upgrade/home_tech/0008/Dragon9.webp",
+      "logicalPath": "/upgrade/home_tech/0008/Dragon9.png"
+    },
+    {
+      "name": "Dragon10.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0008/Dragon10.png",
+      "alt": "10 级",
+      "localPath": "/images/original/upgrade/home_tech/0008/Dragon10.webp",
+      "logicalPath": "/upgrade/home_tech/0008/Dragon10.png"
+    },
+    {
+      "name": "Dragon11.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0008/Dragon11.png",
+      "alt": "11 级",
+      "localPath": "/images/original/upgrade/home_tech/0008/Dragon11.webp",
+      "logicalPath": "/upgrade/home_tech/0008/Dragon11.png"
+    },
+    {
+      "name": "Dragon12.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0008/Dragon12.png",
+      "alt": "12 级",
+      "localPath": "/images/original/upgrade/home_tech/0008/Dragon12.webp",
+      "logicalPath": "/upgrade/home_tech/0008/Dragon12.png"
+    },
+    {
+      "name": "Dragon13.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/0/09/Dragon13.png/revision/latest/scale-to-width-down/130?cb=20260708051503",
+      "alt": "Dragon13",
+      "localPath": "/images/wiki/0008-Dragon/ddd3db523d-Dragon13.png",
+      "logicalPath": "/upgrade/home_tech/0008/Dragon13.png"
+    }
+  ],
+  "history": [],
+  "facts": [
+    "The Dragon is the ninth Elixir troop unlocked at Barracks level 9, which requires Town Hall level 7."
+  ],
+  "notices": []
+}

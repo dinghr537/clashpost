@@ -1,0 +1,274 @@
+{
+  "unitId": "008b-Furnace",
+  "title": "烈焰熔炉",
+  "originalName": "Furnace",
+  "module": "upgrade-home",
+  "imgFolder": "home_tech/008b",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Furnace",
+    "revision": 625281,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Furnace?oldid=625281",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 2,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Housing Space",
+        "Movement Speed",
+        "Lifetime",
+        "Dark Barracks Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 18,
+            "raw": "18"
+          },
+          {
+            "status": "known",
+            "value": "0 (Cannot move)",
+            "raw": "0 (Cannot move)"
+          },
+          {
+            "status": "known",
+            "value": "60s",
+            "raw": "60s"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 3,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Level",
+        "Firemites Spawned",
+        "Hitpoints",
+        "Research Cost",
+        "Research Time",
+        "Laboratory Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 19,
+            "raw": "19"
+          },
+          {
+            "status": "known",
+            "value": 1530,
+            "raw": "1,530"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 20,
+            "raw": "20"
+          },
+          {
+            "status": "known",
+            "value": 1620,
+            "raw": "1,620"
+          },
+          {
+            "status": "known",
+            "value": 200000,
+            "raw": "200,000"
+          },
+          {
+            "status": "known",
+            "value": 777600,
+            "raw": "9d",
+            "unit": "seconds",
+            "displayInput": "9,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 21,
+            "raw": "21"
+          },
+          {
+            "status": "known",
+            "value": 1710,
+            "raw": "1,710"
+          },
+          {
+            "status": "known",
+            "value": 260000,
+            "raw": "260,000"
+          },
+          {
+            "status": "known",
+            "value": 950400,
+            "raw": "11d",
+            "unit": "seconds",
+            "displayInput": "11,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 22,
+            "raw": "22"
+          },
+          {
+            "status": "known",
+            "value": 1800,
+            "raw": "1,800"
+          },
+          {
+            "status": "known",
+            "value": 320000,
+            "raw": "320,000"
+          },
+          {
+            "status": "known",
+            "value": 1296000,
+            "raw": "15d",
+            "unit": "seconds",
+            "displayInput": "15,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 15,
+            "raw": "15"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 3,
+          "type": "cost",
+          "icon": "Dark_Elixir",
+          "gpClass": "research",
+          "noGoldPass": false
+        },
+        {
+          "column": 4,
+          "type": "time",
+          "gpClass": "research",
+          "noGoldPass": false
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "name": "Furnace_info.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/008b/Furnace_info.png",
+      "alt": "烈焰熔炉",
+      "localPath": "/images/original/upgrade/home_tech/008b/Furnace_info.webp",
+      "logicalPath": "/upgrade/home_tech/008b/Furnace_info.png"
+    },
+    {
+      "name": "Furnace1.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/008b/Furnace1.png",
+      "alt": "1 级",
+      "localPath": "/images/original/upgrade/home_tech/008b/Furnace1.webp",
+      "logicalPath": "/upgrade/home_tech/008b/Furnace1.png"
+    },
+    {
+      "name": "Furnace2.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/008b/Furnace2.png",
+      "alt": "2 级",
+      "localPath": "/images/original/upgrade/home_tech/008b/Furnace2.webp",
+      "logicalPath": "/upgrade/home_tech/008b/Furnace2.png"
+    },
+    {
+      "name": "Furnace3.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/008b/Furnace3.png",
+      "alt": "3 级",
+      "localPath": "/images/original/upgrade/home_tech/008b/Furnace3.webp",
+      "logicalPath": "/upgrade/home_tech/008b/Furnace3.png"
+    },
+    {
+      "name": "Furnace4.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/008b/Furnace4.png",
+      "alt": "4 级",
+      "localPath": "/images/original/upgrade/home_tech/008b/Furnace4.webp",
+      "logicalPath": "/upgrade/home_tech/008b/Furnace4.png"
+    },
+    {
+      "name": "Firemite_info.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/008b/Firemite_info.png",
+      "alt": "烈焰熔炉",
+      "localPath": "/images/original/upgrade/home_tech/008b/Firemite_info.webp",
+      "logicalPath": "/upgrade/home_tech/008b/Firemite_info.png"
+    },
+    {
+      "name": "Firemite1.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/008b/Firemite1.png",
+      "alt": "所有等级",
+      "localPath": "/images/original/upgrade/home_tech/008b/Firemite1.webp",
+      "logicalPath": "/upgrade/home_tech/008b/Firemite1.png"
+    }
+  ],
+  "history": [],
+  "facts": [
+    "The Furnace is the twelfth Dark Elixir troop unlocked at Dark Barracks level 12, which requires Town Hall level 15."
+  ],
+  "notices": []
+}

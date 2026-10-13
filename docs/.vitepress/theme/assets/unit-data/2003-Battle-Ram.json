@@ -1,0 +1,250 @@
+{
+  "unitId": "2003-Battle-Ram",
+  "title": "野蛮人攻城槌",
+  "originalName": "Battle Ram/Clan Capital",
+  "module": "upgrade-capital",
+  "imgFolder": "capital_tech/2003",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Battle_Ram/Clan_Capital",
+    "revision": 618176,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Battle_Ram/Clan_Capital?oldid=618176",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 3,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Preferred Target",
+        "Attack Type",
+        "Housing Space",
+        "Movement Speed",
+        "Range",
+        "Spawned Barbarians",
+        "Battle Ram Barracks Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "Walls (Damage x40)",
+            "raw": "Walls (Damage x40)"
+          },
+          {
+            "status": "known",
+            "value": "Area Splash (Ground Only)",
+            "raw": "Area Splash (Ground Only)"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          },
+          {
+            "status": "known",
+            "value": "0.75 tiles",
+            "raw": "0.75 tiles"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 4,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Level",
+        "Damage",
+        "Damage vs Walls",
+        "Hitpoints",
+        "Battle Ram Barracks Level"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 125,
+            "raw": "125"
+          },
+          {
+            "status": "known",
+            "value": 5000,
+            "raw": "5,000"
+          },
+          {
+            "status": "known",
+            "value": 800,
+            "raw": "800"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 163,
+            "raw": "163"
+          },
+          {
+            "status": "known",
+            "value": 6520,
+            "raw": "6,520"
+          },
+          {
+            "status": "known",
+            "value": 900,
+            "raw": "900"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 200,
+            "raw": "200"
+          },
+          {
+            "status": "known",
+            "value": 8000,
+            "raw": "8,000"
+          },
+          {
+            "status": "known",
+            "value": 1000,
+            "raw": "1,000"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 238,
+            "raw": "238"
+          },
+          {
+            "status": "known",
+            "value": 9520,
+            "raw": "9,520"
+          },
+          {
+            "status": "known",
+            "value": 1100,
+            "raw": "1,100"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 275,
+            "raw": "275"
+          },
+          {
+            "status": "known",
+            "value": 11000,
+            "raw": "11,000"
+          },
+          {
+            "status": "known",
+            "value": 1200,
+            "raw": "1,200"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          }
+        ]
+      ],
+      "extraInfo": []
+    }
+  ],
+  "images": [
+    {
+      "name": "Battle_Ram_info.png",
+      "url": "https://static.clashpost.com/upgrade/capital_tech/2003/Battle_Ram_info.png",
+      "alt": "野蛮人攻城槌",
+      "localPath": "/images/original/upgrade/capital_tech/2003/Battle_Ram_info.webp",
+      "logicalPath": "/upgrade/capital_tech/2003/Battle_Ram_info.png"
+    },
+    {
+      "name": "Battle_Ram1.png",
+      "url": "https://static.clashpost.com/upgrade/capital_tech/2003/Battle_Ram1.png",
+      "alt": "野蛮人攻城槌",
+      "localPath": "/images/original/upgrade/capital_tech/2003/Battle_Ram1.webp",
+      "logicalPath": "/upgrade/capital_tech/2003/Battle_Ram1.png"
+    },
+    {
+      "name": "Battle_Ram_Barracks5.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/9/9a/Battle_Ram_Barracks5.png/revision/latest/scale-to-width-down/32?cb=20231217041157",
+      "alt": "Battle Ram Barracks",
+      "localPath": "/images/wiki/2003-Battle-Ram/0ca6f52464-Battle_Ram_Barracks5.png",
+      "logicalPath": "/upgrade/capital_tech/2003/Battle_Ram_Barracks5.png"
+    }
+  ],
+  "history": [],
+  "facts": [
+    "The Battle Ram is a troop available in the Clan Capital, available when the Battle Ram Barracks is constructed (this requires the Barbarian Camp district to be unlocked, and hence requires Capital Hall level 2)."
+  ],
+  "notices": []
+}

@@ -1,0 +1,1137 @@
+{
+  "unitId": "0308-Bomb-Tower",
+  "title": "炸弹塔",
+  "originalName": "Bomb Tower",
+  "module": "upgrade-home",
+  "imgFolder": "home_buildings/0308",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Bomb_Tower",
+    "revision": 592098,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Bomb_Tower?oldid=592098",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 2,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Town Hall Level",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "Number Available",
+            "raw": "Number Available"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          }
+        ],
+        [
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          },
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          },
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          },
+          {
+            "status": "known",
+            "value": 15,
+            "raw": "15"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          },
+          {
+            "status": "known",
+            "value": 17,
+            "raw": "17"
+          },
+          {
+            "status": "known",
+            "value": 18,
+            "raw": "18"
+          }
+        ],
+        [
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 3,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Size"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "3x3",
+            "raw": "3x3"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 4,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Level",
+        "Damage per Second",
+        "Damage per Shot",
+        "Damage when destroyed",
+        "Hitpoints",
+        "Cost",
+        "Build Time",
+        "Experience Gained",
+        "Town Hall Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 24,
+            "raw": "24"
+          },
+          {
+            "status": "known",
+            "value": 26.4,
+            "raw": "26.4"
+          },
+          {
+            "status": "known",
+            "value": 150,
+            "raw": "150"
+          },
+          {
+            "status": "known",
+            "value": 650,
+            "raw": "650"
+          },
+          {
+            "status": "known",
+            "value": 700000,
+            "raw": "700,000"
+          },
+          {
+            "status": "known",
+            "value": 43200,
+            "raw": "12h",
+            "unit": "seconds",
+            "displayInput": "0,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 207,
+            "raw": "207"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 28,
+            "raw": "28"
+          },
+          {
+            "status": "known",
+            "value": 30.8,
+            "raw": "30.8"
+          },
+          {
+            "status": "known",
+            "value": 180,
+            "raw": "180"
+          },
+          {
+            "status": "known",
+            "value": 700,
+            "raw": "700"
+          },
+          {
+            "status": "known",
+            "value": 1000000,
+            "raw": "1,000,000"
+          },
+          {
+            "status": "known",
+            "value": 64800,
+            "raw": "18h",
+            "unit": "seconds",
+            "displayInput": "0,18,0,0"
+          },
+          {
+            "status": "known",
+            "value": 254,
+            "raw": "254"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 32,
+            "raw": "32"
+          },
+          {
+            "status": "known",
+            "value": 35.2,
+            "raw": "35.2"
+          },
+          {
+            "status": "known",
+            "value": 220,
+            "raw": "220"
+          },
+          {
+            "status": "known",
+            "value": 750,
+            "raw": "750"
+          },
+          {
+            "status": "known",
+            "value": 1300000,
+            "raw": "1,300,000"
+          },
+          {
+            "status": "known",
+            "value": 86400,
+            "raw": "1d",
+            "unit": "seconds",
+            "displayInput": "1,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 293,
+            "raw": "293"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 40,
+            "raw": "40"
+          },
+          {
+            "status": "known",
+            "value": 44,
+            "raw": "44"
+          },
+          {
+            "status": "known",
+            "value": 260,
+            "raw": "260"
+          },
+          {
+            "status": "known",
+            "value": 850,
+            "raw": "850"
+          },
+          {
+            "status": "known",
+            "value": 1800000,
+            "raw": "1,800,000"
+          },
+          {
+            "status": "known",
+            "value": 129600,
+            "raw": "1d 12h",
+            "unit": "seconds",
+            "displayInput": "1,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 360,
+            "raw": "360"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 48,
+            "raw": "48"
+          },
+          {
+            "status": "known",
+            "value": 52.8,
+            "raw": "52.8"
+          },
+          {
+            "status": "known",
+            "value": 300,
+            "raw": "300"
+          },
+          {
+            "status": "known",
+            "value": 1050,
+            "raw": "1,050"
+          },
+          {
+            "status": "known",
+            "value": 1900000,
+            "raw": "1,900,000"
+          },
+          {
+            "status": "known",
+            "value": 151200,
+            "raw": "1d 18h",
+            "unit": "seconds",
+            "displayInput": "1,18,0,0"
+          },
+          {
+            "status": "known",
+            "value": 388,
+            "raw": "388"
+          },
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 56,
+            "raw": "56"
+          },
+          {
+            "status": "known",
+            "value": 61.6,
+            "raw": "61.6"
+          },
+          {
+            "status": "known",
+            "value": 350,
+            "raw": "350"
+          },
+          {
+            "status": "known",
+            "value": 1300,
+            "raw": "1,300"
+          },
+          {
+            "status": "known",
+            "value": 2000000,
+            "raw": "2,000,000"
+          },
+          {
+            "status": "known",
+            "value": 172800,
+            "raw": "2d",
+            "unit": "seconds",
+            "displayInput": "2,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 415,
+            "raw": "415"
+          },
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": 64,
+            "raw": "64"
+          },
+          {
+            "status": "known",
+            "value": 70.4,
+            "raw": "70.4"
+          },
+          {
+            "status": "known",
+            "value": 400,
+            "raw": "400"
+          },
+          {
+            "status": "known",
+            "value": 1600,
+            "raw": "1,600"
+          },
+          {
+            "status": "known",
+            "value": 4000000,
+            "raw": "4,000,000"
+          },
+          {
+            "status": "known",
+            "value": 259200,
+            "raw": "3d",
+            "unit": "seconds",
+            "displayInput": "3,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 509,
+            "raw": "509"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": 72,
+            "raw": "72"
+          },
+          {
+            "status": "known",
+            "value": 79.2,
+            "raw": "79.2"
+          },
+          {
+            "status": "known",
+            "value": 450,
+            "raw": "450"
+          },
+          {
+            "status": "known",
+            "value": 1900,
+            "raw": "1,900"
+          },
+          {
+            "status": "known",
+            "value": 5000000,
+            "raw": "5,000,000"
+          },
+          {
+            "status": "known",
+            "value": 302400,
+            "raw": "3d 12h",
+            "unit": "seconds",
+            "displayInput": "3,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 549,
+            "raw": "549"
+          },
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          },
+          {
+            "status": "known",
+            "value": 84,
+            "raw": "84"
+          },
+          {
+            "status": "known",
+            "value": 92.4,
+            "raw": "92.4"
+          },
+          {
+            "status": "known",
+            "value": 500,
+            "raw": "500"
+          },
+          {
+            "status": "known",
+            "value": 2300,
+            "raw": "2,300"
+          },
+          {
+            "status": "known",
+            "value": 6000000,
+            "raw": "6,000,000"
+          },
+          {
+            "status": "known",
+            "value": 345600,
+            "raw": "4d",
+            "unit": "seconds",
+            "displayInput": "4,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 587,
+            "raw": "587"
+          },
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 94,
+            "raw": "94"
+          },
+          {
+            "status": "known",
+            "value": 103.4,
+            "raw": "103.4"
+          },
+          {
+            "status": "known",
+            "value": 550,
+            "raw": "550"
+          },
+          {
+            "status": "known",
+            "value": 2500,
+            "raw": "2,500"
+          },
+          {
+            "status": "known",
+            "value": 7000000,
+            "raw": "7,000,000"
+          },
+          {
+            "status": "known",
+            "value": 388800,
+            "raw": "4d 12h",
+            "unit": "seconds",
+            "displayInput": "4,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 623,
+            "raw": "623"
+          },
+          {
+            "status": "known",
+            "value": 15,
+            "raw": "15"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          },
+          {
+            "status": "known",
+            "value": 104,
+            "raw": "104"
+          },
+          {
+            "status": "known",
+            "value": 114.4,
+            "raw": "114.4"
+          },
+          {
+            "status": "known",
+            "value": 600,
+            "raw": "600"
+          },
+          {
+            "status": "known",
+            "value": 2700,
+            "raw": "2,700"
+          },
+          {
+            "status": "known",
+            "value": 8500000,
+            "raw": "8,500,000"
+          },
+          {
+            "status": "known",
+            "value": 432000,
+            "raw": "5d",
+            "unit": "seconds",
+            "displayInput": "5,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 657,
+            "raw": "657"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          },
+          {
+            "status": "known",
+            "value": 114,
+            "raw": "114"
+          },
+          {
+            "status": "known",
+            "value": 125.4,
+            "raw": "125.4"
+          },
+          {
+            "status": "known",
+            "value": 650,
+            "raw": "650"
+          },
+          {
+            "status": "known",
+            "value": 2900,
+            "raw": "2,900"
+          },
+          {
+            "status": "known",
+            "value": 14500000,
+            "raw": "14,500,000"
+          },
+          {
+            "status": "known",
+            "value": 604800,
+            "raw": "7d",
+            "unit": "seconds",
+            "displayInput": "7,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 777,
+            "raw": "777"
+          },
+          {
+            "status": "known",
+            "value": 17,
+            "raw": "17"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          },
+          {
+            "status": "known",
+            "value": 122,
+            "raw": "122"
+          },
+          {
+            "status": "known",
+            "value": 134.2,
+            "raw": "134.2"
+          },
+          {
+            "status": "known",
+            "value": 700,
+            "raw": "700"
+          },
+          {
+            "status": "known",
+            "value": 3050,
+            "raw": "3,050"
+          },
+          {
+            "status": "known",
+            "value": 25000000,
+            "raw": "25,000,000"
+          },
+          {
+            "status": "known",
+            "value": 1123200,
+            "raw": "13d",
+            "unit": "seconds",
+            "displayInput": "13,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 1059,
+            "raw": "1,059"
+          },
+          {
+            "status": "known",
+            "value": 18,
+            "raw": "18"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 5,
+          "type": "cost",
+          "icon": "Gold",
+          "gpClass": "building",
+          "noGoldPass": false
+        },
+        {
+          "column": 6,
+          "type": "time",
+          "gpClass": "building",
+          "noGoldPass": false
+        }
+      ]
+    },
+    {
+      "sourceTableIndex": 6,
+      "section": "Statistics",
+      "title": "Supercharges",
+      "headers": [
+        "Charge Level ⚡",
+        "Damage per Second",
+        "Damage per Shot",
+        "Hitpoints",
+        "Cost",
+        "Build Time",
+        "Experience Gained",
+        "Town Hall Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 127,
+            "raw": "127"
+          },
+          {
+            "status": "known",
+            "value": 139.7,
+            "raw": "139.7"
+          },
+          {
+            "status": "known",
+            "value": 3050,
+            "raw": "3,050"
+          },
+          {
+            "status": "known",
+            "value": 6000000,
+            "raw": "6,000,000"
+          },
+          {
+            "status": "known",
+            "value": 216000,
+            "raw": "2d 12h",
+            "unit": "seconds",
+            "displayInput": "2,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 464,
+            "raw": "464"
+          },
+          {
+            "status": "known",
+            "value": 18,
+            "raw": "18"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 127,
+            "raw": "127"
+          },
+          {
+            "status": "known",
+            "value": 139.7,
+            "raw": "139.7"
+          },
+          {
+            "status": "known",
+            "value": 3150,
+            "raw": "3,150"
+          },
+          {
+            "status": "known",
+            "value": 3000000,
+            "raw": "3,000,000"
+          },
+          {
+            "status": "known",
+            "value": 345600,
+            "raw": "4d",
+            "unit": "seconds",
+            "displayInput": "4,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 587,
+            "raw": "587"
+          },
+          {
+            "status": "known",
+            "value": 18,
+            "raw": "18"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 4,
+          "type": "cost",
+          "icon": "Gold",
+          "gpClass": "building",
+          "noGoldPass": false
+        },
+        {
+          "column": 5,
+          "type": "time",
+          "gpClass": "building",
+          "noGoldPass": false
+        }
+      ]
+    },
+    {
+      "sourceTableIndex": 7,
+      "section": "Statistics",
+      "title": "Supercharges",
+      "headers": [
+        "Range",
+        "Attack Speed",
+        "Damage Type",
+        "Unit Type Targeted"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "6 tiles",
+            "raw": "6 tiles"
+          },
+          {
+            "status": "known",
+            "value": "1.1s",
+            "raw": "1.1s"
+          },
+          {
+            "status": "known",
+            "value": "Splash - 1.5 tiles",
+            "raw": "Splash - 1.5 tiles"
+          },
+          {
+            "status": "known",
+            "value": "Ground",
+            "raw": "Ground"
+          }
+        ]
+      ],
+      "extraInfo": []
+    }
+  ],
+  "images": [
+    {
+      "name": "Bomb_Tower13.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0308/Bomb_Tower13.png",
+      "alt": "炸弹塔",
+      "localPath": "/images/original/upgrade/home_buildings/0308/Bomb_Tower13.webp",
+      "logicalPath": "/upgrade/home_buildings/0308/Bomb_Tower13.png"
+    },
+    {
+      "name": "Bomb_Tower1.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0308/Bomb_Tower1.png",
+      "alt": "1 级",
+      "localPath": "/images/original/upgrade/home_buildings/0308/Bomb_Tower1.webp",
+      "logicalPath": "/upgrade/home_buildings/0308/Bomb_Tower1.png"
+    },
+    {
+      "name": "Bomb_Tower2.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0308/Bomb_Tower2.png",
+      "alt": "2 级",
+      "localPath": "/images/original/upgrade/home_buildings/0308/Bomb_Tower2.webp",
+      "logicalPath": "/upgrade/home_buildings/0308/Bomb_Tower2.png"
+    },
+    {
+      "name": "Bomb_Tower3.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0308/Bomb_Tower3.png",
+      "alt": "3 级",
+      "localPath": "/images/original/upgrade/home_buildings/0308/Bomb_Tower3.webp",
+      "logicalPath": "/upgrade/home_buildings/0308/Bomb_Tower3.png"
+    },
+    {
+      "name": "Bomb_Tower4.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0308/Bomb_Tower4.png",
+      "alt": "4 级",
+      "localPath": "/images/original/upgrade/home_buildings/0308/Bomb_Tower4.webp",
+      "logicalPath": "/upgrade/home_buildings/0308/Bomb_Tower4.png"
+    },
+    {
+      "name": "Bomb_Tower5.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0308/Bomb_Tower5.png",
+      "alt": "5 级",
+      "localPath": "/images/original/upgrade/home_buildings/0308/Bomb_Tower5.webp",
+      "logicalPath": "/upgrade/home_buildings/0308/Bomb_Tower5.png"
+    },
+    {
+      "name": "Bomb_Tower6.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0308/Bomb_Tower6.png",
+      "alt": "6 级",
+      "localPath": "/images/original/upgrade/home_buildings/0308/Bomb_Tower6.webp",
+      "logicalPath": "/upgrade/home_buildings/0308/Bomb_Tower6.png"
+    },
+    {
+      "name": "Bomb_Tower7.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0308/Bomb_Tower7.png",
+      "alt": "7 级",
+      "localPath": "/images/original/upgrade/home_buildings/0308/Bomb_Tower7.webp",
+      "logicalPath": "/upgrade/home_buildings/0308/Bomb_Tower7.png"
+    },
+    {
+      "name": "Bomb_Tower8.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0308/Bomb_Tower8.png",
+      "alt": "8 级",
+      "localPath": "/images/original/upgrade/home_buildings/0308/Bomb_Tower8.webp",
+      "logicalPath": "/upgrade/home_buildings/0308/Bomb_Tower8.png"
+    },
+    {
+      "name": "Bomb_Tower9.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0308/Bomb_Tower9.png",
+      "alt": "9 级",
+      "localPath": "/images/original/upgrade/home_buildings/0308/Bomb_Tower9.webp",
+      "logicalPath": "/upgrade/home_buildings/0308/Bomb_Tower9.png"
+    },
+    {
+      "name": "Bomb_Tower10.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0308/Bomb_Tower10.png",
+      "alt": "10 级",
+      "localPath": "/images/original/upgrade/home_buildings/0308/Bomb_Tower10.webp",
+      "logicalPath": "/upgrade/home_buildings/0308/Bomb_Tower10.png"
+    },
+    {
+      "name": "Bomb_Tower11.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0308/Bomb_Tower11.png",
+      "alt": "11 级",
+      "localPath": "/images/original/upgrade/home_buildings/0308/Bomb_Tower11.webp",
+      "logicalPath": "/upgrade/home_buildings/0308/Bomb_Tower11.png"
+    },
+    {
+      "name": "Bomb_Tower12.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0308/Bomb_Tower12.png",
+      "alt": "12 级",
+      "localPath": "/images/original/upgrade/home_buildings/0308/Bomb_Tower12.webp",
+      "logicalPath": "/upgrade/home_buildings/0308/Bomb_Tower12.png"
+    }
+  ],
+  "history": [],
+  "facts": [
+    "The Bomb Tower is a defensive building, unlocked at Town Hall level 8, that throws bombs at ground troops, dealing splash damage similarly to the Wizard Tower. However, unlike the Wizard Tower, it cannot attack air units.",
+    "When destroyed, the bomb underneath the tower will be primed, and will explode 1 second afterwards, dealing splash damage to all ground units within 2.75 tiles of it, similar to a Giant Bomb."
+  ],
+  "notices": []
+}

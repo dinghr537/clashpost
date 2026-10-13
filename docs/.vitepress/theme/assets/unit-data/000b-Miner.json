@@ -1,0 +1,684 @@
+{
+  "unitId": "000b-Miner",
+  "title": "掘地矿工",
+  "originalName": "Miner",
+  "module": "upgrade-home",
+  "imgFolder": "home_tech/000b",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Miner",
+    "revision": 624732,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Miner?oldid=624732",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 2,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Preferred Target",
+        "Attack Type",
+        "Housing Space",
+        "Movement Speed",
+        "Attack Speed",
+        "Barracks Level Required",
+        "Range"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "None",
+            "raw": "None"
+          },
+          {
+            "status": "known",
+            "value": "Single Target",
+            "raw": "Single Target"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 32,
+            "raw": "32"
+          },
+          {
+            "status": "known",
+            "value": "1.7s",
+            "raw": "1.7s"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          },
+          {
+            "status": "known",
+            "value": "0.5 tiles",
+            "raw": "0.5 tiles"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 3,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Level",
+        "Damage per Second",
+        "Damage per Attack",
+        "Hitpoints",
+        "Research Cost",
+        "Research Time",
+        "Laboratory Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 80,
+            "raw": "80"
+          },
+          {
+            "status": "known",
+            "value": 136,
+            "raw": "136"
+          },
+          {
+            "status": "known",
+            "value": 550,
+            "raw": "550"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 88,
+            "raw": "88"
+          },
+          {
+            "status": "known",
+            "value": 149.6,
+            "raw": "149.6"
+          },
+          {
+            "status": "known",
+            "value": 610,
+            "raw": "610"
+          },
+          {
+            "status": "known",
+            "value": 1500000,
+            "raw": "1,500,000"
+          },
+          {
+            "status": "known",
+            "value": 86400,
+            "raw": "1d",
+            "unit": "seconds",
+            "displayInput": "1,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 96,
+            "raw": "96"
+          },
+          {
+            "status": "known",
+            "value": 163.2,
+            "raw": "163.2"
+          },
+          {
+            "status": "known",
+            "value": 670,
+            "raw": "670"
+          },
+          {
+            "status": "known",
+            "value": 2600000,
+            "raw": "2,600,000"
+          },
+          {
+            "status": "known",
+            "value": 172800,
+            "raw": "2d",
+            "unit": "seconds",
+            "displayInput": "2,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 104,
+            "raw": "104"
+          },
+          {
+            "status": "known",
+            "value": 176.8,
+            "raw": "176.8"
+          },
+          {
+            "status": "known",
+            "value": 730,
+            "raw": "730"
+          },
+          {
+            "status": "known",
+            "value": 3000000,
+            "raw": "3,000,000"
+          },
+          {
+            "status": "known",
+            "value": 194400,
+            "raw": "2d 6h",
+            "unit": "seconds",
+            "displayInput": "2,6,0,0"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 112,
+            "raw": "112"
+          },
+          {
+            "status": "known",
+            "value": 190.4,
+            "raw": "190.4"
+          },
+          {
+            "status": "known",
+            "value": 800,
+            "raw": "800"
+          },
+          {
+            "status": "known",
+            "value": 4000000,
+            "raw": "4,000,000"
+          },
+          {
+            "status": "known",
+            "value": 216000,
+            "raw": "2d 12h",
+            "unit": "seconds",
+            "displayInput": "2,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 120,
+            "raw": "120"
+          },
+          {
+            "status": "known",
+            "value": 204,
+            "raw": "204"
+          },
+          {
+            "status": "known",
+            "value": 900,
+            "raw": "900"
+          },
+          {
+            "status": "known",
+            "value": 4800000,
+            "raw": "4,800,000"
+          },
+          {
+            "status": "known",
+            "value": 259200,
+            "raw": "3d",
+            "unit": "seconds",
+            "displayInput": "3,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": 128,
+            "raw": "128"
+          },
+          {
+            "status": "known",
+            "value": 217.6,
+            "raw": "217.6"
+          },
+          {
+            "status": "known",
+            "value": 1000,
+            "raw": "1,000"
+          },
+          {
+            "status": "known",
+            "value": 6000000,
+            "raw": "6,000,000"
+          },
+          {
+            "status": "known",
+            "value": 345600,
+            "raw": "4d",
+            "unit": "seconds",
+            "displayInput": "4,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": 136,
+            "raw": "136"
+          },
+          {
+            "status": "known",
+            "value": 231.2,
+            "raw": "231.2"
+          },
+          {
+            "status": "known",
+            "value": 1150,
+            "raw": "1,150"
+          },
+          {
+            "status": "known",
+            "value": 8600000,
+            "raw": "8,600,000"
+          },
+          {
+            "status": "known",
+            "value": 518400,
+            "raw": "6d",
+            "unit": "seconds",
+            "displayInput": "6,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          },
+          {
+            "status": "known",
+            "value": 144,
+            "raw": "144"
+          },
+          {
+            "status": "known",
+            "value": 244.8,
+            "raw": "244.8"
+          },
+          {
+            "status": "known",
+            "value": 1350,
+            "raw": "1,350"
+          },
+          {
+            "status": "known",
+            "value": 10500000,
+            "raw": "10,500,000"
+          },
+          {
+            "status": "known",
+            "value": 561600,
+            "raw": "6d 12h",
+            "unit": "seconds",
+            "displayInput": "6,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 160,
+            "raw": "160"
+          },
+          {
+            "status": "known",
+            "value": 272,
+            "raw": "272"
+          },
+          {
+            "status": "known",
+            "value": 1550,
+            "raw": "1,550"
+          },
+          {
+            "status": "known",
+            "value": 12500000,
+            "raw": "12,500,000"
+          },
+          {
+            "status": "known",
+            "value": 604800,
+            "raw": "7d",
+            "unit": "seconds",
+            "displayInput": "7,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          },
+          {
+            "status": "known",
+            "value": 175,
+            "raw": "175"
+          },
+          {
+            "status": "known",
+            "value": 297.5,
+            "raw": "297.5"
+          },
+          {
+            "status": "known",
+            "value": 1750,
+            "raw": "1,750"
+          },
+          {
+            "status": "known",
+            "value": 16500000,
+            "raw": "16,500,000"
+          },
+          {
+            "status": "known",
+            "value": 820800,
+            "raw": "9d 12h",
+            "unit": "seconds",
+            "displayInput": "9,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 15,
+            "raw": "15"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          },
+          {
+            "status": "known",
+            "value": 195,
+            "raw": "195"
+          },
+          {
+            "status": "known",
+            "value": 331.5,
+            "raw": "331.5"
+          },
+          {
+            "status": "known",
+            "value": 2050,
+            "raw": "2,050"
+          },
+          {
+            "status": "known",
+            "value": 28000000,
+            "raw": "28,000,000"
+          },
+          {
+            "status": "known",
+            "value": 1252800,
+            "raw": "14d 12h",
+            "unit": "seconds",
+            "displayInput": "14,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 4,
+          "type": "cost",
+          "icon": "Elixir",
+          "gpClass": "research",
+          "noGoldPass": false
+        },
+        {
+          "column": 5,
+          "type": "time",
+          "gpClass": "research",
+          "noGoldPass": false
+        }
+      ]
+    },
+    {
+      "sourceTableIndex": 4,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Super Troop",
+        "Boost Cost",
+        "Miner Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "Super Miner",
+            "raw": "Super Miner"
+          },
+          {
+            "status": "known",
+            "value": 25000,
+            "raw": "25,000"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 1,
+          "type": "cost",
+          "icon": "Dark_Elixir",
+          "gpClass": "research",
+          "noGoldPass": true
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "name": "Miner_info.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/000b/Miner_info.png",
+      "alt": "掘地矿工",
+      "localPath": "/images/original/upgrade/home_tech/000b/Miner_info.webp",
+      "logicalPath": "/upgrade/home_tech/000b/Miner_info.png"
+    },
+    {
+      "name": "Miner1.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/000b/Miner1.png",
+      "alt": "1 - 2 级",
+      "localPath": "/images/original/upgrade/home_tech/000b/Miner1.webp",
+      "logicalPath": "/upgrade/home_tech/000b/Miner1.png"
+    },
+    {
+      "name": "Miner3.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/000b/Miner3.png",
+      "alt": "3 - 4 级",
+      "localPath": "/images/original/upgrade/home_tech/000b/Miner3.webp",
+      "logicalPath": "/upgrade/home_tech/000b/Miner3.png"
+    },
+    {
+      "name": "Miner5.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/000b/Miner5.png",
+      "alt": "5 - 6 级",
+      "localPath": "/images/original/upgrade/home_tech/000b/Miner5.webp",
+      "logicalPath": "/upgrade/home_tech/000b/Miner5.png"
+    },
+    {
+      "name": "Miner7.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/000b/Miner7.png",
+      "alt": "7 级",
+      "localPath": "/images/original/upgrade/home_tech/000b/Miner7.webp",
+      "logicalPath": "/upgrade/home_tech/000b/Miner7.png"
+    },
+    {
+      "name": "Miner8.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/000b/Miner8.png",
+      "alt": "8 级",
+      "localPath": "/images/original/upgrade/home_tech/000b/Miner8.webp",
+      "logicalPath": "/upgrade/home_tech/000b/Miner8.png"
+    },
+    {
+      "name": "Miner9.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/000b/Miner9.png",
+      "alt": "9 级",
+      "localPath": "/images/original/upgrade/home_tech/000b/Miner9.webp",
+      "logicalPath": "/upgrade/home_tech/000b/Miner9.png"
+    },
+    {
+      "name": "Miner10.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/000b/Miner10.png",
+      "alt": "10 级",
+      "localPath": "/images/original/upgrade/home_tech/000b/Miner10.webp",
+      "logicalPath": "/upgrade/home_tech/000b/Miner10.png"
+    },
+    {
+      "name": "Miner11.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/000b/Miner11.png",
+      "alt": "11 级",
+      "localPath": "/images/original/upgrade/home_tech/000b/Miner11.webp",
+      "logicalPath": "/upgrade/home_tech/000b/Miner11.png"
+    },
+    {
+      "name": "Miner12.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/000b/Miner12.png",
+      "alt": "12 级",
+      "localPath": "/images/original/upgrade/home_tech/000b/Miner12.webp",
+      "logicalPath": "/upgrade/home_tech/000b/Miner12.png"
+    }
+  ],
+  "history": [],
+  "facts": [
+    "The Miner is the twelfth Elixir troop unlocked at Barracks level 12, which requires Town Hall level 10."
+  ],
+  "notices": []
+}

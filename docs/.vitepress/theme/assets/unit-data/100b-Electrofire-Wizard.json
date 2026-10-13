@@ -1,0 +1,621 @@
+{
+  "unitId": "100b-Electrofire-Wizard",
+  "title": "电火法师",
+  "originalName": "Electrofire Wizard",
+  "module": "upgrade-bh",
+  "imgFolder": "bh_tech/100b",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Electrofire_Wizard",
+    "revision": 625547,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Electrofire_Wizard?oldid=625547",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 1,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Number of Units per Army Camp",
+        "Spring Weight",
+        "Preferred Target",
+        "Attack Type",
+        "Movement Speed",
+        "Attack Speed",
+        "Builder Barracks Level Required",
+        "Range",
+        "Special Ability",
+        "Ability Cooldown"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          },
+          {
+            "status": "known",
+            "value": "None",
+            "raw": "None"
+          },
+          {
+            "status": "known",
+            "value": "Ranged (Ground & Air)",
+            "raw": "Ranged (Ground & Air)"
+          },
+          {
+            "status": "known",
+            "value": 22,
+            "raw": "22"
+          },
+          {
+            "status": "known",
+            "value": "0.128s",
+            "raw": "0.128s"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          },
+          {
+            "status": "known",
+            "value": "3.5 tiles",
+            "raw": "3.5 tiles"
+          },
+          {
+            "status": "known",
+            "value": "Change Mode",
+            "raw": "Change Mode"
+          },
+          {
+            "status": "known",
+            "value": "1.5s",
+            "raw": "1.5s"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 2,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Level",
+        "Initial DPS",
+        "DPS after 1.5s",
+        "DPS after 3.0s",
+        "Hitpoints",
+        "Research Cost",
+        "Research Time",
+        "Star Laboratory Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 17,
+            "raw": "17"
+          },
+          {
+            "status": "known",
+            "value": 220,
+            "raw": "220"
+          },
+          {
+            "status": "known",
+            "value": 330,
+            "raw": "330"
+          },
+          {
+            "status": "known",
+            "value": 440,
+            "raw": "440"
+          },
+          {
+            "status": "known",
+            "value": 1100,
+            "raw": "1,100"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 18,
+            "raw": "18"
+          },
+          {
+            "status": "known",
+            "value": 220,
+            "raw": "220"
+          },
+          {
+            "status": "known",
+            "value": 330,
+            "raw": "330"
+          },
+          {
+            "status": "known",
+            "value": 440,
+            "raw": "440"
+          },
+          {
+            "status": "known",
+            "value": 1100,
+            "raw": "1,100"
+          },
+          {
+            "status": "known",
+            "value": 4400000,
+            "raw": "4,400,000"
+          },
+          {
+            "status": "known",
+            "value": 518400,
+            "raw": "6d",
+            "unit": "seconds",
+            "displayInput": "6,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 19,
+            "raw": "19"
+          },
+          {
+            "status": "known",
+            "value": 252,
+            "raw": "252"
+          },
+          {
+            "status": "known",
+            "value": 380,
+            "raw": "380"
+          },
+          {
+            "status": "known",
+            "value": 505,
+            "raw": "505"
+          },
+          {
+            "status": "known",
+            "value": 1210,
+            "raw": "1,210"
+          },
+          {
+            "status": "known",
+            "value": 5400000,
+            "raw": "5,400,000"
+          },
+          {
+            "status": "known",
+            "value": 561600,
+            "raw": "6d 12h",
+            "unit": "seconds",
+            "displayInput": "6,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 20,
+            "raw": "20"
+          },
+          {
+            "status": "known",
+            "value": 252,
+            "raw": "252"
+          },
+          {
+            "status": "known",
+            "value": 380,
+            "raw": "380"
+          },
+          {
+            "status": "known",
+            "value": 505,
+            "raw": "505"
+          },
+          {
+            "status": "known",
+            "value": 1210,
+            "raw": "1,210"
+          },
+          {
+            "status": "known",
+            "value": 5800000,
+            "raw": "5,800,000"
+          },
+          {
+            "status": "known",
+            "value": 561600,
+            "raw": "6d 12h",
+            "unit": "seconds",
+            "displayInput": "6,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 5,
+          "type": "cost",
+          "icon": "Elixir2",
+          "gpClass": "research",
+          "noGoldPass": false
+        },
+        {
+          "column": 6,
+          "type": "time",
+          "gpClass": "research",
+          "noGoldPass": false
+        }
+      ]
+    },
+    {
+      "sourceTableIndex": 3,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Number of Units per Army Camp",
+        "Spring Weight",
+        "Preferred Target",
+        "Attack Type",
+        "Number of Targets",
+        "Chain Damage Decay",
+        "Chain Distance",
+        "Movement Speed",
+        "Attack Speed",
+        "Builder Barracks Level Required",
+        "Range",
+        "Special Ability",
+        "Ability Cooldown"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          },
+          {
+            "status": "known",
+            "value": "None",
+            "raw": "None"
+          },
+          {
+            "status": "known",
+            "value": "Ranged (Ground & Air) Chain Lightning",
+            "raw": "Ranged (Ground & Air) Chain Lightning"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": "-20%",
+            "raw": "-20%"
+          },
+          {
+            "status": "known",
+            "value": "3 tiles",
+            "raw": "3 tiles"
+          },
+          {
+            "status": "known",
+            "value": 22,
+            "raw": "22"
+          },
+          {
+            "status": "known",
+            "value": "3.5s",
+            "raw": "3.5s"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          },
+          {
+            "status": "known",
+            "value": "3.5 tiles",
+            "raw": "3.5 tiles"
+          },
+          {
+            "status": "known",
+            "value": "Change Mode",
+            "raw": "Change Mode"
+          },
+          {
+            "status": "known",
+            "value": "1.5s",
+            "raw": "1.5s"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 4,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Level",
+        "Damage per Second (Primary Target)",
+        "Damage per Hit (Primary Target)",
+        "Hitpoints",
+        "Research Cost",
+        "Research Time",
+        "Star Laboratory Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 17,
+            "raw": "17"
+          },
+          {
+            "status": "known",
+            "value": 200,
+            "raw": "200"
+          },
+          {
+            "status": "known",
+            "value": 700,
+            "raw": "700"
+          },
+          {
+            "status": "known",
+            "value": 1100,
+            "raw": "1,100"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 18,
+            "raw": "18"
+          },
+          {
+            "status": "known",
+            "value": 218,
+            "raw": "218"
+          },
+          {
+            "status": "known",
+            "value": 763,
+            "raw": "763"
+          },
+          {
+            "status": "known",
+            "value": 1100,
+            "raw": "1,100"
+          },
+          {
+            "status": "known",
+            "value": 4400000,
+            "raw": "4,400,000"
+          },
+          {
+            "status": "known",
+            "value": 518400,
+            "raw": "6d",
+            "unit": "seconds",
+            "displayInput": "6,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 19,
+            "raw": "19"
+          },
+          {
+            "status": "known",
+            "value": 218,
+            "raw": "218"
+          },
+          {
+            "status": "known",
+            "value": 763,
+            "raw": "763"
+          },
+          {
+            "status": "known",
+            "value": 1210,
+            "raw": "1,210"
+          },
+          {
+            "status": "known",
+            "value": 5400000,
+            "raw": "5,400,000"
+          },
+          {
+            "status": "known",
+            "value": 561600,
+            "raw": "6d 12h",
+            "unit": "seconds",
+            "displayInput": "6,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 20,
+            "raw": "20"
+          },
+          {
+            "status": "known",
+            "value": 234,
+            "raw": "234"
+          },
+          {
+            "status": "known",
+            "value": 819,
+            "raw": "819"
+          },
+          {
+            "status": "known",
+            "value": 1210,
+            "raw": "1,210"
+          },
+          {
+            "status": "known",
+            "value": 5800000,
+            "raw": "5,800,000"
+          },
+          {
+            "status": "known",
+            "value": 561600,
+            "raw": "6d 12h",
+            "unit": "seconds",
+            "displayInput": "6,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 4,
+          "type": "cost",
+          "icon": "Elixir2",
+          "gpClass": "research",
+          "noGoldPass": false
+        },
+        {
+          "column": 5,
+          "type": "time",
+          "gpClass": "research",
+          "noGoldPass": false
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "name": "Electrofire_Wizard_Fire_info.png",
+      "url": "https://static.clashpost.com/upgrade/bh_tech/100b/Electrofire_Wizard_Fire_info.png",
+      "alt": "电火法师",
+      "localPath": "/images/original/upgrade/bh_tech/100b/Electrofire_Wizard_Fire_info.webp",
+      "logicalPath": "/upgrade/bh_tech/100b/Electrofire_Wizard_Fire_info.png"
+    },
+    {
+      "name": "Electrofire_Wizard17_Fire.png",
+      "url": "https://static.clashpost.com/upgrade/bh_tech/100b/Electrofire_Wizard17_Fire.png",
+      "alt": "17 - 18 级",
+      "localPath": "/images/original/upgrade/bh_tech/100b/Electrofire_Wizard17_Fire.webp",
+      "logicalPath": "/upgrade/bh_tech/100b/Electrofire_Wizard17_Fire.png"
+    },
+    {
+      "name": "Electrofire_Wizard19_Fire.png",
+      "url": "https://static.clashpost.com/upgrade/bh_tech/100b/Electrofire_Wizard19_Fire.png",
+      "alt": "19 - 20 级",
+      "localPath": "/images/original/upgrade/bh_tech/100b/Electrofire_Wizard19_Fire.webp",
+      "logicalPath": "/upgrade/bh_tech/100b/Electrofire_Wizard19_Fire.png"
+    },
+    {
+      "name": "Electrofire_Wizard_Electro_info.png",
+      "url": "https://static.clashpost.com/upgrade/bh_tech/100b/Electrofire_Wizard_Electro_info.png",
+      "alt": "电火法师",
+      "localPath": "/images/original/upgrade/bh_tech/100b/Electrofire_Wizard_Electro_info.webp",
+      "logicalPath": "/upgrade/bh_tech/100b/Electrofire_Wizard_Electro_info.png"
+    },
+    {
+      "name": "Electrofire_Wizard17_Electro.png",
+      "url": "https://static.clashpost.com/upgrade/bh_tech/100b/Electrofire_Wizard17_Electro.png",
+      "alt": "17 - 18 级",
+      "localPath": "/images/original/upgrade/bh_tech/100b/Electrofire_Wizard17_Electro.webp",
+      "logicalPath": "/upgrade/bh_tech/100b/Electrofire_Wizard17_Electro.png"
+    },
+    {
+      "name": "Electrofire_Wizard19_Electro.png",
+      "url": "https://static.clashpost.com/upgrade/bh_tech/100b/Electrofire_Wizard19_Electro.png",
+      "alt": "19 - 20 级",
+      "localPath": "/images/original/upgrade/bh_tech/100b/Electrofire_Wizard19_Electro.webp",
+      "logicalPath": "/upgrade/bh_tech/100b/Electrofire_Wizard19_Electro.png"
+    }
+  ],
+  "history": [],
+  "facts": [
+    "The Electrofire Wizard is the twelfth and the last Builder Base Troop unlocked once the Builder Barracks is upgraded to level 12, which requires Builder Hall level 10 to unlock. He is the Builder Base counterpart of the Wizard.",
+    "In Electro Mode, the Electrofire Wizard will use chain lightning attacks that can hit up to four different targets that are 1 tile apart from each other, though he prepares this attack slowly. The damage decreases by 20% per target hit after the first."
+  ],
+  "notices": []
+}

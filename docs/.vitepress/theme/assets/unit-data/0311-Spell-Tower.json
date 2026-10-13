@@ -1,0 +1,723 @@
+{
+  "unitId": "0311-Spell-Tower",
+  "title": "法术塔",
+  "originalName": "Spell Tower",
+  "module": "upgrade-home",
+  "imgFolder": "home_buildings/0311",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Spell_Tower",
+    "revision": 624787,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Spell_Tower?oldid=624787",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 3,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Town Hall Level",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "Number Available",
+            "raw": "Number Available"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          }
+        ],
+        [
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          },
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          },
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          },
+          {
+            "status": "known",
+            "value": 15,
+            "raw": "15"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          },
+          {
+            "status": "known",
+            "value": 17,
+            "raw": "17"
+          },
+          {
+            "status": "known",
+            "value": 18,
+            "raw": "18"
+          }
+        ],
+        [
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 4,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Size"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "2x2",
+            "raw": "2x2"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 5,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Level",
+        "Unlocks",
+        "Hitpoints",
+        "Cost",
+        "Build Time",
+        "Experience Gained",
+        "Town Hall Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": "Rage Spell",
+            "raw": "Rage Spell"
+          },
+          {
+            "status": "known",
+            "value": 2500,
+            "raw": "2,500"
+          },
+          {
+            "status": "known",
+            "value": 9000000,
+            "raw": "9,000,000"
+          },
+          {
+            "status": "known",
+            "value": 604800,
+            "raw": "7d",
+            "unit": "seconds",
+            "displayInput": "7,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 777,
+            "raw": "777"
+          },
+          {
+            "status": "known",
+            "value": 15,
+            "raw": "15"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": "Poison Spell",
+            "raw": "Poison Spell"
+          },
+          {
+            "status": "known",
+            "value": 2800,
+            "raw": "2,800"
+          },
+          {
+            "status": "known",
+            "value": 11000000,
+            "raw": "11,000,000"
+          },
+          {
+            "status": "known",
+            "value": 691200,
+            "raw": "8d",
+            "unit": "seconds",
+            "displayInput": "8,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 831,
+            "raw": "831"
+          },
+          {
+            "status": "known",
+            "value": 15,
+            "raw": "15"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": "Invisibility Spell",
+            "raw": "Invisibility Spell"
+          },
+          {
+            "status": "known",
+            "value": 3100,
+            "raw": "3,100"
+          },
+          {
+            "status": "known",
+            "value": 12000000,
+            "raw": "12,000,000"
+          },
+          {
+            "status": "known",
+            "value": 734400,
+            "raw": "8d 12h",
+            "unit": "seconds",
+            "displayInput": "8,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 856,
+            "raw": "856"
+          },
+          {
+            "status": "known",
+            "value": 15,
+            "raw": "15"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": "Earthquake Spell",
+            "raw": "Earthquake Spell"
+          },
+          {
+            "status": "known",
+            "value": 3200,
+            "raw": "3,200"
+          },
+          {
+            "status": "known",
+            "value": 27000000,
+            "raw": "27,000,000"
+          },
+          {
+            "status": "known",
+            "value": 864000,
+            "raw": "10d",
+            "unit": "seconds",
+            "displayInput": "10,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 929,
+            "raw": "929"
+          },
+          {
+            "status": "known",
+            "value": 17,
+            "raw": "17"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 3,
+          "type": "cost",
+          "icon": "Gold",
+          "gpClass": "building",
+          "noGoldPass": false
+        },
+        {
+          "column": 4,
+          "type": "time",
+          "gpClass": "building",
+          "noGoldPass": false
+        }
+      ]
+    },
+    {
+      "sourceTableIndex": 7,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Range",
+        "Spell Radius",
+        "Spell Duration",
+        "Damage Increase",
+        "Recharge Time",
+        "Trigger",
+        "Targets",
+        "Deploy Position"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "9 tiles",
+            "raw": "9 tiles"
+          },
+          {
+            "status": "known",
+            "value": "5 tiles",
+            "raw": "5 tiles"
+          },
+          {
+            "status": "known",
+            "value": "18s",
+            "raw": "18s"
+          },
+          {
+            "status": "known",
+            "value": "60%",
+            "raw": "60%"
+          },
+          {
+            "status": "known",
+            "value": "70s",
+            "raw": "70s"
+          },
+          {
+            "status": "known",
+            "value": "Target in range",
+            "raw": "Target in range"
+          },
+          {
+            "status": "known",
+            "value": "Ground & Air",
+            "raw": "Ground & Air"
+          },
+          {
+            "status": "known",
+            "value": "Spell Tower",
+            "raw": "Spell Tower"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 8,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Range",
+        "Spell Radius",
+        "Spell Duration",
+        "Max Damage per Second",
+        "Speed Decrease",
+        "Attack Rate Decrease",
+        "Recharge Time",
+        "Trigger",
+        "Targets",
+        "Deploy Position"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "9 tiles",
+            "raw": "9 tiles"
+          },
+          {
+            "status": "known",
+            "value": "5 tiles",
+            "raw": "5 tiles"
+          },
+          {
+            "status": "known",
+            "value": "12s",
+            "raw": "12s"
+          },
+          {
+            "status": "known",
+            "value": 60,
+            "raw": "60"
+          },
+          {
+            "status": "known",
+            "value": "35%",
+            "raw": "35%"
+          },
+          {
+            "status": "known",
+            "value": "25%",
+            "raw": "25%"
+          },
+          {
+            "status": "known",
+            "value": "70s",
+            "raw": "70s"
+          },
+          {
+            "status": "known",
+            "value": "Target in range",
+            "raw": "Target in range"
+          },
+          {
+            "status": "known",
+            "value": "Ground & Air",
+            "raw": "Ground & Air"
+          },
+          {
+            "status": "known",
+            "value": "Target",
+            "raw": "Target"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 9,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Range",
+        "Spell Radius",
+        "Spell Duration",
+        "Recharge Time",
+        "Trigger",
+        "Targets",
+        "Deploy Position"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "4.5 tiles",
+            "raw": "4.5 tiles"
+          },
+          {
+            "status": "known",
+            "value": "4.5 tiles",
+            "raw": "4.5 tiles"
+          },
+          {
+            "status": "known",
+            "value": "4.5s",
+            "raw": "4.5s"
+          },
+          {
+            "status": "known",
+            "value": "50s",
+            "raw": "50s"
+          },
+          {
+            "status": "known",
+            "value": "Building in range is hit",
+            "raw": "Building in range is hit"
+          },
+          {
+            "status": "known",
+            "value": "Ground & Air",
+            "raw": "Ground & Air"
+          },
+          {
+            "status": "known",
+            "value": "Spell Tower",
+            "raw": "Spell Tower"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 10,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Range",
+        "Spell Radius",
+        "Troop Damage %",
+        "Recharge Time",
+        "Trigger",
+        "Targets",
+        "Deploy Position"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "9 tiles",
+            "raw": "9 tiles"
+          },
+          {
+            "status": "known",
+            "value": "4.7 tiles",
+            "raw": "4.7 tiles"
+          },
+          {
+            "status": "known",
+            "value": "30%",
+            "raw": "30%"
+          },
+          {
+            "status": "known",
+            "value": "50s",
+            "raw": "50s"
+          },
+          {
+            "status": "known",
+            "value": "Target in range",
+            "raw": "Target in range"
+          },
+          {
+            "status": "known",
+            "value": "Ground",
+            "raw": "Ground"
+          },
+          {
+            "status": "known",
+            "value": "Target",
+            "raw": "Target"
+          }
+        ]
+      ],
+      "extraInfo": []
+    }
+  ],
+  "images": [
+    {
+      "name": "Spell_Tower4_Rage.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0311/Spell_Tower4_Rage.png",
+      "alt": "法术塔",
+      "localPath": "/images/original/upgrade/home_buildings/0311/Spell_Tower4_Rage.webp",
+      "logicalPath": "/upgrade/home_buildings/0311/Spell_Tower4_Rage.png"
+    },
+    {
+      "name": "Spell_Tower1_Rage.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0311/Spell_Tower1_Rage.png",
+      "alt": "1 级",
+      "localPath": "/images/original/upgrade/home_buildings/0311/Spell_Tower1_Rage.webp",
+      "logicalPath": "/upgrade/home_buildings/0311/Spell_Tower1_Rage.png"
+    },
+    {
+      "name": "Spell_Tower2_Rage.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0311/Spell_Tower2_Rage.png",
+      "alt": "2 级",
+      "localPath": "/images/original/upgrade/home_buildings/0311/Spell_Tower2_Rage.webp",
+      "logicalPath": "/upgrade/home_buildings/0311/Spell_Tower2_Rage.png"
+    },
+    {
+      "name": "Spell_Tower3_Rage.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0311/Spell_Tower3_Rage.png",
+      "alt": "3 级",
+      "localPath": "/images/original/upgrade/home_buildings/0311/Spell_Tower3_Rage.webp",
+      "logicalPath": "/upgrade/home_buildings/0311/Spell_Tower3_Rage.png"
+    },
+    {
+      "name": "Spell_Tower4_Poison.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0311/Spell_Tower4_Poison.png",
+      "alt": "法术塔",
+      "localPath": "/images/original/upgrade/home_buildings/0311/Spell_Tower4_Poison.webp",
+      "logicalPath": "/upgrade/home_buildings/0311/Spell_Tower4_Poison.png"
+    },
+    {
+      "name": "Spell_Tower2_Poison.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0311/Spell_Tower2_Poison.png",
+      "alt": "2 级",
+      "localPath": "/images/original/upgrade/home_buildings/0311/Spell_Tower2_Poison.webp",
+      "logicalPath": "/upgrade/home_buildings/0311/Spell_Tower2_Poison.png"
+    },
+    {
+      "name": "Spell_Tower3_Poison.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0311/Spell_Tower3_Poison.png",
+      "alt": "3 级",
+      "localPath": "/images/original/upgrade/home_buildings/0311/Spell_Tower3_Poison.webp",
+      "logicalPath": "/upgrade/home_buildings/0311/Spell_Tower3_Poison.png"
+    },
+    {
+      "name": "Spell_Tower4_Invisibility.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0311/Spell_Tower4_Invisibility.png",
+      "alt": "法术塔",
+      "localPath": "/images/original/upgrade/home_buildings/0311/Spell_Tower4_Invisibility.webp",
+      "logicalPath": "/upgrade/home_buildings/0311/Spell_Tower4_Invisibility.png"
+    },
+    {
+      "name": "Spell_Tower3_Invisibility.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0311/Spell_Tower3_Invisibility.png",
+      "alt": "3 级",
+      "localPath": "/images/original/upgrade/home_buildings/0311/Spell_Tower3_Invisibility.webp",
+      "logicalPath": "/upgrade/home_buildings/0311/Spell_Tower3_Invisibility.png"
+    },
+    {
+      "name": "Spell_Tower4_Earthquake.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0311/Spell_Tower4_Earthquake.png",
+      "alt": "法术塔",
+      "localPath": "/images/original/upgrade/home_buildings/0311/Spell_Tower4_Earthquake.webp",
+      "logicalPath": "/upgrade/home_buildings/0311/Spell_Tower4_Earthquake.png"
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-02-23",
+      "description": "Added the level 4 Spell Tower, the Earthquake Spell Tower. Spell Tower4 Earthquake"
+    }
+  ],
+  "facts": [
+    "The Spell Tower is a defensive building unlocked at Town Hall level 15. As opposed to the conventional defensive structures, the Spell Tower does not shoot projectiles at enemies; instead, it activates a spell - similar to ones players use for offense - into its surrounding radius.",
+    "At level 2, the Spell Tower can be set to launch Poison Spells. When an attacking unit comes into range of the tower in this mode, the Spell Tower will launch a poison bomb at that unit, creating an area that does moderate damage over time and that slows down attacking troops.",
+    "Defending Heroes are affected, but they only gain half of the damage and speed increase (+30% damage and +15 speed), similar to how they are less affected by buffing spells when used on attack."
+  ],
+  "notices": []
+}

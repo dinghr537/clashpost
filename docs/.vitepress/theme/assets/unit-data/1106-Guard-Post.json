@@ -1,0 +1,612 @@
+{
+  "unitId": "1106-Guard-Post",
+  "title": "守卫岗哨",
+  "originalName": "Guard Post",
+  "module": "upgrade-bh",
+  "imgFolder": "bh_buildings/1106",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Guard_Post",
+    "revision": 621049,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Guard_Post?oldid=621049",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 1,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Number Available",
+        "Builder Hall Level / 1",
+        "Builder Hall Level / 2",
+        "Builder Hall Level / 3",
+        "Builder Hall Level / 4",
+        "Builder Hall Level / 5",
+        "Builder Hall Level / 6",
+        "Builder Hall Level / 7",
+        "Builder Hall Level / 8",
+        "Builder Hall Level / 9",
+        "Builder Hall Level / 10"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "Total",
+            "raw": "Total"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 2,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Size"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "2x2",
+            "raw": "2x2"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 3,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Level",
+        "Troop Level",
+        "Hitpoints",
+        "Build Cost",
+        "Build Time",
+        "Experience Gained",
+        "Builder Hall Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 300,
+            "raw": "300"
+          },
+          {
+            "status": "known",
+            "value": 200000,
+            "raw": "200,000"
+          },
+          {
+            "status": "known",
+            "value": 14400,
+            "raw": "4h",
+            "unit": "seconds",
+            "displayInput": "0,4,0,0"
+          },
+          {
+            "status": "known",
+            "value": 120,
+            "raw": "120"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 350,
+            "raw": "350"
+          },
+          {
+            "status": "known",
+            "value": 240000,
+            "raw": "240,000"
+          },
+          {
+            "status": "known",
+            "value": 28800,
+            "raw": "8h",
+            "unit": "seconds",
+            "displayInput": "0,8,0,0"
+          },
+          {
+            "status": "known",
+            "value": 169,
+            "raw": "169"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 400,
+            "raw": "400"
+          },
+          {
+            "status": "known",
+            "value": 280000,
+            "raw": "280,000"
+          },
+          {
+            "status": "known",
+            "value": 43200,
+            "raw": "12h",
+            "unit": "seconds",
+            "displayInput": "0,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 207,
+            "raw": "207"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": 460,
+            "raw": "460"
+          },
+          {
+            "status": "known",
+            "value": 320000,
+            "raw": "320,000"
+          },
+          {
+            "status": "known",
+            "value": 86400,
+            "raw": "1d",
+            "unit": "seconds",
+            "displayInput": "1,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 293,
+            "raw": "293"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 550,
+            "raw": "550"
+          },
+          {
+            "status": "known",
+            "value": 1000000,
+            "raw": "1,000,000"
+          },
+          {
+            "status": "known",
+            "value": 172800,
+            "raw": "2d",
+            "unit": "seconds",
+            "displayInput": "2,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 415,
+            "raw": "415"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          },
+          {
+            "status": "known",
+            "value": 650,
+            "raw": "650"
+          },
+          {
+            "status": "known",
+            "value": 1400000,
+            "raw": "1,400,000"
+          },
+          {
+            "status": "known",
+            "value": 345600,
+            "raw": "4d",
+            "unit": "seconds",
+            "displayInput": "4,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 587,
+            "raw": "587"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          },
+          {
+            "status": "known",
+            "value": 750,
+            "raw": "750"
+          },
+          {
+            "status": "known",
+            "value": 2300000,
+            "raw": "2,300,000"
+          },
+          {
+            "status": "known",
+            "value": 518400,
+            "raw": "6d",
+            "unit": "seconds",
+            "displayInput": "6,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 720,
+            "raw": "720"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          },
+          {
+            "status": "known",
+            "value": 850,
+            "raw": "850"
+          },
+          {
+            "status": "known",
+            "value": 3200000,
+            "raw": "3,200,000"
+          },
+          {
+            "status": "known",
+            "value": 691200,
+            "raw": "8d",
+            "unit": "seconds",
+            "displayInput": "8,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 831,
+            "raw": "831"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          },
+          {
+            "status": "known",
+            "value": 18,
+            "raw": "18"
+          },
+          {
+            "status": "known",
+            "value": 1000,
+            "raw": "1,000"
+          },
+          {
+            "status": "known",
+            "value": 4100000,
+            "raw": "4,100,000"
+          },
+          {
+            "status": "known",
+            "value": 864000,
+            "raw": "10d",
+            "unit": "seconds",
+            "displayInput": "10,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 929,
+            "raw": "929"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 20,
+            "raw": "20"
+          },
+          {
+            "status": "known",
+            "value": 1150,
+            "raw": "1,150"
+          },
+          {
+            "status": "known",
+            "value": 5100000,
+            "raw": "5,100,000"
+          },
+          {
+            "status": "known",
+            "value": 1036800,
+            "raw": "12d",
+            "unit": "seconds",
+            "displayInput": "12,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 1018,
+            "raw": "1,018"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 3,
+          "type": "cost",
+          "icon": "Gold2",
+          "gpClass": "building",
+          "noGoldPass": false
+        },
+        {
+          "column": 4,
+          "type": "time",
+          "gpClass": "building",
+          "noGoldPass": false
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "name": "Guard_Post10.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1106/Guard_Post10.png",
+      "alt": "守卫岗哨",
+      "localPath": "/images/original/upgrade/bh_buildings/1106/Guard_Post10.webp",
+      "logicalPath": "/upgrade/bh_buildings/1106/Guard_Post10.png"
+    },
+    {
+      "name": "Guard_Post1.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1106/Guard_Post1.png",
+      "alt": "1 级",
+      "localPath": "/images/original/upgrade/bh_buildings/1106/Guard_Post1.webp",
+      "logicalPath": "/upgrade/bh_buildings/1106/Guard_Post1.png"
+    },
+    {
+      "name": "Guard_Post2.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1106/Guard_Post2.png",
+      "alt": "2 级",
+      "localPath": "/images/original/upgrade/bh_buildings/1106/Guard_Post2.webp",
+      "logicalPath": "/upgrade/bh_buildings/1106/Guard_Post2.png"
+    },
+    {
+      "name": "Guard_Post3.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1106/Guard_Post3.png",
+      "alt": "3 级",
+      "localPath": "/images/original/upgrade/bh_buildings/1106/Guard_Post3.webp",
+      "logicalPath": "/upgrade/bh_buildings/1106/Guard_Post3.png"
+    },
+    {
+      "name": "Guard_Post4.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1106/Guard_Post4.png",
+      "alt": "4 级",
+      "localPath": "/images/original/upgrade/bh_buildings/1106/Guard_Post4.webp",
+      "logicalPath": "/upgrade/bh_buildings/1106/Guard_Post4.png"
+    },
+    {
+      "name": "Guard_Post5.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1106/Guard_Post5.png",
+      "alt": "5 级",
+      "localPath": "/images/original/upgrade/bh_buildings/1106/Guard_Post5.webp",
+      "logicalPath": "/upgrade/bh_buildings/1106/Guard_Post5.png"
+    },
+    {
+      "name": "Guard_Post6.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1106/Guard_Post6.png",
+      "alt": "6 级",
+      "localPath": "/images/original/upgrade/bh_buildings/1106/Guard_Post6.webp",
+      "logicalPath": "/upgrade/bh_buildings/1106/Guard_Post6.png"
+    },
+    {
+      "name": "Guard_Post7.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1106/Guard_Post7.png",
+      "alt": "7 级",
+      "localPath": "/images/original/upgrade/bh_buildings/1106/Guard_Post7.webp",
+      "logicalPath": "/upgrade/bh_buildings/1106/Guard_Post7.png"
+    },
+    {
+      "name": "Guard_Post8.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1106/Guard_Post8.png",
+      "alt": "8 级",
+      "localPath": "/images/original/upgrade/bh_buildings/1106/Guard_Post8.webp",
+      "logicalPath": "/upgrade/bh_buildings/1106/Guard_Post8.png"
+    },
+    {
+      "name": "Guard_Post9.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1106/Guard_Post9.png",
+      "alt": "9 级",
+      "localPath": "/images/original/upgrade/bh_buildings/1106/Guard_Post9.webp",
+      "logicalPath": "/upgrade/bh_buildings/1106/Guard_Post9.png"
+    }
+  ],
+  "history": [],
+  "facts": [
+    "The Guard Post houses defensive troops, similar to the Clan Castle in the Home Village. It is unlocked at Builder Hall level 4."
+  ],
+  "notices": []
+}

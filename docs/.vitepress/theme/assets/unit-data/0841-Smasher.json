@@ -1,0 +1,321 @@
+{
+  "unitId": "0841-Smasher",
+  "title": "粉碎者",
+  "originalName": "Smasher",
+  "module": "upgrade-home",
+  "imgFolder": "home_th/0841",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Smasher",
+    "revision": 625037,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Smasher?oldid=625037",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 2,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Targets",
+        "Attack Type",
+        "Movement Speed",
+        "Attack Speed",
+        "Range",
+        "Search Radius",
+        "Trigger Radius",
+        "Damage Radius",
+        "Special Ability",
+        "Rage Speed Increase",
+        "Rage Damage Increase"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "Ground & Air",
+            "raw": "Ground & Air"
+          },
+          {
+            "status": "known",
+            "value": "Splash Damage",
+            "raw": "Splash Damage"
+          },
+          {
+            "status": "known",
+            "value": 20,
+            "raw": "20"
+          },
+          {
+            "status": "known",
+            "value": "1.8s",
+            "raw": "1.8s"
+          },
+          {
+            "status": "known",
+            "value": "1.25 tiles",
+            "raw": "1.25 tiles"
+          },
+          {
+            "status": "known",
+            "value": "12 tiles",
+            "raw": "12 tiles"
+          },
+          {
+            "status": "known",
+            "value": "14 tiles",
+            "raw": "14 tiles"
+          },
+          {
+            "status": "known",
+            "value": "2.5 tiles",
+            "raw": "2.5 tiles"
+          },
+          {
+            "status": "known",
+            "value": "Sore Loser",
+            "raw": "Sore Loser"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          },
+          {
+            "status": "known",
+            "value": "60%",
+            "raw": "60%"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 3,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Level",
+        "Damage per Second",
+        "Damage per Hit",
+        "Hitpoints",
+        "Upgrade Cost",
+        "Upgrade Time"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 500,
+            "raw": "500"
+          },
+          {
+            "status": "known",
+            "value": 900,
+            "raw": "900"
+          },
+          {
+            "status": "known",
+            "value": 12000,
+            "raw": "12,000"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 550,
+            "raw": "550"
+          },
+          {
+            "status": "known",
+            "value": 990,
+            "raw": "990"
+          },
+          {
+            "status": "known",
+            "value": 13000,
+            "raw": "13,000"
+          },
+          {
+            "status": "known",
+            "value": 18000000,
+            "raw": "18,000,000"
+          },
+          {
+            "status": "known",
+            "value": 604800,
+            "raw": "7d",
+            "unit": "seconds",
+            "displayInput": "7,0,0,0"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 600,
+            "raw": "600"
+          },
+          {
+            "status": "known",
+            "value": 1080,
+            "raw": "1,080"
+          },
+          {
+            "status": "known",
+            "value": 14000,
+            "raw": "14,000"
+          },
+          {
+            "status": "known",
+            "value": 22000000,
+            "raw": "22,000,000"
+          },
+          {
+            "status": "known",
+            "value": 777600,
+            "raw": "9d",
+            "unit": "seconds",
+            "displayInput": "9,0,0,0"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 650,
+            "raw": "650"
+          },
+          {
+            "status": "known",
+            "value": 1170,
+            "raw": "1,170"
+          },
+          {
+            "status": "known",
+            "value": 15000,
+            "raw": "15,000"
+          },
+          {
+            "status": "known",
+            "value": 26000000,
+            "raw": "26,000,000"
+          },
+          {
+            "status": "known",
+            "value": 950400,
+            "raw": "11d",
+            "unit": "seconds",
+            "displayInput": "11,0,0,0"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 700,
+            "raw": "700"
+          },
+          {
+            "status": "known",
+            "value": 1260,
+            "raw": "1,260"
+          },
+          {
+            "status": "known",
+            "value": 16000,
+            "raw": "16,000"
+          },
+          {
+            "status": "known",
+            "value": 28000000,
+            "raw": "28,000,000"
+          },
+          {
+            "status": "known",
+            "value": 1123200,
+            "raw": "13d",
+            "unit": "seconds",
+            "displayInput": "13,0,0,0"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 4,
+          "type": "cost",
+          "icon": "Elixir",
+          "gpClass": "building",
+          "noGoldPass": false
+        },
+        {
+          "column": 5,
+          "type": "time",
+          "gpClass": "building",
+          "noGoldPass": false
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "name": "Smasher_info.png",
+      "url": "https://static.clashpost.com/upgrade/home_th/0841/Smasher_info.png",
+      "alt": "粉碎者",
+      "localPath": "/images/original/upgrade/home_th/0841/Smasher_info.webp",
+      "logicalPath": "/upgrade/home_th/0841/Smasher_info.png"
+    },
+    {
+      "name": "Smasher1.png",
+      "url": "https://static.clashpost.com/upgrade/home_th/0841/Smasher1.png",
+      "alt": "所有等级",
+      "localPath": "/images/original/upgrade/home_th/0841/Smasher1.webp",
+      "logicalPath": "/upgrade/home_th/0841/Smasher1.png"
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-04-27",
+      "description": "Made the Smasher affected by the Poison Spell, but its effects only apply by 30%. Poison Effect"
+    }
+  ],
+  "facts": [
+    "The Smasher is one of the default Guardians who is unlocked at Town Hall 18.",
+    "He has a violent temper and is fiercely protective of the Town Hall, and will become enraged, boosting his damage and movement speed by 60% if the Town Hall is destroyed. This enraged status persists until he is defeated."
+  ],
+  "notices": []
+}

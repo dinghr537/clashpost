@@ -1,0 +1,715 @@
+{
+  "unitId": "0312-Monolith",
+  "title": "巨石碑",
+  "originalName": "Monolith",
+  "module": "upgrade-home",
+  "imgFolder": "home_buildings/0312",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Monolith",
+    "revision": 625148,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Monolith?oldid=625148",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 2,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Town Hall Level",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "Number Available",
+            "raw": "Number Available"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          }
+        ],
+        [
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          },
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          },
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          },
+          {
+            "status": "known",
+            "value": 15,
+            "raw": "15"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          },
+          {
+            "status": "known",
+            "value": 17,
+            "raw": "17"
+          },
+          {
+            "status": "known",
+            "value": 18,
+            "raw": "18"
+          }
+        ],
+        [
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 3,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Size"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "3x3",
+            "raw": "3x3"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 4,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Level",
+        "Base Damage per Second",
+        "Base Damage per Shot",
+        "Bonus Damage per Shot",
+        "Hitpoints",
+        "Build Cost",
+        "Build Time",
+        "Experience Gained",
+        "Town Hall Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 150,
+            "raw": "150"
+          },
+          {
+            "status": "known",
+            "value": 225,
+            "raw": "225"
+          },
+          {
+            "status": "known",
+            "value": "11%",
+            "raw": "11%"
+          },
+          {
+            "status": "known",
+            "value": 4747,
+            "raw": "4,747"
+          },
+          {
+            "status": "known",
+            "value": 200000,
+            "raw": "200,000"
+          },
+          {
+            "status": "known",
+            "value": 604800,
+            "raw": "7d",
+            "unit": "seconds",
+            "displayInput": "7,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 777,
+            "raw": "777"
+          },
+          {
+            "status": "known",
+            "value": 15,
+            "raw": "15"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 175,
+            "raw": "175"
+          },
+          {
+            "status": "known",
+            "value": 262.5,
+            "raw": "262.5"
+          },
+          {
+            "status": "known",
+            "value": "12%",
+            "raw": "12%"
+          },
+          {
+            "status": "known",
+            "value": 5050,
+            "raw": "5,050"
+          },
+          {
+            "status": "known",
+            "value": 250000,
+            "raw": "250,000"
+          },
+          {
+            "status": "known",
+            "value": 691200,
+            "raw": "8d",
+            "unit": "seconds",
+            "displayInput": "8,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 831,
+            "raw": "831"
+          },
+          {
+            "status": "known",
+            "value": 15,
+            "raw": "15"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 193,
+            "raw": "193"
+          },
+          {
+            "status": "known",
+            "value": 289.5,
+            "raw": "289.5"
+          },
+          {
+            "status": "known",
+            "value": "13%",
+            "raw": "13%"
+          },
+          {
+            "status": "known",
+            "value": 5353,
+            "raw": "5,353"
+          },
+          {
+            "status": "known",
+            "value": 260000,
+            "raw": "260,000"
+          },
+          {
+            "status": "known",
+            "value": 777600,
+            "raw": "9d",
+            "unit": "seconds",
+            "displayInput": "9,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 881,
+            "raw": "881"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 209,
+            "raw": "209"
+          },
+          {
+            "status": "known",
+            "value": 313.5,
+            "raw": "313.5"
+          },
+          {
+            "status": "known",
+            "value": "14%",
+            "raw": "14%"
+          },
+          {
+            "status": "known",
+            "value": 5656,
+            "raw": "5,656"
+          },
+          {
+            "status": "known",
+            "value": 300000,
+            "raw": "300,000"
+          },
+          {
+            "status": "known",
+            "value": 950400,
+            "raw": "11d",
+            "unit": "seconds",
+            "displayInput": "11,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 974,
+            "raw": "974"
+          },
+          {
+            "status": "known",
+            "value": 17,
+            "raw": "17"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 225,
+            "raw": "225"
+          },
+          {
+            "status": "known",
+            "value": 337.5,
+            "raw": "337.5"
+          },
+          {
+            "status": "known",
+            "value": "15%",
+            "raw": "15%"
+          },
+          {
+            "status": "known",
+            "value": 5959,
+            "raw": "5,959"
+          },
+          {
+            "status": "known",
+            "value": 470000,
+            "raw": "470,000"
+          },
+          {
+            "status": "known",
+            "value": 1296000,
+            "raw": "15d",
+            "unit": "seconds",
+            "displayInput": "15,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 1138,
+            "raw": "1,138"
+          },
+          {
+            "status": "known",
+            "value": 18,
+            "raw": "18"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 5,
+          "type": "cost",
+          "icon": "Dark_Elixir",
+          "gpClass": "building",
+          "noGoldPass": false
+        },
+        {
+          "column": 6,
+          "type": "time",
+          "gpClass": "building",
+          "noGoldPass": false
+        }
+      ]
+    },
+    {
+      "sourceTableIndex": 6,
+      "section": "Statistics",
+      "title": "Supercharges",
+      "headers": [
+        "Level",
+        "Base Damage per Second",
+        "Base Damage per Shot",
+        "Bonus Damage per Shot",
+        "Hitpoints",
+        "Build Cost",
+        "Build Time",
+        "Experience Gained",
+        "Town Hall Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 235,
+            "raw": "235"
+          },
+          {
+            "status": "known",
+            "value": 352.5,
+            "raw": "352.5"
+          },
+          {
+            "status": "known",
+            "value": "15%",
+            "raw": "15%"
+          },
+          {
+            "status": "known",
+            "value": 5959,
+            "raw": "5,959"
+          },
+          {
+            "status": "known",
+            "value": 220000,
+            "raw": "220,000"
+          },
+          {
+            "status": "known",
+            "value": 432000,
+            "raw": "5d",
+            "unit": "seconds",
+            "displayInput": "5,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 657,
+            "raw": "657"
+          },
+          {
+            "status": "known",
+            "value": 18,
+            "raw": "18"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 235,
+            "raw": "235"
+          },
+          {
+            "status": "known",
+            "value": 352.5,
+            "raw": "352.5"
+          },
+          {
+            "status": "known",
+            "value": "15%",
+            "raw": "15%"
+          },
+          {
+            "status": "known",
+            "value": 6161,
+            "raw": "6,161"
+          },
+          {
+            "status": "known",
+            "value": 200000,
+            "raw": "200,000"
+          },
+          {
+            "status": "known",
+            "value": 604800,
+            "raw": "7d",
+            "unit": "seconds",
+            "displayInput": "7,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 777,
+            "raw": "777"
+          },
+          {
+            "status": "known",
+            "value": 18,
+            "raw": "18"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 5,
+          "type": "cost",
+          "icon": "Dark_Elixir",
+          "gpClass": "building",
+          "noGoldPass": false
+        },
+        {
+          "column": 6,
+          "type": "time",
+          "gpClass": "building",
+          "noGoldPass": false
+        }
+      ]
+    },
+    {
+      "sourceTableIndex": 7,
+      "section": "Statistics",
+      "title": "Supercharges",
+      "headers": [
+        "Range",
+        "Attack Speed",
+        "Damage Type",
+        "Unit Type Targeted"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          },
+          {
+            "status": "known",
+            "value": "1.5s",
+            "raw": "1.5s"
+          },
+          {
+            "status": "known",
+            "value": "Single Target",
+            "raw": "Single Target"
+          },
+          {
+            "status": "known",
+            "value": "Ground & Air",
+            "raw": "Ground & Air"
+          }
+        ]
+      ],
+      "extraInfo": []
+    }
+  ],
+  "images": [
+    {
+      "name": "Monolith4_info.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0312/Monolith4_info.png",
+      "alt": "巨石碑",
+      "localPath": "/images/original/upgrade/home_buildings/0312/Monolith4_info.webp",
+      "logicalPath": "/upgrade/home_buildings/0312/Monolith4_info.png"
+    },
+    {
+      "name": "Monolith1.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0312/Monolith1.png",
+      "alt": "1 级",
+      "localPath": "/images/original/upgrade/home_buildings/0312/Monolith1.webp",
+      "logicalPath": "/upgrade/home_buildings/0312/Monolith1.png"
+    },
+    {
+      "name": "Monolith2.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0312/Monolith2.png",
+      "alt": "2 级",
+      "localPath": "/images/original/upgrade/home_buildings/0312/Monolith2.webp",
+      "logicalPath": "/upgrade/home_buildings/0312/Monolith2.png"
+    },
+    {
+      "name": "Monolith3.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0312/Monolith3.png",
+      "alt": "3 级",
+      "localPath": "/images/original/upgrade/home_buildings/0312/Monolith3.webp",
+      "logicalPath": "/upgrade/home_buildings/0312/Monolith3.png"
+    },
+    {
+      "name": "Monolith4.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0312/Monolith4.png",
+      "alt": "4 级",
+      "localPath": "/images/original/upgrade/home_buildings/0312/Monolith4.webp",
+      "logicalPath": "/upgrade/home_buildings/0312/Monolith4.png"
+    },
+    {
+      "name": "Monolith5.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/9/96/Monolith5.png/revision/latest/scale-to-width-down/192?cb=20260906195022",
+      "alt": "Monolith5",
+      "localPath": "/images/wiki/0312-Monolith/878a77f365-Monolith5.png",
+      "logicalPath": "/upgrade/home_buildings/0312/Monolith5.png"
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-06-16",
+      "description": "Added the level 5 Monolith. Monolith5 Removed the supercharges at level 4 Icon Supercharge ⚡"
+    },
+    {
+      "date": "2026-08-31",
+      "description": "Added 2 Supercharge levels for the Monolith. Icon Supercharge ⚡"
+    }
+  ],
+  "facts": [
+    "The Monolith is a defensive building unlocked at Town Hall level 15. it is a single target, slow-firing defense that deals additional damage equivalent to the target's maximum health in addition to the base damage of the defense."
+  ],
+  "notices": []
+}

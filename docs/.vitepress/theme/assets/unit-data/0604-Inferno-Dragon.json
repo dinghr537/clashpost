@@ -1,0 +1,353 @@
+{
+  "unitId": "0604-Inferno-Dragon",
+  "title": "地狱飞龙",
+  "originalName": "Inferno Dragon",
+  "module": "upgrade-home",
+  "imgFolder": "home_tech/0604",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Inferno_Dragon",
+    "revision": 594174,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Inferno_Dragon?oldid=594174",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 1,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Preferred Target",
+        "Attack Type",
+        "Housing Space",
+        "Movement Speed",
+        "Attack Speed",
+        "Range",
+        "Special Ability"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "None",
+            "raw": "None"
+          },
+          {
+            "status": "known",
+            "value": "Single Target",
+            "raw": "Single Target"
+          },
+          {
+            "status": "known",
+            "value": 15,
+            "raw": "15"
+          },
+          {
+            "status": "known",
+            "value": 18,
+            "raw": "18"
+          },
+          {
+            "status": "known",
+            "value": "0.128s",
+            "raw": "0.128s"
+          },
+          {
+            "status": "known",
+            "value": "4 tiles",
+            "raw": "4 tiles"
+          },
+          {
+            "status": "known",
+            "value": "Inferno Beam",
+            "raw": "Inferno Beam"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 2,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Boost Cost",
+        "Boost Duration",
+        "Baby Dragon Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 25000,
+            "raw": "25,000"
+          },
+          {
+            "status": "known",
+            "value": "3d",
+            "raw": "3d"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 0,
+          "type": "cost",
+          "icon": "Dark_Elixir",
+          "gpClass": "research",
+          "noGoldPass": true
+        }
+      ]
+    },
+    {
+      "sourceTableIndex": 3,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Level",
+        "Damage per Second / Initial",
+        "Damage per Second / After 1.7s",
+        "Damage per Second / After 3.2s",
+        "Hitpoints"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 75,
+            "raw": "75"
+          },
+          {
+            "status": "known",
+            "value": 150,
+            "raw": "150"
+          },
+          {
+            "status": "known",
+            "value": 1500,
+            "raw": "1,500"
+          },
+          {
+            "status": "known",
+            "value": 1900,
+            "raw": "1,900"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": 79,
+            "raw": "79"
+          },
+          {
+            "status": "known",
+            "value": 158,
+            "raw": "158"
+          },
+          {
+            "status": "known",
+            "value": 1580,
+            "raw": "1,580"
+          },
+          {
+            "status": "known",
+            "value": 2050,
+            "raw": "2,050"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": 83,
+            "raw": "83"
+          },
+          {
+            "status": "known",
+            "value": 166,
+            "raw": "166"
+          },
+          {
+            "status": "known",
+            "value": 1660,
+            "raw": "1,660"
+          },
+          {
+            "status": "known",
+            "value": 2200,
+            "raw": "2,200"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          },
+          {
+            "status": "known",
+            "value": 85,
+            "raw": "85"
+          },
+          {
+            "status": "known",
+            "value": 170,
+            "raw": "170"
+          },
+          {
+            "status": "known",
+            "value": 1700,
+            "raw": "1,700"
+          },
+          {
+            "status": "known",
+            "value": 2300,
+            "raw": "2,300"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 86,
+            "raw": "86"
+          },
+          {
+            "status": "known",
+            "value": 174,
+            "raw": "174"
+          },
+          {
+            "status": "known",
+            "value": 1740,
+            "raw": "1,740"
+          },
+          {
+            "status": "known",
+            "value": 2400,
+            "raw": "2,400"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          },
+          {
+            "status": "known",
+            "value": 88,
+            "raw": "88"
+          },
+          {
+            "status": "known",
+            "value": 178,
+            "raw": "178"
+          },
+          {
+            "status": "known",
+            "value": 1780,
+            "raw": "1,780"
+          },
+          {
+            "status": "known",
+            "value": 2500,
+            "raw": "2,500"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          },
+          {
+            "status": "known",
+            "value": 90,
+            "raw": "90"
+          },
+          {
+            "status": "known",
+            "value": 182,
+            "raw": "182"
+          },
+          {
+            "status": "known",
+            "value": 1820,
+            "raw": "1,820"
+          },
+          {
+            "status": "known",
+            "value": 2700,
+            "raw": "2,700"
+          }
+        ]
+      ],
+      "extraInfo": []
+    }
+  ],
+  "images": [
+    {
+      "name": "Inferno_Dragon_info.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0604/Inferno_Dragon_info.png",
+      "alt": "地狱飞龙",
+      "localPath": "/images/original/upgrade/home_tech/0604/Inferno_Dragon_info.webp",
+      "logicalPath": "/upgrade/home_tech/0604/Inferno_Dragon_info.png"
+    },
+    {
+      "name": "Inferno_Dragon6.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0604/Inferno_Dragon6.png",
+      "alt": "所有等级",
+      "localPath": "/images/original/upgrade/home_tech/0604/Inferno_Dragon6.webp",
+      "logicalPath": "/upgrade/home_tech/0604/Inferno_Dragon6.png"
+    },
+    {
+      "name": "Inferno_dragonn1.jpg",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/9/9f/Inferno_dragonn1.jpg/revision/latest/scale-to-width-down/185?cb=20220218052945",
+      "alt": "The Inferno Dragon in-game",
+      "localPath": "/images/wiki/0604-Inferno-Dragon/bc8a64e5fb-Inferno_dragonn1.jpg",
+      "logicalPath": "/upgrade/home_tech/0604/Inferno_dragonn1.jpg"
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-02-23",
+      "description": "Added the level 12 Inferno Dragon."
+    },
+    {
+      "date": "2026-05-26",
+      "description": "Decreased damage at level 12: Stage 1: 91 -> 90 Damage"
+    }
+  ],
+  "facts": [
+    "The Inferno Dragon is a Super Troop based on the Baby Dragon. It can be unlocked by boosting the Baby Dragon when the Baby Dragon is at least level 6.",
+    "Boosting the Baby Dragon requires 25,000 Dark Elixir or a Super Potion, and doing so allows the Baby Dragon to be boosted for 3 days. The level of Inferno Dragon you obtain from the boost corresponds to the level of Baby Dragon you have.",
+    "Because of the level requirement, players require Town Hall 12 in order to boost Baby Dragons into Inferno Dragons. However, because of the Laboratory level cap, players require a level 6 Clan Castle or greater in order to get donated one, allowing anyone Town Hall 10 or above to get one."
+  ],
+  "notices": []
+}

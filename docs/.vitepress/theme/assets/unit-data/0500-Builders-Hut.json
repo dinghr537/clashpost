@@ -1,0 +1,1096 @@
+{
+  "unitId": "0500-Builders-Hut",
+  "title": "建筑工人小屋",
+  "originalName": "Builder's Hut",
+  "module": "upgrade-home",
+  "imgFolder": "home_buildings/0500",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Builder%27s_Hut",
+    "revision": 625149,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Builder%27s_Hut?oldid=625149",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 2,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Town Hall Level",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "Number Available",
+            "raw": "Number Available"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          }
+        ],
+        [
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          },
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          },
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          },
+          {
+            "status": "known",
+            "value": 15,
+            "raw": "15"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          },
+          {
+            "status": "known",
+            "value": 17,
+            "raw": "17"
+          },
+          {
+            "status": "known",
+            "value": 18,
+            "raw": "18"
+          }
+        ],
+        [
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 3,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Size"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "2x2",
+            "raw": "2x2"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 4,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Level",
+        "Damage per Second",
+        "Damage per Shot",
+        "Repair per Second",
+        "Repair per Hit",
+        "Hitpoints",
+        "Build Cost",
+        "Build Time",
+        "Experience Gained",
+        "Town Hall Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "known",
+            "value": 250,
+            "raw": "250"
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": "Varies"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "None"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 80,
+            "raw": "80"
+          },
+          {
+            "status": "known",
+            "value": 32,
+            "raw": "32"
+          },
+          {
+            "status": "known",
+            "value": 50,
+            "raw": "50"
+          },
+          {
+            "status": "known",
+            "value": 37.5,
+            "raw": "37.5"
+          },
+          {
+            "status": "known",
+            "value": 1000,
+            "raw": "1,000"
+          },
+          {
+            "status": "known",
+            "value": 3000000,
+            "raw": "3,000,000"
+          },
+          {
+            "status": "known",
+            "value": 172800,
+            "raw": "2d",
+            "unit": "seconds",
+            "displayInput": "2,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 415,
+            "raw": "415"
+          },
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 100,
+            "raw": "100"
+          },
+          {
+            "status": "known",
+            "value": 40,
+            "raw": "40"
+          },
+          {
+            "status": "known",
+            "value": 60,
+            "raw": "60"
+          },
+          {
+            "status": "known",
+            "value": 45,
+            "raw": "45"
+          },
+          {
+            "status": "known",
+            "value": 1300,
+            "raw": "1,300"
+          },
+          {
+            "status": "known",
+            "value": 4000000,
+            "raw": "4,000,000"
+          },
+          {
+            "status": "known",
+            "value": 259200,
+            "raw": "3d",
+            "unit": "seconds",
+            "displayInput": "3,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 509,
+            "raw": "509"
+          },
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 120,
+            "raw": "120"
+          },
+          {
+            "status": "known",
+            "value": 48,
+            "raw": "48"
+          },
+          {
+            "status": "known",
+            "value": 70,
+            "raw": "70"
+          },
+          {
+            "status": "known",
+            "value": 52.5,
+            "raw": "52.5"
+          },
+          {
+            "status": "known",
+            "value": 1600,
+            "raw": "1,600"
+          },
+          {
+            "status": "known",
+            "value": 6000000,
+            "raw": "6,000,000"
+          },
+          {
+            "status": "known",
+            "value": 345600,
+            "raw": "4d",
+            "unit": "seconds",
+            "displayInput": "4,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 587,
+            "raw": "587"
+          },
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 135,
+            "raw": "135"
+          },
+          {
+            "status": "known",
+            "value": 54,
+            "raw": "54"
+          },
+          {
+            "status": "known",
+            "value": 80,
+            "raw": "80"
+          },
+          {
+            "status": "known",
+            "value": 60,
+            "raw": "60"
+          },
+          {
+            "status": "known",
+            "value": 1800,
+            "raw": "1,800"
+          },
+          {
+            "status": "known",
+            "value": 7000000,
+            "raw": "7,000,000"
+          },
+          {
+            "status": "known",
+            "value": 432000,
+            "raw": "5d",
+            "unit": "seconds",
+            "displayInput": "5,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 657,
+            "raw": "657"
+          },
+          {
+            "status": "known",
+            "value": 15,
+            "raw": "15"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 150,
+            "raw": "150"
+          },
+          {
+            "status": "known",
+            "value": 60,
+            "raw": "60"
+          },
+          {
+            "status": "known",
+            "value": 85,
+            "raw": "85"
+          },
+          {
+            "status": "known",
+            "value": 63.75,
+            "raw": "63.75"
+          },
+          {
+            "status": "known",
+            "value": 1900,
+            "raw": "1,900"
+          },
+          {
+            "status": "known",
+            "value": 8000000,
+            "raw": "8,000,000"
+          },
+          {
+            "status": "known",
+            "value": 475200,
+            "raw": "5d 12h",
+            "unit": "seconds",
+            "displayInput": "5,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 689,
+            "raw": "689"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": 165,
+            "raw": "165"
+          },
+          {
+            "status": "known",
+            "value": 66,
+            "raw": "66"
+          },
+          {
+            "status": "known",
+            "value": 90,
+            "raw": "90"
+          },
+          {
+            "status": "known",
+            "value": 67.5,
+            "raw": "67.5"
+          },
+          {
+            "status": "known",
+            "value": 2000,
+            "raw": "2,000"
+          },
+          {
+            "status": "known",
+            "value": 15500000,
+            "raw": "15,500,000"
+          },
+          {
+            "status": "known",
+            "value": 604800,
+            "raw": "7d",
+            "unit": "seconds",
+            "displayInput": "7,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 777,
+            "raw": "777"
+          },
+          {
+            "status": "known",
+            "value": 17,
+            "raw": "17"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": 180,
+            "raw": "180"
+          },
+          {
+            "status": "known",
+            "value": 72,
+            "raw": "72"
+          },
+          {
+            "status": "known",
+            "value": 95,
+            "raw": "95"
+          },
+          {
+            "status": "known",
+            "value": 71.25,
+            "raw": "71.25"
+          },
+          {
+            "status": "known",
+            "value": 2100,
+            "raw": "2,100"
+          },
+          {
+            "status": "known",
+            "value": 24000000,
+            "raw": "24,000,000"
+          },
+          {
+            "status": "known",
+            "value": 1123200,
+            "raw": "13d",
+            "unit": "seconds",
+            "displayInput": "13,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 1059,
+            "raw": "1,059"
+          },
+          {
+            "status": "known",
+            "value": 18,
+            "raw": "18"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 6,
+          "type": "cost",
+          "icon": "Gold",
+          "gpClass": "building",
+          "noGoldPass": false
+        },
+        {
+          "column": 7,
+          "type": "time",
+          "gpClass": "building",
+          "noGoldPass": false
+        }
+      ]
+    },
+    {
+      "sourceTableIndex": 6,
+      "section": "Statistics",
+      "title": "Supercharges",
+      "headers": [
+        "Charge Level ⚡",
+        "Damage per Second",
+        "Damage per Shot",
+        "Repair per Second",
+        "Repair per Hit",
+        "Hitpoints",
+        "Build Cost",
+        "Build Time",
+        "Experience Gained",
+        "Town Hall Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 187,
+            "raw": "187"
+          },
+          {
+            "status": "known",
+            "value": 74.8,
+            "raw": "74.8"
+          },
+          {
+            "status": "known",
+            "value": 95,
+            "raw": "95"
+          },
+          {
+            "status": "known",
+            "value": 71.25,
+            "raw": "71.25"
+          },
+          {
+            "status": "known",
+            "value": 2100,
+            "raw": "2,100"
+          },
+          {
+            "status": "known",
+            "value": 10000000,
+            "raw": "10,000,000"
+          },
+          {
+            "status": "known",
+            "value": 345600,
+            "raw": "4d",
+            "unit": "seconds",
+            "displayInput": "4,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 587,
+            "raw": "587"
+          },
+          {
+            "status": "known",
+            "value": 18,
+            "raw": "18"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 187,
+            "raw": "187"
+          },
+          {
+            "status": "known",
+            "value": 74.8,
+            "raw": "74.8"
+          },
+          {
+            "status": "known",
+            "value": 95,
+            "raw": "95"
+          },
+          {
+            "status": "known",
+            "value": 71.25,
+            "raw": "71.25"
+          },
+          {
+            "status": "known",
+            "value": 2150,
+            "raw": "2,150"
+          },
+          {
+            "status": "known",
+            "value": 8000000,
+            "raw": "8,000,000"
+          },
+          {
+            "status": "known",
+            "value": 518400,
+            "raw": "6d",
+            "unit": "seconds",
+            "displayInput": "6,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 720,
+            "raw": "720"
+          },
+          {
+            "status": "known",
+            "value": 18,
+            "raw": "18"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 6,
+          "type": "cost",
+          "icon": "Gold",
+          "gpClass": "building",
+          "noGoldPass": false
+        },
+        {
+          "column": 7,
+          "type": "time",
+          "gpClass": "building",
+          "noGoldPass": false
+        }
+      ]
+    },
+    {
+      "sourceTableIndex": 7,
+      "section": "Statistics",
+      "title": "Supercharges",
+      "headers": [
+        "Range",
+        "Attack Speed",
+        "Damage Type",
+        "Unit Type Targeted"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": "0.4s",
+            "raw": "0.4s"
+          },
+          {
+            "status": "known",
+            "value": "Single Target",
+            "raw": "Single Target"
+          },
+          {
+            "status": "known",
+            "value": "Ground & Air",
+            "raw": "Ground & Air"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 8,
+      "section": "Statistics",
+      "title": "Builder Statistics",
+      "headers": [
+        "Range",
+        "Repair Speed",
+        "Movement Speed",
+        "Unit Type Targeted"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": "0.75s",
+            "raw": "0.75s"
+          },
+          {
+            "status": "known",
+            "value": 20,
+            "raw": "20"
+          },
+          {
+            "status": "known",
+            "value": "Buildings",
+            "raw": "Buildings"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 9,
+      "section": "Statistics",
+      "title": "Builder Statistics",
+      "headers": [
+        "Builder's Hut",
+        "Build Cost"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "First",
+            "raw": "First"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": "Second",
+            "raw": "Second"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "Free"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": "Third",
+            "raw": "Third"
+          },
+          {
+            "status": "known",
+            "value": 500,
+            "raw": "500"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": "Fourth",
+            "raw": "Fourth"
+          },
+          {
+            "status": "known",
+            "value": 1000,
+            "raw": "1,000"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": "Fifth",
+            "raw": "Fifth"
+          },
+          {
+            "status": "known",
+            "value": 2000,
+            "raw": "2,000"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 1,
+          "type": "cost",
+          "icon": "Gem",
+          "gpClass": "building",
+          "noGoldPass": true
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "name": "Builders_Hut7_hd.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0500/Builders_Hut7_hd.png",
+      "alt": "建筑工人小屋",
+      "localPath": "/images/original/upgrade/home_buildings/0500/Builders_Hut7_hd.webp",
+      "logicalPath": "/upgrade/home_buildings/0500/Builders_Hut7_hd.png"
+    },
+    {
+      "name": "Builders_Hut1.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0500/Builders_Hut1.png",
+      "alt": "1 级",
+      "localPath": "/images/original/upgrade/home_buildings/0500/Builders_Hut1.webp",
+      "logicalPath": "/upgrade/home_buildings/0500/Builders_Hut1.png"
+    },
+    {
+      "name": "Builders_Hut2.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0500/Builders_Hut2.png",
+      "alt": "2 级",
+      "localPath": "/images/original/upgrade/home_buildings/0500/Builders_Hut2.webp",
+      "logicalPath": "/upgrade/home_buildings/0500/Builders_Hut2.png"
+    },
+    {
+      "name": "Builders_Hut3.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0500/Builders_Hut3.png",
+      "alt": "3 级",
+      "localPath": "/images/original/upgrade/home_buildings/0500/Builders_Hut3.webp",
+      "logicalPath": "/upgrade/home_buildings/0500/Builders_Hut3.png"
+    },
+    {
+      "name": "Builders_Hut4.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0500/Builders_Hut4.png",
+      "alt": "4 级",
+      "localPath": "/images/original/upgrade/home_buildings/0500/Builders_Hut4.webp",
+      "logicalPath": "/upgrade/home_buildings/0500/Builders_Hut4.png"
+    },
+    {
+      "name": "Builders_Hut5.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0500/Builders_Hut5.png",
+      "alt": "5 级",
+      "localPath": "/images/original/upgrade/home_buildings/0500/Builders_Hut5.webp",
+      "logicalPath": "/upgrade/home_buildings/0500/Builders_Hut5.png"
+    },
+    {
+      "name": "Builders_Hut6.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0500/Builders_Hut6.png",
+      "alt": "6 级",
+      "localPath": "/images/original/upgrade/home_buildings/0500/Builders_Hut6.webp",
+      "logicalPath": "/upgrade/home_buildings/0500/Builders_Hut6.png"
+    },
+    {
+      "name": "Builders_Hut7.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0500/Builders_Hut7.png",
+      "alt": "7 级",
+      "localPath": "/images/original/upgrade/home_buildings/0500/Builders_Hut7.webp",
+      "logicalPath": "/upgrade/home_buildings/0500/Builders_Hut7.png"
+    },
+    {
+      "name": "Builders_Hut2_Active.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0500/Builders_Hut2_Active.png",
+      "alt": "2 级",
+      "localPath": "/images/original/upgrade/home_buildings/0500/Builders_Hut2_Active.webp",
+      "logicalPath": "/upgrade/home_buildings/0500/Builders_Hut2_Active.png"
+    },
+    {
+      "name": "Builders_Hut3_Active.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0500/Builders_Hut3_Active.png",
+      "alt": "3 级",
+      "localPath": "/images/original/upgrade/home_buildings/0500/Builders_Hut3_Active.webp",
+      "logicalPath": "/upgrade/home_buildings/0500/Builders_Hut3_Active.png"
+    },
+    {
+      "name": "Builders_Hut4_Active.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0500/Builders_Hut4_Active.png",
+      "alt": "4 级",
+      "localPath": "/images/original/upgrade/home_buildings/0500/Builders_Hut4_Active.webp",
+      "logicalPath": "/upgrade/home_buildings/0500/Builders_Hut4_Active.png"
+    },
+    {
+      "name": "Builders_Hut5_Active.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0500/Builders_Hut5_Active.png",
+      "alt": "5 级",
+      "localPath": "/images/original/upgrade/home_buildings/0500/Builders_Hut5_Active.webp",
+      "logicalPath": "/upgrade/home_buildings/0500/Builders_Hut5_Active.png"
+    },
+    {
+      "name": "Builders_Hut6_Active.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0500/Builders_Hut6_Active.png",
+      "alt": "6 级",
+      "localPath": "/images/original/upgrade/home_buildings/0500/Builders_Hut6_Active.webp",
+      "logicalPath": "/upgrade/home_buildings/0500/Builders_Hut6_Active.png"
+    },
+    {
+      "name": "Builders_Hut7_Active.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0500/Builders_Hut7_Active.png",
+      "alt": "7 级",
+      "localPath": "/images/original/upgrade/home_buildings/0500/Builders_Hut7_Active.webp",
+      "logicalPath": "/upgrade/home_buildings/0500/Builders_Hut7_Active.png"
+    },
+    {
+      "name": "Builders_Hut8.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/7/78/Builders_Hut8.png/revision/latest/scale-to-width-down/150?cb=20260613130250",
+      "alt": "Builders Hut8",
+      "localPath": "/images/wiki/0500-Builders-Hut/f941077795-Builders_Hut8.png",
+      "logicalPath": "/upgrade/home_buildings/0500/Builders_Hut8.png"
+    },
+    {
+      "name": "Builders_Hut8_Active.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/4/4b/Builders_Hut8_Active.png/revision/latest/scale-to-width-down/150?cb=20260714124700",
+      "alt": "Builders Hut8 Active",
+      "localPath": "/images/wiki/0500-Builders-Hut/731f8df2f5-Builders_Hut8_Active.png",
+      "logicalPath": "/upgrade/home_buildings/0500/Builders_Hut8_Active.png"
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-06-16",
+      "description": "Added the level 8 Builder's Hut. Builders Hut8 Builders Hut8 Active Removed the Supercharges at level 7. Icon Supercharge ⚡"
+    },
+    {
+      "date": "2026-08-31",
+      "description": "Added 2 Supercharge levels to the Builder's Hut. Icon Supercharge ⚡"
+    }
+  ],
+  "facts": [],
+  "notices": []
+}

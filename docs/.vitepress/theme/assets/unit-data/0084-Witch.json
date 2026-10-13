@@ -1,0 +1,650 @@
+{
+  "unitId": "0084-Witch",
+  "title": "女巫",
+  "originalName": "Witch",
+  "module": "upgrade-home",
+  "imgFolder": "home_tech/0084",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Witch",
+    "revision": 624601,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Witch?oldid=624601",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 2,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Preferred Target",
+        "Attack Type",
+        "Housing Space",
+        "Movement Speed",
+        "Attack Speed",
+        "Summon Cooldown",
+        "Dark Barracks Level Required",
+        "Range"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "None",
+            "raw": "None"
+          },
+          {
+            "status": "known",
+            "value": "Area Splash 0.3 Tile Radius (Ground & Air)",
+            "raw": "Area Splash 0.3 Tile Radius (Ground & Air)"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          },
+          {
+            "status": "known",
+            "value": "0.7s",
+            "raw": "0.7s"
+          },
+          {
+            "status": "known",
+            "value": "7s",
+            "raw": "7s"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": "4 tiles",
+            "raw": "4 tiles"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 3,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Level",
+        "Damage per Second",
+        "Damage per Hit",
+        "Skeletons per Summon",
+        "Maximum Skeletons Summoned",
+        "Skeleton Level",
+        "Hitpoints",
+        "Research Cost",
+        "Research Time",
+        "Laboratory Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 100,
+            "raw": "100"
+          },
+          {
+            "status": "known",
+            "value": 70,
+            "raw": "70"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 300,
+            "raw": "300"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 110,
+            "raw": "110"
+          },
+          {
+            "status": "known",
+            "value": 77,
+            "raw": "77"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 320,
+            "raw": "320"
+          },
+          {
+            "status": "known",
+            "value": 20000,
+            "raw": "20,000"
+          },
+          {
+            "status": "known",
+            "value": 172800,
+            "raw": "2d",
+            "unit": "seconds",
+            "displayInput": "2,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 140,
+            "raw": "140"
+          },
+          {
+            "status": "known",
+            "value": 98,
+            "raw": "98"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 400,
+            "raw": "400"
+          },
+          {
+            "status": "known",
+            "value": 29000,
+            "raw": "29,000"
+          },
+          {
+            "status": "known",
+            "value": 259200,
+            "raw": "3d",
+            "unit": "seconds",
+            "displayInput": "3,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 165,
+            "raw": "165"
+          },
+          {
+            "status": "known",
+            "value": 115.5,
+            "raw": "115.5"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 470,
+            "raw": "470"
+          },
+          {
+            "status": "known",
+            "value": 45000,
+            "raw": "45,000"
+          },
+          {
+            "status": "known",
+            "value": 302400,
+            "raw": "3d 12h",
+            "unit": "seconds",
+            "displayInput": "3,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 185,
+            "raw": "185"
+          },
+          {
+            "status": "known",
+            "value": 129.5,
+            "raw": "129.5"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 520,
+            "raw": "520"
+          },
+          {
+            "status": "known",
+            "value": 62500,
+            "raw": "62,500"
+          },
+          {
+            "status": "known",
+            "value": 345600,
+            "raw": "4d",
+            "unit": "seconds",
+            "displayInput": "4,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 200,
+            "raw": "200"
+          },
+          {
+            "status": "known",
+            "value": 140,
+            "raw": "140"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 15,
+            "raw": "15"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 540,
+            "raw": "540"
+          },
+          {
+            "status": "known",
+            "value": 150000,
+            "raw": "150,000"
+          },
+          {
+            "status": "known",
+            "value": 475200,
+            "raw": "5d 12h",
+            "unit": "seconds",
+            "displayInput": "5,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": 220,
+            "raw": "220"
+          },
+          {
+            "status": "known",
+            "value": 154,
+            "raw": "154"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 560,
+            "raw": "560"
+          },
+          {
+            "status": "known",
+            "value": 180000,
+            "raw": "180,000"
+          },
+          {
+            "status": "known",
+            "value": 626400,
+            "raw": "7d 6h",
+            "unit": "seconds",
+            "displayInput": "7,6,0,0"
+          },
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": 260,
+            "raw": "260"
+          },
+          {
+            "status": "known",
+            "value": 182,
+            "raw": "182"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 650,
+            "raw": "650"
+          },
+          {
+            "status": "known",
+            "value": 355000,
+            "raw": "355,000"
+          },
+          {
+            "status": "known",
+            "value": 1339200,
+            "raw": "15d 12h",
+            "unit": "seconds",
+            "displayInput": "15,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 7,
+          "type": "cost",
+          "icon": "Dark_Elixir",
+          "gpClass": "research",
+          "noGoldPass": false
+        },
+        {
+          "column": 8,
+          "type": "time",
+          "gpClass": "research",
+          "noGoldPass": false
+        }
+      ]
+    },
+    {
+      "sourceTableIndex": 4,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Super Troop",
+        "Boost Cost",
+        "Witch Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "Super Witch",
+            "raw": "Super Witch"
+          },
+          {
+            "status": "known",
+            "value": 25000,
+            "raw": "25,000"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 1,
+          "type": "cost",
+          "icon": "Dark_Elixir",
+          "gpClass": "research",
+          "noGoldPass": true
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "name": "Witch_info.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0084/Witch_info.png",
+      "alt": "女巫",
+      "localPath": "/images/original/upgrade/home_tech/0084/Witch_info.webp",
+      "logicalPath": "/upgrade/home_tech/0084/Witch_info.png"
+    },
+    {
+      "name": "Witch1.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0084/Witch1.png",
+      "alt": "1 - 2 级",
+      "localPath": "/images/original/upgrade/home_tech/0084/Witch1.webp",
+      "logicalPath": "/upgrade/home_tech/0084/Witch1.png"
+    },
+    {
+      "name": "Witch3.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0084/Witch3.png",
+      "alt": "3 - 4 级",
+      "localPath": "/images/original/upgrade/home_tech/0084/Witch3.webp",
+      "logicalPath": "/upgrade/home_tech/0084/Witch3.png"
+    },
+    {
+      "name": "Witch5.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0084/Witch5.png",
+      "alt": "5 级",
+      "localPath": "/images/original/upgrade/home_tech/0084/Witch5.webp",
+      "logicalPath": "/upgrade/home_tech/0084/Witch5.png"
+    },
+    {
+      "name": "Witch6.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0084/Witch6.png",
+      "alt": "6 级",
+      "localPath": "/images/original/upgrade/home_tech/0084/Witch6.webp",
+      "logicalPath": "/upgrade/home_tech/0084/Witch6.png"
+    },
+    {
+      "name": "Witch7.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0084/Witch7.png",
+      "alt": "7 级",
+      "localPath": "/images/original/upgrade/home_tech/0084/Witch7.webp",
+      "logicalPath": "/upgrade/home_tech/0084/Witch7.png"
+    },
+    {
+      "name": "Witch8.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0084/Witch8.png",
+      "alt": "8 级",
+      "localPath": "/images/original/upgrade/home_tech/0084/Witch8.webp",
+      "logicalPath": "/upgrade/home_tech/0084/Witch8.png"
+    },
+    {
+      "name": "Skeleton_info.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0084/Skeleton_info.png",
+      "alt": "女巫",
+      "localPath": "/images/original/upgrade/home_tech/0084/Skeleton_info.webp",
+      "logicalPath": "/upgrade/home_tech/0084/Skeleton_info.png"
+    },
+    {
+      "name": "Skeleton1.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0084/Skeleton1.png",
+      "alt": "所有等级",
+      "localPath": "/images/original/upgrade/home_tech/0084/Skeleton1.webp",
+      "logicalPath": "/upgrade/home_tech/0084/Skeleton1.png"
+    }
+  ],
+  "history": [],
+  "facts": [
+    "The Witch is the fifth Dark Elixir Troop unlocked in the Dark Barracks when it is upgraded to level 5, which requires Town Hall level 9. She is a splash-damaging ground troop."
+  ],
+  "notices": []
+}

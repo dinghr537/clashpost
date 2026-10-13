@@ -1,0 +1,1284 @@
+{
+  "unitId": "1102-Archer-Tower",
+  "title": "箭塔",
+  "originalName": "Archer Tower/Builder Base",
+  "module": "upgrade-bh",
+  "imgFolder": "bh_buildings/1102",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Archer_Tower/Builder_Base",
+    "revision": 620156,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Archer_Tower/Builder_Base?oldid=620156",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 1,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Number Available",
+        "Builder Hall Level / 1",
+        "Builder Hall Level / 2",
+        "Builder Hall Level / 3",
+        "Builder Hall Level / 4",
+        "Builder Hall Level / 5",
+        "Builder Hall Level / 6",
+        "Builder Hall Level / 7",
+        "Builder Hall Level / 8",
+        "Builder Hall Level / 9",
+        "Builder Hall Level / 10"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "Total",
+            "raw": "Total"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 2,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Size"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "3x3",
+            "raw": "3x3"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 3,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Level",
+        "Damage per Second",
+        "Damage per Shot",
+        "Hitpoints",
+        "Build Cost",
+        "Build Time",
+        "Experience Gained",
+        "Builder Hall Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 40,
+            "raw": "40"
+          },
+          {
+            "status": "known",
+            "value": 40,
+            "raw": "40"
+          },
+          {
+            "status": "known",
+            "value": 500,
+            "raw": "500"
+          },
+          {
+            "status": "known",
+            "value": 12000,
+            "raw": "12,000"
+          },
+          {
+            "status": "known",
+            "value": 300,
+            "raw": "5m",
+            "unit": "seconds",
+            "displayInput": "0,0,5,0"
+          },
+          {
+            "status": "known",
+            "value": 17,
+            "raw": "17"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 44,
+            "raw": "44"
+          },
+          {
+            "status": "known",
+            "value": 44,
+            "raw": "44"
+          },
+          {
+            "status": "known",
+            "value": 575,
+            "raw": "575"
+          },
+          {
+            "status": "known",
+            "value": 30000,
+            "raw": "30,000"
+          },
+          {
+            "status": "known",
+            "value": 900,
+            "raw": "15m",
+            "unit": "seconds",
+            "displayInput": "0,0,15,0"
+          },
+          {
+            "status": "known",
+            "value": 30,
+            "raw": "30"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 48,
+            "raw": "48"
+          },
+          {
+            "status": "known",
+            "value": 48,
+            "raw": "48"
+          },
+          {
+            "status": "known",
+            "value": 660,
+            "raw": "660"
+          },
+          {
+            "status": "known",
+            "value": 60000,
+            "raw": "60,000"
+          },
+          {
+            "status": "known",
+            "value": 7200,
+            "raw": "2h",
+            "unit": "seconds",
+            "displayInput": "0,2,0,0"
+          },
+          {
+            "status": "known",
+            "value": 84,
+            "raw": "84"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 53,
+            "raw": "53"
+          },
+          {
+            "status": "known",
+            "value": 53,
+            "raw": "53"
+          },
+          {
+            "status": "known",
+            "value": 760,
+            "raw": "760"
+          },
+          {
+            "status": "known",
+            "value": 250000,
+            "raw": "250,000"
+          },
+          {
+            "status": "known",
+            "value": 28800,
+            "raw": "8h",
+            "unit": "seconds",
+            "displayInput": "0,8,0,0"
+          },
+          {
+            "status": "known",
+            "value": 169,
+            "raw": "169"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 59,
+            "raw": "59"
+          },
+          {
+            "status": "known",
+            "value": 59,
+            "raw": "59"
+          },
+          {
+            "status": "known",
+            "value": 875,
+            "raw": "875"
+          },
+          {
+            "status": "known",
+            "value": 800000,
+            "raw": "800,000"
+          },
+          {
+            "status": "known",
+            "value": 86400,
+            "raw": "1d",
+            "unit": "seconds",
+            "displayInput": "1,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 293,
+            "raw": "293"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 64,
+            "raw": "64"
+          },
+          {
+            "status": "known",
+            "value": 64,
+            "raw": "64"
+          },
+          {
+            "status": "known",
+            "value": 1050,
+            "raw": "1,050"
+          },
+          {
+            "status": "known",
+            "value": 1200000,
+            "raw": "1,200,000"
+          },
+          {
+            "status": "known",
+            "value": 172800,
+            "raw": "2d",
+            "unit": "seconds",
+            "displayInput": "2,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 415,
+            "raw": "415"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": 71,
+            "raw": "71"
+          },
+          {
+            "status": "known",
+            "value": 71,
+            "raw": "71"
+          },
+          {
+            "status": "known",
+            "value": 1250,
+            "raw": "1,250"
+          },
+          {
+            "status": "known",
+            "value": 2000000,
+            "raw": "2,000,000"
+          },
+          {
+            "status": "known",
+            "value": 345600,
+            "raw": "4d",
+            "unit": "seconds",
+            "displayInput": "4,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 587,
+            "raw": "587"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": 78,
+            "raw": "78"
+          },
+          {
+            "status": "known",
+            "value": 78,
+            "raw": "78"
+          },
+          {
+            "status": "known",
+            "value": 1450,
+            "raw": "1,450"
+          },
+          {
+            "status": "known",
+            "value": 2800000,
+            "raw": "2,800,000"
+          },
+          {
+            "status": "known",
+            "value": 518400,
+            "raw": "6d",
+            "unit": "seconds",
+            "displayInput": "6,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 720,
+            "raw": "720"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          },
+          {
+            "status": "known",
+            "value": 86,
+            "raw": "86"
+          },
+          {
+            "status": "known",
+            "value": 86,
+            "raw": "86"
+          },
+          {
+            "status": "known",
+            "value": 1650,
+            "raw": "1,650"
+          },
+          {
+            "status": "known",
+            "value": 3600000,
+            "raw": "3,600,000"
+          },
+          {
+            "status": "known",
+            "value": 691200,
+            "raw": "8d",
+            "unit": "seconds",
+            "displayInput": "8,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 831,
+            "raw": "831"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 94,
+            "raw": "94"
+          },
+          {
+            "status": "known",
+            "value": 94,
+            "raw": "94"
+          },
+          {
+            "status": "known",
+            "value": 1850,
+            "raw": "1,850"
+          },
+          {
+            "status": "known",
+            "value": 4600000,
+            "raw": "4,600,000"
+          },
+          {
+            "status": "known",
+            "value": 777600,
+            "raw": "9d",
+            "unit": "seconds",
+            "displayInput": "9,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 881,
+            "raw": "881"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 4,
+          "type": "cost",
+          "icon": "Gold2",
+          "gpClass": "building",
+          "noGoldPass": false
+        },
+        {
+          "column": 5,
+          "type": "time",
+          "gpClass": "building",
+          "noGoldPass": false
+        }
+      ]
+    },
+    {
+      "sourceTableIndex": 4,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Range",
+        "Attack Speed",
+        "Damage Type",
+        "Unit Type Targeted"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": "1s",
+            "raw": "1s"
+          },
+          {
+            "status": "known",
+            "value": "Single Target",
+            "raw": "Single Target"
+          },
+          {
+            "status": "known",
+            "value": "Ground & Air",
+            "raw": "Ground & Air"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 5,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Level",
+        "Damage per Second",
+        "Damage per Shot",
+        "Hitpoints",
+        "Build Cost",
+        "Build Time",
+        "Experience Gained",
+        "Builder Hall Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 89,
+            "raw": "89"
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": "40?"
+          },
+          {
+            "status": "known",
+            "value": 500,
+            "raw": "500"
+          },
+          {
+            "status": "known",
+            "value": 12000,
+            "raw": "12,000"
+          },
+          {
+            "status": "known",
+            "value": 300,
+            "raw": "5m",
+            "unit": "seconds",
+            "displayInput": "0,0,5,0"
+          },
+          {
+            "status": "known",
+            "value": 17,
+            "raw": "17"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 98,
+            "raw": "98"
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": "44?"
+          },
+          {
+            "status": "known",
+            "value": 575,
+            "raw": "575"
+          },
+          {
+            "status": "known",
+            "value": 30000,
+            "raw": "30,000"
+          },
+          {
+            "status": "known",
+            "value": 900,
+            "raw": "15m",
+            "unit": "seconds",
+            "displayInput": "0,0,15,0"
+          },
+          {
+            "status": "known",
+            "value": 30,
+            "raw": "30"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 107,
+            "raw": "107"
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": "48?"
+          },
+          {
+            "status": "known",
+            "value": 660,
+            "raw": "660"
+          },
+          {
+            "status": "known",
+            "value": 60000,
+            "raw": "60,000"
+          },
+          {
+            "status": "known",
+            "value": 7200,
+            "raw": "2h",
+            "unit": "seconds",
+            "displayInput": "0,2,0,0"
+          },
+          {
+            "status": "known",
+            "value": 84,
+            "raw": "84"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 118,
+            "raw": "118"
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": "53?"
+          },
+          {
+            "status": "known",
+            "value": 760,
+            "raw": "760"
+          },
+          {
+            "status": "known",
+            "value": 250000,
+            "raw": "250,000"
+          },
+          {
+            "status": "known",
+            "value": 28800,
+            "raw": "8h",
+            "unit": "seconds",
+            "displayInput": "0,8,0,0"
+          },
+          {
+            "status": "known",
+            "value": 169,
+            "raw": "169"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 131,
+            "raw": "131"
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": "59?"
+          },
+          {
+            "status": "known",
+            "value": 875,
+            "raw": "875"
+          },
+          {
+            "status": "known",
+            "value": 800000,
+            "raw": "800,000"
+          },
+          {
+            "status": "known",
+            "value": 86400,
+            "raw": "1d",
+            "unit": "seconds",
+            "displayInput": "1,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 293,
+            "raw": "293"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 142,
+            "raw": "142"
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": "64?"
+          },
+          {
+            "status": "known",
+            "value": 1050,
+            "raw": "1,050"
+          },
+          {
+            "status": "known",
+            "value": 1200000,
+            "raw": "1,200,000"
+          },
+          {
+            "status": "known",
+            "value": 172800,
+            "raw": "2d",
+            "unit": "seconds",
+            "displayInput": "2,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 415,
+            "raw": "415"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": 158,
+            "raw": "158"
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": "71?"
+          },
+          {
+            "status": "known",
+            "value": 1250,
+            "raw": "1,250"
+          },
+          {
+            "status": "known",
+            "value": 2000000,
+            "raw": "2,000,000"
+          },
+          {
+            "status": "known",
+            "value": 345600,
+            "raw": "4d",
+            "unit": "seconds",
+            "displayInput": "4,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 587,
+            "raw": "587"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": 173,
+            "raw": "173"
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": "78?"
+          },
+          {
+            "status": "known",
+            "value": 1450,
+            "raw": "1,450"
+          },
+          {
+            "status": "known",
+            "value": 2800000,
+            "raw": "2,800,000"
+          },
+          {
+            "status": "known",
+            "value": 518400,
+            "raw": "6d",
+            "unit": "seconds",
+            "displayInput": "6,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 720,
+            "raw": "720"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          },
+          {
+            "status": "known",
+            "value": 191,
+            "raw": "191"
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": "86?"
+          },
+          {
+            "status": "known",
+            "value": 1650,
+            "raw": "1,650"
+          },
+          {
+            "status": "known",
+            "value": 3600000,
+            "raw": "3,600,000"
+          },
+          {
+            "status": "known",
+            "value": 691200,
+            "raw": "8d",
+            "unit": "seconds",
+            "displayInput": "8,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 831,
+            "raw": "831"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 209,
+            "raw": "209"
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": "94?"
+          },
+          {
+            "status": "known",
+            "value": 1850,
+            "raw": "1,850"
+          },
+          {
+            "status": "known",
+            "value": 4600000,
+            "raw": "4,600,000"
+          },
+          {
+            "status": "known",
+            "value": 777600,
+            "raw": "9d",
+            "unit": "seconds",
+            "displayInput": "9,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 881,
+            "raw": "881"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 4,
+          "type": "cost",
+          "icon": "Gold2",
+          "gpClass": "building",
+          "noGoldPass": false
+        },
+        {
+          "column": 5,
+          "type": "time",
+          "gpClass": "building",
+          "noGoldPass": false
+        }
+      ]
+    },
+    {
+      "sourceTableIndex": 6,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Range",
+        "Attack Speed",
+        "Damage Type",
+        "Unit Type Targeted"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": "0.45s?"
+          },
+          {
+            "status": "known",
+            "value": "Single Target",
+            "raw": "Single Target"
+          },
+          {
+            "status": "known",
+            "value": "Ground & Air",
+            "raw": "Ground & Air"
+          }
+        ]
+      ],
+      "extraInfo": []
+    }
+  ],
+  "images": [
+    {
+      "name": "Archer_Tower10.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1102/Archer_Tower10.png",
+      "alt": "箭塔",
+      "localPath": "/images/original/upgrade/bh_buildings/1102/Archer_Tower10.webp",
+      "logicalPath": "/upgrade/bh_buildings/1102/Archer_Tower10.png"
+    },
+    {
+      "name": "Archer_Tower1.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1102/Archer_Tower1.png",
+      "alt": "1 级",
+      "localPath": "/images/original/upgrade/bh_buildings/1102/Archer_Tower1.webp",
+      "logicalPath": "/upgrade/bh_buildings/1102/Archer_Tower1.png"
+    },
+    {
+      "name": "Archer_Tower2.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1102/Archer_Tower2.png",
+      "alt": "2 级",
+      "localPath": "/images/original/upgrade/bh_buildings/1102/Archer_Tower2.webp",
+      "logicalPath": "/upgrade/bh_buildings/1102/Archer_Tower2.png"
+    },
+    {
+      "name": "Archer_Tower3.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1102/Archer_Tower3.png",
+      "alt": "3 级",
+      "localPath": "/images/original/upgrade/bh_buildings/1102/Archer_Tower3.webp",
+      "logicalPath": "/upgrade/bh_buildings/1102/Archer_Tower3.png"
+    },
+    {
+      "name": "Archer_Tower4.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1102/Archer_Tower4.png",
+      "alt": "4 级",
+      "localPath": "/images/original/upgrade/bh_buildings/1102/Archer_Tower4.webp",
+      "logicalPath": "/upgrade/bh_buildings/1102/Archer_Tower4.png"
+    },
+    {
+      "name": "Archer_Tower5.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1102/Archer_Tower5.png",
+      "alt": "5 级",
+      "localPath": "/images/original/upgrade/bh_buildings/1102/Archer_Tower5.webp",
+      "logicalPath": "/upgrade/bh_buildings/1102/Archer_Tower5.png"
+    },
+    {
+      "name": "Archer_Tower6.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1102/Archer_Tower6.png",
+      "alt": "6 级",
+      "localPath": "/images/original/upgrade/bh_buildings/1102/Archer_Tower6.webp",
+      "logicalPath": "/upgrade/bh_buildings/1102/Archer_Tower6.png"
+    },
+    {
+      "name": "Archer_Tower7.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1102/Archer_Tower7.png",
+      "alt": "7 级",
+      "localPath": "/images/original/upgrade/bh_buildings/1102/Archer_Tower7.webp",
+      "logicalPath": "/upgrade/bh_buildings/1102/Archer_Tower7.png"
+    },
+    {
+      "name": "Archer_Tower8.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1102/Archer_Tower8.png",
+      "alt": "8 级",
+      "localPath": "/images/original/upgrade/bh_buildings/1102/Archer_Tower8.webp",
+      "logicalPath": "/upgrade/bh_buildings/1102/Archer_Tower8.png"
+    },
+    {
+      "name": "Archer_Tower9.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1102/Archer_Tower9.png",
+      "alt": "9 级",
+      "localPath": "/images/original/upgrade/bh_buildings/1102/Archer_Tower9.webp",
+      "logicalPath": "/upgrade/bh_buildings/1102/Archer_Tower9.png"
+    },
+    {
+      "name": "Archer_Tower10B.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1102/Archer_Tower10B.png",
+      "alt": "箭塔",
+      "localPath": "/images/original/upgrade/bh_buildings/1102/Archer_Tower10B.webp",
+      "logicalPath": "/upgrade/bh_buildings/1102/Archer_Tower10B.png"
+    },
+    {
+      "name": "Archer_Tower1B.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1102/Archer_Tower1B.png",
+      "alt": "1 级",
+      "localPath": "/images/original/upgrade/bh_buildings/1102/Archer_Tower1B.webp",
+      "logicalPath": "/upgrade/bh_buildings/1102/Archer_Tower1B.png"
+    },
+    {
+      "name": "Archer_Tower2B.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1102/Archer_Tower2B.png",
+      "alt": "2 级",
+      "localPath": "/images/original/upgrade/bh_buildings/1102/Archer_Tower2B.webp",
+      "logicalPath": "/upgrade/bh_buildings/1102/Archer_Tower2B.png"
+    },
+    {
+      "name": "Archer_Tower3B.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1102/Archer_Tower3B.png",
+      "alt": "3 级",
+      "localPath": "/images/original/upgrade/bh_buildings/1102/Archer_Tower3B.webp",
+      "logicalPath": "/upgrade/bh_buildings/1102/Archer_Tower3B.png"
+    },
+    {
+      "name": "Archer_Tower4B.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1102/Archer_Tower4B.png",
+      "alt": "4 级",
+      "localPath": "/images/original/upgrade/bh_buildings/1102/Archer_Tower4B.webp",
+      "logicalPath": "/upgrade/bh_buildings/1102/Archer_Tower4B.png"
+    },
+    {
+      "name": "Archer_Tower5B.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1102/Archer_Tower5B.png",
+      "alt": "5 级",
+      "localPath": "/images/original/upgrade/bh_buildings/1102/Archer_Tower5B.webp",
+      "logicalPath": "/upgrade/bh_buildings/1102/Archer_Tower5B.png"
+    },
+    {
+      "name": "Archer_Tower6B.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1102/Archer_Tower6B.png",
+      "alt": "6 级",
+      "localPath": "/images/original/upgrade/bh_buildings/1102/Archer_Tower6B.webp",
+      "logicalPath": "/upgrade/bh_buildings/1102/Archer_Tower6B.png"
+    },
+    {
+      "name": "Archer_Tower7B.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1102/Archer_Tower7B.png",
+      "alt": "7 级",
+      "localPath": "/images/original/upgrade/bh_buildings/1102/Archer_Tower7B.webp",
+      "logicalPath": "/upgrade/bh_buildings/1102/Archer_Tower7B.png"
+    },
+    {
+      "name": "Archer_Tower8B.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1102/Archer_Tower8B.png",
+      "alt": "8 级",
+      "localPath": "/images/original/upgrade/bh_buildings/1102/Archer_Tower8B.webp",
+      "logicalPath": "/upgrade/bh_buildings/1102/Archer_Tower8B.png"
+    },
+    {
+      "name": "Archer_Tower9B.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1102/Archer_Tower9B.png",
+      "alt": "9 级",
+      "localPath": "/images/original/upgrade/bh_buildings/1102/Archer_Tower9B.webp",
+      "logicalPath": "/upgrade/bh_buildings/1102/Archer_Tower9B.png"
+    },
+    {
+      "name": "Archer_Tower10B_Ground.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/e/ea/Archer_Tower10B_Ground.png/revision/latest/scale-to-width-down/200?cb=20230516045046",
+      "alt": "Archer Tower10B Ground",
+      "localPath": "/images/wiki/1102-Archer-Tower/f2f21c2f9a-Archer_Tower10B_Ground.png",
+      "logicalPath": "/upgrade/bh_buildings/1102/Archer_Tower10B_Ground.png"
+    }
+  ],
+  "history": [],
+  "facts": [
+    "The Archer Tower is a defensive building that can target both air and ground units. This building is unlocked at Builder Hall level 2. Like the Home Village Archer Tower, it is a single-target defense."
+  ],
+  "notices": []
+}

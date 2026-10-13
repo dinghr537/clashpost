@@ -1,0 +1,5668 @@
+{
+  "unitId": "0200-Barbarian-King",
+  "title": "野蛮人之王",
+  "originalName": "Barbarian King",
+  "module": "upgrade-home",
+  "imgFolder": "home_heroes/0200",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Barbarian_King",
+    "revision": 625673,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Barbarian_King?oldid=625673",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 3,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Preferred Target",
+        "Attack Type",
+        "Movement Speed",
+        "Attack Speed",
+        "Range",
+        "Search Radius"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "None",
+            "raw": "None"
+          },
+          {
+            "status": "known",
+            "value": "Melee (Ground Only)",
+            "raw": "Melee (Ground Only)"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          },
+          {
+            "status": "known",
+            "value": "1.2s",
+            "raw": "1.2s"
+          },
+          {
+            "status": "known",
+            "value": "1 tile",
+            "raw": "1 tile"
+          },
+          {
+            "status": "known",
+            "value": "9 tiles",
+            "raw": "9 tiles"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 4,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Level",
+        "Damage per Second",
+        "Damage per Hit",
+        "Hitpoints",
+        "Health Recovery",
+        "Upgrade Cost",
+        "Upgrade Time",
+        "Hero Hall Level Required",
+        "Town Hall Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 51,
+            "raw": "51"
+          },
+          {
+            "status": "known",
+            "value": 61.2,
+            "raw": "61.2"
+          },
+          {
+            "status": "known",
+            "value": 722.5,
+            "raw": "722.5"
+          },
+          {
+            "status": "known",
+            "value": 100,
+            "raw": "100"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 76.5,
+            "raw": "76.5"
+          },
+          {
+            "status": "known",
+            "value": 91.8,
+            "raw": "91.8"
+          },
+          {
+            "status": "known",
+            "value": 1083.75,
+            "raw": "1,083.75"
+          },
+          {
+            "status": "known",
+            "value": 150,
+            "raw": "150"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 102,
+            "raw": "102"
+          },
+          {
+            "status": "known",
+            "value": 122.4,
+            "raw": "122.4"
+          },
+          {
+            "status": "known",
+            "value": 1445,
+            "raw": "1,445"
+          },
+          {
+            "status": "known",
+            "value": 200,
+            "raw": "200"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 104,
+            "raw": "104"
+          },
+          {
+            "status": "known",
+            "value": 124.8,
+            "raw": "124.8"
+          },
+          {
+            "status": "known",
+            "value": 1481,
+            "raw": "1,481"
+          },
+          {
+            "status": "known",
+            "value": 200,
+            "raw": "200"
+          },
+          {
+            "status": "known",
+            "value": 5000,
+            "raw": "5,000"
+          },
+          {
+            "status": "known",
+            "value": 7200,
+            "raw": "2h",
+            "unit": "seconds",
+            "displayInput": "0,2,0,0"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 105,
+            "raw": "105"
+          },
+          {
+            "status": "known",
+            "value": 126,
+            "raw": "126"
+          },
+          {
+            "status": "known",
+            "value": 1518,
+            "raw": "1,518"
+          },
+          {
+            "status": "known",
+            "value": 200,
+            "raw": "200"
+          },
+          {
+            "status": "known",
+            "value": 5500,
+            "raw": "5,500"
+          },
+          {
+            "status": "known",
+            "value": 14400,
+            "raw": "4h",
+            "unit": "seconds",
+            "displayInput": "0,4,0,0"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 108,
+            "raw": "108"
+          },
+          {
+            "status": "known",
+            "value": 129.6,
+            "raw": "129.6"
+          },
+          {
+            "status": "known",
+            "value": 1556,
+            "raw": "1,556"
+          },
+          {
+            "status": "known",
+            "value": 200,
+            "raw": "200"
+          },
+          {
+            "status": "known",
+            "value": 6000,
+            "raw": "6,000"
+          },
+          {
+            "status": "known",
+            "value": 28800,
+            "raw": "8h",
+            "unit": "seconds",
+            "displayInput": "0,8,0,0"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 110,
+            "raw": "110"
+          },
+          {
+            "status": "known",
+            "value": 132,
+            "raw": "132"
+          },
+          {
+            "status": "known",
+            "value": 1595,
+            "raw": "1,595"
+          },
+          {
+            "status": "known",
+            "value": 250,
+            "raw": "250"
+          },
+          {
+            "status": "known",
+            "value": 6500,
+            "raw": "6,500"
+          },
+          {
+            "status": "known",
+            "value": 36000,
+            "raw": "10h",
+            "unit": "seconds",
+            "displayInput": "0,10,0,0"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 112,
+            "raw": "112"
+          },
+          {
+            "status": "known",
+            "value": 134.4,
+            "raw": "134.4"
+          },
+          {
+            "status": "known",
+            "value": 1635,
+            "raw": "1,635"
+          },
+          {
+            "status": "known",
+            "value": 250,
+            "raw": "250"
+          },
+          {
+            "status": "known",
+            "value": 7000,
+            "raw": "7,000"
+          },
+          {
+            "status": "known",
+            "value": 43200,
+            "raw": "12h",
+            "unit": "seconds",
+            "displayInput": "0,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": 115,
+            "raw": "115"
+          },
+          {
+            "status": "known",
+            "value": 138,
+            "raw": "138"
+          },
+          {
+            "status": "known",
+            "value": 1675,
+            "raw": "1,675"
+          },
+          {
+            "status": "known",
+            "value": 250,
+            "raw": "250"
+          },
+          {
+            "status": "known",
+            "value": 7500,
+            "raw": "7,500"
+          },
+          {
+            "status": "known",
+            "value": 50400,
+            "raw": "14h",
+            "unit": "seconds",
+            "displayInput": "0,14,0,0"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": 116,
+            "raw": "116"
+          },
+          {
+            "status": "known",
+            "value": 139.2,
+            "raw": "139.2"
+          },
+          {
+            "status": "known",
+            "value": 1717,
+            "raw": "1,717"
+          },
+          {
+            "status": "known",
+            "value": 250,
+            "raw": "250"
+          },
+          {
+            "status": "known",
+            "value": 8000,
+            "raw": "8,000"
+          },
+          {
+            "status": "known",
+            "value": 57600,
+            "raw": "16h",
+            "unit": "seconds",
+            "displayInput": "0,16,0,0"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          },
+          {
+            "status": "known",
+            "value": 119,
+            "raw": "119"
+          },
+          {
+            "status": "known",
+            "value": 142.8,
+            "raw": "142.8"
+          },
+          {
+            "status": "known",
+            "value": 1760,
+            "raw": "1,760"
+          },
+          {
+            "status": "known",
+            "value": 250,
+            "raw": "250"
+          },
+          {
+            "status": "known",
+            "value": 8500,
+            "raw": "8,500"
+          },
+          {
+            "status": "known",
+            "value": 64800,
+            "raw": "18h",
+            "unit": "seconds",
+            "displayInput": "0,18,0,0"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 122,
+            "raw": "122"
+          },
+          {
+            "status": "known",
+            "value": 146.4,
+            "raw": "146.4"
+          },
+          {
+            "status": "known",
+            "value": 1805,
+            "raw": "1,805"
+          },
+          {
+            "status": "known",
+            "value": 310,
+            "raw": "310"
+          },
+          {
+            "status": "known",
+            "value": 10000,
+            "raw": "10,000"
+          },
+          {
+            "status": "known",
+            "value": 72000,
+            "raw": "20h",
+            "unit": "seconds",
+            "displayInput": "0,20,0,0"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          },
+          {
+            "status": "known",
+            "value": 124,
+            "raw": "124"
+          },
+          {
+            "status": "known",
+            "value": 148.8,
+            "raw": "148.8"
+          },
+          {
+            "status": "known",
+            "value": 1850,
+            "raw": "1,850"
+          },
+          {
+            "status": "known",
+            "value": 310,
+            "raw": "310"
+          },
+          {
+            "status": "known",
+            "value": 10500,
+            "raw": "10,500"
+          },
+          {
+            "status": "known",
+            "value": 79200,
+            "raw": "22h",
+            "unit": "seconds",
+            "displayInput": "0,22,0,0"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          },
+          {
+            "status": "known",
+            "value": 127,
+            "raw": "127"
+          },
+          {
+            "status": "known",
+            "value": 152.4,
+            "raw": "152.4"
+          },
+          {
+            "status": "known",
+            "value": 1896,
+            "raw": "1,896"
+          },
+          {
+            "status": "known",
+            "value": 310,
+            "raw": "310"
+          },
+          {
+            "status": "known",
+            "value": 11000,
+            "raw": "11,000"
+          },
+          {
+            "status": "known",
+            "value": 86400,
+            "raw": "1d",
+            "unit": "seconds",
+            "displayInput": "1,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          },
+          {
+            "status": "known",
+            "value": 129,
+            "raw": "129"
+          },
+          {
+            "status": "known",
+            "value": 154.8,
+            "raw": "154.8"
+          },
+          {
+            "status": "known",
+            "value": 1943,
+            "raw": "1,943"
+          },
+          {
+            "status": "known",
+            "value": 310,
+            "raw": "310"
+          },
+          {
+            "status": "known",
+            "value": 11500,
+            "raw": "11,500"
+          },
+          {
+            "status": "known",
+            "value": 86400,
+            "raw": "1d",
+            "unit": "seconds",
+            "displayInput": "1,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          },
+          {
+            "status": "known",
+            "value": 132,
+            "raw": "132"
+          },
+          {
+            "status": "known",
+            "value": 158.4,
+            "raw": "158.4"
+          },
+          {
+            "status": "known",
+            "value": 1992,
+            "raw": "1,992"
+          },
+          {
+            "status": "known",
+            "value": 310,
+            "raw": "310"
+          },
+          {
+            "status": "known",
+            "value": 12000,
+            "raw": "12,000"
+          },
+          {
+            "status": "known",
+            "value": 86400,
+            "raw": "1d",
+            "unit": "seconds",
+            "displayInput": "1,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 15,
+            "raw": "15"
+          },
+          {
+            "status": "known",
+            "value": 134,
+            "raw": "134"
+          },
+          {
+            "status": "known",
+            "value": 160.8,
+            "raw": "160.8"
+          },
+          {
+            "status": "known",
+            "value": 2042,
+            "raw": "2,042"
+          },
+          {
+            "status": "known",
+            "value": 375,
+            "raw": "375"
+          },
+          {
+            "status": "known",
+            "value": 12500,
+            "raw": "12,500"
+          },
+          {
+            "status": "known",
+            "value": 86400,
+            "raw": "1d",
+            "unit": "seconds",
+            "displayInput": "1,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          },
+          {
+            "status": "known",
+            "value": 137,
+            "raw": "137"
+          },
+          {
+            "status": "known",
+            "value": 164.4,
+            "raw": "164.4"
+          },
+          {
+            "status": "known",
+            "value": 2093,
+            "raw": "2,093"
+          },
+          {
+            "status": "known",
+            "value": 375,
+            "raw": "375"
+          },
+          {
+            "status": "known",
+            "value": 13000,
+            "raw": "13,000"
+          },
+          {
+            "status": "known",
+            "value": 86400,
+            "raw": "1d",
+            "unit": "seconds",
+            "displayInput": "1,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 17,
+            "raw": "17"
+          },
+          {
+            "status": "known",
+            "value": 139,
+            "raw": "139"
+          },
+          {
+            "status": "known",
+            "value": 166.8,
+            "raw": "166.8"
+          },
+          {
+            "status": "known",
+            "value": 2145,
+            "raw": "2,145"
+          },
+          {
+            "status": "known",
+            "value": 375,
+            "raw": "375"
+          },
+          {
+            "status": "known",
+            "value": 13500,
+            "raw": "13,500"
+          },
+          {
+            "status": "known",
+            "value": 86400,
+            "raw": "1d",
+            "unit": "seconds",
+            "displayInput": "1,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 18,
+            "raw": "18"
+          },
+          {
+            "status": "known",
+            "value": 143,
+            "raw": "143"
+          },
+          {
+            "status": "known",
+            "value": 171.6,
+            "raw": "171.6"
+          },
+          {
+            "status": "known",
+            "value": 2198,
+            "raw": "2,198"
+          },
+          {
+            "status": "known",
+            "value": 375,
+            "raw": "375"
+          },
+          {
+            "status": "known",
+            "value": 14000,
+            "raw": "14,000"
+          },
+          {
+            "status": "known",
+            "value": 86400,
+            "raw": "1d",
+            "unit": "seconds",
+            "displayInput": "1,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 19,
+            "raw": "19"
+          },
+          {
+            "status": "known",
+            "value": 145,
+            "raw": "145"
+          },
+          {
+            "status": "known",
+            "value": 174,
+            "raw": "174"
+          },
+          {
+            "status": "known",
+            "value": 2253,
+            "raw": "2,253"
+          },
+          {
+            "status": "known",
+            "value": 375,
+            "raw": "375"
+          },
+          {
+            "status": "known",
+            "value": 14500,
+            "raw": "14,500"
+          },
+          {
+            "status": "known",
+            "value": 86400,
+            "raw": "1d",
+            "unit": "seconds",
+            "displayInput": "1,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 20,
+            "raw": "20"
+          },
+          {
+            "status": "known",
+            "value": 148,
+            "raw": "148"
+          },
+          {
+            "status": "known",
+            "value": 177.6,
+            "raw": "177.6"
+          },
+          {
+            "status": "known",
+            "value": 2309,
+            "raw": "2,309"
+          },
+          {
+            "status": "known",
+            "value": 450,
+            "raw": "450"
+          },
+          {
+            "status": "known",
+            "value": 15000,
+            "raw": "15,000"
+          },
+          {
+            "status": "known",
+            "value": 86400,
+            "raw": "1d",
+            "unit": "seconds",
+            "displayInput": "1,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 21,
+            "raw": "21"
+          },
+          {
+            "status": "known",
+            "value": 151,
+            "raw": "151"
+          },
+          {
+            "status": "known",
+            "value": 181.2,
+            "raw": "181.2"
+          },
+          {
+            "status": "known",
+            "value": 2367,
+            "raw": "2,367"
+          },
+          {
+            "status": "known",
+            "value": 450,
+            "raw": "450"
+          },
+          {
+            "status": "known",
+            "value": 17000,
+            "raw": "17,000"
+          },
+          {
+            "status": "known",
+            "value": 86400,
+            "raw": "1d",
+            "unit": "seconds",
+            "displayInput": "1,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 22,
+            "raw": "22"
+          },
+          {
+            "status": "known",
+            "value": 154,
+            "raw": "154"
+          },
+          {
+            "status": "known",
+            "value": 184.8,
+            "raw": "184.8"
+          },
+          {
+            "status": "known",
+            "value": 2427,
+            "raw": "2,427"
+          },
+          {
+            "status": "known",
+            "value": 450,
+            "raw": "450"
+          },
+          {
+            "status": "known",
+            "value": 19000,
+            "raw": "19,000"
+          },
+          {
+            "status": "known",
+            "value": 86400,
+            "raw": "1d",
+            "unit": "seconds",
+            "displayInput": "1,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 23,
+            "raw": "23"
+          },
+          {
+            "status": "known",
+            "value": 157,
+            "raw": "157"
+          },
+          {
+            "status": "known",
+            "value": 188.4,
+            "raw": "188.4"
+          },
+          {
+            "status": "known",
+            "value": 2487,
+            "raw": "2,487"
+          },
+          {
+            "status": "known",
+            "value": 450,
+            "raw": "450"
+          },
+          {
+            "status": "known",
+            "value": 21000,
+            "raw": "21,000"
+          },
+          {
+            "status": "known",
+            "value": 86400,
+            "raw": "1d",
+            "unit": "seconds",
+            "displayInput": "1,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 24,
+            "raw": "24"
+          },
+          {
+            "status": "known",
+            "value": 161,
+            "raw": "161"
+          },
+          {
+            "status": "known",
+            "value": 193.2,
+            "raw": "193.2"
+          },
+          {
+            "status": "known",
+            "value": 2549,
+            "raw": "2,549"
+          },
+          {
+            "status": "known",
+            "value": 450,
+            "raw": "450"
+          },
+          {
+            "status": "known",
+            "value": 23000,
+            "raw": "23,000"
+          },
+          {
+            "status": "known",
+            "value": 86400,
+            "raw": "1d",
+            "unit": "seconds",
+            "displayInput": "1,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 25,
+            "raw": "25"
+          },
+          {
+            "status": "known",
+            "value": 164,
+            "raw": "164"
+          },
+          {
+            "status": "known",
+            "value": 196.8,
+            "raw": "196.8"
+          },
+          {
+            "status": "known",
+            "value": 2613,
+            "raw": "2,613"
+          },
+          {
+            "status": "known",
+            "value": 525,
+            "raw": "525"
+          },
+          {
+            "status": "known",
+            "value": 25000,
+            "raw": "25,000"
+          },
+          {
+            "status": "known",
+            "value": 86400,
+            "raw": "1d",
+            "unit": "seconds",
+            "displayInput": "1,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 26,
+            "raw": "26"
+          },
+          {
+            "status": "known",
+            "value": 167,
+            "raw": "167"
+          },
+          {
+            "status": "known",
+            "value": 200.4,
+            "raw": "200.4"
+          },
+          {
+            "status": "known",
+            "value": 2678,
+            "raw": "2,678"
+          },
+          {
+            "status": "known",
+            "value": 525,
+            "raw": "525"
+          },
+          {
+            "status": "known",
+            "value": 27000,
+            "raw": "27,000"
+          },
+          {
+            "status": "known",
+            "value": 172800,
+            "raw": "2d",
+            "unit": "seconds",
+            "displayInput": "2,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 27,
+            "raw": "27"
+          },
+          {
+            "status": "known",
+            "value": 170,
+            "raw": "170"
+          },
+          {
+            "status": "known",
+            "value": 204,
+            "raw": "204"
+          },
+          {
+            "status": "known",
+            "value": 2746,
+            "raw": "2,746"
+          },
+          {
+            "status": "known",
+            "value": 525,
+            "raw": "525"
+          },
+          {
+            "status": "known",
+            "value": 29000,
+            "raw": "29,000"
+          },
+          {
+            "status": "known",
+            "value": 172800,
+            "raw": "2d",
+            "unit": "seconds",
+            "displayInput": "2,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 28,
+            "raw": "28"
+          },
+          {
+            "status": "known",
+            "value": 173,
+            "raw": "173"
+          },
+          {
+            "status": "known",
+            "value": 207.6,
+            "raw": "207.6"
+          },
+          {
+            "status": "known",
+            "value": 2814,
+            "raw": "2,814"
+          },
+          {
+            "status": "known",
+            "value": 525,
+            "raw": "525"
+          },
+          {
+            "status": "known",
+            "value": 31000,
+            "raw": "31,000"
+          },
+          {
+            "status": "known",
+            "value": 172800,
+            "raw": "2d",
+            "unit": "seconds",
+            "displayInput": "2,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 29,
+            "raw": "29"
+          },
+          {
+            "status": "known",
+            "value": 177,
+            "raw": "177"
+          },
+          {
+            "status": "known",
+            "value": 212.4,
+            "raw": "212.4"
+          },
+          {
+            "status": "known",
+            "value": 2885,
+            "raw": "2,885"
+          },
+          {
+            "status": "known",
+            "value": 525,
+            "raw": "525"
+          },
+          {
+            "status": "known",
+            "value": 33000,
+            "raw": "33,000"
+          },
+          {
+            "status": "known",
+            "value": 172800,
+            "raw": "2d",
+            "unit": "seconds",
+            "displayInput": "2,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 30,
+            "raw": "30"
+          },
+          {
+            "status": "known",
+            "value": 181,
+            "raw": "181"
+          },
+          {
+            "status": "known",
+            "value": 217.2,
+            "raw": "217.2"
+          },
+          {
+            "status": "known",
+            "value": 2956,
+            "raw": "2,956"
+          },
+          {
+            "status": "known",
+            "value": 625,
+            "raw": "625"
+          },
+          {
+            "status": "known",
+            "value": 35000,
+            "raw": "35,000"
+          },
+          {
+            "status": "known",
+            "value": 172800,
+            "raw": "2d",
+            "unit": "seconds",
+            "displayInput": "2,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 31,
+            "raw": "31"
+          },
+          {
+            "status": "known",
+            "value": 184,
+            "raw": "184"
+          },
+          {
+            "status": "known",
+            "value": 220.8,
+            "raw": "220.8"
+          },
+          {
+            "status": "known",
+            "value": 3030,
+            "raw": "3,030"
+          },
+          {
+            "status": "known",
+            "value": 625,
+            "raw": "625"
+          },
+          {
+            "status": "known",
+            "value": 37000,
+            "raw": "37,000"
+          },
+          {
+            "status": "known",
+            "value": 194400,
+            "raw": "2d 6h",
+            "unit": "seconds",
+            "displayInput": "2,6,0,0"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 32,
+            "raw": "32"
+          },
+          {
+            "status": "known",
+            "value": 188,
+            "raw": "188"
+          },
+          {
+            "status": "known",
+            "value": 225.6,
+            "raw": "225.6"
+          },
+          {
+            "status": "known",
+            "value": 3107,
+            "raw": "3,107"
+          },
+          {
+            "status": "known",
+            "value": 625,
+            "raw": "625"
+          },
+          {
+            "status": "known",
+            "value": 39000,
+            "raw": "39,000"
+          },
+          {
+            "status": "known",
+            "value": 194400,
+            "raw": "2d 6h",
+            "unit": "seconds",
+            "displayInput": "2,6,0,0"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 33,
+            "raw": "33"
+          },
+          {
+            "status": "known",
+            "value": 192,
+            "raw": "192"
+          },
+          {
+            "status": "known",
+            "value": 230.4,
+            "raw": "230.4"
+          },
+          {
+            "status": "known",
+            "value": 3184,
+            "raw": "3,184"
+          },
+          {
+            "status": "known",
+            "value": 625,
+            "raw": "625"
+          },
+          {
+            "status": "known",
+            "value": 41000,
+            "raw": "41,000"
+          },
+          {
+            "status": "known",
+            "value": 194400,
+            "raw": "2d 6h",
+            "unit": "seconds",
+            "displayInput": "2,6,0,0"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 34,
+            "raw": "34"
+          },
+          {
+            "status": "known",
+            "value": 196,
+            "raw": "196"
+          },
+          {
+            "status": "known",
+            "value": 235.2,
+            "raw": "235.2"
+          },
+          {
+            "status": "known",
+            "value": 3264,
+            "raw": "3,264"
+          },
+          {
+            "status": "known",
+            "value": 625,
+            "raw": "625"
+          },
+          {
+            "status": "known",
+            "value": 43000,
+            "raw": "43,000"
+          },
+          {
+            "status": "known",
+            "value": 194400,
+            "raw": "2d 6h",
+            "unit": "seconds",
+            "displayInput": "2,6,0,0"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 35,
+            "raw": "35"
+          },
+          {
+            "status": "known",
+            "value": 200,
+            "raw": "200"
+          },
+          {
+            "status": "known",
+            "value": 240,
+            "raw": "240"
+          },
+          {
+            "status": "known",
+            "value": 3346,
+            "raw": "3,346"
+          },
+          {
+            "status": "known",
+            "value": 725,
+            "raw": "725"
+          },
+          {
+            "status": "known",
+            "value": 45000,
+            "raw": "45,000"
+          },
+          {
+            "status": "known",
+            "value": 194400,
+            "raw": "2d 6h",
+            "unit": "seconds",
+            "displayInput": "2,6,0,0"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 36,
+            "raw": "36"
+          },
+          {
+            "status": "known",
+            "value": 203,
+            "raw": "203"
+          },
+          {
+            "status": "known",
+            "value": 243.6,
+            "raw": "243.6"
+          },
+          {
+            "status": "known",
+            "value": 3429,
+            "raw": "3,429"
+          },
+          {
+            "status": "known",
+            "value": 725,
+            "raw": "725"
+          },
+          {
+            "status": "known",
+            "value": 47000,
+            "raw": "47,000"
+          },
+          {
+            "status": "known",
+            "value": 216000,
+            "raw": "2d 12h",
+            "unit": "seconds",
+            "displayInput": "2,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 37,
+            "raw": "37"
+          },
+          {
+            "status": "known",
+            "value": 207,
+            "raw": "207"
+          },
+          {
+            "status": "known",
+            "value": 248.4,
+            "raw": "248.4"
+          },
+          {
+            "status": "known",
+            "value": 3515,
+            "raw": "3,515"
+          },
+          {
+            "status": "known",
+            "value": 725,
+            "raw": "725"
+          },
+          {
+            "status": "known",
+            "value": 49000,
+            "raw": "49,000"
+          },
+          {
+            "status": "known",
+            "value": 216000,
+            "raw": "2d 12h",
+            "unit": "seconds",
+            "displayInput": "2,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 38,
+            "raw": "38"
+          },
+          {
+            "status": "known",
+            "value": 212,
+            "raw": "212"
+          },
+          {
+            "status": "known",
+            "value": 254.4,
+            "raw": "254.4"
+          },
+          {
+            "status": "known",
+            "value": 3602,
+            "raw": "3,602"
+          },
+          {
+            "status": "known",
+            "value": 725,
+            "raw": "725"
+          },
+          {
+            "status": "known",
+            "value": 51000,
+            "raw": "51,000"
+          },
+          {
+            "status": "known",
+            "value": 216000,
+            "raw": "2d 12h",
+            "unit": "seconds",
+            "displayInput": "2,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 39,
+            "raw": "39"
+          },
+          {
+            "status": "known",
+            "value": 216,
+            "raw": "216"
+          },
+          {
+            "status": "known",
+            "value": 259.2,
+            "raw": "259.2"
+          },
+          {
+            "status": "known",
+            "value": 3692,
+            "raw": "3,692"
+          },
+          {
+            "status": "known",
+            "value": 725,
+            "raw": "725"
+          },
+          {
+            "status": "known",
+            "value": 53000,
+            "raw": "53,000"
+          },
+          {
+            "status": "known",
+            "value": 216000,
+            "raw": "2d 12h",
+            "unit": "seconds",
+            "displayInput": "2,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 40,
+            "raw": "40"
+          },
+          {
+            "status": "known",
+            "value": 220,
+            "raw": "220"
+          },
+          {
+            "status": "known",
+            "value": 264,
+            "raw": "264"
+          },
+          {
+            "status": "known",
+            "value": 3785,
+            "raw": "3,785"
+          },
+          {
+            "status": "known",
+            "value": 850,
+            "raw": "850"
+          },
+          {
+            "status": "known",
+            "value": 55000,
+            "raw": "55,000"
+          },
+          {
+            "status": "known",
+            "value": 216000,
+            "raw": "2d 12h",
+            "unit": "seconds",
+            "displayInput": "2,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 41,
+            "raw": "41"
+          },
+          {
+            "status": "known",
+            "value": 234,
+            "raw": "234"
+          },
+          {
+            "status": "known",
+            "value": 280.8,
+            "raw": "280.8"
+          },
+          {
+            "status": "known",
+            "value": 3879,
+            "raw": "3,879"
+          },
+          {
+            "status": "known",
+            "value": 850,
+            "raw": "850"
+          },
+          {
+            "status": "known",
+            "value": 58000,
+            "raw": "58,000"
+          },
+          {
+            "status": "known",
+            "value": 259200,
+            "raw": "3d",
+            "unit": "seconds",
+            "displayInput": "3,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 42,
+            "raw": "42"
+          },
+          {
+            "status": "known",
+            "value": 239,
+            "raw": "239"
+          },
+          {
+            "status": "known",
+            "value": 286.8,
+            "raw": "286.8"
+          },
+          {
+            "status": "known",
+            "value": 3976,
+            "raw": "3,976"
+          },
+          {
+            "status": "known",
+            "value": 850,
+            "raw": "850"
+          },
+          {
+            "status": "known",
+            "value": 61000,
+            "raw": "61,000"
+          },
+          {
+            "status": "known",
+            "value": 259200,
+            "raw": "3d",
+            "unit": "seconds",
+            "displayInput": "3,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 43,
+            "raw": "43"
+          },
+          {
+            "status": "known",
+            "value": 244,
+            "raw": "244"
+          },
+          {
+            "status": "known",
+            "value": 292.8,
+            "raw": "292.8"
+          },
+          {
+            "status": "known",
+            "value": 4076,
+            "raw": "4,076"
+          },
+          {
+            "status": "known",
+            "value": 850,
+            "raw": "850"
+          },
+          {
+            "status": "known",
+            "value": 64000,
+            "raw": "64,000"
+          },
+          {
+            "status": "known",
+            "value": 259200,
+            "raw": "3d",
+            "unit": "seconds",
+            "displayInput": "3,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 44,
+            "raw": "44"
+          },
+          {
+            "status": "known",
+            "value": 249,
+            "raw": "249"
+          },
+          {
+            "status": "known",
+            "value": 298.8,
+            "raw": "298.8"
+          },
+          {
+            "status": "known",
+            "value": 4178,
+            "raw": "4,178"
+          },
+          {
+            "status": "known",
+            "value": 850,
+            "raw": "850"
+          },
+          {
+            "status": "known",
+            "value": 67000,
+            "raw": "67,000"
+          },
+          {
+            "status": "known",
+            "value": 259200,
+            "raw": "3d",
+            "unit": "seconds",
+            "displayInput": "3,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 45,
+            "raw": "45"
+          },
+          {
+            "status": "known",
+            "value": 254,
+            "raw": "254"
+          },
+          {
+            "status": "known",
+            "value": 304.8,
+            "raw": "304.8"
+          },
+          {
+            "status": "known",
+            "value": 4282,
+            "raw": "4,282"
+          },
+          {
+            "status": "known",
+            "value": 980,
+            "raw": "980"
+          },
+          {
+            "status": "known",
+            "value": 70000,
+            "raw": "70,000"
+          },
+          {
+            "status": "known",
+            "value": 259200,
+            "raw": "3d",
+            "unit": "seconds",
+            "displayInput": "3,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 46,
+            "raw": "46"
+          },
+          {
+            "status": "known",
+            "value": 259,
+            "raw": "259"
+          },
+          {
+            "status": "known",
+            "value": 310.8,
+            "raw": "310.8"
+          },
+          {
+            "status": "known",
+            "value": 4389,
+            "raw": "4,389"
+          },
+          {
+            "status": "known",
+            "value": 980,
+            "raw": "980"
+          },
+          {
+            "status": "known",
+            "value": 73000,
+            "raw": "73,000"
+          },
+          {
+            "status": "known",
+            "value": 259200,
+            "raw": "3d",
+            "unit": "seconds",
+            "displayInput": "3,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 47,
+            "raw": "47"
+          },
+          {
+            "status": "known",
+            "value": 265,
+            "raw": "265"
+          },
+          {
+            "status": "known",
+            "value": 318,
+            "raw": "318"
+          },
+          {
+            "status": "known",
+            "value": 4499,
+            "raw": "4,499"
+          },
+          {
+            "status": "known",
+            "value": 980,
+            "raw": "980"
+          },
+          {
+            "status": "known",
+            "value": 76000,
+            "raw": "76,000"
+          },
+          {
+            "status": "known",
+            "value": 259200,
+            "raw": "3d",
+            "unit": "seconds",
+            "displayInput": "3,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 48,
+            "raw": "48"
+          },
+          {
+            "status": "known",
+            "value": 270,
+            "raw": "270"
+          },
+          {
+            "status": "known",
+            "value": 324,
+            "raw": "324"
+          },
+          {
+            "status": "known",
+            "value": 4611,
+            "raw": "4,611"
+          },
+          {
+            "status": "known",
+            "value": 980,
+            "raw": "980"
+          },
+          {
+            "status": "known",
+            "value": 79000,
+            "raw": "79,000"
+          },
+          {
+            "status": "known",
+            "value": 259200,
+            "raw": "3d",
+            "unit": "seconds",
+            "displayInput": "3,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 49,
+            "raw": "49"
+          },
+          {
+            "status": "known",
+            "value": 276,
+            "raw": "276"
+          },
+          {
+            "status": "known",
+            "value": 331.2,
+            "raw": "331.2"
+          },
+          {
+            "status": "known",
+            "value": 4727,
+            "raw": "4,727"
+          },
+          {
+            "status": "known",
+            "value": 980,
+            "raw": "980"
+          },
+          {
+            "status": "known",
+            "value": 82000,
+            "raw": "82,000"
+          },
+          {
+            "status": "known",
+            "value": 259200,
+            "raw": "3d",
+            "unit": "seconds",
+            "displayInput": "3,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 50,
+            "raw": "50"
+          },
+          {
+            "status": "known",
+            "value": 282,
+            "raw": "282"
+          },
+          {
+            "status": "known",
+            "value": 338.4,
+            "raw": "338.4"
+          },
+          {
+            "status": "known",
+            "value": 4845,
+            "raw": "4,845"
+          },
+          {
+            "status": "known",
+            "value": 1125,
+            "raw": "1,125"
+          },
+          {
+            "status": "known",
+            "value": 85000,
+            "raw": "85,000"
+          },
+          {
+            "status": "known",
+            "value": 259200,
+            "raw": "3d",
+            "unit": "seconds",
+            "displayInput": "3,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 51,
+            "raw": "51"
+          },
+          {
+            "status": "known",
+            "value": 288,
+            "raw": "288"
+          },
+          {
+            "status": "known",
+            "value": 345.6,
+            "raw": "345.6"
+          },
+          {
+            "status": "known",
+            "value": 4967,
+            "raw": "4,967"
+          },
+          {
+            "status": "known",
+            "value": 1125,
+            "raw": "1,125"
+          },
+          {
+            "status": "known",
+            "value": 86000,
+            "raw": "86,000"
+          },
+          {
+            "status": "known",
+            "value": 259200,
+            "raw": "3d",
+            "unit": "seconds",
+            "displayInput": "3,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 52,
+            "raw": "52"
+          },
+          {
+            "status": "known",
+            "value": 294,
+            "raw": "294"
+          },
+          {
+            "status": "known",
+            "value": 352.8,
+            "raw": "352.8"
+          },
+          {
+            "status": "known",
+            "value": 5092,
+            "raw": "5,092"
+          },
+          {
+            "status": "known",
+            "value": 1125,
+            "raw": "1,125"
+          },
+          {
+            "status": "known",
+            "value": 87000,
+            "raw": "87,000"
+          },
+          {
+            "status": "known",
+            "value": 259200,
+            "raw": "3d",
+            "unit": "seconds",
+            "displayInput": "3,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 53,
+            "raw": "53"
+          },
+          {
+            "status": "known",
+            "value": 300,
+            "raw": "300"
+          },
+          {
+            "status": "known",
+            "value": 360,
+            "raw": "360"
+          },
+          {
+            "status": "known",
+            "value": 5219,
+            "raw": "5,219"
+          },
+          {
+            "status": "known",
+            "value": 1125,
+            "raw": "1,125"
+          },
+          {
+            "status": "known",
+            "value": 88000,
+            "raw": "88,000"
+          },
+          {
+            "status": "known",
+            "value": 259200,
+            "raw": "3d",
+            "unit": "seconds",
+            "displayInput": "3,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 54,
+            "raw": "54"
+          },
+          {
+            "status": "known",
+            "value": 307,
+            "raw": "307"
+          },
+          {
+            "status": "known",
+            "value": 368.4,
+            "raw": "368.4"
+          },
+          {
+            "status": "known",
+            "value": 5350,
+            "raw": "5,350"
+          },
+          {
+            "status": "known",
+            "value": 1125,
+            "raw": "1,125"
+          },
+          {
+            "status": "known",
+            "value": 89000,
+            "raw": "89,000"
+          },
+          {
+            "status": "known",
+            "value": 259200,
+            "raw": "3d",
+            "unit": "seconds",
+            "displayInput": "3,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 55,
+            "raw": "55"
+          },
+          {
+            "status": "known",
+            "value": 314,
+            "raw": "314"
+          },
+          {
+            "status": "known",
+            "value": 376.8,
+            "raw": "376.8"
+          },
+          {
+            "status": "known",
+            "value": 5484,
+            "raw": "5,484"
+          },
+          {
+            "status": "known",
+            "value": 1300,
+            "raw": "1,300"
+          },
+          {
+            "status": "known",
+            "value": 90000,
+            "raw": "90,000"
+          },
+          {
+            "status": "known",
+            "value": 259200,
+            "raw": "3d",
+            "unit": "seconds",
+            "displayInput": "3,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 56,
+            "raw": "56"
+          },
+          {
+            "status": "known",
+            "value": 320,
+            "raw": "320"
+          },
+          {
+            "status": "known",
+            "value": 384,
+            "raw": "384"
+          },
+          {
+            "status": "known",
+            "value": 5622,
+            "raw": "5,622"
+          },
+          {
+            "status": "known",
+            "value": 1300,
+            "raw": "1,300"
+          },
+          {
+            "status": "known",
+            "value": 93000,
+            "raw": "93,000"
+          },
+          {
+            "status": "known",
+            "value": 259200,
+            "raw": "3d",
+            "unit": "seconds",
+            "displayInput": "3,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 57,
+            "raw": "57"
+          },
+          {
+            "status": "known",
+            "value": 327,
+            "raw": "327"
+          },
+          {
+            "status": "known",
+            "value": 392.4,
+            "raw": "392.4"
+          },
+          {
+            "status": "known",
+            "value": 5763,
+            "raw": "5,763"
+          },
+          {
+            "status": "known",
+            "value": 1300,
+            "raw": "1,300"
+          },
+          {
+            "status": "known",
+            "value": 96000,
+            "raw": "96,000"
+          },
+          {
+            "status": "known",
+            "value": 259200,
+            "raw": "3d",
+            "unit": "seconds",
+            "displayInput": "3,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 58,
+            "raw": "58"
+          },
+          {
+            "status": "known",
+            "value": 334,
+            "raw": "334"
+          },
+          {
+            "status": "known",
+            "value": 400.8,
+            "raw": "400.8"
+          },
+          {
+            "status": "known",
+            "value": 5908,
+            "raw": "5,908"
+          },
+          {
+            "status": "known",
+            "value": 1300,
+            "raw": "1,300"
+          },
+          {
+            "status": "known",
+            "value": 99000,
+            "raw": "99,000"
+          },
+          {
+            "status": "known",
+            "value": 259200,
+            "raw": "3d",
+            "unit": "seconds",
+            "displayInput": "3,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 59,
+            "raw": "59"
+          },
+          {
+            "status": "known",
+            "value": 341,
+            "raw": "341"
+          },
+          {
+            "status": "known",
+            "value": 409.2,
+            "raw": "409.2"
+          },
+          {
+            "status": "known",
+            "value": 6055,
+            "raw": "6,055"
+          },
+          {
+            "status": "known",
+            "value": 1300,
+            "raw": "1,300"
+          },
+          {
+            "status": "known",
+            "value": 102000,
+            "raw": "102,000"
+          },
+          {
+            "status": "known",
+            "value": 259200,
+            "raw": "3d",
+            "unit": "seconds",
+            "displayInput": "3,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 60,
+            "raw": "60"
+          },
+          {
+            "status": "known",
+            "value": 349,
+            "raw": "349"
+          },
+          {
+            "status": "known",
+            "value": 418.8,
+            "raw": "418.8"
+          },
+          {
+            "status": "known",
+            "value": 6208,
+            "raw": "6,208"
+          },
+          {
+            "status": "known",
+            "value": 1490,
+            "raw": "1,490"
+          },
+          {
+            "status": "known",
+            "value": 105000,
+            "raw": "105,000"
+          },
+          {
+            "status": "known",
+            "value": 259200,
+            "raw": "3d",
+            "unit": "seconds",
+            "displayInput": "3,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 61,
+            "raw": "61"
+          },
+          {
+            "status": "known",
+            "value": 355,
+            "raw": "355"
+          },
+          {
+            "status": "known",
+            "value": 426,
+            "raw": "426"
+          },
+          {
+            "status": "known",
+            "value": 6363,
+            "raw": "6,363"
+          },
+          {
+            "status": "known",
+            "value": 1490,
+            "raw": "1,490"
+          },
+          {
+            "status": "known",
+            "value": 107000,
+            "raw": "107,000"
+          },
+          {
+            "status": "known",
+            "value": 345600,
+            "raw": "4d",
+            "unit": "seconds",
+            "displayInput": "4,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 62,
+            "raw": "62"
+          },
+          {
+            "status": "known",
+            "value": 362,
+            "raw": "362"
+          },
+          {
+            "status": "known",
+            "value": 434.4,
+            "raw": "434.4"
+          },
+          {
+            "status": "known",
+            "value": 6522,
+            "raw": "6,522"
+          },
+          {
+            "status": "known",
+            "value": 1490,
+            "raw": "1,490"
+          },
+          {
+            "status": "known",
+            "value": 109000,
+            "raw": "109,000"
+          },
+          {
+            "status": "known",
+            "value": 345600,
+            "raw": "4d",
+            "unit": "seconds",
+            "displayInput": "4,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 63,
+            "raw": "63"
+          },
+          {
+            "status": "known",
+            "value": 370,
+            "raw": "370"
+          },
+          {
+            "status": "known",
+            "value": 444,
+            "raw": "444"
+          },
+          {
+            "status": "known",
+            "value": 6685,
+            "raw": "6,685"
+          },
+          {
+            "status": "known",
+            "value": 1490,
+            "raw": "1,490"
+          },
+          {
+            "status": "known",
+            "value": 111000,
+            "raw": "111,000"
+          },
+          {
+            "status": "known",
+            "value": 345600,
+            "raw": "4d",
+            "unit": "seconds",
+            "displayInput": "4,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 64,
+            "raw": "64"
+          },
+          {
+            "status": "known",
+            "value": 377,
+            "raw": "377"
+          },
+          {
+            "status": "known",
+            "value": 452.4,
+            "raw": "452.4"
+          },
+          {
+            "status": "known",
+            "value": 6853,
+            "raw": "6,853"
+          },
+          {
+            "status": "known",
+            "value": 1490,
+            "raw": "1,490"
+          },
+          {
+            "status": "known",
+            "value": 113000,
+            "raw": "113,000"
+          },
+          {
+            "status": "known",
+            "value": 345600,
+            "raw": "4d",
+            "unit": "seconds",
+            "displayInput": "4,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 65,
+            "raw": "65"
+          },
+          {
+            "status": "known",
+            "value": 385,
+            "raw": "385"
+          },
+          {
+            "status": "known",
+            "value": 462,
+            "raw": "462"
+          },
+          {
+            "status": "known",
+            "value": 7024,
+            "raw": "7,024"
+          },
+          {
+            "status": "known",
+            "value": 1700,
+            "raw": "1,700"
+          },
+          {
+            "status": "known",
+            "value": 115000,
+            "raw": "115,000"
+          },
+          {
+            "status": "known",
+            "value": 345600,
+            "raw": "4d",
+            "unit": "seconds",
+            "displayInput": "4,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 66,
+            "raw": "66"
+          },
+          {
+            "status": "known",
+            "value": 393,
+            "raw": "393"
+          },
+          {
+            "status": "known",
+            "value": 471.6,
+            "raw": "471.6"
+          },
+          {
+            "status": "known",
+            "value": 7200,
+            "raw": "7,200"
+          },
+          {
+            "status": "known",
+            "value": 1700,
+            "raw": "1,700"
+          },
+          {
+            "status": "known",
+            "value": 117000,
+            "raw": "117,000"
+          },
+          {
+            "status": "known",
+            "value": 345600,
+            "raw": "4d",
+            "unit": "seconds",
+            "displayInput": "4,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 67,
+            "raw": "67"
+          },
+          {
+            "status": "known",
+            "value": 400,
+            "raw": "400"
+          },
+          {
+            "status": "known",
+            "value": 480,
+            "raw": "480"
+          },
+          {
+            "status": "known",
+            "value": 7378,
+            "raw": "7,378"
+          },
+          {
+            "status": "known",
+            "value": 1700,
+            "raw": "1,700"
+          },
+          {
+            "status": "known",
+            "value": 119000,
+            "raw": "119,000"
+          },
+          {
+            "status": "known",
+            "value": 345600,
+            "raw": "4d",
+            "unit": "seconds",
+            "displayInput": "4,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 68,
+            "raw": "68"
+          },
+          {
+            "status": "known",
+            "value": 408,
+            "raw": "408"
+          },
+          {
+            "status": "known",
+            "value": 489.6,
+            "raw": "489.6"
+          },
+          {
+            "status": "known",
+            "value": 7557,
+            "raw": "7,557"
+          },
+          {
+            "status": "known",
+            "value": 1700,
+            "raw": "1,700"
+          },
+          {
+            "status": "known",
+            "value": 121000,
+            "raw": "121,000"
+          },
+          {
+            "status": "known",
+            "value": 345600,
+            "raw": "4d",
+            "unit": "seconds",
+            "displayInput": "4,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 69,
+            "raw": "69"
+          },
+          {
+            "status": "known",
+            "value": 417,
+            "raw": "417"
+          },
+          {
+            "status": "known",
+            "value": 500.4,
+            "raw": "500.4"
+          },
+          {
+            "status": "known",
+            "value": 7735,
+            "raw": "7,735"
+          },
+          {
+            "status": "known",
+            "value": 1700,
+            "raw": "1,700"
+          },
+          {
+            "status": "known",
+            "value": 123000,
+            "raw": "123,000"
+          },
+          {
+            "status": "known",
+            "value": 345600,
+            "raw": "4d",
+            "unit": "seconds",
+            "displayInput": "4,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 70,
+            "raw": "70"
+          },
+          {
+            "status": "known",
+            "value": 425,
+            "raw": "425"
+          },
+          {
+            "status": "known",
+            "value": 510,
+            "raw": "510"
+          },
+          {
+            "status": "known",
+            "value": 7905,
+            "raw": "7,905"
+          },
+          {
+            "status": "known",
+            "value": 1925,
+            "raw": "1,925"
+          },
+          {
+            "status": "known",
+            "value": 125000,
+            "raw": "125,000"
+          },
+          {
+            "status": "known",
+            "value": 345600,
+            "raw": "4d",
+            "unit": "seconds",
+            "displayInput": "4,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 71,
+            "raw": "71"
+          },
+          {
+            "status": "known",
+            "value": 434,
+            "raw": "434"
+          },
+          {
+            "status": "known",
+            "value": 520.8,
+            "raw": "520.8"
+          },
+          {
+            "status": "known",
+            "value": 8075,
+            "raw": "8,075"
+          },
+          {
+            "status": "known",
+            "value": 1925,
+            "raw": "1,925"
+          },
+          {
+            "status": "known",
+            "value": 130000,
+            "raw": "130,000"
+          },
+          {
+            "status": "known",
+            "value": 345600,
+            "raw": "4d",
+            "unit": "seconds",
+            "displayInput": "4,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 72,
+            "raw": "72"
+          },
+          {
+            "status": "known",
+            "value": 442,
+            "raw": "442"
+          },
+          {
+            "status": "known",
+            "value": 530.4,
+            "raw": "530.4"
+          },
+          {
+            "status": "known",
+            "value": 8245,
+            "raw": "8,245"
+          },
+          {
+            "status": "known",
+            "value": 1925,
+            "raw": "1,925"
+          },
+          {
+            "status": "known",
+            "value": 135000,
+            "raw": "135,000"
+          },
+          {
+            "status": "known",
+            "value": 345600,
+            "raw": "4d",
+            "unit": "seconds",
+            "displayInput": "4,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 73,
+            "raw": "73"
+          },
+          {
+            "status": "known",
+            "value": 451,
+            "raw": "451"
+          },
+          {
+            "status": "known",
+            "value": 541.2,
+            "raw": "541.2"
+          },
+          {
+            "status": "known",
+            "value": 8415,
+            "raw": "8,415"
+          },
+          {
+            "status": "known",
+            "value": 1925,
+            "raw": "1,925"
+          },
+          {
+            "status": "known",
+            "value": 140000,
+            "raw": "140,000"
+          },
+          {
+            "status": "known",
+            "value": 345600,
+            "raw": "4d",
+            "unit": "seconds",
+            "displayInput": "4,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 74,
+            "raw": "74"
+          },
+          {
+            "status": "known",
+            "value": 459,
+            "raw": "459"
+          },
+          {
+            "status": "known",
+            "value": 550.8,
+            "raw": "550.8"
+          },
+          {
+            "status": "known",
+            "value": 8585,
+            "raw": "8,585"
+          },
+          {
+            "status": "known",
+            "value": 1925,
+            "raw": "1,925"
+          },
+          {
+            "status": "known",
+            "value": 145000,
+            "raw": "145,000"
+          },
+          {
+            "status": "known",
+            "value": 345600,
+            "raw": "4d",
+            "unit": "seconds",
+            "displayInput": "4,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 75,
+            "raw": "75"
+          },
+          {
+            "status": "known",
+            "value": 468,
+            "raw": "468"
+          },
+          {
+            "status": "known",
+            "value": 561.6,
+            "raw": "561.6"
+          },
+          {
+            "status": "known",
+            "value": 8755,
+            "raw": "8,755"
+          },
+          {
+            "status": "known",
+            "value": 2150,
+            "raw": "2,150"
+          },
+          {
+            "status": "known",
+            "value": 150000,
+            "raw": "150,000"
+          },
+          {
+            "status": "known",
+            "value": 345600,
+            "raw": "4d",
+            "unit": "seconds",
+            "displayInput": "4,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 76,
+            "raw": "76"
+          },
+          {
+            "status": "known",
+            "value": 475,
+            "raw": "475"
+          },
+          {
+            "status": "known",
+            "value": 570,
+            "raw": "570"
+          },
+          {
+            "status": "known",
+            "value": 8917,
+            "raw": "8,917"
+          },
+          {
+            "status": "known",
+            "value": 2150,
+            "raw": "2,150"
+          },
+          {
+            "status": "known",
+            "value": 155000,
+            "raw": "155,000"
+          },
+          {
+            "status": "known",
+            "value": 345600,
+            "raw": "4d",
+            "unit": "seconds",
+            "displayInput": "4,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 77,
+            "raw": "77"
+          },
+          {
+            "status": "known",
+            "value": 483,
+            "raw": "483"
+          },
+          {
+            "status": "known",
+            "value": 579.6,
+            "raw": "579.6"
+          },
+          {
+            "status": "known",
+            "value": 9078,
+            "raw": "9,078"
+          },
+          {
+            "status": "known",
+            "value": 2150,
+            "raw": "2,150"
+          },
+          {
+            "status": "known",
+            "value": 160000,
+            "raw": "160,000"
+          },
+          {
+            "status": "known",
+            "value": 345600,
+            "raw": "4d",
+            "unit": "seconds",
+            "displayInput": "4,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 78,
+            "raw": "78"
+          },
+          {
+            "status": "known",
+            "value": 490,
+            "raw": "490"
+          },
+          {
+            "status": "known",
+            "value": 588,
+            "raw": "588"
+          },
+          {
+            "status": "known",
+            "value": 9240,
+            "raw": "9,240"
+          },
+          {
+            "status": "known",
+            "value": 2150,
+            "raw": "2,150"
+          },
+          {
+            "status": "known",
+            "value": 165000,
+            "raw": "165,000"
+          },
+          {
+            "status": "known",
+            "value": 345600,
+            "raw": "4d",
+            "unit": "seconds",
+            "displayInput": "4,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 79,
+            "raw": "79"
+          },
+          {
+            "status": "known",
+            "value": 498,
+            "raw": "498"
+          },
+          {
+            "status": "known",
+            "value": 597.6,
+            "raw": "597.6"
+          },
+          {
+            "status": "known",
+            "value": 9401,
+            "raw": "9,401"
+          },
+          {
+            "status": "known",
+            "value": 2150,
+            "raw": "2,150"
+          },
+          {
+            "status": "known",
+            "value": 170000,
+            "raw": "170,000"
+          },
+          {
+            "status": "known",
+            "value": 345600,
+            "raw": "4d",
+            "unit": "seconds",
+            "displayInput": "4,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 80,
+            "raw": "80"
+          },
+          {
+            "status": "known",
+            "value": 506,
+            "raw": "506"
+          },
+          {
+            "status": "known",
+            "value": 607.2,
+            "raw": "607.2"
+          },
+          {
+            "status": "known",
+            "value": 9563,
+            "raw": "9,563"
+          },
+          {
+            "status": "known",
+            "value": 2350,
+            "raw": "2,350"
+          },
+          {
+            "status": "known",
+            "value": 175000,
+            "raw": "175,000"
+          },
+          {
+            "status": "known",
+            "value": 345600,
+            "raw": "4d",
+            "unit": "seconds",
+            "displayInput": "4,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 81,
+            "raw": "81"
+          },
+          {
+            "status": "known",
+            "value": 513,
+            "raw": "513"
+          },
+          {
+            "status": "known",
+            "value": 615.6,
+            "raw": "615.6"
+          },
+          {
+            "status": "known",
+            "value": 9690,
+            "raw": "9,690"
+          },
+          {
+            "status": "known",
+            "value": 2350,
+            "raw": "2,350"
+          },
+          {
+            "status": "known",
+            "value": 180000,
+            "raw": "180,000"
+          },
+          {
+            "status": "known",
+            "value": 432000,
+            "raw": "5d",
+            "unit": "seconds",
+            "displayInput": "5,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 82,
+            "raw": "82"
+          },
+          {
+            "status": "known",
+            "value": 519,
+            "raw": "519"
+          },
+          {
+            "status": "known",
+            "value": 622.8,
+            "raw": "622.8"
+          },
+          {
+            "status": "known",
+            "value": 9818,
+            "raw": "9,818"
+          },
+          {
+            "status": "known",
+            "value": 2350,
+            "raw": "2,350"
+          },
+          {
+            "status": "known",
+            "value": 185000,
+            "raw": "185,000"
+          },
+          {
+            "status": "known",
+            "value": 432000,
+            "raw": "5d",
+            "unit": "seconds",
+            "displayInput": "5,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 83,
+            "raw": "83"
+          },
+          {
+            "status": "known",
+            "value": 526,
+            "raw": "526"
+          },
+          {
+            "status": "known",
+            "value": 631.2,
+            "raw": "631.2"
+          },
+          {
+            "status": "known",
+            "value": 9945,
+            "raw": "9,945"
+          },
+          {
+            "status": "known",
+            "value": 2350,
+            "raw": "2,350"
+          },
+          {
+            "status": "known",
+            "value": 195000,
+            "raw": "195,000"
+          },
+          {
+            "status": "known",
+            "value": 432000,
+            "raw": "5d",
+            "unit": "seconds",
+            "displayInput": "5,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 84,
+            "raw": "84"
+          },
+          {
+            "status": "known",
+            "value": 533,
+            "raw": "533"
+          },
+          {
+            "status": "known",
+            "value": 639.6,
+            "raw": "639.6"
+          },
+          {
+            "status": "known",
+            "value": 10073,
+            "raw": "10,073"
+          },
+          {
+            "status": "known",
+            "value": 2350,
+            "raw": "2,350"
+          },
+          {
+            "status": "known",
+            "value": 205000,
+            "raw": "205,000"
+          },
+          {
+            "status": "known",
+            "value": 432000,
+            "raw": "5d",
+            "unit": "seconds",
+            "displayInput": "5,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 85,
+            "raw": "85"
+          },
+          {
+            "status": "known",
+            "value": 540,
+            "raw": "540"
+          },
+          {
+            "status": "known",
+            "value": 648,
+            "raw": "648"
+          },
+          {
+            "status": "known",
+            "value": 10200,
+            "raw": "10,200"
+          },
+          {
+            "status": "known",
+            "value": 2500,
+            "raw": "2,500"
+          },
+          {
+            "status": "known",
+            "value": 215000,
+            "raw": "215,000"
+          },
+          {
+            "status": "known",
+            "value": 432000,
+            "raw": "5d",
+            "unit": "seconds",
+            "displayInput": "5,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 86,
+            "raw": "86"
+          },
+          {
+            "status": "known",
+            "value": 547,
+            "raw": "547"
+          },
+          {
+            "status": "known",
+            "value": 656.4,
+            "raw": "656.4"
+          },
+          {
+            "status": "known",
+            "value": 10328,
+            "raw": "10,328"
+          },
+          {
+            "status": "known",
+            "value": 2500,
+            "raw": "2,500"
+          },
+          {
+            "status": "known",
+            "value": 220000,
+            "raw": "220,000"
+          },
+          {
+            "status": "known",
+            "value": 518400,
+            "raw": "6d",
+            "unit": "seconds",
+            "displayInput": "6,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          },
+          {
+            "status": "known",
+            "value": 15,
+            "raw": "15"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 87,
+            "raw": "87"
+          },
+          {
+            "status": "known",
+            "value": 553,
+            "raw": "553"
+          },
+          {
+            "status": "known",
+            "value": 663.6,
+            "raw": "663.6"
+          },
+          {
+            "status": "known",
+            "value": 10455,
+            "raw": "10,455"
+          },
+          {
+            "status": "known",
+            "value": 2500,
+            "raw": "2,500"
+          },
+          {
+            "status": "known",
+            "value": 230000,
+            "raw": "230,000"
+          },
+          {
+            "status": "known",
+            "value": 518400,
+            "raw": "6d",
+            "unit": "seconds",
+            "displayInput": "6,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          },
+          {
+            "status": "known",
+            "value": 15,
+            "raw": "15"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 88,
+            "raw": "88"
+          },
+          {
+            "status": "known",
+            "value": 560,
+            "raw": "560"
+          },
+          {
+            "status": "known",
+            "value": 672,
+            "raw": "672"
+          },
+          {
+            "status": "known",
+            "value": 10583,
+            "raw": "10,583"
+          },
+          {
+            "status": "known",
+            "value": 2500,
+            "raw": "2,500"
+          },
+          {
+            "status": "known",
+            "value": 240000,
+            "raw": "240,000"
+          },
+          {
+            "status": "known",
+            "value": 518400,
+            "raw": "6d",
+            "unit": "seconds",
+            "displayInput": "6,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          },
+          {
+            "status": "known",
+            "value": 15,
+            "raw": "15"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 89,
+            "raw": "89"
+          },
+          {
+            "status": "known",
+            "value": 567,
+            "raw": "567"
+          },
+          {
+            "status": "known",
+            "value": 680.4,
+            "raw": "680.4"
+          },
+          {
+            "status": "known",
+            "value": 10710,
+            "raw": "10,710"
+          },
+          {
+            "status": "known",
+            "value": 2500,
+            "raw": "2,500"
+          },
+          {
+            "status": "known",
+            "value": 250000,
+            "raw": "250,000"
+          },
+          {
+            "status": "known",
+            "value": 518400,
+            "raw": "6d",
+            "unit": "seconds",
+            "displayInput": "6,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          },
+          {
+            "status": "known",
+            "value": 15,
+            "raw": "15"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 90,
+            "raw": "90"
+          },
+          {
+            "status": "known",
+            "value": 574,
+            "raw": "574"
+          },
+          {
+            "status": "known",
+            "value": 688.8,
+            "raw": "688.8"
+          },
+          {
+            "status": "known",
+            "value": 10838,
+            "raw": "10,838"
+          },
+          {
+            "status": "known",
+            "value": 2650,
+            "raw": "2,650"
+          },
+          {
+            "status": "known",
+            "value": 255000,
+            "raw": "255,000"
+          },
+          {
+            "status": "known",
+            "value": 518400,
+            "raw": "6d",
+            "unit": "seconds",
+            "displayInput": "6,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          },
+          {
+            "status": "known",
+            "value": 15,
+            "raw": "15"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 91,
+            "raw": "91"
+          },
+          {
+            "status": "known",
+            "value": 581,
+            "raw": "581"
+          },
+          {
+            "status": "known",
+            "value": 697.2,
+            "raw": "697.2"
+          },
+          {
+            "status": "known",
+            "value": 10965,
+            "raw": "10,965"
+          },
+          {
+            "status": "known",
+            "value": 2650,
+            "raw": "2,650"
+          },
+          {
+            "status": "known",
+            "value": 280000,
+            "raw": "280,000"
+          },
+          {
+            "status": "known",
+            "value": 604800,
+            "raw": "7d",
+            "unit": "seconds",
+            "displayInput": "7,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 92,
+            "raw": "92"
+          },
+          {
+            "status": "known",
+            "value": 587,
+            "raw": "587"
+          },
+          {
+            "status": "known",
+            "value": 704.4,
+            "raw": "704.4"
+          },
+          {
+            "status": "known",
+            "value": 11093,
+            "raw": "11,093"
+          },
+          {
+            "status": "known",
+            "value": 2650,
+            "raw": "2,650"
+          },
+          {
+            "status": "known",
+            "value": 290000,
+            "raw": "290,000"
+          },
+          {
+            "status": "known",
+            "value": 604800,
+            "raw": "7d",
+            "unit": "seconds",
+            "displayInput": "7,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 93,
+            "raw": "93"
+          },
+          {
+            "status": "known",
+            "value": 594,
+            "raw": "594"
+          },
+          {
+            "status": "known",
+            "value": 712.8,
+            "raw": "712.8"
+          },
+          {
+            "status": "known",
+            "value": 11220,
+            "raw": "11,220"
+          },
+          {
+            "status": "known",
+            "value": 2650,
+            "raw": "2,650"
+          },
+          {
+            "status": "known",
+            "value": 300000,
+            "raw": "300,000"
+          },
+          {
+            "status": "known",
+            "value": 604800,
+            "raw": "7d",
+            "unit": "seconds",
+            "displayInput": "7,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 94,
+            "raw": "94"
+          },
+          {
+            "status": "known",
+            "value": 601,
+            "raw": "601"
+          },
+          {
+            "status": "known",
+            "value": 721.2,
+            "raw": "721.2"
+          },
+          {
+            "status": "known",
+            "value": 11348,
+            "raw": "11,348"
+          },
+          {
+            "status": "known",
+            "value": 2650,
+            "raw": "2,650"
+          },
+          {
+            "status": "known",
+            "value": 310000,
+            "raw": "310,000"
+          },
+          {
+            "status": "known",
+            "value": 604800,
+            "raw": "7d",
+            "unit": "seconds",
+            "displayInput": "7,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 95,
+            "raw": "95"
+          },
+          {
+            "status": "known",
+            "value": 608,
+            "raw": "608"
+          },
+          {
+            "status": "known",
+            "value": 729.6,
+            "raw": "729.6"
+          },
+          {
+            "status": "known",
+            "value": 11475,
+            "raw": "11,475"
+          },
+          {
+            "status": "known",
+            "value": 2800,
+            "raw": "2,800"
+          },
+          {
+            "status": "known",
+            "value": 320000,
+            "raw": "320,000"
+          },
+          {
+            "status": "known",
+            "value": 604800,
+            "raw": "7d",
+            "unit": "seconds",
+            "displayInput": "7,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 96,
+            "raw": "96"
+          },
+          {
+            "status": "known",
+            "value": 615,
+            "raw": "615"
+          },
+          {
+            "status": "known",
+            "value": 738,
+            "raw": "738"
+          },
+          {
+            "status": "known",
+            "value": 11600,
+            "raw": "11,600"
+          },
+          {
+            "status": "known",
+            "value": 2800,
+            "raw": "2,800"
+          },
+          {
+            "status": "known",
+            "value": 340000,
+            "raw": "340,000"
+          },
+          {
+            "status": "known",
+            "value": 691200,
+            "raw": "8d",
+            "unit": "seconds",
+            "displayInput": "8,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          },
+          {
+            "status": "known",
+            "value": 17,
+            "raw": "17"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 97,
+            "raw": "97"
+          },
+          {
+            "status": "known",
+            "value": 622,
+            "raw": "622"
+          },
+          {
+            "status": "known",
+            "value": 746.4,
+            "raw": "746.4"
+          },
+          {
+            "status": "known",
+            "value": 11725,
+            "raw": "11,725"
+          },
+          {
+            "status": "known",
+            "value": 2800,
+            "raw": "2,800"
+          },
+          {
+            "status": "known",
+            "value": 350000,
+            "raw": "350,000"
+          },
+          {
+            "status": "known",
+            "value": 691200,
+            "raw": "8d",
+            "unit": "seconds",
+            "displayInput": "8,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          },
+          {
+            "status": "known",
+            "value": 17,
+            "raw": "17"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 98,
+            "raw": "98"
+          },
+          {
+            "status": "known",
+            "value": 629,
+            "raw": "629"
+          },
+          {
+            "status": "known",
+            "value": 754.8,
+            "raw": "754.8"
+          },
+          {
+            "status": "known",
+            "value": 11850,
+            "raw": "11,850"
+          },
+          {
+            "status": "known",
+            "value": 2800,
+            "raw": "2,800"
+          },
+          {
+            "status": "known",
+            "value": 360000,
+            "raw": "360,000"
+          },
+          {
+            "status": "known",
+            "value": 691200,
+            "raw": "8d",
+            "unit": "seconds",
+            "displayInput": "8,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          },
+          {
+            "status": "known",
+            "value": 17,
+            "raw": "17"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 99,
+            "raw": "99"
+          },
+          {
+            "status": "known",
+            "value": 636,
+            "raw": "636"
+          },
+          {
+            "status": "known",
+            "value": 763.2,
+            "raw": "763.2"
+          },
+          {
+            "status": "known",
+            "value": 11975,
+            "raw": "11,975"
+          },
+          {
+            "status": "known",
+            "value": 2800,
+            "raw": "2,800"
+          },
+          {
+            "status": "known",
+            "value": 370000,
+            "raw": "370,000"
+          },
+          {
+            "status": "known",
+            "value": 691200,
+            "raw": "8d",
+            "unit": "seconds",
+            "displayInput": "8,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          },
+          {
+            "status": "known",
+            "value": 17,
+            "raw": "17"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 100,
+            "raw": "100"
+          },
+          {
+            "status": "known",
+            "value": 643,
+            "raw": "643"
+          },
+          {
+            "status": "known",
+            "value": 771.6,
+            "raw": "771.6"
+          },
+          {
+            "status": "known",
+            "value": 12100,
+            "raw": "12,100"
+          },
+          {
+            "status": "known",
+            "value": 2950,
+            "raw": "2,950"
+          },
+          {
+            "status": "known",
+            "value": 380000,
+            "raw": "380,000"
+          },
+          {
+            "status": "known",
+            "value": 691200,
+            "raw": "8d",
+            "unit": "seconds",
+            "displayInput": "8,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          },
+          {
+            "status": "known",
+            "value": 17,
+            "raw": "17"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 101,
+            "raw": "101"
+          },
+          {
+            "status": "known",
+            "value": 650,
+            "raw": "650"
+          },
+          {
+            "status": "known",
+            "value": 780,
+            "raw": "780"
+          },
+          {
+            "status": "known",
+            "value": 12225,
+            "raw": "12,225"
+          },
+          {
+            "status": "known",
+            "value": 2950,
+            "raw": "2,950"
+          },
+          {
+            "status": "known",
+            "value": 400000,
+            "raw": "400,000"
+          },
+          {
+            "status": "known",
+            "value": 691200,
+            "raw": "8d",
+            "unit": "seconds",
+            "displayInput": "8,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          },
+          {
+            "status": "known",
+            "value": 18,
+            "raw": "18"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 102,
+            "raw": "102"
+          },
+          {
+            "status": "known",
+            "value": 657,
+            "raw": "657"
+          },
+          {
+            "status": "known",
+            "value": 788.4,
+            "raw": "788.4"
+          },
+          {
+            "status": "known",
+            "value": 12350,
+            "raw": "12,350"
+          },
+          {
+            "status": "known",
+            "value": 2950,
+            "raw": "2,950"
+          },
+          {
+            "status": "known",
+            "value": 410000,
+            "raw": "410,000"
+          },
+          {
+            "status": "known",
+            "value": 691200,
+            "raw": "8d",
+            "unit": "seconds",
+            "displayInput": "8,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          },
+          {
+            "status": "known",
+            "value": 18,
+            "raw": "18"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 103,
+            "raw": "103"
+          },
+          {
+            "status": "known",
+            "value": 664,
+            "raw": "664"
+          },
+          {
+            "status": "known",
+            "value": 796.8,
+            "raw": "796.8"
+          },
+          {
+            "status": "known",
+            "value": 12475,
+            "raw": "12,475"
+          },
+          {
+            "status": "known",
+            "value": 2950,
+            "raw": "2,950"
+          },
+          {
+            "status": "known",
+            "value": 420000,
+            "raw": "420,000"
+          },
+          {
+            "status": "known",
+            "value": 691200,
+            "raw": "8d",
+            "unit": "seconds",
+            "displayInput": "8,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          },
+          {
+            "status": "known",
+            "value": 18,
+            "raw": "18"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 104,
+            "raw": "104"
+          },
+          {
+            "status": "known",
+            "value": 671,
+            "raw": "671"
+          },
+          {
+            "status": "known",
+            "value": 805.2,
+            "raw": "805.2"
+          },
+          {
+            "status": "known",
+            "value": 12600,
+            "raw": "12,600"
+          },
+          {
+            "status": "known",
+            "value": 2950,
+            "raw": "2,950"
+          },
+          {
+            "status": "known",
+            "value": 430000,
+            "raw": "430,000"
+          },
+          {
+            "status": "known",
+            "value": 691200,
+            "raw": "8d",
+            "unit": "seconds",
+            "displayInput": "8,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          },
+          {
+            "status": "known",
+            "value": 18,
+            "raw": "18"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 105,
+            "raw": "105"
+          },
+          {
+            "status": "known",
+            "value": 678,
+            "raw": "678"
+          },
+          {
+            "status": "known",
+            "value": 813.6,
+            "raw": "813.6"
+          },
+          {
+            "status": "known",
+            "value": 12725,
+            "raw": "12,725"
+          },
+          {
+            "status": "known",
+            "value": 3100,
+            "raw": "3,100"
+          },
+          {
+            "status": "known",
+            "value": 450000,
+            "raw": "450,000"
+          },
+          {
+            "status": "known",
+            "value": 691200,
+            "raw": "8d",
+            "unit": "seconds",
+            "displayInput": "8,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          },
+          {
+            "status": "known",
+            "value": 18,
+            "raw": "18"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 106,
+            "raw": "106"
+          },
+          {
+            "status": "known",
+            "value": 685,
+            "raw": "685"
+          },
+          {
+            "status": "known",
+            "value": 822,
+            "raw": "822"
+          },
+          {
+            "status": "known",
+            "value": 12850,
+            "raw": "12,850"
+          },
+          {
+            "status": "known",
+            "value": 3100,
+            "raw": "3,100"
+          },
+          {
+            "status": "known",
+            "value": 460000,
+            "raw": "460,000"
+          },
+          {
+            "status": "known",
+            "value": 691200,
+            "raw": "8d",
+            "unit": "seconds",
+            "displayInput": "8,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          },
+          {
+            "status": "known",
+            "value": 18,
+            "raw": "18"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 107,
+            "raw": "107"
+          },
+          {
+            "status": "known",
+            "value": 692,
+            "raw": "692"
+          },
+          {
+            "status": "known",
+            "value": 830.4,
+            "raw": "830.4"
+          },
+          {
+            "status": "known",
+            "value": 12975,
+            "raw": "12,975"
+          },
+          {
+            "status": "known",
+            "value": 3100,
+            "raw": "3,100"
+          },
+          {
+            "status": "known",
+            "value": 470000,
+            "raw": "470,000"
+          },
+          {
+            "status": "known",
+            "value": 691200,
+            "raw": "8d",
+            "unit": "seconds",
+            "displayInput": "8,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          },
+          {
+            "status": "known",
+            "value": 18,
+            "raw": "18"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 108,
+            "raw": "108"
+          },
+          {
+            "status": "known",
+            "value": 699,
+            "raw": "699"
+          },
+          {
+            "status": "known",
+            "value": 838.8,
+            "raw": "838.8"
+          },
+          {
+            "status": "known",
+            "value": 13100,
+            "raw": "13,100"
+          },
+          {
+            "status": "known",
+            "value": 3100,
+            "raw": "3,100"
+          },
+          {
+            "status": "known",
+            "value": 475000,
+            "raw": "475,000"
+          },
+          {
+            "status": "known",
+            "value": 691200,
+            "raw": "8d",
+            "unit": "seconds",
+            "displayInput": "8,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          },
+          {
+            "status": "known",
+            "value": 18,
+            "raw": "18"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 109,
+            "raw": "109"
+          },
+          {
+            "status": "known",
+            "value": 706,
+            "raw": "706"
+          },
+          {
+            "status": "known",
+            "value": 847.2,
+            "raw": "847.2"
+          },
+          {
+            "status": "known",
+            "value": 13225,
+            "raw": "13,225"
+          },
+          {
+            "status": "known",
+            "value": 3100,
+            "raw": "3,100"
+          },
+          {
+            "status": "known",
+            "value": 485000,
+            "raw": "485,000"
+          },
+          {
+            "status": "known",
+            "value": 691200,
+            "raw": "8d",
+            "unit": "seconds",
+            "displayInput": "8,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          },
+          {
+            "status": "known",
+            "value": 18,
+            "raw": "18"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 110,
+            "raw": "110"
+          },
+          {
+            "status": "known",
+            "value": 713,
+            "raw": "713"
+          },
+          {
+            "status": "known",
+            "value": 855.6,
+            "raw": "855.6"
+          },
+          {
+            "status": "known",
+            "value": 13350,
+            "raw": "13,350"
+          },
+          {
+            "status": "known",
+            "value": 3250,
+            "raw": "3,250"
+          },
+          {
+            "status": "known",
+            "value": 490000,
+            "raw": "490,000"
+          },
+          {
+            "status": "known",
+            "value": 691200,
+            "raw": "8d",
+            "unit": "seconds",
+            "displayInput": "8,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          },
+          {
+            "status": "known",
+            "value": 18,
+            "raw": "18"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 5,
+          "type": "cost",
+          "icon": "Dark_Elixir",
+          "gpClass": "building",
+          "noGoldPass": false
+        },
+        {
+          "column": 6,
+          "type": "time",
+          "gpClass": "building",
+          "noGoldPass": false
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "name": "Barbarian_King_info.png",
+      "url": "https://static.clashpost.com/upgrade/home_heroes/0200/Barbarian_King_info.png",
+      "alt": "野蛮人之王",
+      "localPath": "/images/original/upgrade/home_heroes/0200/Barbarian_King_info.webp",
+      "logicalPath": "/upgrade/home_heroes/0200/Barbarian_King_info.png"
+    },
+    {
+      "name": "Barbarian_King_3D_preview.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/2/26/Barbarian_King_3D_preview.png/revision/latest/scale-to-width-down/190?cb=20221212143240",
+      "alt": "Barbarian King 3D preview",
+      "localPath": "/images/wiki/0200-Barbarian-King/d9420633ff-Barbarian_King_3D_preview.png",
+      "logicalPath": "/upgrade/home_heroes/0200/Barbarian_King_3D_preview.png"
+    },
+    {
+      "name": "Barbarian_King_3D.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/1/14/Barbarian_King_3D.png/revision/latest/scale-to-width-down/120?cb=20221212142922",
+      "alt": "Barbarian King 3D",
+      "localPath": "/images/wiki/0200-Barbarian-King/05e273014c-Barbarian_King_3D.png",
+      "logicalPath": "/upgrade/home_heroes/0200/Barbarian_King_3D.png"
+    },
+    {
+      "name": "Barbarian_King_3D_pose.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/b/ba/Barbarian_King_3D_pose.png/revision/latest/scale-to-width-down/90?cb=20221212143018",
+      "alt": "Barbarian King 3D pose",
+      "localPath": "/images/wiki/0200-Barbarian-King/9408efa655-Barbarian_King_3D_pose.png",
+      "logicalPath": "/upgrade/home_heroes/0200/Barbarian_King_3D_pose.png"
+    },
+    {
+      "name": "Barbarian_King_3D_KO.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/3/34/Barbarian_King_3D_KO.png/revision/latest/scale-to-width-down/130?cb=20221222111514",
+      "alt": "Barbarian King 3D KO",
+      "localPath": "/images/wiki/0200-Barbarian-King/d31f04b35d-Barbarian_King_3D_KO.png",
+      "logicalPath": "/upgrade/home_heroes/0200/Barbarian_King_3D_KO.png"
+    },
+    {
+      "name": "Barbarian_King_3D_downed.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/c/c9/Barbarian_King_3D_downed.png/revision/latest/scale-to-width-down/80?cb=20221212143128",
+      "alt": "Barbarian King 3D downed",
+      "localPath": "/images/wiki/0200-Barbarian-King/5cfdcdb2ba-Barbarian_King_3D_downed.png",
+      "logicalPath": "/upgrade/home_heroes/0200/Barbarian_King_3D_downed.png"
+    },
+    {
+      "name": "Barbarian_King1.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/f/fd/Barbarian_King1.png/revision/latest?cb=20170812112657",
+      "alt": "Barbarian King1",
+      "localPath": "/images/wiki/0200-Barbarian-King/5101d71b54-Barbarian_King1.png",
+      "logicalPath": "/upgrade/home_heroes/0200/Barbarian_King1.png"
+    },
+    {
+      "name": "Barbarian_King10.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b3/Barbarian_King10.png/revision/latest?cb=20170812112715",
+      "alt": "Barbarian King10",
+      "localPath": "/images/wiki/0200-Barbarian-King/e6d4e14421-Barbarian_King10.png",
+      "logicalPath": "/upgrade/home_heroes/0200/Barbarian_King10.png"
+    },
+    {
+      "name": "Barbarian_King20.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/f/fa/Barbarian_King20.png/revision/latest?cb=20170812112734",
+      "alt": "Barbarian King20",
+      "localPath": "/images/wiki/0200-Barbarian-King/95b1a538dc-Barbarian_King20.png",
+      "logicalPath": "/upgrade/home_heroes/0200/Barbarian_King20.png"
+    },
+    {
+      "name": "Barbarian_King41.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/1/17/Barbarian_King41.png/revision/latest?cb=20170812112753",
+      "alt": "Barbarian King41",
+      "localPath": "/images/wiki/0200-Barbarian-King/efe6f89c05-Barbarian_King41.png",
+      "logicalPath": "/upgrade/home_heroes/0200/Barbarian_King41.png"
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-05-26",
+      "description": "Moved the Barbarian King from Town Hall 7 to Town Hall 4. Added special mechanics for level 1, where his health and damage are scaled, at 50% at Town Hall 4, 75% at Town Hall 5, and 100% at Town Hall 6. He cannot defend the village and can only be used by attacking during these aforementioned Town Hall levels until his Hero Banner is first placed, where he can then be upgraded starting at Town Hall 7."
+    },
+    {
+      "date": "2026-06-15",
+      "description": "Added levels 106 to 110 Barbarian King."
+    }
+  ],
+  "facts": [
+    "The Barbarian King is the first Hero unlocked in the Home Village at Town Hall level 4 when players finish the construction of the Hero Hall. He is a larger and stronger version of the Barbarian.",
+    "When the Blacksmith is constructed and is upgraded to level 3, it unlocks the Earthquake Boots and Vampstache respectively."
+  ],
+  "notices": []
+}

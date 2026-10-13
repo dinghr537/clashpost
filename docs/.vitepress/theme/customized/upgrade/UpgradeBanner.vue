@@ -1,6 +1,6 @@
 <script setup>
 import { computed } from "vue";
-import { availableTempUnits, availableCraftedBuildings } from "#/global-variables.js";
+import { availableTempUnits, availableCraftedBuildings, isTemporaryAvailable } from "#/global-variables.js";
 import { isUpgradeDetails } from "@/assets/global/common.js";
 import Callout from "@/components/Callout.vue";
 
@@ -30,7 +30,7 @@ const availableState = computed(() => {
     const availableTempTroops = [];
     const availableTempSpells = [];
     const availableTempTraps = [];
-    for (const availableItem of availableTempUnits) {
+    for (const availableItem of availableTempUnits.filter(item => isTemporaryAvailable(item))) {
         const prefix = availableItem.substring(0, 3);
         if (["0e0", "0e1", "0e2", "0e3", "0e4", "0e5", "0e6", "0e7"].includes(prefix)) {
             availableTempTroops.push(availableItem);
@@ -58,7 +58,7 @@ const craftedBuildingAvailable = computed(() => availableState.value.craftedBuil
 
 <template>
     <Callout type="success" class="cp-callout-available-tip" v-if="tempTroopAvailable">
-        该临时兵种现在可用。在活动期间，你可以训练和使用该兵种。
+        该临时兵种本期活动可用（2026-10-08 至 2026-10-25）。在活动期间，你可以训练和使用该兵种。
     </Callout>
     <Callout type="success" class="cp-callout-available-tip" v-else-if="tempSpellAvailable">
         该临时法术现在可用。在活动期间，你可以配置和部署该法术。
@@ -67,6 +67,6 @@ const craftedBuildingAvailable = computed(() => availableState.value.craftedBuil
         该临时陷阱现在可用。在活动期间，你可以购买和部署该陷阱。
     </Callout>
     <Callout type="success" class="cp-callout-available-tip" v-else-if="craftedBuildingAvailable">
-        该精工防御现在可用。在新一批精工防御推出之前，你可以升级该防御。
+        该精工防御属于 2026 年 8 月开放的批次（截至 2026-10-13）。新一批推出前可以升级该防御。
     </Callout>
 </template>

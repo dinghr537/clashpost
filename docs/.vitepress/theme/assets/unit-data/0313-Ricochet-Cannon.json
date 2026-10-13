@@ -1,0 +1,652 @@
+{
+  "unitId": "0313-Ricochet-Cannon",
+  "title": "跳弹加农炮",
+  "originalName": "Ricochet Cannon",
+  "module": "upgrade-home",
+  "imgFolder": "home_buildings/0313",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Ricochet_Cannon",
+    "revision": 624465,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Ricochet_Cannon?oldid=624465",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 2,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Town Hall Level",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "Number Available",
+            "raw": "Number Available"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          }
+        ],
+        [
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          },
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          },
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          },
+          {
+            "status": "known",
+            "value": 15,
+            "raw": "15"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          },
+          {
+            "status": "known",
+            "value": 17,
+            "raw": "17"
+          },
+          {
+            "status": "known",
+            "value": 18,
+            "raw": "18"
+          }
+        ],
+        [
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 3,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Size"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "3x3",
+            "raw": "3x3"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 4,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Level",
+        "Damage per Second",
+        "Damage per Shot (Primary Target)",
+        "Secondary Chain Damage",
+        "Hitpoints",
+        "Build Cost",
+        "Build Time",
+        "Experience Gained",
+        "Town Hall Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 360,
+            "raw": "360"
+          },
+          {
+            "status": "known",
+            "value": 288,
+            "raw": "288"
+          },
+          {
+            "status": "known",
+            "value": 201.6,
+            "raw": "201.6"
+          },
+          {
+            "status": "known",
+            "value": 5400,
+            "raw": "5,400"
+          },
+          {
+            "status": "known",
+            "value": 12000000,
+            "raw": "12,000,000"
+          },
+          {
+            "status": "known",
+            "value": 604800,
+            "raw": "7d",
+            "unit": "seconds",
+            "displayInput": "7,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 777,
+            "raw": "777"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 390,
+            "raw": "390"
+          },
+          {
+            "status": "known",
+            "value": 312,
+            "raw": "312"
+          },
+          {
+            "status": "known",
+            "value": 218.4,
+            "raw": "218.4"
+          },
+          {
+            "status": "known",
+            "value": 5700,
+            "raw": "5,700"
+          },
+          {
+            "status": "known",
+            "value": 13000000,
+            "raw": "13,000,000"
+          },
+          {
+            "status": "known",
+            "value": 691200,
+            "raw": "8d",
+            "unit": "seconds",
+            "displayInput": "8,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 831,
+            "raw": "831"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 405,
+            "raw": "405"
+          },
+          {
+            "status": "known",
+            "value": 324,
+            "raw": "324"
+          },
+          {
+            "status": "known",
+            "value": 226.8,
+            "raw": "226.8"
+          },
+          {
+            "status": "known",
+            "value": 6000,
+            "raw": "6,000"
+          },
+          {
+            "status": "known",
+            "value": 17500000,
+            "raw": "17,500,000"
+          },
+          {
+            "status": "known",
+            "value": 777600,
+            "raw": "9d",
+            "unit": "seconds",
+            "displayInput": "9,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 881,
+            "raw": "881"
+          },
+          {
+            "status": "known",
+            "value": 17,
+            "raw": "17"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 412,
+            "raw": "412"
+          },
+          {
+            "status": "known",
+            "value": 329.6,
+            "raw": "329.6"
+          },
+          {
+            "status": "known",
+            "value": 230.72,
+            "raw": "230.72"
+          },
+          {
+            "status": "known",
+            "value": 6100,
+            "raw": "6,100"
+          },
+          {
+            "status": "known",
+            "value": 26500000,
+            "raw": "26,500,000"
+          },
+          {
+            "status": "known",
+            "value": 1166400,
+            "raw": "13d 12h",
+            "unit": "seconds",
+            "displayInput": "13,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 1080,
+            "raw": "1,080"
+          },
+          {
+            "status": "known",
+            "value": 18,
+            "raw": "18"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 5,
+          "type": "cost",
+          "icon": "Gold",
+          "gpClass": "building",
+          "noGoldPass": false
+        },
+        {
+          "column": 6,
+          "type": "time",
+          "gpClass": "building",
+          "noGoldPass": false
+        }
+      ]
+    },
+    {
+      "sourceTableIndex": 6,
+      "section": "Statistics",
+      "title": "Supercharges",
+      "headers": [
+        "Charge Level ⚡",
+        "Damage per Second",
+        "Damage per Shot (Primary Target)",
+        "Secondary Chain Damage",
+        "Hitpoints",
+        "Build Cost",
+        "Build Time",
+        "Experience Gained",
+        "Town Hall Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 420,
+            "raw": "420"
+          },
+          {
+            "status": "known",
+            "value": 336,
+            "raw": "336"
+          },
+          {
+            "status": "known",
+            "value": 235.2,
+            "raw": "235.2"
+          },
+          {
+            "status": "known",
+            "value": 6100,
+            "raw": "6,100"
+          },
+          {
+            "status": "known",
+            "value": 12000000,
+            "raw": "12,000,000"
+          },
+          {
+            "status": "known",
+            "value": 518400,
+            "raw": "6d",
+            "unit": "seconds",
+            "displayInput": "6,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 720,
+            "raw": "720"
+          },
+          {
+            "status": "known",
+            "value": 18,
+            "raw": "18"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 420,
+            "raw": "420"
+          },
+          {
+            "status": "known",
+            "value": 336,
+            "raw": "336"
+          },
+          {
+            "status": "known",
+            "value": 235.2,
+            "raw": "235.2"
+          },
+          {
+            "status": "known",
+            "value": 6250,
+            "raw": "6,250"
+          },
+          {
+            "status": "known",
+            "value": 10000000,
+            "raw": "10,000,000"
+          },
+          {
+            "status": "known",
+            "value": 604800,
+            "raw": "7d",
+            "unit": "seconds",
+            "displayInput": "7,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 777,
+            "raw": "777"
+          },
+          {
+            "status": "known",
+            "value": 18,
+            "raw": "18"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 5,
+          "type": "cost",
+          "icon": "Gold",
+          "gpClass": "building",
+          "noGoldPass": false
+        },
+        {
+          "column": 6,
+          "type": "time",
+          "gpClass": "building",
+          "noGoldPass": false
+        }
+      ]
+    },
+    {
+      "sourceTableIndex": 7,
+      "section": "Statistics",
+      "title": "Supercharges",
+      "headers": [
+        "Range",
+        "Attack Speed",
+        "Damage Type",
+        "Unit Type Targeted"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          },
+          {
+            "status": "known",
+            "value": "0.8s",
+            "raw": "0.8s"
+          },
+          {
+            "status": "known",
+            "value": "Ricochet Shot",
+            "raw": "Ricochet Shot"
+          },
+          {
+            "status": "known",
+            "value": "Ground",
+            "raw": "Ground"
+          }
+        ]
+      ],
+      "extraInfo": []
+    }
+  ],
+  "images": [
+    {
+      "name": "Ricochet_Cannon4.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0313/Ricochet_Cannon4.png",
+      "alt": "跳弹加农炮",
+      "localPath": "/images/original/upgrade/home_buildings/0313/Ricochet_Cannon4.webp",
+      "logicalPath": "/upgrade/home_buildings/0313/Ricochet_Cannon4.png"
+    },
+    {
+      "name": "Ricochet_Cannon_Ruin.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0313/Ricochet_Cannon_Ruin.png",
+      "alt": "建造中",
+      "localPath": "/images/original/upgrade/home_buildings/0313/Ricochet_Cannon_Ruin.webp",
+      "logicalPath": "/upgrade/home_buildings/0313/Ricochet_Cannon_Ruin.png"
+    },
+    {
+      "name": "Ricochet_Cannon1.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0313/Ricochet_Cannon1.png",
+      "alt": "1 级",
+      "localPath": "/images/original/upgrade/home_buildings/0313/Ricochet_Cannon1.webp",
+      "logicalPath": "/upgrade/home_buildings/0313/Ricochet_Cannon1.png"
+    },
+    {
+      "name": "Ricochet_Cannon2.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0313/Ricochet_Cannon2.png",
+      "alt": "2 级",
+      "localPath": "/images/original/upgrade/home_buildings/0313/Ricochet_Cannon2.webp",
+      "logicalPath": "/upgrade/home_buildings/0313/Ricochet_Cannon2.png"
+    },
+    {
+      "name": "Ricochet_Cannon3.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/0313/Ricochet_Cannon3.png",
+      "alt": "3 级",
+      "localPath": "/images/original/upgrade/home_buildings/0313/Ricochet_Cannon3.webp",
+      "logicalPath": "/upgrade/home_buildings/0313/Ricochet_Cannon3.png"
+    }
+  ],
+  "history": [],
+  "facts": [
+    "The Ricochet Cannon is a defense that unlocks at Town Hall 16 and is constructed by merging two level 21 Cannons together.",
+    "Compared to two normal Cannons, the Ricochet Cannon starts off with 20% more health and each shot deals 12.5% more damage than the two combined.",
+    "With this ability, the range of Ricochet Cannon can be up to 12.5 tiles situationally, and the starting damage output is usually almost four times stronger than a Cannon when there is more than one target close by."
+  ],
+  "notices": []
+}

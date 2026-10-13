@@ -1,0 +1,228 @@
+{
+  "unitId": "2350-Mega-Sparky-Workshop",
+  "title": "超级电磁炮工坊",
+  "originalName": "Clan Capital Barracks",
+  "module": "upgrade-capital",
+  "imgFolder": "capital_buildings/2350",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Clan_Capital_Barracks",
+    "revision": 616742,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Clan_Capital_Barracks?oldid=616742",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 97,
+      "section": "Mega Sparky Workshop",
+      "title": "Statistics",
+      "headers": [
+        "Number Available",
+        "District Hall Level / 1",
+        "District Hall Level / 2",
+        "District Hall Level / 3",
+        "District Hall Level / 4"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "Goblin Mines",
+            "raw": "Goblin Mines"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 98,
+      "section": "Mega Sparky Workshop",
+      "title": "Statistics",
+      "headers": [
+        "Size"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "3x3",
+            "raw": "3x3"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 100,
+      "section": "Mega Sparky Workshop",
+      "title": "Statistics",
+      "headers": [
+        "Level",
+        "Hitpoints",
+        "Build Cost",
+        "District Hall Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1500,
+            "raw": "1,500"
+          },
+          {
+            "status": "known",
+            "value": 37500,
+            "raw": "37,500"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 1750,
+            "raw": "1,750"
+          },
+          {
+            "status": "known",
+            "value": 75000,
+            "raw": "75,000"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 2000,
+            "raw": "2,000"
+          },
+          {
+            "status": "known",
+            "value": 200000,
+            "raw": "200,000"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 2250,
+            "raw": "2,250"
+          },
+          {
+            "status": "known",
+            "value": 400000,
+            "raw": "400,000"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 2,
+          "type": "cost",
+          "icon": "Gold3",
+          "gpClass": "building",
+          "noGoldPass": true
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "name": "Mega_Sparky_Workshop4.png",
+      "url": "https://static.clashpost.com/upgrade/capital_buildings/2350/Mega_Sparky_Workshop4.png",
+      "alt": "超级电磁炮工坊",
+      "localPath": "/images/original/upgrade/capital_buildings/2350/Mega_Sparky_Workshop4.webp",
+      "logicalPath": "/upgrade/capital_buildings/2350/Mega_Sparky_Workshop4.png"
+    },
+    {
+      "name": "Mega_Sparky_Workshop_Ruin.png",
+      "url": "https://static.clashpost.com/upgrade/capital_buildings/2350/Mega_Sparky_Workshop_Ruin.png",
+      "alt": "废墟",
+      "localPath": "/images/original/upgrade/capital_buildings/2350/Mega_Sparky_Workshop_Ruin.webp",
+      "logicalPath": "/upgrade/capital_buildings/2350/Mega_Sparky_Workshop_Ruin.png"
+    },
+    {
+      "name": "Mega_Sparky_Workshop1.png",
+      "url": "https://static.clashpost.com/upgrade/capital_buildings/2350/Mega_Sparky_Workshop1.png",
+      "alt": "1 级",
+      "localPath": "/images/original/upgrade/capital_buildings/2350/Mega_Sparky_Workshop1.webp",
+      "logicalPath": "/upgrade/capital_buildings/2350/Mega_Sparky_Workshop1.png"
+    },
+    {
+      "name": "Mega_Sparky_Workshop2.png",
+      "url": "https://static.clashpost.com/upgrade/capital_buildings/2350/Mega_Sparky_Workshop2.png",
+      "alt": "2 级",
+      "localPath": "/images/original/upgrade/capital_buildings/2350/Mega_Sparky_Workshop2.webp",
+      "logicalPath": "/upgrade/capital_buildings/2350/Mega_Sparky_Workshop2.png"
+    },
+    {
+      "name": "Mega_Sparky_Workshop3.png",
+      "url": "https://static.clashpost.com/upgrade/capital_buildings/2350/Mega_Sparky_Workshop3.png",
+      "alt": "3 级",
+      "localPath": "/images/original/upgrade/capital_buildings/2350/Mega_Sparky_Workshop3.webp",
+      "logicalPath": "/upgrade/capital_buildings/2350/Mega_Sparky_Workshop3.png"
+    }
+  ],
+  "history": [],
+  "facts": [],
+  "notices": []
+}

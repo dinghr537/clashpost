@@ -1,0 +1,726 @@
+{
+  "unitId": "0009-P.E.K.K.A",
+  "title": "皮卡超人",
+  "originalName": "P.E.K.K.A",
+  "module": "upgrade-home",
+  "imgFolder": "home_tech/0009",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/P.E.K.K.A",
+    "revision": 625276,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/P.E.K.K.A?oldid=625276",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 2,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Preferred Target",
+        "Attack Type",
+        "Housing Space",
+        "Movement Speed",
+        "Attack Speed",
+        "Barracks Level Required",
+        "Range",
+        "Transport"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "None",
+            "raw": "None"
+          },
+          {
+            "status": "known",
+            "value": "Melee Single Target (Ground)",
+            "raw": "Melee Single Target (Ground)"
+          },
+          {
+            "status": "known",
+            "value": 25,
+            "raw": "25"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          },
+          {
+            "status": "known",
+            "value": "1.8s",
+            "raw": "1.8s"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": "0.8 tiles",
+            "raw": "0.8 tiles"
+          },
+          {
+            "status": "known",
+            "value": "Ground",
+            "raw": "Ground"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 3,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Level",
+        "Damage per Second",
+        "Damage per Attack",
+        "Hitpoints",
+        "Research Cost",
+        "Research Time",
+        "Laboratory Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 260,
+            "raw": "260"
+          },
+          {
+            "status": "known",
+            "value": 468,
+            "raw": "468"
+          },
+          {
+            "status": "known",
+            "value": 3000,
+            "raw": "3,000"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 290,
+            "raw": "290"
+          },
+          {
+            "status": "known",
+            "value": 522,
+            "raw": "522"
+          },
+          {
+            "status": "known",
+            "value": 3500,
+            "raw": "3,500"
+          },
+          {
+            "status": "known",
+            "value": 600000,
+            "raw": "600,000"
+          },
+          {
+            "status": "known",
+            "value": 43200,
+            "raw": "12h",
+            "unit": "seconds",
+            "displayInput": "0,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 320,
+            "raw": "320"
+          },
+          {
+            "status": "known",
+            "value": 576,
+            "raw": "576"
+          },
+          {
+            "status": "known",
+            "value": 4000,
+            "raw": "4,000"
+          },
+          {
+            "status": "known",
+            "value": 1300000,
+            "raw": "1,300,000"
+          },
+          {
+            "status": "known",
+            "value": 64800,
+            "raw": "18h",
+            "unit": "seconds",
+            "displayInput": "0,18,0,0"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 360,
+            "raw": "360"
+          },
+          {
+            "status": "known",
+            "value": 648,
+            "raw": "648"
+          },
+          {
+            "status": "known",
+            "value": 4500,
+            "raw": "4,500"
+          },
+          {
+            "status": "known",
+            "value": 2000000,
+            "raw": "2,000,000"
+          },
+          {
+            "status": "known",
+            "value": 86400,
+            "raw": "1d",
+            "unit": "seconds",
+            "displayInput": "1,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 410,
+            "raw": "410"
+          },
+          {
+            "status": "known",
+            "value": 738,
+            "raw": "738"
+          },
+          {
+            "status": "known",
+            "value": 5000,
+            "raw": "5,000"
+          },
+          {
+            "status": "known",
+            "value": 2100000,
+            "raw": "2,100,000"
+          },
+          {
+            "status": "known",
+            "value": 129600,
+            "raw": "1d 12h",
+            "unit": "seconds",
+            "displayInput": "1,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 470,
+            "raw": "470"
+          },
+          {
+            "status": "known",
+            "value": 846,
+            "raw": "846"
+          },
+          {
+            "status": "known",
+            "value": 5500,
+            "raw": "5,500"
+          },
+          {
+            "status": "known",
+            "value": 2500000,
+            "raw": "2,500,000"
+          },
+          {
+            "status": "known",
+            "value": 172800,
+            "raw": "2d",
+            "unit": "seconds",
+            "displayInput": "2,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": 540,
+            "raw": "540"
+          },
+          {
+            "status": "known",
+            "value": 972,
+            "raw": "972"
+          },
+          {
+            "status": "known",
+            "value": 5900,
+            "raw": "5,900"
+          },
+          {
+            "status": "known",
+            "value": 4500000,
+            "raw": "4,500,000"
+          },
+          {
+            "status": "known",
+            "value": 259200,
+            "raw": "3d",
+            "unit": "seconds",
+            "displayInput": "3,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": 610,
+            "raw": "610"
+          },
+          {
+            "status": "known",
+            "value": 1098,
+            "raw": "1,098"
+          },
+          {
+            "status": "known",
+            "value": 6300,
+            "raw": "6,300"
+          },
+          {
+            "status": "known",
+            "value": 5000000,
+            "raw": "5,000,000"
+          },
+          {
+            "status": "known",
+            "value": 302400,
+            "raw": "3d 12h",
+            "unit": "seconds",
+            "displayInput": "3,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          },
+          {
+            "status": "known",
+            "value": 680,
+            "raw": "680"
+          },
+          {
+            "status": "known",
+            "value": 1224,
+            "raw": "1,224"
+          },
+          {
+            "status": "known",
+            "value": 6700,
+            "raw": "6,700"
+          },
+          {
+            "status": "known",
+            "value": 5800000,
+            "raw": "5,800,000"
+          },
+          {
+            "status": "known",
+            "value": 345600,
+            "raw": "4d",
+            "unit": "seconds",
+            "displayInput": "4,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 750,
+            "raw": "750"
+          },
+          {
+            "status": "known",
+            "value": 1350,
+            "raw": "1,350"
+          },
+          {
+            "status": "known",
+            "value": 7200,
+            "raw": "7,200"
+          },
+          {
+            "status": "known",
+            "value": 10500000,
+            "raw": "10,500,000"
+          },
+          {
+            "status": "known",
+            "value": 475200,
+            "raw": "5d 12h",
+            "unit": "seconds",
+            "displayInput": "5,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          },
+          {
+            "status": "known",
+            "value": 810,
+            "raw": "810"
+          },
+          {
+            "status": "known",
+            "value": 1458,
+            "raw": "1,458"
+          },
+          {
+            "status": "known",
+            "value": 7700,
+            "raw": "7,700"
+          },
+          {
+            "status": "known",
+            "value": 12000000,
+            "raw": "12,000,000"
+          },
+          {
+            "status": "known",
+            "value": 604800,
+            "raw": "7d",
+            "unit": "seconds",
+            "displayInput": "7,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          },
+          {
+            "status": "known",
+            "value": 870,
+            "raw": "870"
+          },
+          {
+            "status": "known",
+            "value": 1566,
+            "raw": "1,566"
+          },
+          {
+            "status": "known",
+            "value": 8200,
+            "raw": "8,200"
+          },
+          {
+            "status": "known",
+            "value": 16000000,
+            "raw": "16,000,000"
+          },
+          {
+            "status": "known",
+            "value": 864000,
+            "raw": "10d",
+            "unit": "seconds",
+            "displayInput": "10,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 15,
+            "raw": "15"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          },
+          {
+            "status": "known",
+            "value": 940,
+            "raw": "940"
+          },
+          {
+            "status": "known",
+            "value": 1692,
+            "raw": "1,692"
+          },
+          {
+            "status": "known",
+            "value": 8800,
+            "raw": "8,800"
+          },
+          {
+            "status": "known",
+            "value": 28000000,
+            "raw": "28,000,000"
+          },
+          {
+            "status": "known",
+            "value": 1252800,
+            "raw": "14d 12h",
+            "unit": "seconds",
+            "displayInput": "14,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 4,
+          "type": "cost",
+          "icon": "Elixir",
+          "gpClass": "research",
+          "noGoldPass": false
+        },
+        {
+          "column": 5,
+          "type": "time",
+          "gpClass": "research",
+          "noGoldPass": false
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "name": "P.E.K.K.A_info.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0009/P.E.K.K.A_info.png",
+      "alt": "皮卡超人",
+      "localPath": "/images/original/upgrade/home_tech/0009/P.E.K.K.A_info.webp",
+      "logicalPath": "/upgrade/home_tech/0009/P.E.K.K.A_info.png"
+    },
+    {
+      "name": "PEKKA1.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0009/PEKKA1.png",
+      "alt": "1 级",
+      "localPath": "/images/original/upgrade/home_tech/0009/PEKKA1.webp",
+      "logicalPath": "/upgrade/home_tech/0009/PEKKA1.png"
+    },
+    {
+      "name": "PEKKA2.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0009/PEKKA2.png",
+      "alt": "2 级",
+      "localPath": "/images/original/upgrade/home_tech/0009/PEKKA2.webp",
+      "logicalPath": "/upgrade/home_tech/0009/PEKKA2.png"
+    },
+    {
+      "name": "PEKKA3.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0009/PEKKA3.png",
+      "alt": "3 级",
+      "localPath": "/images/original/upgrade/home_tech/0009/PEKKA3.webp",
+      "logicalPath": "/upgrade/home_tech/0009/PEKKA3.png"
+    },
+    {
+      "name": "PEKKA4.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0009/PEKKA4.png",
+      "alt": "4 级",
+      "localPath": "/images/original/upgrade/home_tech/0009/PEKKA4.webp",
+      "logicalPath": "/upgrade/home_tech/0009/PEKKA4.png"
+    },
+    {
+      "name": "PEKKA5.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0009/PEKKA5.png",
+      "alt": "5 级",
+      "localPath": "/images/original/upgrade/home_tech/0009/PEKKA5.webp",
+      "logicalPath": "/upgrade/home_tech/0009/PEKKA5.png"
+    },
+    {
+      "name": "PEKKA6.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0009/PEKKA6.png",
+      "alt": "6 级",
+      "localPath": "/images/original/upgrade/home_tech/0009/PEKKA6.webp",
+      "logicalPath": "/upgrade/home_tech/0009/PEKKA6.png"
+    },
+    {
+      "name": "PEKKA7.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0009/PEKKA7.png",
+      "alt": "7 级",
+      "localPath": "/images/original/upgrade/home_tech/0009/PEKKA7.webp",
+      "logicalPath": "/upgrade/home_tech/0009/PEKKA7.png"
+    },
+    {
+      "name": "PEKKA8.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0009/PEKKA8.png",
+      "alt": "8 级",
+      "localPath": "/images/original/upgrade/home_tech/0009/PEKKA8.webp",
+      "logicalPath": "/upgrade/home_tech/0009/PEKKA8.png"
+    },
+    {
+      "name": "PEKKA9.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0009/PEKKA9.png",
+      "alt": "9 级",
+      "localPath": "/images/original/upgrade/home_tech/0009/PEKKA9.webp",
+      "logicalPath": "/upgrade/home_tech/0009/PEKKA9.png"
+    },
+    {
+      "name": "PEKKA10.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0009/PEKKA10.png",
+      "alt": "10 级",
+      "localPath": "/images/original/upgrade/home_tech/0009/PEKKA10.webp",
+      "logicalPath": "/upgrade/home_tech/0009/PEKKA10.png"
+    },
+    {
+      "name": "PEKKA11.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0009/PEKKA11.png",
+      "alt": "11 级",
+      "localPath": "/images/original/upgrade/home_tech/0009/PEKKA11.webp",
+      "logicalPath": "/upgrade/home_tech/0009/PEKKA11.png"
+    },
+    {
+      "name": "PEKKA12.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0009/PEKKA12.png",
+      "alt": "12 级",
+      "localPath": "/images/original/upgrade/home_tech/0009/PEKKA12.webp",
+      "logicalPath": "/upgrade/home_tech/0009/PEKKA12.png"
+    },
+    {
+      "name": "PEKKA13.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0009/PEKKA13.png",
+      "alt": "13 级",
+      "localPath": "/images/original/upgrade/home_tech/0009/PEKKA13.webp",
+      "logicalPath": "/upgrade/home_tech/0009/PEKKA13.png"
+    },
+    {
+      "name": "Pekka1234.jpg",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/1/1a/Pekka1234.jpg/revision/latest/scale-to-width-down/185?cb=20161108071047",
+      "alt": "P.E.K.K.A's appearance after the June 2013 update",
+      "localPath": "/images/wiki/0009-P.E.K.K.A/994bf7c545-Pekka1234.jpg",
+      "logicalPath": "/upgrade/home_tech/0009/Pekka1234.jpg"
+    }
+  ],
+  "history": [],
+  "facts": [
+    "The P.E.K.K.A is the tenth Elixir Troop at Barracks level 10, which requires Town Hall level 8."
+  ],
+  "notices": []
+}

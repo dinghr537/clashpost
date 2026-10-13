@@ -1,0 +1,938 @@
+{
+  "unitId": "1283-Clock-Tower",
+  "title": "时光钟楼",
+  "originalName": "Clock Tower",
+  "module": "upgrade-bh",
+  "imgFolder": "bh_buildings/1283",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Clock_Tower",
+    "revision": 622494,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Clock_Tower?oldid=622494",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 1,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Number Available",
+        "Builder Hall Level / 1",
+        "Builder Hall Level / 2",
+        "Builder Hall Level / 3",
+        "Builder Hall Level / 4",
+        "Builder Hall Level / 5",
+        "Builder Hall Level / 6",
+        "Builder Hall Level / 7",
+        "Builder Hall Level / 8",
+        "Builder Hall Level / 9",
+        "Builder Hall Level / 10"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "Total",
+            "raw": "Total"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": "Stage 1 Limit",
+            "raw": "Stage 1 Limit"
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": "Stage 2 Limit",
+            "raw": "Stage 2 Limit"
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 2,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Size"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "4x4",
+            "raw": "4x4"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 3,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Level",
+        "Hitpoints",
+        "Boost Duration",
+        "Time Gained per Boost",
+        "Relative Boost",
+        "Catch-Up Point of Construction",
+        "Catch-Up Point of Boost",
+        "Build Cost",
+        "Build Time",
+        "Experience Gained",
+        "Builder Hall Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 650,
+            "raw": "650"
+          },
+          {
+            "status": "known",
+            "value": "14m",
+            "raw": "14m"
+          },
+          {
+            "status": "known",
+            "value": "2h 6m",
+            "raw": "2h 6m"
+          },
+          {
+            "status": "known",
+            "value": "9.4%",
+            "raw": "9.4%"
+          },
+          {
+            "status": "known",
+            "value": "1 time",
+            "raw": "1 time"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "known",
+            "value": 150000,
+            "raw": "150,000"
+          },
+          {
+            "status": "known",
+            "value": 7200,
+            "raw": "2h",
+            "unit": "seconds",
+            "displayInput": "0,2,0,0"
+          },
+          {
+            "status": "known",
+            "value": 84,
+            "raw": "84"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 800,
+            "raw": "800"
+          },
+          {
+            "status": "known",
+            "value": "16m",
+            "raw": "16m"
+          },
+          {
+            "status": "known",
+            "value": "2h 24m",
+            "raw": "2h 24m"
+          },
+          {
+            "status": "known",
+            "value": "10.8%",
+            "raw": "10.8%"
+          },
+          {
+            "status": "known",
+            "value": "10 times",
+            "raw": "10 times"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "known",
+            "value": 180000,
+            "raw": "180,000"
+          },
+          {
+            "status": "known",
+            "value": 10800,
+            "raw": "3h",
+            "unit": "seconds",
+            "displayInput": "0,3,0,0"
+          },
+          {
+            "status": "known",
+            "value": 103,
+            "raw": "103"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 975,
+            "raw": "975"
+          },
+          {
+            "status": "known",
+            "value": "18m",
+            "raw": "18m"
+          },
+          {
+            "status": "known",
+            "value": "2h 42m",
+            "raw": "2h 42m"
+          },
+          {
+            "status": "known",
+            "value": "12.1%",
+            "raw": "12.1%"
+          },
+          {
+            "status": "known",
+            "value": "14 times",
+            "raw": "14 times"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "known",
+            "value": 220000,
+            "raw": "220,000"
+          },
+          {
+            "status": "known",
+            "value": 14400,
+            "raw": "4h",
+            "unit": "seconds",
+            "displayInput": "0,4,0,0"
+          },
+          {
+            "status": "known",
+            "value": 120,
+            "raw": "120"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 1150,
+            "raw": "1,150"
+          },
+          {
+            "status": "known",
+            "value": "20m",
+            "raw": "20m"
+          },
+          {
+            "status": "known",
+            "value": "3h",
+            "raw": "3h"
+          },
+          {
+            "status": "known",
+            "value": "13.4%",
+            "raw": "13.4%"
+          },
+          {
+            "status": "known",
+            "value": "20 times",
+            "raw": "20 times"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "known",
+            "value": 300000,
+            "raw": "300,000"
+          },
+          {
+            "status": "known",
+            "value": 21600,
+            "raw": "6h",
+            "unit": "seconds",
+            "displayInput": "0,6,0,0"
+          },
+          {
+            "status": "known",
+            "value": 146,
+            "raw": "146"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 1350,
+            "raw": "1,350"
+          },
+          {
+            "status": "known",
+            "value": "22m",
+            "raw": "22m"
+          },
+          {
+            "status": "known",
+            "value": "3h 18m",
+            "raw": "3h 18m"
+          },
+          {
+            "status": "known",
+            "value": "14.8%",
+            "raw": "14.8%"
+          },
+          {
+            "status": "known",
+            "value": "40 times",
+            "raw": "40 times"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "known",
+            "value": 700000,
+            "raw": "700,000"
+          },
+          {
+            "status": "known",
+            "value": 43200,
+            "raw": "12h",
+            "unit": "seconds",
+            "displayInput": "0,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 207,
+            "raw": "207"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 1600,
+            "raw": "1,600"
+          },
+          {
+            "status": "known",
+            "value": "24m",
+            "raw": "24m"
+          },
+          {
+            "status": "known",
+            "value": "3h 36m",
+            "raw": "3h 36m"
+          },
+          {
+            "status": "known",
+            "value": "16.1%",
+            "raw": "16.1%"
+          },
+          {
+            "status": "known",
+            "value": "80 times",
+            "raw": "80 times"
+          },
+          {
+            "status": "known",
+            "value": "1 time",
+            "raw": "1 time"
+          },
+          {
+            "status": "known",
+            "value": 1200000,
+            "raw": "1,200,000"
+          },
+          {
+            "status": "known",
+            "value": 86400,
+            "raw": "1d",
+            "unit": "seconds",
+            "displayInput": "1,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 293,
+            "raw": "293"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": 1850,
+            "raw": "1,850"
+          },
+          {
+            "status": "known",
+            "value": "26m",
+            "raw": "26m"
+          },
+          {
+            "status": "known",
+            "value": "3h 54m",
+            "raw": "3h 54m"
+          },
+          {
+            "status": "known",
+            "value": "17.4%",
+            "raw": "17.4%"
+          },
+          {
+            "status": "known",
+            "value": "160 times",
+            "raw": "160 times"
+          },
+          {
+            "status": "known",
+            "value": "15 times",
+            "raw": "15 times"
+          },
+          {
+            "status": "known",
+            "value": 1700000,
+            "raw": "1,700,000"
+          },
+          {
+            "status": "known",
+            "value": 172800,
+            "raw": "2d",
+            "unit": "seconds",
+            "displayInput": "2,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 415,
+            "raw": "415"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": 2150,
+            "raw": "2,150"
+          },
+          {
+            "status": "known",
+            "value": "28m",
+            "raw": "28m"
+          },
+          {
+            "status": "known",
+            "value": "4h 12m",
+            "raw": "4h 12m"
+          },
+          {
+            "status": "known",
+            "value": "18.7%",
+            "raw": "18.7%"
+          },
+          {
+            "status": "known",
+            "value": "240 times",
+            "raw": "240 times"
+          },
+          {
+            "status": "known",
+            "value": "30 times",
+            "raw": "30 times"
+          },
+          {
+            "status": "known",
+            "value": 2200000,
+            "raw": "2,200,000"
+          },
+          {
+            "status": "known",
+            "value": 259200,
+            "raw": "3d",
+            "unit": "seconds",
+            "displayInput": "3,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 509,
+            "raw": "509"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          },
+          {
+            "status": "known",
+            "value": 2450,
+            "raw": "2,450"
+          },
+          {
+            "status": "known",
+            "value": "30m",
+            "raw": "30m"
+          },
+          {
+            "status": "known",
+            "value": "4h 30m",
+            "raw": "4h 30m"
+          },
+          {
+            "status": "known",
+            "value": "20.0%",
+            "raw": "20.0%"
+          },
+          {
+            "status": "known",
+            "value": "320 times",
+            "raw": "320 times"
+          },
+          {
+            "status": "known",
+            "value": "48 times",
+            "raw": "48 times"
+          },
+          {
+            "status": "known",
+            "value": 2700000,
+            "raw": "2,700,000"
+          },
+          {
+            "status": "known",
+            "value": 345600,
+            "raw": "4d",
+            "unit": "seconds",
+            "displayInput": "4,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 587,
+            "raw": "587"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 2750,
+            "raw": "2,750"
+          },
+          {
+            "status": "known",
+            "value": "32m",
+            "raw": "32m"
+          },
+          {
+            "status": "known",
+            "value": "4h 48m",
+            "raw": "4h 48m"
+          },
+          {
+            "status": "known",
+            "value": "21.3%",
+            "raw": "21.3%"
+          },
+          {
+            "status": "known",
+            "value": "400 times",
+            "raw": "400 times"
+          },
+          {
+            "status": "known",
+            "value": "67 times",
+            "raw": "67 times"
+          },
+          {
+            "status": "known",
+            "value": 3700000,
+            "raw": "3,700,000"
+          },
+          {
+            "status": "known",
+            "value": 432000,
+            "raw": "5d",
+            "unit": "seconds",
+            "displayInput": "5,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 657,
+            "raw": "657"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 7,
+          "type": "cost",
+          "icon": "Gold2",
+          "gpClass": "building",
+          "noGoldPass": false
+        },
+        {
+          "column": 8,
+          "type": "time",
+          "gpClass": "building",
+          "noGoldPass": false
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "name": "Clock_Tower10.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1283/Clock_Tower10.png",
+      "alt": "时光钟楼",
+      "localPath": "/images/original/upgrade/bh_buildings/1283/Clock_Tower10.webp",
+      "logicalPath": "/upgrade/bh_buildings/1283/Clock_Tower10.png"
+    },
+    {
+      "name": "Clock_Tower_Ruin.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1283/Clock_Tower_Ruin.png",
+      "alt": "废墟",
+      "localPath": "/images/original/upgrade/bh_buildings/1283/Clock_Tower_Ruin.webp",
+      "logicalPath": "/upgrade/bh_buildings/1283/Clock_Tower_Ruin.png"
+    },
+    {
+      "name": "Clock_Tower1.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1283/Clock_Tower1.png",
+      "alt": "1 级",
+      "localPath": "/images/original/upgrade/bh_buildings/1283/Clock_Tower1.webp",
+      "logicalPath": "/upgrade/bh_buildings/1283/Clock_Tower1.png"
+    },
+    {
+      "name": "Clock_Tower2.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1283/Clock_Tower2.png",
+      "alt": "2 级",
+      "localPath": "/images/original/upgrade/bh_buildings/1283/Clock_Tower2.webp",
+      "logicalPath": "/upgrade/bh_buildings/1283/Clock_Tower2.png"
+    },
+    {
+      "name": "Clock_Tower3.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1283/Clock_Tower3.png",
+      "alt": "3 级",
+      "localPath": "/images/original/upgrade/bh_buildings/1283/Clock_Tower3.webp",
+      "logicalPath": "/upgrade/bh_buildings/1283/Clock_Tower3.png"
+    },
+    {
+      "name": "Clock_Tower4.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1283/Clock_Tower4.png",
+      "alt": "4 级",
+      "localPath": "/images/original/upgrade/bh_buildings/1283/Clock_Tower4.webp",
+      "logicalPath": "/upgrade/bh_buildings/1283/Clock_Tower4.png"
+    },
+    {
+      "name": "Clock_Tower5.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1283/Clock_Tower5.png",
+      "alt": "5 级",
+      "localPath": "/images/original/upgrade/bh_buildings/1283/Clock_Tower5.webp",
+      "logicalPath": "/upgrade/bh_buildings/1283/Clock_Tower5.png"
+    },
+    {
+      "name": "Clock_Tower6.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1283/Clock_Tower6.png",
+      "alt": "6 级",
+      "localPath": "/images/original/upgrade/bh_buildings/1283/Clock_Tower6.webp",
+      "logicalPath": "/upgrade/bh_buildings/1283/Clock_Tower6.png"
+    },
+    {
+      "name": "Clock_Tower7.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1283/Clock_Tower7.png",
+      "alt": "7 级",
+      "localPath": "/images/original/upgrade/bh_buildings/1283/Clock_Tower7.webp",
+      "logicalPath": "/upgrade/bh_buildings/1283/Clock_Tower7.png"
+    },
+    {
+      "name": "Clock_Tower8.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1283/Clock_Tower8.png",
+      "alt": "8 级",
+      "localPath": "/images/original/upgrade/bh_buildings/1283/Clock_Tower8.webp",
+      "logicalPath": "/upgrade/bh_buildings/1283/Clock_Tower8.png"
+    },
+    {
+      "name": "Clock_Tower9.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1283/Clock_Tower9.png",
+      "alt": "9 级",
+      "localPath": "/images/original/upgrade/bh_buildings/1283/Clock_Tower9.webp",
+      "logicalPath": "/upgrade/bh_buildings/1283/Clock_Tower9.png"
+    }
+  ],
+  "history": [],
+  "facts": [
+    "The Clock Tower is a building that can be repaired at Builder Hall Level 4. When activated, the Clock Tower will make timers in the Builder Base speed ten times as fast as normal for a short duration. This duration can be increased by upgrading the Clock Tower.",
+    "If the Clock Tower is not active, it can also be activated using Gems. A Clock Tower Potion can also be used to boost the Clock Tower for 30 minutes at any time (this duration is independent of Clock Tower level, and the potion works regardless of whether the Clock Tower is active)."
+  ],
+  "notices": []
+}

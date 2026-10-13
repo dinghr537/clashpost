@@ -1,0 +1,820 @@
+{
+  "unitId": "030b-Eagle-Artillery",
+  "title": "天鹰火炮",
+  "originalName": "Eagle Artillery",
+  "module": "upgrade-home",
+  "imgFolder": "home_buildings/030b",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Eagle_Artillery",
+    "revision": 625122,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Eagle_Artillery?oldid=625122",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 2,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Town Hall Level",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "Number Available",
+            "raw": "Number Available"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          }
+        ],
+        [
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          },
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          },
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          },
+          {
+            "status": "known",
+            "value": 15,
+            "raw": "15"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          },
+          {
+            "status": "known",
+            "value": 17,
+            "raw": "17"
+          },
+          {
+            "status": "known",
+            "value": 18,
+            "raw": "18"
+          }
+        ],
+        [
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 3,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Size"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "4x4",
+            "raw": "4x4"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 4,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Level",
+        "Damage per Hit",
+        "Damage per Second",
+        "Shockwave Damage",
+        "Hitpoints",
+        "Cost",
+        "Build Time",
+        "Experience Gained",
+        "Town Hall Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 225,
+            "raw": "225"
+          },
+          {
+            "status": "known",
+            "value": 67.5,
+            "raw": "67.5"
+          },
+          {
+            "status": "known",
+            "value": 20,
+            "raw": "20"
+          },
+          {
+            "status": "known",
+            "value": 4000,
+            "raw": "4,000"
+          },
+          {
+            "status": "known",
+            "value": 5000000,
+            "raw": "5,000,000"
+          },
+          {
+            "status": "known",
+            "value": 345600,
+            "raw": "4d",
+            "unit": "seconds",
+            "displayInput": "4,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 587,
+            "raw": "587"
+          },
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 250,
+            "raw": "250"
+          },
+          {
+            "status": "known",
+            "value": 75,
+            "raw": "75"
+          },
+          {
+            "status": "known",
+            "value": 25,
+            "raw": "25"
+          },
+          {
+            "status": "known",
+            "value": 4400,
+            "raw": "4,400"
+          },
+          {
+            "status": "known",
+            "value": 6000000,
+            "raw": "6,000,000"
+          },
+          {
+            "status": "known",
+            "value": 432000,
+            "raw": "5d",
+            "unit": "seconds",
+            "displayInput": "5,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 657,
+            "raw": "657"
+          },
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 275,
+            "raw": "275"
+          },
+          {
+            "status": "known",
+            "value": 82.5,
+            "raw": "82.5"
+          },
+          {
+            "status": "known",
+            "value": 30,
+            "raw": "30"
+          },
+          {
+            "status": "known",
+            "value": 4800,
+            "raw": "4,800"
+          },
+          {
+            "status": "known",
+            "value": 9000000,
+            "raw": "9,000,000"
+          },
+          {
+            "status": "known",
+            "value": 604800,
+            "raw": "7d",
+            "unit": "seconds",
+            "displayInput": "7,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 777,
+            "raw": "777"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 350,
+            "raw": "350"
+          },
+          {
+            "status": "known",
+            "value": 105,
+            "raw": "105"
+          },
+          {
+            "status": "known",
+            "value": 35,
+            "raw": "35"
+          },
+          {
+            "status": "known",
+            "value": 5200,
+            "raw": "5,200"
+          },
+          {
+            "status": "known",
+            "value": 10000000,
+            "raw": "10,000,000"
+          },
+          {
+            "status": "known",
+            "value": 648000,
+            "raw": "7d 12h",
+            "unit": "seconds",
+            "displayInput": "7,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 804,
+            "raw": "804"
+          },
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 425,
+            "raw": "425"
+          },
+          {
+            "status": "known",
+            "value": 127.5,
+            "raw": "127.5"
+          },
+          {
+            "status": "known",
+            "value": 40,
+            "raw": "40"
+          },
+          {
+            "status": "known",
+            "value": 5600,
+            "raw": "5,600"
+          },
+          {
+            "status": "known",
+            "value": 12000000,
+            "raw": "12,000,000"
+          },
+          {
+            "status": "known",
+            "value": 691200,
+            "raw": "8d",
+            "unit": "seconds",
+            "displayInput": "8,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 831,
+            "raw": "831"
+          },
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 475,
+            "raw": "475"
+          },
+          {
+            "status": "known",
+            "value": 142.5,
+            "raw": "142.5"
+          },
+          {
+            "status": "known",
+            "value": 45,
+            "raw": "45"
+          },
+          {
+            "status": "known",
+            "value": 5900,
+            "raw": "5,900"
+          },
+          {
+            "status": "known",
+            "value": 13000000,
+            "raw": "13,000,000"
+          },
+          {
+            "status": "known",
+            "value": 777600,
+            "raw": "9d",
+            "unit": "seconds",
+            "displayInput": "9,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 881,
+            "raw": "881"
+          },
+          {
+            "status": "known",
+            "value": 15,
+            "raw": "15"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": 525,
+            "raw": "525"
+          },
+          {
+            "status": "known",
+            "value": 157.5,
+            "raw": "157.5"
+          },
+          {
+            "status": "known",
+            "value": 50,
+            "raw": "50"
+          },
+          {
+            "status": "known",
+            "value": 6200,
+            "raw": "6,200"
+          },
+          {
+            "status": "known",
+            "value": 14000000,
+            "raw": "14,000,000"
+          },
+          {
+            "status": "known",
+            "value": 820800,
+            "raw": "9d 12h",
+            "unit": "seconds",
+            "displayInput": "9,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 905,
+            "raw": "905"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 5,
+          "type": "cost",
+          "icon": "Gold",
+          "gpClass": "building",
+          "noGoldPass": false
+        },
+        {
+          "column": 6,
+          "type": "time",
+          "gpClass": "building",
+          "noGoldPass": false
+        }
+      ]
+    },
+    {
+      "sourceTableIndex": 5,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Range",
+        "Activation Housing Space",
+        "Attack Speed",
+        "Time Between Bursts",
+        "Shots Per Burst",
+        "Damage Type",
+        "Unit Type Targeted",
+        "Favorite Target",
+        "Number of Rounds"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "7-50",
+            "raw": "7-50"
+          },
+          {
+            "status": "known",
+            "value": 200,
+            "raw": "200"
+          },
+          {
+            "status": "known",
+            "value": "0.75s",
+            "raw": "0.75s"
+          },
+          {
+            "status": "known",
+            "value": "10s",
+            "raw": "10s"
+          },
+          {
+            "status": "known",
+            "value": "3 shots",
+            "raw": "3 shots"
+          },
+          {
+            "status": "known",
+            "value": "Splash - 0.75 tiles for main shot; 0.75 to 3 tiles for shockwave",
+            "raw": "Splash - 0.75 tiles for main shot; 0.75 to 3 tiles for shockwave"
+          },
+          {
+            "status": "known",
+            "value": "Ground & Air",
+            "raw": "Ground & Air"
+          },
+          {
+            "status": "known",
+            "value": "Any",
+            "raw": "Any"
+          },
+          {
+            "status": "known",
+            "value": 90,
+            "raw": "90"
+          }
+        ]
+      ],
+      "extraInfo": []
+    }
+  ],
+  "images": [
+    {
+      "name": "Eagle_Artillery7_info.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/030b/Eagle_Artillery7_info.png",
+      "alt": "天鹰火炮",
+      "localPath": "/images/original/upgrade/home_buildings/030b/Eagle_Artillery7_info.webp",
+      "logicalPath": "/upgrade/home_buildings/030b/Eagle_Artillery7_info.png"
+    },
+    {
+      "name": "Eagle_Artillery1.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/030b/Eagle_Artillery1.png",
+      "alt": "1 级",
+      "localPath": "/images/original/upgrade/home_buildings/030b/Eagle_Artillery1.webp",
+      "logicalPath": "/upgrade/home_buildings/030b/Eagle_Artillery1.png"
+    },
+    {
+      "name": "Eagle_Artillery2.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/030b/Eagle_Artillery2.png",
+      "alt": "2 级",
+      "localPath": "/images/original/upgrade/home_buildings/030b/Eagle_Artillery2.webp",
+      "logicalPath": "/upgrade/home_buildings/030b/Eagle_Artillery2.png"
+    },
+    {
+      "name": "Eagle_Artillery3.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/030b/Eagle_Artillery3.png",
+      "alt": "3 级",
+      "localPath": "/images/original/upgrade/home_buildings/030b/Eagle_Artillery3.webp",
+      "logicalPath": "/upgrade/home_buildings/030b/Eagle_Artillery3.png"
+    },
+    {
+      "name": "Eagle_Artillery4.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/030b/Eagle_Artillery4.png",
+      "alt": "4 级",
+      "localPath": "/images/original/upgrade/home_buildings/030b/Eagle_Artillery4.webp",
+      "logicalPath": "/upgrade/home_buildings/030b/Eagle_Artillery4.png"
+    },
+    {
+      "name": "Eagle_Artillery5.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/030b/Eagle_Artillery5.png",
+      "alt": "5 级",
+      "localPath": "/images/original/upgrade/home_buildings/030b/Eagle_Artillery5.webp",
+      "logicalPath": "/upgrade/home_buildings/030b/Eagle_Artillery5.png"
+    },
+    {
+      "name": "Eagle_Artillery6.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/030b/Eagle_Artillery6.png",
+      "alt": "6 级",
+      "localPath": "/images/original/upgrade/home_buildings/030b/Eagle_Artillery6.webp",
+      "logicalPath": "/upgrade/home_buildings/030b/Eagle_Artillery6.png"
+    },
+    {
+      "name": "Eagle_Artillery7.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/030b/Eagle_Artillery7.png",
+      "alt": "7 级",
+      "localPath": "/images/original/upgrade/home_buildings/030b/Eagle_Artillery7.webp",
+      "logicalPath": "/upgrade/home_buildings/030b/Eagle_Artillery7.png"
+    },
+    {
+      "name": "Eagle_Artillery1_Active.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/030b/Eagle_Artillery1_Active.png",
+      "alt": "1 级",
+      "localPath": "/images/original/upgrade/home_buildings/030b/Eagle_Artillery1_Active.webp",
+      "logicalPath": "/upgrade/home_buildings/030b/Eagle_Artillery1_Active.png"
+    },
+    {
+      "name": "Eagle_Artillery2_Active.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/030b/Eagle_Artillery2_Active.png",
+      "alt": "2 级",
+      "localPath": "/images/original/upgrade/home_buildings/030b/Eagle_Artillery2_Active.webp",
+      "logicalPath": "/upgrade/home_buildings/030b/Eagle_Artillery2_Active.png"
+    },
+    {
+      "name": "Eagle_Artillery3_Active.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/030b/Eagle_Artillery3_Active.png",
+      "alt": "3 级",
+      "localPath": "/images/original/upgrade/home_buildings/030b/Eagle_Artillery3_Active.webp",
+      "logicalPath": "/upgrade/home_buildings/030b/Eagle_Artillery3_Active.png"
+    },
+    {
+      "name": "Eagle_Artillery4_Active.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/030b/Eagle_Artillery4_Active.png",
+      "alt": "4 级",
+      "localPath": "/images/original/upgrade/home_buildings/030b/Eagle_Artillery4_Active.webp",
+      "logicalPath": "/upgrade/home_buildings/030b/Eagle_Artillery4_Active.png"
+    },
+    {
+      "name": "Eagle_Artillery5_Active.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/030b/Eagle_Artillery5_Active.png",
+      "alt": "5 级",
+      "localPath": "/images/original/upgrade/home_buildings/030b/Eagle_Artillery5_Active.webp",
+      "logicalPath": "/upgrade/home_buildings/030b/Eagle_Artillery5_Active.png"
+    },
+    {
+      "name": "Eagle_Artillery6_Active.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/030b/Eagle_Artillery6_Active.png",
+      "alt": "6 级",
+      "localPath": "/images/original/upgrade/home_buildings/030b/Eagle_Artillery6_Active.webp",
+      "logicalPath": "/upgrade/home_buildings/030b/Eagle_Artillery6_Active.png"
+    },
+    {
+      "name": "Eagle_Artillery7_Active.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/030b/Eagle_Artillery7_Active.png",
+      "alt": "7 级",
+      "localPath": "/images/original/upgrade/home_buildings/030b/Eagle_Artillery7_Active.webp",
+      "logicalPath": "/upgrade/home_buildings/030b/Eagle_Artillery7_Active.png"
+    },
+    {
+      "name": "Eagle_Artillery1_Unloaded.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/030b/Eagle_Artillery1_Unloaded.png",
+      "alt": "1 级",
+      "localPath": "/images/original/upgrade/home_buildings/030b/Eagle_Artillery1_Unloaded.webp",
+      "logicalPath": "/upgrade/home_buildings/030b/Eagle_Artillery1_Unloaded.png"
+    },
+    {
+      "name": "Eagle_Artillery2_Unloaded.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/030b/Eagle_Artillery2_Unloaded.png",
+      "alt": "2 级",
+      "localPath": "/images/original/upgrade/home_buildings/030b/Eagle_Artillery2_Unloaded.webp",
+      "logicalPath": "/upgrade/home_buildings/030b/Eagle_Artillery2_Unloaded.png"
+    },
+    {
+      "name": "Eagle_Artillery3_Unloaded.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/030b/Eagle_Artillery3_Unloaded.png",
+      "alt": "3 级",
+      "localPath": "/images/original/upgrade/home_buildings/030b/Eagle_Artillery3_Unloaded.webp",
+      "logicalPath": "/upgrade/home_buildings/030b/Eagle_Artillery3_Unloaded.png"
+    },
+    {
+      "name": "Eagle_Artillery4_Unloaded.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/030b/Eagle_Artillery4_Unloaded.png",
+      "alt": "4 级",
+      "localPath": "/images/original/upgrade/home_buildings/030b/Eagle_Artillery4_Unloaded.webp",
+      "logicalPath": "/upgrade/home_buildings/030b/Eagle_Artillery4_Unloaded.png"
+    },
+    {
+      "name": "Eagle_Artillery5_Unloaded.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/030b/Eagle_Artillery5_Unloaded.png",
+      "alt": "5 级",
+      "localPath": "/images/original/upgrade/home_buildings/030b/Eagle_Artillery5_Unloaded.webp",
+      "logicalPath": "/upgrade/home_buildings/030b/Eagle_Artillery5_Unloaded.png"
+    },
+    {
+      "name": "Eagle_Artillery6_Unloaded.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/030b/Eagle_Artillery6_Unloaded.png",
+      "alt": "6 级",
+      "localPath": "/images/original/upgrade/home_buildings/030b/Eagle_Artillery6_Unloaded.webp",
+      "logicalPath": "/upgrade/home_buildings/030b/Eagle_Artillery6_Unloaded.png"
+    },
+    {
+      "name": "Eagle_Artillery7_Unloaded.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/030b/Eagle_Artillery7_Unloaded.png",
+      "alt": "7 级",
+      "localPath": "/images/original/upgrade/home_buildings/030b/Eagle_Artillery7_Unloaded.webp",
+      "logicalPath": "/upgrade/home_buildings/030b/Eagle_Artillery7_Unloaded.png"
+    }
+  ],
+  "history": [],
+  "facts": [
+    "The Eagle Artillery is a high-damaging and durable defense that has a range that covers almost the entire map but has a blind spot similar to the Mortar. It is unlocked at Town Hall 11.",
+    "Heroes and Spells that have been deployed regardless of level, will count towards the housing space needed to activate the Eagle Artillery. Each Hero is worth 25 troop housing spaces, and each spell housing space is worth 5 troop housing spaces.",
+    "Each Siege Machine counts as 1 troop housing space towards this number. Clan Castle troops do not count towards this number, but any reinforcement spells count towards the normal amount.",
+    "Dropping a Skeleton Spell, Bat Spell, or Totem Spell only adds the spell's equivalent worth of 5 troop housing spaces; the summoned units do not add more spaces."
+  ],
+  "notices": [
+    "来源已停用该单位的蓄能；升级表以当前普通等级为准。"
+  ]
+}

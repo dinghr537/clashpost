@@ -1,0 +1,610 @@
+{
+  "unitId": "1008-Drop-Ship",
+  "title": "骷髅气球",
+  "originalName": "Drop Ship",
+  "module": "upgrade-bh",
+  "imgFolder": "bh_tech/1008",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Drop_Ship",
+    "revision": 623353,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Drop_Ship?oldid=623353",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 1,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Number of Units per Army Camp",
+        "Preferred Target",
+        "Attack Type",
+        "Movement Speed",
+        "Builder Barracks Level Required",
+        "Range",
+        "Skeletons Summoned",
+        "Skeletons Summon Cooldown",
+        "Special Ability"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": "Defenses",
+            "raw": "Defenses"
+          },
+          {
+            "status": "known",
+            "value": "Area Splash (Ground Only)",
+            "raw": "Area Splash (Ground Only)"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          },
+          {
+            "status": "known",
+            "value": "0.5 tiles",
+            "raw": "0.5 tiles"
+          },
+          {
+            "status": "known",
+            "value": "3 (max 9)",
+            "raw": "3 (max 9)"
+          },
+          {
+            "status": "known",
+            "value": "3.5s",
+            "raw": "3.5s"
+          },
+          {
+            "status": "known",
+            "value": "Skeleton Bomb",
+            "raw": "Skeleton Bomb"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 2,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Level",
+        "Hitpoints",
+        "Damage when Destroyed",
+        "Skeleton Bomb Damage",
+        "Skeleton Bomb Spawned Skeletons",
+        "Research Cost",
+        "Research Time",
+        "Star Laboratory Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          },
+          {
+            "status": "known",
+            "value": 3400,
+            "raw": "3,400"
+          },
+          {
+            "status": "known",
+            "value": 300,
+            "raw": "300"
+          },
+          {
+            "status": "known",
+            "value": 600,
+            "raw": "600"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          },
+          {
+            "status": "known",
+            "value": 3400,
+            "raw": "3,400"
+          },
+          {
+            "status": "known",
+            "value": 300,
+            "raw": "300"
+          },
+          {
+            "status": "known",
+            "value": 700,
+            "raw": "700"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 2400000,
+            "raw": "2,400,000"
+          },
+          {
+            "status": "known",
+            "value": 216000,
+            "raw": "2d 12h",
+            "unit": "seconds",
+            "displayInput": "2,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          },
+          {
+            "status": "known",
+            "value": 3740,
+            "raw": "3,740"
+          },
+          {
+            "status": "known",
+            "value": 300,
+            "raw": "300"
+          },
+          {
+            "status": "known",
+            "value": 700,
+            "raw": "700"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 2600000,
+            "raw": "2,600,000"
+          },
+          {
+            "status": "known",
+            "value": 302400,
+            "raw": "3d 12h",
+            "unit": "seconds",
+            "displayInput": "3,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          },
+          {
+            "status": "known",
+            "value": 3740,
+            "raw": "3,740"
+          },
+          {
+            "status": "known",
+            "value": 400,
+            "raw": "400"
+          },
+          {
+            "status": "known",
+            "value": 700,
+            "raw": "700"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 2800000,
+            "raw": "2,800,000"
+          },
+          {
+            "status": "known",
+            "value": 388800,
+            "raw": "4d 12h",
+            "unit": "seconds",
+            "displayInput": "4,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 15,
+            "raw": "15"
+          },
+          {
+            "status": "known",
+            "value": 4114,
+            "raw": "4,114"
+          },
+          {
+            "status": "known",
+            "value": 400,
+            "raw": "400"
+          },
+          {
+            "status": "known",
+            "value": 700,
+            "raw": "700"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 3600000,
+            "raw": "3,600,000"
+          },
+          {
+            "status": "known",
+            "value": 475200,
+            "raw": "5d 12h",
+            "unit": "seconds",
+            "displayInput": "5,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          },
+          {
+            "status": "known",
+            "value": 4114,
+            "raw": "4,114"
+          },
+          {
+            "status": "known",
+            "value": 400,
+            "raw": "400"
+          },
+          {
+            "status": "known",
+            "value": 800,
+            "raw": "800"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": 3800000,
+            "raw": "3,800,000"
+          },
+          {
+            "status": "known",
+            "value": 475200,
+            "raw": "5d 12h",
+            "unit": "seconds",
+            "displayInput": "5,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 17,
+            "raw": "17"
+          },
+          {
+            "status": "known",
+            "value": 4525,
+            "raw": "4,525"
+          },
+          {
+            "status": "known",
+            "value": 400,
+            "raw": "400"
+          },
+          {
+            "status": "known",
+            "value": 800,
+            "raw": "800"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": 4300000,
+            "raw": "4,300,000"
+          },
+          {
+            "status": "known",
+            "value": 518400,
+            "raw": "6d",
+            "unit": "seconds",
+            "displayInput": "6,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 18,
+            "raw": "18"
+          },
+          {
+            "status": "known",
+            "value": 4525,
+            "raw": "4,525"
+          },
+          {
+            "status": "known",
+            "value": 500,
+            "raw": "500"
+          },
+          {
+            "status": "known",
+            "value": 800,
+            "raw": "800"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": 4500000,
+            "raw": "4,500,000"
+          },
+          {
+            "status": "known",
+            "value": 518400,
+            "raw": "6d",
+            "unit": "seconds",
+            "displayInput": "6,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 19,
+            "raw": "19"
+          },
+          {
+            "status": "known",
+            "value": 4978,
+            "raw": "4,978"
+          },
+          {
+            "status": "known",
+            "value": 500,
+            "raw": "500"
+          },
+          {
+            "status": "known",
+            "value": 800,
+            "raw": "800"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": 5500000,
+            "raw": "5,500,000"
+          },
+          {
+            "status": "known",
+            "value": 561600,
+            "raw": "6d 12h",
+            "unit": "seconds",
+            "displayInput": "6,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 20,
+            "raw": "20"
+          },
+          {
+            "status": "known",
+            "value": 4978,
+            "raw": "4,978"
+          },
+          {
+            "status": "known",
+            "value": 500,
+            "raw": "500"
+          },
+          {
+            "status": "known",
+            "value": 900,
+            "raw": "900"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": 5700000,
+            "raw": "5,700,000"
+          },
+          {
+            "status": "known",
+            "value": 561600,
+            "raw": "6d 12h",
+            "unit": "seconds",
+            "displayInput": "6,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 5,
+          "type": "cost",
+          "icon": "Elixir2",
+          "gpClass": "research",
+          "noGoldPass": false
+        },
+        {
+          "column": 6,
+          "type": "time",
+          "gpClass": "research",
+          "noGoldPass": false
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "name": "Drop_Ship_info.png",
+      "url": "https://static.clashpost.com/upgrade/bh_tech/1008/Drop_Ship_info.png",
+      "alt": "骷髅气球",
+      "localPath": "/images/original/upgrade/bh_tech/1008/Drop_Ship_info.webp",
+      "logicalPath": "/upgrade/bh_tech/1008/Drop_Ship_info.png"
+    },
+    {
+      "name": "Drop_Ship11.png",
+      "url": "https://static.clashpost.com/upgrade/bh_tech/1008/Drop_Ship11.png",
+      "alt": "11 - 12 级",
+      "localPath": "/images/original/upgrade/bh_tech/1008/Drop_Ship11.webp",
+      "logicalPath": "/upgrade/bh_tech/1008/Drop_Ship11.png"
+    },
+    {
+      "name": "Drop_Ship13.png",
+      "url": "https://static.clashpost.com/upgrade/bh_tech/1008/Drop_Ship13.png",
+      "alt": "13 - 14 级",
+      "localPath": "/images/original/upgrade/bh_tech/1008/Drop_Ship13.webp",
+      "logicalPath": "/upgrade/bh_tech/1008/Drop_Ship13.png"
+    },
+    {
+      "name": "Drop_Ship15.png",
+      "url": "https://static.clashpost.com/upgrade/bh_tech/1008/Drop_Ship15.png",
+      "alt": "15 - 16 级",
+      "localPath": "/images/original/upgrade/bh_tech/1008/Drop_Ship15.webp",
+      "logicalPath": "/upgrade/bh_tech/1008/Drop_Ship15.png"
+    },
+    {
+      "name": "Drop_Ship17.png",
+      "url": "https://static.clashpost.com/upgrade/bh_tech/1008/Drop_Ship17.png",
+      "alt": "17 - 18 级",
+      "localPath": "/images/original/upgrade/bh_tech/1008/Drop_Ship17.webp",
+      "logicalPath": "/upgrade/bh_tech/1008/Drop_Ship17.png"
+    },
+    {
+      "name": "Drop_Ship19.png",
+      "url": "https://static.clashpost.com/upgrade/bh_tech/1008/Drop_Ship19.png",
+      "alt": "19 - 20 级",
+      "localPath": "/images/original/upgrade/bh_tech/1008/Drop_Ship19.webp",
+      "logicalPath": "/upgrade/bh_tech/1008/Drop_Ship19.png"
+    },
+    {
+      "name": "Skeleton1.png",
+      "url": "https://static.clashpost.com/upgrade/bh_tech/1008/Skeleton1.png",
+      "alt": "骷髅",
+      "localPath": "/images/original/upgrade/bh_tech/1008/Skeleton1.webp",
+      "logicalPath": "/upgrade/bh_tech/1008/Skeleton1.png"
+    }
+  ],
+  "history": [],
+  "facts": [
+    "The Drop Ship is a balloon that flies in the air and drops Skeletons on its target. It is unlocked at Builder Barracks level 9, which requires Builder Hall level 7."
+  ],
+  "notices": []
+}

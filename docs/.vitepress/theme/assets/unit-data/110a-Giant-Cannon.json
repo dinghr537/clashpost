@@ -1,0 +1,705 @@
+{
+  "unitId": "110a-Giant-Cannon",
+  "title": "巨型加农炮",
+  "originalName": "Giant Cannon",
+  "module": "upgrade-bh",
+  "imgFolder": "bh_buildings/110a",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Giant_Cannon",
+    "revision": 592211,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Giant_Cannon?oldid=592211",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 1,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Number Available",
+        "Builder Hall Level / 1",
+        "Builder Hall Level / 2",
+        "Builder Hall Level / 3",
+        "Builder Hall Level / 4",
+        "Builder Hall Level / 5",
+        "Builder Hall Level / 6",
+        "Builder Hall Level / 7",
+        "Builder Hall Level / 8",
+        "Builder Hall Level / 9",
+        "Builder Hall Level / 10"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "Total",
+            "raw": "Total"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 2,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Size"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "3x3",
+            "raw": "3x3"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 3,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Level",
+        "Damage per Second",
+        "Damage per Shot",
+        "Hitpoints",
+        "Build Cost",
+        "Build Time",
+        "Experience Gained",
+        "Builder Hall Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 41,
+            "raw": "41"
+          },
+          {
+            "status": "known",
+            "value": 205,
+            "raw": "205"
+          },
+          {
+            "status": "known",
+            "value": 700,
+            "raw": "700"
+          },
+          {
+            "status": "known",
+            "value": 2000000,
+            "raw": "2,000,000"
+          },
+          {
+            "status": "known",
+            "value": 86400,
+            "raw": "1d",
+            "unit": "seconds",
+            "displayInput": "1,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 293,
+            "raw": "293"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 45,
+            "raw": "45"
+          },
+          {
+            "status": "known",
+            "value": 225,
+            "raw": "225"
+          },
+          {
+            "status": "known",
+            "value": 800,
+            "raw": "800"
+          },
+          {
+            "status": "known",
+            "value": 2100000,
+            "raw": "2,100,000"
+          },
+          {
+            "status": "known",
+            "value": 172800,
+            "raw": "2d",
+            "unit": "seconds",
+            "displayInput": "2,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 415,
+            "raw": "415"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 49,
+            "raw": "49"
+          },
+          {
+            "status": "known",
+            "value": 245,
+            "raw": "245"
+          },
+          {
+            "status": "known",
+            "value": 950,
+            "raw": "950"
+          },
+          {
+            "status": "known",
+            "value": 2200000,
+            "raw": "2,200,000"
+          },
+          {
+            "status": "known",
+            "value": 259200,
+            "raw": "3d",
+            "unit": "seconds",
+            "displayInput": "3,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 509,
+            "raw": "509"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 54,
+            "raw": "54"
+          },
+          {
+            "status": "known",
+            "value": 270,
+            "raw": "270"
+          },
+          {
+            "status": "known",
+            "value": 1100,
+            "raw": "1,100"
+          },
+          {
+            "status": "known",
+            "value": 2300000,
+            "raw": "2,300,000"
+          },
+          {
+            "status": "known",
+            "value": 345600,
+            "raw": "4d",
+            "unit": "seconds",
+            "displayInput": "4,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 587,
+            "raw": "587"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 60,
+            "raw": "60"
+          },
+          {
+            "status": "known",
+            "value": 300,
+            "raw": "300"
+          },
+          {
+            "status": "known",
+            "value": 1300,
+            "raw": "1,300"
+          },
+          {
+            "status": "known",
+            "value": 2400000,
+            "raw": "2,400,000"
+          },
+          {
+            "status": "known",
+            "value": 432000,
+            "raw": "5d",
+            "unit": "seconds",
+            "displayInput": "5,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 657,
+            "raw": "657"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 66,
+            "raw": "66"
+          },
+          {
+            "status": "known",
+            "value": 330,
+            "raw": "330"
+          },
+          {
+            "status": "known",
+            "value": 1500,
+            "raw": "1,500"
+          },
+          {
+            "status": "known",
+            "value": 2500000,
+            "raw": "2,500,000"
+          },
+          {
+            "status": "known",
+            "value": 518400,
+            "raw": "6d",
+            "unit": "seconds",
+            "displayInput": "6,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 720,
+            "raw": "720"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": 72,
+            "raw": "72"
+          },
+          {
+            "status": "known",
+            "value": 360,
+            "raw": "360"
+          },
+          {
+            "status": "known",
+            "value": 1700,
+            "raw": "1,700"
+          },
+          {
+            "status": "known",
+            "value": 2700000,
+            "raw": "2,700,000"
+          },
+          {
+            "status": "known",
+            "value": 691200,
+            "raw": "8d",
+            "unit": "seconds",
+            "displayInput": "8,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 831,
+            "raw": "831"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": 79,
+            "raw": "79"
+          },
+          {
+            "status": "known",
+            "value": 395,
+            "raw": "395"
+          },
+          {
+            "status": "known",
+            "value": 1900,
+            "raw": "1,900"
+          },
+          {
+            "status": "known",
+            "value": 3800000,
+            "raw": "3,800,000"
+          },
+          {
+            "status": "known",
+            "value": 864000,
+            "raw": "10d",
+            "unit": "seconds",
+            "displayInput": "10,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 929,
+            "raw": "929"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          },
+          {
+            "status": "known",
+            "value": 87,
+            "raw": "87"
+          },
+          {
+            "status": "known",
+            "value": 435,
+            "raw": "435"
+          },
+          {
+            "status": "known",
+            "value": 2150,
+            "raw": "2,150"
+          },
+          {
+            "status": "known",
+            "value": 4700000,
+            "raw": "4,700,000"
+          },
+          {
+            "status": "known",
+            "value": 950400,
+            "raw": "11d",
+            "unit": "seconds",
+            "displayInput": "11,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 974,
+            "raw": "974"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 96,
+            "raw": "96"
+          },
+          {
+            "status": "known",
+            "value": 480,
+            "raw": "480"
+          },
+          {
+            "status": "known",
+            "value": 2400,
+            "raw": "2,400"
+          },
+          {
+            "status": "known",
+            "value": 5700000,
+            "raw": "5,700,000"
+          },
+          {
+            "status": "known",
+            "value": 1036800,
+            "raw": "12d",
+            "unit": "seconds",
+            "displayInput": "12,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 1018,
+            "raw": "1,018"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 4,
+          "type": "cost",
+          "icon": "Gold2",
+          "gpClass": "building",
+          "noGoldPass": false
+        },
+        {
+          "column": 5,
+          "type": "time",
+          "gpClass": "building",
+          "noGoldPass": false
+        }
+      ]
+    },
+    {
+      "sourceTableIndex": 4,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Range",
+        "Attack Speed",
+        "Damage Type",
+        "Unit Type Targeted",
+        "Favorite Target"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 9.5,
+            "raw": "9.5"
+          },
+          {
+            "status": "known",
+            "value": "5 seconds",
+            "raw": "5 seconds"
+          },
+          {
+            "status": "known",
+            "value": "Area Splash",
+            "raw": "Area Splash"
+          },
+          {
+            "status": "known",
+            "value": "Ground",
+            "raw": "Ground"
+          },
+          {
+            "status": "known",
+            "value": "Any",
+            "raw": "Any"
+          }
+        ]
+      ],
+      "extraInfo": []
+    }
+  ],
+  "images": [
+    {
+      "name": "Giant_Cannon10.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/110a/Giant_Cannon10.png",
+      "alt": "巨型加农炮",
+      "localPath": "/images/original/upgrade/bh_buildings/110a/Giant_Cannon10.webp",
+      "logicalPath": "/upgrade/bh_buildings/110a/Giant_Cannon10.png"
+    },
+    {
+      "name": "Giant_Cannon1.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/110a/Giant_Cannon1.png",
+      "alt": "1 级",
+      "localPath": "/images/original/upgrade/bh_buildings/110a/Giant_Cannon1.webp",
+      "logicalPath": "/upgrade/bh_buildings/110a/Giant_Cannon1.png"
+    },
+    {
+      "name": "Giant_Cannon2.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/110a/Giant_Cannon2.png",
+      "alt": "2 级",
+      "localPath": "/images/original/upgrade/bh_buildings/110a/Giant_Cannon2.webp",
+      "logicalPath": "/upgrade/bh_buildings/110a/Giant_Cannon2.png"
+    },
+    {
+      "name": "Giant_Cannon3.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/110a/Giant_Cannon3.png",
+      "alt": "3 级",
+      "localPath": "/images/original/upgrade/bh_buildings/110a/Giant_Cannon3.webp",
+      "logicalPath": "/upgrade/bh_buildings/110a/Giant_Cannon3.png"
+    },
+    {
+      "name": "Giant_Cannon4.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/110a/Giant_Cannon4.png",
+      "alt": "4 级",
+      "localPath": "/images/original/upgrade/bh_buildings/110a/Giant_Cannon4.webp",
+      "logicalPath": "/upgrade/bh_buildings/110a/Giant_Cannon4.png"
+    },
+    {
+      "name": "Giant_Cannon5.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/110a/Giant_Cannon5.png",
+      "alt": "5 级",
+      "localPath": "/images/original/upgrade/bh_buildings/110a/Giant_Cannon5.webp",
+      "logicalPath": "/upgrade/bh_buildings/110a/Giant_Cannon5.png"
+    },
+    {
+      "name": "Giant_Cannon6.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/110a/Giant_Cannon6.png",
+      "alt": "6 级",
+      "localPath": "/images/original/upgrade/bh_buildings/110a/Giant_Cannon6.webp",
+      "logicalPath": "/upgrade/bh_buildings/110a/Giant_Cannon6.png"
+    },
+    {
+      "name": "Giant_Cannon7.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/110a/Giant_Cannon7.png",
+      "alt": "7 级",
+      "localPath": "/images/original/upgrade/bh_buildings/110a/Giant_Cannon7.webp",
+      "logicalPath": "/upgrade/bh_buildings/110a/Giant_Cannon7.png"
+    },
+    {
+      "name": "Giant_Cannon8.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/110a/Giant_Cannon8.png",
+      "alt": "8 级",
+      "localPath": "/images/original/upgrade/bh_buildings/110a/Giant_Cannon8.webp",
+      "logicalPath": "/upgrade/bh_buildings/110a/Giant_Cannon8.png"
+    },
+    {
+      "name": "Giant_Cannon9.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/110a/Giant_Cannon9.png",
+      "alt": "9 级",
+      "localPath": "/images/original/upgrade/bh_buildings/110a/Giant_Cannon9.webp",
+      "logicalPath": "/upgrade/bh_buildings/110a/Giant_Cannon9.png"
+    }
+  ],
+  "history": [],
+  "facts": [
+    "The Giant Cannon is a defense that shoots a large cannonball with a piercing effect, able to hit multiple troops and knocks them back. The cannonball slows down the further it travels. It is unlocked at Builder Hall level 7."
+  ],
+  "notices": []
+}

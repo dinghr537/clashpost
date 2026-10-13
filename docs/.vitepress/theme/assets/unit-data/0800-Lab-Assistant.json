@@ -1,0 +1,326 @@
+{
+  "unitId": "0800-Lab-Assistant",
+  "title": "实验助手",
+  "originalName": "Lab Assistant",
+  "module": "upgrade-home",
+  "imgFolder": "home_tech/0800",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Lab_Assistant",
+    "revision": 620445,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Lab_Assistant?oldid=620445",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 0,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Level",
+        "Work Rate",
+        "Upgrade Cost",
+        "Town Hall Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": "1x",
+            "raw": "1x"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": "2x",
+            "raw": "2x"
+          },
+          {
+            "status": "known",
+            "value": 500,
+            "raw": "500"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": "3x",
+            "raw": "3x"
+          },
+          {
+            "status": "known",
+            "value": 500,
+            "raw": "500"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": "4x",
+            "raw": "4x"
+          },
+          {
+            "status": "known",
+            "value": 500,
+            "raw": "500"
+          },
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": "5x",
+            "raw": "5x"
+          },
+          {
+            "status": "known",
+            "value": 750,
+            "raw": "750"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": "6x",
+            "raw": "6x"
+          },
+          {
+            "status": "known",
+            "value": 750,
+            "raw": "750"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": "7x",
+            "raw": "7x"
+          },
+          {
+            "status": "known",
+            "value": 750,
+            "raw": "750"
+          },
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": "8x",
+            "raw": "8x"
+          },
+          {
+            "status": "known",
+            "value": 750,
+            "raw": "750"
+          },
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          },
+          {
+            "status": "known",
+            "value": "9x",
+            "raw": "9x"
+          },
+          {
+            "status": "known",
+            "value": 1000,
+            "raw": "1,000"
+          },
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": "10x",
+            "raw": "10x"
+          },
+          {
+            "status": "known",
+            "value": 1000,
+            "raw": "1,000"
+          },
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          },
+          {
+            "status": "known",
+            "value": "11x",
+            "raw": "11x"
+          },
+          {
+            "status": "known",
+            "value": 1000,
+            "raw": "1,000"
+          },
+          {
+            "status": "known",
+            "value": 15,
+            "raw": "15"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          },
+          {
+            "status": "known",
+            "value": "12x",
+            "raw": "12x"
+          },
+          {
+            "status": "known",
+            "value": 1000,
+            "raw": "1,000"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 2,
+          "type": "cost",
+          "icon": "Gem",
+          "gpClass": "research",
+          "noGoldPass": true
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "name": "Lab_Assistant_info.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0800/Lab_Assistant_info.png",
+      "alt": "实验助手",
+      "localPath": "/images/original/upgrade/home_tech/0800/Lab_Assistant_info.webp",
+      "logicalPath": "/upgrade/home_tech/0800/Lab_Assistant_info.png"
+    },
+    {
+      "name": "Lab_Assistant_info2.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/7/74/Lab_Assistant_info2.png/revision/latest/scale-to-width-down/159?cb=20260119130204",
+      "alt": "",
+      "localPath": "/images/wiki/0800-Lab-Assistant/6be671e881-Lab_Assistant_info2.png",
+      "logicalPath": "/upgrade/home_tech/0800/Lab_Assistant_info2.png"
+    }
+  ],
+  "history": [],
+  "facts": [
+    "The Lab Assistant is a male non-combatant character in the Home Village. He appears around the Helper Hut once the player has built it, which requires Town Hall level 9. He can be recruited for free as soon as the Helper Hut is built, but he can be upgraded with Gems.",
+    "The Research Potion and Study Soup have no effect on the Lab Assistant, which means they stack additively (for a maximum of 1+23+3+12=39 times speed)."
+  ],
+  "notices": []
+}

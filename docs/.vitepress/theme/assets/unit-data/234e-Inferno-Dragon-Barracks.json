@@ -1,0 +1,228 @@
+{
+  "unitId": "234e-Inferno-Dragon-Barracks",
+  "title": "地狱飞龙训练营",
+  "originalName": "Clan Capital Barracks",
+  "module": "upgrade-capital",
+  "imgFolder": "capital_buildings/234e",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Clan_Capital_Barracks",
+    "revision": 616742,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Clan_Capital_Barracks?oldid=616742",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 85,
+      "section": "Inferno Dragon Barracks",
+      "title": "Statistics",
+      "headers": [
+        "Number Available",
+        "District Hall Level / 1",
+        "District Hall Level / 2",
+        "District Hall Level / 3",
+        "District Hall Level / 4"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "Skeleton Park",
+            "raw": "Skeleton Park"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 86,
+      "section": "Inferno Dragon Barracks",
+      "title": "Statistics",
+      "headers": [
+        "Size"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "3x3",
+            "raw": "3x3"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 88,
+      "section": "Inferno Dragon Barracks",
+      "title": "Statistics",
+      "headers": [
+        "Level",
+        "Hitpoints",
+        "Build Cost",
+        "District Hall Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1200,
+            "raw": "1,200"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 1400,
+            "raw": "1,400"
+          },
+          {
+            "status": "known",
+            "value": 35000,
+            "raw": "35,000"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 1600,
+            "raw": "1,600"
+          },
+          {
+            "status": "known",
+            "value": 125000,
+            "raw": "125,000"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 1800,
+            "raw": "1,800"
+          },
+          {
+            "status": "known",
+            "value": 275000,
+            "raw": "275,000"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 2,
+          "type": "cost",
+          "icon": "Gold3",
+          "gpClass": "building",
+          "noGoldPass": true
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "name": "Inferno_Dragon_Barracks4.png",
+      "url": "https://static.clashpost.com/upgrade/capital_buildings/234e/Inferno_Dragon_Barracks4.png",
+      "alt": "地狱飞龙训练营",
+      "localPath": "/images/original/upgrade/capital_buildings/234e/Inferno_Dragon_Barracks4.webp",
+      "logicalPath": "/upgrade/capital_buildings/234e/Inferno_Dragon_Barracks4.png"
+    },
+    {
+      "name": "Barracks_Ruin.png",
+      "url": "https://static.clashpost.com/upgrade/capital_buildings/234e/Barracks_Ruin.png",
+      "alt": "废墟",
+      "localPath": "/images/original/upgrade/capital_buildings/234e/Barracks_Ruin.webp",
+      "logicalPath": "/upgrade/capital_buildings/234e/Barracks_Ruin.png"
+    },
+    {
+      "name": "Inferno_Dragon_Barracks1.png",
+      "url": "https://static.clashpost.com/upgrade/capital_buildings/234e/Inferno_Dragon_Barracks1.png",
+      "alt": "1 级",
+      "localPath": "/images/original/upgrade/capital_buildings/234e/Inferno_Dragon_Barracks1.webp",
+      "logicalPath": "/upgrade/capital_buildings/234e/Inferno_Dragon_Barracks1.png"
+    },
+    {
+      "name": "Inferno_Dragon_Barracks2.png",
+      "url": "https://static.clashpost.com/upgrade/capital_buildings/234e/Inferno_Dragon_Barracks2.png",
+      "alt": "2 级",
+      "localPath": "/images/original/upgrade/capital_buildings/234e/Inferno_Dragon_Barracks2.webp",
+      "logicalPath": "/upgrade/capital_buildings/234e/Inferno_Dragon_Barracks2.png"
+    },
+    {
+      "name": "Inferno_Dragon_Barracks3.png",
+      "url": "https://static.clashpost.com/upgrade/capital_buildings/234e/Inferno_Dragon_Barracks3.png",
+      "alt": "3 级",
+      "localPath": "/images/original/upgrade/capital_buildings/234e/Inferno_Dragon_Barracks3.webp",
+      "logicalPath": "/upgrade/capital_buildings/234e/Inferno_Dragon_Barracks3.png"
+    }
+  ],
+  "history": [],
+  "facts": [],
+  "notices": []
+}

@@ -1,0 +1,2934 @@
+{
+  "unitId": "1282-Star-Laboratory",
+  "title": "星空实验室",
+  "originalName": "Star Laboratory",
+  "module": "upgrade-bh",
+  "imgFolder": "bh_buildings/1282",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Star_Laboratory",
+    "revision": 620172,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Star_Laboratory?oldid=620172",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 1,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Number Available",
+        "Builder Hall Level / 1",
+        "Builder Hall Level / 2",
+        "Builder Hall Level / 3",
+        "Builder Hall Level / 4",
+        "Builder Hall Level / 5",
+        "Builder Hall Level / 6",
+        "Builder Hall Level / 7",
+        "Builder Hall Level / 8",
+        "Builder Hall Level / 9",
+        "Builder Hall Level / 10"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "Total",
+            "raw": "Total"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": "Stage 1 Limit",
+            "raw": "Stage 1 Limit"
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": "Stage 2 Limit",
+            "raw": "Stage 2 Limit"
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 2,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Size"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "4x4",
+            "raw": "4x4"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 3,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Level",
+        "Hitpoints",
+        "Build Cost",
+        "Build Time",
+        "Experience Gained",
+        "Builder Hall Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 650,
+            "raw": "650"
+          },
+          {
+            "status": "known",
+            "value": 1000,
+            "raw": "1,000"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 800,
+            "raw": "800"
+          },
+          {
+            "status": "known",
+            "value": 15000,
+            "raw": "15,000"
+          },
+          {
+            "status": "known",
+            "value": 600,
+            "raw": "10m",
+            "unit": "seconds",
+            "displayInput": "0,0,10,0"
+          },
+          {
+            "status": "known",
+            "value": 24,
+            "raw": "24"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 975,
+            "raw": "975"
+          },
+          {
+            "status": "known",
+            "value": 50000,
+            "raw": "50,000"
+          },
+          {
+            "status": "known",
+            "value": 1800,
+            "raw": "30m",
+            "unit": "seconds",
+            "displayInput": "0,0,30,0"
+          },
+          {
+            "status": "known",
+            "value": 42,
+            "raw": "42"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 1150,
+            "raw": "1,150"
+          },
+          {
+            "status": "known",
+            "value": 300000,
+            "raw": "300,000"
+          },
+          {
+            "status": "known",
+            "value": 28800,
+            "raw": "8h",
+            "unit": "seconds",
+            "displayInput": "0,8,0,0"
+          },
+          {
+            "status": "known",
+            "value": 169,
+            "raw": "169"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 1350,
+            "raw": "1,350"
+          },
+          {
+            "status": "known",
+            "value": 700000,
+            "raw": "700,000"
+          },
+          {
+            "status": "known",
+            "value": 43200,
+            "raw": "12h",
+            "unit": "seconds",
+            "displayInput": "0,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 207,
+            "raw": "207"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 1600,
+            "raw": "1,600"
+          },
+          {
+            "status": "known",
+            "value": 1000000,
+            "raw": "1,000,000"
+          },
+          {
+            "status": "known",
+            "value": 172800,
+            "raw": "2d",
+            "unit": "seconds",
+            "displayInput": "2,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 415,
+            "raw": "415"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": 1850,
+            "raw": "1,850"
+          },
+          {
+            "status": "known",
+            "value": 2000000,
+            "raw": "2,000,000"
+          },
+          {
+            "status": "known",
+            "value": 345600,
+            "raw": "4d",
+            "unit": "seconds",
+            "displayInput": "4,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 587,
+            "raw": "587"
+          },
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": 2150,
+            "raw": "2,150"
+          },
+          {
+            "status": "known",
+            "value": 3000000,
+            "raw": "3,000,000"
+          },
+          {
+            "status": "known",
+            "value": 518400,
+            "raw": "6d",
+            "unit": "seconds",
+            "displayInput": "6,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 720,
+            "raw": "720"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          },
+          {
+            "status": "known",
+            "value": 2450,
+            "raw": "2,450"
+          },
+          {
+            "status": "known",
+            "value": 4000000,
+            "raw": "4,000,000"
+          },
+          {
+            "status": "known",
+            "value": 691200,
+            "raw": "8d",
+            "unit": "seconds",
+            "displayInput": "8,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 831,
+            "raw": "831"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 2750,
+            "raw": "2,750"
+          },
+          {
+            "status": "known",
+            "value": 5000000,
+            "raw": "5,000,000"
+          },
+          {
+            "status": "known",
+            "value": 864000,
+            "raw": "10d",
+            "unit": "seconds",
+            "displayInput": "10,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 929,
+            "raw": "929"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 2,
+          "type": "cost",
+          "icon": "Elixir2",
+          "gpClass": "building",
+          "noGoldPass": false
+        },
+        {
+          "column": 3,
+          "type": "time",
+          "gpClass": "building",
+          "noGoldPass": false
+        }
+      ]
+    },
+    {
+      "sourceTableIndex": 4,
+      "section": "Statistics",
+      "title": "Upgrade Chart",
+      "headers": [
+        "Upgrade Chart",
+        "Upgrade Chart",
+        "Star Laboratory Level / 1",
+        "Star Laboratory Level / 2",
+        "Star Laboratory Level / 3",
+        "Star Laboratory Level / 4",
+        "Star Laboratory Level / 5",
+        "Star Laboratory Level / 6",
+        "Star Laboratory Level / 7",
+        "Star Laboratory Level / 8",
+        "Star Laboratory Level / 9",
+        "Star Laboratory Level / 10"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "Raged Barbarian",
+            "raw": "Raged Barbarian"
+          },
+          {
+            "status": "known",
+            "value": "Level",
+            "raw": "Level"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": "3 / 4",
+            "raw": "3 / 4"
+          },
+          {
+            "status": "known",
+            "value": "5 / 6",
+            "raw": "5 / 6"
+          },
+          {
+            "status": "known",
+            "value": "7 / 8",
+            "raw": "7 / 8"
+          },
+          {
+            "status": "known",
+            "value": "9 / 10",
+            "raw": "9 / 10"
+          },
+          {
+            "status": "known",
+            "value": "11 / 12",
+            "raw": "11 / 12"
+          },
+          {
+            "status": "known",
+            "value": "13 / 14",
+            "raw": "13 / 14"
+          },
+          {
+            "status": "known",
+            "value": "15 / 16",
+            "raw": "15 / 16"
+          },
+          {
+            "status": "known",
+            "value": "17 / 18",
+            "raw": "17 / 18"
+          },
+          {
+            "status": "known",
+            "value": "19 / 20",
+            "raw": "19 / 20"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": "Raged Barbarian",
+            "raw": "Raged Barbarian"
+          },
+          {
+            "status": "known",
+            "value": "Cost",
+            "raw": "Cost"
+          },
+          {
+            "status": "known",
+            "value": "3.5K",
+            "raw": "3.5K"
+          },
+          {
+            "status": "known",
+            "value": "7K / 10K",
+            "raw": "7K / 10K"
+          },
+          {
+            "status": "known",
+            "value": "90K / 180K",
+            "raw": "90K / 180K"
+          },
+          {
+            "status": "known",
+            "value": "300K / 330K",
+            "raw": "300K / 330K"
+          },
+          {
+            "status": "known",
+            "value": "700K / 900K",
+            "raw": "700K / 900K"
+          },
+          {
+            "status": "known",
+            "value": "1M / 1.2M",
+            "raw": "1M / 1.2M"
+          },
+          {
+            "status": "known",
+            "value": "2M / 2.2M",
+            "raw": "2M / 2.2M"
+          },
+          {
+            "status": "known",
+            "value": "3M / 3.2M",
+            "raw": "3M / 3.2M"
+          },
+          {
+            "status": "known",
+            "value": "3.8M / 4M",
+            "raw": "3.8M / 4M"
+          },
+          {
+            "status": "known",
+            "value": "4.6M / 5.2M",
+            "raw": "4.6M / 5.2M"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": "Raged Barbarian",
+            "raw": "Raged Barbarian"
+          },
+          {
+            "status": "known",
+            "value": "Time",
+            "raw": "Time"
+          },
+          {
+            "status": "known",
+            "value": "30s",
+            "raw": "30s"
+          },
+          {
+            "status": "known",
+            "value": "5m / 15m",
+            "raw": "5m / 15m"
+          },
+          {
+            "status": "known",
+            "value": "5h / 10h",
+            "raw": "5h / 10h"
+          },
+          {
+            "status": "known",
+            "value": "15h / 20h",
+            "raw": "15h / 20h"
+          },
+          {
+            "status": "known",
+            "value": "1d / 1d 12h",
+            "raw": "1d / 1d 12h"
+          },
+          {
+            "status": "known",
+            "value": "2d / 2d 12h",
+            "raw": "2d / 2d 12h"
+          },
+          {
+            "status": "known",
+            "value": "3d 12h / 4d 12h",
+            "raw": "3d 12h / 4d 12h"
+          },
+          {
+            "status": "known",
+            "value": "5d 12h / 5d 12h",
+            "raw": "5d 12h / 5d 12h"
+          },
+          {
+            "status": "known",
+            "value": "6d / 6d",
+            "raw": "6d / 6d"
+          },
+          {
+            "status": "known",
+            "value": "6d 12h / 6d 12h",
+            "raw": "6d 12h / 6d 12h"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": "Sneaky Archer",
+            "raw": "Sneaky Archer"
+          },
+          {
+            "status": "known",
+            "value": "Level",
+            "raw": "Level"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": "3 / 4",
+            "raw": "3 / 4"
+          },
+          {
+            "status": "known",
+            "value": "5 / 6",
+            "raw": "5 / 6"
+          },
+          {
+            "status": "known",
+            "value": "7 / 8",
+            "raw": "7 / 8"
+          },
+          {
+            "status": "known",
+            "value": "9 / 10",
+            "raw": "9 / 10"
+          },
+          {
+            "status": "known",
+            "value": "11 / 12",
+            "raw": "11 / 12"
+          },
+          {
+            "status": "known",
+            "value": "13 / 14",
+            "raw": "13 / 14"
+          },
+          {
+            "status": "known",
+            "value": "15 / 16",
+            "raw": "15 / 16"
+          },
+          {
+            "status": "known",
+            "value": "17 / 18",
+            "raw": "17 / 18"
+          },
+          {
+            "status": "known",
+            "value": "19 / 20",
+            "raw": "19 / 20"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": "Sneaky Archer",
+            "raw": "Sneaky Archer"
+          },
+          {
+            "status": "known",
+            "value": "Cost",
+            "raw": "Cost"
+          },
+          {
+            "status": "known",
+            "value": "5K",
+            "raw": "5K"
+          },
+          {
+            "status": "known",
+            "value": "8K / 12K",
+            "raw": "8K / 12K"
+          },
+          {
+            "status": "known",
+            "value": "100K / 200K",
+            "raw": "100K / 200K"
+          },
+          {
+            "status": "known",
+            "value": "320K / 350K",
+            "raw": "320K / 350K"
+          },
+          {
+            "status": "known",
+            "value": "800K / 1M",
+            "raw": "800K / 1M"
+          },
+          {
+            "status": "known",
+            "value": "1.1M / 1.3M",
+            "raw": "1.1M / 1.3M"
+          },
+          {
+            "status": "known",
+            "value": "2.1M / 2.3M",
+            "raw": "2.1M / 2.3M"
+          },
+          {
+            "status": "known",
+            "value": "3.1M / 3.3M",
+            "raw": "3.1M / 3.3M"
+          },
+          {
+            "status": "known",
+            "value": "3.9M / 4.1M",
+            "raw": "3.9M / 4.1M"
+          },
+          {
+            "status": "known",
+            "value": "4.7M / 5.3M",
+            "raw": "4.7M / 5.3M"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": "Sneaky Archer",
+            "raw": "Sneaky Archer"
+          },
+          {
+            "status": "known",
+            "value": "Time",
+            "raw": "Time"
+          },
+          {
+            "status": "known",
+            "value": "3m",
+            "raw": "3m"
+          },
+          {
+            "status": "known",
+            "value": "10m / 30m",
+            "raw": "10m / 30m"
+          },
+          {
+            "status": "known",
+            "value": "6h / 11h",
+            "raw": "6h / 11h"
+          },
+          {
+            "status": "known",
+            "value": "16h / 21h",
+            "raw": "16h / 21h"
+          },
+          {
+            "status": "known",
+            "value": "1d / 1d 12h",
+            "raw": "1d / 1d 12h"
+          },
+          {
+            "status": "known",
+            "value": "2d / 2d 12h",
+            "raw": "2d / 2d 12h"
+          },
+          {
+            "status": "known",
+            "value": "3d 12h / 4d 12h",
+            "raw": "3d 12h / 4d 12h"
+          },
+          {
+            "status": "known",
+            "value": "5d 12h / 5d 12h",
+            "raw": "5d 12h / 5d 12h"
+          },
+          {
+            "status": "known",
+            "value": "6d / 6d",
+            "raw": "6d / 6d"
+          },
+          {
+            "status": "known",
+            "value": "6d 12h / 6d 12h",
+            "raw": "6d 12h / 6d 12h"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": "Boxer Giant",
+            "raw": "Boxer Giant"
+          },
+          {
+            "status": "known",
+            "value": "Level",
+            "raw": "Level"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "known",
+            "value": "4 / 5 / 6",
+            "raw": "4 / 5 / 6"
+          },
+          {
+            "status": "known",
+            "value": "7 / 8",
+            "raw": "7 / 8"
+          },
+          {
+            "status": "known",
+            "value": "9 / 10",
+            "raw": "9 / 10"
+          },
+          {
+            "status": "known",
+            "value": "11 / 12",
+            "raw": "11 / 12"
+          },
+          {
+            "status": "known",
+            "value": "13 / 14",
+            "raw": "13 / 14"
+          },
+          {
+            "status": "known",
+            "value": "15 / 16",
+            "raw": "15 / 16"
+          },
+          {
+            "status": "known",
+            "value": "17 / 18",
+            "raw": "17 / 18"
+          },
+          {
+            "status": "known",
+            "value": "19 / 20",
+            "raw": "19 / 20"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": "Boxer Giant",
+            "raw": "Boxer Giant"
+          },
+          {
+            "status": "known",
+            "value": "Cost",
+            "raw": "Cost"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "known",
+            "value": "60K / 120K / 240K",
+            "raw": "60K / 120K / 240K"
+          },
+          {
+            "status": "known",
+            "value": "350K / 380K",
+            "raw": "350K / 380K"
+          },
+          {
+            "status": "known",
+            "value": "1M / 1.2M",
+            "raw": "1M / 1.2M"
+          },
+          {
+            "status": "known",
+            "value": "1.3M / 1.5M",
+            "raw": "1.3M / 1.5M"
+          },
+          {
+            "status": "known",
+            "value": "2.3M / 2.5M",
+            "raw": "2.3M / 2.5M"
+          },
+          {
+            "status": "known",
+            "value": "3.3M / 3.5M",
+            "raw": "3.3M / 3.5M"
+          },
+          {
+            "status": "known",
+            "value": "4M / 4.2M",
+            "raw": "4M / 4.2M"
+          },
+          {
+            "status": "known",
+            "value": "4.8M / 5.4M",
+            "raw": "4.8M / 5.4M"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": "Boxer Giant",
+            "raw": "Boxer Giant"
+          },
+          {
+            "status": "known",
+            "value": "Time",
+            "raw": "Time"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "known",
+            "value": "5h / 10h / 16h",
+            "raw": "5h / 10h / 16h"
+          },
+          {
+            "status": "known",
+            "value": "20h / 1d",
+            "raw": "20h / 1d"
+          },
+          {
+            "status": "known",
+            "value": "1d 12h / 2d",
+            "raw": "1d 12h / 2d"
+          },
+          {
+            "status": "known",
+            "value": "2d / 2d 12h",
+            "raw": "2d / 2d 12h"
+          },
+          {
+            "status": "known",
+            "value": "3d 12h / 4d 12h",
+            "raw": "3d 12h / 4d 12h"
+          },
+          {
+            "status": "known",
+            "value": "5d 12h / 5d 12h",
+            "raw": "5d 12h / 5d 12h"
+          },
+          {
+            "status": "known",
+            "value": "6d / 6d",
+            "raw": "6d / 6d"
+          },
+          {
+            "status": "known",
+            "value": "6d 12h / 6d 12h",
+            "raw": "6d 12h / 6d 12h"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": "Beta Minion",
+            "raw": "Beta Minion"
+          },
+          {
+            "status": "known",
+            "value": "Level",
+            "raw": "Level"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "known",
+            "value": "4 / 5 / 6",
+            "raw": "4 / 5 / 6"
+          },
+          {
+            "status": "known",
+            "value": "7 / 8",
+            "raw": "7 / 8"
+          },
+          {
+            "status": "known",
+            "value": "9 / 10",
+            "raw": "9 / 10"
+          },
+          {
+            "status": "known",
+            "value": "11 / 12",
+            "raw": "11 / 12"
+          },
+          {
+            "status": "known",
+            "value": "13 / 14",
+            "raw": "13 / 14"
+          },
+          {
+            "status": "known",
+            "value": "15 / 16",
+            "raw": "15 / 16"
+          },
+          {
+            "status": "known",
+            "value": "17 / 18",
+            "raw": "17 / 18"
+          },
+          {
+            "status": "known",
+            "value": "19 / 20",
+            "raw": "19 / 20"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": "Beta Minion",
+            "raw": "Beta Minion"
+          },
+          {
+            "status": "known",
+            "value": "Cost",
+            "raw": "Cost"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "known",
+            "value": "50K / 110K / 220K",
+            "raw": "50K / 110K / 220K"
+          },
+          {
+            "status": "known",
+            "value": "330K / 360K",
+            "raw": "330K / 360K"
+          },
+          {
+            "status": "known",
+            "value": "900K / 1.1M",
+            "raw": "900K / 1.1M"
+          },
+          {
+            "status": "known",
+            "value": "1.3M / 1.5M",
+            "raw": "1.3M / 1.5M"
+          },
+          {
+            "status": "known",
+            "value": "2.3M / 2.5M",
+            "raw": "2.3M / 2.5M"
+          },
+          {
+            "status": "known",
+            "value": "3.3M / 3.5M",
+            "raw": "3.3M / 3.5M"
+          },
+          {
+            "status": "known",
+            "value": "4M / 4.2M",
+            "raw": "4M / 4.2M"
+          },
+          {
+            "status": "known",
+            "value": "4.8M / 5.4M",
+            "raw": "4.8M / 5.4M"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": "Beta Minion",
+            "raw": "Beta Minion"
+          },
+          {
+            "status": "known",
+            "value": "Time",
+            "raw": "Time"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "known",
+            "value": "4h / 8h / 12h",
+            "raw": "4h / 8h / 12h"
+          },
+          {
+            "status": "known",
+            "value": "18h / 1d",
+            "raw": "18h / 1d"
+          },
+          {
+            "status": "known",
+            "value": "1d 12h / 2d",
+            "raw": "1d 12h / 2d"
+          },
+          {
+            "status": "known",
+            "value": "2d / 2d 12h",
+            "raw": "2d / 2d 12h"
+          },
+          {
+            "status": "known",
+            "value": "3d 12h / 4d 12h",
+            "raw": "3d 12h / 4d 12h"
+          },
+          {
+            "status": "known",
+            "value": "5d 12h / 5d 12h",
+            "raw": "5d 12h / 5d 12h"
+          },
+          {
+            "status": "known",
+            "value": "6d / 6d",
+            "raw": "6d / 6d"
+          },
+          {
+            "status": "known",
+            "value": "6d 12h / 6d 12h",
+            "raw": "6d 12h / 6d 12h"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": "Bomber",
+            "raw": "Bomber"
+          },
+          {
+            "status": "known",
+            "value": "Level",
+            "raw": "Level"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "known",
+            "value": "6 / 7 / 8",
+            "raw": "6 / 7 / 8"
+          },
+          {
+            "status": "known",
+            "value": "9 / 10",
+            "raw": "9 / 10"
+          },
+          {
+            "status": "known",
+            "value": "11 / 12",
+            "raw": "11 / 12"
+          },
+          {
+            "status": "known",
+            "value": "13 / 14",
+            "raw": "13 / 14"
+          },
+          {
+            "status": "known",
+            "value": "15 / 16",
+            "raw": "15 / 16"
+          },
+          {
+            "status": "known",
+            "value": "17 / 18",
+            "raw": "17 / 18"
+          },
+          {
+            "status": "known",
+            "value": "19 / 20",
+            "raw": "19 / 20"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": "Bomber",
+            "raw": "Bomber"
+          },
+          {
+            "status": "known",
+            "value": "Cost",
+            "raw": "Cost"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "known",
+            "value": "320K / 340K / 360K",
+            "raw": "320K / 340K / 360K"
+          },
+          {
+            "status": "known",
+            "value": "900K / 1M",
+            "raw": "900K / 1M"
+          },
+          {
+            "status": "known",
+            "value": "1.2M / 1.4M",
+            "raw": "1.2M / 1.4M"
+          },
+          {
+            "status": "known",
+            "value": "2.2M / 2.4M",
+            "raw": "2.2M / 2.4M"
+          },
+          {
+            "status": "known",
+            "value": "3.2M / 3.4M",
+            "raw": "3.2M / 3.4M"
+          },
+          {
+            "status": "known",
+            "value": "3.9M / 4.1M",
+            "raw": "3.9M / 4.1M"
+          },
+          {
+            "status": "known",
+            "value": "4.7M / 5.3M",
+            "raw": "4.7M / 5.3M"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": "Bomber",
+            "raw": "Bomber"
+          },
+          {
+            "status": "known",
+            "value": "Time",
+            "raw": "Time"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "known",
+            "value": "16h / 20h / 1d",
+            "raw": "16h / 20h / 1d"
+          },
+          {
+            "status": "known",
+            "value": "1d 12h / 2d",
+            "raw": "1d 12h / 2d"
+          },
+          {
+            "status": "known",
+            "value": "2d / 2d 12h",
+            "raw": "2d / 2d 12h"
+          },
+          {
+            "status": "known",
+            "value": "3d 12h / 4d 12h",
+            "raw": "3d 12h / 4d 12h"
+          },
+          {
+            "status": "known",
+            "value": "5d 12h / 5d 12h",
+            "raw": "5d 12h / 5d 12h"
+          },
+          {
+            "status": "known",
+            "value": "6d / 6d",
+            "raw": "6d / 6d"
+          },
+          {
+            "status": "known",
+            "value": "6d 12h / 6d 12h",
+            "raw": "6d 12h / 6d 12h"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": "Baby Dragon",
+            "raw": "Baby Dragon"
+          },
+          {
+            "status": "known",
+            "value": "Level",
+            "raw": "Level"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "known",
+            "value": "6 / 7 / 8",
+            "raw": "6 / 7 / 8"
+          },
+          {
+            "status": "known",
+            "value": "9 / 10",
+            "raw": "9 / 10"
+          },
+          {
+            "status": "known",
+            "value": "11 / 12",
+            "raw": "11 / 12"
+          },
+          {
+            "status": "known",
+            "value": "13 / 14",
+            "raw": "13 / 14"
+          },
+          {
+            "status": "known",
+            "value": "15 / 16",
+            "raw": "15 / 16"
+          },
+          {
+            "status": "known",
+            "value": "17 / 18",
+            "raw": "17 / 18"
+          },
+          {
+            "status": "known",
+            "value": "19 / 20",
+            "raw": "19 / 20"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": "Baby Dragon",
+            "raw": "Baby Dragon"
+          },
+          {
+            "status": "known",
+            "value": "Cost",
+            "raw": "Cost"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "known",
+            "value": "360K / 380K / 400K",
+            "raw": "360K / 380K / 400K"
+          },
+          {
+            "status": "known",
+            "value": "1M / 1.2M",
+            "raw": "1M / 1.2M"
+          },
+          {
+            "status": "known",
+            "value": "1.4M / 1.6M",
+            "raw": "1.4M / 1.6M"
+          },
+          {
+            "status": "known",
+            "value": "2.4M / 2.6M",
+            "raw": "2.4M / 2.6M"
+          },
+          {
+            "status": "known",
+            "value": "3.4M / 3.6M",
+            "raw": "3.4M / 3.6M"
+          },
+          {
+            "status": "known",
+            "value": "4.1M / 4.3M",
+            "raw": "4.1M / 4.3M"
+          },
+          {
+            "status": "known",
+            "value": "5.1M / 5.5M",
+            "raw": "5.1M / 5.5M"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": "Baby Dragon",
+            "raw": "Baby Dragon"
+          },
+          {
+            "status": "known",
+            "value": "Time",
+            "raw": "Time"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "known",
+            "value": "16h / 20h / 1d",
+            "raw": "16h / 20h / 1d"
+          },
+          {
+            "status": "known",
+            "value": "1d 12h / 2d",
+            "raw": "1d 12h / 2d"
+          },
+          {
+            "status": "known",
+            "value": "2d / 2d 12h",
+            "raw": "2d / 2d 12h"
+          },
+          {
+            "status": "known",
+            "value": "3d 12h / 4d 12h",
+            "raw": "3d 12h / 4d 12h"
+          },
+          {
+            "status": "known",
+            "value": "5d 12h / 5d 12h",
+            "raw": "5d 12h / 5d 12h"
+          },
+          {
+            "status": "known",
+            "value": "6d / 6d",
+            "raw": "6d / 6d"
+          },
+          {
+            "status": "known",
+            "value": "6d 12h / 6d 12h",
+            "raw": "6d 12h / 6d 12h"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": "Cannon Cart",
+            "raw": "Cannon Cart"
+          },
+          {
+            "status": "known",
+            "value": "Level",
+            "raw": "Level"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "known",
+            "value": "8 / 9 / 10",
+            "raw": "8 / 9 / 10"
+          },
+          {
+            "status": "known",
+            "value": "11 / 12",
+            "raw": "11 / 12"
+          },
+          {
+            "status": "known",
+            "value": "13 / 14",
+            "raw": "13 / 14"
+          },
+          {
+            "status": "known",
+            "value": "15 / 16",
+            "raw": "15 / 16"
+          },
+          {
+            "status": "known",
+            "value": "17 / 18",
+            "raw": "17 / 18"
+          },
+          {
+            "status": "known",
+            "value": "19 / 20",
+            "raw": "19 / 20"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": "Cannon Cart",
+            "raw": "Cannon Cart"
+          },
+          {
+            "status": "known",
+            "value": "Cost",
+            "raw": "Cost"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "known",
+            "value": "1M / 1.1M / 1.2M",
+            "raw": "1M / 1.1M / 1.2M"
+          },
+          {
+            "status": "known",
+            "value": "1.4M / 1.6M",
+            "raw": "1.4M / 1.6M"
+          },
+          {
+            "status": "known",
+            "value": "2.4M / 2.6M",
+            "raw": "2.4M / 2.6M"
+          },
+          {
+            "status": "known",
+            "value": "3.4M / 3.6M",
+            "raw": "3.4M / 3.6M"
+          },
+          {
+            "status": "known",
+            "value": "4.1M / 4.3M",
+            "raw": "4.1M / 4.3M"
+          },
+          {
+            "status": "known",
+            "value": "5.3M / 5.7M",
+            "raw": "5.3M / 5.7M"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": "Cannon Cart",
+            "raw": "Cannon Cart"
+          },
+          {
+            "status": "known",
+            "value": "Time",
+            "raw": "Time"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "known",
+            "value": "1d / 1d 12h / 2d",
+            "raw": "1d / 1d 12h / 2d"
+          },
+          {
+            "status": "known",
+            "value": "2d / 2d 12h",
+            "raw": "2d / 2d 12h"
+          },
+          {
+            "status": "known",
+            "value": "3d 12h / 4d 12h",
+            "raw": "3d 12h / 4d 12h"
+          },
+          {
+            "status": "known",
+            "value": "5d 12h / 5d 12h",
+            "raw": "5d 12h / 5d 12h"
+          },
+          {
+            "status": "known",
+            "value": "6d / 6d",
+            "raw": "6d / 6d"
+          },
+          {
+            "status": "known",
+            "value": "6d 12h / 6d 12h",
+            "raw": "6d 12h / 6d 12h"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": "Night Witch",
+            "raw": "Night Witch"
+          },
+          {
+            "status": "known",
+            "value": "Level",
+            "raw": "Level"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "known",
+            "value": "10 / 11 / 12",
+            "raw": "10 / 11 / 12"
+          },
+          {
+            "status": "known",
+            "value": "13 / 14",
+            "raw": "13 / 14"
+          },
+          {
+            "status": "known",
+            "value": "15 / 16",
+            "raw": "15 / 16"
+          },
+          {
+            "status": "known",
+            "value": "17 / 18",
+            "raw": "17 / 18"
+          },
+          {
+            "status": "known",
+            "value": "19 / 20",
+            "raw": "19 / 20"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": "Night Witch",
+            "raw": "Night Witch"
+          },
+          {
+            "status": "known",
+            "value": "Cost",
+            "raw": "Cost"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "known",
+            "value": "1.4M / 1.6M / 1.8M",
+            "raw": "1.4M / 1.6M / 1.8M"
+          },
+          {
+            "status": "known",
+            "value": "2.5M / 2.7M",
+            "raw": "2.5M / 2.7M"
+          },
+          {
+            "status": "known",
+            "value": "3.5M / 3.7M",
+            "raw": "3.5M / 3.7M"
+          },
+          {
+            "status": "known",
+            "value": "4.2M / 4.4M",
+            "raw": "4.2M / 4.4M"
+          },
+          {
+            "status": "known",
+            "value": "5.2M / 5.6M",
+            "raw": "5.2M / 5.6M"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": "Night Witch",
+            "raw": "Night Witch"
+          },
+          {
+            "status": "known",
+            "value": "Time",
+            "raw": "Time"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "known",
+            "value": "2d / 2d / 2d 12h",
+            "raw": "2d / 2d / 2d 12h"
+          },
+          {
+            "status": "known",
+            "value": "3d 12h / 4d 12h",
+            "raw": "3d 12h / 4d 12h"
+          },
+          {
+            "status": "known",
+            "value": "5d 12h / 5d 12h",
+            "raw": "5d 12h / 5d 12h"
+          },
+          {
+            "status": "known",
+            "value": "6d / 6d",
+            "raw": "6d / 6d"
+          },
+          {
+            "status": "known",
+            "value": "6d 12h / 6d 12h",
+            "raw": "6d 12h / 6d 12h"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": "Drop Ship",
+            "raw": "Drop Ship"
+          },
+          {
+            "status": "known",
+            "value": "Level",
+            "raw": "Level"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "known",
+            "value": "12 / 13 / 14",
+            "raw": "12 / 13 / 14"
+          },
+          {
+            "status": "known",
+            "value": "15 / 16",
+            "raw": "15 / 16"
+          },
+          {
+            "status": "known",
+            "value": "17 / 18",
+            "raw": "17 / 18"
+          },
+          {
+            "status": "known",
+            "value": "19 / 20",
+            "raw": "19 / 20"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": "Drop Ship",
+            "raw": "Drop Ship"
+          },
+          {
+            "status": "known",
+            "value": "Cost",
+            "raw": "Cost"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "known",
+            "value": "2.4M / 2.6M / 2.8M",
+            "raw": "2.4M / 2.6M / 2.8M"
+          },
+          {
+            "status": "known",
+            "value": "3.6M / 3.8M",
+            "raw": "3.6M / 3.8M"
+          },
+          {
+            "status": "known",
+            "value": "4.3M / 4.5M",
+            "raw": "4.3M / 4.5M"
+          },
+          {
+            "status": "known",
+            "value": "5.5M / 5.7M",
+            "raw": "5.5M / 5.7M"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": "Drop Ship",
+            "raw": "Drop Ship"
+          },
+          {
+            "status": "known",
+            "value": "Time",
+            "raw": "Time"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "known",
+            "value": "2d 12h / 3d 12h / 4d 12h",
+            "raw": "2d 12h / 3d 12h / 4d 12h"
+          },
+          {
+            "status": "known",
+            "value": "5d 12h / 5d 12h",
+            "raw": "5d 12h / 5d 12h"
+          },
+          {
+            "status": "known",
+            "value": "6d / 6d",
+            "raw": "6d / 6d"
+          },
+          {
+            "status": "known",
+            "value": "6d 12h / 6d 12h",
+            "raw": "6d 12h / 6d 12h"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": "Power P.E.K.K.A",
+            "raw": "Power P.E.K.K.A"
+          },
+          {
+            "status": "known",
+            "value": "Level",
+            "raw": "Level"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "known",
+            "value": "14 / 15 / 16",
+            "raw": "14 / 15 / 16"
+          },
+          {
+            "status": "known",
+            "value": "17 / 18",
+            "raw": "17 / 18"
+          },
+          {
+            "status": "known",
+            "value": "19 / 20",
+            "raw": "19 / 20"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": "Power P.E.K.K.A",
+            "raw": "Power P.E.K.K.A"
+          },
+          {
+            "status": "known",
+            "value": "Cost",
+            "raw": "Cost"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "known",
+            "value": "3.6M / 3.8M / 4M",
+            "raw": "3.6M / 3.8M / 4M"
+          },
+          {
+            "status": "known",
+            "value": "4.6M / 4.8M",
+            "raw": "4.6M / 4.8M"
+          },
+          {
+            "status": "known",
+            "value": "5.6M / 5.8M",
+            "raw": "5.6M / 5.8M"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": "Power P.E.K.K.A",
+            "raw": "Power P.E.K.K.A"
+          },
+          {
+            "status": "known",
+            "value": "Time",
+            "raw": "Time"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "known",
+            "value": "4d 12h / 5d 12h / 5d 12h",
+            "raw": "4d 12h / 5d 12h / 5d 12h"
+          },
+          {
+            "status": "known",
+            "value": "6d / 6d",
+            "raw": "6d / 6d"
+          },
+          {
+            "status": "known",
+            "value": "6d 12h / 6d 12h",
+            "raw": "6d 12h / 6d 12h"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": "Hog Glider",
+            "raw": "Hog Glider"
+          },
+          {
+            "status": "known",
+            "value": "Level",
+            "raw": "Level"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "known",
+            "value": "16 / 17 / 18",
+            "raw": "16 / 17 / 18"
+          },
+          {
+            "status": "known",
+            "value": "19 / 20",
+            "raw": "19 / 20"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": "Hog Glider",
+            "raw": "Hog Glider"
+          },
+          {
+            "status": "known",
+            "value": "Cost",
+            "raw": "Cost"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "known",
+            "value": "4M / 4.2M / 4.4M",
+            "raw": "4M / 4.2M / 4.4M"
+          },
+          {
+            "status": "known",
+            "value": "5.4M / 5.8M",
+            "raw": "5.4M / 5.8M"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": "Hog Glider",
+            "raw": "Hog Glider"
+          },
+          {
+            "status": "known",
+            "value": "Time",
+            "raw": "Time"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "known",
+            "value": "5d 12h / 6d / 6d",
+            "raw": "5d 12h / 6d / 6d"
+          },
+          {
+            "status": "known",
+            "value": "6d 12h / 6d 12h",
+            "raw": "6d 12h / 6d 12h"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": "Electrofire Wizard",
+            "raw": "Electrofire Wizard"
+          },
+          {
+            "status": "known",
+            "value": "Level",
+            "raw": "Level"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "known",
+            "value": "18 / 19 / 20",
+            "raw": "18 / 19 / 20"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": "Electrofire Wizard",
+            "raw": "Electrofire Wizard"
+          },
+          {
+            "status": "known",
+            "value": "Cost",
+            "raw": "Cost"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "known",
+            "value": "4.4M / 5.4M / 5.8M",
+            "raw": "4.4M / 5.4M / 5.8M"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": "Electrofire Wizard",
+            "raw": "Electrofire Wizard"
+          },
+          {
+            "status": "known",
+            "value": "Time",
+            "raw": "Time"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "-"
+          },
+          {
+            "status": "known",
+            "value": "6d / 6d 12h / 6d 12h",
+            "raw": "6d / 6d 12h / 6d 12h"
+          }
+        ]
+      ],
+      "extraInfo": []
+    }
+  ],
+  "images": [
+    {
+      "name": "Star_Laboratory10.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1282/Star_Laboratory10.png",
+      "alt": "星空实验室",
+      "localPath": "/images/original/upgrade/bh_buildings/1282/Star_Laboratory10.webp",
+      "logicalPath": "/upgrade/bh_buildings/1282/Star_Laboratory10.png"
+    },
+    {
+      "name": "Star_Laboratory_Ruin.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1282/Star_Laboratory_Ruin.png",
+      "alt": "废墟",
+      "localPath": "/images/original/upgrade/bh_buildings/1282/Star_Laboratory_Ruin.webp",
+      "logicalPath": "/upgrade/bh_buildings/1282/Star_Laboratory_Ruin.png"
+    },
+    {
+      "name": "Star_Laboratory1.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1282/Star_Laboratory1.png",
+      "alt": "1 级",
+      "localPath": "/images/original/upgrade/bh_buildings/1282/Star_Laboratory1.webp",
+      "logicalPath": "/upgrade/bh_buildings/1282/Star_Laboratory1.png"
+    },
+    {
+      "name": "Star_Laboratory2.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1282/Star_Laboratory2.png",
+      "alt": "2 级",
+      "localPath": "/images/original/upgrade/bh_buildings/1282/Star_Laboratory2.webp",
+      "logicalPath": "/upgrade/bh_buildings/1282/Star_Laboratory2.png"
+    },
+    {
+      "name": "Star_Laboratory3.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1282/Star_Laboratory3.png",
+      "alt": "3 级",
+      "localPath": "/images/original/upgrade/bh_buildings/1282/Star_Laboratory3.webp",
+      "logicalPath": "/upgrade/bh_buildings/1282/Star_Laboratory3.png"
+    },
+    {
+      "name": "Star_Laboratory4.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1282/Star_Laboratory4.png",
+      "alt": "4 级",
+      "localPath": "/images/original/upgrade/bh_buildings/1282/Star_Laboratory4.webp",
+      "logicalPath": "/upgrade/bh_buildings/1282/Star_Laboratory4.png"
+    },
+    {
+      "name": "Star_Laboratory5.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1282/Star_Laboratory5.png",
+      "alt": "5 级",
+      "localPath": "/images/original/upgrade/bh_buildings/1282/Star_Laboratory5.webp",
+      "logicalPath": "/upgrade/bh_buildings/1282/Star_Laboratory5.png"
+    },
+    {
+      "name": "Star_Laboratory6.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1282/Star_Laboratory6.png",
+      "alt": "6 级",
+      "localPath": "/images/original/upgrade/bh_buildings/1282/Star_Laboratory6.webp",
+      "logicalPath": "/upgrade/bh_buildings/1282/Star_Laboratory6.png"
+    },
+    {
+      "name": "Star_Laboratory7.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1282/Star_Laboratory7.png",
+      "alt": "7 级",
+      "localPath": "/images/original/upgrade/bh_buildings/1282/Star_Laboratory7.webp",
+      "logicalPath": "/upgrade/bh_buildings/1282/Star_Laboratory7.png"
+    },
+    {
+      "name": "Star_Laboratory8.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1282/Star_Laboratory8.png",
+      "alt": "8 级",
+      "localPath": "/images/original/upgrade/bh_buildings/1282/Star_Laboratory8.webp",
+      "logicalPath": "/upgrade/bh_buildings/1282/Star_Laboratory8.png"
+    },
+    {
+      "name": "Star_Laboratory9.png",
+      "url": "https://static.clashpost.com/upgrade/bh_buildings/1282/Star_Laboratory9.png",
+      "alt": "9 级",
+      "localPath": "/images/original/upgrade/bh_buildings/1282/Star_Laboratory9.webp",
+      "logicalPath": "/upgrade/bh_buildings/1282/Star_Laboratory9.png"
+    }
+  ],
+  "history": [],
+  "facts": [
+    "The Star Laboratory is a building that allows the player to upgrade their troops, much like the Laboratory in the Home Village. The Star Laboratory is unlocked at Builder Hall 2."
+  ],
+  "notices": []
+}

@@ -32,7 +32,7 @@ onMounted(() => {
     // 确定图片链接
     const refDom = unitLinkRef.value;
     const folder = refDom.parentNode.getAttribute("data-folder");
-    const link = resolveImage("https://static.clashpost.com/upgrade/" + folder + "/" + imgSrcOriginal);
+    const link = resolveImage(imgSrcOriginal.startsWith("/images/") ? imgSrcOriginal : "https://static.clashpost.com/upgrade/" + folder + "/" + imgSrcOriginal);
     refDom.querySelector("img").setAttribute("src", link);
 
 });

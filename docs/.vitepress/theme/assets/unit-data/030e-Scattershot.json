@@ -1,0 +1,887 @@
+{
+  "unitId": "030e-Scattershot",
+  "title": "投石炮",
+  "originalName": "Scattershot",
+  "module": "upgrade-home",
+  "imgFolder": "home_buildings/030e",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Scattershot",
+    "revision": 624490,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Scattershot?oldid=624490",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 2,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Town Hall Level",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "Number Available",
+            "raw": "Number Available"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          }
+        ],
+        [
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          },
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          },
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          },
+          {
+            "status": "known",
+            "value": 15,
+            "raw": "15"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          },
+          {
+            "status": "known",
+            "value": 17,
+            "raw": "17"
+          },
+          {
+            "status": "known",
+            "value": 18,
+            "raw": "18"
+          }
+        ],
+        [
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 3,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Size"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "3x3",
+            "raw": "3x3"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 4,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Level",
+        "Damage per Second",
+        "Damage per Shot",
+        "Splash Damage",
+        "Hitpoints",
+        "Build Cost",
+        "Build Time",
+        "Experience Gained",
+        "Town Hall Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 125,
+            "raw": "125"
+          },
+          {
+            "status": "known",
+            "value": "300-400",
+            "raw": "300-400"
+          },
+          {
+            "status": "known",
+            "value": "100-300",
+            "raw": "100-300"
+          },
+          {
+            "status": "known",
+            "value": 3600,
+            "raw": "3,600"
+          },
+          {
+            "status": "known",
+            "value": 8000000,
+            "raw": "8,000,000"
+          },
+          {
+            "status": "known",
+            "value": 432000,
+            "raw": "5d",
+            "unit": "seconds",
+            "displayInput": "5,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 657,
+            "raw": "657"
+          },
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 150,
+            "raw": "150"
+          },
+          {
+            "status": "known",
+            "value": "360-480",
+            "raw": "360-480"
+          },
+          {
+            "status": "known",
+            "value": "120-360",
+            "raw": "120-360"
+          },
+          {
+            "status": "known",
+            "value": 4200,
+            "raw": "4,200"
+          },
+          {
+            "status": "known",
+            "value": 9000000,
+            "raw": "9,000,000"
+          },
+          {
+            "status": "known",
+            "value": 604800,
+            "raw": "7d",
+            "unit": "seconds",
+            "displayInput": "7,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 777,
+            "raw": "777"
+          },
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 170,
+            "raw": "170"
+          },
+          {
+            "status": "known",
+            "value": "380-544",
+            "raw": "380-544"
+          },
+          {
+            "status": "known",
+            "value": "130-380",
+            "raw": "130-380"
+          },
+          {
+            "status": "known",
+            "value": 4800,
+            "raw": "4,800"
+          },
+          {
+            "status": "known",
+            "value": 11000000,
+            "raw": "11,000,000"
+          },
+          {
+            "status": "known",
+            "value": 648000,
+            "raw": "7d 12h",
+            "unit": "seconds",
+            "displayInput": "7,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 804,
+            "raw": "804"
+          },
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 175,
+            "raw": "175"
+          },
+          {
+            "status": "known",
+            "value": "400-560",
+            "raw": "400-560"
+          },
+          {
+            "status": "known",
+            "value": "140-400",
+            "raw": "140-400"
+          },
+          {
+            "status": "known",
+            "value": 5100,
+            "raw": "5,100"
+          },
+          {
+            "status": "known",
+            "value": 11500000,
+            "raw": "11,500,000"
+          },
+          {
+            "status": "known",
+            "value": 691200,
+            "raw": "8d",
+            "unit": "seconds",
+            "displayInput": "8,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 831,
+            "raw": "831"
+          },
+          {
+            "status": "known",
+            "value": 15,
+            "raw": "15"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 180,
+            "raw": "180"
+          },
+          {
+            "status": "known",
+            "value": "420-576",
+            "raw": "420-576"
+          },
+          {
+            "status": "known",
+            "value": "150-420",
+            "raw": "150-420"
+          },
+          {
+            "status": "known",
+            "value": 5410,
+            "raw": "5,410"
+          },
+          {
+            "status": "known",
+            "value": 12000000,
+            "raw": "12,000,000"
+          },
+          {
+            "status": "known",
+            "value": 734400,
+            "raw": "8d 12h",
+            "unit": "seconds",
+            "displayInput": "8,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 856,
+            "raw": "856"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 185,
+            "raw": "185"
+          },
+          {
+            "status": "known",
+            "value": "440-592",
+            "raw": "440-592"
+          },
+          {
+            "status": "known",
+            "value": "155-440",
+            "raw": "155-440"
+          },
+          {
+            "status": "known",
+            "value": 5600,
+            "raw": "5,600"
+          },
+          {
+            "status": "known",
+            "value": 16500000,
+            "raw": "16,500,000"
+          },
+          {
+            "status": "known",
+            "value": 777600,
+            "raw": "9d",
+            "unit": "seconds",
+            "displayInput": "9,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 881,
+            "raw": "881"
+          },
+          {
+            "status": "known",
+            "value": 17,
+            "raw": "17"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": 190,
+            "raw": "190"
+          },
+          {
+            "status": "known",
+            "value": "450-608",
+            "raw": "450-608"
+          },
+          {
+            "status": "known",
+            "value": "160-450",
+            "raw": "160-450"
+          },
+          {
+            "status": "known",
+            "value": 5800,
+            "raw": "5,800"
+          },
+          {
+            "status": "known",
+            "value": 26500000,
+            "raw": "26,500,000"
+          },
+          {
+            "status": "known",
+            "value": 1296000,
+            "raw": "15d",
+            "unit": "seconds",
+            "displayInput": "15,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 1138,
+            "raw": "1,138"
+          },
+          {
+            "status": "known",
+            "value": 18,
+            "raw": "18"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 5,
+          "type": "cost",
+          "icon": "Gold",
+          "gpClass": "building",
+          "noGoldPass": false
+        },
+        {
+          "column": 6,
+          "type": "time",
+          "gpClass": "building",
+          "noGoldPass": false
+        }
+      ]
+    },
+    {
+      "sourceTableIndex": 6,
+      "section": "Statistics",
+      "title": "Supercharges",
+      "headers": [
+        "Charge ⚡",
+        "Damage per Second",
+        "Damage per Shot",
+        "Splash Damage",
+        "Hitpoints",
+        "Build Cost",
+        "Build Time",
+        "Experience Gained",
+        "Town Hall Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 193,
+            "raw": "193"
+          },
+          {
+            "status": "known",
+            "value": "450-617.6",
+            "raw": "450-617.6"
+          },
+          {
+            "status": "known",
+            "value": "160-450",
+            "raw": "160-450"
+          },
+          {
+            "status": "known",
+            "value": 5800,
+            "raw": "5,800"
+          },
+          {
+            "status": "known",
+            "value": 14500000,
+            "raw": "14,500,000"
+          },
+          {
+            "status": "known",
+            "value": 432000,
+            "raw": "5d",
+            "unit": "seconds",
+            "displayInput": "5,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 657,
+            "raw": "657"
+          },
+          {
+            "status": "known",
+            "value": 18,
+            "raw": "18"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 193,
+            "raw": "193"
+          },
+          {
+            "status": "known",
+            "value": "450-617.6",
+            "raw": "450-617.6"
+          },
+          {
+            "status": "known",
+            "value": "160-450",
+            "raw": "160-450"
+          },
+          {
+            "status": "known",
+            "value": 5950,
+            "raw": "5,950"
+          },
+          {
+            "status": "known",
+            "value": 9500000,
+            "raw": "9,500,000"
+          },
+          {
+            "status": "known",
+            "value": 604800,
+            "raw": "7d",
+            "unit": "seconds",
+            "displayInput": "7,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 777,
+            "raw": "777"
+          },
+          {
+            "status": "known",
+            "value": 18,
+            "raw": "18"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 5,
+          "type": "cost",
+          "icon": "Gold",
+          "gpClass": "building",
+          "noGoldPass": false
+        },
+        {
+          "column": 6,
+          "type": "time",
+          "gpClass": "building",
+          "noGoldPass": false
+        }
+      ]
+    },
+    {
+      "sourceTableIndex": 7,
+      "section": "Statistics",
+      "title": "Supercharges",
+      "headers": [
+        "Range",
+        "Attack Speed",
+        "Damage Type",
+        "Unit Type Targeted",
+        "Number of Rounds"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "3-10",
+            "raw": "3-10"
+          },
+          {
+            "status": "known",
+            "value": "3.2s",
+            "raw": "3.2s"
+          },
+          {
+            "status": "known",
+            "value": "Area Splash",
+            "raw": "Area Splash"
+          },
+          {
+            "status": "known",
+            "value": "Ground & Air",
+            "raw": "Ground & Air"
+          },
+          {
+            "status": "known",
+            "value": 90,
+            "raw": "90"
+          }
+        ]
+      ],
+      "extraInfo": []
+    }
+  ],
+  "images": [
+    {
+      "name": "Scattershot6_hd.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/030e/Scattershot6_hd.png",
+      "alt": "投石炮",
+      "localPath": "/images/original/upgrade/home_buildings/030e/Scattershot6_hd.webp",
+      "logicalPath": "/upgrade/home_buildings/030e/Scattershot6_hd.png"
+    },
+    {
+      "name": "Scattershot1.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/030e/Scattershot1.png",
+      "alt": "1 级",
+      "localPath": "/images/original/upgrade/home_buildings/030e/Scattershot1.webp",
+      "logicalPath": "/upgrade/home_buildings/030e/Scattershot1.png"
+    },
+    {
+      "name": "Scattershot2.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/030e/Scattershot2.png",
+      "alt": "2 级",
+      "localPath": "/images/original/upgrade/home_buildings/030e/Scattershot2.webp",
+      "logicalPath": "/upgrade/home_buildings/030e/Scattershot2.png"
+    },
+    {
+      "name": "Scattershot3.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/030e/Scattershot3.png",
+      "alt": "3 级",
+      "localPath": "/images/original/upgrade/home_buildings/030e/Scattershot3.webp",
+      "logicalPath": "/upgrade/home_buildings/030e/Scattershot3.png"
+    },
+    {
+      "name": "Scattershot4.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/030e/Scattershot4.png",
+      "alt": "4 级",
+      "localPath": "/images/original/upgrade/home_buildings/030e/Scattershot4.webp",
+      "logicalPath": "/upgrade/home_buildings/030e/Scattershot4.png"
+    },
+    {
+      "name": "Scattershot5.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/030e/Scattershot5.png",
+      "alt": "5 级",
+      "localPath": "/images/original/upgrade/home_buildings/030e/Scattershot5.webp",
+      "logicalPath": "/upgrade/home_buildings/030e/Scattershot5.png"
+    },
+    {
+      "name": "Scattershot6.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/030e/Scattershot6.png",
+      "alt": "6 级",
+      "localPath": "/images/original/upgrade/home_buildings/030e/Scattershot6.webp",
+      "logicalPath": "/upgrade/home_buildings/030e/Scattershot6.png"
+    },
+    {
+      "name": "Scattershot1_Depleted.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/030e/Scattershot1_Depleted.png",
+      "alt": "1 级",
+      "localPath": "/images/original/upgrade/home_buildings/030e/Scattershot1_Depleted.webp",
+      "logicalPath": "/upgrade/home_buildings/030e/Scattershot1_Depleted.png"
+    },
+    {
+      "name": "Scattershot2_Depleted.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/030e/Scattershot2_Depleted.png",
+      "alt": "2 级",
+      "localPath": "/images/original/upgrade/home_buildings/030e/Scattershot2_Depleted.webp",
+      "logicalPath": "/upgrade/home_buildings/030e/Scattershot2_Depleted.png"
+    },
+    {
+      "name": "Scattershot3_Depleted.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/030e/Scattershot3_Depleted.png",
+      "alt": "3 级",
+      "localPath": "/images/original/upgrade/home_buildings/030e/Scattershot3_Depleted.webp",
+      "logicalPath": "/upgrade/home_buildings/030e/Scattershot3_Depleted.png"
+    },
+    {
+      "name": "Scattershot4_Depleted.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/030e/Scattershot4_Depleted.png",
+      "alt": "4 级",
+      "localPath": "/images/original/upgrade/home_buildings/030e/Scattershot4_Depleted.webp",
+      "logicalPath": "/upgrade/home_buildings/030e/Scattershot4_Depleted.png"
+    },
+    {
+      "name": "Scattershot5_Depleted.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/030e/Scattershot5_Depleted.png",
+      "alt": "5 级",
+      "localPath": "/images/original/upgrade/home_buildings/030e/Scattershot5_Depleted.webp",
+      "logicalPath": "/upgrade/home_buildings/030e/Scattershot5_Depleted.png"
+    },
+    {
+      "name": "Scattershot6_Depleted.png",
+      "url": "https://static.clashpost.com/upgrade/home_buildings/030e/Scattershot6_Depleted.png",
+      "alt": "6 级",
+      "localPath": "/images/original/upgrade/home_buildings/030e/Scattershot6_Depleted.webp",
+      "logicalPath": "/upgrade/home_buildings/030e/Scattershot6_Depleted.png"
+    },
+    {
+      "name": "Scattershot7.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/3/37/Scattershot7.png/revision/latest/scale-to-width-down/200?cb=20260709205916",
+      "alt": "Scattershot7",
+      "localPath": "/images/wiki/030e-Scattershot/56258d105c-Scattershot7.png",
+      "logicalPath": "/upgrade/home_buildings/030e/Scattershot7.png"
+    },
+    {
+      "name": "Scattershot7_Depleted.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/f/f7/Scattershot7_Depleted.png/revision/latest/scale-to-width-down/120?cb=20260503160928",
+      "alt": "Scattershot7 Depleted",
+      "localPath": "/images/wiki/030e-Scattershot/96d8c4a022-Scattershot7_Depleted.png",
+      "logicalPath": "/upgrade/home_buildings/030e/Scattershot7_Depleted.png"
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-02-23",
+      "description": "Reduce charge times at all charges: Charge 1: 5d -> 2d 12h Time Charge 2: 7d -> 4d Time Reduce charge costs at all charges: Charge 1: 11,000,000 -> 6,000,000 Gold Charge 2: 7,000,000 -> 3,500,000 Gold"
+    },
+    {
+      "date": "2026-04-27",
+      "description": "Added the level 7 Scattershot. Scattershot7 Removed the supercharges at level 6 Icon Supercharge ⚡ Reduce upgrade times at levels 1 and 6: Level 1: 6d -> 5d Time Level 6: 10d 12h -> 9d Time Changed the description of the Scattershot."
+    },
+    {
+      "date": "2026-06-16",
+      "description": "Added 2 Supercharge levels for the Scattershot. Icon Supercharge ⚡"
+    }
+  ],
+  "facts": [
+    "It takes 4 minutes and 33 seconds for one Scattershot to unload all of its ammunition.",
+    "There are two separate falloff hitboxes: one that affects units within 1 tile of the initial target; and another hitbox that affects units 1 to 5 tiles away."
+  ],
+  "notices": []
+}

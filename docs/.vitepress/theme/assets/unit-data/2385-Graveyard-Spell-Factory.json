@@ -1,0 +1,228 @@
+{
+  "unitId": "2385-Graveyard-Spell-Factory",
+  "title": "骷髅召唤法术工厂",
+  "originalName": "Clan Capital Spell Factories",
+  "module": "upgrade-capital",
+  "imgFolder": "capital_buildings/2385",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Clan_Capital_Spell_Factories",
+    "revision": 621246,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Clan_Capital_Spell_Factories?oldid=621246",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 31,
+      "section": "Graveyard Spell Factory",
+      "title": "Statistics",
+      "headers": [
+        "Number Available",
+        "District Hall Level / 1",
+        "District Hall Level / 2",
+        "District Hall Level / 3",
+        "District Hall Level / 4"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "Skeleton Park",
+            "raw": "Skeleton Park"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 32,
+      "section": "Graveyard Spell Factory",
+      "title": "Statistics",
+      "headers": [
+        "Size"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "3x3",
+            "raw": "3x3"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 34,
+      "section": "Graveyard Spell Factory",
+      "title": "Statistics",
+      "headers": [
+        "Level",
+        "Hitpoints",
+        "Build Cost",
+        "District Hall Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1000,
+            "raw": "1,000"
+          },
+          {
+            "status": "known",
+            "value": 20000,
+            "raw": "20,000"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 1150,
+            "raw": "1,150"
+          },
+          {
+            "status": "known",
+            "value": 40000,
+            "raw": "40,000"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 1300,
+            "raw": "1,300"
+          },
+          {
+            "status": "known",
+            "value": 75000,
+            "raw": "75,000"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 1450,
+            "raw": "1,450"
+          },
+          {
+            "status": "known",
+            "value": 150000,
+            "raw": "150,000"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 2,
+          "type": "cost",
+          "icon": "Gold3",
+          "gpClass": "building",
+          "noGoldPass": true
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "name": "Graveyard_Spell_Factory4.png",
+      "url": "https://static.clashpost.com/upgrade/capital_buildings/2385/Graveyard_Spell_Factory4.png",
+      "alt": "骷髅召唤法术工厂",
+      "localPath": "/images/original/upgrade/capital_buildings/2385/Graveyard_Spell_Factory4.webp",
+      "logicalPath": "/upgrade/capital_buildings/2385/Graveyard_Spell_Factory4.png"
+    },
+    {
+      "name": "Spell_Factory_Ruin.png",
+      "url": "https://static.clashpost.com/upgrade/capital_buildings/2385/Spell_Factory_Ruin.png",
+      "alt": "废墟",
+      "localPath": "/images/original/upgrade/capital_buildings/2385/Spell_Factory_Ruin.webp",
+      "logicalPath": "/upgrade/capital_buildings/2385/Spell_Factory_Ruin.png"
+    },
+    {
+      "name": "Graveyard_Spell_Factory1.png",
+      "url": "https://static.clashpost.com/upgrade/capital_buildings/2385/Graveyard_Spell_Factory1.png",
+      "alt": "1 级",
+      "localPath": "/images/original/upgrade/capital_buildings/2385/Graveyard_Spell_Factory1.webp",
+      "logicalPath": "/upgrade/capital_buildings/2385/Graveyard_Spell_Factory1.png"
+    },
+    {
+      "name": "Graveyard_Spell_Factory2.png",
+      "url": "https://static.clashpost.com/upgrade/capital_buildings/2385/Graveyard_Spell_Factory2.png",
+      "alt": "2 级",
+      "localPath": "/images/original/upgrade/capital_buildings/2385/Graveyard_Spell_Factory2.webp",
+      "logicalPath": "/upgrade/capital_buildings/2385/Graveyard_Spell_Factory2.png"
+    },
+    {
+      "name": "Graveyard_Spell_Factory3.png",
+      "url": "https://static.clashpost.com/upgrade/capital_buildings/2385/Graveyard_Spell_Factory3.png",
+      "alt": "3 级",
+      "localPath": "/images/original/upgrade/capital_buildings/2385/Graveyard_Spell_Factory3.webp",
+      "logicalPath": "/upgrade/capital_buildings/2385/Graveyard_Spell_Factory3.png"
+    }
+  ],
+  "history": [],
+  "facts": [],
+  "notices": []
+}

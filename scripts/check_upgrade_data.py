@@ -39,8 +39,10 @@ EXPECTED_LOCAL_FIELDS = {
 def cell(value, field, wiki=False):
     """Keep source semantics: a legacy placeholder is not a proven N/A."""
     raw = value.strip()
-    if raw == "N/A":
+    if raw in ("N/A", "None"):
         return {"status": "not_applicable", "value": None, "raw": raw}
+    if raw == "Free" or (field == "timeSeconds" and raw == "Instant"):
+        return {"status": "known", "value": 0, "raw": raw}
     if raw in ("", "\\", "-", "—"):
         return {"status": "unknown", "value": None, "raw": raw}
     parsed = seconds(raw, wiki) if field == "timeSeconds" else number(raw)
@@ -171,6 +173,9 @@ def extract(headers, rows, wiki=False):
 
 def compare(unit, snapshot):
     title, required_headers = PILOTS[unit]
+    data_path = ROOT / 'docs/.vitepress/theme/assets/unit-data' / (unit + '.json')
+    if data_path.exists():
+        return compare_synced(unit, snapshot, json.loads(data_path.read_text()))
     page = ROOT / "docs" / "upgrade" / f"{unit}.md"
     content = page.read_text(encoding="utf-8-sig")
     block = re.search(r"<UnitTable\b[^>]*>(.*?)</UnitTable>", content, re.S)
@@ -213,7 +218,7 @@ def compare(unit, snapshot):
     return {
         "reportVersion": 2,
         "unit": unit,
-        "localBaseline": "2026-02 (README; not independently verified)",
+        "localBaseline": "Legacy Markdown; unit update dates vary",
         "comparedAt": datetime.now(ZoneInfo("America/Vancouver")).isoformat(timespec="seconds"),
         "source": {"name": "Clash of Clans Wiki", "url": f"https://clashofclans.fandom.com/wiki/{title.replace(' ', '_')}", "revision": parsed["revid"], "revisionUrl": f"https://clashofclans.fandom.com/wiki/{title.replace(' ', '_')}?oldid={parsed['revid']}"},
         "scope": "Primary Home Village upgrade table; base cost, time and available requirements only",
@@ -228,6 +233,52 @@ def compare(unit, snapshot):
         "independentCorroboration": False,
         "pageModified": False,
     }
+
+
+def compare_synced(unit, snapshot, record):
+    """Compare conditions as well as levels after the migration to JSON."""
+    from sync_wiki_data import VillageFilter
+    title, required = PILOTS[unit]
+    parsed = snapshot.get('parse', {})
+    if parsed.get('title') != title or not isinstance(parsed.get('revid'), int):
+        raise ValueError('Snapshot title or revision does not match the requested unit')
+    filtered = VillageFilter('Home_Village'); filtered.feed(parsed['text']['*'])
+    parser = Tables(); parser.feed(''.join(filtered.output))
+    sources = [table for table in parser.tables if table and set(required).issubset(table[0])]
+    locals_ = [table for table in record['tables'] if set(required).issubset(table['headers'])]
+    if len(sources) != 1 or len(locals_) != 1:
+        raise ValueError('Expected one matching source and local primary table')
+    source_rows = extract(sources[0][0], sources[0][1:], wiki=True)
+    local_rows = extract(locals_[0]['headers'], [[cell['raw'] for cell in row] for row in locals_[0]['rows']], wiki=True)
+    def condition_key(row):
+        return (row['level'], *[(field, row[field]['status'], row[field]['value']) for field in sorted(row) if field.endswith('Level')])
+    source = {condition_key(row): row for row in source_rows}
+    local = {condition_key(row): row for row in local_rows}
+    if len(source) != len(source_rows) or len(local) != len(local_rows):
+        raise ValueError('Repeated level/condition combination in primary upgrade table')
+    changes, semantic, unknown = [], [], []
+    for key in source.keys() & local.keys():
+        for field in sorted((source[key].keys() & local[key].keys()) - {'level'}):
+            a, b = local[key][field], source[key][field]
+            entry = {'level': key[0], 'conditions': key[1:], 'field': field, 'local': a, 'wiki': b}
+            if 'unknown' in (a['status'], b['status']):
+                unknown.append(entry)
+            elif a['status'] != b['status']:
+                semantic.append(entry)
+            elif a['value'] != b['value']:
+                changes.append(entry)
+    counts = Counter(row['level'] for row in source_rows)
+    return {'reportVersion': 3, 'unit': unit, 'localBaseline': record['sync']['syncedOn'],
+            'comparedAt': datetime.now(ZoneInfo('America/Vancouver')).isoformat(timespec='seconds'),
+            'source': {'name': 'Clash of Clans Wiki', 'revision': parsed['revid'], 'url': record['sync']['sourceUrl']},
+            'scope': 'Primary Home Village upgrade table, including level/condition variants',
+            'changes': changes, 'semanticDifferences': semantic, 'unknownCells': unknown,
+            'newLevels': [source[key] for key in sorted(source.keys()-local.keys())],
+            'missingLevels': [local[key] for key in sorted(local.keys()-source.keys())],
+            'ambiguousLevels': [{'level': level, 'variants': [row for row in source_rows if row['level'] == level]} for level, count in counts.items() if count > 1],
+            'missingInSourceFields': sorted(local_rows[0].keys()-source_rows[0].keys()),
+            'missingInLocalFields': sorted(source_rows[0].keys()-local_rows[0].keys()),
+            'independentCorroboration': False, 'pageModified': False}
 
 
 def main():

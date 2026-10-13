@@ -1,0 +1,403 @@
+{
+  "unitId": "200b-Hog-Raiders",
+  "title": "野猪突袭队",
+  "originalName": "Hog Raiders",
+  "module": "upgrade-capital",
+  "imgFolder": "capital_tech/200b",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Hog_Raiders",
+    "revision": 622229,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Hog_Raiders?oldid=622229",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 2,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Squad Housing Space",
+        "Units Deployed"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 15,
+            "raw": "15"
+          },
+          {
+            "status": "known",
+            "value": "Hog Glider x1 Hog Rider x2",
+            "raw": "Hog Glider x1 Hog Rider x2"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 3,
+      "section": "Statistics",
+      "title": "Hog Glider",
+      "headers": [
+        "Preferred Target",
+        "Attack Type",
+        "Housing Space",
+        "Movement Speed",
+        "Range",
+        "Special Ability"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "Defenses",
+            "raw": "Defenses"
+          },
+          {
+            "status": "known",
+            "value": "Melee (Ground Only)",
+            "raw": "Melee (Ground Only)"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 18,
+            "raw": "18"
+          },
+          {
+            "status": "known",
+            "value": "0.25 tiles",
+            "raw": "0.25 tiles"
+          },
+          {
+            "status": "known",
+            "value": "Stunning Glide",
+            "raw": "Stunning Glide"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 4,
+      "section": "Statistics",
+      "title": "Hog Glider",
+      "headers": [
+        "Level",
+        "Damage",
+        "Hitpoints"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 120,
+            "raw": "120"
+          },
+          {
+            "status": "known",
+            "value": 650,
+            "raw": "650"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 130,
+            "raw": "130"
+          },
+          {
+            "status": "known",
+            "value": 700,
+            "raw": "700"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 140,
+            "raw": "140"
+          },
+          {
+            "status": "known",
+            "value": 750,
+            "raw": "750"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 150,
+            "raw": "150"
+          },
+          {
+            "status": "known",
+            "value": 800,
+            "raw": "800"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 160,
+            "raw": "160"
+          },
+          {
+            "status": "known",
+            "value": 850,
+            "raw": "850"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 5,
+      "section": "Statistics",
+      "title": "Hog Rider",
+      "headers": [
+        "Preferred Target",
+        "Attack Type",
+        "Housing Space",
+        "Movement Speed",
+        "Attack Speed",
+        "Range"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "Defenses",
+            "raw": "Defenses"
+          },
+          {
+            "status": "known",
+            "value": "Melee (Ground Only)",
+            "raw": "Melee (Ground Only)"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 20,
+            "raw": "20"
+          },
+          {
+            "status": "known",
+            "value": "1s",
+            "raw": "1s"
+          },
+          {
+            "status": "known",
+            "value": "0.75 tiles",
+            "raw": "0.75 tiles"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 6,
+      "section": "Statistics",
+      "title": "Hog Rider",
+      "headers": [
+        "Level",
+        "Damage per Second",
+        "Damage per Hit",
+        "Hitpoints"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 130,
+            "raw": "130"
+          },
+          {
+            "status": "known",
+            "value": 130,
+            "raw": "130"
+          },
+          {
+            "status": "known",
+            "value": 880,
+            "raw": "880"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 145,
+            "raw": "145"
+          },
+          {
+            "status": "known",
+            "value": 145,
+            "raw": "145"
+          },
+          {
+            "status": "known",
+            "value": 960,
+            "raw": "960"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 160,
+            "raw": "160"
+          },
+          {
+            "status": "known",
+            "value": 160,
+            "raw": "160"
+          },
+          {
+            "status": "known",
+            "value": 1040,
+            "raw": "1,040"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 175,
+            "raw": "175"
+          },
+          {
+            "status": "known",
+            "value": 175,
+            "raw": "175"
+          },
+          {
+            "status": "known",
+            "value": 1120,
+            "raw": "1,120"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 190,
+            "raw": "190"
+          },
+          {
+            "status": "known",
+            "value": 190,
+            "raw": "190"
+          },
+          {
+            "status": "known",
+            "value": 1200,
+            "raw": "1,200"
+          }
+        ]
+      ],
+      "extraInfo": []
+    }
+  ],
+  "images": [
+    {
+      "name": "Hog_Raiders_info.png",
+      "url": "https://static.clashpost.com/upgrade/capital_tech/200b/Hog_Raiders_info.png",
+      "alt": "野猪突袭队",
+      "localPath": "/images/original/upgrade/capital_tech/200b/Hog_Raiders_info.webp",
+      "logicalPath": "/upgrade/capital_tech/200b/Hog_Raiders_info.png"
+    },
+    {
+      "name": "Hog_Glider_info.png",
+      "url": "https://static.clashpost.com/upgrade/capital_tech/200b/Hog_Glider_info.png",
+      "alt": "野猪突袭队",
+      "localPath": "/images/original/upgrade/capital_tech/200b/Hog_Glider_info.webp",
+      "logicalPath": "/upgrade/capital_tech/200b/Hog_Glider_info.png"
+    },
+    {
+      "name": "Hog_Glider1.png",
+      "url": "https://static.clashpost.com/upgrade/capital_tech/200b/Hog_Glider1.png",
+      "alt": "所有等级",
+      "localPath": "/images/original/upgrade/capital_tech/200b/Hog_Glider1.webp",
+      "logicalPath": "/upgrade/capital_tech/200b/Hog_Glider1.png"
+    },
+    {
+      "name": "Hog_Rider_info.png",
+      "url": "https://static.clashpost.com/upgrade/capital_tech/200b/Hog_Rider_info.png",
+      "alt": "野猪突袭队",
+      "localPath": "/images/original/upgrade/capital_tech/200b/Hog_Rider_info.webp",
+      "logicalPath": "/upgrade/capital_tech/200b/Hog_Rider_info.png"
+    },
+    {
+      "name": "Hog_Rider1.png",
+      "url": "https://static.clashpost.com/upgrade/capital_tech/200b/Hog_Rider1.png",
+      "alt": "所有等级",
+      "localPath": "/images/original/upgrade/capital_tech/200b/Hog_Rider1.webp",
+      "logicalPath": "/upgrade/capital_tech/200b/Hog_Rider1.png"
+    }
+  ],
+  "history": [],
+  "facts": [
+    "The Hog Raiders are a squad available in the Clan Capital, available when the Hog Raider Barracks is constructed (this requires the Dragon Cliffs district to be unlocked, when the Capital Hall is upgraded to level 6). The squad spawns two Hog Riders and one Hog Glider.",
+    "One of the Hog Raiders is similar to the Hog Glider in the Builder Base, in that it is a Hog Rider on a glider that attempts to crash onto the nearest defense, stunning it for 4 seconds if it succeeds. Regardless, the Hog Rider will drop down and continue to fight."
+  ],
+  "notices": []
+}

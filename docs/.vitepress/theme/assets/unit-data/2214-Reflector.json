@@ -1,0 +1,340 @@
+{
+  "unitId": "2214-Reflector",
+  "title": "反弹机",
+  "originalName": "Reflector",
+  "module": "upgrade-capital",
+  "imgFolder": "capital_buildings/2214",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Reflector",
+    "revision": 612784,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Reflector?oldid=612784",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 3,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Number Available",
+        "District Hall Level / 1",
+        "District Hall Level / 2",
+        "District Hall Level / 3",
+        "District Hall Level / 4"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "Skeleton Park",
+            "raw": "Skeleton Park"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": "Goblin Mines",
+            "raw": "Goblin Mines"
+          },
+          {
+            "status": "known",
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 4,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Size"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "2x2",
+            "raw": "2x2"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 5,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Level",
+        "Damage per Second",
+        "Damage per Shot",
+        "Hitpoints",
+        "Build Cost",
+        "District Hall Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 260,
+            "raw": "260"
+          },
+          {
+            "status": "known",
+            "value": 149.5,
+            "raw": "149.5"
+          },
+          {
+            "status": "known",
+            "value": 3300,
+            "raw": "3,300"
+          },
+          {
+            "status": "known",
+            "value": 7500,
+            "raw": "7,500"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 290,
+            "raw": "290"
+          },
+          {
+            "status": "known",
+            "value": 166.75,
+            "raw": "166.75"
+          },
+          {
+            "status": "known",
+            "value": 3600,
+            "raw": "3,600"
+          },
+          {
+            "status": "known",
+            "value": 15000,
+            "raw": "15,000"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 320,
+            "raw": "320"
+          },
+          {
+            "status": "known",
+            "value": 184,
+            "raw": "184"
+          },
+          {
+            "status": "known",
+            "value": 3900,
+            "raw": "3,900"
+          },
+          {
+            "status": "known",
+            "value": 30000,
+            "raw": "30,000"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 350,
+            "raw": "350"
+          },
+          {
+            "status": "known",
+            "value": 201.25,
+            "raw": "201.25"
+          },
+          {
+            "status": "known",
+            "value": 4200,
+            "raw": "4,200"
+          },
+          {
+            "status": "known",
+            "value": 48000,
+            "raw": "48,000"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 4,
+          "type": "cost",
+          "icon": "Gold3",
+          "gpClass": "building",
+          "noGoldPass": true
+        }
+      ]
+    },
+    {
+      "sourceTableIndex": 6,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Range",
+        "Attack Speed",
+        "Damage Type",
+        "Unit Type Targeted"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": "0.575s",
+            "raw": "0.575s"
+          },
+          {
+            "status": "known",
+            "value": "Single Target",
+            "raw": "Single Target"
+          },
+          {
+            "status": "known",
+            "value": "Ground & Air",
+            "raw": "Ground & Air"
+          }
+        ]
+      ],
+      "extraInfo": []
+    }
+  ],
+  "images": [
+    {
+      "name": "Reflector4.png",
+      "url": "https://static.clashpost.com/upgrade/capital_buildings/2214/Reflector4.png",
+      "alt": "反弹机",
+      "localPath": "/images/original/upgrade/capital_buildings/2214/Reflector4.webp",
+      "logicalPath": "/upgrade/capital_buildings/2214/Reflector4.png"
+    },
+    {
+      "name": "Reflector_Ruin.png",
+      "url": "https://static.clashpost.com/upgrade/capital_buildings/2214/Reflector_Ruin.png",
+      "alt": "废墟",
+      "localPath": "/images/original/upgrade/capital_buildings/2214/Reflector_Ruin.webp",
+      "logicalPath": "/upgrade/capital_buildings/2214/Reflector_Ruin.png"
+    },
+    {
+      "name": "Reflector1.png",
+      "url": "https://static.clashpost.com/upgrade/capital_buildings/2214/Reflector1.png",
+      "alt": "1 级",
+      "localPath": "/images/original/upgrade/capital_buildings/2214/Reflector1.webp",
+      "logicalPath": "/upgrade/capital_buildings/2214/Reflector1.png"
+    },
+    {
+      "name": "Reflector2.png",
+      "url": "https://static.clashpost.com/upgrade/capital_buildings/2214/Reflector2.png",
+      "alt": "2 级",
+      "localPath": "/images/original/upgrade/capital_buildings/2214/Reflector2.webp",
+      "logicalPath": "/upgrade/capital_buildings/2214/Reflector2.png"
+    },
+    {
+      "name": "Reflector3.png",
+      "url": "https://static.clashpost.com/upgrade/capital_buildings/2214/Reflector3.png",
+      "alt": "3 级",
+      "localPath": "/images/original/upgrade/capital_buildings/2214/Reflector3.webp",
+      "logicalPath": "/upgrade/capital_buildings/2214/Reflector3.png"
+    },
+    {
+      "name": "Reflector_level4_info.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/8/89/Reflector_level4_info.png/revision/latest/scale-to-width-down/185?cb=20250318143454",
+      "alt": "",
+      "localPath": "/images/wiki/2214-Reflector/ca97b26182-Reflector_level4_info.png",
+      "logicalPath": "/upgrade/capital_buildings/2214/Reflector_level4_info.png"
+    }
+  ],
+  "history": [],
+  "facts": [],
+  "notices": []
+}

@@ -1,0 +1,611 @@
+{
+  "unitId": "0287-Phoenix",
+  "title": "凤凰",
+  "originalName": "Phoenix",
+  "module": "upgrade-home",
+  "imgFolder": "home_heroes/0287",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Phoenix",
+    "revision": 625128,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Phoenix?oldid=625128",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 2,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Preferred Target",
+        "Targets",
+        "Attack Type",
+        "Movement Speed",
+        "Attack Speed",
+        "Pet House Level Required",
+        "Range",
+        "Special Ability"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "Hero's Target",
+            "raw": "Hero's Target"
+          },
+          {
+            "status": "known",
+            "value": "Ground & Air",
+            "raw": "Ground & Air"
+          },
+          {
+            "status": "known",
+            "value": "Area Splash",
+            "raw": "Area Splash"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          },
+          {
+            "status": "known",
+            "value": "1s",
+            "raw": "1s"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": "2.5 tiles",
+            "raw": "2.5 tiles"
+          },
+          {
+            "status": "known",
+            "value": "Fiery Finale",
+            "raw": "Fiery Finale"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 3,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Level",
+        "Damage per Second",
+        "Damage per Hit",
+        "Revive Duration",
+        "Hitpoints",
+        "Upgrade Cost",
+        "Upgrade Time",
+        "Pet House Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 178,
+            "raw": "178"
+          },
+          {
+            "status": "known",
+            "value": 178,
+            "raw": "178"
+          },
+          {
+            "status": "known",
+            "value": "6.5s",
+            "raw": "6.5s"
+          },
+          {
+            "status": "known",
+            "value": 3120,
+            "raw": "3,120"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 186,
+            "raw": "186"
+          },
+          {
+            "status": "known",
+            "value": 186,
+            "raw": "186"
+          },
+          {
+            "status": "known",
+            "value": "6.5s",
+            "raw": "6.5s"
+          },
+          {
+            "status": "known",
+            "value": 3240,
+            "raw": "3,240"
+          },
+          {
+            "status": "known",
+            "value": 80000,
+            "raw": "80,000"
+          },
+          {
+            "status": "known",
+            "value": 129600,
+            "raw": "1d 12h",
+            "unit": "seconds",
+            "displayInput": "1,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 194,
+            "raw": "194"
+          },
+          {
+            "status": "known",
+            "value": 194,
+            "raw": "194"
+          },
+          {
+            "status": "known",
+            "value": "6.5s",
+            "raw": "6.5s"
+          },
+          {
+            "status": "known",
+            "value": 3360,
+            "raw": "3,360"
+          },
+          {
+            "status": "known",
+            "value": 95000,
+            "raw": "95,000"
+          },
+          {
+            "status": "known",
+            "value": 172800,
+            "raw": "2d",
+            "unit": "seconds",
+            "displayInput": "2,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 202,
+            "raw": "202"
+          },
+          {
+            "status": "known",
+            "value": 202,
+            "raw": "202"
+          },
+          {
+            "status": "known",
+            "value": "6.5s",
+            "raw": "6.5s"
+          },
+          {
+            "status": "known",
+            "value": 3480,
+            "raw": "3,480"
+          },
+          {
+            "status": "known",
+            "value": 110000,
+            "raw": "110,000"
+          },
+          {
+            "status": "known",
+            "value": 259200,
+            "raw": "3d",
+            "unit": "seconds",
+            "displayInput": "3,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 210,
+            "raw": "210"
+          },
+          {
+            "status": "known",
+            "value": 210,
+            "raw": "210"
+          },
+          {
+            "status": "known",
+            "value": "7.5s",
+            "raw": "7.5s"
+          },
+          {
+            "status": "known",
+            "value": 3600,
+            "raw": "3,600"
+          },
+          {
+            "status": "known",
+            "value": 125000,
+            "raw": "125,000"
+          },
+          {
+            "status": "known",
+            "value": 345600,
+            "raw": "4d",
+            "unit": "seconds",
+            "displayInput": "4,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 218,
+            "raw": "218"
+          },
+          {
+            "status": "known",
+            "value": 218,
+            "raw": "218"
+          },
+          {
+            "status": "known",
+            "value": "7.5s",
+            "raw": "7.5s"
+          },
+          {
+            "status": "known",
+            "value": 3720,
+            "raw": "3,720"
+          },
+          {
+            "status": "known",
+            "value": 140000,
+            "raw": "140,000"
+          },
+          {
+            "status": "known",
+            "value": 388800,
+            "raw": "4d 12h",
+            "unit": "seconds",
+            "displayInput": "4,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": 226,
+            "raw": "226"
+          },
+          {
+            "status": "known",
+            "value": 226,
+            "raw": "226"
+          },
+          {
+            "status": "known",
+            "value": "7.5s",
+            "raw": "7.5s"
+          },
+          {
+            "status": "known",
+            "value": 3840,
+            "raw": "3,840"
+          },
+          {
+            "status": "known",
+            "value": 155000,
+            "raw": "155,000"
+          },
+          {
+            "status": "known",
+            "value": 432000,
+            "raw": "5d",
+            "unit": "seconds",
+            "displayInput": "5,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": 234,
+            "raw": "234"
+          },
+          {
+            "status": "known",
+            "value": 234,
+            "raw": "234"
+          },
+          {
+            "status": "known",
+            "value": "7.5s",
+            "raw": "7.5s"
+          },
+          {
+            "status": "known",
+            "value": 3960,
+            "raw": "3,960"
+          },
+          {
+            "status": "known",
+            "value": 170000,
+            "raw": "170,000"
+          },
+          {
+            "status": "known",
+            "value": 475200,
+            "raw": "5d 12h",
+            "unit": "seconds",
+            "displayInput": "5,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          },
+          {
+            "status": "known",
+            "value": 242,
+            "raw": "242"
+          },
+          {
+            "status": "known",
+            "value": 242,
+            "raw": "242"
+          },
+          {
+            "status": "known",
+            "value": "7.5s",
+            "raw": "7.5s"
+          },
+          {
+            "status": "known",
+            "value": 4080,
+            "raw": "4,080"
+          },
+          {
+            "status": "known",
+            "value": 180000,
+            "raw": "180,000"
+          },
+          {
+            "status": "known",
+            "value": 518400,
+            "raw": "6d",
+            "unit": "seconds",
+            "displayInput": "6,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 250,
+            "raw": "250"
+          },
+          {
+            "status": "known",
+            "value": 250,
+            "raw": "250"
+          },
+          {
+            "status": "known",
+            "value": "8.5s",
+            "raw": "8.5s"
+          },
+          {
+            "status": "known",
+            "value": 4200,
+            "raw": "4,200"
+          },
+          {
+            "status": "known",
+            "value": 190000,
+            "raw": "190,000"
+          },
+          {
+            "status": "known",
+            "value": 561600,
+            "raw": "6d 12h",
+            "unit": "seconds",
+            "displayInput": "6,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 5,
+          "type": "cost",
+          "icon": "Dark_Elixir",
+          "gpClass": "research",
+          "noGoldPass": false
+        },
+        {
+          "column": 6,
+          "type": "time",
+          "gpClass": "research",
+          "noGoldPass": false
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "name": "Phoenix_info.png",
+      "url": "https://static.clashpost.com/upgrade/home_heroes/0287/Phoenix_info.png",
+      "alt": "凤凰",
+      "localPath": "/images/original/upgrade/home_heroes/0287/Phoenix_info.webp",
+      "logicalPath": "/upgrade/home_heroes/0287/Phoenix_info.png"
+    },
+    {
+      "name": "Phoenix_field.png",
+      "url": "https://static.clashpost.com/upgrade/home_heroes/0287/Phoenix_field.png",
+      "alt": "凤凰",
+      "localPath": "/images/original/upgrade/home_heroes/0287/Phoenix_field.webp",
+      "logicalPath": "/upgrade/home_heroes/0287/Phoenix_field.png"
+    },
+    {
+      "name": "Phoenix_Egg.png",
+      "url": "https://static.clashpost.com/upgrade/home_heroes/0287/Phoenix_Egg.png",
+      "alt": "凤凰蛋",
+      "localPath": "/images/original/upgrade/home_heroes/0287/Phoenix_Egg.webp",
+      "logicalPath": "/upgrade/home_heroes/0287/Phoenix_Egg.png"
+    },
+    {
+      "name": "Phoenix_info_2.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/4/47/Phoenix_info_2.png/revision/latest/scale-to-width-down/166?cb=20221012064346",
+      "alt": "",
+      "localPath": "/images/wiki/0287-Phoenix/cb93f990bc-Phoenix_info_2.png",
+      "logicalPath": "/upgrade/home_heroes/0287/Phoenix_info_2.png"
+    },
+    {
+      "name": "Phoenix1.webp",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/3/37/Phoenix1.webp/revision/latest/scale-to-width-down/153?cb=20221101022332",
+      "alt": "Clash Royale Phoenix",
+      "localPath": "/images/wiki/0287-Phoenix/381cd2f66b-Phoenix1.webp",
+      "logicalPath": "/upgrade/home_heroes/0287/Phoenix1.webp"
+    },
+    {
+      "name": "Phoenix2.webp",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/5/5d/Phoenix2.webp/revision/latest/scale-to-width-down/185?cb=20221101022331",
+      "alt": "Clash Royale Phoenix 2",
+      "localPath": "/images/wiki/0287-Phoenix/87e2d8d590-Phoenix2.webp",
+      "logicalPath": "/upgrade/home_heroes/0287/Phoenix2.webp"
+    },
+    {
+      "name": "Phoenix3.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b6/Phoenix3.png/revision/latest/scale-to-width-down/185?cb=20260708144140",
+      "alt": "Clash Royale Phoenix 3",
+      "localPath": "/images/wiki/0287-Phoenix/229ec8c60b-Phoenix3.png",
+      "logicalPath": "/upgrade/home_heroes/0287/Phoenix3.png"
+    },
+    {
+      "name": "Phoenix4.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/9/93/Phoenix4.png/revision/latest/scale-to-width-down/130?cb=20260708144205",
+      "alt": "Clash Royale Phoenix 4",
+      "localPath": "/images/wiki/0287-Phoenix/1b467137bf-Phoenix4.png",
+      "logicalPath": "/upgrade/home_heroes/0287/Phoenix4.png"
+    }
+  ],
+  "history": [],
+  "facts": [
+    "The Phoenix is the eighth pet unlocked, unlocked when the Pet House is upgraded to level 8, which requires Town Hall 15."
+  ],
+  "notices": []
+}

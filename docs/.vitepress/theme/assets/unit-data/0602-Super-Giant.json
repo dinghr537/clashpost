@@ -1,0 +1,317 @@
+{
+  "unitId": "0602-Super-Giant",
+  "title": "超级巨人",
+  "originalName": "Super Giant",
+  "module": "upgrade-home",
+  "imgFolder": "home_tech/0602",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Super_Giant",
+    "revision": 600738,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Super_Giant?oldid=600738",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 1,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Preferred Target",
+        "Attack Type",
+        "Housing Space",
+        "Movement Speed",
+        "Attack Speed",
+        "Range",
+        "Special Ability"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "Defenses",
+            "raw": "Defenses"
+          },
+          {
+            "status": "known",
+            "value": "Melee (Ground Only)",
+            "raw": "Melee (Ground Only)"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          },
+          {
+            "status": "known",
+            "value": "2s",
+            "raw": "2s"
+          },
+          {
+            "status": "known",
+            "value": "1 tile",
+            "raw": "1 tile"
+          },
+          {
+            "status": "known",
+            "value": "Wall Buster",
+            "raw": "Wall Buster"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 2,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Boost Cost",
+        "Boost Duration",
+        "Giant Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 25000,
+            "raw": "25,000"
+          },
+          {
+            "status": "known",
+            "value": "3d",
+            "raw": "3d"
+          },
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 0,
+          "type": "cost",
+          "icon": "Dark_Elixir",
+          "gpClass": "research",
+          "noGoldPass": true
+        }
+      ]
+    },
+    {
+      "sourceTableIndex": 3,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Level",
+        "Damage per Second",
+        "Damage per Attack",
+        "Damage vs Walls",
+        "Hitpoints"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          },
+          {
+            "status": "known",
+            "value": 130,
+            "raw": "130"
+          },
+          {
+            "status": "known",
+            "value": 260,
+            "raw": "260"
+          },
+          {
+            "status": "known",
+            "value": 1300,
+            "raw": "1,300"
+          },
+          {
+            "status": "known",
+            "value": 4000,
+            "raw": "4,000"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 140,
+            "raw": "140"
+          },
+          {
+            "status": "known",
+            "value": 280,
+            "raw": "280"
+          },
+          {
+            "status": "known",
+            "value": 1400,
+            "raw": "1,400"
+          },
+          {
+            "status": "known",
+            "value": 4200,
+            "raw": "4,200"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          },
+          {
+            "status": "known",
+            "value": 150,
+            "raw": "150"
+          },
+          {
+            "status": "known",
+            "value": 300,
+            "raw": "300"
+          },
+          {
+            "status": "known",
+            "value": 1500,
+            "raw": "1,500"
+          },
+          {
+            "status": "known",
+            "value": 4400,
+            "raw": "4,400"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          },
+          {
+            "status": "known",
+            "value": 160,
+            "raw": "160"
+          },
+          {
+            "status": "known",
+            "value": 320,
+            "raw": "320"
+          },
+          {
+            "status": "known",
+            "value": 1600,
+            "raw": "1,600"
+          },
+          {
+            "status": "known",
+            "value": 4600,
+            "raw": "4,600"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          },
+          {
+            "status": "known",
+            "value": 175,
+            "raw": "175"
+          },
+          {
+            "status": "known",
+            "value": 350,
+            "raw": "350"
+          },
+          {
+            "status": "known",
+            "value": 1750,
+            "raw": "1,750"
+          },
+          {
+            "status": "known",
+            "value": 4900,
+            "raw": "4,900"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          },
+          {
+            "status": "known",
+            "value": 205,
+            "raw": "205"
+          },
+          {
+            "status": "known",
+            "value": 410,
+            "raw": "410"
+          },
+          {
+            "status": "known",
+            "value": 2050,
+            "raw": "2,050"
+          },
+          {
+            "status": "known",
+            "value": 5600,
+            "raw": "5,600"
+          }
+        ]
+      ],
+      "extraInfo": []
+    }
+  ],
+  "images": [
+    {
+      "name": "Super_Giant_info.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0602/Super_Giant_info.png",
+      "alt": "超级巨人",
+      "localPath": "/images/original/upgrade/home_tech/0602/Super_Giant_info.webp",
+      "logicalPath": "/upgrade/home_tech/0602/Super_Giant_info.png"
+    },
+    {
+      "name": "Super_Giant9.png",
+      "url": "https://static.clashpost.com/upgrade/home_tech/0602/Super_Giant9.png",
+      "alt": "所有等级",
+      "localPath": "/images/original/upgrade/home_tech/0602/Super_Giant9.webp",
+      "logicalPath": "/upgrade/home_tech/0602/Super_Giant9.png"
+    },
+    {
+      "name": "Super_Giant_info_2.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/7/77/Super_Giant_info_2.png/revision/latest/scale-to-width-down/185?cb=20260707232842",
+      "alt": "",
+      "localPath": "/images/wiki/0602-Super-Giant/6df454cfd8-Super_Giant_info_2.png",
+      "logicalPath": "/upgrade/home_tech/0602/Super_Giant_info_2.png"
+    }
+  ],
+  "history": [],
+  "facts": [
+    "The Super Giant is a Super Troop based on the Giant. It can be unlocked by boosting the Giant when the Giant is at least level 9.",
+    "Boosting the Giant requires 25,000 Dark Elixir or a Super Potion, and doing so allows the Giant to be boosted for 3 days. The level of Super Giant you obtain from the boost corresponds to the level of Giant you have.",
+    "Because of the level requirement, players require Town Hall 12 in order to boost Giants into Super Giants. However, because of the Laboratory level cap, players require a level 6 Clan Castle or greater in order to get donated one, allowing anyone Town Hall 10 or above to get one."
+  ],
+  "notices": []
+}

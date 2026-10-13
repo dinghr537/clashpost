@@ -1,0 +1,342 @@
+{
+  "unitId": "0013-Ruin-Witch",
+  "title": "Ruin Witch",
+  "originalName": "Ruin Witch",
+  "module": "upgrade-home",
+  "imgFolder": "home_tech/0013",
+  "sync": {
+    "status": "synced",
+    "source": "Clash of Clans Wiki",
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Ruin_Witch",
+    "revision": 625328,
+    "revisionUrl": "https://clashofclans.fandom.com/wiki/Ruin_Witch?oldid=625328",
+    "syncedOn": "2026-10-13",
+    "scope": "Source statistics tables and available 2026 history; base values"
+  },
+  "tables": [
+    {
+      "sourceTableIndex": 2,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Preferred Target",
+        "Housing Space",
+        "Movement Speed",
+        "Dark Barracks Level Required",
+        "Range"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": "Rubble",
+            "raw": "Rubble"
+          },
+          {
+            "status": "known",
+            "value": 26,
+            "raw": "26"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          },
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          },
+          {
+            "status": "known",
+            "value": "0.8 tiles",
+            "raw": "0.8 tiles"
+          }
+        ]
+      ],
+      "extraInfo": []
+    },
+    {
+      "sourceTableIndex": 3,
+      "section": "Statistics",
+      "title": "",
+      "headers": [
+        "Level",
+        "Ruin Knight Level",
+        "Maximum Ruin Knights Summoned",
+        "Hitpoints",
+        "Damage per Second",
+        "Damage per Hit",
+        "Research Cost",
+        "Research Time",
+        "Laboratory Level Required"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 2300,
+            "raw": "2,300"
+          },
+          {
+            "status": "known",
+            "value": 25,
+            "raw": "25"
+          },
+          {
+            "status": "known",
+            "value": 50,
+            "raw": "50"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "not_applicable",
+            "value": null,
+            "raw": "N/A"
+          },
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 2550,
+            "raw": "2,550"
+          },
+          {
+            "status": "known",
+            "value": 26,
+            "raw": "26"
+          },
+          {
+            "status": "known",
+            "value": 52,
+            "raw": "52"
+          },
+          {
+            "status": "known",
+            "value": 220000,
+            "raw": "220,000"
+          },
+          {
+            "status": "known",
+            "value": 950400,
+            "raw": "11d",
+            "unit": "seconds",
+            "displayInput": "11,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 2800,
+            "raw": "2,800"
+          },
+          {
+            "status": "known",
+            "value": 27,
+            "raw": "27"
+          },
+          {
+            "status": "known",
+            "value": 54,
+            "raw": "54"
+          },
+          {
+            "status": "known",
+            "value": 300000,
+            "raw": "300,000"
+          },
+          {
+            "status": "known",
+            "value": 1036800,
+            "raw": "12d",
+            "unit": "seconds",
+            "displayInput": "12,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 15,
+            "raw": "15"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 3050,
+            "raw": "3,050"
+          },
+          {
+            "status": "known",
+            "value": 28,
+            "raw": "28"
+          },
+          {
+            "status": "known",
+            "value": 56,
+            "raw": "56"
+          },
+          {
+            "status": "known",
+            "value": 380000,
+            "raw": "380,000"
+          },
+          {
+            "status": "known",
+            "value": 1339200,
+            "raw": "15d 12h",
+            "unit": "seconds",
+            "displayInput": "15,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          }
+        ]
+      ],
+      "extraInfo": [
+        {
+          "column": 6,
+          "type": "cost",
+          "icon": "Dark_Elixir",
+          "gpClass": "research",
+          "noGoldPass": false
+        },
+        {
+          "column": 7,
+          "type": "time",
+          "gpClass": "research",
+          "noGoldPass": false
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "name": "Ruin_Witch_info.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/2/23/Ruin_Witch_info.png/revision/latest/scale-to-width-down/300?cb=20260614153137",
+      "alt": "Ruin Witch info",
+      "localPath": "/images/wiki/0013-Ruin-Witch/78d8f4a05a-Ruin_Witch_info.png",
+      "logicalPath": "/upgrade/home_tech/0013/Ruin_Witch_info.png"
+    },
+    {
+      "name": "Ruin_Witch1.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/0/06/Ruin_Witch1.png/revision/latest/scale-to-width-down/80?cb=20260614153028",
+      "alt": "Ruin Witch1",
+      "localPath": "/images/wiki/0013-Ruin-Witch/819cc81892-Ruin_Witch1.png",
+      "logicalPath": "/upgrade/home_tech/0013/Ruin_Witch1.png"
+    },
+    {
+      "name": "Ruin_Witch2.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b5/Ruin_Witch2.png/revision/latest/scale-to-width-down/80?cb=20260614153042",
+      "alt": "Ruin Witch2",
+      "localPath": "/images/wiki/0013-Ruin-Witch/8e1edb5f49-Ruin_Witch2.png",
+      "logicalPath": "/upgrade/home_tech/0013/Ruin_Witch2.png"
+    },
+    {
+      "name": "Ruin_Witch3.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/6/62/Ruin_Witch3.png/revision/latest/scale-to-width-down/80?cb=20260614153059",
+      "alt": "Ruin Witch3",
+      "localPath": "/images/wiki/0013-Ruin-Witch/f6115bd426-Ruin_Witch3.png",
+      "logicalPath": "/upgrade/home_tech/0013/Ruin_Witch3.png"
+    },
+    {
+      "name": "Ruin_Witch4.png",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/e/ec/Ruin_Witch4.png/revision/latest/scale-to-width-down/80?cb=20260614153114",
+      "alt": "Ruin Witch4",
+      "localPath": "/images/wiki/0013-Ruin-Witch/7636e82ba8-Ruin_Witch4.png",
+      "logicalPath": "/upgrade/home_tech/0013/Ruin_Witch4.png"
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-06-13",
+      "description": "Announced the Ruin Witch."
+    },
+    {
+      "date": "2026-06-16",
+      "description": "The Ruin Witch was added with four levels. Ruin Witch1 Ruin Witch2 Ruin Witch3 Ruin Witch4"
+    },
+    {
+      "date": "2026-08-31",
+      "description": "Increased the numbers of Ruin Knight summoned at all levels from 8 to 10. Skeleton"
+    }
+  ],
+  "facts": [
+    "The Ruin Witch is the thirteenth and currently last Dark Elixir Troop unlocked at Dark Barracks level 13, which requires Town Hall level 16."
+  ],
+  "notices": []
+}

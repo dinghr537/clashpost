@@ -19,8 +19,8 @@
 | 来源 | 用途 | 当前状态 |
 | --- | --- | --- |
 | [Supercell 官网](https://supercell.com/en/games/clashofclans/blog/) | 查看更新范围，采用官方公开数值 | 已读取公开公告；部分公告有费用和时间表 |
-| [Clash of Clans Wiki](https://clashofclans.fandom.com/wiki/Clash_of_Clans_Wiki) | 获取各等级的完整表格和更新历史 | 公开 MediaWiki API 已读取加农炮、蛮王、法师 |
-| [Clash Ninja](https://www.clash.ninja/upgrade-tracker/overview) | 获取或补充升级数据、参考更新范围 | 已读取公开介绍页；具体数值的获取方式尚未验证 |
+| [Clash of Clans Wiki](https://clashofclans.fandom.com/wiki/Clash_of_Clans_Wiki) | 获取各等级的完整表格和更新历史 | 公开 MediaWiki API 已完成本次 357 页的固定修订同步 |
+| [Clash Ninja](https://www.clash.ninja/upgrade-tracker/overview) | 获取或补充升级数据、参考更新范围 | 已采用四月公告中的法师塔升级时间变更补充历史 |
 | 其他数据网站 | 用户指定来源、填补缺项 | 使用时记录对应页面与同步范围 |
 
 目标是正确同步选定数据网站的内容，不承诺独立验证游戏中的每一个数值，也不要求每次多站交叉验证或进入游戏核实。来源网站的原始错误可以继承；本站应避免采集、转换、漏行、错列或折扣计算造成的新错误。
@@ -43,7 +43,24 @@
 
 首次以「只提供升级数据」的定位上线前，还应关闭实际安装包下载行为，移除首页和导航中的下载、攻略服务入口，以及相关维护承诺；同步公告和 README。文章不随网站构建，只保留数据查询。本地版已完成这些入口与承诺的调整；首次正式发布时仍需核对部署产物与线上结果。
 
-## 试点差异工具
+## 手动同步工具
+
+本次已迁移 357 个数据页到独立 JSON 文件，新增 17 个单位；原 34 组最高等级缺口已补齐。其余 31 个往期活动单位保留旧数据并在页面标注。所有工具只在手动执行时运行，没有后台任务或自动发布。
+
+```bash
+python3 -B scripts/fetch_wiki_snapshots.py --cache /tmp/clashpost-next-sync
+python3 -B scripts/sync_wiki_data.py --cache /tmp/clashpost-next-sync --date YYYY-MM-DD
+python3 -B scripts/download_wiki_images.py --preview /tmp/clashpost-next-sync/records-preview.json
+python3 -B scripts/sync_wiki_data.py --cache /tmp/clashpost-next-sync --date YYYY-MM-DD --apply
+python3 -B scripts/check_synced_data.py --cache /tmp/clashpost-next-sync
+python3 -B scripts/check_local_images.py
+python3 -B -m unittest discover -s tests
+npm run docs:build
+```
+
+每批使用新的缓存目录，避免复用上一次修订。先查看预览报告与来源，再导入；新增内容还需手动检查目录、活动可用时间和来源中的单位模式。Wiki 缓存包含完整 HTML，仅放在临时目录；仓库保存数据表、修订号、图片及来源记录。
+
+## 差异工具
 
 `scripts/check_upgrade_data.py` 只比较家乡加农炮、蛮王和法师的主升级表，不覆盖页面：
 
@@ -55,7 +72,7 @@ python3 scripts/check_upgrade_data.py --unit 0006-Wizard --output /tmp/wizard-di
 
 工具使用 Python 3 标准库。`--snapshot` 可复核已保存的 MediaWiki JSON 响应；报告日期是比较执行时间。网络失败会报错。
 
-报告分别列出数值变化、适用性差异、未知值、新增等级、缺失等级、条件歧义和双向缺列。预期本地前置列丢失时直接报错。Wiki 的 `N/A` 记为不适用；本地空白、反斜杠等历史占位符记为未知，原始文本保留。蛮王一级的条件变体单独列出，法师一级实验室条件属于语义待核对，不能解释成普通数值更新。
+报告分别列出数值变化、适用性差异、未知值、新增等级、缺失等级、条件歧义和双向缺列。原 Markdown 预期前置列丢失时直接报错；迁移后的 JSON 比较对应来源表，并把同等级的不同前置条件分别比较。Wiki 的 `N/A` 记为不适用；本地空白、反斜杠等历史占位符记为未知，原始文本保留。蛮王一级的条件变体单独列出；新版数据按 Wiki 原行保留，不能仅按等级合并。
 
 回归检查：
 
@@ -63,8 +80,8 @@ python3 scripts/check_upgrade_data.py --unit 0006-Wizard --output /tmp/wizard-di
 python3 -B -m unittest discover -s tests -p 'test_upgrade_data.py'
 ```
 
-## 后续数据结构
+## 当前数据结构
 
-后续逐批迁移为独立数据文件，以原页面单位 ID 为主键，页面由数据生成。约定见 [UPGRADE_DATA_FORMAT.md](UPGRADE_DATA_FORMAT.md)：支持多资源费用、时间不适用、同等级的条件变体，以及字段状态。
+已同步部分使用独立数据文件，以原页面单位 ID 为主键，页面由数据生成。约定见 [UPGRADE_DATA_FORMAT.md](UPGRADE_DATA_FORMAT.md)：支持多资源费用、时间不适用、同等级的条件变体，以及字段状态。
 
-目前完成的是来源验证、维护约定和三个单位的差异工具；全站数据迁移、全量更新与网站发布仍待后续指示执行。
+本次已完成上述数据同步与本地页面更新。网站发布仍需用户单独指示。
