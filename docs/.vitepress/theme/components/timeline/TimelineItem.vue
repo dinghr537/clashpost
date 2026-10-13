@@ -15,8 +15,7 @@ const props = defineProps({
     <div class="cp-timeline-list-item" v-if="props.historyBottom">
         <div class="cp-timeline-date">加载完毕</div>
         <div class="cp-timeline-content">
-            网站记录的更新历史都在这里了，如想查看游戏的所有更新历史，请访问：
-            <a href="/p/1384" target="_blank">部落冲突历年更新（导航帖）</a>。
+            以上为该单位已记录的历史数据变更。
         </div>
     </div>
     <div class="cp-timeline-list-item" v-else>

@@ -1,4 +1,4 @@
-﻿---
+---
 title: "部落冲突 coc 亡灵（苍蝇）升级数据"
 navTitle: "亡灵"
 shownTitle: "亡灵（苍蝇）"

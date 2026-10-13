@@ -1,4 +1,4 @@
-﻿---
+---
 title: "部落冲突 coc 瓦基丽武神升级数据"
 navTitle: "瓦基丽武神"
 shownTitle: "瓦基丽武神"

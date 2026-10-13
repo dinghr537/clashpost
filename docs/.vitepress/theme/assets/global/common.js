@@ -191,7 +191,7 @@ export function showCookieTip() {
     if (inBrowser) {
         const cookieUsed = getCookie("cp-cookie-setting");
         if (!cookieUsed) {
-            generateToast("网站使用 Cookie 分析访问数据及保存设置，继续访问网站即代表您同意我们使用 Cookie。");
+            generateToast("网站使用 Cookie 保存月卡减免与主题设置。");
             setCookie("cp-cookie-setting", "1", "10", "years");
         }
     }

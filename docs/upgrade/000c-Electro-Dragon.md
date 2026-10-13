@@ -34,7 +34,7 @@ canonical: /upgrade/000c-Electro-Dragon
 
 <Pic src="/upgrade/description/Electro_Dragon_Example.jpg" caption="雷电飞龙背鳍示意图" maxWidth="25rem" :lazyLoading="false" width="443" height="260" />
 
-5. 雷龙的闪电优先连锁最近目标，距离一样时优先弹射至生命值最高的目标，生命值一样时按照建筑内部 ID 以及建造先后顺序判断。注意：这里的“生命值”指的是建筑满血时的生命值，就算残血也按满血算。详见：[揭秘-雷电飞龙闪电链传递规律](/p/2032)。
+5. 雷龙的闪电优先连锁最近目标，距离一样时优先弹射至生命值最高的目标，生命值一样时按照建筑内部 ID 以及建造先后顺序判断。注意：这里的“生命值”指的是建筑满血时的生命值，就算残血也按满血算。详见：揭秘-雷电飞龙闪电链传递规律。
 
 <SmallTitle>属性</SmallTitle>
 

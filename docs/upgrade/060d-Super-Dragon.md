@@ -69,7 +69,7 @@ canonical: /upgrade/060d-Super-Dragon
 |      12       |      490      |  185.4  |  8000 |     17    |
 </UnitTable>
 
-\* 3 - 6 级超级飞龙只在 [奖章活动](/p/7015) 中出现，不能通过常规方式得到。
+\* 3 - 6 级超级飞龙只在 奖章活动 中出现，不能通过常规方式得到。
 
 <SmallTitle>更新历史</SmallTitle>
 

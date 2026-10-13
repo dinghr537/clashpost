@@ -90,16 +90,10 @@ function clickSidebarLeftLinkEvent(event) {
  * 确定左侧菜单栏哪些列表展开，哪些折叠
  */
 function setSublistStatus(module) {
-    if (module) {
-        const upgradeListDom = document.getElementById("cp-module-upgrade").parentNode;
-        const postsListDom = document.getElementById("cp-module-posts").parentNode;
-        if (module.indexOf("posts") >= 0) {
-            upgradeListDom.classList.remove("cp-module-sublist-expanded")
-            postsListDom.classList.add("cp-module-sublist-expanded")
-        } else {
-            upgradeListDom.classList.add("cp-module-sublist-expanded")
-            postsListDom.classList.remove("cp-module-sublist-expanded")
-        }
+    const upgradeList = document.getElementById("cp-module-upgrade")?.parentNode;
+    if (upgradeList) {
+        upgradeList.classList.toggle("cp-module-sublist-expanded",
+            module === "home" || Boolean(module?.startsWith("upgrade")));
     }
 }
 
@@ -143,13 +137,8 @@ const { frontmatter } = useData();
 const router = useRouter();
 
 const module = getModule(frontmatter.value.module, router.route.data.relativePath);
-let upgradeListClass, postsListClass;
-// 设定默认展开哪一组
-if (module && module.indexOf("posts") >= 0) {
-    postsListClass = "cp-module-sublist-expanded";
-} else {
-    upgradeListClass = "cp-module-sublist-expanded";
-}
+const upgradeListClass = module === "home" || module?.startsWith("upgrade")
+    ? "cp-module-sublist-expanded" : "";
 
 if (inBrowser) {
     // 当链接变化时刷新左边的导航，需第一次加载时就执行
@@ -175,9 +164,6 @@ if (inBrowser) {
             <li>
                 <a id="cp-module-home" class="cp-module-item" href="/">首页</a>
             </li>
-            <li>
-                <a id="cp-module-apk" class="cp-module-item" href="/apk">安装包下载</a>
-            </li>
             <li :class="upgradeListClass">
                 <div id="cp-module-upgrade" class="cp-module-item cp-module-item-with-arrow">
                     <a href="/upgrade">升级数据</a>
@@ -196,49 +182,9 @@ if (inBrowser) {
                     <li>
                         <a id="cp-module-upgrade-temp" class="cp-module-item" href="/upgrade/category/temp">临时单位</a>
                     </li>
-                    <li>
-                        <a id="cp-module-upgrade-level" class="cp-module-item" href="/upgrade/category/level">按大本等级分类</a>
-                    </li>
                 </ul>
             </li>
-            <li :class="postsListClass">
-                <div id="cp-module-posts" class="cp-module-item cp-module-item-with-arrow">
-                    <a href="/p">攻略教程</a>
-                    <div class="cp-sidebar-left-arrow"><Arrow /></div>
-                </div>
-                <ul>
-                    <li>
-                        <a id="cp-module-posts-starter" class="cp-module-item" href="/p/category/starter">新手入门</a>
-                    </li>
-                    <li>
-                        <a id="cp-module-posts-advanced" class="cp-module-item" href="/p/category/advanced">进阶攻略</a>
-                    </li>
-                    <li>
-                        <a id="cp-module-posts-knowledge" class="cp-module-item" href="/p/category/knowledge">游戏机制</a>
-                    </li>
-                    <li>
-                        <a id="cp-module-posts-material" class="cp-module-item" href="/p/category/material">游戏素材</a>
-                    </li>
-                    <li>
-                        <a id="cp-module-posts-defense" class="cp-module-item" href="/p/category/defense">布阵和防守</a>
-                    </li>
-                    <li>
-                        <a id="cp-module-posts-bh" class="cp-module-item" href="/p/category/bh">夜世界</a>
-                    </li>
-                    <li>
-                        <a id="cp-module-posts-capital" class="cp-module-item" href="/p/category/capital">都城</a>
-                    </li>
-                    <li>
-                        <a id="cp-module-posts-storm" class="cp-module-item" href="/p/category/storm">风暴之后</a>
-                    </li>
-                    <li>
-                        <a id="cp-module-posts-archive" class="cp-module-item" href="/p/category/archive">历史档案</a>
-                    </li>
-                    <li>
-                        <a id="cp-module-posts-uncategorized" class="cp-module-item" href="/p/category/uncategorized">未分类</a>
-                    </li>
-                </ul>
-            </li>
+
         </ul>
         <ul id="cp-sidebar-left-settings" class='cp-sidebar-left-list'>
             <li>

@@ -27,9 +27,7 @@ import FeaturedCard from "@/components/card/FeaturedCard.vue";
         title="部落都城" subtitle="怎么有点像公会副本"
         imgSrc="https://static.clashpost.com/upgrade/upgrade_capital.jpg" />
     <FeaturedCard link="/upgrade/category/temp" style="background: radial-gradient(ellipse at 50% 80%,rgba(1,87,226,0.15),hsla(0,0%,100%,0));"
-        title="临时单位" subtitle="曾经存在过的东西"
+        title="临时单位" subtitle="历史活动数据"
         imgSrc="https://static.clashpost.com/upgrade/upgrade_temp.jpg" />
-    <FeaturedCard link="/upgrade/category/level" style="background: radial-gradient(ellipse at 50% 80%,rgba(128,0,128,0.15),hsla(0,0%,100%,0));"
-        title="按大本等级分类" subtitle="该功能已废弃"
-        imgSrc="https://static.clashpost.com/upgrade/upgrade_level.jpg" />
+
 </FeaturedCardGrid>

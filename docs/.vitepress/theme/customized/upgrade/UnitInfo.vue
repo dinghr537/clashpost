@@ -1,5 +1,5 @@
 <script setup>
-import { getFileExtension, replaceFileExtension, getConvertWebpInfo} from "@/assets/global/utils.js";
+import { resolveImage } from "@/assets/local-images.js";
 
 const props = defineProps({
     folder: {
@@ -25,18 +25,12 @@ const props = defineProps({
 });
 
 const linkPrefix = "https://static.clashpost.com/upgrade/" + props.folder + "/";
-const imgSrcOriginal = props.imgSrc;
-const imgExtension = getFileExtension(imgSrcOriginal);
-const hasAdditionalSource = getConvertWebpInfo(imgExtension);
-const imgSrcWebp = replaceFileExtension(imgSrcOriginal, ".webp");
-const imgLinkOriginal = linkPrefix + imgSrcOriginal;
-const imgLinkWebp = linkPrefix + imgSrcWebp;
+const imgLinkOriginal = resolveImage(linkPrefix + props.imgSrc);
 </script>
 
 <template>
     <div class="cp-unit-info">
         <picture :class="props.isSmallImg ? 'cp-unit-info-media cp-unit-info-media-sm' : 'cp-unit-info-media'">
-            <source :srcset="imgLinkWebp" type="image/webp" v-if="hasAdditionalSource" />
             <img :src="imgLinkOriginal" :alt="props.imgAlt" />
         </picture>
         <p v-if="props.description" v-html="props.description"></p>

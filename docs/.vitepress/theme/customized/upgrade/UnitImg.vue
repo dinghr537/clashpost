@@ -1,6 +1,6 @@
 <script setup>
 import { onMounted, ref } from "vue";
-import { getFileExtension, replaceFileExtension, getConvertWebpInfo} from "@/assets/global/utils.js";
+import { resolveImage, imagePlaceholder } from "@/assets/local-images.js";
 
 const props = defineProps({
     imgTitle: {
@@ -19,8 +19,6 @@ const props = defineProps({
 
 const imgItemRef = ref();
 const imgSrcOriginal = props.imgSrc;
-const imgExtension = getFileExtension(imgSrcOriginal);
-const hasAdditionalSource = getConvertWebpInfo(imgExtension);
 
 onMounted(() => {
     // 确定图片链接
@@ -28,21 +26,11 @@ onMounted(() => {
     const folder = refDom.parentNode.getAttribute("data-folder");
     const linkPrefix = "https://static.clashpost.com/upgrade/" + folder + "/";
     
-    const imgSrcWebp = replaceFileExtension(imgSrcOriginal, ".webp");
-    const imgLinkOriginal = linkPrefix + imgSrcOriginal;
-    const imgLinkWebp = linkPrefix + imgSrcWebp;
-    // 高清图片地址，方便点击图片时展示
-    const imgLinkHd = linkPrefix + props.imgHd;
+    const image = refDom.querySelector("img");
+    image.setAttribute("src", resolveImage(linkPrefix + imgSrcOriginal));
+    const hdImage = props.imgHd ? resolveImage(linkPrefix + props.imgHd) : imagePlaceholder;
+    if (hdImage !== imagePlaceholder) image.setAttribute("data-src-hd", hdImage);
 
-    // 将图片链接写入 src
-    const pictureDom = refDom.querySelector("picture");
-    pictureDom.querySelector("img").setAttribute("src", imgLinkOriginal);
-    if (hasAdditionalSource) {
-        pictureDom.querySelector("source").setAttribute("srcset", imgLinkWebp);
-    }
-    if (props.imgHd) {
-        pictureDom.querySelector("img").setAttribute("data-src-hd", imgLinkHd);
-    }
 });
 </script>
 
@@ -50,8 +38,7 @@ onMounted(() => {
     <div class="cp-unit-img-item" ref="imgItemRef">
         <div class="cp-unit-img-title">{{ props.imgTitle }}</div>
         <picture>
-            <source srcset="" type="image/webp" v-if="hasAdditionalSource" />
-            <img loading="lazy" class="cp-unit-img" src="" alt="" />
+            <img loading="lazy" class="cp-unit-img" :src="imagePlaceholder" alt="" />
         </picture>
     </div>
 </template>

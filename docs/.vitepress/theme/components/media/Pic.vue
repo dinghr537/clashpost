@@ -1,5 +1,6 @@
 <script setup>
 import { computed } from "vue";
+import { resolveImage } from "@/assets/local-images.js";
 import { getFileExtension, replaceFileExtension, getConvertWebpInfo} from "@/assets/global/utils.js";
 
 const props = defineProps({
@@ -81,20 +82,14 @@ const imgStyle = computed(() => {
 });
 
 // 图片链接
-const imgSrcOriginal = computed(() => {
-    const srcProp = props.src;
-    if (srcProp.startsWith("http://") || srcProp.startsWith("https://")) {
-        return srcProp;
-    }
-    return "https://static.clashpost.com" + srcProp;
-});
+const imgSrcOriginal = computed(() => resolveImage(props.src));
 
 // 如果调用时明确说明不转化，则不进行其他判断
 // 动图使用原图格式，不转化
 // gif 即使不写是动图也不转化，webp 格式无需进一步转化
 const hasAdditionalSource = computed(() => {
     const imgExtension = getFileExtension(imgSrcOriginal.value);
-    return props.convertWebp && getConvertWebpInfo(imgExtension);
+    return !imgSrcOriginal.value.startsWith("/images/") && props.convertWebp && getConvertWebpInfo(imgExtension);
 });
 const imgSrcWebp = computed(() => replaceFileExtension(imgSrcOriginal.value, ".webp"));
 </script>
@@ -105,7 +100,7 @@ const imgSrcWebp = computed(() => replaceFileExtension(imgSrcOriginal.value, ".w
             <source :srcset="imgSrcWebp" type="image/webp" v-if="hasAdditionalSource" />
             <img :loading="loadingValue" :src="imgSrcOriginal" :alt="props.alt" :width="props.width" :height="props.height" :style="imgStyle" />
         </picture>
-        <figcaption v-if="props.caption" v-html="props.caption"</figcaption>
+        <figcaption v-if="props.caption" v-html="props.caption"></figcaption>
     </figure>
 </template>
 

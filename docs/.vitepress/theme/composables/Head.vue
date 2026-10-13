@@ -1,6 +1,7 @@
 <script setup>
-import { onMounted, onBeforeUnmount, ref } from "vue";
-import { inBrowser } from "vitepress";
+import { computed, onMounted, onBeforeUnmount, ref } from "vue";
+import { inBrowser, useRouter } from "vitepress";
+import { data as upgradeSearchData } from "@/assets/upgrade-search.data.mjs";
 import { notificationInfo } from "#/global-variables.js";
 import { getCookie, setCookie } from "@/assets/global/utils.js";
 import { showSidebarLeft, hideSidebarLeft } from "@/composables/sidebar/SidebarLeft.vue";
@@ -11,7 +12,13 @@ import { generateToast } from "@/components/dialog/Toast.vue";
 import Close from "@/components/icon/general/Close.vue";
 
 const notificationCountIconRef = ref(0);
-const searchProviderRef = ref();
+const searchQuery = ref("");
+const router = useRouter();
+const normalizeSearch = value => value.toLowerCase().replace(/[\s_-]/g, "");
+const searchResults = computed(() => {
+    const query = normalizeSearch(searchQuery.value.trim());
+    return query ? upgradeSearchData.filter(item => normalizeSearch(item.keywords).includes(query)).slice(0, 30) : [];
+});
 
 const hasNotification = notificationInfo.hasNotification;
 const notificationCount = notificationInfo.notificationCount;
@@ -67,30 +74,18 @@ function showSearchDialogEvent() {
 
 // 开始搜索
 function startSearching() {
-    const inputText = document.getElementById("cp-search-input").value;
-    const searchText = inputText + " site:clashpost.com";
-    const searchTextEncoded = encodeURI(searchText.replaceAll(" ", "+"));
-
-    // 确定搜索服务提供商，并跳转到指定网站
-    const searchProvider = getCookie("cp-search-provider");
-    let url;
-    if (searchProvider === "Google") {
-        url = "https://www.google.com/search?q=" + searchTextEncoded;
-    } else if (searchProvider === "DuckDuckGo") {
-        url = "https://duckduckgo.com/?q=" + searchTextEncoded;
-    } else if (searchProvider === "Yandex") {
-        url = "https://www.yandex.com/search?text=" + searchTextEncoded;
-    } else if (searchProvider === "Yahoo") {
-        url = "https://search.yahoo.com/search?p=" + searchTextEncoded;
-    } else {
-        url = "https://www.bing.com/search?q=" + searchTextEncoded;
+    if (searchResults.value.length) {
+        const url = searchResults.value[0].url;
+        exitSearching();
+        router.go(url);
     }
-    window.open(url, "_self", "noreferrer");
 }
 
 // 清空搜索框中输入的内容
 function clearSearchText() {
+    searchQuery.value = "";
     document.getElementById("cp-search-input").value = "";
+    document.getElementById("cp-search-clear-btn").classList.remove("cp-btn-visible");
 }
 
 // 退出搜索
@@ -130,7 +125,7 @@ function clearSearchBtnEvent(event) {
 
 // 触发打开搜索弹窗快捷键时运行的代码
 function searchshortcutClickEvent(event) {
-    if (event.ctrlKey && !event.shiftKey && !event.altKey && !event.metaKey && event.code === "KeyK") {
+    if ((event.ctrlKey || event.metaKey) && !event.shiftKey && !event.altKey && event.code === "KeyK") {
         event.preventDefault();
 
         // 确定搜索弹窗是否已打开
@@ -194,21 +189,6 @@ onMounted(() => {
     // 搜索相关的快捷键绑定
     window.addEventListener("keydown", searchshortcutClickEvent);
 
-    // 在搜索弹窗中写出当前使用的搜索服务提供商
-    const searchProviderCookie = getCookie("cp-search-provider");
-    let searchProviderText;
-    if (searchProviderCookie === "Google") {
-        searchProviderText = "谷歌";
-    } else if (searchProviderCookie === null) {
-        searchProviderText = "必应";
-    } else if (searchProviderCookie === "Yahoo") {
-        searchProviderText = "雅虎";
-    } else {
-        // 没有翻译，直接把原文填上去
-        searchProviderText = searchProviderCookie;
-    }
-    const searchProviderDom = searchProviderRef.value;
-    searchProviderDom.innerText = searchProviderText;
 });
 
 onBeforeUnmount(() => {
@@ -254,24 +234,43 @@ onBeforeUnmount(() => {
     <Dialog dialogId="cp-notification-dialog" title="通知" :hasSecondaryBtn="false" :hasPrimaryBtn="true" primaryText="我知道了" v-else>
         <div >暂无通知</div>
     </Dialog>
-    <Dialog dialogId="cp-search-dialog" title="搜索 (Ctrl + k)" :hasSecondaryBtn="true" :hasPrimaryBtn="true"
-        primaryText="开始搜索" secondaryText="关闭窗口" :hasClickPrimaryEvent="true" :hasClickSecondaryEvent="true"
+    <Dialog dialogId="cp-search-dialog" title="搜索升级数据" :hasSecondaryBtn="true" :hasPrimaryBtn="true"
+        primaryText="打开首条结果" secondaryText="关闭窗口" :hasClickPrimaryEvent="true" :hasClickSecondaryEvent="true"
         @clickPrimaryEvent="startSearching" @clickSecondaryEvent="exitSearching">
         <div id="cp-search-input-container">
-            <form>
-                <input id="cp-search-input" type="search" name="searchText" placeholder="请输入搜索词"
-                    @keydown="searchEnterKeyEvent" @keyup="searchInputChangeEvent" />
+            <form @submit.prevent="startSearching">
+                <input id="cp-search-input" v-model="searchQuery" type="search" name="searchText" aria-label="搜索升级数据"
+                    placeholder="单位名称、简称或英文名称" maxlength="80"
+                    @keydown="searchEnterKeyEvent" @input="searchInputChangeEvent" />
                 <button id="cp-search-clear-btn" type="reset" aria-label="清空搜索框" @click="event => clearSearchBtnEvent(event)"><Close /></button>
             </form>
         </div>
         <div id="cp-search-input-tip">
-            当前的搜索服务提供商为【<span ref="searchProviderRef">???</span>】，可 <a href="/settings">前往设置</a> 修改。
+            搜索本地升级资料。快捷键：Ctrl / ⌘ + K。
         </div>
+        <ul class="cp-upgrade-search-results" v-if="searchResults.length">
+            <li v-for="item in searchResults" :key="item.url">
+                <a :href="item.url" @click="exitSearching">{{ item.title }} <small>{{ item.village }}</small></a>
+            </li>
+        </ul>
+        <p role="status" v-else-if="searchQuery.trim()">没有找到对应单位，试试其他名称。</p>
     </Dialog>
 </template>
 
 <style lang="scss">
 @use '@/assets/mixins.scss' as *;
+
+.cp-upgrade-search-results {
+    max-height: 20rem;
+    overflow-y: auto;
+    list-style: none;
+    padding: 0;
+    margin: 0.75rem 0 0;
+    li { margin: 0; }
+    a { display: block; padding: 0.5rem 0; }
+    small { margin-left: 0.5rem; color: var(--cp-grey-text-light); }
+}
+.cp-theme-dark .cp-upgrade-search-results small { color: var(--cp-grey-text-dark); }
 
 #cp-nav-container {
     width: 100%;

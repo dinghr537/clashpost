@@ -1,6 +1,6 @@
 <script setup>
 import { onMounted, ref } from "vue";
-import { getFileExtension, replaceFileExtension, getConvertWebpInfo} from "@/assets/global/utils.js";
+import { resolveImage, imagePlaceholder } from "@/assets/local-images.js";
 
 const props = defineProps({
     name: {
@@ -26,41 +26,22 @@ const link = "/upgrade/" + props.link;
 
 // 图片相关
 const imgSrcOriginal = props.imgSrc;
-const imgExtension = getFileExtension(imgSrcOriginal);
-const hasAdditionalSource = getConvertWebpInfo(imgExtension);
 const loadingValue = props.lazyLoading ? "lazy" : "eager";
 
 onMounted(() => {
     // 确定图片链接
     const refDom = unitLinkRef.value;
-    let imgWebpLink;
-    let imgOriginalLink;
+    const folder = refDom.parentNode.getAttribute("data-folder");
+    const link = resolveImage("https://static.clashpost.com/upgrade/" + folder + "/" + imgSrcOriginal);
+    refDom.querySelector("img").setAttribute("src", link);
 
-    if (imgSrcOriginal === "") {
-        imgWebpLink = "https://static.clashpost.com/global/None.webp";
-        imgOriginalLink = "https://static.clashpost.com/global/None.png";
-    } else {
-        const folder = refDom.parentNode.getAttribute("data-folder");
-        const linkPrefix = "https://static.clashpost.com/upgrade/" + folder + "/";
-        const imgSrcWebp = replaceFileExtension(imgSrcOriginal, ".webp");
-        imgWebpLink = linkPrefix + imgSrcWebp;
-        imgOriginalLink = linkPrefix + imgSrcOriginal;
-    }
-
-    // 将图片链接写入 src
-    const pictureDom = refDom.querySelector("picture");
-    if (hasAdditionalSource) {
-        pictureDom.querySelector("source").setAttribute("srcset", imgWebpLink);
-    }
-    pictureDom.querySelector("img").setAttribute("src", imgOriginalLink);
 });
 </script>
 
 <template>
     <a class="cp-unit-card" :href="link" ref="unitLinkRef">
         <picture class="cp-unit-media">
-            <source srcset="https://static.clashpost.com/global/image-placeholder.svg" type="image/webp" v-if="hasAdditionalSource" />
-            <img :loading="loadingValue" src="https://static.clashpost.com/global/image-placeholder.svg" alt="" />
+            <img :loading="loadingValue" :src="imagePlaceholder" alt="" />
         </picture>
         <div class="cp-unit-text">{{ name }}</div>
     </a>

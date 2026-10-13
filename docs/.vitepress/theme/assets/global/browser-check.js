@@ -104,7 +104,7 @@ function browserTooOldCheck(minChromeVer, minFirefoxVer, minSafariVer) {
  * 确定用户的浏览器版本是否过低。
  * 这是传统的 userAgent 方案，没有谷歌主推的 userAgentData API 准确，
  * 因此 Chromium 系浏览器使用上方的 browserTooOldCheck() 函数，这个函数作为 Fallback.
- * 网站的浏览器版本要求见：https://clashpost.com/p/1828
+ * 网站的浏览器最低版本在 addOldBrowserTip() 中定义。
  * 
  * 各浏览器的 UA：
  * Chrome (Windows): Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
@@ -178,8 +178,7 @@ export function addOldBrowserTip() {
         oldBrowserTopDom.setAttribute("class", "cp-callout cp-callout-warning cp-callout-old-browser");
         oldBrowserTopDom.innerHTML = "<div class=\"cp-callout-icon\">⚠️</div>" +
             "<div class=\"cp-callout-content\">" +
-            "您的浏览器版本过低，网站已不再兼容。这意味着在升级浏览器之前，您无法正常使用网站的部分功能。详见：" +
-            "<a href=\"/p/1828\">网站的系统和浏览器要求</a>。" +
+            "您的浏览器版本过低，可能无法正常使用部分功能。请升级至较新的浏览器版本。" +
             "</div>";
         const parentNode = document.querySelector("main");
         const referenceNode = parentNode.firstChild;

@@ -1,4 +1,4 @@
-﻿---
+---
 title: "部落冲突 coc 超级巨人升级数据"
 navTitle: "超级巨人"
 shownTitle: "超级巨人"

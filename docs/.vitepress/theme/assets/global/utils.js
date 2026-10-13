@@ -9,17 +9,12 @@ export function isNumber(num) {
 }
 
 /**
- * 获取 Cookie 的域名
- * @returns Cookie 的域名
+ * 原站域名共享 Cookie；本地与其他部署域名使用当前主机的 Cookie。
  */
-function getDomain() {
-    let domain;
-    if (window.location.origin.indexOf("localhost") >= 0) {
-        domain = "localhost";
-    } else {
-        domain = ".clashpost.com";
-    }
-    return domain;
+function getCookieDomainAttribute() {
+    const hostname = window.location.hostname;
+    return hostname === "clashpost.com" || hostname.endsWith(".clashpost.com")
+        ? ";domain=.clashpost.com" : "";
 }
 
 /**
@@ -52,9 +47,8 @@ export function setCookie(name, value, expire, timeUnit) {
             multiple = 24 * 60 * 60;
     }
     const maxAge = multiple * expire;
-    const domain = getDomain();
     document.cookie = name + "=" + encodeURIComponent(value) + ";max-age=" + maxAge +
-        ";path=/;domain=" + domain + ";SameSite=Lax";
+        ";path=/" + getCookieDomainAttribute() + ";SameSite=Lax";
 }
 
 export function getCookie(name) {
@@ -74,8 +68,7 @@ export function getCookie(name) {
 }
 
 export function deleteCookie(name, path = "/") {
-    const domain = getDomain();
-    document.cookie = name + "=;expires=" + new Date().toUTCString() + ";path=" + path + ";domain=" + domain;
+    document.cookie = name + "=;max-age=0;path=" + path + getCookieDomainAttribute() + ";SameSite=Lax";
 }
 
 /**
@@ -367,41 +360,11 @@ export function normalizeLink() {
  * 重新加载资源（资源加载失败后调用）
  */
 export function reloadResource(event) {
-    const eventDom = event.target;
-    if (eventDom.tagName === "IMG") {
-        // 图片链接
-        const img = eventDom;
-        const srcOriginal = img.getAttribute("src");
-        // 重试次数
-        const retryTimesAttr = img.getAttribute("retrytimes");
-        let retryTimes = retryTimesAttr ? parseInt(retryTimesAttr) : 0;
-        // 如果从未重试过，且状态码以 4 或 5 开头，则设定 retryTimes 为 -1，后续无需重试
-        if (retryTimes === 0) {
-            // 根据用户是否支持 webp，决定要抓取的 url
-            const imgWebpSource = img.parentNode.querySelector("source");
-            const srcWebp = imgWebpSource.getAttribute("srcset").split(",")[0];
-            const useWebp = isSupportWebp() && imgWebpSource;
-            const srcUsed = useWebp ? srcWebp : srcOriginal;
-            fetch(srcUsed).then(response => {
-                if (response.status.toString().match(/^[4|5]/g)) {
-                    retryTimes = -1;
-                    img.setAttribute("retrytimes", retryTimes);
-                }
-            }).catch (error => {
-                // 这个 fetch 几乎必然失败，不需要打印到控制台
-            });
-        }
-        // 5 秒后重试
-        setTimeout(() => {
-            // 这里判断大于 0 是为了排除 -1 这种情况
-            // 如果重新加载三次都失败了，则只在断网恢复时重新加载，和这里没关系了
-            if (retryTimes >= 0 && retryTimes < 3) {
-                // 只写入 src 就可以实现刷新
-                img.setAttribute("src", srcOriginal);
-                img.setAttribute("retrytimes", retryTimes + 1);
-            }
-        }, 5000);
-    }
+    const image = event.target;
+    if (image?.tagName !== "IMG" || image.getAttribute("data-image-unavailable")) return;
+    image.setAttribute("data-image-unavailable", "true");
+    image.parentNode?.querySelectorAll("source").forEach(source => source.removeAttribute("srcset"));
+    image.setAttribute("src", "/images/unavailable.svg");
 }
 
 /**

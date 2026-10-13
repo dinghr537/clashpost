@@ -7,16 +7,12 @@
 export const notificationInfo = {
     "hasNotification": true,
     "notificationCount": 1,
-    "currentNotificationId": 16,
-    "notificationTitle": "关于部落驿站后续维护安排的公告",
-    "notificationHTML": "<p>由于网站长期缺少稳定维护人员，我们决定停止维护部落驿站的主体内容。</p>" +
-        "<p>后续除“安装包下载”版块外，网站其他内容原则上不再更新，也不再保证资料的时效性和准确性。“安装包下载”版块会尽量继续保留和更新，方便仍有需要的玩家使用。</p>" +
-        "<p>虽然内容不再更新，但" +
-        "   <a href='https://github.com/lemonicy/clashpost' target='_blank' rel='nofollow noreferrer'>Github 仓库</a>" +
-        "   将作为档案数据保留，前人整理、记录和思考过的东西仍会留在这里，供有需要的人下载及查看。</p>" +
-        "<p>最后说个小事，网站的老用户可能还记得 cocservice.top 这个域名，这个域名十月份到期后就不再续了，仍然有需要的用户需要改一下书签。</p>" +
-        "<p>感谢大家一直以来的支持！</p>"
-}
+    "currentNotificationId": 17,
+    "notificationTitle": "部落驿站升级数据维护说明",
+    "notificationHTML": "<p>本项目作为部落驿站的继承项目，专注于升级等级、费用、时间与前置条件查询。</p>" +
+        "<p>当前沿用原项目历史资料，各单位的收录进度不同，尚未完成最新版本同步。后续更新会记录来源与同步日期。</p>" +
+        "<p>本站仅提供升级数据查询，安装包下载已关闭。</p>"
+};
 
 /**
  * 全局升级数据状态，会在进入升级数据页面的时候调用
@@ -26,12 +22,3 @@ export const notificationInfo = {
  */
 export const availableTempUnits = [];
 export const availableCraftedBuildings = [];
-
-/**
- * 全局文章状态，会在文章加载的时候调用
- * 
- * invalidatedPosts 已废弃的文章 ID
- * oldBuilderBasePosts 夜世界 2.0 之前的文章
- */
-export const invalidatedPosts = [20, 66, 268, 295, 559, 596, 689, 756, 801, 1642, 2754, 2922, 3048, 4801, 5434];
-export const oldBuilderBasePosts = [349, 848, 1200, 1250, 2763];

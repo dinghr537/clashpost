@@ -101,17 +101,17 @@ const hasPreferredTargetTip = computed(() => dialogState.value.hasPreferredTarge
     <Dialog dialogId="cp-training-dialog-2025" title="注意" :hasSecondaryBtn="false"
         :hasPrimaryBtn="true" primaryText="我知道了" v-if="hasTrainingDialog && hasNewestTrainingDialog">
         2025 年 3 月更新后，兵种训练时间、法术配置时间和攻城机器建造时间均被取消。<br>
-        如果你对 coc 训练机制的变迁感兴趣，请移步这篇文章：<a href="/p/4727">coc 的部队训练机制经历过哪些变迁？</a>
+        如果你对 coc 训练机制的变迁感兴趣，请移步这篇文章：coc 的部队训练机制经历过哪些变迁？
     </Dialog>
     <Dialog dialogId="cp-training-dialog-2022" title="注意" :hasSecondaryBtn="false"
         :hasPrimaryBtn="true" primaryText="我知道了" v-if="hasTrainingDialog && hasV2TrainingDialog">
         该兵种最后一次推出时，训练时间尚未被取消，而训练费用已被取消。这里显示的是单训练营时代（2022/10 - 2025/03）的训练时间。<br>
-        要想讲清楚当时的训练机制，需要补充大量背景知识，这里就不做介绍，感兴趣的玩家请移步这篇文章：<a href="/p/4727">coc 的部队训练机制经历过哪些变迁？</a>
+        要想讲清楚当时的训练机制，需要补充大量背景知识，这里就不做介绍，感兴趣的玩家请移步这篇文章：coc 的部队训练机制经历过哪些变迁？
     </Dialog>
     <Dialog dialogId="cp-training-dialog-legacy" title="注意" :hasSecondaryBtn="false"
         :hasPrimaryBtn="true" primaryText="我知道了" v-if="hasTrainingDialog && hasV1TrainingDialog">
         该兵种最后一次推出时，训练时间和训练费用尚未被取消。该兵种最后一次推出时是四训练营时代，不过为了方便起见，这里显示的是单训练营时代（2022/10 - 2025/03）的训练时间。<br>
-        要想讲清楚当时的训练机制，需要补充大量背景知识，这里就不做介绍，感兴趣的玩家请移步这篇文章：<a href="/p/4727">coc 的部队训练机制经历过哪些变迁？</a>
+        要想讲清楚当时的训练机制，需要补充大量背景知识，这里就不做介绍，感兴趣的玩家请移步这篇文章：coc 的部队训练机制经历过哪些变迁？
     </Dialog>
     <Dialog dialogId="cp-judge-square-dialog" title="什么是判定面积？" :hasSecondaryBtn="false"
         :hasPrimaryBtn="true" primaryText="我知道了" v-if="hasJudgeSquare">
@@ -125,17 +125,15 @@ const hasPreferredTargetTip = computed(() => dialogState.value.hasPreferredTarge
         :hasPrimaryBtn="true" primaryText="我知道了" v-if="hasDailyCost">
         启用月卡的升级时间加成后，游戏会删掉时间的零头，所以升级时间的减免比例实际上要比游戏中标注的 10%、15%、20%
         略高一些，而升级花费的减免比例和标注值是一样的。也就是说开月卡之后游戏实际上是更肝了，但肝度增加有限。<br>
-        如想了解详细的月卡减免算法，请参考这篇文章：<a href="/p/1001">部落冲突月度挑战 (月卡、黄金令牌) 机制详解</a>)。
     </Dialog>
     <Dialog dialogId="cp-donation-cost-dialog" title="说明" :hasSecondaryBtn="false"
         :hasPrimaryBtn="true" primaryText="我知道了" v-if="hasDonationCostDialog">
         1. 这三种资源是“或”的关系，使用任何一种资源均可捐赠。<br>
         2. 捐赠费用与部队、法术和攻城机器的等级无关，所有等级的捐赠费用是一样的。<br>
-        3. <a href="/p/1001">黄金令牌</a> 只能减少捐赠所需的宝石（就是那个 1 宝石捐赠特权），不能减少捐赠所需的资源。
+        3. 黄金令牌 只能减少捐赠所需的宝石（就是那个 1 宝石捐赠特权），不能减少捐赠所需的资源。
     </Dialog>
     <Dialog dialogId="cp-preferred-target-tip" title="这里的偏好类型是什么意思？" :hasSecondaryBtn="false"
         :hasPrimaryBtn="true" primaryText="我知道了" v-if="hasPreferredTargetTip">
         简而言之，对于以防御建筑为优先攻击目标的兵种，当场上的防御建筑尚未清理干净时，如果英雄、城堡部队、骷髅陷阱这些东西在打它，它不会反击，则为偏好类型 1，会反击则为偏好类型 2.<br>
-        相关说明见这篇文章：<a href="/p/6943">同样是以防御建筑为优先攻击目标，不同兵种竟然还有区别？</a>
     </Dialog>
 </template>

@@ -75,20 +75,6 @@ function saveSettings() {
         deleteCookie("cp-preferred-theme");
     }
 
-    // 搜索服务提供商设置
-    const searchProviderValue = getSelectValue("cp-select-search-provider");
-    if (searchProviderValue === "1") {
-        setCookie("cp-search-provider", "Google", "10", "years");
-    } else if (searchProviderValue === "2") {
-        setCookie("cp-search-provider", "DuckDuckGo", "10", "years");
-    } else if (searchProviderValue === "3") {
-        setCookie("cp-search-provider", "Yandex", "10", "years");
-    } else if (searchProviderValue === "4") {
-        setCookie("cp-search-provider", "Yahoo", "10", "years");
-    } else {
-        deleteCookie("cp-search-provider");
-    }
-
     // 弹出提示信息
     generateToast("设置保存成功", {
         type: "success",
@@ -140,22 +126,6 @@ if (preferredTheme) {
     }
 }
 
-/**
- * 加载当前使用的搜索服务提供商
- */
-const searchProvider = inBrowser ? getCookie("cp-search-provider") : null;
-let searchProviderActiveValue = 0;
-if (searchProvider) {
-    if (searchProvider === "Google") {
-        searchProviderActiveValue = 1;
-    } else if (searchProvider === "DuckDuckGo") {
-        searchProviderActiveValue = 2;
-    } else if (searchProvider === "Yandex") {
-        searchProviderActiveValue = 3;
-    } else if (searchProvider === "Yahoo") {
-        searchProviderActiveValue = 4;
-    }
-}
 </script>
 
 网站的所有设置都需要重新刷新页面后才可生效。
@@ -197,17 +167,9 @@ if (searchProvider) {
 
 <hr class="cp-light-row-division" />
 
-## 搜索服务
+## 搜索
 
-<SelectContainer title="搜索服务提供商" selectId="cp-select-search-provider" aria-label="搜索服务提供商的菜单"
-    :activeValue="searchProviderActiveValue" selectWidth="12rem"
-    description="由于中国大陆的搜索引擎极少收录境外网站，即使提供了百度、搜狗这些选项也不能用，因此这里就不提供了。">
-    <Option text="必应（默认）" value="0" />
-    <Option text="谷歌" value="1" />
-    <Option text="DuckDuckGo" value="2" />
-    <Option text="Yandex" value="3" />
-    <Option text="雅虎" value="4" />
-</SelectContainer>
+右上角搜索按单位名称、简称和英文名称查询本地升级资料，无需设置搜索服务。
 
 <hr class="cp-light-row-division" />
 

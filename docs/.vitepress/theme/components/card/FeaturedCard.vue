@@ -5,8 +5,8 @@ const props = defineProps({
         default: null
     },
     style: {
-        type: Object,
-        default: ""
+        type: [String, Object],
+        default: null
     },
     title: {
         type: String,

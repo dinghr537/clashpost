@@ -1,0 +1,26 @@
+{
+  "originalFiles": 2515,
+  "primaryReferences": 2514,
+  "resolvedReferences": 2511,
+  "missing": [
+    {
+      "sourceUrl": "https://static.clashpost.com/upgrade/capital_tech/2003/Barbarian1.png",
+      "pages": [
+        "docs/upgrade/2003-Battle-Ram.md"
+      ]
+    },
+    {
+      "sourceUrl": "https://static.clashpost.com/upgrade/home_tech/000a/Baby_Dragon12.png",
+      "pages": [
+        "docs/upgrade/000a-Baby-Dragon.md"
+      ]
+    },
+    {
+      "sourceUrl": "https://static.clashpost.com/upgrade/home_tech/0080/Minion14.png",
+      "pages": [
+        "docs/upgrade/0080-Minion.md"
+      ]
+    }
+  ],
+  "brokenLocalFiles": []
+}

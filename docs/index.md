@@ -1,228 +1,59 @@
 ---
 title: "部落驿站"
 customTitle: true
-titleTemplate: "下载游戏、查数据、看攻略的好帮手"
-description: "部落驿站（原部落冲突指导）是一个《部落冲突》资料归档网站，保留了安装包下载、游戏数据、机制讲解与攻略文章等历史内容，供有需要的玩家查阅参考。"
+titleTemplate: "部落冲突升级数据查询"
+description: "查询部落冲突家乡、夜世界和部落都城的升级等级、资源消耗、升级时间与前置条件。"
 module: home
 canonical: /
 hasUpdateTime: false
 ---
 
 <script setup>
-import { onMounted, nextTick, onBeforeUnmount } from "vue";
 import FeaturedCardGrid from "@/components/card/FeaturedCardGrid.vue";
 import FeaturedCard from "@/components/card/FeaturedCard.vue";
-import { calcAllCountdowns } from "@/assets/homepage-countdown.js";
-
-let intervalId;
-onMounted(() => {
-    nextTick(() => {
-        // 网页完全加载完毕后再计算倒计时，防止阻塞
-        setTimeout(() => {
-            calcAllCountdowns();
-            intervalId = setInterval(calcAllCountdowns, 1000);
-        }, 200);
-    });
-});
-
-onBeforeUnmount(() => {
-    clearInterval(intervalId);
-});
 </script>
 
-<div id="homepage-site-name">
-    <h1>部落驿站</h1>
-</div>
-<div id="homepage-site-description">部落冲突玩家的得力助手，下载游戏、找数据、看攻略都来这。</div>
+<div id="homepage-site-name"><h1>部落驿站</h1></div>
+<p id="homepage-site-description">部落冲突升级数据查询</p>
 
-<SmallTitle>网站模块</SmallTitle>
+查询建筑、部队、英雄和装备的升级费用、时间与前置条件。右上角搜索可以按中文名称、简称或英文名称查找单位。
+
+<SmallTitle>按村庄查询</SmallTitle>
+
 <FeaturedCardGrid>
-    <FeaturedCard link="/apk"
-        style="background: radial-gradient(ellipse at 50% 80%,rgba(194,97,254,0.15),hsla(0,0%,100%,0));"
-        title="安装包下载" subtitle="国际服、私服"
-        imgSrc="https://static.clashpost.com/homepage/homepage_apk.jpg" />
-    <FeaturedCard link="/upgrade"
-        style="background: radial-gradient(ellipse at 50% 80%,rgba(144,238,144,0.15),hsla(0,0%,100%,0));"
-        title="升级数据" subtitle="升级时间、所需资源"
-        imgSrc="https://static.clashpost.com/homepage/homepage_upgrade.jpg" />
-    <FeaturedCard link="/p"
-        style="background: radial-gradient(ellipse at 50% 80%,rgba(1,87,226,0.15),hsla(0,0%,100%,0));"
-        title="攻略教程" subtitle="流派打法、游戏机制"
-        imgSrc="https://static.clashpost.com/homepage/homepage_strategy_v2.jpg" />
+    <FeaturedCard link="/upgrade/category/home" title="家乡" subtitle="建筑、部队、英雄与装备"
+        imgSrc="https://static.clashpost.com/upgrade/upgrade_home.jpg" />
+    <FeaturedCard link="/upgrade/category/bh" title="夜世界" subtitle="建筑、部队与英雄"
+        imgSrc="https://static.clashpost.com/upgrade/upgrade_bh.jpg" />
+    <FeaturedCard link="/upgrade/category/capital" title="部落都城" subtitle="建筑、部队与法术"
+        imgSrc="https://static.clashpost.com/upgrade/upgrade_capital.jpg" />
 </FeaturedCardGrid>
 
-<SmallTitle>倒计时</SmallTitle>
-<div class="homepage-countdown-cards"
-    style="background: radial-gradient(ellipse at 50% 80%,rgba(135,206,235,0.15),hsla(0,0%,100%,0));">
-    <div id="countdown-cwl" class="homepage-countdown-group">
-        <div class="homepage-countdown-title stage-1" style="display: none;">联赛报名开始</div>
-        <div class="homepage-countdown-title stage-2" style="display: none;">联赛报名结束</div>
-        <div class="homepage-countdown-title stage-3" style="display: block;">所有部落联赛结束</div>
-        <div class="homepage-countdown-time">加载中……</div>
-    </div>
-    <div id="countdown-raid-weekend" class="homepage-countdown-group">
-        <div class="homepage-countdown-title stage-1" style="display: block;">突袭周末开始</div>
-        <div class="homepage-countdown-title stage-2" style="display: none;">突袭周末结束</div>
-        <div class="homepage-countdown-time">加载中……</div>
-    </div>
-    <div id="countdown-trader" class="homepage-countdown-group">
-        <div class="homepage-countdown-title">商人刷新</div>
-        <div class="homepage-countdown-time">加载中……</div>
-    </div>
-    <div id="countdown-clan-games" class="homepage-countdown-group">
-        <div class="homepage-countdown-title stage-1" style="display: block;">竞赛开始</div>
-        <div class="homepage-countdown-title stage-2" style="display: none;">竞赛结束</div>
-        <div class="homepage-countdown-time">加载中……</div>
-    </div>
-    <div id="countdown-league-reset" class="homepage-countdown-group">
-        <div class="homepage-countdown-title">赛季重置</div>
-        <div class="homepage-countdown-time">加载中……</div>
-    </div>
-    <div id="countdown-gold-pass" class="homepage-countdown-group">
-        <div class="homepage-countdown-title">月卡结算</div>
-        <div class="homepage-countdown-time">加载中……</div>
-    </div>
-</div>
+<SmallTitle>快速查询</SmallTitle>
 
-<div class="homepage-recommend">
-<div class="homepage-recommend-item">
-<SmallTitle>你知道吗</SmallTitle>
+- [大本营](/upgrade/0400-Town-Hall)
+- [加农炮](/upgrade/0301-Cannon)
+- [野蛮人之王（蛮王）](/upgrade/0200-Barbarian-King)
+- [法师](/upgrade/0006-Wizard)
+- [地震金靴](/upgrade/0702-Earthquake-Boots)
+- [全部升级数据](/upgrade)
 
-- 2026/02 更新是地震的狂欢：
-    - 现在 [地震法术](/upgrade/0181-Earthquake-Spell) 和 [地震金靴](/upgrade/0702-Earthquake-Boots) 可以对地面部队造成伤害了。
-    - [法术塔](/upgrade/0311-Spell-Tower) 中新增了地震法术。
-- [飞龙公爵](/upgrade/0205-Dragon-Duke) 落单后狂暴的机制类似于 [飞龙宝宝](/upgrade/000a-Baby-Dragon)。
-- 如果 [愤怒水母](/upgrade/0289-Angry-Jelly) 和 [阿啾](/upgrade/028a-Sneezy) 跟随的英雄未被击倒，则不占用回溯法术的空间。
+<SmallTitle>数据说明</SmallTitle>
 
-</div>
+当前页面沿用原项目历史资料，各单位的收录进度不同，部分已收录 2026 年 4 月内容，尚未完成最新版本的全量同步。后续按官网、Clash of Clans Wiki、Clash Ninja 或其他选定来源逐批更新，并记录来源与同步日期。
 
-<div class="homepage-recommend-item">
-<SmallTitle>最新动态</SmallTitle>
-
-- 新英雄：[飞龙公爵](/upgrade/0205-Dragon-Duke)
-- 新战宠：[贪婪渡鸦](/upgrade/028b-Greedy-Raven)
-- 新装备：[木棍马驹](/upgrade/0707-Stick-Horse)、[烈焰之心](/upgrade/07e0-Fire-Heart)、[助燃器](/upgrade/07e1-Flame-Blower)、[爆震器](/upgrade/07e2-Stun-Blaster)
-- 新文章：
-    - [老版本 coc 的杯段是怎么分的？有相关数据留存吗？](/p/7029)
-    - [部落冲突 2025 年更新](/p/7005)
-
-</div>
-</div>
-
-<div class="homepage-attention">
-    <SmallTitle>注意</SmallTitle>
-    <ul>
-        <li>倒计时功能依赖设备时间，请确保设备的时间正确。</li>
-        <li>最新动态功能是手动维护的，不能自动读取最新发布的内容。</li>
-    </ul>
-</div>
+本项目作为「部落驿站」的继承项目继续整理升级数据。本地网站仅提供数据查询。
 
 <style lang="scss">
-@use '@/assets/mixins.scss' as *;
-
-#homepage-site-name {
-    margin-top: 0.75rem;
+#homepage-site-name h1 {
     margin-bottom: 0.5rem;
-    font-weight: 700;
-
-    h1 {
-        margin-bottom: 0;
-    }
 }
-
 #homepage-site-description {
-    margin-bottom: 1.5rem;
+    margin: 0 0 1rem;
     font-size: 1.2rem;
-    margin-bottom: 0.75rem;
+    color: var(--cp-grey-text-light);
 }
-
-.cp-theme-light #homepage-site-description {
-    color: rgb(75, 85, 99);
-}
-
 .cp-theme-dark #homepage-site-description {
-    color: rgb(162, 169, 180);
-}
-
-/* countdown feature on homepage */
-.homepage-countdown-cards {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.homepage-countdown-group {
-    width: 50%;
-    padding: 0.75rem;
-    text-align: center;
-    background-color: transparent;
-    transition: width 0.3s cubic-bezier(0, 0, 0.2, 1);
-
-    * {
-        background-color: transparent;
-    }
-}
-
-@media (min-width: $cp-col-tablat-big) {
-    .homepage-countdown-group {
-        width: 33%;
-    }
-}
-
-.homepage-countdown-title {
-    margin-bottom: 0.25rem;
-    font-weight: 600;
-}
-
-/* 首页推荐和注意事项 */
-.homepage-recommend {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.homepage-recommend-item {
-    width: 100%;
-}
-
-@media (min-width: $cp-col-tablat-big) {
-    .homepage-recommend-item {
-        width: 50%;
-    }
-}
-
-.homepage-recommend-item, .homepage-attention {
-    ul {
-        margin-left: 1.5rem;
-        padding-left: 0;
-        
-        &:last-child { 
-            margin-bottom: .5rem;
-        }
-    }
-}
-
-.homepage-attention ul {
-    margin-top: 1rem;
-}
-
-main#layout-index {
-    padding: 1rem 1.5rem;
-}
-
-@media (min-width: 1624px) {
-    main#layout-index {
-        /* 1.5rem - (100% - $cp-col-deskop)) / 2 = 824px - 50% */
-        padding: 1rem calc(824px - 50%);
-    }
-}
-
-@media (min-width: $cp-col-deskop) {
-    main#layout-index {
-        padding: 1rem 0.5rem;
-    }
-}
-
-/* 覆盖默认的图片样式 */
-.cp-featured-card img {
-    margin: inherit
+    color: var(--cp-grey-text-dark);
 }
 </style>

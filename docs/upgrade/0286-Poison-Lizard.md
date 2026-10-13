@@ -1,4 +1,4 @@
-﻿---
+---
 title: "部落冲突 coc 猛蜥（猛毒蜥）升级数据"
 navTitle: "猛蜥"
 shownTitle: "猛蜥（猛毒蜥）"

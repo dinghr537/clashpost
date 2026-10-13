@@ -65,7 +65,7 @@ canonical: /upgrade/060b-Rocket-Balloon
 |      12       |    304    |   912   |    730   |  1240  |     17    |
 </UnitTable>
 
-\* 5 - 7 级火箭气球兵只在 [奖章活动](/p/7015) 中出现，不能通过常规方式得到。
+\* 5 - 7 级火箭气球兵只在 奖章活动 中出现，不能通过常规方式得到。
 
 <SmallTitle>更新历史</SmallTitle>
 

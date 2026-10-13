@@ -1,4 +1,5 @@
 import { inBrowser } from "vitepress";
+import { resolveImage } from "./local-images.js";
 import { isNumber, convertTime, convertNum, getCookie } from "@/assets/global/utils.js";
 
 /**
@@ -352,7 +353,7 @@ export function getResourceInfo(type) {
             imgAlt = "香甜圣水";
             break;
     }
-    return {"src": imgSrc, "srcWithoutExtension": imgSrcWithoutExtension, "alt": imgAlt};
+    return {"src": resolveImage(imgSrc), "alt": imgAlt};
 }
 
 export function getResourceHTML(type) {
@@ -366,11 +367,9 @@ export function getResourceHTML(type) {
             if (iconInfo) {
                 // 如果 iconInfo 为 null，则最终结果为空字符串
                 const imgSrc = iconInfo.src;
-                const imgSrcWithoutExtension = iconInfo.srcWithoutExtension;
                 const imgAlt = iconInfo.alt;
                 
                 resourceHtml += '<figure class="cp-img-container cp-img-resource-icon"><picture>' +
-                    '<source srcset="' + imgSrcWithoutExtension + '.webp" type="image/webp" />' +
                     '<img loading="lazy" src="' + imgSrc + '" alt="' + imgAlt + '" width="" height="" />' +
                     '</picture></figure>';
             }

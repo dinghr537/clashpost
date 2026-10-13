@@ -1,4 +1,4 @@
-﻿---
+---
 title: "部落冲突 coc 巨石投手（蓝胖）升级数据"
 navTitle: "巨石投手"
 shownTitle: "巨石投手（蓝胖）"

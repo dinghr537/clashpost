@@ -4,17 +4,13 @@ import { resolve } from 'node:path'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
     title: "部落驿站",
-    description: "部落冲突玩家的必备助手，coc 的中文百科全书。",
+    description: "部落冲突升级数据查询：升级费用、时间与前置条件。",
     lang: "zh-Hans-CN",
     cleanUrls: true,
     ignoreDeadLinks: true,
     head: [
         ["meta", { name: "format-detection", content: "telephone=no"}],
-        ["link", { rel: "icon", href: "https://static.clashpost.com/favicon.ico" }],
-        ["link", { rel: "icon", href: "https://static.clashpost.com/favicon.svg", type: "image/svg+xml" }],
-        ["link", { rel: "apple-touch-icon", href: "https://static.clashpost.com/apple-touch-icon.png"}],
-        ["link", { rel: "manifest", href: "https://static.clashpost.com/manifest.webmanifest"}],
-        ['script', { defer: "", src: "https://static.clashpost.com/global/very-old-browser-check-v11.min.js"}],
+        ["link", { rel: "icon", href: "/favicon.svg", type: "image/svg+xml" }]
     ],
     transformHead: ({ pageData }) => {
         const head: HeadConfig[] = [];
@@ -58,6 +54,7 @@ export default defineConfig({
         }
     },
     vite: {
+        server: { watch: { usePolling: true, interval: 500 } },
         build: {
             target: ["es2020", "chrome71", "edge79", "firefox75", "safari13"]
         },
