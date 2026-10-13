@@ -179,34 +179,6 @@
       "alt": "所有等级",
       "localPath": "/images/original/upgrade/capital_tech/2010/Mega_Sparky1.webp",
       "logicalPath": "/upgrade/capital_tech/2010/Mega_Sparky1.png"
-    },
-    {
-      "name": "Mega_Sparky_info_2.png",
-      "url": "https://static.wikia.nocookie.net/clashofclans/images/f/f7/Mega_Sparky_info_2.png/revision/latest/scale-to-width-down/107?cb=20260627040255",
-      "alt": "Mega Sparky's alternate render.",
-      "localPath": "/images/wiki/2010-Mega-Sparky/36b289436f-Mega_Sparky_info_2.png",
-      "logicalPath": "/upgrade/capital_tech/2010/Mega_Sparky_info_2.png"
-    },
-    {
-      "name": "Mega_Sparky_concept_Art2.jpg",
-      "url": "https://static.wikia.nocookie.net/clashofclans/images/4/47/Mega_Sparky_concept_Art2.jpg/revision/latest/scale-to-width-down/185?cb=20250827150931",
-      "alt": "First concepts design of Mega Sparky.",
-      "localPath": "/images/wiki/2010-Mega-Sparky/74b01f7e99-Mega_Sparky_concept_Art2.jpg",
-      "logicalPath": "/upgrade/capital_tech/2010/Mega_Sparky_concept_Art2.jpg"
-    },
-    {
-      "name": "Mega_Sparky_concept_Art1.jpg",
-      "url": "https://static.wikia.nocookie.net/clashofclans/images/0/0e/Mega_Sparky_concept_Art1.jpg/revision/latest/scale-to-width-down/185?cb=20250827150849",
-      "alt": "Second concepts design from the glass jar.",
-      "localPath": "/images/wiki/2010-Mega-Sparky/762bf31f7f-Mega_Sparky_concept_Art1.jpg",
-      "logicalPath": "/upgrade/capital_tech/2010/Mega_Sparky_concept_Art1.jpg"
-    },
-    {
-      "name": "Mega_Sparky_concept_Art3.jpg",
-      "url": "https://static.wikia.nocookie.net/clashofclans/images/3/37/Mega_Sparky_concept_Art3.jpg/revision/latest/scale-to-width-down/185?cb=20250827151023",
-      "alt": "Final concepts design of Mega Sparky.",
-      "localPath": "/images/wiki/2010-Mega-Sparky/58665a5359-Mega_Sparky_concept_Art3.jpg",
-      "logicalPath": "/upgrade/capital_tech/2010/Mega_Sparky_concept_Art3.jpg"
     }
   ],
   "history": [],

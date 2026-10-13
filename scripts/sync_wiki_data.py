@@ -24,6 +24,13 @@ RESOURCE_NAMES = {
 }
 
 
+def is_unit_image(image):
+    name = image['name'].lower()
+    # The unsuffixed _info image is the unit's default portrait; numbered ones
+    # are additional renders/skins, rather than level sprites.
+    return not (re.search(r'_info_?\d', name) or any(token in name for token in ('concept', 'artwork', 'screenshot', '_effect')))
+
+
 class VillageFilter(HTMLParser):
     """Some Wiki pages transclude all villages; retain the requested village tab."""
     def __init__(self, village):
@@ -364,7 +371,7 @@ def make_record(item, date):
     if previous:
         images = [{**image, 'localPath': image.get('localPath') or original.get(image['logicalPath'])
                    or original.get(re.sub(r'\.(png|jpe?g)$', '.webp', image['logicalPath'], flags=re.I))}
-                  for image in previous['images']]
+                  for image in previous['images'] if 'static.clashpost.com' in image['url'] or is_unit_image(image)]
         for image in images:
             old_names.add(image['name'])
             seen.add(image['name'])
@@ -390,6 +397,8 @@ def make_record(item, date):
                            'alt': label, 'localPath': local, 'logicalPath': logical})
     old_max = max(old_levels, default=0)
     for image in parser.gallery:
+        if not is_unit_image(image):
+            continue
         key_family = re.sub(r'[^a-z0-9]', '', image['name'].lower())
         if not key_family.startswith(family) and image['name'] not in old_names:
             continue

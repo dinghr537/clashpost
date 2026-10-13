@@ -595,27 +595,6 @@
       "alt": "所有等级",
       "localPath": "/images/original/upgrade/temp_troops/0e0b/Lavaloon_Pup1.webp",
       "logicalPath": "/upgrade/temp_troops/0e0b/Lavaloon_Pup1.png"
-    },
-    {
-      "name": "Lavaloon_info_2.png",
-      "url": "https://static.wikia.nocookie.net/clashofclans/images/9/9c/Lavaloon_info_2.png/revision/latest/scale-to-width-down/163?cb=20231012151746",
-      "alt": "",
-      "localPath": "/images/wiki/0e0b-Lavaloon/d049427d0a-Lavaloon_info_2.png",
-      "logicalPath": "/upgrade/temp_troops/0e0b/Lavaloon_info_2.png"
-    },
-    {
-      "name": "Lavaloon_info_3.png",
-      "url": "https://static.wikia.nocookie.net/clashofclans/images/b/bd/Lavaloon_info_3.png/revision/latest/scale-to-width-down/150?cb=20231012151748",
-      "alt": "",
-      "localPath": "/images/wiki/0e0b-Lavaloon/becba9780f-Lavaloon_info_3.png",
-      "logicalPath": "/upgrade/temp_troops/0e0b/Lavaloon_info_3.png"
-    },
-    {
-      "name": "Lavaloon_info_4.png",
-      "url": "https://static.wikia.nocookie.net/clashofclans/images/9/96/Lavaloon_info_4.png/revision/latest/scale-to-width-down/115?cb=20231012151749",
-      "alt": "",
-      "localPath": "/images/wiki/0e0b-Lavaloon/434a3fb874-Lavaloon_info_4.png",
-      "logicalPath": "/upgrade/temp_troops/0e0b/Lavaloon_info_4.png"
     }
   ],
   "history": [],

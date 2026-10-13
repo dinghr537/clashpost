@@ -738,60 +738,11 @@
   ],
   "images": [
     {
-      "name": "Totem_Thrower_info.png",
-      "url": "https://static.wikia.nocookie.net/clashofclans/images/7/77/Totem_Thrower_info.png/revision/latest/scale-to-width-down/250?cb=20261006150352",
-      "alt": "Totem Thrower info",
-      "localPath": "/images/wiki/0e1d-Totem-Thrower/80c7cabc25-Totem_Thrower_info.png",
-      "logicalPath": "/upgrade/temp_troops/0e1d/Totem_Thrower_info.png"
-    },
-    {
       "name": "Totem_Thrower1.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/a/a5/Totem_Thrower1.png/revision/latest/scale-to-width-down/120?cb=20260911225619",
       "alt": "Totem Thrower1",
       "localPath": "/images/wiki/0e1d-Totem-Thrower/21f1f59ee2-Totem_Thrower1.png",
       "logicalPath": "/upgrade/temp_troops/0e1d/Totem_Thrower1.png"
-    },
-    {
-      "name": "Totem_Thrower_info2.png",
-      "url": "https://static.wikia.nocookie.net/clashofclans/images/0/09/Totem_Thrower_info2.png/revision/latest/scale-to-width-down/161?cb=20261005163406",
-      "alt": "",
-      "localPath": "/images/wiki/0e1d-Totem-Thrower/dc23f0b84d-Totem_Thrower_info2.png",
-      "logicalPath": "/upgrade/temp_troops/0e1d/Totem_Thrower_info2.png"
-    },
-    {
-      "name": "Totem_Thrower_info3.png",
-      "url": "https://static.wikia.nocookie.net/clashofclans/images/1/1c/Totem_Thrower_info3.png/revision/latest/scale-to-width-down/161?cb=20261005163427",
-      "alt": "",
-      "localPath": "/images/wiki/0e1d-Totem-Thrower/8dfaf0b3ab-Totem_Thrower_info3.png",
-      "logicalPath": "/upgrade/temp_troops/0e1d/Totem_Thrower_info3.png"
-    },
-    {
-      "name": "Totem_Thrower_info4.png",
-      "url": "https://static.wikia.nocookie.net/clashofclans/images/7/75/Totem_Thrower_info4.png/revision/latest/scale-to-width-down/161?cb=20261005163449",
-      "alt": "",
-      "localPath": "/images/wiki/0e1d-Totem-Thrower/178b052598-Totem_Thrower_info4.png",
-      "logicalPath": "/upgrade/temp_troops/0e1d/Totem_Thrower_info4.png"
-    },
-    {
-      "name": "Totem_Thrower_info5.png",
-      "url": "https://static.wikia.nocookie.net/clashofclans/images/8/8b/Totem_Thrower_info5.png/revision/latest/scale-to-width-down/161?cb=20261005163510",
-      "alt": "",
-      "localPath": "/images/wiki/0e1d-Totem-Thrower/8b48cf9854-Totem_Thrower_info5.png",
-      "logicalPath": "/upgrade/temp_troops/0e1d/Totem_Thrower_info5.png"
-    },
-    {
-      "name": "Totem_Thrower_info6.png",
-      "url": "https://static.wikia.nocookie.net/clashofclans/images/8/86/Totem_Thrower_info6.png/revision/latest/scale-to-width-down/161?cb=20261005163531",
-      "alt": "",
-      "localPath": "/images/wiki/0e1d-Totem-Thrower/6ca53ab936-Totem_Thrower_info6.png",
-      "logicalPath": "/upgrade/temp_troops/0e1d/Totem_Thrower_info6.png"
-    },
-    {
-      "name": "Totem_Thrower_info7.png",
-      "url": "https://static.wikia.nocookie.net/clashofclans/images/8/8f/Totem_Thrower_info7.png/revision/latest/scale-to-width-down/161?cb=20261005163553",
-      "alt": "",
-      "localPath": "/images/wiki/0e1d-Totem-Thrower/b3427b9bf9-Totem_Thrower_info7.png",
-      "logicalPath": "/upgrade/temp_troops/0e1d/Totem_Thrower_info7.png"
     }
   ],
   "history": [

@@ -4,10 +4,15 @@ import sys
 import unittest
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
-from sync_wiki_data import VillageFilter, SourceTables, headers_and_rows, source_cell, extra_info, duration_value
+from sync_wiki_data import VillageFilter, SourceTables, headers_and_rows, source_cell, extra_info, duration_value, is_unit_image
 
 
 class WikiSyncTests(unittest.TestCase):
+    def test_default_portraits_and_level_sprites_survive_gallery_filter(self):
+        for filename in ('Ruin_Witch_info.png', 'Totem_Thrower_info.png', 'Barbarian13.png'):
+            self.assertTrue(is_unit_image({'name': filename}), filename)
+        self.assertFalse(is_unit_image({'name': 'Dragon_Duke_Concept_Art5.jpg'}))
+
     def test_transcluded_villages_are_not_mixed(self):
         source = ('<div class="wds-tabber"><ul>'
                   '<li data-hash="Home_Village">Home</li><li data-hash="Builder_Base">Builder</li>'

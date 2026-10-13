@@ -542,39 +542,11 @@
       "logicalPath": "/upgrade/home_heroes/028a/Booger1.png"
     },
     {
-      "name": "Sneezy_Concept3.jpg",
-      "url": "https://static.wikia.nocookie.net/clashofclans/images/2/2e/Sneezy_Concept3.jpg/revision/latest/scale-to-width-down/134?cb=20250730090617",
-      "alt": "Sneezy original concept art",
-      "localPath": "/images/wiki/028a-Sneezy/0604fc242c-Sneezy_Concept3.jpg",
-      "logicalPath": "/upgrade/home_heroes/028a/Sneezy_Concept3.jpg"
-    },
-    {
-      "name": "Sneezy_Concept2.jpg",
-      "url": "https://static.wikia.nocookie.net/clashofclans/images/6/6f/Sneezy_Concept2.jpg/revision/latest/scale-to-width-down/185?cb=20250730090536",
-      "alt": "Sneezy second concept art",
-      "localPath": "/images/wiki/028a-Sneezy/4e94bcedef-Sneezy_Concept2.jpg",
-      "logicalPath": "/upgrade/home_heroes/028a/Sneezy_Concept2.jpg"
-    },
-    {
-      "name": "Sneezy_Concept1.jpg",
-      "url": "https://static.wikia.nocookie.net/clashofclans/images/2/23/Sneezy_Concept1.jpg/revision/latest/scale-to-width-down/185?cb=20250730090430",
-      "alt": "Sneezy final concept art",
-      "localPath": "/images/wiki/028a-Sneezy/94efea99b8-Sneezy_Concept1.jpg",
-      "logicalPath": "/upgrade/home_heroes/028a/Sneezy_Concept1.jpg"
-    },
-    {
       "name": "Sneezy_3D_Model.jpg",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/b/bb/Sneezy_3D_Model.jpg/revision/latest/scale-to-width-down/185?cb=20250730090734",
       "alt": "3D model of Sneezy.",
       "localPath": "/images/wiki/028a-Sneezy/720c2af8be-Sneezy_3D_Model.jpg",
       "logicalPath": "/upgrade/home_heroes/028a/Sneezy_3D_Model.jpg"
-    },
-    {
-      "name": "Sneezy_info_2.png",
-      "url": "https://static.wikia.nocookie.net/clashofclans/images/0/06/Sneezy_info_2.png/revision/latest/scale-to-width-down/185?cb=20260708053717",
-      "alt": "Info image without Booger.",
-      "localPath": "/images/wiki/028a-Sneezy/41647629db-Sneezy_info_2.png",
-      "logicalPath": "/upgrade/home_heroes/028a/Sneezy_info_2.png"
     }
   ],
   "history": [],

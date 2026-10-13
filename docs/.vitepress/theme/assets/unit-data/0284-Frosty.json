@@ -861,20 +861,6 @@
       "alt": "所有等级",
       "localPath": "/images/original/upgrade/home_heroes/0284/Frosty_field.webp",
       "logicalPath": "/upgrade/home_heroes/0284/Frosty_field.png"
-    },
-    {
-      "name": "Frosty_info_2.png",
-      "url": "https://static.wikia.nocookie.net/clashofclans/images/3/32/Frosty_info_2.png/revision/latest/scale-to-width-down/185?cb=20221012064337",
-      "alt": "Happy",
-      "localPath": "/images/wiki/0284-Frosty/ce70809e09-Frosty_info_2.png",
-      "logicalPath": "/upgrade/home_heroes/0284/Frosty_info_2.png"
-    },
-    {
-      "name": "Frosty_info_3.png",
-      "url": "https://static.wikia.nocookie.net/clashofclans/images/7/7d/Frosty_info_3.png/revision/latest/scale-to-width-down/185?cb=20221012064341",
-      "alt": "Angry",
-      "localPath": "/images/wiki/0284-Frosty/51acaaf4d4-Frosty_info_3.png",
-      "logicalPath": "/upgrade/home_heroes/0284/Frosty_info_3.png"
     }
   ],
   "history": [],

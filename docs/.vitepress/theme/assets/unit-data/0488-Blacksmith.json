@@ -920,20 +920,6 @@
       "alt": "7 - 8 级",
       "localPath": "/images/original/upgrade/home_buildings/0488/Blacksmith7.webp",
       "logicalPath": "/upgrade/home_buildings/0488/Blacksmith7.png"
-    },
-    {
-      "name": "Blacksmith_level9_info2.png",
-      "url": "https://static.wikia.nocookie.net/clashofclans/images/0/06/Blacksmith_level9_info2.png/revision/latest/scale-to-width-down/185?cb=20250318143817",
-      "alt": "",
-      "localPath": "/images/wiki/0488-Blacksmith/3fa7aa5513-Blacksmith_level9_info2.png",
-      "logicalPath": "/upgrade/home_buildings/0488/Blacksmith_level9_info2.png"
-    },
-    {
-      "name": "Blacksmith_level9_info3.png",
-      "url": "https://static.wikia.nocookie.net/clashofclans/images/a/aa/Blacksmith_level9_info3.png/revision/latest/scale-to-width-down/185?cb=20250318143848",
-      "alt": "",
-      "localPath": "/images/wiki/0488-Blacksmith/22c632f4f9-Blacksmith_level9_info3.png",
-      "logicalPath": "/upgrade/home_buildings/0488/Blacksmith_level9_info3.png"
     }
   ],
   "history": [],

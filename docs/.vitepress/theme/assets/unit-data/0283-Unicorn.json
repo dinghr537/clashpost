@@ -703,13 +703,6 @@
       "alt": "所有等级",
       "localPath": "/images/original/upgrade/home_heroes/0283/Unicorn_field.webp",
       "logicalPath": "/upgrade/home_heroes/0283/Unicorn_field.png"
-    },
-    {
-      "name": "Unicorn_info_2.png",
-      "url": "https://static.wikia.nocookie.net/clashofclans/images/9/93/Unicorn_info_2.png/revision/latest/scale-to-width-down/158?cb=20260409170611",
-      "alt": "",
-      "localPath": "/images/wiki/0283-Unicorn/f8c0ca44ee-Unicorn_info_2.png",
-      "logicalPath": "/upgrade/home_heroes/0283/Unicorn_info_2.png"
     }
   ],
   "history": [],

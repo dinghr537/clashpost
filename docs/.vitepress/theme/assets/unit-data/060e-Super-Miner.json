@@ -329,20 +329,6 @@
       "alt": "所有等级",
       "localPath": "/images/original/upgrade/home_tech/060e/Super_Miner7.webp",
       "logicalPath": "/upgrade/home_tech/060e/Super_Miner7.png"
-    },
-    {
-      "name": "Super_Miner_info_2.png",
-      "url": "https://static.wikia.nocookie.net/clashofclans/images/f/f5/Super_Miner_info_2.png/revision/latest/scale-to-width-down/185?cb=20221212121930",
-      "alt": "Super Miner's render from the info box but with a smile and without grass",
-      "localPath": "/images/wiki/060e-Super-Miner/df3c09efa0-Super_Miner_info_2.png",
-      "logicalPath": "/upgrade/home_tech/060e/Super_Miner_info_2.png"
-    },
-    {
-      "name": "Super_Miner_info_3.png",
-      "url": "https://static.wikia.nocookie.net/clashofclans/images/8/8a/Super_Miner_info_3.png/revision/latest/scale-to-width-down/115?cb=20221212122034",
-      "alt": "Alternate render of the Super Miner",
-      "localPath": "/images/wiki/060e-Super-Miner/076a63af16-Super_Miner_info_3.png",
-      "logicalPath": "/upgrade/home_tech/060e/Super_Miner_info_3.png"
     }
   ],
   "history": [],

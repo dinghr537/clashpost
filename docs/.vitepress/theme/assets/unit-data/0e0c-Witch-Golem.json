@@ -681,20 +681,6 @@
       "alt": "所有等级",
       "localPath": "/images/original/upgrade/temp_troops/0e0c/Big_Boy.webp",
       "logicalPath": "/upgrade/temp_troops/0e0c/Big_Boy.png"
-    },
-    {
-      "name": "Witch_Golem_info_2.png",
-      "url": "https://static.wikia.nocookie.net/clashofclans/images/5/5b/Witch_Golem_info_2.png/revision/latest/scale-to-width-down/150?cb=20231012151755",
-      "alt": "",
-      "localPath": "/images/wiki/0e0c-Witch-Golem/17a7ccd1ff-Witch_Golem_info_2.png",
-      "logicalPath": "/upgrade/temp_troops/0e0c/Witch_Golem_info_2.png"
-    },
-    {
-      "name": "Witch_Golem_info_3.png",
-      "url": "https://static.wikia.nocookie.net/clashofclans/images/9/94/Witch_Golem_info_3.png/revision/latest/scale-to-width-down/185?cb=20231012151757",
-      "alt": "",
-      "localPath": "/images/wiki/0e0c-Witch-Golem/cf1c989e12-Witch_Golem_info_3.png",
-      "logicalPath": "/upgrade/temp_troops/0e0c/Witch_Golem_info_3.png"
     }
   ],
   "history": [],

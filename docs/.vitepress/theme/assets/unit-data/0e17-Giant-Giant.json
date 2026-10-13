@@ -548,34 +548,6 @@
       "alt": "所有等级",
       "localPath": "/images/original/upgrade/temp_troops/0e17/Giant_Giant1.webp",
       "logicalPath": "/upgrade/temp_troops/0e17/Giant_Giant1.png"
-    },
-    {
-      "name": "Giant_Giant_info2.png",
-      "url": "https://static.wikia.nocookie.net/clashofclans/images/c/cf/Giant_Giant_info2.png/revision/latest/scale-to-width-down/185?cb=20250410144228",
-      "alt": "Giant Giant's pose, used as his avatar icon; full view",
-      "localPath": "/images/wiki/0e17-Giant-Giant/51427cc6cc-Giant_Giant_info2.png",
-      "logicalPath": "/upgrade/temp_troops/0e17/Giant_Giant_info2.png"
-    },
-    {
-      "name": "Giant_Giant_info3.png",
-      "url": "https://static.wikia.nocookie.net/clashofclans/images/2/2d/Giant_Giant_info3.png/revision/latest/scale-to-width-down/185?cb=20250410144245",
-      "alt": "",
-      "localPath": "/images/wiki/0e17-Giant-Giant/6ff1780f8e-Giant_Giant_info3.png",
-      "logicalPath": "/upgrade/temp_troops/0e17/Giant_Giant_info3.png"
-    },
-    {
-      "name": "Giant_Giant_info4.png",
-      "url": "https://static.wikia.nocookie.net/clashofclans/images/7/75/Giant_Giant_info4.png/revision/latest/scale-to-width-down/185?cb=20250410144305",
-      "alt": "",
-      "localPath": "/images/wiki/0e17-Giant-Giant/aae8a2cfa6-Giant_Giant_info4.png",
-      "logicalPath": "/upgrade/temp_troops/0e17/Giant_Giant_info4.png"
-    },
-    {
-      "name": "Giant_Giant_info5.png",
-      "url": "https://static.wikia.nocookie.net/clashofclans/images/f/f2/Giant_Giant_info5.png/revision/latest/scale-to-width-down/185?cb=20250410144320",
-      "alt": "",
-      "localPath": "/images/wiki/0e17-Giant-Giant/fe841bb656-Giant_Giant_info5.png",
-      "logicalPath": "/upgrade/temp_troops/0e17/Giant_Giant_info5.png"
     }
   ],
   "history": [],

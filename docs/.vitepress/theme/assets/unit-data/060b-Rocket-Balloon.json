@@ -437,27 +437,6 @@
       "alt": "所有等级",
       "localPath": "/images/original/upgrade/home_tech/060b/Rocket_Balloon8.webp",
       "logicalPath": "/upgrade/home_tech/060b/Rocket_Balloon8.png"
-    },
-    {
-      "name": "Rocket_Balloon_info_2.png",
-      "url": "https://static.wikia.nocookie.net/clashofclans/images/8/8b/Rocket_Balloon_info_2.png/revision/latest/scale-to-width-down/169?cb=20260102101121",
-      "alt": "",
-      "localPath": "/images/wiki/060b-Rocket-Balloon/de8a5f9cbe-Rocket_Balloon_info_2.png",
-      "logicalPath": "/upgrade/home_tech/060b/Rocket_Balloon_info_2.png"
-    },
-    {
-      "name": "Rocket_Balloon_Concept_Art1.jpg",
-      "url": "https://static.wikia.nocookie.net/clashofclans/images/5/5b/Rocket_Balloon_Concept_Art1.jpg/revision/latest/scale-to-width-down/185?cb=20250825162114",
-      "alt": "Concepts design of Rocket Balloon.",
-      "localPath": "/images/wiki/060b-Rocket-Balloon/f7ed38cf11-Rocket_Balloon_Concept_Art1.jpg",
-      "logicalPath": "/upgrade/home_tech/060b/Rocket_Balloon_Concept_Art1.jpg"
-    },
-    {
-      "name": "Rocket_Balloon_Concept_Art2.jpg",
-      "url": "https://static.wikia.nocookie.net/clashofclans/images/0/00/Rocket_Balloon_Concept_Art2.jpg/revision/latest/scale-to-width-down/185?cb=20250825162212",
-      "alt": "Ditto.",
-      "localPath": "/images/wiki/060b-Rocket-Balloon/d85c7a6cf8-Rocket_Balloon_Concept_Art2.jpg",
-      "logicalPath": "/upgrade/home_tech/060b/Rocket_Balloon_Concept_Art2.jpg"
     }
   ],
   "history": [],

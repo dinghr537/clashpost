@@ -559,13 +559,6 @@
       "alt": "所有等级",
       "localPath": "/images/original/upgrade/home_heroes/0288/Spirit_Fox_field.webp",
       "logicalPath": "/upgrade/home_heroes/0288/Spirit_Fox_field.png"
-    },
-    {
-      "name": "Spirit_Fox_info_2.png",
-      "url": "https://static.wikia.nocookie.net/clashofclans/images/7/7c/Spirit_Fox_info_2.png/revision/latest/scale-to-width-down/138?cb=20260217131150",
-      "alt": "",
-      "localPath": "/images/wiki/0288-Spirit-Fox/e12bef6e5b-Spirit_Fox_info_2.png",
-      "logicalPath": "/upgrade/home_heroes/0288/Spirit_Fox_info_2.png"
     }
   ],
   "history": [],
