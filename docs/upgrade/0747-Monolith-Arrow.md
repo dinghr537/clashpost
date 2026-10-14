@@ -1,7 +1,8 @@
 ---
-title: "部落冲突 coc Monolith Arrow升级数据"
-navTitle: "Monolith Arrow"
-shownTitle: "Monolith Arrow"
+title: "部落冲突 coc 擎天箭矢升级数据"
+navTitle: "擎天箭矢"
+shownTitle: "擎天箭矢"
+englishName: "Monolith Arrow"
 module: upgrade-home
 imgFolder: home_heroes/0747
 wiki: https://clashofclans.fandom.com/wiki/Monolith_Arrow

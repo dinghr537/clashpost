@@ -1,7 +1,8 @@
 ---
-title: "部落冲突 coc Ruin Witch升级数据"
-navTitle: "Ruin Witch"
-shownTitle: "Ruin Witch"
+title: "部落冲突 coc 废墟女巫升级数据"
+navTitle: "废墟女巫"
+shownTitle: "废墟女巫"
+englishName: "Ruin Witch"
 module: upgrade-home
 imgFolder: home_tech/0013
 wiki: https://clashofclans.fandom.com/wiki/Ruin_Witch

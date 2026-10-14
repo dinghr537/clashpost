@@ -1,7 +1,8 @@
 ---
-title: "部落冲突 coc Cake-A-Pult升级数据"
-navTitle: "Cake-A-Pult"
-shownTitle: "Cake-A-Pult"
+title: "部落冲突 coc 蛋糕投掷器升级数据"
+navTitle: "蛋糕投掷器"
+shownTitle: "蛋糕投掷器"
+englishName: "Cake-A-Pult"
 module: upgrade-temp
 imgFolder: crafted_buildings/0909
 wiki: https://clashofclans.fandom.com/wiki/Cake-A-Pult

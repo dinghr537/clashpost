@@ -1,7 +1,8 @@
 ---
-title: "部落冲突 coc Elephant Rider升级数据"
-navTitle: "Elephant Rider"
-shownTitle: "Elephant Rider"
+title: "部落冲突 coc 大象骑士升级数据"
+navTitle: "大象骑士"
+shownTitle: "大象骑士"
+englishName: "Elephant Rider"
 module: upgrade-temp
 imgFolder: temp_troops/0e1e
 wiki: https://clashofclans.fandom.com/wiki/Elephant_Rider

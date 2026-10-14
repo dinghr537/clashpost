@@ -8,6 +8,8 @@
 
 同步前的版本进度、2026 年 2 月至 10 月更新范围与本次完成情况见 [更新核对清单](UPDATE_AUDIT_2026-10-13.md)。
 
+页面、目录和搜索结果采用中文名称；同步的表头、能力参数和更新历史均有中文展示。英文名称支持搜索，来源原文保留在默认收起的核对区域。每次更新或准备发布时运行中文展示检查，补齐本次新增的翻译。
+
 ## 本地运行
 
 需要 Node.js 22+：
@@ -55,6 +57,8 @@ npm run docs:preview
 python3 scripts/check_upgrade_data.py --unit 0301-Cannon --output /tmp/cannon-diff.json
 python3 -B scripts/check_synced_data.py
 python3 -B -m unittest discover -s tests
+node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --test tests/test_chinese_ui.mjs
+node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/check_chinese_ui.mjs
 ```
 
 保留原数据资料的作者署名；被移除的文章可从原项目或 Git 历史中查阅。本项目与 Supercell 没有任何关联。

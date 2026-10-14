@@ -13,7 +13,7 @@ export default createContentLoader("upgrade/*.md", {
             url,
             title: frontmatter.shownTitle || frontmatter.navTitle || frontmatter.title,
             village: villageNames[frontmatter.module] || "升级数据",
-            keywords: [frontmatter.title, frontmatter.navTitle, frontmatter.shownTitle,
+            keywords: [frontmatter.title, frontmatter.navTitle, frontmatter.shownTitle, frontmatter.englishName,
                 url.replace(/.*\/[0-9a-f]{4}-/, "").replace(/-/g, " ")].join(" ")
         })).sort((a, b) => a.url.localeCompare(b.url));
     }

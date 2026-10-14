@@ -2,9 +2,10 @@
 import { computed } from "vue";
 import UnitTable from "./UnitTable.vue";
 import { imagePlaceholder } from "@/assets/local-images.js";
-import { dataLabel } from "@/assets/data-labels.js";
+import { dataLabel, factLabel, historyLabel, imageLabel } from "@/assets/data-labels.js";
 
 const props = defineProps({ data: { type: Object, required: true } });
+const unitTitle = computed(() => dataLabel(props.data.title));
 const images = computed(() => props.data.images.filter(image => image.localPath));
 const sortedTables = computed(() => props.data.tables.map((table, index) => ({ ...table, index })).sort((a, b) => {
     const score = table => table.headers.some(header => /Cost|Build Time|Upgrade Time|Research Time/.test(header)) ? 0 : 1;
@@ -47,21 +48,21 @@ function bodyDisplay(table, cell, rowIndex, column) {
 <template>
     <p class="cp-data-source">
         数据同步：{{ data.sync.syncedOn }} ·
-        <a :href="data.sync.revisionUrl" target="_blank" rel="noopener noreferrer">Clash of Clans Wiki</a>
+        <a :href="data.sync.revisionUrl" target="_blank" rel="noopener noreferrer">部落冲突维基</a>
     </p>
     <figure v-if="images.length" class="cp-data-cover">
-        <img :src="images[0].localPath || imagePlaceholder" :alt="data.title" />
+        <img :src="images[0].localPath || imagePlaceholder" :alt="unitTitle" />
     </figure>
-    <p v-for="notice in data.notices" :key="notice">{{ notice }}</p>
+    <p v-for="notice in data.notices" :key="notice">{{ dataLabel(notice) }}</p>
     <template v-if="data.facts?.length">
         <SmallTitle>解锁条件与能力参数</SmallTitle>
-        <ul><li v-for="fact in data.facts" :key="fact">{{ fact }}</li></ul>
+        <ul><li v-for="fact in data.facts" :key="fact">{{ factLabel(fact) }}</li></ul>
     </template>
     <Panel v-if="images.length > 1">
         <div class="cp-data-gallery">
             <figure v-for="image in images" :key="image.name">
-                <img loading="lazy" class="cp-unit-img" :src="image.localPath" :alt="image.alt" />
-                <figcaption>{{ image.alt }}</figcaption>
+                <img loading="lazy" class="cp-unit-img" :src="image.localPath" :alt="imageLabel(image, data.title)" />
+                <figcaption>{{ imageLabel(image, data.title) }}</figcaption>
             </figure>
         </div>
     </Panel>
@@ -72,7 +73,7 @@ function bodyDisplay(table, cell, rowIndex, column) {
                 <thead><tr><th v-for="(header, column) in table.headers" :key="column">{{ dataLabel(header) }}</th></tr></thead>
                 <tbody>
                     <tr v-for="(row, index) in table.rows" :key="index">
-                        <component :is="availabilityBands(table) && index % 2 ? 'th' : 'td'" v-for="(cell, column) in row" :key="column" :title="cell.status === 'known' ? cell.raw : cell.status === 'unknown' ? '来源没有给出可用数值' : '来源标记为不适用'">{{ bodyDisplay(table, cell, index, column) }}</component>
+                        <component :is="availabilityBands(table) && index % 2 ? 'th' : 'td'" v-for="(cell, column) in row" :key="column" :title="cell.status === 'known' ? dataLabel(cell.raw) : cell.status === 'unknown' ? '来源没有给出可用数值' : '来源标记为不适用'">{{ bodyDisplay(table, cell, index, column) }}</component>
                     </tr>
                 </tbody>
             </table>
@@ -81,10 +82,15 @@ function bodyDisplay(table, cell, rowIndex, column) {
     <template v-if="history.length">
         <SmallTitle>2026 年更新历史</SmallTitle>
         <ul class="cp-data-history">
-            <li v-for="(item, index) in history" :key="index"><strong>{{ item.date }}</strong> {{ item.description }} <a v-if="item.sourceUrl" :href="item.sourceUrl" target="_blank" rel="noopener noreferrer">来源</a></li>
+            <li v-for="(item, index) in history" :key="index"><strong>{{ item.date }}</strong> {{ historyLabel(item.description) }} <a v-if="item.sourceUrl" :href="item.sourceUrl" target="_blank" rel="noopener noreferrer">来源</a></li>
         </ul>
-        <p class="cp-data-source">以上为来源记录的变更日期，原文保留供核对；数据同步日期列在页首。</p>
+        <p class="cp-data-source">以上为来源记录的变更日期及中文整理；数据同步日期列在页首。</p>
     </template>
+    <details v-if="data.facts?.length || history.length" class="cp-data-original">
+        <summary>查看来源原文</summary>
+        <ul><li v-for="fact in data.facts" :key="fact">{{ fact }}</li></ul>
+        <ul><li v-for="(item, index) in history" :key="index"><strong>{{ item.date }}</strong> {{ item.description }}</li></ul>
+    </details>
 </template>
 
 <style lang="scss">
@@ -96,5 +102,7 @@ function bodyDisplay(table, cell, rowIndex, column) {
 .cp-data-gallery img { height: 5.5rem; max-width: 5.5rem; object-fit: contain; }
 .cp-data-gallery figcaption { font-size: 0.75rem; line-height: 1.3; overflow-wrap: anywhere; }
 .cp-data-history li { margin: 0.75rem 0; }
+.cp-data-original { margin: 1.5rem 0; }
+.cp-data-original summary { cursor: pointer; }
 .cp-theme-dark .cp-data-source { color: var(--cp-grey-text-dark); }
 </style>

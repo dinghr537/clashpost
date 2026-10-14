@@ -36,9 +36,9 @@ if (activeTabCookieValue === "temp-troops") {
 
 <SwitchTabGroup id="cp-upgrade-crafted" class="cp-upgrade-item">
     <ListItems title="2026 年 8 月批次（当前）" imgFolder="crafted_buildings">
-        <ListItem name="Cake-A-Pult" imgSrc="/images/wiki/0909-Cake-A-Pult/75cd0aeeb2-Cake-A-Pult4.png" link="0909-Cake-A-Pult" />
-        <ListItem name="Hero Hunter" imgSrc="/images/wiki/090a-Hero-Hunter/0d883fe1c5-Hero_Hunter4.png" link="090a-Hero-Hunter" />
-        <ListItem name="Hot Candle" imgSrc="/images/wiki/090b-Hot-Candle/4449bd1e5e-Hot_Candle4-1.png" link="090b-Hot-Candle" />
+        <ListItem name="蛋糕投掷器" imgSrc="/images/wiki/0909-Cake-A-Pult/75cd0aeeb2-Cake-A-Pult4.png" link="0909-Cake-A-Pult" />
+        <ListItem name="英雄猎台" imgSrc="/images/wiki/090a-Hero-Hunter/0d883fe1c5-Hero_Hunter4.png" link="090a-Hero-Hunter" />
+        <ListItem name="火热蜡烛" imgSrc="/images/wiki/090b-Hot-Candle/4449bd1e5e-Hot_Candle4-1.png" link="090b-Hot-Candle" />
     </ListItems>
     <ListItems title="2026 年 4—7 月批次（已结束）" imgFolder="crafted_buildings">
         <ListItem name="精工空中炸弹发射器" imgSrc="/images/wiki/0906-Crafted-Air-Bombs/b3ae94b629-Air_Bombs10_Crafted.png" link="0906-Crafted-Air-Bombs" />
@@ -97,9 +97,9 @@ if (activeTabCookieValue === "temp-troops") {
         <ListItem name="铁臂终结者" imgSrc="0e19/Disarmer_thumb.png" link="0e19-The-Disarmer" />
         <ListItem name="收债哥布林" imgSrc="0e1a/Debt_Collector_thumb.png" link="0e1a-Debt-Collector" />
         <ListItem name="陨石戈仑" imgSrc="0e1b/Meteor_Golem_thumb.png" link="0e1b-Meteor-Golem" />
-        <ListItem name="Elephant Rider" imgSrc="/images/wiki/0e1e-Elephant-Rider/948c93088a-Elephant_Rider_info.png" link="0e1e-Elephant-Rider" />
-        <ListItem name="Yeti Undertaker" imgSrc="/images/wiki/0e1c-Yeti-Undertaker/904013a536-Yeti_Undertaker_info.png" link="0e1c-Yeti-Undertaker" />
-        <ListItem name="Totem Thrower" imgSrc="/images/wiki/0e1d-Totem-Thrower/80c7cabc25-Totem_Thrower_info.png" link="0e1d-Totem-Thrower" />
+        <ListItem name="大象骑士" imgSrc="/images/wiki/0e1e-Elephant-Rider/948c93088a-Elephant_Rider_info.png" link="0e1e-Elephant-Rider" />
+        <ListItem name="送葬者大雪怪" imgSrc="/images/wiki/0e1c-Yeti-Undertaker/904013a536-Yeti_Undertaker_info.png" link="0e1c-Yeti-Undertaker" />
+        <ListItem name="图腾投手" imgSrc="/images/wiki/0e1d-Totem-Thrower/80c7cabc25-Totem_Thrower_info.png" link="0e1d-Totem-Thrower" />
     </ListItems>
     <div class="cp-upgrade-index-tip">
         <SmallTitle>注意</SmallTitle>

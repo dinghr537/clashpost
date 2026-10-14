@@ -1,0 +1,49 @@
+{
+  "checkedOn": "2026-10-13",
+  "scope": "本次新增单位的官方简体中文名称；既有单位沿用本站中文名称。",
+  "sources": [
+    {
+      "url": "https://supercell.com/en/games/clashofclans/zh-hans/blog/release-notes/%E7%8B%82%E6%80%92-%E5%8A%A8%E6%BC%AB-%E6%9B%B4%E6%96%B0-%E4%B8%8A%E7%BA%BF/",
+      "names": {
+        "Ruin Witch": "废墟女巫",
+        "Ruin Knight": "废墟骑士",
+        "Angry Spell": "愤怒法术",
+        "Monolith Arrow": "擎天箭矢"
+      }
+    },
+    {
+      "url": "https://supercell.com/en/games/clashofclans/zh-hans/blog/news/%E8%A3%82%E9%9A%99-%E4%B9%8B%E4%B9%B1-%E5%A5%96%E7%AB%A0-%E6%B4%BB%E5%8A%A8-%E9%99%8D%E4%B8%B4-%E9%83%A8%E8%90%BD-%E5%86%B2%E7%AA%81/",
+      "names": {
+        "Portal Pendant": "传送吊坠",
+        "Totem Thrower": "图腾投手"
+      }
+    },
+    {
+      "url": "https://supercell.com/en/games/clashofclans/zh-hans/blog/news/%E7%A5%9E%E5%8B%87-%E5%A5%96%E7%AB%A0-%E6%B4%BB%E5%8A%A8-%E5%BC%80%E5%A7%8B-%E5%95%A6/",
+      "names": {
+        "Revenge Deck": "反击卡组",
+        "Elephant Rider": "大象骑士"
+      }
+    },
+    {
+      "url": "https://supercell.com/en/games/clashofclans/zh-hans/blog/news/wwe-%E8%A3%85%E5%A4%87-%E5%A4%A7%E7%88%86%E7%82%B8-%E5%A5%96%E7%AB%A0-%E6%B4%BB%E5%8A%A8/",
+      "names": {
+        "Yeti Undertaker": "送葬者大雪怪"
+      }
+    },
+    {
+      "url": "https://supercell.com/en/games/clashofclans/zh-hans/blog/release-notes/2%E6%9C%88-%E6%9B%B4%E6%96%B0-%E7%8C%9B%E5%85%BD-%E5%87%BA%E7%AC%BC/",
+      "names": {
+        "Prospector": "探矿者"
+      }
+    },
+    {
+      "url": "https://supercell.com/en/games/clashofclans/zh-hans/blog/news/%E7%A5%9E%E5%8B%87-%E5%A4%A7%E9%99%86-%E7%AD%89%E4%BD%A0-%E6%9D%A5%E5%BE%81%E6%9C%8D/",
+      "names": {
+        "Cake-A-Pult": "蛋糕投掷器",
+        "Hero Hunter": "英雄猎台",
+        "Hot Candle": "火热蜡烛"
+      }
+    }
+  ]
+}

@@ -1,7 +1,8 @@
 ---
-title: "部落冲突 coc Totem Thrower升级数据"
-navTitle: "Totem Thrower"
-shownTitle: "Totem Thrower"
+title: "部落冲突 coc 图腾投手升级数据"
+navTitle: "图腾投手"
+shownTitle: "图腾投手"
+englishName: "Totem Thrower"
 module: upgrade-temp
 imgFolder: temp_troops/0e1d
 wiki: https://clashofclans.fandom.com/wiki/Totem_Thrower

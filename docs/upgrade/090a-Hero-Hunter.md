@@ -1,7 +1,8 @@
 ---
-title: "部落冲突 coc Hero Hunter升级数据"
-navTitle: "Hero Hunter"
-shownTitle: "Hero Hunter"
+title: "部落冲突 coc 英雄猎台升级数据"
+navTitle: "英雄猎台"
+shownTitle: "英雄猎台"
+englishName: "Hero Hunter"
 module: upgrade-temp
 imgFolder: crafted_buildings/090a
 wiki: https://clashofclans.fandom.com/wiki/Hero_Hunter

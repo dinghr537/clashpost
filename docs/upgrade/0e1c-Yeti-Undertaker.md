@@ -1,7 +1,8 @@
 ---
-title: "部落冲突 coc Yeti Undertaker升级数据"
-navTitle: "Yeti Undertaker"
-shownTitle: "Yeti Undertaker"
+title: "部落冲突 coc 送葬者大雪怪升级数据"
+navTitle: "送葬者大雪怪"
+shownTitle: "送葬者大雪怪"
+englishName: "Yeti Undertaker"
 module: upgrade-temp
 imgFolder: temp_troops/0e1c
 wiki: https://clashofclans.fandom.com/wiki/Yeti_Undertaker

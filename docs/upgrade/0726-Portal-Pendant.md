@@ -1,7 +1,8 @@
 ---
-title: "部落冲突 coc Portal Pendant升级数据"
-navTitle: "Portal Pendant"
-shownTitle: "Portal Pendant"
+title: "部落冲突 coc 传送吊坠升级数据"
+navTitle: "传送吊坠"
+shownTitle: "传送吊坠"
+englishName: "Portal Pendant"
 module: upgrade-home
 imgFolder: home_heroes/0726
 wiki: https://clashofclans.fandom.com/wiki/Portal_Pendant

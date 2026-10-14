@@ -1,7 +1,8 @@
 ---
-title: "部落冲突 coc Prospector升级数据"
-navTitle: "Prospector"
-shownTitle: "Prospector"
+title: "部落冲突 coc 探矿者升级数据"
+navTitle: "探矿者"
+shownTitle: "探矿者"
+englishName: "Prospector"
 module: upgrade-home
 imgFolder: home_tech/0803
 wiki: https://clashofclans.fandom.com/wiki/Prospector

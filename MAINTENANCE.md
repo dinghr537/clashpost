@@ -37,7 +37,8 @@
 2. 检查等级与条件组合不重复；新增等级没有漏行，费用、时间、资源种类及预期前置列没有漏掉。
 3. 区分已知数值、不适用和未知；对缺项、条件变体及来源差异，在发布摘要中说明。
 4. 检查受影响的页面与月卡展示，运行 `npm run docs:build`；发生提取、转换、缺列、页面或构建错误时先修复。
-5. 整理更新范围、采用来源、同步日期、仍沿用历史数据的范围和部署所需产物。
+5. 运行中文展示检查，补译新增名称、表头、属性、能力说明、图片说明和更新历史；目录与搜索结果采用中文名称。优先使用官方中文名，保留英文别名用于搜索，不能把来源英文直接作为默认页面内容。
+6. 整理更新范围、采用来源、同步日期、仍沿用历史数据的范围和部署所需产物。
 
 已如实标注的来源未知项不要求全部解决后才能发布。检查目标是避免本站引入错误，并让用户知道本次同步覆盖了哪里。
 
@@ -55,10 +56,14 @@ python3 -B scripts/sync_wiki_data.py --cache /tmp/clashpost-next-sync --date YYY
 python3 -B scripts/check_synced_data.py --cache /tmp/clashpost-next-sync
 python3 -B scripts/check_local_images.py
 python3 -B -m unittest discover -s tests
+node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --test tests/test_chinese_ui.mjs
+node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/check_chinese_ui.mjs
 npm run docs:build
 ```
 
 每批使用新的缓存目录，避免复用上一次修订。先查看预览报告与来源，再导入；新增内容还需手动检查目录、活动可用时间和来源中的单位模式。Wiki 缓存包含完整 HTML，仅放在临时目录；仓库保存数据表、修订号、图片及来源记录。
+
+中文展示词典位于 `docs/.vitepress/theme/assets/i18n/zh-CN.json`。导入新修订后，给新增原文补齐中文译文或数据摘要；检查程序发现未翻译展示文本时会报错。原始文本与数值仍保存在单位 JSON 中，能力说明及历史原文放在默认收起的「查看来源原文」中，便于核对。
 
 ## 差异工具
 

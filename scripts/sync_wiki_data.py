@@ -437,7 +437,7 @@ def make_record(item, date):
     if item['unitId'][:4] in ('0906', '0907', '0908'):
         notices.append('家乡精工防御，属于 2026 年 4 月 1 日至 7 月 30 日的批次，现已结束；与夜世界同名防御分开记录。')
     if item['unitId'] == '0014-Ruin-Knight':
-        notices.append('Ruin Knight 是 Ruin Witch 的召唤物，等级随召唤它的部队变化，不能单独升级。')
+        notices.append('废墟骑士是废墟女巫的召唤物，等级随召唤它的部队变化，不能单独升级。')
     return {'unitId': item['unitId'], 'title': title, 'originalName': snapshot['title'], 'module': module,
             'imgFolder': folder, 'sync': {'status': 'synced', 'source': 'Clash of Clans Wiki', 'sourceUrl': source_url,
              'revision': snapshot['revid'], 'revisionUrl': source_url + '?oldid=' + str(snapshot['revid']),

@@ -1,7 +1,8 @@
 ---
-title: "部落冲突 coc Angry Spell升级数据"
-navTitle: "Angry Spell"
-shownTitle: "Angry Spell"
+title: "部落冲突 coc 愤怒法术升级数据"
+navTitle: "愤怒法术"
+shownTitle: "愤怒法术"
+englishName: "Angry Spell"
 module: upgrade-home
 imgFolder: home_tech/0187
 wiki: https://clashofclans.fandom.com/wiki/Angry_Spell
