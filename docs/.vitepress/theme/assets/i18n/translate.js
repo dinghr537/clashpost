@@ -55,6 +55,21 @@ export function factLabel(value) {
     return chinese.facts[value] || dataLabel(value);
 }
 
+// Preserve the site's short, line-broken headings instead of flattening Wiki groups.
+export function tableHeaderLines(header, columnInfo) {
+    const parts = String(header).split(" / ");
+    if (parts[0] === "Upgrade Cost" && columnInfo?.icon) return ["升级费用"];
+    if (header === "Ability Attributes / Damage per Shot Increase") return ["技能状态下", "每次伤害增加"];
+    if (parts[0] === "Ability Attributes") return ["技能", ...parts.slice(1).map(dataLabel)];
+    if (/^Hero Boosts?$/.test(parts[0])) {
+        return ["英雄", ...parts.slice(1).map(part => /^(Damage per Second Increase|DPS Increase)$/.test(part) ? "秒伤增加" : dataLabel(part))];
+    }
+    return parts.flatMap(part => {
+        const label = dataLabel(part);
+        return /^所需.+等级$/.test(label) ? ["所需", label.slice(2)] : [label];
+    });
+}
+
 export function historyLabel(value) {
     return chinese.history[value] || dataLabel(value);
 }

@@ -2,7 +2,7 @@
 import { computed } from "vue";
 import UnitTable from "./UnitTable.vue";
 import { imagePlaceholder } from "@/assets/local-images.js";
-import { dataLabel, factLabel, historyLabel, imageLabel } from "@/assets/data-labels.js";
+import { dataLabel, factLabel, historyLabel, imageLabel, tableHeaderLines } from "@/assets/data-labels.js";
 
 const props = defineProps({ data: { type: Object, required: true } });
 const unitTitle = computed(() => dataLabel(props.data.title));
@@ -70,7 +70,7 @@ function bodyDisplay(table, cell, rowIndex, column) {
         <SmallTitle>{{ title(table) }}</SmallTitle>
         <UnitTable :tableExtraInfo="table.extraInfo">
             <table>
-                <thead><tr><th v-for="(header, column) in table.headers" :key="column">{{ dataLabel(header) }}</th></tr></thead>
+                <thead><tr><th v-for="(header, column) in table.headers" :key="column" :title="dataLabel(header)"><template v-for="(line, index) in tableHeaderLines(header, table.extraInfo.find(info => info.column === column))" :key="index"><br v-if="index" />{{ line }}</template></th></tr></thead>
                 <tbody>
                     <tr v-for="(row, index) in table.rows" :key="index">
                         <component :is="availabilityBands(table) && index % 2 ? 'th' : 'td'" v-for="(cell, column) in row" :key="column" :title="cell.status === 'known' ? dataLabel(cell.raw) : cell.status === 'unknown' ? '来源没有给出可用数值' : '来源标记为不适用'">{{ bodyDisplay(table, cell, index, column) }}</component>

@@ -3,7 +3,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { dataLabel, factLabel, historyLabel, imageLabel } from "../docs/.vitepress/theme/assets/data-labels.js";
+import { dataLabel, factLabel, historyLabel, imageLabel, tableHeaderLines } from "../docs/.vitepress/theme/assets/data-labels.js";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 
@@ -16,7 +16,7 @@ export function inspectRecord(data) {
     const labels = [["单位名称", dataLabel(data.title)]];
     for (const table of data.tables) {
         labels.push(["表名", dataLabel(table.title)]);
-        table.headers.forEach(value => labels.push(["表头", dataLabel(value)]));
+        table.headers.forEach((value, column) => labels.push(["表头", tableHeaderLines(value, table.extraInfo?.find(info => info.column === column)).join("\n")]));
         table.rows.flat().filter(cell => cell.status === "known").forEach(cell => {
             const value = typeof cell.value === "number" && cell.unit !== "seconds"
                 ? String(cell.value) : cell.displayInput ?? dataLabel(cell.raw);
