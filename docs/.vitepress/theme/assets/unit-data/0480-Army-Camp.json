@@ -888,9 +888,10 @@
     {
       "name": "Army_Camp14.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/c/c6/Army_Camp14.png/revision/latest/scale-to-width-down/200?cb=20260425143241",
-      "alt": "Army Camp14",
+      "alt": "14 级",
       "localPath": "/images/wiki/0480-Army-Camp/8670466066-Army_Camp14.png",
-      "logicalPath": "/upgrade/home_buildings/0480/Army_Camp14.png"
+      "logicalPath": "/upgrade/home_buildings/0480/Army_Camp14.png",
+      "sourceAlt": "Army Camp14"
     }
   ],
   "history": [],

@@ -196,9 +196,10 @@
     {
       "name": "Ruin_Knight1.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/f/f1/Ruin_Knight1.png/revision/latest/scale-to-width-down/85?cb=20260614153532",
-      "alt": "Ruin Knight1",
+      "alt": "Ruin Knight",
       "localPath": "/images/wiki/0014-Ruin-Knight/5ad37ceb01-Ruin_Knight1.png",
-      "logicalPath": "/upgrade/home_tech/0014/Ruin_Knight1.png"
+      "logicalPath": "/upgrade/home_tech/0014/Ruin_Knight1.png",
+      "sourceAlt": "Ruin Knight1"
     }
   ],
   "history": [

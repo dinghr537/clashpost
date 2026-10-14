@@ -225,13 +225,6 @@
       "alt": "亡灵",
       "localPath": "/images/original/upgrade/capital_tech/2004/Minion1.webp",
       "logicalPath": "/upgrade/capital_tech/2004/Minion1.png"
-    },
-    {
-      "name": "Minion_Horde1.png",
-      "url": "https://static.wikia.nocookie.net/clashofclans/images/2/28/Minion_Horde1.png/revision/latest/scale-to-width-down/125?cb=20251010153251",
-      "alt": "Minion Horde1",
-      "localPath": "/images/wiki/2004-Minion-Horde/e7ab4d537e-Minion_Horde1.png",
-      "logicalPath": "/upgrade/capital_tech/2004/Minion_Horde1.png"
     }
   ],
   "history": [],

@@ -605,9 +605,10 @@
     {
       "name": "Super_Wizard_Tower5C.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/a/ad/Super_Wizard_Tower5C.png/revision/latest?cb=20221225050508",
-      "alt": "Super Wizard Tower5C",
+      "alt": "5 级",
       "localPath": "/images/wiki/2207-Super-Wizard-Tower/051aba0289-Super_Wizard_Tower5C.png",
-      "logicalPath": "/upgrade/capital_buildings/2207/Super_Wizard_Tower5C.png"
+      "logicalPath": "/upgrade/capital_buildings/2207/Super_Wizard_Tower5C.png",
+      "sourceAlt": "Super Wizard Tower5C"
     }
   ],
   "history": [],

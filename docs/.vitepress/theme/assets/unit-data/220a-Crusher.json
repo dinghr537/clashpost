@@ -547,9 +547,10 @@
     {
       "name": "Crusher5C.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e2/Crusher5C.png/revision/latest?cb=20221211231154",
-      "alt": "Crusher5C",
+      "alt": "5 级",
       "localPath": "/images/wiki/220a-Crusher/ef4ce06b68-Crusher5C.png",
-      "logicalPath": "/upgrade/capital_buildings/220a/Crusher5C.png"
+      "logicalPath": "/upgrade/capital_buildings/220a/Crusher5C.png",
+      "sourceAlt": "Crusher5C"
     }
   ],
   "history": [],

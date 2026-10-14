@@ -210,9 +210,10 @@
     {
       "name": "Inferno_Dragon6.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b8/Inferno_Dragon6.png/revision/latest/scale-to-width-down/100?cb=20200630111528",
-      "alt": "Inferno Dragon6",
+      "alt": "地狱飞龙",
       "localPath": "/images/wiki/200e-Inferno-Dragon/1e7154eecb-Inferno_Dragon6.png",
-      "logicalPath": "/upgrade/capital_tech/200e/Inferno_Dragon6.png"
+      "logicalPath": "/upgrade/capital_tech/200e/Inferno_Dragon6.png",
+      "sourceAlt": "Inferno Dragon6"
     }
   ],
   "history": [],

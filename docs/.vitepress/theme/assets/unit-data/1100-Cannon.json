@@ -693,9 +693,10 @@
     {
       "name": "Cannon10B.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/7/74/Cannon10B.png/revision/latest?cb=20230521100811",
-      "alt": "Cannon10B",
+      "alt": "10 级",
       "localPath": "/images/wiki/1100-Cannon/9e2c16d1e3-Cannon10B.png",
-      "logicalPath": "/upgrade/bh_buildings/1100/Cannon10B.png"
+      "logicalPath": "/upgrade/bh_buildings/1100/Cannon10B.png",
+      "sourceAlt": "Cannon10B"
     }
   ],
   "history": [],

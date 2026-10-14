@@ -724,9 +724,10 @@
     {
       "name": "Barbarian13.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/f/f2/Barbarian13.png/revision/latest/scale-to-width-down/70?cb=20260708051333",
-      "alt": "Barbarian13",
+      "alt": "13 级",
       "localPath": "/images/wiki/0000-Barbarian/c8cc0ecb49-Barbarian13.png",
-      "logicalPath": "/upgrade/home_tech/0000/Barbarian13.png"
+      "logicalPath": "/upgrade/home_tech/0000/Barbarian13.png",
+      "sourceAlt": "Barbarian13"
     }
   ],
   "history": [

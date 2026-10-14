@@ -233,13 +233,6 @@
       "alt": "野蛮人攻城槌",
       "localPath": "/images/original/upgrade/capital_tech/2003/Battle_Ram1.webp",
       "logicalPath": "/upgrade/capital_tech/2003/Battle_Ram1.png"
-    },
-    {
-      "name": "Battle_Ram_Barracks5.png",
-      "url": "https://static.wikia.nocookie.net/clashofclans/images/9/9a/Battle_Ram_Barracks5.png/revision/latest/scale-to-width-down/32?cb=20231217041157",
-      "alt": "Battle Ram Barracks",
-      "localPath": "/images/wiki/2003-Battle-Ram/0ca6f52464-Battle_Ram_Barracks5.png",
-      "logicalPath": "/upgrade/capital_tech/2003/Battle_Ram_Barracks5.png"
     }
   ],
   "history": [],

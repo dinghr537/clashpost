@@ -5585,69 +5585,6 @@
       "alt": "野蛮人之王",
       "localPath": "/images/original/upgrade/home_heroes/0200/Barbarian_King_info.webp",
       "logicalPath": "/upgrade/home_heroes/0200/Barbarian_King_info.png"
-    },
-    {
-      "name": "Barbarian_King_3D_preview.png",
-      "url": "https://static.wikia.nocookie.net/clashofclans/images/2/26/Barbarian_King_3D_preview.png/revision/latest/scale-to-width-down/190?cb=20221212143240",
-      "alt": "Barbarian King 3D preview",
-      "localPath": "/images/wiki/0200-Barbarian-King/d9420633ff-Barbarian_King_3D_preview.png",
-      "logicalPath": "/upgrade/home_heroes/0200/Barbarian_King_3D_preview.png"
-    },
-    {
-      "name": "Barbarian_King_3D.png",
-      "url": "https://static.wikia.nocookie.net/clashofclans/images/1/14/Barbarian_King_3D.png/revision/latest/scale-to-width-down/120?cb=20221212142922",
-      "alt": "Barbarian King 3D",
-      "localPath": "/images/wiki/0200-Barbarian-King/05e273014c-Barbarian_King_3D.png",
-      "logicalPath": "/upgrade/home_heroes/0200/Barbarian_King_3D.png"
-    },
-    {
-      "name": "Barbarian_King_3D_pose.png",
-      "url": "https://static.wikia.nocookie.net/clashofclans/images/b/ba/Barbarian_King_3D_pose.png/revision/latest/scale-to-width-down/90?cb=20221212143018",
-      "alt": "Barbarian King 3D pose",
-      "localPath": "/images/wiki/0200-Barbarian-King/9408efa655-Barbarian_King_3D_pose.png",
-      "logicalPath": "/upgrade/home_heroes/0200/Barbarian_King_3D_pose.png"
-    },
-    {
-      "name": "Barbarian_King_3D_KO.png",
-      "url": "https://static.wikia.nocookie.net/clashofclans/images/3/34/Barbarian_King_3D_KO.png/revision/latest/scale-to-width-down/130?cb=20221222111514",
-      "alt": "Barbarian King 3D KO",
-      "localPath": "/images/wiki/0200-Barbarian-King/d31f04b35d-Barbarian_King_3D_KO.png",
-      "logicalPath": "/upgrade/home_heroes/0200/Barbarian_King_3D_KO.png"
-    },
-    {
-      "name": "Barbarian_King_3D_downed.png",
-      "url": "https://static.wikia.nocookie.net/clashofclans/images/c/c9/Barbarian_King_3D_downed.png/revision/latest/scale-to-width-down/80?cb=20221212143128",
-      "alt": "Barbarian King 3D downed",
-      "localPath": "/images/wiki/0200-Barbarian-King/5cfdcdb2ba-Barbarian_King_3D_downed.png",
-      "logicalPath": "/upgrade/home_heroes/0200/Barbarian_King_3D_downed.png"
-    },
-    {
-      "name": "Barbarian_King1.png",
-      "url": "https://static.wikia.nocookie.net/clashofclans/images/f/fd/Barbarian_King1.png/revision/latest?cb=20170812112657",
-      "alt": "Barbarian King1",
-      "localPath": "/images/wiki/0200-Barbarian-King/5101d71b54-Barbarian_King1.png",
-      "logicalPath": "/upgrade/home_heroes/0200/Barbarian_King1.png"
-    },
-    {
-      "name": "Barbarian_King10.png",
-      "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b3/Barbarian_King10.png/revision/latest?cb=20170812112715",
-      "alt": "Barbarian King10",
-      "localPath": "/images/wiki/0200-Barbarian-King/e6d4e14421-Barbarian_King10.png",
-      "logicalPath": "/upgrade/home_heroes/0200/Barbarian_King10.png"
-    },
-    {
-      "name": "Barbarian_King20.png",
-      "url": "https://static.wikia.nocookie.net/clashofclans/images/f/fa/Barbarian_King20.png/revision/latest?cb=20170812112734",
-      "alt": "Barbarian King20",
-      "localPath": "/images/wiki/0200-Barbarian-King/95b1a538dc-Barbarian_King20.png",
-      "logicalPath": "/upgrade/home_heroes/0200/Barbarian_King20.png"
-    },
-    {
-      "name": "Barbarian_King41.png",
-      "url": "https://static.wikia.nocookie.net/clashofclans/images/1/17/Barbarian_King41.png/revision/latest?cb=20170812112753",
-      "alt": "Barbarian King41",
-      "localPath": "/images/wiki/0200-Barbarian-King/efe6f89c05-Barbarian_King41.png",
-      "logicalPath": "/upgrade/home_heroes/0200/Barbarian_King41.png"
     }
   ],
   "history": [

@@ -257,20 +257,6 @@
       "alt": "所有等级",
       "localPath": "/images/original/upgrade/capital_tech/2006/Rocket_Balloon1.webp",
       "logicalPath": "/upgrade/capital_tech/2006/Rocket_Balloon1.png"
-    },
-    {
-      "name": "Rocket_Balloons1.png",
-      "url": "https://static.wikia.nocookie.net/clashofclans/images/4/47/Rocket_Balloons1.png/revision/latest/scale-to-width-down/150?cb=20251010153323",
-      "alt": "Rocket Balloons1",
-      "localPath": "/images/wiki/2006-Rocket-Balloon/053a3a19b5-Rocket_Balloons1.png",
-      "logicalPath": "/upgrade/capital_tech/2006/Rocket_Balloons1.png"
-    },
-    {
-      "name": "Rocket_Balloon8.png",
-      "url": "https://static.wikia.nocookie.net/clashofclans/images/3/3f/Rocket_Balloon8.png/revision/latest/scale-to-width-down/168?cb=20210731070454",
-      "alt": "",
-      "localPath": "/images/wiki/2006-Rocket-Balloon/24fd6afe20-Rocket_Balloon8.png",
-      "logicalPath": "/upgrade/capital_tech/2006/Rocket_Balloon8.png"
     }
   ],
   "history": [],

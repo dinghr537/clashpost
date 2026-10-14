@@ -740,9 +740,10 @@
     {
       "name": "Totem_Thrower1.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/a/a5/Totem_Thrower1.png/revision/latest/scale-to-width-down/120?cb=20260911225619",
-      "alt": "Totem Thrower1",
+      "alt": "Totem Thrower",
       "localPath": "/images/wiki/0e1d-Totem-Thrower/21f1f59ee2-Totem_Thrower1.png",
-      "logicalPath": "/upgrade/temp_troops/0e1d/Totem_Thrower1.png"
+      "logicalPath": "/upgrade/temp_troops/0e1d/Totem_Thrower1.png",
+      "sourceAlt": "Totem Thrower1"
     }
   ],
   "history": [

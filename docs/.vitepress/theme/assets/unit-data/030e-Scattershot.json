@@ -853,16 +853,18 @@
     {
       "name": "Scattershot7.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/3/37/Scattershot7.png/revision/latest/scale-to-width-down/200?cb=20260709205916",
-      "alt": "Scattershot7",
+      "alt": "7 级",
       "localPath": "/images/wiki/030e-Scattershot/56258d105c-Scattershot7.png",
-      "logicalPath": "/upgrade/home_buildings/030e/Scattershot7.png"
+      "logicalPath": "/upgrade/home_buildings/030e/Scattershot7.png",
+      "sourceAlt": "Scattershot7"
     },
     {
       "name": "Scattershot7_Depleted.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/f/f7/Scattershot7_Depleted.png/revision/latest/scale-to-width-down/120?cb=20260503160928",
-      "alt": "Scattershot7 Depleted",
+      "alt": "7 级（弹药耗尽）",
       "localPath": "/images/wiki/030e-Scattershot/96d8c4a022-Scattershot7_Depleted.png",
-      "logicalPath": "/upgrade/home_buildings/030e/Scattershot7_Depleted.png"
+      "logicalPath": "/upgrade/home_buildings/030e/Scattershot7_Depleted.png",
+      "sourceAlt": "Scattershot7 Depleted"
     }
   ],
   "history": [

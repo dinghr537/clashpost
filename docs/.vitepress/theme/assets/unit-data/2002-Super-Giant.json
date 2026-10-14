@@ -269,16 +269,10 @@
     {
       "name": "Super_Giant9.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/0/02/Super_Giant9.png/revision/latest/scale-to-width-down/90?cb=20200904092846",
-      "alt": "Super Giant9",
+      "alt": "超级巨人",
       "localPath": "/images/wiki/2002-Super-Giant/922f9c0da5-Super_Giant9.png",
-      "logicalPath": "/upgrade/capital_tech/2002/Super_Giant9.png"
-    },
-    {
-      "name": "Super_Giant_Barracks5.png",
-      "url": "https://static.wikia.nocookie.net/clashofclans/images/9/9d/Super_Giant_Barracks5.png/revision/latest/scale-to-width-down/32?cb=20231217041606",
-      "alt": "Super Giant Barracks",
-      "localPath": "/images/wiki/2002-Super-Giant/1b419ad185-Super_Giant_Barracks5.png",
-      "logicalPath": "/upgrade/capital_tech/2002/Super_Giant_Barracks5.png"
+      "logicalPath": "/upgrade/capital_tech/2002/Super_Giant9.png",
+      "sourceAlt": "Super Giant9"
     }
   ],
   "history": [],

@@ -237,9 +237,10 @@
     {
       "name": "Super_Wizard9.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/d/d0/Super_Wizard9.png/revision/latest?cb=20201205195307",
-      "alt": "Super Wizard9",
+      "alt": "超级法师",
       "localPath": "/images/wiki/2005-Super-Wizard/99e7d1369f-Super_Wizard9.png",
-      "logicalPath": "/upgrade/capital_tech/2005/Super_Wizard9.png"
+      "logicalPath": "/upgrade/capital_tech/2005/Super_Wizard9.png",
+      "sourceAlt": "Super Wizard9"
     }
   ],
   "history": [],

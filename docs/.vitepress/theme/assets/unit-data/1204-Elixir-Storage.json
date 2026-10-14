@@ -720,9 +720,10 @@
     {
       "name": "Elixir_Storage10B.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/1/10/Elixir_Storage10B.png/revision/latest?cb=20230515070355",
-      "alt": "Elixir Storage10B",
+      "alt": "10 级",
       "localPath": "/images/wiki/1204-Elixir-Storage/10155803ff-Elixir_Storage10B.png",
-      "logicalPath": "/upgrade/bh_buildings/1204/Elixir_Storage10B.png"
+      "logicalPath": "/upgrade/bh_buildings/1204/Elixir_Storage10B.png",
+      "sourceAlt": "Elixir Storage10B"
     }
   ],
   "history": [],

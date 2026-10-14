@@ -738,9 +738,10 @@
     {
       "name": "Dragon13.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/0/09/Dragon13.png/revision/latest/scale-to-width-down/130?cb=20260708051503",
-      "alt": "Dragon13",
+      "alt": "13 级",
       "localPath": "/images/wiki/0008-Dragon/ddd3db523d-Dragon13.png",
-      "logicalPath": "/upgrade/home_tech/0008/Dragon13.png"
+      "logicalPath": "/upgrade/home_tech/0008/Dragon13.png",
+      "sourceAlt": "Dragon13"
     }
   ],
   "history": [],

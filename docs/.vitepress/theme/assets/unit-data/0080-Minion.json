@@ -765,7 +765,8 @@
       "url": "https://static.clashpost.com/upgrade/home_tech/0080/Minion14.png",
       "alt": "14 级",
       "localPath": "/images/wiki/0080-Minion/5f7b80a410-Minion14.png",
-      "logicalPath": "/upgrade/home_tech/0080/Minion14.png"
+      "logicalPath": "/upgrade/home_tech/0080/Minion14.png",
+      "sourceAlt": "14 级"
     }
   ],
   "history": [],

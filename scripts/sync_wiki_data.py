@@ -14,6 +14,7 @@ from check_upgrade_data import Tables, clean, seconds
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / 'docs/.vitepress/theme/assets/unit-data'
+REVIEWED_IMAGES = json.loads((ROOT / 'docs/.vitepress/theme/assets/reviewed-wiki-images.json').read_text())['images']
 RESOURCE_NAMES = {
     'Gold': 'Gold', 'Elixir': 'Elixir', 'Dark Elixir': 'Dark_Elixir',
     'Builder Gold': 'Gold2', 'Builder Elixir': 'Elixir2', 'Capital Gold': 'Gold3',
@@ -24,11 +25,16 @@ RESOURCE_NAMES = {
 }
 
 
-def is_unit_image(image):
-    name = image['name'].lower()
-    # The unsuffixed _info image is the unit's default portrait; numbered ones
-    # are additional renders/skins, rather than level sprites.
-    return not (re.search(r'_info_?\d', name) or any(token in name for token in ('concept', 'artwork', 'screenshot', '_effect')))
+def is_unit_image(image, unit_id):
+    # Names and numeric suffixes cannot distinguish sprites from diagrams,
+    # screenshots or another game's artwork. Require a reviewed exact source.
+    review = REVIEWED_IMAGES.get(unit_id + '/' + image['name'])
+    return bool(review and review['sourceUrl'] == image.get('url'))
+
+
+def reviewed_image(image, unit_id):
+    review = REVIEWED_IMAGES[unit_id + '/' + image['name']]
+    return {**image, 'sourceAlt': image.get('sourceAlt', image.get('alt', '')), 'alt': review['caption']}
 
 
 class VillageFilter(HTMLParser):
@@ -371,7 +377,8 @@ def make_record(item, date):
     if previous:
         images = [{**image, 'localPath': image.get('localPath') or original.get(image['logicalPath'])
                    or original.get(re.sub(r'\.(png|jpe?g)$', '.webp', image['logicalPath'], flags=re.I))}
-                  for image in previous['images'] if 'static.clashpost.com' in image['url'] or is_unit_image(image)]
+                  for image in previous['images'] if 'static.clashpost.com' in image['url'] or is_unit_image(image, item['unitId'])]
+        images = [reviewed_image(image, item['unitId']) if is_unit_image(image, item['unitId']) else image for image in images]
         for image in images:
             old_names.add(image['name'])
             seen.add(image['name'])
@@ -397,7 +404,7 @@ def make_record(item, date):
                            'alt': label, 'localPath': local, 'logicalPath': logical})
     old_max = max(old_levels, default=0)
     for image in parser.gallery:
-        if not is_unit_image(image):
+        if not is_unit_image(image, item['unitId']):
             continue
         key_family = re.sub(r'[^a-z0-9]', '', image['name'].lower())
         if not key_family.startswith(family) and image['name'] not in old_names:
@@ -412,7 +419,7 @@ def make_record(item, date):
         if image['name'] in seen:
             continue
         seen.add(image['name'])
-        images.append({**image, 'localPath': local, 'logicalPath': logical})
+        images.append({**reviewed_image(image, item['unitId']), 'localPath': local, 'logicalPath': logical})
     facts = [fact['text'] for fact in parser.facts if not shared or re.sub(r'[^a-z0-9]', '', fact['section'].lower()) == family]
     selected_facts = []
     for fact in facts:

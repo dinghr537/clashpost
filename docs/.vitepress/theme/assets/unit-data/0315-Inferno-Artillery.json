@@ -341,13 +341,6 @@
       "alt": "5 级",
       "localPath": "/images/original/upgrade/home_buildings/0315/Inferno_Artillery5.webp",
       "logicalPath": "/upgrade/home_buildings/0315/Inferno_Artillery5.png"
-    },
-    {
-      "name": "Town_Hall18.png",
-      "url": "https://static.wikia.nocookie.net/clashofclans/images/7/76/Town_Hall18.png/revision/latest/scale-to-width-down/26?cb=20251117162127",
-      "alt": "Town Hall",
-      "localPath": "/images/wiki/0315-Inferno-Artillery/6905ac382f-Town_Hall18.png",
-      "logicalPath": "/upgrade/home_buildings/0315/Town_Hall18.png"
     }
   ],
   "history": [],

@@ -1467,30 +1467,34 @@
     {
       "name": "Hero_Hunter4.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/9/97/Hero_Hunter4.png/revision/latest/scale-to-width-down/200?cb=20260713110656",
-      "alt": "Hero Hunter4",
+      "alt": "4 级",
       "localPath": "/images/wiki/090a-Hero-Hunter/0d883fe1c5-Hero_Hunter4.png",
-      "logicalPath": "/upgrade/crafted_buildings/090a/Hero_Hunter4.png"
+      "logicalPath": "/upgrade/crafted_buildings/090a/Hero_Hunter4.png",
+      "sourceAlt": "Hero Hunter4"
     },
     {
       "name": "Hero_Hunter1.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/d/dd/Hero_Hunter1.png/revision/latest/scale-to-width-down/100?cb=20260713110532",
-      "alt": "Hero Hunter1",
+      "alt": "1 级",
       "localPath": "/images/wiki/090a-Hero-Hunter/97a1528501-Hero_Hunter1.png",
-      "logicalPath": "/upgrade/crafted_buildings/090a/Hero_Hunter1.png"
+      "logicalPath": "/upgrade/crafted_buildings/090a/Hero_Hunter1.png",
+      "sourceAlt": "Hero Hunter1"
     },
     {
       "name": "Hero_Hunter2.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/0/07/Hero_Hunter2.png/revision/latest/scale-to-width-down/100?cb=20260713110607",
-      "alt": "Hero Hunter2",
+      "alt": "2 级",
       "localPath": "/images/wiki/090a-Hero-Hunter/1a8a263ed0-Hero_Hunter2.png",
-      "logicalPath": "/upgrade/crafted_buildings/090a/Hero_Hunter2.png"
+      "logicalPath": "/upgrade/crafted_buildings/090a/Hero_Hunter2.png",
+      "sourceAlt": "Hero Hunter2"
     },
     {
       "name": "Hero_Hunter3.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e8/Hero_Hunter3.png/revision/latest/scale-to-width-down/100?cb=20260713110628",
-      "alt": "Hero Hunter3",
+      "alt": "3 级",
       "localPath": "/images/wiki/090a-Hero-Hunter/b913235a12-Hero_Hunter3.png",
-      "logicalPath": "/upgrade/crafted_buildings/090a/Hero_Hunter3.png"
+      "logicalPath": "/upgrade/crafted_buildings/090a/Hero_Hunter3.png",
+      "sourceAlt": "Hero Hunter3"
     }
   ],
   "history": [

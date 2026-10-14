@@ -1365,30 +1365,34 @@
     {
       "name": "Cake-A-Pult4.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/f/ff/Cake-A-Pult4.png/revision/latest/scale-to-width-down/200?cb=20260713110850",
-      "alt": "Cake-A-Pult4",
+      "alt": "4 级",
       "localPath": "/images/wiki/0909-Cake-A-Pult/75cd0aeeb2-Cake-A-Pult4.png",
-      "logicalPath": "/upgrade/crafted_buildings/0909/Cake-A-Pult4.png"
+      "logicalPath": "/upgrade/crafted_buildings/0909/Cake-A-Pult4.png",
+      "sourceAlt": "Cake-A-Pult4"
     },
     {
       "name": "Cake-A-Pult1.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e9/Cake-A-Pult1.png/revision/latest/scale-to-width-down/100?cb=20260713110755",
-      "alt": "Cake-A-Pult1",
+      "alt": "1 级",
       "localPath": "/images/wiki/0909-Cake-A-Pult/fd5a244418-Cake-A-Pult1.png",
-      "logicalPath": "/upgrade/crafted_buildings/0909/Cake-A-Pult1.png"
+      "logicalPath": "/upgrade/crafted_buildings/0909/Cake-A-Pult1.png",
+      "sourceAlt": "Cake-A-Pult1"
     },
     {
       "name": "Cake-A-Pult2.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/7/7f/Cake-A-Pult2.png/revision/latest/scale-to-width-down/100?cb=20260713110810",
-      "alt": "Cake-A-Pult2",
+      "alt": "2 级",
       "localPath": "/images/wiki/0909-Cake-A-Pult/7ad7e7cd49-Cake-A-Pult2.png",
-      "logicalPath": "/upgrade/crafted_buildings/0909/Cake-A-Pult2.png"
+      "logicalPath": "/upgrade/crafted_buildings/0909/Cake-A-Pult2.png",
+      "sourceAlt": "Cake-A-Pult2"
     },
     {
       "name": "Cake-A-Pult3.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b8/Cake-A-Pult3.png/revision/latest/scale-to-width-down/100?cb=20260713110825",
-      "alt": "Cake-A-Pult3",
+      "alt": "3 级",
       "localPath": "/images/wiki/0909-Cake-A-Pult/54181f23b0-Cake-A-Pult3.png",
-      "logicalPath": "/upgrade/crafted_buildings/0909/Cake-A-Pult3.png"
+      "logicalPath": "/upgrade/crafted_buildings/0909/Cake-A-Pult3.png",
+      "sourceAlt": "Cake-A-Pult3"
     }
   ],
   "history": [

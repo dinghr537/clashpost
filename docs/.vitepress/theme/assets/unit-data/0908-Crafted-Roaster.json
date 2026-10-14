@@ -1206,72 +1206,82 @@
     {
       "name": "Roaster10_Crafted.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/9/98/Roaster10_Crafted.png/revision/latest/scale-to-width-down/200?cb=20260330141652",
-      "alt": "Roaster10 Crafted",
+      "alt": "10 级",
       "localPath": "/images/wiki/0908-Crafted-Roaster/f6c5d978aa-Roaster10_Crafted.png",
-      "logicalPath": "/upgrade/crafted_buildings/0908/Roaster10_Crafted.png"
+      "logicalPath": "/upgrade/crafted_buildings/0908/Roaster10_Crafted.png",
+      "sourceAlt": "Roaster10 Crafted"
     },
     {
       "name": "Roaster1_Crafted.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/a/a4/Roaster1_Crafted.png/revision/latest/scale-to-width-down/100?cb=20260330141305",
-      "alt": "Roaster1 Crafted",
+      "alt": "1 级",
       "localPath": "/images/wiki/0908-Crafted-Roaster/8a2ecb7ca5-Roaster1_Crafted.png",
-      "logicalPath": "/upgrade/crafted_buildings/0908/Roaster1_Crafted.png"
+      "logicalPath": "/upgrade/crafted_buildings/0908/Roaster1_Crafted.png",
+      "sourceAlt": "Roaster1 Crafted"
     },
     {
       "name": "Roaster2_Crafted.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/5/57/Roaster2_Crafted.png/revision/latest/scale-to-width-down/100?cb=20260330141330",
-      "alt": "Roaster2 Crafted",
+      "alt": "2 级",
       "localPath": "/images/wiki/0908-Crafted-Roaster/95dd5325bf-Roaster2_Crafted.png",
-      "logicalPath": "/upgrade/crafted_buildings/0908/Roaster2_Crafted.png"
+      "logicalPath": "/upgrade/crafted_buildings/0908/Roaster2_Crafted.png",
+      "sourceAlt": "Roaster2 Crafted"
     },
     {
       "name": "Roaster3_Crafted.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/8/86/Roaster3_Crafted.png/revision/latest/scale-to-width-down/100?cb=20260330141355",
-      "alt": "Roaster3 Crafted",
+      "alt": "3 级",
       "localPath": "/images/wiki/0908-Crafted-Roaster/44be327abd-Roaster3_Crafted.png",
-      "logicalPath": "/upgrade/crafted_buildings/0908/Roaster3_Crafted.png"
+      "logicalPath": "/upgrade/crafted_buildings/0908/Roaster3_Crafted.png",
+      "sourceAlt": "Roaster3 Crafted"
     },
     {
       "name": "Roaster4_Crafted.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/3/3a/Roaster4_Crafted.png/revision/latest/scale-to-width-down/100?cb=20260330141446",
-      "alt": "Roaster4 Crafted",
+      "alt": "4 级",
       "localPath": "/images/wiki/0908-Crafted-Roaster/aaa13036e8-Roaster4_Crafted.png",
-      "logicalPath": "/upgrade/crafted_buildings/0908/Roaster4_Crafted.png"
+      "logicalPath": "/upgrade/crafted_buildings/0908/Roaster4_Crafted.png",
+      "sourceAlt": "Roaster4 Crafted"
     },
     {
       "name": "Roaster5_Crafted.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/2/26/Roaster5_Crafted.png/revision/latest/scale-to-width-down/100?cb=20260330141508",
-      "alt": "Roaster5 Crafted",
+      "alt": "5 级",
       "localPath": "/images/wiki/0908-Crafted-Roaster/8942e03d3d-Roaster5_Crafted.png",
-      "logicalPath": "/upgrade/crafted_buildings/0908/Roaster5_Crafted.png"
+      "logicalPath": "/upgrade/crafted_buildings/0908/Roaster5_Crafted.png",
+      "sourceAlt": "Roaster5 Crafted"
     },
     {
       "name": "Roaster6_Crafted.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/d/d4/Roaster6_Crafted.png/revision/latest/scale-to-width-down/100?cb=20260330141529",
-      "alt": "Roaster6 Crafted",
+      "alt": "6 级",
       "localPath": "/images/wiki/0908-Crafted-Roaster/51af8b28e8-Roaster6_Crafted.png",
-      "logicalPath": "/upgrade/crafted_buildings/0908/Roaster6_Crafted.png"
+      "logicalPath": "/upgrade/crafted_buildings/0908/Roaster6_Crafted.png",
+      "sourceAlt": "Roaster6 Crafted"
     },
     {
       "name": "Roaster7_Crafted.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/a/ab/Roaster7_Crafted.png/revision/latest/scale-to-width-down/100?cb=20260330141550",
-      "alt": "Roaster7 Crafted",
+      "alt": "7 级",
       "localPath": "/images/wiki/0908-Crafted-Roaster/2783281729-Roaster7_Crafted.png",
-      "logicalPath": "/upgrade/crafted_buildings/0908/Roaster7_Crafted.png"
+      "logicalPath": "/upgrade/crafted_buildings/0908/Roaster7_Crafted.png",
+      "sourceAlt": "Roaster7 Crafted"
     },
     {
       "name": "Roaster8_Crafted.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/8/8c/Roaster8_Crafted.png/revision/latest/scale-to-width-down/100?cb=20260330141615",
-      "alt": "Roaster8 Crafted",
+      "alt": "8 级",
       "localPath": "/images/wiki/0908-Crafted-Roaster/28194c1730-Roaster8_Crafted.png",
-      "logicalPath": "/upgrade/crafted_buildings/0908/Roaster8_Crafted.png"
+      "logicalPath": "/upgrade/crafted_buildings/0908/Roaster8_Crafted.png",
+      "sourceAlt": "Roaster8 Crafted"
     },
     {
       "name": "Roaster9_Crafted.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/a/a9/Roaster9_Crafted.png/revision/latest/scale-to-width-down/100?cb=20260330141632",
-      "alt": "Roaster9 Crafted",
+      "alt": "9 级",
       "localPath": "/images/wiki/0908-Crafted-Roaster/ae6e50c81b-Roaster9_Crafted.png",
-      "logicalPath": "/upgrade/crafted_buildings/0908/Roaster9_Crafted.png"
+      "logicalPath": "/upgrade/crafted_buildings/0908/Roaster9_Crafted.png",
+      "sourceAlt": "Roaster9 Crafted"
     }
   ],
   "history": [

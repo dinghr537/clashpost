@@ -605,9 +605,10 @@
     {
       "name": "Bomb_Tower5C.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/4/4c/Bomb_Tower5C.png/revision/latest?cb=20221225050425",
-      "alt": "Bomb Tower5C",
+      "alt": "5 级",
       "localPath": "/images/wiki/2205-Bomb-Tower/7fb082eff9-Bomb_Tower5C.png",
-      "logicalPath": "/upgrade/capital_buildings/2205/Bomb_Tower5C.png"
+      "logicalPath": "/upgrade/capital_buildings/2205/Bomb_Tower5C.png",
+      "sourceAlt": "Bomb Tower5C"
     }
   ],
   "history": [],

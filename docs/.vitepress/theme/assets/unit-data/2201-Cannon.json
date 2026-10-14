@@ -675,9 +675,10 @@
     {
       "name": "Cannon5C.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/9/9a/Cannon5C.png/revision/latest?cb=20231217071942",
-      "alt": "Cannon5C",
+      "alt": "5 级",
       "localPath": "/images/wiki/2201-Cannon/9ebcfaeed1-Cannon5C.png",
-      "logicalPath": "/upgrade/capital_buildings/2201/Cannon5C.png"
+      "logicalPath": "/upgrade/capital_buildings/2201/Cannon5C.png",
+      "sourceAlt": "Cannon5C"
     }
   ],
   "history": [],

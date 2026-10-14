@@ -211,7 +211,7 @@ if (activeTabCookieValue === "home-techniques") {
         <ListItem name="实验助理" imgSrc="0800/Lab_Assistant_thumb.png" link="0800-Lab-Assistant" />
         <ListItem name="建筑工人学徒" imgSrc="0801/Builder%27s_Apprentice_thumb.png" link="0801-Builder%27s-Apprentice" />
         <ListItem name="炼金术士" imgSrc="0802/Alchemist_thumb.png" link="0802-Alchemist" />
-        <ListItem name="探矿者" imgSrc="/images/wiki/0803-Prospector/f64c91b49f-Prospector_interface.png" link="0803-Prospector" />
+        <ListItem name="探矿者" imgSrc="/images/wiki/0803-Prospector/41dd42a986-Prospector_info3.webp" link="0803-Prospector" />
     </ListItems>
 </SwitchTabGroup>
 

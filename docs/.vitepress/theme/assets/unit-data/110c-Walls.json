@@ -659,9 +659,10 @@
     {
       "name": "Wall10B.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/1/10/Wall10B.png/revision/latest?cb=20230517053328",
-      "alt": "Wall10B",
+      "alt": "10 级",
       "localPath": "/images/wiki/110c-Walls/8b4f6bdcd4-Wall10B.png",
-      "logicalPath": "/upgrade/bh_buildings/110c/Wall10B.png"
+      "logicalPath": "/upgrade/bh_buildings/110c/Wall10B.png",
+      "sourceAlt": "Wall10B"
     }
   ],
   "history": [],

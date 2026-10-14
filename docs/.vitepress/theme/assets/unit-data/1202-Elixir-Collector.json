@@ -880,9 +880,10 @@
     {
       "name": "Elixir_Collector10B.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/3/32/Elixir_Collector10B.png/revision/latest/scale-to-width-down/150?cb=20230518051323",
-      "alt": "Elixir Collector10B",
+      "alt": "10 级",
       "localPath": "/images/wiki/1202-Elixir-Collector/78b5bd95b4-Elixir_Collector10B.png",
-      "logicalPath": "/upgrade/bh_buildings/1202/Elixir_Collector10B.png"
+      "logicalPath": "/upgrade/bh_buildings/1202/Elixir_Collector10B.png",
+      "sourceAlt": "Elixir Collector10B"
     }
   ],
   "history": [],

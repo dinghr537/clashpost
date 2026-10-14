@@ -376,9 +376,10 @@
     {
       "name": "Super_Yeti3.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/5/52/Super_Yeti3.png/revision/latest/scale-to-width-down/100?cb=20250326142315",
-      "alt": "Super Yeti3",
+      "alt": "超级大雪怪",
       "localPath": "/images/wiki/0610-Super-Yeti/1473a647c7-Super_Yeti3.png",
-      "logicalPath": "/upgrade/home_tech/0610/Super_Yeti3.png"
+      "logicalPath": "/upgrade/home_tech/0610/Super_Yeti3.png",
+      "sourceAlt": "Super Yeti3"
     }
   ],
   "history": [],

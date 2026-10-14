@@ -1350,27 +1350,6 @@
       "alt": "火箭背包",
       "localPath": "/images/original/upgrade/home_heroes/07e3/Rocket_Backpack_info.webp",
       "logicalPath": "/upgrade/home_heroes/07e3/Rocket_Backpack_info.png"
-    },
-    {
-      "name": "Rocket_Backpack_Range1.jpg",
-      "url": "https://static.wikia.nocookie.net/clashofclans/images/1/1e/Rocket_Backpack_Range1.jpg/revision/latest/scale-to-width-down/224?cb=20260406105538",
-      "alt": "Straight path",
-      "localPath": "/images/wiki/07e3-Rocket-Backpack/d127780012-Rocket_Backpack_Range1.jpg",
-      "logicalPath": "/upgrade/home_heroes/07e3/Rocket_Backpack_Range1.jpg"
-    },
-    {
-      "name": "Rocket_Backpack_Range2.jpg",
-      "url": "https://static.wikia.nocookie.net/clashofclans/images/2/28/Rocket_Backpack_Range2.jpg/revision/latest/scale-to-width-down/230?cb=20260406105651",
-      "alt": "Vertical path",
-      "localPath": "/images/wiki/07e3-Rocket-Backpack/97e37238b9-Rocket_Backpack_Range2.jpg",
-      "logicalPath": "/upgrade/home_heroes/07e3/Rocket_Backpack_Range2.jpg"
-    },
-    {
-      "name": "Rocket_Backpack_Range3.jpg",
-      "url": "https://static.wikia.nocookie.net/clashofclans/images/1/15/Rocket_Backpack_Range3.jpg/revision/latest/scale-to-width-down/224?cb=20260406105728",
-      "alt": "Horizontal path",
-      "localPath": "/images/wiki/07e3-Rocket-Backpack/eb55cdbbac-Rocket_Backpack_Range3.jpg",
-      "logicalPath": "/upgrade/home_heroes/07e3/Rocket_Backpack_Range3.jpg"
     }
   ],
   "history": [

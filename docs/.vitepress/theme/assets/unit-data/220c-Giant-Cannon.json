@@ -579,9 +579,10 @@
     {
       "name": "Giant_Cannon5C.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/0/07/Giant_Cannon5C.png/revision/latest/scale-to-width-down/240?cb=20220507083841",
-      "alt": "Giant Cannon5C",
+      "alt": "5 级",
       "localPath": "/images/wiki/220c-Giant-Cannon/c178e09558-Giant_Cannon5C.png",
-      "logicalPath": "/upgrade/capital_buildings/220c/Giant_Cannon5C.png"
+      "logicalPath": "/upgrade/capital_buildings/220c/Giant_Cannon5C.png",
+      "sourceAlt": "Giant Cannon5C"
     }
   ],
   "history": [],

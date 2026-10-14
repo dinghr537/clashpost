@@ -796,9 +796,10 @@
     {
       "name": "Balloon13.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/6/6e/Balloon13.png/revision/latest/scale-to-width-down/100?cb=20260427191932",
-      "alt": "Balloon13",
+      "alt": "13 级",
       "localPath": "/images/wiki/0005-Balloon/fed68fd327-Balloon13.png",
-      "logicalPath": "/upgrade/home_tech/0005/Balloon13.png"
+      "logicalPath": "/upgrade/home_tech/0005/Balloon13.png",
+      "sourceAlt": "Balloon13"
     }
   ],
   "history": [],

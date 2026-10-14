@@ -76,20 +76,6 @@
       "alt": "生日大爆炸",
       "localPath": "/images/original/upgrade/temp_others/0e81/Birthday_Boom.webp",
       "logicalPath": "/upgrade/temp_others/0e81/Birthday_Boom.png"
-    },
-    {
-      "name": "BirthdayBoom1.png",
-      "url": "https://static.wikia.nocookie.net/clashofclans/images/a/a9/BirthdayBoom1.png/revision/latest/scale-to-width-down/55?cb=20170820101635",
-      "alt": "Birthday Present",
-      "localPath": "/images/wiki/0e81-Birthday-Boom/976945ae5d-BirthdayBoom1.png",
-      "logicalPath": "/upgrade/temp_others/0e81/BirthdayBoom1.png"
-    },
-    {
-      "name": "BirthdayBoom2.png",
-      "url": "https://static.wikia.nocookie.net/clashofclans/images/0/07/BirthdayBoom2.png/revision/latest/scale-to-width-down/55?cb=20170820101647",
-      "alt": "Bomb",
-      "localPath": "/images/wiki/0e81-Birthday-Boom/2061602c48-BirthdayBoom2.png",
-      "logicalPath": "/upgrade/temp_others/0e81/BirthdayBoom2.png"
     }
   ],
   "history": [],

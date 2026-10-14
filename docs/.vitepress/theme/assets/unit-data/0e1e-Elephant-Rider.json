@@ -586,30 +586,10 @@
     {
       "name": "Elephant_Rider1.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/8/84/Elephant_Rider1.png/revision/latest/scale-to-width-down/110?cb=20260801045231",
-      "alt": "Elephant Rider1",
+      "alt": "Elephant Rider",
       "localPath": "/images/wiki/0e1e-Elephant-Rider/49409e1dbe-Elephant_Rider1.png",
-      "logicalPath": "/upgrade/temp_troops/0e1e/Elephant_Rider1.png"
-    },
-    {
-      "name": "Elephant_Rider_original_art1.png",
-      "url": "https://static.wikia.nocookie.net/clashofclans/images/1/13/Elephant_Rider_original_art1.png/revision/latest/scale-to-width-down/185?cb=20260801025349",
-      "alt": "Original Elephant Rider art made by Rudra Gaidhani on Supercell Make.",
-      "localPath": "/images/wiki/0e1e-Elephant-Rider/deec57a554-Elephant_Rider_original_art1.png",
-      "logicalPath": "/upgrade/temp_troops/0e1e/Elephant_Rider_original_art1.png"
-    },
-    {
-      "name": "Elephant_Rider_original_art2.png",
-      "url": "https://static.wikia.nocookie.net/clashofclans/images/3/30/Elephant_Rider_original_art2.png/revision/latest/scale-to-width-down/185?cb=20260801025416",
-      "alt": "Ditto.",
-      "localPath": "/images/wiki/0e1e-Elephant-Rider/7c958ff9cb-Elephant_Rider_original_art2.png",
-      "logicalPath": "/upgrade/temp_troops/0e1e/Elephant_Rider_original_art2.png"
-    },
-    {
-      "name": "Elephant_Rider_original_art3.png",
-      "url": "https://static.wikia.nocookie.net/clashofclans/images/2/2b/Elephant_Rider_original_art3.png/revision/latest/scale-to-width-down/185?cb=20260801025446",
-      "alt": "Ditto.",
-      "localPath": "/images/wiki/0e1e-Elephant-Rider/a747ff434e-Elephant_Rider_original_art3.png",
-      "logicalPath": "/upgrade/temp_troops/0e1e/Elephant_Rider_original_art3.png"
+      "logicalPath": "/upgrade/temp_troops/0e1e/Elephant_Rider1.png",
+      "sourceAlt": "Elephant Rider1"
     }
   ],
   "history": [],

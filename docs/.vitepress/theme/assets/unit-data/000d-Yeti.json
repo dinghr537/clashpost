@@ -546,9 +546,10 @@
     {
       "name": "Yeti8.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/d/d8/Yeti8.png/revision/latest/scale-to-width-down/105?cb=20260708051439",
-      "alt": "Yeti8",
+      "alt": "8 级",
       "localPath": "/images/wiki/000d-Yeti/c52c5b4718-Yeti8.png",
-      "logicalPath": "/upgrade/home_tech/000d/Yeti8.png"
+      "logicalPath": "/upgrade/home_tech/000d/Yeti8.png",
+      "sourceAlt": "Yeti8"
     }
   ],
   "history": [],

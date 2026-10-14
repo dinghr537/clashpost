@@ -6,7 +6,7 @@ import json
 from pathlib import Path
 import re
 
-from sync_wiki_data import SourceTables, VillageFilter, headers_and_rows
+from sync_wiki_data import SourceTables, VillageFilter, headers_and_rows, is_unit_image, REVIEWED_IMAGES
 from check_upgrade_data import seconds
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -72,6 +72,18 @@ def main():
             local = image.get('localPath')
             if not local or not (ROOT / 'docs/public' / local.lstrip('/')).is_file():
                 errors.append(record['unitId'] + ': image not local: ' + image['name'])
+            if local and local.startswith('/images/wiki/'):
+                if not is_unit_image(image, record['unitId']):
+                    errors.append(record['unitId'] + ': supplemental image has not been visually reviewed: ' + image['name'])
+                elif image['alt'] != REVIEWED_IMAGES[record['unitId'] + '/' + image['name']]['caption']:
+                    errors.append(record['unitId'] + ': image caption differs from reviewed description: ' + image['name'])
+    image_sources = json.loads((ROOT / 'docs/public/images/wiki-sources.json').read_text())
+    reviewed_sources = {(key.split('/')[0], review['sourceUrl']) for key, review in REVIEWED_IMAGES.items()}
+    for page in (ROOT / 'docs/upgrade/category').glob('*.md'):
+        for local in re.findall(r'imgSrc="(/images/wiki/[^"]+)"', page.read_text()):
+            source = image_sources.get(local, {})
+            if (source.get('unitId'), source.get('sourceUrl')) not in reviewed_sources:
+                errors.append(page.name + ': category image has not been visually reviewed: ' + local)
     announced = re.findall(r'\(docs/upgrade/([^()]+)\.md\)\s*\|\s*(\d+)\s*\|\s*(\d+)\s*\|', (ROOT / 'UPDATE_AUDIT_2026-10-13.md').read_text())
     for unit, old, required in announced:
         levels = [row[0]['value'] for table in records[unit]['tables'] if table['headers'][0] == 'Level' for row in table['rows'] if isinstance(row[0]['value'], int)]

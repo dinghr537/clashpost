@@ -334,9 +334,10 @@
     {
       "name": "Root_Rider4.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/0/0d/Root_Rider4.png/revision/latest/scale-to-width-down/100?cb=20260427192004",
-      "alt": "Root Rider4",
+      "alt": "4 级",
       "localPath": "/images/wiki/0010-Root-Rider/bf41361dc4-Root_Rider4.png",
-      "logicalPath": "/upgrade/home_tech/0010/Root_Rider4.png"
+      "logicalPath": "/upgrade/home_tech/0010/Root_Rider4.png",
+      "sourceAlt": "Root Rider4"
     }
   ],
   "history": [],

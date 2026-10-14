@@ -671,9 +671,10 @@
     {
       "name": "Valkyrie12.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/9/90/Valkyrie12.png/revision/latest/scale-to-width-down/65?cb=20260714210640",
-      "alt": "Valkyrie12",
+      "alt": "12 级",
       "localPath": "/images/wiki/0082-Valkyrie/0781e3abb3-Valkyrie12.png",
-      "logicalPath": "/upgrade/home_tech/0082/Valkyrie12.png"
+      "logicalPath": "/upgrade/home_tech/0082/Valkyrie12.png",
+      "sourceAlt": "Valkyrie12"
     }
   ],
   "history": [],

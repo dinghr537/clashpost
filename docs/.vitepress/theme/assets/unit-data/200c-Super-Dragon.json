@@ -217,9 +217,10 @@
     {
       "name": "Super_Dragon7.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/c/c4/Super_Dragon7.png/revision/latest/scale-to-width-down/150?cb=20211209195922",
-      "alt": "Super Dragon7",
+      "alt": "超级飞龙",
       "localPath": "/images/wiki/200c-Super-Dragon/3a33d99d4d-Super_Dragon7.png",
-      "logicalPath": "/upgrade/capital_tech/200c/Super_Dragon7.png"
+      "logicalPath": "/upgrade/capital_tech/200c/Super_Dragon7.png",
+      "sourceAlt": "Super Dragon7"
     }
   ],
   "history": [],

@@ -1397,34 +1397,6 @@
       "alt": "王座",
       "localPath": "/images/original/upgrade/bh_tech/10f1/Battle_Copter_Altar.webp",
       "logicalPath": "/upgrade/bh_tech/10f1/Battle_Copter_Altar.png"
-    },
-    {
-      "name": "Battle_Copter_3D_preview.png",
-      "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e1/Battle_Copter_3D_preview.png/revision/latest?cb=20230520094957",
-      "alt": "Battle Copter 3D preview",
-      "localPath": "/images/wiki/10f1-Battle-Copter/b729dc7f72-Battle_Copter_3D_preview.png",
-      "logicalPath": "/upgrade/bh_tech/10f1/Battle_Copter_3D_preview.png"
-    },
-    {
-      "name": "Battle_Copter_3D.png",
-      "url": "https://static.wikia.nocookie.net/clashofclans/images/5/5b/Battle_Copter_3D.png/revision/latest?cb=20230520094438",
-      "alt": "Battle Copter 3D",
-      "localPath": "/images/wiki/10f1-Battle-Copter/718b1292a7-Battle_Copter_3D.png",
-      "logicalPath": "/upgrade/bh_tech/10f1/Battle_Copter_3D.png"
-    },
-    {
-      "name": "Battle_Copter_3D_KO.png",
-      "url": "https://static.wikia.nocookie.net/clashofclans/images/4/4d/Battle_Copter_3D_KO.png/revision/latest?cb=20230520094317",
-      "alt": "Battle Copter 3D KO",
-      "localPath": "/images/wiki/10f1-Battle-Copter/88eb3f583c-Battle_Copter_3D_KO.png",
-      "logicalPath": "/upgrade/bh_tech/10f1/Battle_Copter_3D_KO.png"
-    },
-    {
-      "name": "Battle_Copter_3D_downed.png",
-      "url": "https://static.wikia.nocookie.net/clashofclans/images/6/60/Battle_Copter_3D_downed.png/revision/latest?cb=20230705235806",
-      "alt": "Battle Copter 3D downed",
-      "localPath": "/images/wiki/10f1-Battle-Copter/c7927894fa-Battle_Copter_3D_downed.png",
-      "logicalPath": "/upgrade/bh_tech/10f1/Battle_Copter_3D_downed.png"
     }
   ],
   "history": [],

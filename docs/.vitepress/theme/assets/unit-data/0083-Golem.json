@@ -943,9 +943,10 @@
     {
       "name": "Golem15.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/1/1f/Golem15.png/revision/latest/scale-to-width-down/85?cb=20260427191537",
-      "alt": "Golem15",
+      "alt": "15 级",
       "localPath": "/images/wiki/0083-Golem/42aaa429da-Golem15.png",
-      "logicalPath": "/upgrade/home_tech/0083/Golem15.png"
+      "logicalPath": "/upgrade/home_tech/0083/Golem15.png",
+      "sourceAlt": "Golem15"
     }
   ],
   "history": [],

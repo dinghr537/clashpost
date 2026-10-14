@@ -591,9 +591,10 @@
     {
       "name": "Multi_Mortar5C.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/7/7d/Multi_Mortar5C.png/revision/latest?cb=20221128085751",
-      "alt": "Multi Mortar5C",
+      "alt": "5 级",
       "localPath": "/images/wiki/2206-Multi-Mortar/e5a72834b4-Multi_Mortar5C.png",
-      "logicalPath": "/upgrade/capital_buildings/2206/Multi_Mortar5C.png"
+      "logicalPath": "/upgrade/capital_buildings/2206/Multi_Mortar5C.png",
+      "sourceAlt": "Multi Mortar5C"
     }
   ],
   "history": [],

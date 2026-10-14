@@ -231,9 +231,10 @@
     {
       "name": "Super_Miner7.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/6/64/Super_Miner7.png/revision/latest/scale-to-width-down/100?cb=20221212210817",
-      "alt": "Super Miner7",
+      "alt": "超级矿工",
       "localPath": "/images/wiki/200f-Super-Miner/af7fb4feb4-Super_Miner7.png",
-      "logicalPath": "/upgrade/capital_tech/200f/Super_Miner7.png"
+      "logicalPath": "/upgrade/capital_tech/200f/Super_Miner7.png",
+      "sourceAlt": "Super Miner7"
     }
   ],
   "history": [],

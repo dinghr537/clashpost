@@ -757,9 +757,10 @@
     {
       "name": "Yeti_Undertaker1.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e5/Yeti_Undertaker1.png/revision/latest/scale-to-width-down/150?cb=20260908232323",
-      "alt": "Yeti Undertaker1",
+      "alt": "Yeti Undertaker",
       "localPath": "/images/wiki/0e1c-Yeti-Undertaker/8ae2560392-Yeti_Undertaker1.png",
-      "logicalPath": "/upgrade/temp_troops/0e1c/Yeti_Undertaker1.png"
+      "logicalPath": "/upgrade/temp_troops/0e1c/Yeti_Undertaker1.png",
+      "sourceAlt": "Yeti Undertaker1"
     }
   ],
   "history": [],

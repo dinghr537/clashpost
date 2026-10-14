@@ -309,9 +309,10 @@
     {
       "name": "Logger1.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/7/7b/Logger1.png/revision/latest/scale-to-width-down/110?cb=20260426150823",
-      "alt": "Logger1",
+      "alt": "滚木守卫",
       "localPath": "/images/wiki/0842-Logger/f2babe6c6c-Logger1.png",
-      "logicalPath": "/upgrade/home_heroes/0842/Logger1.png"
+      "logicalPath": "/upgrade/home_heroes/0842/Logger1.png",
+      "sourceAlt": "Logger1"
     }
   ],
   "history": [

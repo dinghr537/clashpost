@@ -1069,16 +1069,18 @@
     {
       "name": "Builders_Hut8.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/7/78/Builders_Hut8.png/revision/latest/scale-to-width-down/150?cb=20260613130250",
-      "alt": "Builders Hut8",
+      "alt": "8 级",
       "localPath": "/images/wiki/0500-Builders-Hut/f941077795-Builders_Hut8.png",
-      "logicalPath": "/upgrade/home_buildings/0500/Builders_Hut8.png"
+      "logicalPath": "/upgrade/home_buildings/0500/Builders_Hut8.png",
+      "sourceAlt": "Builders Hut8"
     },
     {
       "name": "Builders_Hut8_Active.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/4/4b/Builders_Hut8_Active.png/revision/latest/scale-to-width-down/150?cb=20260714124700",
-      "alt": "Builders Hut8 Active",
+      "alt": "8 级（工作状态）",
       "localPath": "/images/wiki/0500-Builders-Hut/731f8df2f5-Builders_Hut8_Active.png",
-      "logicalPath": "/upgrade/home_buildings/0500/Builders_Hut8_Active.png"
+      "logicalPath": "/upgrade/home_buildings/0500/Builders_Hut8_Active.png",
+      "sourceAlt": "Builders Hut8 Active"
     }
   ],
   "history": [

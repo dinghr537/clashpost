@@ -397,9 +397,10 @@
     {
       "name": "Battle_Blimp6.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/b/ba/Battle_Blimp6.png/revision/latest/scale-to-width-down/120?cb=20260426082039",
-      "alt": "Battle Blimp6",
+      "alt": "6 级",
       "localPath": "/images/wiki/0241-Battle-Blimp/11c9fb9e7e-Battle_Blimp6.png",
-      "logicalPath": "/upgrade/home_tech/0241/Battle_Blimp6.png"
+      "logicalPath": "/upgrade/home_tech/0241/Battle_Blimp6.png",
+      "sourceAlt": "Battle Blimp6"
     }
   ],
   "history": [],

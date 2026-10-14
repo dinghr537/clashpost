@@ -370,9 +370,10 @@
     {
       "name": "Headhunter4.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/d/d3/Headhunter4.png/revision/latest/scale-to-width-down/58?cb=20260427191831",
-      "alt": "Headhunter4",
+      "alt": "4 级",
       "localPath": "/images/wiki/0088-Headhunter/d1a8d5e4e6-Headhunter4.png",
-      "logicalPath": "/upgrade/home_tech/0088/Headhunter4.png"
+      "logicalPath": "/upgrade/home_tech/0088/Headhunter4.png",
+      "sourceAlt": "Headhunter4"
     }
   ],
   "history": [],

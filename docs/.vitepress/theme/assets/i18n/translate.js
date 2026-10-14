@@ -75,9 +75,6 @@ export function historyLabel(value) {
 }
 
 export function imageLabel(image, unitTitle) {
-    if (!/[A-Za-z]/.test(image.alt)) return image.alt;
-    const name = dataLabel(unitTitle);
-    const filename = image.name.replace(/\.(?:png|jpe?g|webp)$/i, "");
-    const suffix = filename.match(/(\d+(?:[-_]\d+)*)$/);
-    return suffix ? `${name} · 外观 ${suffix[1].replaceAll("_", "-")}` : name;
+    if (image.alt && !/[A-Za-z]/.test(image.alt)) return image.alt;
+    return dataLabel(unitTitle);
 }

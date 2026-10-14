@@ -1524,86 +1524,98 @@
     {
       "name": "Hot_Candle4-1.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/9/97/Hot_Candle4-1.png/revision/latest/scale-to-width-down/200?cb=20260713110056",
-      "alt": "Hot Candle4-1",
+      "alt": "4 级（阶段 1）",
       "localPath": "/images/wiki/090b-Hot-Candle/4449bd1e5e-Hot_Candle4-1.png",
-      "logicalPath": "/upgrade/crafted_buildings/090b/Hot_Candle4-1.png"
+      "logicalPath": "/upgrade/crafted_buildings/090b/Hot_Candle4-1.png",
+      "sourceAlt": "Hot Candle4-1"
     },
     {
       "name": "Hot_Candle1-1.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/c/cc/Hot_Candle1-1.png/revision/latest/scale-to-width-down/110?cb=20260713105937",
-      "alt": "Hot Candle1-1",
+      "alt": "1 级（阶段 1）",
       "localPath": "/images/wiki/090b-Hot-Candle/98843ed858-Hot_Candle1-1.png",
-      "logicalPath": "/upgrade/crafted_buildings/090b/Hot_Candle1-1.png"
+      "logicalPath": "/upgrade/crafted_buildings/090b/Hot_Candle1-1.png",
+      "sourceAlt": "Hot Candle1-1"
     },
     {
       "name": "Hot_Candle2-1.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/5/56/Hot_Candle2-1.png/revision/latest/scale-to-width-down/110?cb=20260713110007",
-      "alt": "Hot Candle2-1",
+      "alt": "2 级（阶段 1）",
       "localPath": "/images/wiki/090b-Hot-Candle/2b144a4ae7-Hot_Candle2-1.png",
-      "logicalPath": "/upgrade/crafted_buildings/090b/Hot_Candle2-1.png"
+      "logicalPath": "/upgrade/crafted_buildings/090b/Hot_Candle2-1.png",
+      "sourceAlt": "Hot Candle2-1"
     },
     {
       "name": "Hot_Candle3-1.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/1/18/Hot_Candle3-1.png/revision/latest/scale-to-width-down/110?cb=20260713110029",
-      "alt": "Hot Candle3-1",
+      "alt": "3 级（阶段 1）",
       "localPath": "/images/wiki/090b-Hot-Candle/0bc7c920ea-Hot_Candle3-1.png",
-      "logicalPath": "/upgrade/crafted_buildings/090b/Hot_Candle3-1.png"
+      "logicalPath": "/upgrade/crafted_buildings/090b/Hot_Candle3-1.png",
+      "sourceAlt": "Hot Candle3-1"
     },
     {
       "name": "Hot_Candle1-2.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/4/44/Hot_Candle1-2.png/revision/latest/scale-to-width-down/110?cb=20260713110129",
-      "alt": "Hot Candle1-2",
+      "alt": "1 级（阶段 2）",
       "localPath": "/images/wiki/090b-Hot-Candle/430de2f84b-Hot_Candle1-2.png",
-      "logicalPath": "/upgrade/crafted_buildings/090b/Hot_Candle1-2.png"
+      "logicalPath": "/upgrade/crafted_buildings/090b/Hot_Candle1-2.png",
+      "sourceAlt": "Hot Candle1-2"
     },
     {
       "name": "Hot_Candle2-2.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/e/ec/Hot_Candle2-2.png/revision/latest/scale-to-width-down/110?cb=20260713110154",
-      "alt": "Hot Candle2-2",
+      "alt": "2 级（阶段 2）",
       "localPath": "/images/wiki/090b-Hot-Candle/79c62c4069-Hot_Candle2-2.png",
-      "logicalPath": "/upgrade/crafted_buildings/090b/Hot_Candle2-2.png"
+      "logicalPath": "/upgrade/crafted_buildings/090b/Hot_Candle2-2.png",
+      "sourceAlt": "Hot Candle2-2"
     },
     {
       "name": "Hot_Candle3-2.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/9/90/Hot_Candle3-2.png/revision/latest/scale-to-width-down/110?cb=20260713110215",
-      "alt": "Hot Candle3-2",
+      "alt": "3 级（阶段 2）",
       "localPath": "/images/wiki/090b-Hot-Candle/e3715f2865-Hot_Candle3-2.png",
-      "logicalPath": "/upgrade/crafted_buildings/090b/Hot_Candle3-2.png"
+      "logicalPath": "/upgrade/crafted_buildings/090b/Hot_Candle3-2.png",
+      "sourceAlt": "Hot Candle3-2"
     },
     {
       "name": "Hot_Candle4-2.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/0/0d/Hot_Candle4-2.png/revision/latest/scale-to-width-down/110?cb=20260713110243",
-      "alt": "Hot Candle4-2",
+      "alt": "4 级（阶段 2）",
       "localPath": "/images/wiki/090b-Hot-Candle/aac3e17888-Hot_Candle4-2.png",
-      "logicalPath": "/upgrade/crafted_buildings/090b/Hot_Candle4-2.png"
+      "logicalPath": "/upgrade/crafted_buildings/090b/Hot_Candle4-2.png",
+      "sourceAlt": "Hot Candle4-2"
     },
     {
       "name": "Hot_Candle1-3.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e8/Hot_Candle1-3.png/revision/latest/scale-to-width-down/110?cb=20260713110320",
-      "alt": "Hot Candle1-3",
+      "alt": "1 级（阶段 3）",
       "localPath": "/images/wiki/090b-Hot-Candle/1e6b1513a6-Hot_Candle1-3.png",
-      "logicalPath": "/upgrade/crafted_buildings/090b/Hot_Candle1-3.png"
+      "logicalPath": "/upgrade/crafted_buildings/090b/Hot_Candle1-3.png",
+      "sourceAlt": "Hot Candle1-3"
     },
     {
       "name": "Hot_Candle2-3.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/7/77/Hot_Candle2-3.png/revision/latest/scale-to-width-down/110?cb=20260713110355",
-      "alt": "Hot Candle2-3",
+      "alt": "2 级（阶段 3）",
       "localPath": "/images/wiki/090b-Hot-Candle/bd340e8254-Hot_Candle2-3.png",
-      "logicalPath": "/upgrade/crafted_buildings/090b/Hot_Candle2-3.png"
+      "logicalPath": "/upgrade/crafted_buildings/090b/Hot_Candle2-3.png",
+      "sourceAlt": "Hot Candle2-3"
     },
     {
       "name": "Hot_Candle3-3.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/6/65/Hot_Candle3-3.png/revision/latest/scale-to-width-down/110?cb=20260713110417",
-      "alt": "Hot Candle3-3",
+      "alt": "3 级（阶段 3）",
       "localPath": "/images/wiki/090b-Hot-Candle/916099e1e7-Hot_Candle3-3.png",
-      "logicalPath": "/upgrade/crafted_buildings/090b/Hot_Candle3-3.png"
+      "logicalPath": "/upgrade/crafted_buildings/090b/Hot_Candle3-3.png",
+      "sourceAlt": "Hot Candle3-3"
     },
     {
       "name": "Hot_Candle4-3.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/0/05/Hot_Candle4-3.png/revision/latest/scale-to-width-down/110?cb=20260713110446",
-      "alt": "Hot Candle4-3",
+      "alt": "4 级（阶段 3）",
       "localPath": "/images/wiki/090b-Hot-Candle/c430b21f89-Hot_Candle4-3.png",
-      "logicalPath": "/upgrade/crafted_buildings/090b/Hot_Candle4-3.png"
+      "logicalPath": "/upgrade/crafted_buildings/090b/Hot_Candle4-3.png",
+      "sourceAlt": "Hot Candle4-3"
     }
   ],
   "history": [

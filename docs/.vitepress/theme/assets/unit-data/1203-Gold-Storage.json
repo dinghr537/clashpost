@@ -720,9 +720,10 @@
     {
       "name": "Gold_Storage10B.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e6/Gold_Storage10B.png/revision/latest/scale-to-width-down/200?cb=20230518052405",
-      "alt": "Gold Storage10B",
+      "alt": "10 级",
       "localPath": "/images/wiki/1203-Gold-Storage/2e8a954b17-Gold_Storage10B.png",
-      "logicalPath": "/upgrade/bh_buildings/1203/Gold_Storage10B.png"
+      "logicalPath": "/upgrade/bh_buildings/1203/Gold_Storage10B.png",
+      "sourceAlt": "Gold Storage10B"
     }
   ],
   "history": [],

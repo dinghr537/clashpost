@@ -225,9 +225,10 @@
     {
       "name": "Angry_Spell_info.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/9/92/Angry_Spell_info.png/revision/latest/scale-to-width-down/200?cb=20260614152411",
-      "alt": "Angry Spell info",
+      "alt": "Angry Spell",
       "localPath": "/images/wiki/0187-Angry-Spell/270a9a730f-Angry_Spell_info.png",
-      "logicalPath": "/upgrade/home_tech/0187/Angry_Spell_info.png"
+      "logicalPath": "/upgrade/home_tech/0187/Angry_Spell_info.png",
+      "sourceAlt": "Angry Spell info"
     }
   ],
   "history": [],

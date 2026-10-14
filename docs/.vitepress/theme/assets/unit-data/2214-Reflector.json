@@ -325,13 +325,6 @@
       "alt": "3 级",
       "localPath": "/images/original/upgrade/capital_buildings/2214/Reflector3.webp",
       "logicalPath": "/upgrade/capital_buildings/2214/Reflector3.png"
-    },
-    {
-      "name": "Reflector_level4_info.png",
-      "url": "https://static.wikia.nocookie.net/clashofclans/images/8/89/Reflector_level4_info.png/revision/latest/scale-to-width-down/185?cb=20250318143454",
-      "alt": "",
-      "localPath": "/images/wiki/2214-Reflector/ca97b26182-Reflector_level4_info.png",
-      "logicalPath": "/upgrade/capital_buildings/2214/Reflector_level4_info.png"
     }
   ],
   "history": [],

@@ -2509,9 +2509,10 @@
     {
       "name": "Mortar18G.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e8/Mortar18G.png/revision/latest/scale-to-width-down/200?cb=20260225093037",
-      "alt": "Mortar18G",
+      "alt": "18 级（改装）",
       "localPath": "/images/wiki/0303-Mortar/f90520d18f-Mortar18G.png",
-      "logicalPath": "/upgrade/home_buildings/0303/Mortar18G.png"
+      "logicalPath": "/upgrade/home_buildings/0303/Mortar18G.png",
+      "sourceAlt": "Mortar18G"
     }
   ],
   "history": [

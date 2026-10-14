@@ -1271,9 +1271,10 @@
     {
       "name": "Archer_Tower10B_Ground.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/e/ea/Archer_Tower10B_Ground.png/revision/latest/scale-to-width-down/200?cb=20230516045046",
-      "alt": "Archer Tower10B Ground",
+      "alt": "10 级（地面模式）",
       "localPath": "/images/wiki/1102-Archer-Tower/f2f21c2f9a-Archer_Tower10B_Ground.png",
-      "logicalPath": "/upgrade/bh_buildings/1102/Archer_Tower10B_Ground.png"
+      "logicalPath": "/upgrade/bh_buildings/1102/Archer_Tower10B_Ground.png",
+      "sourceAlt": "Archer Tower10B Ground"
     }
   ],
   "history": [],

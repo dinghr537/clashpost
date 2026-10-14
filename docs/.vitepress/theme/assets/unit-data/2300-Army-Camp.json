@@ -349,9 +349,10 @@
     {
       "name": "Army_Camp5C.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/9/9c/Army_Camp5C.png/revision/latest/scale-to-width-down/250?cb=20220510082412",
-      "alt": "Army Camp5C",
+      "alt": "5 级",
       "localPath": "/images/wiki/2300-Army-Camp/5150df0c53-Army_Camp5C.png",
-      "logicalPath": "/upgrade/capital_buildings/2300/Army_Camp5C.png"
+      "logicalPath": "/upgrade/capital_buildings/2300/Army_Camp5C.png",
+      "sourceAlt": "Army Camp5C"
     }
   ],
   "history": [],

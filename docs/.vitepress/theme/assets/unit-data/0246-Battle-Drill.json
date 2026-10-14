@@ -378,9 +378,10 @@
     {
       "name": "Battle_Drill6.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/b/be/Battle_Drill6.png/revision/latest/scale-to-width-down/100?cb=20260426085443",
-      "alt": "Battle Drill6",
+      "alt": "6 级",
       "localPath": "/images/wiki/0246-Battle-Drill/5b12b1aa7c-Battle_Drill6.png",
-      "logicalPath": "/upgrade/home_tech/0246/Battle_Drill6.png"
+      "logicalPath": "/upgrade/home_tech/0246/Battle_Drill6.png",
+      "sourceAlt": "Battle Drill6"
     }
   ],
   "history": [

@@ -842,9 +842,10 @@
     {
       "name": "Dark_Barracks13.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/1/1e/Dark_Barracks13.png/revision/latest/scale-to-width-down/210?cb=20260614153906",
-      "alt": "Dark Barracks13",
+      "alt": "13 级",
       "localPath": "/images/wiki/0482-Dark-Barracks/5084422580-Dark_Barracks13.png",
-      "logicalPath": "/upgrade/home_buildings/0482/Dark_Barracks13.png"
+      "logicalPath": "/upgrade/home_buildings/0482/Dark_Barracks13.png",
+      "sourceAlt": "Dark Barracks13"
     }
   ],
   "history": [],

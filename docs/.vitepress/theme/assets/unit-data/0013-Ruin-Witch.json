@@ -288,30 +288,34 @@
     {
       "name": "Ruin_Witch1.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/0/06/Ruin_Witch1.png/revision/latest/scale-to-width-down/80?cb=20260614153028",
-      "alt": "Ruin Witch1",
+      "alt": "1 级",
       "localPath": "/images/wiki/0013-Ruin-Witch/819cc81892-Ruin_Witch1.png",
-      "logicalPath": "/upgrade/home_tech/0013/Ruin_Witch1.png"
+      "logicalPath": "/upgrade/home_tech/0013/Ruin_Witch1.png",
+      "sourceAlt": "Ruin Witch1"
     },
     {
       "name": "Ruin_Witch2.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b5/Ruin_Witch2.png/revision/latest/scale-to-width-down/80?cb=20260614153042",
-      "alt": "Ruin Witch2",
+      "alt": "2 级",
       "localPath": "/images/wiki/0013-Ruin-Witch/8e1edb5f49-Ruin_Witch2.png",
-      "logicalPath": "/upgrade/home_tech/0013/Ruin_Witch2.png"
+      "logicalPath": "/upgrade/home_tech/0013/Ruin_Witch2.png",
+      "sourceAlt": "Ruin Witch2"
     },
     {
       "name": "Ruin_Witch3.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/6/62/Ruin_Witch3.png/revision/latest/scale-to-width-down/80?cb=20260614153059",
-      "alt": "Ruin Witch3",
+      "alt": "3 级",
       "localPath": "/images/wiki/0013-Ruin-Witch/f6115bd426-Ruin_Witch3.png",
-      "logicalPath": "/upgrade/home_tech/0013/Ruin_Witch3.png"
+      "logicalPath": "/upgrade/home_tech/0013/Ruin_Witch3.png",
+      "sourceAlt": "Ruin Witch3"
     },
     {
       "name": "Ruin_Witch4.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/e/ec/Ruin_Witch4.png/revision/latest/scale-to-width-down/80?cb=20260614153114",
-      "alt": "Ruin Witch4",
+      "alt": "4 级",
       "localPath": "/images/wiki/0013-Ruin-Witch/7636e82ba8-Ruin_Witch4.png",
-      "logicalPath": "/upgrade/home_tech/0013/Ruin_Witch4.png"
+      "logicalPath": "/upgrade/home_tech/0013/Ruin_Witch4.png",
+      "sourceAlt": "Ruin Witch4"
     }
   ],
   "history": [

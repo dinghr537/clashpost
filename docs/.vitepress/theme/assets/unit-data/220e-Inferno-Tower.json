@@ -573,9 +573,10 @@
     {
       "name": "Inferno_Tower5C.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/9/97/Inferno_Tower5C.png/revision/latest/scale-to-width-down/240?cb=20220507090714",
-      "alt": "Inferno Tower5C",
+      "alt": "5 级",
       "localPath": "/images/wiki/220e-Inferno-Tower/b0cf52ce52-Inferno_Tower5C.png",
-      "logicalPath": "/upgrade/capital_buildings/220e/Inferno_Tower5C.png"
+      "logicalPath": "/upgrade/capital_buildings/220e/Inferno_Tower5C.png",
+      "sourceAlt": "Inferno Tower5C"
     }
   ],
   "history": [],

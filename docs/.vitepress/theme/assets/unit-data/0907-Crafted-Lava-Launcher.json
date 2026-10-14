@@ -1371,51 +1371,58 @@
     {
       "name": "Lava_Launcher7_Crafted.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/2/24/Lava_Launcher7_Crafted.png/revision/latest/scale-to-width-down/200?cb=20260404102738",
-      "alt": "Lava Launcher7 Crafted",
+      "alt": "7 级",
       "localPath": "/images/wiki/0907-Crafted-Lava-Launcher/434191ebcf-Lava_Launcher7_Crafted.png",
-      "logicalPath": "/upgrade/crafted_buildings/0907/Lava_Launcher7_Crafted.png"
+      "logicalPath": "/upgrade/crafted_buildings/0907/Lava_Launcher7_Crafted.png",
+      "sourceAlt": "Lava Launcher7 Crafted"
     },
     {
       "name": "Lava_Launcher1_Crafted.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/5/54/Lava_Launcher1_Crafted.png/revision/latest/scale-to-width-down/100?cb=20260330142044",
-      "alt": "Lava Launcher1 Crafted",
+      "alt": "1 级",
       "localPath": "/images/wiki/0907-Crafted-Lava-Launcher/8d1a5beabc-Lava_Launcher1_Crafted.png",
-      "logicalPath": "/upgrade/crafted_buildings/0907/Lava_Launcher1_Crafted.png"
+      "logicalPath": "/upgrade/crafted_buildings/0907/Lava_Launcher1_Crafted.png",
+      "sourceAlt": "Lava Launcher1 Crafted"
     },
     {
       "name": "Lava_Launcher2_Crafted.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/6/64/Lava_Launcher2_Crafted.png/revision/latest/scale-to-width-down/100?cb=20260330142111",
-      "alt": "Lava Launcher2 Crafted",
+      "alt": "2 级",
       "localPath": "/images/wiki/0907-Crafted-Lava-Launcher/248d1a8dce-Lava_Launcher2_Crafted.png",
-      "logicalPath": "/upgrade/crafted_buildings/0907/Lava_Launcher2_Crafted.png"
+      "logicalPath": "/upgrade/crafted_buildings/0907/Lava_Launcher2_Crafted.png",
+      "sourceAlt": "Lava Launcher2 Crafted"
     },
     {
       "name": "Lava_Launcher3_Crafted.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/a/a2/Lava_Launcher3_Crafted.png/revision/latest/scale-to-width-down/100?cb=20260330142141",
-      "alt": "Lava Launcher3 Crafted",
+      "alt": "3 级",
       "localPath": "/images/wiki/0907-Crafted-Lava-Launcher/80118194b0-Lava_Launcher3_Crafted.png",
-      "logicalPath": "/upgrade/crafted_buildings/0907/Lava_Launcher3_Crafted.png"
+      "logicalPath": "/upgrade/crafted_buildings/0907/Lava_Launcher3_Crafted.png",
+      "sourceAlt": "Lava Launcher3 Crafted"
     },
     {
       "name": "Lava_Launcher4_Crafted.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/b/bf/Lava_Launcher4_Crafted.png/revision/latest/scale-to-width-down/100?cb=20260330142216",
-      "alt": "Lava Launcher4 Crafted",
+      "alt": "4 级",
       "localPath": "/images/wiki/0907-Crafted-Lava-Launcher/4e58d3a5bc-Lava_Launcher4_Crafted.png",
-      "logicalPath": "/upgrade/crafted_buildings/0907/Lava_Launcher4_Crafted.png"
+      "logicalPath": "/upgrade/crafted_buildings/0907/Lava_Launcher4_Crafted.png",
+      "sourceAlt": "Lava Launcher4 Crafted"
     },
     {
       "name": "Lava_Launcher5_Crafted.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/3/30/Lava_Launcher5_Crafted.png/revision/latest/scale-to-width-down/100?cb=20260330142237",
-      "alt": "Lava Launcher5 Crafted",
+      "alt": "5 级",
       "localPath": "/images/wiki/0907-Crafted-Lava-Launcher/e30cf95e31-Lava_Launcher5_Crafted.png",
-      "logicalPath": "/upgrade/crafted_buildings/0907/Lava_Launcher5_Crafted.png"
+      "logicalPath": "/upgrade/crafted_buildings/0907/Lava_Launcher5_Crafted.png",
+      "sourceAlt": "Lava Launcher5 Crafted"
     },
     {
       "name": "Lava_Launcher6_Crafted.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/7/7b/Lava_Launcher6_Crafted.png/revision/latest/scale-to-width-down/100?cb=20260330142257",
-      "alt": "Lava Launcher6 Crafted",
+      "alt": "6 级",
       "localPath": "/images/wiki/0907-Crafted-Lava-Launcher/7f7d9a17eb-Lava_Launcher6_Crafted.png",
-      "logicalPath": "/upgrade/crafted_buildings/0907/Lava_Launcher6_Crafted.png"
+      "logicalPath": "/upgrade/crafted_buildings/0907/Lava_Launcher6_Crafted.png",
+      "sourceAlt": "Lava Launcher6 Crafted"
     }
   ],
   "history": [

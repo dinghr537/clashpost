@@ -702,16 +702,18 @@
     {
       "name": "Dark_Spell_Factory8.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/9/93/Dark_Spell_Factory8.png/revision/latest/scale-to-width-down/200?cb=20260613130339",
-      "alt": "Dark Spell Factory8",
+      "alt": "8 级",
       "localPath": "/images/wiki/0485-Dark-Spell-Factory/b8bf83a549-Dark_Spell_Factory8.png",
-      "logicalPath": "/upgrade/home_buildings/0485/Dark_Spell_Factory8.png"
+      "logicalPath": "/upgrade/home_buildings/0485/Dark_Spell_Factory8.png",
+      "sourceAlt": "Dark Spell Factory8"
     },
     {
       "name": "Dark_Spell_Factory8_Active.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/0/0d/Dark_Spell_Factory8_Active.png/revision/latest/scale-to-width-down/200?cb=20260614174911",
-      "alt": "Dark Spell Factory8 Active",
+      "alt": "8 级（工作状态）",
       "localPath": "/images/wiki/0485-Dark-Spell-Factory/822a39d17a-Dark_Spell_Factory8_Active.png",
-      "logicalPath": "/upgrade/home_buildings/0485/Dark_Spell_Factory8_Active.png"
+      "logicalPath": "/upgrade/home_buildings/0485/Dark_Spell_Factory8_Active.png",
+      "sourceAlt": "Dark Spell Factory8 Active"
     }
   ],
   "history": [],

@@ -1334,30 +1334,34 @@
     {
       "name": "X-Bow13_Ground.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/1/1e/X-Bow13_Ground.png/revision/latest/scale-to-width-down/200?cb=20260503184459",
-      "alt": "X-Bow13 Ground",
+      "alt": "13 级（地面模式）",
       "localPath": "/images/wiki/0309-X-Bow/c5c45dcb08-X-Bow13_Ground.png",
-      "logicalPath": "/upgrade/home_buildings/0309/X-Bow13_Ground.png"
+      "logicalPath": "/upgrade/home_buildings/0309/X-Bow13_Ground.png",
+      "sourceAlt": "X-Bow13 Ground"
     },
     {
       "name": "X-Bow13_Air.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e6/X-Bow13_Air.png/revision/latest/scale-to-width-down/200?cb=20260503162938",
-      "alt": "X-Bow13 Air",
+      "alt": "13 级（空中模式）",
       "localPath": "/images/wiki/0309-X-Bow/47c89e2e86-X-Bow13_Air.png",
-      "logicalPath": "/upgrade/home_buildings/0309/X-Bow13_Air.png"
+      "logicalPath": "/upgrade/home_buildings/0309/X-Bow13_Air.png",
+      "sourceAlt": "X-Bow13 Air"
     },
     {
       "name": "X-Bow13_Ground_Depleted.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/2/21/X-Bow13_Ground_Depleted.png/revision/latest/scale-to-width-down/90?cb=20260504052215",
-      "alt": "X-Bow13 Ground Depleted",
+      "alt": "13 级（地面模式，弹药耗尽）",
       "localPath": "/images/wiki/0309-X-Bow/dbcca04191-X-Bow13_Ground_Depleted.png",
-      "logicalPath": "/upgrade/home_buildings/0309/X-Bow13_Ground_Depleted.png"
+      "logicalPath": "/upgrade/home_buildings/0309/X-Bow13_Ground_Depleted.png",
+      "sourceAlt": "X-Bow13 Ground Depleted"
     },
     {
       "name": "X-Bow13_Air_Depleted.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/c/c7/X-Bow13_Air_Depleted.png/revision/latest/scale-to-width-down/90?cb=20260504052246",
-      "alt": "X-Bow13 Air Depleted",
+      "alt": "13 级（空中模式，弹药耗尽）",
       "localPath": "/images/wiki/0309-X-Bow/af0c345616-X-Bow13_Air_Depleted.png",
-      "logicalPath": "/upgrade/home_buildings/0309/X-Bow13_Air_Depleted.png"
+      "logicalPath": "/upgrade/home_buildings/0309/X-Bow13_Air_Depleted.png",
+      "sourceAlt": "X-Bow13 Air Depleted"
     }
   ],
   "history": [

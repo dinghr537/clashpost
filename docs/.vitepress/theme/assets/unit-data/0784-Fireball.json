@@ -1196,13 +1196,6 @@
       "alt": "巨大火球",
       "localPath": "/images/original/upgrade/home_heroes/0784/Fireball_info.webp",
       "logicalPath": "/upgrade/home_heroes/0784/Fireball_info.png"
-    },
-    {
-      "name": "FireballRange6Tiles.jpg",
-      "url": "https://static.wikia.nocookie.net/clashofclans/images/3/3c/FireballRange6Tiles.jpg/revision/latest/scale-to-width-down/580?cb=20260124054105",
-      "alt": "Fireball max range for each building size",
-      "localPath": "/images/wiki/0784-Fireball/3bf17b43f7-FireballRange6Tiles.jpg",
-      "logicalPath": "/upgrade/home_heroes/0784/FireballRange6Tiles.jpg"
     }
   ],
   "history": [],

@@ -2520,41 +2520,6 @@
       "alt": "飞盾战神",
       "localPath": "/images/original/upgrade/home_heroes/0203/Royal_Champion_info.webp",
       "logicalPath": "/upgrade/home_heroes/0203/Royal_Champion_info.png"
-    },
-    {
-      "name": "Royal_Champion_3D_preview.png",
-      "url": "https://static.wikia.nocookie.net/clashofclans/images/4/42/Royal_Champion_3D_preview.png/revision/latest?cb=20221010085406",
-      "alt": "Royal Champion 3D preview",
-      "localPath": "/images/wiki/0203-Royal-Champion/4d0a5be012-Royal_Champion_3D_preview.png",
-      "logicalPath": "/upgrade/home_heroes/0203/Royal_Champion_3D_preview.png"
-    },
-    {
-      "name": "Royal_Champion_3D.png",
-      "url": "https://static.wikia.nocookie.net/clashofclans/images/4/45/Royal_Champion_3D.png/revision/latest?cb=20221010085100",
-      "alt": "Royal Champion 3D",
-      "localPath": "/images/wiki/0203-Royal-Champion/fe46d95c9d-Royal_Champion_3D.png",
-      "logicalPath": "/upgrade/home_heroes/0203/Royal_Champion_3D.png"
-    },
-    {
-      "name": "Royal_Champion_3D_pose.png",
-      "url": "https://static.wikia.nocookie.net/clashofclans/images/c/cf/Royal_Champion_3D_pose.png/revision/latest?cb=20221010085218",
-      "alt": "Royal Champion 3D pose",
-      "localPath": "/images/wiki/0203-Royal-Champion/6fef682660-Royal_Champion_3D_pose.png",
-      "logicalPath": "/upgrade/home_heroes/0203/Royal_Champion_3D_pose.png"
-    },
-    {
-      "name": "Royal_Champion_3D_KO.png",
-      "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b8/Royal_Champion_3D_KO.png/revision/latest?cb=20221010085242",
-      "alt": "Royal Champion 3D KO",
-      "localPath": "/images/wiki/0203-Royal-Champion/ec7110adea-Royal_Champion_3D_KO.png",
-      "logicalPath": "/upgrade/home_heroes/0203/Royal_Champion_3D_KO.png"
-    },
-    {
-      "name": "Royal_Champion_3D_downed.png",
-      "url": "https://static.wikia.nocookie.net/clashofclans/images/4/49/Royal_Champion_3D_downed.png/revision/latest?cb=20221010085314",
-      "alt": "Royal Champion 3D downed",
-      "localPath": "/images/wiki/0203-Royal-Champion/42c2e14630-Royal_Champion_3D_downed.png",
-      "logicalPath": "/upgrade/home_heroes/0203/Royal_Champion_3D_downed.png"
     }
   ],
   "history": [],

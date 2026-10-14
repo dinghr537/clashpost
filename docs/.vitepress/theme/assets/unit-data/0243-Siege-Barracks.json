@@ -395,9 +395,10 @@
     {
       "name": "Siege_Barracks6.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/3/39/Siege_Barracks6.png/revision/latest/scale-to-width-down/100?cb=20260426110249",
-      "alt": "Siege Barracks6",
+      "alt": "6 级",
       "localPath": "/images/wiki/0243-Siege-Barracks/aacfa87e00-Siege_Barracks6.png",
-      "logicalPath": "/upgrade/home_tech/0243/Siege_Barracks6.png"
+      "logicalPath": "/upgrade/home_tech/0243/Siege_Barracks6.png",
+      "sourceAlt": "Siege Barracks6"
     }
   ],
   "history": [],

@@ -697,9 +697,10 @@
     {
       "name": "Workshop9.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/8/8c/Workshop9.png/revision/latest/scale-to-width-down/280?cb=20260426165656",
-      "alt": "Workshop9",
+      "alt": "9 级",
       "localPath": "/images/wiki/0486-Workshop/1f299e4205-Workshop9.png",
-      "logicalPath": "/upgrade/home_buildings/0486/Workshop9.png"
+      "logicalPath": "/upgrade/home_buildings/0486/Workshop9.png",
+      "sourceAlt": "Workshop9"
     }
   ],
   "history": [],

@@ -515,13 +515,6 @@
       "alt": "所有等级",
       "localPath": "/images/original/upgrade/temp_troops/0e12/M.E.C.H.A1.webp",
       "logicalPath": "/upgrade/temp_troops/0e12/M.E.C.H.A1.png"
-    },
-    {
-      "name": "MECHA1.png",
-      "url": "https://static.wikia.nocookie.net/clashofclans/images/6/68/MECHA1.png/revision/latest?cb=20240810004253",
-      "alt": "MECHA1",
-      "localPath": "/images/wiki/0e12-M.E.C.H.A/caaeb1bf9c-MECHA1.png",
-      "logicalPath": "/upgrade/temp_troops/0e12/MECHA1.png"
     }
   ],
   "history": [],

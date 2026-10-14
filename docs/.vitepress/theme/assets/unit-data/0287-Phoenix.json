@@ -566,34 +566,6 @@
       "alt": "凤凰蛋",
       "localPath": "/images/original/upgrade/home_heroes/0287/Phoenix_Egg.webp",
       "logicalPath": "/upgrade/home_heroes/0287/Phoenix_Egg.png"
-    },
-    {
-      "name": "Phoenix1.webp",
-      "url": "https://static.wikia.nocookie.net/clashofclans/images/3/37/Phoenix1.webp/revision/latest/scale-to-width-down/153?cb=20221101022332",
-      "alt": "Clash Royale Phoenix",
-      "localPath": "/images/wiki/0287-Phoenix/381cd2f66b-Phoenix1.webp",
-      "logicalPath": "/upgrade/home_heroes/0287/Phoenix1.webp"
-    },
-    {
-      "name": "Phoenix2.webp",
-      "url": "https://static.wikia.nocookie.net/clashofclans/images/5/5d/Phoenix2.webp/revision/latest/scale-to-width-down/185?cb=20221101022331",
-      "alt": "Clash Royale Phoenix 2",
-      "localPath": "/images/wiki/0287-Phoenix/87e2d8d590-Phoenix2.webp",
-      "logicalPath": "/upgrade/home_heroes/0287/Phoenix2.webp"
-    },
-    {
-      "name": "Phoenix3.png",
-      "url": "https://static.wikia.nocookie.net/clashofclans/images/b/b6/Phoenix3.png/revision/latest/scale-to-width-down/185?cb=20260708144140",
-      "alt": "Clash Royale Phoenix 3",
-      "localPath": "/images/wiki/0287-Phoenix/229ec8c60b-Phoenix3.png",
-      "logicalPath": "/upgrade/home_heroes/0287/Phoenix3.png"
-    },
-    {
-      "name": "Phoenix4.png",
-      "url": "https://static.wikia.nocookie.net/clashofclans/images/9/93/Phoenix4.png/revision/latest/scale-to-width-down/130?cb=20260708144205",
-      "alt": "Clash Royale Phoenix 4",
-      "localPath": "/images/wiki/0287-Phoenix/1b467137bf-Phoenix4.png",
-      "logicalPath": "/upgrade/home_heroes/0287/Phoenix4.png"
     }
   ],
   "history": [],

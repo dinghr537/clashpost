@@ -4940,69 +4940,6 @@
       "alt": "弓箭女皇",
       "localPath": "/images/original/upgrade/home_heroes/0201/Archer_Queen_info.webp",
       "logicalPath": "/upgrade/home_heroes/0201/Archer_Queen_info.png"
-    },
-    {
-      "name": "Archer_Queen_3D_preview.png",
-      "url": "https://static.wikia.nocookie.net/clashofclans/images/5/5a/Archer_Queen_3D_preview.png/revision/latest?cb=20230612145438",
-      "alt": "Archer Queen 3D preview",
-      "localPath": "/images/wiki/0201-Archer-Queen/7f51113a8f-Archer_Queen_3D_preview.png",
-      "logicalPath": "/upgrade/home_heroes/0201/Archer_Queen_3D_preview.png"
-    },
-    {
-      "name": "Archer_Queen_3D.png",
-      "url": "https://static.wikia.nocookie.net/clashofclans/images/7/7d/Archer_Queen_3D.png/revision/latest?cb=20230612145318",
-      "alt": "Archer Queen 3D",
-      "localPath": "/images/wiki/0201-Archer-Queen/fa8d40618a-Archer_Queen_3D.png",
-      "logicalPath": "/upgrade/home_heroes/0201/Archer_Queen_3D.png"
-    },
-    {
-      "name": "Archer_Queen_3D_pose.png",
-      "url": "https://static.wikia.nocookie.net/clashofclans/images/c/cb/Archer_Queen_3D_pose.png/revision/latest?cb=20230612145403",
-      "alt": "Archer Queen 3D pose",
-      "localPath": "/images/wiki/0201-Archer-Queen/48c6058e1f-Archer_Queen_3D_pose.png",
-      "logicalPath": "/upgrade/home_heroes/0201/Archer_Queen_3D_pose.png"
-    },
-    {
-      "name": "Archer_Queen_3D_KO.png",
-      "url": "https://static.wikia.nocookie.net/clashofclans/images/a/ae/Archer_Queen_3D_KO.png/revision/latest?cb=20230612145524",
-      "alt": "Archer Queen 3D KO",
-      "localPath": "/images/wiki/0201-Archer-Queen/91ba010daa-Archer_Queen_3D_KO.png",
-      "logicalPath": "/upgrade/home_heroes/0201/Archer_Queen_3D_KO.png"
-    },
-    {
-      "name": "Archer_Queen_3D_downed.png",
-      "url": "https://static.wikia.nocookie.net/clashofclans/images/7/70/Archer_Queen_3D_downed.png/revision/latest?cb=20230612145555",
-      "alt": "Archer Queen 3D downed",
-      "localPath": "/images/wiki/0201-Archer-Queen/affec8d4c1-Archer_Queen_3D_downed.png",
-      "logicalPath": "/upgrade/home_heroes/0201/Archer_Queen_3D_downed.png"
-    },
-    {
-      "name": "Archer_Queen1.png",
-      "url": "https://static.wikia.nocookie.net/clashofclans/images/7/72/Archer_Queen1.png/revision/latest?cb=20170811230321",
-      "alt": "Archer Queen1",
-      "localPath": "/images/wiki/0201-Archer-Queen/2f4cc1a730-Archer_Queen1.png",
-      "logicalPath": "/upgrade/home_heroes/0201/Archer_Queen1.png"
-    },
-    {
-      "name": "Archer_Queen10.png",
-      "url": "https://static.wikia.nocookie.net/clashofclans/images/3/3b/Archer_Queen10.png/revision/latest?cb=20170811230341",
-      "alt": "Archer Queen10",
-      "localPath": "/images/wiki/0201-Archer-Queen/b4e4de8095-Archer_Queen10.png",
-      "logicalPath": "/upgrade/home_heroes/0201/Archer_Queen10.png"
-    },
-    {
-      "name": "Archer_Queen20.png",
-      "url": "https://static.wikia.nocookie.net/clashofclans/images/a/a6/Archer_Queen20.png/revision/latest?cb=20170811230403",
-      "alt": "Archer Queen20",
-      "localPath": "/images/wiki/0201-Archer-Queen/d51400e4fc-Archer_Queen20.png",
-      "logicalPath": "/upgrade/home_heroes/0201/Archer_Queen20.png"
-    },
-    {
-      "name": "Archer_Queen41.png",
-      "url": "https://static.wikia.nocookie.net/clashofclans/images/6/6a/Archer_Queen41.png/revision/latest?cb=20170811230426",
-      "alt": "Archer Queen41",
-      "localPath": "/images/wiki/0201-Archer-Queen/814bc3f548-Archer_Queen41.png",
-      "logicalPath": "/upgrade/home_heroes/0201/Archer_Queen41.png"
     }
   ],
   "history": [],

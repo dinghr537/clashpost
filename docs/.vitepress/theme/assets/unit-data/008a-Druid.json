@@ -435,9 +435,10 @@
     {
       "name": "Druid6.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/7/7c/Druid6.png/revision/latest/scale-to-width-down/100?cb=20260427191731",
-      "alt": "Druid6",
+      "alt": "6 级",
       "localPath": "/images/wiki/008a-Druid/e08293341d-Druid6.png",
-      "logicalPath": "/upgrade/home_tech/008a/Druid6.png"
+      "logicalPath": "/upgrade/home_tech/008a/Druid6.png",
+      "sourceAlt": "Druid6"
     }
   ],
   "history": [

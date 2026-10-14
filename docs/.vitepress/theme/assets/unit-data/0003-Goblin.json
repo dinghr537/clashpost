@@ -637,9 +637,10 @@
     {
       "name": "Goblin10.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/0/05/Goblin10.png/revision/latest/scale-to-width-down/48?cb=20260708144340",
-      "alt": "Goblin10",
+      "alt": "10 级",
       "localPath": "/images/wiki/0003-Goblin/92f310858e-Goblin10.png",
-      "logicalPath": "/upgrade/home_tech/0003/Goblin10.png"
+      "logicalPath": "/upgrade/home_tech/0003/Goblin10.png",
+      "sourceAlt": "Goblin10"
     }
   ],
   "history": [

@@ -195,13 +195,6 @@
       "alt": "所有等级",
       "localPath": "/images/original/upgrade/capital_tech/20c1/Skeleton1.webp",
       "logicalPath": "/upgrade/capital_tech/20c1/Skeleton1.png"
-    },
-    {
-      "name": "Barbarian1.png",
-      "url": "https://static.wikia.nocookie.net/clashofclans/images/d/d1/Barbarian1.png/revision/latest?cb=20171006161720",
-      "alt": "Barbarian1",
-      "localPath": "/images/wiki/20c1-Skeleton/24fdb94a84-Barbarian1.png",
-      "logicalPath": "/upgrade/capital_tech/20c1/Barbarian1.png"
     }
   ],
   "history": [],

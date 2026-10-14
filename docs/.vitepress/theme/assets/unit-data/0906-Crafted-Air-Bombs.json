@@ -1194,72 +1194,82 @@
     {
       "name": "Air_Bombs10_Crafted.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/8/88/Air_Bombs10_Crafted.png/revision/latest/scale-to-width-down/200?cb=20260330142004",
-      "alt": "Air Bombs10 Crafted",
+      "alt": "10 级",
       "localPath": "/images/wiki/0906-Crafted-Air-Bombs/b3ae94b629-Air_Bombs10_Crafted.png",
-      "logicalPath": "/upgrade/crafted_buildings/0906/Air_Bombs10_Crafted.png"
+      "logicalPath": "/upgrade/crafted_buildings/0906/Air_Bombs10_Crafted.png",
+      "sourceAlt": "Air Bombs10 Crafted"
     },
     {
       "name": "Air_Bombs1_Crafted.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/1/11/Air_Bombs1_Crafted.png/revision/latest/scale-to-width-down/100?cb=20260330141735",
-      "alt": "Air Bombs1 Crafted",
+      "alt": "1 级",
       "localPath": "/images/wiki/0906-Crafted-Air-Bombs/4e85ce5e7e-Air_Bombs1_Crafted.png",
-      "logicalPath": "/upgrade/crafted_buildings/0906/Air_Bombs1_Crafted.png"
+      "logicalPath": "/upgrade/crafted_buildings/0906/Air_Bombs1_Crafted.png",
+      "sourceAlt": "Air Bombs1 Crafted"
     },
     {
       "name": "Air_Bombs2_Crafted.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/3/38/Air_Bombs2_Crafted.png/revision/latest/scale-to-width-down/100?cb=20260330141749",
-      "alt": "Air Bombs2 Crafted",
+      "alt": "2 级",
       "localPath": "/images/wiki/0906-Crafted-Air-Bombs/e26c969304-Air_Bombs2_Crafted.png",
-      "logicalPath": "/upgrade/crafted_buildings/0906/Air_Bombs2_Crafted.png"
+      "logicalPath": "/upgrade/crafted_buildings/0906/Air_Bombs2_Crafted.png",
+      "sourceAlt": "Air Bombs2 Crafted"
     },
     {
       "name": "Air_Bombs3_Crafted.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/1/1a/Air_Bombs3_Crafted.png/revision/latest/scale-to-width-down/100?cb=20260330141804",
-      "alt": "Air Bombs3 Crafted",
+      "alt": "3 级",
       "localPath": "/images/wiki/0906-Crafted-Air-Bombs/2dafe0aea5-Air_Bombs3_Crafted.png",
-      "logicalPath": "/upgrade/crafted_buildings/0906/Air_Bombs3_Crafted.png"
+      "logicalPath": "/upgrade/crafted_buildings/0906/Air_Bombs3_Crafted.png",
+      "sourceAlt": "Air Bombs3 Crafted"
     },
     {
       "name": "Air_Bombs4_Crafted.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/c/c9/Air_Bombs4_Crafted.png/revision/latest/scale-to-width-down/100?cb=20260330141822",
-      "alt": "Air Bombs4 Crafted",
+      "alt": "4 级",
       "localPath": "/images/wiki/0906-Crafted-Air-Bombs/705505bcf4-Air_Bombs4_Crafted.png",
-      "logicalPath": "/upgrade/crafted_buildings/0906/Air_Bombs4_Crafted.png"
+      "logicalPath": "/upgrade/crafted_buildings/0906/Air_Bombs4_Crafted.png",
+      "sourceAlt": "Air Bombs4 Crafted"
     },
     {
       "name": "Air_Bombs5_Crafted.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/9/91/Air_Bombs5_Crafted.png/revision/latest/scale-to-width-down/100?cb=20260330141835",
-      "alt": "Air Bombs5 Crafted",
+      "alt": "5 级",
       "localPath": "/images/wiki/0906-Crafted-Air-Bombs/1dd13edd9a-Air_Bombs5_Crafted.png",
-      "logicalPath": "/upgrade/crafted_buildings/0906/Air_Bombs5_Crafted.png"
+      "logicalPath": "/upgrade/crafted_buildings/0906/Air_Bombs5_Crafted.png",
+      "sourceAlt": "Air Bombs5 Crafted"
     },
     {
       "name": "Air_Bombs6_Crafted.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/2/22/Air_Bombs6_Crafted.png/revision/latest/scale-to-width-down/100?cb=20260330141857",
-      "alt": "Air Bombs6 Crafted",
+      "alt": "6 级",
       "localPath": "/images/wiki/0906-Crafted-Air-Bombs/23ec7fcef3-Air_Bombs6_Crafted.png",
-      "logicalPath": "/upgrade/crafted_buildings/0906/Air_Bombs6_Crafted.png"
+      "logicalPath": "/upgrade/crafted_buildings/0906/Air_Bombs6_Crafted.png",
+      "sourceAlt": "Air Bombs6 Crafted"
     },
     {
       "name": "Air_Bombs7_Crafted.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/f/fe/Air_Bombs7_Crafted.png/revision/latest/scale-to-width-down/100?cb=20260525163749",
-      "alt": "Air Bombs7 Crafted",
+      "alt": "7 级",
       "localPath": "/images/wiki/0906-Crafted-Air-Bombs/e57f7f7f83-Air_Bombs7_Crafted.png",
-      "logicalPath": "/upgrade/crafted_buildings/0906/Air_Bombs7_Crafted.png"
+      "logicalPath": "/upgrade/crafted_buildings/0906/Air_Bombs7_Crafted.png",
+      "sourceAlt": "Air Bombs7 Crafted"
     },
     {
       "name": "Air_Bombs8_Crafted.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/5/5e/Air_Bombs8_Crafted.png/revision/latest/scale-to-width-down/100?cb=20260525163835",
-      "alt": "Air Bombs8 Crafted",
+      "alt": "8 级",
       "localPath": "/images/wiki/0906-Crafted-Air-Bombs/2cf2066ce8-Air_Bombs8_Crafted.png",
-      "logicalPath": "/upgrade/crafted_buildings/0906/Air_Bombs8_Crafted.png"
+      "logicalPath": "/upgrade/crafted_buildings/0906/Air_Bombs8_Crafted.png",
+      "sourceAlt": "Air Bombs8 Crafted"
     },
     {
       "name": "Air_Bombs9_Crafted.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e0/Air_Bombs9_Crafted.png/revision/latest/scale-to-width-down/100?cb=20260330141941",
-      "alt": "Air Bombs9 Crafted",
+      "alt": "9 级",
       "localPath": "/images/wiki/0906-Crafted-Air-Bombs/8811d0f4e5-Air_Bombs9_Crafted.png",
-      "logicalPath": "/upgrade/crafted_buildings/0906/Air_Bombs9_Crafted.png"
+      "logicalPath": "/upgrade/crafted_buildings/0906/Air_Bombs9_Crafted.png",
+      "sourceAlt": "Air Bombs9 Crafted"
     }
   ],
   "history": [

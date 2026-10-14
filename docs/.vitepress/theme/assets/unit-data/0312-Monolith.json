@@ -693,9 +693,10 @@
     {
       "name": "Monolith5.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/9/96/Monolith5.png/revision/latest/scale-to-width-down/192?cb=20260906195022",
-      "alt": "Monolith5",
+      "alt": "5 级",
       "localPath": "/images/wiki/0312-Monolith/878a77f365-Monolith5.png",
-      "logicalPath": "/upgrade/home_buildings/0312/Monolith5.png"
+      "logicalPath": "/upgrade/home_buildings/0312/Monolith5.png",
+      "sourceAlt": "Monolith5"
     }
   ],
   "history": [
