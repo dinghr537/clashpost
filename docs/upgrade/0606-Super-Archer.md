@@ -7,6 +7,7 @@ imgFolder: home_tech/0606
 wiki: https://clashofclans.fandom.com/wiki/Super_Archer
 canonical: /upgrade/0606-Super-Archer
 dataSyncedOn: 2026-10-13
+description: "超级弓箭手练就了超强臂力，她的箭矢可以对路径上的多个建筑造成伤害。"
 ---
 
 <script setup>
@@ -14,4 +15,63 @@ import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
 import unitData from "@/assets/unit-data/0606-Super-Archer.json";
 </script>
 
-<SyncedUnitData :data="unitData" />
+<SyncedUnitData :data="unitData" :historyAfter="'2026-02-23'">
+
+<template #introduction>
+
+- *如想查看该兵种的普通版本，请访问：[弓箭手](/upgrade/0001-Archer)。*
+
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Super_Archer_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
+
+<SmallTitle>重要说明</SmallTitle>
+
+超级弓箭手的技能（穿透利箭）：对路径上的多个目标造成伤害。
+
+</template>
+
+<template #history>
+
+<Timeline>
+    <TimelineItem date="2026/02/23">
+        <TimelineRow>18 本新增 14 级弓箭手，超级部队的等级也相应更新。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2026/01/28">
+        <TimelineRow>10 ~ 13 级超级弓箭手的生命值提升。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2025/03/27">
+        <TimelineRow>部队的训练时间取消，但增加了捐赠费用。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2025/02/10">
+        <TimelineRow>17 本新增 13 级弓箭手，超级部队的等级也相应更新。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2024/02/27">
+        <TimelineRow>11 ~ 12 级超级弓箭手的生命值降低。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2023/12/12">
+        <TimelineRow>16 本推出，并在 16 本新增 12 级弓箭手，超级部队的等级也相应更新。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2022/10/10">
+        <TimelineRow>15 本推出，并在 15 本新增 11 级弓箭手，超级部队的等级也相应更新。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2021/04/12">
+        <TimelineRow>14 本推出，并在 14 本新增 10 级弓箭手，超级部队的等级也相应更新。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2021/01/20">
+        <TimelineRow>9 级超级弓箭手生命值从 500 提升至 510。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2020/12/07">
+        <TimelineRow>超级部队的有效时间从 7 天缩短为 3 天。</TimelineRow>
+        <TimelineRow>所有部队的强化费用统一调整为 25,000 暗黑重油。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2020/10/12">
+        <TimelineRow>现在超级弓箭手可正确命中距离她 0.1 格的目标。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2020/08/24">
+        <TimelineRow>新的超级兵种：超级弓箭手，11 本可强化。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem :historyBottom="true" />
+</Timeline>
+
+</template>
+
+</SyncedUnitData>

@@ -4,14 +4,17 @@ import UnitTable from "./UnitTable.vue";
 import { imagePlaceholder } from "@/assets/local-images.js";
 import { dataLabel, factLabel, historyLabel, imageLabel, tableHeaderLines } from "@/assets/data-labels.js";
 
-const props = defineProps({ data: { type: Object, required: true } });
+const props = defineProps({
+    data: { type: Object, required: true },
+    historyAfter: { type: String, default: "" }
+});
 const unitTitle = computed(() => dataLabel(props.data.title));
 const images = computed(() => props.data.images.filter(image => image.localPath));
 const sortedTables = computed(() => props.data.tables.map((table, index) => ({ ...table, index })).sort((a, b) => {
     const score = table => table.headers.some(header => /Cost|Build Time|Upgrade Time|Research Time/.test(header)) ? 0 : 1;
     return score(a) - score(b) || a.index - b.index;
 }));
-const history = computed(() => [...props.data.history].sort((a, b) => b.date.localeCompare(a.date)));
+const history = computed(() => props.data.history.filter(item => item.date > props.historyAfter).sort((a, b) => b.date.localeCompare(a.date)));
 const modeNames = {
     "0301-Cannon": ["标准模式", "连发模式"], "0302-Archer-Tower": ["标准模式", "快速模式"],
     "0303-Mortar": ["标准模式", "连发模式"], "030a-Inferno-Tower": ["单头模式", "多头模式"],
@@ -50,7 +53,8 @@ function bodyDisplay(table, cell, rowIndex, column) {
         数据同步：{{ data.sync.syncedOn }} ·
         <a :href="data.sync.revisionUrl" target="_blank" rel="noopener noreferrer">部落冲突维基</a>
     </p>
-    <figure v-if="images.length" class="cp-data-cover">
+    <slot name="introduction" />
+    <figure v-if="!$slots.introduction && images.length" class="cp-data-cover">
         <img :src="images[0].localPath || imagePlaceholder" :alt="unitTitle" />
     </figure>
     <p v-for="notice in data.notices" :key="notice">{{ dataLabel(notice) }}</p>
@@ -79,12 +83,17 @@ function bodyDisplay(table, cell, rowIndex, column) {
             </table>
         </UnitTable>
     </template>
+    <slot name="notes" />
     <template v-if="history.length">
         <SmallTitle>2026 年更新历史</SmallTitle>
         <ul class="cp-data-history">
             <li v-for="(item, index) in history" :key="index"><strong>{{ item.date }}</strong> {{ historyLabel(item.description) }} <a v-if="item.sourceUrl" :href="item.sourceUrl" target="_blank" rel="noopener noreferrer">来源</a></li>
         </ul>
         <p class="cp-data-source">以上为来源记录的变更日期及中文整理；数据同步日期列在页首。</p>
+    </template>
+    <template v-if="$slots.history">
+        <SmallTitle>更新历史</SmallTitle>
+        <slot name="history" />
     </template>
     <details v-if="data.facts?.length || history.length" class="cp-data-original">
         <summary>查看来源原文</summary>

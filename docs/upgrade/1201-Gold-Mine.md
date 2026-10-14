@@ -7,6 +7,7 @@ imgFolder: bh_buildings/1201
 wiki: https://clashofclans.fandom.com/wiki/Gold_Mine/Builder_Base
 canonical: /upgrade/1201-Gold-Mine
 dataSyncedOn: 2026-10-13
+description: "金矿生产金币。升级金矿提高金币产量和容量。"
 ---
 
 <script setup>
@@ -14,4 +15,35 @@ import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
 import unitData from "@/assets/unit-data/1201-Gold-Mine.json";
 </script>
 
-<SyncedUnitData :data="unitData" />
+<SyncedUnitData :data="unitData" :historyAfter="'2023-05-15'">
+
+<template #introduction>
+
+- *如想查看家乡的金矿，请访问：[金矿](/upgrade/0401-Gold-Mine)。*
+
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Gold_Mine10.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
+
+一般来说，损坏的建筑不视为解锁，比如说时光钟楼 4 本解锁。按照这个逻辑，夜世界 1 本的金矿和圣水收集器数量应为 0. 但考虑到 1 本常常是新手教程，比较特殊，为了方便玩家理解，这里没有按照上述规则来。
+
+</template>
+
+<template #history>
+
+<Timeline>
+    <TimelineItem date="2023/05/15">
+        <TimelineRow>夜世界重做，建筑的数值重新平衡，伤害、生命值等数据有变化。</TimelineRow>
+        <TimelineRow>5 ~ 9 级金矿的升级费用增加。</TimelineRow>
+        <TimelineRow>夜世界 10 本推出，金矿可升至 10 级。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2019/10/16">
+        <TimelineRow>填满夜世界的金矿和圣水收集器所需的时间由 12 小时变成 24 小时。</TimelineRow>
+    </TimelineItem>
+     <TimelineItem date="2019/06/18">
+        <TimelineRow>夜世界 9 本推出，金矿可升至 9 级。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem :historyBottom="true" />
+</Timeline>
+
+</template>
+
+</SyncedUnitData>

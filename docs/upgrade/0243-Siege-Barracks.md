@@ -7,6 +7,7 @@ imgFolder: home_tech/0243
 wiki: https://clashofclans.fandom.com/wiki/Siege_Barracks
 canonical: /upgrade/0243-Siege-Barracks
 dataSyncedOn: 2026-10-13
+description: "攻城训练营平稳降落在战场后，首先会释放出装载的皮卡超人和法师，然后再释放出部落援军。想知道攻城训练营为什么能塞得下这么多部队？天机不可泄露，你还是不知道比较好。"
 ---
 
 <script setup>
@@ -14,4 +15,53 @@ import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
 import unitData from "@/assets/unit-data/0243-Siege-Barracks.json";
 </script>
 
-<SyncedUnitData :data="unitData" />
+<SyncedUnitData :data="unitData" :historyAfter="'2025-03-27'">
+
+<template #introduction>
+
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Siege_Barracks.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
+
+<SmallTitle>重要说明</SmallTitle>
+
+1. 部署攻城训练营后，它会在指定位置迅速着陆，并释放部队。
+  - 在释放部落援军之前，攻城训练营会首先派出自带的部队。它会先释放 [皮卡超人](/upgrade/0009-P.E.K.K.A)，然后每隔几秒便释放一个 [法师](/upgrade/0006-Wizard) 参与进攻，直到释放完所有法师。
+2. 攻城训练营部署后不能移动，即使没有受到伤害也会自动掉血。[大守护者](/upgrade/0202-Grand-Warden) 的 [永恒书卷](/upgrade/0780-Eternal-Tome) 装备无法阻止它自动掉血。
+3. 攻城训练营中自带部队（皮卡和法师）的等级以使用者的科技为准，而部落城堡内的援军等级以捐赠者的科技为准。
+4. 当攻城训练营的血量清零，或释放完成所有自带部队后，攻城训练营就会自动解体并释放部落城堡内的部队。
+
+</template>
+
+<template #history>
+
+<Timeline>
+    <TimelineItem date="2025/03/27">
+        <TimelineRow>攻城机器的建造时间被取消。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2024/11/25">
+        <TimelineRow>2 ~ 4 级攻城训练营的升级费用和升级时间减少。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2024/02/27">
+        <TimelineRow>16 本新增 5 级攻城训练营。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2023/12/12">
+        <TimelineRow>2 ~ 4 级攻城训练营的升级时间减少。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2023/06/12">
+        <TimelineRow>2 ~ 4 级攻城训练营的升级费用和升级时间减少。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2022/10/10">
+        <TimelineRow>2 ~ 4 级攻城训练营的升级费用和升级时间减少。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2021/04/12">
+        <TimelineRow>修复了攻城训练营持续时间计算不准确的问题，之前它实际的持续时间和信息界面显示的 30 秒有出入。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2020/10/12">
+        <TimelineRow>4 级攻城训练营的法师数量减少一个。</TimelineRow>
+        <TimelineRow>如果您没有部署攻城机器，当其他军队都被消灭后，战斗不再会自动结束。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem :historyBottom="true" />
+</Timeline>
+
+</template>
+
+</SyncedUnitData>

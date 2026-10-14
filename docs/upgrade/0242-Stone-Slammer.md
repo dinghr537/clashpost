@@ -7,6 +7,7 @@ imgFolder: home_tech/0242
 wiki: https://clashofclans.fandom.com/wiki/Stone_Slammer
 canonical: /upgrade/0242-Stone-Slammer
 dataSyncedOn: 2026-10-13
+description: "攻城气球这台重型飞行器会朝防御建筑飞过去，然后投掷巨石将其夷为平地并造成地震效果。法术对攻城气球无效。"
 ---
 
 <script setup>
@@ -14,4 +15,55 @@ import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
 import unitData from "@/assets/unit-data/0242-Stone-Slammer.json";
 </script>
 
-<SyncedUnitData :data="unitData" />
+<SyncedUnitData :data="unitData" :historyAfter="'2026-02-23'">
+
+<template #introduction>
+
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Stone_Slammer.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
+
+<SmallTitle>重要说明</SmallTitle>
+
+1. 攻城气球的目标是最近的防御，相当于一个能炸烂墙的大号 [气球兵](/upgrade/0005-Balloon)。
+2. 攻城气球的伤害包括一次伤害、二次伤害和死亡溅射伤害。其中一次伤害指的是游戏内面板中写明的伤害，二次伤害是面板中没写明的额外伤害。二次伤害中有个最大值和最小值，其中的最大值指的是距离溅射中心 2 格的范围内受到的额外伤害，最小值是 2-3 格范围内受到的伤害。在攻城气球未死亡时，攻城气球的伤害 = 一次伤害 + 二次伤害，死亡后还要加上被摧毁后的溅射伤害。一次伤害、二次伤害和死亡附加伤害都对 [城墙](/upgrade/0300-Walls) 有 25 倍效果。
+3. 下方升级数据表格中的伤害都是对建筑的伤害，对城墙的伤害需要再乘以 25。
+4. 当攻城气球的血量清零时，攻城气球就会自动解体并释放里面的援军。
+
+</template>
+
+<template #history>
+
+<Timeline>
+    <TimelineItem date="2026/02/23">
+        <TimelineRow>18 本新增 6 级攻城气球。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2025/03/27">
+        <TimelineRow>攻城机器的建造时间被取消。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2024/11/25">
+        <TimelineRow>2 ~ 5 级攻城气球的升级费用和升级时间减少。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2024/06/18">
+        <TimelineRow>5 级攻城气球的升级时间减少。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2023/12/12">
+        <TimelineRow>2 ~ 5 级攻城气球的升级时间减少。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2023/06/12">
+        <TimelineRow>15 本新增 5 级攻城气球。</TimelineRow>
+        <TimelineRow>2 ~ 4 级攻城气球的升级费用和升级时间减少。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2022/10/10">
+        <TimelineRow>2 ~ 4 级攻城气球的升级费用和升级时间减少。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2020/10/12">
+        <TimelineRow>如果您没有部署攻城机器，当其他军队都被消灭后，战斗不再会自动结束。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2020/06/22">
+        <TimelineRow>13 本新增 4 级攻城气球。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem :historyBottom="true" />
+</Timeline>
+
+</template>
+
+</SyncedUnitData>

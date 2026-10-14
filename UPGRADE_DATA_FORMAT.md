@@ -1,6 +1,8 @@
 # 当前升级数据结构
 
-已同步单位的数据保存在 `docs/.vitepress/theme/assets/unit-data/<unitId>.json`，同名 Markdown 只保留页面元数据并调用 `SyncedUnitData.vue`。未同步的往期活动单位暂保留原 Markdown。
+已同步单位的来源数据保存在 `docs/.vitepress/theme/assets/unit-data/<unitId>.json`。同名 Markdown 保留页面元数据、原有简介、机制说明、注意事项、关联链接和历史记录，不得被同步脚本整页替换。未同步的往期活动单位暂保留原 Markdown。
+
+`SyncedUnitData.vue` 接受页面的 `introduction`、`notes` 和 `history` 插槽；`historyAfter` 用于在原有时间线之前补充较新的来源记录。`SourceUnitTable.vue` 按页面指定的 `columns` 读取 JSON 字段，保留作者确定的表头、列顺序、资源图标和名称链接。不能为了套用来源表格而删除页面内容或重排既有表格。
 
 ## 来源和范围
 

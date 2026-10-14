@@ -4,10 +4,25 @@ import sys
 import unittest
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
-from sync_wiki_data import VillageFilter, SourceTables, headers_and_rows, source_cell, extra_info, duration_value, is_unit_image, REVIEWED_IMAGES
+from sync_wiki_data import VillageFilter, SourceTables, headers_and_rows, source_cell, extra_info, duration_value, is_unit_image, REVIEWED_IMAGES, page_content
 
 
 class WikiSyncTests(unittest.TestCase):
+    def test_sync_preserves_authored_page_body_and_description(self):
+        original = ('---\ntitle: 战宠小屋\nmodule: upgrade-home\n'
+                    'description: 英雄配战宠\ndataSyncedOn: 2026-02-23\n---\n\n'
+                    '<script setup>\nconst columns = ["等级", "生命值", "解锁的战宠"];\n</script>\n'
+                    '<SmallTitle>重要说明</SmallTitle>\n\n战宠升级不占用实验室时间。\n'
+                    '<a href="/upgrade/0280-L.A.S.S.I">莱希</a>\n'
+                    '<template #history>原来的更新历史</template>\n')
+        record = {'module': 'upgrade-home', 'sync': {'syncedOn': '2026-10-14'}}
+        result = page_content({'unitId': '0487-Pet-House'}, record, existing_text=original)
+        self.assertEqual(result.split('\n---', 1)[1], original.split('\n---', 1)[1])
+        self.assertIn('description: 英雄配战宠', result)
+        self.assertIn('dataSyncedOn: 2026-10-14', result)
+        self.assertEqual(result.count('dataSyncedOn:'), 1)
+        self.assertEqual(page_content({'unitId': '0487-Pet-House'}, record, existing_text=result), result)
+
     def test_only_reviewed_exact_unit_images_enter_gallery(self):
         unit = '0013-Ruin-Witch'
         image = {'name': 'Ruin_Witch1.png', 'url': REVIEWED_IMAGES[unit + '/Ruin_Witch1.png']['sourceUrl']}

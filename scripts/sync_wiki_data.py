@@ -454,13 +454,12 @@ def make_record(item, date):
             'notices': notices}
 
 
-def page_content(item, record):
+def page_content(item, record, existing_text=None):
     page = ROOT / 'docs/upgrade' / (item['unitId'] + '.md')
-    if page.exists():
-        text = page.read_text(encoding='utf-8-sig')
-        frontmatter = re.match(r'---\n(.*?)\n---', text, re.S)[1]
-        # Old prose may contain stale mechanics; the source-backed properties replace it.
-        frontmatter = re.sub(r'^description:.*?(?=^\w+:|\Z)', '', frontmatter, flags=re.M | re.S)
+    text = existing_text if existing_text is not None else (page.read_text(encoding='utf-8-sig') if page.exists() else None)
+    if text is not None:
+        match = re.match(r'---\n(.*?)\n---', text, re.S)
+        frontmatter = match[1]
         frontmatter = re.sub(r'^module:.*$', 'module: ' + record['module'], frontmatter, flags=re.M)
     else:
         label = record['title']
@@ -469,6 +468,10 @@ def page_content(item, record):
                                  'wiki: ' + record['sync']['sourceUrl'], 'canonical: /upgrade/' + item['unitId']])
     frontmatter = re.sub(r'^dataSyncedOn:.*\n?', '', frontmatter, flags=re.M).rstrip()
     frontmatter += '\ndataSyncedOn: ' + record['sync']['syncedOn']
+    # Markdown is authored content. Sync may update metadata and JSON data, but
+    # must not replace explanations, table layouts, links or historical records.
+    if text is not None:
+        return '---\n' + frontmatter + '\n---' + text[match.end():]
     return ('---\n' + frontmatter + '\n---\n\n<script setup>\n'
             'import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";\n'
             f'import unitData from "@/assets/unit-data/{item["unitId"]}.json";\n'
