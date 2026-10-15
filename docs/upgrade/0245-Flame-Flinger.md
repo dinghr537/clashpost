@@ -2,45 +2,98 @@
 title: "部落冲突 coc 攻城烈焰车（投石车）升级数据"
 navTitle: "攻城烈焰车"
 shownTitle: "攻城烈焰车（投石车）"
+description: "这架可爱的攻城机器能投掷出多个烈焰精灵，不仅会给敌方村庄造成重击，还会留下一片持续燃烧的区域。攻城烈焰车的攻击范围很远，足以让自己在攻击时远离危险，但要小心攻击范围更远的防御建筑和陷阱！法术对攻城烈焰车无效。"
 module: upgrade-home
 imgFolder: home_tech/0245
 wiki: https://clashofclans.fandom.com/wiki/Flame_Flinger
 canonical: /upgrade/0245-Flame-Flinger
 dataSyncedOn: 2026-10-13
-description: "这架可爱的攻城机器能投掷出多个烈焰精灵，不仅会给敌方村庄造成重击，还会留下一片持续燃烧的区域。攻城烈焰车的攻击范围很远，足以让自己在攻击时远离危险，但要小心攻击范围更远的防御建筑和陷阱！法术对攻城烈焰车无效。"
 ---
-
-<script setup>
-import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
-import unitData from "@/assets/unit-data/0245-Flame-Flinger.json";
-</script>
-
-<SyncedUnitData :data="unitData" :historyAfter="'2025-03-27'">
-
-<template #introduction>
 
 - *玩家所说的投石车指的是攻城烈焰车，而不是投石炮，投石炮的数据请参考：[投石炮](/upgrade/030e-Scattershot)。*
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Flame_Flinger.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
 
+<SmallTitle>各等级图片</SmallTitle>
+
+<Panel>
+    <UnitImgGroup :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="1 级" imgSrc="Flame_Flinger1.png" />
+        <UnitImg imgTitle="2 级" imgSrc="Flame_Flinger2.png" />
+        <UnitImg imgTitle="3 级" imgSrc="Flame_Flinger3.png" />
+        <UnitImg imgTitle="4 级" imgSrc="Flame_Flinger4.png" />
+        <UnitImg imgTitle="5 级" imgSrc="Flame_Flinger5.png" />
+    </UnitImgGroup>
+</Panel>
+
 <SmallTitle>重要说明</SmallTitle>
 
-1. 攻城烈焰车部署后会投掷烈焰精灵，对敌方建筑造成持续伤害。
-2. 攻城烈焰车的伤害机制比较复杂，我们只能得出定性结论，具体伤害无法计算。目前已经确定的是，攻城烈焰车有 3 种伤害：直接高额伤害、直接溅射伤害、后续持续伤害。由于这几种伤害的大小不一样，伤害范围也不是完全重叠，所以实战中烈焰范围内的建筑可能不是同时被摧毁的。
-3. 烈焰精灵命中目标后的那一下攻击对墙有 8 倍伤害，但烈焰精灵的灼烧效果对 [城墙](/upgrade/0300-Walls) 没有额外伤害。
-4. 攻城烈焰车部署后不能移动，即使没有受到伤害也会自动掉血。[大守护者](/upgrade/0202-Grand-Warden) 的 [永恒书卷](/upgrade/0780-Eternal-Tome) 装备无法阻止它自动掉血。
-5. 当攻城烈焰车的血量清零时，攻城烈焰车就会自动解体并释放部落城堡内的部队。
+1. 如果你不了解攻城机器的基础设定，请阅读这篇文章：浅谈攻城机器的一些基础设定。
+2. 攻城烈焰车部署后会投掷烈焰精灵，对敌方建筑造成持续伤害。
+3. 攻城烈焰车的伤害机制比较复杂，我们只能得出定性结论，具体伤害无法计算。目前已经确定的是，攻城烈焰车有 3 种伤害：直接高额伤害、直接溅射伤害、后续持续伤害。由于这几种伤害的大小不一样，伤害范围也不是完全重叠，所以实战中烈焰范围内的建筑可能不是同时被摧毁的。
+4. 烈焰精灵命中目标后的那一下攻击对墙有 8 倍伤害，但烈焰精灵的灼烧效果对 [城墙](/upgrade/0300-Walls) 没有额外伤害。
+5. 攻城烈焰车部署后不能移动，即使没有受到伤害也会自动掉血。[大守护者](/upgrade/0202-Grand-Warden) 的 [永恒书卷](/upgrade/0780-Eternal-Tome) 装备无法阻止它自动掉血。
+6. 当攻城烈焰车的血量清零时，攻城烈焰车就会自动解体并释放部落城堡内的部队。
 
-攻击速度：目前的公开资料显示攻城烈焰车的攻速是 5 秒每次，但根据我们的测试，攻城烈焰车的实际攻速约为 5.4 秒每次。<br>
-首次进攻时机：这是我们团队内部的测试值，仅供参考。<br>
-掉血速度：这是烈焰车不受到伤害时的掉血速度。
+<SmallTitle>属性</SmallTitle>
 
-熔岩的最大伤害：攻城烈焰车发射出的熔岩伤害类似于 [毒药法术](/upgrade/0180-Poison-Spell)，也就是前期伤害低，兵种或建筑待在熔岩里的时间越长瞬时伤害越高。<br>
-最大存活时间：攻城烈焰车和 [攻城训练营](/upgrade/0243-Siege-Barracks) 及 [滚木车](/upgrade/0244-Log-Launcher) 一样会自己掉血，这个最大存活时间指的是未受到伤害时的存活时间。同样，[大守护者](/upgrade/0202-Grand-Warden) 的 [永恒书卷](/upgrade/0780-Eternal-Tome) 装备无法阻止烈焰车自身掉血。
+<UnitProperties>
+    <UnitProperty pKey="攻击方式" pValue="寻找防御建筑攻击" />
+    <UnitProperty pKey="攻击偏好" pValue="防御建筑 (偏好类型 1)" :isDefensePreferredTroop="true" />
+    <UnitProperty pKey="伤害类型" pValue="范围伤害" />
+    <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
+    <UnitProperty pKey="占据人口" pValue="30" />
+    <UnitProperty pKey="攻击距离" pValue="11 格" />
+    <UnitProperty pKey="攻击速度" pValue="约 5.4 秒/次<sup>①</sup>" />
+    <UnitProperty pKey="首次进攻时机" pValue="到达目标后 4.5 秒<sup>②</sup>" />
+    <UnitProperty pKey="移动速度" pValue="0.8 格/秒" />
+    <UnitProperty pKey="掉血速度" pValue="每秒 17 血<sup>③</sup>" />
+    <UnitProperty pKey="投掷物伤害半径" pValue="1 格" />
+    <UnitProperty pKey="熔岩半径" pValue="2.5 格" />
+    <UnitProperty pKey="熔岩持续时间" pValue="30 秒" />
+    <UnitProperty pKey="所需攻城机器工坊等级" pValue="6" />
+    <UnitProperty pKey="所需大本等级" pValue="14" />
+    <UnitProperty pKey="建造时间" pValue="无" trainingSystem="2025" />
+    <UnitProperty pKey="捐赠费用" pValue="15,15,45000,Elixir" :isDonationCost="true" />
+</UnitProperties>
 
-</template>
+① 目前的公开资料显示攻城烈焰车的攻速是 5 秒每次，但根据我们的测试，攻城烈焰车的实际攻速约为 5.4 秒每次。<br>
+② 这是我们团队内部的测试值，仅供参考。<br>
+③ 这是烈焰车不受到伤害时的掉血速度。
 
-<template #history>
+<SmallTitle>升级数据</SmallTitle>
+
+<script setup>
+const tableExtraInfo = [
+    {
+        "column": 6,
+        "type": "cost",
+        "gpClass": "research",
+        "icon": "Elixir"
+    },
+    {
+        "column": 7,
+        "type": "time",
+        "gpClass": "research"
+    }
+];
+</script>
+
+<UnitTable :tableExtraInfo="tableExtraInfo">
+
+| 等级 | 每秒伤害 | 每次伤害 |熔岩的<br>最大伤害<sup>④</sup>|最大<br>存活时间<sup>⑤</sup>| 生命值 | 升级花费|  升级时间  |所需<br>实验室等级|所需<br>大本等级|
+| ---- |   ----  |   ----  |             ----            |            ----           |  ----  |   ---  |    ---    |       ----      |      ----     |
+| 1 | 124 | 225 | 80 | 100.00秒 | 1700 | \ | \ | 1 | 14 |
+| 2 | 137 | 250 | 95 | 105.88秒 | 1800 | 5500000 | 3,0,0,0 | 10 | 14 |
+| 3 | 151 | 275 | 105 | 111.76秒 | 1900 | 8000000 | 4,0,0,0 | 10 | 14 |
+| 4 | 165 | 300 | 120 | 117.64秒 | 2000 | 10000000 | 7,0,0,0 | 11 | 14 |
+| 5 | 179 | 325 | 130 | 123.52秒 | 2100 | 18000000 | 12,0,0,0 | 14 | 16 |
+</UnitTable>
+
+④ 攻城烈焰车发射出的熔岩伤害类似于 [毒药法术](/upgrade/0180-Poison-Spell)，也就是前期伤害低，兵种或建筑待在熔岩里的时间越长瞬时伤害越高。<br>
+⑤ 攻城烈焰车和 [攻城训练营](/upgrade/0243-Siege-Barracks) 及 [滚木车](/upgrade/0244-Log-Launcher) 一样会自己掉血，这个最大存活时间指的是未受到伤害时的存活时间。同样，[大守护者](/upgrade/0202-Grand-Warden) 的 [永恒书卷](/upgrade/0780-Eternal-Tome) 装备无法阻止烈焰车自身掉血。
+
+<SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2025/03/27">
@@ -80,7 +133,4 @@ import unitData from "@/assets/unit-data/0245-Flame-Flinger.json";
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
-
-</template>
-
-</SyncedUnitData>
+<p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Flame_Flinger?oldid=624810" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>

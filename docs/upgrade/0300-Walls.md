@@ -2,33 +2,113 @@
 title: "部落冲突 coc 城墙升级数据"
 navTitle: "城墙"
 shownTitle: "城墙"
+description: "城墙是保护村庄、阻挡敌军的最好防线。"
 module: upgrade-home
 imgFolder: home_buildings/0300
 wiki: https://clashofclans.fandom.com/wiki/Wall
 canonical: /upgrade/0300-Walls
 dataSyncedOn: 2026-10-13
-description: "城墙是保护村庄、阻挡敌军的最好防线。"
 ---
-
-<script setup>
-import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
-import unitData from "@/assets/unit-data/0300-Walls.json";
-</script>
-
-<SyncedUnitData :data="unitData" :historyAfter="'2026-02-23'">
-
-<template #introduction>
 
 - *如想查看夜世界的城墙，请访问：[夜世界城墙](/upgrade/110c-Walls)。*
 - *如想查看都城的城墙，请访问：[都城城墙](/upgrade/2200-Walls)。*
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Wall19.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
 
+<SmallTitle>各等级图片</SmallTitle>
+
+<Panel>
+    <UnitImgGroup :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="1 级" imgSrc="Wall1.png" />
+        <UnitImg imgTitle="2 级" imgSrc="Wall2.png" />
+        <UnitImg imgTitle="3 级" imgSrc="Wall3.png" />
+        <UnitImg imgTitle="4 级" imgSrc="Wall4.png" />
+        <UnitImg imgTitle="5 级" imgSrc="Wall5.png" />
+        <UnitImg imgTitle="6 级" imgSrc="Wall6.png" />
+        <UnitImg imgTitle="7 级" imgSrc="Wall7.png" />
+        <UnitImg imgTitle="8 级" imgSrc="Wall8.png" />
+        <UnitImg imgTitle="9 级" imgSrc="Wall9.png" />
+        <UnitImg imgTitle="10 级" imgSrc="Wall10.png" />
+        <UnitImg imgTitle="11 级" imgSrc="Wall11.png" />
+        <UnitImg imgTitle="12 级" imgSrc="Wall12.png" />
+        <UnitImg imgTitle="13 级" imgSrc="Wall13.png" />
+        <UnitImg imgTitle="14 级" imgSrc="Wall14.png" />
+        <UnitImg imgTitle="15 级" imgSrc="Wall15.png" />
+        <UnitImg imgTitle="16 级" imgSrc="Wall16.png" />
+        <UnitImg imgTitle="17 级" imgSrc="Wall17_thumb.png" imgHd="Wall17.png"/>
+        <UnitImg imgTitle="18 级" imgSrc="Wall18.png" />
+        <UnitImg imgTitle="19 级" imgSrc="Wall19.png" />
+    </UnitImgGroup>
+</Panel>
+
+<SmallTitle>建筑数量对照表</SmallTitle>
+
+<BuildingNum>
+    <BuildingNumRow title="大本等级" num="1,  2,  3,  4,   5,   6,   7,   8,   9,  10, 11 - 13, 14 - 18" />
+    <BuildingNumRow title="建筑数量" num="0, 25, 50, 75, 100, 125, 175, 225, 250, 275,     300,     325" />
+</BuildingNum>
+
+<SmallTitle>属性</SmallTitle>
+
+<UnitProperties>
+    <UnitProperty pKey="占地面积" pValue="1×1" />
+    <UnitProperty pKey="19 级城墙最高可升级" pValue="200 块" />
+</UnitProperties>
+
+<SmallTitle>升级数据</SmallTitle>
+
+<script setup>
+const tableExtraInfo = [
+    {
+        "column": 2,
+        "type": "cost",
+        "gpClass": "building",
+        "icon": "Gold"
+    },
+    {
+        "column": 3,
+        "type": "cost",
+        "gpClass": "building",
+        "icon": "Elixir"
+    },
+    {
+        "column": 4,
+        "type": "cost",
+        "gpClass": "building",
+        "icon": "Wall_Ring",
+        "noGoldPass": true
+    },
+];
+</script>
+
+<UnitTable :tableExtraInfo="tableExtraInfo">
+
+| 等级 | 生命值 | 升级费用 | 升级费用 | 升级所需<br>戒指数量 | 所需<br>大本等级 |
+| ---- |  ---  |   ---   |    ---   |         ---        |       ---       |
+| 1 | 100 | 0 | \ | \ | 2 |
+| 2 | 200 | 1000 | \ | 1 | 2 |
+| 3 | 400 | 5000 | \ | 1 | 3 |
+| 4 | 800 | 10000 | \ | 1 | 4 |
+| 5 | 1200 | 20000 | 20000 | 1 | 5 |
+| 6 | 1800 | 30000 | 30000 | 1 | 6 |
+| 7 | 2400 | 50000 | 50000 | 1 | 7 |
+| 8 | 3000 | 75000 | 75000 | 1 | 8 |
+| 9 | 3500 | 100000 | 100000 | 1 | 9 |
+| 10 | 4000 | 200000 | 200000 | 1 | 9 |
+| 11 | 5000 | 500000 | 500000 | 1 | 10 |
+| 12 | 7000 | 1000000 | 1000000 | 1 | 11 |
+| 13 | 8000 | 1500000 | 1500000 | 2 | 12 |
+| 14 | 9000 | 2000000 | 2000000 | 2 | 13 |
+| 15 | 10000 | 3000000 | 3000000 | 3 | 14 |
+| 16 | 11000 | 4000000 | 4000000 | 4 | 15 |
+| 17 | 12000 | 5000000 | 5000000 | 5 | 16 |
+| 18 | 13000 | 7000000 | 7000000 | 7 | 17 |
+| 19 | 14000 | 10000000 | 10000000 | 10 | 18 |
+</UnitTable>
+
 注：升级城墙时，金币、圣水、戒指任选其一即可。
 
-</template>
-
-<template #history>
+<SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2026/02/23">
@@ -118,6 +198,4 @@ import unitData from "@/assets/unit-data/0300-Walls.json";
     <TimelineItem :historyBottom="true" />
 </Timeline>
 
-</template>
-
-</SyncedUnitData>
+<p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Wall?oldid=609922" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>

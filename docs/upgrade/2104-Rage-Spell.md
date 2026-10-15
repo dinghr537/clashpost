@@ -2,22 +2,13 @@
 title: "部落冲突 coc 都城狂暴法术升级数据"
 navTitle: "狂暴法术"
 shownTitle: "狂暴法术"
+description: "让部队士气飙涨，变得更快、更强！施放狂暴法术会产生一个狂暴效果光环！在此光环中的部队速度增快，攻击力增强。"
 module: upgrade-capital
 imgFolder: capital_tech/2104
 wiki: https://clashofclans.fandom.com/wiki/Rage_Spell/Clan_Capital
 canonical: /upgrade/2104-Rage-Spell
 dataSyncedOn: 2026-10-13
-description: "让部队士气飙涨，变得更快、更强！施放狂暴法术会产生一个狂暴效果光环！在此光环中的部队速度增快，攻击力增强。"
 ---
-
-<script setup>
-import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
-import unitData from "@/assets/unit-data/2104-Rage-Spell.json";
-</script>
-
-<SyncedUnitData :data="unitData" :historyAfter="'2022-06-30'">
-
-<template #introduction>
 
 - *如想查看家乡的狂暴法术，请访问：[狂暴法术](/upgrade/0102-Rage-Spell)。*
 
@@ -29,11 +20,32 @@ import unitData from "@/assets/unit-data/2104-Rage-Spell.json";
 
 当都城之巅的大本营升到 6 级，并且解锁飞龙悬崖后，系统会自动建造 [狂暴法术工厂](/upgrade/2384-Rage-Spell-Factory)，建造完成后即解锁狂暴法术。
 
+<SmallTitle>属性</SmallTitle>
+
+<UnitProperties>
+    <UnitProperty pKey="作用方式" pValue="范围内脉冲赋能" />
+    <UnitProperty pKey="作用半径" pValue="4.5 格" />
+    <UnitProperty pKey="脉冲间隔时间" pValue="0.3 秒" />
+    <UnitProperty pKey="有效时间" pValue="两次进攻" />
+    <UnitProperty pKey="占用的法术空间" pValue="3" />
+</UnitProperties>
+
+<SmallTitle>升级数据</SmallTitle>
+
+<UnitTable>
+
+| 等级 | 伤害提升 |移动速度提升<sup>*</sup>|
+| ---- |  ----   |          ---          |
+| 1 | 70% | 10 |
+| 2 | 80% | 12 |
+| 3 | 90% | 14 |
+| 4 | 100% | 16 |
+| 5 | 110% | 18 |
+</UnitTable>
+
 \* 这里的 8 点移动速度代表 1 格/秒。
 
-</template>
-
-<template #history>
+<SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2022/06/30">
@@ -44,7 +56,4 @@ import unitData from "@/assets/unit-data/2104-Rage-Spell.json";
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
-
-</template>
-
-</SyncedUnitData>
+<p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Rage_Spell/Clan_Capital?oldid=624176" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>

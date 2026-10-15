@@ -2,26 +2,36 @@
 title: "部落冲突 coc 跳弹加农炮（弹跳加农炮）升级数据"
 navTitle: "跳弹加农炮"
 shownTitle: "跳弹加农炮（弹跳加农炮）"
+description: "建筑工人凭借他的奇妙想法发明了一种威力巨大的炮弹，这种炮弹会弹射击中第二个目标。"
 module: upgrade-home
 imgFolder: home_buildings/0313
 wiki: https://clashofclans.fandom.com/wiki/Ricochet_Cannon
 canonical: /upgrade/0313-Ricochet-Cannon
 dataSyncedOn: 2026-10-13
-description: "建筑工人凭借他的奇妙想法发明了一种威力巨大的炮弹，这种炮弹会弹射击中第二个目标。"
 ---
-
-<script setup>
-import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
-import unitData from "@/assets/unit-data/0313-Ricochet-Cannon.json";
-</script>
-
-<SyncedUnitData :data="unitData" :historyAfter="'2026-01-28'">
-
-<template #introduction>
 
 - *如想查看合并前的建筑，请访问 [加农炮](/upgrade/0301-Cannon)。*
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Ricochet_Cannon4.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
+
+<SmallTitle>各等级图片</SmallTitle>
+
+<Panel>
+    <UnitImgGroup :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="建造中" imgSrc="Ricochet_Cannon_Ruin.png" />
+        <UnitImg imgTitle="1 级" imgSrc="Ricochet_Cannon1.png" />
+        <UnitImg imgTitle="2 级" imgSrc="Ricochet_Cannon2.png" />
+        <UnitImg imgTitle="3 级" imgSrc="Ricochet_Cannon3.png" />
+        <UnitImg imgTitle="4 级" imgSrc="Ricochet_Cannon4.png" />
+    </UnitImgGroup>
+</Panel>
+
+<SmallTitle>建筑数量对照表</SmallTitle>
+
+<BuildingNum>
+    <BuildingNumRow title="大本等级" num="1 - 15, 16 - 17, 18" />
+    <BuildingNumRow title="建筑数量" num="     0,       2,  3" />
+</BuildingNum>
 
 <SmallTitle>重要说明</SmallTitle>
 
@@ -32,9 +42,55 @@ import unitData from "@/assets/unit-data/0313-Ricochet-Cannon.json";
 2. 如果在距离第一个目标 3.5 格范围内存在其他敌方单位，则炮弹将会弹射到第二个目标并造成伤害。
 3. 第二个目标受到的伤害是第一个目标的 70%.
 
-</template>
+<SmallTitle>属性</SmallTitle>
 
-<template #history>
+<UnitProperties>
+    <UnitProperty pKey="占地面积" pValue="3×3" />
+    <UnitProperty pKey="判定面积" pValue="2×2" :isJudgeSquare="true" />
+    <UnitProperty pKey="伤害类型" pValue="直接伤害 + 弹射伤害" />
+    <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
+    <UnitProperty pKey="射程" pValue="9 格" />
+    <UnitProperty pKey="攻速" pValue="0.8 秒/次" />
+    <UnitProperty pKey="最远弹射距离" pValue="3.5 格" />
+    <UnitProperty pKey="弹射伤害" pValue="70%" />
+</UnitProperties>
+
+<SmallTitle>升级数据</SmallTitle>
+
+<script setup>
+const tableExtraInfo = [
+    {
+        "column": 5,
+        "type": "cost",
+        "gpClass": "building",
+        "icon": "Gold"
+    },
+    {
+        "column": 6,
+        "type": "time",
+        "gpClass": "building"
+    },
+    {
+        "column": 7,
+        "type": "exp",
+        "icon": "Exp"
+    }
+];
+</script>
+
+<UnitTable :tableExtraInfo="tableExtraInfo">
+
+| 等级 | 每秒伤害 | 每次伤害 | 第二个目标的<br>每次伤害 | 生命值 | 升级费用 | 升级时间 |升级后可<br>获得的经验| 所需<br>大本等级 |
+| ---- |   ---   |   ---   |          ---           |   ---  |   ---   |   ----  |        ---          |      ----      |
+| 1 | 360 | 288 | 201.6 | 5400 | 12000000 | 7,0,0,0 |  | 16 |
+| 2 | 390 | 312 | 218.4 | 5700 | 13000000 | 8,0,0,0 |  | 16 |
+| 3 | 405 | 324 | 226.8 | 6000 | 17500000 | 9,0,0,0 |  | 17 |
+| 4 | 412 | 329.6 | 230.72 | 6100 | 26500000 | 13,12,0,0 |  | 18 |
+| ⚡1 | 420 | 336 | 235.2 | 6100 | 12000000 | 6,0,0,0 |  | 18 |
+| ⚡2 | 420 | 336 | 235.2 | 6250 | 10000000 | 7,0,0,0 |  | 18 |
+</UnitTable>
+
+<SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2026/01/28">
@@ -62,7 +118,4 @@ import unitData from "@/assets/unit-data/0313-Ricochet-Cannon.json";
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
-
-</template>
-
-</SyncedUnitData>
+<p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Ricochet_Cannon?oldid=624465" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>

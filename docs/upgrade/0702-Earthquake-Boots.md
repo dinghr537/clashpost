@@ -2,22 +2,13 @@
 title: "部落冲突 coc 地震金靴（震地金靴）装备升级数据"
 navTitle: "地震金靴"
 shownTitle: "地震金靴（震地金靴）"
+description: "地震金靴是野蛮人之王的一件普通装备。地震金靴可以时蛮王在使用技能时制造一场地震。这次地震可以立即摧毁周围的城墙，并且对建筑物造成一定百分比的破坏。地震金靴可以对半径内的所有地面单位（包括部队）造成少量额外伤害……"
 module: upgrade-home
 imgFolder: home_heroes/0702
 wiki: https://clashofclans.fandom.com/wiki/Earthquake_Boots
 canonical: /upgrade/0702-Earthquake-Boots
 dataSyncedOn: 2026-10-13
-description: "地震金靴是野蛮人之王的一件普通装备。地震金靴可以时蛮王在使用技能时制造一场地震。这次地震可以立即摧毁周围的城墙，并且对建筑物造成一定百分比的破坏。地震金靴可以对半径内的所有地面单位（包括部队）造成少量额外伤害……"
 ---
-
-<script setup>
-import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
-import unitData from "@/assets/unit-data/0702-Earthquake-Boots.json";
-</script>
-
-<SyncedUnitData :data="unitData" :historyAfter="'2026-02-23'">
-
-<template #introduction>
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Earthquake_Boots_info.png" :imgAlt="$frontmatter.navTitle" description="引发强烈地震，摧毁城墙并对建筑造成伤害。" />
 
@@ -32,11 +23,62 @@ import unitData from "@/assets/unit-data/0702-Earthquake-Boots.json";
    - 当地震金靴引起的地震和地震法术叠加时，建筑物的损坏效果会减弱，具体公式可前往地震法术页面查看，你把地震金靴装备当作一瓶地震法术即可。
 3. 除了制造地震之外，地震金靴装备还可以提高蛮王的每秒伤害和最大生命值。
 
+<SmallTitle>属性</SmallTitle>
+
+<UnitProperties>
+    <UnitProperty pKey="技能类型" pValue="主动技能" />
+    <UnitProperty pKey="装备稀有度" pValue="普通" />
+    <UnitProperty pKey="所需铁匠铺等级" pValue="1" />
+    <UnitProperty pKey="所需大本等级" pValue="8" />
+    <UnitProperty pKey="地震伤害半径" pValue="8 格" />
+</UnitProperties>
+
+<SmallTitle>升级数据</SmallTitle>
+
+<script setup>
+const tableExtraInfo = [
+    {
+        "column": 5,
+        "type": "cost",
+        "icon": "Shiny_Ore",
+        "noGoldPass": true
+    },
+    {
+        "column": 6,
+        "type": "cost",
+        "icon": "Glowy_Ore",
+        "noGoldPass": true
+    }
+];
+</script>
+
+<UnitTable :tableExtraInfo="tableExtraInfo">
+
+| 等级 |对建筑的<br>伤害|对部队的<br>伤害|每秒伤害<br>增加|生命值增加|升级费用|升级费用|所需<br>铁匠铺等级|所需<br>大本等级|
+| ---- |      ---     |       ---      |      ---     |   ---   |  ---   |  ---  |       ---      |      ---       |
+| 1 | 10% | 5% | 13 | 209 | \ | \ | 1 | 8 |
+| 2 | 10% | 5% | 15 | 244 | 120 | \ | 1 | 8 |
+| 3 | 20% | 10% | 17 | 278 | 240 | 20 | 1 | 8 |
+| 4 | 20% | 10% | 19 | 313 | 400 | \ | 1 | 8 |
+| 5 | 20% | 10% | 21 | 348 | 600 | \ | 1 | 8 |
+| 6 | 30% | 15% | 23 | 383 | 840 | 100 | 1 | 8 |
+| 7 | 30% | 15% | 26 | 418 | 1120 | \ | 1 | 8 |
+| 8 | 30% | 15% | 28 | 452 | 1440 | \ | 1 | 8 |
+| 9 | 34% | 17% | 32 | 522 | 1800 | 200 | 1 | 8 |
+| 10 | 34% | 17% | 40 | 677 | 1900 | \ | 3 | 10 |
+| 11 | 34% | 17% | 48 | 831 | 2000 | \ | 3 | 10 |
+| 12 | 36% | 18% | 55 | 986 | 2100 | 400 | 3 | 10 |
+| 13 | 36% | 18% | 63 | 1200 | 2200 | \ | 5 | 12 |
+| 14 | 36% | 18% | 71 | 1500 | 2300 | \ | 5 | 12 |
+| 15 | 38% | 19% | 79 | 1800 | 2400 | 600 | 5 | 12 |
+| 16 | 38% | 19% | 86 | 2100 | 2500 | \ | 7 | 14 |
+| 17 | 38% | 19% | 94 | 2300 | 2600 | \ | 7 | 14 |
+| 18 | 40% | 20% | 102 | 2500 | 2700 | 600 | 7 | 14 |
+</UnitTable>
+
 注：如果升级费用中有多种资源，则同时需要多种资源才能升级。
 
-</template>
-
-<template #history>
+<SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2026/02/23">
@@ -55,7 +97,4 @@ import unitData from "@/assets/unit-data/0702-Earthquake-Boots.json";
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
-
-</template>
-
-</SyncedUnitData>
+<p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Earthquake_Boots?oldid=621771" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>

@@ -2,26 +2,41 @@
 title: "部落冲突 coc 终极炸弹升级数据"
 navTitle: "终极炸弹"
 shownTitle: "终极炸弹"
+description: "村民们不想把这么危险的武器放在大本营里，所以把它搬了出来！终极炸弹会将敌人击退，并造成巨大伤害。这个陷阱的威力足够大，所以没必要藏起来！"
 module: upgrade-home
 imgFolder: home_buildings/0387
 wiki: https://clashofclans.fandom.com/wiki/Giga_Bomb
 canonical: /upgrade/0387-Giga-Bomb
 dataSyncedOn: 2026-10-13
-description: "村民们不想把这么危险的武器放在大本营里，所以把它搬了出来！终极炸弹会将敌人击退，并造成巨大伤害。这个陷阱的威力足够大，所以没必要藏起来！"
 ---
-
-<script setup>
-import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
-import unitData from "@/assets/unit-data/0387-Giga-Bomb.json";
-</script>
-
-<SyncedUnitData :data="unitData" :historyAfter="'2026-02-23'">
-
-<template #introduction>
 
 - 游戏中还存在另一种大炸弹，详见：[巨型炸弹](/upgrade/0383-Giant-Bomb)。
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Giga_Bomb4.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
+
+<SmallTitle>各等级图片</SmallTitle>
+
+<Panel>
+    <UnitImgGroup title="正常情况" :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="1 级" imgSrc="Giga_Bomb1.png" />
+        <UnitImg imgTitle="2 级" imgSrc="Giga_Bomb2.png" />
+        <UnitImg imgTitle="3 级" imgSrc="Giga_Bomb3.png" />
+        <UnitImg imgTitle="4 级" imgSrc="Giga_Bomb4.png" />
+    </UnitImgGroup>
+    <UnitImgGroup title="未重新布置" :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="1 级" imgSrc="Giga_Bomb1_unarmed.png" />
+        <UnitImg imgTitle="2 级" imgSrc="Giga_Bomb2_unarmed.png" />
+        <UnitImg imgTitle="3 级" imgSrc="Giga_Bomb3_unarmed.png" />
+        <UnitImg imgTitle="4 级" imgSrc="Giga_Bomb4_unarmed.png" />
+    </UnitImgGroup>
+</Panel>
+
+<SmallTitle>建筑数量对照表</SmallTitle>
+
+<BuildingNum>
+    <BuildingNumRow title="大本等级" num="1 - 16, 17 - 18" />
+    <BuildingNumRow title="建筑数量" num="     0,       1" />
+</BuildingNum>
 
 <SmallTitle>重要说明</SmallTitle>
 
@@ -33,9 +48,51 @@ import unitData from "@/assets/unit-data/0387-Giga-Bomb.json";
 5. 终极炸弹的爆炸效果可以击退高生命值单位以及弹飞低生命值单位，它的范围伤害对空中单位也有效。
 6. 被终极炸弹波及到且仍然存活的部队会重新选择进攻目标。
 
-</template>
+<SmallTitle>属性</SmallTitle>
 
-<template #history>
+<UnitProperties>
+    <UnitProperty pKey="占地面积" pValue="2×2" />
+    <UnitProperty pKey="伤害类型" pValue="范围伤害" />
+    <UnitProperty pKey="作用目标" pValue="地面和空中目标" />
+    <UnitProperty pKey="触发半径" pValue="3.5 格" />
+    <UnitProperty pKey="触发所需人口" pValue="18" />
+    <UnitProperty pKey="伤害半径" pValue="4.5 格" />
+</UnitProperties>
+
+<SmallTitle>升级数据</SmallTitle>
+
+<script setup>
+const tableExtraInfo = [
+    {
+        "column": 2,
+        "type": "cost",
+        "gpClass": "building",
+        "icon": "Gold"
+    },
+    {
+        "column": 3,
+        "type": "time",
+        "gpClass": "building"
+    },
+    {
+        "column": 4,
+        "type": "exp",
+        "icon": "Exp"
+    }
+];
+</script>
+
+<UnitTable :tableExtraInfo="tableExtraInfo">
+
+| 等级 | 爆炸伤害 | 升级费用 | 升级时间 |升级后可<br>获得的经验|所需<br>大本等级|
+| ---- |    ---  |   ---   |   ---    |         ---        |      ---      |
+| 1 | 1100 | 4500000 | \ |  | 17 |
+| 2 | 1200 | 8500000 | 4,0,0,0 |  | 17 |
+| 3 | 1300 | 12500000 | 5,0,0,0 |  | 17 |
+| 4 | 1400 | 20000000 | 13,0,0,0 |  | 18 |
+</UnitTable>
+
+<SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2026/02/23">
@@ -49,7 +106,4 @@ import unitData from "@/assets/unit-data/0387-Giga-Bomb.json";
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
-
-</template>
-
-</SyncedUnitData>
+<p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Giga_Bomb?oldid=622995" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>

@@ -2,27 +2,26 @@
 title: "部落冲突 coc 超级矿工（超矿）升级数据"
 navTitle: "超级矿工"
 shownTitle: "超级矿工（超矿）"
+description: "拿着大钻机，留着拉风的胡子，这位超级矿工随时准备暗中破坏敌方防御！"
 module: upgrade-home
 imgFolder: home_tech/060e
 wiki: https://clashofclans.fandom.com/wiki/Super_Miner
 canonical: /upgrade/060e-Super-Miner
 dataSyncedOn: 2026-10-13
-description: "拿着大钻机，留着拉风的胡子，这位超级矿工随时准备暗中破坏敌方防御！"
 ---
-
-<script setup>
-import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
-import unitData from "@/assets/unit-data/060e-Super-Miner.json";
-</script>
-
-<SyncedUnitData :data="unitData" :historyAfter="'2025-11-17'">
-
-<template #introduction>
 
 - *如想查看该兵种的普通版本，请访问：[掘地矿工](/upgrade/000b-Miner)。*
 - *如想查看都城的超级矿工，请访问：[都城超级矿工](/upgrade/200f-Super-Miner)。*
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Super_Miner_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
+
+<SmallTitle>各等级图片</SmallTitle>
+
+<Panel>
+    <UnitImgGroup :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="所有等级" imgSrc="Super_Miner7.png" />
+    </UnitImgGroup>
+</Panel>
 
 <SmallTitle>重要说明</SmallTitle>
 
@@ -30,9 +29,41 @@ import unitData from "@/assets/unit-data/060e-Super-Miner.json";
 2. 超级矿工使用钻机进行攻击，攻击时间越长伤害越高，类似于 [地狱飞龙](/upgrade/0604-Inferno-Dragon)。
 3. 超级矿工能免疫 [飓风陷阱](/upgrade/0386-Tornado-Trap) 的转圈效果。
 
-</template>
+<SmallTitle>属性</SmallTitle>
 
-<template #history>
+<UnitProperties>
+    <UnitProperty pKey="部队类型" pValue="地面近战单位" />
+    <UnitProperty pKey="攻击偏好" pValue="无" />
+    <UnitProperty pKey="伤害类型" pValue="单体伤害" />
+    <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
+    <UnitProperty pKey="占据人口" pValue="24" />
+    <UnitProperty pKey="移动速度" pValue="4 格/秒 (进攻)<br>2.8 格/秒 (防守)" />
+    <UnitProperty pKey="攻击速度" pValue="0.25 秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="0.6 格" />
+    <UnitProperty pKey="死亡后的爆炸半径" pValue="2 格" />
+    <UnitProperty pKey="最低矿工等级" pValue="7" />
+    <UnitProperty pKey="最低大本等级" pValue="13" />
+    <UnitProperty pKey="强化费用" pValue="2.5 万黑油" />
+    <UnitProperty pKey="强化有效期" pValue="3 天" />
+    <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" />
+    <UnitProperty pKey="捐赠费用" pValue="12,12,36000,Elixir" :isDonationCost="true" />
+</UnitProperties>
+
+<SmallTitle>升级数据</SmallTitle>
+
+<UnitTable>
+
+| 等级 |  初始秒伤  |  1.5 秒后秒伤  | 3 秒后秒伤 |  死亡伤害 | 生命值 |所需大本等级|
+| ---- |    ----   |      ----     |    ----   |    ----   |  ---- |    ----   |
+| 7 | 170 | 340 | 520 | 1400 | 3000 | 13 |
+| 8 | 185 | 370 | 560 | 1600 | 3300 | 14 |
+| 9 | 205 | 405 | 605 | 1800 | 3600 | 15 |
+| 10 | 225 | 440 | 650 | 2000 | 4000 | 16 |
+| 11 | 245 | 475 | 695 | 2200 | 4400 | 17 |
+| 12 | 265 | 510 | 740 | 2400 | 5000 | 18 |
+</UnitTable>
+
+<SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2025/11/17">
@@ -59,7 +90,4 @@ import unitData from "@/assets/unit-data/060e-Super-Miner.json";
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
-
-</template>
-
-</SyncedUnitData>
+<p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Super_Miner?oldid=620353" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>

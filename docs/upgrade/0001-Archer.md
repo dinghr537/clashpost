@@ -2,22 +2,13 @@
 title: "部落冲突 coc 弓箭手升级数据"
 navTitle: "弓箭手"
 shownTitle: "弓箭手"
+description: "这些神箭手在战场上总是能够百步穿杨，一箭封喉。她们觉得没有什么比一箭打爆对手更爽的了。"
 module: upgrade-home
 imgFolder: home_tech/0001
 wiki: https://clashofclans.fandom.com/wiki/Archer
 canonical: /upgrade/0001-Archer
 dataSyncedOn: 2026-10-13
-description: "这些神箭手在战场上总是能够百步穿杨，一箭封喉。她们觉得没有什么比一箭打爆对手更爽的了。"
 ---
-
-<script setup>
-import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
-import unitData from "@/assets/unit-data/0001-Archer.json";
-</script>
-
-<SyncedUnitData :data="unitData" :historyAfter="'2026-02-23'">
-
-<template #introduction>
 
 - *如想查看以弓箭手为原型的英雄，请访问：[弓箭女皇（女王）](/upgrade/0201-Archer-Queen)。*
 - *如想查看该兵种的强化版本，请访问：[超级弓箭手](/upgrade/0606-Super-Archer)。*
@@ -25,11 +16,83 @@ import unitData from "@/assets/unit-data/0001-Archer.json";
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Archer_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
 
+<SmallTitle>各等级图片</SmallTitle>
+
+<Panel>
+    <UnitImgGroup :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="1 - 2 级" imgSrc="Archer1.png" />
+        <UnitImg imgTitle="3 - 4 级" imgSrc="Archer3.png" />
+        <UnitImg imgTitle="5 级" imgSrc="Archer5.png" />
+        <UnitImg imgTitle="6 级" imgSrc="Archer6.png" />
+        <UnitImg imgTitle="7 级" imgSrc="Archer7.png" />
+        <UnitImg imgTitle="8 级" imgSrc="Archer8.png" />
+        <UnitImg imgTitle="9 级" imgSrc="Archer9.png" />
+        <UnitImg imgTitle="10 级" imgSrc="Archer10.png" />
+        <UnitImg imgTitle="11 级" imgSrc="Archer11.png" />
+        <UnitImg imgTitle="12 级" imgSrc="Archer12.png" />
+        <UnitImg imgTitle="13 级" imgSrc="Archer13.png" imgHd="Archer13_hd.png" />
+        <UnitImg imgTitle="14 级" imgSrc="Archer14.png" imgHd="Archer14_hd.png" />
+    </UnitImgGroup>
+</Panel>
+
+<SmallTitle>属性</SmallTitle>
+
+<UnitProperties>
+    <UnitProperty pKey="部队类型" pValue="地面远程单位" />
+    <UnitProperty pKey="攻击偏好" pValue="无" />
+    <UnitProperty pKey="伤害类型" pValue="单体伤害" />
+    <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
+    <UnitProperty pKey="占据人口" pValue="1" />
+    <UnitProperty pKey="移动速度" pValue="3 格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="1 秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="3.5 格" />
+    <UnitProperty pKey="所需训练营等级" pValue="2" />
+    <UnitProperty pKey="所需大本等级" pValue="2" />
+    <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" />
+    <UnitProperty pKey="捐赠费用" pValue="1,1,3000,Elixir" :isDonationCost="true" />
+</UnitProperties>
+
+<SmallTitle>升级数据</SmallTitle>
+
+<script setup>
+const tableExtraInfo = [
+    {
+        "column": 4,
+        "type": "cost",
+        "gpClass": "research",
+        "icon": "Elixir"
+    },
+    {
+        "column": 5,
+        "type": "time",
+        "gpClass": "research"
+    }
+];
+</script>
+
+<UnitTable :tableExtraInfo="tableExtraInfo">
+
+| 等级 | 每秒伤害 | 每次伤害 | 生命值 | 升级花费 |  升级时间  |所需实验室等级| 所需大本等级 |
+| ---- |  ----   |  ----   |  ----  |   ----  |    ----   |    ----     |     ---     |
+| 1 | 8 | 8 | 22 | \ | \ | 1 | 1<sup>#</sup> |
+| 2 | 10 | 10 | 26 | 20000 | 0,1,0,0 | 1 | 3 |
+| 3 | 13 | 13 | 29 | 80000 | 0,2,0,0 | 3 | 5 |
+| 4 | 16 | 16 | 33 | 200000 | 0,3,0,0 | 5 | 7 |
+| 5 | 20 | 20 | 40 | 500000 | 0,8,0,0 | 6 | 8 |
+| 6 | 22 | 22 | 44 | 1000000 | 0,12,0,0 | 7 | 9 |
+| 7 | 25 | 25 | 48 | 1500000 | 1,0,0,0 | 8 | 10 |
+| 8 | 28 | 28 | 52 | 2300000 | 1,12,0,0 | 9 | 11 |
+| 9 | 31 | 31 | 56 | 3000000 | 2,0,0,0 | 10 | 12 |
+| 10 | 34 | 34 | 60 | 4500000 | 3,0,0,0 | 12 | 14 |
+| 11 | 37 | 37 | 64 | 6500000 | 4,0,0,0 | 13 | 15 |
+| 12 | 40 | 40 | 68 | 9000000 | 4,12,0,0 | 14 | 16 |
+| 13 | 43 | 43 | 72 | 14000000 | 9,0,0,0 | 15 | 17 |
+| 14 | 46 | 46 | 76 | 25000000 | 13,12,0,0 | 16 | 18 |
+</UnitTable>
+
 \# 根据安装包解析的结果，玩家可以在 1 本把训练营升到 2 级以解锁弓箭手，但这仅仅是理论上的，实际上新手教程会直接引导玩家升到 2 本，根本没有在 1 本升级训练营的机会。
 
-</template>
-
-<template #history>
+<SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2026/02/23">
@@ -95,6 +158,4 @@ import unitData from "@/assets/unit-data/0001-Archer.json";
     <TimelineItem :historyBottom="true" />
 </Timeline>
 
-</template>
-
-</SyncedUnitData>
+<p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Archer?oldid=624208" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>

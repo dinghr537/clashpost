@@ -2,30 +2,80 @@
 title: "部落冲突 coc 都城超级法师训练营升级数据"
 navTitle: "超级法师训练营"
 shownTitle: "超级法师训练营"
+description: "看起来像是超级法师的训练营，但接连不断的爆炸吓得大家都不敢靠近。"
 module: upgrade-capital
 imgFolder: capital_buildings/2345
 wiki: https://clashofclans.fandom.com/wiki/Clan_Capital_Barracks#Super_Wizard_Barracks
 canonical: /upgrade/2345-Super-Wizard-Barracks
 dataSyncedOn: 2026-10-13
-description: "看起来像是超级法师的训练营，但接连不断的爆炸吓得大家都不敢靠近。"
 ---
-
-<script setup>
-import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
-import unitData from "@/assets/unit-data/2345-Super-Wizard-Barracks.json";
-</script>
-
-<SyncedUnitData :data="unitData" :historyAfter="'2022-05-02'">
-
-<template #introduction>
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Super_Wizard_Barracks5.png" :imgAlt="$frontmatter.navTitle"
     :description="$frontmatter.description"
     :isSmallImg="true" />
 
-</template>
+<SmallTitle>各等级图片</SmallTitle>
 
-<template #history>
+<Panel>
+    <UnitImgGroup :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="废墟" imgSrc="Barracks_Ruin.png" />
+        <UnitImg imgTitle="1 级" imgSrc="Super_Wizard_Barracks1.png" />
+        <UnitImg imgTitle="2 级" imgSrc="Super_Wizard_Barracks2.png" />
+        <UnitImg imgTitle="3 级" imgSrc="Super_Wizard_Barracks3.png" />
+        <UnitImg imgTitle="4 级" imgSrc="Super_Wizard_Barracks4.png" />
+        <UnitImg imgTitle="5 级" imgSrc="Super_Wizard_Barracks5.png" />
+    </UnitImgGroup>
+</Panel>
+
+<SmallTitle>各子城的建筑数量</SmallTitle>
+
+<DistrictTable>
+
+|             |   1   |   2   |   3   |   4   |   5   |
+|     ---     |  ---  |  ---  |  ---  |  ---  |  ---  |
+|   法师山谷   |   1   |   1   |   1   |   1   |   1   |
+
+</DistrictTable>
+
+<SmallTitle>属性</SmallTitle>
+
+<UnitProperties>
+    <UnitProperty pKey="占地面积" pValue="3×3" />
+    <UnitProperty pKey="判定面积" pValue="2×2" />
+    <UnitProperty pKey="可训练的兵种" pValue="<a href='/upgrade/2005-Super-Wizard'>超级法师</a>" />
+</UnitProperties>
+
+<SmallTitle>升级数据</SmallTitle>
+
+<script setup>
+const tableExtraInfo = [
+    {
+        "column": 2,
+        "type": "cost",
+        "icon": "Gold3",
+        "noGoldPass": true
+    },
+    {
+        "column": 3,
+        "type": "number",
+        "icon": "Gold3",
+        "noGoldPass": true
+    }
+];
+</script>
+
+<UnitTable :tableExtraInfo="tableExtraInfo">
+
+| 等级 | 生命值 | 升级费用 | 摧毁奖励 |所需都城<br>大本等级|所需子城<br>大本等级|
+| ---- |   --- |   ---   |   ---    |        ---       |        ---        |
+| 1 | 1200 | 10000 | 25 | 3 | 1 |
+| 2 | 1400 | 25000 | 30 | 4 | 2 |
+| 3 | 1600 | 100000 | 35 | 6 | 3 |
+| 4 | 1800 | 250000 | 40 | 8 | 4 |
+| 5 | 2000 | 500000 | 45 | 10 | 5 |
+</UnitTable>
+
+<SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2022/05/02">
@@ -33,7 +83,4 @@ import unitData from "@/assets/unit-data/2345-Super-Wizard-Barracks.json";
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
-
-</template>
-
-</SyncedUnitData>
+<p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Clan_Capital_Barracks?oldid=616742" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>

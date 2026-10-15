@@ -2,32 +2,93 @@
 title: "部落冲突 coc 夜世界熔岩发射器升级数据"
 navTitle: "熔岩发射器"
 shownTitle: "熔岩发射器"
+description: "它向很远的地方发射熔岩团，点燃地面。让敌军地面部队尝尝灼烧的滋味！"
 module: upgrade-bh
 imgFolder: bh_buildings/110d
 wiki: https://clashofclans.fandom.com/wiki/Lava_Launcher
 canonical: /upgrade/110d-Lava-Launcher
 dataSyncedOn: 2026-10-13
-description: "它向很远的地方发射熔岩团，点燃地面。让敌军地面部队尝尝灼烧的滋味！"
 ---
 
-<script setup>
-import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
-import unitData from "@/assets/unit-data/110d-Lava-Launcher.json";
-</script>
-
-<SyncedUnitData :data="unitData" :historyAfter="'2023-05-15'">
-
-<template #introduction>
-
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Lava_Launcher10.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
+
+<SmallTitle>各等级图片</SmallTitle>
+
+<Panel>
+    <UnitImgGroup :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="1 - 2 级" imgSrc="Lava_Launcher1.png" />
+        <UnitImg imgTitle="3 - 4 级" imgSrc="Lava_Launcher3.png" />
+        <UnitImg imgTitle="5 级" imgSrc="Lava_Launcher5.png" />
+        <UnitImg imgTitle="6 级" imgSrc="Lava_Launcher6.png" />
+        <UnitImg imgTitle="7 - 8 级" imgSrc="Lava_Launcher7.png" />
+        <UnitImg imgTitle="9 级" imgSrc="Lava_Launcher9.png" />
+        <UnitImg imgTitle="10 级" imgSrc="Lava_Launcher10.png" />
+    </UnitImgGroup>
+</Panel>
+
+<SmallTitle>建筑数量对照表</SmallTitle>
+
+<BuildingNum>
+    <BuildingNumRow title="大本等级" num="1 - 8,9 - 10" />
+    <BuildingNumRow title="建筑数量" num="0,1" />
+</BuildingNum>
 
 <SmallTitle>重要说明</SmallTitle>
 
 2023 年 6 月更新后，熔岩的递增伤害被取消，现在熔岩的每秒伤害是固定的。
 
-</template>
+<SmallTitle>属性</SmallTitle>
 
-<template #history>
+<UnitProperties>
+    <UnitProperty pKey="占地面积" pValue="3×3" />
+    <UnitProperty pKey="判定面积" pValue="2×2" :isJudgeSquare="true" />
+    <UnitProperty pKey="伤害类型" pValue="范围伤害" />
+    <UnitProperty pKey="伤害半径" pValue="3 格" />
+    <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
+    <UnitProperty pKey="射程" pValue="6 ~ 13 格" />
+    <UnitProperty pKey="攻速" pValue="7 秒/次" />
+</UnitProperties>
+
+<SmallTitle>升级数据</SmallTitle>
+
+<script setup>
+const tableExtraInfo = [
+    {
+        "column": 4,
+        "type": "cost",
+        "gpClass": "building",
+        "icon": "Gold2"
+    },
+    {
+        "column": 5,
+        "type": "time",
+        "gpClass": "building"
+    },
+    {
+        "column": 6,
+        "type": "exp",
+        "icon": "Exp"
+    }
+];
+</script>
+
+<UnitTable :tableExtraInfo="tableExtraInfo">
+
+| 等级 |炮弹<br>落地伤害|熔岩的<br>每秒伤害| 生命值 | 升级费用 | 升级时间 |升级后可<br>获得的经验|所需夜世界<br>大本等级|
+|  --- |      ---      |      ---       |   ---  |    ---  |   ---   |          ---        |         ---        |
+| 1 | 50 | 15 | 500 | 3000000 | 2,0,0,0 |  | 9 |
+| 2 | 55 | 17.5 | 575 | 3100000 | 3,0,0,0 |  | 9 |
+| 3 | 61 | 20 | 660 | 3200000 | 4,0,0,0 |  | 9 |
+| 4 | 67 | 22.5 | 760 | 3400000 | 5,0,0,0 |  | 9 |
+| 5 | 73 | 25 | 875 | 3700000 | 6,0,0,0 |  | 9 |
+| 6 | 81 | 27.5 | 1050 | 4000000 | 7,0,0,0 |  | 9 |
+| 7 | 89 | 30 | 1250 | 4300000 | 8,0,0,0 |  | 9 |
+| 8 | 97 | 32.5 | 1450 | 4600000 | 10,0,0,0 |  | 9 |
+| 9 | 107 | 35 | 1650 | 4900000 | 11,0,0,0 |  | 9 |
+| 10 | 118 | 37.5 | 1850 | 5900000 | 12,0,0,0 |  | 10 |
+</UnitTable>
+
+<SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2023/05/15">
@@ -42,7 +103,4 @@ import unitData from "@/assets/unit-data/110d-Lava-Launcher.json";
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
-
-</template>
-
-</SyncedUnitData>
+<p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Lava_Launcher?oldid=622476" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>

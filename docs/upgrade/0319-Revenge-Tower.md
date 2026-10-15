@@ -2,22 +2,88 @@
 title: "部落冲突 coc 复仇之塔升级数据"
 navTitle: "复仇之塔"
 shownTitle: "复仇之塔"
+description: "如果你摧毁了它的建筑伙伴，复仇之塔就会锁定你、追踪你，然后狠狠惩罚你。随着周围建筑被摧毁，它会变得更强大、更愤怒！"
 module: upgrade-home
 imgFolder: home_buildings/0319
 wiki: https://clashofclans.fandom.com/wiki/Revenge_Tower
 canonical: /upgrade/0319-Revenge-Tower
 dataSyncedOn: 2026-10-13
-description: "如果你摧毁了它的建筑伙伴，复仇之塔就会锁定你、追踪你，然后狠狠惩罚你。随着周围建筑被摧毁，它会变得更强大、更愤怒！"
 ---
 
 <script setup>
-import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
-import unitData from "@/assets/unit-data/0319-Revenge-Tower.json";
+const tableExtraInfoDormant = [
+    {
+        "column": 2,
+        "type": "cost",
+        "gpClass": "building",
+        "icon": "Dark_Elixir"
+    },
+    {
+        "column": 3,
+        "type": "time",
+        "gpClass": "building"
+    },
+    {
+        "column": 4,
+        "type": "exp",
+        "icon": "Exp"
+    }
+];
+const tableExtraInfoStage1 = [
+    {
+        "column": 4,
+        "type": "cost",
+        "gpClass": "building",
+        "icon": "Dark_Elixir"
+    },
+    {
+        "column": 5,
+        "type": "time",
+        "gpClass": "building"
+    },
+    {
+        "column": 6,
+        "type": "exp",
+        "icon": "Exp"
+    }
+];
+const tableExtraInfoStage2 = [
+    {
+        "column": 5,
+        "type": "cost",
+        "gpClass": "building",
+        "icon": "Dark_Elixir"
+    },
+    {
+        "column": 6,
+        "type": "time",
+        "gpClass": "building"
+    },
+    {
+        "column": 7,
+        "type": "exp",
+        "icon": "Exp"
+    }
+];
+const tableExtraInfoStage3 = [
+    {
+        "column": 5,
+        "type": "cost",
+        "gpClass": "building",
+        "icon": "Dark_Elixir"
+    },
+    {
+        "column": 6,
+        "type": "time",
+        "gpClass": "building"
+    },
+    {
+        "column": 7,
+        "type": "exp",
+        "icon": "Exp"
+    }
+];
 </script>
-
-<SyncedUnitData :data="unitData" :historyAfter="'2026-01-28'">
-
-<template #introduction>
 
 <SwitchTabs contentClass="cp-unit-items" :stickyTabs="true" :pageTabs="true">
     <SwitchTab tabId="cp-unit-item-0" :activeTab="true">休眠状态</SwitchTab>
@@ -26,8 +92,25 @@ import unitData from "@/assets/unit-data/0319-Revenge-Tower.json";
     <SwitchTab tabId="cp-unit-item-3">三阶段</SwitchTab>
 </SwitchTabs>
 
+<!-- ↓↓↓ 休眠状态 ↓↓↓ -->
 <SwitchTabGroup id="cp-unit-item-0" class="cp-unit-items">
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Revenge_Tower2_Dormant.png" imgAlt="复仇之塔（休眠状态）" :description="$frontmatter.description" :isSmallImg="true" />
+
+<SmallTitle>各等级图片</SmallTitle>
+
+<Panel>
+    <UnitImgGroup :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="1 级" imgSrc="Revenge_Tower1_Dormant.png" />
+        <UnitImg imgTitle="2 级" imgSrc="Revenge_Tower2_Dormant.png" />
+    </UnitImgGroup>
+</Panel>
+
+<SmallTitle>建筑数量对照表</SmallTitle>
+
+<BuildingNum>
+    <BuildingNumRow title="大本等级" num="1 - 17, 18" />
+    <BuildingNumRow title="建筑数量" num="     0,  1" />
+</BuildingNum>
 
 <SmallTitle>重要说明</SmallTitle>
 
@@ -38,27 +121,160 @@ import unitData from "@/assets/unit-data/0319-Revenge-Tower.json";
     - 当 50 座建筑物被摧毁时，它会进入三阶段，也就是最终阶段。此时复仇之塔每次造成的伤害不变，射速再次翻倍，且可以反弹两次。
 2. 即使复仇之塔处于休眠状态，它仍被视为防御建筑，这意味着 [巨人](/upgrade/0002-Giant)、[气球兵](/upgrade/0005-Balloon) 等以防御为目标的单位会优先攻击它。
 
+<SmallTitle>属性</SmallTitle>
+
+<UnitProperties>
+    <UnitProperty pKey="占地面积" pValue="3×3" />
+    <UnitProperty pKey="判定面积" pValue="2×2" :isJudgeSquare="true" />
+</UnitProperties>
+
+<SmallTitle>升级数据</SmallTitle>
+
+<UnitTable :tableExtraInfo="tableExtraInfoDormant">
+
+| 等级 | 生命值 | 升级费用 |   升级时间  |升级后可<br>获得的经验| 所需<br>大本等级 |
+| ---- |  ---  |   ---   |     ---     |        ---         |       ---       |
+| 1 | 5800 | 430000 | 13,0,0,5 |  | 18 |
+| 2 | 6200 | 460000 | 14,0,0,0 |  | 18 |
+</UnitTable>
 </SwitchTabGroup>
 
+<!-- ↓↓↓ 一阶段 ↓↓↓ -->
 <SwitchTabGroup id="cp-unit-item-1" class="cp-unit-items">
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Revenge_Tower2_Stage1.png" imgAlt="复仇之塔（一阶段）" :description="$frontmatter.description" :isSmallImg="true" />
 
+<SmallTitle>各等级图片</SmallTitle>
+
+<Panel>
+    <UnitImgGroup :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="1 级" imgSrc="Revenge_Tower1_Stage1.png" />
+        <UnitImg imgTitle="2 级" imgSrc="Revenge_Tower2_Stage1.png" />
+    </UnitImgGroup>
+</Panel>
+
+<SmallTitle>建筑数量对照表</SmallTitle>
+
+<BuildingNum>
+    <BuildingNumRow title="大本等级" num="1 - 17, 18" />
+    <BuildingNumRow title="建筑数量" num="     0,  1" />
+</BuildingNum>
+
+<SmallTitle>属性</SmallTitle>
+
+<UnitProperties>
+    <UnitProperty pKey="占地面积" pValue="3×3" />
+    <UnitProperty pKey="判定面积" pValue="2×2" :isJudgeSquare="true" />
+    <UnitProperty pKey="伤害类型" pValue="单体伤害" />
+    <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
+    <UnitProperty pKey="射程" pValue="11 格" />
+    <UnitProperty pKey="攻速" pValue="1.2 秒/次" />
+</UnitProperties>
+
+<SmallTitle>升级数据</SmallTitle>
+
+<UnitTable :tableExtraInfo="tableExtraInfoStage1">
+
+| 等级 | 每秒伤害 | 每次伤害 | 生命值 | 升级费用 |   升级时间  |升级后可<br>获得的经验| 所需<br>大本等级 |
+| ---- |   ---   |   ---   |  ---  |   ---   |     ---     |        ---         |       ---       |
+| 1 | 375 | 450 | 5800 | 430000 | 13,0,0,5 |  | 18 |
+| 2 | 416 | 500 | 6200 | 460000 | 14,0,0,0 |  | 18 |
+</UnitTable>
 </SwitchTabGroup>
 
+<!-- ↓↓↓ 二阶段 ↓↓↓ -->
 <SwitchTabGroup id="cp-unit-item-2" class="cp-unit-items">
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Revenge_Tower2_Stage2.png" imgAlt="复仇之塔（二阶段）" :description="$frontmatter.description" :isSmallImg="true" />
 
+<SmallTitle>各等级图片</SmallTitle>
+
+<Panel>
+    <UnitImgGroup :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="1 级" imgSrc="Revenge_Tower1_Stage2.png" />
+        <UnitImg imgTitle="2 级" imgSrc="Revenge_Tower2_Stage2.png" />
+    </UnitImgGroup>
+</Panel>
+
+<SmallTitle>建筑数量对照表</SmallTitle>
+
+<BuildingNum>
+    <BuildingNumRow title="大本等级" num="1 - 17, 18" />
+    <BuildingNumRow title="建筑数量" num="     0,  1" />
+</BuildingNum>
+
+<SmallTitle>属性</SmallTitle>
+
+<UnitProperties>
+    <UnitProperty pKey="占地面积" pValue="3×3" />
+    <UnitProperty pKey="判定面积" pValue="2×2" :isJudgeSquare="true" />
+    <UnitProperty pKey="伤害类型" pValue="直接伤害 + 弹射伤害" />
+    <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
+    <UnitProperty pKey="射程" pValue="11 格" />
+    <UnitProperty pKey="攻速" pValue="0.6 秒/次" />
+    <UnitProperty pKey="最远弹射距离" pValue="4 格" />
+    <UnitProperty pKey="最高弹射次数" pValue="1" />
+    <UnitProperty pKey="弹射伤害衰减" pValue="40%" />
+</UnitProperties>
+
+<SmallTitle>升级数据</SmallTitle>
+
+<UnitTable :tableExtraInfo="tableExtraInfoStage2">
+
+| 等级 | 每秒伤害 | 直接伤害 | 弹射伤害 | 生命值 | 升级费用 |   升级时间  |升级后可<br>获得的经验| 所需<br>大本等级 |
+| ---- |   ---   |   ---   |    ---   |  ---  |   ---   |     ---     |        ---         |       ---       |
+| 1 | 375 | 225 | 135 | 5800 | 430000 | 13,0,0,5 |  | 18 |
+| 2 | 416 | 250 | 150 | 6200 | 460000 | 14,0,0,0 |  | 18 |
+</UnitTable>
 </SwitchTabGroup>
 
+<!-- ↓↓↓ 三阶段 ↓↓↓ -->
 <SwitchTabGroup id="cp-unit-item-3" class="cp-unit-items">
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Revenge_Tower2_Stage3.png" imgAlt="复仇之塔（三阶段）" :description="$frontmatter.description" :isSmallImg="true" />
+
+<SmallTitle>各等级图片</SmallTitle>
+
+<Panel>
+    <UnitImgGroup :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="1 级" imgSrc="Revenge_Tower1_Stage3.png" />
+        <UnitImg imgTitle="2 级" imgSrc="Revenge_Tower2_Stage3.png" />
+    </UnitImgGroup>
+</Panel>
+
+<SmallTitle>建筑数量对照表</SmallTitle>
+
+<BuildingNum>
+    <BuildingNumRow title="大本等级" num="1 - 17, 18" />
+    <BuildingNumRow title="建筑数量" num="     0,  1" />
+</BuildingNum>
+
+<SmallTitle>属性</SmallTitle>
+
+<UnitProperties>
+    <UnitProperty pKey="占地面积" pValue="3×3" />
+    <UnitProperty pKey="判定面积" pValue="2×2" :isJudgeSquare="true" />
+    <UnitProperty pKey="伤害类型" pValue="直接伤害 + 弹射伤害" />
+    <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
+    <UnitProperty pKey="射程" pValue="11 格" />
+    <UnitProperty pKey="攻速" pValue="0.35 秒/次" />
+    <UnitProperty pKey="最远弹射距离" pValue="4 格" />
+    <UnitProperty pKey="最高弹射次数" pValue="2" />
+    <UnitProperty pKey="弹射伤害衰减" pValue="40%" />
+</UnitProperties>
+
+<SmallTitle>升级数据</SmallTitle>
+
+<UnitTable :tableExtraInfo="tableExtraInfoStage2">
+
+| 等级 | 每秒伤害 | 直接伤害 |弹射伤害<sup>*</sup>| 生命值 | 升级费用 |   升级时间  |升级后可<br>获得的经验| 所需<br>大本等级 |
+| ---- |   ---   |   ---   |         ---        |  ---  |   ---   |     ---     |        ---         |       ---       |
+| 1 | 642 | 225 | 135 / 81 | 5800 | 430000 | 13,0,0,5 |  | 18 |
+| 2 | 714 | 250 | 150 / 90 | 6200 | 460000 | 14,0,0,0 |  | 18 |
+</UnitTable>
 
 \* 弹射伤害一栏中，135 / 81 代表弹丸弹射到第一个目标时的伤害为 135，弹射到第二个目标时为 81.
 </SwitchTabGroup>
 
-</template>
-
-<template #history>
+<!-- ↓↓↓ 公共部分 ↓↓↓ -->
+<SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2026/01/28">
@@ -72,7 +288,4 @@ import unitData from "@/assets/unit-data/0319-Revenge-Tower.json";
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
-
-</template>
-
-</SyncedUnitData>
+<p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Revenge_Tower?oldid=624636" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>

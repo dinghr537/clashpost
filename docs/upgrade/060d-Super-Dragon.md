@@ -2,40 +2,82 @@
 title: "部落冲突 coc 超级飞龙（金龙）升级数据"
 navTitle: "超级飞龙"
 shownTitle: "超级飞龙（金龙）"
+description: "体内有火不算什么，超级飞龙内外都冒火！只要开始战斗，他全身每一处都能迸发出熊熊烈焰。"
 module: upgrade-home
 imgFolder: home_tech/060d
 wiki: https://clashofclans.fandom.com/wiki/Super_Dragon
 canonical: /upgrade/060d-Super-Dragon
 dataSyncedOn: 2026-10-13
-description: "体内有火不算什么，超级飞龙内外都冒火！只要开始战斗，他全身每一处都能迸发出熊熊烈焰。"
 ---
-
-<script setup>
-import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
-import unitData from "@/assets/unit-data/060d-Super-Dragon.json";
-</script>
-
-<SyncedUnitData :data="unitData" :historyAfter="'2025-03-27'">
-
-<template #introduction>
 
 - *如想查看该兵种的普通版本，请访问：[飞龙](/upgrade/0008-Dragon)。*
 - *如想查看都城的超级飞龙，请访问：[都城超级飞龙](/upgrade/200c-Super-Dragon)。*
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Super_Dragon_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
 
+<SmallTitle>各等级图片</SmallTitle>
+
+<Panel>
+    <UnitImgGroup :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="所有等级" imgSrc="Super_Dragon7.png" />
+    </UnitImgGroup>
+</Panel>
+
 <SmallTitle>重要说明</SmallTitle>
 
 1. 超级飞龙的技能（炙热龙息）：超级飞龙攻击时可以溅射至周围目标，对它们造成持续伤害。
 2. 超级飞龙的攻击机制：先以极快的速度（0.192 秒/次）打完 10 发子弹，休息 1.8 秒后再发射 10 发子弹。超级飞龙的溅射是带有一定随机性的，每次溅射到的建筑不一定相同。
 
+<SmallTitle>属性</SmallTitle>
+
+<UnitProperties>
+    <UnitProperty pKey="部队类型" pValue="空中单位" />
+    <UnitProperty pKey="攻击偏好" pValue="无<sup>*</sup>" />
+    <UnitProperty pKey="伤害类型" pValue="溅射伤害" />
+    <UnitProperty pKey="溅射半径" pValue="1.6 格" />
+    <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
+    <UnitProperty pKey="占据人口" pValue="40" />
+    <UnitProperty pKey="移动速度" pValue="1.75 格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="0.192 秒/次" />
+    <UnitProperty pKey="每轮攻击的弹药数量" pValue="10" />
+    <UnitProperty pKey="一轮攻击后歇息" pValue="1.8 秒" />
+    <UnitProperty pKey="攻击距离" pValue="3 格" />
+    <UnitProperty pKey="最低飞龙等级" pValue="7" />
+    <UnitProperty pKey="最低大本等级" pValue="12" />
+    <UnitProperty pKey="强化费用" pValue="2.5 万黑油" />
+    <UnitProperty pKey="强化有效期" pValue="3 天" />
+    <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" />
+    <UnitProperty pKey="捐赠费用" pValue="20,20,60000,Elixir" :isDonationCost="true" />
+</UnitProperties>
+
 \* 超级飞龙在攻击时没有首选目标，但如果自己被敌方援军、英雄或骷髅攻击，或附近的友军被这些单位攻击，超级飞龙都会转移目标去攻击这些单位。当这些单位都消灭干净之后才会继续攻击附近建筑。
+
+<SmallTitle>升级数据</SmallTitle>
+
+<UnitTable>
+
+|      等级     |  平均每秒伤害  | 每次伤害 | 生命值 |所需大本等级|
+|      ---      |      ----     |  ----   |  ---- |    ----   |
+| 3 | 300 | 108 | 3900 | 8 |
+| 3<sup>*</sup> | 286 | 108 | 3900 | 8 |
+| 4 | 325 | 117 | 4500 | 9 |
+| 4<sup>*</sup> | 309 | 117 | 4500 | 9 |
+| 5 | 351 | 126 | 5100 | 10 |
+| 5<sup>*</sup> | 333 | 126 | 5100 | 10 |
+| 6 | 376 | 135 | 5600 | 11 |
+| 6<sup>*</sup> | 357 | 135 | 5600 | 11 |
+| 7 | 401 | 144.07 | 6100 | 12 |
+| 8 | 426 | 153.03 | 6400 | 13 |
+| 9 | 451 | 161.99 | 6700 | 14 |
+| 10 | 476 | 170.95 | 7200 | 15 |
+| 11 | 496 | 178.12 | 7600 | 16 |
+| 12 | 516 | 185.29 | 8000 | 17 |
+| 13 | 536 | 192.46 | 8400 | 18 |
+</UnitTable>
 
 \* 3 - 6 级超级飞龙只在 奖章活动 中出现，不能通过常规方式得到。
 
-</template>
-
-<template #history>
+<SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2025/03/27">
@@ -68,7 +110,4 @@ import unitData from "@/assets/unit-data/060d-Super-Dragon.json";
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
-
-</template>
-
-</SyncedUnitData>
+<p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Super_Dragon?oldid=613580" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>

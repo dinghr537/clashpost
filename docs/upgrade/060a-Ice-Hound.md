@@ -2,26 +2,26 @@
 title: "部落冲突 coc 寒冰猎犬（冰狗）升级数据"
 navTitle: "寒冰猎犬"
 shownTitle: "寒冰猎犬（冰狗）"
+description: "摆脱了熔岩引起的消化不良后，寒冰猎犬准备冻结敌军村庄。冷静点，否则......"
 module: upgrade-home
 imgFolder: home_tech/060a
 wiki: https://clashofclans.fandom.com/wiki/Ice_Hound
 canonical: /upgrade/060a-Ice-Hound
 dataSyncedOn: 2026-10-13
-description: "摆脱了熔岩引起的消化不良后，寒冰猎犬准备冻结敌军村庄。冷静点，否则......"
 ---
-
-<script setup>
-import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
-import unitData from "@/assets/unit-data/060a-Ice-Hound.json";
-</script>
-
-<SyncedUnitData :data="unitData" :historyAfter="'2026-02-23'">
-
-<template #introduction>
 
 - *如想查看该兵种的普通版本，请访问：[熔岩猎犬](/upgrade/0085-Lava-Hound)。*
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Ice_Hound.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
+
+<SmallTitle>各等级图片</SmallTitle>
+
+<Panel>
+    <UnitImgGroup :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="所有等级" imgSrc="Ice_Hound5.png" />
+        <UnitImg imgTitle="迷你寒冰猎犬" imgSrc="Ice_Pup.png" />
+    </UnitImgGroup>
+</Panel>
 
 <SmallTitle>重要说明</SmallTitle>
 
@@ -30,13 +30,69 @@ import unitData from "@/assets/unit-data/060a-Ice-Hound.json";
 3. 寒冰猎犬死亡后的冰冻效果与冰冻法术类似，可以把敌方部队和建筑完全冻住。
 4. 寒冰猎犬的普通攻击和死亡冰冻效果和 [戈仑冰人](/upgrade/0087-Ice-Golem) 相同，只是冰冻时间不一样。
 
+<SmallTitle>寒冰猎犬的属性</SmallTitle>
+
+<UnitProperties>
+    <UnitProperty pKey="部队类型" pValue="空中单位" />
+    <UnitProperty pKey="攻击偏好" pValue="防空火箭<sup>*</sup>" />
+    <UnitProperty pKey="伤害类型" pValue="单体伤害" />
+    <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
+    <UnitProperty pKey="占据人口" pValue="40" />
+    <UnitProperty pKey="移动速度" pValue="2.5 格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="2 秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="0.25 格" />
+    <UnitProperty pKey="死亡爆炸半径" pValue="3.5 格" />
+    <UnitProperty pKey="攻击后的减速效果" pValue="50% 攻速<br>50% 移速" />
+    <UnitProperty pKey="减速持续时间" pValue="2 秒" />
+    <UnitProperty pKey="最低熔岩猎犬等级" pValue="5" />
+    <UnitProperty pKey="最低大本等级" pValue="12" />
+    <UnitProperty pKey="强化费用" pValue="2.5 万黑油" />
+    <UnitProperty pKey="强化有效期" pValue="3 天" />
+    <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" />
+    <UnitProperty pKey="捐赠费用" pValue="20,20,900,Dark_Elixir" :isDonationCost="true" />
+</UnitProperties>
+
 \* 寒冰猎犬有三段攻击偏好。场上有防空火箭时攻击 [防空火箭](/upgrade/0304-Air-Defense)，没有防空火箭时攻击其他防御建筑，没有防御建筑时攻击非防御建筑。
+
+<SmallTitle>迷你寒冰猎犬的属性</SmallTitle>
+
+<UnitProperties>
+    <UnitProperty pKey="攻击偏好" pValue="无" />
+    <UnitProperty pKey="伤害类型" pValue="范围伤害" />
+    <UnitProperty pKey="伤害半径" pValue="0.3 格" />
+    <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
+    <UnitProperty pKey="占据人口" pValue="1" />
+    <UnitProperty pKey="移动速度" pValue="4 格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="1 秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="2.25 格" />
+    <UnitProperty pKey="每秒伤害" pValue="35" />
+    <UnitProperty pKey="每次伤害" pValue="35" />
+    <UnitProperty pKey="生命值" pValue="50" />
+</UnitProperties>
+
+<SmallTitle>升级数据</SmallTitle>
+
+<UnitTable>
+
+|     等级    | 每秒伤害 | 每次伤害 |死亡后<br>冰冻时间|死亡后分裂的迷你寒冰<br>猎犬数量 (进攻/防守)| 生命值 |所需<br>大本等级|
+|     ---     |   ----  |   ----  |       ----      |                   ----                  |  ---- |      ----     |
+| 1 | 2 | 4 | 3.75秒 | 6 / 6 | 7500 | 7 |
+| 1<sup>*</sup> | 2 | 4 | 3.75 秒 | 6 / 6 | 7500 | 7 |
+| 2 | 4 | 8 | 3.75秒 | 7 / 7 | 8000 | 9 |
+| 2<sup>*</sup> | 4 | 8 | 3.75 秒 | 7 / 7 | 8000 | 9 |
+| 3 | 6 | 12 | 3.75秒 | 8 / 8 | 8500 | 10 |
+| 3<sup>*</sup> | 6 | 12 | 3.75 秒 | 8 / 8 | 8500 | 10 |
+| 4 | 8 | 16 | 3.75秒 | 9 / 9 | 9000 | 11 |
+| 4<sup>*</sup> | 8 | 16 | 3.75 秒 | 9 / 9 | 9000 | 11 |
+| 5 | 10 | 20 | 3.75秒 | 10 / 10 | 9500 | 12 |
+| 6 | 15 | 30 | 4.25秒 | 12 / 11 | 10000 | 13 |
+| 7 | 20 | 40 | 4.75秒 | 14 / 12 | 10500 | 16 |
+| 8 | 25 | 50 | 5.25秒 | 16 / 13 | 11500 | 18 |
+</UnitTable>
 
 \* 1 - 4 级寒冰猎犬只在 奖章活动 中出现，不能通过常规方式得到。
 
-</template>
-
-<template #history>
+<SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2026/02/23">
@@ -69,7 +125,4 @@ import unitData from "@/assets/unit-data/060a-Ice-Hound.json";
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
-
-</template>
-
-</SyncedUnitData>
+<p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Ice_Hound?oldid=622637" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>

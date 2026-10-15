@@ -2,22 +2,13 @@
 title: "部落冲突 coc 训练营升级数据"
 navTitle: "训练营"
 shownTitle: "训练营"
+description: "在训练营训练部队助您征战。升级训练营可解锁更高级的兵种，助您在史诗般的战斗中赢得胜利。"
 module: upgrade-home
 imgFolder: home_buildings/0481
 wiki: https://clashofclans.fandom.com/wiki/Barracks
 canonical: /upgrade/0481-Barracks
 dataSyncedOn: 2026-10-13
-description: "在训练营训练部队助您征战。升级训练营可解锁更高级的兵种，助您在史诗般的战斗中赢得胜利。"
 ---
-
-<script setup>
-import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
-import unitData from "@/assets/unit-data/0481-Barracks.json";
-</script>
-
-<SyncedUnitData :data="unitData" :historyAfter="'2025-11-17'">
-
-<template #introduction>
 
 - *如想查看训练黑水兵的训练营，请访问：[暗黑训练营](/upgrade/0482-Dark-Barracks)。*
 - *如想查看夜世界的建筑大师训练营，请访问：[夜世界建筑大师训练营](/upgrade/1280-Builder-Barracks)。*
@@ -25,11 +16,97 @@ import unitData from "@/assets/unit-data/0481-Barracks.json";
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Barracks19_hd.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
 
+<SmallTitle>各等级图片</SmallTitle>
+
+<Panel>
+    <UnitImgGroup title="训练营" :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="1 级" imgSrc="Barracks1.png" />
+        <UnitImg imgTitle="2 级" imgSrc="Barracks2.png" />
+        <UnitImg imgTitle="3 级" imgSrc="Barracks3.png" />
+        <UnitImg imgTitle="4 级" imgSrc="Barracks4.png" />
+        <UnitImg imgTitle="5 级" imgSrc="Barracks5.png" />
+        <UnitImg imgTitle="6 级" imgSrc="Barracks6.png" />
+        <UnitImg imgTitle="7 级" imgSrc="Barracks7.png" />
+        <UnitImg imgTitle="8 级" imgSrc="Barracks8.png" />
+        <UnitImg imgTitle="9 级" imgSrc="Barracks9.png" />
+        <UnitImg imgTitle="10 级" imgSrc="Barracks10.png" />
+        <UnitImg imgTitle="11 级" imgSrc="Barracks11.png" />
+        <UnitImg imgTitle="12 级" imgSrc="Barracks12.png" />
+        <UnitImg imgTitle="13 级" imgSrc="Barracks13.png" />
+        <UnitImg imgTitle="14 级" imgSrc="Barracks14.png" />
+        <UnitImg imgTitle="15 级" imgSrc="Barracks15.png" />
+        <UnitImg imgTitle="16 级" imgSrc="Barracks16.png" />
+        <UnitImg imgTitle="17 级" imgSrc="Barracks17.png" imgHd="Barracks17_hd.png" />
+        <UnitImg imgTitle="18 级" imgSrc="Barracks18.png" />
+        <UnitImg imgTitle="19 级" imgSrc="Barracks19.png" />
+    </UnitImgGroup>
+</Panel>
+
+<SmallTitle>建筑数量对照表</SmallTitle>
+
+<BuildingNum>
+    <BuildingNumRow title="大本等级" num="1 - 18" />
+    <BuildingNumRow title="建筑数量" num="1" />
+</BuildingNum>
+
+<SmallTitle>属性</SmallTitle>
+
+<UnitProperties>
+    <UnitProperty pKey="占地面积" pValue="3×3" />
+    <UnitProperty pKey="判定面积" pValue="2×2" :isJudgeSquare="true" />
+</UnitProperties>
+
+<SmallTitle>升级数据</SmallTitle>
+
+<script setup>
+const tableExtraInfo = [
+    {
+        "column": 2,
+        "type": "cost",
+        "gpClass": "building",
+        "icon": "Elixir"
+    },
+    {
+        "column": 3,
+        "type": "time",
+        "gpClass": "building"
+    },
+    {
+        "column": 4,
+        "type": "exp",
+        "icon": "Exp"
+    }
+];
+</script>
+
+<UnitTable :tableExtraInfo="tableExtraInfo">
+
+| 等级 |  生命值 | 升级费用 |  升级时间  |升级后可获<br>得的经验| 所需<br>大本等级 | 解锁的兵种 |
+| ---- |   ---  |   ----  |     ---    |         ---        |       ---       |    ---    |
+| 1 | 100 | 100 | 0,0,0,10 |  | 1 | <a href="/upgrade/0000-Barbarian">野蛮人</a> |
+| 2 | 200 | 500 | 0,0,0,15 |  | 1 | <a href="/upgrade/0001-Archer">弓箭手</a> |
+| 3 | 250 | 2500 | 0,0,2,0 |  | 1 | <a href="/upgrade/0002-Giant">巨人</a> |
+| 4 | 300 | 5000 | 0,0,30,0 |  | 2 | <a href="/upgrade/0003-Goblin">哥布林</a> |
+| 5 | 360 | 20000 | 0,2,0,0 |  | 3 | <a href="/upgrade/0004-Wall-Breaker">炸弹人</a> |
+| 6 | 420 | 120000 | 0,4,0,0 |  | 4 | <a href="/upgrade/0005-Balloon">气球兵</a> |
+| 7 | 500 | 270000 | 0,6,0,0 |  | 5 | <a href="/upgrade/0006-Wizard">法师</a> |
+| 8 | 575 | 600000 | 0,12,0,0 |  | 6 | <a href="/upgrade/0007-Healer">天使</a> |
+| 9 | 650 | 1000000 | 1,0,0,0 |  | 7 | <a href="/upgrade/0008-Dragon">飞龙</a> |
+| 10 | 730 | 1400000 | 1,12,0,0 |  | 8 | <a href="/upgrade/0009-P.E.K.K.A">皮卡超人</a> |
+| 11 | 810 | 2600000 | 2,0,0,0 |  | 9 | <a href="/upgrade/000a-Baby-Dragon">飞龙宝宝</a> |
+| 12 | 900 | 3700000 | 4,0,0,0 |  | 10 | <a href="/upgrade/000b-Miner">掘地矿工</a> |
+| 13 | 980 | 6000000 | 5,0,0,0 |  | 11 | <a href="/upgrade/000c-Electro-Dragon">雷电飞龙</a> |
+| 14 | 1050 | 7000000 | 6,0,0,0 |  | 12 | <a href="/upgrade/000d-Yeti">大雪怪</a> |
+| 15 | 1150 | 9000000 | 7,0,0,0 |  | 13 | <a href="/upgrade/000e-Dragon-Rider">龙骑士</a> |
+| 16 | 1250 | 11000000 | 7,12,0,0 |  | 14 | <a href="/upgrade/000f-Electro-Titan">雷霆泰坦</a> |
+| 17 | 1350 | 12600000 | 8,0,0,0 |  | 15 | <a href="/upgrade/0010-Root-Rider">根蔓骑士</a> |
+| 18 | 1450 | 15000000 | 9,0,0,0 |  | 16 | <a href="/upgrade/0011-Thrower">巨矛投手</a> |
+| 19 | 1520 | 26000000 | 10,12,0,0 |  | 17 | <a href="/upgrade/0012-Meteor-Golem">陨石戈仑</a> |
+</UnitTable>
+
 \# 根据安装包解析的结果，玩家可以在 1 本把训练营升到 3 级，但这仅仅是理论上的，实际上新手教程会直接引导玩家升到 2 本，根本没有在 1 本升级训练营的机会。
 
-</template>
-
-<template #history>
+<SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2025/11/17">
@@ -89,7 +166,4 @@ import unitData from "@/assets/unit-data/0481-Barracks.json";
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
-
-</template>
-
-</SyncedUnitData>
+<p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Barracks?oldid=625112" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>

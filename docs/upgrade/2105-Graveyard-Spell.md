@@ -2,22 +2,13 @@
 title: "部落冲突 coc 都城骷髅召唤法术升级数据"
 navTitle: "骷髅召唤法术"
 shownTitle: "骷髅召唤法术"
+description: "可怕的魔法让这个法术有了起死回生的魔力！战场上的部队阵亡后，骷髅召唤法术将召唤一定数量的骷髅兵，具体数量取决于阵亡部队的所需空间。如果飞行部队阵亡，则会召唤出飞行骷髅兵。"
 module: upgrade-capital
 imgFolder: capital_tech/2105
 wiki: https://clashofclans.fandom.com/wiki/Graveyard_Spell
 canonical: /upgrade/2105-Graveyard-Spell
 dataSyncedOn: 2026-10-13
-description: "可怕的魔法让这个法术有了起死回生的魔力！战场上的部队阵亡后，骷髅召唤法术将召唤一定数量的骷髅兵，具体数量取决于阵亡部队的所需空间。如果飞行部队阵亡，则会召唤出飞行骷髅兵。"
 ---
-
-<script setup>
-import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
-import unitData from "@/assets/unit-data/2105-Graveyard-Spell.json";
-</script>
-
-<SyncedUnitData :data="unitData" :historyAfter="'2023-09-14'">
-
-<template #introduction>
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Graveyard_Spell_info.png" :imgAlt="$frontmatter.navTitle"
     description="可怕的魔法让这个法术有了起死回生的魔力！<br>战场上的部队阵亡后，骷髅召唤法术将召唤一定数量的骷髅兵，具体数量取决于阵亡部队的所需空间。如果飞行部队阵亡，则会召唤出飞行骷髅兵。"
@@ -32,11 +23,58 @@ import unitData from "@/assets/unit-data/2105-Graveyard-Spell.json";
 5. 地面的骷髅携带盾牌，可以至少承受两次攻击，类似于家乡的骷髅法术召唤出来的骷髅。此外，空中的骷髅类似于家乡的骷髅陷阱中的对空骷髅，空中的骷髅移动速度更快，并且可以瞄准空中单位。
 6. 如果生成的骷髅被障碍物阻挡或者离陆地太远，则骷髅不会生成。未能生成的骷髅也会计入总数，并受上限影响。
 
+<SmallTitle>骷髅召唤法术的属性</SmallTitle>
+
+<UnitProperties>
+    <UnitProperty pKey="作用方式" pValue="将阵亡的兵种转化为骷髅" />
+    <UnitProperty pKey="作用半径" pValue="3.2 格" />
+    <UnitProperty pKey="最短转化间隔" pValue="0.3 秒" />
+    <UnitProperty pKey="有效时间" pValue="两次进攻" />
+    <UnitProperty pKey="占用的法术空间" pValue="2" />
+</UnitProperties>
+
+<SmallTitle>骷髅（地面）的属性</SmallTitle>
+
+<UnitProperties>
+    <UnitProperty pKey="攻击偏好" pValue="无" />
+    <UnitProperty pKey="攻击目标" pValue="仅地面目标" />
+    <UnitProperty pKey="移动速度" pValue="2 秒" />
+    <UnitProperty pKey="攻击速度" pValue="1 秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="0.3 格" />
+    <UnitProperty pKey="每秒伤害" pValue="25" />
+    <UnitProperty pKey="每次伤害" pValue="25" />
+    <UnitProperty pKey="本体生命值" pValue="30" />
+    <UnitProperty pKey="盾牌生命值" pValue="30" />
+</UnitProperties>
+
+<SmallTitle>骷髅（空中）的属性</SmallTitle>
+
+<UnitProperties>
+    <UnitProperty pKey="攻击偏好" pValue="无" />
+    <UnitProperty pKey="攻击目标" pValue="地面和空中目标" />
+    <UnitProperty pKey="移动速度" pValue="1.2 秒" />
+    <UnitProperty pKey="攻击速度" pValue="0.7 秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="0.1 格" />
+    <UnitProperty pKey="每秒伤害" pValue="25" />
+    <UnitProperty pKey="每次伤害" pValue="17.5" />
+    <UnitProperty pKey="本体生命值" pValue="30" />
+</UnitProperties>
+
+<SmallTitle>骷髅召唤法术的升级数据</SmallTitle>
+
+<UnitTable>
+
+| 等级 |召唤的骷髅上限<sup>*</sup>|
+|  --- |           ---          |
+| 1 | 21 |
+| 2 | 24 |
+| 3 | 27 |
+| 4 | 29 |
+</UnitTable>
+
 \* 骷髅召唤法术每次进攻都可以召唤这么多骷髅，因此两次进攻最多可召唤的数量就是上述数据乘以 2.
 
-</template>
-
-<template #history>
+<SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2023/09/14">
@@ -54,7 +92,4 @@ import unitData from "@/assets/unit-data/2105-Graveyard-Spell.json";
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
-
-</template>
-
-</SyncedUnitData>
+<p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Graveyard_Spell?oldid=624173" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>

@@ -8,6 +8,10 @@ from sync_wiki_data import VillageFilter, SourceTables, headers_and_rows, source
 
 
 class WikiSyncTests(unittest.TestCase):
+    def test_new_pages_require_an_authored_chinese_layout(self):
+        with self.assertRaisesRegex(ValueError, '先按同类原页面'):
+            page_content({'unitId': 'test-uncreated-unit'}, {})
+
     def test_sync_preserves_authored_page_body_and_description(self):
         original = ('---\ntitle: 战宠小屋\nmodule: upgrade-home\n'
                     'description: 英雄配战宠\ndataSyncedOn: 2026-02-23\n---\n\n'

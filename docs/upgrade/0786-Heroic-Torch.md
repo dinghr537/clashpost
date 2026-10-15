@@ -2,22 +2,13 @@
 title: "部落冲突 coc 英雄火炬装备升级数据"
 navTitle: "英雄火炬"
 shownTitle: "英雄火炬"
+description: "英雄火炬是大守护者的第三件史诗装备，它在 2025 年 8 月的水花大赛活动中首次开放购买。2. 技能持续期间，英雄火炬能为光环内的单位提供弹跳法术的效果，同时提升单位的移动速度，减少他们受到的伤害。"
 module: upgrade-home
 imgFolder: home_heroes/0786
 wiki: https://clashofclans.fandom.com/wiki/Heroic_Torch
 canonical: /upgrade/0786-Heroic-Torch
 dataSyncedOn: 2026-10-13
-description: "英雄火炬是大守护者的第三件史诗装备，它在 2025 年 8 月的水花大赛活动中首次开放购买。2. 技能持续期间，英雄火炬能为光环内的单位提供弹跳法术的效果，同时提升单位的移动速度，减少他们受到的伤害。"
 ---
-
-<script setup>
-import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
-import unitData from "@/assets/unit-data/0786-Heroic-Torch.json";
-</script>
-
-<SyncedUnitData :data="unitData" :historyAfter="'2026-01-12'">
-
-<template #introduction>
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Heroic_Torch.png" :imgAlt="$frontmatter.navTitle" description="激发附近部队的斗志，让他们能够穿过城墙、加速移动，并降低所受伤害" :isSmallImg="true" />
 
@@ -32,13 +23,76 @@ import unitData from "@/assets/unit-data/0786-Heroic-Torch.json";
 4. 此外，英雄火炬可以提高大守护者的生命值和每秒伤害属性，以及增加开启技能时恢复的生命值。
 5. 关于英雄火炬的减伤效果能否和 [冰障法术](/upgrade/0780-Eternal-Tome)、[永恒书卷](/upgrade/0780-Eternal-Tome) 叠加的问题，目前没有人测试，根据我们多年的经验，大概率是不能直接叠加，取效果最强的那个。
 
+<SmallTitle>属性</SmallTitle>
+
+<UnitProperties>
+    <UnitProperty pKey="技能类型" pValue="主动技能" />
+    <UnitProperty pKey="装备稀有度" pValue="史诗" />
+</UnitProperties>
+
+<SmallTitle>升级数据</SmallTitle>
+
+<script setup>
+const tableExtraInfo = [
+    {
+        "column": 7,
+        "type": "cost",
+        "icon": "Shiny_Ore",
+        "noGoldPass": true
+    },
+    {
+        "column": 8,
+        "type": "cost",
+        "icon": "Glowy_Ore",
+        "noGoldPass": true
+    },
+    {
+        "column": 9,
+        "type": "cost",
+        "icon": "Starry_Ore",
+        "noGoldPass": true
+    }
+];
+</script>
+
+<UnitTable :tableExtraInfo="tableExtraInfo">
+
+| 等级 |技能<br>持续时间|速度提高|减伤比例|英雄<br>回血增加|英雄每秒<br>伤害增加|英雄<br>生命值增加|升级费用|升级费用|升级费用|所需<br>铁匠铺等级|所需<br>大本等级|
+| ---- |     ---      |  ---   |  ---  |      ---      |        ---       |        ---      |  ---  |  ---  |   ---  |       ---       |       ---      |
+| 1 | 16秒 | 5 | 6% | 110 | 12 | 35 | \ | \ | \ | 1 | 8 |
+| 2 | 16秒 | 5 | 6% | 120 | 13 | 40 | 120 | \ | \ | 1 | 8 |
+| 3 | 17秒 | 6 | 7% | 130 | 14 | 42 | 240 | 20 | \ | 1 | 8 |
+| 4 | 17秒 | 6 | 7% | 140 | 16 | 45 | 400 | \ | \ | 1 | 8 |
+| 5 | 17秒 | 6 | 7% | 150 | 18 | 50 | 600 | \ | \ | 1 | 8 |
+| 6 | 18秒 | 6 | 8% | 160 | 20 | 52 | 840 | 100 | \ | 1 | 8 |
+| 7 | 18秒 | 6 | 8% | 170 | 22 | 55 | 1120 | \ | \ | 1 | 8 |
+| 8 | 18秒 | 6 | 8% | 180 | 24 | 60 | 1440 | \ | \ | 1 | 8 |
+| 9 | 19秒 | 7 | 9% | 190 | 27 | 63 | 1800 | 200 | 10 | 1 | 8 |
+| 10 | 19秒 | 7 | 9% | 200 | 29 | 66 | 1900 | \ | \ | 1 | 8 |
+| 11 | 19秒 | 7 | 9% | 210 | 31 | 71 | 2000 | \ | \ | 1 | 8 |
+| 12 | 21秒 | 7 | 10% | 220 | 34 | 74 | 2100 | 400 | 20 | 1 | 8 |
+| 13 | 21秒 | 7 | 10% | 230 | 36 | 77 | 2200 | \ | \ | 3 | 10 |
+| 14 | 21秒 | 7 | 10% | 240 | 38 | 82 | 2300 | \ | \ | 3 | 10 |
+| 15 | 23秒 | 7 | 11% | 250 | 41 | 85 | 2400 | 600 | 30 | 3 | 10 |
+| 16 | 23秒 | 7 | 11% | 260 | 43 | 88 | 2500 | \ | \ | 5 | 12 |
+| 17 | 23秒 | 7 | 11% | 270 | 45 | 93 | 2600 | \ | \ | 5 | 12 |
+| 18 | 24秒 | 8 | 12% | 285 | 48 | 96 | 2700 | 600 | 50 | 5 | 12 |
+| 19 | 24秒 | 8 | 12% | 295 | 51 | 99 | 2800 | \ | \ | 7 | 14 |
+| 20 | 24秒 | 8 | 12% | 305 | 54 | 104 | 2900 | \ | \ | 7 | 14 |
+| 21 | 25秒 | 8 | 13% | 320 | 58 | 107 | 3000 | 600 | 100 | 7 | 14 |
+| 22 | 25秒 | 8 | 13% | 330 | 61 | 110 | 3100 | \ | \ | 8 | 15 |
+| 23 | 25秒 | 8 | 13% | 340 | 64 | 115 | 3200 | \ | \ | 8 | 15 |
+| 24 | 26秒 | 8 | 14% | 355 | 68 | 118 | 3300 | 600 | 120 | 8 | 15 |
+| 25 | 26秒 | 8 | 14% | 365 | 71 | 121 | 3400 | \ | \ | 9 | 16 |
+| 26 | 26秒 | 8 | 14% | 375 | 74 | 126 | 3500 | \ | \ | 9 | 16 |
+| 27 | 27.5秒 | 9 | 15% | 390 | 78 | 137 | 3600 | 600 | 150 | 9 | 16 |
+</UnitTable>
+
 注意：
-6. 上表的 8 点移动速度代表 1 格/秒。
-7. 如果升级费用中有多种资源，则同时需要多种资源才能升级。
+1. 上表的 8 点移动速度代表 1 格/秒。
+2. 如果升级费用中有多种资源，则同时需要多种资源才能升级。
 
-</template>
-
-<template #history>
+<SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2026/01/12">
@@ -52,7 +106,4 @@ import unitData from "@/assets/unit-data/0786-Heroic-Torch.json";
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
-
-</template>
-
-</SyncedUnitData>
+<p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Heroic_Torch?oldid=623829" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>

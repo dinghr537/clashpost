@@ -2,36 +2,94 @@
 title: "部落冲突 coc 天使升级数据"
 navTitle: "天使"
 shownTitle: "天使"
+description: "伟大的天使生来就是为了守护您的部队。她能帮助各种地面部队恢复元气，但要记得小心保护天使免受防空火箭的袭击！"
 module: upgrade-home
 imgFolder: home_tech/0007
 wiki: https://clashofclans.fandom.com/wiki/Healer
 canonical: /upgrade/0007-Healer
 dataSyncedOn: 2026-10-13
-description: "伟大的天使生来就是为了守护您的部队。她能帮助各种地面部队恢复元气，但要记得小心保护天使免受防空火箭的袭击！"
 ---
 
-<script setup>
-import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
-import unitData from "@/assets/unit-data/0007-Healer.json";
-</script>
-
-<SyncedUnitData :data="unitData" :historyAfter="'2025-11-17'">
-
-<template #introduction>
-
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Healer_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
+
+<SmallTitle>各等级图片</SmallTitle>
+
+<Panel>
+    <UnitImgGroup :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="1 - 2 级" imgSrc="Healer1.png" />
+        <UnitImg imgTitle="3 级" imgSrc="Healer3.png" />
+        <UnitImg imgTitle="4 级" imgSrc="Healer4.png" />
+        <UnitImg imgTitle="5 - 6 级" imgSrc="Healer5.png" />
+        <UnitImg imgTitle="7 级" imgSrc="Healer7.png" />
+        <UnitImg imgTitle="8 级" imgSrc="Healer8.png" />
+        <UnitImg imgTitle="9 级" imgSrc="Healer9.png" />
+        <UnitImg imgTitle="10 级" imgSrc="Healer10.png" />
+        <UnitImg imgTitle="11 级" imgSrc="Healer11.png" />
+    </UnitImgGroup>
+</Panel>
 
 <SmallTitle>重要说明</SmallTitle>
 
 1. 当天使治疗英雄时，其治疗量会衰减。
-2. 当多个治疗单位治疗同一目标时，治疗量也会衰减。
+2. 当多个治疗单位治疗同一目标时，治疗量也会衰减，详见这篇文章：论多个治疗单位治疗同一目标时的衰减效应。
 3. 天使不会跟随 [炸弹人](/upgrade/0004-Wall-Breaker)、[超级炸弹人](/upgrade/0603-Super-Wall-Breaker)、[小雪怪](/upgrade/000d-Yeti) 等攻击一次后就会死亡的部队。
 4. 天使不会治疗被 [凤凰](/upgrade/0287-Phoenix) 复活的英雄。
 5. 安装包中所给天使的攻速是 0.7 秒，但经实测，天使每两发奶的间隔并不稳定，而是在 0.7 秒和 0.82 秒这两个数字中横跳。由于天使的攻速不稳定，但每发奶的治疗量却是固定的（每秒治疗量 × 0.7），因此计算天使在一定时间内的治疗量时，应以每发奶治疗量作为计算对象，而不应以每秒治疗量作为计算对象，否则会导致计算所得的治疗量高于实际治疗量。参考资料：【天使】治疗机制详解（不含复杂函数关系）。
 
-</template>
+<SmallTitle>属性</SmallTitle>
 
-<template #history>
+<UnitProperties>
+    <UnitProperty pKey="部队类型" pValue="空中单位" />
+    <UnitProperty pKey="治疗偏好" pValue="无" />
+    <UnitProperty pKey="兵种类型" pValue="范围治疗" />
+    <UnitProperty pKey="作用目标" pValue="仅地面目标" />
+    <UnitProperty pKey="占据人口" pValue="14" />
+    <UnitProperty pKey="移动速度" pValue="2 格/秒" />
+    <UnitProperty pKey="天使手长" pValue="4.5 格" />
+    <UnitProperty pKey="治疗金圈半径" pValue="1.5 格" />
+    <UnitProperty pKey="治疗速度" pValue="0.7 秒/次" />
+    <UnitProperty pKey="所需训练营等级" pValue="8" />
+    <UnitProperty pKey="所需大本等级" pValue="6" />
+    <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" />
+    <UnitProperty pKey="捐赠费用" pValue="7,7,21000,Elixir" :isDonationCost="true" />
+</UnitProperties>
+
+<SmallTitle>升级数据</SmallTitle>
+
+<script setup>
+const tableExtraInfo = [
+    {
+        "column": 4,
+        "type": "cost",
+        "gpClass": "research",
+        "icon": "Elixir"
+    },
+    {
+        "column": 5,
+        "type": "time",
+        "gpClass": "research"
+    }
+];
+</script>
+
+<UnitTable :tableExtraInfo="tableExtraInfo">
+
+| 等级 |对部队的<br>每秒治疗量|对英雄的<br>每秒治疗量| 生命值 | 升级花费 |  升级时间  |所需实验室等级|所需大本等级|
+| ---- |         ----       |         ----       |  ----  |   ----  |    ----   |    ----     |   ----    |
+| 1 | 36 | 19 | 500 | \ | \ | 1 | 6 |
+| 2 | 48 | 26 | 700 | 450000 | 0,12,0,0 | 5 | 7 |
+| 3 | 60 | 33 | 900 | 900000 | 1,0,0,0 | 6 | 8 |
+| 4 | 66 | 36 | 1200 | 2500000 | 2,0,0,0 | 7 | 9 |
+| 5 | 72 | 48 | 1500 | 4000000 | 3,0,0,0 | 9 | 11 |
+| 6 | 72 | 56 | 1600 | 6000000 | 4,12,0,0 | 11 | 13 |
+| 7 | 72 | 62 | 1700 | 9500000 | 6,12,0,0 | 12 | 14 |
+| 8 | 76 | 68 | 1800 | 11000000 | 7,0,0,0 | 13 | 15 |
+| 9 | 80 | 75 | 1900 | 13000000 | 7,6,0,0 | 14 | 16 |
+| 10 | 80 | 78 | 2000 | 17000000 | 11,0,0,0 | 15 | 17 |
+| 11 | 82 | 88 | 2100 | 28500000 | 15,0,0,0 | 16 | 18 |
+</UnitTable>
+
+<SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2025/11/17">
@@ -108,7 +166,4 @@ import unitData from "@/assets/unit-data/0007-Healer.json";
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
-
-</template>
-
-</SyncedUnitData>
+<p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Healer?oldid=624772" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>

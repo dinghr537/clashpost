@@ -462,20 +462,12 @@ def page_content(item, record, existing_text=None):
         frontmatter = match[1]
         frontmatter = re.sub(r'^module:.*$', 'module: ' + record['module'], frontmatter, flags=re.M)
     else:
-        label = record['title']
-        frontmatter = '\n'.join([f'title: "部落冲突 coc {label}升级数据"', f'navTitle: "{label}"', f'shownTitle: "{label}"',
-                                 'module: ' + record['module'], 'imgFolder: ' + record['imgFolder'],
-                                 'wiki: ' + record['sync']['sourceUrl'], 'canonical: /upgrade/' + item['unitId']])
+        raise ValueError(f"{item['unitId']}: 请先按同类原页面建立中文页面和字段映射，再导入；来源数据已保留在预览中")
     frontmatter = re.sub(r'^dataSyncedOn:.*\n?', '', frontmatter, flags=re.M).rstrip()
     frontmatter += '\ndataSyncedOn: ' + record['sync']['syncedOn']
     # Markdown is authored content. Sync may update metadata and JSON data, but
     # must not replace explanations, table layouts, links or historical records.
-    if text is not None:
-        return '---\n' + frontmatter + '\n---' + text[match.end():]
-    return ('---\n' + frontmatter + '\n---\n\n<script setup>\n'
-            'import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";\n'
-            f'import unitData from "@/assets/unit-data/{item["unitId"]}.json";\n'
-            '</script>\n\n<SyncedUnitData :data="unitData" />\n')
+    return '---\n' + frontmatter + '\n---' + text[match.end():]
 
 
 def main():
@@ -496,9 +488,10 @@ def main():
             record = make_record(item, args.date)
             records.append(record)
             if args.apply:
+                content = page_content(item, record)
                 DATA.mkdir(parents=True, exist_ok=True)
                 (DATA / (item['unitId'] + '.json')).write_text(json.dumps(record, ensure_ascii=False, indent=2) + '\n')
-                (ROOT / 'docs/upgrade' / (item['unitId'] + '.md')).write_text(page_content(item, record))
+                (ROOT / 'docs/upgrade' / (item['unitId'] + '.md')).write_text(content)
             updated.append({'unitId': item['unitId'], 'revision': record['sync']['revision'], 'tables': len(record['tables']), 'new': item['new']})
         except (ValueError, KeyError, IndexError) as error:
             failures.append({'unitId': item['unitId'], 'error': str(error)})

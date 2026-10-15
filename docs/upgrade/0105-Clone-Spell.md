@@ -2,22 +2,13 @@
 title: "部落冲突 coc 镜像法术（克隆法术）升级数据"
 navTitle: "镜像法术"
 shownTitle: "镜像法术（克隆法术）"
+description: "使用镜像法术复制出一批奇袭部队！镜像法术将会在施放地点生成一个圆形光环，任何进入光环的部队都会被复制，被复制部队的存活时间有限。复制的部队单位达到其单位上限时，镜像法术将会失效。"
 module: upgrade-home
 imgFolder: home_tech/0105
 wiki: https://clashofclans.fandom.com/wiki/Clone_Spell
 canonical: /upgrade/0105-Clone-Spell
 dataSyncedOn: 2026-10-13
-description: "使用镜像法术复制出一批奇袭部队！镜像法术将会在施放地点生成一个圆形光环，任何进入光环的部队都会被复制，被复制部队的存活时间有限。复制的部队单位达到其单位上限时，镜像法术将会失效。"
 ---
-
-<script setup>
-import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
-import unitData from "@/assets/unit-data/0105-Clone-Spell.json";
-</script>
-
-<SyncedUnitData :data="unitData" :historyAfter="'2025-03-27'">
-
-<template #introduction>
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Clone_Spell.png" :imgAlt="$frontmatter.navTitle"
     description="使用镜像法术复制出一批奇袭部队！<br>镜像法术将会在施放地点生成一个圆形光环，任何进入光环的部队都会被复制，被复制部队的存活时间有限。复制的部队单位达到其单位上限时，镜像法术将会失效。"
@@ -25,12 +16,59 @@ import unitData from "@/assets/unit-data/0105-Clone-Spell.json";
 
 <SmallTitle>重要说明</SmallTitle>
 
-1. 镜像法术的复制机制：圈内存活士兵进入复制周期，复制顺序为圈内下兵顺序，越早下的兵越先复制（可等价理解为士兵存活时间越久的越先复制），一个周期完成后重复下一个周期直到复制满。若有新士兵进入则重新根据下兵顺序计算复制顺序。
+1. 镜像法术的复制机制：圈内存活士兵进入复制周期，复制顺序为圈内下兵顺序，越早下的兵越先复制（可等价理解为士兵存活时间越久的越先复制），一个周期完成后重复下一个周期直到复制满。若有新士兵进入则重新根据下兵顺序计算复制顺序，详见：镜像法术机制讲解。
 2. 镜像法术对我方英雄、战宠和攻城机器无效。
 
-</template>
+<SmallTitle>属性</SmallTitle>
 
-<template #history>
+<UnitProperties>
+    <UnitProperty pKey="作用半径" pValue="3.5 格" />
+    <UnitProperty pKey="作用类型" pValue="复制部队" />
+    <UnitProperty pKey="作用目标" pValue="我方部队" />
+    <UnitProperty pKey="法术持续时间" pValue="18 秒" />
+    <UnitProperty pKey="复制间隔" pValue="0.3 秒" />
+    <UnitProperty pKey="复制出的军队有效时间" pValue="30 秒" />
+    <UnitProperty pKey="占用的法术空间" pValue="3" />
+    <UnitProperty pKey="所需法术工厂等级" pValue="5" />
+    <UnitProperty pKey="所需大本等级" pValue="10" />
+    <UnitProperty pKey="法术配置时间" pValue="无" trainingSystem="2025" />
+    <UnitProperty pKey="捐赠费用" pValue="9,9,27000,Elixir" :isDonationCost="true" />
+</UnitProperties>
+
+<SmallTitle>升级数据</SmallTitle>
+
+<script setup>
+const tableExtraInfo = [
+    {
+        "column": 2,
+        "type": "cost",
+        "gpClass": "research",
+        "icon": "Elixir"
+    },
+    {
+        "column": 3,
+        "type": "time",
+        "gpClass": "research"
+    }
+];
+</script>
+
+<UnitTable :tableExtraInfo="tableExtraInfo">
+
+| 等级 |最大复制<br>人口数| 升级花费 | 升级时间 |所需<br>实验室等级| 所需大本等级 |
+| ---- |       ----     |   ----   |  ----   |       ----     |     ----    |
+| 1 | 22 | \ | \ | 1 | 10 |
+| 2 | 24 | 1500000 | 1,0,0,0 | 8 | 10 |
+| 3 | 26 | 2500000 | 2,0,0,0 | 8 | 10 |
+| 4 | 28 | 3000000 | 2,6,0,0 | 9 | 11 |
+| 5 | 30 | 4000000 | 2,12,0,0 | 9 | 11 |
+| 6 | 34 | 5000000 | 4,0,0,0 | 11 | 13 |
+| 7 | 38 | 8000000 | 5,0,0,0 | 12 | 14 |
+| 8 | 42 | 9000000 | 7,0,0,0 | 13 | 15 |
+| 9 | 48 | 26000000 | 13,12,0,0 | 16 | 18 |
+</UnitTable>
+
+<SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2025/03/27">
@@ -74,7 +112,4 @@ import unitData from "@/assets/unit-data/0105-Clone-Spell.json";
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
-
-</template>
-
-</SyncedUnitData>
+<p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Clone_Spell?oldid=622840" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>

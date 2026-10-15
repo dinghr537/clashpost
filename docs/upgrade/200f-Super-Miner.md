@@ -2,26 +2,26 @@
 title: "部落冲突 coc 都城超级矿工升级数据"
 navTitle: "超级矿工"
 shownTitle: "超级矿工"
+description: "拿着大钻机，留着拉风的胡子，这位超级矿工随时准备暗中破坏敌方防御！"
 module: upgrade-capital
 imgFolder: capital_tech/200f
 wiki: https://clashofclans.fandom.com/wiki/Super_Miner/Clan_Capital
 canonical: /upgrade/200f-Super-Miner
 dataSyncedOn: 2026-10-13
-description: "拿着大钻机，留着拉风的胡子，这位超级矿工随时准备暗中破坏敌方防御！"
 ---
-
-<script setup>
-import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
-import unitData from "@/assets/unit-data/200f-Super-Miner.json";
-</script>
-
-<SyncedUnitData :data="unitData" :historyAfter="'2024-02-27'">
-
-<template #introduction>
 
 - *如想查看家乡的超级矿工，请访问：[超级矿工](/upgrade/060e-Super-Miner)。*
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Super_Miner_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
+
+<SmallTitle>各等级图片</SmallTitle>
+
+<Panel>
+    <UnitImgGroup :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="所有等级" imgSrc="Super_Miner1.png" />
+            <UnitImg imgTitle="超级矿工" imgSrc="Super_Miner7.png" />
+</UnitImgGroup>
+</Panel>
 
 <SmallTitle>重要说明</SmallTitle>
 
@@ -30,9 +30,33 @@ import unitData from "@/assets/unit-data/200f-Super-Miner.json";
 3. 超级矿工专注于一个目标的时间越长，他的钻头每秒造成的伤害就越高，这个机制与 [地狱之塔](/upgrade/030a-Inferno-Tower) 和 [地狱飞龙](/upgrade/0604-Inferno-Dragon) 类似。
 4. 超级矿工的技能（终极大爆炸）：超级矿工死亡后会对一个区域内的所有地面单位造成伤害。
 
-</template>
+<SmallTitle>属性</SmallTitle>
 
-<template #history>
+<UnitProperties>
+    <UnitProperty pKey="部队类型" pValue="地面近战单位" />
+    <UnitProperty pKey="攻击偏好" pValue="无" />
+    <UnitProperty pKey="伤害类型" pValue="单体伤害" />
+    <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
+    <UnitProperty pKey="配兵人口" pValue="25" />
+    <UnitProperty pKey="防守人口" pValue="25" />
+    <UnitProperty pKey="移动速度" pValue="3 格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="0.25 秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="0.45 格" />
+</UnitProperties>
+
+<SmallTitle>升级数据</SmallTitle>
+
+<UnitTable>
+
+| 等级 | 初始秒伤 | 1.5 秒后秒伤 | 3 秒后秒伤 | 死亡伤害 |  生命值 |
+| ---- |  ----   |     ----    |     ----   |   ----  |  ----  |
+| 1 | 160 | 340 | 630 | 1400 | 3300 |
+| 2 | 170 | 370 | 660 | 1700 | 3500 |
+| 3 | 180 | 400 | 690 | 2000 | 3.7 |
+| 4 | 190 | 430 | 720 | 2300 | 3900 |
+</UnitTable>
+
+<SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2024/02/27">
@@ -50,7 +74,4 @@ import unitData from "@/assets/unit-data/200f-Super-Miner.json";
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
-
-</template>
-
-</SyncedUnitData>
+<p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Super_Miner/Clan_Capital?oldid=622259" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>

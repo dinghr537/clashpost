@@ -2,26 +2,34 @@
 title: "部落冲突 coc 火焰喷射器升级数据"
 navTitle: "火焰喷射器"
 shownTitle: "火焰喷射器"
+description: "火焰喷射器喷射火焰的速度比 X 连弩的攻速还要快！即使打歪了，火焰喷射器的攻击也会越过目标，对后方的敌人造成伤害。它只能朝向一个方向，所以要仔细考虑如何放置它！"
 module: upgrade-home
 imgFolder: home_buildings/0316
 wiki: https://clashofclans.fandom.com/wiki/Firespitter
 canonical: /upgrade/0316-Firespitter
 dataSyncedOn: 2026-10-13
-description: "火焰喷射器喷射火焰的速度比 X 连弩的攻速还要快！即使打歪了，火焰喷射器的攻击也会越过目标，对后方的敌人造成伤害。它只能朝向一个方向，所以要仔细考虑如何放置它！"
 ---
-
-<script setup>
-import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
-import unitData from "@/assets/unit-data/0316-Firespitter.json";
-</script>
-
-<SyncedUnitData :data="unitData" :historyAfter="'2026-02-23'">
-
-<template #introduction>
 
 - 如想查看夜世界的一座机制类似的建筑，请访问：[夜世界熔岩火炮](/upgrade/1109-Roaster)。
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Firespitter3.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
+
+<SmallTitle>各等级图片</SmallTitle>
+
+<Panel>
+    <UnitImgGroup :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="1 级" imgSrc="Firespitter1.png" />
+        <UnitImg imgTitle="2 级" imgSrc="Firespitter2.png" />
+        <UnitImg imgTitle="3 级" imgSrc="Firespitter3.png" />
+    </UnitImgGroup>
+</Panel>
+
+<SmallTitle>建筑数量对照表</SmallTitle>
+
+<BuildingNum>
+    <BuildingNumRow title="大本等级" num="1 - 16, 17 - 18" />
+    <BuildingNumRow title="建筑数量" num="     0,       2" />
+</BuildingNum>
 
 <SmallTitle>重要说明</SmallTitle>
 
@@ -33,9 +41,55 @@ import unitData from "@/assets/unit-data/0316-Firespitter.json";
 4. 火焰喷射器只能覆盖约 150° 的扇形区域。
 5. 和 [空气炮](/upgrade/0306-Air-Sweeper) 一样，你可以旋转火焰喷射器，使其朝向你想要的方向。
 
-</template>
+<SmallTitle>属性</SmallTitle>
 
-<template #history>
+<UnitProperties>
+    <UnitProperty pKey="占地面积" pValue="3×3" />
+    <UnitProperty pKey="判定面积" pValue="2×2" :isJudgeSquare="true" />
+    <UnitProperty pKey="伤害类型" pValue="多目标" />
+    <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
+    <UnitProperty pKey="射程" pValue="16 格" />
+    <UnitProperty pKey="攻速" pValue="0.064 秒/次" />
+    <UnitProperty pKey="每轮弹药数量" pValue="20" />
+    <UnitProperty pKey="每轮攻击间隔" pValue="1 秒" />
+</UnitProperties>
+
+<SmallTitle>升级数据</SmallTitle>
+
+<script setup>
+const tableExtraInfo = [
+    {
+        "column": 4,
+        "type": "cost",
+        "gpClass": "building",
+        "icon": "Gold"
+    },
+    {
+        "column": 5,
+        "type": "time",
+        "gpClass": "building"
+    },
+    {
+        "column": 6,
+        "type": "exp",
+        "icon": "Exp"
+    },
+];
+</script>
+
+<UnitTable :tableExtraInfo="tableExtraInfo">
+
+| 等级 |平均<br>每秒伤害| 每次伤害 | 生命值 | 升级费用 | 升级时间 |升级后可<br>获得的经验|所需<br>大本等级|
+| ---- |      ---      |   ---   |  ---  |   ---   |   ---    |         ---        |      ---      |
+| 1 | 410 | 46.03 | 4500 | 17000000 | 8,12,0,0 | 856 | 17 |
+| 2 | 437 | 49.05 | 5000 | 18000000 | 10,0,0,0 | 929 | 17 |
+| 3 | 455 | 51.07 | 5300 | 29000000 | 15,0,0,0 | 1138 | 18 |
+| ⚡1 | 473 | 53.08 | 5300 | 14000000 | 6,12,0,0 | 749 | 18 |
+| ⚡2 | 473 | 53.08 | 5550 | 12000000 | 7,12,0,0 | 804 | 18 |
+
+</UnitTable>
+
+<SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2026/02/23">
@@ -52,7 +106,4 @@ import unitData from "@/assets/unit-data/0316-Firespitter.json";
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
-
-</template>
-
-</SyncedUnitData>
+<p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Firespitter?oldid=625397" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>

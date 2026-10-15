@@ -2,22 +2,13 @@
 title: "部落冲突 coc 雷电法术（闪电）升级数据"
 navTitle: "雷电法术"
 shownTitle: "雷电法术（闪电）"
+description: "放出一道闪电攻击敌军！施放雷电法术，击晕小范围内的建筑和部队，并对其造成伤害。"
 module: upgrade-home
 imgFolder: home_tech/0100
 wiki: https://clashofclans.fandom.com/wiki/Lightning_Spell
 canonical: /upgrade/0100-Lightning-Spell
 dataSyncedOn: 2026-10-13
-description: "放出一道闪电攻击敌军！施放雷电法术，击晕小范围内的建筑和部队，并对其造成伤害。"
 ---
-
-<script setup>
-import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
-import unitData from "@/assets/unit-data/0100-Lightning-Spell.json";
-</script>
-
-<SyncedUnitData :data="unitData" :historyAfter="'2025-11-17'">
-
-<template #introduction>
 
 - *如想查看都城的雷电法术，请访问：[都城雷电法术](/upgrade/2102-Lightning-Spell)。*
 
@@ -25,17 +16,74 @@ import unitData from "@/assets/unit-data/0100-Lightning-Spell.json";
     description="放出一道闪电攻击敌军！<br>施放雷电法术，击晕小范围内的建筑和部队，并对其造成伤害。"
     :isSmallImg="true" />
 
+<SmallTitle>各等级图片</SmallTitle>
+
+<Panel>
+    <UnitImgGroup :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="所有等级" imgSrc="Lightning_Spell.png" />
+    </UnitImgGroup>
+</Panel>
+
 <SmallTitle>重要说明</SmallTitle>
 
 1. 对于建筑来说，雷电法术的闪电只需**蹭到建筑边缘**即可对建筑造成完整伤害，参见：新版雷电法术攻击范围示意。
 2. 雷电法术对敌方英雄有效，但是要想劈到英雄最好把雷电法术扔在英雄头顶，否则可能劈不到。
 3. 雷电法术不能对资源仓库（[储金罐](/upgrade/0404-Gold-Storage)、[圣水瓶](/upgrade/0405-Elixir-Storage) 和 [暗黑重油罐](/upgrade/0406-Dark-Elixir-Storage)）、[大本营](/upgrade/0400-Town-Hall) 和 [部落城堡](/upgrade/0407-Clan-Castle) 造成伤害。
 
+<SmallTitle>属性</SmallTitle>
+
+<UnitProperties>
+    <UnitProperty pKey="作用半径" pValue="2 格" />
+    <UnitProperty pKey="作用类型" pValue="造成范围伤害" />
+    <UnitProperty pKey="作用目标" pValue="所有敌方目标" />
+    <UnitProperty pKey="冰冻时间" pValue="0.1 秒" />
+    <UnitProperty pKey="占用的法术空间" pValue="1" />
+    <UnitProperty pKey="所需法术工厂等级" pValue="1" />
+    <UnitProperty pKey="所需大本等级" pValue="5" />
+    <UnitProperty pKey="法术配置时间" pValue="无" trainingSystem="2025" />
+    <UnitProperty pKey="捐赠费用" pValue="3,3,9000,Elixir" :isDonationCost="true" />
+</UnitProperties>
+
+<SmallTitle>升级数据</SmallTitle>
+
+<script setup>
+const tableExtraInfo = [
+    {
+        "column": 2,
+        "type": "cost",
+        "gpClass": "research",
+        "icon": "Elixir"
+    },
+    {
+        "column": 3,
+        "type": "time",
+        "gpClass": "research"
+    }
+];
+</script>
+
+<UnitTable :tableExtraInfo="tableExtraInfo">
+
+| 等级 |  总伤害 | 升级花费 | 升级时间 |所需实验室<br>等级<sup>*</sup>|所需<br>大本等级|
+| ---- |  ----  |  ----   |  ----   |            ----             |     ----      |
+| 1 | 150 | \ | \ | 1 | 5 |
+| 2 | 180 | 50000 | 0,2,0,0 | 1 | 5 |
+| 3 | 210 | 100000 | 0,4,0,0 | 2 | 5 |
+| 4 | 240 | 200000 | 0,6,0,0 | 3 | 5 |
+| 5 | 270 | 600000 | 1,0,0,0 | 6 | 8 |
+| 6 | 320 | 1500000 | 1,12,0,0 | 7 | 9 |
+| 7 | 400 | 2500000 | 3,0,0,0 | 8 | 10 |
+| 8 | 480 | 4200000 | 3,12,0,0 | 9 | 11 |
+| 9 | 560 | 6300000 | 5,0,0,0 | 10 | 12 |
+| 10 | 600 | 10000000 | 6,0,0,0 | 13 | 15 |
+| 11 | 640 | 13500000 | 7,0,0,0 | 14 | 16 |
+| 12 | 680 | 18500000 | 10,0,0,0 | 15 | 17 |
+| 13 | 720 | 27000000 | 14,0,0,0 | 16 | 18 |
+</UnitTable>
+
 \* 如果玩家升级到 5 级大本营并且解锁了雷电法术，即使玩家没有立即升实验室也可以升级雷电法术。
 
-</template>
-
-<template #history>
+<SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2025/11/17">
@@ -100,7 +148,4 @@ import unitData from "@/assets/unit-data/0100-Lightning-Spell.json";
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
-
-</template>
-
-</SyncedUnitData>
+<p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Lightning_Spell?oldid=588160" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>

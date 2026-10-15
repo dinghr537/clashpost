@@ -2,24 +2,23 @@
 title: "部落冲突 coc 大牦（牛）升级数据"
 navTitle: "大牦"
 shownTitle: "大牦（牛）"
+description: "大牦像攻城机器一样坚实，有着不撞倒城墙不罢休的毅力。大牦会在跟随的英雄被击倒时陷入狂怒。"
 module: upgrade-home
 imgFolder: home_heroes/0282
 wiki: https://clashofclans.fandom.com/wiki/Mighty_Yak
 canonical: /upgrade/0282-Mighty-Yak
 dataSyncedOn: 2026-10-13
-description: "大牦像攻城机器一样坚实，有着不撞倒城墙不罢休的毅力。大牦会在跟随的英雄被击倒时陷入狂怒。"
 ---
 
-<script setup>
-import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
-import unitData from "@/assets/unit-data/0282-Mighty-Yak.json";
-</script>
-
-<SyncedUnitData :data="unitData" :historyAfter="'2025-03-24'">
-
-<template #introduction>
-
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Mighty_Yak_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
+
+<SmallTitle>各等级图片</SmallTitle>
+
+<Panel>
+    <UnitImgGroup :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="所有等级" imgSrc="Mighty_Yak_field.png" />
+    </UnitImgGroup>
+</Panel>
 
 <SmallTitle>重要说明</SmallTitle>
 
@@ -28,9 +27,71 @@ import unitData from "@/assets/unit-data/0282-Mighty-Yak.json";
 3. 主人阵亡时，大牦会获得几秒的狂暴效果。如果狂暴期间被 [回溯法术](/upgrade/0107-Recall-Spell) 召回，狂暴效果不会暂停。
 4. 大牦是所有战宠中唯一不能跳墙的，不过凭借其对墙的 20 倍伤害加成，一般的城墙不能对大牦的路线造成太大的影响。
 
-</template>
+<SmallTitle>属性</SmallTitle>
 
-<template #history>
+<UnitProperties>
+    <UnitProperty pKey="攻击偏好" pValue="距离英雄 7 格内的目标" />
+    <UnitProperty pKey="伤害类型" pValue="单体伤害" />
+    <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
+    <UnitProperty pKey="伤害加成" pValue="对墙 20 倍伤害" />
+    <UnitProperty pKey="占据人口" pValue="20" />
+    <UnitProperty pKey="移动速度" pValue="3 格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="2.1 秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="1.2 格" />
+    <UnitProperty pKey="重新锁定目标的延时" pValue="0.1 秒" />
+    <UnitProperty pKey="主人死亡后的加成" pValue="狂暴法术" />
+    <UnitProperty pKey="狂暴持续时间" pValue="8 秒" />
+    <UnitProperty pKey="移动速度增加" pValue="2 格/秒" />
+    <UnitProperty pKey="伤害增加" pValue="70%" />
+    <UnitProperty pKey="所需战宠小屋等级" pValue="3" />
+    <UnitProperty pKey="所需大本等级" pValue="14" />
+</UnitProperties>
+
+<SmallTitle>升级数据</SmallTitle>
+
+<script setup>
+const tableExtraInfo = [
+    {
+        "column": 5,
+        "type": "cost",
+        "gpClass": "research",
+        "icon": "Dark_Elixir"
+    },
+    {
+        "column": 6,
+        "type": "time",
+        "gpClass": "research"
+    },
+    {
+        "column": 7,
+        "type": "dailyCost",
+        "icon": "Dark_Elixir"
+    }
+];
+</script>
+
+<UnitTable :tableExtraInfo="tableExtraInfo">
+
+| 等级 | 每秒伤害 | 每次伤害 |对墙<br>每次伤害| 生命值 | 升级花费 | 升级时间 | 日均耗油 |所需战宠<br>小屋等级|所需<br>大本等级|
+| ---- |   ----  |   ----  |      ----     |  ---   |    ---  |   ---   |   ---   |        ---        |      ----     |
+| 1 | 60 | 126 | 2520 | 3750 | \ | \ |  | 3 | 14 |
+| 2 | 64 | 134.4 | 2688 | 4000 | 40000 | 1,0,0,0 |  | 3 | 14 |
+| 3 | 68 | 142.8 | 2856 | 4250 | 50000 | 1,12,0,0 |  | 3 | 14 |
+| 4 | 72 | 151.2 | 3024 | 4500 | 60000 | 2,0,0,0 |  | 3 | 14 |
+| 5 | 76 | 159.6 | 3192 | 4750 | 70000 | 2,12,0,0 |  | 3 | 14 |
+| 6 | 80 | 168 | 3360 | 4950 | 80000 | 3,0,0,0 |  | 3 | 14 |
+| 7 | 84 | 176.4 | 3528 | 5100 | 90000 | 3,12,0,0 |  | 3 | 14 |
+| 8 | 88 | 184.8 | 3696 | 5250 | 100000 | 4,0,0,0 |  | 3 | 14 |
+| 9 | 92 | 193.2 | 3864 | 5400 | 110000 | 4,12,0,0 |  | 3 | 14 |
+| 10 | 96 | 201.6 | 4032 | 5550 | 120000 | 5,0,0,0 |  | 3 | 14 |
+| 11 | 100 | 210 | 4200 | 5700 | 130000 | 5,12,0,0 |  | 7 | 15 |
+| 12 | 104 | 218.4 | 4368 | 5850 | 140000 | 6,0,0,0 |  | 7 | 15 |
+| 13 | 108 | 226.8 | 4536 | 6000 | 150000 | 6,12,0,0 |  | 7 | 15 |
+| 14 | 112 | 235.2 | 4704 | 6150 | 160000 | 7,0,0,0 |  | 7 | 15 |
+| 15 | 116 | 243.6 | 4872 | 6300 | 170000 | 7,12,0,0 |  | 7 | 15 |
+</UnitTable>
+
+<SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2025/03/24">
@@ -58,7 +119,4 @@ import unitData from "@/assets/unit-data/0282-Mighty-Yak.json";
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
-
-</template>
-
-</SyncedUnitData>
+<p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Mighty_Yak?oldid=620660" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>

@@ -2,28 +2,91 @@
 title: "部落冲突 coc 夜世界弹射陷阱升级数据"
 navTitle: "弹射陷阱"
 shownTitle: "弹射陷阱"
+description: "将敌军地面部队弹向您设定的方向。走你！"
 module: upgrade-bh
 imgFolder: bh_buildings/1180
 wiki: https://clashofclans.fandom.com/wiki/Push_Trap
 canonical: /upgrade/1180-Push-Trap
 dataSyncedOn: 2026-10-13
-description: "将敌军地面部队弹向您设定的方向。走你！"
 ---
-
-<script setup>
-import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
-import unitData from "@/assets/unit-data/1180-Push-Trap.json";
-</script>
-
-<SyncedUnitData :data="unitData" :historyAfter="'2023-05-15'">
-
-<template #introduction>
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Push_Trap10.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
 
-</template>
+<SmallTitle>各等级图片</SmallTitle>
 
-<template #history>
+<Panel>
+    <UnitImgGroup :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="1 级" imgSrc="Push_Trap1.png"/>
+        <UnitImg imgTitle="2 级" imgSrc="Push_Trap2.png"/>
+        <UnitImg imgTitle="3 级" imgSrc="Push_Trap3.png"/>
+        <UnitImg imgTitle="4 级" imgSrc="Push_Trap4.png"/>
+        <UnitImg imgTitle="5 级" imgSrc="Push_Trap5.png"/>
+        <UnitImg imgTitle="6 级" imgSrc="Push_Trap6.png"/>
+        <UnitImg imgTitle="7 级" imgSrc="Push_Trap7.png"/>
+        <UnitImg imgTitle="8 级" imgSrc="Push_Trap8.png"/>
+        <UnitImg imgTitle="9 级" imgSrc="Push_Trap9.png"/>
+        <UnitImg imgTitle="10 级" imgSrc="Push_Trap10.png"/>
+    </UnitImgGroup>
+</Panel>
+
+<SmallTitle>建筑数量对照表</SmallTitle>
+
+<BuildingNum>
+    <BuildingNumRow title="大本等级" num="1, 2, 3, 4, 5 - 6, 7 - 10" />
+    <BuildingNumRow title="建筑数量" num="0, 1, 2, 3,     4,      5" />
+</BuildingNum>
+
+<SmallTitle>属性</SmallTitle>
+
+<UnitProperties>
+    <UnitProperty pKey="占地面积" pValue="2×2" />
+    <UnitProperty pKey="作用类型" pValue="将部队弹射到几格之外" />
+    <UnitProperty pKey="作用目标" pValue="仅地面目标" />
+    <UnitProperty pKey="触发半径" pValue="1 格" />
+    <UnitProperty pKey="作用半径" pValue="3.5 格" />
+    <UnitProperty pKey="弹射距离" pValue="6 格" />
+</UnitProperties>
+
+<SmallTitle>升级数据</SmallTitle>
+
+<script setup>
+const tableExtraInfo = [
+    {
+        "column": 2,
+        "type": "cost",
+        "gpClass": "building",
+        "icon": "Gold2"
+    },
+    {
+        "column": 3,
+        "type": "time",
+        "gpClass": "building"
+    },
+    {
+        "column": 4,
+        "type": "exp",
+        "icon": "Exp"
+    }
+];
+</script>
+
+<UnitTable :tableExtraInfo="tableExtraInfo">
+
+| 等级 | 可弹射的<br>总重量 | 升级费用 | 升级时间 |升级后可<br>获得的经验|所需夜世界<br>大本营等级|
+|  --- |        ---       |   ---   |   ---   |         ---         |         ---          |
+| 1 | 8 | 1000 | \ |  | 2 |
+| 2 | 10 | 3000 | 0,0,5,0 |  | 3 |
+| 3 | 12 | 10000 | 0,0,20,0 |  | 3 |
+| 4 | 14 | 20000 | 0,2,0,0 |  | 4 |
+| 5 | 16 | 40000 | 0,4,0,0 |  | 5 |
+| 6 | 18 | 60000 | 0,12,0,0 |  | 6 |
+| 7 | 20 | 100000 | 0,16,0,0 |  | 7 |
+| 8 | 22 | 200000 | 1,0,0,0 |  | 8 |
+| 9 | 24 | 300000 | 1,12,0,0 |  | 9 |
+| 10 | 26 | 500000 | 2,0,0,0 |  | 10 |
+</UnitTable>
+
+<SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2023/05/15">
@@ -41,7 +104,4 @@ import unitData from "@/assets/unit-data/1180-Push-Trap.json";
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
-
-</template>
-
-</SyncedUnitData>
+<p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Push_Trap?oldid=620914" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>

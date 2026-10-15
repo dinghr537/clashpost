@@ -2,24 +2,23 @@
 title: "部落冲突 coc 地兽（挖挖）升级数据"
 navTitle: "地兽"
 shownTitle: "地兽（挖挖）"
+description: "地兽生性腼腆，大部分时候都躲在地下。但在战斗中，它还是会做好自己分内的事：破土而出攻击建筑，助英雄一臂之力。地兽跟随的英雄被击倒后，它会寻找另一位英雄为其提供帮助。"
 module: upgrade-home
 imgFolder: home_heroes/0285
 wiki: https://clashofclans.fandom.com/wiki/Diggy
 canonical: /upgrade/0285-Diggy
 dataSyncedOn: 2026-10-13
-description: "地兽生性腼腆，大部分时候都躲在地下。但在战斗中，它还是会做好自己分内的事：破土而出攻击建筑，助英雄一臂之力。地兽跟随的英雄被击倒后，它会寻找另一位英雄为其提供帮助。"
 ---
 
-<script setup>
-import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
-import unitData from "@/assets/unit-data/0285-Diggy.json";
-</script>
-
-<SyncedUnitData :data="unitData" :historyAfter="'2025-10-06'">
-
-<template #introduction>
-
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Diggy_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
+
+<SmallTitle>各等级图片</SmallTitle>
+
+<Panel>
+    <UnitImgGroup :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="所有等级" imgSrc="Diggy_field.png" />
+    </UnitImgGroup>
+</Panel>
 
 <SmallTitle>重要说明</SmallTitle>
 
@@ -31,9 +30,65 @@ import unitData from "@/assets/unit-data/0285-Diggy.json";
 6. 在地兽没有主人时，正常部署或使用 [回溯法术](/upgrade/0107-Recall-Spell) 部署一个英雄，地兽会立即以该英雄作为新主人。
 7. 地兽能免疫 [飓风陷阱](/upgrade/0386-Tornado-Trap) 的转圈效果。
 
-</template>
+<SmallTitle>属性</SmallTitle>
 
-<template #history>
+<UnitProperties>
+    <UnitProperty pKey="攻击偏好" pValue="英雄的目标" />
+    <UnitProperty pKey="伤害类型" pValue="单体伤害" />
+    <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
+    <UnitProperty pKey="占据人口" pValue="20" />
+    <UnitProperty pKey="移动速度" pValue="4 格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="1.1 秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="0.8 格" />
+    <UnitProperty pKey="所需战宠小屋等级" pValue="6" />
+    <UnitProperty pKey="所需大本等级" pValue="15" />
+</UnitProperties>
+
+<SmallTitle>升级数据</SmallTitle>
+
+<script setup>
+const tableExtraInfo = [
+    {
+        "column": 5,
+        "type": "cost",
+        "gpClass": "research",
+        "icon": "Dark_Elixir"
+    },
+    {
+        "column": 6,
+        "type": "time",
+        "gpClass": "research"
+    },
+    {
+        "column": 7,
+        "type": "dailyCost",
+        "icon": "Dark_Elixir"
+    }
+];
+</script>
+
+<UnitTable :tableExtraInfo="tableExtraInfo">
+
+| 等级 | 每秒伤害 |每次伤害|瘫痪秒数| 生命值 | 升级花费 | 升级时间 | 日均耗油 |所需战宠<br>小屋等级|所需<br>大本等级|
+| ---- |   ---   |  ---  |  ---  |  ---   |   ----  |   ---   |   ---   |        ---        |      ----     |
+| 1 | 105 | 115.5 | 2秒 | 3650 | \ | \ |  | 6 | 15 |
+| 2 | 110 | 121 | 2秒 | 3800 | 90000 | 1,12,0,0 |  | 6 | 15 |
+| 3 | 115 | 126.5 | 2秒 | 3950 | 105000 | 2,0,0,0 |  | 6 | 15 |
+| 4 | 120 | 132 | 2秒 | 4100 | 120000 | 3,0,0,0 |  | 6 | 15 |
+| 5 | 125 | 137.5 | 2.5秒 | 4250 | 130000 | 4,0,0,0 |  | 6 | 15 |
+| 6 | 130 | 143 | 2.5秒 | 4400 | 140000 | 4,12,0,0 |  | 6 | 15 |
+| 7 | 135 | 148.5 | 2.5秒 | 4550 | 150000 | 5,0,0,0 |  | 6 | 15 |
+| 8 | 140 | 154 | 2.5秒 | 4700 | 160000 | 5,12,0,0 |  | 6 | 15 |
+| 9 | 145 | 159.5 | 2.5秒 | 4850 | 170000 | 6,0,0,0 |  | 6 | 15 |
+| 10 | 150 | 165 | 3秒 | 5000 | 180000 | 6,12,0,0 |  | 6 | 15 |
+| 11 | 155 | 170.5 | 3秒 | 5150 | 220000 | 7,0,0,0 |  | 12 | 18 |
+| 12 | 160 | 176 | 3秒 | 5300 | 250000 | 7,12,0,0 |  | 12 | 18 |
+| 13 | 165 | 181.5 | 3秒 | 5450 | 280000 | 8,0,0,0 |  | 12 | 18 |
+| 14 | 170 | 187 | 3秒 | 5600 | 310000 | 8,0,0,0 |  | 12 | 18 |
+| 15 | 175 | 192.5 | 3.5秒 | 5750 | 350000 | 8,0,0,0 |  | 12 | 18 |
+</UnitTable>
+
+<SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2025/10/06">
@@ -54,7 +109,4 @@ import unitData from "@/assets/unit-data/0285-Diggy.json";
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
-
-</template>
-
-</SyncedUnitData>
+<p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Diggy?oldid=625147" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>

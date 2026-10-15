@@ -2,22 +2,13 @@
 title: "部落冲突 coc 野蛮人升级数据"
 navTitle: "野蛮人"
 shownTitle: "野蛮人"
+description: "这些无畏的勇士长着引人注目的胡子，凭借一身壮硕的肌肉在敌人的村庄肆虐。训练一队野蛮人，他们将为您出生入死！"
 module: upgrade-home
 imgFolder: home_tech/0000
 wiki: https://clashofclans.fandom.com/wiki/Barbarian
 canonical: /upgrade/0000-Barbarian
 dataSyncedOn: 2026-10-13
-description: "这些无畏的勇士长着引人注目的胡子，凭借一身壮硕的肌肉在敌人的村庄肆虐。训练一队野蛮人，他们将为您出生入死！"
 ---
-
-<script setup>
-import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
-import unitData from "@/assets/unit-data/0000-Barbarian.json";
-</script>
-
-<SyncedUnitData :data="unitData" :historyAfter="'2025-10-06'">
-
-<template #introduction>
 
 - *如想查看该兵种的强化版本，请访问：[超级野蛮人](/upgrade/0600-Super-Barbarian)。*
 - *如想查看以野蛮人为原型的英雄，请访问：[野蛮人之王（蛮王、男王）](/upgrade/0200-Barbarian-King)。*
@@ -26,11 +17,84 @@ import unitData from "@/assets/unit-data/0000-Barbarian.json";
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Barbarian_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
 
-</template>
+<SmallTitle>各等级图片</SmallTitle>
 
-<template #history>
+<Panel>
+    <UnitImgGroup :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="1 - 2 级" imgSrc="Barbarian1.png" />
+        <UnitImg imgTitle="3 - 4 级" imgSrc="Barbarian3.png" />
+        <UnitImg imgTitle="5 级" imgSrc="Barbarian5.png" />
+        <UnitImg imgTitle="6 级" imgSrc="Barbarian6.png" />
+        <UnitImg imgTitle="7 级" imgSrc="Barbarian7.png" />
+        <UnitImg imgTitle="8 级" imgSrc="Barbarian8.png" />
+        <UnitImg imgTitle="9 级" imgSrc="Barbarian9.png" />
+        <UnitImg imgTitle="10 级" imgSrc="Barbarian10.png" />
+        <UnitImg imgTitle="11 级" imgSrc="Barbarian11.png" />
+        <UnitImg imgTitle="12 级" imgSrc="Barbarian12.png" />
+            <UnitImg imgTitle="13 级" imgSrc="Barbarian13.png" />
+</UnitImgGroup>
+</Panel>
+
+<SmallTitle>属性</SmallTitle>
+
+<UnitProperties>
+    <UnitProperty pKey="部队类型" pValue="地面近战单位" />
+    <UnitProperty pKey="攻击偏好" pValue="无" />
+    <UnitProperty pKey="伤害类型" pValue="单体伤害" />
+    <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
+    <UnitProperty pKey="占据人口" pValue="1" />
+    <UnitProperty pKey="移动速度" pValue="2 格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="1 秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="0.4 格" />
+    <UnitProperty pKey="所需训练营等级" pValue="1" />
+    <UnitProperty pKey="所需大本等级" pValue="1" />
+    <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" />
+    <UnitProperty pKey="捐赠费用" pValue="1,1,3000,Elixir" :isDonationCost="true" />
+</UnitProperties>
+
+<SmallTitle>升级数据</SmallTitle>
+
+<script setup>
+const tableExtraInfo = [
+    {
+        "column": 4,
+        "type": "cost",
+        "gpClass": "research",
+        "icon": "Elixir"
+    },
+    {
+        "column": 5,
+        "type": "time",
+        "gpClass": "research"
+    }
+];
+</script>
+
+<UnitTable :tableExtraInfo="tableExtraInfo">
+
+| 等级 | 每秒伤害 | 每次伤害 | 生命值 | 升级花费 |  升级时间  |所需实验室等级|所需大本等级|
+| ---- |  ----   |  ----   |  ----  |   ----  |    ----   |    ----     |   ----    |
+| 1 | 9 | 9 | 45 | \ | \ | 1 | 1 |
+| 2 | 12 | 12 | 54 | 10000 | 0,0,30,0 | 1 | 3 |
+| 3 | 15 | 15 | 65 | 50000 | 0,1,0,0 | 3 | 5 |
+| 4 | 18 | 18 | 85 | 130000 | 0,2,0,0 | 5 | 7 |
+| 5 | 23 | 23 | 105 | 300000 | 0,4,0,0 | 6 | 8 |
+| 6 | 26 | 26 | 125 | 800000 | 0,8,0,0 | 7 | 9 |
+| 7 | 30 | 30 | 160 | 1000000 | 0,12,0,0 | 8 | 10 |
+| 8 | 34 | 34 | 205 | 1500000 | 1,0,0,0 | 9 | 11 |
+| 9 | 38 | 38 | 230 | 2500000 | 1,12,0,0 | 10 | 12 |
+| 10 | 42 | 42 | 250 | 4300000 | 2,0,0,0 | 12 | 14 |
+| 11 | 45 | 45 | 270 | 6000000 | 3,0,0,0 | 13 | 15 |
+| 12 | 48 | 48 | 290 | 8000000 | 4,0,0,0 | 14 | 16 |
+| 13 | 51 | 51 | 310 | 24000000 | 12,12,0,0 | 16 | 18 |
+</UnitTable>
+
+<SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/04/27">
+        <TimelineRow>新增13级野蛮人；12级升级时间从4天12小时缩短为4天。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/10/06">
         <TimelineRow>9 ~ 12 级野蛮人的升级时间减少。</TimelineRow>
     </TimelineItem>
@@ -91,7 +155,4 @@ import unitData from "@/assets/unit-data/0000-Barbarian.json";
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
-
-</template>
-
-</SyncedUnitData>
+<p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Barbarian?oldid=617333" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>

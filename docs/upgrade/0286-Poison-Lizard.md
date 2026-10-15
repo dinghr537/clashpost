@@ -2,24 +2,23 @@
 title: "部落冲突 coc 猛蜥（猛毒蜥）升级数据"
 navTitle: "猛蜥"
 shownTitle: "猛蜥（猛毒蜥）"
+description: "论速度，猛蜥称第二，没人敢称第一。它可以向敌人喷吐减速毒素。猛蜥真的有毒吗？可能吧，但谁又有那么大的胆子去验明真假呢？"
 module: upgrade-home
 imgFolder: home_heroes/0286
 wiki: https://clashofclans.fandom.com/wiki/Poison_Lizard
 canonical: /upgrade/0286-Poison-Lizard
 dataSyncedOn: 2026-10-13
-description: "论速度，猛蜥称第二，没人敢称第一。它可以向敌人喷吐减速毒素。猛蜥真的有毒吗？可能吧，但谁又有那么大的胆子去验明真假呢？"
 ---
 
-<script setup>
-import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
-import unitData from "@/assets/unit-data/0286-Poison-Lizard.json";
-</script>
-
-<SyncedUnitData :data="unitData" :historyAfter="'2026-01-28'">
-
-<template #introduction>
-
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Poison_Lizard_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
+
+<SmallTitle>各等级图片</SmallTitle>
+
+<Panel>
+    <UnitImgGroup :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="所有等级" imgSrc="Poison_Lizard_field.png" />
+    </UnitImgGroup>
+</Panel>
 
 <SmallTitle>重要说明</SmallTitle>
 
@@ -31,9 +30,65 @@ import unitData from "@/assets/unit-data/0286-Poison-Lizard.json";
 6. 当猛蜥附近没有部队和英雄时，猛蜥会攻击建筑，但它无法减缓防御建筑的攻速。
 7. 猛蜥自身不触发陷阱，但其他部队触发的陷阱可能会误伤到它。
 
-</template>
+<SmallTitle>属性</SmallTitle>
 
-<template #history>
+<UnitProperties>
+    <UnitProperty pKey="攻击偏好" pValue="离英雄不超过 7 格的部队和英雄" />
+    <UnitProperty pKey="伤害类型" pValue="单体伤害" />
+    <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
+    <UnitProperty pKey="占据人口" pValue="20" />
+    <UnitProperty pKey="移动速度" pValue="4.5 格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="0.35 秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="4.5 格" />
+    <UnitProperty pKey="所需战宠小屋等级" pValue="7" />
+    <UnitProperty pKey="所需大本等级" pValue="15" />
+</UnitProperties>
+
+<SmallTitle>升级数据</SmallTitle>
+
+<script setup>
+const tableExtraInfo = [
+    {
+        "column": 6,
+        "type": "cost",
+        "gpClass": "research",
+        "icon": "Dark_Elixir"
+    },
+    {
+        "column": 7,
+        "type": "time",
+        "gpClass": "research"
+    },
+    {
+        "column": 8,
+        "type": "dailyCost",
+        "icon": "Dark_Elixir"
+    }
+];
+</script>
+
+<UnitTable :tableExtraInfo="tableExtraInfo">
+
+| 等级 | 每秒伤害 |毒雾<br>最高伤害|移动速度<br>降低|攻击速度<br>降低| 生命值 | 升级花费 | 升级时间| 日均耗油 |所需战宠<br>小屋等级|所需<br>大本等级|
+| ---- |   ---   |      ---      |      ---      |      ---      |  ---  |  ----   |   ---   |   ---   |        ---        |     ----     |
+| 1 | 181 | 80 | 26% | 35% | 1400 | \ | \ |  | 7 | 15 |
+| 2 | 192 | 80 | 26% | 35% | 1450 | 60000 | 1,0,0,0 |  | 7 | 15 |
+| 3 | 203 | 80 | 26% | 35% | 1500 | 75000 | 1,12,0,0 |  | 7 | 15 |
+| 4 | 214 | 80 | 26% | 35% | 1550 | 90000 | 2,0,0,0 |  | 7 | 15 |
+| 5 | 225 | 100 | 34% | 45% | 1600 | 100000 | 2,12,0,0 |  | 7 | 15 |
+| 6 | 236 | 100 | 34% | 45% | 1650 | 110000 | 3,0,0,0 |  | 7 | 15 |
+| 7 | 247 | 100 | 34% | 45% | 1700 | 120000 | 3,12,0,0 |  | 7 | 15 |
+| 8 | 258 | 100 | 34% | 45% | 1800 | 130000 | 4,0,0,0 |  | 7 | 15 |
+| 9 | 269 | 100 | 34% | 45% | 1900 | 140000 | 4,12,0,0 |  | 7 | 15 |
+| 10 | 280 | 120 | 38% | 50% | 2050 | 150000 | 5,0,0,0 |  | 7 | 15 |
+| 11 | 291 | 120 | 38% | 50% | 2100 | 180000 | 6,0,0,0 |  | 11 | 17 |
+| 12 | 302 | 120 | 38% | 50% | 2150 | 200000 | 7,0,0,0 |  | 11 | 17 |
+| 13 | 313 | 120 | 38% | 50% | 2200 | 220000 | 8,0,0,0 |  | 11 | 17 |
+| 14 | 324 | 120 | 38% | 50% | 2250 | 240000 | 8,0,0,0 |  | 11 | 17 |
+| 15 | 335 | 140 | 42% | 55% | 2300 | 260000 | 8,0,0,0 |  | 11 | 17 |
+</UnitTable>
+
+<SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2026/01/28">
@@ -63,7 +118,4 @@ import unitData from "@/assets/unit-data/0286-Poison-Lizard.json";
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
-
-</template>
-
-</SyncedUnitData>
+<p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Poison_Lizard?oldid=621535" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>

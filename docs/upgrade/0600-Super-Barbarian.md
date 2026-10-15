@@ -2,35 +2,66 @@
 title: "部落冲突 coc 超级野蛮人（超蛮、超级黄毛）升级数据"
 navTitle: "超级野蛮人"
 shownTitle: "超级野蛮人（超蛮、超级黄毛）"
+description: "生命值更高、力量更强、速度更快，最重要的是秀发更浓密。成为超级野蛮人是每个普通野蛮人的梦想！"
 module: upgrade-home
 imgFolder: home_tech/0600
 wiki: https://clashofclans.fandom.com/wiki/Super_Barbarian
 canonical: /upgrade/0600-Super-Barbarian
 dataSyncedOn: 2026-10-13
-description: "生命值更高、力量更强、速度更快，最重要的是秀发更浓密。成为超级野蛮人是每个普通野蛮人的梦想！"
 ---
-
-<script setup>
-import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
-import unitData from "@/assets/unit-data/0600-Super-Barbarian.json";
-</script>
-
-<SyncedUnitData :data="unitData" :historyAfter="'2025-03-27'">
-
-<template #introduction>
 
 - *如想查看该兵种的普通版本，请访问：[野蛮人](/upgrade/0000-Barbarian)。*
 - *如想查看都城的超级野蛮人，请访问：[都城超级野蛮人](/upgrade/2000-Super-Barbarian)。*
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Super_Barbarian_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
 
+<SmallTitle>各等级图片</SmallTitle>
+
+<Panel>
+    <UnitImgGroup :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="所有等级" imgSrc="Super_Barbarian8.png" />
+    </UnitImgGroup>
+</Panel>
+
 <SmallTitle>重要说明</SmallTitle>
 
 超级野蛮人的技能（狂暴）：在部署后的 8 秒内狂暴，获得额外的移动速度和伤害。狂暴状态下伤害提高 70%，速度为 36（也即 4.5 格/秒）。
 
-</template>
+<SmallTitle>属性</SmallTitle>
 
-<template #history>
+<UnitProperties>
+    <UnitProperty pKey="部队类型" pValue="地面近战单位" />
+    <UnitProperty pKey="攻击偏好" pValue="无" />
+    <UnitProperty pKey="伤害类型" pValue="单体伤害" />
+    <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
+    <UnitProperty pKey="占据人口" pValue="5" />
+    <UnitProperty pKey="移动速度" pValue="2.5 格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="0.8 秒/次" />
+    <UnitProperty pKey="首次出手时机" pValue="到达目标后 0.7 秒" />
+    <UnitProperty pKey="攻击距离" pValue="0.6 格" />
+    <UnitProperty pKey="最低野蛮人等级" pValue="8" />
+    <UnitProperty pKey="最低大本等级" pValue="11" />
+    <UnitProperty pKey="强化费用" pValue="2.5 万黑油" />
+    <UnitProperty pKey="强化有效期" pValue="3 天" />
+    <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" />
+    <UnitProperty pKey="捐赠费用" pValue="3,3,9000,Elixir" :isDonationCost="true" />
+</UnitProperties>
+
+<SmallTitle>升级数据</SmallTitle>
+
+<UnitTable>
+
+| 等级 |  每秒伤害 | 每次伤害 |狂暴状态<br>每秒伤害|狂暴状态<br>每次伤害| 生命值 |所需大本等级|
+| ---- |   ----   |   ----  |         ---       |        ---       |   ---  |     ---   |
+| 8 | 180 | 144 | 306 | 244.8 | 1000 | 11 |
+| 9 | 200 | 160 | 340 | 272 | 1100 | 12 |
+| 10 | 220 | 176 | 374 | 299.2 | 1200 | 14 |
+| 11 | 240 | 192 | 408 | 326.4 | 1300 | 15 |
+| 12 | 250 | 200 | 425 | 340 | 1350 | 16 |
+| 13 | 270 | 216 | 459 | 367.2 | 1450 | 18 |
+</UnitTable>
+
+<SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2025/03/27">
@@ -61,7 +92,4 @@ import unitData from "@/assets/unit-data/0600-Super-Barbarian.json";
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
-
-</template>
-
-</SyncedUnitData>
+<p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Super_Barbarian?oldid=588088" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>

@@ -2,32 +2,103 @@
 title: "部落冲突 coc 巨型炸弹（大炸弹、巨炸）升级数据"
 navTitle: "巨型炸弹"
 shownTitle: "巨型炸弹（大炸弹、巨炸）"
+description: "如果你想要的是一场大爆炸，那选巨型炸弹准没错。"
 module: upgrade-home
 imgFolder: home_buildings/0383
 wiki: https://clashofclans.fandom.com/wiki/Giant_Bomb
 canonical: /upgrade/0383-Giant-Bomb
 dataSyncedOn: 2026-10-13
-description: "如果你想要的是一场大爆炸，那选巨型炸弹准没错。"
 ---
-
-<script setup>
-import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
-import unitData from "@/assets/unit-data/0383-Giant-Bomb.json";
-</script>
-
-<SyncedUnitData :data="unitData" :historyAfter="'2025-11-17'">
-
-<template #introduction>
 
 - 游戏中还存在另一种大炸弹，详见：[终极炸弹](/upgrade/0387-Giga-Bomb)。
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Giant_Bomb_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
 
-</template>
+<SmallTitle>各等级图片</SmallTitle>
 
-<template #history>
+<Panel>
+    <UnitImgGroup title="常规模型" :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="1 - 2 级" imgSrc="Giant_Bomb1.png" />
+        <UnitImg imgTitle="3 - 4 级" imgSrc="Giant_Bomb3.png" />
+        <UnitImg imgTitle="5 - 6 级" imgSrc="Giant_Bomb5.png" />
+        <UnitImg imgTitle="7 - 8 级" imgSrc="Giant_Bomb7.png" />
+        <UnitImg imgTitle="9 - 10 级" imgSrc="Giant_Bomb9.png" />
+        <UnitImg imgTitle="11 级" imgSrc="Giant_Bomb11.png" />
+    </UnitImgGroup>
+    <UnitImgGroup title="未重新布置" :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="1 - 2 级" imgSrc="Giant_Bomb1_unarmed.png" />
+        <UnitImg imgTitle="3 - 4 级" imgSrc="Giant_Bomb3_unarmed.png" />
+        <UnitImg imgTitle="5 - 6 级" imgSrc="Giant_Bomb5_unarmed.png" />
+        <UnitImg imgTitle="7 - 8 级" imgSrc="Giant_Bomb7_unarmed.png" />
+        <UnitImg imgTitle="9 - 10 级" imgSrc="Giant_Bomb9_unarmed.png" />
+        <UnitImg imgTitle="11 级" imgSrc="Giant_Bomb11_unarmed.png" />
+    </UnitImgGroup>
+</Panel>
+
+<SmallTitle>建筑数量对照表</SmallTitle>
+
+<BuildingNum>
+    <BuildingNumRow title="大本等级" num="1 - 5, 6, 7, 8, 9, 10 - 11, 12 - 13, 14 - 16, 17 - 18" />
+    <BuildingNumRow title="建筑数量" num="    0, 1, 2, 3, 4,       5,       6,       7,       8" />
+</BuildingNum>
+
+<SmallTitle>属性</SmallTitle>
+
+<UnitProperties>
+    <UnitProperty pKey="占地面积" pValue="2×2" />
+    <UnitProperty pKey="伤害类型" pValue="范围伤害" />
+    <UnitProperty pKey="作用目标" pValue="仅地面目标" />
+    <UnitProperty pKey="触发半径" pValue="2 格" />
+    <UnitProperty pKey="爆炸延时" pValue="1.6 秒" />
+</UnitProperties>
+
+<SmallTitle>升级数据</SmallTitle>
+
+<script setup>
+const tableExtraInfo = [
+    {
+        "column": 3,
+        "type": "cost",
+        "gpClass": "building",
+        "icon": "Gold"
+    },
+    {
+        "column": 4,
+        "type": "time",
+        "gpClass": "building"
+    },
+    {
+        "column": 5,
+        "type": "exp",
+        "icon": "Exp"
+    }
+];
+</script>
+
+<UnitTable :tableExtraInfo="tableExtraInfo">
+
+| 等级 | 爆炸伤害 | 爆炸半径 | 升级费用 |  升级时间 |升级后可<br>获得的经验|所需<br>大本等级|
+| ---- |    ---  |    ---  |    ---  |    ---    |         ---        |       ---     |
+| 1 | 175 | 3格 | 12500 | \ |  | 6 |
+| 2 | 200 | 3.5格 | 75000 | 0,1,0,0 |  | 6 |
+| 3 | 225 | 3.5格 | 220000 | 0,3,0,0 |  | 8 |
+| 4 | 250 | 4格 | 750000 | 0,4,0,0 |  | 10 |
+| 5 | 275 | 4格 | 900000 | 0,10,0,0 |  | 11 |
+| 6 | 325 | 4格 | 1300000 | 0,11,0,0 |  | 13 |
+| 7 | 375 | 4格 | 1500000 | 0,12,0,0 |  | 13 |
+| 8 | 400 | 4格 | 2000000 | 1,0,0,0 |  | 14 |
+| 9 | 425 | 4格 | 3200000 | 2,0,0,0 |  | 15 |
+| 10 | 450 | 4格 | 5500000 | 2,12,0,0 |  | 16 |
+| 11 | 475 | 4格 | 10000000 | 4,0,0,0 |  | 17 |
+| 12 | 490 | 4.2格 | 17000000 | 10,12,0,0 |  | 18 |
+</UnitTable>
+
+<SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/04/27">
+        <TimelineRow>新增12级巨型炸弹。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/11/17">
         <TimelineRow>11 级巨型炸弹的升级时间和升级费用减少。</TimelineRow>
     </TimelineItem>
@@ -83,7 +154,4 @@ import unitData from "@/assets/unit-data/0383-Giant-Bomb.json";
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
-
-</template>
-
-</SyncedUnitData>
+<p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Giant_Bomb?oldid=622993" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>

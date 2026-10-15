@@ -10,6 +10,8 @@
 
 原有表格的列顺序、表头换行和单元格链接也属于页面内容。`SourceUnitTable` 可按页面明确列出的来源字段读取新数值，同时保留原表结构；来源字段缺失或匹配到多张表时会报错，须核对后再更新字段对应关系。
 
+大部分页面继续使用原来的 `UnitTable`。`scripts/authored-table-mappings.json` 为每张表明确记录来源表编号、完整表头与列对应关系；`update_authored_data.py` 只回填单元格，不生成或替换正文。来源表结构变化时停止更新，先人工核对映射。不同模式、召唤物、获取方式和历史迁移表分别保留，不能拿主单位的表覆盖。来源没有提供的原字段沿用原记录，新增等级的缺失字段显示「未知」。
+
 ## 手动指示维护
 
 无需定时监控、后台任务或自动发布。用户可以这样发出指示：
@@ -59,6 +61,9 @@ python3 -B scripts/fetch_wiki_snapshots.py --cache /tmp/clashpost-next-sync
 python3 -B scripts/sync_wiki_data.py --cache /tmp/clashpost-next-sync --date YYYY-MM-DD
 python3 -B scripts/download_wiki_images.py --preview /tmp/clashpost-next-sync/records-preview.json
 python3 -B scripts/sync_wiki_data.py --cache /tmp/clashpost-next-sync --date YYYY-MM-DD --apply
+python3 -B scripts/update_authored_data.py --output /tmp/clashpost-next-sync/authored-preview.json
+# 核对预览与字段映射后，回填原表：
+python3 -B scripts/update_authored_data.py --apply --output /tmp/clashpost-next-sync/authored-applied.json
 python3 -B scripts/check_synced_data.py --cache /tmp/clashpost-next-sync
 python3 -B scripts/check_local_images.py
 python3 -B -m unittest discover -s tests
@@ -69,9 +74,15 @@ npm run docs:build
 
 每批使用新的缓存目录，避免复用上一次修订。先查看预览报告与来源，再导入；新增内容还需手动检查目录、活动可用时间和来源中的单位模式。Wiki 缓存包含完整 HTML，仅放在临时目录；仓库保存数据表、修订号、图片及来源记录。
 
+新单位须先参照同类页面建立中文正文、原站组件和字段映射。同步脚本拒绝为不存在的页面自动套用通用模板，来源记录仍会留在预览文件中。完成数值回填后，再按来源日期补充历史、核对受影响的说明和属性，更新页尾来源记录；同步表格不代表全部说明均已重新核对。
+
+全站结构回归测试以 `9e77a85` 为更新前基线，检查原页面、属性、表头顺序、表格链接、模式分组、公式折叠区、高清图入口和历史日期。检查需要包含该提交的 Git 历史。页面仍须在浏览器中检查模式切换、月卡计算和图片显示。
+
+图片检查分别报告普通图片和 `imgHd` 原图。普通图片缺失会阻止检查通过；高清文件缺项在 `missingHd` 中单独列出，不得把已有缩略图登记成高清原图。当前普通图片已齐，127 个高清原文件仍未能从原站保存到本地，原页面的高清地址声明继续保留。
+
 补图必须先查看实际图片，再将对应单位、准确来源 URL 和中文说明登记到 `docs/.vitepress/theme/assets/reviewed-wiki-images.json`，随后导入。文件名含有单位名或数字不代表它是等级图；范围示意图、攻略截图、旧模型及其他单位的图片不能混入图集。图片说明采用已核对的中文含义，不根据文件名自动编造「外观」编号。原有已确认图片继续保留。
 
-中文展示词典位于 `docs/.vitepress/theme/assets/i18n/zh-CN.json`。导入新修订后，给新增原文补齐中文译文或数据摘要；检查程序发现未翻译展示文本时会报错。原始文本与数值仍保存在单位 JSON 中，能力说明及历史原文放在默认收起的「查看来源原文」中，便于核对。
+中文展示词典位于 `docs/.vitepress/theme/assets/i18n/zh-CN.json`。导入新修订后，给新增原文补齐中文译文或数据摘要；检查程序发现未翻译展示文本时会报错。原始文本与数值保存在单位 JSON 中，页面通过来源修订链接提供核对入口。
 
 ## 差异工具
 
@@ -95,6 +106,6 @@ python3 -B -m unittest discover -s tests -p 'test_upgrade_data.py'
 
 ## 当前数据结构
 
-已同步部分使用独立数据文件，以原页面单位 ID 为主键，来源数值由组件读取，页面说明与表格展示由 Markdown 保留。约定见 [UPGRADE_DATA_FORMAT.md](UPGRADE_DATA_FORMAT.md)：支持多资源费用、时间不适用、同等级的条件变体，以及字段状态。
+已同步部分使用独立数据文件，以原页面单位 ID 为主键。数值通过显式映射回填原 Markdown 表格；战宠小屋使用保留原列定义的 `SourceUnitTable` 读取来源。页面说明、表格布局和样式由原组件保留。数据约定见 [UPGRADE_DATA_FORMAT.md](UPGRADE_DATA_FORMAT.md)：支持多资源费用、时间不适用、同等级的条件变体，以及字段状态。
 
 本次已完成上述数据同步与本地页面更新。网站发布仍需用户单独指示。

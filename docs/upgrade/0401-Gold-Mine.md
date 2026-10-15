@@ -2,32 +2,121 @@
 title: "部落冲突 coc 金矿升级数据"
 navTitle: "金矿"
 shownTitle: "金矿"
+description: "金矿生产金币。升级金矿提高金币产量和容量。"
 module: upgrade-home
 imgFolder: home_buildings/0401
 wiki: https://clashofclans.fandom.com/wiki/Gold_Mine
 canonical: /upgrade/0401-Gold-Mine
 dataSyncedOn: 2026-10-13
-description: "金矿生产金币。升级金矿提高金币产量和容量。"
 ---
-
-<script setup>
-import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
-import unitData from "@/assets/unit-data/0401-Gold-Mine.json";
-</script>
-
-<SyncedUnitData :data="unitData" :historyAfter="'2025-11-17'">
-
-<template #introduction>
 
 - *如想查看夜世界的金矿，请访问：[夜世界金矿](/upgrade/1201-Gold-Mine)。*
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Gold_Mine17.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
 
+<SmallTitle>各等级图片</SmallTitle>
+
+<Panel>
+    <UnitImgGroup :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="1 级" imgSrc="Gold_Mine1.png" />
+        <UnitImg imgTitle="2 级" imgSrc="Gold_Mine2.png" />
+        <UnitImg imgTitle="3 级" imgSrc="Gold_Mine3.png" />
+        <UnitImg imgTitle="4 级" imgSrc="Gold_Mine4.png" />
+        <UnitImg imgTitle="5 级" imgSrc="Gold_Mine5.png" />
+        <UnitImg imgTitle="6 级" imgSrc="Gold_Mine6.png" />
+        <UnitImg imgTitle="7 级" imgSrc="Gold_Mine7.png" />
+        <UnitImg imgTitle="8 级" imgSrc="Gold_Mine8.png" />
+        <UnitImg imgTitle="9 级" imgSrc="Gold_Mine9.png" />
+        <UnitImg imgTitle="10 级" imgSrc="Gold_Mine10.png" />
+        <UnitImg imgTitle="11 级" imgSrc="Gold_Mine11.png" />
+        <UnitImg imgTitle="12 级" imgSrc="Gold_Mine12.png" />
+        <UnitImg imgTitle="13 级" imgSrc="Gold_Mine13.png" />
+        <UnitImg imgTitle="14 级" imgSrc="Gold_Mine14.png" />
+        <UnitImg imgTitle="15 级" imgSrc="Gold_Mine15.png" />
+        <UnitImg imgTitle="16 级" imgSrc="Gold_Mine16.png" />
+        <UnitImg imgTitle="17 级" imgSrc="Gold_Mine17.png" />
+    </UnitImgGroup>
+</Panel>
+
+<SmallTitle>建筑数量对照表</SmallTitle>
+
+<BuildingNum>
+    <BuildingNumRow title="大本等级" num="1, 2, 3, 4, 5, 6 - 8, 9 - 18" />
+    <BuildingNumRow title="建筑数量" num="1, 2, 3, 4, 5,     6,      7" />
+</BuildingNum>
+
+<SmallTitle>属性</SmallTitle>
+
+<UnitProperties>
+    <UnitProperty pKey="占地面积" pValue="3×3" />
+    <UnitProperty pKey="判定面积" pValue="2×2" :isJudgeSquare="true" />
+    <UnitProperty pKey="掠夺比例" pValue="50% (无上限)" />
+</UnitProperties>
+
+<SmallTitle>升级数据</SmallTitle>
+
+<script setup>
+const tableExtraInfo = [
+    {
+        "column": 2,
+        "type": "number",
+        "icon": "Gold",
+        "noGoldPass": true
+    },
+    {
+        "column": 3,
+        "type": "time",
+        "gpClass": "building",
+        "noGoldPass": true
+    },
+    {
+        "column": 7,
+        "type": "cost",
+        "gpClass": "building",
+        "icon": "Elixir"
+    },
+    {
+        "column": 8,
+        "type": "time",
+        "gpClass": "building"
+    },
+    {
+        "column": 9,
+        "type": "exp",
+        "icon": "Exp"
+    }
+];
+</script>
+
+<UnitTable :tableExtraInfo="tableExtraInfo">
+
+| 等级 |每小时产量|采集器<br>容量<sup>*</sup>|填满容量<br>所需时间|出现收集标志<br>时的储量|每个采集器<br>提速所需宝石|  生命值  | 升级费用 |   升级时间   |升级后可<br>获得的经验| 所需<br>大本等级 |
+| ---- |  ----   |           ---           |        ---       |          ---          |          ---           |    ---  |   ---   |     ---     |        ---         |        ---      |
+| 1 | 200 | 1000 | 0,5,0,0 | 6 | \ | 75 | 150 | 0,0,0,5 |  | 1 |
+| 2 | 400 | 2000 | 0,5,0,0 | 15 | \ | 150 | 300 | 0,0,0,15 |  | 1 |
+| 3 | 600 | 3000 | 0,5,0,0 | 25 | \ | 300 | 700 | 0,0,1,0 |  | 2 |
+| 4 | 800 | 5000 | 0,6,15,0 | 40 | \ | 400 | 1400 | 0,0,2,0 |  | 2 |
+| 5 | 1000 | 10000 | 0,10,0,0 | 60 | 4 | 500 | 3000 | 0,0,5,0 |  | 3 |
+| 6 | 1300 | 20000 | 0,15,23,5 | 100 | 5 | 550 | 7000 | 0,0,15,0 |  | 3 |
+| 7 | 1600 | 30000 | 0,18,45,0 | 160 | 6 | 600 | 14000 | 0,0,30,0 |  | 4 |
+| 8 | 1900 | 50000 | 1,2,18,57 | 220 | 7 | 660 | 28000 | 0,1,0,0 |  | 4 |
+| 9 | 2200 | 75000 | 1,10,5,27 | 300 | 8 | 720 | 56000 | 0,1,30,0 |  | 5 |
+| 10 | 2800 | 100000 | 1,11,42,52 | 400 | 9 | 780 | 75000 | 0,2,0,0 |  | 5 |
+| 11 | 3500 | 150000 | 1,18,51,26 | 500 | 10 | 860 | 85000 | 0,3,0,0 |  | 7 |
+| 12 | 4200 | 200000 | 1,23,37,9 | 600 | 10 | 960 | 170000 | 0,4,0,0 |  | 8 |
+| 13 | 4900 | 250000 | 2,3,1,14 | 700 | 11 | 1080 | 400000 | 0,5,0,0 |  | 10 |
+| 14 | 5600 | 300000 | 2,5,34,18 | 800 | 11 | 1180 | 800000 | 0,6,0,0 |  | 11 |
+| 15 | 6300 | 350000 | 2,7,33,20 | 900 | 11 | 1280 | 1200000 | 0,10,0,0 |  | 12 |
+| 16 | 7000 | 385000 | 2,7,0,0 | 1000 | 11 | 1350 | 2000000 | 1,0,0,0 |  | 14 |
+| 17 | 7560 | 420000 | 2,7,33,20 | 1000 | 11 | 1400 | 8000000 | 2,0,0,0 |  | 16 |
+| ⚡1 | 7857 | 436500 | 2,7,33,20 | 1000 | 11 | 1400 | 1700000 | 2,0,0,0 |  | 18 |
+| ⚡2 | 8154 | 453000 | 2,7,33,20 | 1000 | 11 | 1400 | 1500000 | 3,0,0,0 |  | 18 |
+| ⚡3 | 8154 | 453000 | 2,7,33,20 | 1000 | 11 | 1450 | 1300000 | 4,0,0,0 |  | 18 |
+</UnitTable>
+
 \* 采集器容量满后将停止工作，直到玩家收集采集器内的资源。
 
-</template>
-
-<template #history>
+<SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2025/11/17">
@@ -74,7 +163,4 @@ import unitData from "@/assets/unit-data/0401-Gold-Mine.json";
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
-
-</template>
-
-</SyncedUnitData>
+<p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Gold_Mine?oldid=592132" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>

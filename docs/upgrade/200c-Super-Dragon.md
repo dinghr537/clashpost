@@ -2,26 +2,26 @@
 title: "部落冲突 coc 都城超级飞龙升级数据"
 navTitle: "超级飞龙"
 shownTitle: "超级飞龙"
+description: "体内有火不算什么，超级飞龙内外都冒火！只要开始战斗，他全身每一处都能迸发出熊熊烈焰。"
 module: upgrade-capital
 imgFolder: capital_tech/200c
 wiki: https://clashofclans.fandom.com/wiki/Super_Dragon/Clan_Capital
 canonical: /upgrade/200c-Super-Dragon
 dataSyncedOn: 2026-10-13
-description: "体内有火不算什么，超级飞龙内外都冒火！只要开始战斗，他全身每一处都能迸发出熊熊烈焰。"
 ---
-
-<script setup>
-import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
-import unitData from "@/assets/unit-data/200c-Super-Dragon.json";
-</script>
-
-<SyncedUnitData :data="unitData" :historyAfter="'2023-09-14'">
-
-<template #introduction>
 
 - *如想查看家乡的超级飞龙，请访问：[超级飞龙](/upgrade/060d-Super-Dragon)。*
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Super_Dragon_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
+
+<SmallTitle>各等级图片</SmallTitle>
+
+<Panel>
+    <UnitImgGroup :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="所有等级" imgSrc="Super_Dragon1.png" />
+            <UnitImg imgTitle="超级飞龙" imgSrc="Super_Dragon7.png" />
+</UnitImgGroup>
+</Panel>
 
 <SmallTitle>重要说明</SmallTitle>
 
@@ -29,9 +29,37 @@ import unitData from "@/assets/unit-data/200c-Super-Dragon.json";
 2. 超级飞龙的技能（炙热龙息）：超级飞龙攻击时可以溅射至周围目标，对它们造成持续伤害。
 3. 超级飞龙的攻击机制：先以极快的速度（0.192 秒/次）打完 10 发子弹，休息 1.8 秒后再发射 10 发子弹。
 
-</template>
+<SmallTitle>属性</SmallTitle>
 
-<template #history>
+<UnitProperties>
+    <UnitProperty pKey="部队类型" pValue="空中单位" />
+    <UnitProperty pKey="攻击偏好" pValue="无" />
+    <UnitProperty pKey="伤害类型" pValue="范围伤害" />
+    <UnitProperty pKey="伤害半径" pValue="1.2 格" />
+    <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
+    <UnitProperty pKey="配兵人口" pValue="40" />
+    <UnitProperty pKey="防守人口" pValue="40" />
+    <UnitProperty pKey="移动速度" pValue="1.3 格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="0.192 秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="2.25 格" />
+    <UnitProperty pKey="每轮攻击的弹药数量" pValue="10" />
+    <UnitProperty pKey="一轮攻击后歇息" pValue="1.8 秒" />
+</UnitProperties>
+
+<SmallTitle>升级数据</SmallTitle>
+
+<UnitTable>
+
+| 等级 | 每秒伤害 | 每次伤害 | 生命值 |
+| ---- |  ----   |  ----   |  ----  |
+| 1 | 400 | 151.2 | 5800 |
+| 2 | 438 | 165.6 | 6300 |
+| 3 | 476 | 180 | 6800 |
+| 4 | 514 | 194.4 | 7200 |
+| 5 | 552 | 208.8 | 7600 |
+</UnitTable>
+
+<SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2023/09/14">
@@ -44,7 +72,4 @@ import unitData from "@/assets/unit-data/200c-Super-Dragon.json";
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
-
-</template>
-
-</SyncedUnitData>
+<p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Super_Dragon/Clan_Capital?oldid=622513" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>

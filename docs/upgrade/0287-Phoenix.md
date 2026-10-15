@@ -2,24 +2,24 @@
 title: "部落冲突 coc 凤凰升级数据"
 navTitle: "凤凰"
 shownTitle: "凤凰"
+description: "真正的朋友会在你遇到困难时及时出手相助。战斗开始时，凤凰只是一颗蛋，帮不上什么忙。但当它跟随的英雄可能被击倒时，它会破壳而出，愤怒地攻击附近的敌人，还能让英雄暂时免疫伤害。"
 module: upgrade-home
 imgFolder: home_heroes/0287
 wiki: https://clashofclans.fandom.com/wiki/Phoenix
 canonical: /upgrade/0287-Phoenix
 dataSyncedOn: 2026-10-13
-description: "真正的朋友会在你遇到困难时及时出手相助。战斗开始时，凤凰只是一颗蛋，帮不上什么忙。但当它跟随的英雄可能被击倒时，它会破壳而出，愤怒地攻击附近的敌人，还能让英雄暂时免疫伤害。"
 ---
 
-<script setup>
-import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
-import unitData from "@/assets/unit-data/0287-Phoenix.json";
-</script>
-
-<SyncedUnitData :data="unitData" :historyAfter="'2025-10-06'">
-
-<template #introduction>
-
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Phoenix_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
+
+<SmallTitle>各等级图片</SmallTitle>
+
+<Panel>
+    <UnitImgGroup :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="凤凰" imgSrc="Phoenix_field.png" />
+        <UnitImg imgTitle="凤凰蛋" imgSrc="Phoenix_Egg.png" />
+    </UnitImgGroup>
+</Panel>
 
 <SmallTitle>重要说明</SmallTitle>
 
@@ -31,9 +31,68 @@ import unitData from "@/assets/unit-data/0287-Phoenix.json";
 6. 如果主人被召回或阵亡，凤凰会变成一个自由单位，此时没有偏好目标。
 7. 在凤凰的无敌效果结束后，你可以对该英雄使用 [复苏法术](/upgrade/0108-Revive-Spell)。
 
-</template>
+<SmallTitle>凤凰的属性</SmallTitle>
 
-<template #history>
+<UnitProperties>
+    <UnitProperty pKey="攻击偏好" pValue="英雄的目标" />
+    <UnitProperty pKey="伤害类型" pValue="范围伤害" />
+    <UnitProperty pKey="伤害半径" pValue="0.3 格" />
+    <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
+    <UnitProperty pKey="占据人口" pValue="20 (凤凰)<br>0 (凤凰蛋)" />
+    <UnitProperty pKey="移动速度" pValue="2 格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="1 秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="2.5 格" />
+    <UnitProperty pKey="所需战宠小屋等级" pValue="8" />
+    <UnitProperty pKey="所需大本等级" pValue="15" />
+</UnitProperties>
+
+<SmallTitle>凤凰蛋的属性</SmallTitle>
+
+<UnitProperties>
+    <UnitProperty pKey="移动速度" pValue="2 格/秒" />
+    <UnitProperty pKey="跟随距离" pValue="2 格" />
+</UnitProperties>
+
+<SmallTitle>升级数据</SmallTitle>
+
+<script setup>
+const tableExtraInfo = [
+    {
+        "column": 5,
+        "type": "cost",
+        "gpClass": "research",
+        "icon": "Dark_Elixir"
+    },
+    {
+        "column": 6,
+        "type": "time",
+        "gpClass": "research"
+    },
+    {
+        "column": 7,
+        "type": "dailyCost",
+        "icon": "Dark_Elixir"
+    }
+];
+</script>
+
+<UnitTable :tableExtraInfo="tableExtraInfo">
+
+| 等级 | 每秒伤害 | 每次伤害 |无敌秒数| 生命值| 升级花费 | 升级时间 | 日均耗油 |所需战宠<br>小屋等级|所需<br>大本等级|
+| ---- |   ---   |   ---   |  ---  |  ---  |   ---   |   ---   |   ---   |        ---        |     ----     |
+| 1 | 178 | 178 | 6.5秒 | 3120 | \ | \ |  | 8 | 15 |
+| 2 | 186 | 186 | 6.5秒 | 3240 | 80000 | 1,12,0,0 |  | 8 | 15 |
+| 3 | 194 | 194 | 6.5秒 | 3360 | 95000 | 2,0,0,0 |  | 8 | 15 |
+| 4 | 202 | 202 | 6.5秒 | 3480 | 110000 | 3,0,0,0 |  | 8 | 15 |
+| 5 | 210 | 210 | 7.5秒 | 3600 | 125000 | 4,0,0,0 |  | 8 | 15 |
+| 6 | 218 | 218 | 7.5秒 | 3720 | 140000 | 4,12,0,0 |  | 8 | 15 |
+| 7 | 226 | 226 | 7.5秒 | 3840 | 155000 | 5,0,0,0 |  | 8 | 15 |
+| 8 | 234 | 234 | 7.5秒 | 3960 | 170000 | 5,12,0,0 |  | 8 | 15 |
+| 9 | 242 | 242 | 7.5秒 | 4080 | 180000 | 6,0,0,0 |  | 8 | 15 |
+| 10 | 250 | 250 | 8.5秒 | 4200 | 190000 | 6,12,0,0 |  | 8 | 15 |
+</UnitTable>
+
+<SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2025/10/06">
@@ -56,7 +115,4 @@ import unitData from "@/assets/unit-data/0287-Phoenix.json";
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
-
-</template>
-
-</SyncedUnitData>
+<p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Phoenix?oldid=625128" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>

@@ -2,22 +2,13 @@
 title: "部落冲突 coc 冰障法术升级数据"
 navTitle: "冰障法术"
 shownTitle: "冰障法术"
+description: "冻得结结实实，绝对安全！利用此冷冻合剂将您的地面与空中部队包裹在冰块中，几乎可以抵挡所有伤害，但同时会冻结他们的移动与攻击！"
 module: upgrade-home
 imgFolder: home_tech/0186
 wiki: https://clashofclans.fandom.com/wiki/Ice_Block_Spell
 canonical: /upgrade/0186-Ice-Block-Spell
 dataSyncedOn: 2026-10-13
-description: "冻得结结实实，绝对安全！利用此冷冻合剂将您的地面与空中部队包裹在冰块中，几乎可以抵挡所有伤害，但同时会冻结他们的移动与攻击！"
 ---
-
-<script setup>
-import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
-import unitData from "@/assets/unit-data/0186-Ice-Block-Spell.json";
-</script>
-
-<SyncedUnitData :data="unitData" :historyAfter="'2025-06-19'">
-
-<template #introduction>
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Ice_Block_Spell_info.png" :imgAlt="$frontmatter.navTitle"
     description="冻得结结实实，绝对安全！<br>利用此冷冻合剂将您的地面与空中部队包裹在冰块中，几乎可以抵挡所有伤害，但同时会冻结他们的移动与攻击！" />
@@ -37,9 +28,50 @@ import unitData from "@/assets/unit-data/0186-Ice-Block-Spell.json";
 7. 即使 [烈焰熔炉](/upgrade/008b-Furnace) 被冰障法术冻结，它也可以分裂出部队。
 8. 在冻结期间，[德鲁伊](/upgrade/008a-Druid) 的变身计时器不会停止。
 
-</template>
+<SmallTitle>属性</SmallTitle>
 
-<template #history>
+<UnitProperties>
+    <UnitProperty pKey="作用半径" pValue="5 格" />
+    <UnitProperty pKey="作用类型" pValue="冻结我方部队，并让部队获得减伤效果" />
+    <UnitProperty pKey="作用目标" pValue="我方部队 (不含攻城机器)" />
+    <UnitProperty pKey="占用的法术空间" pValue="1" />
+    <UnitProperty pKey="所需暗黑法术工厂等级" pValue="7" />
+    <UnitProperty pKey="所需大本等级" pValue="14" />
+    <UnitProperty pKey="法术配置时间" pValue="无" trainingSystem="2025" />
+    <UnitProperty pKey="捐赠费用" pValue="3,3,135,Dark_Elixir" :isDonationCost="true" />
+</UnitProperties>
+
+<SmallTitle>升级数据</SmallTitle>
+
+<script setup>
+const tableExtraInfo = [
+    {
+        "column": 3,
+        "type": "cost",
+        "gpClass": "research",
+        "icon": "Dark_Elixir"
+    },
+    {
+        "column": 4,
+        "type": "time",
+        "gpClass": "research"
+    }
+];
+</script>
+
+<UnitTable :tableExtraInfo="tableExtraInfo">
+
+| 等级 | 所受伤害减少 | 法术持续时间 | 升级花费 | 升级时间 | 所需实验室等级 | 所需大本等级 |
+| ---- |    -----    |     ---     |   ---   |   ---   |      ----     |     ----    |
+| 1 | 86% | 7秒 | \ | \ | 1 | 14 |
+| 2 | 88% | 7秒 | 140000 | 10,0,0,0 | 12 | 14 |
+| 3 | 90% | 7秒 | 200000 | 11,0,0,0 | 13 | 15 |
+| 4 | 92% | 7秒 | 280000 | 12,0,0,0 | 14 | 16 |
+| 5 | 94% | 7秒 | 320000 | 14,0,0,0 | 15 | 17 |
+| 6 | 96% | 7秒 | 380000 | 16,0,0,0 | 16 | 18 |
+</UnitTable>
+
+<SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2025/06/19">
@@ -47,7 +79,4 @@ import unitData from "@/assets/unit-data/0186-Ice-Block-Spell.json";
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
-
-</template>
-
-</SyncedUnitData>
+<p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Ice_Block_Spell?oldid=623794" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>

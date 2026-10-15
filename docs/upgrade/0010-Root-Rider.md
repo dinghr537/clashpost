@@ -2,32 +2,78 @@
 title: "部落冲突 coc 根蔓骑士（棘木骑士、树根）升级数据"
 navTitle: "根蔓骑士"
 shownTitle: "根蔓骑士（棘木骑士、树根）"
+description: "这位大地战士与大自然融为一体，甚至不用自己走路，而是骑在坚硬无比的根蔓上作战。她的根蔓可摧毁城墙，将防御建筑夷为平地。"
 module: upgrade-home
 imgFolder: home_tech/0010
 wiki: https://clashofclans.fandom.com/wiki/Root_Rider
 canonical: /upgrade/0010-Root-Rider
 dataSyncedOn: 2026-10-13
-description: "这位大地战士与大自然融为一体，甚至不用自己走路，而是骑在坚硬无比的根蔓上作战。她的根蔓可摧毁城墙，将防御建筑夷为平地。"
 ---
 
-<script setup>
-import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
-import unitData from "@/assets/unit-data/0010-Root-Rider.json";
-</script>
-
-<SyncedUnitData :data="unitData" :historyAfter="'2025-10-06'">
-
-<template #introduction>
-
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Root_Rider_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
+
+<SmallTitle>各等级图片</SmallTitle>
+
+<Panel>
+    <UnitImgGroup :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="1 级" imgSrc="Root_Rider1.png" />
+        <UnitImg imgTitle="2 级" imgSrc="Root_Rider2.png" />
+        <UnitImg imgTitle="3 级" imgSrc="Root_Rider3.png" />
+            <UnitImg imgTitle="4 级" imgSrc="Root_Rider4.png" />
+</UnitImgGroup>
+</Panel>
 
 <SmallTitle>重要说明</SmallTitle>
 
 根蔓骑士可以将树根放在墙上，快速摧毁 [城墙](/upgrade/0300-Walls)。
 
-</template>
+<SmallTitle>属性</SmallTitle>
 
-<template #history>
+<UnitProperties>
+    <UnitProperty pKey="部队类型" pValue="地面近战单位" />
+    <UnitProperty pKey="攻击偏好" pValue="防御建筑 (偏好类型 1)" :isDefensePreferredTroop="true" />
+    <UnitProperty pKey="伤害类型" pValue="单体伤害" />
+    <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
+    <UnitProperty pKey="占据人口" pValue="20" />
+    <UnitProperty pKey="移动速度" pValue="1.5 格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="2.2 秒/次" />
+    <UnitProperty pKey="攻击速度 (对城墙)" pValue="0.4 秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="1 格" />
+    <UnitProperty pKey="所需训练营等级" pValue="17" />
+    <UnitProperty pKey="所需大本等级" pValue="15" />
+    <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" />
+    <UnitProperty pKey="捐赠费用" pValue="10,10,30000,Elixir" :isDonationCost="true" />
+</UnitProperties>
+
+<SmallTitle>升级数据</SmallTitle>
+
+<script setup>
+const tableExtraInfo = [
+    {
+        "column": 4,
+        "type": "cost",
+        "gpClass": "research",
+        "icon": "Elixir"
+    },
+    {
+        "column": 5,
+        "type": "time",
+        "gpClass": "research"
+    }
+];
+</script>
+
+<UnitTable :tableExtraInfo="tableExtraInfo">
+
+| 等级 |普攻伤害<br>(每秒/每次)|对墙伤害<br>(每秒/每次)| 生命值 | 升级花费 | 升级时间 |所需实验室<br>等级|所需<br>大本等级|
+| ---- |          ---        |           ---        |  ---- |   ----  |   ----   |      ----      |     ----      |
+| 1 | 95 / 209 | 10000 / 4000 | 6200 | \ | \ | 1 | 15 |
+| 2 | 105 / 231 | 10000 / 4000 | 6350 | 15000000 | 8,0,0,0 | 13 | 15 |
+| 3 | 115 / 253 | 10000 / 4000 | 6500 | 17600000 | 10,0,0,0 | 14 | 16 |
+| 4 | 125 / 275 | 10000 / 4000 | 6700 | 30000000 | 16,0,0,0 | 16 | 18 |
+</UnitTable>
+
+<SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2025/10/06">
@@ -63,6 +109,4 @@ import unitData from "@/assets/unit-data/0010-Root-Rider.json";
     <TimelineItem :historyBottom="true" />
 </Timeline>
 
-</template>
-
-</SyncedUnitData>
+<p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Root_Rider?oldid=625331" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>

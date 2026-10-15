@@ -2,34 +2,105 @@
 title: "部落冲突 coc 实验室（研究所）升级数据"
 navTitle: "实验室"
 shownTitle: "实验室（研究所）"
+description: "法师们在实验室里隐藏着什么秘密呢？没人敢去瞧一眼。我们只知道他们的研究可以使部队和法术变得更强！"
 module: upgrade-home
 imgFolder: home_buildings/0483
 wiki: https://clashofclans.fandom.com/wiki/Laboratory
 canonical: /upgrade/0483-Laboratory
 dataSyncedOn: 2026-10-13
-description: "法师们在实验室里隐藏着什么秘密呢？没人敢去瞧一眼。我们只知道他们的研究可以使部队和法术变得更强！"
 ---
-
-<script setup>
-import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
-import unitData from "@/assets/unit-data/0483-Laboratory.json";
-</script>
-
-<SyncedUnitData :data="unitData" :historyAfter="'2025-11-17'">
-
-<template #introduction>
 
 - *如想查看夜世界的星空实验室，请访问：[夜世界星空实验室](/upgrade/1282-Star-Laboratory)。*
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Laboratory16_hd.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
 
+<SmallTitle>各等级图片</SmallTitle>
+
+<Panel>
+    <UnitImgGroup title="实验室" :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="1 级" imgSrc="Laboratory1.png" />
+        <UnitImg imgTitle="2 级" imgSrc="Laboratory2.png" />
+        <UnitImg imgTitle="3 级" imgSrc="Laboratory3.png" />
+        <UnitImg imgTitle="4 级" imgSrc="Laboratory4.png" />
+        <UnitImg imgTitle="5 级" imgSrc="Laboratory5.png" />
+        <UnitImg imgTitle="6 级" imgSrc="Laboratory6.png" />
+        <UnitImg imgTitle="7 级" imgSrc="Laboratory7.png" />
+        <UnitImg imgTitle="8 级" imgSrc="Laboratory8.png" />
+        <UnitImg imgTitle="9 级" imgSrc="Laboratory9.png" />
+        <UnitImg imgTitle="10 级" imgSrc="Laboratory10.png" />
+        <UnitImg imgTitle="11 级" imgSrc="Laboratory11.png" />
+        <UnitImg imgTitle="12 级" imgSrc="Laboratory12.png" />
+        <UnitImg imgTitle="13 级" imgSrc="Laboratory13.png" />
+        <UnitImg imgTitle="14 级" imgSrc="Laboratory14.png" />
+        <UnitImg imgTitle="15 级" imgSrc="Laboratory15.png" />
+        <UnitImg imgTitle="16 级" imgSrc="Laboratory16.png" imgHd="Laboratory16_hd.png" />
+    </UnitImgGroup>
+</Panel>
+
+<SmallTitle>建筑数量对照表</SmallTitle>
+
+<BuildingNum>
+    <BuildingNumRow title="大本等级" num="1 - 2, 3 - 18" />
+    <BuildingNumRow title="建筑数量" num="    0,      1" />
+</BuildingNum>
+
 <SmallTitle>重要说明</SmallTitle>
 
 战宠不在实验室中升级，而是在 [战宠小屋](/upgrade/0487-Pet-House) 中升级，战宠升级时既不占用实验室时间，也不占用建筑时间。您可以用英雄之书或英雄之锤升级战宠。
 
-</template>
+<SmallTitle>属性</SmallTitle>
 
-<template #history>
+<UnitProperties>
+    <UnitProperty pKey="占地面积" pValue="3×3" />
+    <UnitProperty pKey="判定面积" pValue="3×3" :isJudgeSquare="true" />
+</UnitProperties>
+
+<SmallTitle>升级数据</SmallTitle>
+
+<script setup>
+const tableExtraInfo = [
+    {
+        "column": 2,
+        "type": "cost",
+        "gpClass": "building",
+        "icon": "Elixir"
+    },
+    {
+        "column": 3,
+        "type": "time",
+        "gpClass": "building"
+    },
+    {
+        "column": 4,
+        "type": "exp",
+        "icon": "Exp"
+    }
+];
+</script>
+
+<UnitTable :tableExtraInfo="tableExtraInfo">
+
+| 等级 | 生命值 | 升级费用 | 升级时间 | 升级后可获<br>得的经验 | 所需<br>大本等级 |
+| ---- |  ---- |   ----  |    ---   |          ---         |       ---       |
+| 1 | 500 | 5000 | 0,0,1,0 |  | 3 |
+| 2 | 550 | 25000 | 0,0,30,0 |  | 4 |
+| 3 | 600 | 50000 | 0,2,0,0 |  | 5 |
+| 4 | 650 | 100000 | 0,4,0,0 |  | 6 |
+| 5 | 700 | 200000 | 0,8,0,0 |  | 7 |
+| 6 | 750 | 400000 | 0,16,0,0 |  | 8 |
+| 7 | 830 | 800000 | 1,0,0,0 |  | 9 |
+| 8 | 950 | 1300000 | 1,18,0,0 |  | 10 |
+| 9 | 1070 | 2100000 | 2,18,0,0 |  | 11 |
+| 10 | 1140 | 3800000 | 4,0,0,0 |  | 12 |
+| 11 | 1210 | 5500000 | 6,0,0,0 |  | 13 |
+| 12 | 1280 | 8100000 | 7,0,0,0 |  | 14 |
+| 13 | 1350 | 10800000 | 8,0,0,0 |  | 15 |
+| 14 | 1400 | 13000000 | 9,0,0,0 |  | 16 |
+| 15 | 1450 | 18000000 | 10,0,0,0 |  | 17 |
+| 16 | 1500 | 27000000 | 16,0,0,0 |  | 18 |
+</UnitTable>
+
+<SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2025/11/17">
@@ -76,7 +147,4 @@ import unitData from "@/assets/unit-data/0483-Laboratory.json";
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
-
-</template>
-
-</SyncedUnitData>
+<p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Laboratory?oldid=625132" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>

@@ -2,33 +2,111 @@
 title: "部落冲突 coc 夜世界暗夜女巫升级数据"
 navTitle: "暗夜女巫"
 shownTitle: "暗夜女巫"
+description: "从容地召唤出成群的飞行生物，和她的妹妹不同，她可不会破坏草皮。"
 module: upgrade-bh
 imgFolder: bh_tech/1007
 wiki: https://clashofclans.fandom.com/wiki/Night_Witch
 canonical: /upgrade/1007-Night-Witch
 dataSyncedOn: 2026-10-13
-description: "从容地召唤出成群的飞行生物，和她的妹妹不同，她可不会破坏草皮。"
 ---
-
-<script setup>
-import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
-import unitData from "@/assets/unit-data/1007-Night-Witch.json";
-</script>
-
-<SyncedUnitData :data="unitData" :historyAfter="'2024-02-27'">
-
-<template #introduction>
 
 - *如想查看家乡的女巫，请访问：[女巫](/upgrade/0084-Witch)。*
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Night_Witch_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
 
-每次召唤数量：暗夜女巫并不是每次都会召唤 3 到 4 个蝙蝠，当一只暗夜女巫召唤的蝙蝠达到上表的限制时，除非蝙蝠死亡，否则不会继续召唤。这个上限指的是每只暗夜女巫召唤的蝙蝠，如果有两只暗夜女巫，那么场上的最大蝙蝠数量为 2 倍上限。<br>
-开启技能后的召唤数量：开启技能后暗夜女巫会额外召唤一批蝙蝠，注意是额外召唤的，不受上限影响。
+<SmallTitle>各等级图片</SmallTitle>
 
-</template>
+<Panel>
+    <UnitImgGroup :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="9 - 11 级" imgSrc="Night_Witch9.png" />
+        <UnitImg imgTitle="12 - 15 级" imgSrc="Night_Witch12.png" />
+        <UnitImg imgTitle="16 - 17 级" imgSrc="Night_Witch16.png" />
+        <UnitImg imgTitle="18 - 19 级" imgSrc="Night_Witch18.png" />
+        <UnitImg imgTitle="20 级" imgSrc="Night_Witch20.png" />
+        <UnitImg imgTitle="蝙蝠" imgSrc="Night_Witch_Bat1.png" />
+    </UnitImgGroup>
+</Panel>
 
-<template #history>
+<SmallTitle>暗夜女巫的属性</SmallTitle>
+
+<UnitProperties>
+    <UnitProperty pKey="部队类型" pValue="地面远程单位" />
+    <UnitProperty pKey="攻击偏好" pValue="无" />
+    <UnitProperty pKey="伤害类型" pValue="范围伤害" />
+    <UnitProperty pKey="伤害半径" pValue="0.3 格" />
+    <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
+    <UnitProperty pKey="部队重量" pValue="14" />
+    <UnitProperty pKey="移动速度" pValue="1.5 格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="0.7 秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="4 格" />
+    <UnitProperty pKey="每个兵营的部队数量" pValue="1" />
+    <UnitProperty pKey="所需训练营等级" pValue="8" />
+    <UnitProperty pKey="所需夜世界大本等级" pValue="6" />
+</UnitProperties>
+
+<SmallTitle>特殊技能的属性</SmallTitle>
+
+<UnitProperties>
+    <UnitProperty pKey="技能名称" pValue="蝙蝠召唤" />
+    <UnitProperty pKey="技能类型" pValue="一次性技能" />
+    <UnitProperty pKey="技能描述" pValue="额外召唤一群蝙蝠" />
+</UnitProperties>
+
+<SmallTitle>蝙蝠的属性</SmallTitle>
+
+<UnitProperties>
+    <UnitProperty pKey="部队类型" pValue="空中单位" />
+    <UnitProperty pKey="攻击偏好" pValue="无" />
+    <UnitProperty pKey="伤害类型" pValue="单体伤害" />
+    <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
+    <UnitProperty pKey="移动速度" pValue="7 格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="2 秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="0.3 格" />
+    <UnitProperty pKey="每秒伤害" pValue="20" />
+    <UnitProperty pKey="每次伤害" pValue="40" />
+    <UnitProperty pKey="生命值" pValue="10" />
+</UnitProperties>
+
+<SmallTitle>升级数据</SmallTitle>
+
+<script setup>
+const tableExtraInfo = [
+    {
+        "column": 7,
+        "type": "cost",
+        "gpClass": "research",
+        "icon": "Elixir2"
+    },
+    {
+        "column": 8,
+        "type": "time",
+        "gpClass": "research"
+    }
+];
+</script>
+
+<UnitTable :tableExtraInfo="tableExtraInfo">
+
+| 等级 | 每秒伤害 | 每次伤害|蝙蝠召唤的<br>冷却时间|每次召唤数量<sup>①</sup>|开启技能后的<br>召唤数量<sup>②</sup>|  生命值  | 升级花费 | 升级时间 |所需实验室和<br>大本营等级|
+| ---- |   ---   |   ---  |         ---        |           ---         |                ---                |   ---   |   ---   |    ---   |           ---          |
+| 9 | 176 | 123.2 | 6.0秒 | 3 (最高 4) | 7 | 750 | \ | \ | 6 |
+| 10 | 176 | 123.2 | 4.8秒 | 3 (最高 4) | 7 | 750 | 1400000 | 2,0,0,0 | 6 |
+| 11 | 193 | 135.1 | 4.8秒 | 3 (最高 4) | 7 | 830 | 1600000 | 2,0,0,0 | 6 |
+| 12 | 193 | 135.1 | 4.8秒 | 3 (最高 4) | 8 | 830 | 1800000 | 2,12,0,0 | 6 |
+| 13 | 216 | 151.2 | 4.8秒 | 3 (最高 4) | 8 | 915 | 2500000 | 3,12,0,0 | 7 |
+| 14 | 216 | 151.2 | 4.8秒 | 4 (最高 5) | 8 | 915 | 2700000 | 4,12,0,0 | 7 |
+| 15 | 234 | 163.8 | 4.8秒 | 4 (最高 5) | 8 | 1000 | 3500000 | 5,12,0,0 | 8 |
+| 16 | 234 | 163.8 | 4.8秒 | 4 (最高 5) | 9 | 1000 | 3700000 | 5,12,0,0 | 8 |
+| 17 | 257 | 179.9 | 4.8秒 | 4 (最高 5) | 9 | 1100 | 4200000 | 6,0,0,0 | 9 |
+| 18 | 257 | 179.9 | 4.8秒 | 4 (最高 5) | 10 | 1100 | 4400000 | 6,0,0,0 | 9 |
+| 19 | 278 | 194.6 | 4.8秒 | 4 (最高 5) | 10 | 1220 | 5200000 | 6,12,0,0 | 10 |
+| 20 | 278 | 194.6 | 4.8秒 | 4 (最高 5) | 11 | 1220 | 5600000 | 6,12,0,0 | 10 |
+</UnitTable>
+
+① 暗夜女巫并不是每次都会召唤 3 到 4 个蝙蝠，当一只暗夜女巫召唤的蝙蝠达到上表的限制时，除非蝙蝠死亡，否则不会继续召唤。这个上限指的是每只暗夜女巫召唤的蝙蝠，如果有两只暗夜女巫，那么场上的最大蝙蝠数量为 2 倍上限。<br>
+② 开启技能后暗夜女巫会额外召唤一批蝙蝠，注意是额外召唤的，不受上限影响。
+
+<SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2024/02/27">
@@ -54,7 +132,4 @@ import unitData from "@/assets/unit-data/1007-Night-Witch.json";
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
-
-</template>
-
-</SyncedUnitData>
+<p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Night_Witch?oldid=624859" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>

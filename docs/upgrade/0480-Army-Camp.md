@@ -2,31 +2,98 @@
 title: "部落冲突 coc 兵营升级数据"
 navTitle: "兵营"
 shownTitle: "兵营"
+description: "部队驻扎在兵营。建造并升级兵营以容纳更多部队。"
 module: upgrade-home
 imgFolder: home_buildings/0480
 wiki: https://clashofclans.fandom.com/wiki/Army_Camp
 canonical: /upgrade/0480-Army-Camp
 dataSyncedOn: 2026-10-13
-description: "部队驻扎在兵营。建造并升级兵营以容纳更多部队。"
 ---
-
-<script setup>
-import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
-import unitData from "@/assets/unit-data/0480-Army-Camp.json";
-</script>
-
-<SyncedUnitData :data="unitData" :historyAfter="'2025-11-17'">
-
-<template #introduction>
 
 - *如想查看夜世界的兵营，请访问：[夜世界兵营](/upgrade/1281-Army-Camp)。*
 - *如想查看都城的兵营，请访问：[都城兵营](/upgrade/2300-Army-Camp)。*
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Army_Camp13_hd.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
 
-</template>
+<SmallTitle>各等级图片</SmallTitle>
 
-<template #history>
+<Panel>
+    <UnitImgGroup :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="1 级" imgSrc="Army_Camp1.png" />
+        <UnitImg imgTitle="2 级" imgSrc="Army_Camp2.png" />
+        <UnitImg imgTitle="3 级" imgSrc="Army_Camp3.png" />
+        <UnitImg imgTitle="4 级" imgSrc="Army_Camp4.png" />
+        <UnitImg imgTitle="5 级" imgSrc="Army_Camp5.png" />
+        <UnitImg imgTitle="6 级" imgSrc="Army_Camp6.png" />
+        <UnitImg imgTitle="7 级" imgSrc="Army_Camp7.png" />
+        <UnitImg imgTitle="8 级" imgSrc="Army_Camp8.png" />
+        <UnitImg imgTitle="9 级" imgSrc="Army_Camp9.png" />
+        <UnitImg imgTitle="10 级" imgSrc="Army_Camp10.png" />
+        <UnitImg imgTitle="11 级" imgSrc="Army_Camp11.png" />
+        <UnitImg imgTitle="12 级" imgSrc="Army_Camp12.png" />
+        <UnitImg imgTitle="13 级" imgSrc="Army_Camp13.png" imgHd="Army_Camp13_hd.png" />
+            <UnitImg imgTitle="14 级" imgSrc="Army_Camp14.png" />
+</UnitImgGroup>
+</Panel>
+
+<SmallTitle>建筑数量对照表</SmallTitle>
+
+<BuildingNum>
+    <BuildingNumRow title="大本等级" num="1 - 2, 3 - 4, 5 - 6, 7 - 18" />
+    <BuildingNumRow title="建筑数量" num="    1,     2,     3,      4" />
+</BuildingNum>
+
+<SmallTitle>属性</SmallTitle>
+
+<UnitProperties>
+    <UnitProperty pKey="占地面积" pValue="4×4" />
+    <UnitProperty pKey="判定面积" pValue="2×2" :isJudgeSquare="true" />
+</UnitProperties>
+
+<SmallTitle>升级数据</SmallTitle>
+
+<script setup>
+const tableExtraInfo = [
+    {
+        "column": 3,
+        "type": "cost",
+        "gpClass": "building",
+        "icon": "Elixir"
+    },
+    {
+        "column": 4,
+        "type": "time",
+        "gpClass": "building"
+    },
+    {
+        "column": 5,
+        "type": "exp",
+        "icon": "Exp"
+    }
+];
+</script>
+
+<UnitTable :tableExtraInfo="tableExtraInfo">
+
+| 等级 | 可容纳的<br>部队人口 | 生命值 | 升级费用 |  升级时间 | 升级后可获<br>得的经验  | 所需<br>大本等级 |
+| ---- |        ----        |  ----  |   ----  |    ---   |          ---          |       ---       |
+| 1 | 20 | 100 | 200 | 0,0,1,0 |  | 1 |
+| 2 | 30 | 150 | 2000 | 0,0,5,0 |  | 2 |
+| 3 | 35 | 200 | 10000 | 0,0,30,0 |  | 3 |
+| 4 | 40 | 250 | 100000 | 0,2,0,0 |  | 4 |
+| 5 | 45 | 300 | 250000 | 0,6,0,0 |  | 5 |
+| 6 | 50 | 330 | 500000 | 0,12,0,0 |  | 6 |
+| 7 | 55 | 400 | 1500000 | 2,0,0,0 |  | 9 |
+| 8 | 60 | 500 | 2500000 | 3,0,0,0 |  | 10 |
+| 9 | 65 | 600 | 4200000 | 3,12,0,0 |  | 11 |
+| 10 | 70 | 700 | 4500000 | 4,0,0,0 |  | 12 |
+| 11 | 75 | 800 | 7500000 | 5,0,0,0 |  | 13 |
+| 12 | 80 | 850 | 10000000 | 6,0,0,0 |  | 15 |
+| 13 | 85 | 900 | 17000000 | 7,12,0,0 |  | 17 |
+| 14 | 88 | 950 | 26000000 | 15,0,0,0 |  | 18 |
+</UnitTable>
+
+<SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2025/11/17">
@@ -78,7 +145,4 @@ import unitData from "@/assets/unit-data/0480-Army-Camp.json";
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
-
-</template>
-
-</SyncedUnitData>
+<p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Army_Camp?oldid=595938" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>

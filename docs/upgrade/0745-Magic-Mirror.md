@@ -2,22 +2,13 @@
 title: "部落冲突 coc 克隆魔镜（复制魔镜）装备升级数据"
 navTitle: "克隆魔镜"
 shownTitle: "克隆魔镜（复制魔镜）"
+description: "克隆魔镜弓箭女皇的第二件史诗装备，它在 2024 年 8 月 7 日的镜像克隆神技活动中首次亮相，并在 8 月 9 日的动漫与部落活动中开放购买。带上克隆魔镜装备后，使用技能时会召唤女王的临时分身并使女王本体隐形一秒。"
 module: upgrade-home
 imgFolder: home_heroes/0745
 wiki: https://clashofclans.fandom.com/wiki/Magic_Mirror
 canonical: /upgrade/0745-Magic-Mirror
 dataSyncedOn: 2026-10-13
-description: "克隆魔镜弓箭女皇的第二件史诗装备，它在 2024 年 8 月 7 日的镜像克隆神技活动中首次亮相，并在 8 月 9 日的动漫与部落活动中开放购买。带上克隆魔镜装备后，使用技能时会召唤女王的临时分身并使女王本体隐形一秒。"
 ---
-
-<script setup>
-import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
-import unitData from "@/assets/unit-data/0745-Magic-Mirror.json";
-</script>
-
-<SyncedUnitData :data="unitData" :historyAfter="'2024-11-25'">
-
-<template #introduction>
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Magic_Mirror_info.png" :imgAlt="$frontmatter.navTitle" description="召唤弓箭女皇的克隆体。" />
 
@@ -36,11 +27,85 @@ import unitData from "@/assets/unit-data/0745-Magic-Mirror.json";
     - 在使用 [回溯法术](/upgrade/0107-Recall-Spell) 时，女王的克隆体为 25 单位。
     - 女王的克隆体属于 [英雄猎手](/upgrade/0088-Headhunter) 的优先攻击目标。
 
+<SmallTitle>属性</SmallTitle>
+
+<UnitProperties>
+    <UnitProperty pKey="技能类型" pValue="主动技能" />
+    <UnitProperty pKey="装备稀有度" pValue="史诗" />
+</UnitProperties>
+
+<SmallTitle>升级数据</SmallTitle>
+
+<script setup>
+const tableExtraInfo = [
+    {
+        "column": 7,
+        "type": "cost",
+        "icon": "Shiny_Ore",
+        "noGoldPass": true
+    },
+    {
+        "column": 8,
+        "type": "cost",
+        "icon": "Glowy_Ore",
+        "noGoldPass": true
+    },
+    {
+        "column": 9,
+        "type": "cost",
+        "icon": "Starry_Ore",
+        "noGoldPass": true
+    }
+];
+</script>
+
+<UnitTable :tableExtraInfo="tableExtraInfo">
+
+| 等级 |克隆体<br>数量|克隆体<br>存活时间|克隆体的<br>每秒伤害|克隆体的<br>生命值|英雄<br>生命值增加|技能回血<br>属性加成|升级费用|升级费用|升级费用|所需<br>铁匠铺等级|所需<br>大本等级|
+| ---- |     ---     |       ---       |       ---        |       ---       |      ---        |         ---      |  ---  |   ---  |  ---  |       ---       |      ---      |
+| 1 | 1 | 20秒 | 136 | 580 | 88 | 198 | \ | \ | \ | 1 | 8 |
+| 2 | 1 | 20秒 | 136 | 580 | 96 | 229 | 120 | \ | \ | 1 | 8 |
+| 3 | 1 | 20秒 | 206 | 873 | 113 | 250 | 240 | 20 | \ | 1 | 8 |
+| 4 | 1 | 20秒 | 206 | 873 | 131 | 271 | 400 | \ | \ | 1 | 8 |
+| 5 | 1 | 20秒 | 206 | 873 | 157 | 294 | 600 | \ | \ | 1 | 8 |
+| 6 | 1 | 20秒 | 276 | 1166 | 184 | 317 | 840 | 100 | \ | 1 | 8 |
+| 7 | 1 | 20秒 | 276 | 1166 | 228 | 344 | 1120 | \ | \ | 1 | 8 |
+| 8 | 1 | 20秒 | 276 | 1166 | 272 | 372 | 1440 | \ | \ | 1 | 8 |
+| 9 | 1 | 25秒 | 346 | 1459 | 307 | 397 | 1800 | 200 | 10 | 1 | 8 |
+| 10 | 1 | 25秒 | 346 | 1459 | 342 | 423 | 1900 | \ | \ | 1 | 8 |
+| 11 | 1 | 25秒 | 346 | 1459 | 377 | 448 | 2000 | \ | \ | 1 | 8 |
+| 12 | 1 | 25秒 | 416 | 1752 | 412 | 474 | 2100 | 400 | 20 | 1 | 8 |
+| 13 | 1 | 25秒 | 416 | 1752 | 448 | 498 | 2200 | \ | \ | 3 | 10 |
+| 14 | 1 | 25秒 | 416 | 1752 | 483 | 529 | 2300 | \ | \ | 3 | 10 |
+| 15 | 1 | 25秒 | 486 | 2045 | 518 | 560 | 2400 | 600 | 30 | 3 | 10 |
+| 16 | 1 | 25秒 | 486 | 2045 | 553 | 591 | 2500 | \ | \ | 5 | 12 |
+| 17 | 1 | 25秒 | 486 | 2045 | 588 | 622 | 2600 | \ | \ | 5 | 12 |
+| 18 | 2 | 25秒 | 556 | 2338 | 624 | 652 | 2700 | 600 | 50 | 5 | 12 |
+| 19 | 2 | 25秒 | 556 | 2338 | 650 | 679 | 2800 | \ | \ | 7 | 14 |
+| 20 | 2 | 25秒 | 556 | 2338 | 676 | 706 | 2900 | \ | \ | 7 | 14 |
+| 21 | 2 | 25秒 | 626 | 2631 | 703 | 732 | 3000 | 600 | 100 | 7 | 14 |
+| 22 | 2 | 25秒 | 626 | 2631 | 729 | 759 | 3100 | \ | \ | 8 | 15 |
+| 23 | 2 | 25秒 | 626 | 2631 | 756 | 784 | 3200 | \ | \ | 8 | 15 |
+| 24 | 2 | 25秒 | 696 | 2924 | 782 | 811 | 3300 | 600 | 120 | 8 | 15 |
+| 25 | 2 | 25秒 | 696 | 2924 | 808 | 838 | 3400 | \ | \ | 9 | 16 |
+| 26 | 2 | 25秒 | 696 | 2924 | 835 | 864 | 3500 | \ | \ | 9 | 16 |
+| 27 | 2 | 30秒 | 765 | 3216 | 861 | 891 | 3600 | 600 | 150 | 9 | 16 |
+</UnitTable>
+
 注：如果升级费用中有多种资源，则同时需要多种资源才能升级。
 
-</template>
+<SmallTitle>推出记录</SmallTitle>
 
-<template #history>
+<UnitTable>
+
+| 推出时间 |  活动名称  |     价格        | 购买渠道 |
+|   ---   |    ---    |      ---        |    ---   |
+| 2024/08 | 动漫与部落 | 3 100 魔法奖章   |   商人   |
+| 2025/06 |  黑暗交易  | 3 100 恶作剧奖章 |   商人   |
+| 2025/12 |  熔岩危机  | 3 100 火苗奖章   |   商人   |
+</UnitTable>
+
+<SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2024/11/25">
@@ -51,7 +116,4 @@ import unitData from "@/assets/unit-data/0745-Magic-Mirror.json";
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
-
-</template>
-
-</SyncedUnitData>
+<p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Magic_Mirror?oldid=621024" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>

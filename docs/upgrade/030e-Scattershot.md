@@ -2,26 +2,47 @@
 title: "部落冲突 coc 投石炮（投石机）升级数据"
 navTitle: "投石炮"
 shownTitle: "投石炮（投石机）"
+description: "投石炮朝射程内最近的目标发射又大又重的石块，但这些石块捆得并不牢固，它们撞击目标后会散开，对目标后方的部队造成溅射伤害。"
 module: upgrade-home
 imgFolder: home_buildings/030e
 wiki: https://clashofclans.fandom.com/wiki/Scattershot
 canonical: /upgrade/030e-Scattershot
 dataSyncedOn: 2026-10-13
-description: "投石炮朝射程内最近的目标发射又大又重的石块，但这些石块捆得并不牢固，它们撞击目标后会散开，对目标后方的部队造成溅射伤害。"
 ---
-
-<script setup>
-import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
-import unitData from "@/assets/unit-data/030e-Scattershot.json";
-</script>
-
-<SyncedUnitData :data="unitData" :historyAfter="'2025-11-17'">
-
-<template #introduction>
 
 - *玩家所说的投石车指的是攻城烈焰车，而不是投石炮，攻城烈焰车的数据请参考： [攻城烈焰车](/upgrade/0245-Flame-Flinger)。*
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Scattershot6_hd.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
+
+<SmallTitle>各等级图片</SmallTitle>
+
+<Panel>
+    <UnitImgGroup title="日常状态" :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="1 级" imgSrc="Scattershot1.png" />
+        <UnitImg imgTitle="2 级" imgSrc="Scattershot2.png" />
+        <UnitImg imgTitle="3 级" imgSrc="Scattershot3.png" />
+        <UnitImg imgTitle="4 级" imgSrc="Scattershot4.png" />
+        <UnitImg imgTitle="5 级" imgSrc="Scattershot5.png" />
+        <UnitImg imgTitle="6 级" imgSrc="Scattershot6.png" />
+            <UnitImg imgTitle="7 级" imgSrc="Scattershot7.png" />
+</UnitImgGroup>
+        <UnitImgGroup title="无弹药" :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="1 级" imgSrc="Scattershot1_Depleted.png" />
+        <UnitImg imgTitle="2 级" imgSrc="Scattershot2_Depleted.png" />
+        <UnitImg imgTitle="3 级" imgSrc="Scattershot3_Depleted.png" />
+        <UnitImg imgTitle="4 级" imgSrc="Scattershot4_Depleted.png" />
+        <UnitImg imgTitle="5 级" imgSrc="Scattershot5_Depleted.png" />
+        <UnitImg imgTitle="6 级" imgSrc="Scattershot6_Depleted.png" />
+            <UnitImg imgTitle="7 级（弹药耗尽）" imgSrc="Scattershot7_Depleted.png" />
+</UnitImgGroup>
+</Panel>
+
+<SmallTitle>建筑数量对照表</SmallTitle>
+
+<BuildingNum>
+    <BuildingNumRow title="大本等级" num="1 - 12, 13 - 18" />
+    <BuildingNumRow title="建筑数量" num="     0,       2" />
+</BuildingNum>
 
 <SmallTitle>重要说明</SmallTitle>
 
@@ -31,13 +52,72 @@ import unitData from "@/assets/unit-data/030e-Scattershot.json";
 4. 投石炮必须装弹才能工作，这个装弹操作会在玩家登录游戏时自动进行，但如果玩家长时间不登录，弹药就会用完，从而导致防御失效。
     - 用完投石炮的弹药需要 4 分 51 秒。
 
+<SmallTitle>属性</SmallTitle>
+
+<UnitProperties>
+    <UnitProperty pKey="占地面积" pValue="3×3" />
+    <UnitProperty pKey="判定面积" pValue="2×2" :isJudgeSquare="true" />
+    <UnitProperty pKey="伤害类型" pValue="范围伤害" />
+    <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
+    <UnitProperty pKey="伤害半径" pValue="1 格" />
+    <UnitProperty pKey="射程" pValue="3 ~ 10 格" />
+    <UnitProperty pKey="攻速" pValue="3.2 秒/次<sup>*</sup>" />
+    <UnitProperty pKey="目标切换速度" pValue="2.2 秒" />
+    <UnitProperty pKey="弹药数量" pValue="90" />
+</UnitProperties>
+
 \* 按照官方说法，投石炮的攻速为 3.228 秒/次，但经实测，这个零头并不存在，其实际攻速就是 3.2 秒/次。
 
-</template>
+<SmallTitle>升级数据</SmallTitle>
 
-<template #history>
+<script setup>
+const tableExtraInfo = [
+    {
+        "column": 5,
+        "type": "cost",
+        "gpClass": "building",
+        "icon": "Gold"
+    },
+    {
+        "column": 6,
+        "type": "time",
+        "gpClass": "building"
+    },
+    {
+        "column": 7,
+        "type": "exp",
+        "icon": "Exp"
+    }
+];
+</script>
+
+<UnitTable :tableExtraInfo="tableExtraInfo">
+
+| 等级 | 每秒伤害 |   溅射伤害   |  散射伤害  | 生命值 | 升级费用 |  升级时间  |升级后可<br>获得的经验|  所需<br>大本等级 |
+| ---- |   ---   |     ---     |    ---    |   ---  |   ---   |    ----   |        ---          |       ----      |
+| 1 | 125 | 300-400 | 100-300 | 3600 | 8000000 | 5,0,0,0 |  | 13 |
+| 2 | 150 | 360-480 | 120-360 | 4200 | 9000000 | 7,0,0,0 |  | 13 |
+| 3 | 170 | 380-544 | 130-380 | 4800 | 11000000 | 7,12,0,0 |  | 14 |
+| 4 | 175 | 400-560 | 140-400 | 5100 | 11500000 | 8,0,0,0 |  | 15 |
+| 5 | 180 | 420-576 | 150-420 | 5410 | 12000000 | 8,12,0,0 |  | 16 |
+| 6 | 185 | 440-592 | 155-440 | 5600 | 16500000 | 9,0,0,0 |  | 17 |
+| 7 | 190 | 450-608 | 160-450 | 5800 | 26500000 | 15,0,0,0 |  | 18 |
+| ⚡1 | 193 | 450-617.6 | 160-450 | 5800 | 14500000 | 5,0,0,0 |  | 18 |
+| ⚡2 | 193 | 450-617.6 | 160-450 | 5950 | 9500000 | 7,0,0,0 |  | 18 |
+</UnitTable>
+
+<SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/06/16">
+        <TimelineRow>投石炮新增2个蓄能等级。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2026/04/27">
+        <TimelineRow>新增7级投石炮，移除6级蓄能；1级升级时间6天→5天，6级10天12小时→9天，同时调整单位描述。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2026/02/23">
+        <TimelineRow>调整全部蓄能等级的时间： 蓄能1级： 5天 → 2天 12小时 蓄能2级： 7天 → 4天 调整全部蓄能等级的费用： 蓄能1级： 11,000,000 → 6,000,000 金币 蓄能2级： 7,000,000 → 3,500,000 金币</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/11/17">
         <TimelineRow>6 级投石炮的升级时间和升级费用减少。</TimelineRow>
     </TimelineItem>
@@ -100,7 +180,4 @@ import unitData from "@/assets/unit-data/030e-Scattershot.json";
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
-
-</template>
-
-</SyncedUnitData>
+<p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Scattershot?oldid=624490" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>

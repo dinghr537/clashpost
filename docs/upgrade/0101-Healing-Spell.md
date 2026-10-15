@@ -2,22 +2,13 @@
 title: "部落冲突 coc 疗伤法术（治疗）升级数据"
 navTitle: "疗伤法术"
 shownTitle: "疗伤法术（治疗）"
+description: "恢复部队的元气，让他们保持战斗力！施放疗伤法术会产生一个治疗光环，治愈该法术光环之内的部队。"
 module: upgrade-home
 imgFolder: home_tech/0101
 wiki: https://clashofclans.fandom.com/wiki/Healing_Spell
 canonical: /upgrade/0101-Healing-Spell
 dataSyncedOn: 2026-10-13
-description: "恢复部队的元气，让他们保持战斗力！施放疗伤法术会产生一个治疗光环，治愈该法术光环之内的部队。"
 ---
-
-<script setup>
-import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
-import unitData from "@/assets/unit-data/0101-Healing-Spell.json";
-</script>
-
-<SyncedUnitData :data="unitData" :historyAfter="'2025-11-17'">
-
-<template #introduction>
 
 - *如想查看都城的疗伤法术，请访问：[都城疗伤法术](/upgrade/2100-Healing-Spell)。*
 
@@ -31,14 +22,64 @@ import unitData from "@/assets/unit-data/0101-Healing-Spell.json";
 2. 疗伤法术治疗我方英雄时，其效果会减弱。疗伤法术对攻城机器无效。
 3. 疗伤法术可以与 治疗单位 的治疗效果直接叠加。
 
+<SmallTitle>属性</SmallTitle>
+
+<UnitProperties>
+    <UnitProperty pKey="作用半径" pValue="5 格" />
+    <UnitProperty pKey="作用类型" pValue="范围内脉冲赋能" />
+    <UnitProperty pKey="作用目标" pValue="我方部队和英雄" />
+    <UnitProperty pKey="治疗次数" pValue="41" />
+    <UnitProperty pKey="两次治疗的间隔时间" pValue="0.3 秒<sup>*</sup>" />
+    <UnitProperty pKey="法术持续时间" pValue="12 秒" />
+    <UnitProperty pKey="占用的法术空间" pValue="2" />
+    <UnitProperty pKey="所需法术工厂等级" pValue="2" />
+    <UnitProperty pKey="所需大本等级" pValue="6" />
+    <UnitProperty pKey="法术配置时间" pValue="无" trainingSystem="2025" />
+    <UnitProperty pKey="捐赠费用" pValue="6,6,18000,Elixir" :isDonationCost="true" />
+</UnitProperties>
+
 \* 疗伤法术的治疗方式是每隔 0.3 秒给法术作用范围内兵种增加部分生命值。
 
-最大总治疗量(部队)：表格中的总治疗量指的是每个兵都可以享受这么多治疗量。<br>
-所需实验室等级：如果玩家升级到 6 级大本营并且解锁了疗伤法术，即使玩家没有立即升实验室也可以升级疗伤法术。
+<SmallTitle>升级数据</SmallTitle>
 
-</template>
+<script setup>
+const tableExtraInfo = [
+    {
+        "column": 3,
+        "type": "cost",
+        "gpClass": "research",
+        "icon": "Elixir"
+    },
+    {
+        "column": 4,
+        "type": "time",
+        "gpClass": "research"
+    }
+];
+</script>
 
-<template #history>
+<UnitTable :tableExtraInfo="tableExtraInfo">
+
+| 等级 |最大总治疗量<br>(部队)<sup>①</sup>|最大总治疗量<br>(英雄)| 升级花费 |  升级时间  |所需实验室<br>等级<sup>②</sup>|所需<br>大本等级|
+| ---- |              ----              |         ----        |   ----  |    ----   |             ----            |      ----     |
+| 1 | 615 | 338.25 | \ | \ | 2 | 6 |
+| 2 | 820 | 451 | 75000 | 0,3,0,0 | 2 | 6 |
+| 3 | 1025 | 563.75 | 150000 | 0,6,0,0 | 4 | 6 |
+| 4 | 1230 | 676.5 | 300000 | 0,12,0,0 | 5 | 7 |
+| 5 | 1435 | 789.25 | 900000 | 1,0,0,0 | 6 | 8 |
+| 6 | 1640 | 902 | 1800000 | 1,12,0,0 | 7 | 9 |
+| 7 | 1845 | 1014.75 | 3000000 | 3,0,0,0 | 8 | 10 |
+| 8 | 2050 | 1127.5 | 6000000 | 5,0,0,0 | 11 | 13 |
+| 9 | 2255 | 1240.25 | 11000000 | 6,12,0,0 | 13 | 15 |
+| 10 | 2460 | 1353 | 14000000 | 7,0,0,0 | 14 | 16 |
+| 11 | 2747 | 1510.85 | 19000000 | 10,12,0,0 | 15 | 17 |
+| 12 | 3075 | 1691.25 | 29000000 | 15,0,0,0 | 16 | 18 |
+</UnitTable>
+
+① 表格中的总治疗量指的是每个兵都可以享受这么多治疗量。<br>
+② 如果玩家升级到 6 级大本营并且解锁了疗伤法术，即使玩家没有立即升实验室也可以升级疗伤法术。
+
+<SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2025/11/17">
@@ -92,7 +133,4 @@ import unitData from "@/assets/unit-data/0101-Healing-Spell.json";
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
-
-</template>
-
-</SyncedUnitData>
+<p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Healing_Spell?oldid=588153" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>

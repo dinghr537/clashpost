@@ -2,22 +2,13 @@
 title: "部落冲突 coc 暗黑魔球装备升级数据"
 navTitle: "暗黑魔球"
 shownTitle: "暗黑魔球"
+description: "暗黑魔球是亡灵王子的两件初始装备之一。暗黑魔球装备可以让亡灵王子使用技能时召唤出一颗水晶，并向他所面对的方向移动。水晶移动时会对周围的部队造成少量伤害，并在一段时间内减慢敌方单位的移动速度和攻击速度。"
 module: upgrade-home
 imgFolder: home_heroes/0721
 wiki: https://clashofclans.fandom.com/wiki/Dark_Orb
 canonical: /upgrade/0721-Dark-Orb
 dataSyncedOn: 2026-10-13
-description: "暗黑魔球是亡灵王子的两件初始装备之一。暗黑魔球装备可以让亡灵王子使用技能时召唤出一颗水晶，并向他所面对的方向移动。水晶移动时会对周围的部队造成少量伤害，并在一段时间内减慢敌方单位的移动速度和攻击速度。"
 ---
-
-<script setup>
-import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
-import unitData from "@/assets/unit-data/0721-Dark-Orb.json";
-</script>
-
-<SyncedUnitData :data="unitData" :historyAfter="'2025-11-17'">
-
-<template #introduction>
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Dark_Orb_info.png" :imgAlt="$frontmatter.navTitle" description="对命中的所有目标造成伤害，并减缓目标的速度" />
 
@@ -29,14 +20,64 @@ import unitData from "@/assets/unit-data/0721-Dark-Orb.json";
     - 由于水晶只对亡灵王子前方的单位有效，因此使用技能时需要注意亡灵王子面对的方向，以免浪费技能。
 3. 除了召唤水晶外，该装备还可以为亡灵王子提供额外的每秒伤害和生命值。
 
+<SmallTitle>属性</SmallTitle>
+
+<UnitProperties>
+    <UnitProperty pKey="技能类型" pValue="主动技能" />
+    <UnitProperty pKey="装备稀有度" pValue="普通" />
+    <UnitProperty pKey="解锁条件" pValue="有亡灵王子即可" />
+    <UnitProperty pKey="水晶的作用半径" pValue="6 格（中心点在英雄前方）" />
+</UnitProperties>
+
+<SmallTitle>升级数据</SmallTitle>
+
+<script setup>
+const tableExtraInfo = [
+    {
+        "column": 6,
+        "type": "cost",
+        "icon": "Shiny_Ore",
+        "noGoldPass": true
+    },
+    {
+        "column": 7,
+        "type": "cost",
+        "icon": "Glowy_Ore",
+        "noGoldPass": true
+    }
+];
+</script>
+
+<UnitTable :tableExtraInfo="tableExtraInfo">
+
+| 等级 |水晶伤害|水晶<br>减速比例|减速<br>持续时间|英雄每秒伤害<br>增加|英雄<br>生命值增加|升级费用|升级费用|所需<br>铁匠铺等级|所需<br>大本等级|
+| ---- |  ---  |      ---      |       ---     |        ---       |       ---       |   --- |  ---  |       ---       |       ---     |
+| 1 | 45 | 20% | 8秒 | 10 | 588 | \ | \ | 1 | 8 |
+| 2 | 45 | 20% | 8秒 | 13 | 603 | 120 | \ | 1 | 8 |
+| 3 | 55 | 25% | 9秒 | 18 | 617 | 240 | 20 | 1 | 8 |
+| 4 | 55 | 25% | 9秒 | 21 | 631 | 400 | \ | 1 | 8 |
+| 5 | 55 | 25% | 9秒 | 24 | 647 | 600 | \ | 1 | 8 |
+| 6 | 65 | 30% | 10秒 | 29 | 661 | 840 | 100 | 1 | 8 |
+| 7 | 65 | 30% | 10秒 | 32 | 675 | 1120 | \ | 1 | 8 |
+| 8 | 65 | 30% | 10秒 | 35 | 600 | 1440 | \ | 1 | 8 |
+| 9 | 75 | 35% | 11秒 | 40 | 719 | 1800 | 200 | 1 | 8 |
+| 10 | 75 | 35% | 11秒 | 43 | 766 | 1900 | \ | 3 | 10 |
+| 11 | 75 | 35% | 11秒 | 46 | 813 | 2000 | \ | 3 | 10 |
+| 12 | 100 | 40% | 13秒 | 51 | 859 | 2100 | 400 | 3 | 10 |
+| 13 | 100 | 40% | 13秒 | 54 | 906 | 2200 | \ | 5 | 12 |
+| 14 | 100 | 40% | 13秒 | 57 | 953 | 2300 | \ | 5 | 12 |
+| 15 | 150 | 45% | 15秒 | 62 | 1000 | 2400 | 600 | 5 | 12 |
+| 16 | 150 | 45% | 15秒 | 65 | 1046 | 2500 | \ | 7 | 14 |
+| 17 | 150 | 45% | 15秒 | 68 | 1093 | 2600 | \ | 7 | 14 |
+| 18 | 200 | 50% | 18秒 | 73 | 1140 | 2700 | 600 | 7 | 14 |
+</UnitTable>
+
 注意：
 
-4. 如果升级费用中有多种资源，则同时需要多种资源才能升级。
-5. 如果玩家升级到了 9 本并解锁了亡灵王子，即使玩家没有马上升 [铁匠铺](/upgrade/0488-Blacksmith) 也可以升级护卫玩偶装备。
+1. 如果升级费用中有多种资源，则同时需要多种资源才能升级。
+2. 如果玩家升级到了 9 本并解锁了亡灵王子，即使玩家没有马上升 [铁匠铺](/upgrade/0488-Blacksmith) 也可以升级护卫玩偶装备。
 
-</template>
-
-<template #history>
+<SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2025/11/17">
@@ -47,7 +88,4 @@ import unitData from "@/assets/unit-data/0721-Dark-Orb.json";
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
-
-</template>
-
-</SyncedUnitData>
+<p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Dark_Orb?oldid=622302" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>

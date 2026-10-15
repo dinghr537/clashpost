@@ -2,22 +2,13 @@
 title: "部落冲突 coc 寻踪飞盾（追踪神盾）装备升级数据"
 navTitle: "寻踪飞盾"
 shownTitle: "寻踪飞盾（追踪神盾）"
+description: "寻踪飞盾是飞盾战神的两件初始装备之一。寻踪飞盾装备可以让飞盾战神在使用技能时投掷一个盾牌，盾牌会击中四个不同的目标，对每个目标造成固定伤害。盾牌优先攻击防御建筑的特点使它非常适合用来清理阵型中间的关键防御，它攻击距离无限的特点使它十分适合用来在战斗结束时清理角落的建筑工人小屋。"
 module: upgrade-home
 imgFolder: home_heroes/07c0
 wiki: https://clashofclans.fandom.com/wiki/Seeking_Shield
 canonical: /upgrade/07c0-Seeking-Shield
 dataSyncedOn: 2026-10-13
-description: "寻踪飞盾是飞盾战神的两件初始装备之一。寻踪飞盾装备可以让飞盾战神在使用技能时投掷一个盾牌，盾牌会击中四个不同的目标，对每个目标造成固定伤害。盾牌优先攻击防御建筑的特点使它非常适合用来清理阵型中间的关键防御，它攻击距离无限的特点使它十分适合用来在战斗结束时清理角落的建筑工人小屋。"
 ---
-
-<script setup>
-import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
-import unitData from "@/assets/unit-data/07c0-Seeking-Shield.json";
-</script>
-
-<SyncedUnitData :data="unitData" :historyAfter="'2023-12-12'">
-
-<template #introduction>
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Seeking_Shield_info.png" :imgAlt="$frontmatter.navTitle" description="投掷盾牌，在防御建筑间弹跳并造成伤害。" />
 
@@ -30,16 +21,90 @@ import unitData from "@/assets/unit-data/07c0-Seeking-Shield.json";
    - 盾牌的攻击距离是无限的，因此十分适合用来在战斗结束时清理角落的 [建筑工人小屋](/upgrade/0500-Builders-Hut)。
 3. 除了投掷盾牌外，寻踪飞盾装备还可以增加飞盾战神的生命值。
 
+<SmallTitle>属性</SmallTitle>
+
+<UnitProperties>
+    <UnitProperty pKey="技能类型" pValue="主动技能" />
+    <UnitProperty pKey="装备稀有度" pValue="普通" />
+    <UnitProperty pKey="解锁条件" pValue="有飞盾战神即可" />
+    <UnitProperty pKey="目标数量" pValue="4" />
+    <UnitProperty pKey="目标类型" pValue="地面和空中目标" />
+</UnitProperties>
+
+<SmallTitle>升级数据</SmallTitle>
+
+<script setup>
+const tableExtraInfo = [
+    {
+        "column": 3,
+        "type": "cost",
+        "icon": "Shiny_Ore",
+        "noGoldPass": true
+    },
+    {
+        "column": 4,
+        "type": "cost",
+        "icon": "Glowy_Ore",
+        "noGoldPass": true
+    }
+];
+</script>
+
+<UnitTable :tableExtraInfo="tableExtraInfo">
+
+| 等级 |每个目标的<br>伤害|英雄生命值<br>增加| 升级费用|升级费用|所需<br>铁匠铺等级|所需<br>大本等级|
+| ---- |       ---      |       ---       |   ---  |  ---  |       ---       |       ---      |
+| 1 | 1000 | 40 | \ | \ | 1 | 13 |
+| 2 | 1000 | 60 | 120 | \ | 1 | 8 |
+| 3 | 1250 | 80 | 240 | 20 | 1 | 8 |
+| 4 | 1250 | 100 | 400 | \ | 1 | 8 |
+| 5 | 1250 | 120 | 600 | \ | 1 | 8 |
+| 6 | 1500 | 140 | 840 | 100 | 1 | 8 |
+| 7 | 1500 | 160 | 1120 | \ | 1 | 8 |
+| 8 | 1500 | 180 | 1440 | \ | 1 | 8 |
+| 9 | 1750 | 200 | 1800 | 200 | 1 | 8 |
+| 10 | 1750 | 220 | 1900 | \ | 3 | 10 |
+| 11 | 1750 | 240 | 2000 | \ | 3 | 10 |
+| 12 | 2000 | 260 | 2100 | 400 | 3 | 10 |
+| 13 | 2000 | 280 | 2200 | \ | 5 | 12 |
+| 14 | 2000 | 300 | 2300 | \ | 5 | 12 |
+| 15 | 2250 | 320 | 2400 | 600 | 5 | 12 |
+| 16 | 2250 | 340 | 2500 | \ | 7 | 14 |
+| 17 | 2250 | 360 | 2600 | \ | 7 | 14 |
+| 18 | 2500 | 380 | 2700 | 600 | 7 | 14 |
+</UnitTable>
+
 注意：
 
-4. 如果升级费用中有多种资源，则同时需要多种资源才能升级。<br>
-5. 如果玩家升级到了 13 本并解锁了飞盾战神，即使玩家没有马上升 [铁匠铺](/upgrade/0488-Blacksmith) 也可以升级寻踪飞盾装备。
+1. 如果升级费用中有多种资源，则同时需要多种资源才能升级。<br>
+2. 如果玩家升级到了 13 本并解锁了飞盾战神，即使玩家没有马上升 [铁匠铺](/upgrade/0488-Blacksmith) 也可以升级寻踪飞盾装备。
+
+<SmallTitle>装备的初始等级</SmallTitle>
 
 在 2023 年 12 月装备系统发布时，已解锁飞盾战神的玩家会有一个初始的装备等级，并且不需要解锁铁匠铺。装备等级与玩家的英雄等级相关，具体如下表。
 
-</template>
+<Table maxWidth="25rem">
 
-<template #history>
+| 飞盾战神等级 | 寻踪飞盾等级 |
+|     ---     |     ---     |
+|    1 - 2    |      1      |
+|      3      |      2      |
+|      4      |      3      |
+|      5      |      4      |
+|    6 - 7    |      5      |
+|    8 - 9    |      6      |
+|   10 - 11   |      7      |
+|   12 - 14   |      8      |
+|   15 - 17   |      9      |
+|     18      |     10      |
+|     19      |     11      |
+|   20 - 24   |     12      |
+|   25 - 26   |     13      |
+|   27 - 29   |     14      |
+|   30 - 40   |     15      |
+</Table>
+
+<SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2023/12/12">
@@ -47,7 +112,4 @@ import unitData from "@/assets/unit-data/07c0-Seeking-Shield.json";
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
-
-</template>
-
-</SyncedUnitData>
+<p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Seeking_Shield?oldid=621327" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>

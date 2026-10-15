@@ -2,32 +2,92 @@
 title: "部落冲突 coc 空气炮（吹风机）升级数据"
 navTitle: "空气炮"
 shownTitle: "空气炮（吹风机）"
+description: "空气炮利用强力气流控制着天空，可以击退飞行的敌人。空气炮仅能朝一个方向喷射气流，因此请旋转它们来发挥最大作用！。"
 module: upgrade-home
 imgFolder: home_buildings/0306
 wiki: https://clashofclans.fandom.com/wiki/Air_Sweeper
 canonical: /upgrade/0306-Air-Sweeper
 dataSyncedOn: 2026-10-13
-description: "空气炮利用强力气流控制着天空，可以击退飞行的敌人。空气炮仅能朝一个方向喷射气流，因此请旋转它们来发挥最大作用！。"
 ---
-
-<script setup>
-import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
-import unitData from "@/assets/unit-data/0306-Air-Sweeper.json";
-</script>
-
-<SyncedUnitData :data="unitData" :historyAfter="'2025-03-24'">
-
-<template #introduction>
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Air_Sweeper7.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
 
-旋转时的调整角度：旋转时的调整角度是指玩家每次点击旋转按钮时调整的空气炮吹气口角度。<br>
-可攻击的范围角：设定好方向后，空气炮可发现在 1 ~ 15 格范围内，且在空气炮的吹气口正前方正负 52.5° 的目标。<br>
-气波角度：空气炮攻击时，可以发出 45° 大小的扇形气流。
+<SmallTitle>各等级图片</SmallTitle>
 
-</template>
+<Panel>
+    <UnitImgGroup title="空气炮" :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="1 级" imgSrc="Air_Sweeper1.png" />
+        <UnitImg imgTitle="2 级" imgSrc="Air_Sweeper2.png" />
+        <UnitImg imgTitle="3 级" imgSrc="Air_Sweeper3.png" />
+        <UnitImg imgTitle="4 级" imgSrc="Air_Sweeper4.png" />
+        <UnitImg imgTitle="5 级" imgSrc="Air_Sweeper5.png" />
+        <UnitImg imgTitle="6 级" imgSrc="Air_Sweeper6.png" />
+        <UnitImg imgTitle="7 级" imgSrc="Air_Sweeper7.png" />
+    </UnitImgGroup>
+</Panel>
 
-<template #history>
+<SmallTitle>建筑数量对照表</SmallTitle>
+
+<BuildingNum>
+    <BuildingNumRow title="大本等级" num="1 - 5, 6 - 8, 9 - 18" />
+    <BuildingNumRow title="建筑数量" num="    0,     1,      2" />
+</BuildingNum>
+
+<SmallTitle>属性</SmallTitle>
+
+<UnitProperties>
+    <UnitProperty pKey="占地面积" pValue="2×2" />
+    <UnitProperty pKey="判定面积" pValue="1×1" :isJudgeSquare="true" />
+    <UnitProperty pKey="作用类型" pValue="击退空中部队，无伤害" />
+    <UnitProperty pKey="作用目标" pValue="仅空中目标" />
+    <UnitProperty pKey="射程" pValue="1 ~ 15  格" />
+    <UnitProperty pKey="攻速" pValue="5 秒/次" />
+    <UnitProperty pKey="旋转时的调整角度" pValue="顺时针 45°<sup>①</sup>" />
+    <UnitProperty pKey="可攻击的范围角" pValue="105°<sup>②</sup>" />
+    <UnitProperty pKey="气波角度" pValue="45°<sup>③</sup>" />
+</UnitProperties>
+
+① 旋转时的调整角度是指玩家每次点击旋转按钮时调整的空气炮吹气口角度。<br>
+② 设定好方向后，空气炮可发现在 1 ~ 15 格范围内，且在空气炮的吹气口正前方正负 52.5° 的目标。<br>
+③ 空气炮攻击时，可以发出 45° 大小的扇形气流。
+
+<SmallTitle>升级数据</SmallTitle>
+
+<script setup>
+const tableExtraInfo = [
+    {
+        "column": 3,
+        "type": "cost",
+        "gpClass": "building",
+        "icon": "Gold"
+    },
+    {
+        "column": 4,
+        "type": "time",
+        "gpClass": "building"
+    },
+    {
+        "column": 5,
+        "type": "exp",
+        "icon": "Exp"
+    }
+];
+</script>
+
+<UnitTable :tableExtraInfo="tableExtraInfo">
+
+| 等级 | 每次攻击的<br>击退距离 | 生命值 | 升级费用 |  升级时间  |升级后可<br>获得的经验| 所需<br>大本等级 |
+| ---- |         ---          |   --- |    ---   |   ---     |        ---          |       ---      |
+| 1 | 1.6格 | 750 | 200000 | 0,4,0,0 |  | 6 |
+| 2 | 2.0格 | 800 | 300000 | 0,6,0,0 |  | 6 |
+| 3 | 2.4格 | 850 | 450000 | 0,8,0,0 |  | 7 |
+| 4 | 2.8格 | 900 | 800000 | 0,12,0,0 |  | 8 |
+| 5 | 3.2格 | 950 | 1200000 | 1,0,0,0 |  | 9 |
+| 6 | 3.6格 | 1000 | 1900000 | 2,0,0,0 |  | 10 |
+| 7 | 4.0格 | 1050 | 3400000 | 3,0,0,0 |  | 11 |
+</UnitTable>
+
+<SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2025/03/24">
@@ -49,7 +109,4 @@ import unitData from "@/assets/unit-data/0306-Air-Sweeper.json";
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
-
-</template>
-
-</SyncedUnitData>
+<p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Air_Sweeper?oldid=624486" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>

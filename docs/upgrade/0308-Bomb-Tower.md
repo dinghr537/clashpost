@@ -2,30 +2,104 @@
 title: "部落冲突 coc 炸弹塔升级数据"
 navTitle: "炸弹塔"
 shownTitle: "炸弹塔"
+description: "炸弹塔可以投掷炸弹轰炸附近的地面部队，被摧毁后会产生一个大爆炸！近战部队最好离它远点吧！"
 module: upgrade-home
 imgFolder: home_buildings/0308
 wiki: https://clashofclans.fandom.com/wiki/Bomb_Tower
 canonical: /upgrade/0308-Bomb-Tower
 dataSyncedOn: 2026-10-13
-description: "炸弹塔可以投掷炸弹轰炸附近的地面部队，被摧毁后会产生一个大爆炸！近战部队最好离它远点吧！"
 ---
-
-<script setup>
-import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
-import unitData from "@/assets/unit-data/0308-Bomb-Tower.json";
-</script>
-
-<SyncedUnitData :data="unitData" :historyAfter="'2025-11-17'">
-
-<template #introduction>
 
 - *如想查看都城的炸弹塔，请访问：[都城炸弹塔](/upgrade/2205-Bomb-Tower)。*
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Bomb_Tower13.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
 
-</template>
+<SmallTitle>各等级图片</SmallTitle>
 
-<template #history>
+<Panel>
+    <UnitImgGroup :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="1 级" imgSrc="Bomb_Tower1.png" />
+        <UnitImg imgTitle="2 级" imgSrc="Bomb_Tower2.png" />
+        <UnitImg imgTitle="3 级" imgSrc="Bomb_Tower3.png" />
+        <UnitImg imgTitle="4 级" imgSrc="Bomb_Tower4.png" />
+        <UnitImg imgTitle="5 级" imgSrc="Bomb_Tower5.png" />
+        <UnitImg imgTitle="6 级" imgSrc="Bomb_Tower6.png" />
+        <UnitImg imgTitle="7 级" imgSrc="Bomb_Tower7.png" />
+        <UnitImg imgTitle="8 级" imgSrc="Bomb_Tower8.png" />
+        <UnitImg imgTitle="9 级" imgSrc="Bomb_Tower9.png" />
+        <UnitImg imgTitle="10 级" imgSrc="Bomb_Tower10.png" />
+        <UnitImg imgTitle="11 级" imgSrc="Bomb_Tower11.png" />
+        <UnitImg imgTitle="12 级" imgSrc="Bomb_Tower12.png" />
+        <UnitImg imgTitle="13 级" imgSrc="Bomb_Tower13.png" />
+    </UnitImgGroup>
+</Panel>
+
+<SmallTitle>建筑数量对照表</SmallTitle>
+
+<BuildingNum>
+    <BuildingNumRow title="大本等级" num="1 - 7, 8 - 9, 11 - 18" />
+    <BuildingNumRow title="建筑数量" num="    0,     1,       2" />
+</BuildingNum>
+
+<SmallTitle>属性</SmallTitle>
+
+<UnitProperties>
+    <UnitProperty pKey="占地面积" pValue="3×3" />
+    <UnitProperty pKey="判定面积" pValue="2×2" :isJudgeSquare="true" />
+    <UnitProperty pKey="伤害类型" pValue="范围伤害" />
+    <UnitProperty pKey="伤害半径" pValue="1.5 格" />
+    <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
+    <UnitProperty pKey="射程" pValue="6 格" />
+    <UnitProperty pKey="攻速" pValue="1.1 秒/次" />
+    <UnitProperty pKey="被摧毁时的自爆半径" pValue="2.75 格" />
+    <UnitProperty pKey="自爆延时" pValue="1 秒" />
+</UnitProperties>
+
+<SmallTitle>升级数据</SmallTitle>
+
+<script setup>
+const tableExtraInfo = [
+    {
+        "column": 5,
+        "type": "cost",
+        "gpClass": "building",
+        "icon": "Gold"
+    },
+    {
+        "column": 6,
+        "type": "time",
+        "gpClass": "building"
+    },
+    {
+        "column": 7,
+        "type": "exp",
+        "icon": "Exp"
+    }
+];
+</script>
+
+<UnitTable :tableExtraInfo="tableExtraInfo">
+
+| 等级 | 每秒伤害 | 每次伤害 |被摧毁后的<br>自爆伤害| 生命值 | 升级费用 |  升级时间  |升级后可<br>获得的经验| 所需<br>大本等级 |
+| ---- |   ---   |   ---   |         ---        |   ---  |   ---   |    ---    |         ---         |       ---      |
+| 1 | 24 | 26.4 | 150 | 650 | 700000 | 0,12,0,0 |  | 8 |
+| 2 | 28 | 30.8 | 180 | 700 | 1000000 | 0,18,0,0 |  | 8 |
+| 3 | 32 | 35.2 | 220 | 750 | 1300000 | 1,0,0,0 |  | 9 |
+| 4 | 40 | 44 | 260 | 850 | 1800000 | 1,12,0,0 |  | 10 |
+| 5 | 48 | 52.8 | 300 | 1050 | 1900000 | 1,18,0,0 |  | 11 |
+| 6 | 56 | 61.6 | 350 | 1300 | 2000000 | 2,0,0,0 |  | 11 |
+| 7 | 64 | 70.4 | 400 | 1600 | 4000000 | 3,0,0,0 |  | 12 |
+| 8 | 72 | 79.2 | 450 | 1900 | 5000000 | 3,12,0,0 |  | 13 |
+| 9 | 84 | 92.4 | 500 | 2300 | 6000000 | 4,0,0,0 |  | 14 |
+| 10 | 94 | 103.4 | 550 | 2500 | 7000000 | 4,12,0,0 |  | 15 |
+| 11 | 104 | 114.4 | 600 | 2700 | 8500000 | 5,0,0,0 |  | 16 |
+| 12 | 114 | 125.4 | 650 | 2900 | 14500000 | 7,0,0,0 |  | 17 |
+| 13 | 122 | 134.2 | 700 | 3050 | 25000000 | 13,0,0,0 |  | 18 |
+| ⚡1 | 127 | 139.7 | 700 | 3050 | 6000000 | 2,12,0,0 |  | 18 |
+| ⚡2 | 127 | 139.7 | 700 | 3150 | 3000000 | 4,0,0,0 |  | 18 |
+</UnitTable>
+
+<SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2025/11/17">
@@ -88,7 +162,4 @@ import unitData from "@/assets/unit-data/0308-Bomb-Tower.json";
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
-
-</template>
-
-</SyncedUnitData>
+<p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Bomb_Tower?oldid=592098" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>

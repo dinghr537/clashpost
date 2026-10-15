@@ -2,22 +2,13 @@
 title: "部落冲突 coc 暗黑皇冠装备升级数据"
 navTitle: "暗黑皇冠"
 shownTitle: "暗黑皇冠"
+description: "暗黑皇冠是亡灵王子的第一件史诗装备。当亡灵王子带上暗黑皇冠并在场时，每累计 60 人口的攻击方部队被击败，亡灵王子就可以获得一层生命值和伤害增益，最多 3 层，共需 180 人口。"
 module: upgrade-home
 imgFolder: home_heroes/0724
 wiki: https://clashofclans.fandom.com/wiki/Dark_Crown
 canonical: /upgrade/0724-Dark-Crown
 dataSyncedOn: 2026-10-13
-description: "暗黑皇冠是亡灵王子的第一件史诗装备。当亡灵王子带上暗黑皇冠并在场时，每累计 60 人口的攻击方部队被击败，亡灵王子就可以获得一层生命值和伤害增益，最多 3 层，共需 180 人口。"
 ---
-
-<script setup>
-import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
-import unitData from "@/assets/unit-data/0724-Dark-Crown.json";
-</script>
-
-<SyncedUnitData :data="unitData" :historyAfter="'2025-11-17'">
-
-<template #introduction>
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Dark_Crown.png" :imgAlt="$frontmatter.navTitle" description="当友军被击倒时，提升生命值和伤害，共计 3 次。" :isSmallImg="true"  />
 
@@ -37,11 +28,85 @@ import unitData from "@/assets/unit-data/0724-Dark-Crown.json";
 3. 暗黑皇冠的增益效果不能与 [狂暴法术](/upgrade/0102-Rage-Spell)、[守护者学徒](/upgrade/0089-Apprentice-Warden) 等单位的增益效果直接叠加，只能取其最高的增益效果。
 4. 此外，暗黑皇冠装备还可以提高亡灵王子的生命值和攻击速度。
 
+<SmallTitle>属性</SmallTitle>
+
+<UnitProperties>
+    <UnitProperty pKey="技能类型" pValue="被动技能" />
+    <UnitProperty pKey="装备稀有度" pValue="史诗" />
+</UnitProperties>
+
+<SmallTitle>升级数据</SmallTitle>
+
+<script setup>
+const tableExtraInfo = [
+    {
+        "column": 5,
+        "type": "cost",
+        "icon": "Shiny_Ore",
+        "noGoldPass": true
+    },
+    {
+        "column": 6,
+        "type": "cost",
+        "icon": "Glowy_Ore",
+        "noGoldPass": true
+    },
+    {
+        "column": 7,
+        "type": "cost",
+        "icon": "Starry_Ore",
+        "noGoldPass": true
+    }
+];
+</script>
+
+<UnitTable :tableExtraInfo="tableExtraInfo">
+
+| 等级 |最大<br>生命值提升|最大<br>伤害提升|英雄攻击<br>速度增加|英雄生命值<br>增加| 升级费用  | 升级费用 | 升级费用 | 所需<br>铁匠铺等级 | 所需<br>大本等级 |
+| ---- |        ---     |       ---     |        ---        |       ---       |   ----   |   ----   |   ----  |        ---        |      -----      |
+| 1 | 3% | 3% | +1% | 550 | \ | \ | \ | 1 | 8 |
+| 2 | 3% | 3% | +2% | 575 | 120 | \ | \ | 1 | 8 |
+| 3 | 6% | 6% | +2% | 600 | 240 | 20 | \ | 1 | 8 |
+| 4 | 6% | 6% | +3% | 625 | 400 | \ | \ | 1 | 8 |
+| 5 | 6% | 6% | +3% | 650 | 600 | \ | \ | 1 | 8 |
+| 6 | 9% | 9% | +3% | 675 | 840 | 100 | \ | 1 | 8 |
+| 7 | 9% | 9% | +4% | 700 | 1120 | \ | \ | 1 | 8 |
+| 8 | 9% | 9% | +4% | 725 | 1440 | \ | \ | 1 | 8 |
+| 9 | 12% | 12% | +4% | 750 | 1800 | 200 | 10 | 1 | 8 |
+| 10 | 12% | 12% | +5% | 775 | 1900 | \ | \ | 1 | 8 |
+| 11 | 12% | 12% | +5% | 800 | 2000 | \ | \ | 1 | 8 |
+| 12 | 15% | 15% | +5% | 825 | 2100 | 400 | 20 | 1 | 8 |
+| 13 | 15% | 15% | +6% | 850 | 2200 | \ | \ | 3 | 10 |
+| 14 | 15% | 15% | +6% | 875 | 2300 | \ | \ | 3 | 10 |
+| 15 | 18% | 18% | +6% | 900 | 2400 | 600 | 30 | 3 | 10 |
+| 16 | 18% | 18% | +7% | 925 | 2500 | \ | \ | 5 | 12 |
+| 17 | 18% | 18% | +7% | 950 | 2600 | \ | \ | 5 | 12 |
+| 18 | 21% | 21% | +7% | 975 | 2700 | 600 | 50 | 5 | 12 |
+| 19 | 21% | 21% | +8% | 1000 | 2800 | \ | \ | 7 | 14 |
+| 20 | 21% | 21% | +8% | 1025 | 2900 | \ | \ | 7 | 14 |
+| 21 | 24% | 24% | +8% | 1050 | 3000 | 600 | 100 | 7 | 14 |
+| 22 | 24% | 24% | +9% | 1075 | 3100 | \ | \ | 8 | 15 |
+| 23 | 24% | 24% | +9% | 1100 | 3200 | \ | \ | 8 | 15 |
+| 24 | 27% | 27% | +9% | 1125 | 3300 | 600 | 120 | 8 | 15 |
+| 25 | 27% | 27% | +10% | 1150 | 3400 | \ | \ | 9 | 16 |
+| 26 | 27% | 27% | +10% | 1175 | 3500 | \ | \ | 9 | 16 |
+| 27 | 30% | 30% | +11% | 1200 | 3600 | 600 | 150 | 9 | 16 |
+
+</UnitTable>
+
 注意：如果升级费用中有多种资源，则同时需要多种资源才能升级。
 
-</template>
+<SmallTitle>推出记录</SmallTitle>
 
-<template #history>
+<UnitTable>
+
+| 推出时间 |  活动名称  |     价格        | 购买渠道 |
+|   ---   |    ---    |      ---        |    ---   |
+| 2025/06 |  黑暗交易  | 3 100 恶作剧奖章 |   商人   |
+| 2025/12 |  熔岩危机  | 3 100 火苗奖章   |   商人   |
+</UnitTable>
+
+<SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2025/11/17">
@@ -52,7 +117,4 @@ import unitData from "@/assets/unit-data/0724-Dark-Crown.json";
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
-
-</template>
-
-</SyncedUnitData>
+<p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Dark_Crown?oldid=624599" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>

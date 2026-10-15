@@ -2,22 +2,13 @@
 title: "部落冲突 coc 野猪骑士升级数据"
 navTitle: "野猪骑士"
 shownTitle: "野猪骑士"
+description: "驯服了狂暴的跳跳猪后，野猪骑士可以直接攻击那些躲在城墙后面的鼠辈了！有暗黑重油的滋养，这些勇士战无不胜！"
 module: upgrade-home
 imgFolder: home_tech/0081
 wiki: https://clashofclans.fandom.com/wiki/Hog_Rider
 canonical: /upgrade/0081-Hog-Rider
 dataSyncedOn: 2026-10-13
-description: "驯服了狂暴的跳跳猪后，野猪骑士可以直接攻击那些躲在城墙后面的鼠辈了！有暗黑重油的滋养，这些勇士战无不胜！"
 ---
-
-<script setup>
-import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
-import unitData from "@/assets/unit-data/0081-Hog-Rider.json";
-</script>
-
-<SyncedUnitData :data="unitData" :historyAfter="'2026-02-23'">
-
-<template #introduction>
 
 - *如想查看该兵种的强化版本，请访问：[超级野猪骑士](/upgrade/060f-Super-Hog-Rider)。*
 - *如想查看夜世界的野猪飞骑，请访问：[夜世界野猪飞骑](/upgrade/100a-Hog-Glider)。*
@@ -25,9 +16,83 @@ import unitData from "@/assets/unit-data/0081-Hog-Rider.json";
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Hog_Rider_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
 
-</template>
+<SmallTitle>各等级图片</SmallTitle>
 
-<template #history>
+<Panel>
+    <UnitImgGroup :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="1 - 2 级" imgSrc="Hog_Rider1.png" />
+        <UnitImg imgTitle="3 - 4 级" imgSrc="Hog_Rider3.png" />
+        <UnitImg imgTitle="5 级" imgSrc="Hog_Rider5.png" />
+        <UnitImg imgTitle="6 级" imgSrc="Hog_Rider6.png" />
+        <UnitImg imgTitle="7 级" imgSrc="Hog_Rider7.png" />
+        <UnitImg imgTitle="8 级" imgSrc="Hog_Rider8.png" />
+        <UnitImg imgTitle="9 级" imgSrc="Hog_Rider9.png" />
+        <UnitImg imgTitle="10 级" imgSrc="Hog_Rider10.png" />
+        <UnitImg imgTitle="11 级" imgSrc="Hog_Rider11.png" />
+        <UnitImg imgTitle="12 级" imgSrc="Hog_Rider12.png" />
+        <UnitImg imgTitle="13 级" imgSrc="Hog_Rider13.png" />
+        <UnitImg imgTitle="14 级" imgSrc="Hog_Rider14.png" />
+        <UnitImg imgTitle="15 级" imgSrc="Hog_Rider15.png" />
+    </UnitImgGroup>
+</Panel>
+
+<SmallTitle>属性</SmallTitle>
+
+<UnitProperties>
+    <UnitProperty pKey="部队类型" pValue="地面近战单位" />
+    <UnitProperty pKey="攻击偏好" pValue="防御建筑 (偏好类型 1)" :isDefensePreferredTroop="true" />
+    <UnitProperty pKey="伤害类型" pValue="单体伤害" />
+    <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
+    <UnitProperty pKey="占据人口" pValue="5" />
+    <UnitProperty pKey="移动速度" pValue="3 格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="1 秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="0.6 格" />
+    <UnitProperty pKey="所需暗黑训练营等级" pValue="2" />
+    <UnitProperty pKey="所需大本等级" pValue="7" />
+    <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" />
+    <UnitProperty pKey="捐赠费用" pValue="3,3,135,Dark_Elixir" :isDonationCost="true" />
+</UnitProperties>
+
+<SmallTitle>升级数据</SmallTitle>
+
+<script setup>
+const tableExtraInfo = [
+    {
+        "column": 4,
+        "type": "cost",
+        "gpClass": "research",
+        "icon": "Dark_Elixir"
+    },
+    {
+        "column": 5,
+        "type": "time",
+        "gpClass": "research"
+    }
+];
+</script>
+
+<UnitTable :tableExtraInfo="tableExtraInfo">
+
+| 等级 |  每秒伤害 | 每次伤害 | 生命值 | 升级花费|  升级时间 |所需实验室等级|所需大本等级|
+|  --- |    ---   |   ---   |   --- |    ---  |     ---   |     ---    |    ---    |
+| 1 | 60 | 60 | 270 | \ | \ | 1 | 7 |
+| 2 | 70 | 70 | 312 | 2000 | 0,10,0,0 | 5 | 7 |
+| 3 | 80 | 80 | 370 | 3500 | 0,18,0,0 | 6 | 8 |
+| 4 | 92 | 92 | 430 | 5000 | 1,0,0,0 | 6 | 8 |
+| 5 | 105 | 105 | 500 | 10000 | 2,0,0,0 | 7 | 9 |
+| 6 | 118 | 118 | 590 | 18500 | 2,6,0,0 | 8 | 10 |
+| 7 | 140 | 140 | 700 | 35000 | 2,12,0,0 | 9 | 11 |
+| 8 | 155 | 155 | 810 | 47500 | 3,0,0,0 | 10 | 12 |
+| 9 | 165 | 165 | 890 | 50000 | 3,12,0,0 | 10 | 12 |
+| 10 | 176 | 176 | 970 | 85000 | 4,0,0,0 | 11 | 13 |
+| 11 | 187 | 187 | 1080 | 107500 | 5,0,0,0 | 12 | 14 |
+| 12 | 200 | 200 | 1230 | 125000 | 5,12,0,0 | 13 | 15 |
+| 13 | 213 | 213 | 1380 | 175000 | 6,12,0,0 | 14 | 16 |
+| 14 | 225 | 225 | 1500 | 240000 | 10,0,0,0 | 15 | 17 |
+| 15 | 250 | 250 | 1750 | 340000 | 14,12,0,0 | 16 | 18 |
+</UnitTable>
+
+<SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2026/02/23">
@@ -105,7 +170,4 @@ import unitData from "@/assets/unit-data/0081-Hog-Rider.json";
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
-
-</template>
-
-</SyncedUnitData>
+<p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Hog_Rider?oldid=625465" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>

@@ -2,22 +2,13 @@
 title: "部落冲突 coc 炼金术士升级数据"
 navTitle: "炼金术士"
 shownTitle: "炼金术士"
+description: "炼金术士可以将资源转换为不同类型！她每天工作一次，升级炼金术士可提高她的工作效率！"
 module: upgrade-home
 imgFolder: home_tech/0802
 wiki: https://clashofclans.fandom.com/wiki/Alchemist
 canonical: /upgrade/0802-Alchemist
 dataSyncedOn: 2026-10-13
-description: "炼金术士可以将资源转换为不同类型！她每天工作一次，升级炼金术士可提高她的工作效率！"
 ---
-
-<script setup>
-import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
-import unitData from "@/assets/unit-data/0802-Alchemist.json";
-</script>
-
-<SyncedUnitData :data="unitData" :historyAfter="'2025-02-10'">
-
-<template #introduction>
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Alchemist_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
 
@@ -30,9 +21,33 @@ import unitData from "@/assets/unit-data/0802-Alchemist.json";
 3. 转化后的资源最多为满库，游戏没给你溢出的选项。
 4. 在下方的升级数据表中，转化率 101% 的意思是可以将 150 万金币转化为 151.5 万圣水或 1.01 万黑油。
 
-</template>
+<SmallTitle>升级数据</SmallTitle>
 
-<template #history>
+<script setup>
+const tableExtraInfo = [
+    {
+        "column": 4,
+        "type": "cost",
+        "icon": "Gem",
+        "noGoldPass": true
+    }
+];
+</script>
+
+<UnitTable :tableExtraInfo="tableExtraInfo">
+
+| 等级 |每次转化上限<br>(金币和圣水)|每次转化上限<br>(黑油)| 转化率 | 升级费用 | 所需大本等级 |
+|  --- |            ---           |          ---        |  ---  |   ---   |    ---      |
+| 1 | 1500000 | 10000 | 101% | 100 | 11 |
+| 2 | 2250000 | 15000 | 102% | 250 | 12 |
+| 3 | 3000000 | 20000 | 104% | 500 | 13 |
+| 4 | 4500000 | 30000 | 105% | 1000 | 14 |
+| 5 | 6000000 | 40000 | 107% | 1000 | 15 |
+| 6 | 7500000 | 50000 | 109% | 1500 | 16 |
+| 7 | 10500000 | 70000 | 110% | 1500 | 17 |
+</UnitTable>
+
+<SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2025/02/10">
@@ -40,7 +55,4 @@ import unitData from "@/assets/unit-data/0802-Alchemist.json";
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
-
-</template>
-
-</SyncedUnitData>
+<p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Alchemist?oldid=621359" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>

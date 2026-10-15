@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Audit local originals and report unresolved primary image references, offline."""
+"""Audit local originals and report primary and HD references separately, offline."""
 import argparse
 import json
 import re
@@ -16,26 +16,25 @@ class ImageReferences(HTMLParser):
         self.folder = folder
         self.containers = []
         self.references = set()
+        self.hd_references = set()
 
     def handle_starttag(self, tag, attrs):
         attrs = dict(attrs)
         folder = attrs.get('folder') or attrs.get('imgfolder') or self.folder
         if tag in ('unitimggroup', 'listitems'):
             self.containers.append(folder)
-        src = attrs.get('imgsrc') or (attrs.get('src') if tag == 'pic' else None)
-        if not src:
-            return
-        if src.startswith('/images/'):
-            self.references.add(src)
-            return
-        if src.startswith(HOST):
-            self.references.add(src[len(HOST):])
-        elif src.startswith('/upgrade/'):
-            self.references.add(src)
-        elif tag in ('unitimg', 'listitem', 'unitinfo'):
-            if tag != 'unitinfo' and self.containers:
-                folder = self.containers[-1]
-            self.references.add(f'/upgrade/{folder}/{src}')
+        primary = attrs.get('imgsrc') or (attrs.get('src') if tag == 'pic' else None)
+        for src, references in ((primary, self.references), (attrs.get('imghd'), self.hd_references)):
+            if not src:
+                continue
+            if src.startswith('/images/') or src.startswith('/upgrade/'):
+                references.add(src)
+            elif src.startswith(HOST):
+                references.add(src[len(HOST):])
+            elif tag in ('unitimg', 'listitem', 'unitinfo'):
+                if tag != 'unitinfo' and self.containers:
+                    folder = self.containers[-1]
+                references.add(f'/upgrade/{folder}/{src}')
 
     def handle_endtag(self, tag):
         if tag in ('unitimggroup', 'listitems') and self.containers:
@@ -51,6 +50,7 @@ def main():
     if supplemental.exists():
         mapping = {**json.loads(supplemental.read_text()), **mapping}
     references = {}
+    hd_references = {}
     pages = list((ROOT / 'docs/upgrade').rglob('*.md')) + [ROOT / 'docs/index.md', ROOT / 'docs/upgrade.md']
     for page in pages:
         text = page.read_text(encoding='utf-8-sig')
@@ -59,6 +59,8 @@ def main():
         images.feed(text)
         for image in images.references:
             references.setdefault(image, set()).add(str(page.relative_to(ROOT)))
+        for image in images.hd_references:
+            hd_references.setdefault(image, set()).add(str(page.relative_to(ROOT)))
         resources = re.findall(r'"icon"\s*:\s*"([^"]+)"|resourceType="([^"]+)"', text)
         for icon, property_resource in resources:
             for resource in (icon or property_resource).split(','):
@@ -79,13 +81,20 @@ def main():
             missing.append({'sourceUrl': HOST + image, 'pages': sorted(pages)})
     broken_files = [local for local in mapping.values() if not (ROOT / 'docs/public' / local.lstrip('/')).is_file()]
     broken_files.extend(image for image in references if image.startswith('/images/') and not (ROOT / 'docs/public' / image.lstrip('/')).is_file())
+    missing_hd = []
+    for image, pages in sorted(hd_references.items()):
+        local = image if image.startswith('/images/') else mapping.get(image) or mapping.get(re.sub(r'\.(png|jpe?g)$', '.webp', image, flags=re.I))
+        if not local or not (ROOT / 'docs/public' / local.lstrip('/')).is_file():
+            missing_hd.append({'sourceUrl': HOST + image, 'pages': sorted(pages)})
     report = {'mappedFiles': len(mapping), 'primaryReferences': len(references),
               'resolvedReferences': len(references) - len(missing), 'missing': missing,
+              'hdReferences': len(hd_references), 'resolvedHdReferences': len(hd_references) - len(missing_hd),
+              'missingHd': missing_hd,
               'brokenLocalFiles': sorted(set(broken_files))}
     if args.output:
         args.output.write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n')
     print(json.dumps(report, ensure_ascii=False, indent=2))
-    if broken_files:
+    if broken_files or missing:
         raise SystemExit(1)
 
 

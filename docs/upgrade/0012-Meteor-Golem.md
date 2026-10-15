@@ -2,22 +2,13 @@
 title: "部落冲突 coc 陨石戈仑升级数据"
 navTitle: "陨石戈仑"
 shownTitle: "陨石戈仑"
+description: "来自宇宙的它们，将加入您的军队！这对热衷投掷的组合，会将自己扔向任何目标，造成近战伤害。当它们分开时，小陨石戈仑会攻击附近目标，或者寻找同伴重新合体变成陨石戈仑！"
 module: upgrade-home
 imgFolder: home_tech/0012
 wiki: https://clashofclans.fandom.com/wiki/Meteor_Golem
 canonical: /upgrade/0012-Meteor-Golem
 dataSyncedOn: 2026-10-13
-description: "来自宇宙的它们，将加入您的军队！这对热衷投掷的组合，会将自己扔向任何目标，造成近战伤害。当它们分开时，小陨石戈仑会攻击附近目标，或者寻找同伴重新合体变成陨石戈仑！"
 ---
-
-<script setup>
-import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
-import unitData from "@/assets/unit-data/0012-Meteor-Golem.json";
-</script>
-
-<SyncedUnitData :data="unitData" :historyAfter="'2026-01-28'">
-
-<template #introduction>
 
 - *如想查看陨石戈仑的设计原型，请访问：[戈仑石人](/upgrade/0083-Golem)。*
 - *如想查看作为临时兵种的陨石戈仑数据，请访问：[陨石戈仑（临时兵种）](/upgrade/0e1b-Meteor-Golem)。*
@@ -27,9 +18,20 @@ import unitData from "@/assets/unit-data/0012-Meteor-Golem.json";
     <SwitchTab tabId="cp-unit-item-1">小陨石戈仑</SwitchTab>
 </SwitchTabs>
 
+<!-- ↓↓↓ 陨石戈仑 ↓↓↓ -->
 <SwitchTabGroup id="cp-unit-item-0" class="cp-unit-items">
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Meteor_Golem_info.png" imgAlt="陨石戈仑"
     description="来自宇宙的它们，将加入您的军队！这对热衷投掷的组合，会将自己扔向任何目标，造成近战伤害。当它们分开时，小陨石戈仑会攻击附近目标，或者寻找同伴重新合体变成陨石戈仑！" />
+
+<SmallTitle>各等级图片</SmallTitle>
+
+<Panel>
+    <UnitImgGroup :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="1 级" imgSrc="Meteor_Golem1.png" />
+        <UnitImg imgTitle="2 级" imgSrc="Meteor_Golem2.png" />
+        <UnitImg imgTitle="3 级" imgSrc="Meteor_Golem3.png" />
+    </UnitImgGroup>
+</Panel>
 
 <SmallTitle>重要说明</SmallTitle>
 
@@ -42,19 +44,100 @@ import unitData from "@/assets/unit-data/0012-Meteor-Golem.json";
 3. 小陨石戈仑可以跳过 [城墙](/upgrade/0300-Walls)，但陨石戈仑不能。
 4. 两只小陨石戈仑合体后有短暂的无敌状态。
 
+<SmallTitle>属性</SmallTitle>
+
+<UnitProperties>
+    <UnitProperty pKey="部队类型" pValue="地面单位" />
+    <UnitProperty pKey="攻击偏好" pValue="无" />
+    <UnitProperty pKey="伤害加成" pValue="对墙 5 倍伤害" />
+    <UnitProperty pKey="伤害类型" pValue="投掷后造成范围伤害" />
+    <UnitProperty pKey="伤害半径" pValue="1 格" />
+    <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
+    <UnitProperty pKey="占据人口" pValue="40" />
+    <UnitProperty pKey="移动速度" pValue="1.5 格/秒" />
+    <UnitProperty pKey="进攻时机" pValue="到达目标 1 秒后" />
+    <UnitProperty pKey="最远投掷距离" pValue="5 格" />
+    <UnitProperty pKey="所需训练营等级" pValue="19" />
+    <UnitProperty pKey="所需大本等级" pValue="17" />
+    <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" />
+    <UnitProperty pKey="捐赠费用" pValue="20,20,60000,Elixir" :isDonationCost="true" />
+</UnitProperties>
+
+<SmallTitle>升级数据</SmallTitle>
+
+<script setup>
+const tableExtraInfo = [
+    {
+        "column": 3,
+        "type": "cost",
+        "gpClass": "research",
+        "icon": "Elixir"
+    },
+    {
+        "column": 4,
+        "type": "time",
+        "gpClass": "research"
+    }
+];
+</script>
+
+<UnitTable :tableExtraInfo="tableExtraInfo">
+
+| 等级 |  投掷伤害 | 生命值 | 升级花费|  升级时间  |所需实验室等级|所需大本等级|
+| ---- |   ----   |  ---- |    ---  |     ---   |     ---     |   ----    |
+| 1 | 480 | 14500 | \ | \ | 1 | 17 |
+| 2 | 530 | 16000 | 28000000 | 14,0,0,0 | 15 | 17 |
+| 3 | 580 | 17500 | 30000000 | 16,0,0,0 | 16 | 18 |
+</UnitTable>
 </SwitchTabGroup>
 
+<!-- ↓↓↓ 小陨石戈仑 ↓↓↓ -->
 <SwitchTabGroup id="cp-unit-item-1" class="cp-unit-items">
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Meteormite_info.png" imgAlt="小陨石戈仑"
     description="分开的小陨石戈仑会对一个附近的目标进行攻击，或者寻找它的同伴重新合体。即便在分开后，这些顽皮的小石头也能翻越城墙。" />
 
+<SmallTitle>各等级图片</SmallTitle>
+
+<Panel>
+    <UnitImgGroup :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="1 级" imgSrc="Meteormite1.png" />
+        <UnitImg imgTitle="2 级" imgSrc="Meteormite2.png" />
+        <UnitImg imgTitle="3 级" imgSrc="Meteormite3.png" />
+    </UnitImgGroup>
+</Panel>
+
+<SmallTitle>属性</SmallTitle>
+
+<UnitProperties>
+    <UnitProperty pKey="部队类型" pValue="地面单位" />
+    <UnitProperty pKey="攻击偏好" pValue="无" />
+    <UnitProperty pKey="伤害类型" pValue="单体伤害" />
+    <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
+    <UnitProperty pKey="占据人口" pValue="20" />
+    <UnitProperty pKey="移动速度" pValue="2 格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="1.5 秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="0.8 格" />
+    <UnitProperty pKey="合体时的最大距离" pValue="0.5 格" />
+</UnitProperties>
+
+<SmallTitle>升级数据</SmallTitle>
+
+<UnitTable>
+
+| 等级 | 每秒伤害 | 每次伤害 | 生命值 |
+| ---- |   ---   |   ---   |  ----  |
+|   1  |   180   |   270   |  6500  |
+|   2  |   200   |   300   |  7250  |
+|   3  |   220   |   330   |  8000  |
+</UnitTable>
 </SwitchTabGroup>
 
-</template>
-
-<template #history>
+<SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/07/14">
+        <TimelineRow>生命值调整：1级13,000→14,500，2级14,500→16,000，3级16,000→17,500；伤害调整：1级450→480，2级500→530，3级550→580。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2026/01/28">
         <TimelineRow>所有等级陨石戈仑和小陨石戈仑的生命值和伤害降低。</TimelineRow>
     </TimelineItem>
@@ -69,7 +152,4 @@ import unitData from "@/assets/unit-data/0012-Meteor-Golem.json";
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
-
-</template>
-
-</SyncedUnitData>
+<p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Meteor_Golem?oldid=624499" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>

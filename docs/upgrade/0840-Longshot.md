@@ -2,38 +2,88 @@
 title: "部落冲突 coc 远袭者升级数据"
 navTitle: "远袭者"
 shownTitle: "远袭者"
+description: "动动脑子！远袭者能从颅骨发射远程爆炸弩箭，让入侵者满满当当地尝到溅射伤害的滋味。"
 module: upgrade-home
 imgFolder: home_th/0840
 wiki: https://clashofclans.fandom.com/wiki/Longshot
 canonical: /upgrade/0840-Longshot
 dataSyncedOn: 2026-10-13
-description: "动动脑子！远袭者能从颅骨发射远程爆炸弩箭，让入侵者满满当当地尝到溅射伤害的滋味。"
 ---
 
-<script setup>
-import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
-import unitData from "@/assets/unit-data/0840-Longshot.json";
-</script>
-
-<SyncedUnitData :data="unitData" :historyAfter="'2026-01-12'">
-
-<template #introduction>
-
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Longshot_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
+
+<SmallTitle>各等级图片</SmallTitle>
+
+<Panel>
+    <UnitImgGroup :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="所有等级" imgSrc="Longshot1.png" />
+    </UnitImgGroup>
+</Panel>
 
 <SmallTitle>重要说明</SmallTitle>
 
 - 远袭者的特殊技能（致命一击）：被击倒后会造成爆炸伤害。
     - 这个爆炸没有与 [巨型炸弹](/upgrade/0383-Giant-Bomb) 类似的击退效果。
 
-警戒半径：（待证实）如果敌军进入这个范围，守卫会看向部队的方向，准备反击。<br>
-巡逻半径：（待证实）在没有敌人的情况下，守卫也会走动，而这个走动的范围叫巡逻半径。
+<SmallTitle>属性</SmallTitle>
 
-</template>
+<UnitProperties>
+    <UnitProperty pKey="攻击偏好" pValue="无" />
+    <UnitProperty pKey="伤害类型" pValue="范围伤害" />
+    <UnitProperty pKey="伤害半径" pValue="1 格" />
+    <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
+    <UnitProperty pKey="移动速度" pValue="1.5 格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="1.8 秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="11 格" />
+    <UnitProperty pKey="警戒半径" pValue="19 格<sup>①</sup>" />
+    <UnitProperty pKey="巡逻半径" pValue="17 格<sup>②</sup>" />
+    <UnitProperty pKey="死亡伤害" pValue="1000" />
+    <UnitProperty pKey="死亡伤害半径" pValue="3.5 格" />
+    <UnitProperty pKey="所需大本等级" pValue="18" />
+</UnitProperties>
 
-<template #history>
+① （待证实）如果敌军进入这个范围，守卫会看向部队的方向，准备反击。<br>
+② （待证实）在没有敌人的情况下，守卫也会走动，而这个走动的范围叫巡逻半径。
+
+<SmallTitle>升级数据</SmallTitle>
+
+<script setup>
+const tableExtraInfo = [
+    {
+        "column": 4,
+        "type": "cost",
+        "noGoldPass": true,
+        "icon": "Elixir"
+    },
+    {
+        "column": 5,
+        "type": "time",
+        "noGoldPass": true,
+    }
+];
+</script>
+
+
+<UnitTable :tableExtraInfo="tableExtraInfo">
+
+| 等级 | 每秒伤害 | 每次伤害 | 生命值 | 升级费用 | 升级时间 | 所需大本等级 |
+|  --- |   ---   |   ---   |   ---  |   ---   |   ---   |     ---     |
+| 1 | 330 | 594 | 7000 | \ | \ | 18 |
+| 2 | 360 | 648 | 8000 | 18000000 | 7,0,0,0 | 18 |
+| 3 | 390 | 702 | 9000 | 22000000 | 9,0,0,0 | 18 |
+| 4 | 420 | 756 | 10000 | 26000000 | 11,0,0,0 | 18 |
+| 5 | 450 | 810 | 11000 | 28000000 | 13,0,0,0 | 18 |
+</UnitTable>
+
+<SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/04/27">
+        <TimelineRow>远袭者开始受毒药法术影响，效果为正常值的30%。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2026/02/23">
+        <TimelineRow>远袭者的范围伤害不再同时伤害地面与空中部队，只影响与初始命中目标相同的部队类型。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2026/01/12">
         <TimelineRow>攻击距离从 12 格减少到 11 格。</TimelineRow>
         <TimelineRow>巡逻半径从 18 格减少到 17 格。</TimelineRow>
@@ -45,7 +95,4 @@ import unitData from "@/assets/unit-data/0840-Longshot.json";
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
-
-</template>
-
-</SyncedUnitData>
+<p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Longshot?oldid=625038" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>

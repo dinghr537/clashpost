@@ -2,22 +2,13 @@
 title: "部落冲突 coc 冰封箭矢（寒冰箭）装备升级数据"
 navTitle: "冰封箭矢"
 shownTitle: "冰封箭矢（寒冰箭）"
+description: "冰封箭矢是弓箭女皇的第一件史诗装备，它在 2024 年 2 月的龙年佳节活动中首次开放购买。带上冰封箭矢装备后，被女王打中的目标在一段时间内移动速度和攻击速度会变慢。另外，冰封箭矢还能增加女王的每秒伤害。"
 module: upgrade-home
 imgFolder: home_heroes/0744
 wiki: https://clashofclans.fandom.com/wiki/Frozen_Arrow
 canonical: /upgrade/0744-Frozen-Arrow
 dataSyncedOn: 2026-10-13
-description: "冰封箭矢是弓箭女皇的第一件史诗装备，它在 2024 年 2 月的龙年佳节活动中首次开放购买。带上冰封箭矢装备后，被女王打中的目标在一段时间内移动速度和攻击速度会变慢。另外，冰封箭矢还能增加女王的每秒伤害。"
 ---
-
-<script setup>
-import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
-import unitData from "@/assets/unit-data/0744-Frozen-Arrow.json";
-</script>
-
-<SyncedUnitData :data="unitData" :historyAfter="'2024-11-25'">
-
-<template #introduction>
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Frozen_Arrow_info.png" :imgAlt="$frontmatter.navTitle" description="冰封箭矢会减缓被命中目标的速度。" />
 
@@ -27,13 +18,87 @@ import unitData from "@/assets/unit-data/0744-Frozen-Arrow.json";
 2. 带上冰封箭矢装备后，被女王打中的目标在一段时间内移动速度和攻击速度会变慢。
 3. 另外，冰封箭矢还能增加女王的每秒伤害。
 
+<SmallTitle>属性</SmallTitle>
+
+<UnitProperties>
+    <UnitProperty pKey="技能类型" pValue="被动技能" />
+    <UnitProperty pKey="装备稀有度" pValue="史诗" />
+</UnitProperties>
+
+<SmallTitle>升级数据</SmallTitle>
+
+<script setup>
+const tableExtraInfo = [
+    {
+        "column": 4,
+        "type": "cost",
+        "icon": "Shiny_Ore",
+        "noGoldPass": true
+    },
+    {
+        "column": 5,
+        "type": "cost",
+        "icon": "Glowy_Ore",
+        "noGoldPass": true
+    },
+    {
+        "column": 6,
+        "type": "cost",
+        "icon": "Starry_Ore",
+        "noGoldPass": true
+    }
+];
+</script>
+
+<UnitTable :tableExtraInfo="tableExtraInfo">
+
+| 等级 |减速比例<sup>#</sup>|减速<br>持续时间|每秒伤害<br>增加|升级费用|升级费用|升级费用|所需<br>铁匠铺等级|所需<br>大本等级|
+| ---- |        ---        |      ---      |      ---     |   ---  |   ---  |  ---  |       ---       |      ---      |
+| 1 | 25% | 0.75秒 | 35 | \ | \ | \ | 1 | 8 |
+| 2 | 25% | 1.00秒 | 40 | 120 | \ | \ | 1 | 8 |
+| 3 | 30% | 1.00秒 | 45 | 240 | 20 | \ | 1 | 8 |
+| 4 | 30% | 1.00秒 | 50 | 400 | \ | \ | 1 | 8 |
+| 5 | 30% | 1.25秒 | 55 | 600 | \ | \ | 1 | 8 |
+| 6 | 35% | 1.25秒 | 60 | 840 | 100 | \ | 1 | 8 |
+| 7 | 35% | 1.25秒 | 66 | 1120 | \ | \ | 1 | 8 |
+| 8 | 35% | 1.50秒 | 72 | 1440 | \ | \ | 1 | 8 |
+| 9 | 37% | 1.50秒 | 78 | 1800 | 200 | 10 | 1 | 8 |
+| 10 | 37% | 1.50秒 | 85 | 1900 | \ | \ | 1 | 8 |
+| 11 | 37% | 1.75秒 | 92 | 2000 | \ | \ | 1 | 8 |
+| 12 | 40% | 1.75秒 | 99 | 2100 | 400 | 20 | 1 | 8 |
+| 13 | 40% | 1.75秒 | 105 | 2200 | \ | \ | 3 | 10 |
+| 14 | 40% | 2.00秒 | 111 | 2300 | \ | \ | 3 | 10 |
+| 15 | 45% | 2.00秒 | 117 | 2400 | 600 | 30 | 3 | 10 |
+| 16 | 45% | 2.00秒 | 122 | 2500 | \ | \ | 5 | 12 |
+| 17 | 45% | 2.25秒 | 127 | 2600 | \ | \ | 5 | 12 |
+| 18 | 50% | 2.25秒 | 132 | 2700 | 600 | 50 | 5 | 12 |
+| 19 | 50% | 2.25秒 | 136 | 2800 | \ | \ | 7 | 14 |
+| 20 | 50% | 2.50秒 | 140 | 2900 | \ | \ | 7 | 14 |
+| 21 | 55% | 2.50秒 | 144 | 3000 | 600 | 100 | 7 | 14 |
+| 22 | 55% | 2.50秒 | 148 | 3100 | \ | \ | 8 | 15 |
+| 23 | 55% | 2.75秒 | 152 | 3200 | \ | \ | 8 | 15 |
+| 24 | 60% | 2.75秒 | 156 | 3300 | 600 | 120 | 8 | 15 |
+| 25 | 60% | 2.75秒 | 160 | 3400 | \ | \ | 9 | 16 |
+| 26 | 60% | 3.00秒 | 164 | 3500 | \ | \ | 9 | 16 |
+| 27 | 65% | 3.00秒 | 168 | 3600 | 600 | 150 | 9 | 16 |
+</UnitTable>
+
 \# 攻击速度和移动速度的减速比例相同。
 
 注意：如果升级费用中有多种资源，则同时需要多种资源才能升级。
 
-</template>
+<SmallTitle>推出记录</SmallTitle>
 
-<template #history>
+<UnitTable>
+
+| 推出时间 |  活动名称  |     价格      | 购买渠道 |
+|   ---   |    ---    |      ---      |    ---   |
+| 2024/02 |  龙年佳节  | 3 100 神龙奖章 |   商人   |
+| 2024/12 | 大闹玩具店 | 3 100 玩具奖章 |   商人   |
+| 2025/10 |  宇宙摇滚  | 3 100 摇滚奖章 |   商人   |
+</UnitTable>
+
+<SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2024/11/25">
@@ -48,6 +113,4 @@ import unitData from "@/assets/unit-data/0744-Frozen-Arrow.json";
     <TimelineItem :historyBottom="true" />
 </Timeline>
 
-</template>
-
-</SyncedUnitData>
+<p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Frozen_Arrow?oldid=621294" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>

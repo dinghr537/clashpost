@@ -2,24 +2,22 @@
 title: "部落冲突 coc 精制台升级数据"
 navTitle: "精制台"
 shownTitle: "精制台"
+description: "建造精工防御，按需升级它们的属性！精工防御将持续至当前精制阶段结束，新的防御将在下个阶段替代它们！尝试各种防御组合，说不定就能发现新的最爱！"
 module: upgrade-home
 imgFolder: home_buildings/048a
 wiki: https://clashofclans.fandom.com/wiki/Crafting_Station
 canonical: /upgrade/048a-Crafting-Station
 dataSyncedOn: 2026-10-13
-description: "建造精工防御，按需升级它们的属性！精工防御将持续至当前精制阶段结束，新的防御将在下个阶段替代它们！尝试各种防御组合，说不定就能发现新的最爱！"
 ---
 
-<script setup>
-import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
-import unitData from "@/assets/unit-data/048a-Crafting-Station.json";
-</script>
-
-<SyncedUnitData :data="unitData">
-
-<template #introduction>
-
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Crafting_Station_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
+
+<SmallTitle>建筑数量对照表</SmallTitle>
+
+<BuildingNum>
+    <BuildingNumRow title="大本等级" num="1 - 16, 17 - 18" />
+    <BuildingNumRow title="建筑数量" num="     0,       1" />
+</BuildingNum>
 
 <SmallTitle>重要说明</SmallTitle>
 
@@ -39,8 +37,36 @@ import unitData from "@/assets/unit-data/048a-Crafting-Station.json";
 14. 精工防御的初始等级为 3 级（三个模组均为 1 级），最高可升至 30 级（三个模组均为 10 级）。
 15. 如想查看精工防御的数据，请前往 [临时单位](/upgrade/category/temp) 版块。
 
+<UnitProperties>
+    <UnitProperty pKey="占地面积" pValue="3×3" />
+    <UnitProperty pKey="判定面积" pValue="2×2" :isJudgeSquare="true" />
+    <UnitProperty pKey="生命值" pValue="1 000<sup>*</sup>" />
+    <UnitProperty pKey="升级费用" pValue="无" />
+    <UnitProperty pKey="升级时间" pValue="无" />
+</UnitProperties>
+
 \* 只有当玩家没有选择精工防御时，精制台的生命值才是 1 000. 如果玩家已选择精工防御，则精制台的生命值等于精工防御的生命值。
+<SmallTitle>更新历史</SmallTitle>
 
-</template>
+<Timeline>
+    <TimelineItem date="2026/08/01">
+        <TimelineRow>第四批家乡精工防御开放，精制台本季从11本起可用。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2026/07/31">
+        <TimelineRow>上一批精工防御从精制台中移除。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2026/07/30">
+        <TimelineRow>公布第四批家乡精工防御：火热蜡烛、英雄猎台、蛋糕投掷器。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2026/04/01">
+        <TimelineRow>第三批家乡精工防御开放。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2026/03/31">
+        <TimelineRow>上一批精工防御从精制台中移除。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2026/03/30">
+        <TimelineRow>公布第三批家乡精工防御：精工熔岩火炮、精工空中炸弹发射器、精工炙热熔炉。</TimelineRow>
+    </TimelineItem>
+</Timeline>
 
-</SyncedUnitData>
+<p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Crafting_Station?oldid=624956" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>

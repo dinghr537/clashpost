@@ -2,22 +2,13 @@
 title: "部落冲突 coc 蔓生法术升级数据"
 navTitle: "蔓生法术"
 shownTitle: "蔓生法术"
+description: "将附近的建筑困在坚固的根蔓中，阻止防御建筑攻击。部队会无视被困建筑。"
 module: upgrade-home
 imgFolder: home_tech/0185
 wiki: https://clashofclans.fandom.com/wiki/Overgrowth_Spell
 canonical: /upgrade/0185-Overgrowth-Spell
 dataSyncedOn: 2026-10-13
-description: "将附近的建筑困在坚固的根蔓中，阻止防御建筑攻击。部队会无视被困建筑。"
 ---
-
-<script setup>
-import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
-import unitData from "@/assets/unit-data/0185-Overgrowth-Spell.json";
-</script>
-
-<SyncedUnitData :data="unitData" :historyAfter="'2025-10-06'">
-
-<template #introduction>
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Overgrowth_Spell.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
 
@@ -37,9 +28,49 @@ import unitData from "@/assets/unit-data/0185-Overgrowth-Spell.json";
 5. 藤蔓会卡住 [攻城战车](/upgrade/0240-Wall-Wrecker) 和 [攻城滚木车](/upgrade/0244-Log-Launcher) 这种路线固定的地面攻城机器。
 6. 使用法术后，防守方的阵地中会留下植物和藤蔓碎片，防守方点击之后可以清除，每个碎片等于 1 圣水，类似于墓碑。
 
-</template>
+<SmallTitle>属性</SmallTitle>
 
-<template #history>
+<UnitProperties>
+    <UnitProperty pKey="作用半径" pValue="6 格" />
+    <UnitProperty pKey="作用类型" pValue="让防御建筑暂时无法攻击" />
+    <UnitProperty pKey="作用类型" pValue="敌方建筑" />
+    <UnitProperty pKey="占用的法术空间" pValue="2" />
+    <UnitProperty pKey="所需暗黑法术工厂等级" pValue="6" />
+    <UnitProperty pKey="所需大本等级" pValue="12" />
+    <UnitProperty pKey="法术配置时间" pValue="无" trainingSystem="2025" />
+    <UnitProperty pKey="捐赠费用" pValue="6,6,270,Dark_Elixir" :isDonationCost="true" />
+</UnitProperties>
+
+<SmallTitle>升级数据</SmallTitle>
+
+<script setup>
+const tableExtraInfo = [
+    {
+        "column": 2,
+        "type": "cost",
+        "gpClass": "research",
+        "icon": "Dark_Elixir"
+    },
+    {
+        "column": 3,
+        "type": "time",
+        "gpClass": "research"
+    }
+];
+</script>
+
+<UnitTable :tableExtraInfo="tableExtraInfo">
+
+| 等级 |法术<br>持续时间| 升级花费 | 升级时间 |所需<br>实验室等级|所需<br>大本等级|
+| ---- |      ---      |   ---   |  ----   |       ----      |      ----     |
+| 1 | 22秒 | \ | \ | 1 | 12 |
+| 2 | 23秒 | 62500 | 5,0,0,0 | 10 | 12 |
+| 3 | 24秒 | 125000 | 8,12,0,0 | 12 | 14 |
+| 4 | 25秒 | 175000 | 10,0,0,0 | 14 | 16 |
+| 5 | 26秒 | 360000 | 16,0,0,0 | 16 | 18 |
+</UnitTable>
+
+<SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2025/10/06">
@@ -64,7 +95,4 @@ import unitData from "@/assets/unit-data/0185-Overgrowth-Spell.json";
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
-
-</template>
-
-</SyncedUnitData>
+<p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Overgrowth_Spell?oldid=623007" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>

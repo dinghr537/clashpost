@@ -2,22 +2,13 @@
 title: "部落冲突 coc 骷髅陷阱升级数据"
 navTitle: "骷髅陷阱"
 shownTitle: "骷髅陷阱"
+description: "骷髅兵虽然脆弱，但异常狡猾，他们出其不意地伏击毫无戒备的敌军部队，并分散敌军注意力！您可以将骷髅陷阱的目标设置为地面部队或空中部队。"
 module: upgrade-home
 imgFolder: home_buildings/0385
 wiki: https://clashofclans.fandom.com/wiki/Skeleton_Trap
 canonical: /upgrade/0385-Skeleton-Trap
 dataSyncedOn: 2026-10-13
-description: "骷髅兵虽然脆弱，但异常狡猾，他们出其不意地伏击毫无戒备的敌军部队，并分散敌军注意力！您可以将骷髅陷阱的目标设置为地面部队或空中部队。"
 ---
-
-<script setup>
-import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
-import unitData from "@/assets/unit-data/0385-Skeleton-Trap.json";
-</script>
-
-<SyncedUnitData :data="unitData" :historyAfter="'2025-11-17'">
-
-<template #introduction>
 
 - 本页内容不是空中炸弹，如想查看空中炸弹的数据，请访问：[空中炸弹](/upgrade/0382-Air-Bomb)。
 
@@ -26,21 +17,134 @@ import unitData from "@/assets/unit-data/0385-Skeleton-Trap.json";
     <SwitchTab tabId="cp-unit-item-1">骷髅</SwitchTab>
 </SwitchTabs>
 
+<!-- ↓↓↓ 骷髅陷阱 ↓↓↓ -->
 <SwitchTabGroup id="cp-unit-item-0" class="cp-unit-items">
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Skeleton_Trap_info.png" imgAlt="骷髅陷阱"
     description="骷髅兵虽然脆弱，但异常狡猾，他们出其不意地伏击毫无戒备的敌军部队，并分散敌军注意力！您可以将骷髅陷阱的目标设置为地面部队或空中部队。" :isSmallImg="true" />
 
+<SmallTitle>各等级图片</SmallTitle>
+
+<Panel>
+    <UnitImgGroup title="地面模式" :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="1 - 2 级" imgSrc="Skeleton_Trap1.png" />
+        <UnitImg imgTitle="3 - 4 级" imgSrc="Skeleton_Trap3.png" />
+        <UnitImg imgTitle="5 级" imgSrc="Skeleton_Trap5.png" />
+    </UnitImgGroup>
+    <UnitImgGroup title="空中模式" :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="1 - 2 级" imgSrc="Skeleton_Trap1_Air.png" />
+        <UnitImg imgTitle="3 - 4 级" imgSrc="Skeleton_Trap3_Air.png" />
+        <UnitImg imgTitle="5 级" imgSrc="Skeleton_Trap5_Air.png" />
+    </UnitImgGroup>
+    <UnitImgGroup title="未重新布置" :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="1 - 2 级" imgSrc="Skeleton_Trap1_unarmed.png" />
+        <UnitImg imgTitle="3 - 4 级" imgSrc="Skeleton_Trap3_unarmed.png" />
+        <UnitImg imgTitle="5 级" imgSrc="Skeleton_Trap5_unarmed.png" />
+    </UnitImgGroup>
+</Panel>
+
+<SmallTitle>建筑数量对照表</SmallTitle>
+
+<BuildingNum>
+    <BuildingNumRow title="大本等级" num="1 - 7, 8 - 9, 10 - 13, 14 - 18" />
+    <BuildingNumRow title="建筑数量" num="    0,     2,       3,       4" />
+</BuildingNum>
+
+<SmallTitle>骷髅陷阱的属性</SmallTitle>
+
+<UnitProperties>
+    <UnitProperty pKey="占地面积" pValue="1×1" />
+    <UnitProperty pKey="作用类型" pValue="召唤骷髅" />
+    <UnitProperty pKey="作用目标" pValue="可调地面或空中目标" />
+    <UnitProperty pKey="召唤间隔时间" pValue="0.15 秒" />
+    <UnitProperty pKey="触发半径" pValue="5 格" />
+</UnitProperties>
+
+<SmallTitle>升级数据</SmallTitle>
+
+<script setup>
+const tableExtraInfo = [
+    {
+        "column": 3,
+        "type": "cost",
+        "gpClass": "building",
+        "icon": "Gold"
+    },
+    {
+        "column": 4,
+        "type": "time",
+        "gpClass": "building"
+    },
+    {
+        "column": 5,
+        "type": "exp",
+        "icon": "Exp"
+    }
+];
+</script>
+
+<UnitTable :tableExtraInfo="tableExtraInfo">
+
+| 等级 | 骷髅数量 |  骷髅等级 | 升级费用 | 升级时间 |升级后可<br>获得的经验|所需<br>大本等级|
+| ---- |   ---   |    ---   |   ---    |   ---   |         ---        |      ---      |
+| 1 | 2 | 1 | 6000 | \ |  | 8 |
+| 2 | 3 | 1 | 250000 | 0,5,0,0 |  | 8 |
+| 3 | 4 | 1 | 400000 | 0,8,0,0 |  | 9 |
+| 4 | 5 | 1 | 1000000 | 0,12,0,0 |  | 10 |
+| 5 | 5 | 2 | 18000000 | 7,0,0,0 |  | 18 |
+
+</UnitTable>
 </SwitchTabGroup>
 
+<!-- ↓↓↓ 骷髅 ↓↓↓ -->
 <SwitchTabGroup id="cp-unit-item-1" class="cp-unit-items">
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Skeleton_info.png" imgAlt="骷髅"
     description="这些不死生物本身不构成太大的威胁，但它们从来不单独作战，因为女巫会不断召唤成群的骷髅兵来对抗您的敌人！" :isSmallImg="true" />
 
+<SmallTitle>各等级图片</SmallTitle>
+
+<Panel>
+    <UnitImgGroup :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="所有等级" imgSrc="Skeleton1.png" />
+    </UnitImgGroup>
+</Panel>
+
+<SmallTitle>对地骷髅的属性</SmallTitle>
+
+<UnitProperties>
+    <UnitProperty pKey="攻击偏好" pValue="无" />
+    <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
+    <UnitProperty pKey="占据人口" pValue="1" />
+    <UnitProperty pKey="移动速度" pValue="3 格/秒" />
+    <UnitProperty pKey="攻击距离" pValue="0.4 格" />
+    <UnitProperty pKey="攻速" pValue="0.7 秒/次" />
+</UnitProperties>
+
+<SmallTitle>对空骷髅的属性</SmallTitle>
+
+<UnitProperties>
+    <UnitProperty pKey="攻击偏好" pValue="无" />
+    <UnitProperty pKey="攻击的目标" pValue="仅空中目标" />
+    <UnitProperty pKey="占据人口" pValue="1" />
+    <UnitProperty pKey="移动速度" pValue="2.2 格/秒" />
+    <UnitProperty pKey="攻击距离" pValue="0 (紧贴目标)" />
+    <UnitProperty pKey="攻速" pValue="0.7 秒/次" />
+</UnitProperties>
+
+<SmallTitle>升级数据</SmallTitle>
+
+<UnitTable>
+
+| 等级 | 每秒伤害 |  每次伤害 | 生命值 |
+| ---- |   ---   |    ---   |  ---   |
+| 1 | 25 | 17.5 | 30 |
+| 2 | 30 | 21 | 45 |
+
+</UnitTable>
+
 </SwitchTabGroup>
 
-</template>
-
-<template #history>
+<!-- ↓↓↓ 公共部分 ↓↓↓ -->
+<SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2025/11/17">
@@ -72,7 +176,4 @@ import unitData from "@/assets/unit-data/0385-Skeleton-Trap.json";
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
-
-</template>
-
-</SyncedUnitData>
+<p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Skeleton_Trap?oldid=621660" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>

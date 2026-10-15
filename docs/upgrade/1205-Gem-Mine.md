@@ -2,28 +2,109 @@
 title: "部落冲突 coc 夜世界宝石矿井升级数据"
 navTitle: "宝石矿井"
 shownTitle: "宝石矿井"
+description: "宝石矿井中藏有少量宝石，这是极其珍贵的资源！开采宝石既费时又费力。"
 module: upgrade-bh
 imgFolder: bh_buildings/1205
 wiki: https://clashofclans.fandom.com/wiki/Gem_Mine
 canonical: /upgrade/1205-Gem-Mine
 dataSyncedOn: 2026-10-13
-description: "宝石矿井中藏有少量宝石，这是极其珍贵的资源！开采宝石既费时又费力。"
 ---
-
-<script setup>
-import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
-import unitData from "@/assets/unit-data/1205-Gem-Mine.json";
-</script>
-
-<SyncedUnitData :data="unitData" :historyAfter="'2023-05-15'">
-
-<template #introduction>
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Gem_Mine10.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
 
-</template>
+<SmallTitle>各等级图片</SmallTitle>
 
-<template #history>
+<Panel>
+    <UnitImgGroup :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="废墟" imgSrc="Gem_Mine_Ruin.png"/>
+        <UnitImg imgTitle="1 级" imgSrc="Gem_Mine1.png"/>
+        <UnitImg imgTitle="2 级" imgSrc="Gem_Mine2.png"/>
+        <UnitImg imgTitle="3 级" imgSrc="Gem_Mine3.png"/>
+        <UnitImg imgTitle="4 级" imgSrc="Gem_Mine4.png"/>
+        <UnitImg imgTitle="5 级" imgSrc="Gem_Mine5.png"/>
+        <UnitImg imgTitle="6 级" imgSrc="Gem_Mine6.png"/>
+        <UnitImg imgTitle="7 级" imgSrc="Gem_Mine7.png"/>
+        <UnitImg imgTitle="8 级" imgSrc="Gem_Mine8.png"/>
+        <UnitImg imgTitle="9 级" imgSrc="Gem_Mine9.png"/>
+        <UnitImg imgTitle="10 级" imgSrc="Gem_Mine10.png"/>
+    </UnitImgGroup>
+</Panel>
+
+<SmallTitle>建筑数量对照表</SmallTitle>
+
+<BuildingNum>
+    <BuildingNumRow title="大本等级" num="1 - 2, 3 - 5, 6 - 10" />
+    <BuildingNumRow title="合计" num="0, 1, 1" />
+    <BuildingNumRow title="第一区域的建筑数量上限" num="\, \, 1" />
+    <BuildingNumRow title="第二区域的建筑数量上限" num="\, \, 0" />
+</BuildingNum>
+
+<SmallTitle>属性</SmallTitle>
+
+<UnitProperties>
+    <UnitProperty pKey="占地面积" pValue="3×3" />
+    <UnitProperty pKey="判定面积" pValue="2×2" :isJudgeSquare="true" />
+    <UnitProperty pKey="出现收集标志时的储量" pValue="1" />
+</UnitProperties>
+
+<SmallTitle>升级数据</SmallTitle>
+
+<script setup>
+const tableExtraInfo = [
+    {
+        "column": 1,
+        "type": "number",
+        "icon": "Gem",
+        "noGoldPass": true
+    },
+    {
+        "column": 2,
+        "type": "number",
+        "icon": "Gem",
+        "noGoldPass": true
+    },
+    {
+        "column": 3,
+        "type": "time",
+        "gpClass": "building",
+        "noGoldPass": true
+    },
+    {
+        "column": 5,
+        "type": "cost",
+        "gpClass": "building",
+        "icon": "Elixir2"
+    },
+    {
+        "column": 6,
+        "type": "time",
+        "gpClass": "building"
+    },
+    {
+        "column": 7,
+        "type": "exp",
+        "icon": "Exp"
+    }
+];
+</script>
+
+<UnitTable :tableExtraInfo="tableExtraInfo">
+
+| 等级 | 每天产量 | 矿井容量 | 填满矿井<br>需要的时间 | 生命值 | 升级费用 | 升级时间 | 升级后可<br>获得的经验 | 所需夜世界<br>大本营等级 |
+|  --- |   ---   |   ---   |          ---          |   ---  |    ---  |   ---   |         ---         |         ---          |
+| 1 | 2.16 | 10 | 4,15,6,40 | 300 | 120000 | 0,1,0,0 |  | 3 |
+| 2 | 2.40 | 11 | 4,14,0,0 | 350 | 180000 | 0,2,0,0 |  | 3 |
+| 3 | 2.64 | 12 | 4,13,5,27 | 400 | 240000 | 0,6,0,0 |  | 3 |
+| 4 | 2.88 | 13 | 4,12,20,0 | 450 | 450000 | 0,8,0,0 |  | 4 |
+| 5 | 3.12 | 14 | 4,11,41,32 | 550 | 1000000 | 0,12,0,0 |  | 5 |
+| 6 | 3.36 | 15 | 4,11,8,34 | 650 | 1500000 | 1,0,0,0 |  | 6 |
+| 7 | 3.84 | 16 | 4,4,0,0 | 750 | 2500000 | 2,0,0,0 |  | 7 |
+| 8 | 4.32 | 17 | 3,22,26,40 | 850 | 3500000 | 4,0,0,0 |  | 8 |
+| 9 | 4.80 | 18 | 3,18,0,0 | 1000 | 4500000 | 6,0,0,0 |  | 9 |
+| 10 | 5.04 | 19 | 3,18,28,34 | 1150 | 5500000 | 8,0,0,0 |  | 10 |
+</UnitTable>
+
+<SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2023/05/15">
@@ -36,7 +117,4 @@ import unitData from "@/assets/unit-data/1205-Gem-Mine.json";
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
-
-</template>
-
-</SyncedUnitData>
+<p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Gem_Mine?oldid=622493" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>

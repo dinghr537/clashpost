@@ -2,22 +2,13 @@
 title: "部落冲突 coc 亡灵（苍蝇）升级数据"
 navTitle: "亡灵"
 shownTitle: "亡灵（苍蝇）"
+description: "这些飞行的小家伙诞生于暗黑重油。它们在战场上来去自如，不会被搜空地雷检测到，但是在我们的世界里它们很脆弱。"
 module: upgrade-home
 imgFolder: home_tech/0080
 wiki: https://clashofclans.fandom.com/wiki/Minion
 canonical: /upgrade/0080-Minion
 dataSyncedOn: 2026-10-13
-description: "这些飞行的小家伙诞生于暗黑重油。它们在战场上来去自如，不会被搜空地雷检测到，但是在我们的世界里它们很脆弱。"
 ---
-
-<script setup>
-import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
-import unitData from "@/assets/unit-data/0080-Minion.json";
-</script>
-
-<SyncedUnitData :data="unitData" :historyAfter="'2025-11-17'">
-
-<template #introduction>
 
 - *如想查看该兵种的强化版本，请访问：[超级亡灵（马云）](/upgrade/0608-Super-Minion)。*
 - *如想查看以亡灵为原型的英雄，请访问：[亡灵王子（苍蝇王）](/upgrade/0204-Minion-Prince)。*
@@ -26,13 +17,84 @@ import unitData from "@/assets/unit-data/0080-Minion.json";
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Minion_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
 
+<SmallTitle>各等级图片</SmallTitle>
+
+<Panel>
+    <UnitImgGroup :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="1 - 2 级" imgSrc="Minion1.png" />
+        <UnitImg imgTitle="3 - 4 级" imgSrc="Minion3.png" />
+        <UnitImg imgTitle="5 级" imgSrc="Minion5.png" />
+        <UnitImg imgTitle="6 级" imgSrc="Minion6.png" />
+        <UnitImg imgTitle="7 - 8 级" imgSrc="Minion7.png" />
+        <UnitImg imgTitle="9 级" imgSrc="Minion9.png" />
+        <UnitImg imgTitle="10 级" imgSrc="Minion10.png" />
+        <UnitImg imgTitle="11 级" imgSrc="Minion11.png" />
+        <UnitImg imgTitle="12 级" imgSrc="Minion12.png" />
+        <UnitImg imgTitle="13 级" imgSrc="Minion13.png" imgHd="Minion13_hd.png" />
+        <UnitImg imgTitle="14 级" imgSrc="Minion14.png" />
+    </UnitImgGroup>
+</Panel>
+
 <SmallTitle>重要说明</SmallTitle>
 
 注：亡灵不能触发 [搜空地雷](/upgrade/0384-Seeking-Air-Mine)。
 
-</template>
+<SmallTitle>属性</SmallTitle>
 
-<template #history>
+<UnitProperties>
+    <UnitProperty pKey="部队类型" pValue="空中单位" />
+    <UnitProperty pKey="攻击偏好" pValue="无" />
+    <UnitProperty pKey="伤害类型" pValue="单体伤害" />
+    <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
+    <UnitProperty pKey="占据人口" pValue="2" />
+    <UnitProperty pKey="移动速度" pValue="4 格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="1 秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="2.25 格" />
+    <UnitProperty pKey="所需暗黑训练营等级" pValue="1" />
+    <UnitProperty pKey="所需大本等级" pValue="7" />
+    <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" />
+    <UnitProperty pKey="捐赠费用" pValue="1,1,45,Dark_Elixir" :isDonationCost="true" />
+</UnitProperties>
+
+<SmallTitle>升级数据</SmallTitle>
+
+<script setup>
+const tableExtraInfo = [
+    {
+        "column": 4,
+        "type": "cost",
+        "gpClass": "research",
+        "icon": "Dark_Elixir"
+    },
+    {
+        "column": 5,
+        "type": "time",
+        "gpClass": "research"
+    }
+];
+</script>
+
+<UnitTable :tableExtraInfo="tableExtraInfo">
+
+| 等级 |  每秒伤害 | 每次伤害 | 生命值 | 升级花费|  升级时间  |所需<br>实验室等级|所需<br>大本等级|
+| ---- |   ----   |   ----  |  ---- |   ----  |    ----   |       ----      |      ----     |
+| 1 | 38 | 38 | 58 | \ | \ | 1 | 7 |
+| 2 | 41 | 41 | 63 | 1000 | 0,6,0,0 | 5 | 7 |
+| 3 | 44 | 44 | 68 | 2500 | 0,8,0,0 | 6 | 8 |
+| 4 | 47 | 47 | 73 | 5000 | 0,12,0,0 | 6 | 8 |
+| 5 | 50 | 50 | 78 | 10000 | 1,0,0,0 | 7 | 9 |
+| 6 | 54 | 54 | 84 | 15000 | 1,12,0,0 | 8 | 10 |
+| 7 | 58 | 58 | 90 | 31500 | 1,18,0,0 | 9 | 11 |
+| 8 | 62 | 62 | 96 | 47500 | 2,0,0,0 | 10 | 12 |
+| 9 | 66 | 66 | 102 | 75000 | 3,0,0,0 | 11 | 13 |
+| 10 | 70 | 70 | 108 | 100000 | 4,0,0,0 | 12 | 14 |
+| 11 | 74 | 74 | 114 | 115000 | 4,12,0,0 | 13 | 15 |
+| 12 | 78 | 78 | 120 | 160000 | 5,0,0,0 | 14 | 16 |
+| 13 | 84 | 84 | 130 | 220000 | 9,0,0,0 | 15 | 17 |
+| 14 | 92 | 92 | 140 | 335000 | 14,0,0,0 | 16 | 18 |
+</UnitTable>
+
+<SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2025/11/17">
@@ -99,7 +161,4 @@ import unitData from "@/assets/unit-data/0080-Minion.json";
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
-
-</template>
-
-</SyncedUnitData>
+<p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Minion?oldid=625278" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>

@@ -2,30 +2,98 @@
 title: "部落冲突 coc 法术工厂升级数据"
 navTitle: "法术工厂"
 shownTitle: "法术工厂"
+description: "法术工厂是资深法师的家，比起在前线战斗，他们更适合去创造各种魔力武器。使用强大的法术，在战斗中扭转乾坤吧！"
 module: upgrade-home
 imgFolder: home_buildings/0484
 wiki: https://clashofclans.fandom.com/wiki/Spell_Factory
 canonical: /upgrade/0484-Spell-Factory
 dataSyncedOn: 2026-10-13
-description: "法术工厂是资深法师的家，比起在前线战斗，他们更适合去创造各种魔力武器。使用强大的法术，在战斗中扭转乾坤吧！"
 ---
-
-<script setup>
-import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
-import unitData from "@/assets/unit-data/0484-Spell-Factory.json";
-</script>
-
-<SyncedUnitData :data="unitData" :historyAfter="'2025-11-17'">
-
-<template #introduction>
 
 - *如想查看配置暗黑法术的法术工厂，请访问：[暗黑法术工厂](/upgrade/0485-Dark-Spell-Factory)。*
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Spell_Factory9.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
 
-</template>
+<SmallTitle>各等级图片</SmallTitle>
 
-<template #history>
+<Panel>
+    <UnitImgGroup title="闲置状态" :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="1 级" imgSrc="Spell_Factory1.png" />
+        <UnitImg imgTitle="2 级" imgSrc="Spell_Factory2.png" />
+        <UnitImg imgTitle="3 级" imgSrc="Spell_Factory3.png" />
+        <UnitImg imgTitle="4 级" imgSrc="Spell_Factory4.png" />
+        <UnitImg imgTitle="5 级" imgSrc="Spell_Factory5.png" />
+        <UnitImg imgTitle="6 级" imgSrc="Spell_Factory6.png" />
+        <UnitImg imgTitle="7 级" imgSrc="Spell_Factory7.png" />
+        <UnitImg imgTitle="8 级" imgSrc="Spell_Factory8.png" />
+        <UnitImg imgTitle="9 级" imgSrc="Spell_Factory9.png" />
+    </UnitImgGroup>
+    <UnitImgGroup title="法术配置中" :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="1 级" imgSrc="Spell_Factory1_Active.png" />
+        <UnitImg imgTitle="2 级" imgSrc="Spell_Factory2_Active.png" />
+        <UnitImg imgTitle="3 级" imgSrc="Spell_Factory3_Active.png" />
+        <UnitImg imgTitle="4 级" imgSrc="Spell_Factory4_Active.png" />
+        <UnitImg imgTitle="5 级" imgSrc="Spell_Factory5_Active.png" />
+        <UnitImg imgTitle="6 级" imgSrc="Spell_Factory6_Active.png" />
+        <UnitImg imgTitle="7 级" imgSrc="Spell_Factory7_Active.png" />
+        <UnitImg imgTitle="8 级" imgSrc="Spell_Factory8_Active.png" />
+        <UnitImg imgTitle="9 级" imgSrc="Spell_Factory9_Active.png" />
+    </UnitImgGroup>
+</Panel>
+
+<SmallTitle>建筑数量对照表</SmallTitle>
+
+<BuildingNum>
+    <BuildingNumRow title="大本等级" num="1 - 4, 5 - 18" />
+    <BuildingNumRow title="建筑数量" num="    0,      1" />
+</BuildingNum>
+
+<SmallTitle>属性</SmallTitle>
+
+<UnitProperties>
+    <UnitProperty pKey="占地面积" pValue="3×3" />
+    <UnitProperty pKey="判定面积" pValue="3×3" :isJudgeSquare="true" />
+</UnitProperties>
+
+<SmallTitle>升级数据</SmallTitle>
+
+<script setup>
+const tableExtraInfo = [
+    {
+        "column": 3,
+        "type": "cost",
+        "gpClass": "building",
+        "icon": "Elixir"
+    },
+    {
+        "column": 4,
+        "type": "time",
+        "gpClass": "building"
+    },
+    {
+        "column": 5,
+        "type": "exp",
+        "icon": "Exp"
+    }
+];
+</script>
+
+<UnitTable :tableExtraInfo="tableExtraInfo">
+
+| 等级 |可容纳的<br>法术空间| 生命值 | 升级费用 | 升级时间 |升级后可获<br>得的经验|所需<br>大本等级| 解锁的法术 |
+| ---- |        ---       |   ---  |   ---   |   ---   |         ---         |      ---      |    ---    |
+| 1 | 2 | 425 | 150000 | 0,6,0,0 |  | 5 | <a href="/upgrade/0100-Lightning-Spell">雷电法术</a> |
+| 2 | 4 | 470 | 300000 | 0,12,0,0 |  | 6 | <a href="/upgrade/0101-Healing-Spell">疗伤法术</a> |
+| 3 | 6 | 520 | 600000 | 1,0,0,0 |  | 7 | <a href="/upgrade/0102-Rage-Spell">狂暴法术</a> |
+| 4 | 8 | 600 | 1200000 | 2,0,0,0 |  | 9 | <a href="/upgrade/0103-Jump-Spell">弹跳法术</a><br><a href="/upgrade/0104-Freeze-Spell">冰冻法术</a> |
+| 5 | 10 | 720 | 2000000 | 3,0,0,0 |  | 10 | <a href="/upgrade/0105-Clone-Spell">镜像法术</a> |
+| 6 | 10 | 840 | 3500000 | 5,0,0,0 |  | 11 | <a href="/upgrade/0106-Invisibility-Spell">隐形法术</a> |
+| 7 | 10 | 960 | 9000000 | 7,0,0,0 |  | 13 | <a href="/upgrade/0107-Recall-Spell">回溯法术</a> |
+| 8 | 10 | 1080 | 14000000 | 8,0,0,0 |  | 15 | <a href="/upgrade/0108-Revive-Spell">复苏法术</a> |
+| 9 | 10 | 1150 | 24000000 | 9,0,0,0 |  | 16 | <a href="/upgrade/0109-Totem-Spell">图腾法术</a> |
+</UnitTable>
+
+<SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2025/11/17">
@@ -62,7 +130,4 @@ import unitData from "@/assets/unit-data/0484-Spell-Factory.json";
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
-
-</template>
-
-</SyncedUnitData>
+<p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Spell_Factory?oldid=624556" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>

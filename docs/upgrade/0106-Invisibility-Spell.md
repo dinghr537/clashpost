@@ -2,22 +2,13 @@
 title: "部落冲突 coc 隐形法术（隐身法术）升级数据"
 navTitle: "隐形法术"
 shownTitle: "隐形法术（隐身法术）"
+description: "隐形法术可以让范围内的一切隐形且无法被锁定，城墙和攻城机器除外。"
 module: upgrade-home
 imgFolder: home_tech/0106
 wiki: https://clashofclans.fandom.com/wiki/Invisibility_Spell
 canonical: /upgrade/0106-Invisibility-Spell
 dataSyncedOn: 2026-10-13
-description: "隐形法术可以让范围内的一切隐形且无法被锁定，城墙和攻城机器除外。"
 ---
-
-<script setup>
-import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
-import unitData from "@/assets/unit-data/0106-Invisibility-Spell.json";
-</script>
-
-<SyncedUnitData :data="unitData" :historyAfter="'2025-03-27'">
-
-<template #introduction>
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Invisibility_Spell.png" :imgAlt="$frontmatter.navTitle"
     :description="$frontmatter.description"
@@ -31,9 +22,48 @@ import unitData from "@/assets/unit-data/0106-Invisibility-Spell.json";
 4. 你可以利用隐形法术敌我不分的特性引导部队攻击其他目标，也可以让法术范围内的部队输出。
 5. 隐形不等于无敌，仅仅是不被锁定，这一点和 [女王](/upgrade/0201-Archer-Queen) 的 [隐形药水瓶](/upgrade/0741-Invisibility-Vial) 装备类似。被隐形法术覆盖的部队无法避免被已经打出去的子弹打中，也无法免疫溅射伤害。
 
-</template>
+<SmallTitle>属性</SmallTitle>
 
-<template #history>
+<UnitProperties>
+    <UnitProperty pKey="作用半径" pValue="4 格" />
+    <UnitProperty pKey="作用类型" pValue="将部队和建筑隐形" />
+    <UnitProperty pKey="作用目标" pValue="敌我双方的部队和建筑" />
+    <UnitProperty pKey="占用的法术空间" pValue="1" />
+    <UnitProperty pKey="所需法术工厂等级" pValue="6" />
+    <UnitProperty pKey="所需大本等级" pValue="11" />
+    <UnitProperty pKey="法术配置时间" pValue="无" trainingSystem="2025" />
+    <UnitProperty pKey="捐赠费用" pValue="3,3,9000,Elixir" :isDonationCost="true" />
+</UnitProperties>
+
+<SmallTitle>升级数据</SmallTitle>
+
+<script setup>
+const tableExtraInfo = [
+    {
+        "column": 2,
+        "type": "cost",
+        "gpClass": "research",
+        "icon": "Elixir"
+    },
+    {
+        "column": 3,
+        "type": "time",
+        "gpClass": "research"
+    }
+];
+</script>
+
+<UnitTable :tableExtraInfo="tableExtraInfo">
+
+| 等级 | 法术持续时间 | 升级花费 |  升级时间  | 所需实验室等级 | 所需大本等级 |
+| ---- |     ----    |   ----  |    ----   |      ----     |     ----    |
+| 1 | 3.5秒 | \ | \ | 1 | 11 |
+| 2 | 3.75秒 | 5000000 | 3,0,0,0 | 9 | 11 |
+| 3 | 4秒 | 6000000 | 4,0,0,0 | 10 | 12 |
+| 4 | 4.25秒 | 7000000 | 5,0,0,0 | 11 | 13 |
+</UnitTable>
+
+<SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2025/03/27">
@@ -68,7 +98,4 @@ import unitData from "@/assets/unit-data/0106-Invisibility-Spell.json";
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
-
-</template>
-
-</SyncedUnitData>
+<p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Invisibility_Spell?oldid=623168" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>

@@ -2,31 +2,91 @@
 title: "部落冲突 coc 瓦基丽武神升级数据"
 navTitle: "瓦基丽武神"
 shownTitle: "瓦基丽武神"
+description: "这位光荣的勇士擅长使用双手斧，她在相邻的建筑物之间跑动，能够通过狂暴旋风将多个敌人或建筑一同粉碎！"
 module: upgrade-home
 imgFolder: home_tech/0082
 wiki: https://clashofclans.fandom.com/wiki/Valkyrie
 canonical: /upgrade/0082-Valkyrie
 dataSyncedOn: 2026-10-13
-description: "这位光荣的勇士擅长使用双手斧，她在相邻的建筑物之间跑动，能够通过狂暴旋风将多个敌人或建筑一同粉碎！"
 ---
-
-<script setup>
-import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
-import unitData from "@/assets/unit-data/0082-Valkyrie.json";
-</script>
-
-<SyncedUnitData :data="unitData" :historyAfter="'2025-10-06'">
-
-<template #introduction>
 
 - *如想查看该兵种的强化版本，请访问：[超级瓦基丽武神](/upgrade/0607-Super-Valkyrie)。*
 - *如想查看作为临时兵种推出的超级强化版本，请访问：[铁臂终结者](/upgrade/0e19-The-Disarmer)。*
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Valkyrie_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
 
-</template>
+<SmallTitle>各等级图片</SmallTitle>
 
-<template #history>
+<Panel>
+    <UnitImgGroup :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="1 - 2 级" imgSrc="Valkyrie1.png" />
+        <UnitImg imgTitle="3 - 4 级" imgSrc="Valkyrie3.png" />
+        <UnitImg imgTitle="5 级" imgSrc="Valkyrie5.png" />
+        <UnitImg imgTitle="6 - 7 级" imgSrc="Valkyrie6.png" />
+        <UnitImg imgTitle="8 级" imgSrc="Valkyrie8.png" />
+        <UnitImg imgTitle="9 级" imgSrc="Valkyrie9.png" />
+        <UnitImg imgTitle="10 级" imgSrc="Valkyrie10.png" />
+        <UnitImg imgTitle="11 级" imgSrc="Valkyrie11.png" />
+            <UnitImg imgTitle="12 级" imgSrc="Valkyrie12.png" />
+</UnitImgGroup>
+</Panel>
+
+<SmallTitle>属性</SmallTitle>
+
+<UnitProperties>
+    <UnitProperty pKey="部队类型" pValue="地面近战单位" />
+    <UnitProperty pKey="攻击偏好" pValue="无" />
+    <UnitProperty pKey="伤害类型" pValue="范围攻击" />
+    <UnitProperty pKey="伤害半径" pValue="1 格" />
+    <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
+    <UnitProperty pKey="占据人口" pValue="8" />
+    <UnitProperty pKey="移动速度" pValue="3 格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="1.8 秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="0.5 格" />
+    <UnitProperty pKey="首次进攻时机" pValue="到达目标后 0.8 秒" />
+    <UnitProperty pKey="所需暗黑训练营等级" pValue="3" />
+    <UnitProperty pKey="所需大本等级" pValue="8" />
+    <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" />
+    <UnitProperty pKey="捐赠费用" pValue="4,4,180,Dark_Elixir" :isDonationCost="true" />
+</UnitProperties>
+
+<SmallTitle>升级数据</SmallTitle>
+
+<script setup>
+const tableExtraInfo = [
+    {
+        "column": 4,
+        "type": "cost",
+        "gpClass": "research",
+        "icon": "Dark_Elixir"
+    },
+    {
+        "column": 5,
+        "type": "time",
+        "gpClass": "research"
+    }
+];
+</script>
+
+<UnitTable :tableExtraInfo="tableExtraInfo">
+
+| 等级 |  每秒伤害 | 每次伤害 | 生命值 | 升级花费|  升级时间  |所需实验室等级|所需大本等级|
+| ---- |   ----   |   ----  |  ---- |   ----  |    ----   |    ----    |   ----    |
+| 1 | 94 | 169.2 | 750 | \ | \ | 1 | 8 |
+| 2 | 106 | 190.8 | 850 | 3000 | 0,8,0,0 | 6 | 8 |
+| 3 | 119 | 214.2 | 950 | 5000 | 1,0,0,0 | 7 | 9 |
+| 4 | 133 | 239.4 | 1050 | 10000 | 1,12,0,0 | 7 | 9 |
+| 5 | 148 | 266.4 | 1300 | 16000 | 1,18,0,0 | 8 | 10 |
+| 6 | 167 | 300.6 | 1500 | 31500 | 2,0,0,0 | 9 | 11 |
+| 7 | 185 | 333 | 1650 | 55000 | 2,6,0,0 | 10 | 12 |
+| 8 | 196 | 352.8 | 1800 | 77500 | 3,0,0,0 | 11 | 13 |
+| 9 | 208 | 374.4 | 2000 | 105000 | 4,12,0,0 | 12 | 14 |
+| 10 | 223 | 401.4 | 2400 | 120000 | 5,0,0,0 | 13 | 15 |
+| 11 | 238 | 428.4 | 2600 | 170000 | 6,0,0,0 | 14 | 16 |
+| 12 | 255 | 459 | 2900 | 340000 | 14,0,0,0 | 15 | 17 |
+</UnitTable>
+
+<SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2025/10/06">
@@ -97,7 +157,4 @@ import unitData from "@/assets/unit-data/0082-Valkyrie.json";
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
-
-</template>
-
-</SyncedUnitData>
+<p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Valkyrie?oldid=624089" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>

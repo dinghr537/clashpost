@@ -2,22 +2,13 @@
 title: "部落冲突 coc 女巫升级数据"
 navTitle: "女巫"
 shownTitle: "女巫"
+description: "女巫从来不是一个人在战斗，她能不断召唤骷髅兵发起攻击。升级您的女巫，让她每次可以召唤更多骷髅兵。"
 module: upgrade-home
 imgFolder: home_tech/0084
 wiki: https://clashofclans.fandom.com/wiki/Witch
 canonical: /upgrade/0084-Witch
 dataSyncedOn: 2026-10-13
-description: "女巫从来不是一个人在战斗，她能不断召唤骷髅兵发起攻击。升级您的女巫，让她每次可以召唤更多骷髅兵。"
 ---
-
-<script setup>
-import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
-import unitData from "@/assets/unit-data/0084-Witch.json";
-</script>
-
-<SyncedUnitData :data="unitData" :historyAfter="'2026-02-23'">
-
-<template #introduction>
 
 - *如想查看该兵种的强化版本，请访问：[超级女巫](/upgrade/0605-Super-Witch)。*
 - *如想查看夜世界的暗夜女巫，请访问：[夜世界暗夜女巫](/upgrade/1007-Night-Witch)。*
@@ -27,22 +18,117 @@ import unitData from "@/assets/unit-data/0084-Witch.json";
     <SwitchTab tabId="cp-unit-item-1">骷髅</SwitchTab>
 </SwitchTabs>
 
+<!-- ↓↓↓ 女巫 ↓↓↓ -->
 <SwitchTabGroup id="cp-unit-item-0" class="cp-unit-items">
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Witch_info.png" imgAlt="女巫"
     description="女巫从来不是一个人在战斗，她能不断召唤骷髅兵发起攻击。升级您的女巫，让她每次可以召唤更多骷髅兵。" />
 
+<SmallTitle>各等级图片</SmallTitle>
+
+<Panel>
+    <UnitImgGroup :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="1 - 2 级" imgSrc="Witch1.png" />
+        <UnitImg imgTitle="3 - 4 级" imgSrc="Witch3.png" />
+        <UnitImg imgTitle="5 级" imgSrc="Witch5.png" />
+        <UnitImg imgTitle="6 级" imgSrc="Witch6.png" />
+        <UnitImg imgTitle="7 级" imgSrc="Witch7.png" />
+        <UnitImg imgTitle="8 级" imgSrc="Witch8.png" imgHd="Witch8_hd.png" />
+    </UnitImgGroup>
+</Panel>
+
+<SmallTitle>属性</SmallTitle>
+
+<UnitProperties>
+    <UnitProperty pKey="部队类型" pValue="地面远程单位" />
+    <UnitProperty pKey="攻击偏好" pValue="无" />
+    <UnitProperty pKey="伤害类型" pValue="范围伤害" />
+    <UnitProperty pKey="伤害半径" pValue="0.3 格" />
+    <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
+    <UnitProperty pKey="占据人口" pValue="12" />
+    <UnitProperty pKey="移动速度" pValue="1.5 格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="0.7 秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="4 格" />
+    <UnitProperty pKey="召唤骷髅的冷却时间" pValue="7 秒" />
+    <UnitProperty pKey="所需暗黑训练营等级" pValue="5" />
+    <UnitProperty pKey="所需大本等级" pValue="9" />
+    <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" />
+    <UnitProperty pKey="捐赠费用" pValue="6,6,270,Dark_Elixir" :isDonationCost="true" />
+</UnitProperties>
+
+<SmallTitle>升级数据</SmallTitle>
+
+<script setup>
+const tableExtraInfo = [
+    {
+        "column": 7,
+        "type": "cost",
+        "gpClass": "research",
+        "icon": "Dark_Elixir"
+    },
+    {
+        "column": 8,
+        "type": "time",
+        "gpClass": "research"
+    }
+];
+</script>
+
+<UnitTable :tableExtraInfo="tableExtraInfo">
+
+| 等级 |每秒伤害| 每次伤害 |每次召唤<br>数量<sup>*</sup>|召唤的<br>骷髅等级|最大召唤<br>数量| 生命值 |升级花费|  升级时间  |所需<br>实验室等级|所需<br>大本等级|
+| --- |   ---  |   ----  |            ---            |        ---      |      ---     |  ---- |  ----  |    ---    |       ----      |      ----     |
+| 1 | 100 | 70 | 4 | 1 | 6 | 300 | \ | \ | 1 | 9 |
+| 2 | 110 | 77 | 4 | 1 | 8 | 320 | 20000 | 2,0,0,0 | 7 | 9 |
+| 3 | 140 | 98 | 4 | 1 | 10 | 400 | 29000 | 3,0,0,0 | 8 | 10 |
+| 4 | 165 | 115.5 | 4 | 1 | 12 | 470 | 45000 | 3,12,0,0 | 9 | 11 |
+| 5 | 185 | 129.5 | 4 | 1 | 14 | 520 | 62500 | 4,0,0,0 | 10 | 12 |
+| 6 | 200 | 140 | 4 | 1 | 15 | 540 | 150000 | 5,12,0,0 | 13 | 15 |
+| 7 | 220 | 154 | 5 | 1 | 16 | 560 | 180000 | 7,6,0,0 | 14 | 16 |
+| 8 | 260 | 182 | 5 | 2 | 16 | 650 | 355000 | 15,12,0,0 | 16 | 18 |
+</UnitTable>
+
 \* 女巫并不是每次召唤都可以召唤出这么多骷髅，当一只女巫召唤的骷髅达到上表的限制时，除非骷髅兵死亡，否则女巫不会继续召唤。这个上限指的是每只女巫召唤的骷髅，如果有两只女巫，那么场上的最大骷髅数量为 2 倍上限。
 </SwitchTabGroup>
 
+<!-- ↓↓↓ 骷髅 ↓↓↓ -->
 <SwitchTabGroup id="cp-unit-item-1" class="cp-unit-items">
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Skeleton_info.png" imgAlt="女巫召唤的骷髅"
     description="这些不死生物本身不构成太大的威胁，但它们从来不单独作战，因为女巫会不断召唤成群的骷髅兵来对抗您的敌人！" />
 
+<SmallTitle>各等级图片</SmallTitle>
+
+<Panel>
+    <UnitImgGroup :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="所有等级" imgSrc="Skeleton1.png" />
+    </UnitImgGroup>
+</Panel>
+
+<SmallTitle>属性</SmallTitle>
+
+<UnitProperties>
+    <UnitProperty pKey="部队类型" pValue="地面近战单位" />
+    <UnitProperty pKey="攻击偏好" pValue="无" />
+    <UnitProperty pKey="伤害类型" pValue="单体伤害" />
+    <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
+    <UnitProperty pKey="占据人口" pValue="1" />
+    <UnitProperty pKey="移动速度" pValue="3 格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="1 秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="0.4 格" />
+</UnitProperties>
+
+<SmallTitle>升级数据</SmallTitle>
+
+<UnitTable>
+
+| 等级 | 每秒伤害 | 每次伤害 | 生命值 |
+| --- |    ---   |   ----  |  ---  |
+|  1  |     25   |   25    |   30  |
+|  2  |     30   |   30    |   45  |
+</UnitTable>
 </SwitchTabGroup>
 
-</template>
-
-<template #history>
+<!-- ↓↓↓ 公共部分 ↓↓↓ -->
+<SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2026/02/23">
@@ -100,7 +186,4 @@ import unitData from "@/assets/unit-data/0084-Witch.json";
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
-
-</template>
-
-</SyncedUnitData>
+<p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Witch?oldid=624601" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>

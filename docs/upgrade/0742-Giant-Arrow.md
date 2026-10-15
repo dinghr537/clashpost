@@ -2,22 +2,13 @@
 title: "部落冲突 coc 巨型箭矢（穿云箭）装备升级数据"
 navTitle: "巨型箭矢"
 shownTitle: "巨型箭矢（穿云箭）"
+description: "巨型箭矢是弓箭女皇的一件普通装备。巨型箭矢装备可以让女王在使用技能时发射一支非常大的箭，这支箭可以穿透整个阵型。除了射出一支巨大的箭之外，巨型箭矢装备还可以给女王提供额外的每秒伤害和生命值。"
 module: upgrade-home
 imgFolder: home_heroes/0742
 wiki: https://clashofclans.fandom.com/wiki/Giant_Arrow
 canonical: /upgrade/0742-Giant-Arrow
 dataSyncedOn: 2026-10-13
-description: "巨型箭矢是弓箭女皇的一件普通装备。巨型箭矢装备可以让女王在使用技能时发射一支非常大的箭，这支箭可以穿透整个阵型。除了射出一支巨大的箭之外，巨型箭矢装备还可以给女王提供额外的每秒伤害和生命值。"
 ---
-
-<script setup>
-import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
-import unitData from "@/assets/unit-data/0742-Giant-Arrow.json";
-</script>
-
-<SyncedUnitData :data="unitData" :historyAfter="'2025-11-17'">
-
-<template #introduction>
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Giant_Arrow_info.png" :imgAlt="$frontmatter.navTitle" description="发射一支穿透力极强的巨大箭矢，穿过整个村庄。" />
 
@@ -30,13 +21,66 @@ import unitData from "@/assets/unit-data/0742-Giant-Arrow.json";
    - [狂暴法术](/upgrade/0102-Rage-Spell) 不能提升巨箭的伤害。
 3. 除了射出一支巨大的箭之外，巨型箭矢装备还可以给女王提供额外的每秒伤害和生命值。
 
+<SmallTitle>属性</SmallTitle>
+
+<UnitProperties>
+    <UnitProperty pKey="技能类型" pValue="主动技能" />
+    <UnitProperty pKey="装备稀有度" pValue="普通" />
+    <UnitProperty pKey="所需铁匠铺等级" pValue="2" />
+    <UnitProperty pKey="所需大本等级" pValue="9" />
+</UnitProperties>
+
+<SmallTitle>升级数据</SmallTitle>
+
+<script setup>
+const tableExtraInfo = [
+    {
+        "column": 4,
+        "type": "cost",
+        "icon": "Shiny_Ore",
+        "noGoldPass": true
+    },
+    {
+        "column": 5,
+        "type": "cost",
+        "icon": "Glowy_Ore",
+        "noGoldPass": true
+    }
+];
+</script>
+
+<UnitTable :tableExtraInfo="tableExtraInfo">
+
+| 等级 |巨箭的伤害|女王的每秒<br>伤害加成|生命值加成| 升级费用|升级费用|所需<br>铁匠铺等级|所需<br>大本等级|
+| ---- |   ---   |         ---        |   ---   |    ---  |  ---  |       ---      |       ---      |
+| 1 | 750 | 20 | 80 | \ | \ | 2 | 9 |
+| 2 | 750 | 23 | 93 | 120 | \ | 2 | 9 |
+| 3 | 850 | 27 | 106 | 240 | 20 | 2 | 9 |
+| 4 | 850 | 30 | 119 | 400 | \ | 2 | 9 |
+| 5 | 850 | 33 | 133 | 600 | \ | 2 | 9 |
+| 6 | 1000 | 37 | 146 | 840 | 100 | 2 | 9 |
+| 7 | 1000 | 40 | 159 | 1120 | \ | 2 | 9 |
+| 8 | 1000 | 43 | 172 | 1440 | \ | 2 | 9 |
+| 9 | 1100 | 50 | 199 | 1800 | 200 | 2 | 9 |
+| 10 | 1100 | 59 | 241 | 1900 | \ | 3 | 10 |
+| 11 | 1100 | 68 | 284 | 2000 | \ | 3 | 10 |
+| 12 | 1200 | 77 | 326 | 2100 | 400 | 3 | 10 |
+| 13 | 1200 | 86 | 369 | 2200 | \ | 5 | 12 |
+| 14 | 1200 | 96 | 411 | 2300 | \ | 5 | 12 |
+| 15 | 1350 | 105 | 454 | 2400 | 600 | 5 | 12 |
+| 16 | 1350 | 114 | 496 | 2500 | \ | 7 | 14 |
+| 17 | 1350 | 123 | 539 | 2600 | \ | 7 | 14 |
+| 18 | 1500 | 132 | 581 | 2700 | 600 | 7 | 14 |
+</UnitTable>
+
 注意：如果升级费用中有多种资源，则同时需要多种资源才能升级。
 
-</template>
-
-<template #history>
+<SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/05/26">
+        <TimelineRow>巨型箭矢对防空火箭新增2倍伤害倍率。投射物伤害：9至11级1,200→1,100，12至14级1,500→1,200，15至17级1,750→1,350，18级2,000→1,500。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/11/17">
         <TimelineRow>18 级巨型箭矢的伤害提升。</TimelineRow>
     </TimelineItem>
@@ -45,7 +89,4 @@ import unitData from "@/assets/unit-data/0742-Giant-Arrow.json";
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
-
-</template>
-
-</SyncedUnitData>
+<p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Giant_Arrow?oldid=623346" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>

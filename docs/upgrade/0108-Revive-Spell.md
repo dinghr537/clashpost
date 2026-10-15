@@ -2,22 +2,13 @@
 title: "部落冲突 coc 复苏法术（复活法术）升级数据"
 navTitle: "复苏法术"
 shownTitle: "复苏法术（复活法术）"
+description: "天使的独家秘方！复苏法术能让效果范围内被击倒的英雄恢复一部分生命值，重新回到战斗中。将该法术带入战斗，被击倒且可复苏的英雄上方就会出现一颗漂浮的金色心脏。升级复苏法术，可为英雄恢复更多生命值。"
 module: upgrade-home
 imgFolder: home_tech/0108
 wiki: https://clashofclans.fandom.com/wiki/Revive_Spell
 canonical: /upgrade/0108-Revive-Spell
 dataSyncedOn: 2026-10-13
-description: "天使的独家秘方！复苏法术能让效果范围内被击倒的英雄恢复一部分生命值，重新回到战斗中。将该法术带入战斗，被击倒且可复苏的英雄上方就会出现一颗漂浮的金色心脏。升级复苏法术，可为英雄恢复更多生命值。"
 ---
-
-<script setup>
-import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
-import unitData from "@/assets/unit-data/0108-Revive-Spell.json";
-</script>
-
-<SyncedUnitData :data="unitData" :historyAfter="'2026-02-23'">
-
-<template #introduction>
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Revive_Spell_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
 
@@ -37,11 +28,54 @@ import unitData from "@/assets/unit-data/0108-Revive-Spell.json";
 > 英雄是不朽的！不同于其他部队，他们不会在战斗结束后化作圣水，当他们受伤了只需睡一觉就会痊愈。<br>
 > （摘自官方于 2013 年 1 月在英雄玩法推出之时对英雄的介绍）
 
-</template>
+<SmallTitle>属性</SmallTitle>
 
-<template #history>
+<UnitProperties>
+    <UnitProperty pKey="有效半径" pValue="8 格" />
+    <UnitProperty pKey="作用类型" pValue="复活英雄" />
+    <UnitProperty pKey="作用目标" pValue="我方英雄" />
+    <UnitProperty pKey="占用的法术空间" pValue="2" />
+    <UnitProperty pKey="所需法术工厂等级" pValue="8" />
+    <UnitProperty pKey="所需大本等级" pValue="15" />
+    <UnitProperty pKey="法术配置时间" pValue="无" trainingSystem="2025" />
+    <UnitProperty pKey="捐赠费用" pValue="6,6,18000,Elixir" :isDonationCost="true" />
+</UnitProperties>
+
+<SmallTitle>升级数据</SmallTitle>
+
+<script setup>
+const tableExtraInfo = [
+    {
+        "column": 2,
+        "type": "cost",
+        "gpClass": "research",
+        "icon": "Elixir"
+    },
+    {
+        "column": 3,
+        "type": "time",
+        "gpClass": "research"
+    }
+];
+</script>
+
+<UnitTable :tableExtraInfo="tableExtraInfo">
+
+| 等级 |复苏后<br>回复的血量| 升级花费 |  升级时间  |所需<br>实验室等级|所需<br>大本等级|
+| ---- |        ---       |    ---   |    ---    |       ----      |      ----    |
+| 1 | 60% | \ | \ | 1 | 15 |
+| 2 | 65% | 18000000 | 7,0,0,0 | 13 | 15 |
+| 3 | 70% | 19000000 | 8,0,0,0 | 14 | 16 |
+| 4 | 75% | 20000000 | 11,12,0,0 | 15 | 17 |
+| 5 | 80% | 29500000 | 16,0,0,0 | 16 | 18 |
+</UnitTable>
+
+<SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/08/31">
+        <TimelineRow>复苏法术新增操作方式：选中法术后，可点击部署栏中阵亡英雄闪烁的图标，精确选择要复活的英雄。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2026/02/23">
         <TimelineRow>在 18 本新增 5 级复苏法术。</TimelineRow>
     </TimelineItem>
@@ -59,7 +93,4 @@ import unitData from "@/assets/unit-data/0108-Revive-Spell.json";
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
-
-</template>
-
-</SyncedUnitData>
+<p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Revive_Spell?oldid=625258" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>

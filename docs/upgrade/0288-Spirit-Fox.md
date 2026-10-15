@@ -2,24 +2,23 @@
 title: "部落冲突 coc 灵狐（狐狸）升级数据"
 navTitle: "灵狐"
 shownTitle: "灵狐（狐狸）"
+description: "灵狐生性极其害羞，最喜欢独自待在村庄外的树林里。被召唤到战场时，灵狐会与它的英雄并肩作战，并帮助其隐身。"
 module: upgrade-home
 imgFolder: home_heroes/0288
 wiki: https://clashofclans.fandom.com/wiki/Spirit_Fox
 canonical: /upgrade/0288-Spirit-Fox
 dataSyncedOn: 2026-10-13
-description: "灵狐生性极其害羞，最喜欢独自待在村庄外的树林里。被召唤到战场时，灵狐会与它的英雄并肩作战，并帮助其隐身。"
 ---
 
-<script setup>
-import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
-import unitData from "@/assets/unit-data/0288-Spirit-Fox.json";
-</script>
-
-<SyncedUnitData :data="unitData" :historyAfter="'2025-03-24'">
-
-<template #introduction>
-
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Spirit_Fox_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
+
+<SmallTitle>各等级图片</SmallTitle>
+
+<Panel>
+    <UnitImgGroup :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="所有等级" imgSrc="Spirit_Fox_field.png" />
+    </UnitImgGroup>
+</Panel>
 
 <SmallTitle>重要说明</SmallTitle>
 
@@ -29,9 +28,61 @@ import unitData from "@/assets/unit-data/0288-Spirit-Fox.json";
 4. 灵狐的隐形效果激活时可重置单头 [地狱塔](/upgrade/030a-Inferno-Tower) 和防守方 [地狱飞龙](/upgrade/0604-Inferno-Dragon) 的伤害。
 5. 灵狐的移动速度较快，很容易跑在英雄前面导致过早死亡，因此灵狐很适合搭配移动速度同样较快的 [飞盾战神](/upgrade/0203-Royal-Champion)。另外，灵狐也可以搭配 [蛮王](/upgrade/0200-Barbarian-King)，延长蛮王的存活时间，让蛮王的坦克潜力充分发挥。
 
-</template>
+<SmallTitle>属性</SmallTitle>
 
-<template #history>
+<UnitProperties>
+    <UnitProperty pKey="攻击偏好" pValue="距离英雄不超过 4.5 格的目标" />
+    <UnitProperty pKey="伤害类型" pValue="单体伤害" />
+    <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
+    <UnitProperty pKey="占据人口" pValue="20" />
+    <UnitProperty pKey="移动速度" pValue="3 格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="1.6 秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="2.5 格" />
+    <UnitProperty pKey="隐身效果冷却时间" pValue="6 秒" />
+    <UnitProperty pKey="所需战宠小屋等级" pValue="9" />
+    <UnitProperty pKey="所需大本等级" pValue="16" />
+</UnitProperties>
+
+<SmallTitle>升级数据</SmallTitle>
+
+<script setup>
+const tableExtraInfo = [
+    {
+        "column": 5,
+        "type": "cost",
+        "gpClass": "research",
+        "icon": "Dark_Elixir"
+    },
+    {
+        "column": 6,
+        "type": "time",
+        "gpClass": "research"
+    },
+    {
+        "column": 7,
+        "type": "dailyCost",
+        "icon": "Dark_Elixir"
+    }
+];
+</script>
+
+<UnitTable :tableExtraInfo="tableExtraInfo">
+
+| 等级 | 每秒伤害 | 每次伤害 |隐身秒数| 生命值| 升级花费 | 升级时间 | 日均耗油 |所需战宠<br>小屋等级|所需<br>大本等级|
+| ---- |   ---   |   ---   |  ---  |  ---  |  ----   |   ---   |   ---   |        ---       |      ---      |
+| 1 | 108 | 172.8 | 3秒 | 1900 | \ | \ |  | 9 | 16 |
+| 2 | 116 | 185.6 | 3秒 | 2000 | 150000 | 3,0,0,0 |  | 9 | 16 |
+| 3 | 124 | 198.4 | 3秒 | 2100 | 160000 | 4,0,0,0 |  | 9 | 16 |
+| 4 | 132 | 211.2 | 3秒 | 2200 | 170000 | 5,0,0,0 |  | 9 | 16 |
+| 5 | 140 | 224 | 3.5秒 | 2300 | 180000 | 5,12,0,0 |  | 9 | 16 |
+| 6 | 148 | 236.8 | 3.5秒 | 2400 | 190000 | 6,0,0,0 |  | 9 | 16 |
+| 7 | 156 | 249.6 | 3.5秒 | 2500 | 200000 | 6,12,0,0 |  | 9 | 16 |
+| 8 | 164 | 262.4 | 3.5秒 | 2600 | 210000 | 7,0,0,0 |  | 9 | 16 |
+| 9 | 172 | 275.6 | 3.5秒 | 2700 | 220000 | 7,12,0,0 |  | 9 | 16 |
+| 10 | 180 | 288 | 4秒 | 2800 | 230000 | 8,0,0,0 |  | 9 | 16 |
+</UnitTable>
+
+<SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2025/03/24">
@@ -51,7 +102,4 @@ import unitData from "@/assets/unit-data/0288-Spirit-Fox.json";
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
-
-</template>
-
-</SyncedUnitData>
+<p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Spirit_Fox?oldid=620669" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>

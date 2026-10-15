@@ -2,26 +2,49 @@
 title: "部落冲突 coc 建筑工人小屋升级数据"
 navTitle: "建筑工人小屋"
 shownTitle: "建筑工人小屋"
+description: "没有建筑工人一切都免谈！您可以雇佣多个建筑工人同时开始多个项目的建造或升级，或者使用宝石加快施工速度。"
 module: upgrade-home
 imgFolder: home_buildings/0500
 wiki: https://clashofclans.fandom.com/wiki/Builder%27s_Hut
 canonical: /upgrade/0500-Builders-Hut
 dataSyncedOn: 2026-10-13
-description: "没有建筑工人一切都免谈！您可以雇佣多个建筑工人同时开始多个项目的建造或升级，或者使用宝石加快施工速度。"
 ---
-
-<script setup>
-import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
-import unitData from "@/assets/unit-data/0500-Builders-Hut.json";
-</script>
-
-<SyncedUnitData :data="unitData" :historyAfter="'2026-01-28'">
-
-<template #introduction>
 
 - *如想查看村庄内类似于建筑工人小屋的另一种建筑，请访问：[小博木屋（巴布小屋）](/upgrade/0501-B.O.Bs-Hut)。*
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Builders_Hut7_hd.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
+
+<SmallTitle>各等级图片</SmallTitle>
+
+<Panel>
+    <UnitImgGroup title="日常状态" :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="1 级" imgSrc="Builders_Hut1.png" />
+        <UnitImg imgTitle="2 级" imgSrc="Builders_Hut2.png" />
+        <UnitImg imgTitle="3 级" imgSrc="Builders_Hut3.png" />
+        <UnitImg imgTitle="4 级" imgSrc="Builders_Hut4.png" />
+        <UnitImg imgTitle="5 级" imgSrc="Builders_Hut5.png" />
+        <UnitImg imgTitle="6 级" imgSrc="Builders_Hut6.png" imgHd="Builders_Hut6_hd.png" />
+        <UnitImg imgTitle="7 级" imgSrc="Builders_Hut7.png" imgHd="Builders_Hut7_hd.png" />
+            <UnitImg imgTitle="8 级" imgSrc="Builders_Hut8.png" />
+</UnitImgGroup>
+    <UnitImgGroup title="激活状态" :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="1 级" imgSrc="Builders_Hut1.png" />
+        <UnitImg imgTitle="2 级" imgSrc="Builders_Hut2_Active.png" />
+        <UnitImg imgTitle="3 级" imgSrc="Builders_Hut3_Active.png" />
+        <UnitImg imgTitle="4 级" imgSrc="Builders_Hut4_Active.png" />
+        <UnitImg imgTitle="5 级" imgSrc="Builders_Hut5_Active.png" />
+        <UnitImg imgTitle="6 级" imgSrc="Builders_Hut6_Active.png" />
+        <UnitImg imgTitle="7 级" imgSrc="Builders_Hut7_Active.png" />
+            <UnitImg imgTitle="8 级（工作状态）" imgSrc="Builders_Hut8_Active.png" />
+</UnitImgGroup>
+</Panel>
+
+<SmallTitle>建筑数量对照表</SmallTitle>
+
+<BuildingNum>
+    <BuildingNumRow title="大本等级" num="1, 2 - 18" />
+    <BuildingNumRow title="建筑数量" num="2,      5" />
+</BuildingNum>
 
 <SmallTitle>重要说明</SmallTitle>
 
@@ -35,13 +58,83 @@ import unitData from "@/assets/unit-data/0500-Builders-Hut.json";
 7. 建筑工人会优先修复自己的小屋，其次修复离自己最近的建筑。如果你想玩闪震，但是你要打的建筑旁边有工人小屋，那么你需要先放 [地震](/upgrade/0181-Earthquake-Spell)
    再放闪电。因为放了地震之后工人小屋残血了，建筑工人会先修自己的房子，这时候你就有充足的时间放闪电了。
 8. 即使工人正在升级建筑，战斗过程中他仍然会修复建筑。
-9. 当你解锁第 6 个工人后，村庄内会多出一个类似于建筑工人小屋的建筑，但那实际上是 [小博木屋](/upgrade/0501-B.O.Bs-Hut)。战斗过程中，小博**不会**像其他建筑工人一样修复建筑。解锁第 6 个工人的条件见 [波仔控制室](/upgrade/1284-B.O.B-Control)。
+9. 当你解锁第 6 个工人后，村庄内会多出一个类似于建筑工人小屋的建筑，但那实际上是 [小博木屋](/upgrade/0501-B.O.Bs-Hut)。战斗过程中，小博**不会**像其他建筑工人一样修复建筑。关于第 6 个工人的解锁条件，请参考 这篇文章。
 
-</template>
+<SmallTitle>属性</SmallTitle>
 
-<template #history>
+<UnitProperties>
+    <UnitProperty pKey="占地面积" pValue="2×2" />
+    <UnitProperty pKey="判定面积" pValue="1×1" :isJudgeSquare="true" />
+    <UnitProperty pKey="伤害类型" pValue="单体伤害" />
+    <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
+    <UnitProperty pKey="建筑工人小屋的最大数量" pValue="5" />
+    <UnitProperty pKey="射程" pValue="7 格" />
+    <UnitProperty pKey="建筑工人小屋的攻速" pValue="0.4 秒/次" />
+    <UnitProperty pKey="建筑工人的移动速度" pValue="2.5 秒/格" />
+    <UnitProperty pKey="建筑工人的修复速度" pValue="0.75 秒/次" />
+</UnitProperties>
+
+<SmallTitle>升级数据</SmallTitle>
+
+<script setup>
+const tableExtraInfo = [
+    {
+        "column": 6,
+        "type": "cost",
+        "gpClass": "building",
+        "icon": "Gold"
+    },
+    {
+        "column": 7,
+        "type": "time",
+        "gpClass": "building"
+    },
+    {
+        "column": 8,
+        "type": "exp",
+        "icon": "Exp"
+    }
+];
+</script>
+
+<UnitTable :tableExtraInfo="tableExtraInfo">
+
+| 等级 | 每秒伤害 | 每次伤害 |每秒<br>修复值|每次敲锤子<br>的修复值| 生命值 | 升级费用 | 升级时间|升级后可<br>获得的经验|所需<br>大本等级|
+| ---- |  ----   |   ---   |     ---     |         ---         |  ---  |   ---   |   ---   |         ---        |      ---      |
+| 1 | \ | \ | \ | \ | 250 | 见下方 | \ |  | 1 |
+| 2 | 80 | 32 | 50 | 37.5 | 1000 | 3000000 | 2,0,0,0 |  | 14 |
+| 3 | 100 | 40 | 60 | 45 | 1300 | 4000000 | 3,0,0,0 |  | 14 |
+| 4 | 120 | 48 | 70 | 52.5 | 1600 | 6000000 | 4,0,0,0 |  | 14 |
+| 5 | 135 | 54 | 80 | 60 | 1800 | 7000000 | 5,0,0,0 |  | 15 |
+| 6 | 150 | 60 | 85 | 63.75 | 1900 | 8000000 | 5,12,0,0 |  | 16 |
+| 7 | 165 | 66 | 90 | 67.5 | 2000 | 15500000 | 7,0,0,0 |  | 17 |
+| 8 | 180 | 72 | 95 | 71.25 | 2100 | 24000000 | 13,0,0,0 |  | 18 |
+| ⚡1 | 187 | 74.8 | 95 | 71.25 | 2100 | 10000000 | 4,0,0,0 |  | 18 |
+| ⚡2 | 187 | 74.8 | 95 | 71.25 | 2150 | 8000000 | 6,0,0,0 |  | 18 |
+</UnitTable>
+
+<SmallTitle>新建费用</SmallTitle>
+
+<Table>
+
+| 建筑工人小屋数量 |           建造所需宝石             |
+|      ----       |              ----                |
+|     第 1 个     |      无（玩家注册账号后有一个）     |
+|     第 2 个     | 250（新手教程中要求玩家必须购买一个）|
+|     第 3 个     |              500                  |
+|     第 4 个     |             1000                  |
+|     第 5 个     |             2000                  |
+</Table>
+
+<SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/08/31">
+        <TimelineRow>建筑工人小屋新增2个蓄能等级。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2026/06/16">
+        <TimelineRow>新增8级建筑工人小屋，移除7级蓄能。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2026/01/28">
         <TimelineRow>建筑工人的移动速度由 3.5 格/秒 降低到 2.5 格/秒。</TimelineRow>
     </TimelineItem>
@@ -94,7 +187,4 @@ import unitData from "@/assets/unit-data/0500-Builders-Hut.json";
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
-
-</template>
-
-</SyncedUnitData>
+<p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Builder%27s_Hut?oldid=625149" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>

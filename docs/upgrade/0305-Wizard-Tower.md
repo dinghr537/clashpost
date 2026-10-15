@@ -2,35 +2,120 @@
 title: "部落冲突 coc 法师塔升级数据"
 navTitle: "法师塔"
 shownTitle: "法师塔"
+description: "感受神秘法术的威力吧！塔上的法师会施放威力强大的范围性攻击法术，抵御侵入领土和领空的敌军。"
 module: upgrade-home
 imgFolder: home_buildings/0305
 wiki: https://clashofclans.fandom.com/wiki/Wizard_Tower
 canonical: /upgrade/0305-Wizard-Tower
 dataSyncedOn: 2026-10-13
-description: "感受神秘法术的威力吧！塔上的法师会施放威力强大的范围性攻击法术，抵御侵入领土和领空的敌军。"
 ---
-
-<script setup>
-import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
-import unitData from "@/assets/unit-data/0305-Wizard-Tower.json";
-</script>
-
-<SyncedUnitData :data="unitData" :historyAfter="'2025-11-17'">
-
-<template #introduction>
 
 - *如想查看由两个法师塔合成的超级法师塔，请访问 [超级法师塔](/upgrade/0318-Super-Wizard-Tower)。*
 - *如想查看都城的超级法师塔，请访问：[都城超级法师塔](/upgrade/2207-Super-Wizard-Tower)。*
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Wizard_Tower17.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
 
+<SmallTitle>各等级图片</SmallTitle>
+
+<Panel>
+    <UnitImgGroup title="法师塔" :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="1 级" imgSrc="Wizard_Tower1.png" />
+        <UnitImg imgTitle="2 级" imgSrc="Wizard_Tower2.png" />
+        <UnitImg imgTitle="3 级" imgSrc="Wizard_Tower3.png" />
+        <UnitImg imgTitle="4 级" imgSrc="Wizard_Tower4.png" />
+        <UnitImg imgTitle="5 级" imgSrc="Wizard_Tower5.png" />
+        <UnitImg imgTitle="6 级" imgSrc="Wizard_Tower6.png" />
+        <UnitImg imgTitle="7 级" imgSrc="Wizard_Tower7.png" />
+        <UnitImg imgTitle="8 级" imgSrc="Wizard_Tower8.png" />
+        <UnitImg imgTitle="9 级" imgSrc="Wizard_Tower9.png" />
+        <UnitImg imgTitle="10 级" imgSrc="Wizard_Tower10.png" />
+        <UnitImg imgTitle="11 级" imgSrc="Wizard_Tower11.png" />
+        <UnitImg imgTitle="12 级" imgSrc="Wizard_Tower12.png" />
+        <UnitImg imgTitle="13 级" imgSrc="Wizard_Tower13.png" />
+        <UnitImg imgTitle="14 级" imgSrc="Wizard_Tower14.png" />
+        <UnitImg imgTitle="15 级" imgSrc="Wizard_Tower15.png" />
+        <UnitImg imgTitle="16 级" imgSrc="Wizard_Tower16.png" />
+        <UnitImg imgTitle="17 级" imgSrc="Wizard_Tower17.png" />
+    </UnitImgGroup>
+</Panel>
+
+<SmallTitle>建筑数量对照表</SmallTitle>
+
+<BuildingNum>
+    <BuildingNumRow title="大本等级" num="1 - 4, 5, 6 - 7, 8, 9 - 10, 11 - 17, 18" />
+    <BuildingNumRow title="建筑数量" num="    0, 1,     2, 3,      4,       5,  2" />
+</BuildingNum>
+
 注：18 本可新建一个法师塔，合并两个超级法师塔，因此法师塔的数量为 5 + 1 - 2 * 2 = 2 个。
 
-</template>
+<SmallTitle>属性</SmallTitle>
 
-<template #history>
+<UnitProperties>
+    <UnitProperty pKey="占地面积" pValue="3×3" />
+    <UnitProperty pKey="判定面积" pValue="2×2" :isJudgeSquare="true" />
+    <UnitProperty pKey="伤害类型" pValue="范围伤害" />
+    <UnitProperty pKey="伤害半径" pValue="1 格" />
+    <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
+    <UnitProperty pKey="射程" pValue="7 格" />
+    <UnitProperty pKey="攻速" pValue="1.3 秒/次" />
+</UnitProperties>
+
+<p>该单位的蓄能已停用；表中 ⚡ 行保留为原有记录。</p>
+
+<SmallTitle>升级数据</SmallTitle>
+
+<script setup>
+const tableExtraInfo = [
+    {
+        "column": 4,
+        "type": "cost",
+        "gpClass": "building",
+        "icon": "Gold"
+    },
+    {
+        "column": 5,
+        "type": "time",
+        "gpClass": "building"
+    },
+    {
+        "column": 6,
+        "type": "exp",
+        "icon": "Exp"
+    }
+];
+</script>
+
+<UnitTable :tableExtraInfo="tableExtraInfo">
+
+| 等级 | 每秒伤害 | 每次伤害 | 生命值 | 升级费用 |  升级时间  |升级后可<br>获得的经验| 所需<br>大本等级 |
+| ---- |   ---   |   ---   |   ---  |   ---   |   ---     |        ---          |       ---      |
+| 1 | 11 | 14.3 | 620 | 100000 | 0,1,0,0 |  | 5 |
+| 2 | 13 | 16.9 | 650 | 150000 | 0,1,30,0 |  | 5 |
+| 3 | 16 | 20.8 | 680 | 250000 | 0,4,0,0 |  | 6 |
+| 4 | 20 | 26 | 730 | 400000 | 0,8,0,0 |  | 7 |
+| 5 | 24 | 31.2 | 840 | 550000 | 0,10,0,0 |  | 8 |
+| 6 | 32 | 41.6 | 960 | 660000 | 0,12,0,0 |  | 8 |
+| 7 | 40 | 52 | 1200 | 1000000 | 0,18,0,0 |  | 9 |
+| 8 | 45 | 58.5 | 1440 | 1100000 | 0,20,0,0 |  | 10 |
+| 9 | 50 | 65 | 1600 | 1300000 | 1,0,0,0 |  | 10 |
+| 10 | 62 | 80.6 | 1900 | 2000000 | 1,6,0,0 |  | 11 |
+| 11 | 70 | 91 | 2120 | 2500000 | 1,12,0,0 |  | 12 |
+| 12 | 78 | 101.4 | 2240 | 2600000 | 1,18,0,0 |  | 13 |
+| 13 | 84 | 109.2 | 2500 | 3000000 | 2,0,0,0 |  | 13 |
+| 14 | 90 | 117 | 2800 | 4500000 | 3,0,0,0 |  | 14 |
+| 15 | 95 | 123.5 | 3000 | 5500000 | 4,0,0,0 |  | 15 |
+| 16 | 102 | 132.6 | 3150 | 8000000 | 4,12,0,0 |  | 16 |
+| 17 | 110 | 143 | 3300 | 14000000 | 5,12,0,0 |  | 17 |
+| ⚡1 | 114 | 148.2 | 3300 | 8M | 3,12 |  | 17 |
+| ⚡2 | 114 | 148.2 | 3375 | 4M | 5,12 |  | 17 |
+</UnitTable>
+
+<SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/04/27">
+        <TimelineRow>四月更新公告：十七级升级时间从 8 天 12 小时缩短为 5 天 12 小时。 <a href="https://www.clash.ninja/blog/april-2026-update-is-live" target="_blank" rel="noopener noreferrer">来源</a></TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/11/17">
         <TimelineRow>17 级法师塔的升级时间和升级费用减少。</TimelineRow>
     </TimelineItem>
@@ -97,6 +182,4 @@ import unitData from "@/assets/unit-data/0305-Wizard-Tower.json";
     <TimelineItem :historyBottom="true" />
 </Timeline>
 
-</template>
-
-</SyncedUnitData>
+<p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Wizard_Tower?oldid=625327" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>

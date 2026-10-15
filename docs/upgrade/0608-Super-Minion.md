@@ -2,36 +2,77 @@
 title: "部落冲突 coc 超级亡灵（超苍、马云）升级数据"
 navTitle: "超级亡灵"
 shownTitle: "超级亡灵（超苍、马云）"
+description: "超级亡灵的大脑门可不光是好看，更代表了智慧！既然体型变大让它无法躲开搜空地雷，那从安全距离远程攻击防御建筑显然非常明智！"
 module: upgrade-home
 imgFolder: home_tech/0608
 wiki: https://clashofclans.fandom.com/wiki/Super_Minion
 canonical: /upgrade/0608-Super-Minion
 dataSyncedOn: 2026-10-13
-description: "超级亡灵的大脑门可不光是好看，更代表了智慧！既然体型变大让它无法躲开搜空地雷，那从安全距离远程攻击防御建筑显然非常明智！"
 ---
-
-<script setup>
-import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
-import unitData from "@/assets/unit-data/0608-Super-Minion.json";
-</script>
-
-<SyncedUnitData :data="unitData" :historyAfter="'2026-01-28'">
-
-<template #introduction>
 
 - *如想查看该兵种的普通版本，请访问：[亡灵](/upgrade/0080-Minion)。*
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Super_Minion_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
 
+<SmallTitle>各等级图片</SmallTitle>
+
+<Panel>
+    <UnitImgGroup :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="所有等级" imgSrc="Super_Minion8.png" />
+    </UnitImgGroup>
+</Panel>
+
 <SmallTitle>重要说明</SmallTitle>
 
 超级亡灵的技能（远程狙杀）：当超级亡灵作进攻方时，其前 8 次攻击为远距离攻击；作防守方时，其前 3 次攻击为远距离攻击。
 
+<SmallTitle>属性</SmallTitle>
+
+<UnitProperties>
+    <UnitProperty pKey="部队类型" pValue="空中单位" />
+    <UnitProperty pKey="攻击偏好" pValue="无" />
+    <UnitProperty pKey="伤害类型" pValue="单体伤害" />
+    <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
+    <UnitProperty pKey="占据人口" pValue="12" />
+    <UnitProperty pKey="移动速度" pValue="2 格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="1 秒/次" />
+    <UnitProperty pKey="普攻攻击距离" pValue="3.5 格" />
+    <UnitProperty pKey="远程狙杀次数" pValue="8 次（进攻）<br>3 次（防守）" />
+    <UnitProperty pKey="远程狙杀射程" pValue="10.25 格" />
+    <UnitProperty pKey="最低亡灵等级" pValue="8" />
+    <UnitProperty pKey="最低大本等级" pValue="12" />
+    <UnitProperty pKey="强化费用" pValue="2.5 万黑油" />
+    <UnitProperty pKey="强化有效期" pValue="3 天" />
+    <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" />
+    <UnitProperty pKey="捐赠费用" pValue="6,6,270,Dark_Elixir" :isDonationCost="true" />
+</UnitProperties>
+
+<SmallTitle>升级数据</SmallTitle>
+
+<UnitTable>
+
+|     等级      |  每秒伤害  |  每次伤害  | 生命值 |所需大本等级|
+|      ---      |    ----   |    ----   |  ---- |    ----   |
+| 4 | 200 | 200 | 1100 | 7 |
+| 4<sup>*</sup> | 200 | 200 | 1100 | 7 |
+| 5 | 225 | 225 | 1200 | 9 |
+| 5<sup>*</sup> | 225 | 225 | 1200 | 9 |
+| 6 | 250 | 250 | 1300 | 10 |
+| 6<sup>*</sup> | 250 | 250 | 1300 | 10 |
+| 7 | 275 | 275 | 1400 | 11 |
+| 7<sup>*</sup> | 275 | 275 | 1400 | 11 |
+| 8 | 300 | 300 | 1500 | 12 |
+| 9 | 325 | 325 | 1600 | 13 |
+| 10 | 350 | 350 | 1700 | 14 |
+| 11 | 360 | 360 | 1800 | 15 |
+| 12 | 370 | 370 | 1900 | 16 |
+| 13 | 385 | 385 | 2100 | 17 |
+| 14 | 400 | 400 | 2300 | 18 |
+</UnitTable>
+
 \* 4 - 7 级超级亡灵只在 奖章活动 中出现，不能通过常规方式得到。
 
-</template>
-
-<template #history>
+<SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2026/01/28">
@@ -84,7 +125,4 @@ import unitData from "@/assets/unit-data/0608-Super-Minion.json";
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
-
-</template>
-
-</SyncedUnitData>
+<p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Super_Minion?oldid=620782" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>

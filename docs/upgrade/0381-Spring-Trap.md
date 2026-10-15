@@ -2,26 +2,43 @@
 title: "部落冲突 coc 隐形弹簧升级数据"
 navTitle: "隐形弹簧"
 shownTitle: "隐形弹簧"
+description: "曾经有一个精妙的弹簧摆在我的面前，我没有看见，然后，就没有然后了！"
 module: upgrade-home
 imgFolder: home_buildings/0381
 wiki: https://clashofclans.fandom.com/wiki/Spring_Trap
 canonical: /upgrade/0381-Spring-Trap
 dataSyncedOn: 2026-10-13
-description: "曾经有一个精妙的弹簧摆在我的面前，我没有看见，然后，就没有然后了！"
 ---
-
-<script setup>
-import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
-import unitData from "@/assets/unit-data/0381-Spring-Trap.json";
-</script>
-
-<SyncedUnitData :data="unitData" :historyAfter="'2025-11-17'">
-
-<template #introduction>
 
 - 如想查看夜世界的隐形弹簧，请访问：[夜世界隐形弹簧](/upgrade/1181-Spring-Trap)。
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Spring_Trap_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
+
+<SmallTitle>各等级图片</SmallTitle>
+
+<Panel>
+    <UnitImgGroup title="常规模型" :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="1 - 2 级" imgSrc="Spring_Trap1.png" />
+        <UnitImg imgTitle="3 - 4 级" imgSrc="Spring_Trap3.png" />
+        <UnitImg imgTitle="5 - 6 级" imgSrc="Spring_Trap5.png" />
+        <UnitImg imgTitle="7 - 8 级" imgSrc="Spring_Trap7.png" />
+        <UnitImg imgTitle="9 - 10 级" imgSrc="Spring_Trap9.png" />
+        <UnitImg imgTitle="11 - 12 级" imgSrc="Spring_Trap11.png" />
+        <UnitImg imgTitle="13 级" imgSrc="Spring_Trap13.png" />
+    </UnitImgGroup>
+    <UnitImgGroup title="未重新布置" :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="1 - 2 级" imgSrc="Spring_Trap1_unarmed.png" />
+        <UnitImg imgTitle="3 - 6 级" imgSrc="Spring_Trap3_unarmed.png" />
+        <UnitImg imgTitle="7 - 13 级" imgSrc="Spring_Trap7_unarmed.png" />
+    </UnitImgGroup>
+</Panel>
+
+<SmallTitle>建筑数量对照表</SmallTitle>
+
+<BuildingNum>
+    <BuildingNumRow title="大本等级" num="1 - 3, 4 - 5, 6 - 7, 8 - 11, 12, 13 - 18" />
+    <BuildingNumRow title="建筑数量" num="    0,     2,     4,      6,  8,       9" />
+</BuildingNum>
 
 <SmallTitle>重要说明</SmallTitle>
 
@@ -38,9 +55,61 @@ import unitData from "@/assets/unit-data/0381-Spring-Trap.json";
 5. [大守护者](/upgrade/0202-Grand-Warden) 的 [永恒书卷](/upgrade/0780-Eternal-Tome) 装备无法阻止小单位部队被隐形弹簧弹飞，也无法使部队免疫弹簧的击退效果，但可以免疫大单位部队受到的伤害。
 6. 现在隐形弹簧的反应比 [哥布林](/upgrade/0003-Goblin) 和 [超级炸弹人](/upgrade/0603-Super-Wall-Breaker) 都快，即使哥布林或超级炸弹人在移动，弹簧也可以弹飞它们。
 
-</template>
+<SmallTitle>属性</SmallTitle>
 
-<template #history>
+<UnitProperties>
+    <UnitProperty pKey="占地面积" pValue="1×1" />
+    <UnitProperty pKey="作用类型" pValue="弹飞敌军或对敌军造成高额伤害" />
+    <UnitProperty pKey="作用目标" pValue="仅地面目标" />
+    <UnitProperty pKey="触发半径" pValue="1 格" />
+    <UnitProperty pKey="作用半径" pValue="2 格" />
+    <UnitProperty pKey="陷阱作用延时" pValue="无" />
+</UnitProperties>
+
+<SmallTitle>升级数据</SmallTitle>
+
+<script setup>
+const tableExtraInfo = [
+    {
+        "column": 3,
+        "type": "cost",
+        "gpClass": "building",
+        "icon": "Gold"
+    },
+    {
+        "column": 4,
+        "type": "time",
+        "gpClass": "building"
+    },
+    {
+        "column": 5,
+        "type": "exp",
+        "icon": "Exp"
+    }
+];
+</script>
+
+<UnitTable :tableExtraInfo="tableExtraInfo">
+
+| 等级 |可弹飞的最高<br>部队人口数|对大单位<br>部队的伤害| 升级费用 |  升级时间  |升级后可<br>获得的经验| 所需大本等级 |
+| ---- |           ---          |         ---        |   ---   |     ---    |         ---        |     ---     |
+| 1 | 10 | 0 | 2000 | \ |  | 4 |
+| 2 | 12 | 250 | 130000 | 0,1,0,0 |  | 7 |
+| 3 | 14 | 300 | 240000 | 0,2,0,0 |  | 8 |
+| 4 | 16 | 350 | 350000 | 0,3,0,0 |  | 9 |
+| 5 | 18 | 400 | 800000 | 0,4,0,0 |  | 10 |
+| 6 | 18 | 500 | 1000000 | 0,6,0,0 |  | 11 |
+| 7 | 18 | 600 | 1700000 | 0,8,0,0 |  | 12 |
+| 8 | 18 | 750 | 2000000 | 0,12,0,0 |  | 13 |
+| 9 | 18 | 900 | 3000000 | 0,18,0,0 |  | 14 |
+| 10 | 18 | 1050 | 4000000 | 1,0,0,0 |  | 15 |
+| 11 | 18 | 1200 | 6000000 | 2,0,0,0 |  | 16 |
+| 12 | 18 | 1300 | 13000000 | 3,0,0,0 |  | 17 |
+| 13 | 18 | 1400 | 16000000 | 11,0,0,0 |  | 18 |
+
+</UnitTable>
+
+<SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2025/11/17">
@@ -89,7 +158,4 @@ import unitData from "@/assets/unit-data/0381-Spring-Trap.json";
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
-
-</template>
-
-</SyncedUnitData>
+<p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Spring_Trap?oldid=576349" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>

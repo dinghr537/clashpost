@@ -2,22 +2,13 @@
 title: "部落冲突 coc 巨人升级数据"
 navTitle: "巨人"
 shownTitle: "巨人"
+description: "这些大块头看上去沉默寡言，但倘若他们发现箭塔或加农炮，您将见识他们狂躁的一面！巨人行动缓慢，但是抗打击能力强，可用于吸引火力。"
 module: upgrade-home
 imgFolder: home_tech/0002
 wiki: https://clashofclans.fandom.com/wiki/Giant
 canonical: /upgrade/0002-Giant
 dataSyncedOn: 2026-10-13
-description: "这些大块头看上去沉默寡言，但倘若他们发现箭塔或加农炮，您将见识他们狂躁的一面！巨人行动缓慢，但是抗打击能力强，可用于吸引火力。"
 ---
-
-<script setup>
-import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
-import unitData from "@/assets/unit-data/0002-Giant.json";
-</script>
-
-<SyncedUnitData :data="unitData" :historyAfter="'2025-11-17'">
-
-<template #introduction>
 
 - *如想查看该兵种的强化版本，请访问：[超级巨人](/upgrade/0602-Super-Giant)。*
 - *如想查看夜世界的巨人拳击手，请访问：[夜世界巨人拳击手](/upgrade/1002-Boxer-Giant)。*
@@ -25,11 +16,83 @@ import unitData from "@/assets/unit-data/0002-Giant.json";
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Giant_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
 
+<SmallTitle>各等级图片</SmallTitle>
+
+<Panel>
+    <UnitImgGroup :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="1 - 2 级" imgSrc="Giant1.png" />
+        <UnitImg imgTitle="3 - 4 级" imgSrc="Giant3.png" />
+        <UnitImg imgTitle="5 级" imgSrc="Giant5.png" />
+        <UnitImg imgTitle="6 级" imgSrc="Giant6.png" />
+        <UnitImg imgTitle="7 级" imgSrc="Giant7.png" />
+        <UnitImg imgTitle="8 级" imgSrc="Giant8.png" />
+        <UnitImg imgTitle="9 级" imgSrc="Giant9.png" />
+        <UnitImg imgTitle="10 级" imgSrc="Giant10.png" />
+        <UnitImg imgTitle="11 级" imgSrc="Giant11.png" />
+        <UnitImg imgTitle="12 级" imgSrc="Giant12.png" />
+        <UnitImg imgTitle="13 级" imgSrc="Giant13.png" />
+        <UnitImg imgTitle="14 级" imgSrc="Giant14.png" imgHd="Giant14_hd.png" />
+    </UnitImgGroup>
+</Panel>
+
+<SmallTitle>属性</SmallTitle>
+
+<UnitProperties>
+    <UnitProperty pKey="部队类型" pValue="地面近战单位" />
+    <UnitProperty pKey="攻击偏好" pValue="防御建筑 (偏好类型 1)" :isDefensePreferredTroop="true" />
+    <UnitProperty pKey="伤害类型" pValue="单体伤害" />
+    <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
+    <UnitProperty pKey="占据人口" pValue="5" />
+    <UnitProperty pKey="移动速度" pValue="1.5 格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="2 秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="1 格" />
+    <UnitProperty pKey="所需训练营等级" pValue="3" />
+    <UnitProperty pKey="所需大本等级" pValue="2" />
+    <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" />
+    <UnitProperty pKey="捐赠费用" pValue="3,3,9000,Elixir" :isDonationCost="true" />
+</UnitProperties>
+
+<SmallTitle>升级数据</SmallTitle>
+
+<script setup>
+const tableExtraInfo = [
+    {
+        "column": 4,
+        "type": "cost",
+        "gpClass": "research",
+        "icon": "Elixir"
+    },
+    {
+        "column": 5,
+        "type": "time",
+        "gpClass": "research"
+    }
+];
+</script>
+
+<UnitTable :tableExtraInfo="tableExtraInfo">
+
+| 等级 | 每秒伤害 | 每次伤害 | 生命值 | 升级花费 |  升级时间  |所需实验室等级| 所需大本等级 |
+| ---- |  ----   |  ----   |  ----  |   ----  |    ----   |    ----     |     ---     |
+| 1 | 12 | 24 | 400 | \ | \ | \ | 1<sup>#</sup> |
+| 2 | 15 | 30 | 500 | 40000 | 0,2,0,0 | 2 | 4 |
+| 3 | 20 | 40 | 600 | 150000 | 0,4,0,0 | 4 | 6 |
+| 4 | 24 | 48 | 700 | 400000 | 0,6,0,0 | 5 | 7 |
+| 5 | 31 | 62 | 900 | 800000 | 0,12,0,0 | 6 | 8 |
+| 6 | 43 | 86 | 1100 | 1500000 | 1,0,0,0 | 7 | 9 |
+| 7 | 55 | 110 | 1300 | 2300000 | 1,12,0,0 | 8 | 10 |
+| 8 | 62 | 124 | 1500 | 2600000 | 2,0,0,0 | 9 | 11 |
+| 9 | 70 | 140 | 1850 | 3400000 | 2,6,0,0 | 10 | 12 |
+| 10 | 78 | 156 | 2000 | 5000000 | 3,0,0,0 | 11 | 13 |
+| 11 | 86 | 172 | 2200 | 7500000 | 4,0,0,0 | 13 | 15 |
+| 12 | 94 | 188 | 2400 | 10000000 | 5,0,0,0 | 14 | 16 |
+| 13 | 104 | 208 | 2700 | 15000000 | 9,12,0,0 | 15 | 17 |
+| 14 | 114 | 228 | 3000 | 25000000 | 13,12,0,0 | 16 | 18 |
+</UnitTable>
+
 \# 根据安装包解析的结果，玩家可以在 1 本把训练营升到 3 级以解锁巨人，但这仅仅是理论上的，实际上新手教程会直接引导玩家升到 2 本，根本没有在 1 本升级训练营的机会。
 
-</template>
-
-<template #history>
+<SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2025/11/17">
@@ -99,6 +162,4 @@ import unitData from "@/assets/unit-data/0002-Giant.json";
     <TimelineItem :historyBottom="true" />
 </Timeline>
 
-</template>
-
-</SyncedUnitData>
+<p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Giant?oldid=625274" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>

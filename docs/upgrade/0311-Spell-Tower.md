@@ -2,22 +2,13 @@
 title: "部落冲突 coc 法术塔升级数据"
 navTitle: "法术塔"
 shownTitle: "法术塔"
+description: "多年来，法师在战场上只有火球这一种魔法，一次还只能扔一颗。现在，他们发明了一种全自动的魔法利器，可以使用不同魔法扰乱敌人的进攻！"
 module: upgrade-home
 imgFolder: home_buildings/0311
 wiki: https://clashofclans.fandom.com/wiki/Spell_Tower
 canonical: /upgrade/0311-Spell-Tower
 dataSyncedOn: 2026-10-13
-description: "多年来，法师在战场上只有火球这一种魔法，一次还只能扔一颗。现在，他们发明了一种全自动的魔法利器，可以使用不同魔法扰乱敌人的进攻！"
 ---
-
-<script setup>
-import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
-import unitData from "@/assets/unit-data/0311-Spell-Tower.json";
-</script>
-
-<SyncedUnitData :data="unitData" :historyAfter="'2026-02-23'">
-
-<template #introduction>
 
 <SwitchTabs contentClass="cp-unit-items" :stickyTabs="true" :pageTabs="true">
     <SwitchTab tabId="cp-unit-item-0" :activeTab="true">狂暴法术塔</SwitchTab>
@@ -26,9 +17,28 @@ import unitData from "@/assets/unit-data/0311-Spell-Tower.json";
     <SwitchTab tabId="cp-unit-item-3">地震法术塔</SwitchTab>
 </SwitchTabs>
 
+<!-- ↓↓↓ 狂暴法术塔 ↓↓↓ -->
 <SwitchTabGroup id="cp-unit-item-0" class="cp-unit-items">
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Spell_Tower4_Rage.png" imgAlt="狂暴法术塔"
     :description="$frontmatter.description" :isSmallImg="true" />
+
+<SmallTitle>各等级图片</SmallTitle>
+
+<Panel>
+    <UnitImgGroup title="狂暴法术塔" :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="1 级" imgSrc="Spell_Tower1_Rage.png" />
+        <UnitImg imgTitle="2 级" imgSrc="Spell_Tower2_Rage.png" />
+        <UnitImg imgTitle="3 级" imgSrc="Spell_Tower3_Rage.png" />
+        <UnitImg imgTitle="4 级" imgSrc="Spell_Tower4_Rage.png" />
+    </UnitImgGroup>
+</Panel>
+
+<SmallTitle>各大本等级的法术塔数量</SmallTitle>
+
+<BuildingNum>
+    <BuildingNumRow title="大本等级" num="1 - 14, 15 - 18" />
+    <BuildingNumRow title="建筑数量" num="     0,       2" />
+</BuildingNum>
 
 <SmallTitle>重要说明</SmallTitle>
 
@@ -36,33 +46,175 @@ import unitData from "@/assets/unit-data/0311-Spell-Tower.json";
 2. 法术塔被摧毁后会自动释放一次法术，也就是说法术塔至少会发挥一次作用。
 3. 法术塔的触发机制见：揭秘——法术塔触发机制。
 
+<SmallTitle>狂暴法术塔的属性</SmallTitle>
+
+<UnitProperties>
+    <UnitProperty pKey="占地面积" pValue="2×2" />
+    <UnitProperty pKey="判定面积" pValue="1×1" :isJudgeSquare="true" />
+    <UnitProperty pKey="法术作用目标" pValue="地面和空中目标" />
+    <UnitProperty pKey="触发半径" pValue="9 格" />
+    <UnitProperty pKey="作用半径" pValue="5 格" />
+    <UnitProperty pKey="作用类型" pValue="为防守方的防御和部队提供加成" />
+    <UnitProperty pKey="释放方式" pValue="原地释放" />
+    <UnitProperty pKey="法术持续时间" pValue="18 秒" />
+    <UnitProperty pKey="伤害提升" pValue="60%" />
+    <UnitProperty pKey="重新装填时间" pValue="70 秒" />
+</UnitProperties>
 </SwitchTabGroup>
 
+<!-- ↓↓↓ 毒药法术塔 ↓↓↓ -->
 <SwitchTabGroup id="cp-unit-item-1" class="cp-unit-items">
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Spell_Tower4_Poison.png" imgAlt="毒药法术塔"
     :description="$frontmatter.description" :isSmallImg="true" />
 
+<SmallTitle>各等级图片</SmallTitle>
+
+<Panel>
+    <UnitImgGroup title="毒药法术塔" :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="2 级" imgSrc="Spell_Tower2_Poison.png" />
+        <UnitImg imgTitle="3 级" imgSrc="Spell_Tower3_Poison.png" />
+        <UnitImg imgTitle="4 级" imgSrc="Spell_Tower4_Poison.png" />
+    </UnitImgGroup>
+</Panel>
+
+<SmallTitle>各大本等级的法术塔数量</SmallTitle>
+
+<BuildingNum>
+    <BuildingNumRow title="大本等级" num="1 - 14, 15 - 18" />
+    <BuildingNumRow title="建筑数量" num="     0,       2" />
+</BuildingNum>
+
+<SmallTitle>毒药法术塔的属性</SmallTitle>
+
+<UnitProperties>
+    <UnitProperty pKey="占地面积" pValue="2×2" />
+    <UnitProperty pKey="判定面积" pValue="1×1" :isJudgeSquare="true" />
+    <UnitProperty pKey="法术作用目标" pValue="地面和空中目标" />
+    <UnitProperty pKey="触发半径" pValue="9 格" />
+    <UnitProperty pKey="作用半径" pValue="5 格" />
+    <UnitProperty pKey="作用类型" pValue="对附近的敌人释放毒药法术" />
+    <UnitProperty pKey="释放方式" pValue="扔到目标身上" />
+    <UnitProperty pKey="毒药最高秒伤" pValue="60<sup>*</sup>" />
+    <UnitProperty pKey="法术持续时间" pValue="12 秒" />
+    <UnitProperty pKey="移动速度降低" pValue="35%" />
+    <UnitProperty pKey="攻击速度降低" pValue="25%" />
+    <UnitProperty pKey="重新装填时间" pValue="70 秒" />
+</UnitProperties>
+
 \* 毒药法术塔的毒药效果对英雄只有 20% 伤害，但减速效果是全额的。
 </SwitchTabGroup>
 
+<!-- ↓↓↓ 隐形法术塔 ↓↓↓ -->
 <SwitchTabGroup id="cp-unit-item-2" class="cp-unit-items">
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Spell_Tower4_Invisibility.png" imgAlt="隐形法术塔"
     :description="$frontmatter.description" :isSmallImg="true" />
 
+<SmallTitle>各等级图片</SmallTitle>
+
+<Panel>
+    <UnitImgGroup title="隐形法术塔" :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="3 级" imgSrc="Spell_Tower3_Invisibility.png" />
+        <UnitImg imgTitle="4 级" imgSrc="Spell_Tower4_Invisibility.png" />
+    </UnitImgGroup>
+</Panel>
+
+<SmallTitle>各大本等级的法术塔数量</SmallTitle>
+
+<BuildingNum>
+    <BuildingNumRow title="大本等级" num="1 - 14, 15 - 18" />
+    <BuildingNumRow title="建筑数量" num="     0,       2" />
+</BuildingNum>
+
+<SmallTitle>隐形法术塔的属性</SmallTitle>
+
+<UnitProperties>
+    <UnitProperty pKey="占地面积" pValue="2×2" />
+    <UnitProperty pKey="判定面积" pValue="1×1" :isJudgeSquare="true" />
+    <UnitProperty pKey="法术作用目标" pValue="地面和空中目标" />
+    <UnitProperty pKey="触发半径" pValue="4.5 格" />
+    <UnitProperty pKey="作用半径" pValue="4.5 格" />
+    <UnitProperty pKey="作用类型" pValue="让附近的兵种和建筑暂时隐形<sup>*</sup>" />
+    <UnitProperty pKey="释放方式" pValue="原地释放" />
+    <UnitProperty pKey="隐形效果持续时间" pValue="4.5 秒" />
+    <UnitProperty pKey="重新装填时间" pValue="70 秒" />
+</UnitProperties>
+
 \* 法术塔释放的隐形法术和普通的 [隐形法术](/upgrade/0106-Invisibility-Spell) 一样不分敌我，也就是说这个隐形法术会把进攻方和防守方都隐形掉。
 </SwitchTabGroup>
 
+
+<!-- ↓↓↓ 地震法术塔 ↓↓↓ -->
 <SwitchTabGroup id="cp-unit-item-3" class="cp-unit-items">
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Spell_Tower4_Earthquake.png" imgAlt="地震法术塔"
     :description="$frontmatter.description" :isSmallImg="true" />
 
+<SmallTitle>各等级图片</SmallTitle>
+
+<Panel>
+    <UnitImgGroup title="地震法术塔" :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="4 级" imgSrc="Spell_Tower4_Earthquake.png" />
+    </UnitImgGroup>
+</Panel>
+
+<SmallTitle>各大本等级的法术塔数量</SmallTitle>
+
+<BuildingNum>
+    <BuildingNumRow title="大本等级" num="1 - 14, 15 - 18" />
+    <BuildingNumRow title="建筑数量" num="     0,       2" />
+</BuildingNum>
+
+<SmallTitle>地震法术塔的属性</SmallTitle>
+
+<UnitProperties>
+    <UnitProperty pKey="占地面积" pValue="2×2" />
+    <UnitProperty pKey="判定面积" pValue="1×1" :isJudgeSquare="true" />
+    <UnitProperty pKey="法术作用目标" pValue="地面目标" />
+    <UnitProperty pKey="触发半径" pValue="9 格" />
+    <UnitProperty pKey="作用半径" pValue="4.7 格" />
+    <UnitProperty pKey="作用类型" pValue="对敌人释放地震法术" />
+    <UnitProperty pKey="释放方式" pValue="扔到目标身上" />
+    <UnitProperty pKey="对部队的伤害" pValue="30%" />
+    <UnitProperty pKey="重新装填时间" pValue="50 秒" />
+</UnitProperties>
 </SwitchTabGroup>
+
+<!-- ↓↓↓ 法术塔的公共部分是从升级数据开始的，不是更新历史 ↓↓↓ -->
+<SmallTitle>升级数据</SmallTitle>
+
+<script setup>
+const tableExtraInfo = [
+    {
+        "column": 2,
+        "type": "cost",
+        "gpClass": "building",
+        "icon": "Gold"
+    },
+    {
+        "column": 3,
+        "type": "time",
+        "gpClass": "building"
+    },
+    {
+        "column": 4,
+        "type": "exp",
+        "icon": "Exp"
+    }
+];
+</script>
+
+<UnitTable :tableExtraInfo="tableExtraInfo">
+
+| 等级 | 生命值 | 升级费用 | 升级时间 | 升级后可<br>获得的经验| 所需<br>大本等级 | 解锁的法术 |
+| ---- |   --- |   ---   |   ---    |        ---          |       ---       |    ---    |
+| 1 | 2500 | 9000000 | 7,0,0,0 |  | 15 | <a href="/upgrade/0102-Rage-Spell">狂暴法术</a> |
+| 2 | 2800 | 11000000 | 8,0,0,0 |  | 15 | <a href="/upgrade/0180-Poison-Spell">毒药法术</a> |
+| 3 | 3100 | 12000000 | 8,12,0,0 |  | 15 | <a href="/upgrade/0106-Invisibility-Spell">隐形法术</a> |
+| 4 | 3200 | 27000000 | 10,0,0,0 |  | 17 | <a href="/upgrade/0181-Earthquake-Spell">地震法术</a> |
+</UnitTable>
 
 注：法术塔释放的法术与 [法术工厂](/upgrade/0484-Spell-Factory) / [暗黑法术工厂](/upgrade/0485-Dark-Spell-Factory) 中释放的法术并不完全相同，上述链接只是方便对照，切勿生搬硬套。
 
-</template>
-
-<template #history>
+<SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2026/02/23">
@@ -98,7 +250,4 @@ import unitData from "@/assets/unit-data/0311-Spell-Tower.json";
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
-
-</template>
-
-</SyncedUnitData>
+<p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Spell_Tower?oldid=624787" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>

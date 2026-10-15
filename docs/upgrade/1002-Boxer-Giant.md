@@ -2,32 +2,107 @@
 title: "部落冲突 coc 夜世界巨人拳击手升级数据"
 navTitle: "巨人拳击手"
 shownTitle: "巨人拳击手"
+description: "别看巨人行动笨拙、体壮如牛，他们可是一直在练习拳击！"
 module: upgrade-bh
 imgFolder: bh_tech/1002
 wiki: https://clashofclans.fandom.com/wiki/Boxer_Giant
 canonical: /upgrade/1002-Boxer-Giant
 dataSyncedOn: 2026-10-13
-description: "别看巨人行动笨拙、体壮如牛，他们可是一直在练习拳击！"
 ---
-
-<script setup>
-import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
-import unitData from "@/assets/unit-data/1002-Boxer-Giant.json";
-</script>
-
-<SyncedUnitData :data="unitData" :historyAfter="'2023-05-15'">
-
-<template #introduction>
 
 - *如想查看家乡的巨人，请访问：[巨人](/upgrade/0002-Giant)。*
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Boxer_Giant_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
 
+<SmallTitle>各等级图片</SmallTitle>
+
+<Panel>
+    <UnitImgGroup :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="3 - 7 级" imgSrc="Boxer_Giant3.png" />
+        <UnitImg imgTitle="8 - 11 级" imgSrc="Boxer_Giant8.png" />
+        <UnitImg imgTitle="12 - 15 级" imgSrc="Boxer_Giant12.png" />
+        <UnitImg imgTitle="16 - 19 级" imgSrc="Boxer_Giant16.png" />
+        <UnitImg imgTitle="20 级" imgSrc="Boxer_Giant20.png" />
+    </UnitImgGroup>
+</Panel>
+
+<SmallTitle>巨人拳击手的属性</SmallTitle>
+
+<UnitProperties>
+    <UnitProperty pKey="部队类型" pValue="地面近战单位" />
+    <UnitProperty pKey="攻击偏好" pValue="防御建筑 (偏好类型 1)" :isDefensePreferredTroop="true" />
+    <UnitProperty pKey="伤害类型" pValue="单体伤害" />
+    <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
+    <UnitProperty pKey="部队重量" pValue="18" />
+    <UnitProperty pKey="移动速度" pValue="1.8 格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="2 秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="1 格" />
+    <UnitProperty pKey="每个兵营的部队数量" pValue="1" />
+    <UnitProperty pKey="所需训练营等级" pValue="3" />
+    <UnitProperty pKey="所需夜世界大本等级" pValue="3" />
+</UnitProperties>
+
+<SmallTitle>特殊技能 1 的属性</SmallTitle>
+
+<UnitProperties>
+    <UnitProperty pKey="技能名称" pValue="重拳出击" />
+    <UnitProperty pKey="技能类型" pValue="被动技能" />
+    <UnitProperty pKey="技能描述" pValue="首次攻击造成额外伤害" />
+</UnitProperties>
+
+<SmallTitle>特殊技能 2 的属性</SmallTitle>
+
+<UnitProperties>
+    <UnitProperty pKey="技能名称" pValue="拳手格挡" />
+    <UnitProperty pKey="技能类型" pValue="一次性技能" />
+    <UnitProperty pKey="技能描述" pValue="使用后保持几秒的无敌状态<sup>*</sup>" />
+</UnitProperties>
+
 \* 如果玩家没有手动触发这个技能，那么即将死亡时会强制触发一次，提前触发的话即将死亡时就没有无敌效果了。
 
-</template>
+<SmallTitle>升级数据</SmallTitle>
 
-<template #history>
+<script setup>
+const tableExtraInfo = [
+    {
+        "column": 6,
+        "type": "cost",
+        "gpClass": "research",
+        "icon": "Elixir2"
+    },
+    {
+        "column": 7,
+        "type": "time",
+        "gpClass": "research"
+    }
+];
+</script>
+
+<UnitTable :tableExtraInfo="tableExtraInfo">
+
+| 等级 | 每秒伤害 | 每次伤害|首次攻击的<br>额外伤害|技能<br>无敌时间|  生命值  | 升级花费 | 升级时间 |所需实验室和<br>大本营等级|
+| ---- |   ---   |   ---  |         ---        |       ---      |   ---   |   ---   |    ---   |           ---          |
+| 3 | 65 | 130 | 550 | \ | 2530 | \ | \ | 3 |
+| 4 | 65 | 130 | 550 | 5秒 | 2530 | 60000 | 0,5,0,0 | 3 |
+| 5 | 70 | 140 | 550 | 5秒 | 2783 | 120000 | 0,10,0,0 | 3 |
+| 6 | 70 | 140 | 700 | 5秒 | 2783 | 240000 | 0,16,0,0 | 3 |
+| 7 | 76 | 152 | 700 | 5秒 | 3061 | 350000 | 0,20,0,0 | 4 |
+| 8 | 76 | 152 | 700 | 6秒 | 3061 | 380000 | 1,0,0,0 | 4 |
+| 9 | 83 | 166 | 700 | 6秒 | 3367 | 1000000 | 1,12,0,0 | 5 |
+| 10 | 83 | 166 | 950 | 6秒 | 3367 | 1200000 | 2,0,0,0 | 5 |
+| 11 | 91 | 182 | 950 | 6秒 | 3704 | 1300000 | 2,0,0,0 | 6 |
+| 12 | 91 | 182 | 950 | 7秒 | 3704 | 1500000 | 2,12,0,0 | 6 |
+| 13 | 100 | 200 | 950 | 7秒 | 4075 | 2300000 | 3,12,0,0 | 7 |
+| 14 | 100 | 200 | 1150 | 7秒 | 4075 | 2500000 | 4,12,0,0 | 7 |
+| 15 | 109 | 218 | 1150 | 7秒 | 4482 | 3300000 | 5,12,0,0 | 8 |
+| 16 | 109 | 218 | 1150 | 7.5秒 | 4482 | 3500000 | 5,12,0,0 | 8 |
+| 17 | 119 | 238 | 1150 | 7.5秒 | 4930 | 4000000 | 6,0,0,0 | 9 |
+| 18 | 119 | 238 | 1400 | 7.5秒 | 4930 | 4200000 | 6,0,0,0 | 9 |
+| 19 | 129 | 258 | 1400 | 7.5秒 | 5423 | 4800000 | 6,12,0,0 | 10 |
+| 20 | 129 | 258 | 1400 | 8秒 | 5423 | 5400000 | 6,12,0,0 | 10 |
+</UnitTable>
+
+<SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2023/05/15">
@@ -46,7 +121,4 @@ import unitData from "@/assets/unit-data/1002-Boxer-Giant.json";
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
-
-</template>
-
-</SyncedUnitData>
+<p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Boxer_Giant?oldid=620415" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>

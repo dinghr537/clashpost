@@ -2,26 +2,26 @@
 title: "部落冲突 coc 骷髅法术升级数据"
 navTitle: "骷髅法术"
 shownTitle: "骷髅法术"
+description: "在战场任意位置召唤一群骷髅兵！必要的时候，在关键位置召唤出一群骷髅兵补上那么几刀可解燃眉之急。骷髅兵不会触发陷阱。"
 module: upgrade-home
 imgFolder: home_tech/0183
 wiki: https://clashofclans.fandom.com/wiki/Skeleton_Spell
 canonical: /upgrade/0183-Skeleton-Spell
 dataSyncedOn: 2026-10-13
-description: "在战场任意位置召唤一群骷髅兵！必要的时候，在关键位置召唤出一群骷髅兵补上那么几刀可解燃眉之急。骷髅兵不会触发陷阱。"
 ---
-
-<script setup>
-import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
-import unitData from "@/assets/unit-data/0183-Skeleton-Spell.json";
-</script>
-
-<SyncedUnitData :data="unitData" :historyAfter="'2025-10-06'">
-
-<template #introduction>
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Skeleton_Spell.png" :imgAlt="$frontmatter.navTitle"
     description="在战场任意位置召唤一群骷髅兵！<br>必要的时候，在关键位置召唤出一群骷髅兵补上那么几刀可解燃眉之急。骷髅兵不会触发陷阱。"
     :isSmallImg="true" />
+
+<SmallTitle>更多图片</SmallTitle>
+
+<Panel>
+    <UnitImgGroup :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="带盾牌的骷髅" imgSrc="Skeleton_Shielded.png" />
+        <UnitImg imgTitle="不带盾牌的骷髅" imgSrc="Skeleton.png" />
+    </UnitImgGroup>
+</Panel>
 
 <SmallTitle>重要说明</SmallTitle>
 
@@ -30,11 +30,70 @@ import unitData from "@/assets/unit-data/0183-Skeleton-Spell.json";
 3. 骷髅无法触发城堡内的援兵。
 4. 虽然骷髅本身无法触发陷阱，但是被其他地面单位触发的陷阱还是有可能攻击骷髅。
 
+<SmallTitle>骷髅法术的属性</SmallTitle>
+
+<UnitProperties>
+    <UnitProperty pKey="作用半径" pValue="2.25 格" />
+    <UnitProperty pKey="作用类型" pValue="在指定范围内召唤骷髅" />
+    <UnitProperty pKey="骷髅生成速度" pValue="见说明<sup>*</sup>" />
+    <UnitProperty pKey="占用的法术空间" pValue="1" />
+    <UnitProperty pKey="所需暗黑法术工厂等级" pValue="4" />
+    <UnitProperty pKey="所需大本等级" pValue="9" />
+    <UnitProperty pKey="法术配置时间" pValue="无" trainingSystem="2025" />
+    <UnitProperty pKey="捐赠费用" pValue="3,3,135,Dark_Elixir" :isDonationCost="true" />
+</UnitProperties>
+
 \* 第一次生成 4 个骷髅，之后每秒生成一个。
 
-</template>
+<SmallTitle>骷髅的属性</SmallTitle>
 
-<template #history>
+<UnitProperties>
+    <UnitProperty pKey="部队类型" pValue="地面近战单位" />
+    <UnitProperty pKey="攻击偏好" pValue="无" />
+    <UnitProperty pKey="伤害类型" pValue="单体伤害" />
+    <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
+    <UnitProperty pKey="占据人口" pValue="1" />
+    <UnitProperty pKey="移动速度" pValue="3 格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="1 秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="0.4 格" />
+    <UnitProperty pKey="每秒伤害" pValue="25" />
+    <UnitProperty pKey="每次伤害" pValue="25" />
+    <UnitProperty pKey="生命值" pValue="30" />
+</UnitProperties>
+
+<SmallTitle>升级数据</SmallTitle>
+
+<script setup>
+const tableExtraInfo = [
+    {
+        "column": 2,
+        "type": "cost",
+        "gpClass": "research",
+        "icon": "Dark_Elixir"
+    },
+    {
+        "column": 3,
+        "type": "time",
+        "gpClass": "research"
+    }
+];
+</script>
+
+<UnitTable :tableExtraInfo="tableExtraInfo">
+
+| 等级 |召唤的<br>骷髅数量| 升级花费 | 升级时间 |所需<br>实验室等级|所需<br>大本等级|
+| ---- |       ----     |   ----   |  ----   |       ----      |      ----     |
+| 1 | 12 | \ | \ | 1 | 9 |
+| 2 | 13 | 11000 | 0,12,0,0 | 8 | 10 |
+| 3 | 14 | 17000 | 1,0,0,0 | 8 | 10 |
+| 4 | 15 | 25000 | 2,0,0,0 | 9 | 11 |
+| 5 | 16 | 40000 | 2,12,0,0 | 10 | 12 |
+| 6 | 17 | 50000 | 3,0,0,0 | 10 | 12 |
+| 7 | 18 | 75000 | 4,0,0,0 | 11 | 13 |
+| 8 | 19 | 135000 | 6,0,0,0 | 13 | 15 |
+</UnitTable>
+
+<SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2025/10/06">
@@ -93,7 +152,4 @@ import unitData from "@/assets/unit-data/0183-Skeleton-Spell.json";
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
-
-</template>
-
-</SyncedUnitData>
+<p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Skeleton_Spell?oldid=623005" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>

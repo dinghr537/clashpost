@@ -2,26 +2,25 @@
 title: "部落冲突 coc 回溯法术（召回法术）升级数据"
 navTitle: "回溯法术"
 shownTitle: "回溯法术（召回法术）"
+description: "进攻效果不佳？想换个方向出击？回溯法术可将部队、英雄和战宠召回部署栏，让你可以重新部署召回的单位，再次进攻。"
 module: upgrade-home
 imgFolder: home_tech/0107
 wiki: https://clashofclans.fandom.com/wiki/Recall_Spell
 canonical: /upgrade/0107-Recall-Spell
 dataSyncedOn: 2026-10-13
-description: "进攻效果不佳？想换个方向出击？回溯法术可将部队、英雄和战宠召回部署栏，让你可以重新部署召回的单位，再次进攻。"
 ---
-
-<script setup>
-import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
-import unitData from "@/assets/unit-data/0107-Recall-Spell.json";
-</script>
-
-<SyncedUnitData :data="unitData" :historyAfter="'2025-11-17'">
-
-<template #introduction>
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Recall_Spell.png" :imgAlt="$frontmatter.navTitle"
     :description="$frontmatter.description"
     :isSmallImg="true" />
+
+<SmallTitle>更多图片</SmallTitle>
+
+<Panel>
+    <UnitImgGroup :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="召回后待部署" imgSrc="Recall_Spell_With_Spirit_thumb.png" />
+    </UnitImgGroup>
+</Panel>
 
 <SmallTitle>重要说明</SmallTitle>
 
@@ -42,11 +41,56 @@ import unitData from "@/assets/unit-data/0107-Recall-Spell.json";
 8. 如果部队被召回后没有再部署出去，战斗结束后部队会全部消失，不能回收到兵营。如果英雄或战宠被召回后没有再部署出去，战斗结束后英雄和战宠会恢复到满血状态。
 9.  回溯法术召回部队时是大单位的先被召回，重新部署到战场上时是大单位先出来，与 城堡援军出来的顺序 相反。
 
-</template>
+<SmallTitle>属性</SmallTitle>
 
-<template #history>
+<UnitProperties>
+    <UnitProperty pKey="作用半径" pValue="5 格" />
+    <UnitProperty pKey="作用类型" pValue="召回场上的部队" />
+    <UnitProperty pKey="作用目标" pValue="我方部队、英雄和战宠" />
+    <UnitProperty pKey="占用的法术空间" pValue="2" />
+    <UnitProperty pKey="所需法术工厂等级" pValue="7" />
+    <UnitProperty pKey="所需大本等级" pValue="13" />
+    <UnitProperty pKey="法术配置时间" pValue="无" trainingSystem="2025" />
+    <UnitProperty pKey="捐赠费用" pValue="6,6,18000,Elixir" :isDonationCost="true" />
+</UnitProperties>
+
+<SmallTitle>升级数据</SmallTitle>
+
+<script setup>
+const tableExtraInfo = [
+    {
+        "column": 2,
+        "type": "cost",
+        "gpClass": "research",
+        "icon": "Elixir"
+    },
+    {
+        "column": 3,
+        "type": "time",
+        "gpClass": "research"
+    }
+];
+</script>
+
+<UnitTable :tableExtraInfo="tableExtraInfo">
+
+| 等级 |可召回的<br>人口数| 升级花费 |  升级时间  |所需<br>实验室等级|所需<br>大本等级|
+| ---- |       ----     |    ---   |    ---    |       ----      |      ----    |
+| 1 | 83 | \ | \ | 1 | 13 |
+| 2 | 89 | 7500000 | 7,0,0,0 | 11 | 13 |
+| 3 | 95 | 8000000 | 7,12,0,0 | 12 | 14 |
+| 4 | 101 | 9000000 | 8,0,0,0 | 13 | 15 |
+| 5 | 107 | 13000000 | 9,0,0,0 | 14 | 16 |
+| 6 | 113 | 19000000 | 11,0,0,0 | 15 | 17 |
+| 7 | 120 | 29000000 | 16,0,0,0 | 16 | 18 |
+</UnitTable>
+
+<SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/04/27">
+        <TimelineRow>新增7级召回法术；3至6级升级时间分别调整为8天12小时→7天12小时、9天12小时→8天、11天12小时→9天、12天12小时→11天；召回优先选择英雄。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/11/17">
         <TimelineRow>6 级回溯法术的升级时间和升级费用减少。</TimelineRow>
     </TimelineItem>
@@ -81,7 +125,4 @@ import unitData from "@/assets/unit-data/0107-Recall-Spell.json";
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
-
-</template>
-
-</SyncedUnitData>
+<p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Recall_Spell?oldid=625472" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>

@@ -2,22 +2,13 @@
 title: "部落冲突 coc 超级巨人升级数据"
 navTitle: "超级巨人"
 shownTitle: "超级巨人"
+description: "身为普通巨人的大表哥，超级巨人体型更庞大，且擅长砸开城墙，为自己开路。他们的腰带是在村庄每年的大胃王比赛中赢得的。"
 module: upgrade-home
 imgFolder: home_tech/0602
 wiki: https://clashofclans.fandom.com/wiki/Super_Giant
 canonical: /upgrade/0602-Super-Giant
 dataSyncedOn: 2026-10-13
-description: "身为普通巨人的大表哥，超级巨人体型更庞大，且擅长砸开城墙，为自己开路。他们的腰带是在村庄每年的大胃王比赛中赢得的。"
 ---
-
-<script setup>
-import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
-import unitData from "@/assets/unit-data/0602-Super-Giant.json";
-</script>
-
-<SyncedUnitData :data="unitData" :historyAfter="'2026-01-12'">
-
-<template #introduction>
 
 - *如想查看该兵种的普通版本，请访问：[巨人](/upgrade/0002-Giant)。*
 - *如想查看夜世界的巨人拳击手，请访问：[夜世界巨人拳击手](/upgrade/1002-Boxer-Giant)。*
@@ -26,13 +17,52 @@ import unitData from "@/assets/unit-data/0602-Super-Giant.json";
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Super_Giant_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
 
+<SmallTitle>各等级图片</SmallTitle>
+
+<Panel>
+    <UnitImgGroup :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="所有等级" imgSrc="Super_Giant9.png" />
+    </UnitImgGroup>
+</Panel>
+
 <SmallTitle>重要说明</SmallTitle>
 
 超级巨人的技能（城墙克星）：对 [城墙](/upgrade/0300-Walls) 造成 5 倍伤害。
 
-</template>
+<SmallTitle>属性</SmallTitle>
 
-<template #history>
+<UnitProperties>
+    <UnitProperty pKey="部队类型" pValue="地面近战单位" />
+    <UnitProperty pKey="攻击偏好" pValue="防御建筑 (偏好类型 1)" :isDefensePreferredTroop="true" />
+    <UnitProperty pKey="伤害类型" pValue="单体伤害" />
+    <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
+    <UnitProperty pKey="占据人口" pValue="10" />
+    <UnitProperty pKey="移动速度" pValue="1.5 格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="2 秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="1 格" />
+    <UnitProperty pKey="最低巨人等级" pValue="9" />
+    <UnitProperty pKey="最低大本等级" pValue="12" />
+    <UnitProperty pKey="强化费用" pValue="2.5 万黑油" />
+    <UnitProperty pKey="强化有效期" pValue="3 天" />
+    <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" />
+    <UnitProperty pKey="捐赠费用" pValue="5,5,15000,Elixir" :isDonationCost="true" />
+</UnitProperties>
+
+<SmallTitle>升级数据</SmallTitle>
+
+<UnitTable>
+
+| 等级 |  每秒伤害 | 每次伤害 | 对墙的每次伤害 | 生命值 |所需大本等级|
+| ---- |   ----   |   ----  |      ----     |  ---- |    ----   |
+| 9 | 130 | 260 | 1300 | 4000 | 12 |
+| 10 | 140 | 280 | 1400 | 4200 | 13 |
+| 11 | 150 | 300 | 1500 | 4400 | 15 |
+| 12 | 160 | 320 | 1600 | 4600 | 16 |
+| 13 | 175 | 350 | 1750 | 4900 | 17 |
+| 14 | 205 | 410 | 2050 | 5600 | 18 |
+</UnitTable>
+
+<SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2026/01/12">
@@ -66,7 +96,4 @@ import unitData from "@/assets/unit-data/0602-Super-Giant.json";
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
-
-</template>
-
-</SyncedUnitData>
+<p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Super_Giant?oldid=600738" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>

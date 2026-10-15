@@ -2,22 +2,52 @@
 title: "部落冲突 coc 地狱之塔升级数据"
 navTitle: "地狱之塔"
 shownTitle: "地狱之塔"
+description: "建造有暗黑重油加持火焰的地狱之塔，可以对单一目标造成难以估算的伤害，或者一次对多重目标进行持续攻击。"
 module: upgrade-home
 imgFolder: home_buildings/030a
 wiki: https://clashofclans.fandom.com/wiki/Inferno_Tower/Home_Village
 canonical: /upgrade/030a-Inferno-Tower
 dataSyncedOn: 2026-10-13
-description: "建造有暗黑重油加持火焰的地狱之塔，可以对单一目标造成难以估算的伤害，或者一次对多重目标进行持续攻击。"
 ---
 
 <script setup>
-import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
-import unitData from "@/assets/unit-data/030a-Inferno-Tower.json";
+const tableExtraInfoSingleMode = [
+    {
+        "column": 5,
+        "type": "cost",
+        "gpClass": "building",
+        "icon": "Gold"
+    },
+    {
+        "column": 6,
+        "type": "time",
+        "gpClass": "building"
+    },
+    {
+        "column": 7,
+        "type": "exp",
+        "icon": "Exp"
+    }
+];
+const tableExtraInfoMultiMode = [
+    {
+        "column": 4,
+        "type": "cost",
+        "gpClass": "building",
+        "icon": "Gold"
+    },
+    {
+        "column": 5,
+        "type": "time",
+        "gpClass": "building"
+    },
+    {
+        "column": 6,
+        "type": "exp",
+        "icon": "Exp"
+    }
+];
 </script>
-
-<SyncedUnitData :data="unitData" :historyAfter="'2026-02-23'">
-
-<template #introduction>
 
 - *如想查看 13 本及以上的自带武器，请访问 [巨型地狱之塔](/upgrade/030d-Giga-Inferno)。*
 - *如想查看都城的地狱之塔，请访问 [都城地狱之塔](/upgrade/220e-Inferno-Tower)。*
@@ -27,9 +57,50 @@ import unitData from "@/assets/unit-data/030a-Inferno-Tower.json";
     <SwitchTab tabId="cp-unit-item-1">多重目标模式</SwitchTab>
 </SwitchTabs>
 
+<!-- ↓↓↓ 单一目标模式 ↓↓↓ -->
 <SwitchTabGroup id="cp-unit-item-0" class="cp-unit-items">
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Inferno_Tower12.png" imgAlt="地狱之塔（单一目标模式）" :description="$frontmatter.description" :isSmallImg="true" />
 
+<SmallTitle>各等级图片</SmallTitle>
+
+<Panel>
+    <UnitImgGroup title="单头" :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="1 级" imgSrc="Inferno_Tower1.png" />
+        <UnitImg imgTitle="2 级" imgSrc="Inferno_Tower2.png" />
+        <UnitImg imgTitle="3 级" imgSrc="Inferno_Tower3.png" />
+        <UnitImg imgTitle="4 级" imgSrc="Inferno_Tower4.png" />
+        <UnitImg imgTitle="5 级" imgSrc="Inferno_Tower5.png" />
+        <UnitImg imgTitle="6 级" imgSrc="Inferno_Tower6.png" />
+        <UnitImg imgTitle="7 级" imgSrc="Inferno_Tower7.png" />
+        <UnitImg imgTitle="8 级" imgSrc="Inferno_Tower8.png" />
+        <UnitImg imgTitle="9 级" imgSrc="Inferno_Tower9.png" />
+        <UnitImg imgTitle="10 级" imgSrc="Inferno_Tower10.png" />
+        <UnitImg imgTitle="11 级" imgSrc="Inferno_Tower11.png" />
+        <UnitImg imgTitle="12 级" imgSrc="Inferno_Tower12.png" />
+    </UnitImgGroup>
+    <UnitImgGroup title="熄火的单头" :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="1 级" imgSrc="Inferno_Tower1_Depleted.png" />
+        <UnitImg imgTitle="2 级" imgSrc="Inferno_Tower2_Depleted.png" />
+        <UnitImg imgTitle="3 级" imgSrc="Inferno_Tower3_Depleted.png" />
+        <UnitImg imgTitle="4 级" imgSrc="Inferno_Tower4_Depleted.png" />
+        <UnitImg imgTitle="5 级" imgSrc="Inferno_Tower5_Depleted.png" />
+        <UnitImg imgTitle="6 级" imgSrc="Inferno_Tower6_Depleted.png" />
+        <UnitImg imgTitle="7 级" imgSrc="Inferno_Tower7_Depleted.png" />
+        <UnitImg imgTitle="8 级" imgSrc="Inferno_Tower8_Depleted.png" />
+        <UnitImg imgTitle="9 级" imgSrc="Inferno_Tower9_Depleted.png" />
+        <UnitImg imgTitle="10 级" imgSrc="Inferno_Tower10_Depleted.png" />
+        <UnitImg imgTitle="11 级" imgSrc="Inferno_Tower11_Depleted.png" />
+        <UnitImg imgTitle="12 级" imgSrc="Inferno_Tower12_Depleted.png" />
+    </UnitImgGroup>
+</Panel>
+
+<SmallTitle>各大本等级的地狱塔数量</SmallTitle>
+
+<BuildingNum>
+    <BuildingNumRow title="大本等级" num="1 - 9, 10 - 11, 12 - 18" />
+    <BuildingNumRow title="建筑数量" num="    0,       2,       3" />
+</BuildingNum>
+
 <SmallTitle>重要说明</SmallTitle>
 
 1. 单头地狱塔是三段伤害，初始伤害切二段需要 1.5 秒，二段切三段是 3.75 秒，因此单头塔锁定目标 1.5 + 3.75 = 5.25 秒后到达最高伤害。
@@ -38,13 +109,86 @@ import unitData from "@/assets/unit-data/030a-Inferno-Tower.json";
 3. 冰牙和小冰怪的减速效果可以延后单一目标模式的 [地狱塔](/upgrade/030a-Inferno-Tower) 和 [地狱飞龙](/upgrade/0604-Inferno-Dragon) 达到最高伤害的时间。
 4. [雷电法术](/upgrade/0100-Lightning-Spell) 的伤害、[灵狐](/upgrade/0288-Spirit-Fox)、[隐形药水瓶](/upgrade/0741-Invisibility-Vial) 和 [隐形法术](/upgrade/0106-Invisibility-Spell) 的隐形效果可以打断单头地狱之塔的攻击，使其伤害从头开始累积。
 
+<SmallTitle>属性</SmallTitle>
+
+<UnitProperties>
+    <UnitProperty pKey="占地面积" pValue="2×2" />
+    <UnitProperty pKey="判定面积" pValue="1×1" :isJudgeSquare="true" />
+    <UnitProperty pKey="伤害类型" pValue="可调整<sup>*</sup>" />
+    <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
+    <UnitProperty pKey="射程" pValue="9 格" />
+    <UnitProperty pKey="攻速" pValue="0.128 秒/次" />
+    <UnitProperty pKey="切换目标延时" pValue="0.05 秒" />
+    <UnitProperty pKey="弹药数量" pValue="1000" />
+</UnitProperties>
+
 \*  地狱之塔有两种模式：单一目标模式（单头）和多重目标模式（多头），两种模式由玩家选择。单头塔只能攻击一个目标，其伤害会随着时间推移越来越高；多头塔可以同时攻击多个目标，其伤害不会随时间增加。
 
+<SmallTitle>升级数据</SmallTitle>
+
+<UnitTable :tableExtraInfo="tableExtraInfoSingleMode">
+
+| 等级 |初始<br>每秒伤害|1.5 秒后<br>每秒伤害|5.25 秒后<br>每秒伤害| 生命值 | 升级费用 | 升级时间 |升级后可<br>获得的经验| 所需<br>大本等级 |
+| ---- |      ---      |        ---        |          ---       |   ---  |   ---   |   ----  |        ---          |      ----      |
+| 1 | 30 | 80 | 800 | 1500 | 1000000 | 0,12,0,0 |  | 10 |
+| 2 | 35 | 100 | 1000 | 1800 | 1200000 | 1,0,0,0 |  | 10 |
+| 3 | 40 | 120 | 1200 | 2100 | 2400000 | 2,0,0,0 |  | 10 |
+| 4 | 45 | 140 | 1400 | 2400 | 3400000 | 2,12,0,0 |  | 11 |
+| 5 | 50 | 150 | 1500 | 2700 | 4200000 | 3,0,0,0 |  | 11 |
+| 6 | 55 | 160 | 1600 | 3000 | 6000000 | 4,0,0,0 |  | 12 |
+| 7 | 65 | 180 | 1800 | 3300 | 8000000 | 5,0,0,0 |  | 13 |
+| 8 | 80 | 210 | 2100 | 3700 | 9500000 | 6,0,0,0 |  | 14 |
+| 9 | 100 | 230 | 2300 | 4000 | 10000000 | 6,12,0,0 |  | 15 |
+| 10 | 120 | 260 | 2600 | 4400 | 11000000 | 7,0,0,0 |  | 16 |
+| 11 | 140 | 290 | 2900 | 4800 | 16000000 | 8,0,0,0 |  | 17 |
+| 12 | 155 | 330 | 3300 | 5100 | 26500000 | 13,12,0,0 |  | 18 |
+</UnitTable>
 </SwitchTabGroup>
 
+<!-- ↓↓↓ 多重目标模式 ↓↓↓ -->
 <SwitchTabGroup id="cp-unit-item-1" class="cp-unit-items">
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Inferno_Tower12_Multi.png" imgAlt="地狱之塔（多重目标模式）" :description="$frontmatter.description" :isSmallImg="true" />
 
+<SmallTitle>各等级图片</SmallTitle>
+
+<Panel>
+    <UnitImgGroup title="多头" :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="1 级" imgSrc="Inferno_Tower1_Multi.png" />
+        <UnitImg imgTitle="2 级" imgSrc="Inferno_Tower2_Multi.png" />
+        <UnitImg imgTitle="3 级" imgSrc="Inferno_Tower3_Multi.png" />
+        <UnitImg imgTitle="4 级" imgSrc="Inferno_Tower4_Multi.png" />
+        <UnitImg imgTitle="5 级" imgSrc="Inferno_Tower5_Multi.png" />
+        <UnitImg imgTitle="6 级" imgSrc="Inferno_Tower6_Multi.png" />
+        <UnitImg imgTitle="7 级" imgSrc="Inferno_Tower7_Multi.png" />
+        <UnitImg imgTitle="8 级" imgSrc="Inferno_Tower8_Multi.png" />
+        <UnitImg imgTitle="9 级" imgSrc="Inferno_Tower9_Multi.png" />
+        <UnitImg imgTitle="10 级" imgSrc="Inferno_Tower10_Multi.png" />
+        <UnitImg imgTitle="11 级" imgSrc="Inferno_Tower11_Multi.png" />
+        <UnitImg imgTitle="12 级" imgSrc="Inferno_Tower12_Multi.png" />
+    </UnitImgGroup>
+        <UnitImgGroup title="熄火的多头" :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="1 级" imgSrc="Inferno_Tower1_Multi_Depleted.png" />
+        <UnitImg imgTitle="2 级" imgSrc="Inferno_Tower2_Multi_Depleted.png" />
+        <UnitImg imgTitle="3 级" imgSrc="Inferno_Tower3_Multi_Depleted.png" />
+        <UnitImg imgTitle="4 级" imgSrc="Inferno_Tower4_Multi_Depleted.png" />
+        <UnitImg imgTitle="5 级" imgSrc="Inferno_Tower5_Multi_Depleted.png" />
+        <UnitImg imgTitle="6 级" imgSrc="Inferno_Tower6_Multi_Depleted.png" />
+        <UnitImg imgTitle="7 级" imgSrc="Inferno_Tower7_Multi_Depleted.png" />
+        <UnitImg imgTitle="8 级" imgSrc="Inferno_Tower8_Multi_Depleted.png" />
+        <UnitImg imgTitle="9 级" imgSrc="Inferno_Tower9_Multi_Depleted.png" />
+        <UnitImg imgTitle="10 级" imgSrc="Inferno_Tower10_Multi_Depleted.png" />
+        <UnitImg imgTitle="11 级" imgSrc="Inferno_Tower11_Multi_Depleted.png" />
+        <UnitImg imgTitle="12 级" imgSrc="Inferno_Tower12_Multi_Depleted.png" />
+    </UnitImgGroup>
+</Panel>
+
+<SmallTitle>各大本等级的地狱塔数量</SmallTitle>
+
+<BuildingNum>
+    <BuildingNumRow title="大本等级" num="1 - 9, 10 - 11, 12 - 18" />
+    <BuildingNumRow title="建筑数量" num="    0,       2,       3" />
+</BuildingNum>
+
 <SmallTitle>重要说明</SmallTitle>
 
 1. 单头地狱塔是三段伤害，初始伤害切二段需要 1.5 秒，二段切三段是 3.75 秒，因此单头塔锁定目标 1.5 + 3.75 = 5.25 秒后到达最高伤害。
@@ -53,13 +197,45 @@ import unitData from "@/assets/unit-data/030a-Inferno-Tower.json";
 3. 冰牙和小冰怪的减速效果可以延后单一目标模式的 [地狱塔](/upgrade/030a-Inferno-Tower) 和 [地狱飞龙](/upgrade/0604-Inferno-Dragon) 达到最高伤害的时间。
 4. [雷电法术](/upgrade/0100-Lightning-Spell) 的伤害、[灵狐](/upgrade/0288-Spirit-Fox)、[隐形药水瓶](/upgrade/0741-Invisibility-Vial) 和 [隐形法术](/upgrade/0106-Invisibility-Spell) 的隐形效果可以打断单头地狱之塔的攻击，使其伤害从头开始累积。
 
+<SmallTitle>属性</SmallTitle>
+
+<UnitProperties>
+    <UnitProperty pKey="占地面积" pValue="2×2" />
+    <UnitProperty pKey="判定面积" pValue="1×1" :isJudgeSquare="true" />
+    <UnitProperty pKey="伤害类型" pValue="可调整<sup>*</sup>" />
+    <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
+    <UnitProperty pKey="射程" pValue="10 格" />
+    <UnitProperty pKey="攻速" pValue="0.128 秒/次" />
+    <UnitProperty pKey="切换目标延时" pValue="0.05 秒" />
+    <UnitProperty pKey="弹药数量" pValue="1000" />
+</UnitProperties>
+
 \*  地狱之塔有两种模式：单一目标模式（单头）和多重目标模式（多头），两种模式由玩家选择。单头塔只能攻击一个目标，其伤害会随着时间推移越来越高；多头塔可以同时攻击多个目标，其伤害不会随时间增加。
 
+<SmallTitle>升级数据</SmallTitle>
+
+<UnitTable :tableExtraInfo="tableExtraInfoMultiMode">
+
+| 等级 | 每秒伤害 | 目标数量 | 生命值 | 升级费用 | 升级时间 |升级后可<br>获得的经验| 所需<br>大本等级 |
+| ---- |   ---   |   ---   |   ---  |   ---   |  ---    |        ---          |      ----      |
+| 1 | 30 | 5 | 1500 | 1000000 | 0,12,0,0 |  | 10 |
+| 2 | 35 | 5 | 1800 | 1200000 | 1,0,0,0 |  | 10 |
+| 3 | 40 | 5 | 2100 | 2400000 | 2,0,0,0 |  | 10 |
+| 4 | 45 | 5 | 2400 | 3400000 | 2,12,0,0 |  | 11 |
+| 5 | 50 | 5 | 2700 | 4200000 | 3,0,0,0 |  | 11 |
+| 6 | 55 | 5 | 3000 | 6000000 | 4,0,0,0 |  | 12 |
+| 7 | 65 | 5 | 3300 | 8000000 | 5,0,0,0 |  | 13 |
+| 8 | 80 | 6 | 3700 | 9500000 | 6,0,0,0 |  | 14 |
+| 9 | 100 | 6 | 4000 | 10000000 | 6,12,0,0 |  | 15 |
+| 10 | 120 | 6 | 4400 | 11000000 | 7,0,0,0 |  | 16 |
+| 11 | 140 | 6 | 4800 | 16000000 | 8,0,0,0 |  | 17 |
+| 12 | 155 | 6 | 5100 | 26500000 | 13,12,0,0 |  | 18 |
+
+</UnitTable>
 </SwitchTabGroup>
 
-</template>
-
-<template #history>
+<!-- ↓↓↓ 公共部分 ↓↓↓ -->
+<SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2026/02/23">
@@ -141,7 +317,4 @@ import unitData from "@/assets/unit-data/030a-Inferno-Tower.json";
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
-
-</template>
-
-</SyncedUnitData>
+<p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Inferno_Tower/Home_Village?oldid=624731" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>

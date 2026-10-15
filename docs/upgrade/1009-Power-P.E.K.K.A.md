@@ -2,33 +2,91 @@
 title: "部落冲突 coc 夜世界雷霆皮卡（威能皮卡、超级皮卡）升级数据"
 navTitle: "雷霆皮卡"
 shownTitle: "雷霆皮卡（威能皮卡、超级皮卡）"
+description: "这件强大的暗黑盔甲不断辐射出不稳定的能量，这些能量随时都可能挣脱盔甲的束缚！"
 module: upgrade-bh
 imgFolder: bh_tech/1009
 wiki: https://clashofclans.fandom.com/wiki/Power_P.E.K.K.A
 canonical: /upgrade/1009-Power-P.E.K.K.A
 dataSyncedOn: 2026-10-13
-description: "这件强大的暗黑盔甲不断辐射出不稳定的能量，这些能量随时都可能挣脱盔甲的束缚！"
 ---
-
-<script setup>
-import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
-import unitData from "@/assets/unit-data/1009-Power-P.E.K.K.A.json";
-</script>
-
-<SyncedUnitData :data="unitData" :historyAfter="'2023-05-15'">
-
-<template #introduction>
 
 - *如想查看都城的雷霆皮卡（原超级皮卡），请访问：[都城雷霆皮卡](/upgrade/200a-Power-P.E.K.K.A)。*
 - *如想查看家乡的皮卡超人，请访问：[皮卡超人](/upgrade/0009-P.E.K.K.A)。*
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Power_P.E.K.K.A_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
 
+<SmallTitle>各等级图片</SmallTitle>
+
+<Panel>
+    <UnitImgGroup :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="13 - 15 级" imgSrc="Power_P.E.K.K.A13.png" />
+        <UnitImg imgTitle="16 - 17 级" imgSrc="Power_P.E.K.K.A16.png" />
+        <UnitImg imgTitle="18 - 19 级" imgSrc="Power_P.E.K.K.A18.png" />
+        <UnitImg imgTitle="20 级" imgSrc="Power_P.E.K.K.A20.png" />
+    </UnitImgGroup>
+</Panel>
+
+<SmallTitle>雷霆皮卡的属性</SmallTitle>
+
+<UnitProperties>
+    <UnitProperty pKey="部队类型" pValue="地面近战单位" />
+    <UnitProperty pKey="攻击偏好" pValue="无" />
+    <UnitProperty pKey="伤害类型" pValue="单体伤害" />
+    <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
+    <UnitProperty pKey="部队重量" pValue="22" />
+    <UnitProperty pKey="移动速度" pValue="2 格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="1.8 秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="0.8 格" />
+    <UnitProperty pKey="每个兵营的部队数量" pValue="1" />
+    <UnitProperty pKey="所需训练营等级" pValue="10" />
+    <UnitProperty pKey="所需夜世界大本等级" pValue="8" />
+</UnitProperties>
+
+<SmallTitle>特殊技能的属性</SmallTitle>
+
+<UnitProperties>
+    <UnitProperty pKey="技能名称" pValue="能量过载" />
+    <UnitProperty pKey="技能类型" pValue="一次性技能" />
+    <UnitProperty pKey="技能描述" pValue="见说明<sup>*</sup>" />
+    <UnitProperty pKey="爆炸半径" pValue="2.5 格" />
+    <UnitProperty pKey="击晕建筑的时间" pValue="0.1 秒" />
+</UnitProperties>
+
 \* 能量过载：激活时会造成大爆炸，造成一定伤害。这个技能可以由玩家手动触发，如果手动触发了，死亡时就不会再有爆炸效果。
 
-</template>
+<SmallTitle>升级数据</SmallTitle>
 
-<template #history>
+<script setup>
+const tableExtraInfo = [
+    {
+        "column": 5,
+        "type": "cost",
+        "gpClass": "research",
+        "icon": "Elixir2"
+    },
+    {
+        "column": 6,
+        "type": "time",
+        "gpClass": "research"
+    }
+];
+</script>
+
+<UnitTable :tableExtraInfo="tableExtraInfo">
+
+| 等级 | 每秒伤害 | 每次伤害|技能爆炸伤害|  生命值  | 升级花费 | 升级时间 |所需实验室和<br>大本营等级|
+| ---- |   ---   |   ---  |    ---    |   ---   |   ---   |    ---   |           ---          |
+| 13 | 420 | 756 | 920 | 3900 | \ | \ | 8 |
+| 14 | 420 | 756 | 1060 | 3900 | 3600000 | 4,12,0,0 | 8 |
+| 15 | 460 | 828 | 1060 | 4290 | 3800000 | 5,12,0,0 | 8 |
+| 16 | 460 | 828 | 1200 | 4290 | 4000000 | 5,12,0,0 | 8 |
+| 17 | 500 | 900 | 1200 | 4719 | 4600000 | 6,0,0,0 | 9 |
+| 18 | 500 | 900 | 1350 | 4719 | 4800000 | 6,0,0,0 | 9 |
+| 19 | 560 | 1008 | 1350 | 5191 | 5600000 | 6,12,0,0 | 10 |
+| 20 | 560 | 1008 | 1500 | 5191 | 5800000 | 6,12,0,0 | 10 |
+</UnitTable>
+
+<SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2023/05/15">
@@ -45,7 +103,4 @@ import unitData from "@/assets/unit-data/1009-Power-P.E.K.K.A.json";
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
-
-</template>
-
-</SyncedUnitData>
+<p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Power_P.E.K.K.A?oldid=596971" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>

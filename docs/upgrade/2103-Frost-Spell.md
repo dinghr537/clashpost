@@ -2,22 +2,13 @@
 title: "部落冲突 coc 都城冰霜法术（霜冻法术）升级数据"
 navTitle: "冰霜法术"
 shownTitle: "冰霜法术（霜冻法术）"
+description: "战斗再激烈也要保持冷静！冰霜法术可以减缓敌方防御设施和部队的速度，也可以冻结水面，让部队从冰面上通行。"
 module: upgrade-capital
 imgFolder: capital_tech/2103
 wiki: https://clashofclans.fandom.com/wiki/Frost_Spell
 canonical: /upgrade/2103-Frost-Spell
 dataSyncedOn: 2026-10-13
-description: "战斗再激烈也要保持冷静！冰霜法术可以减缓敌方防御设施和部队的速度，也可以冻结水面，让部队从冰面上通行。"
 ---
-
-<script setup>
-import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
-import unitData from "@/assets/unit-data/2103-Frost-Spell.json";
-</script>
-
-<SyncedUnitData :data="unitData" :historyAfter="'2023-09-14'">
-
-<template #introduction>
 
 - *如想查看家乡的冰冻法术，请访问：[冰冻法术](/upgrade/0104-Freeze-Spell)。*
 
@@ -31,9 +22,28 @@ import unitData from "@/assets/unit-data/2103-Frost-Spell.json";
 2. 任何陷入冰霜法术影响范围内的防御建筑或防御部队都会被减速，使其移动和攻击速度降低 50%.
 3. 任何受到冰霜法术影响的水域都会被冻结，地面部队可以在水面上移动和部署，可以暂时扩大部署区域。
 
-</template>
+<SmallTitle>属性</SmallTitle>
 
-<template #history>
+<UnitProperties>
+    <UnitProperty pKey="作用方式" pValue="冰冻防御和水体" />
+    <UnitProperty pKey="有效时间" pValue="两次进攻" />
+    <UnitProperty pKey="占用的法术空间" pValue="3" />
+</UnitProperties>
+
+<SmallTitle>升级数据</SmallTitle>
+
+<UnitTable>
+
+| 等级 | 作用半径 |
+| ---- |   ----  |
+| 1 | 4.2格 |
+| 2 | 4.4格 |
+| 3 | 4.6格 |
+| 4 | 4.8格 |
+| 5 | 5格 |
+</UnitTable>
+
+<SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2023/09/14">
@@ -44,7 +54,4 @@ import unitData from "@/assets/unit-data/2103-Frost-Spell.json";
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
-
-</template>
-
-</SyncedUnitData>
+<p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Frost_Spell?oldid=624175" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>

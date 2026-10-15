@@ -2,22 +2,13 @@
 title: "部落冲突 coc 冰冻法术升级数据"
 navTitle: "冰冻法术"
 shownTitle: "冰冻法术"
+description: "当战斗进入白热化，我们更要保持冷静！冰冻法术能发出一道低温冲击波，可以暂时冻结有效范围内的敌军部队和防御性建筑。"
 module: upgrade-home
 imgFolder: home_tech/0104
 wiki: https://clashofclans.fandom.com/wiki/Freeze_Spell
 canonical: /upgrade/0104-Freeze-Spell
 dataSyncedOn: 2026-10-13
-description: "当战斗进入白热化，我们更要保持冷静！冰冻法术能发出一道低温冲击波，可以暂时冻结有效范围内的敌军部队和防御性建筑。"
 ---
-
-<script setup>
-import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
-import unitData from "@/assets/unit-data/0104-Freeze-Spell.json";
-</script>
-
-<SyncedUnitData :data="unitData" :historyAfter="'2025-03-27'">
-
-<template #introduction>
 
 - *如想查看都城的冰霜法术，请访问：[都城冰霜法术](/upgrade/2103-Frost-Spell)。*
 
@@ -32,9 +23,52 @@ import unitData from "@/assets/unit-data/0104-Freeze-Spell.json";
 3. [戈仑冰人](/upgrade/0087-Ice-Golem)、[寒冰猎犬](/upgrade/060a-Ice-Hound) 等单位与冰冻法术不同，不能把敌方单位完全冻住，只是有个减速效果。
 4. 冰冻法术的作用是冻结敌方单位，停止敌方的移动和攻击，而 [冰障法术](/upgrade/0186-Ice-Block-Spell) 的作用是冻结我方部队，让我方部队获得减伤效果。两者的作用不同，不要混淆。
 
-</template>
+<SmallTitle>属性</SmallTitle>
 
-<template #history>
+<UnitProperties>
+    <UnitProperty pKey="作用半径" pValue="3.5 格" />
+    <UnitProperty pKey="作用类型" pValue="停止敌方的移动和攻击" />
+    <UnitProperty pKey="作用目标" pValue="所有敌方目标" />
+    <UnitProperty pKey="占用的法术空间" pValue="1" />
+    <UnitProperty pKey="所需法术工厂等级" pValue="4" />
+    <UnitProperty pKey="所需大本等级" pValue="9" />
+    <UnitProperty pKey="法术配置时间" pValue="无" trainingSystem="2025" />
+    <UnitProperty pKey="捐赠费用" pValue="3,3,9000,Elixir" :isDonationCost="true" />
+</UnitProperties>
+
+<SmallTitle>升级数据</SmallTitle>
+
+<script setup>
+const tableExtraInfo = [
+    {
+        "column": 2,
+        "type": "cost",
+        "gpClass": "research",
+        "icon": "Elixir"
+    },
+    {
+        "column": 3,
+        "type": "time",
+        "gpClass": "research"
+    }
+];
+</script>
+
+<UnitTable :tableExtraInfo="tableExtraInfo">
+
+| 等级 |  冰冻时间 | 升级花费| 升级时间 | 所需实验室等级 |所需大本等级|
+| ---- |   ----   |  ----  |  ----   |      ----     |   ----    |
+| 1 | 2.5秒 | \ | \ | 7 | 9 |
+| 2 | 3.0秒 | 1200000 | 1,0,0,0 | 7 | 9 |
+| 3 | 3.5秒 | 1700000 | 1,12,0,0 | 8 | 10 |
+| 4 | 4.0秒 | 3000000 | 2,0,0,0 | 8 | 10 |
+| 5 | 4.5秒 | 4200000 | 2,12,0,0 | 8 | 10 |
+| 6 | 5.0秒 | 6000000 | 3,12,0,0 | 9 | 11 |
+| 7 | 5.5秒 | 7000000 | 5,0,0,0 | 10 | 12 |
+| 8 | 6.0秒 | 28000000 | 15,12,0,0 | 16 | 18 |
+</UnitTable>
+
+<SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2025/03/27">
@@ -72,7 +106,4 @@ import unitData from "@/assets/unit-data/0104-Freeze-Spell.json";
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
-
-</template>
-
-</SyncedUnitData>
+<p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Freeze_Spell?oldid=622839" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>

@@ -145,7 +145,6 @@ if (activeTabCookieValue === "capital-buildings") {
     <SmallTitle>注意</SmallTitle>
     <ol>
         <li>黄金令牌不能减少都城的升级费用和升级时间。</li>
-        <li>部落营房的相关内容单独开了一篇文章，不在升级数据板块。文章链接：<a href="/p/6637">都城部落营房组件一览</a>。</li>
     </ol>
 </div>
 

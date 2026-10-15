@@ -2,24 +2,34 @@
 title: "部落冲突 coc 铁匠铺升级数据"
 navTitle: "铁匠铺"
 shownTitle: "铁匠铺"
+description: "把合适的魔法矿石带到这来，升级英雄的装备，让他们变得更加强大！熔炉冒出的烟可用于熏制美味的牛腩，虽然这并不健康。"
 module: upgrade-home
 imgFolder: home_buildings/0488
 wiki: https://clashofclans.fandom.com/wiki/Blacksmith
 canonical: /upgrade/0488-Blacksmith
 dataSyncedOn: 2026-10-13
-description: "把合适的魔法矿石带到这来，升级英雄的装备，让他们变得更加强大！熔炉冒出的烟可用于熏制美味的牛腩，虽然这并不健康。"
 ---
 
-<script setup>
-import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
-import unitData from "@/assets/unit-data/0488-Blacksmith.json";
-</script>
-
-<SyncedUnitData :data="unitData" :historyAfter="'2025-10-06'">
-
-<template #introduction>
-
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Blacksmith9.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
+
+<SmallTitle>各等级图片</SmallTitle>
+
+<Panel>
+    <UnitImgGroup :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="1 - 2 级" imgSrc="Blacksmith1.png" />
+        <UnitImg imgTitle="3 - 4 级" imgSrc="Blacksmith3.png" />
+        <UnitImg imgTitle="5 - 6 级" imgSrc="Blacksmith5.png" />
+        <UnitImg imgTitle="7 - 8 级" imgSrc="Blacksmith7.png" />
+        <UnitImg imgTitle="9 级" imgSrc="Blacksmith9.png" />
+    </UnitImgGroup>
+</Panel>
+
+<SmallTitle>建筑数量对照表</SmallTitle>
+
+<BuildingNum>
+    <BuildingNumRow title="大本等级" num="1 - 7, 8 - 18" />
+    <BuildingNumRow title="建筑数量" num="    0,      1" />
+</BuildingNum>
 
 <SmallTitle>重要说明</SmallTitle>
 
@@ -30,9 +40,71 @@ import unitData from "@/assets/unit-data/0488-Blacksmith.json";
 5. 升级装备不占用 [建筑工人](/upgrade/0500-Builders-Hut)，也不占用 [实验室](/upgrade/0483-Laboratory)。
 6. 铁匠铺免疫 [雷电法术](/upgrade/0100-Lightning-Spell) 伤害，理论上属于资源类建筑，但不被 [哥布林](/upgrade/0003-Goblin) 优先攻击。
 
-</template>
+<SmallTitle>属性</SmallTitle>
 
-<template #history>
+<UnitProperties>
+    <UnitProperty pKey="占地面积" pValue="3×3" />
+    <UnitProperty pKey="判定面积" pValue="2×2" :isJudgeSquare="true" />
+</UnitProperties>
+
+<SmallTitle>升级数据</SmallTitle>
+
+<script setup>
+const tableExtraInfo = [
+    {
+        "column": 2,
+        "type": "number",
+        "icon": "Shiny_Ore",
+        "noGoldPass": true
+    },
+    {
+        "column": 3,
+        "type": "number",
+        "icon": "Glowy_Ore",
+        "noGoldPass": true
+    },
+    {
+        "column": 4,
+        "type": "number",
+        "icon": "Starry_Ore",
+        "noGoldPass": true
+    },
+    {
+        "column": 5,
+        "type": "cost",
+        "gpClass": "building",
+        "icon": "Elixir"
+    },
+    {
+        "column": 6,
+        "type": "time",
+        "gpClass": "building"
+    },
+    {
+        "column": 7,
+        "type": "exp",
+        "icon": "Exp"
+    }
+];
+</script>
+
+<UnitTable :tableExtraInfo="tableExtraInfo">
+
+| 等级 |  生命值 |蓝矿的<br>最大储量|紫矿的<br>最大储量|黄矿的<br>最大储量|  升级费用 | 升级时间 |升级后可<br>获得的经验|所需<br>大本等级| 解锁的装备 |
+| ---- |   ---- |        ---      |        ---      |       ---      |    ---   |   ---   |         ---         |      ---      |    ---    |
+| 1 | 700 | 10000 | 1000 | 200 | 600000 | 0,12,0,0 |  | 8 | <a href="/upgrade/0702-Earthquake-Boots">地震金靴</a> |
+| 2 | 800 | 15000 | 1500 | 300 | 1200000 | 1,0,0,0 |  | 9 | <a href="/upgrade/0742-Giant-Arrow">巨型箭矢</a> |
+| 3 | 900 | 20000 | 2000 | 400 | 2300000 | 2,0,0,0 |  | 10 | <a href="/upgrade/0703-Vampstache">嗜血胡须</a><br><a href="/upgrade/0722-Metal-Pants">铁甲短裤</a> |
+| 4 | 1000 | 25000 | 2500 | 500 | 3000000 | 3,0,0,0 |  | 11 | <a href="/upgrade/0782-Rage-Gem">狂暴宝石</a> |
+| 5 | 1100 | 30000 | 3000 | 600 | 5000000 | 4,0,0,0 |  | 12 | <a href="/upgrade/0743-Healer-Puppet">天使木偶</a><br><a href="/upgrade/0723-Noble-Iron">贵族哑铃</a> |
+| 6 | 1200 | 35000 | 3500 | 700 | 6200000 | 4,12,0,0 |  | 13 | <a href="/upgrade/0783-Healing-Tome">治疗书卷</a> |
+| 7 | 1300 | 40000 | 4000 | 800 | 9200000 | 5,0,0,0 |  | 14 | <a href="/upgrade/07c2-Hog-Rider-Puppet">野猪骑士木偶</a> |
+| 8 | 1400 | 45000 | 4500 | 900 | 10000000 | 6,0,0,0 |  | 15 | <a href="/upgrade/07c3-Haste-Vial">急速药水瓶</a> |
+| 9 | 1500 | 50000 | 5000 | 1000 | 11000000 | 7,0,0,0 |  | 16 | [爆震器](/upgrade/07e2-Stun-Blaster) |
+| 10 | 1600 | 50000 | 5000 | 1000 | 18000000 | 10,0,0,0 |  | 17 | [雷电獠牙](/upgrade/07e4-Electro-Fangs) |
+</UnitTable>
+
+<SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2025/10/06">
@@ -58,7 +130,4 @@ import unitData from "@/assets/unit-data/0488-Blacksmith.json";
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
-
-</template>
-
-</SyncedUnitData>
+<p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Blacksmith?oldid=624544" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>

@@ -2,22 +2,13 @@
 title: "部落冲突 coc 隐形药水瓶装备升级数据"
 navTitle: "隐形药水瓶"
 shownTitle: "隐形药水瓶"
+description: "隐形药水瓶是弓箭女皇的两件初始装备之一。隐形药水瓶可以使弓箭女皇在技能生效期间短暂隐形。在技能生效期间，弓箭女皇的每次射击伤害会大幅增加。此外，隐形药水瓶还可以为女王提供额外生命值。"
 module: upgrade-home
 imgFolder: home_heroes/0741
 wiki: https://clashofclans.fandom.com/wiki/Invisibility_Vial
 canonical: /upgrade/0741-Invisibility-Vial
 dataSyncedOn: 2026-10-13
-description: "隐形药水瓶是弓箭女皇的两件初始装备之一。隐形药水瓶可以使弓箭女皇在技能生效期间短暂隐形。在技能生效期间，弓箭女皇的每次射击伤害会大幅增加。此外，隐形药水瓶还可以为女王提供额外生命值。"
 ---
-
-<script setup>
-import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
-import unitData from "@/assets/unit-data/0741-Invisibility-Vial.json";
-</script>
-
-<SyncedUnitData :data="unitData" :historyAfter="'2024-11-25'">
-
-<template #introduction>
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Invisibility_Vial_info.png" :imgAlt="$frontmatter.navTitle" description="使弓箭女皇隐身并强化其攻击。" />
 
@@ -30,13 +21,85 @@ import unitData from "@/assets/unit-data/0741-Invisibility-Vial.json";
    - 如果 [天鹰火炮](/upgrade/030b-Eagle-Artillery) 在隐形前就瞄准了女王，即使使用了隐形药水瓶，女王仍然会被天鹰火炮打中，只有在开火前使用隐形药水瓶才能让天鹰火炮转移目标。
 5. 隐形药水瓶生效期间的射击伤害加成可以与 [狂暴法术](/upgrade/0102-Rage-Spell) 叠加。在较高的装备等级下，女王可以迅速摧毁建筑物。
 
+<SmallTitle>属性</SmallTitle>
+
+<UnitProperties>
+    <UnitProperty pKey="技能类型" pValue="主动技能" />
+    <UnitProperty pKey="装备稀有度" pValue="普通" />
+    <UnitProperty pKey="解锁条件" pValue="有弓箭女皇即可" />
+</UnitProperties>
+
+<SmallTitle>升级数据</SmallTitle>
+
+<script setup>
+const tableExtraInfo = [
+    {
+        "column": 4,
+        "type": "cost",
+        "icon": "Shiny_Ore",
+        "noGoldPass": true
+    },
+    {
+        "column": 5,
+        "type": "cost",
+        "icon": "Glowy_Ore",
+        "noGoldPass": true
+    }
+];
+</script>
+
+<UnitTable :tableExtraInfo="tableExtraInfo">
+
+| 等级 |技能<br>持续时间|技能期间每次<br>射击伤害增加|英雄生命值<br>增加|升级费用|升级费用|所需<br>铁匠铺等级|所需<br>大本等级|
+| ---- |      ---      |           ----           |       ---      |   ---  |  ---  |       ---      |       ---      |
+| 1 | 4.2秒 | 340 | 80 | \ | \ | 1 | 8 |
+| 2 | 4.2秒 | 440 | 100 | 120 | \ | 1 | 8 |
+| 3 | 4.8秒 | 540 | 120 | 240 | 20 | 1 | 8 |
+| 4 | 4.8秒 | 640 | 140 | 400 | \ | 1 | 8 |
+| 5 | 4.8秒 | 730 | 170 | 600 | \ | 1 | 8 |
+| 6 | 5.4秒 | 820 | 200 | 840 | 100 | 1 | 8 |
+| 7 | 5.4秒 | 920 | 250 | 1120 | \ | 1 | 8 |
+| 8 | 5.4秒 | 1020 | 300 | 1440 | \ | 1 | 8 |
+| 9 | 6.0秒 | 1120 | 340 | 1800 | 200 | 1 | 8 |
+| 10 | 6.0秒 | 1220 | 380 | 1900 | \ | 3 | 10 |
+| 11 | 6.0秒 | 1310 | 420 | 2000 | \ | 3 | 10 |
+| 12 | 6.6秒 | 1370 | 460 | 2100 | 400 | 3 | 10 |
+| 13 | 6.6秒 | 1430 | 500 | 2200 | \ | 5 | 12 |
+| 14 | 6.6秒 | 1490 | 540 | 2300 | \ | 5 | 12 |
+| 15 | 7.2秒 | 1560 | 580 | 2400 | 600 | 5 | 12 |
+| 16 | 7.2秒 | 1620 | 620 | 2500 | \ | 7 | 14 |
+| 17 | 7.2秒 | 1680 | 660 | 2600 | \ | 7 | 14 |
+| 18 | 7.8秒 | 1740 | 700 | 2700 | 600 | 7 | 14 |
+</UnitTable>
+
 注意：如果升级费用中有多种资源，则同时需要多种资源才能升级。
+
+<SmallTitle>装备的初始等级</SmallTitle>
 
 在 2023 年 12 月装备系统发布时，已解锁弓箭女皇的玩家会有一个初始的装备等级，并且不需要解锁铁匠铺。装备等级与玩家的英雄等级相关，具体如下表。
 
-</template>
+<Table maxWidth="25rem">
 
-<template #history>
+| 弓箭女皇等级 | 隐形药水瓶等级 |
+|     ---     |      ---     |
+|    1 - 10   |       1      |
+|   11 - 20   |       2      |
+|   21 - 25   |       3      |
+|   26 - 30   |       4      |
+|   31 - 35   |       5      |
+|   36 - 40   |       6      |
+|   41 - 45   |       7      |
+|   46 - 50   |       8      |
+|   51 - 55   |       9      |
+|   56 - 60   |      10      |
+|   61 - 65   |      11      |
+|   66 - 70   |      12      |
+|   71 - 75   |      13      |
+|   76 - 80   |      14      |
+|   81 - 90   |      15      |
+</Table>
+
+<SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2024/11/25">
@@ -47,7 +110,4 @@ import unitData from "@/assets/unit-data/0741-Invisibility-Vial.json";
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
-
-</template>
-
-</SyncedUnitData>
+<p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Invisibility_Vial?oldid=623169" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>

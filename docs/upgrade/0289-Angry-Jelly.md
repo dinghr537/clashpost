@@ -2,24 +2,23 @@
 title: "部落冲突 coc 愤怒水母升级数据"
 navTitle: "愤怒水母"
 shownTitle: "愤怒水母"
+description: "这团愤怒的水母在村庄附近等得不耐烦了，它渴望一场酣畅淋漓的战斗。在战斗中，它会说服其跟随的英雄优先攻击防御建筑，然后再分头作战。"
 module: upgrade-home
 imgFolder: home_heroes/0289
 wiki: https://clashofclans.fandom.com/wiki/Angry_Jelly
 canonical: /upgrade/0289-Angry-Jelly
 dataSyncedOn: 2026-10-13
-description: "这团愤怒的水母在村庄附近等得不耐烦了，它渴望一场酣畅淋漓的战斗。在战斗中，它会说服其跟随的英雄优先攻击防御建筑，然后再分头作战。"
 ---
 
-<script setup>
-import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
-import unitData from "@/assets/unit-data/0289-Angry-Jelly.json";
-</script>
-
-<SyncedUnitData :data="unitData" :historyAfter="'2025-03-24'">
-
-<template #introduction>
-
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Angry_Jelly_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
+
+<SmallTitle>各等级图片</SmallTitle>
+
+<Panel>
+    <UnitImgGroup :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="所有等级" imgSrc="Angry_Jelly_image.png" />
+    </UnitImgGroup>
+</Panel>
 
 <SmallTitle>重要说明</SmallTitle>
 
@@ -29,9 +28,60 @@ import unitData from "@/assets/unit-data/0289-Angry-Jelly.json";
 4. 当水母跟随的英雄被击倒，或英雄被 [回溯法术](/upgrade/0107-Recall-Spell) 召回，水母会变成普通部队，可以成为目标以及受到伤害，也可以触发陷阱了。
 5. 如果愤怒水母跟随的英雄未被击倒，则不占用回溯法术的空间。
 
-</template>
+<SmallTitle>属性</SmallTitle>
 
-<template #history>
+<UnitProperties>
+    <UnitProperty pKey="攻击偏好" pValue="英雄的目标" />
+    <UnitProperty pKey="伤害类型" pValue="单体伤害" />
+    <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
+    <UnitProperty pKey="占据人口" pValue="20" />
+    <UnitProperty pKey="移动速度" pValue="2 格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="0.75 秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="5 格" />
+    <UnitProperty pKey="所需战宠小屋等级" pValue="10" />
+    <UnitProperty pKey="所需大本等级" pValue="16" />
+</UnitProperties>
+
+<SmallTitle>升级数据</SmallTitle>
+
+<script setup>
+const tableExtraInfo = [
+    {
+        "column": 5,
+        "type": "cost",
+        "gpClass": "research",
+        "icon": "Dark_Elixir"
+    },
+    {
+        "column": 6,
+        "type": "time",
+        "gpClass": "research"
+    },
+    {
+        "column": 7,
+        "type": "dailyCost",
+        "icon": "Dark_Elixir"
+    }
+];
+</script>
+
+<UnitTable :tableExtraInfo="tableExtraInfo">
+
+| 等级 | 每秒伤害 | 每次伤害 |技能持续<br>时间 (秒)| 生命值| 升级花费| 升级时间| 日均耗油 |所需战宠<br>小屋等级|所需<br>大本等级|
+| ---- |   ---   |   ---   |         ---        |  ---  |  ----  |   ---   |   ---   |        ---       |      ---      |
+| 1 | 112 | 84 | 25秒 | 1450 | \ | \ |  | 10 | 16 |
+| 2 | 121 | 90.75 | 25秒 | 1525 | 150000 | 3,0,0,0 |  | 10 | 16 |
+| 3 | 130 | 97.5 | 25秒 | 1600 | 160000 | 4,0,0,0 |  | 10 | 16 |
+| 4 | 139 | 104.25 | 25秒 | 1675 | 170000 | 5,0,0,0 |  | 10 | 16 |
+| 5 | 148 | 111 | 30秒 | 1750 | 180000 | 6,0,0,0 |  | 10 | 16 |
+| 6 | 157 | 117.75 | 30秒 | 1825 | 190000 | 7,0,0,0 |  | 10 | 16 |
+| 7 | 166 | 124.5 | 30秒 | 1900 | 200000 | 8,0,0,0 |  | 10 | 16 |
+| 8 | 175 | 131.25 | 30秒 | 1975 | 210000 | 8,0,0,0 |  | 10 | 16 |
+| 9 | 184 | 138 | 30秒 | 2050 | 220000 | 8,0,0,0 |  | 10 | 16 |
+| 10 | 193 | 144.75 | 35秒 | 2125 | 230000 | 8,0,0,0 |  | 10 | 16 |
+</UnitTable>
+
+<SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2025/03/24">
@@ -45,7 +95,4 @@ import unitData from "@/assets/unit-data/0289-Angry-Jelly.json";
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
-
-</template>
-
-</SyncedUnitData>
+<p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Angry_Jelly?oldid=623397" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>

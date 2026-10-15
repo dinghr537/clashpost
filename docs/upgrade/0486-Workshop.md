@@ -2,28 +2,85 @@
 title: "部落冲突 coc 攻城机器工坊升级数据"
 navTitle: "攻城机器工坊"
 shownTitle: "攻城机器工坊"
+description: "攻城机器工坊是专门建造攻城机器的地方。升级攻城机器工坊以解锁不同的攻城机器！"
 module: upgrade-home
 imgFolder: home_buildings/0486
 wiki: https://clashofclans.fandom.com/wiki/Workshop
 canonical: /upgrade/0486-Workshop
 dataSyncedOn: 2026-10-13
-description: "攻城机器工坊是专门建造攻城机器的地方。升级攻城机器工坊以解锁不同的攻城机器！"
 ---
-
-<script setup>
-import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
-import unitData from "@/assets/unit-data/0486-Workshop.json";
-</script>
-
-<SyncedUnitData :data="unitData" :historyAfter="'2025-10-06'">
-
-<template #introduction>
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Workshop8.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
 
-</template>
+<SmallTitle>各等级图片</SmallTitle>
 
-<template #history>
+<Panel>
+    <UnitImgGroup :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="1 级" imgSrc="Workshop1.png" />
+        <UnitImg imgTitle="2 级" imgSrc="Workshop2.png" />
+        <UnitImg imgTitle="3 级" imgSrc="Workshop3.png" />
+        <UnitImg imgTitle="4 级" imgSrc="Workshop4.png" />
+        <UnitImg imgTitle="5 级" imgSrc="Workshop5.png" />
+        <UnitImg imgTitle="6 级" imgSrc="Workshop6.png" />
+        <UnitImg imgTitle="7 级" imgSrc="Workshop7.png" />
+        <UnitImg imgTitle="8 级" imgSrc="Workshop8.png" />
+            <UnitImg imgTitle="9 级" imgSrc="Workshop9.png" />
+</UnitImgGroup>
+</Panel>
+
+<SmallTitle>建筑数量对照表</SmallTitle>
+
+<BuildingNum>
+    <BuildingNumRow title="大本等级" num="1 - 11, 12 - 18" />
+    <BuildingNumRow title="建筑数量" num="     0,       1" />
+</BuildingNum>
+
+<SmallTitle>属性</SmallTitle>
+
+<UnitProperties>
+    <UnitProperty pKey="占地面积" pValue="4×4" />
+    <UnitProperty pKey="判定面积" pValue="4×4" :isJudgeSquare="true" />
+</UnitProperties>
+
+<SmallTitle>升级数据</SmallTitle>
+
+<script setup>
+const tableExtraInfo = [
+    {
+        "column": 3,
+        "type": "cost",
+        "gpClass": "building",
+        "icon": "Elixir"
+    },
+    {
+        "column": 4,
+        "type": "time",
+        "gpClass": "building"
+    },
+    {
+        "column": 5,
+        "type": "exp",
+        "icon": "Exp"
+    }
+];
+</script>
+
+<UnitTable :tableExtraInfo="tableExtraInfo">
+
+| 等级 |可容纳的攻<br>城机器数量| 生命值 | 升级费用 | 升级时间 |升级后可获<br>得的经验|所需<br>大本等级|解锁的<br>攻城机器|
+| ---- |          ---         |   --- |    ---   |   ---   |         ---        |       ---     |        ----     |
+| 1 | 1 | 1000 | 2400000 | 2,0,0,0 |  | 12 | <a href="/upgrade/0240-Wall-Wrecker">攻城战车</a> |
+| 2 | 2 | 1100 | 3700000 | 3,0,0,0 |  | 12 | <a href="/upgrade/0241-Battle-Blimp">攻城飞艇</a> |
+| 3 | 3 | 1200 | 5000000 | 3,12,0,0 |  | 12 | <a href="/upgrade/0242-Stone-Slammer">攻城气球</a> |
+| 4 | 3 | 1300 | 8700000 | 4,0,0,0 |  | 13 | <a href="/upgrade/0243-Siege-Barracks">攻城训练营</a> |
+| 5 | 3 | 1400 | 9000000 | 5,0,0,0 |  | 13 | <a href="/upgrade/0244-Log-Launcher">攻城滚木车</a> |
+| 6 | 3 | 1500 | 10000000 | 5,12,0,0 |  | 14 | <a href="/upgrade/0245-Flame-Flinger">攻城烈焰车</a> |
+| 7 | 3 | 1600 | 11000000 | 6,0,0,0 |  | 15 | <a href="/upgrade/0246-Battle-Drill">攻城钻机</a> |
+| 8 | 3 | 1700 | 13000000 | 7,0,0,0 |  | 16 | <a href="/upgrade/0247-Troop-Launcher">部队发射器</a> |
+| 9 | 3 | 1800 | 26000000 | 13,12,0,0 |  | 17 | [空中战车](/upgrade/0248-Sky-Wagon) |
+</UnitTable>
+
+<SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2025/10/06">
@@ -70,7 +127,4 @@ import unitData from "@/assets/unit-data/0486-Workshop.json";
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
-
-</template>
-
-</SyncedUnitData>
+<p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Workshop?oldid=624497" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>

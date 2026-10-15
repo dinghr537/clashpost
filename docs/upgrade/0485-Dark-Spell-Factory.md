@@ -2,30 +2,95 @@
 title: "部落冲突 coc 暗黑法术工厂升级数据"
 navTitle: "暗黑法术工厂"
 shownTitle: "暗黑法术工厂"
+description: "只有那些最聪明，或者最鲁莽的法术大师才敢使用暗黑重油来配制法术。要精通这些空间较小的暗黑法术需要敏锐的洞察力，不过这也能带来独一无二的战术优势。"
 module: upgrade-home
 imgFolder: home_buildings/0485
 wiki: https://clashofclans.fandom.com/wiki/Dark_Spell_Factory
 canonical: /upgrade/0485-Dark-Spell-Factory
 dataSyncedOn: 2026-10-13
-description: "只有那些最聪明，或者最鲁莽的法术大师才敢使用暗黑重油来配制法术。要精通这些空间较小的暗黑法术需要敏锐的洞察力，不过这也能带来独一无二的战术优势。"
 ---
-
-<script setup>
-import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
-import unitData from "@/assets/unit-data/0485-Dark-Spell-Factory.json";
-</script>
-
-<SyncedUnitData :data="unitData" :historyAfter="'2025-10-06'">
-
-<template #introduction>
 
 - *如想查看配置圣水法术的法术工厂，请访问：[法术工厂](/upgrade/0484-Spell-Factory)。*
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Dark_Spell_Factory7_hd.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
 
-</template>
+<SmallTitle>各等级图片</SmallTitle>
 
-<template #history>
+<Panel>
+    <UnitImgGroup title="闲置状态" :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="1 级" imgSrc="Dark_Spell_Factory1.png" />
+        <UnitImg imgTitle="2 级" imgSrc="Dark_Spell_Factory2.png" />
+        <UnitImg imgTitle="3 级" imgSrc="Dark_Spell_Factory3.png" />
+        <UnitImg imgTitle="4 级" imgSrc="Dark_Spell_Factory4.png" />
+        <UnitImg imgTitle="5 级" imgSrc="Dark_Spell_Factory5.png" />
+        <UnitImg imgTitle="6 级" imgSrc="Dark_Spell_Factory6.png" />
+        <UnitImg imgTitle="7 级" imgSrc="Dark_Spell_Factory7.png" />
+            <UnitImg imgTitle="8 级" imgSrc="Dark_Spell_Factory8.png" />
+</UnitImgGroup>
+    <UnitImgGroup title="法术配置中" :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="1 级" imgSrc="Dark_Spell_Factory1_Active.png" />
+        <UnitImg imgTitle="2 级" imgSrc="Dark_Spell_Factory2_Active.png" />
+        <UnitImg imgTitle="3 级" imgSrc="Dark_Spell_Factory3_Active.png" />
+        <UnitImg imgTitle="4 级" imgSrc="Dark_Spell_Factory4_Active.png" />
+        <UnitImg imgTitle="5 级" imgSrc="Dark_Spell_Factory5_Active.png" />
+        <UnitImg imgTitle="6 级" imgSrc="Dark_Spell_Factory6_Active.png" />
+        <UnitImg imgTitle="7 级" imgSrc="Dark_Spell_Factory7_Active.png" />
+            <UnitImg imgTitle="8 级（工作状态）" imgSrc="Dark_Spell_Factory8_Active.png" />
+</UnitImgGroup>
+</Panel>
+
+<SmallTitle>建筑数量对照表</SmallTitle>
+
+<BuildingNum>
+    <BuildingNumRow title="大本等级" num="1 - 7, 8 - 18" />
+    <BuildingNumRow title="建筑数量" num="    0,      1" />
+</BuildingNum>
+
+<SmallTitle>属性</SmallTitle>
+
+<UnitProperties>
+    <UnitProperty pKey="占地面积" pValue="3×3" />
+    <UnitProperty pKey="判定面积" pValue="2×2" :isJudgeSquare="true" />
+</UnitProperties>
+
+<SmallTitle>升级数据</SmallTitle>
+
+<script setup>
+const tableExtraInfo = [
+    {
+        "column": 3,
+        "type": "cost",
+        "gpClass": "building",
+        "icon": "Elixir"
+    },
+    {
+        "column": 4,
+        "type": "time",
+        "gpClass": "building"
+    },
+    {
+        "column": 5,
+        "type": "exp",
+        "icon": "Exp"
+    }
+];
+</script>
+
+<UnitTable :tableExtraInfo="tableExtraInfo">
+
+| 等级 | 可容纳的<br>法术空间 | 生命值 | 升级费用 | 升级时间 | 升级后可获<br>得的经验 | 所需大本等级 | 解锁的法术 |
+| ---- |         ----       |   ---  |   ---   |   ---   |          ---          |     ---    |    ----    |
+| 1 | 1 | 600 | 130000 | 0,6,0,0 |  | 8 | <a href="/upgrade/0180-Poison-Spell">毒药法术</a> |
+| 2 | 1 | 660 | 260000 | 0,12,0,0 |  | 8 | <a href="/upgrade/0181-Earthquake-Spell">地震法术</a> |
+| 3 | 1 | 720 | 600000 | 2,0,0,0 |  | 9 | <a href="/upgrade/0182-Haste-Spell">急速法术</a> |
+| 4 | 1 | 780 | 1200000 | 3,0,0,0 |  | 9 | <a href="/upgrade/0183-Skeleton-Spell">骷髅法术</a> |
+| 5 | 1 | 840 | 2500000 | 5,0,0,0 |  | 10 | <a href="/upgrade/0184-Bat-Spell">蝙蝠法术</a> |
+| 6 | 1 | 950 | 4000000 | 6,0,0,0 |  | 12 | <a href="/upgrade/0185-Overgrowth-Spell">蔓生法术</a> |
+| 7 | 1 | 1010 | 11000000 | 7,0,0,0 |  | 14 | <a href="/upgrade/0186-Ice-Block-Spell">冰障法术</a> |
+| 8 | 1 | 1070 | 18000000 | 10,0,0,0 |  | 15 | [愤怒法术](/upgrade/0187-Angry-Spell) |
+</UnitTable>
+
+<SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2025/10/06">
@@ -63,7 +128,4 @@ import unitData from "@/assets/unit-data/0485-Dark-Spell-Factory.json";
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
-
-</template>
-
-</SyncedUnitData>
+<p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Dark_Spell_Factory?oldid=624552" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>

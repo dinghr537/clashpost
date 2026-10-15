@@ -2,32 +2,104 @@
 title: "部落冲突 coc 暗黑重油罐升级数据"
 navTitle: "暗黑重油罐"
 shownTitle: "暗黑重油罐"
+description: "暗黑重油蕴藏的巨大能量是圣水的三倍，无法存储在普通的圣水瓶中，所以我们得建造一个立方体的暗黑重油罐来存储它。"
 module: upgrade-home
 imgFolder: home_buildings/0406
 wiki: https://clashofclans.fandom.com/wiki/Dark_Elixir_Storage
 canonical: /upgrade/0406-Dark-Elixir-Storage
 dataSyncedOn: 2026-10-13
-description: "暗黑重油蕴藏的巨大能量是圣水的三倍，无法存储在普通的圣水瓶中，所以我们得建造一个立方体的暗黑重油罐来存储它。"
 ---
 
-<script setup>
-import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
-import unitData from "@/assets/unit-data/0406-Dark-Elixir-Storage.json";
-</script>
-
-<SyncedUnitData :data="unitData" :historyAfter="'2025-11-17'">
-
-<template #introduction>
-
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Dark_Elixir_Storage13.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
+
+<SmallTitle>各等级图片</SmallTitle>
+
+<Panel>
+    <UnitImgGroup :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="1 级" imgSrc="Dark_Elixir_Storage1.png" />
+        <UnitImg imgTitle="2 级" imgSrc="Dark_Elixir_Storage2.png" />
+        <UnitImg imgTitle="3 级" imgSrc="Dark_Elixir_Storage3.png" />
+        <UnitImg imgTitle="4 级" imgSrc="Dark_Elixir_Storage4.png" />
+        <UnitImg imgTitle="5 级" imgSrc="Dark_Elixir_Storage5.png" />
+        <UnitImg imgTitle="6 级" imgSrc="Dark_Elixir_Storage6.png" />
+        <UnitImg imgTitle="7 级" imgSrc="Dark_Elixir_Storage7.png" />
+        <UnitImg imgTitle="8 级" imgSrc="Dark_Elixir_Storage8.png" />
+        <UnitImg imgTitle="9 级" imgSrc="Dark_Elixir_Storage9.png" />
+        <UnitImg imgTitle="10 级" imgSrc="Dark_Elixir_Storage10.png" />
+        <UnitImg imgTitle="11 级" imgSrc="Dark_Elixir_Storage11.png" imgHd="Dark_Elixir_Storage11_hd.png" />
+        <UnitImg imgTitle="12 级" imgSrc="Dark_Elixir_Storage12.png" />
+        <UnitImg imgTitle="13 级" imgSrc="Dark_Elixir_Storage13.png" />
+    </UnitImgGroup>
+</Panel>
+
+<SmallTitle>建筑数量对照表</SmallTitle>
+
+<BuildingNum>
+    <BuildingNumRow title="大本等级" num="1 - 6, 7 - 18" />
+    <BuildingNumRow title="建筑数量" num="     0,     1" />
+</BuildingNum>
 
 <SmallTitle>重要说明</SmallTitle>
 
 [雷电法术](/upgrade/0100-Lightning-Spell) 和 [地震法术](/upgrade/0181-Earthquake-Spell) 不能对资源仓库造成伤害。
 
-</template>
+<SmallTitle>属性</SmallTitle>
 
-<template #history>
+<UnitProperties>
+    <UnitProperty pKey="占地面积" pValue="3×3" />
+    <UnitProperty pKey="判定面积" pValue="2×2" :isJudgeSquare="true" />
+    <UnitProperty pKey="掠夺比例" pValue="点击查看" />
+</UnitProperties>
+
+<SmallTitle>升级数据</SmallTitle>
+
+<script setup>
+const tableExtraInfo = [
+    {
+        "column": 1,
+        "type": "number",
+        "icon": "Dark_Elixir",
+        "noGoldPass": true
+    },
+    {
+        "column": 3,
+        "type": "cost",
+        "gpClass": "building",
+        "icon": "Elixir"
+    },
+    {
+        "column": 4,
+        "type": "time",
+        "gpClass": "building"
+    },
+    {
+        "column": 5,
+        "type": "exp",
+        "icon": "Exp"
+    }
+];
+</script>
+
+<UnitTable :tableExtraInfo="tableExtraInfo">
+
+| 等级 | 最大储量 | 生命值 | 升级费用 | 升级时间 | 升级后可获<br>得的经验 | 所需<br>大本等级 |
+| ---- |  ----   |  ---- |    ---   |   ---   |         ---          |       ---       |
+| 1 | 10000 | 2000 | 250000 | 0,8,0,0 |  | 7 |
+| 2 | 17500 | 2200 | 500000 | 0,16,0,0 |  | 7 |
+| 3 | 40000 | 2400 | 1000000 | 1,0,0,0 |  | 8 |
+| 4 | 75000 | 2600 | 1500000 | 1,12,0,0 |  | 8 |
+| 5 | 140000 | 2900 | 2000000 | 1,16,0,0 |  | 9 |
+| 6 | 180000 | 3200 | 2400000 | 2,0,0,0 |  | 9 |
+| 7 | 220000 | 3500 | 3800000 | 3,0,0,0 |  | 12 |
+| 8 | 280000 | 3800 | 5400000 | 3,12,0,0 |  | 13 |
+| 9 | 330000 | 4100 | 6600000 | 4,0,0,0 |  | 14 |
+| 10 | 360000 | 4300 | 8000000 | 4,12,0,0 |  | 15 |
+| 11 | 390000 | 4500 | 10000000 | 5,0,0,0 |  | 16 |
+| 12 | 420000 | 4700 | 16000000 | 7,0,0,0 |  | 17 |
+| 13 | 450000 | 4800 | 25000000 | 13,0,0,0 |  | 18 |
+</UnitTable>
+
+<SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2025/11/17">
@@ -79,7 +151,4 @@ import unitData from "@/assets/unit-data/0406-Dark-Elixir-Storage.json";
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
-
-</template>
-
-</SyncedUnitData>
+<p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Dark_Elixir_Storage?oldid=624451" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>

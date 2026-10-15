@@ -2,22 +2,13 @@
 title: "部落冲突 coc 巨大火球装备升级数据"
 navTitle: "巨大火球"
 shownTitle: "巨大火球"
+description: "巨大火球是大守护者的第一件史诗装备，它在 2024 年 3 月的超级飞龙大舞台活动中首次开放购买。巨大火球装备可以让大守护者在开启技能时投掷一个巨大的火球，造成巨大的溅射伤害。该火球会瞄准最近的防御建筑，没有距离限制。"
 module: upgrade-home
 imgFolder: home_heroes/0784
 wiki: https://clashofclans.fandom.com/wiki/Fireball
 canonical: /upgrade/0784-Fireball
 dataSyncedOn: 2026-10-13
-description: "巨大火球是大守护者的第一件史诗装备，它在 2024 年 3 月的超级飞龙大舞台活动中首次开放购买。巨大火球装备可以让大守护者在开启技能时投掷一个巨大的火球，造成巨大的溅射伤害。该火球会瞄准最近的防御建筑，没有距离限制。"
 ---
-
-<script setup>
-import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
-import unitData from "@/assets/unit-data/0784-Fireball.json";
-</script>
-
-<SyncedUnitData :data="unitData" :historyAfter="'2025-02-10'">
-
-<template #introduction>
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Fireball_info.png" :imgAlt="$frontmatter.navTitle" description="向距离最近的防御建筑扔出一个巨大的爆炸火球。" />
 
@@ -30,11 +21,86 @@ import unitData from "@/assets/unit-data/0784-Fireball.json";
    - 如果所有的目标都被 [隐形法术](/upgrade/0106-Invisibility-Spell) 或 [蔓生法术](/upgrade/0185-Overgrowth-Spell) 覆盖，则火球会飞到地图最上方的角落。角落的这次爆炸仍然会造成溅射伤害。
 3. 除了扔火球外，这个装备还可以增加大守护者的每秒伤害。
 
+<SmallTitle>属性</SmallTitle>
+
+<UnitProperties>
+    <UnitProperty pKey="技能类型" pValue="主动技能" />
+    <UnitProperty pKey="装备稀有度" pValue="史诗" />
+</UnitProperties>
+
+<SmallTitle>升级数据</SmallTitle>
+
+<script setup>
+const tableExtraInfo = [
+    {
+        "column": 4,
+        "type": "cost",
+        "icon": "Shiny_Ore",
+        "noGoldPass": true
+    },
+    {
+        "column": 5,
+        "type": "cost",
+        "icon": "Glowy_Ore",
+        "noGoldPass": true
+    },
+    {
+        "column": 6,
+        "type": "cost",
+        "icon": "Starry_Ore",
+        "noGoldPass": true
+    }
+];
+</script>
+
+<UnitTable :tableExtraInfo="tableExtraInfo">
+
+| 等级 |火球的<br>溅射半径|火球的伤害|英雄每秒<br>伤害增加|升级费用|升级费用|升级费用|所需<br>铁匠铺等级|所需<br>大本等级|
+| ---- |      ---       |    ---   |        ---       |   ---  |  ---  |  ---  |       ---       |      ---      |
+| 1 | 4格 | 1500 | 21 | \ | \ | \ | 1 | 8 |
+| 2 | 4格 | 1500 | 24 | 120 | \ | \ | 1 | 8 |
+| 3 | 4格 | 1700 | 27 | 240 | 20 | \ | 1 | 8 |
+| 4 | 4格 | 1700 | 30 | 400 | \ | \ | 1 | 8 |
+| 5 | 4格 | 1800 | 33 | 600 | \ | \ | 1 | 8 |
+| 6 | 4格 | 1950 | 36 | 840 | 100 | \ | 1 | 8 |
+| 7 | 4格 | 1950 | 40 | 1120 | \ | \ | 1 | 8 |
+| 8 | 4格 | 2050 | 44 | 1440 | \ | \ | 1 | 8 |
+| 9 | 5格 | 2200 | 47 | 1800 | 200 | 10 | 1 | 8 |
+| 10 | 5格 | 2200 | 51 | 1900 | \ | \ | 1 | 8 |
+| 11 | 5格 | 2350 | 56 | 2000 | \ | \ | 1 | 8 |
+| 12 | 5格 | 2650 | 60 | 2100 | 400 | 20 | 1 | 8 |
+| 13 | 5格 | 2650 | 63 | 2200 | \ | \ | 3 | 10 |
+| 14 | 5格 | 2750 | 67 | 2300 | \ | \ | 3 | 10 |
+| 15 | 5格 | 3100 | 71 | 2400 | 600 | 30 | 3 | 10 |
+| 16 | 5格 | 3100 | 74 | 2500 | \ | \ | 5 | 12 |
+| 17 | 5格 | 3250 | 77 | 2600 | \ | \ | 5 | 12 |
+| 18 | 5格 | 3400 | 80 | 2700 | 600 | 50 | 5 | 12 |
+| 19 | 5格 | 3400 | 82 | 2800 | \ | \ | 7 | 14 |
+| 20 | 5格 | 3500 | 84 | 2900 | \ | \ | 7 | 14 |
+| 21 | 5格 | 3650 | 87 | 3000 | 600 | 100 | 7 | 14 |
+| 22 | 5格 | 3650 | 89 | 3100 | \ | \ | 8 | 15 |
+| 23 | 5格 | 3750 | 92 | 3200 | \ | \ | 8 | 15 |
+| 24 | 6格 | 3900 | 94 | 3300 | 600 | 120 | 8 | 15 |
+| 25 | 6格 | 3900 | 96 | 3400 | \ | \ | 9 | 16 |
+| 26 | 6格 | 3950 | 99 | 3500 | \ | \ | 9 | 16 |
+| 27 | 6格 | 4100 | 101 | 3600 | 600 | 150 | 9 | 16 |
+</UnitTable>
+
 注：如果升级费用中有多种资源，则同时需要多种资源才能升级。
 
-</template>
+<SmallTitle>推出记录</SmallTitle>
 
-<template #history>
+<UnitTable>
+
+| 推出时间 |    活动名称   |     价格       | 购买渠道 |
+|   ---   |      ---      |      ---      |    ---   |
+| 2024/03 | 超级飞龙大舞台 | 3 100 超级奖章 |   商人   |
+| 2024/12 |   大闹玩具店   | 3 100 玩具奖章 |   商人   |
+| 2025/10 |   宇宙摇滚     | 3 100 摇滚奖章 |   商人   |
+| 2026/02 |   智慧勇士     | 3 100 愤怒奖章 |   商人   |
+</UnitTable>
+
+<SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2025/02/10">
@@ -46,6 +112,4 @@ import unitData from "@/assets/unit-data/0784-Fireball.json";
     <TimelineItem :historyBottom="true" />
 </Timeline>
 
-</template>
-
-</SyncedUnitData>
+<p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Fireball?oldid=625671" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>

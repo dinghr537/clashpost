@@ -2,22 +2,13 @@
 title: "部落冲突 coc 都城雷电法术升级数据"
 navTitle: "雷电法术"
 shownTitle: "雷电法术"
+description: "放出一道闪电攻击敌军！施放雷电法术，击晕小范围内的建筑和部队，并对其造成伤害。"
 module: upgrade-capital
 imgFolder: capital_tech/2102
 wiki: https://clashofclans.fandom.com/wiki/Lightning_Spell/Clan_Capital
 canonical: /upgrade/2102-Lightning-Spell
 dataSyncedOn: 2026-10-13
-description: "放出一道闪电攻击敌军！施放雷电法术，击晕小范围内的建筑和部队，并对其造成伤害。"
 ---
-
-<script setup>
-import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
-import unitData from "@/assets/unit-data/2102-Lightning-Spell.json";
-</script>
-
-<SyncedUnitData :data="unitData" :historyAfter="'2023-09-14'">
-
-<template #introduction>
 
 - *如想查看家乡的雷电法术，请访问：[雷电法术](/upgrade/0100-Lightning-Spell)。*
 
@@ -29,9 +20,29 @@ import unitData from "@/assets/unit-data/2102-Lightning-Spell.json";
 
 当部落解锁雷电法术工厂时，系统会自动建造 [雷电法术工厂](/upgrade/2382-Lightning-Spell-Factory)，而这需要气球环礁这个子城的大本营升到 2 级。
 
-</template>
+<SmallTitle>属性</SmallTitle>
 
-<template #history>
+<UnitProperties>
+    <UnitProperty pKey="作用方式" pValue="一次性伤害" />
+    <UnitProperty pKey="作用半径" pValue="1.5 格" />
+    <UnitProperty pKey="击晕时长" pValue="0.1 秒" />
+    <UnitProperty pKey="占用的法术空间" pValue="1" />
+</UnitProperties>
+
+<SmallTitle>升级数据</SmallTitle>
+
+<UnitTable>
+
+| 等级 |  伤害 |
+| ---- | ---- |
+| 1 | 275 |
+| 2 | 325 |
+| 3 | 375 |
+| 4 | 425 |
+| 5 | 475 |
+</UnitTable>
+
+<SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2023/09/14">
@@ -42,7 +53,4 @@ import unitData from "@/assets/unit-data/2102-Lightning-Spell.json";
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
-
-</template>
-
-</SyncedUnitData>
+<p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Lightning_Spell/Clan_Capital?oldid=614152" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>

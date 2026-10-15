@@ -2,22 +2,13 @@
 title: "部落冲突 coc 图腾法术升级数据"
 navTitle: "图腾法术"
 shownTitle: "图腾法术"
+description: "嘿，看那边！施放图腾法术吸引地面和空中防御的火力。附近的敌人会优先攻击图腾，从而减轻其他友方部队的压力。图腾由高密度的宇宙巨石锻造而成，落地时还会对区域内的目标造成伤害与击晕效果。"
 module: upgrade-home
 imgFolder: home_tech/0109
 wiki: https://clashofclans.fandom.com/wiki/Totem_Spell
 canonical: /upgrade/0109-Totem-Spell
 dataSyncedOn: 2026-10-13
-description: "嘿，看那边！施放图腾法术吸引地面和空中防御的火力。附近的敌人会优先攻击图腾，从而减轻其他友方部队的压力。图腾由高密度的宇宙巨石锻造而成，落地时还会对区域内的目标造成伤害与击晕效果。"
 ---
-
-<script setup>
-import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
-import unitData from "@/assets/unit-data/0109-Totem-Spell.json";
-</script>
-
-<SyncedUnitData :data="unitData" :historyAfter="'2026-02-23'">
-
-<template #introduction>
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Totem_Spell_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
 
@@ -35,11 +26,52 @@ import unitData from "@/assets/unit-data/0109-Totem-Spell.json";
 7. [大守护者](/upgrade/0202-Grand-Warden) 的 [永恒书卷](/upgrade/0780-Eternal-Tome) 装备不能令图腾免疫伤害。
 8. 2026/02 更新后，图腾落地时不能对地方建筑和部队造成伤害了，但游戏内的简介仍然保留了相关表述。本页暂时采用官方表述。
 
+<SmallTitle>属性</SmallTitle>
+
+<UnitProperties>
+    <UnitProperty pKey="有效半径" pValue="5 格" />
+    <UnitProperty pKey="作用类型" pValue="重置敌方攻击并吸引火力" />
+    <UnitProperty pKey="作用目标" pValue="敌方建筑和部队" />
+    <UnitProperty pKey="占用的法术空间" pValue="1" />
+    <UnitProperty pKey="图腾的掉血速度" pValue="每秒 334 血<sup>*</sup>" />
+    <UnitProperty pKey="所需法术工厂等级" pValue="9" />
+    <UnitProperty pKey="所需大本等级" pValue="16" />
+    <UnitProperty pKey="法术配置时间" pValue="无" trainingSystem="2025" />
+    <UnitProperty pKey="捐赠费用" pValue="3,3,9000,Elixir" :isDonationCost="true" />
+</UnitProperties>
+
 \* 这是图腾不受到伤害时的掉血速度。
 
-</template>
+<SmallTitle>升级数据</SmallTitle>
 
-<template #history>
+<script setup>
+const tableExtraInfo = [
+    {
+        "column": 2,
+        "type": "cost",
+        "gpClass": "research",
+        "icon": "Elixir"
+    },
+    {
+        "column": 3,
+        "type": "time",
+        "gpClass": "research"
+    }
+];
+</script>
+
+<UnitTable :tableExtraInfo="tableExtraInfo">
+
+| 等级 |图腾生命值|升级花费|升级时间|所需<br>实验室等级|所需<br>大本等级|
+| ---- |   ---   |   ---  |  ---  |       ---       |      ---      |
+| 1 | 10000 | \ | \ | 1 | 16 |
+| 2 | 11000 | 21000000 | 12,0,0,0 | 14 | 16 |
+| 3 | 12000 | 22000000 | 14,0,0,0 | 15 | 17 |
+| 4 | 13000 | 23000000 | 16,0,0,0 | 16 | 18 |
+
+</UnitTable>
+
+<SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2026/02/23">
@@ -55,7 +87,4 @@ import unitData from "@/assets/unit-data/0109-Totem-Spell.json";
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
-
-</template>
-
-</SyncedUnitData>
+<p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Totem_Spell?oldid=625235" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>

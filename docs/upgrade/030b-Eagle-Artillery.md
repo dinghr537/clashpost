@@ -2,26 +2,56 @@
 title: "部落冲突 coc 天鹰火炮（鸟炮）升级数据"
 navTitle: "天鹰火炮"
 shownTitle: "天鹰火炮（鸟炮）"
+description: "天鹰火炮的攻击范围几乎覆盖了地图的每个角落，它发射的火炮可以对汹汹而来的敌方部队造成溅射伤害。然而，只有大规模的部队才会触发天鹰火炮。"
 module: upgrade-home
 imgFolder: home_buildings/030b
 wiki: https://clashofclans.fandom.com/wiki/Eagle_Artillery
 canonical: /upgrade/030b-Eagle-Artillery
 dataSyncedOn: 2026-10-13
-description: "天鹰火炮的攻击范围几乎覆盖了地图的每个角落，它发射的火炮可以对汹汹而来的敌方部队造成溅射伤害。然而，只有大规模的部队才会触发天鹰火炮。"
 ---
-
-<script setup>
-import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
-import unitData from "@/assets/unit-data/030b-Eagle-Artillery.json";
-</script>
-
-<SyncedUnitData :data="unitData" :historyAfter="'2025-10-06'">
-
-<template #introduction>
 
 - *如想查看大本营和天鹰火炮合并后的大本武器，请移步：[地狱火炮](/upgrade/0315-Inferno-Artillery)。*
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Eagle_Artillery7_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
+
+<SmallTitle>各等级图片</SmallTitle>
+
+<Panel>
+    <UnitImgGroup title="日常状态" :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="1 级" imgSrc="Eagle_Artillery1.png" />
+        <UnitImg imgTitle="2 级" imgSrc="Eagle_Artillery2.png" />
+        <UnitImg imgTitle="3 级" imgSrc="Eagle_Artillery3.png" />
+        <UnitImg imgTitle="4 级" imgSrc="Eagle_Artillery4.png" />
+        <UnitImg imgTitle="5 级" imgSrc="Eagle_Artillery5.png" />
+        <UnitImg imgTitle="6 级" imgSrc="Eagle_Artillery6.png" />
+        <UnitImg imgTitle="7 级" imgSrc="Eagle_Artillery7.png" imgHd="Eagle_Artillery7_hd.png" />
+    </UnitImgGroup>
+    <UnitImgGroup title="发射中" :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="1 级" imgSrc="Eagle_Artillery1_Active.png" />
+        <UnitImg imgTitle="2 级" imgSrc="Eagle_Artillery2_Active.png" />
+        <UnitImg imgTitle="3 级" imgSrc="Eagle_Artillery3_Active.png" />
+        <UnitImg imgTitle="4 级" imgSrc="Eagle_Artillery4_Active.png" />
+        <UnitImg imgTitle="5 级" imgSrc="Eagle_Artillery5_Active.png" />
+        <UnitImg imgTitle="6 级" imgSrc="Eagle_Artillery6_Active.png" />
+        <UnitImg imgTitle="7 级" imgSrc="Eagle_Artillery7_Active.png" />
+    </UnitImgGroup>
+        <UnitImgGroup title="无弹药" :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="1 级" imgSrc="Eagle_Artillery1_Unloaded.png" />
+        <UnitImg imgTitle="2 级" imgSrc="Eagle_Artillery2_Unloaded.png" />
+        <UnitImg imgTitle="3 级" imgSrc="Eagle_Artillery3_Unloaded.png" />
+        <UnitImg imgTitle="4 级" imgSrc="Eagle_Artillery4_Unloaded.png" />
+        <UnitImg imgTitle="5 级" imgSrc="Eagle_Artillery5_Unloaded.png" />
+        <UnitImg imgTitle="6 级" imgSrc="Eagle_Artillery6_Unloaded.png" />
+        <UnitImg imgTitle="7 级" imgSrc="Eagle_Artillery7_Unloaded.png" />
+    </UnitImgGroup>
+</Panel>
+
+<SmallTitle>建筑数量对照表</SmallTitle>
+
+<BuildingNum>
+    <BuildingNumRow title="大本等级" num="1 - 10, 11 - 16, 17 - 18" />
+    <BuildingNumRow title="建筑数量" num="     0,       1,       0" />
+</BuildingNum>
 
 在 16 级大本营，游戏引入合并建筑功能，这里的建筑数量指的是将所有可合并的建筑都合并后的数量。
 
@@ -38,14 +68,63 @@ import unitData from "@/assets/unit-data/030b-Eagle-Artillery.json";
     - 合并建筑的操作是永久性的，一旦合并就无法拆开。
 7. 如想了解天鹰火炮的更多机制，请访问：【天鹰火炮机制讲解】跟随“我们”揭示火炮的运作规律。
 
-伤害类型：天鹰火炮会在炮弹中心 0.75 格之内造成高伤害，0.75 ~ 3 格造成低伤害。在下方升级数据的表格中，0.75 格之内的区域称为“中心区域”，0.75 ~ 3 格的区域称为“外围区域”。<br>
-攻速：天鹰火炮的实际攻速约为 11.53 秒 3 发炮弹，比游戏面板显示的 10 秒 3 发要慢。
+<SmallTitle>属性</SmallTitle>
 
-平均秒伤：这里的平均秒伤是以 10 秒一轮为攻速计算出的，由于天鹰火炮的实际攻速比游戏面板慢，因此实际秒伤会低于这个值。
+<UnitProperties>
+    <UnitProperty pKey="占地面积" pValue="4×4" />
+    <UnitProperty pKey="判定面积" pValue="3×3" :isJudgeSquare="true" />
+    <UnitProperty pKey="伤害类型" pValue="范围伤害<sup>①</sup>" />
+    <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
+    <UnitProperty pKey="射程" pValue="7 ~ 50 格" />
+    <UnitProperty pKey="攻速" pValue="11.53 秒一轮<sup>②</sup>" />
+    <UnitProperty pKey="触发所需的人口数" pValue="200" />
+    <UnitProperty pKey="弹药数量" pValue="90" />
+    <UnitProperty pKey="触发后的攻击延迟" pValue="1.25 秒" />
+    <UnitProperty pKey="击退距离" pValue="0.5 格" />
+</UnitProperties>
 
-</template>
+① 天鹰火炮会在炮弹中心 0.75 格之内造成高伤害，0.75 ~ 3 格造成低伤害。在下方升级数据的表格中，0.75 格之内的区域称为“中心区域”，0.75 ~ 3 格的区域称为“外围区域”。<br>
+② 天鹰火炮的实际攻速约为 11.53 秒 3 发炮弹，比游戏面板显示的 10 秒 3 发要慢。
 
-<template #history>
+<SmallTitle>升级数据</SmallTitle>
+
+<script setup>
+const tableExtraInfo = [
+    {
+        "column": 5,
+        "type": "cost",
+        "gpClass": "building",
+        "icon": "Gold"
+    },
+    {
+        "column": 6,
+        "type": "time",
+        "gpClass": "building"
+    },
+    {
+        "column": 7,
+        "type": "exp",
+        "icon": "Exp"
+    }
+];
+</script>
+
+<UnitTable :tableExtraInfo="tableExtraInfo">
+
+| 等级 |中心区域<br>每次伤害|外围区域<br>每次伤害|平均秒伤<sup>③</sup>| 生命值 | 升级费用 | 升级时间 |升级后可<br>获得的经验| 所需<br>大本等级 |
+| ---- |       ---        |        ---        |         ---       |   ---  |   ---   |   ----  |        ---          |      ----      |
+| 1 | 225 | 20 | 67.5 | 4000 | 5000000 | 4,0,0,0 |  | 11 |
+| 2 | 250 | 25 | 75 | 4400 | 6000000 | 5,0,0,0 |  | 11 |
+| 3 | 275 | 30 | 82.5 | 4800 | 9000000 | 7,0,0,0 |  | 12 |
+| 4 | 350 | 35 | 105 | 5200 | 10000000 | 7,12,0,0 |  | 13 |
+| 5 | 425 | 40 | 127.5 | 5600 | 12000000 | 8,0,0,0 |  | 14 |
+| 6 | 475 | 45 | 142.5 | 5900 | 13000000 | 9,0,0,0 |  | 15 |
+| 7 | 525 | 50 | 157.5 | 6200 | 14000000 | 9,12,0,0 |  | 16 |
+</UnitTable>
+
+③ 这里的平均秒伤是以 10 秒一轮为攻速计算出的，由于天鹰火炮的实际攻速比游戏面板慢，因此实际秒伤会低于这个值。
+
+<SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2025/10/06">
@@ -101,7 +180,4 @@ import unitData from "@/assets/unit-data/030b-Eagle-Artillery.json";
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
-
-</template>
-
-</SyncedUnitData>
+<p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Eagle_Artillery?oldid=625122" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>

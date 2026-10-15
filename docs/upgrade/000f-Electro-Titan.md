@@ -2,24 +2,27 @@
 title: "部落冲突 coc 雷霆泰坦（雷电泰坦）升级数据"
 navTitle: "雷霆泰坦"
 shownTitle: "雷霆泰坦（雷电泰坦）"
+description: "雷霆泰坦从不控制自己与生俱来的魔力，在战场上，她就是无比强大的存在。她将自己的一部分魔力转化为一条威力十足的电鞭，而剩下的魔力则围绕在她身边，破坏周遭的一切。"
 module: upgrade-home
 imgFolder: home_tech/000f
 wiki: https://clashofclans.fandom.com/wiki/Electro_Titan
 canonical: /upgrade/000f-Electro-Titan
 dataSyncedOn: 2026-10-13
-description: "雷霆泰坦从不控制自己与生俱来的魔力，在战场上，她就是无比强大的存在。她将自己的一部分魔力转化为一条威力十足的电鞭，而剩下的魔力则围绕在她身边，破坏周遭的一切。"
 ---
 
-<script setup>
-import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
-import unitData from "@/assets/unit-data/000f-Electro-Titan.json";
-</script>
-
-<SyncedUnitData :data="unitData" :historyAfter="'2026-02-23'">
-
-<template #introduction>
-
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Electro_Titan_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
+
+<SmallTitle>各等级图片</SmallTitle>
+
+<Panel>
+    <UnitImgGroup :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="1 级" imgSrc="Electro_Titan1.png" />
+        <UnitImg imgTitle="2 级" imgSrc="Electro_Titan2.png" />
+        <UnitImg imgTitle="3 级" imgSrc="Electro_Titan3.png" />
+        <UnitImg imgTitle="4 级" imgSrc="Electro_Titan4.png" />
+        <UnitImg imgTitle="5 级" imgSrc="Electro_Titan5.png" imgHd="Electro_Titan5.png" />
+    </UnitImgGroup>
+</Panel>
 
 <SmallTitle>重要说明</SmallTitle>
 
@@ -30,9 +33,62 @@ import unitData from "@/assets/unit-data/000f-Electro-Titan.json";
 5. 雷霆泰坦的光环可以对隐形状态下的部队和建筑造成伤害。
 6. [狂暴法术](/upgrade/0102-Rage-Spell) 只能提升雷霆泰坦的普通攻击，不能提升雷霆泰坦的光环伤害。
 
-</template>
+<SmallTitle>雷霆泰坦属性</SmallTitle>
 
-<template #history>
+<UnitProperties>
+    <UnitProperty pKey="部队类型" pValue="地面近战单位" />
+    <UnitProperty pKey="攻击偏好" pValue="无" />
+    <UnitProperty pKey="普攻类型" pValue="单体伤害 (地面和空中)" />
+    <UnitProperty pKey="普攻攻击速度" pValue="1.5 秒/次" />
+    <UnitProperty pKey="普攻攻击距离" pValue="1.25 格" />
+    <UnitProperty pKey="占据人口" pValue="32" />
+    <UnitProperty pKey="移动速度" pValue="2 格/秒" />
+    <UnitProperty pKey="所需训练营等级" pValue="16" />
+    <UnitProperty pKey="所需大本等级" pValue="14" />
+    <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" />
+    <UnitProperty pKey="捐赠费用" pValue="16,16,48000,Elixir" :isDonationCost="true" />
+</UnitProperties>
+
+<SmallTitle>光环的属性</SmallTitle>
+
+<UnitProperties>
+    <UnitProperty pKey="作用类型" pValue="范围伤害 (地面和空中)" />
+    <UnitProperty pKey="作用的目标" pValue="敌方部队和建筑" />
+    <UnitProperty pKey="光环半径" pValue="3.5 格" />
+    <UnitProperty pKey="光环攻击速度" pValue="0.4 秒/次" />
+    <UnitProperty pKey="伤害衰减" pValue="对英雄只有 25% 伤害" />
+</UnitProperties>
+
+<SmallTitle>升级数据</SmallTitle>
+
+<script setup>
+const tableExtraInfo = [
+    {
+        "column": 4,
+        "type": "cost",
+        "gpClass": "research",
+        "icon": "Elixir"
+    },
+    {
+        "column": 5,
+        "type": "time",
+        "gpClass": "research"
+    }
+];
+</script>
+
+<UnitTable :tableExtraInfo="tableExtraInfo">
+
+| 等级 |普攻伤害<br>(每秒/每次)|光环伤害<br>(每秒/每次)| 生命值 | 升级花费 |  升级时间 |所需实验室<br>等级|所需<br>大本等级|
+| ---- |          ---        |           ---        |  ---- |   ----  |    ----   |      ----      |     ----      |
+| 1 | 180 / 270 | 75 / 30 | 7200 | \ | \ | 1 | 14 |
+| 2 | 200 / 300 | 100 / 40 | 7700 | 14000000 | 8,0,0,0 | 12 | 14 |
+| 3 | 220 / 330 | 125 / 50 | 8200 | 16000000 | 9,0,0,0 | 13 | 15 |
+| 4 | 240 / 360 | 137.5 / 55 | 8700 | 18500000 | 11,0,0,0 | 14 | 16 |
+| 5 | 270 / 405 | 150 / 60 | 9200 | 30000000 | 16,0,0,0 | 16 | 18 |
+</UnitTable>
+
+<SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2026/02/23">
@@ -71,7 +127,4 @@ import unitData from "@/assets/unit-data/000f-Electro-Titan.json";
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
-
-</template>
-
-</SyncedUnitData>
+<p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Electro_Titan?oldid=624602" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>

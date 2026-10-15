@@ -2,30 +2,94 @@
 title: "部落冲突 coc 法师升级数据"
 navTitle: "法师"
 shownTitle: "法师"
+description: "法师的出现为战场蒙上了一层恐怖色彩。集结一群法师，他们将摧毁各种陆空目标！"
 module: upgrade-home
 imgFolder: home_tech/0006
 wiki: https://clashofclans.fandom.com/wiki/Wizard
 canonical: /upgrade/0006-Wizard
 dataSyncedOn: 2026-10-13
-description: "法师的出现为战场蒙上了一层恐怖色彩。集结一群法师，他们将摧毁各种陆空目标！"
 ---
-
-<script setup>
-import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
-import unitData from "@/assets/unit-data/0006-Wizard.json";
-</script>
-
-<SyncedUnitData :data="unitData" :historyAfter="'2025-11-17'">
-
-<template #introduction>
 
 - *如想查看该兵种的强化版本，请访问：[超级法师（超法）](/upgrade/0609-Super-Wizard)。*
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Wizard_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
 
-</template>
+<SmallTitle>各等级图片</SmallTitle>
 
-<template #history>
+<Panel>
+    <UnitImgGroup :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="1 - 2 级" imgSrc="Wizard1.png" />
+        <UnitImg imgTitle="3 - 4 级" imgSrc="Wizard3.png" />
+        <UnitImg imgTitle="5 级" imgSrc="Wizard5.png" />
+        <UnitImg imgTitle="6 级" imgSrc="Wizard6.png" />
+        <UnitImg imgTitle="7 级" imgSrc="Wizard7.png" />
+        <UnitImg imgTitle="8 级" imgSrc="Wizard8.png" />
+        <UnitImg imgTitle="9 级" imgSrc="Wizard9.png" />
+        <UnitImg imgTitle="10 级" imgSrc="Wizard10.png" />
+        <UnitImg imgTitle="11 级" imgSrc="Wizard11.png" />
+        <UnitImg imgTitle="12 级" imgSrc="Wizard12.png" />
+        <UnitImg imgTitle="13 级" imgSrc="Wizard13.png" />
+        <UnitImg imgTitle="14 级" imgSrc="Wizard14.png" imgHd="Wizard14_hd.png" />
+    </UnitImgGroup>
+</Panel>
+
+<SmallTitle>属性</SmallTitle>
+
+<UnitProperties>
+    <UnitProperty pKey="部队类型" pValue="地面远程单位" />
+    <UnitProperty pKey="攻击偏好" pValue="无" />
+    <UnitProperty pKey="伤害类型" pValue="范围伤害" />
+    <UnitProperty pKey="伤害半径" pValue="0.3 格" />
+    <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
+    <UnitProperty pKey="占据人口" pValue="4" />
+    <UnitProperty pKey="移动速度" pValue="2 格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="1.5 秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="3 格" />
+    <UnitProperty pKey="所需训练营等级" pValue="7" />
+    <UnitProperty pKey="所需大本等级" pValue="5" />
+    <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" />
+    <UnitProperty pKey="捐赠费用" pValue="2,2,6000,Elixir" :isDonationCost="true" />
+</UnitProperties>
+
+<SmallTitle>升级数据</SmallTitle>
+
+<script setup>
+const tableExtraInfo = [
+    {
+        "column": 4,
+        "type": "cost",
+        "gpClass": "research",
+        "icon": "Elixir"
+    },
+    {
+        "column": 5,
+        "type": "time",
+        "gpClass": "research"
+    }
+];
+</script>
+
+<UnitTable :tableExtraInfo="tableExtraInfo">
+
+| 等级 |  每秒伤害 | 每次伤害 | 生命值| 升级花费 |  升级时间  |所需实验室等级|所需大本等级|
+| ---- |   ----   |   ----  |  ---- |   ----  |    ----   |    ----     |   ----    |
+| 1 | 50 | 75 | 75 | \ | \ | 1 | 5 |
+| 2 | 70 | 105 | 90 | 120000 | 0,4,0,0 | 3 | 5 |
+| 3 | 90 | 135 | 108 | 300000 | 0,5,0,0 | 4 | 6 |
+| 4 | 125 | 187.5 | 135 | 600000 | 0,12,0,0 | 5 | 7 |
+| 5 | 170 | 255 | 165 | 1200000 | 0,18,0,0 | 6 | 8 |
+| 6 | 185 | 277.5 | 180 | 2000000 | 1,12,0,0 | 7 | 9 |
+| 7 | 200 | 300 | 195 | 2500000 | 2,0,0,0 | 8 | 10 |
+| 8 | 215 | 322.5 | 210 | 3100000 | 2,6,0,0 | 9 | 11 |
+| 9 | 230 | 345 | 230 | 4000000 | 2,12,0,0 | 10 | 12 |
+| 10 | 245 | 367.5 | 250 | 5500000 | 3,12,0,0 | 11 | 13 |
+| 11 | 260 | 390 | 270 | 10000000 | 5,12,0,0 | 13 | 15 |
+| 12 | 275 | 412.5 | 290 | 11500000 | 7,0,0,0 | 14 | 16 |
+| 13 | 290 | 435 | 310 | 16000000 | 10,12,0,0 | 15 | 17 |
+| 14 | 310 | 465 | 330 | 27000000 | 14,0,0,0 | 16 | 18 |
+</UnitTable>
+
+<SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2025/11/17">
@@ -82,7 +146,4 @@ import unitData from "@/assets/unit-data/0006-Wizard.json";
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
-
-</template>
-
-</SyncedUnitData>
+<p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Wizard?oldid=625289" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>

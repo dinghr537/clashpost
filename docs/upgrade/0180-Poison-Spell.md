@@ -2,22 +2,13 @@
 title: "部落冲突 coc 毒药法术（施毒法术）升级数据"
 navTitle: "毒药法术"
 shownTitle: "毒药法术（施毒法术）"
+description: "借助危险的毒药法术，让您的部队在对抗敌军中占据上风！用毒药法术让敌军处于萦绕着的毒雾中，他们的移动和攻击速度都会变慢，并且受到的伤害会随着时间而加重。毒药法术对建筑物无效。"
 module: upgrade-home
 imgFolder: home_tech/0180
 wiki: https://clashofclans.fandom.com/wiki/Poison_Spell
 canonical: /upgrade/0180-Poison-Spell
 dataSyncedOn: 2026-10-13
-description: "借助危险的毒药法术，让您的部队在对抗敌军中占据上风！用毒药法术让敌军处于萦绕着的毒雾中，他们的移动和攻击速度都会变慢，并且受到的伤害会随着时间而加重。毒药法术对建筑物无效。"
 ---
-
-<script setup>
-import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
-import unitData from "@/assets/unit-data/0180-Poison-Spell.json";
-</script>
-
-<SyncedUnitData :data="unitData" :historyAfter="'2025-11-17'">
-
-<template #introduction>
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Poison_Spell.png" :imgAlt="$frontmatter.navTitle"
     description="借助危险的毒药法术，让您的部队在对抗敌军中占据上风！用毒药法术让敌军处于萦绕着的毒雾中，他们的移动和攻击速度都会变慢，并且受到的伤害会随着时间而加重。毒药法术对建筑物无效。"
@@ -28,14 +19,62 @@ import unitData from "@/assets/unit-data/0180-Poison-Spell.json";
 1. 毒药法术对敌方英雄有效，伤害只有其他单位的 5％，但减速效果是全额的。
 2. 毒药法术不能对建筑造成伤害，也不能减缓建筑的攻击速度。
 3. 中毒状态下，兵种的每次伤害和非中毒状态一致，并不会因为攻速变慢而产生更高的每次伤害。
-4. 毒药法术的伤害成二次函数递增，约 8 秒达到最大伤害。离开毒药范围后伤害递减，递减速度是增加的两倍。
+4. 毒药法术的伤害成二次函数递增，约 8 秒达到最大伤害。离开毒药范围后伤害递减，递减速度是增加的两倍。详见：【毒药法术原理】9 项实验让你怀疑你从未用过毒药法术。
 5. 毒药 [法术塔](/upgrade/0311-Spell-Tower)、[猛蜥](/upgrade/0286-Poison-Lizard) 和 14 - 16 级 [大本营](/upgrade/0400-Town-Hall) 爆炸后的毒药也具有和毒药法术类似的伤害递增特性，但是这些毒药的属性和毒药法术不同。
 6. [英雄猎手](/upgrade/0088-Headhunter) 的攻击也具有和毒药法术类似的减速效果，但中毒伤害不是随时间递增的，而是会立即达到最大伤害。
 7. 毒药法术的毒药效果和其他具有毒药效果的单位叠加时取效果最强的那个。
 
-</template>
+<SmallTitle>属性</SmallTitle>
 
-<template #history>
+<UnitProperties>
+    <UnitProperty pKey="作用半径" pValue="3.5 格" />
+    <UnitProperty pKey="作用类型" pValue="减速并掉血 (范围伤害)" />
+    <UnitProperty pKey="作用目标" pValue="敌方部队和英雄" />
+    <UnitProperty pKey="法术持续时间" pValue="16 秒" />
+    <UnitProperty pKey="占用的法术空间" pValue="1" />
+    <UnitProperty pKey="所需暗黑法术工厂等级" pValue="1" />
+    <UnitProperty pKey="所需大本等级" pValue="8" />
+    <UnitProperty pKey="法术配置时间" pValue="无" trainingSystem="2025" />
+    <UnitProperty pKey="捐赠费用" pValue="3,3,135,Dark_Elixir" :isDonationCost="true" />
+</UnitProperties>
+
+<SmallTitle>升级数据</SmallTitle>
+
+<script setup>
+const tableExtraInfo = [
+    {
+        "column": 4,
+        "type": "cost",
+        "gpClass": "research",
+        "icon": "Dark_Elixir"
+    },
+    {
+        "column": 5,
+        "type": "time",
+        "gpClass": "research"
+    }
+];
+</script>
+
+<UnitTable :tableExtraInfo="tableExtraInfo">
+
+| 等级 |每秒最大伤害|移动速度<br>降低幅度|攻击速度<br>降低幅度 | 升级花费| 升级时间 |所需<br>实验室等级|所需<br>大本等级|
+| ---- |    ----   |        ----      |         ----      |   ----  |   ----  |        ---      |      ----     |
+| 1 | 90 | 26% | 35% | \ | \ | 1 | 8 |
+| 2 | 115 | 30% | 40% | 5000 | 0,6,0,0 | 6 | 8 |
+| 3 | 145 | 34% | 45% | 10000 | 0,18,0,0 | 7 | 9 |
+| 4 | 180 | 38% | 50% | 21500 | 2,0,0,0 | 8 | 10 |
+| 5 | 220 | 40% | 55% | 35000 | 3,0,0,0 | 9 | 11 |
+| 6 | 260 | 42% | 60% | 55000 | 4,0,0,0 | 10 | 12 |
+| 7 | 280 | 44% | 65% | 77500 | 5,0,0,0 | 11 | 13 |
+| 8 | 300 | 46% | 68% | 100000 | 6,12,0,0 | 12 | 14 |
+| 9 | 320 | 48% | 70% | 135000 | 7,0,0,0 | 13 | 15 |
+| 10 | 340 | 50% | 72% | 175000 | 8,0,0,0 | 14 | 16 |
+| 11 | 360 | 51% | 73% | 230000 | 9,16,0,0 | 15 | 17 |
+| 12 | 380 | 52% | 74% | 350000 | 14,12,0,0 | 16 | 18 |
+</UnitTable>
+
+<SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2025/11/17">
@@ -94,7 +133,4 @@ import unitData from "@/assets/unit-data/0180-Poison-Spell.json";
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
-
-</template>
-
-</SyncedUnitData>
+<p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Poison_Spell?oldid=624974" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>

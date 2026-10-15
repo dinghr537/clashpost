@@ -2,22 +2,13 @@
 title: "部落冲突 coc 实验助手（实验室助理）升级数据"
 navTitle: "实验助手"
 shownTitle: "实验助手（实验室助理）"
+description: "实验助手可以加快研究速度。您每天可以指派他一次，升级实验助手还会提升其工作速度！"
 module: upgrade-home
 imgFolder: home_tech/0800
 wiki: https://clashofclans.fandom.com/wiki/Lab_Assistant
 canonical: /upgrade/0800-Lab-Assistant
 dataSyncedOn: 2026-10-13
-description: "实验助手可以加快研究速度。您每天可以指派他一次，升级实验助手还会提升其工作速度！"
 ---
-
-<script setup>
-import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
-import unitData from "@/assets/unit-data/0800-Lab-Assistant.json";
-</script>
-
-<SyncedUnitData :data="unitData" :historyAfter="'2024-11-25'">
-
-<template #introduction>
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Lab_Assistant_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
 
@@ -34,9 +25,38 @@ import unitData from "@/assets/unit-data/0800-Lab-Assistant.json";
 4. 研究药水对实验助手无效。
 5. 黄金令牌的建造加成不能减少升级实验助手所需的宝石。
 
-</template>
+<SmallTitle>升级数据</SmallTitle>
 
-<template #history>
+<script setup>
+const tableExtraInfo = [
+    {
+        "column": 3,
+        "type": "cost",
+        "icon": "Gem",
+        "noGoldPass": true
+    }
+];
+</script>
+
+<UnitTable :tableExtraInfo="tableExtraInfo">
+
+| 等级 | 工作效率 | 每次派遣<br>可节省的时间 | 升级费用 | 所需大本等级 |
+|  --- |   ---   |          ---           |    ---   |     ---    |
+| 1 | 1倍 | 1 小时 | 0 | 9 |
+| 2 | 2倍 | 2 小时 | 500 | 10 |
+| 3 | 3倍 | 3 小时 | 500 | 10 |
+| 4 | 4倍 | 4 小时 | 500 | 11 |
+| 5 | 5倍 | 5 小时 | 750 | 12 |
+| 6 | 6倍 | 6 小时 | 750 | 12 |
+| 7 | 7倍 | 7 小时 | 750 | 13 |
+| 8 | 8倍 | 8 小时 | 750 | 13 |
+| 9 | 9倍 | 9 小时 | 1000 | 14 |
+| 10 | 10倍 | 10 小时 | 1000 | 14 |
+| 11 | 11倍 | 11 小时 | 1000 | 15 |
+| 12 | 12倍 | 12 小时 | 1000 | 16 |
+</UnitTable>
+
+<SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2024/11/25">
@@ -44,7 +64,4 @@ import unitData from "@/assets/unit-data/0800-Lab-Assistant.json";
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
-
-</template>
-
-</SyncedUnitData>
+<p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Lab_Assistant?oldid=620445" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>

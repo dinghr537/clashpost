@@ -2,22 +2,13 @@
 title: "部落冲突 coc 空中炸弹（红炸）升级数据"
 navTitle: "空中炸弹"
 shownTitle: "空中炸弹（红炸）"
+description: "作为防空领域的一大革新之作，这种陷阱可以对小范围内的多个空中目标造成伤害。"
 module: upgrade-home
 imgFolder: home_buildings/0382
 wiki: https://clashofclans.fandom.com/wiki/Air_Bomb
 canonical: /upgrade/0382-Air-Bomb
 dataSyncedOn: 2026-10-13
-description: "作为防空领域的一大革新之作，这种陷阱可以对小范围内的多个空中目标造成伤害。"
 ---
-
-<script setup>
-import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
-import unitData from "@/assets/unit-data/0382-Air-Bomb.json";
-</script>
-
-<SyncedUnitData :data="unitData" :historyAfter="'2025-11-17'">
-
-<template #introduction>
 
 - 本页内容不是搜空地雷，如想查看搜空地雷的数据，请访问：[搜空地雷](/upgrade/0384-Seeking-Air-Mine)。
 - 如想查看夜世界的空中炸弹发射器，请访问：[夜世界空中炸弹发射器](/upgrade/1107-Air-Bombs)。
@@ -25,9 +16,82 @@ import unitData from "@/assets/unit-data/0382-Air-Bomb.json";
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Air_Bomb_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
 
-</template>
+<SmallTitle>各等级图片</SmallTitle>
 
-<template #history>
+<Panel>
+    <UnitImgGroup :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="1 - 2 级" imgSrc="Air_Bomb1.png" />
+        <UnitImg imgTitle="3 - 4 级" imgSrc="Air_Bomb3.png" />
+        <UnitImg imgTitle="5 - 6 级" imgSrc="Air_Bomb5.png" />
+        <UnitImg imgTitle="7 - 8 级" imgSrc="Air_Bomb7.png" />
+        <UnitImg imgTitle="9 - 10 级" imgSrc="Air_Bomb9.png" />
+        <UnitImg imgTitle="11 - 12 级" imgSrc="Air_Bomb11.png" />
+        <UnitImg imgTitle="13 级" imgSrc="Air_Bomb13.png" />
+        <UnitImg imgTitle="未重新布置" imgSrc="Air_Bomb_unarmed.png" />
+    </UnitImgGroup>
+</Panel>
+
+<SmallTitle>建筑数量对照表</SmallTitle>
+
+<BuildingNum>
+    <BuildingNumRow title="大本等级" num="1 - 4, 5 - 7, 8 - 9, 10 - 11, 12 - 13, 14 - 18" />
+    <BuildingNumRow title="建筑数量" num="    0,     2,     4,       5,       6,       7" />
+</BuildingNum>
+
+<SmallTitle>属性</SmallTitle>
+
+<UnitProperties>
+    <UnitProperty pKey="占地面积" pValue="1×1" />
+    <UnitProperty pKey="伤害类型" pValue="范围伤害" />
+    <UnitProperty pKey="作用目标" pValue="仅空中目标" />
+    <UnitProperty pKey="触发半径" pValue="4 格" />
+    <UnitProperty pKey="伤害半径" pValue="3 格" />
+    <UnitProperty pKey="爆炸延时" pValue="0.3 秒" />
+</UnitProperties>
+
+<SmallTitle>升级数据</SmallTitle>
+
+<script setup>
+const tableExtraInfo = [
+    {
+        "column": 2,
+        "type": "cost",
+        "gpClass": "building",
+        "icon": "Gold"
+    },
+    {
+        "column": 3,
+        "type": "time",
+        "gpClass": "building"
+    },
+    {
+        "column": 4,
+        "type": "exp",
+        "icon": "Exp"
+    }
+];
+</script>
+
+<UnitTable :tableExtraInfo="tableExtraInfo">
+
+| 等级 | 爆炸伤害 | 升级费用 |  升级时间  |升级后可<br>获得的经验| 所需大本等级  |
+| ---- |    ---  |   ---   |    ---    |         ---         |     ---     |
+| 1 | 100 | 4000 | \ |  | 5 |
+| 2 | 120 | 20000 | 0,0,30,0 |  | 5 |
+| 3 | 144 | 75000 | 0,1,0,0 |  | 7 |
+| 4 | 173 | 300000 | 0,4,0,0 |  | 9 |
+| 5 | 208 | 550000 | 0,8,0,0 |  | 11 |
+| 6 | 232 | 800000 | 0,12,0,0 |  | 12 |
+| 7 | 252 | 1000000 | 0,14,0,0 |  | 13 |
+| 8 | 280 | 1200000 | 0,16,0,0 |  | 13 |
+| 9 | 325 | 2000000 | 1,0,0,0 |  | 14 |
+| 10 | 350 | 3000000 | 1,12,0,0 |  | 15 |
+| 11 | 375 | 5000000 | 2,0,0,0 |  | 16 |
+| 12 | 400 | 9500000 | 3,0,0,0 |  | 17 |
+| 13 | 425 | 15000000 | 9,0,0,0 |  | 18 |
+</UnitTable>
+
+<SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2025/11/17">
@@ -93,7 +157,4 @@ import unitData from "@/assets/unit-data/0382-Air-Bomb.json";
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
-
-</template>
-
-</SyncedUnitData>
+<p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Air_Bomb?oldid=623237" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>

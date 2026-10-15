@@ -2,26 +2,32 @@
 title: "部落冲突 coc 哥布林升级数据"
 navTitle: "哥布林"
 shownTitle: "哥布林"
+description: "这些麻烦的小家伙眼里只有一件事：资源！他们的反应比隐形弹簧更快，会无休止地取得资源。"
 module: upgrade-home
 imgFolder: home_tech/0003
 wiki: https://clashofclans.fandom.com/wiki/Goblin
 canonical: /upgrade/0003-Goblin
 dataSyncedOn: 2026-10-13
-description: "这些麻烦的小家伙眼里只有一件事：资源！他们的反应比隐形弹簧更快，会无休止地取得资源。"
 ---
-
-<script setup>
-import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
-import unitData from "@/assets/unit-data/0003-Goblin.json";
-</script>
-
-<SyncedUnitData :data="unitData" :historyAfter="'2025-10-06'">
-
-<template #introduction>
 
 - *如想查看该兵种的强化版本，请访问：[隐秘哥布林（超哥）](/upgrade/0601-Sneaky-Goblin)。*
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Goblin_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
+
+<SmallTitle>各等级图片</SmallTitle>
+
+<Panel>
+    <UnitImgGroup :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="1 - 2 级" imgSrc="Goblin1.png" />
+        <UnitImg imgTitle="3 - 4 级" imgSrc="Goblin3.png" />
+        <UnitImg imgTitle="5 级" imgSrc="Goblin5.png" />
+        <UnitImg imgTitle="6 级" imgSrc="Goblin6.png" />
+        <UnitImg imgTitle="7 级" imgSrc="Goblin7.png" />
+        <UnitImg imgTitle="8 级" imgSrc="Goblin8.png" />
+        <UnitImg imgTitle="9 级" imgSrc="Goblin9.png" />
+            <UnitImg imgTitle="10 级" imgSrc="Goblin10.png" />
+</UnitImgGroup>
+</Panel>
 
 <SmallTitle>重要说明</SmallTitle>
 
@@ -29,11 +35,63 @@ import unitData from "@/assets/unit-data/0003-Goblin.json";
 2. [铁匠铺](/upgrade/0488-Blacksmith) 免疫 [雷电法术](/upgrade/0100-Lightning-Spell) 伤害，理论上属于资源类建筑，但不被哥布林优先攻击，哥布林的攻击伤害也不会翻倍。
 3. 2025/10 更新后，哥布林的反应已经没有隐形弹簧快了，但游戏内仍然保留了“他们的反应比隐形弹簧更快”这段介绍。
 
-</template>
+<SmallTitle>属性</SmallTitle>
 
-<template #history>
+<UnitProperties>
+    <UnitProperty pKey="部队类型" pValue="地面近战单位" />
+    <UnitProperty pKey="攻击偏好" pValue="资源类建筑 (2 倍伤害)" />
+    <UnitProperty pKey="伤害类型" pValue="单体伤害" />
+    <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
+    <UnitProperty pKey="占据人口" pValue="1" />
+    <UnitProperty pKey="移动速度" pValue="4 格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="1 秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="0.4 格" />
+    <UnitProperty pKey="所需训练营等级" pValue="4" />
+    <UnitProperty pKey="所需大本等级" pValue="2" />
+    <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" />
+    <UnitProperty pKey="捐赠费用" pValue="1,1,3000,Elixir" :isDonationCost="true" />
+</UnitProperties>
+
+<SmallTitle>升级数据</SmallTitle>
+
+<script setup>
+const tableExtraInfo = [
+    {
+        "column": 5,
+        "type": "cost",
+        "gpClass": "research",
+        "icon": "Elixir"
+    },
+    {
+        "column": 6,
+        "type": "time",
+        "gpClass": "research"
+    }
+];
+</script>
+
+<UnitTable :tableExtraInfo="tableExtraInfo">
+
+| 等级 | 每秒伤害 | 每次伤害 |对资源建筑的<br>每次伤害|生命值| 升级花费 |  升级时间  |所需实验室<br>等级|所需大本等级|
+| ---- |  ----   |  ----   |        ----        |  ----  |   ----  |    ----   |      ----       |   ----   |
+| 1 | 11 | 11 | 22 | 25 | \ | \ | 1 | 2 |
+| 2 | 14 | 14 | 28 | 30 | 45000 | 0,2,0,0 | 1 | 3 |
+| 3 | 19 | 19 | 38 | 36 | 100000 | 0,3,0,0 | 3 | 5 |
+| 4 | 24 | 24 | 48 | 50 | 500000 | 0,6,0,0 | 5 | 7 |
+| 5 | 32 | 32 | 64 | 65 | 700000 | 0,12,0,0 | 6 | 8 |
+| 6 | 42 | 42 | 84 | 80 | 1600000 | 1,0,0,0 | 7 | 9 |
+| 7 | 52 | 52 | 104 | 105 | 2200000 | 1,12,0,0 | 8 | 10 |
+| 8 | 62 | 62 | 124 | 126 | 3700000 | 2,6,0,0 | 10 | 12 |
+| 9 | 72 | 72 | 144 | 146 | 8000000 | 5,0,0,0 | 13 | 15 |
+| 10 | 82 | 82 | 164 | 166 | 26000000 | 14,0,0,0 | 16 | 18 |
+</UnitTable>
+
+<SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/04/27">
+        <TimelineRow>新增10级哥布林。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/10/06">
         <TimelineRow>8 ~ 9 级哥布林的升级时间减少。</TimelineRow>
     </TimelineItem>
@@ -84,7 +142,4 @@ import unitData from "@/assets/unit-data/0003-Goblin.json";
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
-
-</template>
-
-</SyncedUnitData>
+<p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Goblin?oldid=625104" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>

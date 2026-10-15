@@ -2,22 +2,13 @@
 title: "部落冲突 coc 建筑工人学徒升级数据"
 navTitle: "建筑工人学徒"
 shownTitle: "建筑工人学徒"
+description: "建筑工人学徒能帮助建筑工人更快完成升级。您每天可以指派他一次，升级建筑工人学徒还会提升其工作速度！"
 module: upgrade-home
 imgFolder: home_tech/0801
 wiki: https://clashofclans.fandom.com/wiki/Builder%27s_Apprentice
 canonical: /upgrade/0801-Builder%27s-Apprentice
 dataSyncedOn: 2026-10-13
-description: "建筑工人学徒能帮助建筑工人更快完成升级。您每天可以指派他一次，升级建筑工人学徒还会提升其工作速度！"
 ---
-
-<script setup>
-import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
-import unitData from "@/assets/unit-data/0801-Builder's-Apprentice.json";
-</script>
-
-<SyncedUnitData :data="unitData" :historyAfter="'2024-11-25'">
-
-<template #introduction>
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Builder%27s_Apprentice.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
 
@@ -34,9 +25,34 @@ import unitData from "@/assets/unit-data/0801-Builder's-Apprentice.json";
 4. 建筑工人药水对建筑工人学徒无效。
 5. 黄金令牌的建造加成不能减少升级建筑工人学徒所需的宝石。
 
-</template>
+<SmallTitle>升级数据</SmallTitle>
 
-<template #history>
+<script setup>
+const tableExtraInfo = [
+    {
+        "column": 3,
+        "type": "cost",
+        "icon": "Gem",
+        "noGoldPass": true
+    }
+];
+</script>
+
+<UnitTable :tableExtraInfo="tableExtraInfo">
+
+| 等级 | 工作效率 | 每次派遣<br>可节省的时间 | 升级费用 | 所需大本等级 |
+|  --- |   ---   |          ---           |    ---   |     ---    |
+| 1 | 1倍 | 1 小时 | 500 | 10 |
+| 2 | 2倍 | 2 小时 | 500 | 10 |
+| 3 | 3倍 | 3 小时 | 750 | 11 |
+| 4 | 4倍 | 4 小时 | 750 | 11 |
+| 5 | 5倍 | 5 小时 | 1000 | 12 |
+| 6 | 6倍 | 6 小时 | 1000 | 12 |
+| 7 | 7倍 | 7 小时 | 1000 | 13 |
+| 8 | 8倍 | 8 小时 | 1000 | 14 |
+</UnitTable>
+
+<SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2024/11/25">
@@ -47,7 +63,4 @@ import unitData from "@/assets/unit-data/0801-Builder's-Apprentice.json";
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
-
-</template>
-
-</SyncedUnitData>
+<p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Builder%27s_Apprentice?oldid=624830" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>

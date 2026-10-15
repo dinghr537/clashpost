@@ -2,35 +2,96 @@
 title: "部落冲突 coc 巨石碑（擎天巨柱、黑油塔）升级数据"
 navTitle: "巨石碑"
 shownTitle: "巨石碑（擎天巨柱、黑油塔）"
+description: "建筑工人首次尝试使用暗黑重油，建造出了一个极其可怕的庞然大物。巨石碑面对的目标越强，造成的伤害就越高。它是保卫村庄的利器，也是敌人的噩梦。"
 module: upgrade-home
 imgFolder: home_buildings/0312
 wiki: https://clashofclans.fandom.com/wiki/Monolith
 canonical: /upgrade/0312-Monolith
 dataSyncedOn: 2026-10-13
-description: "建筑工人首次尝试使用暗黑重油，建造出了一个极其可怕的庞然大物。巨石碑面对的目标越强，造成的伤害就越高。它是保卫村庄的利器，也是敌人的噩梦。"
 ---
 
-<script setup>
-import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
-import unitData from "@/assets/unit-data/0312-Monolith.json";
-</script>
-
-<SyncedUnitData :data="unitData" :historyAfter="'2025-11-17'">
-
-<template #introduction>
-
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Monolith4_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
+
+<SmallTitle>各等级图片</SmallTitle>
+
+<Panel>
+    <UnitImgGroup :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="1 级" imgSrc="Monolith1.png" />
+        <UnitImg imgTitle="2 级" imgSrc="Monolith2.png" />
+        <UnitImg imgTitle="3 级" imgSrc="Monolith3.png" imgHd="Monolith3_hd.png" />
+        <UnitImg imgTitle="4 级" imgSrc="Monolith4.png" imgHd="Monolith4_hd.png" />
+            <UnitImg imgTitle="5 级" imgSrc="Monolith5.png" />
+</UnitImgGroup>
+</Panel>
+
+<SmallTitle>建筑数量对照表</SmallTitle>
+
+<BuildingNum>
+    <BuildingNumRow title="大本等级" num="1 - 14, 15 - 18" />
+    <BuildingNumRow title="建筑数量" num="     0,       1" />
+</BuildingNum>
 
 <SmallTitle>重要说明</SmallTitle>
 
 1. 巨石碑每次攻击不仅会造成基础伤害，还会以目标的最大生命值为基准造成一定百分比的额外伤害，因此巨石碑对高生命值单位极具威胁。
 2. [狂暴法术塔](/upgrade/0311-Spell-Tower) 释放出来的狂暴法术只能提升巨石碑的普通攻击，不能提升巨石碑的额外伤害。
 
-</template>
+<SmallTitle>属性</SmallTitle>
 
-<template #history>
+<UnitProperties>
+    <UnitProperty pKey="占地面积" pValue="3×3" />
+    <UnitProperty pKey="判定面积" pValue="2×2" :isJudgeSquare="true" />
+    <UnitProperty pKey="伤害类型" pValue="单体伤害" />
+    <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
+    <UnitProperty pKey="射程" pValue="11 格" />
+    <UnitProperty pKey="攻速" pValue="1.5 秒/次" />
+</UnitProperties>
+
+<SmallTitle>升级数据</SmallTitle>
+
+<script setup>
+const tableExtraInfo = [
+    {
+        "column": 5,
+        "type": "cost",
+        "gpClass": "building",
+        "icon": "Dark_Elixir"
+    },
+    {
+        "column": 6,
+        "type": "time",
+        "gpClass": "building"
+    },
+    {
+        "column": 7,
+        "type": "exp",
+        "icon": "Exp"
+    }
+];
+</script>
+
+<UnitTable :tableExtraInfo="tableExtraInfo">
+
+| 等级 |基础伤害<br>(每秒)|基础伤害<br>(每次) | 额外伤害 | 生命值 | 升级费用 |  升级时间  |升级后可<br>获得的经验| 所需<br>大本等级 |
+| ---- |       ---      |       ---        |   ---   |   ---  |   ---   |    ----   |        ---          |      ----      |
+| 1 | 150 | 225 | 11% | 4747 | 200000 | 7,0,0,0 |  | 15 |
+| 2 | 175 | 262.5 | 12% | 5050 | 250000 | 8,0,0,0 |  | 15 |
+| 3 | 193 | 289.5 | 13% | 5353 | 260000 | 9,0,0,0 |  | 16 |
+| 4 | 209 | 313.5 | 14% | 5656 | 300000 | 11,0,0,0 |  | 17 |
+| 5 | 225 | 337.5 | 15% | 5959 | 470000 | 15,0,0,0 |  | 18 |
+| ⚡1 | 235 | 352.5 | 15% | 5959 | 220000 | 5,0,0,0 |  | 18 |
+| ⚡2 | 235 | 352.5 | 15% | 6161 | 200000 | 7,0,0,0 |  | 18 |
+</UnitTable>
+
+<SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/08/31">
+        <TimelineRow>巨石碑新增2个蓄能等级。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2026/06/16">
+        <TimelineRow>新增5级巨石碑，移除4级蓄能。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/11/17">
         <TimelineRow>4 级巨石碑的升级时间减少。</TimelineRow>
     </TimelineItem>
@@ -61,7 +122,4 @@ import unitData from "@/assets/unit-data/0312-Monolith.json";
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
-
-</template>
-
-</SyncedUnitData>
+<p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Monolith?oldid=625148" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>

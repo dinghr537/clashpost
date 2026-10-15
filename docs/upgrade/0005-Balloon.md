@@ -2,30 +2,95 @@
 title: "部落冲突 coc 气球兵升级数据"
 navTitle: "气球兵"
 shownTitle: "气球兵"
+description: "这些乘着气球的高级骷髅兵对于摧毁敌人的防御乐此不疲。精心部署气球兵，他们将为您扫除各种障碍！"
 module: upgrade-home
 imgFolder: home_tech/0005
 wiki: https://clashofclans.fandom.com/wiki/Balloon
 canonical: /upgrade/0005-Balloon
 dataSyncedOn: 2026-10-13
-description: "这些乘着气球的高级骷髅兵对于摧毁敌人的防御乐此不疲。精心部署气球兵，他们将为您扫除各种障碍！"
 ---
-
-<script setup>
-import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
-import unitData from "@/assets/unit-data/0005-Balloon.json";
-</script>
-
-<SyncedUnitData :data="unitData" :historyAfter="'2025-11-17'">
-
-<template #introduction>
 
 - *如想查看该兵种的强化版本，请访问：[火箭气球兵（超球）](/upgrade/060b-Rocket-Balloon)。*
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Balloon_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
 
-</template>
+<SmallTitle>各等级图片</SmallTitle>
 
-<template #history>
+<Panel>
+    <UnitImgGroup :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="1 - 2 级" imgSrc="Balloon1.png" />
+        <UnitImg imgTitle="3 - 4 级" imgSrc="Balloon3.png" />
+        <UnitImg imgTitle="5 级" imgSrc="Balloon5.png" />
+        <UnitImg imgTitle="6 级" imgSrc="Balloon6.png" />
+        <UnitImg imgTitle="7 级" imgSrc="Balloon7.png" />
+        <UnitImg imgTitle="8 级" imgSrc="Balloon8.png" />
+        <UnitImg imgTitle="9 级" imgSrc="Balloon9.png" />
+        <UnitImg imgTitle="10 级" imgSrc="Balloon10.png" />
+        <UnitImg imgTitle="11 级" imgSrc="Balloon11.png" />
+        <UnitImg imgTitle="12 级" imgSrc="Balloon12.png" imgHd="Balloon12_hd.png" />
+            <UnitImg imgTitle="13 级" imgSrc="Balloon13.png" />
+</UnitImgGroup>
+</Panel>
+
+<SmallTitle>属性</SmallTitle>
+
+<UnitProperties>
+    <UnitProperty pKey="部队类型" pValue="空中单位" />
+    <UnitProperty pKey="攻击偏好" pValue="防御建筑 (偏好类型 1)" :isDefensePreferredTroop="true" />
+    <UnitProperty pKey="伤害类型" pValue="范围伤害 (仅地面)" />
+    <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
+    <UnitProperty pKey="占据人口" pValue="5" />
+    <UnitProperty pKey="移动速度" pValue="1.3 格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="3 秒/次" />
+    <UnitProperty pKey="首次进攻时机" pValue="到达目标后 0.75 秒" />
+    <UnitProperty pKey="攻击距离" pValue="0 格 (建筑头顶)" />
+    <UnitProperty pKey="普攻伤害半径" pValue="1.2 格" />
+    <UnitProperty pKey="死亡伤害半径" pValue="1.2 格" />
+    <UnitProperty pKey="死亡伤害延时" pValue="0.146 秒" />
+    <UnitProperty pKey="所需训练营等级" pValue="6" />
+    <UnitProperty pKey="所需大本等级" pValue="4" />
+    <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" />
+    <UnitProperty pKey="捐赠费用" pValue="3,3,9000,Elixir" :isDonationCost="true" />
+</UnitProperties>
+
+<SmallTitle>升级数据</SmallTitle>
+
+<script setup>
+const tableExtraInfo = [
+    {
+        "column": 5,
+        "type": "cost",
+        "gpClass": "research",
+        "icon": "Elixir"
+    },
+    {
+        "column": 6,
+        "type": "time",
+        "gpClass": "research"
+    }
+];
+</script>
+
+<UnitTable :tableExtraInfo="tableExtraInfo">
+
+| 等级 |  每秒伤害 | 每次伤害|死亡<br>溅射伤害|生命值 | 升级花费|  升级时间  |所需<br>实验室等级|所需大本等级|
+| ---- |   ----   |   ----  |     ----    |  ---- |   ----  |    ----   |      ----       |   ----    |
+| 1 | 25 | 75 | 25 | 150 | \ | \ | 1 | 4 |
+| 2 | 32 | 96 | 32 | 180 | 100000 | 0,4,0,0 | 2 | 4 |
+| 3 | 48 | 144 | 48 | 216 | 400000 | 0,6,0,0 | 4 | 6 |
+| 4 | 72 | 216 | 72 | 280 | 720000 | 0,18,0,0 | 5 | 7 |
+| 5 | 108 | 324 | 108 | 390 | 1300000 | 1,0,0,0 | 6 | 8 |
+| 6 | 162 | 486 | 162 | 545 | 2750000 | 3,0,0,0 | 7 | 9 |
+| 7 | 198 | 594 | 214 | 690 | 4400000 | 3,6,0,0 | 9 | 11 |
+| 8 | 236 | 708 | 268 | 840 | 5000000 | 3,12,0,0 | 10 | 12 |
+| 9 | 256 | 768 | 322 | 940 | 7000000 | 4,12,0,0 | 11 | 13 |
+| 10 | 276 | 828 | 352 | 1040 | 10000000 | 7,0,0,0 | 12 | 14 |
+| 11 | 290 | 870 | 375 | 1140 | 14000000 | 8,12,0,0 | 14 | 16 |
+| 12 | 304 | 912 | 398 | 1240 | 17500000 | 11,0,0,0 | 15 | 17 |
+| 13 | 326 | 978 | 425 | 1360 | 28000000 | 14,18,0,0 | 16 | 18 |
+</UnitTable>
+
+<SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2025/11/17">
@@ -83,7 +148,4 @@ import unitData from "@/assets/unit-data/0005-Balloon.json";
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
-
-</template>
-
-</SyncedUnitData>
+<p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Balloon?oldid=624220" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>

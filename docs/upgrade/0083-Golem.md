@@ -2,22 +2,13 @@
 title: "部落冲突 coc 戈仑石人（石头人）升级数据"
 navTitle: "戈仑石人"
 shownTitle: "戈仑石人（石头人）"
+description: "戈仑石人乐于吸收伤害。被摧毁时，他们会爆炸并分裂成小戈仑石人。每个小戈仑石人拥有原戈仑石人 1/5 的攻击力和生命值。"
 module: upgrade-home
 imgFolder: home_tech/0083
 wiki: https://clashofclans.fandom.com/wiki/Golem
 canonical: /upgrade/0083-Golem
 dataSyncedOn: 2026-10-13
-description: "戈仑石人乐于吸收伤害。被摧毁时，他们会爆炸并分裂成小戈仑石人。每个小戈仑石人拥有原戈仑石人 1/5 的攻击力和生命值。"
 ---
-
-<script setup>
-import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
-import unitData from "@/assets/unit-data/0083-Golem.json";
-</script>
-
-<SyncedUnitData :data="unitData" :historyAfter="'2025-11-17'">
-
-<template #introduction>
 
 - *本页面的内容不是戈仑冰人，如想查看戈仑冰人的页面，请访问：[戈仑冰人](/upgrade/0087-Ice-Golem)。*
 - *如想查看陨石戈仑，请访问：[陨石戈仑](/upgrade/0012-Meteor-Golem)、[陨石戈仑（临时兵种）](/upgrade/0e1b-Meteor-Golem)。*
@@ -28,33 +19,166 @@ import unitData from "@/assets/unit-data/0083-Golem.json";
     <SwitchTab tabId="cp-unit-item-1">小戈仑石人</SwitchTab>
 </SwitchTabs>
 
+<!-- ↓↓↓ 戈仑石人 ↓↓↓ -->
 <SwitchTabGroup id="cp-unit-item-0" class="cp-unit-items">
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Golem_info.png" imgAlt="戈仑石人"
     description="戈仑石人乐于吸收伤害。被摧毁时，他们会爆炸并分裂成小戈仑石人。每个小戈仑石人拥有原戈仑石人 1/5 的攻击力和生命值。" />
 
+<SmallTitle>各等级图片</SmallTitle>
+
+<Panel>
+    <UnitImgGroup title="戈仑石人和小戈仑石人的模型是一样的，只是大小不同。" :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="1 - 2 级" imgSrc="Golem1.png" />
+        <UnitImg imgTitle="3 - 4 级" imgSrc="Golem3.png" />
+        <UnitImg imgTitle="5 级" imgSrc="Golem5.png" />
+        <UnitImg imgTitle="6 级" imgSrc="Golem6.png" />
+        <UnitImg imgTitle="7 级" imgSrc="Golem7.png" />
+        <UnitImg imgTitle="8 级" imgSrc="Golem8.png" />
+        <UnitImg imgTitle="9 级" imgSrc="Golem9.png" />
+        <UnitImg imgTitle="10 级" imgSrc="Golem10.png" />
+        <UnitImg imgTitle="11 级" imgSrc="Golem11.png" />
+        <UnitImg imgTitle="12 级" imgSrc="Golem12.png" />
+        <UnitImg imgTitle="13 级" imgSrc="Golem13.png" />
+        <UnitImg imgTitle="14 级" imgSrc="Golem14.png" />
+            <UnitImg imgTitle="15 级" imgSrc="Golem15.png" />
+</UnitImgGroup>
+</Panel>
+
 <SmallTitle>重要说明</SmallTitle>
 
 1. 戈仑石人死亡后会分裂成若干小戈仑石人（小石头人）。
 2. 根据玩家解安装包的结果，小石头人占用 6 空间，可被 [隐形弹簧](/upgrade/0381-Spring-Trap) 弹飞。
 3. 自 2024 年 6 月平衡性调整起，小石头人的生命值不再固定为大石头人的五分之一，但游戏内的介绍还是保留了五分之一这个说法。
 
+<SmallTitle>属性</SmallTitle>
+
+<UnitProperties>
+    <UnitProperty pKey="部队类型" pValue="地面近战单位" />
+    <UnitProperty pKey="攻击偏好" pValue="防御建筑 (偏好类型 1)" :isDefensePreferredTroop="true" />
+    <UnitProperty pKey="伤害类型" pValue="单体伤害" />
+    <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
+    <UnitProperty pKey="占据人口" pValue="30" />
+    <UnitProperty pKey="移动速度" pValue="1.5 格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="2.4 秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="1 格" />
+    <UnitProperty pKey="死亡伤害半径" pValue="1.5 格" />
+    <UnitProperty pKey="死亡溅射延迟" pValue="无" />
+    <UnitProperty pKey="所需暗黑训练营等级" pValue="4" />
+    <UnitProperty pKey="所需大本等级" pValue="8" />
+    <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" />
+    <UnitProperty pKey="捐赠费用" pValue="15,15,675,Dark_Elixir" :isDonationCost="true" />
+</UnitProperties>
+
+<SmallTitle>升级数据</SmallTitle>
+
+<script setup>
+const tableExtraInfo = [
+    {
+        "column": 6,
+        "type": "cost",
+        "gpClass": "research",
+        "icon": "Dark_Elixir"
+    },
+    {
+        "column": 7,
+        "type": "time",
+        "gpClass": "research"
+    }
+];
+</script>
+
+<UnitTable :tableExtraInfo="tableExtraInfo">
+
+| 等级 |  每秒伤害 | 每次伤害 |死亡溅射<br>伤害|死亡后分裂的<br>小石头人数量| 生命值 |升级花费|  升级时间  |所需<br>实验室等级|所需<br>大本等级|
+| ---- |   ----   |   ----  |      ----     |           ----           |  ---- |  ----  |    ----   |       ----      |      ----     |
+| 1 | 35 | 84 | 350 | 2 | 5100 | \ | \ | 1 | 8 |
+| 2 | 40 | 96 | 400 | 2 | 5400 | 4000 | 0,16,0,0 | 6 | 8 |
+| 3 | 45 | 108 | 450 | 2 | 5700 | 6000 | 1,12,0,0 | 7 | 9 |
+| 4 | 50 | 120 | 500 | 2 | 6000 | 10000 | 2,0,0,0 | 7 | 9 |
+| 5 | 55 | 132 | 550 | 2 | 6300 | 18500 | 2,6,0,0 | 8 | 10 |
+| 6 | 60 | 144 | 600 | 2 | 6600 | 26500 | 2,12,0,0 | 9 | 11 |
+| 7 | 65 | 156 | 650 | 2 | 7000 | 38500 | 2,18,0,0 | 9 | 11 |
+| 8 | 70 | 168 | 700 | 3 | 7500 | 50000 | 3,0,0,0 | 10 | 12 |
+| 9 | 75 | 180 | 750 | 3 | 7900 | 62500 | 3,12,0,0 | 10 | 12 |
+| 10 | 80 | 192 | 800 | 3 | 8200 | 80000 | 4,0,0,0 | 11 | 13 |
+| 11 | 85 | 204 | 850 | 3 | 8500 | 105000 | 5,0,0,0 | 12 | 14 |
+| 12 | 90 | 216 | 900 | 3 | 8800 | 122500 | 5,12,0,0 | 13 | 15 |
+| 13 | 95 | 228 | 950 | 4 | 9200 | 175000 | 6,0,0,0 | 14 | 16 |
+| 14 | 100 | 240 | 1000 | 4 | 9600 | 230000 | 10,0,0,0 | 15 | 17 |
+| 15 | 120 | 288 | 1050 | 4 | 10600 | 350000 | 14,12,0,0 | 16 | 18 |
+</UnitTable>
 </SwitchTabGroup>
 
+<!-- ↓↓↓ 小戈仑石人 ↓↓↓ -->
 <SwitchTabGroup id="cp-unit-item-1" class="cp-unit-items">
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Golemite_info.png" imgAlt="小戈仑石人"
     description="小戈仑石人是由这个巨大生物孕育的更小的戈仑石人。当戈仑石人被摧毁时，小戈仑石人被赋予生命并继续战斗！" />
 
+<SmallTitle>各等级图片</SmallTitle>
+
+<Panel>
+    <UnitImgGroup title="戈仑石人和小戈仑石人的模型是一样的，只是大小不同。" :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="1 - 2 级" imgSrc="Golem1.png" />
+        <UnitImg imgTitle="3 - 4 级" imgSrc="Golem3.png" />
+        <UnitImg imgTitle="5 级" imgSrc="Golem5.png" />
+        <UnitImg imgTitle="6 级" imgSrc="Golem6.png" />
+        <UnitImg imgTitle="7 级" imgSrc="Golem7.png" />
+        <UnitImg imgTitle="8 级" imgSrc="Golem8.png" />
+        <UnitImg imgTitle="9 级" imgSrc="Golem9.png" />
+        <UnitImg imgTitle="10 级" imgSrc="Golem10.png" />
+        <UnitImg imgTitle="11 级" imgSrc="Golem11.png" />
+        <UnitImg imgTitle="12 级" imgSrc="Golem12.png" />
+        <UnitImg imgTitle="13 级" imgSrc="Golem13.png" />
+        <UnitImg imgTitle="14 级" imgSrc="Golem14.png" />
+    </UnitImgGroup>
+</Panel>
+
 <SmallTitle>重要说明</SmallTitle>
 
 1. 戈仑石人死亡后会分裂成若干小戈仑石人（小石头人）。
 2. 根据玩家解安装包的结果，小石头人占用 6 空间，可被 [隐形弹簧](/upgrade/0381-Spring-Trap) 弹飞。
 3. 自 2024 年 6 月平衡性调整起，小石头人的生命值不再固定为大石头人的五分之一，但游戏内的介绍还是保留了五分之一这个说法。
 
+<SmallTitle>属性</SmallTitle>
+
+<UnitProperties>
+    <UnitProperty pKey="部队类型" pValue="地面近战单位" />
+    <UnitProperty pKey="攻击偏好" pValue="防御建筑 (偏好类型 1)" :isDefensePreferredTroop="true" />
+    <UnitProperty pKey="伤害类型" pValue="单体伤害" />
+    <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
+    <UnitProperty pKey="占据人口" pValue="6" />
+    <UnitProperty pKey="移动速度" pValue="1.5 格/秒" />
+    <UnitProperty pKey="攻击速度" pValue="3 秒/次" />
+    <UnitProperty pKey="攻击距离" pValue="0.5 格" />
+    <UnitProperty pKey="死亡伤害半径" pValue="1.5 格" />
+    <UnitProperty pKey="死亡溅射延迟" pValue="无" />
+</UnitProperties>
+
+<SmallTitle>升级数据</SmallTitle>
+
+<UnitTable>
+
+| 等级 |  每秒伤害 | 每次伤害 | 死亡溅射伤害 | 生命值 |
+|  --- |    ----  |   ----  |     ----    |  ----  |
+|   1  |      7   |    21   |      70     |  1020  |
+|   2  |      8   |    24   |      80     |  1080  |
+|   3  |      9   |    27   |      90     |  1140  |
+|   4  |     10   |    30   |     100     |  1200  |
+|   5  |     11   |    33   |     110     |  1260  |
+|   6  |     12   |    36   |     120     |  1320  |
+|   7  |     13   |    39   |     130     |  1380  |
+|   8  |     14   |    42   |     140     |  1440  |
+|   9  |     15   |    45   |     150     |  1500  |
+|  10  |     16   |    48   |     160     |  1600  |
+|  11  |     17   |    51   |     170     |  1680  |
+|  12  |     18   |    54   |     180     |  1760  |
+|  13  |     19   |    57   |     190     |  1840  |
+|  14  |     20   |    60   |     200     |  1920  |
+</UnitTable>
 </SwitchTabGroup>
 
-</template>
-
-<template #history>
+<!-- ↓↓↓ 公共部分 ↓↓↓ -->
+<SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2025/11/17">
@@ -132,7 +256,4 @@ import unitData from "@/assets/unit-data/0083-Golem.json";
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
-
-</template>
-
-</SyncedUnitData>
+<p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Golem?oldid=625101" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>

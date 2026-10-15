@@ -2,22 +2,13 @@
 title: "部落冲突 coc 都城永恒急速法术升级数据"
 navTitle: "永恒急速法术"
 shownTitle: "永恒急速法术"
+description: "永久提速部队的速度！施放该法术产生一个急速光环，穿过该光环的单位会获得加速效果，一直持续当场战斗结束！"
 module: upgrade-capital
 imgFolder: capital_tech/2106
 wiki: https://clashofclans.fandom.com/wiki/Endless_Haste_Spell
 canonical: /upgrade/2106-Endless-Haste-Spell
 dataSyncedOn: 2026-10-13
-description: "永久提速部队的速度！施放该法术产生一个急速光环，穿过该光环的单位会获得加速效果，一直持续当场战斗结束！"
 ---
-
-<script setup>
-import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
-import unitData from "@/assets/unit-data/2106-Endless-Haste-Spell.json";
-</script>
-
-<SyncedUnitData :data="unitData" :historyAfter="'2023-10-02'">
-
-<template #introduction>
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Endless_Haste_Spell_info.png" :imgAlt="$frontmatter.navTitle"
     description="永久提速部队的速度！<br>施放该法术产生一个急速光环，穿过该光环的单位会获得加速效果，一直持续当场战斗结束！"
@@ -30,9 +21,28 @@ import unitData from "@/assets/unit-data/2106-Endless-Haste-Spell.json";
 3. 多个永恒急速法术的效果不会叠加。
 4. 永恒急速法术的提速效果可以暂时被 [狂暴法术](/upgrade/2104-Rage-Spell) 覆盖，因为狂暴法术具有更高的速度提升属性。
 
-</template>
+<SmallTitle>属性</SmallTitle>
 
-<template #history>
+<UnitProperties>
+    <UnitProperty pKey="作用方式" pValue="加速移动速度" />
+    <UnitProperty pKey="作用半径" pValue="6 格" />
+    <UnitProperty pKey="有效时间" pValue="四次进攻" />
+    <UnitProperty pKey="占用的法术空间" pValue="3" />
+</UnitProperties>
+
+<SmallTitle>升级数据</SmallTitle>
+
+<UnitTable>
+
+| 等级 | 提升移动速度 |
+| ---- |    ----     |
+| 1 | 7 |
+| 2 | 8 |
+| 3 | 9 |
+| 4 | 10 |
+</UnitTable>
+
+<SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2023/10/02">
@@ -40,7 +50,4 @@ import unitData from "@/assets/unit-data/2106-Endless-Haste-Spell.json";
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
-
-</template>
-
-</SyncedUnitData>
+<p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Endless_Haste_Spell?oldid=624171" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>

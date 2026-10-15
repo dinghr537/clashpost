@@ -2,27 +2,48 @@
 title: "部落冲突 coc 夜世界建筑大师训练营升级数据"
 navTitle: "建筑大师训练营"
 shownTitle: "建筑大师训练营"
+description: "建筑大师训练营为建筑大师基地战斗训练部队！您还可以在发动进攻前快速更换部队。升级建筑大师训练营以解锁更多兵种！"
 module: upgrade-bh
 imgFolder: bh_buildings/1280
 wiki: https://clashofclans.fandom.com/wiki/Builder_Barracks
 canonical: /upgrade/1280-Builder-Barracks
 dataSyncedOn: 2026-10-13
-description: "建筑大师训练营为建筑大师基地战斗训练部队！您还可以在发动进攻前快速更换部队。升级建筑大师训练营以解锁更多兵种！"
 ---
-
-<script setup>
-import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
-import unitData from "@/assets/unit-data/1280-Builder-Barracks.json";
-</script>
-
-<SyncedUnitData :data="unitData" :historyAfter="'2023-05-15'">
-
-<template #introduction>
 
 - *如想查看家乡的训练营，请访问：[训练营](/upgrade/0481-Barracks)。*
 - *都城的训练营比较多，这里就不放链接了，如有需求请自行前往相关页面查看。*
 
+
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Builder_Barracks12.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
+
+<SmallTitle>各等级图片</SmallTitle>
+
+<Panel>
+    <UnitImgGroup :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="废墟" imgSrc="Builder_Barracks_Ruin.png" />
+        <UnitImg imgTitle="1 级" imgSrc="Builder_Barracks1.png" />
+        <UnitImg imgTitle="2 级" imgSrc="Builder_Barracks2.png" />
+        <UnitImg imgTitle="3 级" imgSrc="Builder_Barracks3.png" />
+        <UnitImg imgTitle="4 级" imgSrc="Builder_Barracks4.png" />
+        <UnitImg imgTitle="5 级" imgSrc="Builder_Barracks5.png" />
+        <UnitImg imgTitle="6 级" imgSrc="Builder_Barracks6.png" />
+        <UnitImg imgTitle="7 级" imgSrc="Builder_Barracks7.png" />
+        <UnitImg imgTitle="8 级" imgSrc="Builder_Barracks8.png" />
+        <UnitImg imgTitle="9 级" imgSrc="Builder_Barracks9.png" />
+        <UnitImg imgTitle="10 级" imgSrc="Builder_Barracks10.png" />
+        <UnitImg imgTitle="11 级" imgSrc="Builder_Barracks11.png" />
+        <UnitImg imgTitle="12 级" imgSrc="Builder_Barracks12.png" />
+    </UnitImgGroup>
+</Panel>
+
+<SmallTitle>建筑数量对照表</SmallTitle>
+
+<BuildingNum>
+    <BuildingNumRow title="大本等级" num="1 - 5, 6 - 10" />
+    <BuildingNumRow title="建筑数量" num=" 1, 1" />
+    <BuildingNumRow title="第一区域的建筑数量上限" num="\, 1" />
+    <BuildingNumRow title="第二区域的建筑数量上限" num="\, 0" />
+</BuildingNum>
 
 <SmallTitle>重要说明</SmallTitle>
 
@@ -31,9 +52,55 @@ import unitData from "@/assets/unit-data/1280-Builder-Barracks.json";
 2. 在你用掉兵营中的部队后，训练营可以自动训练你上次使用的配置。
 3. 夜世界造兵不需要时间，造兵可以瞬间完成。（在 2020 年 3 月 30 日更新之前，填满每个兵营需要的时间固定为 1 分钟）
 
-</template>
+<SmallTitle>属性</SmallTitle>
 
-<template #history>
+<UnitProperties>
+    <UnitProperty pKey="占地面积" pValue="3×3" />
+    <UnitProperty pKey="判定面积" pValue="3×3" :isJudgeSquare="true" />
+</UnitProperties>
+
+<SmallTitle>升级数据</SmallTitle>
+
+<script setup>
+const tableExtraInfo = [
+    {
+        "column": 2,
+        "type": "cost",
+        "gpClass": "building",
+        "icon": "Elixir2"
+    },
+    {
+        "column": 3,
+        "type": "time",
+        "gpClass": "building"
+    },
+    {
+        "column": 4,
+        "type": "exp",
+        "icon": "Exp"
+    }
+];
+</script>
+
+<UnitTable :tableExtraInfo="tableExtraInfo">
+
+| 等级 | 生命值 | 升级费用 | 升级时间 | 升级后可获<br>得的经验 | 所需<br>大本等级 | 解锁的兵种 |
+| ---- |  ---- |   ----  |    ---  |          ---          |       ---       |    ---    |
+| 1 | 300 | 1000 | \ |  | 2 | <a href="/upgrade/1000-Raged-Barbarian">狂暴野蛮人</a> |
+| 2 | 350 | 4000 | 0,0,1,0 |  | 2 | <a href="/upgrade/1001-Sneaky-Archer">隐秘弓箭手</a> |
+| 3 | 400 | 10000 | 0,0,10,0 |  | 3 | <a href="/upgrade/1002-Boxer-Giant">巨人拳击手</a> |
+| 4 | 460 | 25000 | 0,0,30,0 |  | 3 | <a href="/upgrade/1003-Beta-Minion">异变亡灵</a> |
+| 5 | 550 | 100000 | 0,3,0,0 |  | 4 | <a href="/upgrade/1004-Bomber">炸弹兵</a> |
+| 6 | 650 | 150000 | 0,6,0,0 |  | 4 | <a href="/upgrade/1005-Baby-Dragon">飞龙宝宝</a> |
+| 7 | 750 | 300000 | 0,9,0,0 |  | 5 | <a href="/upgrade/1006-Cannon-Cart">加农炮战车</a> |
+| 8 | 850 | 500000 | 1,0,0,0 |  | 6 | <a href="/upgrade/1007-Night-Witch">暗夜女巫</a> |
+| 9 | 1000 | 1000000 | 2,0,0,0 |  | 7 | <a href="/upgrade/1008-Drop-Ship">骷髅气球</a> |
+| 10 | 1150 | 1500000 | 3,0,0,0 |  | 8 | <a href="/upgrade/1009-Power-P.E.K.K.A">雷霆皮卡</a> |
+| 11 | 1300 | 2000000 | 4,0,0,0 |  | 9 | <a href="/upgrade/100a-Hog-Glider">野猪飞骑</a> |
+| 12 | 1450 | 3000000 | 5,0,0,0 |  | 10 | <a href="/upgrade/100b-Electrofire-Wizard">电火法师</a> |
+</UnitTable>
+
+<SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2023/05/15">
@@ -49,7 +116,4 @@ import unitData from "@/assets/unit-data/1280-Builder-Barracks.json";
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
-
-</template>
-
-</SyncedUnitData>
+<p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Builder_Barracks?oldid=624814" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>

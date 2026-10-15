@@ -2,22 +2,13 @@
 title: "部落冲突 coc 大本营升级数据"
 navTitle: "大本营"
 shownTitle: "大本营"
+description: "大本营是村庄的核心。升级大本营，可解锁新的防御、建筑、陷阱和更多内容。在战斗中摧毁敌军大本营，您将获得一颗星。把大本营建在村庄中心，并在其周围建造城墙、陷阱以及其他防御是最安全的举措。"
 module: upgrade-home
 imgFolder: home_buildings/0400
 wiki: https://clashofclans.fandom.com/wiki/Town_Hall
 canonical: /upgrade/0400-Town-Hall
 dataSyncedOn: 2026-10-13
-description: "大本营是村庄的核心。升级大本营，可解锁新的防御、建筑、陷阱和更多内容。在战斗中摧毁敌军大本营，您将获得一颗星。把大本营建在村庄中心，并在其周围建造城墙、陷阱以及其他防御是最安全的举措。"
 ---
-
-<script setup>
-import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
-import unitData from "@/assets/unit-data/0400-Town-Hall.json";
-</script>
-
-<SyncedUnitData :data="unitData" :historyAfter="'2025-11-17'">
-
-<template #introduction>
 
 - *如想查看大本营的自带武器，请访问：[巨型特斯拉电磁塔](/upgrade/030c-Giga-Tesla)、[巨型地狱之塔](/upgrade/030d-Giga-Inferno)、[地狱火炮](/upgrade/0315-Inferno-Artillery)。*
 - *如想查看夜世界的大本营，请访问：[建筑大师大本营](/upgrade/1200-Builder-Hall)、[夜世界奥仔哨站](/upgrade/1240-O.T.T.O's-Outpost)。*
@@ -26,9 +17,128 @@ import unitData from "@/assets/unit-data/0400-Town-Hall.json";
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Town_Hall18_hd.png" :imgAlt="$frontmatter.navTitle"
     description="大本营是村庄的核心。升级大本营，可解锁新的防御、建筑、陷阱和更多内容。<br>在战斗中摧毁敌军大本营，您将获得一颗星。<br>把大本营建在村庄中心，并在其周围建造城墙、陷阱以及其他防御是最安全的举措。" />
 
+<SmallTitle>各等级图片</SmallTitle>
+
+<Panel>
+    <UnitImgGroup :folder="$frontmatter.imgFolder" title="当前版本使用的模型">
+        <UnitImg imgTitle="1 本" imgSrc="Town_Hall1.png" imgHd="Town_Hall1_hd.png" />
+        <UnitImg imgTitle="2 本" imgSrc="Town_Hall2.png" imgHd="Town_Hall2_hd.png" />
+        <UnitImg imgTitle="3 本" imgSrc="Town_Hall3.png" imgHd="Town_Hall3_hd.png" />
+        <UnitImg imgTitle="4 本" imgSrc="Town_Hall4.png" imgHd="Town_Hall4_hd.png" />
+        <UnitImg imgTitle="5 本" imgSrc="Town_Hall5.png" imgHd="Town_Hall5_hd.png" />
+        <UnitImg imgTitle="6 本" imgSrc="Town_Hall6.png" imgHd="Town_Hall6_hd.png" />
+        <UnitImg imgTitle="7 本" imgSrc="Town_Hall7.png" imgHd="Town_Hall7_hd.png" />
+        <UnitImg imgTitle="8 本" imgSrc="Town_Hall8.png" imgHd="Town_Hall8_hd.png" />
+        <UnitImg imgTitle="9 本" imgSrc="Town_Hall9.png" imgHd="Town_Hall9_hd.png" />
+        <UnitImg imgTitle="10 本" imgSrc="Town_Hall10.png" imgHd="Town_Hall10_hd.png" />
+        <UnitImg imgTitle="11 本" imgSrc="Town_Hall11.png" imgHd="Town_Hall11_hd.png" />
+        <UnitImg imgTitle="12 本" imgSrc="Town_Hall12.png" imgHd="Town_Hall12_hd.png" />
+        <UnitImg imgTitle="13 本" imgSrc="Town_Hall13.png" imgHd="Town_Hall13_hd.png" />
+        <UnitImg imgTitle="14 本" imgSrc="Town_Hall14.png" imgHd="Town_Hall14_hd.png" />
+        <UnitImg imgTitle="15 本" imgSrc="Town_Hall15.png" imgHd="Town_Hall15_hd.png" />
+        <UnitImg imgTitle="16 本" imgSrc="Town_Hall16.png" imgHd="Town_Hall16_hd.png" />
+        <UnitImg imgTitle="17 本 1 星" imgSrc="Town_Hall17_1.png" imgHd="Town_Hall17_1_hd.png" />
+        <UnitImg imgTitle="17 本 2 星" imgSrc="Town_Hall17_2.png" imgHd="Town_Hall17_2_hd.png" />
+        <UnitImg imgTitle="17 本 3 星" imgSrc="Town_Hall17_3.png" imgHd="Town_Hall17_3_hd.png" />
+        <UnitImg imgTitle="17 本 4 星" imgSrc="Town_Hall17_4.png" imgHd="Town_Hall17_4_hd.png" />
+        <UnitImg imgTitle="17 本 5 星" imgSrc="Town_Hall17_5.png" imgHd="Town_Hall17_5_hd.png" />
+        <UnitImg imgTitle="18 本" imgSrc="Town_Hall18.png" imgHd="Town_Hall18_hd.png" />
+    </UnitImgGroup>
+    <UnitImgGroup :folder="$frontmatter.imgFolder" title="老版本使用的模型">
+        <UnitImg imgTitle="12 本 1 星" imgSrc="Town_Hall12_1.png" imgHd="Town_Hall12_1_hd.png" />
+        <UnitImg imgTitle="12 本 2 星" imgSrc="Town_Hall12_2.png" imgHd="Town_Hall12_2_hd.png" />
+        <UnitImg imgTitle="12 本 3 星" imgSrc="Town_Hall12_3.png" imgHd="Town_Hall12_3_hd.png" />
+        <UnitImg imgTitle="12 本 4 星" imgSrc="Town_Hall12_4.png" imgHd="Town_Hall12_4_hd.png" />
+        <UnitImg imgTitle="12 本 5 星" imgSrc="Town_Hall12_5.png" imgHd="Town_Hall12_5_hd.png" />
+        <UnitImg imgTitle="13 本 1 星" imgSrc="Town_Hall13_1.png" imgHd="Town_Hall13_1_hd.png" />
+        <UnitImg imgTitle="13 本 2 星" imgSrc="Town_Hall13_2.png" imgHd="Town_Hall13_2_hd.png" />
+        <UnitImg imgTitle="13 本 3 星" imgSrc="Town_Hall13_3.png" imgHd="Town_Hall13_3_hd.png" />
+        <UnitImg imgTitle="13 本 4 星" imgSrc="Town_Hall13_4.png" imgHd="Town_Hall13_4_hd.png" />
+        <UnitImg imgTitle="13 本 5 星" imgSrc="Town_Hall13_5.png" imgHd="Town_Hall13_5_hd.png" />
+        <UnitImg imgTitle="14 本 1 星" imgSrc="Town_Hall14_1.png" imgHd="Town_Hall14_1_hd.png" />
+        <UnitImg imgTitle="14 本 2 星" imgSrc="Town_Hall14_2.png" imgHd="Town_Hall14_2_hd.png" />
+        <UnitImg imgTitle="14 本 3 星" imgSrc="Town_Hall14_3.png" imgHd="Town_Hall14_3_hd.png" />
+        <UnitImg imgTitle="14 本 4 星" imgSrc="Town_Hall14_4.png" imgHd="Town_Hall14_4_hd.png" />
+        <UnitImg imgTitle="14 本 5 星" imgSrc="Town_Hall14_5.png" imgHd="Town_Hall14_5_hd.png" />
+        <UnitImg imgTitle="15 本 1 星" imgSrc="Town_Hall15_1.png" imgHd="Town_Hall15_1_hd.png" />
+        <UnitImg imgTitle="15 本 2 星" imgSrc="Town_Hall15_2.png" imgHd="Town_Hall15_2_hd.png" />
+        <UnitImg imgTitle="15 本 3 星" imgSrc="Town_Hall15_3.png" imgHd="Town_Hall15_3_hd.png" />
+        <UnitImg imgTitle="15 本 4 星" imgSrc="Town_Hall15_4.png" imgHd="Town_Hall15_4_hd.png" />
+        <UnitImg imgTitle="15 本 5 星" imgSrc="Town_Hall15_5.png" imgHd="Town_Hall15_5_hd.png" />
+    </UnitImgGroup>
+</Panel>
+
 <SmallTitle>重要说明</SmallTitle>
 
 [雷电法术](/upgrade/0100-Lightning-Spell) 不能对大本营造成伤害，[地震法术](/upgrade/0181-Earthquake-Spell) 可以。
+
+<SmallTitle>属性</SmallTitle>
+
+<UnitProperties>
+    <UnitProperty pKey="占地面积" pValue="4×4" />
+    <UnitProperty pKey="判定面积" pValue="3×3" :isJudgeSquare="true" />
+</UnitProperties>
+
+<SmallTitle>升级数据</SmallTitle>
+
+<script setup>
+const tableExtraInfo1 = [
+    {
+        "column": 2,
+        "type": "cost",
+        "gpClass": "building",
+        "icon": "Gold"
+    },
+    {
+        "column": 3,
+        "type": "time",
+        "gpClass": "building"
+    },
+    {
+        "column": 4,
+        "type": "exp",
+        "icon": "Exp"
+    },
+];
+const tableExtraInfo2 = [
+    {
+        "column": 1,
+        "type": "number",
+        "icon": "Gold, Elixir",
+        "noGoldPass": true
+    },
+    {
+        "column": 2,
+        "type": "number",
+        "icon": "Dark_Elixir",
+        "noGoldPass": true
+    },
+];
+</script>
+
+<UnitTable :tableExtraInfo="tableExtraInfo1">
+
+| 等级 | 生命值 | 升级费用 |   升级时间  |升级后可<br>获得的经验|建筑<br>数量<sup>*</sup>|陷阱<br>数量<sup>*</sup>|
+| ---- |   ---  |   ---   |     ---    |         ---        |    ---     |     --    |
+| 1 | 400 | \ | \ | \ | 13 | \ |
+| 2 | 800 | 1000 | 0,0,0,10 | 3 | 17 | \ |
+| 3 | 1600 | 4000 | 0,0,30,0 | 42 | 25 | 2 |
+| 4 | 2000 | 25000 | 0,3,0,0 | 103 | 29 | 4 |
+| 5 | 2400 | 150000 | 0,6,0,0 | 146 | 36 | 8 |
+| 6 | 2800 | 500000 | 0,12,0,0 | 207 | 42 | 11 |
+| 7 | 3300 | 1000000 | 0,18,0,0 | 254 | 54 | 15 |
+| 8 | 3900 | 2000000 | 1,0,0,0 | 293 | 64 | 23 |
+| 9 | 4600 | 2500000 | 2,0,0,0 | 415 | 77 | 26 |
+| 10 | 5500 | 3500000 | 3,0,0,0 | 509 | 84 | 30 |
+| 11 | 6800 | 4000000 | 5,0,0,0 | 657 | 89 | 31 |
+| 12 | 7500 | 6000000 | 6,0,0,0 | 720 | 92 | 36 |
+| 13 | 8200 | 9000000 | 7,0,0,0 | 777 | 94 | 39 |
+| 14 | 8900 | 12000000 | 7,12,0,0 | 804 | 95 | 44 |
+| 15 | 9600 | 13000000 | 8,0,0,0 | 831 | 98 | 44 |
+| 16 | 10000 | 15000000 | 9,0,0,0 | 881 | 94 | 44 |
+| 17 | 10400 | 16000000 | 10,0,0,0 | 929 | 93 | 47 |
+| 18 | 10800 | 25000000 | 12,0,0,0 | 1018 | 94 | 47 |
+</UnitTable>
 
 **\* 关于建筑数量和陷阱数量的说明：**
 
@@ -37,9 +147,49 @@ import unitData from "@/assets/unit-data/0400-Town-Hall.json";
 3. 当商店里的所有建筑都已建造，且所有可以合并的建筑都已经合并时，建筑数量才会等于表格中的数字。
 4. 战旗 不视为建筑。
 
-</template>
+<SmallTitle>各大本等级的资源储量</SmallTitle>
 
-<template #history>
+<UnitTable :tableExtraInfo="tableExtraInfo2" maxWidth="500px">
+
+| 大本等级 | 金币和圣水<br>储量 | 暗黑重油<br>储量 |
+|   ---   |        ---        |        ---      |
+| 1 | 1000 | \ |
+| 2 | 2500 | \ |
+| 3 | 10000 | \ |
+| 4 | 50000 | \ |
+| 5 | 100000 | \ |
+| 6 | 300000 | \ |
+| 7 | 500000 | 2500 |
+| 8 | 750000 | 5000 |
+| 9 | 1000000 | 10000 |
+| 10 | 1500000 | 20000 |
+| 11 | 2000000 | 20000 |
+| 12 | 2000000 | 20000 |
+| 13 | 2000000 | 20000 |
+| 14 | 3000000 | 30000 |
+| 15 | 3000000 | 30000 |
+| 16 | 4000000 | 40000 |
+| 17 | 4000000 | 40000 |
+| 18 | 5000000 | 50000 |
+| 11 - 13 | 2M | 20k |
+| 14 - 15 | 3M | 30k |
+| 16 - 17 | 4M | 40k |
+</UnitTable>
+
+<SmallTitle>大本营升级提速情况一览</SmallTitle>
+
+<Table>
+
+| 大本等级 | 提速时间 | 力量加成 | 资源加成 | 英雄加成  | 4 倍胜利之星 |
+|   ---   |    ---   |   ---   |   ---   |   ---    |     ---     |
+|  1 - 3  |     无   |    ×    |    ×    |    ×     |      ×      |
+|  4 - 6  |   3 天   |    ✓    |    ✓    |    ×     |      ✓      |
+|    7    |   4 天   |    ✓    |    ✓    |    ×     |      ✓      |
+|  8 - 9  |   4 天   |    ✓    |    ✓    |    ✓     |      ✓      |
+|   10+   |   5 天   |    ✓    |    ✓    |    ✓     |      ✓      |
+</Table>
+
+<SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2025/11/17">
@@ -98,7 +248,4 @@ import unitData from "@/assets/unit-data/0400-Town-Hall.json";
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
-
-</template>
-
-</SyncedUnitData>
+<p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Town_Hall?oldid=625396" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>

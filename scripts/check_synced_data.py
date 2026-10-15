@@ -8,6 +8,7 @@ import re
 
 from sync_wiki_data import SourceTables, VillageFilter, headers_and_rows, is_unit_image, REVIEWED_IMAGES
 from check_upgrade_data import seconds
+from update_authored_data import MAPPINGS, translations, update_page
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -18,12 +19,23 @@ def main():
     args = cli.parse_args()
     inventory = json.loads((args.cache / 'inventory.json').read_text()) if args.cache else None
     sources = {item['unitId']: item for item in inventory['units']} if inventory else {}
-    records, errors = {}, []
+    records = {p.stem: json.loads(p.read_text()) for p in (ROOT / 'docs/.vitepress/theme/assets/unit-data').glob('*.json')}
+    mappings = json.loads(MAPPINGS.read_text())['units']
+    translated = translations()
+    errors = []
     count = 0
     for path in sorted((ROOT / 'docs/.vitepress/theme/assets/unit-data').glob('*.json')):
         record = json.loads(path.read_text()); records[record['unitId']] = record
         page = ROOT / 'docs/upgrade' / (record['unitId'] + '.md')
-        if not page.exists() or record['unitId'] + '.json' not in page.read_text():
+        if page.exists() and record['unitId'] in mappings:
+            try:
+                current = page.read_text()
+                expected, _ = update_page(current, mappings[record['unitId']], record, translated[record['unitId']], records)
+                if expected != current:
+                    errors.append(record['unitId'] + ': authored table values need updating')
+            except (ValueError, KeyError, StopIteration) as error:
+                errors.append(record['unitId'] + ': ' + str(error))
+        elif not page.exists() or record['unitId'] + '.json' not in page.read_text():
             errors.append(record['unitId'] + ': page does not load its data')
         parser = None
         if inventory:

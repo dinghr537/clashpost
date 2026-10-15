@@ -2,36 +2,89 @@
 title: "部落冲突 coc 攻城训练营升级数据"
 navTitle: "攻城训练营"
 shownTitle: "攻城训练营"
+description: "攻城训练营平稳降落在战场后，首先会释放出装载的皮卡超人和法师，然后再释放出部落援军。想知道攻城训练营为什么能塞得下这么多部队？天机不可泄露，你还是不知道比较好。"
 module: upgrade-home
 imgFolder: home_tech/0243
 wiki: https://clashofclans.fandom.com/wiki/Siege_Barracks
 canonical: /upgrade/0243-Siege-Barracks
 dataSyncedOn: 2026-10-13
-description: "攻城训练营平稳降落在战场后，首先会释放出装载的皮卡超人和法师，然后再释放出部落援军。想知道攻城训练营为什么能塞得下这么多部队？天机不可泄露，你还是不知道比较好。"
 ---
-
-<script setup>
-import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
-import unitData from "@/assets/unit-data/0243-Siege-Barracks.json";
-</script>
-
-<SyncedUnitData :data="unitData" :historyAfter="'2025-03-27'">
-
-<template #introduction>
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Siege_Barracks.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
 
+<SmallTitle>各等级图片</SmallTitle>
+
+<Panel>
+    <UnitImgGroup title="常规模型" :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="1 级" imgSrc="Siege_Barracks1.png" />
+        <UnitImg imgTitle="2 级" imgSrc="Siege_Barracks2.png" />
+        <UnitImg imgTitle="3 级" imgSrc="Siege_Barracks3.png" />
+        <UnitImg imgTitle="4 级" imgSrc="Siege_Barracks4.png" />
+        <UnitImg imgTitle="5 级" imgSrc="Siege_Barracks5.png" />
+            <UnitImg imgTitle="6 级" imgSrc="Siege_Barracks6.png" />
+</UnitImgGroup>
+    <UnitImgGroup title="正在降落的攻城训练营" :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="1 级" imgSrc="Parachute_Barracks1.png" />
+        <UnitImg imgTitle="2 级" imgSrc="Parachute_Barracks2.png" />
+        <UnitImg imgTitle="3 级" imgSrc="Parachute_Barracks3.png" />
+        <UnitImg imgTitle="4 级" imgSrc="Parachute_Barracks4.png" />
+        <UnitImg imgTitle="5 级" imgSrc="Parachute_Barracks5.png" />
+    </UnitImgGroup>
+</Panel>
+
 <SmallTitle>重要说明</SmallTitle>
 
-1. 部署攻城训练营后，它会在指定位置迅速着陆，并释放部队。
+1. 如果你不了解攻城机器的基础设定，请阅读这篇文章：浅谈攻城机器的一些基础设定。
+2. 部署攻城训练营后，它会在指定位置迅速着陆，并释放部队。
   - 在释放部落援军之前，攻城训练营会首先派出自带的部队。它会先释放 [皮卡超人](/upgrade/0009-P.E.K.K.A)，然后每隔几秒便释放一个 [法师](/upgrade/0006-Wizard) 参与进攻，直到释放完所有法师。
-2. 攻城训练营部署后不能移动，即使没有受到伤害也会自动掉血。[大守护者](/upgrade/0202-Grand-Warden) 的 [永恒书卷](/upgrade/0780-Eternal-Tome) 装备无法阻止它自动掉血。
-3. 攻城训练营中自带部队（皮卡和法师）的等级以使用者的科技为准，而部落城堡内的援军等级以捐赠者的科技为准。
-4. 当攻城训练营的血量清零，或释放完成所有自带部队后，攻城训练营就会自动解体并释放部落城堡内的部队。
+3. 攻城训练营部署后不能移动，即使没有受到伤害也会自动掉血。[大守护者](/upgrade/0202-Grand-Warden) 的 [永恒书卷](/upgrade/0780-Eternal-Tome) 装备无法阻止它自动掉血。
+4. 攻城训练营中自带部队（皮卡和法师）的等级以使用者的科技为准，而部落城堡内的援军等级以捐赠者的科技为准。
+5. 当攻城训练营的血量清零，或释放完成所有自带部队后，攻城训练营就会自动解体并释放部落城堡内的部队。
 
-</template>
+<SmallTitle>属性</SmallTitle>
 
-<template #history>
+<UnitProperties>
+    <UnitProperty pKey="攻击方式" pValue="部署后生成额外部队" />
+    <UnitProperty pKey="占据人口" pValue="30" />
+    <UnitProperty pKey="最长生存时间" pValue="30 秒" />
+    <UnitProperty pKey="移动速度" pValue="0 (无法移动)" />
+    <UnitProperty pKey="所需攻城机器工坊等级" pValue="4" />
+    <UnitProperty pKey="所需大本等级" pValue="13" />
+    <UnitProperty pKey="建造时间" pValue="无" trainingSystem="2025" />
+    <UnitProperty pKey="捐赠费用" pValue="15,15,45000,Elixir" :isDonationCost="true" />
+</UnitProperties>
+
+<SmallTitle>升级数据</SmallTitle>
+
+<script setup>
+const tableExtraInfo = [
+    {
+        "column": 4,
+        "type": "cost",
+        "gpClass": "research",
+        "icon": "Elixir"
+    },
+    {
+        "column": 5,
+        "type": "time",
+        "gpClass": "research"
+    }
+];
+</script>
+
+<UnitTable :tableExtraInfo="tableExtraInfo">
+
+| 等级 |  皮卡数量 | 法师数量 | 生命值 | 升级花费|  升级时间  |所需实验室等级|所需大本等级|
+| ---- |   ----   |   ----  |  ----  |  ----  |    ----   |    ----     |   ----    |
+| 1 | 1 | 6 | 3300 | \ | \ | 1 | 13 |
+| 2 | 1 | 8 | 3700 | 3500000 | 3,0,0,0 | 10 | 13 |
+| 3 | 1 | 10 | 4100 | 5000000 | 4,0,0,0 | 10 | 13 |
+| 4 | 1 | 11 | 4500 | 8000000 | 7,0,0,0 | 11 | 13 |
+| 5 | 2 | 11 | 4800 | 18000000 | 12,0,0,0 | 14 | 16 |
+| 6 | 2 | 12 | 5100 | 27000000 | 15,0,0,0 | 16 | 18 |
+</UnitTable>
+
+<SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2025/03/27">
@@ -61,7 +114,4 @@ import unitData from "@/assets/unit-data/0243-Siege-Barracks.json";
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
-
-</template>
-
-</SyncedUnitData>
+<p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Siege_Barracks?oldid=624362" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>

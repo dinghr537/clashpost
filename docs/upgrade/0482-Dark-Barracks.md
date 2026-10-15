@@ -2,22 +2,13 @@
 title: "部落冲突 coc 暗黑训练营升级数据"
 navTitle: "暗黑训练营"
 shownTitle: "暗黑训练营"
+description: "暗黑训练营将向源于暗黑重油的生物敞开大门。升级暗黑训练营解锁更多有独特战斗力的部队。"
 module: upgrade-home
 imgFolder: home_buildings/0482
 wiki: https://clashofclans.fandom.com/wiki/Dark_Barracks
 canonical: /upgrade/0482-Dark-Barracks
 dataSyncedOn: 2026-10-13
-description: "暗黑训练营将向源于暗黑重油的生物敞开大门。升级暗黑训练营解锁更多有独特战斗力的部队。"
 ---
-
-<script setup>
-import SyncedUnitData from "@/customized/upgrade/SyncedUnitData.vue";
-import unitData from "@/assets/unit-data/0482-Dark-Barracks.json";
-</script>
-
-<SyncedUnitData :data="unitData" :historyAfter="'2025-10-06'">
-
-<template #introduction>
 
 - *如想查看训练圣水兵的训练营，请访问：[训练营](/upgrade/0481-Barracks)。*
 - *如想查看夜世界的建筑大师训练营，请访问：[夜世界建筑大师训练营](/upgrade/1280-Builder-Barracks)。*
@@ -25,9 +16,83 @@ import unitData from "@/assets/unit-data/0482-Dark-Barracks.json";
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Dark_Barracks12_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
 
-</template>
+<SmallTitle>各等级图片</SmallTitle>
 
-<template #history>
+<Panel>
+    <UnitImgGroup title="暗黑训练营" :folder="$frontmatter.imgFolder">
+        <UnitImg imgTitle="1 级" imgSrc="Dark_Barracks1.png" />
+        <UnitImg imgTitle="2 级" imgSrc="Dark_Barracks2.png" />
+        <UnitImg imgTitle="3 级" imgSrc="Dark_Barracks3.png" />
+        <UnitImg imgTitle="4 级" imgSrc="Dark_Barracks4.png" />
+        <UnitImg imgTitle="5 级" imgSrc="Dark_Barracks5.png" />
+        <UnitImg imgTitle="6 级" imgSrc="Dark_Barracks6.png" />
+        <UnitImg imgTitle="7 级" imgSrc="Dark_Barracks7.png" />
+        <UnitImg imgTitle="8 级" imgSrc="Dark_Barracks8.png" />
+        <UnitImg imgTitle="9 级" imgSrc="Dark_Barracks9.png" />
+        <UnitImg imgTitle="10 级" imgSrc="Dark_Barracks10.png" />
+        <UnitImg imgTitle="11 级" imgSrc="Dark_Barracks11.png" />
+        <UnitImg imgTitle="12 级" imgSrc="Dark_Barracks12.png" imgHd="Dark_Barracks12_hd.png" />
+            <UnitImg imgTitle="13 级" imgSrc="Dark_Barracks13.png" />
+</UnitImgGroup>
+</Panel>
+
+<SmallTitle>建筑数量对照表</SmallTitle>
+
+<BuildingNum>
+    <BuildingNumRow title="大本等级" num="1 - 6, 7 - 18" />
+    <BuildingNumRow title="建筑数量" num="    0,      1" />
+</BuildingNum>
+
+<SmallTitle>属性</SmallTitle>
+
+<UnitProperties>
+    <UnitProperty pKey="占地面积" pValue="3×3" />
+    <UnitProperty pKey="判定面积" pValue="2×2" :isJudgeSquare="true" />
+</UnitProperties>
+
+<SmallTitle>升级数据</SmallTitle>
+
+<script setup>
+const tableExtraInfo = [
+    {
+        "column": 2,
+        "type": "cost",
+        "gpClass": "building",
+        "icon": "Elixir"
+    },
+    {
+        "column": 3,
+        "type": "time",
+        "gpClass": "building"
+    },
+    {
+        "column": 4,
+        "type": "exp",
+        "icon": "Exp"
+    }
+];
+</script>
+
+<UnitTable :tableExtraInfo="tableExtraInfo">
+
+| 等级 | 生命值 | 升级费用 | 升级时间 | 升级后可获<br>得的经验 | 所需<br>大本等级 | 解锁的兵种 |
+| ---- |  ---- |   ----  |    ---   |          ---         |       ---       |    ---    |
+| 1 | 500 | 200000 | 0,8,0,0 |  | 7 | <a href="/upgrade/0080-Minion">亡灵</a> |
+| 2 | 550 | 600000 | 1,0,0,0 |  | 7 | <a href="/upgrade/0081-Hog-Rider">野猪骑士</a> |
+| 3 | 600 | 1000000 | 1,12,0,0 |  | 8 | <a href="/upgrade/0082-Valkyrie">瓦基丽武神</a> |
+| 4 | 650 | 1600000 | 2,0,0,0 |  | 8 | <a href="/upgrade/0083-Golem">戈仑石人</a> |
+| 5 | 700 | 2200000 | 2,12,0,0 |  | 9 | <a href="/upgrade/0084-Witch">女巫</a> |
+| 6 | 750 | 2900000 | 3,0,0,0 |  | 9 | <a href="/upgrade/0085-Lava-Hound">熔岩猎犬</a> |
+| 7 | 800 | 4000000 | 5,0,0,0 |  | 10 | <a href="/upgrade/0086-Bowler">巨石投手</a> |
+| 8 | 850 | 7000000 | 6,0,0,0 |  | 11 | <a href="/upgrade/0087-Ice-Golem">戈仑冰人</a> |
+| 9 | 900 | 7200000 | 7,0,0,0 |  | 12 | <a href="/upgrade/0088-Headhunter">英雄猎手</a> |
+| 10 | 950 | 10000000 | 7,12,0,0 |  | 13 | <a href="/upgrade/0089-Apprentice-Warden">守护者学徒</a> |
+| 11 | 1000 | 12000000 | 8,0,0,0 |  | 14 | <a href="/upgrade/008a-Druid">德鲁伊</a> |
+| 12 | 1050 | 20000000 | 9,0,0,0 |  | 15 | <a href="/upgrade/008b-Furnace">烈焰熔炉</a> |
+| 13 | 1100 | 23000000 | 10,0,0,0 |  | 16 | [废墟女巫](/upgrade/0013-Ruin-Witch) |
+</UnitTable>
+
+<SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
     <TimelineItem date="2025/10/06">
@@ -76,7 +141,4 @@ import unitData from "@/assets/unit-data/0482-Dark-Barracks.json";
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
-
-</template>
-
-</SyncedUnitData>
+<p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Dark_Barracks?oldid=623607" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>

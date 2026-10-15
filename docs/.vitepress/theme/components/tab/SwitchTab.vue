@@ -44,8 +44,8 @@ function showActiveTabContent(clickedDom) {
             if (containerDom.classList.contains("cp-page-tabs")) {
                 allTitleDoms.forEach(titleDom => {
                     const titleId = titleDom.getAttribute("id");
-                    const tocId = titleId.replace("cp-title-", "cp-toc-");
-                    document.getElementById(tocId).parentNode.style.display = "";
+                    const tocItem = titleId && document.getElementById(titleId.replace("cp-title-", "cp-toc-"));
+                    if (tocItem) tocItem.parentNode.style.display = "";
                 });
             }
         } else {
@@ -53,8 +53,8 @@ function showActiveTabContent(clickedDom) {
             if (containerDom.classList.contains("cp-page-tabs")) {
                 allTitleDoms.forEach(titleDom => {
                     const titleId = titleDom.getAttribute("id");
-                    const tocId = titleId.replace("cp-title-", "cp-toc-");
-                    document.getElementById(tocId).parentNode.style.display = "none";
+                    const tocItem = titleId && document.getElementById(titleId.replace("cp-title-", "cp-toc-"));
+                    if (tocItem) tocItem.parentNode.style.display = "none";
                 });
             }
         }
