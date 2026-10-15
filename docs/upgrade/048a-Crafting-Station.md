@@ -36,6 +36,9 @@ dataSyncedOn: 2026-10-13
 13. 精工防御升级过程中仍然可以保卫村庄，其等级等于升级前的等级。
 14. 精工防御的初始等级为 3 级（三个模组均为 1 级），最高可升至 30 级（三个模组均为 10 级）。
 15. 如想查看精工防御的数据，请前往 [临时单位](/upgrade/category/temp) 版块。
+16. 每次升级精工防御的一个模组，可获得 8 块电涌灵石。每座防御有三个模组，各从 1 级升至 10 级，共升级 27 次，合计获得 216 块；三座防御全部升满共获得 648 块。电涌灵石可在珍品商店兑换装饰、建筑工人皮肤等物品。
+
+<p><small>电涌灵石规则来源：<a href="https://supercell.com/en/games/clashofclans/zh-hans/blog/release-notes/18%E7%BA%A7-%E5%A4%A7%E6%9C%AC%E8%90%A5-%E9%9C%87%E6%92%BC-%E9%99%8D%E4%B8%B4-%E6%9B%B4%E6%96%B0-2/" target="_blank" rel="noopener noreferrer">Supercell 官方更新说明</a>；累计数量参照 <a href="https://clashofclans.fandom.com/wiki/Crafting_Station?oldid=624956#Summary" target="_blank" rel="noopener noreferrer">部落冲突维基：精制台（修订 624956）</a>。</small></p>
 
 <UnitProperties>
     <UnitProperty pKey="占地面积" pValue="3×3" />

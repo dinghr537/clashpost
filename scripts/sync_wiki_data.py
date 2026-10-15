@@ -431,7 +431,12 @@ def make_record(item, date):
         selected_facts = [fact for fact in selected_facts if 'poor defender' not in fact]
     if item['unitId'] == '0726-Portal-Pendant':
         selected_facts = [fact for fact in selected_facts if 'exceptions:' not in fact]
-        selected_facts.append('召回人口计算：英雄按 25 人口、战宠通常按 20 人口计；具体例外请核对来源。')
+        selected_facts.extend([
+            '召回容量：英雄按 25 人口、战宠通常按 20 人口计。亡灵王自身不占容量，但携带的战宠通常仍计入容量。',
+            '凤凰仍为蛋形态时，只有主人被召回才会一起召回，且不额外占用人口。',
+            '愤怒水母正在对主人施加洗脑效果时，会随主人一起召回，且不额外占用人口。',
+            '容量不足时优先召回英雄，再按人口从高到低召回；同人口优先召回先部署的单位。战宠不继承主人的优先权，可能与主人分开召回。',
+        ])
     if item['unitId'] == '0305-Wizard-Tower' and not any(item['date'] == '2026-04-27' for item in history):
         history.append({'date': '2026-04-27', 'description': '四月更新公告：十七级升级时间从 8 天 12 小时缩短为 5 天 12 小时。',
                         'sourceUrl': 'https://www.clash.ninja/blog/april-2026-update-is-live', 'type': 'announcement'})
