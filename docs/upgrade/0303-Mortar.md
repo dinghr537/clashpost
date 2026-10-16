@@ -211,6 +211,9 @@ const tableExtraInfoFastMode = tableExtraInfoStandardMode;
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/04/27">
+        <TimelineRow>为 18 级迫击炮新增两级超级充能。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/" target="_blank" rel="noopener noreferrer">来源：Supercell 官方更新公告</a>。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2026/02/23">
         <TimelineRow>添加了 18 级迫击炮。</TimelineRow>
         <TimelineRow>移除了 17 级迫击炮的超级充能。</TimelineRow>

@@ -92,9 +92,12 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/04/27">
+        <TimelineRow>为 3 级火焰喷射器新增两级超级充能。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/" target="_blank" rel="noopener noreferrer">来源：Supercell 官方更新公告</a>。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2026/02/23">
         <TimelineRow>在 18 本添加了 3 级火焰喷射器</TimelineRow>
-        <TimelineRow>移除了火焰喷射器的充能等级。</TimelineRow>
+        <TimelineRow>移除了 2 级火焰喷射器原有的两级超级充能；3 级的两级充能于同年 4 月 27 日开放。</TimelineRow>
         <TimelineRow>更改了 1 ~ 2 级火焰喷射器在游戏面板中显示的伤害值（实际伤害没变，只是更改了显示算法）。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/11/17">

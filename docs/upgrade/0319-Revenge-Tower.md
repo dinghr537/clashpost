@@ -277,6 +277,9 @@ const tableExtraInfoStage3 = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/04/27">
+        <TimelineRow>为 2 级复仇之塔新增两级超级充能。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/" target="_blank" rel="noopener noreferrer">来源：Supercell 官方更新公告</a>。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2026/01/28">
         <TimelineRow>复仇之塔最后一个阶段的攻速由 0.3 秒/次 降低到 0.35 秒/次。</TimelineRow>
         <TimelineRow>复仇之塔二阶段的触发条件改为 25 座建筑被摧毁（之前是 20 座）。</TimelineRow>

@@ -110,9 +110,12 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/04/27">
+        <TimelineRow>为 17 级特斯拉电磁塔新增两级超级充能。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/" target="_blank" rel="noopener noreferrer">来源：Supercell 官方更新公告</a>。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2026/02/23">
         <TimelineRow>在 18 本添加了 17 级特斯拉电磁塔。</TimelineRow>
-        <TimelineRow>移除了特斯拉电磁塔的充能等级。</TimelineRow>
+        <TimelineRow>移除了 16 级特斯拉电磁塔原有的两级超级充能；17 级的两级充能于同年 4 月 27 日开放。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/11/17">
         <TimelineRow>16 级及两个充能等级的特斯拉电磁塔的升级时间和升级费用减少。</TimelineRow>
