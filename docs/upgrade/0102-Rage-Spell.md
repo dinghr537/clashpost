@@ -21,7 +21,7 @@ dataSyncedOn: 2026-10-13
 2. 狂暴法术可以增加兵种的移动速度和伤害，但不能增加兵种的攻击速度。
 3. 狂暴法术对我方英雄的效果减半，对攻城机器无效。
 4. 狂暴法术并不能提高所有类型的伤害。举个例子，狂暴法术只能提升 [超级炸弹人](/upgrade/0603-Super-Wall-Breaker) 的主动伤害，不能提升其死亡伤害。
-5. 与其他具有狂暴效果的单位（如 [阿啾](/upgrade/028a-Sneezy) 的愤怒状态、[暗黑皇冠](/upgrade/0724-Dark-Crown) 的伤害增益）叠加时，通常取效果最强的，详见：【硬核实验】为什么我扔下了两瓶狂暴法术，效果却比一瓶还低？。
+5. 与其他具有狂暴效果的单位（如 [阿啾](/upgrade/028a-Sneezy) 的愤怒状态、[暗黑皇冠](/upgrade/0724-Dark-Crown) 的伤害增益）叠加时，同类增益通常取最高值，不相加。伤害加成和移速加成分别比较，因此可能来自不同效果；不同等级的狂暴法术重叠时，采用等级较高者的效果。<small>（来源：<a href="https://clashofclans.fandom.com/wiki/Rage_Spell?oldid=587899" target="_blank" rel="noopener noreferrer">部落冲突维基</a>）</small>
 
 <SmallTitle>属性</SmallTitle>
 

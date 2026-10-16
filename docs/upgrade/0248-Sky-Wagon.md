@@ -25,7 +25,7 @@ dataSyncedOn: 2026-10-13
 
 <SmallTitle>说明</SmallTitle>
 
-1. 如果你不了解攻城机器的基础设定，请阅读这篇文章：浅谈攻城机器的一些基础设定。
+1. 每场进攻只能部署一台攻城机器，可在自己制造的和获捐的机器中选择。机器不占兵营人口，携带的援军容量由部落城堡决定；机器被摧毁时会放出剩余援军，也可点击已部署机器的图标提前解体。攻城机器不受进攻方施放的法术影响。<small>（来源：<a href="https://support.supercell.com/clash-of-clans/en/articles/siege-machines-3.html" target="_blank" rel="noopener noreferrer">Supercell：攻城机器</a>）</small>
 2. 空中战车会在空中飞行，并把装有援军的木桶投向目标。每个木桶落地时都会造成少量伤害，同时放出 [亡灵](/upgrade/0080-Minion)、[气球兵](/upgrade/0005-Balloon)、[飞龙宝宝](/upgrade/000a-Baby-Dragon) 和 1 个部落城堡援军（如果有）。
    - 空中战车的运作方式和 [部队发射器](/upgrade/0247-Troop-Launcher) 类似，但它可以独立移动并自行寻找目标，而不是只对某一区域投放援军。
 3. 木桶里的部队部署顺序遵循常规规则：先按人口从低到高，再按内部顺序；同类兵种则按等级从低到高部署。

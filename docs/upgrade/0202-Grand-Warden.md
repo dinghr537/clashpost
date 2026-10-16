@@ -19,8 +19,8 @@ dataSyncedOn: 2026-10-13
 1. 无论你使用了地面还是飞行模式，大守护者都可以无视城墙。
     - 防守时，大守护者始终处于地面模式。
 2. 2024 年 11 月更新后，大守护者防守时不再变成雕像，而是会和其他英雄一样走动。
-3. 如想查看英雄皮肤，请移步这篇文章：部落冲突英雄皮肤（造型）一览。
-4. 近几年官方对英雄系统进行了多次改动，为了让回归玩家更好适应，我们准备了这篇文章：目前 coc 的英雄系统是什么样的？
+3. 英雄皮肤只改变外观，不改变战斗属性。可在英雄殿堂的英雄界面点击衣架图标查看和更换皮肤。<small>（来源：<a href="https://support.supercell.com/clash-of-clans/en/articles/heroes-hero-skins-4.html" target="_blank" rel="noopener noreferrer">Supercell：英雄皮肤</a>）</small>
+4. 英雄在[英雄殿堂](/upgrade/0489-Hero-Hall)中解锁、升级和编队，等级上限由英雄殿堂等级决定。进攻阵容最多选择四名英雄；防守英雄通过英雄旗帜分配，可以与进攻阵容不同。<small>（来源：<a href="https://support.supercell.com/clash-of-clans/en/articles/about-heroes-pets-9.html" target="_blank" rel="noopener noreferrer">Supercell：英雄与战宠</a>）</small>
 3. 下方的数据均为不含装备的数据。
 4. 英雄在防守时没有装备。
 

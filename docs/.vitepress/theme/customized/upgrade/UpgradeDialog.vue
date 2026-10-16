@@ -101,17 +101,20 @@ const hasPreferredTargetTip = computed(() => dialogState.value.hasPreferredTarge
     <Dialog dialogId="cp-training-dialog-2025" title="注意" :hasSecondaryBtn="false"
         :hasPrimaryBtn="true" primaryText="我知道了" v-if="hasTrainingDialog && hasNewestTrainingDialog">
         2025 年 3 月更新后，兵种训练时间、法术配置时间和攻城机器建造时间均被取消。<br>
-        如果你对 coc 训练机制的变迁感兴趣，请移步这篇文章：coc 的部队训练机制经历过哪些变迁？
+        现在可直接调整部队配置，无需等待训练队列；英雄战后的恢复等待也已取消。<br>
+        <small>来源：<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/welcome-to-clash-anytime-update/" target="_blank" rel="noopener noreferrer">Supercell 2025 年 3 月更新公告</a>。</small>
     </Dialog>
     <Dialog dialogId="cp-training-dialog-2022" title="注意" :hasSecondaryBtn="false"
         :hasPrimaryBtn="true" primaryText="我知道了" v-if="hasTrainingDialog && hasV2TrainingDialog">
         该兵种最后一次推出时，训练时间尚未被取消，而训练费用已被取消。这里显示的是单训练营时代（2022/10 - 2025/03）的训练时间。<br>
-        要想讲清楚当时的训练机制，需要补充大量背景知识，这里就不做介绍，感兴趣的玩家请移步这篇文章：coc 的部队训练机制经历过哪些变迁？
+        这个时期每种训练营只保留一座，使用统一队列；训练营、法术工厂或攻城机器工坊升级期间仍可训练对应单位，但速度减半、耗时翻倍。<br>
+        <small>来源：<a href="https://clashpost.com/p/4727" target="_blank" rel="noopener noreferrer">原站训练机制记录</a>。</small>
     </Dialog>
     <Dialog dialogId="cp-training-dialog-legacy" title="注意" :hasSecondaryBtn="false"
         :hasPrimaryBtn="true" primaryText="我知道了" v-if="hasTrainingDialog && hasV1TrainingDialog">
         该兵种最后一次推出时，训练时间和训练费用尚未被取消。该兵种最后一次推出时是四训练营时代，不过为了方便起见，这里显示的是单训练营时代（2022/10 - 2025/03）的训练时间。<br>
-        要想讲清楚当时的训练机制，需要补充大量背景知识，这里就不做介绍，感兴趣的玩家请移步这篇文章：coc 的部队训练机制经历过哪些变迁？
+        多训练营时代，只有已解锁该兵种且未在升级的训练营会参与训练；参与的训练营越多，耗时越短。2022 年 10 月合并训练营后，单座训练营的正常速度等同于合并前全部训练营共同工作。<br>
+        <small>来源：<a href="https://clashpost.com/p/4727" target="_blank" rel="noopener noreferrer">原站训练机制记录</a>。</small>
     </Dialog>
     <Dialog dialogId="cp-judge-square-dialog" title="什么是判定面积？" :hasSecondaryBtn="false"
         :hasPrimaryBtn="true" primaryText="我知道了" v-if="hasJudgeSquare">

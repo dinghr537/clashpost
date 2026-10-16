@@ -46,7 +46,7 @@ dataSyncedOn: 2026-10-13
 1. 部落城堡内可存储的资源数量只与玩家的大本营等级和部落等级有关，而与部落城堡等级无关，详见页面下方的表格。
 2. 部落城堡升级时仍然可以请求援兵。
 3. [雷电法术](/upgrade/0100-Lightning-Spell) 不能对部落城堡造成伤害，[地震法术](/upgrade/0181-Earthquake-Spell) 可以。
-4. 自 2021 年 4 月更新起，部落城堡可收到的兵种等级有限制，详见：为什么我的满级兵捐出去之后等级变低了？援兵等级限制机制讲解。
+4. 援兵等级上限取决于接收方的部落城堡对应的实验室等级上限，而非捐赠者自身等级。例如，1 级城堡最多接收相当于 5 级实验室可研究的兵种等级；超过上限的援兵会自动降级。超级部队还要求该实验室上限足以将原兵种升至可强化等级。攻城机器使用单独的接收等级限制。<small>（来源：<a href="https://clashofclans.fandom.com/wiki/Clan_Castle?oldid=623293" target="_blank" rel="noopener noreferrer">部落冲突维基</a>）</small>
 
 <UnitProperties>
     <UnitProperty pKey="占地面积" pValue="3×3" />

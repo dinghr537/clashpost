@@ -27,7 +27,7 @@ dataSyncedOn: 2026-10-13
 
 <SmallTitle>重要说明</SmallTitle>
 
-1. 如果你不了解攻城机器的基础设定，请阅读这篇文章：浅谈攻城机器的一些基础设定。
+1. 每场进攻只能部署一台攻城机器，可在自己制造的和获捐的机器中选择。机器不占兵营人口，携带的援军容量由部落城堡决定；机器被摧毁时会放出剩余援军，也可点击已部署机器的图标提前解体。攻城机器不受进攻方施放的法术影响。<small>（来源：<a href="https://support.supercell.com/clash-of-clans/en/articles/siege-machines-3.html" target="_blank" rel="noopener noreferrer">Supercell：攻城机器</a>）</small>
 2. 和 [掘地矿工](/upgrade/000b-Miner) 类似，部署攻城钻机后，它会在地下行进，避开路线上的一系列防御建筑，之后在目标建筑附近破土而出，直接攻击目标建筑。
 3. 攻城钻机从地下出来的一瞬间可以破掉两层墙，也就是说当 [城墙](/upgrade/0300-Walls) 和防御中间隔着一格时可以破墙，隔两格不行。
 

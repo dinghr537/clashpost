@@ -25,10 +25,10 @@ dataSyncedOn: 2026-10-13
 
 <SmallTitle>重要说明</SmallTitle>
 
-1. 如果你不了解攻城机器的基础设定，请阅读这篇文章：浅谈攻城机器的一些基础设定。
+1. 每场进攻只能部署一台攻城机器，可在自己制造的和获捐的机器中选择。机器不占兵营人口，携带的援军容量由部落城堡决定；机器被摧毁时会放出剩余援军，也可点击已部署机器的图标提前解体。攻城机器不受进攻方施放的法术影响。<small>（来源：<a href="https://support.supercell.com/clash-of-clans/en/articles/siege-machines-3.html" target="_blank" rel="noopener noreferrer">Supercell：攻城机器</a>）</small>
 2. 部队发射器部署后会向我方部队发射一桶一桶的部队。
     - 部队发射器发射部队时会同时发射自带部队和城堡内的援军，每次发射的配置为 [巨人](/upgrade/0002-Giant)、[野蛮人](/upgrade/0000-Barbarian)、[弓箭手](/upgrade/0001-Archer)、[炸弹人](/upgrade/0004-Wall-Breaker) 和 一个 [部落城堡](/upgrade/0407-Clan-Castle) 内的部队，其中巨人最先出来。
-    - 城堡内部队的出现顺序与这篇文章所述相同：援军的出现顺序。
+    - 城堡援军按人口从少到多依次发射；一桶中的自带巨人最先出现。<small>（来源：<a href="https://clashofclans.fandom.com/wiki/Troop_Launcher?oldid=625335" target="_blank" rel="noopener noreferrer">部落冲突维基</a>）</small>
 3. 部队发射器部署后不能移动，即使没有受到伤害也会自动掉血。[大守护者](/upgrade/0202-Grand-Warden) 的 [永恒书卷](/upgrade/0780-Eternal-Tome) 装备无法阻止部队发射器自身掉血。
 5. 部队发射器中的部队等级取决于部队发射器的等级，而非玩家在 [实验室](/upgrade/0483-Laboratory) 中的部队等级。
 6. 当部队发射器的血量清零，或发射完所有自带部队时，部队发射器就会自动解体并释放部落城堡内的部队。部队发射器解体后，只有尚未发射的自带部队会消失，援军会正常出来。

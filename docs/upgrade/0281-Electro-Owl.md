@@ -23,7 +23,7 @@ dataSyncedOn: 2026-10-13
 <SmallTitle>重要说明</SmallTitle>
 
 1. 闪枭的技能（电击高手）：闪枭的电击会弹射到附近的另一个目标。
-2. 闪枭攻击目标时，闪电可以往附近的目标弹射一次，弹射规律跟 [雷龙](/upgrade/000c-Electro-Dragon) 一样，只不过闪枭只能弹一次。如想了解闪枭的闪电弹射规律，请参考：闪电传递大揭秘——雷龙、闪枭、超法的闪电链机制讲解{target="_blank"}。
+2. 闪枭每次攻击最多命中两个目标，第二个目标受到首个目标伤害的 80%。弹射规则与[雷龙](/upgrade/000c-Electro-Dragon)相同：两个目标的判定面积最近距离须小于 3 格；在符合条件的目标中，优先选择主目标中心到其边缘距离较近的目标（兵营额外计入 0.75 格），距离相同时比较最大生命值，再比较建造顺序。闪枭可以跟随主人攻击城墙，但城墙不能成为弹射的第二个目标。<small>（来源：<a href="https://clashpost.com/p/5546" target="_blank" rel="noopener noreferrer">原站闪电链机制研究</a>）</small><small>（来源：<a href="https://clashofclans.fandom.com/wiki/Electro_Owl?oldid=620659" target="_blank" rel="noopener noreferrer">部落冲突维基</a>）</small>
 3. 如果主人被召回或者阵亡，闪枭会变成一个自由单位，此时没有偏好。
 4. 闪枭自身不触发陷阱，但其他部队触发的陷阱可能会误伤到它。
 
