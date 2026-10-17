@@ -93,6 +93,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/04/27">
+        <TimelineRow>新增 13 级气球兵。 <a href="https://clashofclans.fandom.com/wiki/Balloon#History" target="_blank" rel="noopener noreferrer">来源</a></TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/11/17">
         <TimelineRow>12 级气球兵的升级时间和升级费用减少。</TimelineRow>
     </TimelineItem>

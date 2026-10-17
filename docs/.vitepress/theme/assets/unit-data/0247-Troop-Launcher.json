@@ -396,7 +396,14 @@
       "logicalPath": "/upgrade/home_tech/0247/Troop_Launcher4.png"
     }
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-04-27",
+      "description": "攻城机器开始受到小火灵留下的火焰伤害；不再受到 14—16 本大本营毒药、生命宝石效果及守护者学徒光环的影响。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/",
+      "sourcePublishedOn": "2026-04-27"
+    }
+  ],
   "facts": [
     "The Troop Launcher is the eighth Siege Machine unlocked when the Workshop is upgraded to level 8, which requires Town Hall level 16.",
     "The Troop Launcher cannot start shooting any barrels if there is only a unit worth 1 housing space deployed, and can only be activated if a unit with at least 2 housing space is deployed, or two troops worth one housing space and are close to each other."

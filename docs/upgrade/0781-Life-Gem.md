@@ -104,6 +104,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/04/27">
+        <TimelineRow>生命宝石效果不再影响攻城机器。 <a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2026/01/12">
         <TimelineRow>1 ~ 18 级生命宝石装备的光环加血百分比、光环加血上限、英雄生命值增加值提升。</TimelineRow>
         <TimelineRow>4 ~ 18 级生命宝石装备的英雄每秒伤害增加值提升。</TimelineRow>

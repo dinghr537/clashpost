@@ -571,7 +571,12 @@
       "logicalPath": "/upgrade/home_tech/000c/Electro_Dragon9.png"
     }
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-07-14",
+      "description": "Increased hitpoint at levels 8 and 9: Level 8: 6,200 -> 6,400 Hitpoints Level 9: 6,700 -> 6,900 Hitpoints Increased damage at levels 8 and 9: Level 8: 460 -> 475 Damage Level 9: 500 -> 510 Damage"
+    }
+  ],
   "facts": [
     "The Electro Dragon is the thirteenth Elixir Troop unlocked at Barracks level 13, which requires Town Hall level 11. They are powerful aerial troops that are slow in both movement and attack speed but have high health and damage.",
     "The Electro Dragon attacks with chain lightning, capable of hitting up to 4 other targets after the initial hit, with each successive hit inflicting 20% less damage than the previous one. In order for the lightning to chain onto another target, it must be sufficiently close to the previous target."

@@ -752,6 +752,27 @@
     {
       "date": "2026-02-27",
       "description": "Explained how the Flame Blower works."
+    },
+    {
+      "date": "2026-06-16",
+      "description": "装备触发顺序改为由装备本身决定，不再取决于装备栏位置；同时携带助燃器与火箭背包时，先触发助燃器，再触发火箭背包。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-anime-fury-update-is-here/",
+      "sourcePublishedOn": "2026-06-15",
+      "dateSourceUrl": "https://clashofclans.fandom.com/wiki/X-Bow?oldid=596696#History"
+    },
+    {
+      "date": "2026-07-14",
+      "description": "为处理火箭背包有时无法触发的问题，暂时恢复助燃器沿火箭背包方向推动飞龙公爵的行为，等待后续版本正式修复。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/news/july-balance-update/",
+      "sourcePublishedOn": "2026-07-09",
+      "dateSourceUrl": "https://clashofclans.fandom.com/wiki/Dragon_Rider?oldid=625318#History"
+    },
+    {
+      "date": "2026-08-31",
+      "description": "修复与火箭背包配合时的方向问题，助燃器现在沿飞龙公爵面朝的方向喷射。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/august-update-3/",
+      "sourcePublishedOn": "2026-08-30",
+      "dateSourceUrl": "https://clashofclans.fandom.com/wiki/Diggy?oldid=625147#History"
     }
   ],
   "facts": [],

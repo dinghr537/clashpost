@@ -813,7 +813,14 @@
       "logicalPath": "/upgrade/home_heroes/0781/Life_Gem_info.png"
     }
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-04-27",
+      "description": "生命宝石效果不再影响攻城机器。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/",
+      "sourcePublishedOn": "2026-04-27"
+    }
+  ],
   "facts": [],
   "notices": []
 }

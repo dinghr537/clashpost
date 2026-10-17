@@ -786,7 +786,14 @@
       "logicalPath": "/upgrade/home_buildings/0382/Air_Bomb_unarmed.png"
     }
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-04-27",
+      "description": "18 本增加 1 个空中炸弹的建造名额。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/",
+      "sourcePublishedOn": "2026-04-27"
+    }
+  ],
   "facts": [
     "It is extremely effective against large groups of Minions, Lava Pups and Bats spawned by Bat Spells and does a significant amount of damage to Balloons (especially level 4 and below). It is much less effective against higher health targets such as Baby Dragons, Dragons, and Electro Dragons."
   ],

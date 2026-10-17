@@ -76,6 +76,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/04/27">
+        <TimelineRow>新增 4 级根蔓骑士。 <a href="https://clashofclans.fandom.com/wiki/Root_Rider#History" target="_blank" rel="noopener noreferrer">来源</a></TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/10/06">
         <TimelineRow>2 ~ 3 级根蔓骑士的升级时间减少。</TimelineRow>
     </TimelineItem>

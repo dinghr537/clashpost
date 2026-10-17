@@ -799,7 +799,14 @@
       "logicalPath": "/upgrade/home_heroes/0282/Mighty_Yak_field.png"
     }
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-04-27",
+      "description": "修复大牦有时迟迟不攻击城墙的寻路问题。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/",
+      "sourcePublishedOn": "2026-04-27"
+    }
+  ],
   "facts": [
     "The Mighty Yak is the third Pet unlocked from the level 3 Pet House. It has very high health, and does extra damage (x20) to Walls, similar to the Wall Wrecker.",
     "Every time the Mighty Yak moves, once it is in contact with other buildings and it will ram into it and deal a first strike once it stops, then the second attack happens after 1.6 seconds then return to its normal attack rate of 2.1 seconds.",

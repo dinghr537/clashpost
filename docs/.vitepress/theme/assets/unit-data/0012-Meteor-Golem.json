@@ -565,8 +565,21 @@
   ],
   "history": [
     {
+      "date": "2026-07-13",
+      "description": "Added 60 Meteor Golems and Meteormites (both temporary versions) to Multiplayer and Revenge attacks in a Mass Troops event.",
+      "dateRaw": "July 13-14, 2026",
+      "dateEnd": "2026-07-14"
+    },
+    {
       "date": "2026-07-14",
       "description": "Increased hitpoint at all levels: Level 1: 13,000 -> 14,500 Hitpoints Level 2: 14,500 -> 16,000 Hitpoints Level 3: 16,000 -> 17,500 Hitpoints Increased damage at all levels: Level 1: 450 -> 480 Damage Level 2: 500 -> 530 Damage Level 3: 550 -> 580 Damage"
+    },
+    {
+      "date": "2026-08-31",
+      "description": "修复陨石戈仑在分裂、被投掷或合体时丢失愤怒法术效果及目标的问题。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/august-update-3/",
+      "sourcePublishedOn": "2026-08-30",
+      "dateSourceUrl": "https://clashofclans.fandom.com/wiki/Diggy?oldid=625147#History"
     }
   ],
   "facts": [

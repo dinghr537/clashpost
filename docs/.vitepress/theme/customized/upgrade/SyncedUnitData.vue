@@ -2,6 +2,7 @@
 import { computed } from "vue";
 import UnitTable from "./UnitTable.vue";
 import { imagePlaceholder } from "@/assets/local-images.js";
+import { publicWikiUrl } from "@/assets/wiki-links.mjs";
 import { dataLabel, factLabel, historyLabel, imageLabel, tableHeaderLines } from "@/assets/data-labels.js";
 
 const props = defineProps({
@@ -51,7 +52,7 @@ function bodyDisplay(table, cell, rowIndex, column) {
 <template>
     <p class="cp-data-source">
         数据同步：{{ data.sync.syncedOn }} ·
-        <a :href="data.sync.revisionUrl" target="_blank" rel="noopener noreferrer">部落冲突维基</a>
+        <a :href="publicWikiUrl(data.sync.revisionUrl)" target="_blank" rel="noopener noreferrer">部落冲突维基</a>
     </p>
     <slot name="introduction" />
     <figure v-if="!$slots.introduction && images.length" class="cp-data-cover">
@@ -87,7 +88,7 @@ function bodyDisplay(table, cell, rowIndex, column) {
     <template v-if="history.length">
         <SmallTitle>2026 年更新历史</SmallTitle>
         <ul class="cp-data-history">
-            <li v-for="(item, index) in history" :key="index"><strong>{{ item.date }}</strong> {{ historyLabel(item.description) }} <a v-if="item.sourceUrl" :href="item.sourceUrl" target="_blank" rel="noopener noreferrer">来源</a></li>
+            <li v-for="(item, index) in history" :key="index"><strong>{{ item.date }}</strong> {{ historyLabel(item.description) }} <a v-if="item.sourceUrl" :href="publicWikiUrl(item.sourceUrl)" target="_blank" rel="noopener noreferrer">来源</a></li>
         </ul>
         <p class="cp-data-source">以上为来源记录的变更日期及中文整理；数据同步日期列在页首。</p>
     </template>

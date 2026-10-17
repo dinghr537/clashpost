@@ -1366,8 +1366,35 @@
       "description": "Made the Rocket Backpack available in the Sound of Clash event."
     },
     {
+      "date": "2026-04-27",
+      "description": "修复火箭背包的多项技能问题。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/",
+      "sourcePublishedOn": "2026-04-27"
+    },
+    {
       "date": "2026-05-26",
       "description": "Reduced ability damage at levels 21 and 27: Level 21-23: 1,925 -> 1,875 Damage Level 27: 2,200 -> 2,150 Damage"
+    },
+    {
+      "date": "2026-06-16",
+      "description": "装备触发顺序改为由装备本身决定，不再取决于装备栏位置；同时携带助燃器与火箭背包时，先触发助燃器，再触发火箭背包。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-anime-fury-update-is-here/",
+      "sourcePublishedOn": "2026-06-15",
+      "dateSourceUrl": "https://clashofclans.fandom.com/wiki/X-Bow?oldid=596696#History"
+    },
+    {
+      "date": "2026-07-14",
+      "description": "为处理火箭背包有时无法触发的问题，暂时恢复助燃器沿火箭背包方向推动飞龙公爵的行为，等待后续版本正式修复。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/news/july-balance-update/",
+      "sourcePublishedOn": "2026-07-09",
+      "dateSourceUrl": "https://clashofclans.fandom.com/wiki/Dragon_Rider?oldid=625318#History"
+    },
+    {
+      "date": "2026-08-31",
+      "description": "修复冲刺缺少火焰效果或过早结束的问题；飞龙公爵会先完成冲刺再被击败，凤凰临时复活效果在冲刺途中结束也不会立即中断冲刺。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/august-update-3/",
+      "sourcePublishedOn": "2026-08-30",
+      "dateSourceUrl": "https://clashofclans.fandom.com/wiki/Diggy?oldid=625147#History"
     }
   ],
   "facts": [],

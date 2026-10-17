@@ -75,6 +75,9 @@ dataSyncedOn: 2026-10-13
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/04/27">
+        <TimelineRow>气球兵新增 13 级，对应的火箭气球兵开放 13 级。 <a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/06/16">
         <TimelineRow>在 17 本新增 12 级气球兵，超级部队的等级也相应更新。</TimelineRow>
     </TimelineItem>

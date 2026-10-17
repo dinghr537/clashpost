@@ -25,6 +25,40 @@ RESOURCE_NAMES = {
 }
 
 
+def history_rows(table, through, since='2026-02-01'):
+    """Read both Wiki history schemas; preserve imprecise dates for review."""
+    if not table or not table[0] or table[0][0] not in ('Date', 'Patch') or 'Description' not in table[0]:
+        return None
+    result = []
+    for row in table[1:]:
+        raw = re.sub(r'(\d+)(st|nd|rd|th)\b', r'\1', row[0]).strip()
+        date_info = {}
+        if '?' in raw:
+            date_info = {'dateRaw': row[0], 'dateUncertain': True}
+            raw = raw.replace('?', '')
+        span = re.fullmatch(r'([A-Za-z]+) (\d+)[–-](\d+),? (\d{4})', raw)
+        if span:
+            month, first, last, year = span.groups()
+            raw = f'{month} {first}, {year}'
+            date_info = {'dateRaw': row[0], 'dateEnd': datetime.strptime(f'{month} {last}, {year}', '%B %d, %Y').date().isoformat()}
+        when = None
+        for fmt in ('%B %d, %Y', '%d %B %Y', '%b %d, %Y', '%d %b %Y', '%B %d %Y', '%b %d %Y'):
+            try:
+                when = datetime.strptime(raw, fmt).date().isoformat()
+                break
+            except ValueError:
+                pass
+        if when is None:
+            # Do not silently drop a new history format in the reviewed period.
+            years = re.findall(r'\b\d{4}\b', raw)
+            if any(since[:4] <= year <= through[:4] for year in years):
+                raise ValueError(f'Unrecognised history date: {row[0]}')
+            continue
+        if since <= when <= through:
+            result.append({'date': when, 'description': row[table[0].index('Description')], **date_info})
+    return result
+
+
 def is_unit_image(image, unit_id):
     # Names and numeric suffixes cannot distinguish sprites from diagrams,
     # screenshots or another game's artwork. Require a reviewed exact source.
@@ -309,20 +343,9 @@ def make_record(item, date):
     source_url = 'https://clashofclans.fandom.com/wiki/' + quote(snapshot['title'].replace(' ', '_'), safe='/()_-.')
     tables, history = [], []
     for index, (table, context) in enumerate(zip(parser.tables, parser.contexts)):
-        if table and table[0][0] == 'Date' and 'Description' in table[0]:
-            for row in table[1:]:
-                when = None
-                raw_date = re.sub(r'(\d+)(st|nd|rd|th)\b', r'\1', row[0])
-                for date_format in ('%B %d, %Y', '%d %B %Y', '%b %d, %Y', '%d %b %Y'):
-                    try:
-                        when = datetime.strptime(raw_date, date_format).date().isoformat()
-                        break
-                    except ValueError:
-                        pass
-                if not when:
-                    continue
-                if '2026-02-01' <= when <= date:
-                    history.append({'date': when, 'description': row[table[0].index('Description')]})
+        events = history_rows(table, date)
+        if events is not None:
+            history.extend(events)
             continue
         headers, rows, header_count = headers_and_rows(table)
         if not is_data_table(headers, rows, context):
@@ -445,6 +468,13 @@ def make_record(item, date):
     if item['unitId'] == '0e1d-Totem-Thrower' and not any(event['date'] == '2026-10-08' for event in history):
         history.append({'date': '2026-10-08', 'description': '在 Portal Panic 活动中开放使用，活动截至 10 月 25 日。',
                         'sourceUrl': 'https://supercell.com/en/games/clashofclans/blog/news/the-portal-panic-medal-event-rifts-its-way-into-clash/', 'type': 'availability'})
+    # Keep reviewed official supplements even when the Wiki history is incomplete.
+    for event in json.loads((ROOT / 'scripts/supplemental-history.json').read_text()):
+        if event['unitId'] == item['unitId'] and event['date'] <= date:
+            entry = {key: value for key, value in event.items() if key != 'unitId'}
+            if not any(h['date'] == entry['date'] and h['description'] == entry['description'] for h in history):
+                history.append(entry)
+    history.sort(key=lambda event: event['date'])
     notices = ['来源已停用该单位的蓄能；升级表以当前普通等级为准。'] if disabled_charge else []
     if module == 'upgrade-temp' and not item['unitId'].startswith('09'):
         notices.append('临时单位的来源表格同步日期不表示活动开放日期；本期可用状态在页首另行说明。')

@@ -79,6 +79,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/04/27">
+        <TimelineRow>攻城机器开始受到小火灵留下的火焰伤害；不再受到 14—16 本大本营毒药、生命宝石效果及守护者学徒光环的影响。 <a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/11/17">
         <TimelineRow>4 级部队发射器的升级时间和升级费用减少。</TimelineRow>
     </TimelineItem>

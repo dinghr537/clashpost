@@ -73,6 +73,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/04/27">
+        <TimelineRow>新增 5 级蔓生法术；2 级升级时间由 5 天 12 小时缩短为 5 天。 <a href="https://clashofclans.fandom.com/wiki/Overgrowth_Spell#History" target="_blank" rel="noopener noreferrer">来源</a></TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/10/06">
         <TimelineRow>3 ~ 4 级蔓生法术的升级时间减少。</TimelineRow>
     </TimelineItem>

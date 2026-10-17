@@ -6,7 +6,7 @@ robots: noindex, nofollow
 hasUpdateTime: false
 ---
 
-本项目是「部落驿站」的继承项目。数据页保留原资料，并由本项目维护者补充数值、翻译和说明。各单位采用的 Wiki 页面、固定修订及核对日期见该单位页尾；其他参考资料在对应说明旁标注。
+本项目是「部落驿站」的继承项目。数据页保留原资料，并由本项目维护者补充数值、翻译和说明。各单位采用的 Wiki 页面和核对日期见该单位页尾，固定修订号保存在对应的数据记录中；其他参考资料在对应说明旁标注。
 
 ## 部落驿站原资料
 
@@ -18,7 +18,7 @@ hasUpdateTime: false
 
 ## Clash of Clans Wiki
 
-Wiki 文字与表格整理来自 **Clash of Clans Wiki 的贡献者**，除另有声明外，原文采用 [CC BY-SA 3.0 Unported](https://creativecommons.org/licenses/by-sa/3.0/deed.zh-hans)。各单位页的固定修订链接指向所采用的原文，其编辑历史记录了贡献者。[Wiki 版权说明](https://clashofclans.fandom.com/wiki/Clash_of_Clans_Wiki:Copyrights) · [Fandom 转载与署名说明](https://community.fandom.com/wiki/Help:Licensing)
+Wiki 文字与表格整理来自 **Clash of Clans Wiki 的贡献者**，除另有声明外，原文采用 [CC BY-SA 3.0 Unported](https://creativecommons.org/licenses/by-sa/3.0/deed.zh-hans)。单位页的来源链接打开公开的当前条目，编辑历史记录了贡献者。由于 Fandom 的历史修订页可能要求登录，读者入口不带 `oldid` 参数；采用的修订号及固定修订地址仍保留在数据记录中。当前条目可能已更新，本站数值以标注的核对日期为准。[Wiki 版权说明](https://clashofclans.fandom.com/wiki/Clash_of_Clans_Wiki:Copyrights) · [Fandom 转载与署名说明](https://community.fandom.com/wiki/Help:Licensing)
 
 本站的修改包括中文翻译、表格字段整理、数值格式转换，以及与原部落驿站资料合并。对这些文字和表格的改编采用 CC BY-SA 4.0；采用后续同要素版本的依据是 [CC BY-SA 3.0 第 4(b) 条](https://creativecommons.org/licenses/by-sa/3.0/legalcode.en#s4b)。保留的未改编 Wiki 原文仍适用其原 CC BY-SA 3.0 许可。
 

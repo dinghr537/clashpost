@@ -569,7 +569,20 @@
       "logicalPath": "/upgrade/home_tech/0180/Poison_Spell.png"
     }
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-02-23",
+      "description": "毒药法术可对大本营守卫造成完整伤害，移速和攻速降低效果按通常值的 70% 生效；四月更新后伤害规则再次调整。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-february-update-has-escaped/",
+      "sourcePublishedOn": "2026-02-23"
+    },
+    {
+      "date": "2026-04-27",
+      "description": "重新对大本营守卫生效，但只造成正常毒药伤害的 30%。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/",
+      "sourcePublishedOn": "2026-04-27"
+    }
+  ],
   "facts": [
     "The Poison Spell slowly ramps up in damage the longer a unit stays poisoned. The effect lasts for an additional 6 seconds after the unit leaves the poison radius."
   ],

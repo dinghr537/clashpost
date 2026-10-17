@@ -91,6 +91,12 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/08/31">
+        <TimelineRow>新增 11—15 级地兽。 <a href="https://clashofclans.fandom.com/wiki/Diggy#History" target="_blank" rel="noopener noreferrer">来源</a></TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2026/02/23">
+        <TimelineRow>调整地下单位的战斗逻辑，使其面对多个骷髅兵时的行为更稳定。 <a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-february-update-has-escaped/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/10/06">
         <TimelineRow>8 级地兽的升级费用降低。</TimelineRow>
         <TimelineRow>现在地兽不仅可以瘫痪防御建筑，还可以瘫痪部队和英雄了（更新前只能瘫痪防御建筑）。</TimelineRow>

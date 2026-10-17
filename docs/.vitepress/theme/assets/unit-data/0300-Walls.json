@@ -5921,7 +5921,23 @@
       "logicalPath": "/upgrade/home_buildings/0300/Wall18.png"
     }
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-02-23",
+      "description": "Allowed 75 more Wall pieces to be upgraded to level 19 (for a total of 200). Changed the level 19 Wall design which appeared slightly darker. Wall19"
+    },
+    {
+      "date": "2026-04-27",
+      "description": "Allowed 75 more Wall pieces to be upgraded to level 19 (for a total of 275)."
+    },
+    {
+      "date": "2026-06-16",
+      "description": "开放十八本剩余城墙升至 19 级。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-anime-fury-update-is-here/",
+      "sourcePublishedOn": "2026-06-15",
+      "dateSourceUrl": "https://clashofclans.fandom.com/wiki/X-Bow?oldid=596696#History"
+    }
+  ],
   "facts": [
     "Walls are defenses that are unlocked when the Town Hall is upgraded to level 2."
   ],

@@ -333,8 +333,20 @@
       "description": "Removed the splash damage's ability to hit both ground and air troops at the same time, with the splash damage only targeting the troop type it initially hits."
     },
     {
+      "date": "2026-02-23",
+      "description": "开始受到毒药法术影响：承受完整伤害，移速和攻速降低效果按通常值的 70% 生效。此规则后来在四月调整。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-february-update-has-escaped/",
+      "sourcePublishedOn": "2026-02-23"
+    },
+    {
       "date": "2026-04-27",
       "description": "Made the Longshot affected by the Poison Spell, but its effects only apply by 30%. Poison Effect"
+    },
+    {
+      "date": "2026-04-27",
+      "description": "守卫被冻结时，不再触发激活。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/",
+      "sourcePublishedOn": "2026-04-27"
     }
   ],
   "facts": [

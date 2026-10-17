@@ -138,6 +138,9 @@ dataSyncedOn: 2026-10-13
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/04/27">
+        <TimelineRow>大雪怪新增 8 级，对应的超级雪怪开放 8 级。 <a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/05/12">
         <TimelineRow>超级大雪怪于 2025 年 5 月的“迷你大舞台”活动中正式推出，并作为永久兵种加入游戏。</TimelineRow>
         <TimelineRow>与之前相比，6 - 7 级超级大雪怪可分裂出的雷电小雪怪数量略微减少。</TimelineRow>

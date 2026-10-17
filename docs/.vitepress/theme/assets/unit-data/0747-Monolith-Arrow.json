@@ -1479,6 +1479,13 @@
     {
       "date": "2026-06-16",
       "description": "Removed the Monolith Arrow deactivation limit after 460 housing space was deployed."
+    },
+    {
+      "date": "2026-08-31",
+      "description": "图腾法术召唤物的人口计数由错误的 20 修正为 1，修复过快消耗擎天箭矢部署人口额度的问题。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/august-update-3/",
+      "sourcePublishedOn": "2026-08-30",
+      "dateSourceUrl": "https://clashofclans.fandom.com/wiki/Diggy?oldid=625147#History"
     }
   ],
   "facts": [

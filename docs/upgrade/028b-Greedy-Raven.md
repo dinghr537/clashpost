@@ -83,6 +83,9 @@ const tableExtraInfo = [
     <TimelineItem date="2026/02/23">
         <TimelineRow>新战宠：贪婪渡鸦。</TimelineRow>
     </TimelineItem>
+    <TimelineItem date="2026/02/20">
+        <TimelineRow>公布贪婪渡鸦，共10级。 <a href="https://clashofclans.fandom.com/wiki/Greedy_Raven#History" target="_blank" rel="noopener noreferrer">来源</a></TimelineRow>
+    </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
 <p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Greedy_Raven?oldid=624123" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>

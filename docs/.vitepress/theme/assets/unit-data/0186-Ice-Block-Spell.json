@@ -298,7 +298,12 @@
       "logicalPath": "/upgrade/home_tech/0186/Ice_Block_Spell_info.png"
     }
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-04-27",
+      "description": "Added the level 6 Ice Block Spell. Reduced upgrade times at levels 4 and 5: Level 4: 14d -> 12d. Time Level 5: 16d -> 14d. Time"
+    }
+  ],
   "facts": [
     "The Ice Block Spell is the seventh Dark Spell unlocked at level 7 Dark Spell Factory, which requires Town Hall level 14."
   ],

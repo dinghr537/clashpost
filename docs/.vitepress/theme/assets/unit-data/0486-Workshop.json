@@ -703,7 +703,12 @@
       "sourceAlt": "Workshop9"
     }
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-04-27",
+      "description": "Added the level 9 Workshop with the introduction of the Sky Wagon. Workshop9"
+    }
+  ],
   "facts": [
     "The Workshop is an army building that constructs Siege Machines, which are special weapons that carry your Clan Castle troops. Siege Machines are upgraded using Elixir in the Laboratory. The Workshop is unlocked at Town Hall level 12.",
     "Siege Machines can be donated to players with Clan Castle level 6 or higher."

@@ -894,7 +894,12 @@
       "sourceAlt": "Army Camp14"
     }
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-04-27",
+      "description": "Added the level 14 Army Camp. Army Camp14 Reduced upgrade time at level 13 from 10d to 7d 12h. Time"
+    }
+  ],
   "facts": [
     "The maximum housing spaces you can have for your troops is 352 (4 Army Camps x 88 spaces). This increases to 407 if you include the extra 55 in a level 13 Clan Castle at Town Hall 17.",
     "You should not surround your Army Camps with Walls, as they do not need protection. Army Camps also occupy a lot of space (4x4). More Walls are needed to contain them when the extra Walls can be used to surround Defensive Buildings that are already inside the Walls, strengthening the defense."

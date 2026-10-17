@@ -84,6 +84,9 @@ const tableExtraInfo = [
     <TimelineItem date="2026/04/27">
         <TimelineRow>新装备：雷电獠牙。</TimelineRow>
     </TimelineItem>
+    <TimelineItem date="2026/04/26">
+        <TimelineRow>公布雷电獠牙，共18级。 <a href="https://clashofclans.fandom.com/wiki/Electro_Fangs#History" target="_blank" rel="noopener noreferrer">来源</a></TimelineRow>
+    </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
 

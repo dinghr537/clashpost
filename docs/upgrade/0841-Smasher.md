@@ -80,6 +80,10 @@ const tableExtraInfo = [
 <Timeline>
     <TimelineItem date="2026/04/27">
         <TimelineRow>粉碎者开始受毒药法术影响，效果为正常值的30%。</TimelineRow>
+        <TimelineRow>守卫被冻结时，不再触发激活。 <a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2026/02/23">
+        <TimelineRow>开始受到毒药法术影响：承受完整伤害，移速和攻速降低效果按通常值的 70% 生效。此规则后来在四月调整。 <a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-february-update-has-escaped/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
     </TimelineItem>
     <TimelineItem date="2026/01/12">
         <TimelineRow>巡逻半径从 10 格增加到 12 格。</TimelineRow>

@@ -75,11 +75,24 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/08/31">
+        <TimelineRow>修复与火箭背包配合时的方向问题，助燃器现在沿飞龙公爵面朝的方向喷射。 <a href="https://supercell.com/en/games/clashofclans/blog/release-notes/august-update-3/" target="_blank" rel="noopener noreferrer">官方公告</a>（08/30 发布；<a href="https://clashofclans.fandom.com/wiki/Diggy?oldid=625147#History" target="_blank" rel="noopener noreferrer">更新日期</a>）</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2026/07/14">
+        <TimelineRow>为处理火箭背包有时无法触发的问题，暂时恢复助燃器沿火箭背包方向推动飞龙公爵的行为，等待后续版本正式修复。 <a href="https://supercell.com/en/games/clashofclans/blog/news/july-balance-update/" target="_blank" rel="noopener noreferrer">官方公告</a>（07/09 发布；<a href="https://clashofclans.fandom.com/wiki/Dragon_Rider?oldid=625318#History" target="_blank" rel="noopener noreferrer">更新日期</a>）</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2026/06/16">
+        <TimelineRow>装备触发顺序改为由装备本身决定，不再取决于装备栏位置；同时携带助燃器与火箭背包时，先触发助燃器，再触发火箭背包。 <a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-anime-fury-update-is-here/" target="_blank" rel="noopener noreferrer">官方公告</a>（06/15 发布；<a href="https://clashofclans.fandom.com/wiki/X-Bow?oldid=596696#History" target="_blank" rel="noopener noreferrer">更新日期</a>）</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2026/02/27">
         <TimelineRow>公布助燃器的技能机制。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2026/02/23">
         <TimelineRow>新装备：助燃器。</TimelineRow>
+        <TimelineRow>此时仅加入游戏，飞龙公爵仍被囚禁，装备暂时无法获取。 <a href="https://clashofclans.fandom.com/wiki/Flame_Blower#History" target="_blank" rel="noopener noreferrer">来源</a></TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2026/02/22">
+        <TimelineRow>飞龙公爵公布时展示助燃器。 <a href="https://clashofclans.fandom.com/wiki/Flame_Blower#History" target="_blank" rel="noopener noreferrer">来源</a></TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

@@ -97,6 +97,10 @@ const tableExtraInfo = [
     </TimelineItem>
     <TimelineItem date="2026/04/27">
         <TimelineRow>新增攻城机器：空中战车。</TimelineRow>
+        <TimelineRow>攻城机器开始受到小火灵留下的火焰伤害；不再受到 14—16 本大本营毒药、生命宝石效果及守护者学徒光环的影响。 <a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2026/04/26">
+        <TimelineRow>公布空中战车，共4级。 <a href="https://clashofclans.fandom.com/wiki/Sky_Wagon#History" target="_blank" rel="noopener noreferrer">来源</a></TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

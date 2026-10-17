@@ -76,6 +76,7 @@ const tableExtraInfo = [
     </TimelineItem>
     <TimelineItem date="2026/02/23">
         <TimelineRow>4 级巨矛投手的每秒伤害和生命值减少（回滚到 2026/01 平衡性调整的数据）。</TimelineRow>
+        <TimelineRow>4 级生命值由 2900 降至 2800，每秒伤害由 250 降至 240。 <a href="https://clashofclans.fandom.com/wiki/Thrower#History" target="_blank" rel="noopener noreferrer">来源</a></TimelineRow>
     </TimelineItem>
     <TimelineItem date="2026/01/28">
         <TimelineRow>所有等级巨矛投手的生命值提升。</TimelineRow>

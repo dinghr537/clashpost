@@ -301,6 +301,19 @@
     {
       "date": "2026-04-27",
       "description": "Added the level 7 Recall Spell. Reduced upgrade times at levels 3 to 6: Level 3: 8d 12h -> 7d 12h. Time Level 4: 9d 12h -> 8d. Time Level 5: 11d 12h -> 9d. Time Level 6: 12d 12h -> 11d. Time Recall Spell now will prioritizes Heroes."
+    },
+    {
+      "date": "2026-04-27",
+      "description": "召回目标改为优先选择英雄。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/",
+      "sourcePublishedOn": "2026-04-27"
+    },
+    {
+      "date": "2026-08-31",
+      "description": "修复召回单位重新部署后卡在城墙内或城墙附近的问题。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/august-update-3/",
+      "sourcePublishedOn": "2026-08-30",
+      "dateSourceUrl": "https://clashofclans.fandom.com/wiki/Diggy?oldid=625147#History"
     }
   ],
   "facts": [

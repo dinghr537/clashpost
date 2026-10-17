@@ -83,6 +83,7 @@ const tableExtraInfo = [
 <Timeline>
     <TimelineItem date="2026/02/23">
         <TimelineRow>地震金靴的地震效果可以对地面部队造成伤害了（同步地震法术的更改）。</TimelineRow>
+        <TimelineRow>地震金靴新增对地面部队的百分比伤害：1—2 级为 5%，3—5 级为 10%，6—8 级为 15%，9—11 级为 17%，12—14 级为 18%，15—17 级为 19%，18 级为 20%。维基对本条日期标有问号；二月官方公告确认本次更新新增了对地面部队的伤害。 <a href="https://clashofclans.fandom.com/wiki/Earthquake_Boots#History" target="_blank" rel="noopener noreferrer">来源</a></TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/02/10">
         <TimelineRow>9 ~ 18 级地震金靴的百分比伤害降低。</TimelineRow>

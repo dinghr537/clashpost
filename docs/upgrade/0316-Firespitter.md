@@ -99,6 +99,7 @@ const tableExtraInfo = [
         <TimelineRow>在 18 本添加了 3 级火焰喷射器</TimelineRow>
         <TimelineRow>移除了 2 级火焰喷射器原有的两级超级充能；3 级的两级充能于同年 4 月 27 日开放。</TimelineRow>
         <TimelineRow>更改了 1 ~ 2 级火焰喷射器在游戏面板中显示的伤害值（实际伤害没变，只是更改了显示算法）。</TimelineRow>
+        <TimelineRow>1 级每秒伤害显示值由 399 改为 410，2 级由 425 改为 437。 <a href="https://clashofclans.fandom.com/wiki/Firespitter#History" target="_blank" rel="noopener noreferrer">来源</a></TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/11/17">
         <TimelineRow>1 ~ 2 级及两个充能等级的火焰喷射器的升级时间和升级费用减少。</TimelineRow>

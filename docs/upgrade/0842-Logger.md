@@ -68,6 +68,7 @@ const tableExtraInfo0 = [
     </TimelineItem>
     <TimelineItem date="2026/04/27">
         <TimelineRow>新增滚木守卫。</TimelineRow>
+        <TimelineRow>守卫被冻结时，不再触发激活。 <a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
     </TimelineItem>
     <TimelineItem date="2026/04/26">
         <TimelineRow>公布滚木守卫，共5级。</TimelineRow>

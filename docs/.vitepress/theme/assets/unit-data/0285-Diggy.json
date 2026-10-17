@@ -781,7 +781,18 @@
       "logicalPath": "/upgrade/home_heroes/0285/Diggy_field.png"
     }
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-02-23",
+      "description": "调整地下单位的战斗逻辑，使其面对多个骷髅兵时的行为更稳定。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-february-update-has-escaped/",
+      "sourcePublishedOn": "2026-02-23"
+    },
+    {
+      "date": "2026-08-31",
+      "description": "Added levels 11 to 15 Diggy."
+    }
+  ],
   "facts": [
     "Diggy is the sixth pet unlocked, which is done when the Pet House is upgraded to level 6 (this requires Town Hall level 15)."
   ],

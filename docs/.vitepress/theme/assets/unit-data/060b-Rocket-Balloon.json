@@ -439,7 +439,14 @@
       "logicalPath": "/upgrade/home_tech/060b/Rocket_Balloon8.png"
     }
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-04-27",
+      "description": "气球兵新增 13 级，对应的火箭气球兵开放 13 级。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/",
+      "sourcePublishedOn": "2026-04-27"
+    }
+  ],
   "facts": [
     "The Rocket Balloon is a Super Troop based on the Balloon. It can be unlocked by boosting the Balloon when the Balloon is at least level 8.",
     "Boosting the Balloon requires 25,000 Dark Elixir or a Super Potion, and doing so allows the Balloon to be boosted for 3 days. The level of Rocket Balloon you obtain from the boost corresponds to the level of Balloon you have.",

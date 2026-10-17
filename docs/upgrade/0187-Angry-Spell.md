@@ -57,4 +57,17 @@ const tableExtraInfo0 = [
 </UnitTable>
 
 
+<SmallTitle>更新历史</SmallTitle>
+
+<Timeline>
+    <TimelineItem date="2026/08/31">
+        <TimelineRow>修复较低大本等级玩家的部落城堡援军请求中不显示愤怒法术的问题；陨石戈仑在分裂、被投掷或合体时，不再丢失愤怒效果和目标。 <a href="https://supercell.com/en/games/clashofclans/blog/release-notes/august-update-3/" target="_blank" rel="noopener noreferrer">官方公告</a>（08/30 发布；<a href="https://clashofclans.fandom.com/wiki/Diggy?oldid=625147#History" target="_blank" rel="noopener noreferrer">更新日期</a>）</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2026/06/18">
+        <TimelineRow>修复带有伤害倍率技能的部队在愤怒法术影响下，将该倍率错误用于防御建筑的问题。 <a href="https://clashofclans.fandom.com/wiki/Angry_Spell#History" target="_blank" rel="noopener noreferrer">来源</a></TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2026/06/16">
+        <TimelineRow>推出愤怒法术，开放 1—4 级。 <a href="https://clashofclans.fandom.com/wiki/Angry_Spell#History" target="_blank" rel="noopener noreferrer">来源</a></TimelineRow>
+    </TimelineItem>
+</Timeline>
 <p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Angry_Spell?oldid=625021" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。</small></p>

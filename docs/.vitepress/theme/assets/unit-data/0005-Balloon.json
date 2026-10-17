@@ -802,7 +802,12 @@
       "sourceAlt": "Balloon13"
     }
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-04-27",
+      "description": "Added the level 13 Balloon. Balloon13"
+    }
+  ],
   "facts": [
     "The Balloon is the sixth Elixir Troop unlocked at Barracks level 6, which requires Town Hall level 4. It is the first aerial unit unlocked in the Barracks."
   ],

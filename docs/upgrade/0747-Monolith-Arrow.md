@@ -80,6 +80,9 @@ const tableExtraInfo0 = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/08/31">
+        <TimelineRow>图腾法术召唤物的人口计数由错误的 20 修正为 1，修复过快消耗擎天箭矢部署人口额度的问题。 <a href="https://supercell.com/en/games/clashofclans/blog/release-notes/august-update-3/" target="_blank" rel="noopener noreferrer">官方公告</a>（08/30 发布；<a href="https://clashofclans.fandom.com/wiki/Diggy?oldid=625147#History" target="_blank" rel="noopener noreferrer">更新日期</a>）</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2026/06/16">
         <TimelineRow>移除部署人口超过460后擎天箭矢失效的限制。</TimelineRow>
     </TimelineItem>

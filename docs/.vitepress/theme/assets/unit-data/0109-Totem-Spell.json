@@ -213,6 +213,19 @@
     {
       "date": "2026-02-23",
       "description": "Reduced effect radius from 6 tiles to 5 tiles. Range Removed totem damage. Damage Removed the ability to benefit from Life Aura from the Life Gem or Apprentice Warden."
+    },
+    {
+      "date": "2026-04-27",
+      "description": "图腾不再受到英雄火炬的技能效果影响。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/",
+      "sourcePublishedOn": "2026-04-27"
+    },
+    {
+      "date": "2026-08-31",
+      "description": "修复图腾被错误按 20 人口计算的问题，改为 1 人口，避免过快触发暗黑皇冠或消耗擎天箭矢的部署人口额度。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/august-update-3/",
+      "sourcePublishedOn": "2026-08-30",
+      "dateSourceUrl": "https://clashofclans.fandom.com/wiki/Diggy?oldid=625147#History"
     }
   ],
   "facts": [

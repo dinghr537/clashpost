@@ -6,7 +6,7 @@ import json
 from pathlib import Path
 import re
 
-from sync_wiki_data import SourceTables, VillageFilter, headers_and_rows, is_unit_image, REVIEWED_IMAGES
+from sync_wiki_data import SourceTables, VillageFilter, headers_and_rows, is_unit_image, REVIEWED_IMAGES, history_rows
 from check_upgrade_data import seconds
 from update_authored_data import MAPPINGS, translations, update_page
 
@@ -46,6 +46,10 @@ def main():
             village = {'upgrade-bh': 'Builder_Base', 'upgrade-capital': 'Clan_Capital'}.get(record['module'], 'Home_Village')
             filtered = VillageFilter(village); filtered.feed(snapshot['text']['*'])
             parser = SourceTables(); parser.feed(''.join(filtered.output))
+            for table in parser.tables:
+                for event in history_rows(table, record['sync']['syncedOn']) or []:
+                    if not any(all(saved.get(key) == value for key, value in event.items()) for saved in record['history']):
+                        errors.append(record['unitId'] + ': source history omitted: ' + event['date'] + ' ' + event['description'])
         for table in record['tables']:
             label = record['unitId'] + ':' + str(table['sourceTableIndex'])
             width = len(table['headers']); metadata = {item['column']: item for item in table['extraInfo']}

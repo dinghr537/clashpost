@@ -213,11 +213,13 @@ const tableExtraInfoFastMode = tableExtraInfoStandardMode;
 <Timeline>
     <TimelineItem date="2026/04/27">
         <TimelineRow>为 18 级迫击炮新增两级超级充能。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/" target="_blank" rel="noopener noreferrer">来源：Supercell 官方更新公告</a>。</TimelineRow>
+        <TimelineRow>改装后的多管迫击炮首次连发增加 0.5 秒延迟，修复原先立即开火的时序。 <a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
     </TimelineItem>
     <TimelineItem date="2026/02/23">
         <TimelineRow>添加了 18 级迫击炮。</TimelineRow>
         <TimelineRow>移除了 17 级迫击炮的超级充能。</TimelineRow>
         <TimelineRow>更改了多管迫击炮在游戏面板中显示的伤害值（实际伤害没变，只是更改了显示算法）。</TimelineRow>
+        <TimelineRow>多管模式每秒伤害显示值：8—17 级分别由 22、28、33、38、41、51、52、59、65、72 改为 24、30、37、42、46、51、58、66、73、81；每次伤害显示值：9 级 47→46，15 级 99→98，17 级 121→120。 <a href="https://clashofclans.fandom.com/wiki/Mortar#History" target="_blank" rel="noopener noreferrer">来源</a></TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/11/17">
         <TimelineRow>17 级及两个充能等级的迫击炮的升级时间和升级费用减少。</TimelineRow>

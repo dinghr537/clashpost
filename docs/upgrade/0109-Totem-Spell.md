@@ -74,6 +74,12 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/08/31">
+        <TimelineRow>修复图腾被错误按 20 人口计算的问题，改为 1 人口，避免过快触发暗黑皇冠或消耗擎天箭矢的部署人口额度。 <a href="https://supercell.com/en/games/clashofclans/blog/release-notes/august-update-3/" target="_blank" rel="noopener noreferrer">官方公告</a>（08/30 发布；<a href="https://clashofclans.fandom.com/wiki/Diggy?oldid=625147#History" target="_blank" rel="noopener noreferrer">更新日期</a>）</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2026/04/27">
+        <TimelineRow>图腾不再受到英雄火炬的技能效果影响。 <a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2026/02/23">
         <TimelineRow>图腾的有效半径由 6 格改为 5 格。</TimelineRow>
         <TimelineRow>图腾落地时不能对地方建筑和部队造成伤害了。</TimelineRow>

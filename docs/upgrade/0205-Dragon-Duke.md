@@ -119,6 +119,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/08/31">
+        <TimelineRow>修复火箭背包冲刺缺少火焰效果或过早结束、助燃器朝向错误的问题；冲刺途中凤凰临时复活结束时，公爵仍会先完成冲刺再被击败。 <a href="https://supercell.com/en/games/clashofclans/blog/release-notes/august-update-3/" target="_blank" rel="noopener noreferrer">官方公告</a>（08/30 发布；<a href="https://clashofclans.fandom.com/wiki/Diggy?oldid=625147#History" target="_blank" rel="noopener noreferrer">更新日期</a>）</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2026/07/14">
         <TimelineRow>陷阱伤害减免从40%降至20%。</TimelineRow>
     </TimelineItem>
@@ -127,9 +130,20 @@ const tableExtraInfo = [
     </TimelineItem>
     <TimelineItem date="2026/03/01">
         <TimelineRow>飞龙公爵正式推出，15 本可解锁。</TimelineRow>
+        <TimelineRow>相关活动挑战同步开放。 <a href="https://clashofclans.fandom.com/wiki/Dragon_Duke#History" target="_blank" rel="noopener noreferrer">来源</a></TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2026/02/27">
+        <TimelineRow>公布飞龙公爵的技能机制。 <a href="https://clashofclans.fandom.com/wiki/Dragon_Duke#History" target="_blank" rel="noopener noreferrer">来源</a></TimelineRow>
     </TimelineItem>
     <TimelineItem date="2026/02/23">
         <TimelineRow>飞龙公爵已经添加到游戏中，但需要通过活动获取。</TimelineRow>
+        <TimelineRow>当时仍未开放使用；社区通过收集暗黑重油、开门领取奖励的活动释放飞龙公爵。 <a href="https://clashofclans.fandom.com/wiki/Dragon_Duke#History" target="_blank" rel="noopener noreferrer">来源</a></TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2026/02/22">
+        <TimelineRow>正式公布飞龙公爵。 <a href="https://clashofclans.fandom.com/wiki/Dragon_Duke#History" target="_blank" rel="noopener noreferrer">来源</a></TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2026/02/19">
+        <TimelineRow>2 月 19—21 日，官方通过社交媒体和视频预告飞龙公爵。 <a href="https://clashofclans.fandom.com/wiki/Dragon_Duke#History" target="_blank" rel="noopener noreferrer">来源</a></TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

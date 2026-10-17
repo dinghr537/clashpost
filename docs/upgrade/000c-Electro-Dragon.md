@@ -94,6 +94,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/07/14">
+        <TimelineRow>8 级雷电飞龙生命值由 6200 增至 6400，每秒伤害由 460 增至 475；9 级生命值由 6700 增至 6900，每秒伤害由 500 增至 510。 <a href="https://clashofclans.fandom.com/wiki/Electro_Dragon#History" target="_blank" rel="noopener noreferrer">来源</a></TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2026/01/12">
         <TimelineRow>1 ~ 9 级雷电飞龙的每秒伤害和生命值增加。</TimelineRow>
     </TimelineItem>

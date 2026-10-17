@@ -4,10 +4,31 @@ import sys
 import unittest
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
-from sync_wiki_data import VillageFilter, SourceTables, headers_and_rows, source_cell, extra_info, duration_value, is_unit_image, REVIEWED_IMAGES, page_content
+from sync_wiki_data import VillageFilter, SourceTables, headers_and_rows, source_cell, extra_info, duration_value, is_unit_image, REVIEWED_IMAGES, page_content, history_rows
 
 
 class WikiSyncTests(unittest.TestCase):
+    def test_history_accepts_date_and_patch_with_optional_type_column(self):
+        for first in ('Date', 'Patch'):
+            for middle in ([], ['Type'], ['Update']):
+                table = [[first, *middle, 'Description'],
+                         ['May 26, 2026', *(['Balance'] if middle else []), 'Reduced HP from 6200 to 6000.'],
+                         ['July 14th 2026', *(['Balance'] if middle else []), 'Reduced HP from 6000 to 5900.']]
+                events = history_rows(table, '2026-10-13')
+                self.assertEqual([e['date'] for e in events], ['2026-05-26', '2026-07-14'])
+                self.assertIn('5900', events[1]['description'])
+
+    def test_history_keeps_date_uncertainty_and_does_not_silently_drop_new_formats(self):
+        table = [['Patch', 'Description'], ['February 23?, 2026', 'Change'], ['July 13-14, 2026', 'Event']]
+        events = history_rows(table, '2026-10-13')
+        self.assertTrue(events[0]['dateUncertain'])
+        self.assertEqual(events[1]['dateEnd'], '2026-07-14')
+        self.assertEqual(events[1]['dateRaw'], 'July 13-14, 2026')
+        self.assertEqual(history_rows(table, '2026-01-31'), [])
+        self.assertIsNone(history_rows([['Sound Effect', 'Description'], ['2026', 'Sound']], '2026-10-13'))
+        with self.assertRaisesRegex(ValueError, 'Unrecognised history date'):
+            history_rows([['Date', 'Description'], ['Summer 2026', 'Change']], '2026-10-13')
+
     def test_new_pages_require_an_authored_chinese_layout(self):
         with self.assertRaisesRegex(ValueError, '先按同类原页面'):
             page_content({'unitId': 'test-uncreated-unit'}, {})

@@ -848,7 +848,15 @@
       "sourceAlt": "Dark Barracks13"
     }
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-06-16",
+      "description": "新增 13 级暗黑训练营，解锁废墟女巫。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-anime-fury-update-is-here/",
+      "sourcePublishedOn": "2026-06-15",
+      "dateSourceUrl": "https://clashofclans.fandom.com/wiki/X-Bow?oldid=596696#History"
+    }
+  ],
   "facts": [
     "Dark Barracks allow you to train Dark Elixir Troops, which, like normal troops trained with Elixir, will be stationed in Army Camps. It is unlocked at Town Hall level 7.",
     "Upgrading the Dark Barracks unlocks new troop types. There are a total of 12 troops unlockable in the Dark Barracks."

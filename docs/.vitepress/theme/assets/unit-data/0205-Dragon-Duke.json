@@ -1222,6 +1222,12 @@
   ],
   "history": [
     {
+      "date": "2026-02-19",
+      "description": "Teased the Dragon Duke on various social media posts being chained up, dragon, roaring, grunting and chain clinking sounds, and lots of dragons flying around a volcano. In the \"Clash On\" video, more information is coming.",
+      "dateRaw": "February 19-21, 2026",
+      "dateEnd": "2026-02-21"
+    },
+    {
       "date": "2026-02-22",
       "description": "Officially announced the Dragon Duke."
     },
@@ -1244,6 +1250,13 @@
     {
       "date": "2026-07-14",
       "description": "Decreased trap damage reduction from 40% to 20% Damage Reduction"
+    },
+    {
+      "date": "2026-08-31",
+      "description": "修复火箭背包冲刺缺少火焰效果或过早结束、助燃器朝向错误的问题；冲刺途中凤凰临时复活结束时，公爵仍会先完成冲刺再被击败。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/august-update-3/",
+      "sourcePublishedOn": "2026-08-30",
+      "dateSourceUrl": "https://clashofclans.fandom.com/wiki/Diggy?oldid=625147#History"
     }
   ],
   "facts": [

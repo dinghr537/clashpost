@@ -93,6 +93,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/06/16">
+        <TimelineRow>新增 8 级暗黑法术工厂，解锁愤怒法术。 <a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-anime-fury-update-is-here/" target="_blank" rel="noopener noreferrer">官方公告</a>（06/15 发布；<a href="https://clashofclans.fandom.com/wiki/X-Bow?oldid=596696#History" target="_blank" rel="noopener noreferrer">更新日期</a>）</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/10/06">
         <TimelineRow>7 级暗黑法术工厂的升级时间减少。</TimelineRow>
         <TimelineRow>7 级暗黑法术工厂的升级费用降低。</TimelineRow>

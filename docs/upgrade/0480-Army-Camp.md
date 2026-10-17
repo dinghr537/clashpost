@@ -96,6 +96,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/04/27">
+        <TimelineRow>新增 14 级兵营；13 级升级时间由 10 天缩短为 7 天 12 小时。 <a href="https://clashofclans.fandom.com/wiki/Army_Camp#History" target="_blank" rel="noopener noreferrer">来源</a></TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/11/17">
         <TimelineRow>13 级兵营的升级时间和升级费用减少。</TimelineRow>
     </TimelineItem>

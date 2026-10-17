@@ -420,7 +420,16 @@
       "logicalPath": "/upgrade/home_tech/000e/Dragon_Rider6.png"
     }
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-05-26",
+      "description": "Reduced hitpoints at level 6 from 6,200 to 6,000. Hitpoints Reduced damage at level 6 from 520 to 510. Damage"
+    },
+    {
+      "date": "2026-07-14",
+      "description": "Reduced hitpoints at level 6 from 6,000 to 5,900. Hitpoints Reduced damage at level 6 from 510 to 490. Damage"
+    }
+  ],
   "facts": [
     "The Dragon Rider is the fifteenth Elixir Troop unlocked in the Barracks when it has been upgraded to level 15, which requires Town Hall level 13. This flying unit is a mechanized dragon ridden by a Skeleton that prioritizes defenses."
   ],

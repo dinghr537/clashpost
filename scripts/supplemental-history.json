@@ -1,0 +1,390 @@
+[
+  {
+    "unitId": "000d-Yeti",
+    "date": "2026-04-27",
+    "description": "新增 8 级大雪怪。",
+    "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/",
+    "sourcePublishedOn": "2026-04-27"
+  },
+  {
+    "unitId": "0083-Golem",
+    "date": "2026-04-27",
+    "description": "新增 15 级戈仑石人。",
+    "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/",
+    "sourcePublishedOn": "2026-04-27"
+  },
+  {
+    "unitId": "0244-Log-Launcher",
+    "date": "2026-04-27",
+    "description": "新增 6 级攻城滚木车。",
+    "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/",
+    "sourcePublishedOn": "2026-04-27"
+  },
+  {
+    "unitId": "0488-Blacksmith",
+    "date": "2026-04-27",
+    "description": "新增 10 级铁匠铺。",
+    "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/",
+    "sourcePublishedOn": "2026-04-27"
+  },
+  {
+    "unitId": "0382-Air-Bomb",
+    "date": "2026-04-27",
+    "description": "18 本增加 1 个空中炸弹的建造名额。",
+    "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/",
+    "sourcePublishedOn": "2026-04-27"
+  },
+  {
+    "unitId": "0600-Super-Barbarian",
+    "date": "2026-04-27",
+    "description": "野蛮人新增 13 级，对应的超级野蛮人开放 13 级。",
+    "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/",
+    "sourcePublishedOn": "2026-04-27"
+  },
+  {
+    "unitId": "060b-Rocket-Balloon",
+    "date": "2026-04-27",
+    "description": "气球兵新增 13 级，对应的火箭气球兵开放 13 级。",
+    "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/",
+    "sourcePublishedOn": "2026-04-27"
+  },
+  {
+    "unitId": "060d-Super-Dragon",
+    "date": "2026-04-27",
+    "description": "飞龙新增 13 级，对应的超级飞龙开放 13 级。",
+    "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/",
+    "sourcePublishedOn": "2026-04-27"
+  },
+  {
+    "unitId": "0610-Super-Yeti",
+    "date": "2026-04-27",
+    "description": "大雪怪新增 8 级，对应的超级雪怪开放 8 级。",
+    "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/",
+    "sourcePublishedOn": "2026-04-27"
+  },
+  {
+    "unitId": "0303-Mortar",
+    "date": "2026-04-27",
+    "description": "改装后的多管迫击炮首次连发增加 0.5 秒延迟，修复原先立即开火的时序。",
+    "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/",
+    "sourcePublishedOn": "2026-04-27"
+  },
+  {
+    "unitId": "0107-Recall-Spell",
+    "date": "2026-04-27",
+    "description": "召回目标改为优先选择英雄。",
+    "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/",
+    "sourcePublishedOn": "2026-04-27"
+  },
+  {
+    "unitId": "0180-Poison-Spell",
+    "date": "2026-04-27",
+    "description": "重新对大本营守卫生效，但只造成正常毒药伤害的 30%。",
+    "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/",
+    "sourcePublishedOn": "2026-04-27"
+  },
+  {
+    "unitId": "0109-Totem-Spell",
+    "date": "2026-04-27",
+    "description": "图腾不再受到英雄火炬的技能效果影响。",
+    "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/",
+    "sourcePublishedOn": "2026-04-27"
+  },
+  {
+    "unitId": "0786-Heroic-Torch",
+    "date": "2026-04-27",
+    "description": "技能不再影响图腾法术召唤的图腾。",
+    "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/",
+    "sourcePublishedOn": "2026-04-27"
+  },
+  {
+    "unitId": "0282-Mighty-Yak",
+    "date": "2026-04-27",
+    "description": "修复大牦有时迟迟不攻击城墙的寻路问题。",
+    "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/",
+    "sourcePublishedOn": "2026-04-27"
+  },
+  {
+    "unitId": "07e3-Rocket-Backpack",
+    "date": "2026-04-27",
+    "description": "修复火箭背包的多项技能问题。",
+    "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/",
+    "sourcePublishedOn": "2026-04-27"
+  },
+  {
+    "unitId": "0840-Longshot",
+    "date": "2026-04-27",
+    "description": "守卫被冻结时，不再触发激活。",
+    "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/",
+    "sourcePublishedOn": "2026-04-27"
+  },
+  {
+    "unitId": "0841-Smasher",
+    "date": "2026-04-27",
+    "description": "守卫被冻结时，不再触发激活。",
+    "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/",
+    "sourcePublishedOn": "2026-04-27"
+  },
+  {
+    "unitId": "0842-Logger",
+    "date": "2026-04-27",
+    "description": "守卫被冻结时，不再触发激活。",
+    "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/",
+    "sourcePublishedOn": "2026-04-27"
+  },
+  {
+    "unitId": "0180-Poison-Spell",
+    "date": "2026-02-23",
+    "description": "毒药法术可对大本营守卫造成完整伤害，移速和攻速降低效果按通常值的 70% 生效；四月更新后伤害规则再次调整。",
+    "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-february-update-has-escaped/",
+    "sourcePublishedOn": "2026-02-23"
+  },
+  {
+    "unitId": "0840-Longshot",
+    "date": "2026-02-23",
+    "description": "开始受到毒药法术影响：承受完整伤害，移速和攻速降低效果按通常值的 70% 生效。此规则后来在四月调整。",
+    "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-february-update-has-escaped/",
+    "sourcePublishedOn": "2026-02-23"
+  },
+  {
+    "unitId": "0841-Smasher",
+    "date": "2026-02-23",
+    "description": "开始受到毒药法术影响：承受完整伤害，移速和攻速降低效果按通常值的 70% 生效。此规则后来在四月调整。",
+    "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-february-update-has-escaped/",
+    "sourcePublishedOn": "2026-02-23"
+  },
+  {
+    "unitId": "0285-Diggy",
+    "date": "2026-02-23",
+    "description": "调整地下单位的战斗逻辑，使其面对多个骷髅兵时的行为更稳定。",
+    "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-february-update-has-escaped/",
+    "sourcePublishedOn": "2026-02-23"
+  },
+  {
+    "unitId": "000b-Miner",
+    "date": "2026-02-23",
+    "description": "调整地下单位的战斗逻辑，使其面对多个骷髅兵时的行为更稳定。",
+    "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-february-update-has-escaped/",
+    "sourcePublishedOn": "2026-02-23"
+  },
+  {
+    "unitId": "0240-Wall-Wrecker",
+    "date": "2026-04-27",
+    "description": "攻城机器开始受到小火灵留下的火焰伤害；不再受到 14—16 本大本营毒药、生命宝石效果及守护者学徒光环的影响。",
+    "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/",
+    "sourcePublishedOn": "2026-04-27"
+  },
+  {
+    "unitId": "0241-Battle-Blimp",
+    "date": "2026-04-27",
+    "description": "攻城机器开始受到小火灵留下的火焰伤害；不再受到 14—16 本大本营毒药、生命宝石效果及守护者学徒光环的影响。",
+    "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/",
+    "sourcePublishedOn": "2026-04-27"
+  },
+  {
+    "unitId": "0242-Stone-Slammer",
+    "date": "2026-04-27",
+    "description": "攻城机器开始受到小火灵留下的火焰伤害；不再受到 14—16 本大本营毒药、生命宝石效果及守护者学徒光环的影响。",
+    "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/",
+    "sourcePublishedOn": "2026-04-27"
+  },
+  {
+    "unitId": "0243-Siege-Barracks",
+    "date": "2026-04-27",
+    "description": "攻城机器开始受到小火灵留下的火焰伤害；不再受到 14—16 本大本营毒药、生命宝石效果及守护者学徒光环的影响。",
+    "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/",
+    "sourcePublishedOn": "2026-04-27"
+  },
+  {
+    "unitId": "0244-Log-Launcher",
+    "date": "2026-04-27",
+    "description": "攻城机器开始受到小火灵留下的火焰伤害；不再受到 14—16 本大本营毒药、生命宝石效果及守护者学徒光环的影响。",
+    "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/",
+    "sourcePublishedOn": "2026-04-27"
+  },
+  {
+    "unitId": "0245-Flame-Flinger",
+    "date": "2026-04-27",
+    "description": "攻城机器开始受到小火灵留下的火焰伤害；不再受到 14—16 本大本营毒药、生命宝石效果及守护者学徒光环的影响。",
+    "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/",
+    "sourcePublishedOn": "2026-04-27"
+  },
+  {
+    "unitId": "0246-Battle-Drill",
+    "date": "2026-04-27",
+    "description": "攻城机器开始受到小火灵留下的火焰伤害；不再受到 14—16 本大本营毒药、生命宝石效果及守护者学徒光环的影响。",
+    "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/",
+    "sourcePublishedOn": "2026-04-27"
+  },
+  {
+    "unitId": "0247-Troop-Launcher",
+    "date": "2026-04-27",
+    "description": "攻城机器开始受到小火灵留下的火焰伤害；不再受到 14—16 本大本营毒药、生命宝石效果及守护者学徒光环的影响。",
+    "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/",
+    "sourcePublishedOn": "2026-04-27"
+  },
+  {
+    "unitId": "0248-Sky-Wagon",
+    "date": "2026-04-27",
+    "description": "攻城机器开始受到小火灵留下的火焰伤害；不再受到 14—16 本大本营毒药、生命宝石效果及守护者学徒光环的影响。",
+    "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/",
+    "sourcePublishedOn": "2026-04-27"
+  },
+  {
+    "unitId": "008b-Furnace",
+    "date": "2026-04-27",
+    "description": "小火灵留下的火焰现在可以伤害攻城机器。",
+    "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/",
+    "sourcePublishedOn": "2026-04-27"
+  },
+  {
+    "unitId": "0781-Life-Gem",
+    "date": "2026-04-27",
+    "description": "生命宝石效果不再影响攻城机器。",
+    "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/",
+    "sourcePublishedOn": "2026-04-27"
+  },
+  {
+    "unitId": "0089-Apprentice-Warden",
+    "date": "2026-04-27",
+    "description": "生命光环不再影响攻城机器。",
+    "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/",
+    "sourcePublishedOn": "2026-04-27"
+  },
+  {
+    "unitId": "0482-Dark-Barracks",
+    "date": "2026-06-16",
+    "description": "新增 13 级暗黑训练营，解锁废墟女巫。",
+    "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-anime-fury-update-is-here/",
+    "sourcePublishedOn": "2026-06-15",
+    "dateSourceUrl": "https://clashofclans.fandom.com/wiki/X-Bow?oldid=596696#History"
+  },
+  {
+    "unitId": "0485-Dark-Spell-Factory",
+    "date": "2026-06-16",
+    "description": "新增 8 级暗黑法术工厂，解锁愤怒法术。",
+    "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-anime-fury-update-is-here/",
+    "sourcePublishedOn": "2026-06-15",
+    "dateSourceUrl": "https://clashofclans.fandom.com/wiki/X-Bow?oldid=596696#History"
+  },
+  {
+    "unitId": "0300-Walls",
+    "date": "2026-06-16",
+    "description": "开放十八本剩余城墙升至 19 级。",
+    "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-anime-fury-update-is-here/",
+    "sourcePublishedOn": "2026-06-15",
+    "dateSourceUrl": "https://clashofclans.fandom.com/wiki/X-Bow?oldid=596696#History"
+  },
+  {
+    "unitId": "07e1-Flame-Blower",
+    "date": "2026-06-16",
+    "description": "装备触发顺序改为由装备本身决定，不再取决于装备栏位置；同时携带助燃器与火箭背包时，先触发助燃器，再触发火箭背包。",
+    "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-anime-fury-update-is-here/",
+    "sourcePublishedOn": "2026-06-15",
+    "dateSourceUrl": "https://clashofclans.fandom.com/wiki/X-Bow?oldid=596696#History"
+  },
+  {
+    "unitId": "07e3-Rocket-Backpack",
+    "date": "2026-06-16",
+    "description": "装备触发顺序改为由装备本身决定，不再取决于装备栏位置；同时携带助燃器与火箭背包时，先触发助燃器，再触发火箭背包。",
+    "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-anime-fury-update-is-here/",
+    "sourcePublishedOn": "2026-06-15",
+    "dateSourceUrl": "https://clashofclans.fandom.com/wiki/X-Bow?oldid=596696#History"
+  },
+  {
+    "unitId": "07e1-Flame-Blower",
+    "date": "2026-07-14",
+    "description": "为处理火箭背包有时无法触发的问题，暂时恢复助燃器沿火箭背包方向推动飞龙公爵的行为，等待后续版本正式修复。",
+    "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/news/july-balance-update/",
+    "sourcePublishedOn": "2026-07-09",
+    "dateSourceUrl": "https://clashofclans.fandom.com/wiki/Dragon_Rider?oldid=625318#History"
+  },
+  {
+    "unitId": "07e3-Rocket-Backpack",
+    "date": "2026-07-14",
+    "description": "为处理火箭背包有时无法触发的问题，暂时恢复助燃器沿火箭背包方向推动飞龙公爵的行为，等待后续版本正式修复。",
+    "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/news/july-balance-update/",
+    "sourcePublishedOn": "2026-07-09",
+    "dateSourceUrl": "https://clashofclans.fandom.com/wiki/Dragon_Rider?oldid=625318#History"
+  },
+  {
+    "unitId": "0109-Totem-Spell",
+    "date": "2026-08-31",
+    "description": "修复图腾被错误按 20 人口计算的问题，改为 1 人口，避免过快触发暗黑皇冠或消耗擎天箭矢的部署人口额度。",
+    "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/august-update-3/",
+    "sourcePublishedOn": "2026-08-30",
+    "dateSourceUrl": "https://clashofclans.fandom.com/wiki/Diggy?oldid=625147#History"
+  },
+  {
+    "unitId": "0724-Dark-Crown",
+    "date": "2026-08-31",
+    "description": "图腾法术召唤物的人口计数由错误的 20 修正为 1，修复暗黑皇冠因此过快触发的问题。",
+    "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/august-update-3/",
+    "sourcePublishedOn": "2026-08-30",
+    "dateSourceUrl": "https://clashofclans.fandom.com/wiki/Diggy?oldid=625147#History"
+  },
+  {
+    "unitId": "0747-Monolith-Arrow",
+    "date": "2026-08-31",
+    "description": "图腾法术召唤物的人口计数由错误的 20 修正为 1，修复过快消耗擎天箭矢部署人口额度的问题。",
+    "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/august-update-3/",
+    "sourcePublishedOn": "2026-08-30",
+    "dateSourceUrl": "https://clashofclans.fandom.com/wiki/Diggy?oldid=625147#History"
+  },
+  {
+    "unitId": "0187-Angry-Spell",
+    "date": "2026-08-31",
+    "description": "修复较低大本等级玩家的部落城堡援军请求中不显示愤怒法术的问题；陨石戈仑在分裂、被投掷或合体时，不再丢失愤怒效果和目标。",
+    "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/august-update-3/",
+    "sourcePublishedOn": "2026-08-30",
+    "dateSourceUrl": "https://clashofclans.fandom.com/wiki/Diggy?oldid=625147#History"
+  },
+  {
+    "unitId": "0012-Meteor-Golem",
+    "date": "2026-08-31",
+    "description": "修复陨石戈仑在分裂、被投掷或合体时丢失愤怒法术效果及目标的问题。",
+    "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/august-update-3/",
+    "sourcePublishedOn": "2026-08-30",
+    "dateSourceUrl": "https://clashofclans.fandom.com/wiki/Diggy?oldid=625147#History"
+  },
+  {
+    "unitId": "0107-Recall-Spell",
+    "date": "2026-08-31",
+    "description": "修复召回单位重新部署后卡在城墙内或城墙附近的问题。",
+    "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/august-update-3/",
+    "sourcePublishedOn": "2026-08-30",
+    "dateSourceUrl": "https://clashofclans.fandom.com/wiki/Diggy?oldid=625147#History"
+  },
+  {
+    "unitId": "07e3-Rocket-Backpack",
+    "date": "2026-08-31",
+    "description": "修复冲刺缺少火焰效果或过早结束的问题；飞龙公爵会先完成冲刺再被击败，凤凰临时复活效果在冲刺途中结束也不会立即中断冲刺。",
+    "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/august-update-3/",
+    "sourcePublishedOn": "2026-08-30",
+    "dateSourceUrl": "https://clashofclans.fandom.com/wiki/Diggy?oldid=625147#History"
+  },
+  {
+    "unitId": "07e1-Flame-Blower",
+    "date": "2026-08-31",
+    "description": "修复与火箭背包配合时的方向问题，助燃器现在沿飞龙公爵面朝的方向喷射。",
+    "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/august-update-3/",
+    "sourcePublishedOn": "2026-08-30",
+    "dateSourceUrl": "https://clashofclans.fandom.com/wiki/Diggy?oldid=625147#History"
+  },
+  {
+    "unitId": "0205-Dragon-Duke",
+    "date": "2026-08-31",
+    "description": "修复火箭背包冲刺缺少火焰效果或过早结束、助燃器朝向错误的问题；冲刺途中凤凰临时复活结束时，公爵仍会先完成冲刺再被击败。",
+    "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/august-update-3/",
+    "sourcePublishedOn": "2026-08-30",
+    "dateSourceUrl": "https://clashofclans.fandom.com/wiki/Diggy?oldid=625147#History"
+  },
+  {
+    "unitId": "0287-Phoenix",
+    "date": "2026-08-31",
+    "description": "凤凰给予飞龙公爵的临时复活在火箭背包冲刺途中结束时，不再立即中断冲刺；公爵先完成冲刺再被击败。",
+    "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/august-update-3/",
+    "sourcePublishedOn": "2026-08-30",
+    "dateSourceUrl": "https://clashofclans.fandom.com/wiki/Diggy?oldid=625147#History"
+  }
+]

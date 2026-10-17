@@ -475,6 +475,12 @@
       "description": "Added the Sky Wagon."
     },
     {
+      "date": "2026-04-27",
+      "description": "攻城机器开始受到小火灵留下的火焰伤害；不再受到 14—16 本大本营毒药、生命宝石效果及守护者学徒光环的影响。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/",
+      "sourcePublishedOn": "2026-04-27"
+    },
+    {
       "date": "2026-05-26",
       "description": "Decreased barrel count at all levels: Level 1-2: 5 -> 4 Number Level 3-4: 6 -> 5 Number Decreased troop levels at all levels: Level 1: Minion: 11 -> 10 Level Balloon: 10 -> 9 Level Baby Dragon: 9 -> 8 Level Level 2: Minion: 12 -> 11 Level Balloon: 11 -> 10 Level Baby Dragon: 10 -> 9 Level Level 3: Minion: 13 -> 12 Level Balloon: 12 -> 11 Level Baby Dragon: 11 -> 10 Level Level 4: Minion: 14 -> 13 Level Balloon: 13 -> 12 Level Baby Dragon: 12 -> 11 Level Decreased spawned Minions at all levels: Level 1: 3 -> 2 Summon Capacity Level 2: 4 -> 3 Summon Capacity Level 3-4: 5 -> 4 Summon Capacity"
     }

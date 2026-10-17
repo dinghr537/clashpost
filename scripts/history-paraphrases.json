@@ -1,0 +1,170 @@
+[
+  {
+    "unitId": "000f-Electro-Titan",
+    "date": "2026-02-23",
+    "description": "Added the level 5 Electro Titan. Electro Titan5",
+    "requiredText": "在 18 本新增了 5 级雷霆泰坦。"
+  },
+  {
+    "unitId": "0011-Thrower",
+    "date": "2026-02-23",
+    "description": "Reduced hitpoints at level 4 from 2,900 to 2,800. Hitpoints Reduced damage at level 4 from 250 to 240. Damage",
+    "requiredText": "4 级巨矛投手的每秒伤害和生命值减少（回滚到 2026/01 平衡性调整的数据）。\n        4 级生命值由 2900 降至 2800，每秒伤害由 250 降至 240。 来源"
+  },
+  {
+    "unitId": "0109-Totem-Spell",
+    "date": "2026-02-23",
+    "description": "Reduced effect radius from 6 tiles to 5 tiles. Range Removed totem damage. Damage Removed the ability to benefit from Life Aura from the Life Gem or Apprentice Warden.",
+    "requiredText": "图腾的有效半径由 6 格改为 5 格。\n        图腾落地时不能对地方建筑和部队造成伤害了。\n        守护者学徒和生命宝石装备无法再给图腾施加加血效果了。"
+  },
+  {
+    "unitId": "0205-Dragon-Duke",
+    "date": "2026-02-23",
+    "description": "Added the Dragon Duke to the game, but it is not immediately available yet. The community has to free it by collecting Dark Elixir and opening doors for rewards. Announced the Unleash the Duke event.",
+    "requiredText": "飞龙公爵已经添加到游戏中，但需要通过活动获取。\n        当时仍未开放使用；社区通过收集暗黑重油、开门领取奖励的活动释放飞龙公爵。 来源"
+  },
+  {
+    "unitId": "0205-Dragon-Duke",
+    "date": "2026-03-01",
+    "description": "The Dragon Duke has been freed from his imprisonment, along with new event challenges that involves him.",
+    "requiredText": "飞龙公爵正式推出，15 本可解锁。\n        相关活动挑战同步开放。 来源"
+  },
+  {
+    "unitId": "0248-Sky-Wagon",
+    "date": "2026-04-27",
+    "description": "Added the Sky Wagon.",
+    "requiredText": "新增攻城机器：空中战车。"
+  },
+  {
+    "unitId": "028b-Greedy-Raven",
+    "date": "2026-02-23",
+    "description": "Added the Greedy Raven.",
+    "requiredText": "新战宠：贪婪渡鸦。"
+  },
+  {
+    "unitId": "0300-Walls",
+    "date": "2026-02-23",
+    "description": "Allowed 75 more Wall pieces to be upgraded to level 19 (for a total of 200). Changed the level 19 Wall design which appeared slightly darker. Wall19",
+    "requiredText": "18 本新解锁 75 块 19 级城墙（共 200 块）。\n        19 级城墙的外观颜色变深。 来源"
+  },
+  {
+    "unitId": "0303-Mortar",
+    "date": "2026-02-23",
+    "description": "Added the level 18 Mortar. Mortar18B Mortar18 Mortar18G Removed the Supercharges at level 17. Icon Supercharge ⚡ Updated the displayed damage per second of the Geared-Up Mortar: Level 8: 22 -> 24 Damage Level 9: 28 -> 30 Damage Level 10: 33 -> 37 Damage Level 11: 38 -> 42 Damage Level 12: 41 -> 46 Damage Level 13: 51 -> 51 Damage Level 14: 52 -> 58 Damage Level 15: 59 -> 66 Damage Level 16: 65 -> 73 Damage Level 17: 72 -> 81 Damage Updated the displayed damage per hit of the Geared-Up Mortar: Level 9: 47 -> 46 Damage Level 15: 99 -> 98 Damage Level 17: 121 -> 120 Damage",
+    "requiredText": "添加了 18 级迫击炮。\n        移除了 17 级迫击炮的超级充能。\n        更改了多管迫击炮在游戏面板中显示的伤害值（实际伤害没变，只是更改了显示算法）。\n        多管模式每秒伤害显示值：8—17 级分别由 22、28、33、38、41、51、52、59、65、72 改为 24、30、37、42、46、51、58、66、73、81；每次伤害显示值：9 级 47→46，15 级 99→98，17 级 121→120。 来源"
+  },
+  {
+    "unitId": "0307-Hidden-Tesla",
+    "date": "2026-02-23",
+    "description": "Added the level 17 Hidden Tesla. Hidden Tesla17 Removed the Supercharges at level 16. Icon Supercharge ⚡",
+    "requiredText": "在 18 本添加了 17 级特斯拉电磁塔。\n        移除了 16 级特斯拉电磁塔原有的两级超级充能；17 级的两级充能于同年 4 月 27 日开放。"
+  },
+  {
+    "unitId": "030a-Inferno-Tower",
+    "date": "2026-02-23",
+    "description": "Added the level 12 Inferno Tower. Inferno Tower12 Single Inferno Tower12 Multi Removed the Supercharges at level 11. Icon Supercharge ⚡",
+    "requiredText": "在 18 本添加了 12 级地狱之塔。\n        移除了 11 级地狱之塔原有的两级超级充能；12 级的两级充能于同年 4 月 27 日开放。"
+  },
+  {
+    "unitId": "0311-Spell-Tower",
+    "date": "2026-02-23",
+    "description": "Added the level 4 Spell Tower, the Earthquake Spell Tower. Spell Tower4 Earthquake",
+    "requiredText": "在 17 本添加了 4 级法术塔。\n        4 级法术塔解锁地震法术。 来源"
+  },
+  {
+    "unitId": "0316-Firespitter",
+    "date": "2026-02-23",
+    "description": "Added the level 3 Firespitter. Firespitter3 Removed the Supercharges at level 2. Icon Supercharge ⚡ Updated displayed damage per second: Level 1: 399 -> 410 Damage Level 2: 425 -> 437 Damage",
+    "requiredText": "在 18 本添加了 3 级火焰喷射器\n        移除了 2 级火焰喷射器原有的两级超级充能；3 级的两级充能于同年 4 月 27 日开放。\n        更改了 1 ~ 2 级火焰喷射器在游戏面板中显示的伤害值（实际伤害没变，只是更改了显示算法）。\n        1 级每秒伤害显示值由 399 改为 410，2 级由 425 改为 437。 来源"
+  },
+  {
+    "unitId": "0384-Seeking-Air-Mine",
+    "date": "2026-02-23",
+    "description": "Added the level 8 Seeking Air Mine.",
+    "requiredText": "在 18 本推出 8 级搜空地雷。"
+  },
+  {
+    "unitId": "0387-Giga-Bomb",
+    "date": "2026-02-23",
+    "description": "Added the level 4 Giga Bomb. Giga Bomb4",
+    "requiredText": "在 18 本推出 4 级终极炸弹。"
+  },
+  {
+    "unitId": "0487-Pet-House",
+    "date": "2026-02-23",
+    "description": "Added level 12 Pet House with the introduction of Greedy Raven. Pet House12",
+    "requiredText": "18 本新增 12 级战宠小屋，可解锁新战宠：贪婪渡鸦。"
+  },
+  {
+    "unitId": "0604-Inferno-Dragon",
+    "date": "2026-02-23",
+    "description": "Added the level 12 Inferno Dragon.",
+    "requiredText": "在 18 本新增 12 级飞龙宝宝，超级部队的等级也相应更新。"
+  },
+  {
+    "unitId": "0605-Super-Witch",
+    "date": "2026-02-23",
+    "description": "Added the level 8 Super Witch.",
+    "requiredText": "在 18 本新增 8 级女巫，超级部队的等级也相应更新。"
+  },
+  {
+    "unitId": "060a-Ice-Hound",
+    "date": "2026-02-23",
+    "description": "Added the level 8 Ice hound.",
+    "requiredText": "在 18 本新增 8 级熔岩猎犬，超级部队的等级也相应更新。"
+  },
+  {
+    "unitId": "060f-Super-Hog-Rider",
+    "date": "2026-02-23",
+    "description": "Added the level 15 Super Hog Rider.",
+    "requiredText": "18 本新增 15 级野猪骑士，超级部队的等级也相应更新。"
+  },
+  {
+    "unitId": "0702-Earthquake-Boots",
+    "date": "2026-02-23",
+    "description": "Added troop percentage damage at all level: Level 1-2: 5% Damage Reduction Level 3-5: 10% Damage Reduction Level 6-8: 15% Damage Reduction Level 9-11: 17% Damage Reduction Level 12-14: 18% Damage Reduction Level 15-17: 19% Damage Reduction Level 18: 20% Damage Reduction",
+    "requiredText": "地震金靴的地震效果可以对地面部队造成伤害了（同步地震法术的更改）。\n        地震金靴新增对地面部队的百分比伤害：1—2 级为 5%，3—5 级为 10%，6—8 级为 15%，9—11 级为 17%，12—14 级为 18%，15—17 级为 19%，18 级为 20%。维基对本条日期标有问号；二月官方公告确认本次更新新增了对地面部队的伤害。 来源"
+  },
+  {
+    "unitId": "0707-Stick-Horse",
+    "date": "2026-02-09",
+    "description": "Made the Stick Horse available in the Wise Warriors event.",
+    "requiredText": "新装备：木棍马驹。"
+  },
+  {
+    "unitId": "07e0-Fire-Heart",
+    "date": "2026-02-23",
+    "description": "Added the Fire Heart, unavailable to be obtained as the Dragon Duke is imprisoned.",
+    "requiredText": "新装备：烈焰之心。\n        此时仅加入游戏，飞龙公爵仍被囚禁，装备暂时无法获取。 来源"
+  },
+  {
+    "unitId": "07e1-Flame-Blower",
+    "date": "2026-02-23",
+    "description": "Added the Flame Blower, unavailable to be obtained as the Dragon Duke is imprisoned.",
+    "requiredText": "新装备：助燃器。\n        此时仅加入游戏，飞龙公爵仍被囚禁，装备暂时无法获取。 来源"
+  },
+  {
+    "unitId": "07e2-Stun-Blaster",
+    "date": "2026-02-23",
+    "description": "Added the Stun Blaster, unavailable to be obtained as the Dragon Duke is imprisoned.",
+    "requiredText": "新装备：爆震器。\n        此时仅加入游戏，飞龙公爵仍被囚禁，装备暂时无法获取。 来源"
+  },
+  {
+    "unitId": "07e3-Rocket-Backpack",
+    "date": "2026-03-19",
+    "description": "Reduced ability damage at levels 24 to 27: Level 24-26: 2,125 -> 2,050 Damage Level 27: 2,325 -> 2,200 Damage",
+    "requiredText": "正式开放前调整技能伤害：24—26 级由 2125 降至 2050，27 级由 2325 降至 2200。 来源"
+  },
+  {
+    "unitId": "07e3-Rocket-Backpack",
+    "date": "2026-04-08",
+    "description": "Made the Rocket Backpack available in the Sound of Clash event.",
+    "requiredText": "新装备：火箭背包。"
+  },
+  {
+    "unitId": "07e4-Electro-Fangs",
+    "date": "2026-04-27",
+    "description": "Added the Electro Fangs.",
+    "requiredText": "新装备：雷电獠牙。"
+  }
+]

@@ -95,6 +95,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/02/23">
+        <TimelineRow>调整地下单位的战斗逻辑，使其面对多个骷髅兵时的行为更稳定。 <a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-february-update-has-escaped/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/11/17">
         <TimelineRow>18 本推出，并在 18 本新增 12 级掘地矿工。</TimelineRow>
         <TimelineRow>11 级掘地矿工的升级时间和升级费用减少。</TimelineRow>

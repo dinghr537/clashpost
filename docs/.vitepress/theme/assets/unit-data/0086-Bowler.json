@@ -598,7 +598,12 @@
       "logicalPath": "/upgrade/home_tech/0086/Bowler10.png"
     }
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-04-27",
+      "description": "Increased damage at level 10 from 156 to 160 Damage Increased Hitpoints at level 10 from 850 to 860 Hitpoints"
+    }
+  ],
   "facts": [
     "The Bowler is the seventh Dark Elixir troop that is unlocked at Dark Barracks level 7, which requies Town Hall level 10."
   ],

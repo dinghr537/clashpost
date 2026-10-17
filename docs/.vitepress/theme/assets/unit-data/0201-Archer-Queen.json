@@ -4942,7 +4942,16 @@
       "logicalPath": "/upgrade/home_heroes/0201/Archer_Queen_info.png"
     }
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-02-23",
+      "description": "Updated Cost & Time Reductions"
+    },
+    {
+      "date": "2026-06-15",
+      "description": "Added levels 106 to 110 Archer Queen. Upgrade Times Time Levels 71-75: 4.5d -> 4d Levels 76-80: 5d -> 4.5d Levels 81-85: 6d -> 5d Levels 86-90: 7d -> 6d Levels 91-95: 8d -> 7d Costs Dark Elixir Level 82: 190K -> 185K Level 83: 200K -> 190K Level 84: 210K -> 195K Level 85: 220K -> 200K Level 86: 230K -> 215K Level 87: 240K -> 225K Level 88: 250K -> 235K Level 89: 260K -> 245K Level 90: 270K -> 255K"
+    }
+  ],
   "facts": [
     "Upgrading the Blacksmith to level 2 and 5 unlocks the Giant Arrow and Healer Puppet respectively."
   ],

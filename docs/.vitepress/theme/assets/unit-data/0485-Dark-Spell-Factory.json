@@ -716,7 +716,15 @@
       "sourceAlt": "Dark Spell Factory8 Active"
     }
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-06-16",
+      "description": "新增 8 级暗黑法术工厂，解锁愤怒法术。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-anime-fury-update-is-here/",
+      "sourcePublishedOn": "2026-06-15",
+      "dateSourceUrl": "https://clashofclans.fandom.com/wiki/X-Bow?oldid=596696#History"
+    }
+  ],
   "facts": [
     "The Dark Spell Factory is a building that allows the player to create Dark Spells. It is unlocked at Town Hall level 8."
   ],

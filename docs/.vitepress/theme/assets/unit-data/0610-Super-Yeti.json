@@ -382,7 +382,14 @@
       "sourceAlt": "Super Yeti3"
     }
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-04-27",
+      "description": "大雪怪新增 8 级，对应的超级雪怪开放 8 级。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/",
+      "sourcePublishedOn": "2026-04-27"
+    }
+  ],
   "facts": [
     "The Super Yeti is a Super Troop based on the Yeti. It can be unlocked by boosting the Yeti when it is at least level 3.",
     "Boosting the Yeti requires 25,000 Dark Elixir or a Super Potion, and doing so allows the Yeti to be boosted for 3 days. The level of Super Yeti you obtain from the boost corresponds to the level of Yeti you have."

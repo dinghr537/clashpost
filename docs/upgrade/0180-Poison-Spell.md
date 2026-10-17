@@ -77,6 +77,12 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/04/27">
+        <TimelineRow>重新对大本营守卫生效，但只造成正常毒药伤害的 30%。 <a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2026/02/23">
+        <TimelineRow>毒药法术可对大本营守卫造成完整伤害，移速和攻速降低效果按通常值的 70% 生效；四月更新后伤害规则再次调整。 <a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-february-update-has-escaped/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/11/17">
         <TimelineRow>18 本推出，并在 18 本新增 12 级毒药法术。</TimelineRow>
         <TimelineRow>11 级毒药法术的升级时间和升级费用减少。</TimelineRow>

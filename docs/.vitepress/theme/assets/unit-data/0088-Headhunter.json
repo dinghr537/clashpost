@@ -376,7 +376,12 @@
       "sourceAlt": "Headhunter4"
     }
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-04-27",
+      "description": "Added the level 4 Headhunter. Headhunter4"
+    }
+  ],
   "facts": [
     "The Headhunter is the ninth Dark Elixir Troop unlocked at Dark Barracks level 9, which requires Town Hall level 12. She is a fast ground troop that prioritizes Heroes instead of attacking defenses, resources, or other buildings."
   ],

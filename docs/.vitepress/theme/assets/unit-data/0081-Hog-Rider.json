@@ -821,7 +821,12 @@
       "logicalPath": "/upgrade/home_tech/0081/Hog_Rider15.png"
     }
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-02-23",
+      "description": "Added the level 15 Hog Rider. Hog Rider15"
+    }
+  ],
   "facts": [
     "The Hog Rider is the second Dark Elixir Troop unlocked in the Dark Barracks, once it has been upgraded to level 2."
   ],

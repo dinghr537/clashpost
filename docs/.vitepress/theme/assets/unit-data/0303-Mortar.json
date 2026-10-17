@@ -2519,6 +2519,12 @@
     {
       "date": "2026-02-23",
       "description": "Added the level 18 Mortar. Mortar18B Mortar18 Mortar18G Removed the Supercharges at level 17. Icon Supercharge ⚡ Updated the displayed damage per second of the Geared-Up Mortar: Level 8: 22 -> 24 Damage Level 9: 28 -> 30 Damage Level 10: 33 -> 37 Damage Level 11: 38 -> 42 Damage Level 12: 41 -> 46 Damage Level 13: 51 -> 51 Damage Level 14: 52 -> 58 Damage Level 15: 59 -> 66 Damage Level 16: 65 -> 73 Damage Level 17: 72 -> 81 Damage Updated the displayed damage per hit of the Geared-Up Mortar: Level 9: 47 -> 46 Damage Level 15: 99 -> 98 Damage Level 17: 121 -> 120 Damage"
+    },
+    {
+      "date": "2026-04-27",
+      "description": "改装后的多管迫击炮首次连发增加 0.5 秒延迟，修复原先立即开火的时序。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/",
+      "sourcePublishedOn": "2026-04-27"
     }
   ],
   "facts": [

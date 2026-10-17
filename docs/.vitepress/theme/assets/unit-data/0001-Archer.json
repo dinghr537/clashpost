@@ -775,7 +775,12 @@
       "logicalPath": "/upgrade/home_tech/0001/Archer14.png"
     }
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-02-23",
+      "description": "Added the level 14 Archer. Archer14"
+    }
+  ],
   "facts": [
     "The Archer is the second Elixir Troop unlocked in the Barracks once it is upgraded to level 2. She is a single-target, fast-moving ground troop with low hitpoints."
   ],

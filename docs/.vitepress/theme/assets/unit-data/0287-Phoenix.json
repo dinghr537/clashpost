@@ -568,7 +568,15 @@
       "logicalPath": "/upgrade/home_heroes/0287/Phoenix_Egg.png"
     }
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-08-31",
+      "description": "凤凰给予飞龙公爵的临时复活在火箭背包冲刺途中结束时，不再立即中断冲刺；公爵先完成冲刺再被击败。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/august-update-3/",
+      "sourcePublishedOn": "2026-08-30",
+      "dateSourceUrl": "https://clashofclans.fandom.com/wiki/Diggy?oldid=625147#History"
+    }
+  ],
   "facts": [
     "The Phoenix is the eighth pet unlocked, unlocked when the Pet House is upgraded to level 8, which requires Town Hall 15."
   ],

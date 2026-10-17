@@ -216,6 +216,12 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/06/15">
+        <TimelineRow>新增 106—110 级弓箭女皇。升级时间：71—75 级由 4 天 12 小时缩短为 4 天，76—80 级由 5 天缩短为 4 天 12 小时，81—85 级由 6 天缩短为 5 天，86—90 级由 7 天缩短为 6 天，91—95 级由 8 天缩短为 7 天。暗黑重油费用：82—85 级分别由 19万、20万、21万、22万降至 18.5万、19万、19.5万、20万；86—90 级分别由 23万、24万、25万、26万、27万降至 21.5万、22.5万、23.5万、24.5万、25.5万。 <a href="https://clashofclans.fandom.com/wiki/Archer_Queen#History" target="_blank" rel="noopener noreferrer">来源</a></TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2026/02/23">
+        <TimelineRow>降低部分等级的升级费用和时间；本条来源未列出具体等级及新旧值。 <a href="https://clashofclans.fandom.com/wiki/Archer_Queen#History" target="_blank" rel="noopener noreferrer">来源</a></TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/11/17">
         <TimelineRow>18 本推出，并在 18 本新增 101 ~ 105 级弓箭女皇。</TimelineRow>
     </TimelineItem>

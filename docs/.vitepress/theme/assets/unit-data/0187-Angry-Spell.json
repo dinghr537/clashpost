@@ -231,7 +231,23 @@
       "sourceAlt": "Angry Spell info"
     }
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-06-16",
+      "description": "Added the Angry Spell, with 4 levels."
+    },
+    {
+      "date": "2026-06-18",
+      "description": "Fixed an issue where troop with damage multiplier ability would apply the damage multiplier onto defenses."
+    },
+    {
+      "date": "2026-08-31",
+      "description": "修复较低大本等级玩家的部落城堡援军请求中不显示愤怒法术的问题；陨石戈仑在分裂、被投掷或合体时，不再丢失愤怒效果和目标。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/august-update-3/",
+      "sourcePublishedOn": "2026-08-30",
+      "dateSourceUrl": "https://clashofclans.fandom.com/wiki/Diggy?oldid=625147#History"
+    }
+  ],
   "facts": [
     "The Angry Spell is the eighth and currently the final Dark Spell unlocked at level 8 Dark Spell Factory, which requires Town Hall level 15."
   ],

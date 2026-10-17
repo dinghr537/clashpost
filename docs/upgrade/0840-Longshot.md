@@ -80,9 +80,11 @@ const tableExtraInfo = [
 <Timeline>
     <TimelineItem date="2026/04/27">
         <TimelineRow>远袭者开始受毒药法术影响，效果为正常值的30%。</TimelineRow>
+        <TimelineRow>守卫被冻结时，不再触发激活。 <a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
     </TimelineItem>
     <TimelineItem date="2026/02/23">
         <TimelineRow>远袭者的范围伤害不再同时伤害地面与空中部队，只影响与初始命中目标相同的部队类型。</TimelineRow>
+        <TimelineRow>开始受到毒药法术影响：承受完整伤害，移速和攻速降低效果按通常值的 70% 生效。此规则后来在四月调整。 <a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-february-update-has-escaped/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
     </TimelineItem>
     <TimelineItem date="2026/01/12">
         <TimelineRow>攻击距离从 12 格减少到 11 格。</TimelineRow>

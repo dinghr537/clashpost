@@ -313,7 +313,12 @@
       "logicalPath": "/upgrade/home_tech/0104/Freeze_Spell.png"
     }
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-04-27",
+      "description": "Added the level 8 Freeze Spell."
+    }
+  ],
   "facts": [],
   "notices": []
 }

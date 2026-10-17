@@ -552,7 +552,14 @@
       "sourceAlt": "Yeti8"
     }
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-04-27",
+      "description": "新增 8 级大雪怪。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/",
+      "sourcePublishedOn": "2026-04-27"
+    }
+  ],
   "facts": [
     "The Yeti is the fourteenth Elixir Troop unlocked once the Barracks is upgraded to level 14, which requires Town Hall level 12. He is a slow-moving, single-target damaging Troop.",
     "Yetis possess above-average health and attack compared to most damage units. When deployed, they carry a set amount of Yetimites; for every 600 damage he takes, a Yeti spawns a Yetimite, if he still has any remaining. Once destroyed, a Yeti releases any remaining Yetimites he still has."

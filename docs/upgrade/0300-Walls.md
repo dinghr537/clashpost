@@ -111,8 +111,15 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/06/16">
+        <TimelineRow>开放十八本剩余城墙升至 19 级。 <a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-anime-fury-update-is-here/" target="_blank" rel="noopener noreferrer">官方公告</a>（06/15 发布；<a href="https://clashofclans.fandom.com/wiki/X-Bow?oldid=596696#History" target="_blank" rel="noopener noreferrer">更新日期</a>）</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2026/04/27">
+        <TimelineRow>再开放 75 块城墙升至 19 级，总数达到 275 块。 <a href="https://clashofclans.fandom.com/wiki/Wall#History" target="_blank" rel="noopener noreferrer">来源</a></TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2026/02/23">
         <TimelineRow>18 本新解锁 75 块 19 级城墙（共 200 块）。</TimelineRow>
+        <TimelineRow>19 级城墙的外观颜色变深。 <a href="https://clashofclans.fandom.com/wiki/Wall#History" target="_blank" rel="noopener noreferrer">来源</a></TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/11/25">
         <TimelineRow>18 本推出，并在 18 本新增 19 级城墙，目前游戏只开放了 125 块 19 级城墙。</TimelineRow>

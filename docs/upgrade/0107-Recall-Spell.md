@@ -88,8 +88,12 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/08/31">
+        <TimelineRow>修复召回单位重新部署后卡在城墙内或城墙附近的问题。 <a href="https://supercell.com/en/games/clashofclans/blog/release-notes/august-update-3/" target="_blank" rel="noopener noreferrer">官方公告</a>（08/30 发布；<a href="https://clashofclans.fandom.com/wiki/Diggy?oldid=625147#History" target="_blank" rel="noopener noreferrer">更新日期</a>）</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2026/04/27">
         <TimelineRow>新增7级召回法术；3至6级升级时间分别调整为8天12小时→7天12小时、9天12小时→8天、11天12小时→9天、12天12小时→11天；召回优先选择英雄。</TimelineRow>
+        <TimelineRow>召回目标改为优先选择英雄。 <a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/11/17">
         <TimelineRow>6 级回溯法术的升级时间和升级费用减少。</TimelineRow>

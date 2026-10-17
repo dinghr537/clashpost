@@ -354,7 +354,12 @@
       "logicalPath": "/upgrade/home_tech/0105/Clone_Spell.png"
     }
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-04-27",
+      "description": "Added the level 9 Clone Spell."
+    }
+  ],
   "facts": [
     "The Clone Spell is the 6th Elixir Spell unlocked at level 5 Spell Factory, requiring the Town Hall to be at level 10. As the name of this spell implies, it clones troops that enter the spell's radius.",
     "If multiple Clone Spells are used, each spell is treated separately, and the capacity is not combined. For example, two level 5 Clone Spells (which are able to clone a total of 60 housing space) will not be able to clone three Dragons."

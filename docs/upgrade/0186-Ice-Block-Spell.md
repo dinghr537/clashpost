@@ -74,6 +74,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/04/27">
+        <TimelineRow>新增 6 级冰障法术；4 级升级时间由 14 天缩短为 12 天，5 级由 16 天缩短为 14 天。 <a href="https://clashofclans.fandom.com/wiki/Ice_Block_Spell#History" target="_blank" rel="noopener noreferrer">来源</a></TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/06/19">
         <TimelineRow>新法术：冰障法术，14 本可解锁，共推出 5 个等级。</TimelineRow>
     </TimelineItem>

@@ -447,7 +447,14 @@
       "logicalPath": "/upgrade/home_tech/060d/Super_Dragon7.png"
     }
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-04-27",
+      "description": "飞龙新增 13 级，对应的超级飞龙开放 13 级。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/",
+      "sourcePublishedOn": "2026-04-27"
+    }
+  ],
   "facts": [
     "The Super Dragon is a Super Troop based on the Dragon. It can be unlocked by boosting the Dragon when the Dragon is at least level 7.",
     "Boosting the Dragon requires 25,000 Dark Elixir or a Super Potion, and doing so allows the Dragon to be boosted for 3 days. The level of Super Dragon you obtain from the boost corresponds to the level of Dragon you have.",

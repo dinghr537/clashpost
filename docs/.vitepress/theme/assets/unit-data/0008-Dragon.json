@@ -744,7 +744,12 @@
       "sourceAlt": "Dragon13"
     }
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-04-27",
+      "description": "Added the level 13 Dragon. Dragon13"
+    }
+  ],
   "facts": [
     "The Dragon is the ninth Elixir troop unlocked at Barracks level 9, which requires Town Hall level 7."
   ],

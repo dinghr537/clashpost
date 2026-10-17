@@ -1606,7 +1606,14 @@
       "logicalPath": "/upgrade/home_heroes/0786/Heroic_Torch.png"
     }
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-04-27",
+      "description": "技能不再影响图腾法术召唤的图腾。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/",
+      "sourcePublishedOn": "2026-04-27"
+    }
+  ],
   "facts": [],
   "notices": []
 }

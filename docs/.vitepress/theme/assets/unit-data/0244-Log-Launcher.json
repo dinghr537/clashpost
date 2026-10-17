@@ -1150,7 +1150,20 @@
       "sourceAlt": "Log Launcher6"
     }
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-04-27",
+      "description": "新增 6 级攻城滚木车。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/",
+      "sourcePublishedOn": "2026-04-27"
+    },
+    {
+      "date": "2026-04-27",
+      "description": "攻城机器开始受到小火灵留下的火焰伤害；不再受到 14—16 本大本营毒药、生命宝石效果及守护者学徒光环的影响。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/",
+      "sourcePublishedOn": "2026-04-27"
+    }
+  ],
   "facts": [
     "The Log Launcher loses its health over time from the moment it is deployed. This rate of HP loss is constant at all levels, at roughly 156 HP per second. The Eternal Tome, which prevents damage on other units, does not stop this HP decay.",
     "The Log Launcher requires a level 7 Clan Castle in order to be received as a Clan Castle reinforcement. This means that the usage of the Log Launcher is only limited to players at Town Hall 11 and above."

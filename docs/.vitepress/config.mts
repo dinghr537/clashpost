@@ -1,5 +1,6 @@
 import { defineConfig, HeadConfig } from "vitepress";
 import { resolve } from 'node:path'
+import { publicWikiLinks } from './theme/assets/wiki-links.mjs'
 
 const siteUrl = "https://cocpost.pages.dev";
 
@@ -26,6 +27,7 @@ export default defineConfig({
         return head;
     },
     markdown: {
+        config: publicWikiLinks,
         math: true,
         image: {
             lazyLoad: true

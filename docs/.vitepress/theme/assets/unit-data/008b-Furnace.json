@@ -266,7 +266,14 @@
       "logicalPath": "/upgrade/home_tech/008b/Firemite1.png"
     }
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-04-27",
+      "description": "小火灵留下的火焰现在可以伤害攻城机器。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/",
+      "sourcePublishedOn": "2026-04-27"
+    }
+  ],
   "facts": [
     "The Furnace is the twelfth Dark Elixir troop unlocked at Dark Barracks level 12, which requires Town Hall level 15."
   ],

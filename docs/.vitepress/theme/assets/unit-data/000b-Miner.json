@@ -676,7 +676,14 @@
       "logicalPath": "/upgrade/home_tech/000b/Miner12.png"
     }
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-02-23",
+      "description": "调整地下单位的战斗逻辑，使其面对多个骷髅兵时的行为更稳定。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-february-update-has-escaped/",
+      "sourcePublishedOn": "2026-02-23"
+    }
+  ],
   "facts": [
     "The Miner is the twelfth Elixir troop unlocked at Barracks level 12, which requires Town Hall level 10."
   ],

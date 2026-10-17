@@ -95,6 +95,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/04/27">
+        <TimelineRow>技能不再影响图腾法术召唤的图腾。 <a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2026/01/12">
         <TimelineRow>1 ~ 27 级英雄火炬的持续时间、减伤比例、英雄回血增加值、英雄每秒伤害增加值、英雄生命值增加值提升。</TimelineRow>
     </TimelineItem>

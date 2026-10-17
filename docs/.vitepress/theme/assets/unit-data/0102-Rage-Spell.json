@@ -338,7 +338,12 @@
       "logicalPath": "/upgrade/home_tech/0102/Rage_Spell.png"
     }
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-04-27",
+      "description": "Added the level 7 Rage Spell."
+    }
+  ],
   "facts": [
     "The Rage Spell's effect lasts for 18 seconds, which the effect will then dissipate afterwards.",
     "The Rage Spell has a reduced effect on Heroes, only granting 50% of its damage and speed boosts to them. Siege Machines cannot be affected by the Rage Spell."

@@ -77,6 +77,12 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/07/14">
+        <TimelineRow>6 级龙骑士生命值由 6000 降至 5900，每秒伤害由 510 降至 490。 <a href="https://clashofclans.fandom.com/wiki/Dragon_Rider#History" target="_blank" rel="noopener noreferrer">来源</a></TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2026/05/26">
+        <TimelineRow>6 级龙骑士生命值由 6200 降至 6000，每秒伤害由 520 降至 510。 <a href="https://clashofclans.fandom.com/wiki/Dragon_Rider#History" target="_blank" rel="noopener noreferrer">来源</a></TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/11/17">
         <TimelineRow>18 本推出，并在 18 本新增 6 级龙骑士。</TimelineRow>
         <TimelineRow>5 级龙骑士的升级费用和升级时间减少。</TimelineRow>

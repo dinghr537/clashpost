@@ -94,6 +94,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/04/27">
+        <TimelineRow>18 本增加 1 个空中炸弹的建造名额。 <a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/11/17">
         <TimelineRow>18 本推出，并在 18 本新增 13 级空中炸弹。</TimelineRow>
         <TimelineRow>12 级空中炸弹的升级时间和升级费用减少。</TimelineRow>

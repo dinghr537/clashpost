@@ -8,7 +8,7 @@
 
 `unitId` 沿用原项目编号，`module` 区分家乡、夜世界、都城和活动单位。家乡精工防御与夜世界同名建筑拥有不同编号。
 
-`sync` 保存来源 URL、固定 Wiki 修订链接、修订号、同步日期、状态和范围。`synced` 表示已经采用该来源的统计表，不表示独立核验了游戏数值，也不表示完整的更新历史。
+`sync` 保存来源 URL、固定 Wiki 修订链接、修订号、同步日期、状态和范围。固定修订用于追溯；读者链接在渲染时移除 `oldid` 参数并保留章节定位，避免跳到要求登录的历史页。`synced` 表示已经采用该来源的统计表，不表示独立核验了游戏数值，也不表示完整的更新历史。
 
 ## 表格和条件
 
@@ -38,7 +38,7 @@
 
 补图来源记录的 `sourceFilePage` 指向文件说明页，供核对作者与许可；该字段只是出处，不代表授权已经确认。`reviewed-wiki-images.json` 的检查只确认画面与单位相符。内容及图片的许可范围见 [NOTICE.md](NOTICE.md)，联网获取条件见 [来源权限核查](SOURCE_PERMISSIONS.md)。
 
-`history` 保存来源可取得的 2026 年日期和变更描述，不能视为游戏完整修订记录。官网公告、活动开放时间或 Clash Ninja 补充条目单独保留 `sourceUrl` 与类型；公告日、来源记录日和本站同步日不混为一谈。
+`history` 保存来源可取得的 2026 年日期和变更描述（读取 `Date` 或 `Patch` 表头），不能视为游戏完整修订记录。官网公告、活动开放时间或 Clash Ninja 补充条目单独保留 `sourceUrl` 与类型；公告日、来源记录日和本站同步日不混为一谈。`sourcePublishedOn` 单独记录公告日，`dateSourceUrl` 记录生效日依据；来源日期不确定或为范围时，保留 `dateRaw`、`dateUncertain` 或 `dateEnd`。官网补充记录保存于 `scripts/supplemental-history.json`，同步时合并；原页面采用不同中文表述时，由 `scripts/history-paraphrases.json` 记录已核对的对应文字。发布检查逐条核对正文，而不是只检查日期。
 
 若数值和生效日期由不同来源支持，`sourceUrl` 保存数值或描述来源，`dateSourceUrl` 单独保存日期来源；单位 Markdown 也须分别标注，不能把日期出处隐藏在 JSON 中。法师塔的 2026-04-27 条目目前采用这一方式。
 

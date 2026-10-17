@@ -238,7 +238,12 @@
       "logicalPath": "/upgrade/home_tech/0185/Overgrowth_Spell.png"
     }
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-04-27",
+      "description": "Added the level 5 Overgrowth Spell. Reduced upgrade time at level 2 from 5d 12h to 5d. Time"
+    }
+  ],
   "facts": [
     "The Overgrowth Spell is the 6th Dark Spell unlocked at level 6 Dark Spell Factory, which requires Town Hall level 12. It temporarily disables defenses and turns all the buildings invisible and invulnerable within a 13-tile diameter, or a 6-tile radius centered where the spell is placed."
   ],

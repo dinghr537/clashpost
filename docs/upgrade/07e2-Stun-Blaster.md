@@ -82,6 +82,10 @@ const tableExtraInfo = [
     </TimelineItem>
     <TimelineItem date="2026/02/23">
         <TimelineRow>新装备：爆震器。</TimelineRow>
+        <TimelineRow>此时仅加入游戏，飞龙公爵仍被囚禁，装备暂时无法获取。 <a href="https://clashofclans.fandom.com/wiki/Stun_Blaster#History" target="_blank" rel="noopener noreferrer">来源</a></TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2026/02/22">
+        <TimelineRow>飞龙公爵公布时展示爆震器。 <a href="https://clashofclans.fandom.com/wiki/Stun_Blaster#History" target="_blank" rel="noopener noreferrer">来源</a></TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

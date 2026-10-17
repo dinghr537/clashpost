@@ -281,7 +281,14 @@
       "logicalPath": "/upgrade/home_tech/0600/Super_Barbarian8.png"
     }
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-04-27",
+      "description": "野蛮人新增 13 级，对应的超级野蛮人开放 13 级。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/",
+      "sourcePublishedOn": "2026-04-27"
+    }
+  ],
   "facts": [
     "The Super Barbarian is a Super Troop based on the Barbarian. It can be unlocked by boosting the Barbarian when the Barbarian is at least level 8.",
     "Boosting the Barbarian requires 25,000 Dark Elixir or a Super Potion, and doing so allows the Barbarian to be boosted for 3 days. The level of Super Barbarian you obtain from the boost corresponds to the level of Barbarian you have.",

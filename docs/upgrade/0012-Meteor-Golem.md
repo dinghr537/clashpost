@@ -135,8 +135,14 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/08/31">
+        <TimelineRow>修复陨石戈仑在分裂、被投掷或合体时丢失愤怒法术效果及目标的问题。 <a href="https://supercell.com/en/games/clashofclans/blog/release-notes/august-update-3/" target="_blank" rel="noopener noreferrer">官方公告</a>（08/30 发布；<a href="https://clashofclans.fandom.com/wiki/Diggy?oldid=625147#History" target="_blank" rel="noopener noreferrer">更新日期</a>）</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2026/07/14">
         <TimelineRow>生命值调整：1级13,000→14,500，2级14,500→16,000，3级16,000→17,500；伤害调整：1级450→480，2级500→530，3级550→580。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2026/07/13">
+        <TimelineRow>7 月 13—14 日的部队狂欢活动中，多人对战和复仇战加入 60 个临时版本的陨石戈仑及小陨石戈仑。 <a href="https://clashofclans.fandom.com/wiki/Meteor_Golem#History" target="_blank" rel="noopener noreferrer">来源</a></TimelineRow>
     </TimelineItem>
     <TimelineItem date="2026/01/28">
         <TimelineRow>所有等级陨石戈仑和小陨石戈仑的生命值和伤害降低。</TimelineRow>

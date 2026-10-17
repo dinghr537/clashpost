@@ -90,11 +90,29 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/08/31">
+        <TimelineRow>修复冲刺缺少火焰效果或过早结束的问题；飞龙公爵会先完成冲刺再被击败，凤凰临时复活效果在冲刺途中结束也不会立即中断冲刺。 <a href="https://supercell.com/en/games/clashofclans/blog/release-notes/august-update-3/" target="_blank" rel="noopener noreferrer">官方公告</a>（08/30 发布；<a href="https://clashofclans.fandom.com/wiki/Diggy?oldid=625147#History" target="_blank" rel="noopener noreferrer">更新日期</a>）</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2026/07/14">
+        <TimelineRow>为处理火箭背包有时无法触发的问题，暂时恢复助燃器沿火箭背包方向推动飞龙公爵的行为，等待后续版本正式修复。 <a href="https://supercell.com/en/games/clashofclans/blog/news/july-balance-update/" target="_blank" rel="noopener noreferrer">官方公告</a>（07/09 发布；<a href="https://clashofclans.fandom.com/wiki/Dragon_Rider?oldid=625318#History" target="_blank" rel="noopener noreferrer">更新日期</a>）</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2026/06/16">
+        <TimelineRow>装备触发顺序改为由装备本身决定，不再取决于装备栏位置；同时携带助燃器与火箭背包时，先触发助燃器，再触发火箭背包。 <a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-anime-fury-update-is-here/" target="_blank" rel="noopener noreferrer">官方公告</a>（06/15 发布；<a href="https://clashofclans.fandom.com/wiki/X-Bow?oldid=596696#History" target="_blank" rel="noopener noreferrer">更新日期</a>）</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2026/05/26">
         <TimelineRow>调整21至27级的技能伤害： 21-23级： 1,925 → 1,875 27级： 2,200 → 2,150</TimelineRow>
     </TimelineItem>
+    <TimelineItem date="2026/04/27">
+        <TimelineRow>修复火箭背包的多项技能问题。 <a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2026/04/08">
         <TimelineRow>新装备：火箭背包。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2026/03/19">
+        <TimelineRow>正式开放前调整技能伤害：24—26 级由 2125 降至 2050，27 级由 2325 降至 2200。 <a href="https://clashofclans.fandom.com/wiki/Rocket_Backpack#History" target="_blank" rel="noopener noreferrer">来源</a></TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2026/02/23">
+        <TimelineRow>火箭背包已加入游戏文件。 <a href="https://clashofclans.fandom.com/wiki/Rocket_Backpack#History" target="_blank" rel="noopener noreferrer">来源</a></TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

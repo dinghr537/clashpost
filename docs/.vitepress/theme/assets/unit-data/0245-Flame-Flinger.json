@@ -401,7 +401,14 @@
       "logicalPath": "/upgrade/home_tech/0245/Flame_Flinger5.png"
     }
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-04-27",
+      "description": "攻城机器开始受到小火灵留下的火焰伤害；不再受到 14—16 本大本营毒药、生命宝石效果及守护者学徒光环的影响。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/",
+      "sourcePublishedOn": "2026-04-27"
+    }
+  ],
   "facts": [
     "The Flame Flinger is the sixth Siege Machine unlocked at Workshop level 6, which requires Town Hall level 14.",
     "The Flame Flinger requires a level 8 Clan Castle in order to be received as a Clan Castle reinforcement. This means that the usage of the Flame Flinger is only limited to players at Town Hall 12 and above."

@@ -318,7 +318,14 @@
       "logicalPath": "/upgrade/home_tech/0089/Apprentice_Warden4.png"
     }
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-04-27",
+      "description": "生命光环不再影响攻城机器。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/",
+      "sourcePublishedOn": "2026-04-27"
+    }
+  ],
   "facts": [
     "The Apprentice Warden is the tenth Dark Elixir Troop unlocked when the Dark Barracks is upgraded to level 10, which requires Town Hall level 13."
   ],

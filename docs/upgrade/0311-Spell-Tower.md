@@ -219,6 +219,7 @@ const tableExtraInfo = [
 <Timeline>
     <TimelineItem date="2026/02/23">
         <TimelineRow>在 17 本添加了 4 级法术塔。</TimelineRow>
+        <TimelineRow>4 级法术塔解锁地震法术。 <a href="https://clashofclans.fandom.com/wiki/Spell_Tower#History" target="_blank" rel="noopener noreferrer">来源</a></TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/10/06">
         <TimelineRow>3 级法术塔的升级时间减少。</TimelineRow>

@@ -677,7 +677,12 @@
       "sourceAlt": "Valkyrie12"
     }
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-04-27",
+      "description": "Added the level 12 Valkyrie. Valkyrie12"
+    }
+  ],
   "facts": [
     "The Valkyrie is the third Dark Elixir Troop to be unlocked, once the Dark Barracks is upgraded to level 3, which requires Town Hall level 8."
   ],

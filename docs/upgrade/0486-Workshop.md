@@ -83,6 +83,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/04/27">
+        <TimelineRow>新增 9 级攻城机器工坊，解锁空中战车。 <a href="https://clashofclans.fandom.com/wiki/Workshop#History" target="_blank" rel="noopener noreferrer">来源</a></TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/10/06">
         <TimelineRow>3 ~ 8 级攻城机器工坊的升级时间减少。</TimelineRow>
     </TimelineItem>

@@ -949,7 +949,14 @@
       "sourceAlt": "Golem15"
     }
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-04-27",
+      "description": "新增 15 级戈仑石人。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/",
+      "sourcePublishedOn": "2026-04-27"
+    }
+  ],
   "facts": [
     "The Golem is the fourth Dark Elixir Troop unlocked once the Dark Barracks is upgraded to level 4. He is a slow defense-targeting ground troop with low damage but massive hitpoints."
   ],

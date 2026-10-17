@@ -340,7 +340,12 @@
       "sourceAlt": "Root Rider4"
     }
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-04-27",
+      "description": "Added the level 4 Root Rider. Root Rider4"
+    }
+  ],
   "facts": [
     "The Root Rider is the seventeenth Elixir Troop unlocked at Barracks level 17, which requires Town Hall level 15."
   ],

@@ -1188,7 +1188,14 @@
       "logicalPath": "/upgrade/home_tech/0240/Wall_Wrecker6.png"
     }
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-04-27",
+      "description": "攻城机器开始受到小火灵留下的火焰伤害；不再受到 14—16 本大本营毒药、生命宝石效果及守护者学徒光环的影响。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/",
+      "sourcePublishedOn": "2026-04-27"
+    }
+  ],
   "facts": [
     "The Wall Wrecker is the first Siege Machine unlocked in the Workshop, which requires Town Hall level 12. It is made available as soon as the Workshop is completed."
   ],
