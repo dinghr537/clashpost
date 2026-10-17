@@ -14,6 +14,8 @@ const resetDvhResizeEvent = debounce(resetDvhValue, 400);
 const resourceErrorEvent = event => reloadResource(event);
 
 onMounted(() => {
+    // 跨布局导航会重新挂载 Main，也需要同步页面的规范链接和索引设置。
+    changeHeader(frontmatter.value.robots, frontmatter.value.canonical);
     // 冻结表头
     window.addEventListener("scroll", stickyTheadWhenScrolling);
     // 缩放页面时重新确定表头的位置，这里选择 400ms 是为了等动画播放完
@@ -60,10 +62,6 @@ watch(() => router.route.data.relativePath, (path) => {
     });
 }, { immediate: false });
 
-// 由于开发环境下没有生成 canonical 标记，需要第一次进入页面时就修改 header
-if (import.meta.env.MODE === 'development') {
-    changeHeader(frontmatter.value.robots, frontmatter.value.canonical);
-}
 </script>
 
 <template>
