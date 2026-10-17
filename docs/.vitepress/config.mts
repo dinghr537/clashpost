@@ -13,7 +13,10 @@ export default defineConfig({
     ignoreDeadLinks: true,
     head: [
         ["meta", { name: "format-detection", content: "telephone=no"}],
-        ["link", { rel: "icon", href: "/favicon.svg", type: "image/svg+xml" }]
+        ["link", { rel: "icon", href: "/favicon.ico?v=20261017", sizes: "32x32" }],
+        ["link", { rel: "icon", href: "/favicon.svg?v=20261017", type: "image/svg+xml", sizes: "any" }],
+        ["link", { rel: "apple-touch-icon", href: "/apple-touch-icon.png", sizes: "180x180" }],
+        ["link", { rel: "manifest", href: "/manifest.webmanifest" }]
     ],
     transformHead: ({ pageData }) => {
         const head: HeadConfig[] = [];
