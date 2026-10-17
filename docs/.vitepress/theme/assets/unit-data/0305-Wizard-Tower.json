@@ -1149,8 +1149,9 @@
   "history": [
     {
       "date": "2026-04-27",
-      "description": "四月更新公告：十七级升级时间从 8 天 12 小时缩短为 5 天 12 小时。",
-      "sourceUrl": "https://www.clash.ninja/blog/april-2026-update-is-live",
+      "description": "十七级升级时间从 8 天 12 小时缩短为 5 天 12 小时。",
+      "sourceUrl": "https://clashofclans.fandom.com/wiki/Wizard_Tower?oldid=625327",
+      "dateSourceUrl": "https://www.clash.ninja/blog/april-2026-update-is-live",
       "type": "announcement"
     }
   ],

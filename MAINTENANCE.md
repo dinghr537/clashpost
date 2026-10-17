@@ -18,7 +18,7 @@
 
 无需定时监控、后台任务或自动发布。用户可以这样发出指示：
 
-- 「按 Wiki 更新家乡英雄的升级数据。」AI 获取对应来源、比较差异、修改数据，并报告更新范围与未解决的缺项。
+- 「按 Wiki 更新家乡英雄的升级数据。」AI 先核对内容与获取方式的许可，再获取对应来源、比较差异、修改数据，并报告更新范围与未解决的缺项。尚无适用自动访问授权时，使用已有本地快照整理，不能直接运行批量抓取。
 - 「准备发布这一版。」AI 检查数据和页面、运行构建、整理变更摘要与发布所需文件，并指出会影响本次发布的问题。
 - 「发布这一版。」这是本次发布的授权。AI 按项目部署方式发布已准备的版本，验证上线结果；若部署方式或凭据尚未配置，先说明具体缺项。
 
@@ -29,9 +29,19 @@
 | 来源 | 用途 | 当前状态 |
 | --- | --- | --- |
 | [Supercell 官网](https://supercell.com/en/games/clashofclans/blog/) | 查看更新范围，采用官方公开数值 | 已读取公开公告；部分公告有费用和时间表 |
-| [Clash of Clans Wiki](https://clashofclans.fandom.com/wiki/Clash_of_Clans_Wiki) | 获取各等级的完整表格和更新历史 | 公开 MediaWiki API 已完成本次 357 页的固定修订同步 |
-| [Clash Ninja](https://www.clash.ninja/upgrade-tracker/overview) | 获取或补充升级数据、参考更新范围 | 已采用四月公告中的法师塔升级时间变更补充历史 |
-| 其他数据网站 | 用户指定来源、填补缺项 | 使用时记录对应页面与同步范围 |
+| [Clash of Clans Wiki](https://clashofclans.fandom.com/wiki/Clash_of_Clans_Wiki) | 采用开放许可的等级表格和历史 | 已保存 357 页固定修订；文字默认 CC BY-SA 3.0；后续批量 API 获取授权待确认 |
+| [Clash Ninja](https://www.clash.ninja/upgrade-tracker/overview) | 发现更新、辅助核对 | 不作为批量导入来源；法师塔新旧数值已改用 Wiki，四月生效日期仍注明参考 Ninja 公告 |
+| 其他数据网站 | 用户指定来源、填补缺项 | 先确认许可和访问方式，再记录对应页面与同步范围 |
+
+## 来源许可与获取方式
+
+具体依据、核查日期与未决项见 [SOURCE_PERMISSIONS.md](SOURCE_PERMISSIONS.md)，对外说明见 [来源与许可](docs/sources.md)。保留原作者、原页面、适用许可链接和本站修改说明；改编内容遵守相同方式共享要求。CC 许可不自动覆盖图片、商标和整个代码仓库。
+
+2026-10-16 已读取修订日期为 2025-12-19 的 Fandom 当前条款，其中限制未经书面许可的自动访问，未确认到适用于本项目批量 API 读取的例外。**在有适用的明确许可依据前，不再运行 Fandom 批量联网抓取及补图。** 用户手动触发脚本、接口公开、降低请求频率，都不等同于来源方授权。授权不明时不要改用其他端点或浏览器批量抓取来规避。
+
+本地已有快照可继续离线解析与核对。获得明确获取依据后，在来源核查文档中保存授权范围、依据、日期与适用限制，再恢复相应联网步骤。来源网站的书面许可须由该网站授予，不能用本项目用户的一般更新指令代替；对外联系仍需用户明确授权。
+
+其他网站提供相同信息时，可改用已核实且许可适用的来源。新来源必须支持所引用的完整事实：当前数值不能单独证明变更日期，官方笼统公告不能替代具体旧值、新值的出处。无法完整替换时保留真实的引用用途与未决项，不删除原本正确的数据或编造来源。
 
 目标是正确同步选定数据网站的内容，不承诺独立验证游戏中的每一个数值，也不要求每次多站交叉验证或进入游戏核实。来源网站的原始错误可以继承；本站应避免采集、转换、漏行、错列或折扣计算造成的新错误。
 
@@ -39,7 +49,7 @@
 
 更新历史中的「移除充能」等记录必须写明对应的建筑等级，并核对后续是否在新等级重新开放；不能省略适用范围而写成整个功能被移除。来源表中已有当前充能数据、但历史记录缺少开放时间时，可用官方公告补齐并就近标注来源。
 
-先确认正在取的表格属于目标服务器、村庄和模式，使用基础费用与时间，页面另算月卡。若用户指定了来源，优先按该来源同步；没有指定时，完整等级表默认取 Wiki，其他站补缺。站点之间数值不一致时记录采用哪一方，不进行无止境的追溯。缺失值或条件歧义不凭空补齐。
+先确认正在取的表格属于目标服务器、村庄和模式，使用基础费用与时间，页面另算月卡。若用户指定了来源，优先核对该来源的许可及记录；没有指定时，完整等级表优先采用许可适用的 Wiki 资料，其他已确认可用的来源补缺。获取方式未获确认时沿用本地快照并明确其日期。站点之间数值不一致时记录采用哪一方，不进行无止境的追溯。缺失值或条件歧义不凭空补齐。
 
 ## AI 在准备发布时检查
 
@@ -51,6 +61,7 @@
 4. 检查受影响的页面与月卡展示，运行 `npm run docs:build`；发生提取、转换、缺列、页面或构建错误时先修复。
 5. 运行中文展示检查，补译新增名称、表头、属性、能力说明、图片说明和更新历史；目录与搜索结果采用中文名称。优先使用官方中文名，保留英文别名用于搜索，不能把来源英文直接作为默认页面内容。
 6. 整理更新范围、采用来源、同步日期、仍沿用历史数据的范围和部署所需产物。
+7. 核对来源与许可入口、署名和修改说明；列明仍需确认的访问授权、图片权利与上游代码部署范围。技术构建通过不代表这些授权已完成。
 
 已如实标注的来源未知项不要求全部解决后才能发布。检查目标是避免本站引入错误，并让用户知道本次同步覆盖了哪里。
 
@@ -60,10 +71,10 @@
 
 本次已迁移 357 个数据页到独立 JSON 文件，新增 17 个单位；原 34 组最高等级缺口已补齐。其余 31 个往期活动单位保留旧数据并在页面标注。所有工具只在手动执行时运行，没有后台任务或自动发布。
 
+以下步骤使用已有、来源记录完整的本地缓存；`--cache` 指向包含 `inventory.json` 和对应快照的目录。不要为执行这些离线步骤而重新运行联网抓取。`fetch_wiki_snapshots.py` 和 `download_wiki_images.py` 保留工具代码，当前不列入可执行更新流程，恢复条件见上文。
+
 ```bash
-python3 -B scripts/fetch_wiki_snapshots.py --cache /tmp/clashpost-next-sync
 python3 -B scripts/sync_wiki_data.py --cache /tmp/clashpost-next-sync --date YYYY-MM-DD
-python3 -B scripts/download_wiki_images.py --preview /tmp/clashpost-next-sync/records-preview.json
 python3 -B scripts/sync_wiki_data.py --cache /tmp/clashpost-next-sync --date YYYY-MM-DD --apply
 python3 -B scripts/update_authored_data.py --output /tmp/clashpost-next-sync/authored-preview.json
 # 核对预览与字段映射后，回填原表：
@@ -76,7 +87,7 @@ node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/check_chinese_ui.mjs
 npm run docs:build
 ```
 
-每批使用新的缓存目录，避免复用上一次修订。先查看预览报告与来源，再导入；新增内容还需手动检查目录、活动可用时间和来源中的单位模式。Wiki 缓存包含完整 HTML，仅放在临时目录；仓库保存数据表、修订号、图片及来源记录。
+获准获取的新批次使用新的缓存目录，避免误用上一次修订。复核旧快照时保留原获取日期，不把本次处理日期标成数值重新核对日期。先查看预览报告与来源，再导入；新增内容还需手动检查目录、活动可用时间和来源中的单位模式。Wiki 缓存包含完整 HTML，仅放在临时目录；仓库保存数据表、修订号、图片及来源记录。
 
 新单位须先参照同类页面建立中文正文、原站组件和字段映射。同步脚本拒绝为不存在的页面自动套用通用模板，来源记录仍会留在预览文件中。完成数值回填后，再按来源日期补充历史、核对受影响的说明和属性，更新页尾来源记录；同步表格不代表全部说明均已重新核对。
 
@@ -86,6 +97,8 @@ npm run docs:build
 
 补图必须先查看实际图片，再将对应单位、准确来源 URL 和中文说明登记到 `docs/.vitepress/theme/assets/reviewed-wiki-images.json`，随后导入。文件名含有单位名或数字不代表它是等级图；范围示意图、攻略截图、旧模型及其他单位的图片不能混入图集。图片说明采用已核对的中文含义，不根据文件名自动编造「外观」编号。原有已确认图片继续保留。
 
+上述图像审核仅确认画面含义。新增图片还需记录文件说明页、权利人、具体许可或 Supercell 玩家内容政策的适用依据与核对日期。来源清单只有下载 URL 时不能自动标记为“授权通过”；Wiki 的 fair use 标签也不是 CC 许可。已保存图片的权利核查范围与未决项见来源权限文档。
+
 中文展示词典位于 `docs/.vitepress/theme/assets/i18n/zh-CN.json`。导入新修订后，给新增原文补齐中文译文或数据摘要；检查程序发现未翻译展示文本时会报错。原始文本与数值保存在单位 JSON 中，页面通过来源修订链接提供核对入口。
 
 ## 差异工具
@@ -93,12 +106,12 @@ npm run docs:build
 `scripts/check_upgrade_data.py` 只比较家乡加农炮、蛮王和法师的主升级表，不覆盖页面：
 
 ```bash
-python3 scripts/check_upgrade_data.py --unit 0301-Cannon --output /tmp/cannon-diff.json
-python3 scripts/check_upgrade_data.py --unit 0200-Barbarian-King --output /tmp/king-diff.json
-python3 scripts/check_upgrade_data.py --unit 0006-Wizard --output /tmp/wizard-diff.json
+python3 scripts/check_upgrade_data.py --unit 0301-Cannon --snapshot /path/to/cannon-snapshot.json --output /tmp/cannon-diff.json
+python3 scripts/check_upgrade_data.py --unit 0200-Barbarian-King --snapshot /path/to/king-snapshot.json --output /tmp/king-diff.json
+python3 scripts/check_upgrade_data.py --unit 0006-Wizard --snapshot /path/to/wizard-snapshot.json --output /tmp/wizard-diff.json
 ```
 
-工具使用 Python 3 标准库。`--snapshot` 可复核已保存的 MediaWiki JSON 响应；报告日期是比较执行时间。网络失败会报错。
+工具使用 Python 3 标准库。以上快照路径是示例，替换为已保存的 MediaWiki JSON 响应；报告日期是比较执行时间。当前必须使用 `--snapshot`，不使用省略该参数时的联网模式。
 
 报告分别列出数值变化、适用性差异、未知值、新增等级、缺失等级、条件歧义和双向缺列。原 Markdown 预期前置列丢失时直接报错；迁移后的 JSON 比较对应来源表，并把同等级的不同前置条件分别比较。Wiki 的 `N/A` 记为不适用；本地空白、反斜杠等历史占位符记为未知，原始文本保留。蛮王一级的条件变体单独列出；新版数据按 Wiki 原行保留，不能仅按等级合并。
 

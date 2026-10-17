@@ -438,8 +438,10 @@ def make_record(item, date):
             '容量不足时优先召回英雄，再按人口从高到低召回；同人口优先召回先部署的单位。战宠不继承主人的优先权，可能与主人分开召回。',
         ])
     if item['unitId'] == '0305-Wizard-Tower' and not any(item['date'] == '2026-04-27' for item in history):
-        history.append({'date': '2026-04-27', 'description': '四月更新公告：十七级升级时间从 8 天 12 小时缩短为 5 天 12 小时。',
-                        'sourceUrl': 'https://www.clash.ninja/blog/april-2026-update-is-live', 'type': 'announcement'})
+        # This pinned Wiki revision verifies both values, but does not date the change.
+        history.append({'date': '2026-04-27', 'description': '十七级升级时间从 8 天 12 小时缩短为 5 天 12 小时。',
+                        'sourceUrl': 'https://clashofclans.fandom.com/wiki/Wizard_Tower?oldid=625327',
+                        'dateSourceUrl': 'https://www.clash.ninja/blog/april-2026-update-is-live', 'type': 'announcement'})
     if item['unitId'] == '0e1d-Totem-Thrower' and not any(event['date'] == '2026-10-08' for event in history):
         history.append({'date': '2026-10-08', 'description': '在 Portal Panic 活动中开放使用，活动截至 10 月 25 日。',
                         'sourceUrl': 'https://supercell.com/en/games/clashofclans/blog/news/the-portal-panic-medal-event-rifts-its-way-into-clash/', 'type': 'availability'})

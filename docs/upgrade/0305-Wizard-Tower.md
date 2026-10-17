@@ -114,7 +114,7 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2026/04/27">
-        <TimelineRow>四月更新公告：十七级升级时间从 8 天 12 小时缩短为 5 天 12 小时。 <a href="https://www.clash.ninja/blog/april-2026-update-is-live" target="_blank" rel="noopener noreferrer">来源</a></TimelineRow>
+        <TimelineRow>十七级升级时间从 8 天 12 小时缩短为 5 天 12 小时。 <a href="https://clashofclans.fandom.com/wiki/Wizard_Tower?oldid=625327" target="_blank" rel="noopener noreferrer">新旧数值来源</a>；生效日期参考 <a href="https://www.clash.ninja/blog/april-2026-update-is-live" target="_blank" rel="noopener noreferrer">当日更新公告</a>。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/11/17">
         <TimelineRow>17 级法师塔的升级时间和升级费用减少。</TimelineRow>

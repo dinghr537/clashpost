@@ -50,11 +50,15 @@ npm run docs:preview
 
 - [维护方案](MAINTENANCE.md)
 - [当前数据结构](UPGRADE_DATA_FORMAT.md)
+- [来源、署名与许可](NOTICE.md)
+- [来源权限核查与未决项](SOURCE_PERMISSIONS.md)
 
-试点差异检查与回归检查需要 Python 3，使用标准库，无额外依赖：
+资料转载许可与自动访问权限分别核对。2026-10-16 的核查尚未确认本项目对 Fandom 批量自动获取的适用授权，因此暂不运行联网抓取和补图；已有本地快照的解析、页面维护与构建可以继续。图片不自动适用 Wiki 文本的 CC 许可。
+
+试点差异检查与回归检查需要 Python 3，使用标准库，无额外依赖。将示例快照路径替换为已有、来源记录完整的本地 MediaWiki JSON 文件：
 
 ```bash
-python3 scripts/check_upgrade_data.py --unit 0301-Cannon --output /tmp/cannon-diff.json
+python3 scripts/check_upgrade_data.py --unit 0301-Cannon --snapshot /path/to/cannon-snapshot.json --output /tmp/cannon-diff.json
 python3 -B scripts/check_synced_data.py
 python3 -B -m unittest discover -s tests
 node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --test tests/test_chinese_ui.mjs

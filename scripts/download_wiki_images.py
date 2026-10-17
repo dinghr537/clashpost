@@ -6,11 +6,21 @@ import hashlib
 import json
 from pathlib import Path
 import re
+from urllib.parse import quote, unquote, urlparse
 from urllib.request import Request, urlopen
 
 ROOT = Path(__file__).resolve().parents[1]
 MANIFEST = ROOT / 'docs/.vitepress/theme/assets/supplemental-image-manifest.json'
 SOURCES = ROOT / 'docs/public/images/wiki-sources.json'
+
+
+def source_file_page(url):
+    """Link to file metadata for rights review; this does not verify a license."""
+    parsed = urlparse(url)
+    match = re.match(r'/clashofclans/images/[^/]+/[^/]+/([^/]+)', parsed.path)
+    if parsed.hostname == 'static.wikia.nocookie.net' and match:
+        return 'https://clashofclans.fandom.com/wiki/File:' + quote(unquote(match[1]), safe='')
+    return None
 
 
 def download(record, image):
@@ -32,7 +42,8 @@ def download(record, image):
         path.parent.mkdir(parents=True, exist_ok=True)
         path.write_bytes(data)
     return image['logicalPath'], local, {'unitId': record['unitId'], 'sourceUrl': image['url'],
-            'sourcePage': record['sync']['revisionUrl'], 'importedOn': record['sync']['syncedOn']}
+            'sourcePage': record['sync']['revisionUrl'], 'sourceFilePage': source_file_page(image['url']),
+            'importedOn': record['sync']['syncedOn']}
 
 
 def main():
