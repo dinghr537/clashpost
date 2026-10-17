@@ -93,12 +93,7 @@ export function changeHeader(robotsMetaValue, canonicalLink) {
     // 修改规范链接
     if (canonicalLink) {
         // 确定完整的规范链接
-        let canonicalLinkFull;
-        if (canonicalLink === "/") {
-            canonicalLinkFull = "https://clashpost.com";
-        } else {
-            canonicalLinkFull = "https://clashpost.com" + canonicalLink;
-        }
+        const canonicalLinkFull = new URL(canonicalLink, "https://cocpost.pages.dev").href;
         // 查找网页 head 中规范链接所在的 link
         let canonicalLinkHead = null;
         document.head.querySelectorAll("link").forEach(el => {
@@ -111,10 +106,10 @@ export function changeHeader(robotsMetaValue, canonicalLink) {
         if (canonicalLinkHead === null) {
             const newDom = document.createElement("link");
             newDom.setAttribute("rel", "canonical");
-            newDom.setAttribute("content", canonicalLinkFull);
+            newDom.setAttribute("href", canonicalLinkFull);
             document.head.appendChild(newDom);
         } else {
-            canonicalLinkHead.setAttribute("content", canonicalLinkFull);
+            canonicalLinkHead.setAttribute("href", canonicalLinkFull);
         }
     } else {
         document.head.querySelectorAll("link").forEach(el => {

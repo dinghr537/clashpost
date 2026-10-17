@@ -1,6 +1,8 @@
 import { defineConfig, HeadConfig } from "vitepress";
 import { resolve } from 'node:path'
 
+const siteUrl = "https://cocpost.pages.dev";
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
     title: "部落驿站",
@@ -18,10 +20,8 @@ export default defineConfig({
             head.push(["meta", { name: "robots", content: pageData.frontmatter.robots }]);
         }
         const canonical = pageData.frontmatter.canonical;
-        if (canonical === "/") {
-            head.push(["link", { rel: "canonical", content: "https://clashpost.com" }]);
-        } else {
-            head.push(["link", { rel: "canonical", content: "https://clashpost.com" + canonical }]);
+        if (canonical) {
+            head.push(["link", { rel: "canonical", href: new URL(canonical, siteUrl).href }]);
         }
         return head;
     },
@@ -36,7 +36,7 @@ export default defineConfig({
         }
     },
     sitemap: {
-        hostname: "https://clashpost.com",
+        hostname: siteUrl,
         transformItems: (items) => {
             const excludedUrls = [
                 "/faq",

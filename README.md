@@ -44,6 +44,19 @@ npm run docs:preview
 
 构建产物在 `docs/.vitepress/dist`。构建和本地预览不会发布网站。
 
+## Cloudflare Pages 发布
+
+项目名为 `cocpost`，正式地址为 <https://cocpost.pages.dev>。采用 Direct Upload：只在用户明确要求发布时，从本地上传构建结果，没有连接 Git 自动部署。图片包含在构建目录中，与页面一起发布。
+
+完成下方维护检查并提交本次改动后，使用已登录的 Wrangler 4 执行：
+
+```bash
+npm run docs:build
+wrangler pages deploy docs/.vitepress/dist --project-name cocpost --branch main
+```
+
+这里的 `main` 是 Pages 的生产环境分支标识，不要求切换、合并或推送本地 Git 分支；部署记录关联当前本地提交。发布后检查首页、分类、单位表格、搜索、月卡减免、图片和来源说明。
+
 ## 更新与发布
 
 当前由用户手动告诉 AI 要更新什么、准备哪次发布以及何时发布，不安排后台更新或自动发布。同步目标是正确采用指定数据网站的数值，并记录来源与同步日期。
