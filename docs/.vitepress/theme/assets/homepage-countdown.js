@@ -6,7 +6,7 @@ export function calcAllCountdowns() {
     calcRaidWeekendCountdown();
     calcTraderCountDown();
     calcClanGamesCountDown();
-    calcLeagueCountdown();
+    calcRankedCountdown();
     calcGoldPassCountDown();
 }
 
@@ -75,7 +75,7 @@ function timeExchangeCountdown(sec) {
 
 /**
  * 计算联赛相关的倒计时
- * 联赛在每月一号下午四点开始报名，三号下午四点报名结束，十号下午四点所有部落打完（北京时间）
+ * 联赛在每月一号下午四点开始报名，三号下午四点报名结束，十一号下午四点所有部落打完（北京时间）
  */
 function calcCwlCountdown() {
     const currentUTCTimeMs = getCurrentUTCTime();
@@ -337,52 +337,20 @@ function calcClanGamesCountDown() {
 }
 
 /**
- * 获取下次赛季刷新时的日期
+ * 排位周赛每周一 UTC 05:00 结算，不适用于传奇 I 的四周赛季。
+ * https://support.supercell.com/clash-of-clans/en/articles/ranked-leagues-4.html
  */
-function getLeagueResetTime(year, monthMinusOne, dayOfMonth, hours) {
-    // 获取每月最后一周的周一，作为赛季刷新日
-    // 将下个月 1 号减去一天，获得本月最后一天，参数 day 这里的 1 -1 就代表这个月 1 号再减一天
-    let leagueResetDay = new Date(Date.UTC(year, monthMinusOne + 1, 1 - 1));
-    // 每次减去一天，遇到周一时停止循环
-    do {
-        leagueResetDay.setUTCDate(leagueResetDay.getUTCDate() - 1);
-    } while (leagueResetDay.getUTCDay() !== 1);
-
-    // 获取刷新当天的日期（比如 1日、2日 等）
-    let leagueResetDateOfMonth = leagueResetDay.getUTCDate();
-    // 如果本月已经重置过赛季了，则获取下个月的赛季刷新日期
-    // dayOfMonth === leagueResetDateOfMonth && hours >= 5 代表赛季重置当天的北京时间下午一点以后
-    // dayOfMonth > leagueResetDateOfMonth 代表赛季重置过后但本月尚未结束的那几天
-    if (dayOfMonth === leagueResetDateOfMonth && hours >= 5 || dayOfMonth > leagueResetDateOfMonth) {
-        leagueResetDay = new Date(Date.UTC(year, monthMinusOne + 2, 1 - 1));
-        do {
-            leagueResetDay.setUTCDate(leagueResetDay.getUTCDate() - 1)
-        } while (leagueResetDay.getUTCDay() !== 1);
+function calcRankedCountdown() {
+    const now = getCurrentUTCTime();
+    const d = new Date(now);
+    const daysToMonday = (8 - d.getUTCDay()) % 7;
+    let resetTime = Date.UTC(d.getUTCFullYear(), d.getUTCMonth(), d.getUTCDate() + daysToMonday, 5);
+    if (resetTime <= now) {
+        resetTime += 7 * 86400 * 1000;
     }
 
-    // 由于赛季刷新时间是 UTC 时间的早上五点，所以这里需要 +5 小时
-    leagueResetDay.setUTCHours(leagueResetDay.getUTCHours() + 5);
-    return leagueResetDay;
-}
-
-/**
- * 计算赛季结算的倒计时
- * 赛季结算时间是每月最后一周周一的下午一点（北京时间）
- */
-function calcLeagueCountdown() {
-    const currentUTCTimeMs = getCurrentUTCTime();
-    const d = new Date(currentUTCTimeMs);
-    const year = d.getUTCFullYear();
-    const monthMinusOne = d.getUTCMonth();
-    const dayOfMonth = d.getUTCDate();
-    const hours = d.getUTCHours();
-    let remainingTimeMs;
-
-    const leagueResetTime = getLeagueResetTime(year, monthMinusOne, dayOfMonth, hours);
-    remainingTimeMs = leagueResetTime - currentUTCTimeMs;
-
-    const timeDom = document.getElementById("countdown-league-reset").querySelector(".homepage-countdown-time");
-    const newTime = timeExchangeCountdown(remainingTimeMs / 1000);
+    const timeDom = document.getElementById("countdown-ranked-reset").querySelector(".homepage-countdown-time");
+    const newTime = timeExchangeCountdown((resetTime - now) / 1000);
     if (timeDom.innerHTML !== newTime.toString()) {
         timeDom.innerHTML = newTime;
     }

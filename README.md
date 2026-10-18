@@ -1,6 +1,6 @@
 # 部落驿站 · 升级数据查询
 
-**在线访问：[cocpost.pages.dev](https://cocpost.pages.dev)**
+**在线访问：[cocpost.com](https://cocpost.com)**
 
 本项目作为「部落驿站」的继承项目，基于 [lemonicy/clashpost](https://github.com/lemonicy/clashpost) 继续整理《部落冲突》的升级等级、费用、时间与前置条件。
 
