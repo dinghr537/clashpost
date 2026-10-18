@@ -102,6 +102,35 @@ npm run docs:build
 
 中文展示词典位于 `docs/.vitepress/theme/assets/i18n/zh-CN.json`。导入新修订后，给新增原文补齐中文译文或数据摘要；检查程序发现未翻译展示文本时会报错。原始文本与数值保存在单位 JSON 中，页面通过来源当前条目提供核对入口，保留章节锚点；固定修订链接只用于内部追溯，不作为默认读者入口。
 
+## 本地运行与图片维护
+
+开发服务器默认只监听本机，固定使用 5174 端口；端口被占用时会报错。需要其他端口时可运行 `npm run docs:dev -- --port 5175`。
+
+首页、搜索和升级图片均从本地加载。原站图片文件位于 `docs/public/images/original`，映射位于 `docs/.vitepress/theme/assets/original-image-manifest.json`，来源记录在 `docs/public/images/original-sources.json`。
+
+已通过浏览器下载 2,515 个原站图片文件，保留村庄与单位目录，包含分类缩略图、单位图、各等级图及资源图标。原站页面使用的 WebP 图片直接保存，不重新生成，优先继续使用原图。新增单位、等级及缺失图片的补充图下载到 `docs/public/images/wiki`，来源及 Wiki 修订链接保存在 `docs/public/images/wiki-sources.json`。
+
+当前仍有 3 个主图引用无法取得：都城攻城槌爆出的野蛮人、12 级龙宝宝和 14 级亡灵；原站页面的对应 WebP 也加载失败。这些原图缺项保留在清单中；同步后的图集仅展示已取得的图片，当前页面引用已全部解析为本地文件。具体路径见 `docs/public/images/missing-original-images.json`。未用于当前显示的可选高清 PNG 不属于此次图片导出范围。
+
+补图仍由 AI 手动操作：在原站打开相关页面、展开折叠区域并加载图片后，通过浏览器导出，再用 `scripts/import_original_image_bundles.py` 导入工具生成的图片清单。检查本地文件和主图引用：
+
+```bash
+python3 scripts/check_local_images.py
+```
+
+## Cloudflare Pages 发布
+
+项目名为 `cocpost`，正式地址为 <https://cocpost.pages.dev>。采用 Direct Upload：只在用户明确要求发布时，从本地上传构建结果，没有连接 Git 自动部署。图片包含在构建目录中，与页面一起发布。
+
+完成本文维护检查并提交本次改动后，使用已登录的 Wrangler 4 执行：
+
+```bash
+npm run docs:build
+wrangler pages deploy docs/.vitepress/dist --project-name cocpost --branch main
+```
+
+这里的 `main` 是 Pages 的生产环境分支标识，不要求切换、合并或推送本地 Git 分支；部署记录关联当前本地提交。发布后检查首页、分类、单位表格、搜索、月卡减免、图片和来源说明。
+
 ## 差异工具
 
 `scripts/check_upgrade_data.py` 只比较家乡加农炮、蛮王和法师的主升级表，不覆盖页面：
