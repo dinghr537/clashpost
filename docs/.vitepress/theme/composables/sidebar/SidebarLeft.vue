@@ -334,10 +334,26 @@ if (inBrowser) {
     }
 }
 
+#cp-module-apk {
+    align-items: center;
+
+    span, svg {
+        color: inherit;
+    }
+
+    .cp-icon {
+        width: 0.875rem;
+        height: 0.875rem;
+        stroke: currentColor;
+    }
+}
+
 .cp-sidebar-external {
     display: inline-flex;
     align-items: center;
-    font-size: 0.875rem;
+    gap: 0.125rem;
+    font-size: 0.75rem;
+    font-weight: 400;
     white-space: nowrap;
 }
 
