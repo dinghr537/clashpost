@@ -1,5 +1,7 @@
 # 部落驿站 · 升级数据查询
 
+**在线访问：[cocpost.pages.dev](https://cocpost.pages.dev)**
+
 本项目作为「部落驿站」的继承项目，基于 [lemonicy/clashpost](https://github.com/lemonicy/clashpost) 继续整理《部落冲突》的升级等级、费用、时间与前置条件。
 
 当前本地版聚焦升级数据：提供家乡、夜世界与部落都城目录、本地单位搜索和月卡减免展示。安装包下载服务已关闭；文章不再随网站构建，网站仅提供数据查询。
