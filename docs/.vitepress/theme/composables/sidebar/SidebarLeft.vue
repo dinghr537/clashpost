@@ -132,6 +132,7 @@ import { watch, nextTick } from "vue"
 import { useData, useRouter, inBrowser } from "vitepress";
 import { hideOverlay } from "@/components/dialog/Overlay.vue";
 import Arrow from "@/components/icon/general/Arrow.vue";
+import ExternalLink from "@/components/icon/link/ExternalLink.vue";
 
 const { frontmatter } = useData();
 const router = useRouter();
@@ -163,6 +164,12 @@ if (inBrowser) {
         <ul id="cp-sidebar-left-contents" class='cp-sidebar-left-list'>
             <li>
                 <a id="cp-module-home" class="cp-module-item" href="/">首页</a>
+            </li>
+            <li>
+                <a id="cp-module-apk" class="cp-module-item" href="/apk" title="查看说明后前往原部落驿站">
+                    <span>安装包下载</span>
+                    <span class="cp-sidebar-external">原站 <ExternalLink :sidebarItemIcon="true" aria-hidden="true" /></span>
+                </a>
             </li>
             <li :class="upgradeListClass">
                 <div id="cp-module-upgrade" class="cp-module-item cp-module-item-with-arrow">
@@ -325,6 +332,13 @@ if (inBrowser) {
             background-color: var(--cp-grey-bg-dark);
         }
     }
+}
+
+.cp-sidebar-external {
+    display: inline-flex;
+    align-items: center;
+    font-size: 0.875rem;
+    white-space: nowrap;
 }
 
 /* 激活的菜单项 */
