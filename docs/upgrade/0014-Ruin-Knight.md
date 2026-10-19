@@ -10,17 +10,13 @@ canonical: /upgrade/0014-Ruin-Knight
 dataSyncedOn: 2026-10-13
 ---
 
-<script setup>
-const tableExtraInfo0 = [];
-</script>
+<!-- #region ruin-knight -->
 
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Ruin_Knight1.png" :imgAlt="$frontmatter.navTitle" :isSmallImg="true" />
+<UnitInfo folder="home_tech/0014" imgSrc="Ruin_Knight1.png" imgAlt="废墟骑士" :isSmallImg="true" />
 
 <SmallTitle>重要说明</SmallTitle>
 
-1. 废墟骑士 是 废墟女巫 的召唤物，等级随召唤它的部队变化，不能单独升级。
-
-相关单位：[废墟女巫](/upgrade/0013-Ruin-Witch)。
+1. 废墟骑士是[废墟女巫](/upgrade/0013-Ruin-Witch)的召唤物，等级随废墟女巫变化，不能单独训练或升级。
 
 <SmallTitle>属性</SmallTitle>
 
@@ -36,7 +32,7 @@ const tableExtraInfo0 = [];
 
 <SmallTitle>升级数据</SmallTitle>
 
-<UnitTable :tableExtraInfo="tableExtraInfo0">
+<UnitTable>
 
 | 等级 | 每秒伤害 | 每次伤害 | 对墙伤害 | 生命值 |
 | --- | --- | --- | --- | --- |
@@ -59,3 +55,5 @@ const tableExtraInfo0 = [];
 
 
 <p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Ruin_Witch/Ruin_Knight?oldid=625189" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。</small></p>
+
+<!-- #endregion ruin-knight -->

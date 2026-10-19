@@ -155,7 +155,6 @@ if (activeTabCookieValue === "home-techniques") {
         <ListItem name="德鲁伊" imgSrc="008a/Druid_thumb.png" link="008a-Druid" />
         <ListItem name="烈焰熔炉" imgSrc="008b/Furnace_thumb.png" link="008b-Furnace" />
         <ListItem name="废墟女巫" imgSrc="/images/wiki/0013-Ruin-Witch/78d8f4a05a-Ruin_Witch_info.png" link="0013-Ruin-Witch" />
-        <ListItem name="废墟骑士" imgSrc="/images/wiki/0014-Ruin-Knight/a3f06a0919-Ruin_Knight_info.png" link="0014-Ruin-Knight" />
     </ListItems>
     <ListItems title="超级兵" imgFolder="home_tech">
         <ListItem name="超级野蛮人" imgSrc="0600/Super_Barbarian_thumb.png" link="0600-Super-Barbarian" />

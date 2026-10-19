@@ -28,6 +28,13 @@ const tableExtraInfo0 = [
 ];
 </script>
 
+<SwitchTabs contentClass="cp-unit-items" :stickyTabs="true" :pageTabs="true">
+    <SwitchTab tabId="cp-unit-item-0" :activeTab="true">废墟女巫</SwitchTab>
+    <SwitchTab tabId="cp-unit-item-1">废墟骑士</SwitchTab>
+</SwitchTabs>
+
+<SwitchTabGroup id="cp-unit-item-0" class="cp-unit-items">
+
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Ruin_Witch1.png" :imgAlt="$frontmatter.navTitle" :isSmallImg="true" />
 
 <SmallTitle>各等级图片</SmallTitle>
@@ -45,7 +52,7 @@ const tableExtraInfo0 = [
 
 1. 解锁条件：13级暗黑训练营、16级大本营。
 
-相关单位：[废墟骑士](/upgrade/0014-Ruin-Knight)。
+2. 召唤物废墟骑士的等级随废墟女巫变化，不能单独训练或升级。
 
 <SmallTitle>属性</SmallTitle>
 
@@ -85,3 +92,11 @@ const tableExtraInfo0 = [
 
 
 <p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Ruin_Witch?oldid=625328" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。</small></p>
+
+</SwitchTabGroup>
+
+<SwitchTabGroup id="cp-unit-item-1" class="cp-unit-items">
+
+<!--@include: ./0014-Ruin-Knight.md#ruin-knight-->
+
+</SwitchTabGroup>
