@@ -11,7 +11,28 @@
     "revision": 621436,
     "revisionUrl": "https://clashofclans.fandom.com/wiki/Helper_Hut?oldid=621436",
     "syncedOn": "2026-10-13",
-    "scope": "Source statistics tables and available 2026 history; base values"
+    "scope": "Source statistics tables and available 2026 history; base values",
+    "reviewedTableCorrections": [
+      {
+        "table": 2,
+        "reviewedOn": "2026-10-20",
+        "originalRows": [
+          [
+            "Lab Assistant",
+            "9"
+          ],
+          [
+            "Builder's Apprentice Prospector",
+            "10"
+          ],
+          [
+            "Alchemist",
+            "11"
+          ]
+        ],
+        "reason": "Separate Builder's Apprentice and Prospector records both require Town Hall 10. The source cell combined their names."
+      }
+    ]
   },
   "tables": [
     {
@@ -232,8 +253,20 @@
         [
           {
             "status": "known",
-            "value": "Builder's Apprentice Prospector",
-            "raw": "Builder's Apprentice Prospector"
+            "value": "Builder's Apprentice",
+            "raw": "Builder's Apprentice"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": "Prospector",
+            "raw": "Prospector"
           },
           {
             "status": "known",

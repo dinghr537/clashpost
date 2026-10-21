@@ -11,7 +11,36 @@
     "revision": 625663,
     "revisionUrl": "https://clashofclans.fandom.com/wiki/Totem_Thrower?oldid=625663",
     "syncedOn": "2026-10-13",
-    "scope": "Source statistics tables and available 2026 history; base values"
+    "scope": "Source statistics tables and available 2026 history; base values",
+    "reviewedTableCorrections": [
+      {
+        "table": 4,
+        "reviewedOn": "2026-10-20",
+        "originalRows": [
+          [
+            "1",
+            "3,840",
+            "0.2s"
+          ],
+          [
+            "2",
+            "6,720",
+            "0.3s"
+          ],
+          [
+            "3",
+            "9,600",
+            "0.4s"
+          ],
+          [
+            "2",
+            "12,400",
+            "0.5s"
+          ]
+        ],
+        "reason": "The parent table references Tiny Totem levels 1–4; the September 22 history identifies level 4 with a 0.5s stun."
+      }
+    ]
   },
   "tables": [
     {
@@ -718,8 +747,8 @@
         [
           {
             "status": "known",
-            "value": 2,
-            "raw": "2"
+            "value": 4,
+            "raw": "4"
           },
           {
             "status": "known",
@@ -765,5 +794,12 @@
   "facts": [],
   "notices": [
     "临时单位的来源表格同步日期不表示活动开放日期；本期可用状态在页首另行说明。"
+  ],
+  "levelReferences": [
+    {
+      "table": 2,
+      "column": "Tiny Totem Level",
+      "targetTable": 4
+    }
   ]
 }

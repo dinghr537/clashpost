@@ -10,6 +10,7 @@ import json
 import re
 import subprocess
 from pathlib import Path
+from sync_wiki_data import validate_table_levels
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / 'docs/.vitepress/theme/assets/unit-data'
@@ -227,6 +228,7 @@ def update_table(old, mapping, record, translated, records, min_town_hall=0):
 
 
 def update_page(text, plans, record, translated, records):
+    validate_table_levels(record['tables'], record.get('levelReferences', []))
     tables = parse_tables(text)
     if len(tables) != len(plans):
         raise ValueError(f"{record['unitId']}: authored table count changed")

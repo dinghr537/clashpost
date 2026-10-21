@@ -41,9 +41,9 @@ dataSyncedOn: 2026-10-13
 | 解锁帮手 | 所需大本等级 |
 |    :--  |     ---     |
 | <a href="/upgrade/0800-Lab-Assistant">实验助手</a> | 9 |
-| 建筑工人学徒 探矿者 | 10 |
-| <a href="/upgrade/0802-Alchemist">炼金术士</a> | 11 |
 | <a href="/upgrade/0801-Builder%27s-Apprentice">建筑工人学徒</a> | 10 |
+| <a href="/upgrade/0803-Prospector">探矿者</a> | 10 |
+| <a href="/upgrade/0802-Alchemist">炼金术士</a> | 11 |
 
 </UnitTable>
 

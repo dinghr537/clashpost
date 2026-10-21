@@ -6,7 +6,7 @@ import json
 from pathlib import Path
 import re
 
-from sync_wiki_data import SourceTables, VillageFilter, headers_and_rows, is_unit_image, REVIEWED_IMAGES, history_rows
+from sync_wiki_data import SourceTables, VillageFilter, headers_and_rows, is_unit_image, REVIEWED_IMAGES, history_rows, validate_table_levels
 from check_upgrade_data import seconds
 from update_authored_data import MAPPINGS, translations, update_page
 
@@ -26,6 +26,10 @@ def main():
     count = 0
     for path in sorted((ROOT / 'docs/.vitepress/theme/assets/unit-data').glob('*.json')):
         record = json.loads(path.read_text()); records[record['unitId']] = record
+        try:
+            validate_table_levels(record['tables'], record.get('levelReferences', []))
+        except ValueError as error:
+            errors.append(record['unitId'] + ': ' + str(error))
         page = ROOT / 'docs/upgrade' / (record['unitId'] + '.md')
         if page.exists() and record['unitId'] in mappings:
             try:

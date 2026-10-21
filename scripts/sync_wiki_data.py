@@ -315,6 +315,43 @@ def duration_value(raw):
     return ','.join(map(str, [days, hours, minutes, secs]))
 
 
+def validate_table_levels(tables, references=()):
+    """Reject ambiguous levels, while allowing explicitly different prerequisites."""
+    for table in tables:
+        if table['headers'][0] != 'Level':
+            continue
+        prerequisites = [i for i, h in enumerate(table['headers'])
+                         if h in ('Town Hall Level Required', 'Town Hall Level', 'Hero Hall Level Required')]
+        seen = set()
+        for row in table['rows']:
+            key = tuple(row[i]['value'] for i in [0, *prerequisites])
+            if key in seen:
+                raise ValueError(f"表 {table['sourceTableIndex']} 存在重复等级及前置条件：{key}")
+            seen.add(key)
+    for reference in references:
+        parent = next(t for t in tables if t['sourceTableIndex'] == reference['table'])
+        child = next(t for t in tables if t['sourceTableIndex'] == reference['targetTable'])
+        column = parent['headers'].index(reference['column'])
+        required = {r[column]['value'] for r in parent['rows'] if r[column]['status'] == 'known'}
+        available = {r[0]['value'] for r in child['rows']}
+        if required - available:
+            raise ValueError(f"关联单位缺少等级：{reference['column']} {sorted(required - available)}")
+
+
+def preserve_table_corrections(reviewed, tables):
+    """Stop old/merged source keys from undoing explicitly reviewed table repairs."""
+    for correction in (reviewed or {}).get('sync', {}).get('reviewedTableCorrections', []):
+        index = correction['table']
+        old = next(t for t in reviewed['tables'] if t['sourceTableIndex'] == index)
+        new = next((t for t in tables if t['sourceTableIndex'] == index), None)
+        if new is None or new['headers'] != old['headers']:
+            raise ValueError(f'已修正表 {index} 的结构变化，请人工核对')
+        old_keys = {r[0]['raw'] for r in old['rows']}
+        new_keys = {r[0]['raw'] for r in new['rows']}
+        if old_keys - new_keys:
+            raise ValueError(f'已修正表 {index} 的等级或条目缺失，请人工核对')
+
+
 def preserve_balance_update(reviewed, tables, date):
     """Require manual review before a source snapshot can undo a newer correction."""
     update = reviewed.get('sync', {}).get('balanceUpdate') if reviewed else None
@@ -411,6 +448,8 @@ def make_record(item, date):
                        'headers': headers, 'rows': cells, 'extraInfo': metadata})
     if not tables:
         raise ValueError('No usable data tables; existing page preserved')
+    validate_table_levels(tables, (reviewed or {}).get('levelReferences', []))
+    preserve_table_corrections(reviewed, tables)
     preserve_balance_update(reviewed, tables, date)
     # Only images belonging to this exact unit page; do not match across villages.
     shared = snapshot['title'] in ('Clan Capital Barracks', 'Clan Capital Spell Factories') or item['unitId'].startswith('25')
@@ -516,7 +555,9 @@ def make_record(item, date):
             'imgFolder': folder, 'sync': {'status': 'synced', 'source': 'Clash of Clans Wiki', 'sourceUrl': source_url,
              'revision': snapshot['revid'], 'revisionUrl': source_url + '?oldid=' + str(snapshot['revid']),
              'syncedOn': date, 'scope': 'Source statistics tables and available 2026 history; base values',
-             **({'balanceUpdate': reviewed['sync']['balanceUpdate']} if reviewed and reviewed['sync'].get('balanceUpdate') else {})},
+             **({'balanceUpdate': reviewed['sync']['balanceUpdate']} if reviewed and reviewed['sync'].get('balanceUpdate') else {}),
+             **({'reviewedTableCorrections': reviewed['sync']['reviewedTableCorrections']} if reviewed and reviewed['sync'].get('reviewedTableCorrections') else {})},
+            **({'levelReferences': reviewed['levelReferences']} if reviewed and reviewed.get('levelReferences') else {}),
             'tables': tables, 'images': images, 'history': history,
             'facts': selected_facts,
             'notices': notices}

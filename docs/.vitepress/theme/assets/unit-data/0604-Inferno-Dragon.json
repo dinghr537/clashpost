@@ -11,7 +11,65 @@
     "revision": 594174,
     "revisionUrl": "https://clashofclans.fandom.com/wiki/Inferno_Dragon?oldid=594174",
     "syncedOn": "2026-10-13",
-    "scope": "Source statistics tables and available 2026 history; base values"
+    "scope": "Source statistics tables and available 2026 history; base values",
+    "reviewedTableCorrections": [
+      {
+        "table": 3,
+        "reviewedOn": "2026-10-20",
+        "originalRows": [
+          [
+            "6",
+            "75",
+            "150",
+            "1,500",
+            "1,900"
+          ],
+          [
+            "7",
+            "79",
+            "158",
+            "1,580",
+            "2,050"
+          ],
+          [
+            "8",
+            "83",
+            "166",
+            "1,660",
+            "2,200"
+          ],
+          [
+            "9",
+            "85",
+            "170",
+            "1,700",
+            "2,300"
+          ],
+          [
+            "10",
+            "86",
+            "174",
+            "1,740",
+            "2,400"
+          ],
+          [
+            "11",
+            "88",
+            "178",
+            "1,780",
+            "2,500"
+          ],
+          [
+            "11",
+            "90",
+            "182",
+            "1,820",
+            "2,700"
+          ]
+        ],
+        "reason": "The existing authored level 12 row and May 26 history identify initial DPS 90 at level 12; the base Baby Dragon level 12 requires Town Hall 18."
+      }
+    ]
   },
   "tables": [
     {
@@ -283,8 +341,8 @@
         [
           {
             "status": "known",
-            "value": 11,
-            "raw": "11"
+            "value": 12,
+            "raw": "12"
           },
           {
             "status": "known",
