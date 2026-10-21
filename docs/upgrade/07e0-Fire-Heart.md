@@ -79,7 +79,7 @@ const tableExtraInfo = [
     <TimelineItem date="2026/10/20">
         <TimelineRow>移除所有等级的每秒伤害加成；各等级生命值加成降低，18 级由 5600 降至 5150。</TimelineRow>
         <TimelineRow>每秒恢复血量降低：12–14 级由 130 降至 120，15–17 级由 140 降至 130，18 级由 150 降至 140。</TimelineRow>
-        <TimelineRow><a href="https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/" target="_blank" rel="noopener noreferrer">官方公告</a>（10/17 发布） · <a href="https://clashfox.com/blog/balance-changes-before-town-hall-19-fire-heart-and-ruin-witch-nerfed-hogs-and-p-e-k-k-a-bu" target="_blank" rel="noopener noreferrer">数值参考</a> · <a href="https://x.com/ClashofClans/status/2112450159326179560" target="_blank" rel="noopener noreferrer">10/20 维护完成</a>；维护后已在游戏内确认调整生效。</TimelineRow>
+        <TimelineRow><a href="https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/" target="_blank" rel="noopener noreferrer">官方公告</a>（10/17 发布） · <a href="https://clashfox.com/blog/balance-changes-before-town-hall-19-fire-heart-and-ruin-witch-nerfed-hogs-and-p-e-k-k-a-bu" target="_blank" rel="noopener noreferrer">数值参考</a> · <a href="https://x.com/ClashofClans/status/2112450159326179560" target="_blank" rel="noopener noreferrer">10/20 维护完成</a>。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2026/05/26">
         <TimelineRow>调整15至18级的每秒自我治疗量： 15-17级： 155 → 140 18级： 175 → 150 调整2至18级的每秒伤害： 2级： 12 → 10 3级： 14 → 12 4级： 16 → 12 5级： 18 → 12 6级： 20 → 14 7级： 22 → 14 8级： 24 → 14 9级： 26 → 16 10级： 28 → 16 11级： 30 → 16 12级： 32 → 18 13级： 34 → 18 14级： 36 → 18 15级： 38 → 20 16级： 40 → 20 17级： 42 → 20 18级： 45 → 23</TimelineRow>
