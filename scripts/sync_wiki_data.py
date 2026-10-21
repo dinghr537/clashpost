@@ -315,6 +315,34 @@ def duration_value(raw):
     return ','.join(map(str, [days, hours, minutes, secs]))
 
 
+def preserve_balance_update(reviewed, tables, date):
+    """Require manual review before a source snapshot can undo a newer correction."""
+    update = reviewed.get('sync', {}).get('balanceUpdate') if reviewed else None
+    if not update:
+        return
+    if date < update['appliedOn']:
+        raise ValueError('来源日期早于已核对的平衡更新，不能回退当前数值')
+    for field in update['fields']:
+        index, header = field['table'], field['header']
+        if index < 0:
+            continue  # Separately sourced child tables are retained below.
+        old = next(t for t in reviewed['tables'] if t['sourceTableIndex'] == index)
+        new = next((t for t in tables if t['sourceTableIndex'] == index), None)
+        if new is None or header not in new['headers']:
+            raise ValueError(f'平衡更新字段缺失，请先人工核对：{header}')
+        old_col, new_col = old['headers'].index(header), new['headers'].index(header)
+        levels = field.get('levels')
+        bounds = [int(n) for n in levels.split('–')] if levels else None
+        for row in old['rows']:
+            if bounds and not bounds[0] <= row[0]['value'] <= bounds[-1]:
+                continue
+            candidates = [r for r in new['rows'] if r[0]['value'] == row[0]['value']] if bounds else new['rows']
+            if len(candidates) != 1 or any(candidates[0][new_col][key] != row[old_col][key]
+                                          for key in ('status', 'value')):
+                raise ValueError(f'来源与已核对的平衡更新不一致，请先人工核对：{header}')
+    tables.extend(t for t in reviewed['tables'] if t['sourceTableIndex'] < 0)
+
+
 def make_record(item, date):
     page = ROOT / 'docs/upgrade' / (item['unitId'] + '.md')
     old = page.read_text(encoding='utf-8-sig') if page.exists() else ''
@@ -335,7 +363,8 @@ def make_record(item, date):
     if item['unitId'].startswith('084') or item['unitId'].startswith('09'):
         gp_class = 'building'
     previous_path = DATA / (item['unitId'] + '.json')
-    previous = json.loads(previous_path.read_text()) if previous_path.exists() and '<SyncedUnitData' in old else None
+    reviewed = json.loads(previous_path.read_text()) if previous_path.exists() else None
+    previous = reviewed if '<SyncedUnitData' in old else None
     if previous:
         gp_class = next((info['gpClass'] for table in previous['tables'] for info in table['extraInfo'] if 'gpClass' in info), gp_class)
     title_match = re.search(r'^navTitle:\s*"([^"]+)"', old, re.M)
@@ -382,6 +411,7 @@ def make_record(item, date):
                        'headers': headers, 'rows': cells, 'extraInfo': metadata})
     if not tables:
         raise ValueError('No usable data tables; existing page preserved')
+    preserve_balance_update(reviewed, tables, date)
     # Only images belonging to this exact unit page; do not match across villages.
     shared = snapshot['title'] in ('Clan Capital Barracks', 'Clan Capital Spell Factories') or item['unitId'].startswith('25')
     family_name = item['unitId'][5:].replace('-', ' ') if shared else snapshot['title'].split('/')[0]
@@ -485,7 +515,8 @@ def make_record(item, date):
     return {'unitId': item['unitId'], 'title': title, 'originalName': snapshot['title'], 'module': module,
             'imgFolder': folder, 'sync': {'status': 'synced', 'source': 'Clash of Clans Wiki', 'sourceUrl': source_url,
              'revision': snapshot['revid'], 'revisionUrl': source_url + '?oldid=' + str(snapshot['revid']),
-             'syncedOn': date, 'scope': 'Source statistics tables and available 2026 history; base values'},
+             'syncedOn': date, 'scope': 'Source statistics tables and available 2026 history; base values',
+             **({'balanceUpdate': reviewed['sync']['balanceUpdate']} if reviewed and reviewed['sync'].get('balanceUpdate') else {})},
             'tables': tables, 'images': images, 'history': history,
             'facts': selected_facts,
             'notices': notices}

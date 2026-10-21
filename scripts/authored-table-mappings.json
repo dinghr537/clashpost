@@ -6238,8 +6238,20 @@
           "每次伤害",
           "生命值"
         ],
-        "keepOriginal": true,
-        "reason": "原派生单位表/获取记录/历史对照表，当前来源没有对应表"
+        "sourceTableIndex": -1,
+        "sourceHeaders": [
+          "Level",
+          "Damage per Second",
+          "Damage per Attack",
+          "Hitpoints"
+        ],
+        "columns": {
+          "0": 0,
+          "1": 1,
+          "2": 2,
+          "3": 3
+        },
+        "preserveUnmatchedRows": true
       }
     ],
     "220a-Crusher": [
@@ -13396,6 +13408,7 @@
           "技能<br>重新部署加速",
           "技能<br>召回人口容量",
           "英雄<br>回血增加",
+          "英雄<br>生命值增加",
           "升级费用",
           "升级费用",
           "升级费用",
@@ -13410,6 +13423,7 @@
           "Ability Attributes / Haste on Redeploy",
           "Ability Attributes / Recall Capacity",
           "Hero Boost / HP Recovery Increase",
+          "Hero Boost / Hitpoint Increase",
           "Upgrade Cost / Shiny Ore",
           "Upgrade Cost / Glowy Ore",
           "Upgrade Cost / Starry Ore",
@@ -13422,14 +13436,15 @@
           "3": 3,
           "4": 4,
           "5": 5,
-          "6": 6,
           "7": 7,
           "8": 8,
           "9": 9,
-          "10": {
+          "10": 10,
+          "11": {
             "requirement": "Blacksmith Level Required",
             "unit": "0488-Blacksmith"
-          }
+          },
+          "6": 6
         },
         "preserveUnmatchedRows": true
       }

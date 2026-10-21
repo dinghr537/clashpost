@@ -4,10 +4,34 @@ import sys
 import unittest
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
-from sync_wiki_data import VillageFilter, SourceTables, headers_and_rows, source_cell, extra_info, duration_value, is_unit_image, REVIEWED_IMAGES, page_content, history_rows
+from sync_wiki_data import VillageFilter, SourceTables, headers_and_rows, source_cell, extra_info, duration_value, is_unit_image, REVIEWED_IMAGES, page_content, history_rows, preserve_balance_update
 
 
 class WikiSyncTests(unittest.TestCase):
+    def test_old_snapshot_cannot_undo_reviewed_balance_update(self):
+        from copy import deepcopy
+        child = {'sourceTableIndex': -1, 'headers': ['Level', 'Hitpoints'],
+                 'rows': [[source_cell('1'), source_cell('7650')]]}
+        current = {'sourceTableIndex': 3, 'headers': ['Level', 'Hitpoints'],
+                   'rows': [[source_cell('1'), source_cell('15300')]]}
+        record = {'sync': {'balanceUpdate': {'appliedOn': '2026-10-20',
+                  'fields': [{'table': 3, 'header': 'Hitpoints', 'levels': '1–1'},
+                             {'table': -1, 'header': 'Hitpoints', 'levels': '1–1'}]}},
+                  'tables': [current, child]}
+        with self.assertRaisesRegex(ValueError, '来源日期早于'):
+            preserve_balance_update(record, [deepcopy(current)], '2026-10-13')
+        stale = deepcopy(current)
+        stale['rows'][0][1] = source_cell('14500')
+        with self.assertRaisesRegex(ValueError, '不一致'):
+            preserve_balance_update(record, [stale], '2026-10-21')
+        incomplete = deepcopy(current)
+        incomplete['headers'][1] = 'Damage'
+        with self.assertRaisesRegex(ValueError, '字段缺失'):
+            preserve_balance_update(record, [incomplete], '2026-10-21')
+        fresh = [deepcopy(current)]
+        preserve_balance_update(record, fresh, '2026-10-21')
+        self.assertEqual(fresh, [current, child])
+
     def test_history_accepts_date_and_patch_with_optional_type_column(self):
         for first in ('Date', 'Patch'):
             for middle in ([], ['Type'], ['Update']):

@@ -11,7 +11,22 @@
     "revision": 625465,
     "revisionUrl": "https://clashofclans.fandom.com/wiki/Hog_Rider?oldid=625465",
     "syncedOn": "2026-10-13",
-    "scope": "Source statistics tables and available 2026 history; base values"
+    "scope": "Source statistics tables and available 2026 history; base values",
+    "balanceUpdate": {
+      "appliedOn": "2026-10-20",
+      "effectiveOn": "2026-10-20",
+      "announcementUrl": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/",
+      "numericSourceUrl": "https://clashfox.com/blog/balance-changes-before-town-hall-19-fire-heart-and-ruin-witch-nerfed-hogs-and-p-e-k-k-a-bu",
+      "dateSourceUrl": "https://x.com/ClashofClans/status/2112450159326179560",
+      "dateEvidence": "Adjusted stats confirmed in-game after maintenance on October 20, 2026 (UTC).",
+      "fields": [
+        {
+          "table": 3,
+          "header": "Hitpoints",
+          "levels": "8–15"
+        }
+      ]
+    }
   },
   "tables": [
     {
@@ -371,8 +386,8 @@
           },
           {
             "status": "known",
-            "value": 810,
-            "raw": "810"
+            "value": 870,
+            "raw": "870"
           },
           {
             "status": "known",
@@ -410,8 +425,8 @@
           },
           {
             "status": "known",
-            "value": 890,
-            "raw": "890"
+            "value": 960,
+            "raw": "960"
           },
           {
             "status": "known",
@@ -449,8 +464,8 @@
           },
           {
             "status": "known",
-            "value": 970,
-            "raw": "970"
+            "value": 1050,
+            "raw": "1050"
           },
           {
             "status": "known",
@@ -488,8 +503,8 @@
           },
           {
             "status": "known",
-            "value": 1080,
-            "raw": "1,080"
+            "value": 1150,
+            "raw": "1150"
           },
           {
             "status": "known",
@@ -527,8 +542,8 @@
           },
           {
             "status": "known",
-            "value": 1230,
-            "raw": "1,230"
+            "value": 1350,
+            "raw": "1350"
           },
           {
             "status": "known",
@@ -566,8 +581,8 @@
           },
           {
             "status": "known",
-            "value": 1380,
-            "raw": "1,380"
+            "value": 1500,
+            "raw": "1500"
           },
           {
             "status": "known",
@@ -605,8 +620,8 @@
           },
           {
             "status": "known",
-            "value": 1500,
-            "raw": "1,500"
+            "value": 1600,
+            "raw": "1600"
           },
           {
             "status": "known",
@@ -644,8 +659,8 @@
           },
           {
             "status": "known",
-            "value": 1750,
-            "raw": "1,750"
+            "value": 1950,
+            "raw": "1950"
           },
           {
             "status": "known",
@@ -825,6 +840,16 @@
     {
       "date": "2026-02-23",
       "description": "Added the level 15 Hog Rider. Hog Rider15"
+    },
+    {
+      "date": "2026-10-20",
+      "description": "提高 8–15 级生命值：810→870、890→960、970→1050、1080→1150、1230→1350、1380→1500、1500→1600、1750→1950（依等级顺序）。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/",
+      "sourcePublishedOn": "2026-10-17",
+      "numericSourceUrl": "https://clashfox.com/blog/balance-changes-before-town-hall-19-fire-heart-and-ruin-witch-nerfed-hogs-and-p-e-k-k-a-bu",
+      "dateSourceUrl": "https://x.com/ClashofClans/status/2112450159326179560",
+      "dateEvidence": "Maintenance completion on October 20 UTC; adjusted stats confirmed in-game on October 20.",
+      "type": "balance"
     }
   ],
   "facts": [

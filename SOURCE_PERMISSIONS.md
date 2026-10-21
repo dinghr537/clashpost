@@ -33,6 +33,14 @@ CC BY-SA 3.0 的 [4(b) 条](https://creativecommons.org/licenses/by-sa/3.0/legal
 
 保留这个事实参考不等于认定 Ninja 授予了转载许可；它是目前尚未完整替换的唯一单位记录。原始发现过程保留在旧核对文档中。
 
+## 2026-10-20 平衡调整的补充事实参考
+
+本次调整范围采用 [Supercell 10 月 17 日公告](https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/)。公告没有完整等级数字，具体数值参考 [ClashFox 的同次调整整理](https://clashfox.com/blog/balance-changes-before-town-hall-19-fire-heart-and-ruin-witch-nerfed-hogs-and-p-e-k-k-a-bu)，仅记录涉及的游戏数值，未复制其文章、评论、图表图片或站点素材，也未批量导入其资料库。
+
+已查阅 [ClashFox 条款](https://clashfox.com/terms)（页面标注 2024 年 12 月更新），其中限制自动访问及未经许可复制其原创内容；没有取得新的书面转载或自动获取授权，不将其列为获准批量同步来源。此处记录有限事实引用的实际来源，不宣称该站整篇内容已获授权或属于本站 CC 许可。来源把骑士数值误标为女巫，本次根据官方公告和游戏内核对将其归入废墟骑士。
+
+生效日期依据 10 月 20 日 UTC 的[官方维护完成消息](https://x.com/ClashofClans/status/2112450159326179560)，并在维护后核对游戏内调整后的数值；该维护消息本身只确认维护结束。1 级废墟骑士已确认为 2900 生命、240 秒伤、18 人口、游戏内移动速度 14。没有将 10 月 17 日的预告日期当作生效日期。
+
 ## 图片来源检查与限制
 
 现有来源清单有 **2,515 个原站文件**（`static.clashpost.com`）和 **210 个 Wiki 补图文件**（`static.wikia.nocookie.net`）。本次核对了清单覆盖和来源域名，为 Wiki 文件补充了可回查许可的文件说明页地址。先前 `reviewed-wiki-images.json` 的审核只代表图与单位、等级相符，**不代表版权审核通过**。

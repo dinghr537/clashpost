@@ -11,7 +11,22 @@
     "revision": 621779,
     "revisionUrl": "https://clashofclans.fandom.com/wiki/Super_Hog_Rider?oldid=621779",
     "syncedOn": "2026-10-13",
-    "scope": "Source statistics tables and available 2026 history; base values"
+    "scope": "Source statistics tables and available 2026 history; base values",
+    "balanceUpdate": {
+      "appliedOn": "2026-10-20",
+      "effectiveOn": "2026-10-20",
+      "announcementUrl": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/",
+      "numericSourceUrl": "https://clashfox.com/blog/balance-changes-before-town-hall-19-fire-heart-and-ruin-witch-nerfed-hogs-and-p-e-k-k-a-bu",
+      "dateSourceUrl": "https://x.com/ClashofClans/status/2112450159326179560",
+      "dateEvidence": "Adjusted stats confirmed in-game after maintenance on October 20, 2026 (UTC).",
+      "fields": [
+        {
+          "table": 3,
+          "header": "Hitpoints",
+          "levels": "10–15"
+        }
+      ]
+    }
   },
   "tables": [
     {
@@ -135,8 +150,8 @@
           },
           {
             "status": "known",
-            "value": 1500,
-            "raw": "1,500"
+            "value": 1600,
+            "raw": "1600"
           }
         ],
         [
@@ -157,8 +172,8 @@
           },
           {
             "status": "known",
-            "value": 1600,
-            "raw": "1,600"
+            "value": 1700,
+            "raw": "1700"
           }
         ],
         [
@@ -179,8 +194,8 @@
           },
           {
             "status": "known",
-            "value": 1750,
-            "raw": "1,750"
+            "value": 1900,
+            "raw": "1900"
           }
         ],
         [
@@ -201,8 +216,8 @@
           },
           {
             "status": "known",
-            "value": 1900,
-            "raw": "1,900"
+            "value": 2050,
+            "raw": "2050"
           }
         ],
         [
@@ -223,8 +238,8 @@
           },
           {
             "status": "known",
-            "value": 2100,
-            "raw": "2,100"
+            "value": 2250,
+            "raw": "2250"
           }
         ],
         [
@@ -245,8 +260,8 @@
           },
           {
             "status": "known",
-            "value": 2350,
-            "raw": "2,350"
+            "value": 2500,
+            "raw": "2500"
           }
         ]
       ],
@@ -301,6 +316,16 @@
     {
       "date": "2026-02-23",
       "description": "Added the level 15 Super Hog Rider."
+    },
+    {
+      "date": "2026-10-20",
+      "description": "提高 10–15 级生命值：1500→1600、1600→1700、1750→1900、1900→2050、2100→2250、2350→2500（依等级顺序）。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/",
+      "sourcePublishedOn": "2026-10-17",
+      "numericSourceUrl": "https://clashfox.com/blog/balance-changes-before-town-hall-19-fire-heart-and-ruin-witch-nerfed-hogs-and-p-e-k-k-a-bu",
+      "dateSourceUrl": "https://x.com/ClashofClans/status/2112450159326179560",
+      "dateEvidence": "Maintenance completion on October 20 UTC; adjusted stats confirmed in-game on October 20.",
+      "type": "balance"
     }
   ],
   "facts": [

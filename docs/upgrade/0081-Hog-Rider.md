@@ -8,6 +8,7 @@ imgFolder: home_tech/0081
 wiki: https://clashofclans.fandom.com/wiki/Hog_Rider
 canonical: /upgrade/0081-Hog-Rider
 dataSyncedOn: 2026-10-13
+dataBalanceUpdatedOn: 2026-10-20
 ---
 
 - *如想查看该兵种的强化版本，请访问：[超级野猪骑士](/upgrade/060f-Super-Hog-Rider)。*
@@ -82,19 +83,23 @@ const tableExtraInfo = [
 | 5 | 105 | 105 | 500 | 10000 | 2,0,0,0 | 7 | 9 |
 | 6 | 118 | 118 | 590 | 18500 | 2,6,0,0 | 8 | 10 |
 | 7 | 140 | 140 | 700 | 35000 | 2,12,0,0 | 9 | 11 |
-| 8 | 155 | 155 | 810 | 47500 | 3,0,0,0 | 10 | 12 |
-| 9 | 165 | 165 | 890 | 50000 | 3,12,0,0 | 10 | 12 |
-| 10 | 176 | 176 | 970 | 85000 | 4,0,0,0 | 11 | 13 |
-| 11 | 187 | 187 | 1080 | 107500 | 5,0,0,0 | 12 | 14 |
-| 12 | 200 | 200 | 1230 | 125000 | 5,12,0,0 | 13 | 15 |
-| 13 | 213 | 213 | 1380 | 175000 | 6,12,0,0 | 14 | 16 |
-| 14 | 225 | 225 | 1500 | 240000 | 10,0,0,0 | 15 | 17 |
-| 15 | 250 | 250 | 1750 | 340000 | 14,12,0,0 | 16 | 18 |
+| 8 | 155 | 155 | 870 | 47500 | 3,0,0,0 | 10 | 12 |
+| 9 | 165 | 165 | 960 | 50000 | 3,12,0,0 | 10 | 12 |
+| 10 | 176 | 176 | 1050 | 85000 | 4,0,0,0 | 11 | 13 |
+| 11 | 187 | 187 | 1150 | 107500 | 5,0,0,0 | 12 | 14 |
+| 12 | 200 | 200 | 1350 | 125000 | 5,12,0,0 | 13 | 15 |
+| 13 | 213 | 213 | 1500 | 175000 | 6,12,0,0 | 14 | 16 |
+| 14 | 225 | 225 | 1600 | 240000 | 10,0,0,0 | 15 | 17 |
+| 15 | 250 | 250 | 1950 | 340000 | 14,12,0,0 | 16 | 18 |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/10/20">
+        <TimelineRow>提高 8–15 级生命值：810→870、890→960、970→1050、1080→1150、1230→1350、1380→1500、1500→1600、1750→1950（依等级顺序）。</TimelineRow>
+        <TimelineRow><a href="https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/" target="_blank" rel="noopener noreferrer">官方公告</a>（10/17 发布） · <a href="https://clashfox.com/blog/balance-changes-before-town-hall-19-fire-heart-and-ruin-witch-nerfed-hogs-and-p-e-k-k-a-bu" target="_blank" rel="noopener noreferrer">数值参考</a> · <a href="https://x.com/ClashofClans/status/2112450159326179560" target="_blank" rel="noopener noreferrer">10/20 维护完成</a>；维护后已在游戏内确认调整生效。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2026/02/23">
         <TimelineRow>在 18 本新增 15 级野猪骑士。</TimelineRow>
     </TimelineItem>

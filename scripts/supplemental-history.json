@@ -386,5 +386,159 @@
     "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/august-update-3/",
     "sourcePublishedOn": "2026-08-30",
     "dateSourceUrl": "https://clashofclans.fandom.com/wiki/Diggy?oldid=625147#History"
+  },
+  {
+    "unitId": "07e0-Fire-Heart",
+    "date": "2026-10-20",
+    "description": "移除所有等级的每秒伤害加成；各等级生命值加成降低，18 级由 5600 降至 5150。",
+    "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/",
+    "sourcePublishedOn": "2026-10-17",
+    "numericSourceUrl": "https://clashfox.com/blog/balance-changes-before-town-hall-19-fire-heart-and-ruin-witch-nerfed-hogs-and-p-e-k-k-a-bu",
+    "dateSourceUrl": "https://x.com/ClashofClans/status/2112450159326179560",
+    "dateEvidence": "Maintenance completion on October 20 UTC; adjusted stats confirmed in-game on October 20.",
+    "type": "balance"
+  },
+  {
+    "unitId": "07e0-Fire-Heart",
+    "date": "2026-10-20",
+    "description": "每秒恢复血量降低：12–14 级由 130 降至 120，15–17 级由 140 降至 130，18 级由 150 降至 140。",
+    "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/",
+    "sourcePublishedOn": "2026-10-17",
+    "numericSourceUrl": "https://clashfox.com/blog/balance-changes-before-town-hall-19-fire-heart-and-ruin-witch-nerfed-hogs-and-p-e-k-k-a-bu",
+    "dateSourceUrl": "https://x.com/ClashofClans/status/2112450159326179560",
+    "dateEvidence": "Maintenance completion on October 20 UTC; adjusted stats confirmed in-game on October 20.",
+    "type": "balance"
+  },
+  {
+    "unitId": "0014-Ruin-Knight",
+    "date": "2026-10-20",
+    "description": "占据人口由 20 降至 18，现在可被足够弹射容量的弹簧弹飞；移动速度由 2 格/秒降至 1.75 格/秒（游戏内数值由 16 降至 14）。",
+    "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/",
+    "sourcePublishedOn": "2026-10-17",
+    "numericSourceUrl": "https://clashfox.com/blog/balance-changes-before-town-hall-19-fire-heart-and-ruin-witch-nerfed-hogs-and-p-e-k-k-a-bu",
+    "dateSourceUrl": "https://x.com/ClashofClans/status/2112450159326179560",
+    "dateEvidence": "Maintenance completion on October 20 UTC; adjusted stats confirmed in-game on October 20.",
+    "type": "balance"
+  },
+  {
+    "unitId": "0014-Ruin-Knight",
+    "date": "2026-10-20",
+    "description": "1–4 级生命值分别由 3100、3400、3700、4000 降至 2900、3200、3500、3800；每秒伤害分别由 255、285、315、345 降至 240、270、300、330。",
+    "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/",
+    "sourcePublishedOn": "2026-10-17",
+    "numericSourceUrl": "https://clashfox.com/blog/balance-changes-before-town-hall-19-fire-heart-and-ruin-witch-nerfed-hogs-and-p-e-k-k-a-bu",
+    "dateSourceUrl": "https://x.com/ClashofClans/status/2112450159326179560",
+    "dateEvidence": "Maintenance completion on October 20 UTC; adjusted stats confirmed in-game on October 20.",
+    "type": "balance"
+  },
+  {
+    "unitId": "0081-Hog-Rider",
+    "date": "2026-10-20",
+    "description": "提高 8–15 级生命值：810→870、890→960、970→1050、1080→1150、1230→1350、1380→1500、1500→1600、1750→1950（依等级顺序）。",
+    "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/",
+    "sourcePublishedOn": "2026-10-17",
+    "numericSourceUrl": "https://clashfox.com/blog/balance-changes-before-town-hall-19-fire-heart-and-ruin-witch-nerfed-hogs-and-p-e-k-k-a-bu",
+    "dateSourceUrl": "https://x.com/ClashofClans/status/2112450159326179560",
+    "dateEvidence": "Maintenance completion on October 20 UTC; adjusted stats confirmed in-game on October 20.",
+    "type": "balance"
+  },
+  {
+    "unitId": "060f-Super-Hog-Rider",
+    "date": "2026-10-20",
+    "description": "提高 10–15 级生命值：1500→1600、1600→1700、1750→1900、1900→2050、2100→2250、2350→2500（依等级顺序）。",
+    "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/",
+    "sourcePublishedOn": "2026-10-17",
+    "numericSourceUrl": "https://clashfox.com/blog/balance-changes-before-town-hall-19-fire-heart-and-ruin-witch-nerfed-hogs-and-p-e-k-k-a-bu",
+    "dateSourceUrl": "https://x.com/ClashofClans/status/2112450159326179560",
+    "dateEvidence": "Maintenance completion on October 20 UTC; adjusted stats confirmed in-game on October 20.",
+    "type": "balance"
+  },
+  {
+    "unitId": "000b-Miner",
+    "date": "2026-10-20",
+    "description": "提高 11、12 级生命值，分别由 1750、2050 提高至 1850、2150。",
+    "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/",
+    "sourcePublishedOn": "2026-10-17",
+    "numericSourceUrl": "https://clashfox.com/blog/balance-changes-before-town-hall-19-fire-heart-and-ruin-witch-nerfed-hogs-and-p-e-k-k-a-bu",
+    "dateSourceUrl": "https://x.com/ClashofClans/status/2112450159326179560",
+    "dateEvidence": "Maintenance completion on October 20 UTC; adjusted stats confirmed in-game on October 20.",
+    "type": "balance"
+  },
+  {
+    "unitId": "060e-Super-Miner",
+    "date": "2026-10-20",
+    "description": "提高 11、12 级生命值，分别由 4400、5000 提高至 4650、5150。",
+    "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/",
+    "sourcePublishedOn": "2026-10-17",
+    "numericSourceUrl": "https://clashfox.com/blog/balance-changes-before-town-hall-19-fire-heart-and-ruin-witch-nerfed-hogs-and-p-e-k-k-a-bu",
+    "dateSourceUrl": "https://x.com/ClashofClans/status/2112450159326179560",
+    "dateEvidence": "Maintenance completion on October 20 UTC; adjusted stats confirmed in-game on October 20.",
+    "type": "balance"
+  },
+  {
+    "unitId": "0009-P.E.K.K.A",
+    "date": "2026-10-20",
+    "description": "提高 8–13 级每秒伤害：610→660、680→735、750→810、810→875、870→940、940→1015（依等级顺序）；每次伤害按 1.8 秒攻击间隔同步提高。",
+    "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/",
+    "sourcePublishedOn": "2026-10-17",
+    "numericSourceUrl": "https://clashfox.com/blog/balance-changes-before-town-hall-19-fire-heart-and-ruin-witch-nerfed-hogs-and-p-e-k-k-a-bu",
+    "dateSourceUrl": "https://x.com/ClashofClans/status/2112450159326179560",
+    "dateEvidence": "Maintenance completion on October 20 UTC; adjusted stats confirmed in-game on October 20.",
+    "type": "balance"
+  },
+  {
+    "unitId": "0012-Meteor-Golem",
+    "date": "2026-10-20",
+    "description": "提高 1–3 级生命值，分别由 14500、16000、17500 提高至 15300、16900、18500；满血分裂后的小陨石戈仑生命值相应提高至 7650、8450、9250。",
+    "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/",
+    "sourcePublishedOn": "2026-10-17",
+    "numericSourceUrl": "https://clashfox.com/blog/balance-changes-before-town-hall-19-fire-heart-and-ruin-witch-nerfed-hogs-and-p-e-k-k-a-bu",
+    "dateSourceUrl": "https://x.com/ClashofClans/status/2112450159326179560",
+    "dateEvidence": "Maintenance completion on October 20 UTC; adjusted stats confirmed in-game on October 20.",
+    "type": "balance"
+  },
+  {
+    "unitId": "0744-Frozen-Arrow",
+    "date": "2026-10-20",
+    "description": "所有等级减速比例提高 5 个百分点，1–2 级由 25% 提高至 30%，27 级由 65% 提高至 70%。",
+    "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/",
+    "sourcePublishedOn": "2026-10-17",
+    "numericSourceUrl": "https://clashfox.com/blog/balance-changes-before-town-hall-19-fire-heart-and-ruin-witch-nerfed-hogs-and-p-e-k-k-a-bu",
+    "dateSourceUrl": "https://x.com/ClashofClans/status/2112450159326179560",
+    "dateEvidence": "Maintenance completion on October 20 UTC; adjusted stats confirmed in-game on October 20.",
+    "type": "balance"
+  },
+  {
+    "unitId": "0744-Frozen-Arrow",
+    "date": "2026-10-20",
+    "description": "提高 21–27 级每秒伤害加成：144→145、148→150、152→155、156→160、160→165、164→170、168→175（依等级顺序）。",
+    "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/",
+    "sourcePublishedOn": "2026-10-17",
+    "numericSourceUrl": "https://clashfox.com/blog/balance-changes-before-town-hall-19-fire-heart-and-ruin-witch-nerfed-hogs-and-p-e-k-k-a-bu",
+    "dateSourceUrl": "https://x.com/ClashofClans/status/2112450159326179560",
+    "dateEvidence": "Maintenance completion on October 20 UTC; adjusted stats confirmed in-game on October 20.",
+    "type": "balance"
+  },
+  {
+    "unitId": "0726-Portal-Pendant",
+    "date": "2026-10-20",
+    "description": "新增被动生命值加成：1 级增加 550，每升一级增加 25，27 级增加 1200；原有回血加成保留。",
+    "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/",
+    "sourcePublishedOn": "2026-10-17",
+    "numericSourceUrl": "https://clashfox.com/blog/balance-changes-before-town-hall-19-fire-heart-and-ruin-witch-nerfed-hogs-and-p-e-k-k-a-bu",
+    "dateSourceUrl": "https://x.com/ClashofClans/status/2112450159326179560",
+    "dateEvidence": "Maintenance completion on October 20 UTC; adjusted stats confirmed in-game on October 20.",
+    "type": "balance"
+  },
+  {
+    "unitId": "0013-Ruin-Witch",
+    "date": "2026-10-20",
+    "description": "削弱召唤物废墟骑士的生命值、伤害和移动速度，并将其占据人口由 20 降至 18；具体数值见废墟骑士标签页。",
+    "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/",
+    "sourcePublishedOn": "2026-10-17",
+    "numericSourceUrl": "https://clashfox.com/blog/balance-changes-before-town-hall-19-fire-heart-and-ruin-witch-nerfed-hogs-and-p-e-k-k-a-bu",
+    "dateSourceUrl": "https://x.com/ClashofClans/status/2112450159326179560",
+    "dateEvidence": "Maintenance completion on October 20 UTC; adjusted stats confirmed in-game on October 20.",
+    "type": "balance"
   }
 ]

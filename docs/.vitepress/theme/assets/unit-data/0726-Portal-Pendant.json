@@ -11,7 +11,23 @@
     "revision": 625662,
     "revisionUrl": "https://clashofclans.fandom.com/wiki/Portal_Pendant?oldid=625662",
     "syncedOn": "2026-10-13",
-    "scope": "Source statistics tables and available 2026 history; base values"
+    "scope": "Source statistics tables and available 2026 history; base values",
+    "balanceUpdate": {
+      "appliedOn": "2026-10-20",
+      "effectiveOn": "2026-10-20",
+      "announcementUrl": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/",
+      "numericSourceUrl": "https://clashfox.com/blog/balance-changes-before-town-hall-19-fire-heart-and-ruin-witch-nerfed-hogs-and-p-e-k-k-a-bu",
+      "dateSourceUrl": "https://x.com/ClashofClans/status/2112450159326179560",
+      "dateEvidence": "Adjusted stats confirmed in-game after maintenance on October 20, 2026 (UTC).",
+      "fields": [
+        {
+          "table": 1,
+          "header": "Hero Boost / Hitpoint Increase",
+          "levels": "1–27",
+          "added": true
+        }
+      ]
+    }
   },
   "tables": [
     {
@@ -25,6 +41,7 @@
         "Ability Attributes / Haste on Redeploy",
         "Ability Attributes / Recall Capacity",
         "Hero Boost / HP Recovery Increase",
+        "Hero Boost / Hitpoint Increase",
         "Upgrade Cost / Shiny Ore",
         "Upgrade Cost / Glowy Ore",
         "Upgrade Cost / Starry Ore",
@@ -61,6 +78,11 @@
             "status": "known",
             "value": 558,
             "raw": "558"
+          },
+          {
+            "status": "known",
+            "value": 550,
+            "raw": "550"
           },
           {
             "status": "not_applicable",
@@ -116,6 +138,11 @@
           },
           {
             "status": "known",
+            "value": 575,
+            "raw": "575"
+          },
+          {
+            "status": "known",
             "value": 120,
             "raw": "120"
           },
@@ -165,6 +192,11 @@
             "status": "known",
             "value": 615,
             "raw": "615"
+          },
+          {
+            "status": "known",
+            "value": 600,
+            "raw": "600"
           },
           {
             "status": "known",
@@ -220,6 +252,11 @@
           },
           {
             "status": "known",
+            "value": 625,
+            "raw": "625"
+          },
+          {
+            "status": "known",
             "value": 400,
             "raw": "400"
           },
@@ -269,6 +306,11 @@
             "status": "known",
             "value": 673,
             "raw": "673"
+          },
+          {
+            "status": "known",
+            "value": 650,
+            "raw": "650"
           },
           {
             "status": "known",
@@ -324,6 +366,11 @@
           },
           {
             "status": "known",
+            "value": 675,
+            "raw": "675"
+          },
+          {
+            "status": "known",
             "value": 840,
             "raw": "840"
           },
@@ -373,6 +420,11 @@
             "status": "known",
             "value": 730,
             "raw": "730"
+          },
+          {
+            "status": "known",
+            "value": 700,
+            "raw": "700"
           },
           {
             "status": "known",
@@ -428,6 +480,11 @@
           },
           {
             "status": "known",
+            "value": 725,
+            "raw": "725"
+          },
+          {
+            "status": "known",
             "value": 1440,
             "raw": "1,440"
           },
@@ -477,6 +534,11 @@
             "status": "known",
             "value": 788,
             "raw": "788"
+          },
+          {
+            "status": "known",
+            "value": 750,
+            "raw": "750"
           },
           {
             "status": "known",
@@ -532,6 +594,11 @@
           },
           {
             "status": "known",
+            "value": 775,
+            "raw": "775"
+          },
+          {
+            "status": "known",
             "value": 1900,
             "raw": "1,900"
           },
@@ -581,6 +648,11 @@
             "status": "known",
             "value": 845,
             "raw": "845"
+          },
+          {
+            "status": "known",
+            "value": 800,
+            "raw": "800"
           },
           {
             "status": "known",
@@ -636,6 +708,11 @@
           },
           {
             "status": "known",
+            "value": 825,
+            "raw": "825"
+          },
+          {
+            "status": "known",
             "value": 2100,
             "raw": "2,100"
           },
@@ -685,6 +762,11 @@
             "status": "known",
             "value": 903,
             "raw": "903"
+          },
+          {
+            "status": "known",
+            "value": 850,
+            "raw": "850"
           },
           {
             "status": "known",
@@ -740,6 +822,11 @@
           },
           {
             "status": "known",
+            "value": 875,
+            "raw": "875"
+          },
+          {
+            "status": "known",
             "value": 2300,
             "raw": "2,300"
           },
@@ -789,6 +876,11 @@
             "status": "known",
             "value": 960,
             "raw": "960"
+          },
+          {
+            "status": "known",
+            "value": 900,
+            "raw": "900"
           },
           {
             "status": "known",
@@ -844,6 +936,11 @@
           },
           {
             "status": "known",
+            "value": 925,
+            "raw": "925"
+          },
+          {
+            "status": "known",
             "value": 2500,
             "raw": "2,500"
           },
@@ -893,6 +990,11 @@
             "status": "known",
             "value": 1018,
             "raw": "1,018"
+          },
+          {
+            "status": "known",
+            "value": 950,
+            "raw": "950"
           },
           {
             "status": "known",
@@ -948,6 +1050,11 @@
           },
           {
             "status": "known",
+            "value": 975,
+            "raw": "975"
+          },
+          {
+            "status": "known",
             "value": 2700,
             "raw": "2,700"
           },
@@ -997,6 +1104,11 @@
             "status": "known",
             "value": 1107,
             "raw": "1,107"
+          },
+          {
+            "status": "known",
+            "value": 1000,
+            "raw": "1000"
           },
           {
             "status": "known",
@@ -1052,6 +1164,11 @@
           },
           {
             "status": "known",
+            "value": 1025,
+            "raw": "1025"
+          },
+          {
+            "status": "known",
             "value": 2900,
             "raw": "2,900"
           },
@@ -1101,6 +1218,11 @@
             "status": "known",
             "value": 1171,
             "raw": "1,171"
+          },
+          {
+            "status": "known",
+            "value": 1050,
+            "raw": "1050"
           },
           {
             "status": "known",
@@ -1156,6 +1278,11 @@
           },
           {
             "status": "known",
+            "value": 1075,
+            "raw": "1075"
+          },
+          {
+            "status": "known",
             "value": 3100,
             "raw": "3,100"
           },
@@ -1205,6 +1332,11 @@
             "status": "known",
             "value": 1239,
             "raw": "1,239"
+          },
+          {
+            "status": "known",
+            "value": 1100,
+            "raw": "1100"
           },
           {
             "status": "known",
@@ -1260,6 +1392,11 @@
           },
           {
             "status": "known",
+            "value": 1125,
+            "raw": "1125"
+          },
+          {
+            "status": "known",
             "value": 3300,
             "raw": "3,300"
           },
@@ -1309,6 +1446,11 @@
             "status": "known",
             "value": 1309,
             "raw": "1,309"
+          },
+          {
+            "status": "known",
+            "value": 1150,
+            "raw": "1150"
           },
           {
             "status": "known",
@@ -1364,6 +1506,11 @@
           },
           {
             "status": "known",
+            "value": 1175,
+            "raw": "1175"
+          },
+          {
+            "status": "known",
             "value": 3500,
             "raw": "3,500"
           },
@@ -1416,6 +1563,11 @@
           },
           {
             "status": "known",
+            "value": 1200,
+            "raw": "1200"
+          },
+          {
+            "status": "known",
             "value": 3600,
             "raw": "3,600"
           },
@@ -1438,21 +1590,21 @@
       ],
       "extraInfo": [
         {
-          "column": 6,
+          "column": 7,
           "type": "cost",
           "icon": "Shiny_Ore",
           "gpClass": "research",
           "noGoldPass": true
         },
         {
-          "column": 7,
+          "column": 8,
           "type": "cost",
           "icon": "Glowy_Ore",
           "gpClass": "research",
           "noGoldPass": true
         },
         {
-          "column": 8,
+          "column": 9,
           "type": "cost",
           "icon": "Starry_Ore",
           "gpClass": "research",
@@ -1483,6 +1635,16 @@
     {
       "date": "2026-10-08",
       "description": "Made the Portal Pendant available in the Portal Panic Medal Event."
+    },
+    {
+      "date": "2026-10-20",
+      "description": "新增被动生命值加成：1 级增加 550，每升一级增加 25，27 级增加 1200；原有回血加成保留。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/",
+      "sourcePublishedOn": "2026-10-17",
+      "numericSourceUrl": "https://clashfox.com/blog/balance-changes-before-town-hall-19-fire-heart-and-ruin-witch-nerfed-hogs-and-p-e-k-k-a-bu",
+      "dateSourceUrl": "https://x.com/ClashofClans/status/2112450159326179560",
+      "dateEvidence": "Maintenance completion on October 20 UTC; adjusted stats confirmed in-game on October 20.",
+      "type": "balance"
     }
   ],
   "facts": [

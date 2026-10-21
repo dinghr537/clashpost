@@ -11,7 +11,27 @@
     "revision": 621294,
     "revisionUrl": "https://clashofclans.fandom.com/wiki/Frozen_Arrow?oldid=621294",
     "syncedOn": "2026-10-13",
-    "scope": "Source statistics tables and available 2026 history; base values"
+    "scope": "Source statistics tables and available 2026 history; base values",
+    "balanceUpdate": {
+      "appliedOn": "2026-10-20",
+      "effectiveOn": "2026-10-20",
+      "announcementUrl": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/",
+      "numericSourceUrl": "https://clashfox.com/blog/balance-changes-before-town-hall-19-fire-heart-and-ruin-witch-nerfed-hogs-and-p-e-k-k-a-bu",
+      "dateSourceUrl": "https://x.com/ClashofClans/status/2112450159326179560",
+      "dateEvidence": "Adjusted stats confirmed in-game after maintenance on October 20, 2026 (UTC).",
+      "fields": [
+        {
+          "table": 3,
+          "header": "Ability Attributes / Slow Down",
+          "levels": "1–27"
+        },
+        {
+          "table": 3,
+          "header": "Hero Boosts / Damage per Second Increase",
+          "levels": "21–27"
+        }
+      ]
+    }
   },
   "tables": [
     {
@@ -37,8 +57,8 @@
           },
           {
             "status": "known",
-            "value": "25%",
-            "raw": "25%"
+            "value": "30%",
+            "raw": "30%"
           },
           {
             "status": "known",
@@ -79,8 +99,8 @@
           },
           {
             "status": "known",
-            "value": "25%",
-            "raw": "25%"
+            "value": "30%",
+            "raw": "30%"
           },
           {
             "status": "known",
@@ -121,8 +141,8 @@
           },
           {
             "status": "known",
-            "value": "30%",
-            "raw": "30%"
+            "value": "35%",
+            "raw": "35%"
           },
           {
             "status": "known",
@@ -163,8 +183,8 @@
           },
           {
             "status": "known",
-            "value": "30%",
-            "raw": "30%"
+            "value": "35%",
+            "raw": "35%"
           },
           {
             "status": "known",
@@ -205,8 +225,8 @@
           },
           {
             "status": "known",
-            "value": "30%",
-            "raw": "30%"
+            "value": "35%",
+            "raw": "35%"
           },
           {
             "status": "known",
@@ -247,8 +267,8 @@
           },
           {
             "status": "known",
-            "value": "35%",
-            "raw": "35%"
+            "value": "40%",
+            "raw": "40%"
           },
           {
             "status": "known",
@@ -289,8 +309,8 @@
           },
           {
             "status": "known",
-            "value": "35%",
-            "raw": "35%"
+            "value": "40%",
+            "raw": "40%"
           },
           {
             "status": "known",
@@ -331,8 +351,8 @@
           },
           {
             "status": "known",
-            "value": "35%",
-            "raw": "35%"
+            "value": "40%",
+            "raw": "40%"
           },
           {
             "status": "known",
@@ -373,8 +393,8 @@
           },
           {
             "status": "known",
-            "value": "37%",
-            "raw": "37%"
+            "value": "42%",
+            "raw": "42%"
           },
           {
             "status": "known",
@@ -415,8 +435,8 @@
           },
           {
             "status": "known",
-            "value": "37%",
-            "raw": "37%"
+            "value": "42%",
+            "raw": "42%"
           },
           {
             "status": "known",
@@ -457,8 +477,8 @@
           },
           {
             "status": "known",
-            "value": "37%",
-            "raw": "37%"
+            "value": "42%",
+            "raw": "42%"
           },
           {
             "status": "known",
@@ -499,8 +519,8 @@
           },
           {
             "status": "known",
-            "value": "40%",
-            "raw": "40%"
+            "value": "45%",
+            "raw": "45%"
           },
           {
             "status": "known",
@@ -541,8 +561,8 @@
           },
           {
             "status": "known",
-            "value": "40%",
-            "raw": "40%"
+            "value": "45%",
+            "raw": "45%"
           },
           {
             "status": "known",
@@ -583,8 +603,8 @@
           },
           {
             "status": "known",
-            "value": "40%",
-            "raw": "40%"
+            "value": "45%",
+            "raw": "45%"
           },
           {
             "status": "known",
@@ -625,8 +645,8 @@
           },
           {
             "status": "known",
-            "value": "45%",
-            "raw": "45%"
+            "value": "50%",
+            "raw": "50%"
           },
           {
             "status": "known",
@@ -667,8 +687,8 @@
           },
           {
             "status": "known",
-            "value": "45%",
-            "raw": "45%"
+            "value": "50%",
+            "raw": "50%"
           },
           {
             "status": "known",
@@ -709,8 +729,8 @@
           },
           {
             "status": "known",
-            "value": "45%",
-            "raw": "45%"
+            "value": "50%",
+            "raw": "50%"
           },
           {
             "status": "known",
@@ -751,8 +771,8 @@
           },
           {
             "status": "known",
-            "value": "50%",
-            "raw": "50%"
+            "value": "55%",
+            "raw": "55%"
           },
           {
             "status": "known",
@@ -793,8 +813,8 @@
           },
           {
             "status": "known",
-            "value": "50%",
-            "raw": "50%"
+            "value": "55%",
+            "raw": "55%"
           },
           {
             "status": "known",
@@ -835,8 +855,8 @@
           },
           {
             "status": "known",
-            "value": "50%",
-            "raw": "50%"
+            "value": "55%",
+            "raw": "55%"
           },
           {
             "status": "known",
@@ -877,8 +897,8 @@
           },
           {
             "status": "known",
-            "value": "55%",
-            "raw": "55%"
+            "value": "60%",
+            "raw": "60%"
           },
           {
             "status": "known",
@@ -887,8 +907,8 @@
           },
           {
             "status": "known",
-            "value": 144,
-            "raw": "144"
+            "value": 145,
+            "raw": "145"
           },
           {
             "status": "known",
@@ -919,8 +939,8 @@
           },
           {
             "status": "known",
-            "value": "55%",
-            "raw": "55%"
+            "value": "60%",
+            "raw": "60%"
           },
           {
             "status": "known",
@@ -929,8 +949,8 @@
           },
           {
             "status": "known",
-            "value": 148,
-            "raw": "148"
+            "value": 150,
+            "raw": "150"
           },
           {
             "status": "known",
@@ -961,8 +981,8 @@
           },
           {
             "status": "known",
-            "value": "55%",
-            "raw": "55%"
+            "value": "60%",
+            "raw": "60%"
           },
           {
             "status": "known",
@@ -971,8 +991,8 @@
           },
           {
             "status": "known",
-            "value": 152,
-            "raw": "152"
+            "value": 155,
+            "raw": "155"
           },
           {
             "status": "known",
@@ -1003,8 +1023,8 @@
           },
           {
             "status": "known",
-            "value": "60%",
-            "raw": "60%"
+            "value": "65%",
+            "raw": "65%"
           },
           {
             "status": "known",
@@ -1013,8 +1033,8 @@
           },
           {
             "status": "known",
-            "value": 156,
-            "raw": "156"
+            "value": 160,
+            "raw": "160"
           },
           {
             "status": "known",
@@ -1045,8 +1065,8 @@
           },
           {
             "status": "known",
-            "value": "60%",
-            "raw": "60%"
+            "value": "65%",
+            "raw": "65%"
           },
           {
             "status": "known",
@@ -1055,8 +1075,8 @@
           },
           {
             "status": "known",
-            "value": 160,
-            "raw": "160"
+            "value": 165,
+            "raw": "165"
           },
           {
             "status": "known",
@@ -1087,8 +1107,8 @@
           },
           {
             "status": "known",
-            "value": "60%",
-            "raw": "60%"
+            "value": "65%",
+            "raw": "65%"
           },
           {
             "status": "known",
@@ -1097,8 +1117,8 @@
           },
           {
             "status": "known",
-            "value": 164,
-            "raw": "164"
+            "value": 170,
+            "raw": "170"
           },
           {
             "status": "known",
@@ -1129,8 +1149,8 @@
           },
           {
             "status": "known",
-            "value": "65%",
-            "raw": "65%"
+            "value": "70%",
+            "raw": "70%"
           },
           {
             "status": "known",
@@ -1139,8 +1159,8 @@
           },
           {
             "status": "known",
-            "value": 168,
-            "raw": "168"
+            "value": 175,
+            "raw": "175"
           },
           {
             "status": "known",
@@ -1198,7 +1218,28 @@
       "logicalPath": "/upgrade/home_heroes/0744/Frozen_Arrow_info.png"
     }
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-10-20",
+      "description": "所有等级减速比例提高 5 个百分点，1–2 级由 25% 提高至 30%，27 级由 65% 提高至 70%。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/",
+      "sourcePublishedOn": "2026-10-17",
+      "numericSourceUrl": "https://clashfox.com/blog/balance-changes-before-town-hall-19-fire-heart-and-ruin-witch-nerfed-hogs-and-p-e-k-k-a-bu",
+      "dateSourceUrl": "https://x.com/ClashofClans/status/2112450159326179560",
+      "dateEvidence": "Maintenance completion on October 20 UTC; adjusted stats confirmed in-game on October 20.",
+      "type": "balance"
+    },
+    {
+      "date": "2026-10-20",
+      "description": "提高 21–27 级每秒伤害加成：144→145、148→150、152→155、156→160、160→165、164→170、168→175（依等级顺序）。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/",
+      "sourcePublishedOn": "2026-10-17",
+      "numericSourceUrl": "https://clashfox.com/blog/balance-changes-before-town-hall-19-fire-heart-and-ruin-witch-nerfed-hogs-and-p-e-k-k-a-bu",
+      "dateSourceUrl": "https://x.com/ClashofClans/status/2112450159326179560",
+      "dateEvidence": "Maintenance completion on October 20 UTC; adjusted stats confirmed in-game on October 20.",
+      "type": "balance"
+    }
+  ],
   "facts": [],
   "notices": []
 }

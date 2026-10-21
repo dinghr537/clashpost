@@ -11,7 +11,27 @@
     "revision": 625276,
     "revisionUrl": "https://clashofclans.fandom.com/wiki/P.E.K.K.A?oldid=625276",
     "syncedOn": "2026-10-13",
-    "scope": "Source statistics tables and available 2026 history; base values"
+    "scope": "Source statistics tables and available 2026 history; base values",
+    "balanceUpdate": {
+      "appliedOn": "2026-10-20",
+      "effectiveOn": "2026-10-20",
+      "announcementUrl": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/",
+      "numericSourceUrl": "https://clashfox.com/blog/balance-changes-before-town-hall-19-fire-heart-and-ruin-witch-nerfed-hogs-and-p-e-k-k-a-bu",
+      "dateSourceUrl": "https://x.com/ClashofClans/status/2112450159326179560",
+      "dateEvidence": "Adjusted stats confirmed in-game after maintenance on October 20, 2026 (UTC).",
+      "fields": [
+        {
+          "table": 3,
+          "header": "Damage per Second",
+          "levels": "8–13"
+        },
+        {
+          "table": 3,
+          "header": "Damage per Attack",
+          "levels": "8–13"
+        }
+      ]
+    }
   },
   "tables": [
     {
@@ -367,13 +387,13 @@
           },
           {
             "status": "known",
-            "value": 610,
-            "raw": "610"
+            "value": 660,
+            "raw": "660"
           },
           {
             "status": "known",
-            "value": 1098,
-            "raw": "1,098"
+            "value": 1188,
+            "raw": "1188"
           },
           {
             "status": "known",
@@ -406,13 +426,13 @@
           },
           {
             "status": "known",
-            "value": 680,
-            "raw": "680"
+            "value": 735,
+            "raw": "735"
           },
           {
             "status": "known",
-            "value": 1224,
-            "raw": "1,224"
+            "value": 1323,
+            "raw": "1323"
           },
           {
             "status": "known",
@@ -445,13 +465,13 @@
           },
           {
             "status": "known",
-            "value": 750,
-            "raw": "750"
+            "value": 810,
+            "raw": "810"
           },
           {
             "status": "known",
-            "value": 1350,
-            "raw": "1,350"
+            "value": 1458,
+            "raw": "1458"
           },
           {
             "status": "known",
@@ -484,13 +504,13 @@
           },
           {
             "status": "known",
-            "value": 810,
-            "raw": "810"
+            "value": 875,
+            "raw": "875"
           },
           {
             "status": "known",
-            "value": 1458,
-            "raw": "1,458"
+            "value": 1575,
+            "raw": "1575"
           },
           {
             "status": "known",
@@ -523,13 +543,13 @@
           },
           {
             "status": "known",
-            "value": 870,
-            "raw": "870"
+            "value": 940,
+            "raw": "940"
           },
           {
             "status": "known",
-            "value": 1566,
-            "raw": "1,566"
+            "value": 1692,
+            "raw": "1692"
           },
           {
             "status": "known",
@@ -562,13 +582,13 @@
           },
           {
             "status": "known",
-            "value": 940,
-            "raw": "940"
+            "value": 1015,
+            "raw": "1015"
           },
           {
             "status": "known",
-            "value": 1692,
-            "raw": "1,692"
+            "value": 1827,
+            "raw": "1827"
           },
           {
             "status": "known",
@@ -711,7 +731,18 @@
       "logicalPath": "/upgrade/home_tech/0009/PEKKA13.png"
     }
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-10-20",
+      "description": "提高 8–13 级每秒伤害：610→660、680→735、750→810、810→875、870→940、940→1015（依等级顺序）；每次伤害按 1.8 秒攻击间隔同步提高。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/",
+      "sourcePublishedOn": "2026-10-17",
+      "numericSourceUrl": "https://clashfox.com/blog/balance-changes-before-town-hall-19-fire-heart-and-ruin-witch-nerfed-hogs-and-p-e-k-k-a-bu",
+      "dateSourceUrl": "https://x.com/ClashofClans/status/2112450159326179560",
+      "dateEvidence": "Maintenance completion on October 20 UTC; adjusted stats confirmed in-game on October 20.",
+      "type": "balance"
+    }
+  ],
   "facts": [
     "The P.E.K.K.A is the tenth Elixir Troop at Barracks level 10, which requires Town Hall level 8."
   ],

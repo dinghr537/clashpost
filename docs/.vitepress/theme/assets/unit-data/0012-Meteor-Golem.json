@@ -11,7 +11,28 @@
     "revision": 624499,
     "revisionUrl": "https://clashofclans.fandom.com/wiki/Meteor_Golem?oldid=624499",
     "syncedOn": "2026-10-13",
-    "scope": "Source statistics tables and available 2026 history; base values"
+    "scope": "Source statistics tables and available 2026 history; base values",
+    "balanceUpdate": {
+      "appliedOn": "2026-10-20",
+      "effectiveOn": "2026-10-20",
+      "announcementUrl": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/",
+      "numericSourceUrl": "https://clashfox.com/blog/balance-changes-before-town-hall-19-fire-heart-and-ruin-witch-nerfed-hogs-and-p-e-k-k-a-bu",
+      "dateSourceUrl": "https://x.com/ClashofClans/status/2112450159326179560",
+      "dateEvidence": "Adjusted stats confirmed in-game after maintenance on October 20, 2026 (UTC).",
+      "fields": [
+        {
+          "table": 3,
+          "header": "Hitpoints",
+          "levels": "1–3"
+        },
+        {
+          "table": -1,
+          "header": "Hitpoints",
+          "levels": "1–3",
+          "added": true
+        }
+      ]
+    }
   },
   "tables": [
     {
@@ -100,8 +121,8 @@
           },
           {
             "status": "known",
-            "value": 14500,
-            "raw": "14,500"
+            "value": 15300,
+            "raw": "15300"
           },
           {
             "status": "not_applicable",
@@ -132,8 +153,8 @@
           },
           {
             "status": "known",
-            "value": 16000,
-            "raw": "16,000"
+            "value": 16900,
+            "raw": "16900"
           },
           {
             "status": "known",
@@ -166,8 +187,8 @@
           },
           {
             "status": "known",
-            "value": 17500,
-            "raw": "17,500"
+            "value": 18500,
+            "raw": "18500"
           },
           {
             "status": "known",
@@ -503,6 +524,88 @@
         ]
       ],
       "extraInfo": []
+    },
+    {
+      "sourceTableIndex": -1,
+      "section": "Statistics",
+      "title": "Meteormite",
+      "headers": [
+        "Level",
+        "Damage per Second",
+        "Damage per Attack",
+        "Hitpoints"
+      ],
+      "rows": [
+        [
+          {
+            "status": "known",
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "status": "known",
+            "value": 180,
+            "raw": "180"
+          },
+          {
+            "status": "known",
+            "value": 270,
+            "raw": "270"
+          },
+          {
+            "status": "known",
+            "value": 7650,
+            "raw": "7650"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "status": "known",
+            "value": 200,
+            "raw": "200"
+          },
+          {
+            "status": "known",
+            "value": 300,
+            "raw": "300"
+          },
+          {
+            "status": "known",
+            "value": 8450,
+            "raw": "8450"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "status": "known",
+            "value": 220,
+            "raw": "220"
+          },
+          {
+            "status": "known",
+            "value": 330,
+            "raw": "330"
+          },
+          {
+            "status": "known",
+            "value": 9250,
+            "raw": "9250"
+          }
+        ]
+      ],
+      "extraInfo": [],
+      "sourceUrl": "https://clashfox.com/blog/balance-changes-before-town-hall-19-fire-heart-and-ruin-witch-nerfed-hogs-and-p-e-k-k-a-bu",
+      "note": "Permanent Meteormite HP: half of the current full-health Meteor Golem. Damage retains the authored record."
     }
   ],
   "images": [
@@ -580,6 +683,16 @@
       "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/august-update-3/",
       "sourcePublishedOn": "2026-08-30",
       "dateSourceUrl": "https://clashofclans.fandom.com/wiki/Diggy?oldid=625147#History"
+    },
+    {
+      "date": "2026-10-20",
+      "description": "提高 1–3 级生命值，分别由 14500、16000、17500 提高至 15300、16900、18500；满血分裂后的小陨石戈仑生命值相应提高至 7650、8450、9250。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/",
+      "sourcePublishedOn": "2026-10-17",
+      "numericSourceUrl": "https://clashfox.com/blog/balance-changes-before-town-hall-19-fire-heart-and-ruin-witch-nerfed-hogs-and-p-e-k-k-a-bu",
+      "dateSourceUrl": "https://x.com/ClashofClans/status/2112450159326179560",
+      "dateEvidence": "Maintenance completion on October 20 UTC; adjusted stats confirmed in-game on October 20.",
+      "type": "balance"
     }
   ],
   "facts": [

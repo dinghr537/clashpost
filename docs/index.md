@@ -83,6 +83,8 @@ onBeforeUnmount(() => clearInterval(intervalId));
 <div class="homepage-recommend-item">
 <SmallTitle>最新动态</SmallTitle>
 
+- 2026/10/20：[烈焰之心](/upgrade/07e0-Fire-Heart)和[废墟骑士](/upgrade/0013-Ruin-Witch)削弱；[冰封箭矢](/upgrade/0744-Frozen-Arrow)增强，[传送吊坠](/upgrade/0726-Portal-Pendant)新增生命值加成。
+- 同次维护：[野猪骑士](/upgrade/0081-Hog-Rider)、[超级野猪骑士](/upgrade/060f-Super-Hog-Rider)、[掘地矿工](/upgrade/000b-Miner)、[超级矿工](/upgrade/060e-Super-Miner)和[陨石戈仑](/upgrade/0012-Meteor-Golem)生命值提高，[皮卡超人](/upgrade/0009-P.E.K.K.A)伤害提高。
 - 2026/10/08：新装备[传送吊坠](/upgrade/0726-Portal-Pendant)、临时兵种[图腾投手](/upgrade/0e1d-Totem-Thrower)开放。
 - 2026/08/31：[地兽](/upgrade/0285-Diggy)新增 11–15 级；[废墟女巫](/upgrade/0013-Ruin-Witch)的骑士召唤上限提高到 10。
 - 2026/08/12：飞龙公爵的新装备[反击卡组](/upgrade/07e5-Revenge-Deck)开放。
@@ -96,13 +98,15 @@ onBeforeUnmount(() => clearInterval(intervalId));
 
 - 倒计时依赖设备时间，按国际服常规日程计算；特殊活动调整以游戏内时间为准。
 - 排位周赛每周一北京时间 13:00 结算，不含传奇 I 的四周赛季。[规则来源](https://support.supercell.com/clash-of-clans/en/articles/ranked-leagues-4.html)。
-- 最新动态手动维护，目前整理至 2026/10/13；点击单位名称可查看详细变化与来源。
+- 最新动态手动维护，目前整理至 2026/10/20；点击单位名称可查看详细变化与来源。
 
 </div>
 
 <SmallTitle>数据说明</SmallTitle>
 
 2026-10-13 已同步 357 个单位的数据页，包含 17 个新增单位：常驻单位、今年两批精工防御以及新增和回归的临时单位。费用、时间、属性和前置条件采用 Clash of Clans Wiki 当前表格，每页保留来源修订链接及可取得的 2026 年更新历史。
+
+2026-10-20 另已更新本次平衡调整涉及的 10 项兵种或装备，包含召唤物的关联数据、说明和更新历史。调整范围依据 [Supercell 公告](https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/)，具体等级数值另在各页标注参考来源；其他数据仍沿用上述同步记录。
 
 其余 31 个往期活动单位保留历史数据，并在页首标注。来源缺项显示为“未知”或“不适用”；同步日期不表示游戏更新生效日期。
 

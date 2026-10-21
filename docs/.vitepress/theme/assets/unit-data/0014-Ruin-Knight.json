@@ -11,7 +11,45 @@
     "revision": 625189,
     "revisionUrl": "https://clashofclans.fandom.com/wiki/Ruin_Witch/Ruin_Knight?oldid=625189",
     "syncedOn": "2026-10-13",
-    "scope": "Source statistics tables and available 2026 history; base values"
+    "scope": "Source statistics tables and available 2026 history; base values",
+    "balanceUpdate": {
+      "appliedOn": "2026-10-20",
+      "effectiveOn": "2026-10-20",
+      "announcementUrl": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/",
+      "numericSourceUrl": "https://clashfox.com/blog/balance-changes-before-town-hall-19-fire-heart-and-ruin-witch-nerfed-hogs-and-p-e-k-k-a-bu",
+      "dateSourceUrl": "https://x.com/ClashofClans/status/2112450159326179560",
+      "dateEvidence": "Adjusted stats confirmed in-game after maintenance on October 20, 2026 (UTC).",
+      "fields": [
+        {
+          "table": 2,
+          "header": "Hitpoints",
+          "levels": "1–4"
+        },
+        {
+          "table": 2,
+          "header": "Damage per Second",
+          "levels": "1–4"
+        },
+        {
+          "table": 2,
+          "header": "Damage per Attack",
+          "levels": "1–4"
+        },
+        {
+          "table": 2,
+          "header": "Damage vs Walls",
+          "levels": "1–4"
+        },
+        {
+          "table": 1,
+          "header": "Housing Space"
+        },
+        {
+          "table": 1,
+          "header": "Movement Speed"
+        }
+      ]
+    }
   },
   "tables": [
     {
@@ -46,13 +84,13 @@
           },
           {
             "status": "known",
-            "value": 20,
-            "raw": "20"
+            "value": 18,
+            "raw": "18"
           },
           {
             "status": "known",
-            "value": 16,
-            "raw": "16"
+            "value": 14,
+            "raw": "14"
           },
           {
             "status": "known",
@@ -88,23 +126,23 @@
           },
           {
             "status": "known",
-            "value": 255,
-            "raw": "255"
+            "value": 240,
+            "raw": "240"
           },
           {
             "status": "known",
-            "value": 255,
-            "raw": "255"
+            "value": 240,
+            "raw": "240"
           },
           {
             "status": "known",
-            "value": 765,
-            "raw": "765"
+            "value": 720,
+            "raw": "720"
           },
           {
             "status": "known",
-            "value": 3100,
-            "raw": "3,100"
+            "value": 2900,
+            "raw": "2900"
           }
         ],
         [
@@ -115,23 +153,23 @@
           },
           {
             "status": "known",
-            "value": 285,
-            "raw": "285"
+            "value": 270,
+            "raw": "270"
           },
           {
             "status": "known",
-            "value": 285,
-            "raw": "285"
+            "value": 270,
+            "raw": "270"
           },
           {
             "status": "known",
-            "value": 855,
-            "raw": "855"
+            "value": 810,
+            "raw": "810"
           },
           {
             "status": "known",
-            "value": 3400,
-            "raw": "3,400"
+            "value": 3200,
+            "raw": "3200"
           }
         ],
         [
@@ -142,23 +180,23 @@
           },
           {
             "status": "known",
-            "value": 315,
-            "raw": "315"
+            "value": 300,
+            "raw": "300"
           },
           {
             "status": "known",
-            "value": 315,
-            "raw": "315"
+            "value": 300,
+            "raw": "300"
           },
           {
             "status": "known",
-            "value": 945,
-            "raw": "945"
+            "value": 900,
+            "raw": "900"
           },
           {
             "status": "known",
-            "value": 3700,
-            "raw": "3,700"
+            "value": 3500,
+            "raw": "3500"
           }
         ],
         [
@@ -169,23 +207,23 @@
           },
           {
             "status": "known",
-            "value": 345,
-            "raw": "345"
+            "value": 330,
+            "raw": "330"
           },
           {
             "status": "known",
-            "value": 345,
-            "raw": "345"
+            "value": 330,
+            "raw": "330"
           },
           {
             "status": "known",
-            "value": 1035,
-            "raw": "1,035"
+            "value": 990,
+            "raw": "990"
           },
           {
             "status": "known",
-            "value": 4000,
-            "raw": "4,000"
+            "value": 3800,
+            "raw": "3800"
           }
         ]
       ],
@@ -210,6 +248,26 @@
     {
       "date": "2026-08-31",
       "description": "Removed the Ruin Knight hitpoint decay. Damage Reduction"
+    },
+    {
+      "date": "2026-10-20",
+      "description": "占据人口由 20 降至 18，现在可被足够弹射容量的弹簧弹飞；移动速度由 2 格/秒降至 1.75 格/秒（游戏内数值由 16 降至 14）。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/",
+      "sourcePublishedOn": "2026-10-17",
+      "numericSourceUrl": "https://clashfox.com/blog/balance-changes-before-town-hall-19-fire-heart-and-ruin-witch-nerfed-hogs-and-p-e-k-k-a-bu",
+      "dateSourceUrl": "https://x.com/ClashofClans/status/2112450159326179560",
+      "dateEvidence": "Maintenance completion on October 20 UTC; adjusted stats confirmed in-game on October 20.",
+      "type": "balance"
+    },
+    {
+      "date": "2026-10-20",
+      "description": "1–4 级生命值分别由 3100、3400、3700、4000 降至 2900、3200、3500、3800；每秒伤害分别由 255、285、315、345 降至 240、270、300、330。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/",
+      "sourcePublishedOn": "2026-10-17",
+      "numericSourceUrl": "https://clashfox.com/blog/balance-changes-before-town-hall-19-fire-heart-and-ruin-witch-nerfed-hogs-and-p-e-k-k-a-bu",
+      "dateSourceUrl": "https://x.com/ClashofClans/status/2112450159326179560",
+      "dateEvidence": "Maintenance completion on October 20 UTC; adjusted stats confirmed in-game on October 20.",
+      "type": "balance"
     }
   ],
   "facts": [],

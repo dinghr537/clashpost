@@ -11,7 +11,22 @@
     "revision": 624732,
     "revisionUrl": "https://clashofclans.fandom.com/wiki/Miner?oldid=624732",
     "syncedOn": "2026-10-13",
-    "scope": "Source statistics tables and available 2026 history; base values"
+    "scope": "Source statistics tables and available 2026 history; base values",
+    "balanceUpdate": {
+      "appliedOn": "2026-10-20",
+      "effectiveOn": "2026-10-20",
+      "announcementUrl": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/",
+      "numericSourceUrl": "https://clashfox.com/blog/balance-changes-before-town-hall-19-fire-heart-and-ruin-witch-nerfed-hogs-and-p-e-k-k-a-bu",
+      "dateSourceUrl": "https://x.com/ClashofClans/status/2112450159326179560",
+      "dateEvidence": "Adjusted stats confirmed in-game after maintenance on October 20, 2026 (UTC).",
+      "fields": [
+        {
+          "table": 3,
+          "header": "Hitpoints",
+          "levels": "11–12"
+        }
+      ]
+    }
   },
   "tables": [
     {
@@ -488,8 +503,8 @@
           },
           {
             "status": "known",
-            "value": 1750,
-            "raw": "1,750"
+            "value": 1850,
+            "raw": "1850"
           },
           {
             "status": "known",
@@ -527,8 +542,8 @@
           },
           {
             "status": "known",
-            "value": 2050,
-            "raw": "2,050"
+            "value": 2150,
+            "raw": "2150"
           },
           {
             "status": "known",
@@ -682,6 +697,16 @@
       "description": "调整地下单位的战斗逻辑，使其面对多个骷髅兵时的行为更稳定。",
       "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-february-update-has-escaped/",
       "sourcePublishedOn": "2026-02-23"
+    },
+    {
+      "date": "2026-10-20",
+      "description": "提高 11、12 级生命值，分别由 1750、2050 提高至 1850、2150。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/",
+      "sourcePublishedOn": "2026-10-17",
+      "numericSourceUrl": "https://clashfox.com/blog/balance-changes-before-town-hall-19-fire-heart-and-ruin-witch-nerfed-hogs-and-p-e-k-k-a-bu",
+      "dateSourceUrl": "https://x.com/ClashofClans/status/2112450159326179560",
+      "dateEvidence": "Maintenance completion on October 20 UTC; adjusted stats confirmed in-game on October 20.",
+      "type": "balance"
     }
   ],
   "facts": [

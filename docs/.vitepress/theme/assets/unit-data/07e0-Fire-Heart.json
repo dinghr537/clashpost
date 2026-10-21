@@ -11,7 +11,32 @@
     "revision": 625389,
     "revisionUrl": "https://clashofclans.fandom.com/wiki/Fire_Heart?oldid=625389",
     "syncedOn": "2026-10-13",
-    "scope": "Source statistics tables and available 2026 history; base values"
+    "scope": "Source statistics tables and available 2026 history; base values",
+    "balanceUpdate": {
+      "appliedOn": "2026-10-20",
+      "effectiveOn": "2026-10-20",
+      "announcementUrl": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/",
+      "numericSourceUrl": "https://clashfox.com/blog/balance-changes-before-town-hall-19-fire-heart-and-ruin-witch-nerfed-hogs-and-p-e-k-k-a-bu",
+      "dateSourceUrl": "https://x.com/ClashofClans/status/2112450159326179560",
+      "dateEvidence": "Adjusted stats confirmed in-game after maintenance on October 20, 2026 (UTC).",
+      "fields": [
+        {
+          "table": 3,
+          "header": "Hero Boosts / Hitpoint Increase",
+          "levels": "1–18"
+        },
+        {
+          "table": 3,
+          "header": "Hero Boosts / Damage per Second Increase",
+          "levels": "1–18"
+        },
+        {
+          "table": 3,
+          "header": "Hero Boosts / Self Healing Per Second",
+          "levels": "12–18"
+        }
+      ]
+    }
   },
   "tables": [
     {
@@ -47,13 +72,13 @@
           },
           {
             "status": "known",
-            "value": 10,
-            "raw": "10"
+            "value": 0,
+            "raw": "0"
           },
           {
             "status": "known",
-            "value": 900,
-            "raw": "900"
+            "value": 830,
+            "raw": "830"
           },
           {
             "status": "not_applicable",
@@ -89,13 +114,13 @@
           },
           {
             "status": "known",
-            "value": 10,
-            "raw": "10"
+            "value": 0,
+            "raw": "0"
           },
           {
             "status": "known",
-            "value": 1200,
-            "raw": "1,200"
+            "value": 1100,
+            "raw": "1100"
           },
           {
             "status": "known",
@@ -131,13 +156,13 @@
           },
           {
             "status": "known",
-            "value": 12,
-            "raw": "12"
+            "value": 0,
+            "raw": "0"
           },
           {
             "status": "known",
-            "value": 1450,
-            "raw": "1,450"
+            "value": 1350,
+            "raw": "1350"
           },
           {
             "status": "known",
@@ -173,13 +198,13 @@
           },
           {
             "status": "known",
-            "value": 12,
-            "raw": "12"
+            "value": 0,
+            "raw": "0"
           },
           {
             "status": "known",
-            "value": 1750,
-            "raw": "1,750"
+            "value": 1600,
+            "raw": "1600"
           },
           {
             "status": "known",
@@ -215,13 +240,13 @@
           },
           {
             "status": "known",
-            "value": 12,
-            "raw": "12"
+            "value": 0,
+            "raw": "0"
           },
           {
             "status": "known",
-            "value": 2000,
-            "raw": "2,000"
+            "value": 1850,
+            "raw": "1850"
           },
           {
             "status": "known",
@@ -257,13 +282,13 @@
           },
           {
             "status": "known",
-            "value": 14,
-            "raw": "14"
+            "value": 0,
+            "raw": "0"
           },
           {
             "status": "known",
-            "value": 2300,
-            "raw": "2,300"
+            "value": 2100,
+            "raw": "2100"
           },
           {
             "status": "known",
@@ -299,13 +324,13 @@
           },
           {
             "status": "known",
-            "value": 14,
-            "raw": "14"
+            "value": 0,
+            "raw": "0"
           },
           {
             "status": "known",
-            "value": 2600,
-            "raw": "2,600"
+            "value": 2400,
+            "raw": "2400"
           },
           {
             "status": "known",
@@ -341,13 +366,13 @@
           },
           {
             "status": "known",
-            "value": 14,
-            "raw": "14"
+            "value": 0,
+            "raw": "0"
           },
           {
             "status": "known",
-            "value": 2850,
-            "raw": "2,850"
+            "value": 2600,
+            "raw": "2600"
           },
           {
             "status": "known",
@@ -383,13 +408,13 @@
           },
           {
             "status": "known",
-            "value": 16,
-            "raw": "16"
+            "value": 0,
+            "raw": "0"
           },
           {
             "status": "known",
-            "value": 3150,
-            "raw": "3,150"
+            "value": 2900,
+            "raw": "2900"
           },
           {
             "status": "known",
@@ -425,13 +450,13 @@
           },
           {
             "status": "known",
-            "value": 16,
-            "raw": "16"
+            "value": 0,
+            "raw": "0"
           },
           {
             "status": "known",
-            "value": 3400,
-            "raw": "3,400"
+            "value": 3150,
+            "raw": "3150"
           },
           {
             "status": "known",
@@ -467,13 +492,13 @@
           },
           {
             "status": "known",
-            "value": 16,
-            "raw": "16"
+            "value": 0,
+            "raw": "0"
           },
           {
             "status": "known",
-            "value": 3700,
-            "raw": "3,700"
+            "value": 3400,
+            "raw": "3400"
           },
           {
             "status": "known",
@@ -504,18 +529,18 @@
           },
           {
             "status": "known",
-            "value": 130,
-            "raw": "130"
+            "value": 120,
+            "raw": "120"
           },
           {
             "status": "known",
-            "value": 18,
-            "raw": "18"
+            "value": 0,
+            "raw": "0"
           },
           {
             "status": "known",
-            "value": 4000,
-            "raw": "4,000"
+            "value": 3700,
+            "raw": "3700"
           },
           {
             "status": "known",
@@ -546,18 +571,18 @@
           },
           {
             "status": "known",
-            "value": 130,
-            "raw": "130"
+            "value": 120,
+            "raw": "120"
           },
           {
             "status": "known",
-            "value": 18,
-            "raw": "18"
+            "value": 0,
+            "raw": "0"
           },
           {
             "status": "known",
-            "value": 4250,
-            "raw": "4,250"
+            "value": 3900,
+            "raw": "3900"
           },
           {
             "status": "known",
@@ -588,18 +613,18 @@
           },
           {
             "status": "known",
-            "value": 130,
-            "raw": "130"
+            "value": 120,
+            "raw": "120"
           },
           {
             "status": "known",
-            "value": 18,
-            "raw": "18"
+            "value": 0,
+            "raw": "0"
           },
           {
             "status": "known",
-            "value": 4550,
-            "raw": "4,550"
+            "value": 4200,
+            "raw": "4200"
           },
           {
             "status": "known",
@@ -630,18 +655,18 @@
           },
           {
             "status": "known",
-            "value": 140,
-            "raw": "140"
+            "value": 130,
+            "raw": "130"
           },
           {
             "status": "known",
-            "value": 20,
-            "raw": "20"
+            "value": 0,
+            "raw": "0"
           },
           {
             "status": "known",
-            "value": 4800,
-            "raw": "4,800"
+            "value": 4400,
+            "raw": "4400"
           },
           {
             "status": "known",
@@ -672,18 +697,18 @@
           },
           {
             "status": "known",
-            "value": 140,
-            "raw": "140"
+            "value": 130,
+            "raw": "130"
           },
           {
             "status": "known",
-            "value": 20,
-            "raw": "20"
+            "value": 0,
+            "raw": "0"
           },
           {
             "status": "known",
-            "value": 5100,
-            "raw": "5,100"
+            "value": 4700,
+            "raw": "4700"
           },
           {
             "status": "known",
@@ -714,18 +739,18 @@
           },
           {
             "status": "known",
-            "value": 140,
-            "raw": "140"
+            "value": 130,
+            "raw": "130"
           },
           {
             "status": "known",
-            "value": 20,
-            "raw": "20"
+            "value": 0,
+            "raw": "0"
           },
           {
             "status": "known",
-            "value": 5450,
-            "raw": "5,450"
+            "value": 5000,
+            "raw": "5000"
           },
           {
             "status": "known",
@@ -756,18 +781,18 @@
           },
           {
             "status": "known",
-            "value": 150,
-            "raw": "150"
+            "value": 140,
+            "raw": "140"
           },
           {
             "status": "known",
-            "value": 23,
-            "raw": "23"
+            "value": 0,
+            "raw": "0"
           },
           {
             "status": "known",
-            "value": 5600,
-            "raw": "5,600"
+            "value": 5150,
+            "raw": "5150"
           },
           {
             "status": "known",
@@ -847,6 +872,26 @@
     {
       "date": "2026-05-26",
       "description": "Decreased self healing per second at levels 15 to 18: Level 15-17: 155 -> 140 Troop Healing Level 18: 175 -> 150 Troop Healing Decreased damage per second at levels 2 to 18: Level 2: 12 -> 10 Damage Level 3: 14 -> 12 Damage Level 4: 16 -> 12 Damage Level 5: 18 -> 12 Damage Level 6: 20 -> 14 Damage Level 7: 22 -> 14 Damage Level 8: 24 -> 14 Damage Level 9: 26 -> 16 Damage Level 10: 28 -> 16 Damage Level 11: 30 -> 16 Damage Level 12: 32 -> 18 Damage Level 13: 34 -> 18 Damage Level 14: 36 -> 18 Damage Level 15: 38 -> 20 Damage Level 16: 40 -> 20 Damage Level 17: 42 -> 20 Damage Level 18: 45 -> 23 Damage"
+    },
+    {
+      "date": "2026-10-20",
+      "description": "移除所有等级的每秒伤害加成；各等级生命值加成降低，18 级由 5600 降至 5150。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/",
+      "sourcePublishedOn": "2026-10-17",
+      "numericSourceUrl": "https://clashfox.com/blog/balance-changes-before-town-hall-19-fire-heart-and-ruin-witch-nerfed-hogs-and-p-e-k-k-a-bu",
+      "dateSourceUrl": "https://x.com/ClashofClans/status/2112450159326179560",
+      "dateEvidence": "Maintenance completion on October 20 UTC; adjusted stats confirmed in-game on October 20.",
+      "type": "balance"
+    },
+    {
+      "date": "2026-10-20",
+      "description": "每秒恢复血量降低：12–14 级由 130 降至 120，15–17 级由 140 降至 130，18 级由 150 降至 140。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/",
+      "sourcePublishedOn": "2026-10-17",
+      "numericSourceUrl": "https://clashfox.com/blog/balance-changes-before-town-hall-19-fire-heart-and-ruin-witch-nerfed-hogs-and-p-e-k-k-a-bu",
+      "dateSourceUrl": "https://x.com/ClashofClans/status/2112450159326179560",
+      "dateEvidence": "Maintenance completion on October 20 UTC; adjusted stats confirmed in-game on October 20.",
+      "type": "balance"
     }
   ],
   "facts": [],
