@@ -8,6 +8,7 @@ imgFolder: home_buildings/0500
 wiki: https://clashofclans.fandom.com/wiki/Builder%27s_Hut
 canonical: /upgrade/0500-Builders-Hut
 dataSyncedOn: 2026-10-13
+dataBalanceUpdatedOn: 2026-10-20
 ---
 
 - *如想查看村庄内类似于建筑工人小屋的另一种建筑，请访问：[小博木屋（巴布小屋）](/upgrade/0501-B.O.Bs-Hut)。*
@@ -109,8 +110,8 @@ const tableExtraInfo = [
 | 6 | 150 | 60 | 85 | 63.75 | 1900 | 8000000 | 5,12,0,0 |  | 16 |
 | 7 | 165 | 66 | 90 | 67.5 | 2000 | 15500000 | 7,0,0,0 |  | 17 |
 | 8 | 180 | 72 | 95 | 71.25 | 2100 | 24000000 | 13,0,0,0 |  | 18 |
-| ⚡1 | 187 | 74.8 | 95 | 71.25 | 2100 | 10000000 | 4,0,0,0 |  | 18 |
-| ⚡2 | 187 | 74.8 | 95 | 71.25 | 2150 | 8000000 | 6,0,0,0 |  | 18 |
+| ⚡1 | 187 | 74.8 | 95 | 71.25 | 2100 | 4000000 | 1,14,0,0 |  | 18 |
+| ⚡2 | 187 | 74.8 | 95 | 71.25 | 2150 | 3250000 | 2,10,0,0 |  | 18 |
 </UnitTable>
 
 <SmallTitle>新建费用</SmallTitle>
@@ -129,6 +130,11 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/10/20">
+        <TimelineRow>充能 1 级：费用由 1000 万降至 400 万，时间由 4天缩短至 1天14小时。</TimelineRow>
+        <TimelineRow>充能 2 级：费用由 800 万降至 325 万，时间由 6天缩短至 2天10小时。</TimelineRow>
+        <TimelineRow><a href="https://x.com/ClashDotNinja/status/2112523574984446061" target="_blank" rel="noopener noreferrer">来源：Clash Ninja 充能调整公告</a>。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2026/08/31">
         <TimelineRow>建筑工人小屋新增2个蓄能等级。</TimelineRow>
     </TimelineItem>

@@ -11,7 +11,234 @@
     "revision": 624494,
     "revisionUrl": "https://clashofclans.fandom.com/wiki/Multi-Gear_Tower?oldid=624494",
     "syncedOn": "2026-10-13",
-    "scope": "Source statistics tables and available 2026 history; base values"
+    "scope": "Source statistics tables and available 2026 history; base values",
+    "balanceUpdate": {
+      "appliedOn": "2026-10-21",
+      "effectiveOn": "2026-10-20",
+      "numericSourceUrl": "https://x.com/ClashDotNinja/status/2112523574984446061",
+      "dateSourceUrl": "https://x.com/ClashDotNinja/status/2112523574984446061",
+      "fields": [
+        {
+          "table": 7,
+          "header": "Build Cost",
+          "levels": "1–2"
+        },
+        {
+          "table": 7,
+          "header": "Build Time",
+          "levels": "1–2"
+        },
+        {
+          "table": 7,
+          "header": "Experience Gained",
+          "levels": "1–2"
+        },
+        {
+          "table": 9,
+          "header": "Build Cost",
+          "levels": "1–2"
+        },
+        {
+          "table": 9,
+          "header": "Build Time",
+          "levels": "1–2"
+        },
+        {
+          "table": 9,
+          "header": "Experience Gained",
+          "levels": "1–2"
+        }
+      ],
+      "previousTables": [
+        {
+          "table": 7,
+          "rows": [
+            [
+              {
+                "status": "known",
+                "value": 1,
+                "raw": "1"
+              },
+              {
+                "status": "known",
+                "value": 400,
+                "raw": "400"
+              },
+              {
+                "status": "known",
+                "value": 400,
+                "raw": "400"
+              },
+              {
+                "status": "known",
+                "value": 4350,
+                "raw": "4,350"
+              },
+              {
+                "status": "known",
+                "value": 12000000,
+                "raw": "12,000,000"
+              },
+              {
+                "status": "known",
+                "value": 518400,
+                "raw": "6d",
+                "unit": "seconds",
+                "displayInput": "6,0,0,0"
+              },
+              {
+                "status": "known",
+                "value": 720,
+                "raw": "720"
+              },
+              {
+                "status": "known",
+                "value": 18,
+                "raw": "18"
+              }
+            ],
+            [
+              {
+                "status": "known",
+                "value": 2,
+                "raw": "2"
+              },
+              {
+                "status": "known",
+                "value": 400,
+                "raw": "400"
+              },
+              {
+                "status": "known",
+                "value": 400,
+                "raw": "400"
+              },
+              {
+                "status": "known",
+                "value": 4500,
+                "raw": "4,500"
+              },
+              {
+                "status": "known",
+                "value": 10000000,
+                "raw": "10,000,000"
+              },
+              {
+                "status": "known",
+                "value": 604800,
+                "raw": "7d",
+                "unit": "seconds",
+                "displayInput": "7,0,0,0"
+              },
+              {
+                "status": "known",
+                "value": 777,
+                "raw": "777"
+              },
+              {
+                "status": "known",
+                "value": 18,
+                "raw": "18"
+              }
+            ]
+          ]
+        },
+        {
+          "table": 9,
+          "rows": [
+            [
+              {
+                "status": "known",
+                "value": 1,
+                "raw": "1"
+              },
+              {
+                "status": "known",
+                "value": 720,
+                "raw": "720"
+              },
+              {
+                "status": "known",
+                "value": 172.8,
+                "raw": "172.8"
+              },
+              {
+                "status": "known",
+                "value": 4350,
+                "raw": "4,350"
+              },
+              {
+                "status": "known",
+                "value": 12000000,
+                "raw": "12,000,000"
+              },
+              {
+                "status": "known",
+                "value": 518400,
+                "raw": "6d",
+                "unit": "seconds",
+                "displayInput": "6,0,0,0"
+              },
+              {
+                "status": "known",
+                "value": 720,
+                "raw": "720"
+              },
+              {
+                "status": "known",
+                "value": 18,
+                "raw": "18"
+              }
+            ],
+            [
+              {
+                "status": "known",
+                "value": 2,
+                "raw": "2"
+              },
+              {
+                "status": "known",
+                "value": 720,
+                "raw": "720"
+              },
+              {
+                "status": "known",
+                "value": 172.8,
+                "raw": "172.8"
+              },
+              {
+                "status": "known",
+                "value": 4500,
+                "raw": "4,500"
+              },
+              {
+                "status": "known",
+                "value": 10000000,
+                "raw": "10,000,000"
+              },
+              {
+                "status": "known",
+                "value": 604800,
+                "raw": "7d",
+                "unit": "seconds",
+                "displayInput": "7,0,0,0"
+              },
+              {
+                "status": "known",
+                "value": 777,
+                "raw": "777"
+              },
+              {
+                "status": "known",
+                "value": 18,
+                "raw": "18"
+              }
+            ]
+          ]
+        }
+      ],
+      "scope": "October 20 supercharge cost and time reductions; experience and collector catch-up durations recalculated from the updated build times."
+    }
   },
   "tables": [
     {
@@ -574,20 +801,21 @@
           },
           {
             "status": "known",
-            "value": 12000000,
-            "raw": "12,000,000"
+            "value": 4750000,
+            "raw": "4,750,000"
           },
           {
             "status": "known",
-            "value": 518400,
-            "raw": "6d",
+            "value": 208800,
+            "raw": "2d 10h",
             "unit": "seconds",
-            "displayInput": "6,0,0,0"
+            "displayInput": "2,10,0,0"
           },
           {
             "status": "known",
-            "value": 720,
-            "raw": "720"
+            "value": 456,
+            "raw": "456",
+            "derivedFrom": "floor(sqrt(Build Time in seconds))"
           },
           {
             "status": "known",
@@ -618,20 +846,21 @@
           },
           {
             "status": "known",
-            "value": 10000000,
-            "raw": "10,000,000"
+            "value": 4000000,
+            "raw": "4,000,000"
           },
           {
             "status": "known",
-            "value": 604800,
-            "raw": "7d",
+            "value": 241200,
+            "raw": "2d 19h",
             "unit": "seconds",
-            "displayInput": "7,0,0,0"
+            "displayInput": "2,19,0,0"
           },
           {
             "status": "known",
-            "value": 777,
-            "raw": "777"
+            "value": 491,
+            "raw": "491",
+            "derivedFrom": "floor(sqrt(Build Time in seconds))"
           },
           {
             "status": "known",
@@ -730,20 +959,21 @@
           },
           {
             "status": "known",
-            "value": 12000000,
-            "raw": "12,000,000"
+            "value": 4750000,
+            "raw": "4,750,000"
           },
           {
             "status": "known",
-            "value": 518400,
-            "raw": "6d",
+            "value": 208800,
+            "raw": "2d 10h",
             "unit": "seconds",
-            "displayInput": "6,0,0,0"
+            "displayInput": "2,10,0,0"
           },
           {
             "status": "known",
-            "value": 720,
-            "raw": "720"
+            "value": 456,
+            "raw": "456",
+            "derivedFrom": "floor(sqrt(Build Time in seconds))"
           },
           {
             "status": "known",
@@ -774,20 +1004,21 @@
           },
           {
             "status": "known",
-            "value": 10000000,
-            "raw": "10,000,000"
+            "value": 4000000,
+            "raw": "4,000,000"
           },
           {
             "status": "known",
-            "value": 604800,
-            "raw": "7d",
+            "value": 241200,
+            "raw": "2d 19h",
             "unit": "seconds",
-            "displayInput": "7,0,0,0"
+            "displayInput": "2,19,0,0"
           },
           {
             "status": "known",
-            "value": 777,
-            "raw": "777"
+            "value": 491,
+            "raw": "491",
+            "derivedFrom": "floor(sqrt(Build Time in seconds))"
           },
           {
             "status": "known",
@@ -930,6 +1161,20 @@
     {
       "date": "2026-02-23",
       "description": "Updated displayed damage per second of Fast Attack mode: Level 1: 540 -> 650 Damage Level 2: 574 -> 690 Damage Level 3: 588 -> 710 Damage Charge 1: 600 -> 720 Damage Updated displayed damage per hit of Fast Attack mode: Level 1: 155 -> 156 Damage Level 3: 169 -> 170 Damage"
+    },
+    {
+      "date": "2026-10-20",
+      "description": "充能 1 级：费用由 1200 万降至 475 万，时间由 6天缩短至 2天10小时。",
+      "sourceUrl": "https://x.com/ClashDotNinja/status/2112523574984446061",
+      "sourcePublishedOn": "2026-10-20",
+      "sourceType": "community-update"
+    },
+    {
+      "date": "2026-10-20",
+      "description": "充能 2 级：费用由 1000 万降至 400 万，时间由 7天缩短至 2天19小时。",
+      "sourceUrl": "https://x.com/ClashDotNinja/status/2112523574984446061",
+      "sourcePublishedOn": "2026-10-20",
+      "sourceType": "community-update"
     }
   ],
   "facts": [

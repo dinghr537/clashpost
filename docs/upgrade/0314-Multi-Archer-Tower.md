@@ -8,6 +8,7 @@ imgFolder: home_buildings/0314
 wiki: https://clashofclans.fandom.com/wiki/Multi-Archer_Tower
 canonical: /upgrade/0314-Multi-Archer-Tower
 dataSyncedOn: 2026-10-13
+dataBalanceUpdatedOn: 2026-10-20
 ---
 
 - *如想查看合并前的建筑，请访问 [箭塔](/upgrade/0302-Archer-Tower)。*
@@ -84,13 +85,18 @@ const tableExtraInfo = [
 | 2 | 108 | 65 | 5200 | 13000000 | 8,0,0,0 |  | 16 |
 | 3 | 116 | 70 | 5400 | 17500000 | 9,0,0,0 |  | 17 |
 | 4 | 121 | 73 | 5500 | 27000000 | 14,0,0,0 |  | 18 |
-| ⚡1 | 126 | 76 | 5500 | 12000000 | 6,0,0,0 |  | 18 |
-| ⚡2 | 126 | 76 | 5600 | 10000000 | 7,0,0,0 |  | 18 |
+| ⚡1 | 126 | 76 | 5500 | 4750000 | 2,10,0,0 |  | 18 |
+| ⚡2 | 126 | 76 | 5600 | 4000000 | 2,19,0,0 |  | 18 |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/10/20">
+        <TimelineRow>充能 1 级：费用由 1200 万降至 475 万，时间由 6天缩短至 2天10小时。</TimelineRow>
+        <TimelineRow>充能 2 级：费用由 1000 万降至 400 万，时间由 7天缩短至 2天19小时。</TimelineRow>
+        <TimelineRow><a href="https://x.com/ClashDotNinja/status/2112523574984446061" target="_blank" rel="noopener noreferrer">来源：Clash Ninja 充能调整公告</a>。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2026/01/28">
         <TimelineRow>多人箭塔的攻速由 0.5 秒/次 降低到 0.6 秒/次。</TimelineRow>
     </TimelineItem>

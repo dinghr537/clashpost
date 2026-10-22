@@ -8,6 +8,7 @@ imgFolder: home_buildings/0307
 wiki: https://clashofclans.fandom.com/wiki/Hidden_Tesla
 canonical: /upgrade/0307-Hidden-Tesla
 dataSyncedOn: 2026-10-13
+dataBalanceUpdatedOn: 2026-10-20
 ---
 
 - *如想查看 12 本的自带武器，请访问 [巨型特斯拉电磁塔](/upgrade/030c-Giga-Tesla)。*
@@ -102,14 +103,19 @@ const tableExtraInfo = [
 | 15 | 170 | 102 | 1550 | 8200000 | 5,0,0,0 |  | 16 |
 | 16 | 180 | 108 | 1650 | 15000000 | 7,0,0,0 |  | 17 |
 | 17 | 190 | 114 | 1750 | 25000000 | 13,0,0,0 |  | 18 |
-| ⚡1 | 195 | 117 | 1750 | 12000000 | 4,12,0,0 |  | 18 |
-| ⚡2 | 195 | 117 | 1800 | 8000000 | 6,12,0,0 |  | 18 |
+| ⚡1 | 195 | 117 | 1750 | 4750000 | 1,19,0,0 |  | 18 |
+| ⚡2 | 195 | 117 | 1800 | 3250000 | 2,14,0,0 |  | 18 |
 
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/10/20">
+        <TimelineRow>充能 1 级：费用由 1200 万降至 475 万，时间由 4天12小时缩短至 1天19小时。</TimelineRow>
+        <TimelineRow>充能 2 级：费用由 800 万降至 325 万，时间由 6天12小时缩短至 2天14小时。</TimelineRow>
+        <TimelineRow><a href="https://x.com/ClashDotNinja/status/2112523574984446061" target="_blank" rel="noopener noreferrer">来源：Clash Ninja 充能调整公告</a>。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2026/04/27">
         <TimelineRow>为 17 级特斯拉电磁塔新增两级超级充能。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/" target="_blank" rel="noopener noreferrer">来源：Supercell 官方更新公告</a>。</TimelineRow>
     </TimelineItem>

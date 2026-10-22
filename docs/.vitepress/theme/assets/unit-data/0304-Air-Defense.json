@@ -11,7 +11,126 @@
     "revision": 603809,
     "revisionUrl": "https://clashofclans.fandom.com/wiki/Air_Defense?oldid=603809",
     "syncedOn": "2026-10-13",
-    "scope": "Source statistics tables and available 2026 history; base values"
+    "scope": "Source statistics tables and available 2026 history; base values",
+    "balanceUpdate": {
+      "appliedOn": "2026-10-21",
+      "effectiveOn": "2026-10-20",
+      "numericSourceUrl": "https://x.com/ClashDotNinja/status/2112523574984446061",
+      "dateSourceUrl": "https://x.com/ClashDotNinja/status/2112523574984446061",
+      "fields": [
+        {
+          "table": 6,
+          "header": "Cost",
+          "levels": "1–2"
+        },
+        {
+          "table": 6,
+          "header": "Build Time",
+          "levels": "1–2"
+        },
+        {
+          "table": 6,
+          "header": "Experience Gained",
+          "levels": "1–2"
+        }
+      ],
+      "previousTables": [
+        {
+          "table": 6,
+          "rows": [
+            [
+              {
+                "status": "known",
+                "value": 1,
+                "raw": "1"
+              },
+              {
+                "status": "known",
+                "value": 720,
+                "raw": "720"
+              },
+              {
+                "status": "known",
+                "value": 720,
+                "raw": "720"
+              },
+              {
+                "status": "known",
+                "value": 2000,
+                "raw": "2,000"
+              },
+              {
+                "status": "known",
+                "value": 6000000,
+                "raw": "6,000,000"
+              },
+              {
+                "status": "known",
+                "value": 237600,
+                "raw": "2d 18h",
+                "unit": "seconds",
+                "displayInput": "2,18,0,0"
+              },
+              {
+                "status": "known",
+                "value": 487,
+                "raw": "487"
+              },
+              {
+                "status": "known",
+                "value": 18,
+                "raw": "18"
+              }
+            ],
+            [
+              {
+                "status": "known",
+                "value": 2,
+                "raw": "2"
+              },
+              {
+                "status": "known",
+                "value": 740,
+                "raw": "740"
+              },
+              {
+                "status": "known",
+                "value": 740,
+                "raw": "740"
+              },
+              {
+                "status": "known",
+                "value": 2000,
+                "raw": "2,000"
+              },
+              {
+                "status": "known",
+                "value": 3000000,
+                "raw": "3,000,000"
+              },
+              {
+                "status": "known",
+                "value": 367200,
+                "raw": "4d 6h",
+                "unit": "seconds",
+                "displayInput": "4,6,0,0"
+              },
+              {
+                "status": "known",
+                "value": 605,
+                "raw": "605"
+              },
+              {
+                "status": "known",
+                "value": 18,
+                "raw": "18"
+              }
+            ]
+          ]
+        }
+      ],
+      "scope": "October 20 supercharge cost and time reductions; experience and collector catch-up durations recalculated from the updated build times."
+    }
   },
   "tables": [
     {
@@ -982,20 +1101,21 @@
           },
           {
             "status": "known",
-            "value": 6000000,
-            "raw": "6,000,000"
+            "value": 2500000,
+            "raw": "2,500,000"
           },
           {
             "status": "known",
-            "value": 237600,
-            "raw": "2d 18h",
+            "value": 93600,
+            "raw": "1d 2h",
             "unit": "seconds",
-            "displayInput": "2,18,0,0"
+            "displayInput": "1,2,0,0"
           },
           {
             "status": "known",
-            "value": 487,
-            "raw": "487"
+            "value": 305,
+            "raw": "305",
+            "derivedFrom": "floor(sqrt(Build Time in seconds))"
           },
           {
             "status": "known",
@@ -1026,20 +1146,21 @@
           },
           {
             "status": "known",
-            "value": 3000000,
-            "raw": "3,000,000"
+            "value": 1250000,
+            "raw": "1,250,000"
           },
           {
             "status": "known",
-            "value": 367200,
-            "raw": "4d 6h",
+            "value": 147600,
+            "raw": "1d 17h",
             "unit": "seconds",
-            "displayInput": "4,6,0,0"
+            "displayInput": "1,17,0,0"
           },
           {
             "status": "known",
-            "value": 605,
-            "raw": "605"
+            "value": 384,
+            "raw": "384",
+            "derivedFrom": "floor(sqrt(Build Time in seconds))"
           },
           {
             "status": "known",
@@ -1215,7 +1336,22 @@
       "logicalPath": "/upgrade/home_buildings/0304/Air_Defense15.png"
     }
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-10-20",
+      "description": "充能 1 级：费用由 600 万降至 250 万，时间由 2天18小时缩短至 1天2小时。",
+      "sourceUrl": "https://x.com/ClashDotNinja/status/2112523574984446061",
+      "sourcePublishedOn": "2026-10-20",
+      "sourceType": "community-update"
+    },
+    {
+      "date": "2026-10-20",
+      "description": "充能 2 级：费用由 300 万降至 125 万，时间由 4天6小时缩短至 1天17小时。",
+      "sourceUrl": "https://x.com/ClashDotNinja/status/2112523574984446061",
+      "sourcePublishedOn": "2026-10-20",
+      "sourceType": "community-update"
+    }
+  ],
   "facts": [
     "The Air Defense is a defense that is unlocked at Town Hall level 4, it exclusively targets aerial foes with very high damage per second, decent reach, and decent hitpoints."
   ],

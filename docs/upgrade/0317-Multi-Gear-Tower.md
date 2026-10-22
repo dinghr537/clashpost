@@ -8,6 +8,7 @@ imgFolder: home_buildings/0317
 wiki: https://clashofclans.fandom.com/wiki/Multi-Gear_Tower
 canonical: /upgrade/0317-Multi-Gear-Tower
 dataSyncedOn: 2026-10-13
+dataBalanceUpdatedOn: 2026-10-20
 ---
 
 <script setup>
@@ -90,8 +91,8 @@ const tableExtraInfoFastAttackMode = tableExtraInfoLongRageMode;
 | 1 | 350 | 350 | 4000 | 17000000 | 8,0,0,0 |  | 17 |
 | 2 | 370 | 370 | 4200 | 18000000 | 9,0,0,0 |  | 17 |
 | 3 | 390 | 390 | 4350 | 28000000 | 14,0,0,0 |  | 18 |
-| ⚡1 | 400 | 400 | 4350 | 12000000 | 6,0,0,0 |  | 18 |
-| ⚡2 | 400 | 400 | 4500 | 10000000 | 7,0,0,0 |  | 18 |
+| ⚡1 | 400 | 400 | 4350 | 4750000 | 2,10,0,0 |  | 18 |
+| ⚡2 | 400 | 400 | 4500 | 4000000 | 2,19,0,0 |  | 18 |
 </UnitTable>
 </SwitchTabGroup>
 
@@ -147,8 +148,8 @@ const tableExtraInfoFastAttackMode = tableExtraInfoLongRageMode;
 | 1 | 650 | 156 | 4000 | 17000000 | 8,0,0,0 |  | 17 |
 | 2 | 690 | 165.6 | 4200 | 18000000 | 9,0,0,0 |  | 17 |
 | 3 | 710 | 170.4 | 4350 | 28000000 | 14,0,0,0 |  | 18 |
-| ⚡1 | 720 | 172.8 | 4350 | 12000000 | 6,0,0,0 |  | 18 |
-| ⚡2 | 720 | 172.8 | 4500 | 10000000 | 7,0,0,0 |  | 18 |
+| ⚡1 | 720 | 172.8 | 4350 | 4750000 | 2,10,0,0 |  | 18 |
+| ⚡2 | 720 | 172.8 | 4500 | 4000000 | 2,19,0,0 |  | 18 |
 </UnitTable>
 </SwitchTabGroup>
 
@@ -156,6 +157,11 @@ const tableExtraInfoFastAttackMode = tableExtraInfoLongRageMode;
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/10/20">
+        <TimelineRow>充能 1 级：费用由 1200 万降至 475 万，时间由 6天缩短至 2天10小时。</TimelineRow>
+        <TimelineRow>充能 2 级：费用由 1000 万降至 400 万，时间由 7天缩短至 2天19小时。</TimelineRow>
+        <TimelineRow><a href="https://x.com/ClashDotNinja/status/2112523574984446061" target="_blank" rel="noopener noreferrer">来源：Clash Ninja 充能调整公告</a>。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2026/02/23">
         <TimelineRow>复合防御塔快速攻击模式每秒伤害显示调整：1级540→650，2级574→690，3级588→710，蓄能1级600→720。每次伤害显示调整：1级155→156，3级169→170。</TimelineRow>
     </TimelineItem>

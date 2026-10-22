@@ -8,6 +8,7 @@ imgFolder: home_buildings/0304
 wiki: https://clashofclans.fandom.com/wiki/Air_Defense
 canonical: /upgrade/0304-Air-Defense
 dataSyncedOn: 2026-10-13
+dataBalanceUpdatedOn: 2026-10-20
 ---
 
 - *如想查看夜世界的多管防空火炮，请访问：[夜世界防空火炮](/upgrade/1104-Firecrackers)。*
@@ -99,13 +100,18 @@ const tableExtraInfo = [
 | 14 | 600 | 600 | 1850 | 9000000 | 6,12,0,0 |  | 16 |
 | 15 | 650 | 650 | 1950 | 15000000 | 7,0,0,0 |  | 17 |
 | 16 | 700 | 700 | 2000 | 26000000 | 13,6,0,0 |  | 18 |
-| ⚡1 | 720 | 720 | 2000 | 6000000 | 2,18,0,0 |  | 18 |
-| ⚡2 | 740 | 740 | 2000 | 3000000 | 4,6,0,0 |  | 18 |
+| ⚡1 | 720 | 720 | 2000 | 2500000 | 1,2,0,0 |  | 18 |
+| ⚡2 | 740 | 740 | 2000 | 1250000 | 1,17,0,0 |  | 18 |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/10/20">
+        <TimelineRow>充能 1 级：费用由 600 万降至 250 万，时间由 2天18小时缩短至 1天2小时。</TimelineRow>
+        <TimelineRow>充能 2 级：费用由 300 万降至 125 万，时间由 4天6小时缩短至 1天17小时。</TimelineRow>
+        <TimelineRow><a href="https://x.com/ClashDotNinja/status/2112523574984446061" target="_blank" rel="noopener noreferrer">来源：Clash Ninja 充能调整公告</a>。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/11/17">
         <TimelineRow>18 本推出，并在 18 本新增 16 级防空火箭。</TimelineRow>
         <TimelineRow>15 级防空火箭的升级时间和升级费用减少。</TimelineRow>

@@ -540,5 +540,189 @@
     "dateSourceUrl": "https://x.com/ClashofClans/status/2112450159326179560",
     "dateEvidence": "Maintenance completion on October 20 UTC; adjusted stats confirmed in-game on October 20.",
     "type": "balance"
+  },
+  {
+    "unitId": "0317-Multi-Gear-Tower",
+    "date": "2026-10-20",
+    "description": "充能 1 级：费用由 1200 万降至 475 万，时间由 6天缩短至 2天10小时。",
+    "sourceUrl": "https://x.com/ClashDotNinja/status/2112523574984446061",
+    "sourcePublishedOn": "2026-10-20",
+    "sourceType": "community-update"
+  },
+  {
+    "unitId": "0317-Multi-Gear-Tower",
+    "date": "2026-10-20",
+    "description": "充能 2 级：费用由 1000 万降至 400 万，时间由 7天缩短至 2天19小时。",
+    "sourceUrl": "https://x.com/ClashDotNinja/status/2112523574984446061",
+    "sourcePublishedOn": "2026-10-20",
+    "sourceType": "community-update"
+  },
+  {
+    "unitId": "0313-Ricochet-Cannon",
+    "date": "2026-10-20",
+    "description": "充能 1 级：费用由 1200 万降至 475 万，时间由 6天缩短至 2天10小时。",
+    "sourceUrl": "https://x.com/ClashDotNinja/status/2112523574984446061",
+    "sourcePublishedOn": "2026-10-20",
+    "sourceType": "community-update"
+  },
+  {
+    "unitId": "0313-Ricochet-Cannon",
+    "date": "2026-10-20",
+    "description": "充能 2 级：费用由 1000 万降至 400 万，时间由 7天缩短至 2天19小时。",
+    "sourceUrl": "https://x.com/ClashDotNinja/status/2112523574984446061",
+    "sourcePublishedOn": "2026-10-20",
+    "sourceType": "community-update"
+  },
+  {
+    "unitId": "0314-Multi-Archer-Tower",
+    "date": "2026-10-20",
+    "description": "充能 1 级：费用由 1200 万降至 475 万，时间由 6天缩短至 2天10小时。",
+    "sourceUrl": "https://x.com/ClashDotNinja/status/2112523574984446061",
+    "sourcePublishedOn": "2026-10-20",
+    "sourceType": "community-update"
+  },
+  {
+    "unitId": "0314-Multi-Archer-Tower",
+    "date": "2026-10-20",
+    "description": "充能 2 级：费用由 1000 万降至 400 万，时间由 7天缩短至 2天19小时。",
+    "sourceUrl": "https://x.com/ClashDotNinja/status/2112523574984446061",
+    "sourcePublishedOn": "2026-10-20",
+    "sourceType": "community-update"
+  },
+  {
+    "unitId": "0304-Air-Defense",
+    "date": "2026-10-20",
+    "description": "充能 1 级：费用由 600 万降至 250 万，时间由 2天18小时缩短至 1天2小时。",
+    "sourceUrl": "https://x.com/ClashDotNinja/status/2112523574984446061",
+    "sourcePublishedOn": "2026-10-20",
+    "sourceType": "community-update"
+  },
+  {
+    "unitId": "0304-Air-Defense",
+    "date": "2026-10-20",
+    "description": "充能 2 级：费用由 300 万降至 125 万，时间由 4天6小时缩短至 1天17小时。",
+    "sourceUrl": "https://x.com/ClashDotNinja/status/2112523574984446061",
+    "sourcePublishedOn": "2026-10-20",
+    "sourceType": "community-update"
+  },
+  {
+    "unitId": "0500-Builders-Hut",
+    "date": "2026-10-20",
+    "description": "充能 1 级：费用由 1000 万降至 400 万，时间由 4天缩短至 1天14小时。",
+    "sourceUrl": "https://x.com/ClashDotNinja/status/2112523574984446061",
+    "sourcePublishedOn": "2026-10-20",
+    "sourceType": "community-update"
+  },
+  {
+    "unitId": "0500-Builders-Hut",
+    "date": "2026-10-20",
+    "description": "充能 2 级：费用由 800 万降至 325 万，时间由 6天缩短至 2天10小时。",
+    "sourceUrl": "https://x.com/ClashDotNinja/status/2112523574984446061",
+    "sourcePublishedOn": "2026-10-20",
+    "sourceType": "community-update"
+  },
+  {
+    "unitId": "0307-Hidden-Tesla",
+    "date": "2026-10-20",
+    "description": "充能 1 级：费用由 1200 万降至 475 万，时间由 4天12小时缩短至 1天19小时。",
+    "sourceUrl": "https://x.com/ClashDotNinja/status/2112523574984446061",
+    "sourcePublishedOn": "2026-10-20",
+    "sourceType": "community-update"
+  },
+  {
+    "unitId": "0307-Hidden-Tesla",
+    "date": "2026-10-20",
+    "description": "充能 2 级：费用由 800 万降至 325 万，时间由 6天12小时缩短至 2天14小时。",
+    "sourceUrl": "https://x.com/ClashDotNinja/status/2112523574984446061",
+    "sourcePublishedOn": "2026-10-20",
+    "sourceType": "community-update"
+  },
+  {
+    "unitId": "0309-X-Bow",
+    "date": "2026-10-20",
+    "description": "充能 1 级：费用由 900 万降至 550 万，时间由 5天12小时缩短至 2天5小时。",
+    "sourceUrl": "https://x.com/ClashDotNinja/status/2112523574984446061",
+    "sourcePublishedOn": "2026-10-20",
+    "sourceType": "community-update"
+  },
+  {
+    "unitId": "0309-X-Bow",
+    "date": "2026-10-20",
+    "description": "充能 2 级：费用由 700 万降至 350 万，时间由 7天12小时缩短至 3天。",
+    "sourceUrl": "https://x.com/ClashDotNinja/status/2112523574984446061",
+    "sourcePublishedOn": "2026-10-20",
+    "sourceType": "community-update"
+  },
+  {
+    "unitId": "0401-Gold-Mine",
+    "date": "2026-10-20",
+    "description": "充能 1 级：费用由 170 万降至 25 万，时间由 2天缩短至 9小时30分。",
+    "sourceUrl": "https://x.com/ClashDotNinja/status/2112523574984446061",
+    "sourcePublishedOn": "2026-10-20",
+    "sourceType": "community-update"
+  },
+  {
+    "unitId": "0401-Gold-Mine",
+    "date": "2026-10-20",
+    "description": "充能 2 级：费用由 150 万降至 25 万，时间由 3天缩短至 14小时30分。",
+    "sourceUrl": "https://x.com/ClashDotNinja/status/2112523574984446061",
+    "sourcePublishedOn": "2026-10-20",
+    "sourceType": "community-update"
+  },
+  {
+    "unitId": "0401-Gold-Mine",
+    "date": "2026-10-20",
+    "description": "充能 3 级：费用由 130 万降至 25 万，时间由 4天缩短至 19小时。",
+    "sourceUrl": "https://x.com/ClashDotNinja/status/2112523574984446061",
+    "sourcePublishedOn": "2026-10-20",
+    "sourceType": "community-update"
+  },
+  {
+    "unitId": "0402-Elixir-Collector",
+    "date": "2026-10-20",
+    "description": "充能 1 级：费用由 170 万降至 25 万，时间由 2天缩短至 9小时30分。",
+    "sourceUrl": "https://x.com/ClashDotNinja/status/2112523574984446061",
+    "sourcePublishedOn": "2026-10-20",
+    "sourceType": "community-update"
+  },
+  {
+    "unitId": "0402-Elixir-Collector",
+    "date": "2026-10-20",
+    "description": "充能 2 级：费用由 150 万降至 25 万，时间由 3天缩短至 14小时30分。",
+    "sourceUrl": "https://x.com/ClashDotNinja/status/2112523574984446061",
+    "sourcePublishedOn": "2026-10-20",
+    "sourceType": "community-update"
+  },
+  {
+    "unitId": "0402-Elixir-Collector",
+    "date": "2026-10-20",
+    "description": "充能 3 级：费用由 130 万降至 25 万，时间由 4天缩短至 19小时。",
+    "sourceUrl": "https://x.com/ClashDotNinja/status/2112523574984446061",
+    "sourcePublishedOn": "2026-10-20",
+    "sourceType": "community-update"
+  },
+  {
+    "unitId": "0403-Dark-Elixir-Drill",
+    "date": "2026-10-20",
+    "description": "充能 1 级：费用由 510 万降至 75 万，时间由 3天缩短至 14小时30分。",
+    "sourceUrl": "https://x.com/ClashDotNinja/status/2112523574984446061",
+    "sourcePublishedOn": "2026-10-20",
+    "sourceType": "community-update"
+  },
+  {
+    "unitId": "0403-Dark-Elixir-Drill",
+    "date": "2026-10-20",
+    "description": "充能 2 级：费用由 450 万降至 75 万，时间由 4天缩短至 19小时。",
+    "sourceUrl": "https://x.com/ClashDotNinja/status/2112523574984446061",
+    "sourcePublishedOn": "2026-10-20",
+    "sourceType": "community-update"
+  },
+  {
+    "unitId": "0403-Dark-Elixir-Drill",
+    "date": "2026-10-20",
+    "description": "充能 3 级：费用由 390 万降至 50 万，时间由 5天缩短至 1天。",
+    "sourceUrl": "https://x.com/ClashDotNinja/status/2112523574984446061",
+    "sourcePublishedOn": "2026-10-20",
+    "sourceType": "community-update"
   }
 ]

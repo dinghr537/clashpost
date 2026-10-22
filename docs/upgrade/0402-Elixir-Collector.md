@@ -8,6 +8,7 @@ imgFolder: home_buildings/0402
 wiki: https://clashofclans.fandom.com/wiki/Elixir_Collector
 canonical: /upgrade/0402-Elixir-Collector
 dataSyncedOn: 2026-10-13
+dataBalanceUpdatedOn: 2026-10-20
 ---
 
 - *如想查看夜世界的圣水收集器，请访问：[夜世界圣水收集器](/upgrade/1202-Elixir-Collector)。*
@@ -109,9 +110,9 @@ const tableExtraInfo = [
 | 15 | 6300 | 350000 | 2,7,33,20 | 900 | 11 | 1280 | 1200000 | 0,10,0,0 |  | 12 |
 | 16 | 7000 | 385000 | 2,7,0,0 | 1000 | 11 | 1350 | 2000000 | 1,0,0,0 |  | 14 |
 | 17 | 7560 | 420000 | 2,7,33,20 | 1000 | 11 | 1400 | 8000000 | 2,0,0,0 |  | 16 |
-| ⚡1 | 7857 | 436500 | 2,7,33,20 | 1000 | 11 | 1400 | 1700000 | 2,0,0,0 |  | 18 |
-| ⚡2 | 8154 | 453000 | 2,7,33,20 | 1000 | 11 | 1400 | 1500000 | 3,0,0,0 |  | 18 |
-| ⚡3 | 8154 | 453000 | 2,7,33,20 | 1000 | 11 | 1450 | 1300000 | 4,0,0,0 |  | 18 |
+| ⚡1 | 7857 | 436500 | 2,7,33,20 | 1000 | 11 | 1400 | 250000 | 0,9,30,0 |  | 18 |
+| ⚡2 | 8154 | 453000 | 2,7,33,20 | 1000 | 11 | 1400 | 250000 | 0,14,30,0 |  | 18 |
+| ⚡3 | 8154 | 453000 | 2,7,33,20 | 1000 | 11 | 1450 | 250000 | 0,19,0,0 |  | 18 |
 </UnitTable>
 
 \* 采集器容量满后将停止工作，直到玩家收集采集器内的资源。
@@ -119,6 +120,12 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/10/20">
+        <TimelineRow>充能 1 级：费用由 170 万降至 25 万，时间由 2天缩短至 9小时30分。</TimelineRow>
+        <TimelineRow>充能 2 级：费用由 150 万降至 25 万，时间由 3天缩短至 14小时30分。</TimelineRow>
+        <TimelineRow>充能 3 级：费用由 130 万降至 25 万，时间由 4天缩短至 19小时。</TimelineRow>
+        <TimelineRow><a href="https://x.com/ClashDotNinja/status/2112523574984446061" target="_blank" rel="noopener noreferrer">来源：Clash Ninja 充能调整公告</a>。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/11/17">
         <TimelineRow>新增 17 级圣水收集器，16 本可解锁。</TimelineRow>
     </TimelineItem>

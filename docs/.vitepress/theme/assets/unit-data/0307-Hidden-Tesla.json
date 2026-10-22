@@ -11,7 +11,126 @@
     "revision": 592092,
     "revisionUrl": "https://clashofclans.fandom.com/wiki/Hidden_Tesla?oldid=592092",
     "syncedOn": "2026-10-13",
-    "scope": "Source statistics tables and available 2026 history; base values"
+    "scope": "Source statistics tables and available 2026 history; base values",
+    "balanceUpdate": {
+      "appliedOn": "2026-10-21",
+      "effectiveOn": "2026-10-20",
+      "numericSourceUrl": "https://x.com/ClashDotNinja/status/2112523574984446061",
+      "dateSourceUrl": "https://x.com/ClashDotNinja/status/2112523574984446061",
+      "fields": [
+        {
+          "table": 6,
+          "header": "Cost",
+          "levels": "1–2"
+        },
+        {
+          "table": 6,
+          "header": "Build Time",
+          "levels": "1–2"
+        },
+        {
+          "table": 6,
+          "header": "Experience Gained",
+          "levels": "1–2"
+        }
+      ],
+      "previousTables": [
+        {
+          "table": 6,
+          "rows": [
+            [
+              {
+                "status": "known",
+                "value": 1,
+                "raw": "1"
+              },
+              {
+                "status": "known",
+                "value": 195,
+                "raw": "195"
+              },
+              {
+                "status": "known",
+                "value": 117,
+                "raw": "117"
+              },
+              {
+                "status": "known",
+                "value": 1750,
+                "raw": "1,750"
+              },
+              {
+                "status": "known",
+                "value": 12000000,
+                "raw": "12,000,000"
+              },
+              {
+                "status": "known",
+                "value": 388800,
+                "raw": "4d 12h",
+                "unit": "seconds",
+                "displayInput": "4,12,0,0"
+              },
+              {
+                "status": "known",
+                "value": 623,
+                "raw": "623"
+              },
+              {
+                "status": "known",
+                "value": 18,
+                "raw": "18"
+              }
+            ],
+            [
+              {
+                "status": "known",
+                "value": 2,
+                "raw": "2"
+              },
+              {
+                "status": "known",
+                "value": 195,
+                "raw": "195"
+              },
+              {
+                "status": "known",
+                "value": 117,
+                "raw": "117"
+              },
+              {
+                "status": "known",
+                "value": 1800,
+                "raw": "1,800"
+              },
+              {
+                "status": "known",
+                "value": 8000000,
+                "raw": "8,000,000"
+              },
+              {
+                "status": "known",
+                "value": 561600,
+                "raw": "6d 12h",
+                "unit": "seconds",
+                "displayInput": "6,12,0,0"
+              },
+              {
+                "status": "known",
+                "value": 749,
+                "raw": "749"
+              },
+              {
+                "status": "known",
+                "value": 18,
+                "raw": "18"
+              }
+            ]
+          ]
+        }
+      ],
+      "scope": "October 20 supercharge cost and time reductions; experience and collector catch-up durations recalculated from the updated build times."
+    }
   },
   "tables": [
     {
@@ -1026,20 +1145,21 @@
           },
           {
             "status": "known",
-            "value": 12000000,
-            "raw": "12,000,000"
+            "value": 4750000,
+            "raw": "4,750,000"
           },
           {
             "status": "known",
-            "value": 388800,
-            "raw": "4d 12h",
+            "value": 154800,
+            "raw": "1d 19h",
             "unit": "seconds",
-            "displayInput": "4,12,0,0"
+            "displayInput": "1,19,0,0"
           },
           {
             "status": "known",
-            "value": 623,
-            "raw": "623"
+            "value": 393,
+            "raw": "393",
+            "derivedFrom": "floor(sqrt(Build Time in seconds))"
           },
           {
             "status": "known",
@@ -1070,20 +1190,21 @@
           },
           {
             "status": "known",
-            "value": 8000000,
-            "raw": "8,000,000"
+            "value": 3250000,
+            "raw": "3,250,000"
           },
           {
             "status": "known",
-            "value": 561600,
-            "raw": "6d 12h",
+            "value": 223200,
+            "raw": "2d 14h",
             "unit": "seconds",
-            "displayInput": "6,12,0,0"
+            "displayInput": "2,14,0,0"
           },
           {
             "status": "known",
-            "value": 749,
-            "raw": "749"
+            "value": 472,
+            "raw": "472",
+            "derivedFrom": "floor(sqrt(Build Time in seconds))"
           },
           {
             "status": "known",
@@ -1276,6 +1397,20 @@
     {
       "date": "2026-02-23",
       "description": "Added the level 17 Hidden Tesla. Hidden Tesla17 Removed the Supercharges at level 16. Icon Supercharge ⚡"
+    },
+    {
+      "date": "2026-10-20",
+      "description": "充能 1 级：费用由 1200 万降至 475 万，时间由 4天12小时缩短至 1天19小时。",
+      "sourceUrl": "https://x.com/ClashDotNinja/status/2112523574984446061",
+      "sourcePublishedOn": "2026-10-20",
+      "sourceType": "community-update"
+    },
+    {
+      "date": "2026-10-20",
+      "description": "充能 2 级：费用由 800 万降至 325 万，时间由 6天12小时缩短至 2天14小时。",
+      "sourceUrl": "https://x.com/ClashDotNinja/status/2112523574984446061",
+      "sourcePublishedOn": "2026-10-20",
+      "sourceType": "community-update"
     }
   ],
   "facts": [

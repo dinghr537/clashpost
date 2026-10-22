@@ -85,6 +85,7 @@ onBeforeUnmount(() => clearInterval(intervalId));
 
 - 2026/10/20：[烈焰之心](/upgrade/07e0-Fire-Heart)和[废墟骑士](/upgrade/0013-Ruin-Witch)削弱；[冰封箭矢](/upgrade/0744-Frozen-Arrow)增强，[传送吊坠](/upgrade/0726-Portal-Pendant)新增生命值加成。
 - 同次维护：[野猪骑士](/upgrade/0081-Hog-Rider)、[超级野猪骑士](/upgrade/060f-Super-Hog-Rider)、[掘地矿工](/upgrade/000b-Miner)、[超级矿工](/upgrade/060e-Super-Miner)和[陨石戈仑](/upgrade/0012-Meteor-Golem)生命值提高，[皮卡超人](/upgrade/0009-P.E.K.K.A)伤害提高。
+- 同日充能调整：[复合机械塔](/upgrade/0317-Multi-Gear-Tower)、[跳弹加农炮](/upgrade/0313-Ricochet-Cannon)、[多箭塔](/upgrade/0314-Multi-Archer-Tower)、[防空火箭](/upgrade/0304-Air-Defense)、[建筑工人小屋](/upgrade/0500-Builders-Hut)、[特斯拉电磁塔](/upgrade/0307-Hidden-Tesla)、[X 连弩](/upgrade/0309-X-Bow)、[金矿](/upgrade/0401-Gold-Mine)、[圣水收集器](/upgrade/0402-Elixir-Collector)和[暗黑重油钻井](/upgrade/0403-Dark-Elixir-Drill)的充能费用和时间降低。
 - 2026/10/08：新装备[传送吊坠](/upgrade/0726-Portal-Pendant)、临时兵种[图腾投手](/upgrade/0e1d-Totem-Thrower)开放。
 - 2026/08/31：[地兽](/upgrade/0285-Diggy)新增 11–15 级；[废墟女巫](/upgrade/0013-Ruin-Witch)的骑士召唤上限提高到 10。
 - 2026/08/12：飞龙公爵的新装备[反击卡组](/upgrade/07e5-Revenge-Deck)开放。
@@ -106,7 +107,7 @@ onBeforeUnmount(() => clearInterval(intervalId));
 
 2026-10-13 已同步 357 个单位的数据页，包含 17 个新增单位：常驻单位、今年两批精工防御以及新增和回归的临时单位。费用、时间、属性和前置条件采用 Clash of Clans Wiki 当前表格，每页保留来源修订链接及可取得的 2026 年更新历史。
 
-2026-10-20 另已更新本次平衡调整涉及的 10 项兵种或装备，包含召唤物的关联数据、说明和更新历史。调整范围依据 [Supercell 公告](https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/)，具体等级数值另在各页标注参考来源；其他数据仍沿用上述同步记录。
+2026-10-20 的平衡调整已收录，涉及 10 项兵种或装备，包含召唤物的关联数据、说明和更新历史。调整范围依据 [Supercell 公告](https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/)，具体等级数值另在各页标注参考来源。同日 10 种建筑、23 个充能等级的费用和时间缩减，依据 [Clash Ninja 当日动态](https://x.com/ClashDotNinja/status/2112523574984446061)补充；其他数据仍沿用上述同步记录。
 
 其余 31 个往期活动单位保留历史数据，并在页首标注。来源缺项显示为“未知”或“不适用”；同步日期不表示游戏更新生效日期。
 

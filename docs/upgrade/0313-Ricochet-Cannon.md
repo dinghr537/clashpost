@@ -8,6 +8,7 @@ imgFolder: home_buildings/0313
 wiki: https://clashofclans.fandom.com/wiki/Ricochet_Cannon
 canonical: /upgrade/0313-Ricochet-Cannon
 dataSyncedOn: 2026-10-13
+dataBalanceUpdatedOn: 2026-10-20
 ---
 
 - *如想查看合并前的建筑，请访问 [加农炮](/upgrade/0301-Cannon)。*
@@ -86,13 +87,18 @@ const tableExtraInfo = [
 | 2 | 390 | 312 | 218.4 | 5700 | 13000000 | 8,0,0,0 |  | 16 |
 | 3 | 405 | 324 | 226.8 | 6000 | 17500000 | 9,0,0,0 |  | 17 |
 | 4 | 412 | 329.6 | 230.72 | 6100 | 26500000 | 13,12,0,0 |  | 18 |
-| ⚡1 | 420 | 336 | 235.2 | 6100 | 12000000 | 6,0,0,0 |  | 18 |
-| ⚡2 | 420 | 336 | 235.2 | 6250 | 10000000 | 7,0,0,0 |  | 18 |
+| ⚡1 | 420 | 336 | 235.2 | 6100 | 4750000 | 2,10,0,0 |  | 18 |
+| ⚡2 | 420 | 336 | 235.2 | 6250 | 4000000 | 2,19,0,0 |  | 18 |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/10/20">
+        <TimelineRow>充能 1 级：费用由 1200 万降至 475 万，时间由 6天缩短至 2天10小时。</TimelineRow>
+        <TimelineRow>充能 2 级：费用由 1000 万降至 400 万，时间由 7天缩短至 2天19小时。</TimelineRow>
+        <TimelineRow><a href="https://x.com/ClashDotNinja/status/2112523574984446061" target="_blank" rel="noopener noreferrer">来源：Clash Ninja 充能调整公告</a>。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2026/01/28">
         <TimelineRow>跳弹加农炮第二个目标受到的伤害由 100% 降低到 70%.</TimelineRow>
         <TimelineRow>跳弹加农炮的最远弹射距离由 4.5 格减少到 3.5 格。</TimelineRow>

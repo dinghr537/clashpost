@@ -11,7 +11,126 @@
     "revision": 596696,
     "revisionUrl": "https://clashofclans.fandom.com/wiki/X-Bow?oldid=596696",
     "syncedOn": "2026-10-13",
-    "scope": "Source statistics tables and available 2026 history; base values"
+    "scope": "Source statistics tables and available 2026 history; base values",
+    "balanceUpdate": {
+      "appliedOn": "2026-10-21",
+      "effectiveOn": "2026-10-20",
+      "numericSourceUrl": "https://x.com/ClashDotNinja/status/2112523574984446061",
+      "dateSourceUrl": "https://x.com/ClashDotNinja/status/2112523574984446061",
+      "fields": [
+        {
+          "table": 5,
+          "header": "Cost",
+          "levels": "1–2"
+        },
+        {
+          "table": 5,
+          "header": "Build Time",
+          "levels": "1–2"
+        },
+        {
+          "table": 5,
+          "header": "Experience Gained",
+          "levels": "1–2"
+        }
+      ],
+      "previousTables": [
+        {
+          "table": 5,
+          "rows": [
+            [
+              {
+                "status": "known",
+                "value": 1,
+                "raw": "1"
+              },
+              {
+                "status": "known",
+                "value": 255,
+                "raw": "255"
+              },
+              {
+                "status": "known",
+                "value": 32.64,
+                "raw": "32.64"
+              },
+              {
+                "status": "known",
+                "value": 5000,
+                "raw": "5,000"
+              },
+              {
+                "status": "known",
+                "value": 9000000,
+                "raw": "9,000,000"
+              },
+              {
+                "status": "known",
+                "value": 475200,
+                "raw": "5d 12h",
+                "unit": "seconds",
+                "displayInput": "5,12,0,0"
+              },
+              {
+                "status": "known",
+                "value": 689,
+                "raw": "689"
+              },
+              {
+                "status": "known",
+                "value": 18,
+                "raw": "18"
+              }
+            ],
+            [
+              {
+                "status": "known",
+                "value": 2,
+                "raw": "2"
+              },
+              {
+                "status": "known",
+                "value": 255,
+                "raw": "255"
+              },
+              {
+                "status": "known",
+                "value": 32.64,
+                "raw": "32.64"
+              },
+              {
+                "status": "known",
+                "value": 5100,
+                "raw": "5,100"
+              },
+              {
+                "status": "known",
+                "value": 7000000,
+                "raw": "7,000,000"
+              },
+              {
+                "status": "known",
+                "value": 648000,
+                "raw": "7d 12h",
+                "unit": "seconds",
+                "displayInput": "7,12,0,0"
+              },
+              {
+                "status": "known",
+                "value": 804,
+                "raw": "804"
+              },
+              {
+                "status": "known",
+                "value": 18,
+                "raw": "18"
+              }
+            ]
+          ]
+        }
+      ],
+      "scope": "October 20 supercharge cost and time reductions; experience and collector catch-up durations recalculated from the updated build times."
+    }
   },
   "tables": [
     {
@@ -832,20 +951,21 @@
           },
           {
             "status": "known",
-            "value": 9000000,
-            "raw": "9,000,000"
+            "value": 5500000,
+            "raw": "5,500,000"
           },
           {
             "status": "known",
-            "value": 475200,
-            "raw": "5d 12h",
+            "value": 190800,
+            "raw": "2d 5h",
             "unit": "seconds",
-            "displayInput": "5,12,0,0"
+            "displayInput": "2,5,0,0"
           },
           {
             "status": "known",
-            "value": 689,
-            "raw": "689"
+            "value": 436,
+            "raw": "436",
+            "derivedFrom": "floor(sqrt(Build Time in seconds))"
           },
           {
             "status": "known",
@@ -876,20 +996,21 @@
           },
           {
             "status": "known",
-            "value": 7000000,
-            "raw": "7,000,000"
+            "value": 3500000,
+            "raw": "3,500,000"
           },
           {
             "status": "known",
-            "value": 648000,
-            "raw": "7d 12h",
+            "value": 259200,
+            "raw": "3d",
             "unit": "seconds",
-            "displayInput": "7,12,0,0"
+            "displayInput": "3,0,0,0"
           },
           {
             "status": "known",
-            "value": 804,
-            "raw": "804"
+            "value": 509,
+            "raw": "509",
+            "derivedFrom": "floor(sqrt(Build Time in seconds))"
           },
           {
             "status": "known",
@@ -1376,6 +1497,20 @@
     {
       "date": "2026-06-16",
       "description": "Added 2 Supercharge levels for the X-Bow. Icon Supercharge ⚡"
+    },
+    {
+      "date": "2026-10-20",
+      "description": "充能 1 级：费用由 900 万降至 550 万，时间由 5天12小时缩短至 2天5小时。",
+      "sourceUrl": "https://x.com/ClashDotNinja/status/2112523574984446061",
+      "sourcePublishedOn": "2026-10-20",
+      "sourceType": "community-update"
+    },
+    {
+      "date": "2026-10-20",
+      "description": "充能 2 级：费用由 700 万降至 350 万，时间由 7天12小时缩短至 3天。",
+      "sourceUrl": "https://x.com/ClashDotNinja/status/2112523574984446061",
+      "sourcePublishedOn": "2026-10-20",
+      "sourceType": "community-update"
     }
   ],
   "facts": [

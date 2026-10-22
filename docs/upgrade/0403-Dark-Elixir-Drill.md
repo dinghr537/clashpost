@@ -8,6 +8,7 @@ imgFolder: home_buildings/0403
 wiki: https://clashofclans.fandom.com/wiki/Dark_Elixir_Drill
 canonical: /upgrade/0403-Dark-Elixir-Drill
 dataSyncedOn: 2026-10-13
+dataBalanceUpdatedOn: 2026-10-20
 ---
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Dark_Elixir_Drill11.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
@@ -95,9 +96,9 @@ const tableExtraInfo = [
 | 9 | 160 | 3600 | 0,22,30,0 | 6 | 45 | 1480 | 3700000 | 2,12,0,0 |  | 12 |
 | 10 | 180 | 4200 | 0,23,20,0 | 7 | 50 | 1550 | 5300000 | 3,0,0,0 |  | 14 |
 | 11 | 200 | 4600 | 0,23,0,0 | 8 | 55 | 1600 | 12000000 | 6,0,0,0 |  | 16 |
-| ⚡1 | 209 | 4807 | 0,23,0,0 | 8 | 55 | 1600 | 5100000 | 3,0,0,0 |  | 18 |
-| ⚡2 | 218 | 5014 | 0,23,0,0 | 8 | 55 | 1600 | 4500000 | 4,0,0,0 |  | 18 |
-| ⚡3 | 218 | 5014 | 0,23,0,0 | 8 | 55 | 1650 | 3900000 | 5,0,0,0 |  | 18 |
+| ⚡1 | 209 | 4807 | 0,23,0,0 | 8 | 55 | 1600 | 750000 | 0,14,30,0 |  | 18 |
+| ⚡2 | 218 | 5014 | 0,23,0,0 | 8 | 55 | 1600 | 750000 | 0,19,0,0 |  | 18 |
+| ⚡3 | 218 | 5014 | 0,23,0,0 | 8 | 55 | 1650 | 500000 | 1,0,0,0 |  | 18 |
 </UnitTable>
 
 \* 采集器容量满后将停止工作，直到玩家收集采集器内的资源。
@@ -105,6 +106,12 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/10/20">
+        <TimelineRow>充能 1 级：费用由 510 万降至 75 万，时间由 3天缩短至 14小时30分。</TimelineRow>
+        <TimelineRow>充能 2 级：费用由 450 万降至 75 万，时间由 4天缩短至 19小时。</TimelineRow>
+        <TimelineRow>充能 3 级：费用由 390 万降至 50 万，时间由 5天缩短至 1天。</TimelineRow>
+        <TimelineRow><a href="https://x.com/ClashDotNinja/status/2112523574984446061" target="_blank" rel="noopener noreferrer">来源：Clash Ninja 充能调整公告</a>。</TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/11/17">
         <TimelineRow>新增 11 级暗黑重油钻井，16 本可解锁。</TimelineRow>
     </TimelineItem>

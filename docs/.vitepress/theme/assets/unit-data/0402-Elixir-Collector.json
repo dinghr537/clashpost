@@ -11,7 +11,220 @@
     "revision": 619075,
     "revisionUrl": "https://clashofclans.fandom.com/wiki/Elixir_Collector?oldid=619075",
     "syncedOn": "2026-10-13",
-    "scope": "Source statistics tables and available 2026 history; base values"
+    "scope": "Source statistics tables and available 2026 history; base values",
+    "balanceUpdate": {
+      "appliedOn": "2026-10-21",
+      "effectiveOn": "2026-10-20",
+      "numericSourceUrl": "https://x.com/ClashDotNinja/status/2112523574984446061",
+      "dateSourceUrl": "https://x.com/ClashDotNinja/status/2112523574984446061",
+      "fields": [
+        {
+          "table": 7,
+          "header": "Build Cost",
+          "levels": "1–3"
+        },
+        {
+          "table": 7,
+          "header": "Build Time",
+          "levels": "1–3"
+        },
+        {
+          "table": 7,
+          "header": "Experience Gained",
+          "levels": "1–3"
+        },
+        {
+          "table": 7,
+          "header": "Catch-Up Point",
+          "levels": "1–2"
+        }
+      ],
+      "previousTables": [
+        {
+          "table": 7,
+          "rows": [
+            [
+              {
+                "status": "known",
+                "value": 1,
+                "raw": "1"
+              },
+              {
+                "status": "known",
+                "value": 436500,
+                "raw": "436,500"
+              },
+              {
+                "status": "known",
+                "value": "7,857/hr",
+                "raw": "7,857/hr"
+              },
+              {
+                "status": "known",
+                "value": 1400,
+                "raw": "1,400"
+              },
+              {
+                "status": "known",
+                "value": 11,
+                "raw": "11"
+              },
+              {
+                "status": "known",
+                "value": "2d 7h 33m 20s",
+                "raw": "2d 7h 33m 20s"
+              },
+              {
+                "status": "known",
+                "value": 1700000,
+                "raw": "1,700,000"
+              },
+              {
+                "status": "known",
+                "value": 172800,
+                "raw": "2d",
+                "unit": "seconds",
+                "displayInput": "2,0,0,0"
+              },
+              {
+                "status": "known",
+                "value": 415,
+                "raw": "415"
+              },
+              {
+                "status": "known",
+                "value": "50d 21h 49m 6s",
+                "raw": "50d 21h 49m 6s"
+              },
+              {
+                "status": "known",
+                "value": 18,
+                "raw": "18"
+              }
+            ],
+            [
+              {
+                "status": "known",
+                "value": 2,
+                "raw": "2"
+              },
+              {
+                "status": "known",
+                "value": 453000,
+                "raw": "453,000"
+              },
+              {
+                "status": "known",
+                "value": "8,154/hr",
+                "raw": "8,154/hr"
+              },
+              {
+                "status": "known",
+                "value": 1400,
+                "raw": "1,400"
+              },
+              {
+                "status": "known",
+                "value": 11,
+                "raw": "11"
+              },
+              {
+                "status": "known",
+                "value": "2d 7h 33m 20s",
+                "raw": "2d 7h 33m 20s"
+              },
+              {
+                "status": "known",
+                "value": 1500000,
+                "raw": "1,500,000"
+              },
+              {
+                "status": "known",
+                "value": 259200,
+                "raw": "3d",
+                "unit": "seconds",
+                "displayInput": "3,0,0,0"
+              },
+              {
+                "status": "known",
+                "value": 509,
+                "raw": "509"
+              },
+              {
+                "status": "known",
+                "value": "79d 8h 43m 39s",
+                "raw": "79d 8h 43m 39s"
+              },
+              {
+                "status": "known",
+                "value": 18,
+                "raw": "18"
+              }
+            ],
+            [
+              {
+                "status": "known",
+                "value": 3,
+                "raw": "3"
+              },
+              {
+                "status": "known",
+                "value": 453000,
+                "raw": "453,000"
+              },
+              {
+                "status": "known",
+                "value": "8,154/hr",
+                "raw": "8,154/hr"
+              },
+              {
+                "status": "known",
+                "value": 1450,
+                "raw": "1,450"
+              },
+              {
+                "status": "known",
+                "value": 11,
+                "raw": "11"
+              },
+              {
+                "status": "known",
+                "value": "2d 7h 33m 20s",
+                "raw": "2d 7h 33m 20s"
+              },
+              {
+                "status": "known",
+                "value": 1300000,
+                "raw": "1,300,000"
+              },
+              {
+                "status": "known",
+                "value": 345600,
+                "raw": "4d",
+                "unit": "seconds",
+                "displayInput": "4,0,0,0"
+              },
+              {
+                "status": "known",
+                "value": 587,
+                "raw": "587"
+              },
+              {
+                "status": "not_applicable",
+                "value": null,
+                "raw": "N/A"
+              },
+              {
+                "status": "known",
+                "value": 18,
+                "raw": "18"
+              }
+            ]
+          ]
+        }
+      ],
+      "scope": "October 20 supercharge cost and time reductions; experience and collector catch-up durations recalculated from the updated build times."
+    }
   },
   "tables": [
     {
@@ -1304,25 +1517,27 @@
           },
           {
             "status": "known",
-            "value": 1700000,
-            "raw": "1,700,000"
+            "value": 250000,
+            "raw": "250,000"
           },
           {
             "status": "known",
-            "value": 172800,
-            "raw": "2d",
+            "value": 34200,
+            "raw": "9h 30m",
             "unit": "seconds",
-            "displayInput": "2,0,0,0"
+            "displayInput": "0,9,30,0"
           },
           {
             "status": "known",
-            "value": 415,
-            "raw": "415"
+            "value": 184,
+            "raw": "184",
+            "derivedFrom": "floor(sqrt(Build Time in seconds))"
           },
           {
             "status": "known",
-            "value": "50d 21h 49m 6s",
-            "raw": "50d 21h 49m 6s"
+            "value": "10d 1h 49m 5s",
+            "raw": "10d 1h 49m 5s",
+            "derivedFrom": "Build Time × previous production rate ÷ production rate increase; excludes cost paid in another resource"
           },
           {
             "status": "known",
@@ -1363,25 +1578,27 @@
           },
           {
             "status": "known",
-            "value": 1500000,
-            "raw": "1,500,000"
+            "value": 250000,
+            "raw": "250,000"
           },
           {
             "status": "known",
-            "value": 259200,
-            "raw": "3d",
+            "value": 52200,
+            "raw": "14h 30m",
             "unit": "seconds",
-            "displayInput": "3,0,0,0"
+            "displayInput": "0,14,30,0"
           },
           {
             "status": "known",
-            "value": 509,
-            "raw": "509"
+            "value": 228,
+            "raw": "228",
+            "derivedFrom": "floor(sqrt(Build Time in seconds))"
           },
           {
             "status": "known",
-            "value": "79d 8h 43m 39s",
-            "raw": "79d 8h 43m 39s"
+            "value": "15d 23h 35m 27s",
+            "raw": "15d 23h 35m 27s",
+            "derivedFrom": "Build Time × previous production rate ÷ production rate increase; excludes cost paid in another resource"
           },
           {
             "status": "known",
@@ -1422,20 +1639,21 @@
           },
           {
             "status": "known",
-            "value": 1300000,
-            "raw": "1,300,000"
+            "value": 250000,
+            "raw": "250,000"
           },
           {
             "status": "known",
-            "value": 345600,
-            "raw": "4d",
+            "value": 68400,
+            "raw": "19h",
             "unit": "seconds",
-            "displayInput": "4,0,0,0"
+            "displayInput": "0,19,0,0"
           },
           {
             "status": "known",
-            "value": 587,
-            "raw": "587"
+            "value": 261,
+            "raw": "261",
+            "derivedFrom": "floor(sqrt(Build Time in seconds))"
           },
           {
             "status": "not_applicable",
@@ -1594,7 +1812,29 @@
       "logicalPath": "/upgrade/home_buildings/0402/Elixir_Collector16.png"
     }
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-10-20",
+      "description": "充能 1 级：费用由 170 万降至 25 万，时间由 2天缩短至 9小时30分。",
+      "sourceUrl": "https://x.com/ClashDotNinja/status/2112523574984446061",
+      "sourcePublishedOn": "2026-10-20",
+      "sourceType": "community-update"
+    },
+    {
+      "date": "2026-10-20",
+      "description": "充能 2 级：费用由 150 万降至 25 万，时间由 3天缩短至 14小时30分。",
+      "sourceUrl": "https://x.com/ClashDotNinja/status/2112523574984446061",
+      "sourcePublishedOn": "2026-10-20",
+      "sourceType": "community-update"
+    },
+    {
+      "date": "2026-10-20",
+      "description": "充能 3 级：费用由 130 万降至 25 万，时间由 4天缩短至 19小时。",
+      "sourceUrl": "https://x.com/ClashDotNinja/status/2112523574984446061",
+      "sourcePublishedOn": "2026-10-20",
+      "sourceType": "community-update"
+    }
+  ],
   "facts": [
     "The Elixir Collector takes up a 3x3 tile space.",
     "Level 1 to 4 Elixir Collectors cannot be boosted with Gems, but can still be boosted using a Resource Potion. However, you can only use the potion if you have a collector that can be boosted with Gems (either a level 5 or higher Gold Mine or Elixir Collector, or any level of Dark Elixir Drill)."
