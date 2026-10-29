@@ -93,7 +93,7 @@ export function changeHeader(robotsMetaValue, canonicalLink) {
     // 修改规范链接
     if (canonicalLink) {
         // 确定完整的规范链接
-        const canonicalLinkFull = new URL(canonicalLink, "https://cocpost.pages.dev").href;
+        const canonicalLinkFull = new URL(canonicalLink, "https://cocpost.com").href;
         // 查找网页 head 中规范链接所在的 link
         let canonicalLinkHead = null;
         document.head.querySelectorAll("link").forEach(el => {

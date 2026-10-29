@@ -2,7 +2,7 @@ import { defineConfig, HeadConfig } from "vitepress";
 import { resolve } from 'node:path'
 import { publicWikiLinks } from './theme/assets/wiki-links.mjs'
 
-const siteUrl = "https://cocpost.pages.dev";
+const siteUrl = "https://cocpost.com";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({

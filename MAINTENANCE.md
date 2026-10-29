@@ -120,7 +120,7 @@ python3 scripts/check_local_images.py
 
 ## Cloudflare Pages 发布
 
-项目名为 `cocpost`，正式地址为 <https://cocpost.pages.dev>。采用 Direct Upload：只在用户明确要求发布时，从本地上传构建结果，没有连接 Git 自动部署。图片包含在构建目录中，与页面一起发布。
+项目名为 `cocpost`，正式地址为 <https://cocpost.com>。网站地图和页面规范链接统一使用该域名。采用 Direct Upload：只在用户明确要求发布时，从本地上传构建结果，没有连接 Git 自动部署。图片包含在构建目录中，与页面一起发布。
 
 完成本文维护检查并提交本次改动后，使用已登录的 Wrangler 4 执行：
 
