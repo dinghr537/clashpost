@@ -43,7 +43,7 @@ dataSyncedOn: 2026-10-13
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
     <UnitProperty pKey="占据人口" pValue="1" />
-    <UnitProperty pKey="移动速度" pValue="2 格/秒" />
+    <UnitProperty pKey="移动速度" pValue="2.2 格/秒" />
     <UnitProperty pKey="攻击速度" pValue="1 秒/次" />
     <UnitProperty pKey="攻击距离" pValue="0.4 格" />
     <UnitProperty pKey="所需训练营等级" pValue="1" />
@@ -100,6 +100,7 @@ const tableExtraInfo = [
     </TimelineItem>
     <TimelineItem date="2025/06/16">
         <TimelineRow>1 ~ 3 级野蛮人的每秒伤害值提升。</TimelineRow>
+        <TimelineRow>野蛮人的游戏内移动速度由 16 提升至 18。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/03/27">
         <TimelineRow>部队的训练时间取消，但增加了捐赠费用。</TimelineRow>

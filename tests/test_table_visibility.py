@@ -44,6 +44,27 @@ class TableVisibilityTests(unittest.TestCase):
         expanded['rows'].append([source_cell('C'), source_cell('11')])
         preserve_table_corrections(reviewed, [expanded])
 
+    def test_sync_cannot_restore_a_reviewed_source_typo(self):
+        current = table(4, ['Level', 'Hitpoints'], [[2, 3500], [3, 3700], [4, 3900]])
+        reviewed = {'tables': [current], 'sync': {'reviewedTableCorrections': [
+            {'table': 4, 'cells': [{'level': 3, 'header': 'Hitpoints', 'originalRaw': '3.700'}]}
+        ]}}
+        source_typo = deepcopy(current)
+        source_typo['rows'][1][1] = source_cell('3.700')
+        with self.assertRaisesRegex(ValueError, '数值发生变化'):
+            preserve_table_corrections(reviewed, [source_typo])
+        preserve_table_corrections(reviewed, [deepcopy(current)])
+
+    def test_sync_cannot_restore_reviewed_fixed_attributes(self):
+        current = table(2, ['Preferred Target', 'Movement Speed'], [['Heroes', 24]])
+        reviewed = {'tables': [current], 'sync': {'reviewedTableCorrections': [
+            {'table': 2, 'cells': [{'rowKey': 'Heroes', 'header': 'Movement Speed'}]}
+        ]}}
+        previous_source = table(2, current['headers'], [['Heroes', 32]])
+        with self.assertRaisesRegex(ValueError, '数值发生变化'):
+            preserve_table_corrections(reviewed, [previous_source])
+        preserve_table_corrections(reviewed, [deepcopy(current)])
+
 
 if __name__ == '__main__':
     unittest.main()

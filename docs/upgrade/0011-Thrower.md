@@ -31,7 +31,7 @@ dataSyncedOn: 2026-10-13
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
     <UnitProperty pKey="占据人口" pValue="16" />
-    <UnitProperty pKey="移动速度" pValue="2.25 格/秒" />
+    <UnitProperty pKey="移动速度" pValue="2 格/秒" />
     <UnitProperty pKey="攻击速度" pValue="2.5 秒/次" />
     <UnitProperty pKey="攻击距离" pValue="6 格" />
     <UnitProperty pKey="所需训练营等级" pValue="18" />

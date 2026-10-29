@@ -27,8 +27,8 @@ dataSyncedOn: 2026-10-13
 
 1. 英雄猎手的技能：攻击时有毒药效果，可以减缓敌军的移动速度和攻击速度。此外，英雄猎手还可以跳墙。
 2. 英雄猎手的毒药效果只对部队、英雄和攻城机器有效，它不能对建筑造成伤害，也不能减缓建筑的攻击速度。
-3. 英雄猎手的毒药效果和其他具有毒药效果的单位（如 [猛蜥](/upgrade/0286-Poison-Lizard)、[毒药法术](/upgrade/0180-Poison-Spell)）叠加时取效果最强的那个。另外，英雄猎手的毒药效果对英雄没有衰减（不但没有衰减甚至还有 4 倍伤害）。
-4. 英雄猎手也具有和毒药法术类似的减速效果，但英雄猎手的伤害不是随时间递增的，而是会立即达到最大伤害，这一点又和毒药法术不同。
+3. 英雄猎手的毒药效果和其他具有毒药效果的单位（如 [猛蜥](/upgrade/0286-Poison-Lizard)、[毒药法术](/upgrade/0180-Poison-Spell)）同时作用时，减速效果取较强的一种。英雄猎手的普通攻击对英雄造成 4 倍伤害。
+4. 英雄猎手的攻击附带短暂的毒药伤害和减速效果。单名英雄猎手造成的毒药伤害通常较低，多名英雄猎手连续攻击同一目标时毒药效果可以累积。
 
 <SmallTitle>属性</SmallTitle>
 
@@ -38,7 +38,7 @@ dataSyncedOn: 2026-10-13
     <UnitProperty pKey="伤害类型" pValue="单体伤害" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
     <UnitProperty pKey="占据人口" pValue="6" />
-    <UnitProperty pKey="移动速度" pValue="3 格/秒" />
+    <UnitProperty pKey="移动速度" pValue="24（游戏内数值）" />
     <UnitProperty pKey="攻击速度" pValue="0.6 秒/次" />
     <UnitProperty pKey="攻击距离" pValue="3 格" />
     <UnitProperty pKey="所需暗黑训练营等级" pValue="9" />
@@ -46,6 +46,8 @@ dataSyncedOn: 2026-10-13
     <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" />
     <UnitProperty pKey="捐赠费用" pValue="3,3,135,Dark_Elixir" :isDonationCost="true" />
 </UnitProperties>
+
+<p><small>移动速度采用玩家提供的游戏内数值 24；<a href="https://clashofclans.fandom.com/wiki/Headhunter#Statistics" target="_blank" rel="noopener noreferrer">Wiki 单位页</a>记为 32，与游戏内数值不同。</small></p>
 
 <SmallTitle>升级数据</SmallTitle>
 

@@ -339,7 +339,7 @@ def validate_table_levels(tables, references=()):
 
 
 def preserve_table_corrections(reviewed, tables):
-    """Stop old/merged source keys from undoing explicitly reviewed table repairs."""
+    """Stop source keys or cells from undoing explicitly reviewed table repairs."""
     for correction in (reviewed or {}).get('sync', {}).get('reviewedTableCorrections', []):
         index = correction['table']
         old = next(t for t in reviewed['tables'] if t['sourceTableIndex'] == index)
@@ -350,6 +350,22 @@ def preserve_table_corrections(reviewed, tables):
         new_keys = {r[0]['raw'] for r in new['rows']}
         if old_keys - new_keys:
             raise ValueError(f'已修正表 {index} 的等级或条目缺失，请人工核对')
+        for cell in correction.get('cells', []):
+            header = cell['header']
+            key_name = 'level' if 'level' in cell else 'rowKey'
+            if key_name not in cell:
+                raise ValueError(f'已修正表 {index} 的行标识缺失，请人工核对：{header}')
+            row_key = cell[key_name]
+            if header not in old['headers'] or header not in new['headers']:
+                raise ValueError(f'已修正表 {index} 的字段缺失，请人工核对：{header}')
+            old_rows = [r for r in old['rows'] if r[0]['value'] == row_key]
+            new_rows = [r for r in new['rows'] if r[0]['value'] == row_key]
+            if len(old_rows) != 1 or len(new_rows) != 1:
+                raise ValueError(f'已修正表 {index} 的行不唯一，请人工核对：{row_key}')
+            old_cell = old_rows[0][old['headers'].index(header)]
+            new_cell = new_rows[0][new['headers'].index(header)]
+            if (old_cell['status'], old_cell['value']) != (new_cell['status'], new_cell['value']):
+                raise ValueError(f'已修正表 {index} 的数值发生变化，请人工核对：{row_key} / {header}')
 
 
 def preserve_balance_update(reviewed, tables, date):
@@ -573,6 +589,7 @@ def page_content(item, record, existing_text=None):
     else:
         raise ValueError(f"{item['unitId']}: 请先按同类原页面建立中文页面和字段映射，再导入；来源数据已保留在预览中")
     frontmatter = re.sub(r'^dataSyncedOn:.*\n?', '', frontmatter, flags=re.M).rstrip()
+    frontmatter = re.sub(r'^dataReviewedOn:.*\n?', '', frontmatter, flags=re.M).rstrip()
     frontmatter += '\ndataSyncedOn: ' + record['sync']['syncedOn']
     # Markdown is authored content. Sync may update metadata and JSON data, but
     # must not replace explanations, table layouts, links or historical records.

@@ -42,7 +42,9 @@ def main():
         elif not page.exists() or record['unitId'] + '.json' not in page.read_text():
             errors.append(record['unitId'] + ': page does not load its data')
         parser = None
-        if inventory:
+        if inventory and record['sync'].get('revision') is None:
+            errors.append(record['unitId'] + ': no pinned source revision for cache comparison')
+        elif inventory:
             item = sources[record['unitId']]
             snapshot = json.loads(Path(item['snapshot']).read_text())['parse']
             if snapshot['revid'] != record['sync']['revision']:
@@ -57,7 +59,7 @@ def main():
         for table in record['tables']:
             label = record['unitId'] + ':' + str(table['sourceTableIndex'])
             width = len(table['headers']); metadata = {item['column']: item for item in table['extraInfo']}
-            if parser:
+            if parser and table['sourceTableIndex'] >= 0:
                 headers, raw_rows, _ = headers_and_rows(parser.tables[table['sourceTableIndex']])
                 if table['headers'] != headers or [[cell['raw'] for cell in row] for row in table['rows']] != raw_rows:
                     errors.append(label + ': headers or raw source rows changed')

@@ -1,29 +1,40 @@
 {
   "unitId": "20c1-Skeleton",
   "title": "骷髅",
-  "originalName": "Barbarian/Clan Capital",
+  "originalName": "Skeleton/Clan Capital",
   "module": "upgrade-capital",
   "imgFolder": "capital_tech/20c1",
   "sync": {
-    "status": "synced",
+    "status": "reviewed",
     "source": "Clash of Clans Wiki",
-    "sourceUrl": "https://clashofclans.fandom.com/wiki/Barbarian/Clan_Capital",
-    "revision": 624634,
-    "revisionUrl": "https://clashofclans.fandom.com/wiki/Barbarian/Clan_Capital?oldid=624634",
-    "syncedOn": "2026-10-13",
-    "scope": "Source statistics tables and available 2026 history; base values"
+    "sourceUrl": "https://clashofclans.fandom.com/wiki/Skeleton/Clan_Capital",
+    "revision": null,
+    "revisionUrl": null,
+    "syncedOn": null,
+    "reviewedOn": "2026-10-29",
+    "scope": "Manually reviewed fixed statistics; no pinned source revision",
+    "invalidatedSource": {
+      "sourceUrl": "https://clashofclans.fandom.com/wiki/Barbarian/Clan_Capital",
+      "revision": 624634,
+      "syncedOn": "2026-10-13",
+      "reason": "The previous source described Barbarian, not Skeleton."
+    }
   },
   "tables": [
     {
-      "sourceTableIndex": 2,
+      "sourceTableIndex": -1,
       "section": "Statistics",
       "title": "",
+      "sourceUrl": "https://clashofclans.fandom.com/wiki/Skeleton/Clan_Capital",
       "headers": [
         "Preferred Target",
         "Attack Type",
         "Movement Speed",
         "Attack Speed",
-        "Range"
+        "Range",
+        "Damage per Second",
+        "Damage per Hit",
+        "Hitpoints"
       ],
       "rows": [
         [
@@ -39,8 +50,8 @@
           },
           {
             "status": "known",
-            "value": 12,
-            "raw": "12"
+            "value": 16,
+            "raw": "16"
           },
           {
             "status": "known",
@@ -49,29 +60,8 @@
           },
           {
             "status": "known",
-            "value": 0.3,
-            "raw": "0.3"
-          }
-        ]
-      ],
-      "extraInfo": []
-    },
-    {
-      "sourceTableIndex": 3,
-      "section": "Statistics",
-      "title": "",
-      "headers": [
-        "Level",
-        "Damage per Second",
-        "Damage per Hit",
-        "Hitpoints"
-      ],
-      "rows": [
-        [
-          {
-            "status": "known",
-            "value": 1,
-            "raw": "1"
+            "value": 0.4,
+            "raw": "0.4"
           },
           {
             "status": "known",
@@ -85,96 +75,8 @@
           },
           {
             "status": "known",
-            "value": 150,
-            "raw": "150"
-          }
-        ],
-        [
-          {
-            "status": "known",
-            "value": 2,
-            "raw": "2"
-          },
-          {
-            "status": "known",
             "value": 30,
             "raw": "30"
-          },
-          {
-            "status": "known",
-            "value": 30,
-            "raw": "30"
-          },
-          {
-            "status": "known",
-            "value": 175,
-            "raw": "175"
-          }
-        ],
-        [
-          {
-            "status": "known",
-            "value": 3,
-            "raw": "3"
-          },
-          {
-            "status": "known",
-            "value": 35,
-            "raw": "35"
-          },
-          {
-            "status": "known",
-            "value": 35,
-            "raw": "35"
-          },
-          {
-            "status": "known",
-            "value": 200,
-            "raw": "200"
-          }
-        ],
-        [
-          {
-            "status": "known",
-            "value": 4,
-            "raw": "4"
-          },
-          {
-            "status": "known",
-            "value": 40,
-            "raw": "40"
-          },
-          {
-            "status": "known",
-            "value": 40,
-            "raw": "40"
-          },
-          {
-            "status": "known",
-            "value": 225,
-            "raw": "225"
-          }
-        ],
-        [
-          {
-            "status": "known",
-            "value": 5,
-            "raw": "5"
-          },
-          {
-            "status": "known",
-            "value": 45,
-            "raw": "45"
-          },
-          {
-            "status": "known",
-            "value": 45,
-            "raw": "45"
-          },
-          {
-            "status": "known",
-            "value": 250,
-            "raw": "250"
           }
         ]
       ],

@@ -11,7 +11,25 @@
     "revision": 620660,
     "revisionUrl": "https://clashofclans.fandom.com/wiki/Mighty_Yak?oldid=620660",
     "syncedOn": "2026-10-13",
-    "scope": "Source statistics tables and available 2026 history; base values"
+    "scope": "Source statistics tables and available 2026 history; base values",
+    "reviewedTableCorrections": [
+      {
+        "table": 2,
+        "reviewedOn": "2026-10-29",
+        "originalRows": [
+          ["Within 7 tiles of Hero", "Ground", "Single Target", "1.2 tiles", "20", "Varies", "Wall Buster", "8s", "16", "70%", "3"]
+        ],
+        "cells": [
+          {
+            "rowKey": "Within 7 tiles of Hero",
+            "header": "Movement Speed",
+            "originalRaw": "20",
+            "correctedRaw": "24"
+          }
+        ],
+        "reason": "The user reported the in-game movement speed as 24; the saved Wiki revision lists 20."
+      }
+    ]
   },
   "tables": [
     {
@@ -55,8 +73,8 @@
           },
           {
             "status": "known",
-            "value": 20,
-            "raw": "20"
+            "value": 24,
+            "raw": "24"
           },
           {
             "status": "unknown",

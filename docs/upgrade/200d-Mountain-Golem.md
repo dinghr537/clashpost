@@ -34,11 +34,11 @@ dataSyncedOn: 2026-10-13
     <UnitProperty pKey="部队类型" pValue="地面近战单位" />
     <UnitProperty pKey="攻击偏好" pValue="无" />
     <UnitProperty pKey="伤害类型" pValue="范围伤害" />
-    <UnitProperty pKey="伤害半径" pValue="0.8 格" />
+    <UnitProperty pKey="伤害半径" pValue="0.9 格" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
     <UnitProperty pKey="配兵人口" pValue="160" />
     <UnitProperty pKey="防守人口" pValue="160" />
-    <UnitProperty pKey="移动速度" pValue="0.6 格/秒" />
+    <UnitProperty pKey="移动速度" pValue="0.8 格/秒" />
     <UnitProperty pKey="攻击速度" pValue="3 秒/次" />
     <UnitProperty pKey="攻击距离" pValue="2 格" />
 </UnitProperties>
@@ -61,12 +61,12 @@ dataSyncedOn: 2026-10-13
 <Timeline>
     <TimelineItem date="2023/09/14">
         <TimelineRow>高山戈仑的移动速度从每秒 0.6 格增加到每秒 0.8 格，游戏内显示是从 4 到 6.</TimelineRow>
+        <TimelineRow>伤害半径从 0.75 格增加到 0.9 格。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/06/12">
         <TimelineRow>移除高山戈仑选择目标时的随机性。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/06/30">
-        <TimelineRow>伤害半径从 0.75 增加到 0.9 格。</TimelineRow>
         <TimelineRow>1 ~ 4 级高山戈仑的生命值由 2.8万/3.2万/3.6万/4万 增加到 3万/3.35万/3.7万/4.05万。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2022/05/02">

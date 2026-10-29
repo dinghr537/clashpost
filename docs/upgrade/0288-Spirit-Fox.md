@@ -82,6 +82,8 @@ const tableExtraInfo = [
 | 10 | 180 | 288 | 4秒 | 2800 | 230000 | 8,0,0,0 |  | 9 | 16 |
 </UnitTable>
 
+<p><small>9 级每次伤害的来源存在差异：<a href="https://clashofclans.fandom.com/wiki/Spirit_Fox#Statistics" target="_blank" rel="noopener noreferrer">维基</a>记为 275.6；按每秒伤害 172 和攻击间隔 1.6 秒计算为 275.2，<a href="https://clashtroops.com/pets/spirit-fox/" target="_blank" rel="noopener noreferrer">另一资料</a>也列为 275.2。实际值待进一步核实。</small></p>
+
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>

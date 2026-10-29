@@ -52,9 +52,11 @@ dataSyncedOn: 2026-10-13
 | ---- |  ----   |     ----    |     ----   |   ----  |  ----  |
 | 1 | 160 | 340 | 630 | 1400 | 3300 |
 | 2 | 170 | 370 | 660 | 1700 | 3500 |
-| 3 | 180 | 400 | 690 | 2000 | 3.7 |
+| 3 | 180 | 400 | 690 | 2000 | 3700 |
 | 4 | 190 | 430 | 720 | 2300 | 3900 |
 </UnitTable>
+
+<p><small>3 级生命值按<a href="https://goblinsfarm.com/wiki/clan-capital/troops/super-miner.html" target="_blank" rel="noopener noreferrer">游戏数据核对</a>为 3,700；原 Wiki 表格写作 3.700。</small></p>
 
 <SmallTitle>更新历史</SmallTitle>
 
@@ -63,10 +65,10 @@ dataSyncedOn: 2026-10-13
         <TimelineRow>所有等级超级矿工的生命值减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/11/27">
-        <TimelineRow>1 级超级矿工的秒伤由 170-340-510 减少到 160-340-630.</TimelineRow>
-        <TimelineRow>2 级超级矿工的秒伤由 190-380-570 减少到 170-370-660.</TimelineRow>
-        <TimelineRow>3 级超级矿工的秒伤由 210-420-630 减少到 180-400-690.</TimelineRow>
-        <TimelineRow>4 级超级矿工的秒伤由 230-460-690 减少到 190-430-720.</TimelineRow>
+        <TimelineRow>1 级超级矿工的秒伤由 170-340-510 调整为 160-340-630。</TimelineRow>
+        <TimelineRow>2 级超级矿工的秒伤由 190-380-570 调整为 170-370-660。</TimelineRow>
+        <TimelineRow>3 级超级矿工的秒伤由 210-420-630 调整为 180-400-690。</TimelineRow>
+        <TimelineRow>4 级超级矿工的秒伤由 230-460-690 调整为 190-430-720。</TimelineRow>
         <TimelineRow>2 ~ 4级超级矿工的生命值由 4000/4300/4600 减少到 3900/4100/4300.</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/10/09">

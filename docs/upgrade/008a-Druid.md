@@ -39,7 +39,7 @@ dataSyncedOn: 2026-10-13
 3. 在人类形态下，德鲁伊的治疗效果可以最多弹射到 4 个目标（含第一个治疗目标）身上。
    - 德鲁伊的治疗效果无法弹射到攻城机器身上（攻城机器免疫所有治疗效果）。
    - 德鲁伊可以同时治疗地面和空中部队，而天使只能治疗地面部队。
-   - 与天使和 [疗伤法术](/upgrade/0101-Healing-Spell) 不同的是，德鲁伊对英雄的治疗量没有衰减。
+   - 与天使和 [疗伤法术](/upgrade/0101-Healing-Spell) 不同，德鲁伊对英雄的治疗量高于对普通部队的治疗量。1～6 级对英雄的每秒治疗量分别为 84、89.25、99、104.5、120.75、132.25。
    - 同一目标受到多个治疗单位治疗时，新增单位的治疗效益会递减。按原站记录，第 1～8 个单位依次为 100%、100%、90%、90%、70%、40%、10%、0%；第 8 个起不再增加治疗量。此规则包含天使、独角和人形德鲁伊，不能直接用单个治疗量乘以单位数量。<small>（来源：<a href="https://clashpost.com/p/6925" target="_blank" rel="noopener noreferrer">原站治疗叠加记录（2025-02-14）</a>）</small>
    - 在人类形态下，德鲁伊不能反击。在没有治疗目标时，即使受到伤害也会保持静止。
 4. 在巨熊形态下，德鲁伊是一种优先攻击防御建筑的兵种。
@@ -52,7 +52,7 @@ dataSyncedOn: 2026-10-13
     <UnitProperty pKey="部队类型" pValue="地面辅助单位" />
     <UnitProperty pKey="治疗偏好" pValue="无" />
     <UnitProperty pKey="治疗类型" pValue="链式治疗" />
-    <UnitProperty pKey="目标数量上限" pValue="3" />
+    <UnitProperty pKey="目标数量上限" pValue="4" />
     <UnitProperty pKey="治疗的目标" pValue="地面和空中目标" />
     <UnitProperty pKey="占据人口" pValue="16" />
     <UnitProperty pKey="移动速度" pValue="3 格/秒" />
@@ -118,7 +118,7 @@ const tableExtraInfo = [
 3. 在人类形态下，德鲁伊的治疗效果可以最多弹射到 4 个目标（含第一个治疗目标）身上。
    - 德鲁伊的治疗效果无法弹射到攻城机器身上（攻城机器免疫所有治疗效果）。
    - 德鲁伊可以同时治疗地面和空中部队，而天使只能治疗地面部队。
-   - 与天使和 [疗伤法术](/upgrade/0101-Healing-Spell) 不同的是，德鲁伊对英雄的治疗量没有衰减。
+   - 与天使和 [疗伤法术](/upgrade/0101-Healing-Spell) 不同，德鲁伊对英雄的治疗量高于对普通部队的治疗量。1～6 级对英雄的每秒治疗量分别为 84、89.25、99、104.5、120.75、132.25。
    - 同一目标受到多个治疗单位治疗时，新增单位的治疗效益会递减。按原站记录，第 1～8 个单位依次为 100%、100%、90%、90%、70%、40%、10%、0%；第 8 个起不再增加治疗量。此规则包含天使、独角和人形德鲁伊，不能直接用单个治疗量乘以单位数量。<small>（来源：<a href="https://clashpost.com/p/6925" target="_blank" rel="noopener noreferrer">原站治疗叠加记录（2025-02-14）</a>）</small>
    - 在人类形态下，德鲁伊不能反击。在没有治疗目标时，即使受到伤害也会保持静止。
 4. 在巨熊形态下，德鲁伊是一种优先攻击防御建筑的兵种。
@@ -150,7 +150,10 @@ const tableExtraInfo = [
 |   3  |   170   |   170   |  2100  |
 |   4  |   185   |   185   |  2300  |
 |   5  |   205   |   205   |  2500  |
+|   6  |   225   |   225   |  2750  |
 </UnitTable>
+
+<p><small>巨熊形态数据来源：<a href="https://clashofclans.fandom.com/wiki/Druid/Bear#Statistics" target="_blank" rel="noopener noreferrer">部落冲突维基：巨熊</a>。</small></p>
 </SwitchTabGroup>
 
 <!-- ↓↓↓ 公共部分 ↓↓↓ -->
@@ -166,6 +169,7 @@ const tableExtraInfo = [
     <TimelineItem date="2026/01/12">
         <TimelineRow>德鲁伊在人类形态下最多可存活的时间由 25 秒增加至 30 秒。</TimelineRow>
         <TimelineRow>所有等级德鲁伊在人类形态下的治疗量增加。</TimelineRow>
+        <TimelineRow>德鲁伊对英雄的治疗量提高，高于对普通部队的治疗量。</TimelineRow>
         <TimelineRow>4 ~ 5 级德鲁伊在巨熊形态下的每秒伤害和生命值增加。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/11/17">
@@ -194,10 +198,10 @@ const tableExtraInfo = [
     <TimelineItem date="2024/10/02">
         <TimelineRow>德鲁伊在人类形态下的每秒治疗量减少约 42%.</TimelineRow>
         <TimelineRow>德鲁伊在人类形态下最多可存活的时间减少（30 秒 → 25 秒）。</TimelineRow>
-        <TimelineRow>德鲁伊在巨熊形态下的伤害降低 50%.</TimelineRow>
+        <TimelineRow>1～4 级德鲁伊在巨熊形态下的生命值降低 50%。 <a href="https://supercell.com/en/games/clashofclans/blog/news/upcoming-balance-changes-to-druid/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/09/09">
-        <TimelineRow>德鲁伊最多可治疗的目标数量由 4 个减少到 3 个。</TimelineRow>
+        <TimelineRow>德鲁伊最多可治疗的目标数量由 5 个减少到 4 个（均包含第一个目标）。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2024/06/18">
         <TimelineRow>14 本可解锁新兵种：德鲁伊。</TimelineRow>

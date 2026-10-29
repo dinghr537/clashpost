@@ -1246,11 +1246,12 @@
     "sourceFilePage": "https://clashofclans.fandom.com/wiki/File:Inferno_Dragon6.png"
   },
   "/images/wiki/20c1-Skeleton/24fdb94a84-Barbarian1.png": {
-    "unitId": "20c1-Skeleton",
+    "unitId": "20c0-Barbarian",
     "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/d/d1/Barbarian1.png/revision/latest?cb=20171006161720",
     "sourcePage": "https://clashofclans.fandom.com/wiki/Barbarian/Clan_Capital?oldid=624634",
     "importedOn": "2026-10-13",
-    "sourceFilePage": "https://clashofclans.fandom.com/wiki/File:Barbarian1.png"
+    "sourceFilePage": "https://clashofclans.fandom.com/wiki/File:Barbarian1.png",
+    "note": "Previously associated with Skeleton by mistake; retained for provenance and not mapped to a page."
   },
   "/images/wiki/1100-Cannon/9e2c16d1e3-Cannon10B.png": {
     "unitId": "1100-Cannon",

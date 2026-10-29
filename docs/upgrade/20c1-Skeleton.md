@@ -5,9 +5,9 @@ shownTitle: "骷髅"
 description: "这些不死生物独自行动时并不具备什么威胁，但它们从不单打独斗，而是成群结队，并肩作战！"
 module: upgrade-capital
 imgFolder: capital_tech/20c1
-wiki: https://clashofclans.fandom.com/wiki/Barbarian/Clan_Capital
+wiki: https://clashofclans.fandom.com/wiki/Skeleton/Clan_Capital
 canonical: /upgrade/20c1-Skeleton
-dataSyncedOn: 2026-10-13
+dataReviewedOn: 2026-10-29
 ---
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Skeleton_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
@@ -20,7 +20,7 @@ dataSyncedOn: 2026-10-13
 
 <SmallTitle>重要说明</SmallTitle>
 
-都城骷髅是 [骷髅飞桶](/upgrade/2007-Skeleton-Barrel) 和 [飞行堡垒](/upgrade/2008-Flying-Fortress) 的派生兵种，不能单独部署。
+都城骷髅由 [骷髅飞桶](/upgrade/2007-Skeleton-Barrel)、[飞行堡垒](/upgrade/2008-Flying-Fortress)及其骷髅滑翔机，以及 [墓地法术](/upgrade/2105-Graveyard-Spell) 召唤，不能单独部署。
 
 <SmallTitle>骷髅的属性</SmallTitle>
 
@@ -32,9 +32,9 @@ dataSyncedOn: 2026-10-13
     <UnitProperty pKey="防守人口" pValue="0" />
     <UnitProperty pKey="移动速度" pValue="2 格/秒" />
     <UnitProperty pKey="攻击速度" pValue="1 秒/次" />
-    <UnitProperty pKey="攻击距离" pValue="0.3 格" />
+    <UnitProperty pKey="攻击距离" pValue="0.4 格（维基）" />
     <UnitProperty pKey="每秒伤害" pValue="25" />
     <UnitProperty pKey="每次伤害" pValue="25" />
     <UnitProperty pKey="生命值" pValue="30" />
 </UnitProperties>
-<p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Barbarian/Clan_Capital?oldid=624634" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>
+<p><small>基础属性核对：2026-10-29 · <a href="https://clashofclans.fandom.com/wiki/Skeleton/Clan_Capital" target="_blank" rel="noopener noreferrer">部落冲突维基：都城骷髅</a>。本次未取得固定修订。</small></p>

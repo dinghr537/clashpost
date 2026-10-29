@@ -65,6 +65,6 @@ if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.me
         result.errors.forEach(error => console.error(error));
         process.exitCode = 1;
     } else {
-        console.log(`中文展示检查通过：${result.units} 个同步单位，${result.labels} 个展示文本；目录及页面名称无漏译。`);
+        console.log(`中文展示检查通过：${result.units} 个单位数据文件，${result.labels} 个展示文本；目录及页面名称无漏译。`);
     }
 }

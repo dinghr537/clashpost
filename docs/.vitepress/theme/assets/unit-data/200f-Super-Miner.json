@@ -11,7 +11,26 @@
     "revision": 622259,
     "revisionUrl": "https://clashofclans.fandom.com/wiki/Super_Miner/Clan_Capital?oldid=622259",
     "syncedOn": "2026-10-13",
-    "scope": "Source statistics tables and available 2026 history; base values"
+    "scope": "Source statistics tables and available 2026 history; base values",
+    "reviewedTableCorrections": [
+      {
+        "table": 4,
+        "reviewedOn": "2026-10-29",
+        "originalRows": [
+          ["3", "180", "400", "690", "2,000", "3.700"]
+        ],
+        "cells": [
+          {
+            "level": 3,
+            "header": "Hitpoints",
+            "originalRaw": "3.700",
+            "correctedRaw": "3,700"
+          }
+        ],
+        "sourceUrl": "https://goblinsfarm.com/wiki/clan-capital/troops/super-miner.html",
+        "reason": "The source table uses a period in 3.700. The game-data reference identifies level 3 hitpoints as 3,700."
+      }
+    ]
   },
   "tables": [
     {
@@ -173,8 +192,8 @@
           },
           {
             "status": "known",
-            "value": 3.7,
-            "raw": "3.700"
+            "value": 3700,
+            "raw": "3,700"
           }
         ],
         [

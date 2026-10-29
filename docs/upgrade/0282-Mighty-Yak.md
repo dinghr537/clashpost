@@ -35,7 +35,7 @@ dataSyncedOn: 2026-10-13
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
     <UnitProperty pKey="伤害加成" pValue="对墙 20 倍伤害" />
     <UnitProperty pKey="占据人口" pValue="20" />
-    <UnitProperty pKey="移动速度" pValue="3 格/秒" />
+    <UnitProperty pKey="移动速度" pValue="24（游戏内数值）" />
     <UnitProperty pKey="攻击速度" pValue="2.1 秒/次" />
     <UnitProperty pKey="攻击距离" pValue="1.2 格" />
     <UnitProperty pKey="重新锁定目标的延时" pValue="0.1 秒" />
@@ -46,6 +46,8 @@ dataSyncedOn: 2026-10-13
     <UnitProperty pKey="所需战宠小屋等级" pValue="3" />
     <UnitProperty pKey="所需大本等级" pValue="14" />
 </UnitProperties>
+
+<p><small>移动速度采用玩家提供的游戏内数值 24；<a href="https://clashofclans.fandom.com/wiki/Mighty_Yak#Statistics" target="_blank" rel="noopener noreferrer">Wiki 单位页</a>记为 20，与游戏内数值不同。</small></p>
 
 <SmallTitle>升级数据</SmallTitle>
 

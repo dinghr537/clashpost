@@ -59,7 +59,7 @@ class WikiSyncTests(unittest.TestCase):
 
     def test_sync_preserves_authored_page_body_and_description(self):
         original = ('---\ntitle: 战宠小屋\nmodule: upgrade-home\n'
-                    'description: 英雄配战宠\ndataSyncedOn: 2026-02-23\n---\n\n'
+                    'description: 英雄配战宠\ndataSyncedOn: 2026-02-23\ndataReviewedOn: 2026-03-01\n---\n\n'
                     '<script setup>\nconst columns = ["等级", "生命值", "解锁的战宠"];\n</script>\n'
                     '<SmallTitle>重要说明</SmallTitle>\n\n战宠升级不占用实验室时间。\n'
                     '<a href="/upgrade/0280-L.A.S.S.I">莱希</a>\n'
@@ -69,6 +69,7 @@ class WikiSyncTests(unittest.TestCase):
         self.assertEqual(result.split('\n---', 1)[1], original.split('\n---', 1)[1])
         self.assertIn('description: 英雄配战宠', result)
         self.assertIn('dataSyncedOn: 2026-10-14', result)
+        self.assertNotIn('dataReviewedOn:', result)
         self.assertEqual(result.count('dataSyncedOn:'), 1)
         self.assertEqual(page_content({'unitId': '0487-Pet-House'}, record, existing_text=result), result)
 
