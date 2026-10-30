@@ -36,7 +36,7 @@ dataSyncedOn: 2026-10-13
     <UnitProperty pKey="占据人口" pValue="12" />
     <UnitProperty pKey="移动速度" pValue="2 格/秒" />
     <UnitProperty pKey="攻击速度" pValue="1 秒/次" />
-    <UnitProperty pKey="普攻攻击距离" pValue="3.5 格" />
+    <UnitProperty pKey="普攻攻击距离" pValue="3.5 格<sup>①</sup>" />
     <UnitProperty pKey="远程狙杀次数" pValue="8 次（进攻）<br>3 次（防守）" />
     <UnitProperty pKey="远程狙杀射程" pValue="10.25 格" />
     <UnitProperty pKey="最低亡灵等级" pValue="8" />
@@ -46,6 +46,8 @@ dataSyncedOn: 2026-10-13
     <UnitProperty pKey="训练时间" pValue="无" trainingSystem="2025" />
     <UnitProperty pKey="捐赠费用" pValue="6,6,270,Dark_Elixir" :isDonationCost="true" />
 </UnitProperties>
+
+① 普攻射程的来源有差异：<a href="https://coc.guide/troop/super-minion" target="_blank" rel="noopener noreferrer">旧资料</a>记为 3.5 格，<a href="https://clashofclans.fandom.com/wiki/Super_Minion" target="_blank" rel="noopener noreferrer">部落冲突维基</a>记为 4 格，待游戏内核实。远程狙杀射程不受此项争议影响。
 
 <SmallTitle>升级数据</SmallTitle>
 

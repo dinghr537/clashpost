@@ -2,7 +2,7 @@
 title: "部落冲突 coc 飞龙公爵升级数据"
 navTitle: "飞龙公爵"
 shownTitle: "飞龙公爵"
-description: "这名坦克型飞行英雄因为情绪管理问题被关了起来，一旦远离友方飞行单位，他就会变得更加愤怒与强大！进入皇室狂暴状态后，他的伤害会提升 100、攻击速度提升 50%，同时使自身受到的陷阱伤害减半。在防守时，他只能被敌方的对空单位攻击。"
+description: "这名坦克型飞行英雄因为情绪管理问题被关了起来，一旦远离友方飞行单位，他就会变得更加愤怒与强大！进入皇室狂暴状态后，他的伤害会提升 100%、攻击速度提升 50%，同时使自身受到的陷阱伤害降低 20%。在防守时，他只能被敌方的对空单位攻击。"
 module: upgrade-home
 imgFolder: home_heroes/0205
 wiki: https://clashofclans.fandom.com/wiki/Dragon_Duke
@@ -38,6 +38,7 @@ dataSyncedOn: 2026-10-13
     <UnitProperty pKey="巡逻半径" pValue="3 格<sup>②</sup>" />
     <UnitProperty pKey="落单时伤害提升" pValue="100%" />
     <UnitProperty pKey="落单时攻击速度提升" pValue="50%" />
+    <UnitProperty pKey="落单时陷阱伤害减免" pValue="20%" />
 </UnitProperties>
 
 ① 如果敌军进入这个范围，英雄会奔向敌军，并进行反击。<br>

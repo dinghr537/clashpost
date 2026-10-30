@@ -35,8 +35,8 @@ dataSyncedOn: 2026-10-13
     <UnitProperty pKey="移动速度" pValue="2.5 格/秒" />
     <UnitProperty pKey="攻击速度" pValue="1.8 秒/次" />
     <UnitProperty pKey="攻击距离" pValue="1.25 格" />
-    <UnitProperty pKey="警戒半径" pValue="12 格<sup>①</sup>" />
-    <UnitProperty pKey="巡逻半径" pValue="14 格<sup>②</sup>" />
+    <UnitProperty pKey="警戒半径" pValue="14 格<sup>①</sup>" />
+    <UnitProperty pKey="巡逻半径" pValue="12 格<sup>②</sup>" />
     <UnitProperty pKey="狂暴状态下移动速度提升" pValue="1.5 格/秒" />
     <UnitProperty pKey="狂暴状态下伤害提升" pValue="60%" />
     <UnitProperty pKey="所需大本等级" pValue="18" />

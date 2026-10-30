@@ -22,6 +22,8 @@ dataSyncedOn: 2026-10-13
 
 <SmallTitle>重要说明</SmallTitle>
 
+- 远袭者的范围伤害只会影响与首个命中目标同为地面或同为空中的单位。<small>（来源：<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-february-update-has-escaped/" target="_blank" rel="noopener noreferrer">Supercell 官方更新说明</a>）</small>
+
 - 远袭者的特殊技能（致命一击）：被击倒后会造成爆炸伤害。
     - 这个爆炸没有与 [巨型炸弹](/upgrade/0383-Giant-Bomb) 类似的击退效果。
 

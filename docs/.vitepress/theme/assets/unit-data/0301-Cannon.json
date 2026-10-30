@@ -11,7 +11,37 @@
     "revision": 619060,
     "revisionUrl": "https://clashofclans.fandom.com/wiki/Cannon?oldid=619060",
     "syncedOn": "2026-10-13",
-    "scope": "Source statistics tables and available 2026 history; base values"
+    "scope": "Source statistics tables and available 2026 history; base values",
+    "reviewedTableCorrections": [
+      {
+        "table": 3,
+        "reviewedOn": "2026-10-29",
+        "originalRows": [
+          [
+            "Number Available",
+            "2",
+            "2",
+            "2",
+            "2",
+            "3",
+            "3",
+            "5",
+            "5",
+            "5"
+          ]
+        ],
+        "cells": [
+          {
+            "rowKey": "Number Available",
+            "header": "1",
+            "originalRaw": "2",
+            "correctedRaw": "1"
+          }
+        ],
+        "sourceUrl": "https://www.gibiarena.com/en/clash-of-clans/upgrades/cannon",
+        "reason": "The saved Wiki count row lists two Cannons at Town Hall 1. Game-file-derived data lists one, with the second unlocked at Town Hall 2."
+      }
+    ]
   },
   "tables": [
     {
@@ -39,8 +69,8 @@
           },
           {
             "status": "known",
-            "value": 2,
-            "raw": "2"
+            "value": 1,
+            "raw": "1"
           },
           {
             "status": "known",

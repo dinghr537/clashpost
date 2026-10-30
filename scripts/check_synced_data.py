@@ -8,6 +8,7 @@ import re
 
 from sync_wiki_data import SourceTables, VillageFilter, headers_and_rows, is_unit_image, REVIEWED_IMAGES, history_rows, validate_table_levels
 from check_upgrade_data import seconds
+from check_building_counts import check_building_counts
 from update_authored_data import MAPPINGS, translations, update_page
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -111,8 +112,11 @@ def main():
         levels = [row[0]['value'] for table in records[unit]['tables'] if table['headers'][0] == 'Level' for row in table['rows'] if isinstance(row[0]['value'], int)]
         if max(levels, default=0) < int(required):
             errors.append(unit + ': missing announced maximum level ' + required)
+    building_counts = check_building_counts(records)
+    errors.extend('building counts: ' + str(item) for item in building_counts['errors'])
     print(json.dumps({'units': len(records), 'cells': count, 'announcedLevelGroups': len(announced),
-                      'pinnedSourcesCompared': bool(inventory), 'errors': sorted(set(errors))}, ensure_ascii=False, indent=2))
+                      'pinnedSourcesCompared': bool(inventory), 'buildingCounts': building_counts,
+                      'errors': sorted(set(errors))}, ensure_ascii=False, indent=2))
     if errors:
         raise SystemExit(1)
 

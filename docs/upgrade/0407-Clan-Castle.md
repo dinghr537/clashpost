@@ -37,7 +37,7 @@ dataSyncedOn: 2026-10-13
 <SmallTitle>建筑数量对照表</SmallTitle>
 
 <BuildingNum>
-    <BuildingNumRow title="大本等级" num="1 - 2, 3 - 18" />
+    <BuildingNumRow title="大本等级" num="1, 2 - 18" />
     <BuildingNumRow title="建筑数量" num="    0,      1" />
 </BuildingNum>
 
@@ -47,6 +47,7 @@ dataSyncedOn: 2026-10-13
 2. 部落城堡升级时仍然可以请求援兵。
 3. [雷电法术](/upgrade/0100-Lightning-Spell) 不能对部落城堡造成伤害，[地震法术](/upgrade/0181-Earthquake-Spell) 可以。
 4. 援兵等级上限取决于接收方的部落城堡对应的实验室等级上限，而非捐赠者自身等级。例如，1 级城堡最多接收相当于 5 级实验室可研究的兵种等级；超过上限的援兵会自动降级。超级部队还要求该实验室上限足以将原兵种升至可强化等级。攻城机器使用单独的接收等级限制。<small>（来源：<a href="https://clashofclans.fandom.com/wiki/Clan_Castle?oldid=623293" target="_blank" rel="noopener noreferrer">部落冲突维基</a>）</small>
+5. 部落城堡从 2 本起可修复，但低本玩家可能因圣水容量不足而无法直接支付修复费用。<small>（来源：<a href="https://clashofclans.fandom.com/wiki/Clan_Castle" target="_blank" rel="noopener noreferrer">部落冲突维基</a>）</small>
 
 <UnitProperties>
     <UnitProperty pKey="占地面积" pValue="3×3" />

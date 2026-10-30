@@ -45,6 +45,8 @@ npm run docs:preview
 
 试点差异检查与回归检查需要 Python 3，使用标准库，无额外依赖。将示例快照路径替换为已有、来源记录完整的本地 MediaWiki JSON 文件：
 
+已同步数据检查也会核对页面的建筑数量表和一级解锁条件；来源有争议的项目单独列出，不能当作已经确认的数值。
+
 ```bash
 python3 scripts/check_upgrade_data.py --unit 0301-Cannon --snapshot /path/to/cannon-snapshot.json --output /tmp/cannon-diff.json
 python3 -B scripts/check_synced_data.py

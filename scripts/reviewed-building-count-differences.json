@@ -1,0 +1,42 @@
+[
+  {
+    "unitId": "1203-Gold-Storage",
+    "sourceTableIndex": 1,
+    "row": "Total",
+    "levels": [5],
+    "display": 1,
+    "source": 2,
+    "reason": "The saved Wiki lists two at Builder Hall 5; Builder Base 2.0 player reports say new accounts get the second storage at Builder Hall 6. Await in-game confirmation.",
+    "sourceUrl": "https://www.reddit.com/r/ClashOfClans/comments/13j985e/weekly_questions_megathread/"
+  },
+  {
+    "unitId": "1203-Gold-Storage",
+    "sourceTableIndex": 1,
+    "row": "Stage 1 Limit",
+    "levels": [6, 7, 8, 9, 10],
+    "display": 1,
+    "source": 2,
+    "reason": "The saved Wiki lists two on Stage 1; the official 2.0 announcement says the two storages at Builder Hall 6 must be split between stages. Later hall levels need in-game confirmation.",
+    "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/news/new-battle-copter-and-troop-abilities/"
+  },
+  {
+    "unitId": "1204-Elixir-Storage",
+    "sourceTableIndex": 1,
+    "row": "Total",
+    "levels": [5],
+    "display": 1,
+    "source": 2,
+    "reason": "The saved Wiki lists two at Builder Hall 5; Builder Base 2.0 player reports say new accounts get the second storage at Builder Hall 6. Await in-game confirmation.",
+    "sourceUrl": "https://www.reddit.com/r/ClashOfClans/comments/13j985e/weekly_questions_megathread/"
+  },
+  {
+    "unitId": "1204-Elixir-Storage",
+    "sourceTableIndex": 1,
+    "row": "Stage 1 Limit",
+    "levels": [6, 7, 8, 9, 10],
+    "display": 1,
+    "source": 2,
+    "reason": "The saved Wiki lists two on Stage 1; the official 2.0 announcement says the two storages at Builder Hall 6 must be split between stages. Later hall levels need in-game confirmation.",
+    "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/news/new-battle-copter-and-troop-abilities/"
+  }
+]

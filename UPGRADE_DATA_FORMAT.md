@@ -4,6 +4,8 @@
 
 页面沿用原有 `UnitProperties`、`UnitTable`、模式标签页、图片折叠区与时间线。`scripts/authored-table-mappings.json` 明确指定每张原表的来源和字段，`update_authored_data.py` 只回填数值；新单位同样使用这些组件。战宠小屋使用 `SourceUnitTable.vue` 按页面指定的 `columns` 读取 JSON 字段。不能为了套用来源表格而删除页面内容或重排既有表格，也不能再用 `SyncedUnitData` 替换页面。
 
+`BuildingNum` 数量表不属于 `UnitTable` 映射。`check_building_counts.py` 展开大本等级区间，对照已保存的数量表和页面一级解锁条件，并由 `check_synced_data.py` 调用。合并建筑按合并后的数量比较；来源与其他证据冲突的确切单元格记在 `reviewed-building-count-differences.json`，检查结果仍会列出这些分歧，数值改变后必须重新核对。没有对应来源的页面也会列出，不能视为已通过比较。
+
 ## 来源和范围
 
 `unitId` 沿用原项目编号，`module` 区分家乡、夜世界、都城和活动单位。家乡精工防御与夜世界同名建筑拥有不同编号。

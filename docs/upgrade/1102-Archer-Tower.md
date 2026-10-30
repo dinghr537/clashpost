@@ -65,7 +65,7 @@ const tableExtraInfoFastAttackMode = tableExtraInfoStandardMode;
 
 <BuildingNum>
     <BuildingNumRow title="大本等级" num="1, 2 - 3, 4 - 5, 6 - 10" />
-    <BuildingNumRow title="建筑数量" num="0,     2,     2,      3" />
+    <BuildingNumRow title="建筑数量" num="0,     1,     2,      3" />
 </BuildingNum>
 
 <SmallTitle>属性</SmallTitle>
@@ -126,7 +126,7 @@ const tableExtraInfoFastAttackMode = tableExtraInfoStandardMode;
 
 <BuildingNum>
     <BuildingNumRow title="大本等级" num="1, 2 - 3, 4 - 5, 6 - 10" />
-    <BuildingNumRow title="建筑数量" num="0,     2,     2,      3" />
+    <BuildingNumRow title="建筑数量" num="0,     1,     2,      3" />
 </BuildingNum>
 
 <SmallTitle>属性</SmallTitle>

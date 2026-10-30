@@ -11,7 +11,49 @@
     "revision": 625521,
     "revisionUrl": "https://clashofclans.fandom.com/wiki/Hero_Hall?oldid=625521",
     "syncedOn": "2026-10-13",
-    "scope": "Source statistics tables and available 2026 history; base values"
+    "scope": "Source statistics tables and available 2026 history; base values",
+    "reviewedTableCorrections": [
+      {
+        "table": 1,
+        "reviewedOn": "2026-10-29",
+        "originalRows": [
+          [
+            "Number Available",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "1",
+            "1",
+            "1"
+          ]
+        ],
+        "cells": [
+          {
+            "rowKey": "Number Available",
+            "header": "4",
+            "originalRaw": "0",
+            "correctedRaw": "1"
+          },
+          {
+            "rowKey": "Number Available",
+            "header": "5",
+            "originalRaw": "0",
+            "correctedRaw": "1"
+          },
+          {
+            "rowKey": "Number Available",
+            "header": "6",
+            "originalRaw": "0",
+            "correctedRaw": "1"
+          }
+        ],
+        "sourceUrl": "https://www.gibiarena.com/en/clash-of-clans/upgrades/hero-hall",
+        "reason": "The saved Wiki count row still uses the pre-May-2026 Town Hall 7 unlock, although its level table and history record the Town Hall 4 unlock. The May 26 official update confirms the earlier hero unlock; game-file-derived data lists the Hero Hall at Town Hall 4."
+      }
+    ]
   },
   "tables": [
     {
@@ -54,18 +96,18 @@
           },
           {
             "status": "known",
-            "value": 0,
-            "raw": "0"
+            "value": 1,
+            "raw": "1"
           },
           {
             "status": "known",
-            "value": 0,
-            "raw": "0"
+            "value": 1,
+            "raw": "1"
           },
           {
             "status": "known",
-            "value": 0,
-            "raw": "0"
+            "value": 1,
+            "raw": "1"
           },
           {
             "status": "known",
