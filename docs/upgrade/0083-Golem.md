@@ -174,7 +174,10 @@ const tableExtraInfo = [
 |  12  |     18   |    54   |     180     |  1760  |
 |  13  |     19   |    57   |     190     |  1840  |
 |  14  |     20   |    60   |     200     |  1920  |
+|  15  |     22   |    66   |     210     |  2040  |
 </UnitTable>
+
+<small>小戈仑石人数据来源：<a href="https://clashofclans.fandom.com/wiki/Golem/Golemite" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。</small>
 </SwitchTabGroup>
 
 <!-- ↓↓↓ 公共部分 ↓↓↓ -->

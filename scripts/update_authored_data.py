@@ -142,6 +142,17 @@ def evaluate(spec, source, row, translated, old, header, meta, records, min_town
             if result is not None:
                 return number(max(result, min_town_hall, 11))
         return old or '未知'
+    if 'sameLevelSource' in spec:
+        ref = spec['sameLevelSource']
+        table = next((t for t in records[ref['unit']]['tables']
+                      if t['sourceTableIndex'] == ref['table']), None)
+        if not table or table['headers'] != ref['headers']:
+            raise ValueError('Referenced source schema changed; review mapping before updating')
+        matches = [r for r in table['rows'] if r[0]['value'] == row[0]['value']]
+        if len(matches) != 1:
+            raise ValueError('Referenced source level is missing or ambiguous')
+        cell = matches[0][ref['column']]
+        return cell_text(cell, cell['raw'], meta) if cell['status'] == 'known' else old or '未知'
     if 'duration' in spec:
         cell = row[spec['duration']]
         return duration(cell['raw']) if cell['status'] == 'known' else '\\'
@@ -184,7 +195,8 @@ def update_table(old, mapping, record, translated, records, min_town_hall=0):
                     raise ValueError(f"{record['unitId']}: calculation factor changed; review mapping before updating")
         prefix = source_map.get('levelPrefix', '')
         for ri, row in enumerate(source['rows']):
-            if isinstance(row[0]['value'], (int, float)) and row[0]['value'] < mapping.get('minimumLevel', 0):
+            if (not prefix and isinstance(row[0]['value'], (int, float))
+                    and row[0]['value'] < mapping.get('minimumLevel', 0)):
                 continue
             label = translated[str(source['sourceTableIndex'])][ri]
             key = prefix + plain(number(row[0]['value']) if isinstance(row[0]['value'], (int, float)) else label[0])

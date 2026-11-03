@@ -31,6 +31,7 @@ dataSyncedOn: 2026-10-13
    - \* 这里指带上 [生命宝石](/upgrade/0781-Life-Gem) 这个初始装备后的大守护者，下同。
 2. 和大守护者类似，守护者学徒的光环对自己无效，但对附近的其他守护者学徒有效。如果使用多个守护者学徒，他们可以互相加血。
 3. 守护者学徒的光环对英雄有效。
+   - 光环不会影响攻城机器或图腾法术召唤的图腾。<small>（来源：<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/" target="_blank" rel="noopener noreferrer">Supercell 四月更新公告</a>、<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-february-update-has-escaped/" target="_blank" rel="noopener noreferrer">二月更新公告</a>）</small>
 4. 守护者学徒的光环加成没有上限，4 级守护者学徒能实实在在地给 95 级 [蛮王](/upgrade/0200-Barbarian-King) 加 2900 多血，而大守护者由于上限的存在，只能给加 575 血。
 5. 虽然守护者学徒能给高血量兵种加的血比大守护者多，但是它的光环效果会被大守护者覆盖，因为大守护者的光环加成比例是更高的，只是那个上限影响了大守护者的发挥。
 6. 守护者学徒没有类似大守护者的飞行模式，但它拥有大守护者的跳墙能力。

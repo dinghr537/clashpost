@@ -17,6 +17,7 @@ dataSyncedOn: 2026-10-13
 1. 英雄火炬是 [大守护者](/upgrade/0202-Grand-Warden) 的第三件史诗装备，它在 2025 年 8 月的水花大赛活动中首次开放购买。
 2. 技能持续期间，英雄火炬能为光环内的单位提供弹跳法术的效果，同时提升单位的移动速度，减少他们受到的伤害。
     - 英雄火炬对攻城机器无效。
+    - 英雄火炬对图腾法术召唤的图腾无效。<small>（来源：<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/" target="_blank" rel="noopener noreferrer">Supercell 四月更新公告</a>）</small>
     - 大守护者自身可以享受到英雄火炬的加成效果。
     - 其他英雄只能获得一半的加速效果，但其他效果不受影响。
 3. 和 [永恒书卷](/upgrade/0780-Eternal-Tome) 类似，弹跳、减伤等效果只对光环内的单位有效，离开光环 1 秒后的部队就会失去英雄火炬的效果。在技能生效期间，进入光环或在光环内生成的单位亦可获得英雄火炬的效果。

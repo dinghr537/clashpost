@@ -16,9 +16,10 @@ dataSyncedOn: 2026-10-13
 
 1. 生命宝石是 [大守护者](/upgrade/0202-Grand-Warden) 的两件初始装备之一，另一件是 [永恒书卷](/upgrade/0780-Eternal-Tome)。
 2. 生命宝石装备可以在大守护者周围投射出魔法光环，当我方部队在光环内时，它们会获得额外的生命值。
+   - 光环不会影响攻城机器或图腾法术召唤的图腾。<small>（来源：<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/" target="_blank" rel="noopener noreferrer">Supercell 四月更新公告</a>、<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-february-update-has-escaped/" target="_blank" rel="noopener noreferrer">二月更新公告</a>）</small>
 3. 生命宝石装备可以让大守护者自己获得更高的每秒伤害和生命值，但这不是光环的效果，是装备本身的属性。
 4. 当 [守护者学徒](/upgrade/0089-Apprentice-Warden) 的光环与生命宝石装备的光环叠加时，以加血百分比高的那个为准。守护者学徒的光环在生命值更高的单位上会更强，因为守护者学徒的加血没有上限。
-5. 什么是加血上限呢？假如你的生命宝石装备是 18 级，加血比例 100%，上限 725. 现在你有个 100 血的兵，加血 100% 就是提升 100 滴血，这个数字没有超过 725 的上限，所以最后这个兵在大守护者的光环下可以实实在在地加 100 滴血。但是如果你这个兵有 10 000 滴血呢？10 000 滴血明显超过了 725 的上限，因此最后这个兵在光环下只能加 725 血。这就是所谓的上限。
+5. 什么是加血上限呢？18 级生命宝石的加血比例为 120%，上限为 1 200。100 血的部队会增加 120 血；10 000 血的部队按比例本应增加 12 000 血，但受到上限限制，实际只增加 1 200 血。
 
 <SmallTitle>属性</SmallTitle>
 

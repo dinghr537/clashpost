@@ -41,6 +41,8 @@ const tableExtraInfo0 = [
 <SmallTitle>重要说明</SmallTitle>
 
 1. 擎天箭矢每升3级，各人口档位的额外伤害比例提升0.1%至0.5%；从9级开始，每次还提高1%的伤害减免。
+2. 部署人口超过 250 后使用第三档伤害比例；超过 460 人口也不会使装备失效。<small>（来源：<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-anime-fury-update-is-here/" target="_blank" rel="noopener noreferrer">Supercell 六月更新公告</a>、<a href="https://clashofclans.fandom.com/wiki/Monolith_Arrow#History" target="_blank" rel="noopener noreferrer">部落冲突维基更新历史</a>）</small>
+3. 计算部署人口时，[图腾法术](/upgrade/0109-Totem-Spell) 的图腾计作 1 人口。<small>（来源：<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/august-update-3/" target="_blank" rel="noopener noreferrer">Supercell 八月更新公告</a>）</small>
 
 <SmallTitle>升级数据</SmallTitle>
 

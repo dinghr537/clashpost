@@ -39,7 +39,7 @@ dataSyncedOn: 2026-10-13
 7. 如果召回时部队正受毒药效果<sup>④</sup>影响，那么重新部署之后部队仍然是中毒状态。如果部署后不吃毒，那么部队的中毒效果遵循走出毒药圈时的机制；如果部署后吃毒，那么部队遵循毒药叠加机制。参见：【毒药法术原理】9 项实验让你怀疑你从未用过毒药法术。
    - ④ 包括 [毒药法术](/upgrade/0180-Poison-Spell) 的毒药效果、被 [英雄猎手](/upgrade/0088-Headhunter) 攻击的中毒效果和 14 - 16 级 [大本营](/upgrade/0400-Town-Hall) 被摧毁后的毒雾效果。
 8. 如果部队被召回后没有再部署出去，战斗结束后部队会全部消失，不能回收到兵营。如果英雄或战宠被召回后没有再部署出去，战斗结束后英雄和战宠会恢复到满血状态。
-9.  回溯法术召回部队时是大单位的先被召回，重新部署到战场上时是大单位先出来，与 城堡援军出来的顺序 相反。
+9. 回溯法术会优先召回英雄。其他单位的召回及重新部署顺序仍需进一步核实。<small>（来源：<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/" target="_blank" rel="noopener noreferrer">Supercell 四月更新公告</a>）</small>
 
 <SmallTitle>属性</SmallTitle>
 

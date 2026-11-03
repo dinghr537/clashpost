@@ -44,6 +44,8 @@ dataSyncedOn: 2026-10-13
     <UnitProperty pKey="爆炸延时" pValue="0.75 秒" />
 </UnitProperties>
 
+搜空地雷的最大追踪半径是触发半径的两倍，即 8 格。<small>（来源：<a href="https://clashofclans.fandom.com/wiki/Seeking_Air_Mine" target="_blank" rel="noopener noreferrer">部落冲突维基</a>）</small>
+
 <SmallTitle>升级数据</SmallTitle>
 
 <script setup>

@@ -129,7 +129,10 @@ dataSyncedOn: 2026-10-13
 |      5      |    84   |         336         |  500  |     15    |
 |      6      |    88   |         352         |  550  |     16    |
 |      7      |    90   |         360         |  575  |     17    |
+|      8      |    92   |         368         |  590  |     18    |
 </UnitTable>
+
+<small>雷电小雪怪数据来源：<a href="https://clashofclans.fandom.com/wiki/Super_Yeti/Electromite" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。</small>
 
 \* 1 - 2 级雷电小雪怪只在 奖章活动 中出现，不能通过常规方式得到。
 </SwitchTabGroup>

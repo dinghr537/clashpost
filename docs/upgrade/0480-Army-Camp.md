@@ -133,8 +133,7 @@ const tableExtraInfo = [
         <TimelineRow>8 ~ 11 级兵营的升级费用和升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2021/04/12">
-        <TimelineRow>14 本推出，并在 14 本新增 15 级兵营。</TimelineRow>
-        <TimelineRow>2 ~ 3 级兵营的升级时间减少。</TimelineRow>
+        <TimelineRow>2、8、9 级兵营的升级时间减少，1、2、7 ~ 9 级的建造或升级费用降低。<a href="https://clashofclans.fandom.com/wiki/Army_Camp/Home_Village" target="_blank" rel="noopener noreferrer">来源</a></TimelineRow>
     </TimelineItem>
     <TimelineItem date="2020/10/12">
         <TimelineRow>13 本新增 11 级兵营。</TimelineRow>

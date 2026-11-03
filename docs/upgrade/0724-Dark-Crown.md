@@ -19,6 +19,7 @@ dataSyncedOn: 2026-10-13
     - 除亡灵王子外的英雄均计入总人口，每个英雄为 25 人口。如果英雄被 [复苏法术](/upgrade/0108-Revive-Spell) 复苏后再次被击败，可重复计算人口。
     - 战宠视为 20 人口。
     - 召唤出来的部队会被计算在内，例如 [女巫](/upgrade/0084-Witch) 的骷髅兵、[攻城训练营](/upgrade/0243-Siege-Barracks) 召唤的皮卡等等。
+    - [图腾法术](/upgrade/0109-Totem-Spell) 召唤的图腾按 1 人口计算。<small>（来源：<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/august-update-3/" target="_blank" rel="noopener noreferrer">Supercell 八月更新公告</a>）</small>
     - 在攻击过程中自杀的部队也会被计算在内，如 [炸弹人](/upgrade/0004-Wall-Breaker)、[小雪怪](/upgrade/000d-Yeti)。
     - 法术不是部队，不会计入总人口。
     - 攻城机器、[镜像法术](/upgrade/0105-Clone-Spell) 复制的部队不会被计算在内。

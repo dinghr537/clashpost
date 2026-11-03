@@ -6,6 +6,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
 from update_authored_data import parse_tables, update_page
 from sync_wiki_data import source_cell
+from check_synced_data import unmapped_charge_tables, missing_charge_rows
 
 
 class AuthoredTableTests(unittest.TestCase):
@@ -71,6 +72,39 @@ class AuthoredTableTests(unittest.TestCase):
                                       'rows': [[source_cell('0.7s')]]})
         with self.assertRaisesRegex(ValueError, 'calculation factor changed'):
             self.update()
+
+    def test_unmapped_supercharge_table_is_reported(self):
+        charge = {'sourceTableIndex': 9, 'headers': ['Charge Level ⚡', 'Hitpoints'], 'rows': []}
+        self.record['tables'].append(charge)
+        self.assertEqual(unmapped_charge_tables(self.record, [self.mapping]), [9])
+        self.mapping['additionalSourceTables'] = [{'sourceTableIndex': 9, 'levelPrefix': '⚡'}]
+        self.assertEqual(unmapped_charge_tables(self.record, [self.mapping]), [])
+
+    def test_minimum_base_level_does_not_filter_supercharge_levels(self):
+        charge = {'sourceTableIndex': 9, 'headers': ['Charge', 'Hitpoints', 'Town Hall Level'],
+                  'rows': [[source_cell(v) for v in ['1', '500', '18']]]}
+        self.record['tables'].append(charge)
+        self.translated['9'] = [[c['raw'] for c in charge['rows'][0]]]
+        self.mapping['minimumLevel'] = 2
+        self.mapping['additionalSourceTables'] = [{'sourceTableIndex': 9, 'sourceHeaders': charge['headers'][:],
+                                                   'columns': {'0': 0, '1': 1, '2': 2}, 'levelPrefix': '⚡'}]
+        self.assertEqual(missing_charge_rows(self.record, [self.mapping], self.text), [(9, '⚡1')])
+        result, _ = self.update()
+        self.assertIn('⚡1', [row[0] for row in parse_tables(result)[0]['rows']])
+        self.assertEqual(missing_charge_rows(self.record, [self.mapping], result), [])
+
+    def test_requirement_can_use_the_same_charge_from_another_mode(self):
+        reference = {'sourceTableIndex': 8, 'headers': ['Charge', 'Town Hall'],
+                     'rows': [[source_cell('1'), source_cell('18')],
+                              [source_cell('2'), source_cell('18')]]}
+        self.record['tables'].append(reference)
+        self.mapping['columns']['2'] = {'sameLevelSource': {'unit': 'test', 'table': 8,
+                                                           'headers': reference['headers'][:], 'column': 1}}
+        result, _ = update_page(self.text, [self.mapping], self.record, self.translated, {'test': self.record})
+        self.assertTrue(all(row[2] == '18' for row in parse_tables(result)[0]['rows']))
+        reference['rows'].pop()
+        with self.assertRaisesRegex(ValueError, 'missing or ambiguous'):
+            update_page(self.text, [self.mapping], self.record, self.translated, {'test': self.record})
 
 
 if __name__ == '__main__':

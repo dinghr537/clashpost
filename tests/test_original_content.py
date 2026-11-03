@@ -14,6 +14,9 @@ sys.path.insert(0, str(ROOT / 'scripts'))
 from update_authored_data import parse_tables
 
 BASELINE = '9e77a85'
+# This date contained two Seeking Air Mine events copied into the Skeleton Trap page.
+# The actual level 4 Skeleton Trap was added on 2018-03-05.
+REVIEWED_REMOVED_DATES = {'docs/upgrade/0385-Skeleton-Trap.md': Counter({'2019/12/09': 1})}
 
 
 class OriginalContentTests(unittest.TestCase):
@@ -38,8 +41,14 @@ class OriginalContentTests(unittest.TestCase):
                 for component in ('Panel', 'SwitchTabGroup', 'BuildingNum', 'DistrictTable'):
                     self.assertGreaterEqual(len(re.findall('<' + component + r'\b', current)),
                                             len(re.findall('<' + component + r'\b', original)), component)
-                for pattern in (r'imgHd="([^"]+)"', r'<TimelineItem\b[^>]*?date="([^"]+)"'):
-                    self.assertFalse(Counter(re.findall(pattern, original)) - Counter(re.findall(pattern, current)))
+                self.assertFalse(Counter(re.findall(r'imgHd="([^"]+)"', original)) -
+                                 Counter(re.findall(r'imgHd="([^"]+)"', current)))
+                dates = r'<TimelineItem\b[^>]*?date="([^"]+)"'
+                missing_dates = Counter(re.findall(dates, original)) - Counter(re.findall(dates, current))
+                self.assertEqual(missing_dates, REVIEWED_REMOVED_DATES.get(name, Counter()))
+                if name in REVIEWED_REMOVED_DATES:
+                    self.assertIn('date="2018/03/05"', current)
+                    self.assertIn('新增 4 级骷髅陷阱', current)
                 before = parse_tables(original)
                 after = parse_tables(current)
                 if path.stem == '0487-Pet-House':

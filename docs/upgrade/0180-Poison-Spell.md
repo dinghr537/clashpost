@@ -17,6 +17,7 @@ dataSyncedOn: 2026-10-13
 <SmallTitle>重要说明</SmallTitle>
 
 1. 毒药法术对敌方英雄有效，伤害只有其他单位的 5％，但减速效果是全额的。
+   - 对大本营守卫造成的毒药伤害为正常伤害的 30%。<small>（来源：<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/" target="_blank" rel="noopener noreferrer">Supercell 四月更新公告</a>）</small>
 2. 毒药法术不能对建筑造成伤害，也不能减缓建筑的攻击速度。
 3. 中毒状态下，兵种的每次伤害和非中毒状态一致，并不会因为攻速变慢而产生更高的每次伤害。
 4. 毒药法术的伤害成二次函数递增，约 8 秒达到最大伤害。离开毒药范围后伤害递减，递减速度是增加的两倍。<small>（来源：<a href="https://clashpost.com/upgrade/0180-Poison-Spell" target="_blank" rel="noopener noreferrer">原站毒药法术数据页</a>）</small>

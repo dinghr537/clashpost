@@ -47,6 +47,8 @@ dataSyncedOn: 2026-10-13
     <UnitProperty pKey="弹射距离" pValue="6 格" />
 </UnitProperties>
 
+弹射陷阱也可以弹射跳跃单位，例如野猪骑士。<small>（来源：<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/full-patch-notes-bb2/" target="_blank" rel="noopener noreferrer">Supercell 夜世界更新公告</a>）</small>
+
 <SmallTitle>升级数据</SmallTitle>
 
 <script setup>

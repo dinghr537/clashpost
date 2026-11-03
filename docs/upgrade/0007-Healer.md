@@ -35,6 +35,7 @@ dataSyncedOn: 2026-10-13
 3. 天使不会跟随 [炸弹人](/upgrade/0004-Wall-Breaker)、[超级炸弹人](/upgrade/0603-Super-Wall-Breaker)、[小雪怪](/upgrade/000d-Yeti) 等攻击一次后就会死亡的部队。
 4. 天使不会治疗被 [凤凰](/upgrade/0287-Phoenix) 复活的英雄。
 5. 安装包中所给天使的攻速是 0.7 秒，但经实测，天使每两发奶的间隔并不稳定，而是在 0.7 秒和 0.82 秒这两个数字中横跳。由于天使的攻速不稳定，但每发奶的治疗量却是固定的（每秒治疗量 × 0.7），因此计算天使在一定时间内的治疗量时，应以每发奶治疗量作为计算对象，而不应以每秒治疗量作为计算对象，否则会导致计算所得的治疗量高于实际治疗量。<small>（来源：<a href="https://clashpost.com/p/2102" target="_blank" rel="noopener noreferrer">原站天使治疗机制研究</a>）</small>
+6. 防守天使的溅射治疗不会给防御建筑加血。<small>（来源：<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/full-patch-notes-th14-update/" target="_blank" rel="noopener noreferrer">Supercell 更新公告</a>）</small>
 
 <SmallTitle>属性</SmallTitle>
 

@@ -34,6 +34,7 @@ dataSyncedOn: 2026-10-13
 
 1. 熔岩气球在 2023 年 10 月的合体狂潮活动中首次推出，在活动中获取 35 000 酸腐圣水（任务点数）即可解锁，并在 2024 年 10 月的合体狂热活动中返场，这次只需 100 酸腐圣水即可解锁。
 2. 熔岩气球的 AI 类似于 [熔岩猎犬](/upgrade/0085-Lava-Hound) 和 [寒冰猎犬](/upgrade/060a-Ice-Hound)，同样以防空火箭为优先攻击目标，同样有分裂功能。
+3. 2025 年活动中的熔岩气球占 35 人口；维基来源另记为 21，其他活动版本的具体数值尚未确认。<small>（来源：<a href="https://clashofclans.fandom.com/wiki/Lavaloon" target="_blank" rel="noopener noreferrer">部落冲突维基</a>）</small>
 
 <SmallTitle>属性</SmallTitle>
 
@@ -43,7 +44,7 @@ dataSyncedOn: 2026-10-13
     <UnitProperty pKey="伤害类型" pValue="范围伤害" />
     <UnitProperty pKey="伤害半径" pValue="1.8 格" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
-    <UnitProperty pKey="占据人口" pValue="35" />
+    <UnitProperty pKey="占据人口" pValue="35（2025 年活动）" />
     <UnitProperty pKey="移动速度" pValue="2 格/秒" />
     <UnitProperty pKey="攻击速度" pValue="2.5 秒/次" />
     <UnitProperty pKey="攻击距离" pValue="0 格 (建筑头顶)" />
@@ -122,7 +123,11 @@ dataSyncedOn: 2026-10-13
 |   9  |    34   |    34   |   50   |
 |  10  |    37   |    37   |   55   |
 |  11  |    40   |    40   |   60   |
+|  12  |    42   |    42   |   65   |
+|  13  |    44   |    44   |   70   |
 </UnitTable>
+
+<small>迷你熔岩气球犬数据来源：<a href="https://clashofclans.fandom.com/wiki/Lavaloon/Lavaloon_Pup" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。</small>
 </SwitchTabGroup>
 
 <!-- ↓↓↓ 公共部分 ↓↓↓ -->

@@ -19,6 +19,7 @@ dataSyncedOn: 2026-10-13
    - 巨箭的行进方向取决于女王使用技能时的目标位置以及女王自身的位置。沿着女王和目标的中心点画一条射线，这条线就是巨箭的路径。如果使用技能时场上所有的目标都被 [隐形法术](/upgrade/0106-Invisibility-Spell) 隐藏了，则巨箭的方向就是女王正对着的方向。
    - 如果敌方部队正好在巨箭的路径上，则地面部队和空中部队都可以被击中。
    - [狂暴法术](/upgrade/0102-Rage-Spell) 不能提升巨箭的伤害。
+   - 巨箭对 [防空火箭](/upgrade/0304-Air-Defense) 造成 2 倍伤害。<small>（来源：<a href="https://supercell.com/en/games/clashofclans/blog/news/state-of-gameplay-part-2/" target="_blank" rel="noopener noreferrer">Supercell 平衡性调整</a>）</small>
 3. 除了射出一支巨大的箭之外，巨型箭矢装备还可以给女王提供额外的每秒伤害和生命值。
 
 <SmallTitle>属性</SmallTitle>

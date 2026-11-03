@@ -132,6 +132,8 @@ const tableExtraInfoFastMode = tableExtraInfoStandardMode;
 | 16 | 60 | 300 | 2300 | 7000000 | 4,0,0,0 |  | 16 |
 | 17 | 66 | 330 | 2450 | 13000000 | 5,0,0,0 |  | 17 |
 | 18 | 72 | 360 | 2550 | 21000000 | 12,12,0,0 |  | 18 |
+| ⚡1 | 75 | 375 | 2550 | 9000000 | 4,0,0,0 |  | 18 |
+| ⚡2 | 75 | 375 | 2625 | 7000000 | 6,0,0,0 |  | 18 |
 
 </UnitTable>
 </SwitchTabGroup>
@@ -185,6 +187,8 @@ const tableExtraInfoFastMode = tableExtraInfoStandardMode;
 
 \* 多管迫击炮的攻击间隔是：3 连发期间每发 0.5 秒，之后停顿 4 秒。如果目标在多管还没打完 3 连发之前死亡，导致多管没有发射全部3发炮弹时，每发没有射出去的炮弹会减少 0.5 秒攻击间隔。上述的 5 秒指的是一整个周期的时间，0.5 * (3 - 1) + 4 = 5 (秒)
 
+多管迫击炮首次连发前有 0.5 秒延迟。<small>（来源：<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/" target="_blank" rel="noopener noreferrer">Supercell 四月更新公告</a>）</small>
+
 <SmallTitle>升级数据</SmallTitle>
 
 <UnitTable :tableExtraInfo="tableExtraInfoFastMode">
@@ -202,11 +206,15 @@ const tableExtraInfoFastMode = tableExtraInfoStandardMode;
 | 16 | 73 | 123.13 | 2300 | 7000000 | 4,0,0,0 |  | 16 |
 | 17 | 80 | 134.78 | 2450 | 13000000 | 5,0,0,0 |  | 17 |
 | 18 | 88 | 148.09 | 2550 | 21000000 | 12,12,0,0 |  | 18 |
+| ⚡1 | 91 | 153.08 | 2550 | 9000000 | 4,0,0,0 |  | 18 |
+| ⚡2 | 91 | 153.08 | 2625 | 7000000 | 6,0,0,0 |  | 18 |
 </UnitTable>
 </SwitchTabGroup>
 
 <!-- ↓↓↓ 公共部分 ↓↓↓ -->
 注：迫击炮改装后每秒伤害会略微提高。
+
+两级充能适用于 18 级迫击炮，标准模式与多管模式均需 18 本。<small>（来源：<a href="https://clashofclans.fandom.com/wiki/Mortar" target="_blank" rel="noopener noreferrer">部落冲突维基</a>）</small>
 
 <SmallTitle>更新历史</SmallTitle>
 

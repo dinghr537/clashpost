@@ -32,6 +32,7 @@ const tableExtraInfo0 = [
 <SmallTitle>重要说明</SmallTitle>
 
 1. 解锁条件：18级大本营。
+2. 毒药法术对滚木守卫造成正常值 30% 的伤害；被冻结时滚木守卫不会激活。<small>（来源：<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/" target="_blank" rel="noopener noreferrer">Supercell 四月更新公告</a>）</small>
 
 <SmallTitle>属性</SmallTitle>
 

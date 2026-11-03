@@ -22,6 +22,8 @@ dataSyncedOn: 2026-10-13
 
 <SmallTitle>重要说明</SmallTitle>
 
+- 毒药法术对粉碎者造成正常值 30% 的伤害；被冻结时粉碎者不会激活。<small>（来源：<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/" target="_blank" rel="noopener noreferrer">Supercell 四月更新公告</a>）</small>
+
 - 粉碎者的特殊技能（败局狂怒）：大本营被摧毁会进入狂暴状态，这种状态会持续到他被击倒为止。另外，粉碎者在被击倒后会释放一个狂暴法术，其效果与 [狂暴法术塔](/upgrade/0311-Spell-Tower) 相同，可强化防御建筑和防守方单位。
     - 无论粉碎者被击倒前是否进入了狂暴状态，这个狂暴法术都会释放。
 
@@ -79,7 +81,7 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2026/04/27">
-        <TimelineRow>粉碎者开始受毒药法术影响，效果为正常值的30%。</TimelineRow>
+        <TimelineRow>毒药法术重新对粉碎者造成伤害，伤害为正常值的 30%。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
         <TimelineRow>守卫被冻结时，不再触发激活。 <a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
     </TimelineItem>
     <TimelineItem date="2026/02/23">

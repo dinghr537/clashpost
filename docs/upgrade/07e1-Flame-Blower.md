@@ -16,7 +16,8 @@ dataSyncedOn: 2026-10-13
 
 1. 助燃器是 [飞龙公爵](/upgrade/0205-Dragon-Duke) 的两件初始装备之一，另一件是 [烈焰之心](/upgrade/07e0-Fire-Heart)。
 2. 开启技能后，飞龙公爵面前会喷出锥形火焰，可造成大量伤害。
-3. 烈焰之心装备还可以增加飞龙公爵生命值以及技能状态下的生命值恢复量。
+3. 助燃器还可以增加飞龙公爵的生命值以及开启技能后的生命值恢复量。
+4. 同时装备 [火箭背包](/upgrade/07e3-Rocket-Backpack) 时，先触发助燃器，再触发火箭背包；顺序不受装备栏位置影响。<small>（来源：<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-anime-fury-update-is-here/" target="_blank" rel="noopener noreferrer">Supercell 六月更新公告</a>）</small>
 
 <SmallTitle>属性</SmallTitle>
 

@@ -148,8 +148,11 @@ const tableExtraInfo = [
 |    5    |   84   |          336         |            168          |          42          |   500  |
 |    6    |   88   |          352         |            176          |          44          |   550  |
 |    7    |   90   |          360         |            180          |          45          |   575  |
+|    8    |   92   |          368         |            184          |          46          |   590  |
 
 </UnitTable>
+
+<small>小雪怪数据来源：<a href="https://clashofclans.fandom.com/wiki/Yeti/Yetimite" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。</small>
 </SwitchTabGroup>
 
 <!-- ↓↓↓ 公共部分 ↓↓↓ -->

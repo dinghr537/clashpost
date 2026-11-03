@@ -126,7 +126,7 @@ const tableExtraInfo = [
         <TimelineRow>9 ~ 10 级暗黑重油罐的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/12/12">
-        <TimelineRow>新增 10 级暗黑重油罐，16 级大本营可解锁。</TimelineRow>
+        <TimelineRow>新增 11 级暗黑重油罐，16 级大本营可解锁。<a href="https://supercell.com/en/games/clashofclans/blog/game-updates/december-2023-town-hall-16/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
         <TimelineRow>6, 8 ~ 10 级暗黑重油罐的升级费用降低。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/06/12">
@@ -142,7 +142,7 @@ const tableExtraInfo = [
         <TimelineRow>1 ~ 2 级暗黑重油罐的升级时间减少。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/12/09">
-        <TimelineRow>新增 14 级暗黑重油罐，8 级大本营可解锁。</TimelineRow>
+        <TimelineRow>新增 8 级暗黑重油罐，13 级大本营可解锁。<a href="https://supercell.com/en/games/clashofclans/blog/news/december-update-patch-notes/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
         <TimelineRow>12 级大本营可掠夺的黑油增加至 4000（不含采集器和城堡）。</TimelineRow>
     </TimelineItem>
         <TimelineItem date="2019/04/02">

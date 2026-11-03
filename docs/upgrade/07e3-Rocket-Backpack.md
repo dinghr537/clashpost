@@ -18,6 +18,7 @@ dataSyncedOn: 2026-10-13
 2. 使用时，飞龙公爵会沿直线飞行，穿越整座基地，并对路径上的所有目标造成伤害。
 3. 飞行期间，飞龙公爵不会被选为目标，也不会触发陷阱或部落城堡援军，但会触发特斯拉电磁塔。
 4. 除了主动技能外，火箭背包还会提升飞龙公爵的每秒伤害、生命值，以及开启技能后的生命值恢复量。
+5. 同时装备 [助燃器](/upgrade/07e1-Flame-Blower) 时，先触发助燃器，再触发火箭背包；顺序不受装备栏位置影响。<small>（来源：<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-anime-fury-update-is-here/" target="_blank" rel="noopener noreferrer">Supercell 六月更新公告</a>）</small>
 
 <SmallTitle>属性</SmallTitle>
 

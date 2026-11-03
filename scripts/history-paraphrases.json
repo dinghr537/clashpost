@@ -166,5 +166,19 @@
     "date": "2026-04-27",
     "description": "Added the Electro Fangs.",
     "requiredText": "新装备：雷电獠牙。"
+  },
+  {
+    "unitId": "0840-Longshot",
+    "date": "2026-04-27",
+    "description": "Made the Longshot affected by the Poison Spell, but its effects only apply by 30%. Poison Effect",
+    "requiredText": "毒药法术重新对远袭者造成伤害，伤害为正常值的 30%。",
+    "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/"
+  },
+  {
+    "unitId": "0841-Smasher",
+    "date": "2026-04-27",
+    "description": "Made the Smasher affected by the Poison Spell, but its effects only apply by 30%. Poison Effect",
+    "requiredText": "毒药法术重新对粉碎者造成伤害，伤害为正常值的 30%。",
+    "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/"
   }
 ]

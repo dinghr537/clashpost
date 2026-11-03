@@ -24,6 +24,8 @@ dataSyncedOn: 2026-10-13
 
 - 远袭者的范围伤害只会影响与首个命中目标同为地面或同为空中的单位。<small>（来源：<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-february-update-has-escaped/" target="_blank" rel="noopener noreferrer">Supercell 官方更新说明</a>）</small>
 
+- 毒药法术对远袭者造成正常值 30% 的伤害；被冻结时远袭者不会激活。<small>（来源：<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/" target="_blank" rel="noopener noreferrer">Supercell 四月更新公告</a>）</small>
+
 - 远袭者的特殊技能（致命一击）：被击倒后会造成爆炸伤害。
     - 这个爆炸没有与 [巨型炸弹](/upgrade/0383-Giant-Bomb) 类似的击退效果。
 
@@ -81,7 +83,7 @@ const tableExtraInfo = [
 
 <Timeline>
     <TimelineItem date="2026/04/27">
-        <TimelineRow>远袭者开始受毒药法术影响，效果为正常值的30%。</TimelineRow>
+        <TimelineRow>毒药法术重新对远袭者造成伤害，伤害为正常值的 30%。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
         <TimelineRow>守卫被冻结时，不再触发激活。 <a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
     </TimelineItem>
     <TimelineItem date="2026/02/23">

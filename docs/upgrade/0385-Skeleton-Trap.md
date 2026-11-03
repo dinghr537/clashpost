@@ -167,12 +167,11 @@ const tableExtraInfo = [
         <TimelineRow>2 ~ 4 级骷髅陷阱的升级时间减少。</TimelineRow>
         <TimelineRow>2 ~ 3 级骷髅陷阱的升级费用降低。</TimelineRow>
     </TimelineItem>
-    <TimelineItem date="2019/12/09">
-        <TimelineRow>13 本推出，并在 13 本新增 4 级搜空地雷。</TimelineRow>
-        <TimelineRow>13 本新解锁一个搜空地雷。</TimelineRow>
-    </TimelineItem>
     <TimelineItem date="2019/04/02">
         <TimelineRow>玩家上线后，所有的陷阱将自动被重新布置，重新布置不再需要花费金币。然而，如果玩家不上线，陷阱就不会被重新布置，所以你仍然可以攻击到陷阱失效的村庄。</TimelineRow>
+    </TimelineItem>
+    <TimelineItem date="2018/03/05">
+        <TimelineRow>新增 4 级骷髅陷阱。<a href="https://clashofclans.fandom.com/wiki/Skeleton_Trap" target="_blank" rel="noopener noreferrer">来源</a></TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>

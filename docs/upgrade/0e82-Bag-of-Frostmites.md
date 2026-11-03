@@ -53,8 +53,8 @@ canonical: /upgrade/0e82-Bag-of-Frostmites
 
 | 等级 | 冰冻时间 |生成的<br>小冰怪数量|对应的<br>大本等级|
 |  --- |   ---   |        ---        |       ----     |
-|   3  |  1.5 秒 |          8        |        6       |
-|   3  |  1.7 秒 |          9        |        7       |
+|   1  |  1.5 秒 |          8        |        6       |
+|   2  |  1.7 秒 |          9        |        7       |
 |   3  |  1.9 秒 |         10        |        8       |
 |   4  |  2.1 秒 |         11        |        9       |
 |   5  |  2.3 秒 |         12        |       10       |
@@ -67,6 +67,8 @@ canonical: /upgrade/0e82-Bag-of-Frostmites
 |  12  |  3.7 秒 |         17        |       17       |
 |  13  |  3.9 秒 |         18        |       18       |
 </UnitTable>
+
+11 级的数量按<a href="https://clashofclans.fandom.com/wiki/Bag_of_Frostmites" target="_blank" rel="noopener noreferrer">维基当前表格</a>列为 17；2023 年历史中的 16 是当时的数值，后续调整的具体时间尚未确认。
 
 <SmallTitle>更新历史</SmallTitle>
 

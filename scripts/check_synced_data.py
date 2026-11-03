@@ -9,9 +9,40 @@ import re
 from sync_wiki_data import SourceTables, VillageFilter, headers_and_rows, is_unit_image, REVIEWED_IMAGES, history_rows, validate_table_levels
 from check_upgrade_data import seconds
 from check_building_counts import check_building_counts
-from update_authored_data import MAPPINGS, translations, update_page
+from update_authored_data import MAPPINGS, translations, update_page, parse_tables, plain, number
 
 ROOT = Path(__file__).resolve().parents[1]
+
+
+def unmapped_charge_tables(record, plans):
+    """Report saved supercharge tables that no authored table will display."""
+    refs = {entry.get('sourceTableIndex')
+            for plan in plans for entry in [plan, *plan.get('additionalSourceTables', [])]
+            if entry.get('levelPrefix') == '⚡'}
+    return [table['sourceTableIndex'] for table in record['tables']
+            if table['headers'] and re.fullmatch(r'Charge(?:\s+Level)?(?:\s*⚡)?',
+                                                 table['headers'][0], re.I)
+            and table['sourceTableIndex'] not in refs]
+
+
+def missing_charge_rows(record, plans, page):
+    """A mapping alone is not enough: every charge must appear in its own mode."""
+    tables = parse_tables(page)
+    missing = []
+    for plan in plans:
+        for source in [plan, *plan.get('additionalSourceTables', [])]:
+            if source.get('levelPrefix') != '⚡':
+                continue
+            table = next(t for t in record['tables'] if t['sourceTableIndex'] == source['sourceTableIndex'])
+            shown = {plain(row[0]) for row in tables[plan['table']]['rows']}
+            for row in table['rows']:
+                value = row[0]['value']
+                if not isinstance(value, (int, float)):
+                    raise ValueError('Supercharge level is not numeric')
+                label = '⚡' + number(value)
+                if label not in shown:
+                    missing.append((table['sourceTableIndex'], label))
+    return missing
 
 
 def main():
@@ -38,11 +69,15 @@ def main():
                 expected, _ = update_page(current, mappings[record['unitId']], record, translated[record['unitId']], records)
                 if expected != current:
                     errors.append(record['unitId'] + ': authored table values need updating')
+                for index, label in missing_charge_rows(record, mappings[record['unitId']], current):
+                    errors.append(record['unitId'] + ': supercharge row missing: ' + str(index) + ' ' + label)
             except (ValueError, KeyError, StopIteration) as error:
                 errors.append(record['unitId'] + ': ' + str(error))
         elif not page.exists() or record['unitId'] + '.json' not in page.read_text():
             errors.append(record['unitId'] + ': page does not load its data')
         parser = None
+        for index in unmapped_charge_tables(record, mappings.get(record['unitId'], [])):
+            errors.append(record['unitId'] + ': supercharge source table is not displayed: ' + str(index))
         if inventory and record['sync'].get('revision') is None:
             errors.append(record['unitId'] + ': no pinned source revision for cache comparison')
         elif inventory:
