@@ -45,7 +45,7 @@ dataSyncedOn: 2026-10-13
 
 <UnitProperties>
     <UnitProperty pKey="攻击方式" pValue="部署后生成额外部队" />
-    <UnitProperty pKey="占据人口" pValue="30" />
+    <UnitProperty pKey="占据人口" pValue="不占用（使用独立栏位）" />
     <UnitProperty pKey="最长生存时间" pValue="30 秒" />
     <UnitProperty pKey="移动速度" pValue="0 (无法移动)" />
     <UnitProperty pKey="所需攻城机器工坊等级" pValue="4" />

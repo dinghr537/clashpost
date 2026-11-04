@@ -9,6 +9,7 @@ import re
 from sync_wiki_data import SourceTables, VillageFilter, headers_and_rows, is_unit_image, REVIEWED_IMAGES, history_rows, validate_table_levels
 from check_upgrade_data import seconds
 from check_building_counts import check_building_counts
+from check_district_counts import check_district_counts
 from update_authored_data import MAPPINGS, translations, update_page, parse_tables, plain, number
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -149,8 +150,11 @@ def main():
             errors.append(unit + ': missing announced maximum level ' + required)
     building_counts = check_building_counts(records)
     errors.extend('building counts: ' + str(item) for item in building_counts['errors'])
+    district_counts = check_district_counts(records)
+    errors.extend('district counts: ' + str(item) for item in district_counts['errors'])
     print(json.dumps({'units': len(records), 'cells': count, 'announcedLevelGroups': len(announced),
                       'pinnedSourcesCompared': bool(inventory), 'buildingCounts': building_counts,
+                      'districtCounts': district_counts,
                       'errors': sorted(set(errors))}, ensure_ascii=False, indent=2))
     if errors:
         raise SystemExit(1)

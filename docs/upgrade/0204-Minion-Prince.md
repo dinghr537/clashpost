@@ -31,7 +31,7 @@ dataSyncedOn: 2026-10-13
     <UnitProperty pKey="占据人口" pValue="25" />
     <UnitProperty pKey="移动速度" pValue="3 格/秒" />
     <UnitProperty pKey="攻击速度" pValue="0.85 秒/次" />
-    <UnitProperty pKey="攻击距离" pValue="4.5 格" />
+    <UnitProperty pKey="攻击距离" pValue="4.5 格<sup>③</sup>" />
     <UnitProperty pKey="所需英雄殿堂等级" pValue="3" />
     <UnitProperty pKey="所需大本等级" pValue="9" />
     <UnitProperty pKey="搜索半径" pValue="10 格<sup>①</sup>" />
@@ -39,7 +39,8 @@ dataSyncedOn: 2026-10-13
 </UnitProperties>
 
 ① 如果敌军进入这个范围，英雄会奔向敌军，并进行反击。<br>
-② 在没有敌人的情况下，英雄也会走动，而这个走动的范围叫巡逻半径。
+② 在没有敌人的情况下，英雄也会走动，而这个走动的范围叫巡逻半径。<br>
+③ <a href="https://cocwarbase.com/minion-prince/" target="_blank" rel="noopener noreferrer">CoC War Base</a>记为 4.5 格，<a href="https://clashofclans.fandom.com/wiki/Minion_Prince" target="_blank" rel="noopener noreferrer">部落冲突维基</a>记为 3.5 格；测量口径和当前值尚待核实。
 
 <SmallTitle>升级数据</SmallTitle>
 

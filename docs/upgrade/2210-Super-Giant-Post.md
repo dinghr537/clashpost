@@ -38,9 +38,11 @@ dataSyncedOn: 2026-10-13
 
 |             |   1   |   2   |   3   |   4   |   5   |
 |     ---     |  ---  |  ---  |  ---  |  ---  |  ---  |
-|  野蛮人兵营  |   0   |   1   |   2   |   2   |   3   |
+|  野蛮人兵营  |   0   |   2   |   3   |   3   |   3   |
 
 </DistrictTable>
+
+<p><small>子城数量核对：2026-11-03 · <a href="https://clash-of-clans.1337wiki.com/barbarian-camp/" target="_blank" rel="noopener noreferrer">野蛮人兵营资料</a>；另与页面所列维基修订一致。</small></p>
 
 <SmallTitle>属性</SmallTitle>
 

@@ -37,10 +37,12 @@ dataSyncedOn: 2026-10-13
     <UnitProperty pKey="占据人口" pValue="20" />
     <UnitProperty pKey="移动速度" pValue="2 格/秒" />
     <UnitProperty pKey="攻击速度" pValue="0.75 秒/次" />
-    <UnitProperty pKey="攻击距离" pValue="5 格" />
+    <UnitProperty pKey="攻击距离" pValue="5 格<sup>①</sup>" />
     <UnitProperty pKey="所需战宠小屋等级" pValue="10" />
     <UnitProperty pKey="所需大本等级" pValue="16" />
 </UnitProperties>
+
+① 攻击距离的资料存在差异：<a href="https://wiki.clashperk.com/pets/angry-jelly" target="_blank" rel="noopener noreferrer">ClashPerk</a>记为 5 格，<a href="https://blooing.com/the-best-hero-pets-in-clash-of-clans/" target="_blank" rel="noopener noreferrer">Blooing</a>及页面所列维基资料记为 1.5 格；测量口径和当前值尚待核实。
 
 <SmallTitle>升级数据</SmallTitle>
 

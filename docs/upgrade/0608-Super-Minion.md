@@ -36,7 +36,8 @@ dataSyncedOn: 2026-10-13
     <UnitProperty pKey="占据人口" pValue="12" />
     <UnitProperty pKey="移动速度" pValue="2 格/秒" />
     <UnitProperty pKey="攻击速度" pValue="1 秒/次" />
-    <UnitProperty pKey="普攻攻击距离" pValue="3.5 格<sup>①</sup>" />
+    <UnitProperty pKey="普攻攻击距离" pValue="待核实<sup>①</sup>" />
+    <UnitProperty pKey="游戏面板范围" pValue="2.5 格<sup>①</sup>" />
     <UnitProperty pKey="远程狙杀次数" pValue="8 次（进攻）<br>3 次（防守）" />
     <UnitProperty pKey="远程狙杀射程" pValue="10.25 格" />
     <UnitProperty pKey="最低亡灵等级" pValue="8" />
@@ -47,7 +48,7 @@ dataSyncedOn: 2026-10-13
     <UnitProperty pKey="捐赠费用" pValue="6,6,270,Dark_Elixir" :isDonationCost="true" />
 </UnitProperties>
 
-① 普攻射程的来源有差异：<a href="https://coc.guide/troop/super-minion" target="_blank" rel="noopener noreferrer">旧资料</a>记为 3.5 格，<a href="https://clashofclans.fandom.com/wiki/Super_Minion" target="_blank" rel="noopener noreferrer">部落冲突维基</a>记为 4 格，待游戏内核实。远程狙杀射程不受此项争议影响。
+① 用户提供的 12 级超级亡灵游戏界面截图显示“范围：2.5 格”，截图未标注游戏版本；<a href="https://coc.guide/troop/super-minion" target="_blank" rel="noopener noreferrer">旧资料</a>记为 3.5 格，<a href="https://clashofclans.fandom.com/wiki/Super_Minion" target="_blank" rel="noopener noreferrer">部落冲突维基</a>记为 4 格。三者是否使用不同测量口径尚未核实，不能直接视为同一数值。远程狙杀是技能的远距离攻击，与游戏面板这一数值分开列出。
 
 <SmallTitle>升级数据</SmallTitle>
 

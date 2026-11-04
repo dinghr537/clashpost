@@ -32,7 +32,7 @@ dataSyncedOn: 2026-10-13
 
 <SmallTitle>重要说明</SmallTitle>
 
-1. 当玩家升到 12 级大本营时，就拥有了一个巨型特斯拉电磁塔。如果玩家将大本营升到 13 级，则巨型地狱之塔会被 [巨型地狱之塔](/upgrade/030d-Giga-Inferno) 取代。
+1. 当玩家升到 12 级大本营时，就拥有了一个巨型特斯拉电磁塔。如果玩家将大本营升到 13 级，则巨型特斯拉电磁塔会被 [巨型地狱之塔](/upgrade/030d-Giga-Inferno) 取代。<small>（来源：<a href="https://supercell.com/en/games/clashofclans/blog/news/december-update-patch-notes/" target="_blank" rel="noopener noreferrer">Supercell 13 本更新公告</a>）</small>
 2. 巨型特斯拉电磁塔不是独立的防御建筑，它附属于大本营。
 3. 当 12 级大本营受到攻击或村庄摧毁率达到 51% 时，巨型特斯拉电磁塔会启动，激活延迟 0.5 秒。
 4. 巨型特斯拉电磁塔被摧毁后会自爆。

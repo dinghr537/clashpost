@@ -14,6 +14,7 @@ const props = defineProps({
 <template>
     <div class="unit-img-group">
         <div class="unit-img-group-title" v-if="props.title">{{ props.title }}</div>
+        <div class="unit-img-group-hint">点击图片查看大图</div>
         <div class="unit-img-group-content" :data-folder="props.folder">
             <slot></slot>
             <div class="cp-unit-img-item cp-unit-img-item-placeholder"></div>
@@ -45,6 +46,16 @@ const props = defineProps({
     margin-left: 0.75rem;
     margin-bottom: 0.25rem;
     margin-top: 0.5rem;
+}
+
+.unit-img-group-hint {
+    margin: 0.25rem 0.75rem;
+    color: var(--cp-grey-text-light);
+    font-size: 0.8rem;
+}
+
+body.cp-theme-dark .unit-img-group-hint {
+    color: var(--cp-grey-text-dark);
 }
 
 .unit-img-group:first-child .unit-img-group-title {

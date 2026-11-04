@@ -12573,5 +12573,2147 @@
     "sourceUrl": "https://static.clashpost.com/upgrade/home_buildings/0502/Helper_Hut.webp",
     "localPath": "/images/original/upgrade/home_buildings/0502/Helper_Hut.webp",
     "importedAt": "2026-10-13T06:40:38+00:00"
+  },
+  "/upgrade/bh_buildings/1200/Builder_Hall1.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/bh_buildings/1200/Builder_Hall1.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/1200-Builder-Hall"
+    ],
+    "localPath": "/images/original/upgrade/bh_buildings/1200/Builder_Hall1.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 320,
+    "height": 320,
+    "sha256": "346a2a45395db1c0366b7011c972d7c0ef3ddda77a056c2a8a0c18a551b52d87",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/bh_buildings/1200/Builder_Hall2.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/bh_buildings/1200/Builder_Hall2.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/1200-Builder-Hall"
+    ],
+    "localPath": "/images/original/upgrade/bh_buildings/1200/Builder_Hall2.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 320,
+    "height": 320,
+    "sha256": "a3217b6026e4f0941b618189184cfc57e5c8b842cc5e16195f6acb3a768c373a",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/bh_buildings/1200/Builder_Hall3.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/bh_buildings/1200/Builder_Hall3.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/1200-Builder-Hall"
+    ],
+    "localPath": "/images/original/upgrade/bh_buildings/1200/Builder_Hall3.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 320,
+    "height": 320,
+    "sha256": "4da9a37513eba963aa796774c0f56ed25c139137d78dcf14c6738e10e3d87b53",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/bh_buildings/1200/Builder_Hall4.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/bh_buildings/1200/Builder_Hall4.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/1200-Builder-Hall"
+    ],
+    "localPath": "/images/original/upgrade/bh_buildings/1200/Builder_Hall4.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 320,
+    "height": 320,
+    "sha256": "58cb24f1929a6d16b9cc2051d31ce96544db87bcaf0fb351e8bb4d19db3690d5",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/bh_buildings/1200/Builder_Hall5.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/bh_buildings/1200/Builder_Hall5.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/1200-Builder-Hall"
+    ],
+    "localPath": "/images/original/upgrade/bh_buildings/1200/Builder_Hall5.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 320,
+    "height": 320,
+    "sha256": "2a474012b2bc4396d04a7448591a58b2b2946589ecf50ba7482291c707dc9152",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/bh_buildings/1200/Builder_Hall6.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/bh_buildings/1200/Builder_Hall6.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/1200-Builder-Hall"
+    ],
+    "localPath": "/images/original/upgrade/bh_buildings/1200/Builder_Hall6.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 320,
+    "height": 320,
+    "sha256": "d5c39d1fbf74f763157e5dfa0c8412466aa794581cfa15e519dfb0a8c9d95b5c",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/bh_buildings/1200/Builder_Hall7.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/bh_buildings/1200/Builder_Hall7.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/1200-Builder-Hall"
+    ],
+    "localPath": "/images/original/upgrade/bh_buildings/1200/Builder_Hall7.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 320,
+    "height": 320,
+    "sha256": "9d3acfb44e6db703a1805b8e344e386e7bd7e72d1d7e8d8dea818298e0b81083",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/bh_buildings/1200/Builder_Hall8.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/bh_buildings/1200/Builder_Hall8.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/1200-Builder-Hall"
+    ],
+    "localPath": "/images/original/upgrade/bh_buildings/1200/Builder_Hall8.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 320,
+    "height": 320,
+    "sha256": "4889bc7131d5a40e2f0f2aeeb4a21a3160a98fd6f0693bfdb3f620920cd1bab3",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/bh_buildings/1200/Builder_Hall9.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/bh_buildings/1200/Builder_Hall9.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/1200-Builder-Hall"
+    ],
+    "localPath": "/images/original/upgrade/bh_buildings/1200/Builder_Hall9.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 320,
+    "height": 320,
+    "sha256": "7ddfc63c70f86e141f22fc3ae2a78c94e283251a210d0c6dda1d137e4e147769",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/bh_buildings/1240/O.T.T.O's_Outpost1.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/bh_buildings/1240/O.T.T.O's_Outpost1.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/1240-O.T.T.O's-Outpost"
+    ],
+    "localPath": "/images/original/upgrade/bh_buildings/1240/O.T.T.O's_Outpost1.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 293,
+    "height": 379,
+    "sha256": "e6298b15ae649db1312d98e42c63f2431e1800b8d75b7b02dc9f20bb6e6c3391",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/bh_buildings/1240/O.T.T.O's_Outpost2.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/bh_buildings/1240/O.T.T.O's_Outpost2.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/1240-O.T.T.O's-Outpost"
+    ],
+    "localPath": "/images/original/upgrade/bh_buildings/1240/O.T.T.O's_Outpost2.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 293,
+    "height": 379,
+    "sha256": "c4adc4db7d76b6447f0c2736e42b18d634b750666df1e20844c2fc68c600e59c",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/bh_buildings/1240/O.T.T.O's_Outpost3.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/bh_buildings/1240/O.T.T.O's_Outpost3.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/1240-O.T.T.O's-Outpost"
+    ],
+    "localPath": "/images/original/upgrade/bh_buildings/1240/O.T.T.O's_Outpost3.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 293,
+    "height": 379,
+    "sha256": "abb7374a71d30d529774c35824da643f1aaf40b244fffc8ad76f24f61d4f0e90",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/bh_buildings/1240/O.T.T.O's_Outpost4.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/bh_buildings/1240/O.T.T.O's_Outpost4.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/1240-O.T.T.O's-Outpost"
+    ],
+    "localPath": "/images/original/upgrade/bh_buildings/1240/O.T.T.O's_Outpost4.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 293,
+    "height": 379,
+    "sha256": "85299e580154e08730bbf406908ffc44f79ce0fc4845a60eb256c8ee8726bef6",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/bh_buildings/1240/O.T.T.O's_Outpost5.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/bh_buildings/1240/O.T.T.O's_Outpost5.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/1240-O.T.T.O's-Outpost"
+    ],
+    "localPath": "/images/original/upgrade/bh_buildings/1240/O.T.T.O's_Outpost5.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 293,
+    "height": 379,
+    "sha256": "985834b2c3f4f9803527a9560f30cac64b35a2a265a4be1711c9ac7957857da3",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/bh_buildings/1240/O.T.T.O's_Outpost6.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/bh_buildings/1240/O.T.T.O's_Outpost6.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/1240-O.T.T.O's-Outpost"
+    ],
+    "localPath": "/images/original/upgrade/bh_buildings/1240/O.T.T.O's_Outpost6.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 293,
+    "height": 379,
+    "sha256": "1949f931e1ceed6285b5d1e604572bbd2e4b38c6a2abf2df132ec4ce99049e8e",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/bh_buildings/1240/O.T.T.O's_Outpost7.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/bh_buildings/1240/O.T.T.O's_Outpost7.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/1240-O.T.T.O's-Outpost"
+    ],
+    "localPath": "/images/original/upgrade/bh_buildings/1240/O.T.T.O's_Outpost7.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 293,
+    "height": 379,
+    "sha256": "c8c81a619aef3b13665a6bb23c9aaf082e90a7440bbde34a0ec76a8748d5fd2d",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/bh_buildings/1240/O.T.T.O's_Outpost8.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/bh_buildings/1240/O.T.T.O's_Outpost8.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/1240-O.T.T.O's-Outpost"
+    ],
+    "localPath": "/images/original/upgrade/bh_buildings/1240/O.T.T.O's_Outpost8.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 293,
+    "height": 379,
+    "sha256": "98f6d463121f2a80fe30cd2e223067ecf9fedd90253986089ce264c41d04e1d9",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/bh_buildings/1240/O.T.T.O's_Outpost9.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/bh_buildings/1240/O.T.T.O's_Outpost9.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/1240-O.T.T.O's-Outpost"
+    ],
+    "localPath": "/images/original/upgrade/bh_buildings/1240/O.T.T.O's_Outpost9.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 293,
+    "height": 379,
+    "sha256": "65214b14bcd7912b2d33ce7b57d2e3eebfb019dc9b6c57f7b181ccd3491a35f3",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/capital_buildings/2400/Capital_Hall1.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/capital_buildings/2400/Capital_Hall1.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/2400-Capital-Hall"
+    ],
+    "localPath": "/images/original/upgrade/capital_buildings/2400/Capital_Hall1.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 465,
+    "height": 455,
+    "sha256": "1d05fea8a74ef8458669b8fb1fb272a4022aa92168a0b176ce8debffde32f439",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/capital_buildings/2400/Capital_Hall10_Active.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/capital_buildings/2400/Capital_Hall10_Active.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/2400-Capital-Hall"
+    ],
+    "localPath": "/images/original/upgrade/capital_buildings/2400/Capital_Hall10_Active.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 465,
+    "height": 455,
+    "sha256": "986ab1248ac65ea3ca8dbafb73868437e1d255cf24bc511a6f90f8738cabb882",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/capital_buildings/2400/Capital_Hall2.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/capital_buildings/2400/Capital_Hall2.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/2400-Capital-Hall"
+    ],
+    "localPath": "/images/original/upgrade/capital_buildings/2400/Capital_Hall2.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 465,
+    "height": 455,
+    "sha256": "684531aebedda804b2e6215972a11df5f6bfae602c042923ed0baa2c33562e95",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/capital_buildings/2400/Capital_Hall2_Active.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/capital_buildings/2400/Capital_Hall2_Active.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/2400-Capital-Hall"
+    ],
+    "localPath": "/images/original/upgrade/capital_buildings/2400/Capital_Hall2_Active.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 465,
+    "height": 455,
+    "sha256": "f377ea05ae88c10b0c603ad7048e44f080e0aaed620b9e1e4dc21641526b1836",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/capital_buildings/2400/Capital_Hall3.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/capital_buildings/2400/Capital_Hall3.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/2400-Capital-Hall"
+    ],
+    "localPath": "/images/original/upgrade/capital_buildings/2400/Capital_Hall3.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 465,
+    "height": 455,
+    "sha256": "6972c3dd1fa55649d13dc0dab46620a6aba78b0c87e9b2fe1a80fcccae78dd30",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/capital_buildings/2400/Capital_Hall3_Active.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/capital_buildings/2400/Capital_Hall3_Active.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/2400-Capital-Hall"
+    ],
+    "localPath": "/images/original/upgrade/capital_buildings/2400/Capital_Hall3_Active.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 465,
+    "height": 455,
+    "sha256": "b0995e5f6a784b99590a869ea1e42528096457a50488395613797ed06af772f6",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/capital_buildings/2400/Capital_Hall4.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/capital_buildings/2400/Capital_Hall4.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/2400-Capital-Hall"
+    ],
+    "localPath": "/images/original/upgrade/capital_buildings/2400/Capital_Hall4.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 465,
+    "height": 455,
+    "sha256": "03d9da1c6876c35fe8ddbc3c7587d695997e0aec95dd65fec188ecc7b6a03a7c",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/capital_buildings/2400/Capital_Hall4_Active.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/capital_buildings/2400/Capital_Hall4_Active.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/2400-Capital-Hall"
+    ],
+    "localPath": "/images/original/upgrade/capital_buildings/2400/Capital_Hall4_Active.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 465,
+    "height": 455,
+    "sha256": "bc4d2dfd14477c30dd0bed3245544eef84d2eee2344b26f60e0ce917615c46c8",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/capital_buildings/2400/Capital_Hall5.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/capital_buildings/2400/Capital_Hall5.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/2400-Capital-Hall"
+    ],
+    "localPath": "/images/original/upgrade/capital_buildings/2400/Capital_Hall5.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 465,
+    "height": 455,
+    "sha256": "678192bdf7d65a6b798b0fa20fe8c661fabcdba5d380f5e14ce9dda171ceb8e7",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/capital_buildings/2400/Capital_Hall5_Active.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/capital_buildings/2400/Capital_Hall5_Active.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/2400-Capital-Hall"
+    ],
+    "localPath": "/images/original/upgrade/capital_buildings/2400/Capital_Hall5_Active.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 465,
+    "height": 455,
+    "sha256": "2d79ee0c1e86c2fa46a00e5250e88a8760ec8e5faed2c3a2294b98ef86963f4a",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/capital_buildings/2400/Capital_Hall6.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/capital_buildings/2400/Capital_Hall6.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/2400-Capital-Hall"
+    ],
+    "localPath": "/images/original/upgrade/capital_buildings/2400/Capital_Hall6.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 465,
+    "height": 455,
+    "sha256": "3b072517de5a3753c15fa2e7548c78aa6b0dee060dcbb0af88cfede2d8487f14",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/capital_buildings/2400/Capital_Hall6_Active.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/capital_buildings/2400/Capital_Hall6_Active.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/2400-Capital-Hall"
+    ],
+    "localPath": "/images/original/upgrade/capital_buildings/2400/Capital_Hall6_Active.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 465,
+    "height": 455,
+    "sha256": "184eb7cc6018b3097bcd9aaf4b76f0f3a34a9fd8206af34fdc0146862bc610bf",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/capital_buildings/2400/Capital_Hall7.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/capital_buildings/2400/Capital_Hall7.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/2400-Capital-Hall"
+    ],
+    "localPath": "/images/original/upgrade/capital_buildings/2400/Capital_Hall7.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 465,
+    "height": 455,
+    "sha256": "996b8615835a33bff1eb30a81d3978d210e44d2f0646638ba7c3b6a088d85da8",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/capital_buildings/2400/Capital_Hall7_Active.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/capital_buildings/2400/Capital_Hall7_Active.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/2400-Capital-Hall"
+    ],
+    "localPath": "/images/original/upgrade/capital_buildings/2400/Capital_Hall7_Active.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 465,
+    "height": 455,
+    "sha256": "a4c96be75af7d27fb3127affc009adad36ae2ed2d3c975b8a91b497fb6975a24",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/capital_buildings/2400/Capital_Hall8.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/capital_buildings/2400/Capital_Hall8.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/2400-Capital-Hall"
+    ],
+    "localPath": "/images/original/upgrade/capital_buildings/2400/Capital_Hall8.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 465,
+    "height": 455,
+    "sha256": "f4d469082d5d9a4baffd4537a9720af90b5c98b595dae24fd2a2a5154d2f0cc8",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/capital_buildings/2400/Capital_Hall8_Active.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/capital_buildings/2400/Capital_Hall8_Active.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/2400-Capital-Hall"
+    ],
+    "localPath": "/images/original/upgrade/capital_buildings/2400/Capital_Hall8_Active.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 465,
+    "height": 455,
+    "sha256": "90f3219841141a7816d41ec63f63ada5323cad71b4ab5d78250aa3f8f1181f68",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/capital_buildings/2400/Capital_Hall9.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/capital_buildings/2400/Capital_Hall9.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/2400-Capital-Hall"
+    ],
+    "localPath": "/images/original/upgrade/capital_buildings/2400/Capital_Hall9.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 465,
+    "height": 455,
+    "sha256": "2000b97c3e9389314c078aa5a7efae8138a77860bbb611c19d66ea80c0ac6bde",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/capital_buildings/2400/Capital_Hall9_Active.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/capital_buildings/2400/Capital_Hall9_Active.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/2400-Capital-Hall"
+    ],
+    "localPath": "/images/original/upgrade/capital_buildings/2400/Capital_Hall9_Active.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 465,
+    "height": 455,
+    "sha256": "453e749f0464e83c182deb5dad8b719632355d1b7f34019cb62e1c2d3ef5eaf2",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/home_buildings/0300/Wall17.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/home_buildings/0300/Wall17.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/0300-Walls"
+    ],
+    "localPath": "/images/original/upgrade/home_buildings/0300/Wall17.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 126,
+    "height": 180,
+    "sha256": "788d3fcbef6c31b3eed7d5acab6785e18e82cbcc07a7e83be7f18a7ba17e20f7",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/home_buildings/030b/Eagle_Artillery7_hd.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/home_buildings/030b/Eagle_Artillery7_hd.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/030b-Eagle-Artillery"
+    ],
+    "localPath": "/images/original/upgrade/home_buildings/030b/Eagle_Artillery7_hd.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 1157,
+    "height": 1196,
+    "sha256": "49fd6de040bf9a3e6788c706d08259687129f8082712b2fa765ea9f3f21ea8d4",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/home_buildings/0312/Monolith3_hd.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/home_buildings/0312/Monolith3_hd.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/0312-Monolith"
+    ],
+    "localPath": "/images/original/upgrade/home_buildings/0312/Monolith3_hd.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 1038,
+    "height": 1469,
+    "sha256": "a89b32885e8a617acf2076ae021d9d2a93c3d2d1c39c3df905edf1371329e69f",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/home_buildings/0312/Monolith4_hd.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/home_buildings/0312/Monolith4_hd.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/0312-Monolith"
+    ],
+    "localPath": "/images/original/upgrade/home_buildings/0312/Monolith4_hd.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 987,
+    "height": 1280,
+    "sha256": "496d3a54567e2e27827b3620a97124c7be73abe03230d61cbaa73b92a0535111",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/home_buildings/0317/Multi-Gear_Tower1_FastAttack_hd.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/home_buildings/0317/Multi-Gear_Tower1_FastAttack_hd.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/0317-Multi-Gear-Tower"
+    ],
+    "localPath": "/images/original/upgrade/home_buildings/0317/Multi-Gear_Tower1_FastAttack_hd.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 520,
+    "height": 594,
+    "sha256": "17f19e9dbdbfd497434da564a40f5f265719bc67dedfc81307f8daa8f2df0e24",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/home_buildings/0317/Multi-Gear_Tower1_LongRange_hd.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/home_buildings/0317/Multi-Gear_Tower1_LongRange_hd.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/0317-Multi-Gear-Tower"
+    ],
+    "localPath": "/images/original/upgrade/home_buildings/0317/Multi-Gear_Tower1_LongRange_hd.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 520,
+    "height": 765,
+    "sha256": "8eaf6b979e5f3ef00c51bfa70f1178c535fcb95714a5179cf8a858229fea3ec3",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/home_buildings/0317/Multi-Gear_Tower2_FastAttack_hd.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/home_buildings/0317/Multi-Gear_Tower2_FastAttack_hd.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/0317-Multi-Gear-Tower"
+    ],
+    "localPath": "/images/original/upgrade/home_buildings/0317/Multi-Gear_Tower2_FastAttack_hd.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 520,
+    "height": 594,
+    "sha256": "976d28e481ee3101d5d07e506f7094c4705653daec884aa3621e06d0106ba140",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/home_buildings/0317/Multi-Gear_Tower2_LongRange_hd.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/home_buildings/0317/Multi-Gear_Tower2_LongRange_hd.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/0317-Multi-Gear-Tower"
+    ],
+    "localPath": "/images/original/upgrade/home_buildings/0317/Multi-Gear_Tower2_LongRange_hd.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 520,
+    "height": 765,
+    "sha256": "e235991274bd69adcfbaf72b55718105c614460b91c24a0ea7b99b7fb7978c01",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/home_buildings/0317/Multi-Gear_Tower_Ruin_hd.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/home_buildings/0317/Multi-Gear_Tower_Ruin_hd.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/0317-Multi-Gear-Tower"
+    ],
+    "localPath": "/images/original/upgrade/home_buildings/0317/Multi-Gear_Tower_Ruin_hd.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 520,
+    "height": 459,
+    "sha256": "41d1bab58d86a4ee3d9f0dc6483e820065dcff7e8bd0b74940939d2b1feac33a",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/home_buildings/0318/Super_Wizard_Tower1_hd.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/home_buildings/0318/Super_Wizard_Tower1_hd.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/0318-Super-Wizard-Tower"
+    ],
+    "localPath": "/images/original/upgrade/home_buildings/0318/Super_Wizard_Tower1_hd.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 3000,
+    "height": 3288,
+    "sha256": "97f7fde756e5c4895cf4c480a6fb16338463abe768ae20077ed41460de9c5fbb",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/home_buildings/0400/Town_Hall10_hd.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/home_buildings/0400/Town_Hall10_hd.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/0400-Town-Hall"
+    ],
+    "localPath": "/images/original/upgrade/home_buildings/0400/Town_Hall10_hd.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 952,
+    "height": 976,
+    "sha256": "d6e00180248e3a1bae004c479596cfe0f6452eac0b96ca81f9f750ddeef5872b",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/home_buildings/0400/Town_Hall11_hd.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/home_buildings/0400/Town_Hall11_hd.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/0400-Town-Hall"
+    ],
+    "localPath": "/images/original/upgrade/home_buildings/0400/Town_Hall11_hd.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 977,
+    "height": 1058,
+    "sha256": "ae0da7a7047923bb7ca39cb8027de97745fa0cf8152be8158071ec8ddf63859e",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/home_buildings/0400/Town_Hall12_1_hd.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/home_buildings/0400/Town_Hall12_1_hd.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/0400-Town-Hall"
+    ],
+    "localPath": "/images/original/upgrade/home_buildings/0400/Town_Hall12_1_hd.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 286,
+    "height": 321,
+    "sha256": "64f0224c02f2e244f34a19a66b77e63c58603ea9987b893dff281a52fa99938b",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/home_buildings/0400/Town_Hall12_2_hd.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/home_buildings/0400/Town_Hall12_2_hd.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/0400-Town-Hall"
+    ],
+    "localPath": "/images/original/upgrade/home_buildings/0400/Town_Hall12_2_hd.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 286,
+    "height": 321,
+    "sha256": "85f2921a80295ed9a0057e6cf8912bdcec0e3c663b8b83c303b29faea48dcad0",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/home_buildings/0400/Town_Hall12_3_hd.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/home_buildings/0400/Town_Hall12_3_hd.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/0400-Town-Hall"
+    ],
+    "localPath": "/images/original/upgrade/home_buildings/0400/Town_Hall12_3_hd.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 286,
+    "height": 321,
+    "sha256": "9c52d18cbe1c8e4e2aabba4a280658e40017e4748107857d343bf9ab2838d6cc",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/home_buildings/0400/Town_Hall12_4_hd.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/home_buildings/0400/Town_Hall12_4_hd.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/0400-Town-Hall"
+    ],
+    "localPath": "/images/original/upgrade/home_buildings/0400/Town_Hall12_4_hd.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 286,
+    "height": 321,
+    "sha256": "868b5e08b28938dbb25c08096ea10cbbdee349261f4e3dd6b0ed686253784a83",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/home_buildings/0400/Town_Hall12_5_hd.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/home_buildings/0400/Town_Hall12_5_hd.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/0400-Town-Hall"
+    ],
+    "localPath": "/images/original/upgrade/home_buildings/0400/Town_Hall12_5_hd.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 286,
+    "height": 321,
+    "sha256": "f1155f8fb4c62601f2d81b43f446fba544737c041425ff89acb4a5acc70d5553",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/home_buildings/0400/Town_Hall12_hd.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/home_buildings/0400/Town_Hall12_hd.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/0400-Town-Hall"
+    ],
+    "localPath": "/images/original/upgrade/home_buildings/0400/Town_Hall12_hd.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 286,
+    "height": 321,
+    "sha256": "e1029344299b20bb9245556f13edbfebf35861a665beef488567ba2feb186deb",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/home_buildings/0400/Town_Hall13_1_hd.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/home_buildings/0400/Town_Hall13_1_hd.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/0400-Town-Hall"
+    ],
+    "localPath": "/images/original/upgrade/home_buildings/0400/Town_Hall13_1_hd.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 400,
+    "height": 430,
+    "sha256": "cc14e9f888984771f8a50c20bba6c8ca721287bf2795726baf8c04dfc243aa60",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/home_buildings/0400/Town_Hall13_2_hd.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/home_buildings/0400/Town_Hall13_2_hd.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/0400-Town-Hall"
+    ],
+    "localPath": "/images/original/upgrade/home_buildings/0400/Town_Hall13_2_hd.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 400,
+    "height": 430,
+    "sha256": "5eb565cebe23ce69a55c8a0defdb9263ea72ebc4fc29c1da605023cd49981cbf",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/home_buildings/0400/Town_Hall13_3_hd.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/home_buildings/0400/Town_Hall13_3_hd.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/0400-Town-Hall"
+    ],
+    "localPath": "/images/original/upgrade/home_buildings/0400/Town_Hall13_3_hd.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 400,
+    "height": 430,
+    "sha256": "59f8171f1404a22902147bca7f2161639ec8be98ec17987a70f73bbb66454430",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/home_buildings/0400/Town_Hall13_4_hd.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/home_buildings/0400/Town_Hall13_4_hd.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/0400-Town-Hall"
+    ],
+    "localPath": "/images/original/upgrade/home_buildings/0400/Town_Hall13_4_hd.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 400,
+    "height": 430,
+    "sha256": "f9f1faebac256f7db8638f3817ee03c2a1cb2431cb703e5449a765411d78b2a8",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/home_buildings/0400/Town_Hall13_5_hd.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/home_buildings/0400/Town_Hall13_5_hd.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/0400-Town-Hall"
+    ],
+    "localPath": "/images/original/upgrade/home_buildings/0400/Town_Hall13_5_hd.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 400,
+    "height": 430,
+    "sha256": "efca7183e3d5317c59091fcda13d7942dbb53875ae22ee8cf051386d6e7f8d3b",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/home_buildings/0400/Town_Hall13_hd.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/home_buildings/0400/Town_Hall13_hd.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/0400-Town-Hall"
+    ],
+    "localPath": "/images/original/upgrade/home_buildings/0400/Town_Hall13_hd.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 400,
+    "height": 430,
+    "sha256": "a9035216b61ba050f18e31c2128be646a261b71c8e020bef33f3f11248342a98",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/home_buildings/0400/Town_Hall14_1_hd.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/home_buildings/0400/Town_Hall14_1_hd.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/0400-Town-Hall"
+    ],
+    "localPath": "/images/original/upgrade/home_buildings/0400/Town_Hall14_1_hd.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 379,
+    "height": 409,
+    "sha256": "9edc4ae317d751d3396c9d0b52ea6f41a132af536e205bf2bd29499b6c237aa5",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/home_buildings/0400/Town_Hall14_2_hd.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/home_buildings/0400/Town_Hall14_2_hd.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/0400-Town-Hall"
+    ],
+    "localPath": "/images/original/upgrade/home_buildings/0400/Town_Hall14_2_hd.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 379,
+    "height": 409,
+    "sha256": "ad7cb4062c3cb121e1c1e4b22751178eb05745763f2fd56c4a48f1b4b6aa8f17",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/home_buildings/0400/Town_Hall14_3_hd.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/home_buildings/0400/Town_Hall14_3_hd.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/0400-Town-Hall"
+    ],
+    "localPath": "/images/original/upgrade/home_buildings/0400/Town_Hall14_3_hd.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 379,
+    "height": 409,
+    "sha256": "d83c086e398520eb01c79223095567aa50e9f0fd51020967614ea969b31b0eaf",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/home_buildings/0400/Town_Hall14_4_hd.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/home_buildings/0400/Town_Hall14_4_hd.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/0400-Town-Hall"
+    ],
+    "localPath": "/images/original/upgrade/home_buildings/0400/Town_Hall14_4_hd.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 379,
+    "height": 409,
+    "sha256": "a218de2451934dcacd6628188625ea06df3d72c4001e1269755c4e8cff62d164",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/home_buildings/0400/Town_Hall14_5_hd.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/home_buildings/0400/Town_Hall14_5_hd.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/0400-Town-Hall"
+    ],
+    "localPath": "/images/original/upgrade/home_buildings/0400/Town_Hall14_5_hd.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 379,
+    "height": 409,
+    "sha256": "b4cf03bc44db974c204e636f23a15d0e0a057a7e15552eb3c7c3db8963fa1db0",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/home_buildings/0400/Town_Hall14_hd.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/home_buildings/0400/Town_Hall14_hd.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/0400-Town-Hall"
+    ],
+    "localPath": "/images/original/upgrade/home_buildings/0400/Town_Hall14_hd.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 379,
+    "height": 407,
+    "sha256": "998f65ad660b1834256cb5ffd693bed758fe8a8831af355d8421718841d54692",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/home_buildings/0400/Town_Hall15_1_hd.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/home_buildings/0400/Town_Hall15_1_hd.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/0400-Town-Hall"
+    ],
+    "localPath": "/images/original/upgrade/home_buildings/0400/Town_Hall15_1_hd.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 390,
+    "height": 450,
+    "sha256": "8b57fa6d11ae6260bd5326f779f6c23c95596d37b009d2e1f4fb861a43879f26",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/home_buildings/0400/Town_Hall15_2_hd.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/home_buildings/0400/Town_Hall15_2_hd.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/0400-Town-Hall"
+    ],
+    "localPath": "/images/original/upgrade/home_buildings/0400/Town_Hall15_2_hd.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 390,
+    "height": 450,
+    "sha256": "c1e4bf88cf432cdb26c3cf6f5a5d7f17a1d09d1570496968e52babb21d2dcc20",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/home_buildings/0400/Town_Hall15_3_hd.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/home_buildings/0400/Town_Hall15_3_hd.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/0400-Town-Hall"
+    ],
+    "localPath": "/images/original/upgrade/home_buildings/0400/Town_Hall15_3_hd.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 390,
+    "height": 450,
+    "sha256": "5cbfaa8c221ba48545f265ca1cfc539eff4194dc39bde40d02b6ae0cd8f75d57",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/home_buildings/0400/Town_Hall15_4_hd.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/home_buildings/0400/Town_Hall15_4_hd.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/0400-Town-Hall"
+    ],
+    "localPath": "/images/original/upgrade/home_buildings/0400/Town_Hall15_4_hd.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 390,
+    "height": 450,
+    "sha256": "5f042fa9bace1be095abb311a08f8c6209f1d4fc66fc7d3cca909f806a3860d1",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/home_buildings/0400/Town_Hall15_5_hd.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/home_buildings/0400/Town_Hall15_5_hd.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/0400-Town-Hall"
+    ],
+    "localPath": "/images/original/upgrade/home_buildings/0400/Town_Hall15_5_hd.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 390,
+    "height": 450,
+    "sha256": "4df00187eb047414dbd3b4d42e8a91273fea0bbf7aa4693cc8c1d069a966b448",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/home_buildings/0400/Town_Hall15_hd.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/home_buildings/0400/Town_Hall15_hd.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/0400-Town-Hall"
+    ],
+    "localPath": "/images/original/upgrade/home_buildings/0400/Town_Hall15_hd.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 390,
+    "height": 450,
+    "sha256": "5b7f3ac1d3130e3d6a8013ff0c29b5c9cfb42cb605b3c590c45aa9022c916a8a",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/home_buildings/0400/Town_Hall16_hd.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/home_buildings/0400/Town_Hall16_hd.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/0400-Town-Hall"
+    ],
+    "localPath": "/images/original/upgrade/home_buildings/0400/Town_Hall16_hd.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 358,
+    "height": 418,
+    "sha256": "35e36f4f2a93d9c9b9a618fdf1c734ff10c9b234b2d7e9556ebfedf39915bd31",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/home_buildings/0400/Town_Hall17_1_hd.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/home_buildings/0400/Town_Hall17_1_hd.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/0400-Town-Hall"
+    ],
+    "localPath": "/images/original/upgrade/home_buildings/0400/Town_Hall17_1_hd.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 447,
+    "height": 505,
+    "sha256": "840d3dcb5c617c1a0e3d56b2e22984c1f6fee313c8b554ad1f7c4af25ded4f28",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/home_buildings/0400/Town_Hall17_2_hd.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/home_buildings/0400/Town_Hall17_2_hd.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/0400-Town-Hall"
+    ],
+    "localPath": "/images/original/upgrade/home_buildings/0400/Town_Hall17_2_hd.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 447,
+    "height": 505,
+    "sha256": "11fd17f673dbdf6b391de8aed088d14792c04ee445842a320a2945fc45b2b0b9",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/home_buildings/0400/Town_Hall17_3_hd.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/home_buildings/0400/Town_Hall17_3_hd.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/0400-Town-Hall"
+    ],
+    "localPath": "/images/original/upgrade/home_buildings/0400/Town_Hall17_3_hd.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 447,
+    "height": 505,
+    "sha256": "4917be437da22bd6d9762adc610a7c4ccf59dcd7a1ffc5dc0a68c329785b7678",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/home_buildings/0400/Town_Hall17_4_hd.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/home_buildings/0400/Town_Hall17_4_hd.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/0400-Town-Hall"
+    ],
+    "localPath": "/images/original/upgrade/home_buildings/0400/Town_Hall17_4_hd.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 447,
+    "height": 505,
+    "sha256": "6b926c039c9275cb67177e832eca7ec91e12d6772fe3cfbec207c0cf41dee24d",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/home_buildings/0400/Town_Hall17_5_hd.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/home_buildings/0400/Town_Hall17_5_hd.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/0400-Town-Hall"
+    ],
+    "localPath": "/images/original/upgrade/home_buildings/0400/Town_Hall17_5_hd.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 447,
+    "height": 505,
+    "sha256": "e5f4bba6d820df9b7f3dc75ee51d73efea19b3cd3f9771227a969f4cce3f6efe",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/home_buildings/0400/Town_Hall1_hd.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/home_buildings/0400/Town_Hall1_hd.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/0400-Town-Hall"
+    ],
+    "localPath": "/images/original/upgrade/home_buildings/0400/Town_Hall1_hd.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 793,
+    "height": 692,
+    "sha256": "88e1733c5b53574e79eb15ee3e48112cf854d89c566db414950f22b48aedd461",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/home_buildings/0400/Town_Hall2_hd.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/home_buildings/0400/Town_Hall2_hd.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/0400-Town-Hall"
+    ],
+    "localPath": "/images/original/upgrade/home_buildings/0400/Town_Hall2_hd.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 792,
+    "height": 725,
+    "sha256": "443c24462d5d3444be513510b83a280e2065af39159af15a630cd26b4e2ad7aa",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/home_buildings/0400/Town_Hall3_hd.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/home_buildings/0400/Town_Hall3_hd.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/0400-Town-Hall"
+    ],
+    "localPath": "/images/original/upgrade/home_buildings/0400/Town_Hall3_hd.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 792,
+    "height": 784,
+    "sha256": "73ab0064c54c6229ee11558ad9fbad0e1b8401dfe791b4c88dc233b171b9da5a",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/home_buildings/0400/Town_Hall4_hd.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/home_buildings/0400/Town_Hall4_hd.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/0400-Town-Hall"
+    ],
+    "localPath": "/images/original/upgrade/home_buildings/0400/Town_Hall4_hd.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 792,
+    "height": 851,
+    "sha256": "5365ae6a54a8cc1b6f68989c1d55e5b5af9c93c27dc713f64bb52d70a2e7a77d",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/home_buildings/0400/Town_Hall5_hd.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/home_buildings/0400/Town_Hall5_hd.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/0400-Town-Hall"
+    ],
+    "localPath": "/images/original/upgrade/home_buildings/0400/Town_Hall5_hd.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 801,
+    "height": 851,
+    "sha256": "309aa363c1db1ecdb1ec4264dbacee6e63cf3c6a21e812508a074cd80c6de60d",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/home_buildings/0400/Town_Hall6_hd.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/home_buildings/0400/Town_Hall6_hd.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/0400-Town-Hall"
+    ],
+    "localPath": "/images/original/upgrade/home_buildings/0400/Town_Hall6_hd.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 801,
+    "height": 862,
+    "sha256": "1dc5a01be601d6e83b13cea3cb1c8d270588b50eea77186f08ff5c69c805e7ab",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/home_buildings/0400/Town_Hall7_hd.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/home_buildings/0400/Town_Hall7_hd.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/0400-Town-Hall"
+    ],
+    "localPath": "/images/original/upgrade/home_buildings/0400/Town_Hall7_hd.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 801,
+    "height": 883,
+    "sha256": "2dd784e89aa7e2ffe2bad6e618e5ea0f9e325641cb3a09ef78199b12c20b95fd",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/home_buildings/0400/Town_Hall8_hd.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/home_buildings/0400/Town_Hall8_hd.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/0400-Town-Hall"
+    ],
+    "localPath": "/images/original/upgrade/home_buildings/0400/Town_Hall8_hd.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 801,
+    "height": 923,
+    "sha256": "8a826807f18c007408aa8d00771226ad3020ec0bd22ea07983f4d2650aaa18ae",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/home_buildings/0400/Town_Hall9_hd.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/home_buildings/0400/Town_Hall9_hd.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/0400-Town-Hall"
+    ],
+    "localPath": "/images/original/upgrade/home_buildings/0400/Town_Hall9_hd.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 820,
+    "height": 918,
+    "sha256": "6a2ccbd9512f4c1128d77317b97d04cf083fdfe363fc7b5fe5b94e7d69e948a6",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/home_buildings/0406/Dark_Elixir_Storage11_hd.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/home_buildings/0406/Dark_Elixir_Storage11_hd.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/0406-Dark-Elixir-Storage"
+    ],
+    "localPath": "/images/original/upgrade/home_buildings/0406/Dark_Elixir_Storage11_hd.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 771,
+    "height": 710,
+    "sha256": "4387d99d7100a37a6644b6983fab12be70070f94c7fe741e644ac0d6ac37eee7",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/home_buildings/0407/Clan_Castle12_hd.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/home_buildings/0407/Clan_Castle12_hd.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/0407-Clan-Castle"
+    ],
+    "localPath": "/images/original/upgrade/home_buildings/0407/Clan_Castle12_hd.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 821,
+    "height": 985,
+    "sha256": "d09ba3e8d1ddb38d3ca2bfc6eaa723d73a0d1cfd2e2bf4a3132a0ec63f4b6e92",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/home_buildings/0407/Clan_Castle13_hd.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/home_buildings/0407/Clan_Castle13_hd.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/0407-Clan-Castle"
+    ],
+    "localPath": "/images/original/upgrade/home_buildings/0407/Clan_Castle13_hd.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 291,
+    "height": 362,
+    "sha256": "296cd7da0bd922b467230b382d28561c42f4f21117688e62049f99853332e4b7",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/home_buildings/0481/Barracks17_hd.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/home_buildings/0481/Barracks17_hd.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/0481-Barracks"
+    ],
+    "localPath": "/images/original/upgrade/home_buildings/0481/Barracks17_hd.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 698,
+    "height": 812,
+    "sha256": "8982516ca6f609f347af594e238d84c0f4edb6ae167319392c860138baaaef28",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/home_buildings/0482/Dark_Barracks12_hd.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/home_buildings/0482/Dark_Barracks12_hd.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/0482-Dark-Barracks"
+    ],
+    "localPath": "/images/original/upgrade/home_buildings/0482/Dark_Barracks12_hd.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 1055,
+    "height": 1280,
+    "sha256": "4bca77cd505368b2a177ed3a2e3354cb726d66bc6681238cc2fc57f0871d9247",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/home_buildings/0487/Pet_House11_hd.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/home_buildings/0487/Pet_House11_hd.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/0487-Pet-House"
+    ],
+    "localPath": "/images/original/upgrade/home_buildings/0487/Pet_House11_hd.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 1123,
+    "height": 1280,
+    "sha256": "0d989b2776902dd6a0468cf1048c9536703ff02d4b8f357ddeb329f0ab6d035d",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/home_buildings/0487/Pet_House12_hd.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/home_buildings/0487/Pet_House12_hd.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/0487-Pet-House"
+    ],
+    "localPath": "/images/original/upgrade/home_buildings/0487/Pet_House12_hd.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 2622,
+    "height": 2820,
+    "sha256": "7cbfedea235519aaa7352309f55c84eee6ecb2deb60b895d93d43dfdf8e2fc86",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/home_buildings/0489/Hero_Hall10_hd.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/home_buildings/0489/Hero_Hall10_hd.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/0489-Hero-Hall"
+    ],
+    "localPath": "/images/original/upgrade/home_buildings/0489/Hero_Hall10_hd.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 360,
+    "height": 371,
+    "sha256": "307ec1998ce0e772cd40a74082d777d4f72aa46f32f55a33826a4a56f83654d9",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/home_buildings/0489/Hero_Hall11_hd.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/home_buildings/0489/Hero_Hall11_hd.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/0489-Hero-Hall"
+    ],
+    "localPath": "/images/original/upgrade/home_buildings/0489/Hero_Hall11_hd.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 360,
+    "height": 371,
+    "sha256": "cc58add1f3a532a5c1012bf19c56e473a31be566564513cad3eedced4c517491",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/home_buildings/0489/Hero_Hall1_hd.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/home_buildings/0489/Hero_Hall1_hd.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/0489-Hero-Hall"
+    ],
+    "localPath": "/images/original/upgrade/home_buildings/0489/Hero_Hall1_hd.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 360,
+    "height": 371,
+    "sha256": "cbd611c4ba783a8aa94be8b77ee368a1d0dbad01fd3955e7520617a8923f3136",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/home_buildings/0489/Hero_Hall2_hd.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/home_buildings/0489/Hero_Hall2_hd.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/0489-Hero-Hall"
+    ],
+    "localPath": "/images/original/upgrade/home_buildings/0489/Hero_Hall2_hd.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 360,
+    "height": 371,
+    "sha256": "2ddc7e77ea87f715964d9e72f2e7be5ac8996f35616bd1049e75db3a9e49eaca",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/home_buildings/0489/Hero_Hall3_hd.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/home_buildings/0489/Hero_Hall3_hd.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/0489-Hero-Hall"
+    ],
+    "localPath": "/images/original/upgrade/home_buildings/0489/Hero_Hall3_hd.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 360,
+    "height": 371,
+    "sha256": "1dc1c0b24cfe0aee3566497c3916a0911465100af4713717344992bae0753309",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/home_buildings/0489/Hero_Hall4_hd.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/home_buildings/0489/Hero_Hall4_hd.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/0489-Hero-Hall"
+    ],
+    "localPath": "/images/original/upgrade/home_buildings/0489/Hero_Hall4_hd.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 360,
+    "height": 371,
+    "sha256": "1a82aff74113dcce4bb94b023672e227e82ad2dc9fc2acfe98099c588fcfc2fb",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/home_buildings/0489/Hero_Hall5_hd.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/home_buildings/0489/Hero_Hall5_hd.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/0489-Hero-Hall"
+    ],
+    "localPath": "/images/original/upgrade/home_buildings/0489/Hero_Hall5_hd.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 360,
+    "height": 371,
+    "sha256": "c5d9d0ad4c27f84291c2cdce15ae36ec3d9c8afb6250db18fa48cf6b6b17c586",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/home_buildings/0489/Hero_Hall6_hd.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/home_buildings/0489/Hero_Hall6_hd.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/0489-Hero-Hall"
+    ],
+    "localPath": "/images/original/upgrade/home_buildings/0489/Hero_Hall6_hd.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 360,
+    "height": 371,
+    "sha256": "1185b694bf58403ba4cc4b725d764e05b00ad083c4939287b6937fa6ce6ddd3e",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/home_buildings/0489/Hero_Hall7_hd.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/home_buildings/0489/Hero_Hall7_hd.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/0489-Hero-Hall"
+    ],
+    "localPath": "/images/original/upgrade/home_buildings/0489/Hero_Hall7_hd.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 360,
+    "height": 371,
+    "sha256": "4f80d19f5652d6bdd1e4cf04be00002ab614c7bf35ebbaaba4ca20fdf8a00e39",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/home_buildings/0489/Hero_Hall8_hd.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/home_buildings/0489/Hero_Hall8_hd.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/0489-Hero-Hall"
+    ],
+    "localPath": "/images/original/upgrade/home_buildings/0489/Hero_Hall8_hd.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 360,
+    "height": 371,
+    "sha256": "df9126bd3d3a84eafbafb5e57872c10dd0118f4a1cfca6d80ef7c0bf896cd75c",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/home_buildings/0489/Hero_Hall9_hd.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/home_buildings/0489/Hero_Hall9_hd.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/0489-Hero-Hall"
+    ],
+    "localPath": "/images/original/upgrade/home_buildings/0489/Hero_Hall9_hd.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 360,
+    "height": 371,
+    "sha256": "f657a8b3faa8380abfa217cb37e872cb5c281af26376aa5ec5b8efbb0d2758fc",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/home_buildings/0500/Builders_Hut6_hd.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/home_buildings/0500/Builders_Hut6_hd.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/0500-Builders-Hut"
+    ],
+    "localPath": "/images/original/upgrade/home_buildings/0500/Builders_Hut6_hd.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 723,
+    "height": 894,
+    "sha256": "53b8eeb1c9d9ab3a46fe395165077196d2ada389b0c9080f4a61152a74e52c1a",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/home_tech/0001/Archer13_hd.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/home_tech/0001/Archer13_hd.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/0001-Archer"
+    ],
+    "localPath": "/images/original/upgrade/home_tech/0001/Archer13_hd.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 720,
+    "height": 916,
+    "sha256": "64c55631dcbf3c9a6992c10c88d7f5e2e2a43bd67c9c9415144f42a331618548",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/home_tech/0001/Archer14_hd.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/home_tech/0001/Archer14_hd.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/0001-Archer"
+    ],
+    "localPath": "/images/original/upgrade/home_tech/0001/Archer14_hd.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 512,
+    "height": 592,
+    "sha256": "334f309671f51f199745f06399892baca7f5bf8b0c37f10fc207bfe0edcd0fd9",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/home_tech/0002/Giant14_hd.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/home_tech/0002/Giant14_hd.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/0002-Giant"
+    ],
+    "localPath": "/images/original/upgrade/home_tech/0002/Giant14_hd.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 418,
+    "height": 345,
+    "sha256": "a172a3a2c661b1d409fdcb688e59b849d0a307b4b2dd81e3c2584faf7ca1f52c",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/home_tech/0005/Balloon12_hd.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/home_tech/0005/Balloon12_hd.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/0005-Balloon"
+    ],
+    "localPath": "/images/original/upgrade/home_tech/0005/Balloon12_hd.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 768,
+    "height": 878,
+    "sha256": "f2dacc4dfb37cf6b848d9c2254bbae4de0a8cd93f7ce3da520fd3bb016a6a43e",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/home_tech/0006/Wizard14_hd.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/home_tech/0006/Wizard14_hd.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/0006-Wizard"
+    ],
+    "localPath": "/images/original/upgrade/home_tech/0006/Wizard14_hd.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 484,
+    "height": 875,
+    "sha256": "f20f87a4fa694db792e2c7aa4cbafe9e236f92e6cd3dff15d910962bdbe34b15",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/home_tech/0008/Dragon12_hd.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/home_tech/0008/Dragon12_hd.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/0008-Dragon"
+    ],
+    "localPath": "/images/original/upgrade/home_tech/0008/Dragon12_hd.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 952,
+    "height": 486,
+    "sha256": "8dbaa525585edcf25dc174bfca56ee649e793ba45e0260b0b8e4057fc4ca6e46",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/home_tech/000b/Miner11_hd.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/home_tech/000b/Miner11_hd.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/000b-Miner"
+    ],
+    "localPath": "/images/original/upgrade/home_tech/000b/Miner11_hd.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 522,
+    "height": 550,
+    "sha256": "3825b10e98935f65ed78c561d6be14c40782c369756674f87dc8e9aefb6fd4a7",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/home_tech/000d/Yeti7_hd.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/home_tech/000d/Yeti7_hd.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/000d-Yeti"
+    ],
+    "localPath": "/images/original/upgrade/home_tech/000d/Yeti7_hd.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 397,
+    "height": 460,
+    "sha256": "05aa5e7f8fd5188ba658936fbd5608783c371d353432b0c3b87971e1eaa2d45c",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/home_tech/000d/Yetimite7_hd.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/home_tech/000d/Yetimite7_hd.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/000d-Yeti"
+    ],
+    "localPath": "/images/original/upgrade/home_tech/000d/Yetimite7_hd.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 493,
+    "height": 528,
+    "sha256": "5d49179df1c36b28b64cc46cb82c1c9f0952b80fcf663620ce65c63b1d0582dc",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/home_tech/000e/Dragon_Rider6_hd.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/home_tech/000e/Dragon_Rider6_hd.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/000e-Dragon-Rider"
+    ],
+    "localPath": "/images/original/upgrade/home_tech/000e/Dragon_Rider6_hd.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 964,
+    "height": 776,
+    "sha256": "54972cf0a5daf814055804c0f2cfd678047acee49d086a6d98452798409ba6ef",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/home_tech/0080/Minion13_hd.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/home_tech/0080/Minion13_hd.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/0080-Minion"
+    ],
+    "localPath": "/images/original/upgrade/home_tech/0080/Minion13_hd.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 599,
+    "height": 899,
+    "sha256": "75109ef9bd6e78a999127718a130930f01d1b2bfee744f57f2b87265d7f176ff",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/home_tech/0084/Witch8_hd.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/home_tech/0084/Witch8_hd.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/0084-Witch"
+    ],
+    "localPath": "/images/original/upgrade/home_tech/0084/Witch8_hd.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 776,
+    "height": 860,
+    "sha256": "1b542a6445ccc530425f2854f0df850bc4e573c65ad030a3b1679c1534876224",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/home_tech/0085/Lava_Hound7_hd.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/home_tech/0085/Lava_Hound7_hd.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/0085-Lava-Hound"
+    ],
+    "localPath": "/images/original/upgrade/home_tech/0085/Lava_Hound7_hd.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 369,
+    "height": 483,
+    "sha256": "fe8e7f852e2b016c00047cccb68535e7e95ef29c67de961f0bf6057e1c646bcf",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/home_tech/0085/Lava_Hound8_hd.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/home_tech/0085/Lava_Hound8_hd.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/0085-Lava-Hound"
+    ],
+    "localPath": "/images/original/upgrade/home_tech/0085/Lava_Hound8_hd.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 656,
+    "height": 875,
+    "sha256": "882a832be24c186aad47f19702e9073334f100018ea6f73c8d4795587a5e4bcf",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/home_tech/0086/Bowler10_hd.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/home_tech/0086/Bowler10_hd.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/0086-Bowler"
+    ],
+    "localPath": "/images/original/upgrade/home_tech/0086/Bowler10_hd.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 841,
+    "height": 639,
+    "sha256": "3dc8d06cdc2a202cfa9a7c2f756f9e81962c881242d3be68653ad13cb6c85f98",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/home_tech/0086/Bowler9_hd.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/home_tech/0086/Bowler9_hd.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/0086-Bowler"
+    ],
+    "localPath": "/images/original/upgrade/home_tech/0086/Bowler9_hd.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 730,
+    "height": 564,
+    "sha256": "19b281421e1ded6166f23d80cd0d43d6736026d70971396f6f79942c61ce2845",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/home_tech/0087/Ice_Golem9_hd.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/home_tech/0087/Ice_Golem9_hd.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/0087-Ice-Golem"
+    ],
+    "localPath": "/images/original/upgrade/home_tech/0087/Ice_Golem9_hd.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 451,
+    "height": 440,
+    "sha256": "d93e6c1c828a844c34c16c91e57dbc7032e566c8028924fc8afa3ddca6b41255",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/home_tech/008a/Bear5_hd.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/home_tech/008a/Bear5_hd.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/008a-Druid"
+    ],
+    "localPath": "/images/original/upgrade/home_tech/008a/Bear5_hd.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 959,
+    "height": 944,
+    "sha256": "2a8bdf89d5901f6fc47c3775f96dd51ae2f5d1f783d102be4086ea708e33f599",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/home_tech/008a/Druid5_hd.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/home_tech/008a/Druid5_hd.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/008a-Druid"
+    ],
+    "localPath": "/images/original/upgrade/home_tech/008a/Druid5_hd.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 924,
+    "height": 881,
+    "sha256": "043fef0a453e327a4a7f81514688b2d13fb9ee745ea431213423a652626cd0f2",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
+  },
+  "/upgrade/temp_troops/0e08/Ram_Rider_2022.png": {
+    "sourceUrl": "https://static.clashpost.com/upgrade/temp_troops/0e08/Ram_Rider_2022.png",
+    "sourcePages": [
+      "https://clashpost.com/upgrade/0e08-Ram-Rider"
+    ],
+    "localPath": "/images/original/upgrade/temp_troops/0e08/Ram_Rider_2022.png",
+    "importedAt": "2026-11-04T02:41:37+00:00",
+    "width": 390,
+    "height": 456,
+    "sha256": "6a5124dc7e956f1f64334483032a7d98144700d8e20cdc56166fcd5094732862",
+    "rightsHolder": "Supercell（游戏素材）；原站或其他第三方的加工权利待确认",
+    "rightsStatus": "individual_review_pending",
+    "rightsReferences": [
+      "https://github.com/lemonicy/clashpost#readme",
+      "https://supercell.com/en/fan-content-policy/"
+    ]
   }
 }

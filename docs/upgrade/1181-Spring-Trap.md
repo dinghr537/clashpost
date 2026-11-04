@@ -42,10 +42,12 @@ dataSyncedOn: 2026-10-13
     <UnitProperty pKey="占地面积" pValue="1×1" />
     <UnitProperty pKey="作用类型" pValue="弹飞敌军或对敌军造成高额伤害" />
     <UnitProperty pKey="作用目标" pValue="仅地面目标" />
-    <UnitProperty pKey="触发半径" pValue="1 格" />
+    <UnitProperty pKey="触发半径" pValue="0.7 格<sup>①</sup>" />
     <UnitProperty pKey="作用半径" pValue="2 格" />
     <UnitProperty pKey="陷阱作用延时" pValue="无" />
 </UnitProperties>
+
+① 触发半径按 <a href="https://clash-of-clans.1337wiki.com/spring-trap-builder-base/" target="_blank" rel="noopener noreferrer">夜世界隐形弹簧资料</a>核对，另与页面所列维基修订一致；不要与作用半径混淆。
 
 <SmallTitle>升级数据</SmallTitle>
 

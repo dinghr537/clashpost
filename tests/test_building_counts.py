@@ -6,6 +6,7 @@ import unittest
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
 from check_building_counts import compare_page, expand_groups
+from check_district_counts import compare_district_page
 from sync_wiki_data import preserve_table_corrections, source_cell
 
 
@@ -26,6 +27,27 @@ def page(groups, counts, extra=''):
 
 
 class BuildingCountTests(unittest.TestCase):
+    def test_district_counts_report_wrong_cells_and_omitted_districts(self):
+        record = {'tables': [{'sourceTableIndex': 2,
+                              'headers': ['Number Available', 'District Hall Level / 1',
+                                          'District Hall Level / 2'],
+                              'rows': [row('Barbarian Camp', 0, 2), row('Balloon Lagoon', 4, 4)]}]}
+        text = ('<DistrictTable>\n| | 1 | 2 |\n| --- | --- | --- |\n'
+                '| 野蛮人兵营 | 0 | 1 |\n</DistrictTable>')
+        result = compare_district_page('unit', text, record)
+        self.assertEqual(result['cells'], 2)
+        self.assertEqual(result['errors'][0]['level'], 2)
+        self.assertEqual(result['errors'][0]['source'], '2')
+        self.assertIn('unit: source district Balloon Lagoon absent from page', result['uncompared'])
+
+    def test_district_checker_does_not_treat_wall_costs_as_counts(self):
+        text = ('<DistrictTable>\n| 子城名称 | 2 |\n| --- | --- |\n'
+                '| 野蛮人兵营 | 10 万 |\n</DistrictTable>')
+        result = compare_district_page('unit', text, {})
+        self.assertEqual(result['otherBlocks'], 1)
+        self.assertEqual(result['countBlocks'], 0)
+        self.assertFalse(result['errors'])
+
     def test_missing_hall_and_stale_count_are_reported(self):
         report = compare_page('unit', page('1 - 15, 16 - 17, 18', '0, 2, 3'), home_record(), [])
         self.assertEqual([(d['level'], d['display'], d['source']) for d in report['differences']], [(17, 2, 3)])

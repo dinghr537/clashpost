@@ -56,7 +56,7 @@ dataSyncedOn: 2026-10-13
 | 4 | 190 | 430 | 720 | 2300 | 3900 |
 </UnitTable>
 
-<p><small>3 级生命值按<a href="https://goblinsfarm.com/wiki/clan-capital/troops/super-miner.html" target="_blank" rel="noopener noreferrer">游戏数据核对</a>为 3,700；原 Wiki 表格写作 3.700。</small></p>
+<p><small>3 级生命值为 3,700，见 <a href="https://supercell.com/en/games/clashofclans/blog/release-notes/february-2024-update-patch-notes/" target="_blank" rel="noopener noreferrer">Supercell 2024 年 2 月更新公告</a>；原 Wiki 表格写作 3.700。</small></p>
 
 <SmallTitle>更新历史</SmallTitle>
 

@@ -28,7 +28,7 @@ dataSyncedOn: 2026-10-13
 <SmallTitle>属性</SmallTitle>
 
 <UnitProperties>
-    <UnitProperty pKey="作用半径" pValue="3.5 格" />
+    <UnitProperty pKey="作用半径" pValue="3.5 格<sup>①</sup>" />
     <UnitProperty pKey="作用类型" pValue="减速并掉血 (范围伤害)" />
     <UnitProperty pKey="作用目标" pValue="敌方部队和英雄" />
     <UnitProperty pKey="法术持续时间" pValue="16 秒" />
@@ -38,6 +38,8 @@ dataSyncedOn: 2026-10-13
     <UnitProperty pKey="法术配置时间" pValue="无" trainingSystem="2025" />
     <UnitProperty pKey="捐赠费用" pValue="3,3,135,Dark_Elixir" :isDonationCost="true" />
 </UnitProperties>
+
+① 作用半径的资料存在差异：<a href="https://www.9game.cn/coc/555437.html" target="_blank" rel="noopener noreferrer">旧版游戏资料</a>记为 3.5 格，<a href="https://clashdaddy.com/poison-spell-max-levels-and-upgrade-cost" target="_blank" rel="noopener noreferrer">ClashDaddy</a>及页面所列维基资料记为 4 格；当前值及测量口径尚待核实。
 
 <SmallTitle>升级数据</SmallTitle>
 

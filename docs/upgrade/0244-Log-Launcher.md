@@ -41,7 +41,7 @@ dataSyncedOn: 2026-10-13
     <UnitProperty pKey="伤害类型" pValue="范围伤害" />
     <UnitProperty pKey="溅射范围" pValue="长 19 格，宽 2 格" />
     <UnitProperty pKey="攻击的目标" pValue="仅地面目标" />
-    <UnitProperty pKey="占据人口" pValue="30" />
+    <UnitProperty pKey="占据人口" pValue="不占用（使用独立栏位）" />
     <UnitProperty pKey="攻击距离" pValue="20 格" />
     <UnitProperty pKey="攻击速度" pValue="3 秒/次" />
     <UnitProperty pKey="移动速度" pValue="0.7 格/秒" />

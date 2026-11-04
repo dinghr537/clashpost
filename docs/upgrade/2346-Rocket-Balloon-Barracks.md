@@ -33,9 +33,11 @@ dataSyncedOn: 2026-10-13
 
 |             |   1   |   2   |   3   |   4   |   5   |
 |     ---     |  ---  |  ---  |  ---  |  ---  |  ---  |
-|   法师山谷   |   1   |   1   |   1   |   1   |   1   |
+|   气球环礁   |   1   |   1   |   1   |   1   |   1   |
 
 </DistrictTable>
+
+<p><small>子城位置核对：2026-11-03 · <a href="https://clash-of-clans.1337wiki.com/balloon-lagoon/" target="_blank" rel="noopener noreferrer">气球环礁资料</a>；另与页面所列维基修订一致。</small></p>
 
 <SmallTitle>属性</SmallTitle>
 

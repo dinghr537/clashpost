@@ -84,7 +84,7 @@ dataSyncedOn: 2026-10-13
     </TimelineItem>
     <TimelineItem date="2024/06/03">
         <TimelineRow>所有等级 13 本巨型地狱之塔的每秒伤害降低。</TimelineRow>
-        <TimelineRow>14 本巨型地狱之塔的自爆伤害由固定的 1000 降低至 500 ~ 700 之间的变化值。</TimelineRow>
+        <TimelineRow>13 本巨型地狱之塔的自爆伤害由固定的 1000 降低至 500 ~ 700 之间的变化值。 <a href="https://supercell.com/en/games/clashofclans/blog/game-updates/june-balance-changes/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
     </TimelineItem>
     <TimelineItem date="2023/09/28">
         <TimelineRow>所有等级 13 本巨型地狱之塔的每秒伤害降低。</TimelineRow>
