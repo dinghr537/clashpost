@@ -105,7 +105,7 @@ onBeforeUnmount(() => clearInterval(intervalId));
 
 <SmallTitle>数据说明</SmallTitle>
 
-2026-10-13 已同步 357 个单位的数据页，包含 17 个新增单位：常驻单位、今年两批精工防御以及新增和回归的临时单位。费用、时间、属性和前置条件采用 Clash of Clans Wiki 当前表格，每页保留来源修订链接及可取得的 2026 年更新历史。
+2026-10-13 已同步 357 个单位的数据页，包含 17 个新增单位：常驻单位、今年两批精工防御以及新增和回归的临时单位。费用、时间、属性和前置条件以当时的 Clash of Clans Wiki 表格为基础，同步页面标注来源和核对日期，并保留可取得的 2026 年更新历史。
 
 2026-10-20 的平衡调整已收录，涉及 10 项兵种或装备，包含召唤物的关联数据、说明和更新历史。调整范围依据 [Supercell 公告](https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/)，具体等级数值另在各页标注参考来源。同日 10 种建筑、23 个充能等级的费用和时间缩减，依据 [Clash Ninja 当日动态](https://x.com/ClashDotNinja/status/2112523574984446061)补充；其他数据仍沿用上述同步记录。
 

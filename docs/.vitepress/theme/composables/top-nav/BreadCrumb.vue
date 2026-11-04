@@ -37,6 +37,9 @@ function getBreadcrumbArr(moduleCode, finalTitle, path) {
     } else if (moduleCode === "sources") {
         items[1] = setBreadcrumbItem(null, "来源与许可");
 
+    } else if (moduleCode === "notice") {
+        items[1] = setBreadcrumbItem(null, "用户须知");
+
     } else if (moduleCode.startsWith("upgrade-")) {
         items[1] = setBreadcrumbItem("/upgrade", "升级数据");
         if (path.startsWith("upgrade/category/")) {

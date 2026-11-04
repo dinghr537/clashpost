@@ -1,8 +1,13 @@
 import { defineConfig, HeadConfig } from "vitepress";
-import { resolve } from 'node:path'
+import { appendFile, readFile } from 'node:fs/promises'
+import { createRequire } from 'node:module'
+import { dirname, resolve } from 'node:path'
 import { publicWikiLinks } from './theme/assets/wiki-links.mjs'
 
 const siteUrl = "https://cocpost.com";
+const require = createRequire(import.meta.url);
+const mathRendererPackage = require.resolve("markdown-it-mathjax3/package.json");
+const mathRendererRequire = createRequire(mathRendererPackage);
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -11,6 +16,16 @@ export default defineConfig({
     lang: "zh-Hans-CN",
     cleanUrls: true,
     ignoreDeadLinks: true,
+    buildEnd: async ({ outDir }) => {
+        // MathJax produces SVG in the HTML, so Vite's JS-bundle license list misses it.
+        const packages = [mathRendererPackage, mathRendererRequire.resolve("mathjax-full/package.json")];
+        for (const packagePath of packages) {
+            const { name, version, license } = JSON.parse(await readFile(packagePath, "utf8"));
+            const licenseText = await readFile(resolve(dirname(packagePath), "LICENSE"), "utf8");
+            await appendFile(resolve(outDir, "third-party-licenses.txt"),
+                `\n## ${name} - ${version} (${license})\n\n${licenseText.trim()}\n`);
+        }
+    },
     head: [
         ["meta", { name: "format-detection", content: "telephone=no"}],
         ["link", { rel: "icon", href: "/favicon.ico?v=20261017", sizes: "32x32" }],
@@ -61,7 +76,8 @@ export default defineConfig({
     vite: {
         server: { watch: { usePolling: true, interval: 500 } },
         build: {
-            target: ["es2020", "chrome71", "edge79", "firefox75", "safari13"]
+            target: ["es2020", "chrome71", "edge79", "firefox75", "safari13"],
+            license: { fileName: "third-party-licenses.txt" }
         },
         resolve: {
             alias: {
