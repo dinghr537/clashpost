@@ -36,6 +36,8 @@ npm run docs:preview
 
 当前由用户手动告诉 AI 要更新什么、准备哪次发布以及何时发布，不安排后台更新或自动发布。同步目标是正确采用指定数据网站的数值，并记录来源与同步日期。
 
+完成的工作分支先合并到本地 `main`，并推送到 GitHub 的 `main`。网站只从工作区干净、与 GitHub `main` 同步的本地 `main` 构建和发布；Cloudflare 的 `--branch main` 标记不能代替 Git 合并。
+
 - [维护方案](MAINTENANCE.md)
 - [当前数据结构](UPGRADE_DATA_FORMAT.md)
 - [来源、署名与许可](NOTICE.md)

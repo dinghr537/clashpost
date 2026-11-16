@@ -123,14 +123,18 @@ python3 scripts/check_local_images.py
 
 项目名为 `cocpost`，正式地址为 <https://cocpost.com>。网站地图和页面规范链接统一使用该域名。采用 Direct Upload：只在用户明确要求发布时，从本地上传构建结果，没有连接 Git 自动部署。图片包含在构建目录中，与页面一起发布。
 
-完成本文维护检查并提交本次改动后，使用已登录的 Wrangler 4 执行：
+完成工作分支的检查并提交改动后，先取得 GitHub `main` 的最新状态，再将工作分支合并到本地 `main`，并正常推送到 `origin/main`。遇到远端新提交或合并冲突时先解决，不强制覆盖远端历史。合并和推送本身不发布网站。
+
+收到明确发布指示后，只能从本地 `main` 构建和上传。发布前确认当前分支为 `main`、工作区干净，并核对本地 `HEAD` 与 GitHub 的 `main` 指向相同提交；如不一致，先完成同步。Cloudflare 的 `--branch main` 只是生产环境标记，不能代替切换、合并或推送 Git 分支，也不能用于从其他分支直接发布。
+
+完成本文维护检查和上述核对后，使用已登录的 Wrangler 4 执行：
 
 ```bash
 npm run docs:build
 wrangler pages deploy docs/.vitepress/dist --project-name cocpost --branch main
 ```
 
-这里的 `main` 是 Pages 的生产环境分支标识，不要求切换、合并或推送本地 Git 分支；部署记录关联当前本地提交。发布后检查首页、分类、单位表格、搜索、月卡减免、图片和来源说明。
+部署记录关联本地 `main` 的提交。发布后检查首页、分类、单位表格、搜索、月卡减免、图片和来源说明。
 
 ## 差异工具
 
