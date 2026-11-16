@@ -13,6 +13,12 @@
 
 CC BY-SA 3.0 的 [4(b) 条](https://creativecommons.org/licenses/by-sa/3.0/legalcode.en#s4b)允许改编采用后续同要素版本；这不改变未改编原文的原许可，也不覆盖第三方图片和游戏资产。
 
+## COC Wiki：2026-11-16 核查
+
+[COC Wiki 使用条款](https://cocwiki.com/terms)称，其源自 Clash of Clans Wiki 的游戏数据按相同 CC BY-SA 许可分享；复制或改编需同时注明 COC Wiki 和 Clash of Clans Wiki、链接来源，并按相同许可共享改编内容。其[19 本指南](https://cocwiki.com/guides/town-hall-19)明确将大本营费用、时间、生命值与驻军数据归于原 Wiki 的 CC BY-SA 3.0 内容。其他页面仍需逐项核对来源和许可版本，不能把此说明扩大到所有站点内容。游戏图片不在该数据许可内。
+
+其条款允许遵守 robots.txt、不过载网站的合理自动访问；2026-11-16 查看 [robots.txt](https://cocwiki.com/robots.txt) 为允许所有路径。此条件只针对 COC Wiki，**不授予对 Fandom 自动访问的许可**。具体数据是否更新需另查：其[关于页面](https://cocwiki.com/about)标示主体数据为 2026-10-22 的 Fandom 快照，部分单页历史更早；新 19 本指南另有来源说明。具体覆盖与待核查项见 [19 本来源核查](TH19_SOURCE_AUDIT_2026-11-16.md)。
+
 ## Fandom 获取方式：待确认
 
 2026-10-16 已通过浏览器读取[当前使用条款](https://www.fandom.com/terms-of-use)，页面修订日期为 **2025-12-19**。`User conduct` 包含自动抓取/提取限制、未经书面许可使用自动工具访问的限制，以及未经书面同意将内容用于软件开发（包括训练 AI）的限制。本文不自行断定这些条款与社区 CC 许可的法律适用关系，也不将 AI 整理资料等同于训练模型。

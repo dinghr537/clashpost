@@ -39,6 +39,7 @@ npm run docs:preview
 完成的工作分支先合并到本地 `main`，并推送到 GitHub 的 `main`。网站只从工作区干净、与 GitHub `main` 同步的本地 `main` 构建和发布；Cloudflare 的 `--branch main` 标记不能代替 Git 合并。
 
 - [维护方案](MAINTENANCE.md)
+- [19 本更新范围与数据来源核查](TH19_SOURCE_AUDIT_2026-11-16.md)
 - [当前数据结构](UPGRADE_DATA_FORMAT.md)
 - [来源、署名与许可](NOTICE.md)
 - [来源权限核查与未决项](SOURCE_PERMISSIONS.md)
