@@ -40,6 +40,7 @@ npm run docs:preview
 
 - [维护方案](MAINTENANCE.md)
 - [19 本更新范围与数据来源核查](TH19_SOURCE_AUDIT_2026-11-16.md)
+- [19 本逐项逐等级数据覆盖核查](TH19_LEVEL_COVERAGE_2026-11-16.md)
 - [当前数据结构](UPGRADE_DATA_FORMAT.md)
 - [来源、署名与许可](NOTICE.md)
 - [来源权限核查与未决项](SOURCE_PERMISSIONS.md)

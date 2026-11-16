@@ -2,6 +2,8 @@
 
 核查日期：2026-11-16。目的：记录这次更新对本站升级资料的影响，以及目前找到哪些具体数值；这不是已完成的数据同步记录。具体来源可能继续更新，后续使用时应重新核对页面日期、前置条件及数值。
 
+后续逐对象和等级的覆盖检查及新增冲突见 [19 本逐项逐等级核查](TH19_LEVEL_COVERAGE_2026-11-16.md)。下面保留按类别整理的范围说明；若与后续核查状态不同，以后者为准。
+
 本次依据 [Supercell 更新公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)、[COC Wiki 19 本指南](https://cocwiki.com/guides/town-hall-19)及下文各页面。第三方页面显示了数值，不等于该站的整套数据已取得复用和自动获取授权，也不等于游戏内已经核实。下文的升级费用、时间示例均为未使用月卡减免的页面显示值。
 
 ## 需要跟进的范围
@@ -24,7 +26,7 @@
 | --- | --- | --- |
 | 大本营 | [COC Wiki 19 本指南](https://cocwiki.com/guides/town-hall-19)：升级 2,700 万金币、13 天、11,200 生命，并列出驻军和解锁条件；该指南说明这部分改编自 Fandom Wiki 的 CC BY-SA 3.0 内容。 | 游戏内复核、各关联页面和建筑数量表。 |
 | 新防御 | 官方列出 Spiky Tower、Firecracker Tower 的数量、生命、攻击和合并机制。此前本会话逐页查看 Fandom Wiki 时已看到两塔的费用和时间；[Keepwatch Spiky Tower](https://keepwatch.gg/buildings/spiky-tower) 和 [Firecracker Tower](https://keepwatch.gg/buildings/firecracker-tower)本轮也列出了这些数据。 | 分别确认具体等级的大本营条件；后两个页面的数据库复用授权和自动获取条件尚未查明。 |
-| 守卫圣殿与粉碎者 | 官方称圣殿免费、立即建成；粉碎者最高 10 级，新等级每级增加 1,000 生命和 50 秒伤。官方也给出粉碎者旧的 2–5 级调整后费用。 | 本轮查阅的来源未找到粉碎者 6–10 级完整费用和时间；不能据此断言其他网站没有。 |
+| 守卫圣殿与粉碎者 | 官方称圣殿免费、立即建成；粉碎者最高 10 级，新等级每级增加 1,000 生命和 50 秒伤。后续在 Fandom 与 ClashKing 找到 6–10 级费用、时间和属性。 | 2–5 级费用在官方公告与后续查看的两个来源之间有冲突，详见逐等级核查；不能直接选用。 |
 | 小队兵营 | [Keepwatch](https://keepwatch.gg/buildings/squad-barracks)列出 1–12 级费用、时间与生命；例如 12 级需 3,200 万圣水、16 天。 | 确认全部等级及复用条件；此前本会话也逐页查看过 Fandom 对应页面。 |
 | 12 种小队 | 官方和 COC Wiki 指南给出各小队组成、人口、解锁条件及技能；[Keepwatch 龙小队](https://keepwatch.gg/troops/dragons-squad)已列 2、3 级研究费用和时间。 | 未逐一核查 12 种小队的全部等级费用、时间、前置和复用条件。 |
 | 新法术 | 官方给出 Heroic Spell 四级减伤、持续时间、移速及其他机制；[Keepwatch](https://keepwatch.gg/spells/heroic-spell)列出 2–4 级研究费用和时间，例如 4 级为 3,200 万圣水、15 天 12 小时。此前本会话逐页查看的 Fandom 页面也列有 4 级费用和时间。 | 费用时间还需游戏内或其他适用来源复核；确认新法术工厂和其余法术等级的完整数据。 |
@@ -44,7 +46,7 @@
 1. [COC Wiki 关于页面](https://cocwiki.com/about)将其主体数据标为 2026-10-22 的 Fandom 快照，但新的 19 本指南已有单独来源。比如其[蛮王页](https://cocwiki.com/heroes/barbarian-king)仍最高 110 级，且页面历史更早。**不能因为该站有 19 本指南，就认为所有单位页都已更新。**
 2. COC Wiki 蛮王页的 110 级费用显示 49 万黑水，而本轮查看的 ClashPerk 和 Keepwatch 页面显示 46.5 万。官方确认有旧等级费用调整，但没有在公告中列出这一行；不能仅凭差异就认定具体原因或直接当作已完成游戏内验证。
 3. 本轮查到 [ClashPerk 防空火箭](https://wiki.clashperk.com/defenses/air-defense)仍显示旧的 16 级 2,000 生命及充能，落后于官方的 2,050 生命和充能移除；其蛮王页则已有 115 级。不同页面的更新进度可能不同。
-4. Keepwatch 的 Firecracker Tower 页面列出 2 级费用和属性，但其各本上限仍把 19 本列为 1 级，2 级所需本数为空。该条件存在页面内部不一致，发布前须核查，不能由费用表直接推断解锁条件。
+4. Keepwatch 的 Firecracker Tower 页面列出 2 级费用和属性，但其各本上限仍把 19 本列为 1 级，2 级所需本数为空。后续逐页查看的 [Fandom 页面](https://clashofclans.fandom.com/wiki/Firecracker_Tower)将 1、2 级均标为 19 本；ClashKing 未填这两级大本要求。发布前仍需处理不同来源的差异。
 5. 两个第三方网站数据相同不必然代表独立验证；它们各自的完整数据来源、修订时间以及是否已在游戏中核对，仍需区分。
 
 ## 许可与获取条件

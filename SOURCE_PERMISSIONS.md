@@ -19,6 +19,10 @@ CC BY-SA 3.0 的 [4(b) 条](https://creativecommons.org/licenses/by-sa/3.0/legal
 
 其条款允许遵守 robots.txt、不过载网站的合理自动访问；2026-11-16 查看 [robots.txt](https://cocwiki.com/robots.txt) 为允许所有路径。此条件只针对 COC Wiki，**不授予对 Fandom 自动访问的许可**。具体数据是否更新需另查：其[关于页面](https://cocwiki.com/about)标示主体数据为 2026-10-22 的 Fandom 快照，部分单页历史更早；新 19 本指南另有来源说明。具体覆盖与待核查项见 [19 本来源核查](TH19_SOURCE_AUDIT_2026-11-16.md)。
 
+## ClashKing Assets：2026-11-16 核查
+
+[仓库 README](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/README.md)声明仓库采用 GPL-3.0，并欢迎在署名的情况下使用其托管素材。仓库包含游戏资料与素材，该声明不能自动解决上游权利、本站资料许可与批量转载的适配问题；尤其不能将 Supercell 游戏图片直接标为 GPL 或 CC 授权。本次只比对两个公开修订，记录数据覆盖、字段和差异，没有将该仓库的数据表或图片批量导入网站。结果见 [19 本逐等级核查](TH19_LEVEL_COVERAGE_2026-11-16.md)。
+
 ## Fandom 获取方式：待确认
 
 2026-10-16 已通过浏览器读取[当前使用条款](https://www.fandom.com/terms-of-use)，页面修订日期为 **2025-12-19**。`User conduct` 包含自动抓取/提取限制、未经书面许可使用自动工具访问的限制，以及未经书面同意将内容用于软件开发（包括训练 AI）的限制。本文不自行断定这些条款与社区 CC 许可的法律适用关系，也不将 AI 整理资料等同于训练模型。
