@@ -52,6 +52,25 @@
         ],
         "sourceUrl": "https://www.gibiarena.com/en/clash-of-clans/upgrades/hero-hall",
         "reason": "The saved Wiki count row still uses the pre-May-2026 Town Hall 7 unlock, although its level table and history record the Town Hall 4 unlock. The May 26 official update confirms the earlier hero unlock; game-file-derived data lists the Hero Hall at Town Hall 4."
+      },
+      {
+        "table": 3,
+        "reviewedOn": "2026-11-16",
+        "cells": [
+          {
+            "level": 13,
+            "header": "Hero Slots",
+            "originalRaw": "?",
+            "correctedRaw": "4"
+          },
+          {
+            "level": 13,
+            "header": "Unlocked Hero",
+            "originalRaw": "?",
+            "correctedRaw": "-"
+          }
+        ],
+        "reason": "User supplied: level 13 has four hero slots and unlocks no new hero."
       }
     ],
     "th19Update": {
@@ -806,14 +825,14 @@
             "raw": "13"
           },
           {
-            "status": "unknown",
+            "status": "not_applicable",
             "value": null,
-            "raw": "?"
+            "raw": "-"
           },
           {
-            "status": "unknown",
-            "value": null,
-            "raw": "?"
+            "status": "known",
+            "value": 4,
+            "raw": "4"
           },
           {
             "status": "known",

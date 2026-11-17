@@ -52,7 +52,7 @@ dataVersionUpdatedOn: 2026-11-16
 
 <small>19 本数据补充参考 [部落冲突 Wiki](https://clashofclans.fandom.com/wiki/Smasher) 和 [ClashKing Assets](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为未知。</small>
 
-<small>2–5 级费用采用 Wiki 当前数值；[Supercell 官方更新公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)所列费用不同，仍需游戏内核对。</small>
+<small>2–5 级费用采用 [Supercell 19 本更新公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)中的数值；维基列出的费用不同。</small>
 
 <script setup>
 const tableExtraInfo = [
@@ -76,10 +76,10 @@ const tableExtraInfo = [
 | 等级 | 每秒伤害 | 每次伤害 | 生命值 | 升级费用 | 升级时间 | 所需大本等级 |
 |  --- |   ---   |    ---  |   ---  |   ---   |   ---   |     ---     |
 | 1 | 500 | 900 | 12000 | \ | \ | 18 |
-| 2 | 550 | 990 | 13000 | 13000000 | 5,0,0,0 | 18 |
-| 3 | 600 | 1080 | 14000 | 16000000 | 7,0,0,0 | 18 |
-| 4 | 650 | 1170 | 15000 | 19000000 | 9,0,0,0 | 18 |
-| 5 | 700 | 1260 | 16000 | 21500000 | 11,0,0,0 | 18 |
+| 2 | 550 | 990 | 13000 | 15000000 | 5,0,0,0 | 18 |
+| 3 | 600 | 1080 | 14000 | 18000000 | 7,0,0,0 | 18 |
+| 4 | 650 | 1170 | 15000 | 21000000 | 9,0,0,0 | 18 |
+| 5 | 700 | 1260 | 16000 | 23000000 | 11,0,0,0 | 18 |
 | 6 | 750 | 1350 | 17000 | 24000000 | 12,0,0,0 | 19 |
 | 7 | 800 | 1440 | 18000 | 25000000 | 12,12,0,0 | 19 |
 | 8 | 850 | 1530 | 19000 | 26000000 | 13,0,0,0 | 19 |

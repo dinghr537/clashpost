@@ -18,7 +18,41 @@
       "sourceUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json",
       "scope": "Selected new levels and baseline-matched cost/time adjustments; missing fields remain unknown.",
       "wikiChecked": "https://clashofclans.fandom.com/wiki/Smasher"
-    }
+    },
+    "reviewedTableCorrections": [
+      {
+        "table": 3,
+        "reviewedOn": "2026-11-16",
+        "cells": [
+          {
+            "level": 2,
+            "header": "Upgrade Cost",
+            "originalRaw": "13000000",
+            "correctedRaw": "15000000"
+          },
+          {
+            "level": 3,
+            "header": "Upgrade Cost",
+            "originalRaw": "16000000",
+            "correctedRaw": "18000000"
+          },
+          {
+            "level": 4,
+            "header": "Upgrade Cost",
+            "originalRaw": "19000000",
+            "correctedRaw": "21000000"
+          },
+          {
+            "level": 5,
+            "header": "Upgrade Cost",
+            "originalRaw": "21500000",
+            "correctedRaw": "23000000"
+          }
+        ],
+        "reason": "Adopt the costs explicitly stated in Supercell’s TH19 update, per user instruction.",
+        "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/"
+      }
+    ]
   },
   "tables": [
     {
@@ -167,8 +201,8 @@
           },
           {
             "status": "known",
-            "value": 13000000,
-            "raw": "13000000"
+            "value": 15000000,
+            "raw": "15000000"
           },
           {
             "status": "known",
@@ -201,8 +235,8 @@
           },
           {
             "status": "known",
-            "value": 16000000,
-            "raw": "16000000"
+            "value": 18000000,
+            "raw": "18000000"
           },
           {
             "status": "known",
@@ -235,8 +269,8 @@
           },
           {
             "status": "known",
-            "value": 19000000,
-            "raw": "19000000"
+            "value": 21000000,
+            "raw": "21000000"
           },
           {
             "status": "known",
@@ -269,8 +303,8 @@
           },
           {
             "status": "known",
-            "value": 21500000,
-            "raw": "21500000"
+            "value": 23000000,
+            "raw": "23000000"
           },
           {
             "status": "known",

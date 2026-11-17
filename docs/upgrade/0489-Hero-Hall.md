@@ -61,6 +61,8 @@ dataVersionUpdatedOn: 2026-11-16
 
 <SmallTitle>升级数据</SmallTitle>
 
+<small>根据玩家提供的信息，13 级有 4 个英雄栏位，不解锁新英雄。</small>
+
 <small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为未知。</small>
 
 <script setup>
@@ -100,7 +102,7 @@ const tableExtraInfo = [
 | 10 | 4 | 5400 | 13000000 | 8,0,0,0 |  | 16 | \ |
 | 11 | 4 | 5800 | 15500000 | 9,0,0,0 |  | 17 | \ |
 | 12 | 4 | 6000 | 23500000 | 12,12,0,0 |  | 18 | \ |
-| 13 | 未知 | 6200 | 30500000 | 15,12,0,0 |  | 19 | 未知 |
+| 13 | 4 | 6200 | 30500000 | 15,12,0,0 |  | 19 | \ |
 
 </UnitTable>
 

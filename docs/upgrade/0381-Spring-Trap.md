@@ -69,6 +69,8 @@ dataVersionUpdatedOn: 2026-11-16
 
 <SmallTitle>升级数据</SmallTitle>
 
+<small>14 级弹飞人口上限为 18，依据玩家提供的信息。</small>
+
 <small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为未知。</small>
 
 <script setup>
@@ -109,7 +111,7 @@ const tableExtraInfo = [
 | 11 | 18 | 1200 | 6000000 | 2,0,0,0 |  | 16 |
 | 12 | 18 | 1300 | 7000000 | 2,12,0,0 |  | 17 |
 | 13 | 18 | 1400 | 9500000 | 5,0,0,0 |  | 18 |
-| 14 | 未知 | 1500 | 17000000 | 8,0,0,0 |  | 19 |
+| 14 | 18 | 1500 | 17000000 | 8,0,0,0 |  | 19 |
 
 </UnitTable>
 

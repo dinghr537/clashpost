@@ -17,7 +17,22 @@
       "source": "ClashKing Assets (selected game facts)",
       "sourceUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json",
       "scope": "Selected new levels and baseline-matched cost/time adjustments; missing fields remain unknown."
-    }
+    },
+    "reviewedTableCorrections": [
+      {
+        "table": 3,
+        "reviewedOn": "2026-11-16",
+        "cells": [
+          {
+            "level": 14,
+            "header": "Spring Capacity",
+            "originalRaw": "?",
+            "correctedRaw": "18"
+          }
+        ],
+        "reason": "User supplied: level 14 spring capacity remains 18."
+      }
+    ]
   },
   "tables": [
     {
@@ -844,9 +859,9 @@
             "raw": "14"
           },
           {
-            "status": "unknown",
-            "value": null,
-            "raw": "?"
+            "status": "known",
+            "value": 18,
+            "raw": "18"
           },
           {
             "status": "known",

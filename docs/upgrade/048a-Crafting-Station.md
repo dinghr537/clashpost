@@ -19,7 +19,7 @@ dataSyncedOn: 2026-10-13
     <BuildingNumRow title="建筑数量" num="     0,       1, 未知" />
 </BuildingNum>
 
-<small>19 本精制台数量有来源差异：部分数据列出新增一座，尚待游戏内确认。参考 [ClashClock](https://clashclock.com/en/town-hall/19)。</small>
+<small>[ClashClock](https://clashclock.com/en/town-hall/19) 和 [ClashPerk](https://wiki.clashperk.com/other/town-hall) 将精制台列为 19 本新增；这是否代表可以同时建造第二座仍未确认，两个网站的数据也可能同源。</small>
 
 <SmallTitle>重要说明</SmallTitle>
 
