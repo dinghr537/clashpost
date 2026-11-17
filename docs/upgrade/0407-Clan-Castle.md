@@ -112,7 +112,7 @@ const tableExtraInfo = [
 
 <SmallTitle>宝库可容纳的资源量</SmallTitle>
 
-<small>19 本宝库容量尚无可核实的数值，暂列为未知；部落等级会影响宝库容量。<a href="https://sc-clashofclans.zendesk.com/hc/en-us/articles/49529078545691-Clan-Games-Rewards">官方说明</a>。</small>
+<small>1–18 本数据参考 [Treasury 数据表](https://clash-of-clans.1337wiki.com/treasury/)及各部落等级加成；19 本宝库容量尚无可核实的数值，暂列为未知。<a href="https://sc-clashofclans.zendesk.com/hc/en-us/articles/49529078545691-Clan-Games-Rewards">官方说明</a>。</small>
 
 <SwitchTabs contentClass="cp-upgrade-clan-level">
     <SwitchTab tabId="cp-upgrade-clan-0" :activeTab="true">无部落或 1 级部落</SwitchTab>

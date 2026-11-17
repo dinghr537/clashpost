@@ -101,6 +101,9 @@ class BuildingCountTests(unittest.TestCase):
             self.assertEqual(check_th19_building_counts(pages, {'unit': None})['errors'], [])
             path.write_text(page('1 - 18, 19', '1, '))
             self.assertIn('must say 未知', check_th19_building_counts(pages, {'unit': None})['errors'][0])
+            (pages / 'new.md').write_text('---\nmodule: upgrade-home\n---\n' + page('1 - 19', '1'))
+            self.assertIn('new: home count table has no TH19 expectation',
+                          check_th19_building_counts(pages, {'unit': None})['errors'])
 
     def test_old_snapshot_cannot_restore_reviewed_count(self):
         table = {'sourceTableIndex': 1, 'headers': ['Town Hall Level', '4'],

@@ -168,6 +168,11 @@ def check_th19_building_counts(pages=None, expectations=None):
     pages = pages or ROOT / 'docs/upgrade'
     expectations = expectations if expectations is not None else json.loads(TH19_COUNTS.read_text())['counts']
     result = {'units': len(expectations), 'blocks': 0, 'errors': []}
+    for path in pages.glob('*.md'):
+        text = path.read_text()
+        if (path.stem not in expectations and '<BuildingNum>' in text
+                and re.search(r'^module:\s*upgrade-home\s*$', text, re.M)):
+            result['errors'].append(f'{path.stem}: home count table has no TH19 expectation')
     for unit, expected in expectations.items():
         path = pages / f'{unit}.md'
         if not path.is_file():

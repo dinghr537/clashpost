@@ -186,7 +186,7 @@ const tableExtraInfo2 = [
 | 19 | 5000000 | 50000 |
 </UnitTable>
 
-<small>19 级大本营自身储量参考 [ClashPerk](https://wiki.clashperk.com/other/town-hall)。</small>
+<small>各级大本营自身储量参考 [ClashPerk](https://wiki.clashperk.com/other/town-hall)（2026-11-16 核对）。</small>
 
 <SmallTitle>大本营升级提速情况一览</SmallTitle>
 
