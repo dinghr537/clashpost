@@ -62,6 +62,8 @@ dataVersionUpdatedOn: 2026-11-16
 
 <SmallTitle>升级数据</SmallTitle>
 
+<small>新增等级的储量参考 [ClashPerk Wiki](https://wiki.clashperk.com/resources/elixir-storage)。</small>
+
 <small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为未知。</small>
 
 <script setup>
@@ -114,7 +116,7 @@ const tableExtraInfo = [
 | 17 | 5500000 | 4050 | 5500000 | 4,0,0,0 |  | 16 |
 | 18 | 6000000 | 4200 | 8500000 | 4,6,0,0 |  | 17 |
 | 19 | 6500000 | 4300 | 12500000 | 7,12,0,0 |  | 18 |
-| 20 | 未知 | 4400 | 18000000 | 11,0,0,0 |  | 19 |
+| 20 | 7000000 | 4400 | 18000000 | 11,0,0,0 |  | 19 |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>

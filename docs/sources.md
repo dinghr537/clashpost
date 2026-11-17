@@ -28,6 +28,8 @@ Wiki 文字与表格整理来自 **Clash of Clans Wiki 的贡献者**，除另�
 
 19 本新增等级和部分旧等级的游戏数值也参考了 [ClashKing Assets 的固定修订](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)。它的仓库声明采用 GPL-3.0；本站只引用本次更新相关的游戏事实，没有复制其说明文字或图片，也不据此宣称这些第三方材料采用本站的 CC 许可。尚未核实的字段标为“未知”。
 
+部分新等级的储量和法术效果参考 [ClashPerk Wiki](https://wiki.clashperk.com/)，各单位页注明具体条目。本站仅引用相关游戏数值，不将其页面文字或图片视为已获开放转载许可。
+
 ## 官方资料与图片
 
 Supercell 公告和帮助页面用于核对游戏数值与机制，对应链接标在正文中。Supercell 的游戏图片、图标、名称和商标仍归其权利人所有，使用条件见 [Supercell 玩家内容政策](https://supercell.com/en/fan-content-policy/)。

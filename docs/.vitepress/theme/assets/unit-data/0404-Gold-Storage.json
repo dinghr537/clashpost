@@ -16,7 +16,12 @@
       "checkedOn": "2026-11-16",
       "source": "ClashKing Assets (selected game facts)",
       "sourceUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json",
-      "scope": "Selected new levels and baseline-matched cost/time adjustments; missing fields remain unknown."
+      "scope": "Selected new levels and baseline-matched cost/time adjustments; missing fields remain unknown.",
+      "additionalSource": {
+        "source": "ClashPerk Wiki",
+        "sourceUrl": "https://wiki.clashperk.com/resources/gold-storage",
+        "scope": "New level storage capacity."
+      }
     }
   },
   "tables": [
@@ -976,9 +981,9 @@
             "raw": "20"
           },
           {
-            "status": "unknown",
-            "value": null,
-            "raw": "?"
+            "status": "known",
+            "value": 7000000,
+            "raw": "7000000"
           },
           {
             "status": "known",

@@ -81,4 +81,4 @@ CC BY-SA 3.0 的 [4(b) 条](https://creativecommons.org/licenses/by-sa/3.0/legal
 
 ## ClashPerk Wiki：2026-11-16 定向参考
 
-[急速法术页面](https://wiki.clashperk.com/spells/haste-spell)显示 8 级的加速、持续时间和半径；另参考[毒药法术页面](https://wiki.clashperk.com/spells/poison-spell)的 13 级减速数据。本站仅引用这些相关游戏数值并注明来源，没有复制其文字、图片或整套数据。[其条款页](https://clashperk.com/terms)描述 Discord 机器人服务，不足以证明 Wiki 内容的转载许可；不把其页面统一标为开放许可。
+[急速法术页面](https://wiki.clashperk.com/spells/haste-spell)显示 8 级的加速、持续时间和半径；另参考[毒药法术页面](https://wiki.clashperk.com/spells/poison-spell)的 13 级减速数据，以及[储金罐](https://wiki.clashperk.com/resources/gold-storage)、[圣水瓶](https://wiki.clashperk.com/resources/elixir-storage)和[暗黑重油罐](https://wiki.clashperk.com/resources/dark-elixir-storage)的新增等级容量。本站仅引用这些相关游戏数值并注明来源，没有复制其文字、图片或整套数据。[其条款页](https://clashperk.com/terms)描述 Discord 机器人服务，不足以证明 Wiki 内容的转载许可；不把其页面统一标为开放许可。
