@@ -2,7 +2,7 @@
 """Manually update values in authored tables. Never replace a page or its schema.
 
 The checked-in mapping names exact source tables and headers. Missing source fields
-retain authored cells; new unavailable cells say 未知. Preview is the default.
+retain authored cells; new unavailable cells say 待核实. Preview is the default.
 """
 import argparse
 import html
@@ -86,7 +86,7 @@ def cell_text(cell, translated, meta=None):
     if cell['status'] == 'not_applicable':
         return '\\'
     if cell['status'] == 'unknown':
-        return '未知'
+        return '待核实'
     if meta and meta.get('type') == 'time':
         return cell.get('displayInput') or duration(cell['raw'])
     if cell.get('unit') == 'seconds':
@@ -118,7 +118,7 @@ def evaluate(spec, source, row, translated, old, header, meta, records, min_town
         if cell['status'] != 'known' and plain(header).startswith('所需') and old:
             return old
         if cell['status'] == 'unknown':
-            return old or '未知'
+            return old or '待核实'
         text = cell_text(cell, translated[spec], meta)
         if old and ('href=' in old or re.search(r'\]\(/', old)):
             # Preserve authored route links and established names. New rows are linked separately.
@@ -129,9 +129,9 @@ def evaluate(spec, source, row, translated, old, header, meta, records, min_town
     if 'requirement' in spec:
         cell = row[source['headers'].index(spec['requirement'])]
         if cell['status'] != 'known' or not isinstance(cell['value'], (int, float)):
-            return old or '未知'
+            return old or '待核实'
         result = prerequisite(records, spec['unit'], cell['value'])
-        return number(max(result, min_town_hall)) if result is not None else old or '未知'
+        return number(max(result, min_town_hall)) if result is not None else old or '待核实'
     if 'baseTroopRequirement' in spec:
         base = records[spec['baseTroopRequirement']]
         table = next(t for t in base['tables'] if t['headers'][0] == 'Level' and 'Laboratory Level Required' in t['headers'])
@@ -141,7 +141,7 @@ def evaluate(spec, source, row, translated, old, header, meta, records, min_town
             result = prerequisite(records, '0483-Laboratory', lab) if isinstance(lab, (int, float)) else None
             if result is not None:
                 return number(max(result, min_town_hall, 11))
-        return old or '未知'
+        return old or '待核实'
     if 'sameLevelSource' in spec:
         ref = spec['sameLevelSource']
         table = next((t for t in records[ref['unit']]['tables']
@@ -152,14 +152,14 @@ def evaluate(spec, source, row, translated, old, header, meta, records, min_town
         if len(matches) != 1:
             raise ValueError('Referenced source level is missing or ambiguous')
         cell = matches[0][ref['column']]
-        return cell_text(cell, cell['raw'], meta) if cell['status'] == 'known' else old or '未知'
+        return cell_text(cell, cell['raw'], meta) if cell['status'] == 'known' else old or '待核实'
     if 'duration' in spec:
         cell = row[spec['duration']]
         return duration(cell['raw']) if cell['status'] == 'known' else '\\'
     if 'sum' in spec or 'multiply' in spec:
         columns = spec.get('sum', [spec.get('multiply')])
         if any(row[i]['status'] != 'known' or not isinstance(row[i]['value'], (int, float)) for i in columns):
-            return old or '未知'
+            return old or '待核实'
         value = sum(row[i]['value'] for i in columns)
         if 'multiply' in spec:
             value *= spec['factor']
@@ -216,13 +216,14 @@ def update_table(old, mapping, record, translated, records, min_town_hall=0):
                 fallback = previous[col] if previous else ''
                 spec = source_map['columns'].get(str(col))
                 if spec is None:
-                    value = fallback or '未知'
+                    value = fallback or '待核实'
                     preserved.append(heading)
                 else:
                     value = evaluate(spec, source, row, label, fallback, heading, metas.get(col), records, min_town_hall)
+                value = value.replace('未知', '待核实')
                 if col == 0:
                     value = prefix + value if prefix else value
-                if value == '未知':
+                if '待核实' in value:
                     unknown.append({'level': key, 'column': heading})
                 out.append(value)
             rows.append(out)

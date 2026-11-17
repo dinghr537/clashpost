@@ -24,7 +24,7 @@ if (activeTabCookieValue === "home-techniques") {
 
 如需查看其他村庄（夜世界、都城）的内容，请使用左侧菜单栏。
 
-19 本新内容可在“科技”查看小队与新法术，在“大本”查看守卫神殿，在“建筑”查看新防御和小队训练营。部分数据仍在核对，页面中以“未知”标出。
+19 本新内容可在“科技”查看小队与新法术，在“大本”查看守卫神殿，在“建筑”查看新防御和小队训练营。部分数据仍在核对，页面中以“待核实”标出。
 
 <SwitchTabs contentClass="cp-upgrade-item" :stickyTabs="true" :averageTabs="true" :pageTabs="true">
     <SwitchTab tabId="cp-upgrade-heroes"

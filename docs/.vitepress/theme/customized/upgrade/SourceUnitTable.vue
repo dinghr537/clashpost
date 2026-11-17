@@ -18,7 +18,7 @@ const table = computed(() => {
 const rows = computed(() => table.value.rows.map(row => props.columns.map(column => row[table.value.headers.indexOf(column.source)])));
 function display(cell) {
     if (cell.status === "not_applicable") return "\\";
-    if (cell.status === "unknown") return "未知";
+    if (cell.status === "unknown") return "待核实";
     return cell.displayInput ?? (typeof cell.value === "number" ? String(cell.value) : dataLabel(cell.raw));
 }
 </script>

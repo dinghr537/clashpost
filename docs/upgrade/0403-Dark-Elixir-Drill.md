@@ -51,7 +51,7 @@ dataVersionUpdatedOn: 2026-11-16
 
 <SmallTitle>升级数据</SmallTitle>
 
-<small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为未知。</small>
+<small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为待核实。</small>
 
 <script setup>
 const tableExtraInfo = [
@@ -103,7 +103,7 @@ const tableExtraInfo = [
 | 9 | 160 | 3600 | 0,22,30,0 | 6 | 45 | 1480 | 3000000 | 2,6,0,0 |  | 12 |
 | 10 | 180 | 4200 | 0,23,20,0 | 7 | 50 | 1550 | 4400000 | 2,12,0,0 |  | 14 |
 | 11 | 200 | 4600 | 0,23,0,0 | 8 | 55 | 1600 | 8000000 | 5,0,0,0 |  | 16 |
-| 12 | 未知 | 未知 | \ | 未知 | 未知 | 1650 | 12500000 | 6,12,0,0 |  | 18 |
+| 12 | 待核实 | 待核实 | \ | 待核实 | 待核实 | 1650 | 12500000 | 6,12,0,0 |  | 18 |
 | ⚡1 | 209 | 4807 | 0,23,0,0 | 8 | 55 | 1600 | 750000 | 0,14,30,0 |  | 18 |
 | ⚡2 | 218 | 5014 | 0,23,0,0 | 8 | 55 | 1600 | 750000 | 0,19,0,0 |  | 18 |
 | ⚡3 | 218 | 5014 | 0,23,0,0 | 8 | 55 | 1650 | 500000 | 1,0,0,0 |  | 18 |

@@ -70,7 +70,7 @@ const tableExtraInfo0 = [
 
 <SmallTitle>升级数据</SmallTitle>
 
-<small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为未知。</small>
+<small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为待核实。</small>
 
 <UnitTable :tableExtraInfo="tableExtraInfo0">
 
@@ -80,7 +80,7 @@ const tableExtraInfo0 = [
 | 2 | 2 | 10 | 2550 | 26 | 52 | 220000 | 11,0,0,0 | 14 | 16 |
 | 3 | 3 | 10 | 2800 | 27 | 54 | 300000 | 12,0,0,0 | 15 | 17 |
 | 4 | 4 | 10 | 3050 | 28 | 56 | 355000 | 13,0,0,0 | 16 | 18 |
-| 5 | 未知 | 未知 | 3300 | 29 | 58 | 435000 | 13,12,0,0 | 17 | 19 |
+| 5 | 待核实 | 待核实 | 3300 | 29 | 58 | 435000 | 13,12,0,0 | 17 | 19 |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>

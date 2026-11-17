@@ -73,7 +73,7 @@ dataVersionUpdatedOn: 2026-11-16
 
 <SmallTitle>升级数据</SmallTitle>
 
-<small>19 本新增等级沿用本页与原兵种相同的编号：通过旧等级属性对照及原兵种等级，将 [ClashKing 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)重新编号后补入；不同来源的编号不一致，仍待游戏内核对。缺失字段标为未知。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/">官方公告</a></small>
+<small>19 本新增等级沿用本页与原兵种相同的编号：通过旧等级属性对照及原兵种等级，将 [ClashKing 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)重新编号后补入；不同来源的编号不一致，仍待游戏内核对。缺失字段标为待核实。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/">官方公告</a></small>
 
 <UnitTable>
 
@@ -91,7 +91,7 @@ dataVersionUpdatedOn: 2026-11-16
 | 6 | 15 | 30 | 4.25秒 | 12 / 11 | 10000 | 13 |
 | 7 | 20 | 40 | 4.75秒 | 14 / 12 | 10500 | 16 |
 | 8 | 25 | 50 | 5.25秒 | 16 / 13 | 11500 | 18 |
-| 9 | 30 | 60 | 未知 | 未知 / 未知 | 12500 | 19 |
+| 9 | 30 | 60 | 待核实 | 待核实 / 待核实 | 12500 | 19 |
 </UnitTable>
 
 \* 1 - 4 级寒冰猎犬只在 奖章活动 中出现，不能通过常规方式得到。

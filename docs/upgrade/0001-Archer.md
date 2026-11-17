@@ -55,7 +55,7 @@ dataVersionUpdatedOn: 2026-11-16
 
 <SmallTitle>升级数据</SmallTitle>
 
-<small>19 本数据补充参考 [部落冲突 Wiki](https://clashofclans.fandom.com/wiki/Archer) 和 [ClashKing Assets](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为未知。</small>
+<small>19 本数据补充参考 [部落冲突 Wiki](https://clashofclans.fandom.com/wiki/Archer) 和 [ClashKing Assets](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为待核实。</small>
 
 <script setup>
 const tableExtraInfo = [

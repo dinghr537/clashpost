@@ -51,7 +51,7 @@ dataVersionUpdatedOn: 2026-11-16
 
 <SmallTitle>升级数据</SmallTitle>
 
-<small>19 本新增等级沿用本页与原兵种相同的编号：通过旧等级属性对照及原兵种等级，将 [ClashKing 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)重新编号后补入；不同来源的编号不一致，仍待游戏内核对。缺失字段标为未知。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/">官方公告</a></small>
+<small>19 本新增等级沿用本页与原兵种相同的编号：通过旧等级属性对照及原兵种等级，将 [ClashKing 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)重新编号后补入；不同来源的编号不一致，仍待游戏内核对。缺失字段标为待核实。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/">官方公告</a></small>
 
 <UnitTable>
 
@@ -64,7 +64,7 @@ dataVersionUpdatedOn: 2026-11-16
 | 10 | 86 | 174 | 1740 | 2400 | 16 |
 | 11 | 88 | 178 | 1780 | 2500 | 17 |
 | 12 | 90 | 182 | 1820 | 2700 | 18 |
-| 13 | 未知 | 未知 | 未知 | 2900 | 19 |
+| 13 | 待核实 | 待核实 | 待核实 | 2900 | 19 |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>

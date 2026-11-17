@@ -64,7 +64,7 @@ dataVersionUpdatedOn: 2026-11-16
 
 <SmallTitle>升级数据</SmallTitle>
 
-<small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为未知。</small>
+<small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为待核实。</small>
 
 <script setup>
 const tableExtraInfo = [
@@ -91,7 +91,7 @@ const tableExtraInfo = [
 | 3 | 151 | 275 | 105 | 111.76秒 | 1900 | 8000000 | 4,0,0,0 | 10 | 14 |
 | 4 | 165 | 300 | 120 | 117.64秒 | 2000 | 10000000 | 7,0,0,0 | 11 | 14 |
 | 5 | 179 | 325 | 130 | 123.52秒 | 2100 | 14500000 | 8,12,0,0 | 14 | 16 |
-| 6 | 210 | 1050 | 未知 | 未知 | 2200 | 31000000 | 15,0,0,0 | 17 | 19 |
+| 6 | 210 | 1050 | 待核实 | 待核实 | 2200 | 31000000 | 15,0,0,0 | 17 | 19 |
 </UnitTable>
 
 ④ 攻城烈焰车发射出的熔岩伤害类似于 [毒药法术](/upgrade/0180-Poison-Spell)，也就是前期伤害低，兵种或建筑待在熔岩里的时间越长瞬时伤害越高。<br>

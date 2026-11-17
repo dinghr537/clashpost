@@ -45,7 +45,7 @@ const tableExtraInfo0 = [
     <UnitProperty pKey="射程" pValue="7格" />
     <UnitProperty pKey="巡逻半径" pValue="14格" />
     <UnitProperty pKey="触发半径" pValue="15格" />
-    <UnitProperty pKey="伤害半径" pValue="??" />
+    <UnitProperty pKey="伤害半径" pValue="待核实" />
     <UnitProperty pKey="击退范围" pValue="1.5格" />
 </UnitProperties>
 

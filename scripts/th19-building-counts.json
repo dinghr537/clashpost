@@ -6,7 +6,8 @@
     "counts": "https://www.clashrecord.com/max-levels/th19",
     "airBombAtTH18": "https://coc.tools/item?kind=building&name=air-bomb&th=18",
     "craftingStationDiscrepancy": "https://clashclock.com/en/town-hall/19",
-    "craftedDefensesUserConfirmation": "用户于 2026-11-16 提供：19 本三项精工防御的可用数量与 18 本相同。"
+    "craftedDefensesUserConfirmation": "用户于 2026-11-16 提供：19 本三项精工防御的可用数量与 18 本相同。",
+    "craftingStationUserConfirmation": "用户于 2026-11-16 确认 19 本精制台为 1 个。"
   },
   "counts": {
     "0300-Walls": 350,
@@ -57,7 +58,7 @@
     "0487-Pet-House": 1,
     "0488-Blacksmith": 1,
     "0489-Hero-Hall": 1,
-    "048a-Crafting-Station": null,
+    "048a-Crafting-Station": 1,
     "048b-Squad-Barracks": 1,
     "0500-Builders-Hut": 5,
     "0501-B.O.Bs-Hut": 1,

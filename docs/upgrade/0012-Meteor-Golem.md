@@ -67,7 +67,7 @@ dataVersionUpdatedOn: 2026-11-16
 
 <SmallTitle>升级数据</SmallTitle>
 
-<small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为未知。</small>
+<small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为待核实。</small>
 
 <script setup>
 const tableExtraInfo = [
@@ -134,7 +134,7 @@ const tableExtraInfo = [
 | 1 | 190 | 285 | 7650 |
 | 2 | 210 | 315 | 8450 |
 | 3 | 230 | 345 | 9250 |
-| 4 | 未知 | 未知 | 10000 |
+| 4 | 待核实 | 待核实 | 10000 |
 </UnitTable>
 
 <small>1–3 级伤害参考 [小陨石戈仑维基](https://clashofclans.fandom.com/wiki/Meteor_Golem/Meteormite)；4 级生命值按母体满血 20000 分裂时各为一半计算，母体受损时会更低，4 级伤害尚待核实。</small>

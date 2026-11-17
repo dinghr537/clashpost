@@ -34,7 +34,7 @@ function title(table) {
 }
 function display(cell) {
     if (cell.status === "not_applicable") return "不适用";
-    if (cell.status === "unknown") return "未知";
+    if (cell.status === "unknown") return "待核实";
     if (typeof cell.value === "number" && cell.unit !== "seconds") return String(cell.value);
     return cell.displayInput ?? dataLabel(cell.raw);
 }

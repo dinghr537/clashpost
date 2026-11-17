@@ -54,7 +54,7 @@ dataVersionUpdatedOn: 2026-11-16
 
 <small>本级部分伤害或治疗量按本页已有倍率、攻速或治疗次数计算。</small>
 
-<small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为未知。</small>
+<small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为待核实。</small>
 
 <script setup>
 const tableExtraInfo = [
@@ -80,7 +80,7 @@ const tableExtraInfo = [
 | 2 | 115 | 69 | 460 | 276 | 42% / 60% | 400 | 45000 | 4,0,0,0 | 10 | 12 |
 | 3 | 125 | 75 | 500 | 300 | 44% / 65% | 440 | 90000 | 7,0,0,0 | 11 | 13 |
 | 4 | 135 | 81 | 540 | 324 | 46% / 68% | 500 | 275000 | 10,0,0,0 | 16 | 18 |
-| 5 | 145 | 87 | 580 | 348 | 未知 / 未知 | 560 | 425000 | 12,12,0,0 | 17 | 19 |
+| 5 | 145 | 87 | 580 | 348 | 待核实 / 待核实 | 560 | 425000 | 12,12,0,0 | 17 | 19 |
 </UnitTable>
 
 \* 毒药法术效果：移动速度降低 / 攻击速度降低。

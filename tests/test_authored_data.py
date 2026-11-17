@@ -32,7 +32,7 @@ class AuthoredTableTests(unittest.TestCase):
         self.assertEqual(result[:after['start']], self.text[:before['start']])
         self.assertEqual(result[after['end']:], self.text[before['end']:])
         self.assertEqual(after['headers'], before['headers'])
-        self.assertEqual(after['rows'], [['1', '200', '4', '原说明'], ['1', '300', '5', '原说明'], ['2', '400', '6', '未知']])
+        self.assertEqual(after['rows'], [['1', '200', '4', '原说明'], ['1', '300', '5', '原说明'], ['2', '400', '6', '待核实']])
         self.assertEqual(len(report[0]['unknownNewCells']), 1)
         self.assertEqual(self.update(result)[0], result)
 

@@ -64,7 +64,7 @@ dataVersionUpdatedOn: 2026-11-16
 
 <SmallTitle>升级数据</SmallTitle>
 
-<small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为未知。</small>
+<small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为待核实。</small>
 
 <script setup>
 const tableExtraInfo = [
@@ -96,7 +96,7 @@ const tableExtraInfo = [
 | 3 | 4 | 1 | 400000 | 0,8,0,0 |  | 9 |
 | 4 | 5 | 1 | 1000000 | 0,12,0,0 |  | 10 |
 | 5 | 5 | 2 | 10500000 | 5,12,0,0 |  | 18 |
-| 6 | 未知 | 未知 | 18000000 | 9,0,0,0 |  | 19 |
+| 6 | 待核实 | 待核实 | 18000000 | 9,0,0,0 |  | 19 |
 
 </UnitTable>
 </SwitchTabGroup>

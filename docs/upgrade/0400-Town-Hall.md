@@ -88,7 +88,7 @@ dataVersionUpdatedOn: 2026-11-16
 
 <SmallTitle>升级数据</SmallTitle>
 
-<small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为未知。</small>
+<small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为待核实。</small>
 
 <script setup>
 const tableExtraInfo1 = [
@@ -156,7 +156,7 @@ const tableExtraInfo2 = [
 2. 理论上来说，[部落城堡](/upgrade/0407-Clan-Castle) 在 2 级大本营也有可能解锁，但这种情况过于刁钻，为了让数据更具普遍性，这里将城堡视为 3 级大本营解锁。
 3. 当商店里的所有建筑都已建造，且所有可以合并的建筑都已经合并时，建筑数量才会等于表格中的数字。
 4. 战旗 不视为建筑。
-5. 8 本起的建筑数量按本次新增的小队训练营，以及各建筑页的可建数量重新汇总。19 本暂按一个精制台计；第二个是否可建仍待确认。
+5. 8 本起的建筑数量按本次新增的小队训练营，以及各建筑页的可建数量重新汇总。19 本按玩家提供的信息计入一个精制台。
 6. 18、19 本陷阱数量按各陷阱页面相加，其中 18 本有 8 个空中炸弹；19 本还新增 1 个隐形弹簧。<small>（[18 本空中炸弹](https://coc.tools/item?kind=building&name=air-bomb&th=18)、[官方公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)）</small>
 
 <SmallTitle>各大本等级的资源储量</SmallTitle>

@@ -109,7 +109,7 @@ onBeforeUnmount(() => clearInterval(intervalId));
 
 2026-10-20 的平衡调整已收录，涉及 10 项兵种或装备，包含召唤物的关联数据、说明和更新历史。调整范围依据 [Supercell 公告](https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/)，具体等级数值另在各页标注参考来源。同日 10 种建筑、23 个充能等级的费用和时间缩减，依据 [Clash Ninja 当日动态](https://x.com/ClashDotNinja/status/2112523574984446061)补充；其他数据仍沿用上述同步记录。
 
-其余 31 个往期活动单位保留历史数据，并在页首标注。来源缺项显示为“未知”或“不适用”；同步日期不表示游戏更新生效日期。
+其余 31 个往期活动单位保留历史数据，并在页首标注。来源缺项显示为“待核实”或“不适用”；同步日期不表示游戏更新生效日期。
 
 本项目作为「部落驿站」的继承项目继续整理升级数据。本地网站仅提供数据查询。
 

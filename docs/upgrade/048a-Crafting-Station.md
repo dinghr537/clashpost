@@ -15,11 +15,11 @@ dataSyncedOn: 2026-10-13
 <SmallTitle>建筑数量对照表</SmallTitle>
 
 <BuildingNum>
-    <BuildingNumRow title="大本等级" num="1 - 10, 11 - 18, 19" />
-    <BuildingNumRow title="建筑数量" num="     0,       1, 未知" />
+    <BuildingNumRow title="大本等级" num="1 - 10, 11 - 19" />
+    <BuildingNumRow title="建筑数量" num="     0,       1" />
 </BuildingNum>
 
-<small>[ClashClock](https://clashclock.com/en/town-hall/19) 和 [ClashPerk](https://wiki.clashperk.com/other/town-hall) 将精制台列为 19 本新增；这是否代表可以同时建造第二座仍未确认，两个网站的数据也可能同源。</small>
+<small>19 本的精制台数量为 1，依据玩家提供的信息。[ClashClock](https://clashclock.com/en/town-hall/19) 和 [ClashPerk](https://wiki.clashperk.com/other/town-hall) 将精制台列为 19 本新增，两个网站的数据也可能同源。</small>
 
 <SmallTitle>重要说明</SmallTitle>
 

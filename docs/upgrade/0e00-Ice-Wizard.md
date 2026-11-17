@@ -90,7 +90,7 @@ const tableExtraInfo = [
         <TimelineRow>该兵种第 4 次推出。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2019/12">
-        <TimelineRow>该兵种第 3 次推出，前两次分别在 2016/12/30 - 2017/01/06 以及 2017/12/?? - 2018/01/03.</TimelineRow>
+        <TimelineRow>该兵种第 3 次推出，前两次分别在 2016/12/30 - 2017/01/06 以及 2017 年 12 月（具体日期待核实） - 2018/01/03.</TimelineRow>
     </TimelineItem>
     <TimelineItem :historyBottom="true" />
 </Timeline>
