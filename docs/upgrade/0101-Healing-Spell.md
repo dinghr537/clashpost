@@ -75,7 +75,7 @@ const tableExtraInfo = [
 | 6 | 1640 | 902 | 1800000 | 1,12,0,0 | 7 | 9 |
 | 7 | 1845 | 1014.75 | 3000000 | 3,0,0,0 | 8 | 10 |
 | 8 | 2050 | 1127.5 | 6000000 | 5,0,0,0 | 11 | 13 |
-| 9 | 2255 | 1240.25 | 11000000 | 6,12,0,0 | 13 | 15 |
+| 9 | 2255 | 1240.25 | 10500000 | 5,18,0,0 | 13 | 15 |
 | 10 | 2460 | 1353 | 14000000 | 7,0,0,0 | 14 | 16 |
 | 11 | 2747 | 1510.85 | 16000000 | 8,18,0,0 | 15 | 17 |
 | 12 | 3075 | 1691.25 | 19500000 | 10,12,0,0 | 16 | 18 |
@@ -143,3 +143,5 @@ const tableExtraInfo = [
     <TimelineItem :historyBottom="true" />
 </Timeline>
 <p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Healing_Spell?oldid=588153" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>
+
+<small>2026 年 11 月旧等级费用与时间参考[玩家整理](https://mp.weixin.qq.com/s/1C8VxevkSERrS2x1vJd8aA)（用户提供原文）及 [ClashKing 游戏数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)。本站保留表格结构并按等级核对。</small>

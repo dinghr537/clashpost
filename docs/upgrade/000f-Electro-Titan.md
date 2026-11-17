@@ -85,8 +85,8 @@ const tableExtraInfo = [
 | 等级 |普攻伤害<br>(每秒/每次)|光环伤害<br>(每秒/每次)| 生命值 | 升级花费 |  升级时间 |所需实验室<br>等级|所需<br>大本等级|
 | ---- |          ---        |           ---        |  ---- |   ----  |    ----   |      ----      |     ----      |
 | 1 | 180 / 270 | 75 / 30 | 7200 | \ | \ | 1 | 14 |
-| 2 | 200 / 300 | 100 / 40 | 7700 | 14000000 | 8,0,0,0 | 12 | 14 |
-| 3 | 220 / 330 | 125 / 50 | 8200 | 16000000 | 9,0,0,0 | 13 | 15 |
+| 2 | 200 / 300 | 100 / 40 | 7700 | 11500000 | 7,12,0,0 | 12 | 14 |
+| 3 | 220 / 330 | 125 / 50 | 8200 | 13500000 | 8,12,0,0 | 13 | 15 |
 | 4 | 240 / 360 | 137.5 / 55 | 8700 | 15500000 | 9,0,0,0 | 14 | 16 |
 | 5 | 270 / 405 | 150 / 60 | 9200 | 18000000 | 11,12,0,0 | 16 | 18 |
 | 6 | 300 / 450 | 未知 / 未知 | 10000 | 28000000 | 12,0,0,0 | 17 | 19 |
@@ -135,3 +135,5 @@ const tableExtraInfo = [
     <TimelineItem :historyBottom="true" />
 </Timeline>
 <p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Electro_Titan?oldid=624602" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>
+
+<small>2026 年 11 月旧等级费用与时间参考[玩家整理](https://mp.weixin.qq.com/s/1C8VxevkSERrS2x1vJd8aA)（用户提供原文）及 [ClashKing 游戏数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)。本站保留表格结构并按等级核对。</small>

@@ -8,6 +8,7 @@ imgFolder: home_buildings/030a
 wiki: https://clashofclans.fandom.com/wiki/Inferno_Tower/Home_Village
 canonical: /upgrade/030a-Inferno-Tower
 dataSyncedOn: 2026-10-13
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 <script setup>
@@ -97,9 +98,11 @@ const tableExtraInfoMultiMode = [
 <SmallTitle>各大本等级的地狱塔数量</SmallTitle>
 
 <BuildingNum>
-    <BuildingNumRow title="大本等级" num="1 - 9, 10 - 11, 12 - 18" />
+    <BuildingNumRow title="大本等级" num="1 - 9, 10 - 11, 12 - 19" />
     <BuildingNumRow title="建筑数量" num="    0,       2,       3" />
 </BuildingNum>
+
+<small>19 本数量参考 [官方更新公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)和 [ClashRecord](https://www.clashrecord.com/max-levels/th19)；可合并建筑按全部合并后计算。</small>
 
 <SmallTitle>重要说明</SmallTitle>
 
@@ -135,13 +138,13 @@ const tableExtraInfoMultiMode = [
 | 3 | 40 | 120 | 1200 | 2100 | 2400000 | 2,0,0,0 |  | 10 |
 | 4 | 45 | 140 | 1400 | 2400 | 3400000 | 2,12,0,0 |  | 11 |
 | 5 | 50 | 150 | 1500 | 2700 | 4200000 | 3,0,0,0 |  | 11 |
-| 6 | 55 | 160 | 1600 | 3000 | 6000000 | 4,0,0,0 |  | 12 |
-| 7 | 65 | 180 | 1800 | 3300 | 8000000 | 5,0,0,0 |  | 13 |
-| 8 | 80 | 210 | 2100 | 3700 | 9500000 | 6,0,0,0 |  | 14 |
-| 9 | 100 | 230 | 2300 | 4000 | 10000000 | 6,12,0,0 |  | 15 |
+| 6 | 55 | 160 | 1600 | 3000 | 4500000 | 3,6,0,0 |  | 12 |
+| 7 | 65 | 180 | 1800 | 3300 | 5500000 | 3,12,0,0 |  | 13 |
+| 8 | 80 | 210 | 2100 | 3700 | 8000000 | 5,0,0,0 |  | 14 |
+| 9 | 100 | 230 | 2300 | 4000 | 8500000 | 5,12,0,0 |  | 15 |
 | 10 | 120 | 260 | 2600 | 4400 | 11000000 | 7,0,0,0 |  | 16 |
-| 11 | 140 | 290 | 2900 | 4800 | 16000000 | 8,0,0,0 |  | 17 |
-| 12 | 155 | 330 | 3300 | 5100 | 26500000 | 13,12,0,0 |  | 18 |
+| 11 | 140 | 290 | 2900 | 4800 | 13500000 | 7,6,0,0 |  | 17 |
+| 12 | 155 | 330 | 3300 | 5100 | 20000000 | 10,12,0,0 |  | 18 |
 | ⚡1 | 165 | 350 | 3500 | 5100 | 13000000 | 5,0,0,0 |  | 18 |
 | ⚡2 | 165 | 350 | 3500 | 5300 | 8500000 | 7,0,0,0 |  | 18 |
 </UnitTable>
@@ -187,9 +190,11 @@ const tableExtraInfoMultiMode = [
 <SmallTitle>各大本等级的地狱塔数量</SmallTitle>
 
 <BuildingNum>
-    <BuildingNumRow title="大本等级" num="1 - 9, 10 - 11, 12 - 18" />
+    <BuildingNumRow title="大本等级" num="1 - 9, 10 - 11, 12 - 19" />
     <BuildingNumRow title="建筑数量" num="    0,       2,       3" />
 </BuildingNum>
+
+<small>19 本数量参考 [官方更新公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)和 [ClashRecord](https://www.clashrecord.com/max-levels/th19)；可合并建筑按全部合并后计算。</small>
 
 <SmallTitle>重要说明</SmallTitle>
 
@@ -225,13 +230,13 @@ const tableExtraInfoMultiMode = [
 | 3 | 40 | 5 | 2100 | 2400000 | 2,0,0,0 |  | 10 |
 | 4 | 45 | 5 | 2400 | 3400000 | 2,12,0,0 |  | 11 |
 | 5 | 50 | 5 | 2700 | 4200000 | 3,0,0,0 |  | 11 |
-| 6 | 55 | 5 | 3000 | 6000000 | 4,0,0,0 |  | 12 |
-| 7 | 65 | 5 | 3300 | 8000000 | 5,0,0,0 |  | 13 |
-| 8 | 80 | 6 | 3700 | 9500000 | 6,0,0,0 |  | 14 |
-| 9 | 100 | 6 | 4000 | 10000000 | 6,12,0,0 |  | 15 |
+| 6 | 55 | 5 | 3000 | 4500000 | 3,6,0,0 |  | 12 |
+| 7 | 65 | 5 | 3300 | 5500000 | 3,12,0,0 |  | 13 |
+| 8 | 80 | 6 | 3700 | 8000000 | 5,0,0,0 |  | 14 |
+| 9 | 100 | 6 | 4000 | 8500000 | 5,12,0,0 |  | 15 |
 | 10 | 120 | 6 | 4400 | 11000000 | 7,0,0,0 |  | 16 |
-| 11 | 140 | 6 | 4800 | 16000000 | 8,0,0,0 |  | 17 |
-| 12 | 155 | 6 | 5100 | 26500000 | 13,12,0,0 |  | 18 |
+| 11 | 140 | 6 | 4800 | 13500000 | 7,6,0,0 |  | 17 |
+| 12 | 155 | 6 | 5100 | 20000000 | 10,12,0,0 |  | 18 |
 | ⚡1 | 165 | 6 | 5100 | 13000000 | 5,0,0,0 |  | 18 |
 | ⚡2 | 165 | 6 | 5300 | 8500000 | 7,0,0,0 |  | 18 |
 
@@ -325,3 +330,5 @@ const tableExtraInfoMultiMode = [
     <TimelineItem :historyBottom="true" />
 </Timeline>
 <p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Inferno_Tower/Home_Village?oldid=624731" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>
+
+<small>2026 年 11 月旧等级费用与时间参考[玩家整理](https://mp.weixin.qq.com/s/1C8VxevkSERrS2x1vJd8aA)（用户提供原文）及 [ClashKing 游戏数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)。本站保留表格结构并按等级核对。</small>

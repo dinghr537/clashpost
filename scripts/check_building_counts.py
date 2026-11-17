@@ -13,6 +13,7 @@ from update_authored_data import parse_tables, plain
 
 ROOT = Path(__file__).resolve().parents[1]
 REVIEWS = ROOT / 'scripts/reviewed-building-count-differences.json'
+TH19_COUNTS = ROOT / 'scripts/th19-building-counts.json'
 ROW_NAMES = {
     '建筑数量': 'Total',
     '合计': 'Total',
@@ -56,7 +57,7 @@ def expand_groups(groups, values):
     expanded = {}
     for group, count in zip(levels, counts):
         match = re.fullmatch(r'(\d+)\s*(?:[-~–—]\s*(\d+))?', group)
-        if not match or not (count.isdigit() or count in ('', '\\')):
+        if not match or not (count.isdigit() or count in ('', '\\', '未知')):
             raise ValueError(f'unrecognized building-count cell: {group} / {count}')
         start = int(match[1])
         end = int(match[2] or start)
@@ -159,6 +160,44 @@ def check_building_counts(records, pages=None, reviews=None):
         result['uncompared'].extend(page['uncompared'])
         for difference in page['differences']:
             (result['reviewedDifferences'] if difference['reviewed'] else result['errors']).append(difference)
+    return result
+
+
+def check_th19_building_counts(pages=None, expectations=None):
+    """Check every 19-BuildingNum block against reviewed counts or explicit unknowns."""
+    pages = pages or ROOT / 'docs/upgrade'
+    expectations = expectations if expectations is not None else json.loads(TH19_COUNTS.read_text())['counts']
+    result = {'units': len(expectations), 'blocks': 0, 'errors': []}
+    for unit, expected in expectations.items():
+        path = pages / f'{unit}.md'
+        if not path.is_file():
+            result['errors'].append(f'{unit}: missing page')
+            continue
+        blocks = re.findall(r'<BuildingNum>(.*?)</BuildingNum>', path.read_text(), re.S)
+        if not blocks:
+            result['errors'].append(f'{unit}: missing count table')
+        for index, block in enumerate(blocks, 1):
+            result['blocks'] += 1
+            rows = re.findall(r'<BuildingNumRow\b[^>]*?title="([^"]+)"[^>]*?num="([^"]+)"', block)
+            label = f'{unit}: block {index}'
+            if len(rows) != 2 or rows[0][0] != '大本等级' or rows[1][0] != '建筑数量':
+                result['errors'].append(f'{label}: unsupported count table')
+                continue
+            try:
+                values = expand_groups(rows[0][1], rows[1][1])
+            except ValueError as error:
+                result['errors'].append(f'{label}: {error}')
+                continue
+            if 19 not in values:
+                result['errors'].append(f'{label}: missing TH19')
+            elif values[19] != expected:
+                result['errors'].append(f'{label}: TH19 is {values[19]}, expected {expected}')
+            elif expected is None:
+                group_labels = [part.strip() for part in rows[0][1].split(',')]
+                count_labels = [part.strip() for part in rows[1][1].split(',')]
+                if not any(19 in expand_groups(group, count) and count == '未知'
+                           for group, count in zip(group_labels, count_labels)):
+                    result['errors'].append(f'{label}: unconfirmed TH19 must say 未知')
     return result
 
 

@@ -15,9 +15,11 @@ dataSyncedOn: 2026-10-13
 <SmallTitle>建筑数量对照表</SmallTitle>
 
 <BuildingNum>
-    <BuildingNumRow title="大本等级" num="1 - 10, 11 - 18" />
-    <BuildingNumRow title="建筑数量" num="     0,       1" />
+    <BuildingNumRow title="大本等级" num="1 - 10, 11 - 18, 19" />
+    <BuildingNumRow title="建筑数量" num="     0,       1, 未知" />
 </BuildingNum>
+
+<small>19 本精制台数量有来源差异：部分数据列出新增一座，尚待游戏内确认。参考 [ClashClock](https://clashclock.com/en/town-hall/19)。</small>
 
 <SmallTitle>重要说明</SmallTitle>
 

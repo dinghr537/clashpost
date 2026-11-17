@@ -31,6 +31,13 @@ dataVersionUpdatedOn: 2026-11-16
     </UnitImgGroup>
 </Panel>
 
+<SmallTitle>建筑数量对照表</SmallTitle>
+
+<BuildingNum>
+    <BuildingNumRow title="大本等级" num="1 - 7, 8 - 19" />
+    <BuildingNumRow title="建筑数量" num="0, 1" />
+</BuildingNum>
+
 <SmallTitle>重要说明</SmallTitle>
 
 小队训练营从 8 本开放，每升一级解锁一种小队。小队成员使用玩家已研究的对应兵种等级；尚未解锁的成员按 1 级出战。小队不能捐赠，19 本可研究小队本身的等级，2 级解锁小队能力。

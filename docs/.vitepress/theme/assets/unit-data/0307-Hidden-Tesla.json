@@ -135,8 +135,65 @@
       "checkedOn": "2026-11-16",
       "source": "ClashKing Assets (selected game facts)",
       "sourceUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json",
-      "scope": "Selected new levels and baseline-matched cost/time adjustments; missing fields remain unknown."
-    }
+      "scope": "Selected new levels and baseline-matched cost/time adjustments; missing fields remain unknown.",
+      "oldLevelCostTimeReference": {
+        "checkedOn": "2026-11-16",
+        "source": "用户提供的玩家整理与 ClashKing Assets 固定修订逐项对照",
+        "articleUrl": "https://mp.weixin.qq.com/s/1C8VxevkSERrS2x1vJd8aA",
+        "snapshotUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json"
+      }
+    },
+    "reviewedTableCorrections": [
+      {
+        "table": 4,
+        "reviewedOn": "2026-11-16",
+        "cells": [
+          {
+            "level": 10,
+            "header": "Cost",
+            "originalRaw": "3,000,000",
+            "correctedRaw": "2500000"
+          },
+          {
+            "level": 11,
+            "header": "Cost",
+            "originalRaw": "3,100,000",
+            "correctedRaw": "2800000"
+          },
+          {
+            "level": 11,
+            "header": "Build Time",
+            "originalRaw": "2d 12h",
+            "correctedRaw": "2d 6h"
+          },
+          {
+            "level": 12,
+            "header": "Cost",
+            "originalRaw": "3,700,000",
+            "correctedRaw": "3000000"
+          },
+          {
+            "level": 12,
+            "header": "Build Time",
+            "originalRaw": "3d",
+            "correctedRaw": "2d 12h"
+          },
+          {
+            "level": 13,
+            "header": "Cost",
+            "originalRaw": "5,100,000",
+            "correctedRaw": "4400000"
+          },
+          {
+            "level": 13,
+            "header": "Build Time",
+            "originalRaw": "3d 12h",
+            "correctedRaw": "3d"
+          }
+        ],
+        "reason": "Review against the user-provided November 2026 reference, current game-data snapshot, or the linked source documented on the page; do not silently restore an older snapshot."
+      }
+    ]
   },
   "tables": [
     {
@@ -767,8 +824,8 @@
           },
           {
             "status": "known",
-            "value": 3000000,
-            "raw": "3,000,000"
+            "value": 2500000,
+            "raw": "2500000"
           },
           {
             "status": "known",
@@ -811,15 +868,15 @@
           },
           {
             "status": "known",
-            "value": 3100000,
-            "raw": "3,100,000"
+            "value": 2800000,
+            "raw": "2800000"
           },
           {
             "status": "known",
-            "value": 216000,
-            "raw": "2d 12h",
+            "value": 194400,
+            "raw": "2d 6h",
             "unit": "seconds",
-            "displayInput": "2,12,0,0"
+            "displayInput": "2,6,0,0"
           },
           {
             "status": "known",
@@ -855,15 +912,15 @@
           },
           {
             "status": "known",
-            "value": 3700000,
-            "raw": "3,700,000"
+            "value": 3000000,
+            "raw": "3000000"
           },
           {
             "status": "known",
-            "value": 259200,
-            "raw": "3d",
+            "value": 216000,
+            "raw": "2d 12h",
             "unit": "seconds",
-            "displayInput": "3,0,0,0"
+            "displayInput": "2,12,0,0"
           },
           {
             "status": "known",
@@ -899,15 +956,15 @@
           },
           {
             "status": "known",
-            "value": 5100000,
-            "raw": "5,100,000"
+            "value": 4400000,
+            "raw": "4400000"
           },
           {
             "status": "known",
-            "value": 302400,
-            "raw": "3d 12h",
+            "value": 259200,
+            "raw": "3d",
             "unit": "seconds",
-            "displayInput": "3,12,0,0"
+            "displayInput": "3,0,0,0"
           },
           {
             "status": "known",

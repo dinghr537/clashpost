@@ -16,8 +16,47 @@
       "checkedOn": "2026-11-16",
       "source": "ClashKing Assets (selected game facts)",
       "sourceUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json",
-      "scope": "Selected new levels and baseline-matched cost/time adjustments; missing fields remain unknown."
-    }
+      "scope": "Selected new levels and baseline-matched cost/time adjustments; missing fields remain unknown.",
+      "oldLevelCostTimeReference": {
+        "checkedOn": "2026-11-16",
+        "source": "用户提供的玩家整理与 ClashKing Assets 固定修订逐项对照",
+        "articleUrl": "https://mp.weixin.qq.com/s/1C8VxevkSERrS2x1vJd8aA",
+        "snapshotUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json"
+      }
+    },
+    "reviewedTableCorrections": [
+      {
+        "table": 3,
+        "reviewedOn": "2026-11-16",
+        "cells": [
+          {
+            "level": 5,
+            "header": "Research Cost",
+            "originalRaw": "85,000",
+            "correctedRaw": "75000"
+          },
+          {
+            "level": 5,
+            "header": "Research Time",
+            "originalRaw": "4d",
+            "correctedRaw": "3d 12h"
+          },
+          {
+            "level": 6,
+            "header": "Research Cost",
+            "originalRaw": "110,000",
+            "correctedRaw": "100000"
+          },
+          {
+            "level": 6,
+            "header": "Research Time",
+            "originalRaw": "6d",
+            "correctedRaw": "5d 12h"
+          }
+        ],
+        "reason": "Review against the user-provided November 2026 reference, current game-data snapshot, or the linked source documented on the page; do not silently restore an older snapshot."
+      }
+    ]
   },
   "tables": [
     {
@@ -265,15 +304,15 @@
           },
           {
             "status": "known",
-            "value": 85000,
-            "raw": "85,000"
+            "value": 75000,
+            "raw": "75000"
           },
           {
             "status": "known",
-            "value": 345600,
-            "raw": "4d",
+            "value": 302400,
+            "raw": "3d 12h",
             "unit": "seconds",
-            "displayInput": "4,0,0,0"
+            "displayInput": "3,12,0,0"
           },
           {
             "status": "known",
@@ -304,15 +343,15 @@
           },
           {
             "status": "known",
-            "value": 110000,
-            "raw": "110,000"
+            "value": 100000,
+            "raw": "100000"
           },
           {
             "status": "known",
-            "value": 518400,
-            "raw": "6d",
+            "value": 475200,
+            "raw": "5d 12h",
             "unit": "seconds",
-            "displayInput": "6,0,0,0"
+            "displayInput": "5,12,0,0"
           },
           {
             "status": "known",

@@ -36,7 +36,7 @@ dataVersionUpdatedOn: 2026-11-16
 
 19 本更新后，超级大雪怪受到 800 点伤害时才生成首个小雪怪（此前为 400）；总生成速度不变。<small>（[Supercell 官方公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)）</small>
 
-超级大雪怪的技能（闪电狂袭）：超级大雪怪受伤时会分裂出雷电小雪怪，具体来说是每受到 400 点伤害分裂一个，分裂完为止。
+超级大雪怪的技能（闪电狂袭）：超级大雪怪受伤时会分裂出雷电小雪怪，分裂完为止。
 
 <SmallTitle>属性</SmallTitle>
 
@@ -136,9 +136,10 @@ dataVersionUpdatedOn: 2026-11-16
 |      6      |    88   |         352         |  550  |     16    |
 |      7      |    90   |         360         |  575  |     17    |
 |      8      |    92   |         368         |  590  |     18    |
+|      9      |   未知  |         未知        |  未知 |     19    |
 </UnitTable>
 
-<small>雷电小雪怪数据来源：<a href="https://clashofclans.fandom.com/wiki/Super_Yeti/Electromite" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。</small>
+<small>9 级雷电小雪怪属性尚未找到可核实数据。雷电小雪怪数据来源：<a href="https://clashofclans.fandom.com/wiki/Super_Yeti/Electromite" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。</small>
 
 \* 1 - 2 级雷电小雪怪只在 奖章活动 中出现，不能通过常规方式得到。
 </SwitchTabGroup>

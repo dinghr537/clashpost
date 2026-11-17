@@ -40,9 +40,11 @@ dataVersionUpdatedOn: 2026-11-16
 <SmallTitle>建筑数量对照表</SmallTitle>
 
 <BuildingNum>
-    <BuildingNumRow title="大本等级" num="1 - 6, 7 - 18" />
+    <BuildingNumRow title="大本等级" num="1 - 6, 7 - 19" />
     <BuildingNumRow title="建筑数量" num="    0,      1" />
 </BuildingNum>
+
+<small>19 本数量参考 [官方更新公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)和 [ClashRecord](https://www.clashrecord.com/max-levels/th19)；可合并建筑按全部合并后计算。</small>
 
 <SmallTitle>属性</SmallTitle>
 
@@ -87,11 +89,11 @@ const tableExtraInfo = [
 | 5 | 700 | 2200000 | 2,12,0,0 |  | 9 | <a href="/upgrade/0084-Witch">女巫</a> |
 | 6 | 750 | 2900000 | 3,0,0,0 |  | 9 | <a href="/upgrade/0085-Lava-Hound">熔岩猎犬</a> |
 | 7 | 800 | 4000000 | 5,0,0,0 |  | 10 | <a href="/upgrade/0086-Bowler">巨石投手</a> |
-| 8 | 850 | 7000000 | 6,0,0,0 |  | 11 | <a href="/upgrade/0087-Ice-Golem">戈仑冰人</a> |
+| 8 | 850 | 6000000 | 6,0,0,0 |  | 11 | <a href="/upgrade/0087-Ice-Golem">戈仑冰人</a> |
 | 9 | 900 | 7200000 | 7,0,0,0 |  | 12 | <a href="/upgrade/0088-Headhunter">英雄猎手</a> |
 | 10 | 950 | 10000000 | 7,12,0,0 |  | 13 | <a href="/upgrade/0089-Apprentice-Warden">守护者学徒</a> |
 | 11 | 1000 | 12000000 | 8,0,0,0 |  | 14 | <a href="/upgrade/008a-Druid">德鲁伊</a> |
-| 12 | 1050 | 20000000 | 9,0,0,0 |  | 15 | <a href="/upgrade/008b-Furnace">烈焰熔炉</a> |
+| 12 | 1050 | 14000000 | 9,0,0,0 |  | 15 | <a href="/upgrade/008b-Furnace">烈焰熔炉</a> |
 | 13 | 1100 | 15500000 | 10,0,0,0 |  | 16 | [废墟女巫](/upgrade/0013-Ruin-Witch) |
 </UnitTable>
 
@@ -148,3 +150,5 @@ const tableExtraInfo = [
     <TimelineItem :historyBottom="true" />
 </Timeline>
 <p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Dark_Barracks?oldid=623607" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>
+
+<small>2026 年 11 月旧等级费用与时间参考[玩家整理](https://mp.weixin.qq.com/s/1C8VxevkSERrS2x1vJd8aA)（用户提供原文）及 [ClashKing 游戏数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)。本站保留表格结构并按等级核对。</small>

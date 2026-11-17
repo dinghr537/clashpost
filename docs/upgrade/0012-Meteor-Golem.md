@@ -90,8 +90,8 @@ const tableExtraInfo = [
 | 等级 |  投掷伤害 | 生命值 | 升级花费|  升级时间  |所需实验室等级|所需大本等级|
 | ---- |   ----   |  ---- |    ---  |     ---   |     ---     |   ----    |
 | 1 | 480 | 15300 | \ | \ | 1 | 17 |
-| 2 | 530 | 16900 | 28000000 | 14,0,0,0 | 15 | 17 |
-| 3 | 580 | 18500 | 30000000 | 16,0,0,0 | 16 | 18 |
+| 2 | 530 | 16900 | 20000000 | 10,0,0,0 | 15 | 17 |
+| 3 | 580 | 18500 | 22000000 | 11,12,0,0 | 16 | 18 |
 | 4 | 630 | 20000 | 28000000 | 12,12,0,0 | 17 | 19 |
 </UnitTable>
 </SwitchTabGroup>
@@ -131,10 +131,13 @@ const tableExtraInfo = [
 
 | 等级 | 每秒伤害 | 每次伤害 | 生命值 |
 | ---- |   ---   |   ---   |  ----  |
-| 1 | 180 | 270 | 7650 |
-| 2 | 200 | 300 | 8450 |
-| 3 | 220 | 330 | 9250 |
+| 1 | 190 | 285 | 7650 |
+| 2 | 210 | 315 | 8450 |
+| 3 | 230 | 345 | 9250 |
+| 4 | 未知 | 未知 | 10000 |
 </UnitTable>
+
+<small>1–3 级伤害参考 [小陨石戈仑维基](https://clashofclans.fandom.com/wiki/Meteor_Golem/Meteormite)；4 级生命值按母体满血 20000 分裂时各为一半计算，母体受损时会更低，4 级伤害尚待核实。</small>
 </SwitchTabGroup>
 
 <SmallTitle>更新历史</SmallTitle>
@@ -151,7 +154,7 @@ const tableExtraInfo = [
         <TimelineRow>修复陨石戈仑在分裂、被投掷或合体时丢失愤怒法术效果及目标的问题。 <a href="https://supercell.com/en/games/clashofclans/blog/release-notes/august-update-3/" target="_blank" rel="noopener noreferrer">官方公告</a>（08/30 发布；<a href="https://clashofclans.fandom.com/wiki/Diggy?oldid=625147#History" target="_blank" rel="noopener noreferrer">更新日期</a>）</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2026/07/14">
-        <TimelineRow>生命值调整：1级13,000→14,500，2级14,500→16,000，3级16,000→17,500；伤害调整：1级450→480，2级500→530，3级550→580。</TimelineRow>
+        <TimelineRow>生命值调整：1级13,000→14,500，2级14,500→16,000，3级16,000→17,500；伤害调整：1级450→480，2级500→530，3级550→580；小陨石戈仑 1–3 级每秒伤害分别由 180、200、220 提高至 190、210、230。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2026/07/13">
         <TimelineRow>7 月 13—14 日的部队狂欢活动中，多人对战和复仇战加入 60 个临时版本的陨石戈仑及小陨石戈仑。 <a href="https://clashofclans.fandom.com/wiki/Meteor_Golem#History" target="_blank" rel="noopener noreferrer">来源</a></TimelineRow>
@@ -171,3 +174,5 @@ const tableExtraInfo = [
     <TimelineItem :historyBottom="true" />
 </Timeline>
 <p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Meteor_Golem?oldid=624499" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>
+
+<small>2026 年 11 月旧等级费用与时间参考[玩家整理](https://mp.weixin.qq.com/s/1C8VxevkSERrS2x1vJd8aA)（用户提供原文）及 [ClashKing 游戏数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)。本站保留表格结构并按等级核对。</small>

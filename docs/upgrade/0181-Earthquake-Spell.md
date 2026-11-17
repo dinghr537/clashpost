@@ -163,7 +163,7 @@ const tableExtraInfo = [
 | 3 | 21% | \ | 4.1格 | 12000 | 1,0,0,0 | 7 | 9 |
 | 4 | 25% | \ | 4.4格 | 25500 | 3,0,0,0 | 8 | 10 |
 | 5 | 29% | \ | 4.7格 | 42000 | 3,12,0,0 | 9 | 11 |
-| 6 | 29% | 5% | 4.7格 | 120000 | 8,0,0,0 | 12 | 14 |
+| 6 | 29% | 5% | 4.7格 | 110000 | 7,0,0,0 | 12 | 14 |
 | 7 | 29% | 10% | 4.7格 | 200000 | 8,12,0,0 | 14 | 16 |
 | 8 | 29% | 14.5% | 4.7格 | 305000 | 12,0,0,0 | 16 | 18 |
 </UnitTable>
@@ -210,3 +210,5 @@ const tableExtraInfo = [
     <TimelineItem :historyBottom="true" />
 </Timeline>
 <p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Earthquake_Spell?oldid=622962" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>
+
+<small>2026 年 11 月旧等级费用与时间参考[玩家整理](https://mp.weixin.qq.com/s/1C8VxevkSERrS2x1vJd8aA)（用户提供原文）及 [ClashKing 游戏数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)。本站保留表格结构并按等级核对。</small>

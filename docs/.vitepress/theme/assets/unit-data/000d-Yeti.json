@@ -16,8 +16,42 @@
       "checkedOn": "2026-11-16",
       "source": "ClashKing Assets (selected game facts)",
       "sourceUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json",
-      "scope": "Selected new levels and baseline-matched cost/time adjustments; missing fields remain unknown."
-    }
+      "scope": "Selected new levels and baseline-matched cost/time adjustments; missing fields remain unknown.",
+      "oldLevelCostTimeReference": {
+        "checkedOn": "2026-11-16",
+        "source": "用户提供的玩家整理与 ClashKing Assets 固定修订逐项对照",
+        "articleUrl": "https://mp.weixin.qq.com/s/1C8VxevkSERrS2x1vJd8aA",
+        "snapshotUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json"
+      },
+      "followupVerification": "9 级携带数量参考 https://clashofclans.fandom.com/wiki/Yeti ，2026-11-16 核对。"
+    },
+    "reviewedTableCorrections": [
+      {
+        "table": 3,
+        "reviewedOn": "2026-11-16",
+        "cells": [
+          {
+            "level": 3,
+            "header": "Research Cost",
+            "originalRaw": "6,500,000",
+            "correctedRaw": "6000000"
+          },
+          {
+            "level": 3,
+            "header": "Research Time",
+            "originalRaw": "4d 12h",
+            "correctedRaw": "4d"
+          },
+          {
+            "level": 9,
+            "header": "Yetimites spawned",
+            "originalRaw": "?",
+            "correctedRaw": "15"
+          }
+        ],
+        "reason": "Review against the user-provided November 2026 reference, current game-data snapshot, or the linked source documented on the page; do not silently restore an older snapshot."
+      }
+    ]
   },
   "tables": [
     {
@@ -203,15 +237,15 @@
           },
           {
             "status": "known",
-            "value": 6500000,
-            "raw": "6,500,000"
+            "value": 6000000,
+            "raw": "6000000"
           },
           {
             "status": "known",
-            "value": 388800,
-            "raw": "4d 12h",
+            "value": 345600,
+            "raw": "4d",
             "unit": "seconds",
-            "displayInput": "4,12,0,0"
+            "displayInput": "4,0,0,0"
           },
           {
             "status": "known",
@@ -461,9 +495,9 @@
             "raw": "5300"
           },
           {
-            "status": "unknown",
-            "value": null,
-            "raw": "?"
+            "status": "known",
+            "value": 15,
+            "raw": "15"
           },
           {
             "status": "known",

@@ -40,9 +40,11 @@ dataVersionUpdatedOn: 2026-11-16
 <SmallTitle>建筑数量对照表</SmallTitle>
 
 <BuildingNum>
-    <BuildingNumRow title="大本等级" num="1 - 2, 3 - 4, 5 - 6, 7 - 18" />
+    <BuildingNumRow title="大本等级" num="1 - 2, 3 - 4, 5 - 6, 7 - 19" />
     <BuildingNumRow title="建筑数量" num="    1,     2,     3,      4" />
 </BuildingNum>
+
+<small>19 本数量参考 [官方更新公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)和 [ClashRecord](https://www.clashrecord.com/max-levels/th19)；可合并建筑按全部合并后计算。</small>
 
 <SmallTitle>属性</SmallTitle>
 
@@ -90,8 +92,8 @@ const tableExtraInfo = [
 | 8 | 60 | 500 | 2500000 | 3,0,0,0 |  | 10 |
 | 9 | 65 | 600 | 4200000 | 3,12,0,0 |  | 11 |
 | 10 | 70 | 700 | 4500000 | 4,0,0,0 |  | 12 |
-| 11 | 75 | 800 | 7500000 | 5,0,0,0 |  | 13 |
-| 12 | 80 | 850 | 10000000 | 6,0,0,0 |  | 15 |
+| 11 | 75 | 800 | 7000000 | 4,12,0,0 |  | 13 |
+| 12 | 80 | 850 | 8500000 | 5,0,0,0 |  | 15 |
 | 13 | 85 | 900 | 14500000 | 7,0,0,0 |  | 17 |
 | 14 | 88 | 950 | 24000000 | 13,0,0,0 |  | 18 |
 </UnitTable>
@@ -151,3 +153,5 @@ const tableExtraInfo = [
     <TimelineItem :historyBottom="true" />
 </Timeline>
 <p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Army_Camp?oldid=595938" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>
+
+<small>2026 年 11 月旧等级费用与时间参考[玩家整理](https://mp.weixin.qq.com/s/1C8VxevkSERrS2x1vJd8aA)（用户提供原文）及 [ClashKing 游戏数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)。本站保留表格结构并按等级核对。</small>

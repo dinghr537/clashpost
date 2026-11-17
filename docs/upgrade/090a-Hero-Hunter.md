@@ -74,9 +74,11 @@ const tableExtraInfo2 = [
 <SmallTitle>建筑数量对照表</SmallTitle>
 
 <BuildingNum>
-    <BuildingNumRow title="大本等级" num="1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18" />
-    <BuildingNumRow title="建筑数量" num="0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1" />
+    <BuildingNumRow title="大本等级" num="1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19" />
+    <BuildingNumRow title="建筑数量" num="0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 未知" />
 </BuildingNum>
+
+<small>该批次可用至 19 本更新期间，但 19 本可用数量仍需游戏内确认。参考 [ClashRecord](https://www.clashrecord.com/max-levels/th19)。</small>
 
 <SmallTitle>属性</SmallTitle>
 

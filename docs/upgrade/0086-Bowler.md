@@ -80,8 +80,8 @@ const tableExtraInfo = [
 | 2 | 72 | 158.4 | 375 | 32500 | 2,0,0,0 | 8 | 10 |
 | 3 | 84 | 184.8 | 420 | 44000 | 2,12,0,0 | 9 | 11 |
 | 4 | 96 | 211.2 | 470 | 62500 | 3,0,0,0 | 10 | 12 |
-| 5 | 102 | 224.4 | 505 | 85000 | 4,0,0,0 | 11 | 13 |
-| 6 | 108 | 237.6 | 530 | 110000 | 6,0,0,0 | 12 | 14 |
+| 5 | 102 | 224.4 | 505 | 75000 | 3,12,0,0 | 11 | 13 |
+| 6 | 108 | 237.6 | 530 | 100000 | 5,12,0,0 | 12 | 14 |
 | 7 | 114 | 250.8 | 565 | 145000 | 7,0,0,0 | 13 | 15 |
 | 8 | 126 | 277.2 | 600 | 175000 | 7,12,0,0 | 14 | 16 |
 | 9 | 140 | 308 | 700 | 205000 | 8,0,0,0 | 15 | 17 |
@@ -167,3 +167,5 @@ const tableExtraInfo = [
     <TimelineItem :historyBottom="true" />
 </Timeline>
 <p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Bowler?oldid=625333" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>
+
+<small>2026 年 11 月旧等级费用与时间参考[玩家整理](https://mp.weixin.qq.com/s/1C8VxevkSERrS2x1vJd8aA)（用户提供原文）及 [ClashKing 游戏数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)。本站保留表格结构并按等级核对。</small>

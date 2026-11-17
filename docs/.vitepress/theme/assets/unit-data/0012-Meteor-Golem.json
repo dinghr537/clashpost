@@ -37,8 +37,48 @@
       "checkedOn": "2026-11-16",
       "source": "ClashKing Assets (selected game facts)",
       "sourceUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json",
-      "scope": "Selected new levels and baseline-matched cost/time adjustments; missing fields remain unknown."
-    }
+      "scope": "Selected new levels and baseline-matched cost/time adjustments; missing fields remain unknown.",
+      "oldLevelCostTimeReference": {
+        "checkedOn": "2026-11-16",
+        "source": "用户提供的玩家整理与 ClashKing Assets 固定修订逐项对照",
+        "articleUrl": "https://mp.weixin.qq.com/s/1C8VxevkSERrS2x1vJd8aA",
+        "snapshotUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json"
+      },
+      "followupVerification": "小陨石戈仑 1–3 级伤害参考 https://clashofclans.fandom.com/wiki/Meteor_Golem/Meteormite ；4 级满血分裂生命值为母体的一半。"
+    },
+    "reviewedTableCorrections": [
+      {
+        "table": 3,
+        "reviewedOn": "2026-11-16",
+        "cells": [
+          {
+            "level": 2,
+            "header": "Upgrade Cost",
+            "originalRaw": "28,000,000",
+            "correctedRaw": "20000000"
+          },
+          {
+            "level": 2,
+            "header": "Upgrade Time",
+            "originalRaw": "14d",
+            "correctedRaw": "10d"
+          },
+          {
+            "level": 3,
+            "header": "Upgrade Cost",
+            "originalRaw": "30,000,000",
+            "correctedRaw": "22000000"
+          },
+          {
+            "level": 3,
+            "header": "Upgrade Time",
+            "originalRaw": "16d",
+            "correctedRaw": "11d 12h"
+          }
+        ],
+        "reason": "Review against the user-provided November 2026 reference, current game-data snapshot, or the linked source documented on the page; do not silently restore an older snapshot."
+      }
+    ]
   },
   "tables": [
     {
@@ -164,15 +204,15 @@
           },
           {
             "status": "known",
-            "value": 28000000,
-            "raw": "28,000,000"
+            "value": 20000000,
+            "raw": "20000000"
           },
           {
             "status": "known",
-            "value": 1209600,
-            "raw": "14d",
+            "value": 864000,
+            "raw": "10d",
             "unit": "seconds",
-            "displayInput": "14,0,0,0"
+            "displayInput": "10,0,0,0"
           },
           {
             "status": "known",
@@ -198,15 +238,15 @@
           },
           {
             "status": "known",
-            "value": 30000000,
-            "raw": "30,000,000"
+            "value": 22000000,
+            "raw": "22000000"
           },
           {
             "status": "known",
-            "value": 1382400,
-            "raw": "16d",
+            "value": 993600,
+            "raw": "11d 12h",
             "unit": "seconds",
-            "displayInput": "16,0,0,0"
+            "displayInput": "11,12,0,0"
           },
           {
             "status": "known",
@@ -584,13 +624,13 @@
           },
           {
             "status": "known",
-            "value": 180,
-            "raw": "180"
+            "value": 190,
+            "raw": "190"
           },
           {
             "status": "known",
-            "value": 270,
-            "raw": "270"
+            "value": 285,
+            "raw": "285"
           },
           {
             "status": "known",
@@ -606,13 +646,13 @@
           },
           {
             "status": "known",
-            "value": 200,
-            "raw": "200"
+            "value": 210,
+            "raw": "210"
           },
           {
             "status": "known",
-            "value": 300,
-            "raw": "300"
+            "value": 315,
+            "raw": "315"
           },
           {
             "status": "known",
@@ -628,18 +668,40 @@
           },
           {
             "status": "known",
-            "value": 220,
-            "raw": "220"
+            "value": 230,
+            "raw": "230"
           },
           {
             "status": "known",
-            "value": 330,
-            "raw": "330"
+            "value": 345,
+            "raw": "345"
           },
           {
             "status": "known",
             "value": 9250,
             "raw": "9250"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": "?"
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": "?"
+          },
+          {
+            "status": "known",
+            "value": 10000,
+            "raw": "10000"
           }
         ]
       ],

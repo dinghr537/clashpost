@@ -44,9 +44,11 @@ dataVersionUpdatedOn: 2026-11-16
 <SmallTitle>建筑数量对照表</SmallTitle>
 
 <BuildingNum>
-    <BuildingNumRow title="大本等级" num="1 - 6, 7, 8, 9 - 11, 12 - 18" />
+    <BuildingNumRow title="大本等级" num="1 - 6, 7, 8, 9 - 11, 12 - 19" />
     <BuildingNumRow title="建筑数量" num="    0, 2, 3,      4,       5" />
 </BuildingNum>
+
+<small>19 本数量参考 [官方更新公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)和 [ClashRecord](https://www.clashrecord.com/max-levels/th19)；可合并建筑按全部合并后计算。</small>
 
 <SmallTitle>属性</SmallTitle>
 
@@ -100,10 +102,10 @@ const tableExtraInfo = [
 | 7 | 87 | 52.2 | 810 | 1400000 | 1,6,0,0 |  | 9 |
 | 8 | 99 | 59.4 | 850 | 1600000 | 1,12,0,0 |  | 10 |
 | 9 | 110 | 66 | 900 | 2100000 | 1,18,0,0 |  | 11 |
-| 10 | 120 | 72 | 980 | 3000000 | 2,0,0,0 |  | 12 |
-| 11 | 130 | 78 | 1100 | 3100000 | 2,12,0,0 |  | 13 |
-| 12 | 140 | 84 | 1200 | 3700000 | 3,0,0,0 |  | 13 |
-| 13 | 150 | 90 | 1350 | 5100000 | 3,12,0,0 |  | 14 |
+| 10 | 120 | 72 | 980 | 2500000 | 2,0,0,0 |  | 12 |
+| 11 | 130 | 78 | 1100 | 2800000 | 2,6,0,0 |  | 13 |
+| 12 | 140 | 84 | 1200 | 3000000 | 2,12,0,0 |  | 13 |
+| 13 | 150 | 90 | 1350 | 4400000 | 3,0,0,0 |  | 14 |
 | 14 | 160 | 96 | 1450 | 6500000 | 4,0,0,0 |  | 15 |
 | 15 | 170 | 102 | 1550 | 7000000 | 4,6,0,0 |  | 16 |
 | 16 | 180 | 108 | 1650 | 13500000 | 7,0,0,0 |  | 17 |
@@ -196,3 +198,5 @@ const tableExtraInfo = [
     <TimelineItem :historyBottom="true" />
 </Timeline>
 <p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Hidden_Tesla?oldid=592092" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>
+
+<small>2026 年 11 月旧等级费用与时间参考[玩家整理](https://mp.weixin.qq.com/s/1C8VxevkSERrS2x1vJd8aA)（用户提供原文）及 [ClashKing 游戏数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)。本站保留表格结构并按等级核对。</small>

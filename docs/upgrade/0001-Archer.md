@@ -86,8 +86,8 @@ const tableExtraInfo = [
 | 7 | 25 | 25 | 48 | 1500000 | 1,0,0,0 | 8 | 10 |
 | 8 | 28 | 28 | 52 | 2300000 | 1,12,0,0 | 9 | 11 |
 | 9 | 31 | 31 | 56 | 3000000 | 2,0,0,0 | 10 | 12 |
-| 10 | 34 | 34 | 60 | 4500000 | 3,0,0,0 | 12 | 14 |
-| 11 | 37 | 37 | 64 | 6500000 | 4,0,0,0 | 13 | 15 |
+| 10 | 34 | 34 | 60 | 3800000 | 2,12,0,0 | 12 | 14 |
+| 11 | 37 | 37 | 64 | 5500000 | 3,12,0,0 | 13 | 15 |
 | 12 | 40 | 40 | 68 | 8000000 | 4,0,0,0 | 14 | 16 |
 | 13 | 43 | 43 | 72 | 11000000 | 7,0,0,0 | 15 | 17 |
 | 14 | 46 | 46 | 76 | 19000000 | 9,0,0,0 | 16 | 18 |
@@ -166,3 +166,5 @@ const tableExtraInfo = [
 </Timeline>
 
 <p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Archer?oldid=624208" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>
+
+<small>2026 年 11 月旧等级费用与时间参考[玩家整理](https://mp.weixin.qq.com/s/1C8VxevkSERrS2x1vJd8aA)（用户提供原文）及 [ClashKing 游戏数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)。本站保留表格结构并按等级核对。</small>

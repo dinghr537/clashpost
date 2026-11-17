@@ -109,9 +109,11 @@ const tableExtraInfoStage3 = [
 <SmallTitle>建筑数量对照表</SmallTitle>
 
 <BuildingNum>
-    <BuildingNumRow title="大本等级" num="1 - 17, 18" />
+    <BuildingNumRow title="大本等级" num="1 - 17, 18 - 19" />
     <BuildingNumRow title="建筑数量" num="     0,  1" />
 </BuildingNum>
+
+<small>19 本数量参考 [官方更新公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)和 [ClashRecord](https://www.clashrecord.com/max-levels/th19)；可合并建筑按全部合并后计算。</small>
 
 <SmallTitle>重要说明</SmallTitle>
 
@@ -160,9 +162,11 @@ const tableExtraInfoStage3 = [
 <SmallTitle>建筑数量对照表</SmallTitle>
 
 <BuildingNum>
-    <BuildingNumRow title="大本等级" num="1 - 17, 18" />
+    <BuildingNumRow title="大本等级" num="1 - 17, 18 - 19" />
     <BuildingNumRow title="建筑数量" num="     0,  1" />
 </BuildingNum>
+
+<small>19 本数量参考 [官方更新公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)和 [ClashRecord](https://www.clashrecord.com/max-levels/th19)；可合并建筑按全部合并后计算。</small>
 
 <SmallTitle>属性</SmallTitle>
 
@@ -181,8 +185,8 @@ const tableExtraInfoStage3 = [
 
 | 等级 | 每秒伤害 | 每次伤害 | 生命值 | 升级费用 |   升级时间  |升级后可<br>获得的经验| 所需<br>大本等级 |
 | ---- |   ---   |   ---   |  ---  |   ---   |     ---     |        ---         |       ---       |
-| 1 | 375 | 450 | 5800 | 430000 | 13,0,0,5 |  | 18 |
-| 2 | 416 | 500 | 6200 | 460000 | 14,0,0,0 |  | 18 |
+| 1 | 375 | 450 | 5800 | 335000 | 10,0,0,0 |  | 18 |
+| 2 | 416 | 500 | 6200 | 365000 | 11,0,0,0 |  | 18 |
 | ⚡1 | 425 | 510 | 6200 | 220000 | 7,0,0,0 |  | 18 |
 | ⚡2 | 425 | 510 | 6300 | 200000 | 8,0,0,0 |  | 18 |
 </UnitTable>
@@ -204,9 +208,11 @@ const tableExtraInfoStage3 = [
 <SmallTitle>建筑数量对照表</SmallTitle>
 
 <BuildingNum>
-    <BuildingNumRow title="大本等级" num="1 - 17, 18" />
+    <BuildingNumRow title="大本等级" num="1 - 17, 18 - 19" />
     <BuildingNumRow title="建筑数量" num="     0,  1" />
 </BuildingNum>
+
+<small>19 本数量参考 [官方更新公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)和 [ClashRecord](https://www.clashrecord.com/max-levels/th19)；可合并建筑按全部合并后计算。</small>
 
 <SmallTitle>属性</SmallTitle>
 
@@ -228,8 +234,8 @@ const tableExtraInfoStage3 = [
 
 | 等级 | 每秒伤害 | 直接伤害 | 弹射伤害 | 生命值 | 升级费用 |   升级时间  |升级后可<br>获得的经验| 所需<br>大本等级 |
 | ---- |   ---   |   ---   |    ---   |  ---  |   ---   |     ---     |        ---         |       ---       |
-| 1 | 375 | 225 | 135 | 5800 | 430000 | 13,0,0,5 |  | 18 |
-| 2 | 416 | 250 | 150 | 6200 | 460000 | 14,0,0,0 |  | 18 |
+| 1 | 375 | 225 | 135 | 5800 | 335000 | 10,0,0,0 |  | 18 |
+| 2 | 416 | 250 | 150 | 6200 | 365000 | 11,0,0,0 |  | 18 |
 | ⚡1 | 433 | 260 | 156 | 6200 | 220000 | 7,0,0,0 |  | 18 |
 | ⚡2 | 433 | 260 | 156 | 6300 | 200000 | 8,0,0,0 |  | 18 |
 </UnitTable>
@@ -251,9 +257,11 @@ const tableExtraInfoStage3 = [
 <SmallTitle>建筑数量对照表</SmallTitle>
 
 <BuildingNum>
-    <BuildingNumRow title="大本等级" num="1 - 17, 18" />
+    <BuildingNumRow title="大本等级" num="1 - 17, 18 - 19" />
     <BuildingNumRow title="建筑数量" num="     0,  1" />
 </BuildingNum>
+
+<small>19 本数量参考 [官方更新公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)和 [ClashRecord](https://www.clashrecord.com/max-levels/th19)；可合并建筑按全部合并后计算。</small>
 
 <SmallTitle>属性</SmallTitle>
 
@@ -275,8 +283,8 @@ const tableExtraInfoStage3 = [
 
 | 等级 | 每秒伤害 | 直接伤害 |弹射伤害<sup>*</sup>| 生命值 | 升级费用 |   升级时间  |升级后可<br>获得的经验| 所需<br>大本等级 |
 | ---- |   ---   |   ---   |         ---        |  ---  |   ---   |     ---     |        ---         |       ---       |
-| 1 | 642 | 225 | 135 / 81 | 5800 | 430000 | 13,0,0,5 |  | 18 |
-| 2 | 714 | 250 | 150 / 90 | 6200 | 460000 | 14,0,0,0 |  | 18 |
+| 1 | 642 | 225 | 135 / 81 | 5800 | 335000 | 10,0,0,0 |  | 18 |
+| 2 | 714 | 250 | 150 / 90 | 6200 | 365000 | 11,0,0,0 |  | 18 |
 | ⚡1 | 742 | 260 | 156 / 93.6 | 6200 | 220000 | 7,0,0,0 |  | 18 |
 | ⚡2 | 742 | 260 | 156 / 93.6 | 6300 | 200000 | 8,0,0,0 |  | 18 |
 </UnitTable>
@@ -303,3 +311,5 @@ const tableExtraInfoStage3 = [
     <TimelineItem :historyBottom="true" />
 </Timeline>
 <p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Revenge_Tower?oldid=624636" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>
+
+<small>2026 年 11 月旧等级费用与时间参考[玩家整理](https://mp.weixin.qq.com/s/1C8VxevkSERrS2x1vJd8aA)（用户提供原文）及 [ClashKing 游戏数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)。本站保留表格结构并按等级核对。</small>

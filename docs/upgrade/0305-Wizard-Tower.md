@@ -43,9 +43,11 @@ dataVersionUpdatedOn: 2026-11-16
 <SmallTitle>建筑数量对照表</SmallTitle>
 
 <BuildingNum>
-    <BuildingNumRow title="大本等级" num="1 - 4, 5, 6 - 7, 8, 9 - 10, 11 - 17, 18" />
+    <BuildingNumRow title="大本等级" num="1 - 4, 5, 6 - 7, 8, 9 - 10, 11 - 17, 18 - 19" />
     <BuildingNumRow title="建筑数量" num="    0, 1,     2, 3,      4,       5,  2" />
 </BuildingNum>
+
+<small>19 本数量参考 [官方更新公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)和 [ClashRecord](https://www.clashrecord.com/max-levels/th19)；可合并建筑按全部合并后计算。</small>
 
 注：18 本可新建一个法师塔，合并两个超级法师塔，因此法师塔的数量为 5 + 1 - 2 * 2 = 2 个。
 
@@ -102,10 +104,10 @@ const tableExtraInfo = [
 | 8 | 45 | 58.5 | 1440 | 1100000 | 0,20,0,0 |  | 10 |
 | 9 | 50 | 65 | 1600 | 1300000 | 1,0,0,0 |  | 10 |
 | 10 | 62 | 80.6 | 1900 | 2000000 | 1,6,0,0 |  | 11 |
-| 11 | 70 | 91 | 2120 | 2500000 | 1,12,0,0 |  | 12 |
+| 11 | 70 | 91 | 2120 | 2100000 | 1,12,0,0 |  | 12 |
 | 12 | 78 | 101.4 | 2240 | 2600000 | 1,18,0,0 |  | 13 |
-| 13 | 84 | 109.2 | 2500 | 3000000 | 2,0,0,0 |  | 13 |
-| 14 | 90 | 117 | 2800 | 4500000 | 3,0,0,0 |  | 14 |
+| 13 | 84 | 109.2 | 2500 | 2800000 | 2,0,0,0 |  | 13 |
+| 14 | 90 | 117 | 2800 | 3800000 | 2,12,0,0 |  | 14 |
 | 15 | 95 | 123.5 | 3000 | 5500000 | 4,0,0,0 |  | 15 |
 | 16 | 102 | 132.6 | 3150 | 8000000 | 4,12,0,0 |  | 16 |
 | 17 | 110 | 143 | 3300 | 12000000 | 5,0,0,0 |  | 17 |
@@ -186,3 +188,5 @@ const tableExtraInfo = [
 </Timeline>
 
 <p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Wizard_Tower?oldid=625327" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>
+
+<small>2026 年 11 月旧等级费用与时间参考[玩家整理](https://mp.weixin.qq.com/s/1C8VxevkSERrS2x1vJd8aA)（用户提供原文）及 [ClashKing 游戏数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)。本站保留表格结构并按等级核对。</small>

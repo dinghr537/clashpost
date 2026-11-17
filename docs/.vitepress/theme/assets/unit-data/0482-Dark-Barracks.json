@@ -16,8 +16,35 @@
       "checkedOn": "2026-11-16",
       "source": "ClashKing Assets (selected game facts)",
       "sourceUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json",
-      "scope": "Selected TH16–18 costs and times where the previous snapshot matched this site."
-    }
+      "scope": "Selected TH16–18 costs and times where the previous snapshot matched this site.",
+      "oldLevelCostTimeReference": {
+        "checkedOn": "2026-11-16",
+        "source": "用户提供的玩家整理与 ClashKing Assets 固定修订逐项对照",
+        "articleUrl": "https://mp.weixin.qq.com/s/1C8VxevkSERrS2x1vJd8aA",
+        "snapshotUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json"
+      }
+    },
+    "reviewedTableCorrections": [
+      {
+        "table": 3,
+        "reviewedOn": "2026-11-16",
+        "cells": [
+          {
+            "level": 8,
+            "header": "Build Cost",
+            "originalRaw": "7,000,000",
+            "correctedRaw": "6000000"
+          },
+          {
+            "level": 12,
+            "header": "Build Cost",
+            "originalRaw": "20,000,000",
+            "correctedRaw": "14000000"
+          }
+        ],
+        "reason": "Review against the user-provided November 2026 reference, current game-data snapshot, or the linked source documented on the page; do not silently restore an older snapshot."
+      }
+    ]
   },
   "tables": [
     {
@@ -519,8 +546,8 @@
           },
           {
             "status": "known",
-            "value": 7000000,
-            "raw": "7,000,000"
+            "value": 6000000,
+            "raw": "6000000"
           },
           {
             "status": "known",
@@ -675,8 +702,8 @@
           },
           {
             "status": "known",
-            "value": 20000000,
-            "raw": "20,000,000"
+            "value": 14000000,
+            "raw": "14000000"
           },
           {
             "status": "known",

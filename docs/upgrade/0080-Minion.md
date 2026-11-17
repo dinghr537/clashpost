@@ -89,9 +89,9 @@ const tableExtraInfo = [
 | 6 | 54 | 54 | 84 | 15000 | 1,12,0,0 | 8 | 10 |
 | 7 | 58 | 58 | 90 | 31500 | 1,18,0,0 | 9 | 11 |
 | 8 | 62 | 62 | 96 | 47500 | 2,0,0,0 | 10 | 12 |
-| 9 | 66 | 66 | 102 | 75000 | 3,0,0,0 | 11 | 13 |
-| 10 | 70 | 70 | 108 | 100000 | 4,0,0,0 | 12 | 14 |
-| 11 | 74 | 74 | 114 | 115000 | 4,12,0,0 | 13 | 15 |
+| 9 | 66 | 66 | 102 | 60000 | 2,12,0,0 | 11 | 13 |
+| 10 | 70 | 70 | 108 | 80000 | 3,12,0,0 | 12 | 14 |
+| 11 | 74 | 74 | 114 | 100000 | 4,0,0,0 | 13 | 15 |
 | 12 | 78 | 78 | 120 | 120000 | 4,12,0,0 | 14 | 16 |
 | 13 | 84 | 84 | 130 | 150000 | 6,0,0,0 | 15 | 17 |
 | 14 | 92 | 92 | 140 | 280000 | 8,12,0,0 | 16 | 18 |
@@ -169,3 +169,5 @@ const tableExtraInfo = [
     <TimelineItem :historyBottom="true" />
 </Timeline>
 <p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Minion?oldid=625278" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>
+
+<small>2026 年 11 月旧等级费用与时间参考[玩家整理](https://mp.weixin.qq.com/s/1C8VxevkSERrS2x1vJd8aA)（用户提供原文）及 [ClashKing 游戏数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)。本站保留表格结构并按等级核对。</small>

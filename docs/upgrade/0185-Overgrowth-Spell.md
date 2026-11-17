@@ -68,7 +68,7 @@ const tableExtraInfo = [
 | ---- |      ---      |   ---   |  ----   |       ----      |      ----     |
 | 1 | 22秒 | \ | \ | 1 | 12 |
 | 2 | 23秒 | 62500 | 5,0,0,0 | 10 | 12 |
-| 3 | 24秒 | 125000 | 8,12,0,0 | 12 | 14 |
+| 3 | 24秒 | 110000 | 7,0,0,0 | 12 | 14 |
 | 4 | 25秒 | 175000 | 9,0,0,0 | 14 | 16 |
 | 5 | 26秒 | 295000 | 11,6,0,0 | 16 | 18 |
 </UnitTable>
@@ -102,3 +102,5 @@ const tableExtraInfo = [
     <TimelineItem :historyBottom="true" />
 </Timeline>
 <p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Overgrowth_Spell?oldid=623007" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>
+
+<small>2026 年 11 月旧等级费用与时间参考[玩家整理](https://mp.weixin.qq.com/s/1C8VxevkSERrS2x1vJd8aA)（用户提供原文）及 [ClashKing 游戏数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)。本站保留表格结构并按等级核对。</small>

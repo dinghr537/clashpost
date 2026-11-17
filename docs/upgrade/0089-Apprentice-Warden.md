@@ -8,6 +8,7 @@ imgFolder: home_tech/0089
 wiki: https://clashofclans.fandom.com/wiki/Apprentice_Warden
 canonical: /upgrade/0089-Apprentice-Warden
 dataSyncedOn: 2026-10-13
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 - *如想查看大守护者，请访问：[大守护者（咏王）](/upgrade/0202-Grand-Warden)。*
@@ -78,9 +79,9 @@ const tableExtraInfo = [
 | 等级 |  每秒伤害 | 每次伤害 |光环<br>加血比例| 生命值 | 升级花费| 升级时间 |所需<br>实验室等级|所需<br>大本等级|
 | ---- |   ----   |   ----  |      ----     |  ---- |  ----   |   ----  |       ----      |      ----     |
 | 1 | 170 | 153 | 20% | 1500 | \ | \ | 1 | 13 |
-| 2 | 185 | 166.5 | 22% | 1650 | 90000 | 6,0,0,0 | 11 | 13 |
-| 3 | 200 | 180 | 24% | 1800 | 135000 | 7,12,0,0 | 12 | 14 |
-| 4 | 215 | 193.5 | 26% | 1950 | 160000 | 8,0,0,0 | 13 | 15 |
+| 2 | 185 | 166.5 | 22% | 1650 | 75000 | 5,0,0,0 | 11 | 13 |
+| 3 | 200 | 180 | 24% | 1800 | 125000 | 7,0,0,0 | 12 | 14 |
+| 4 | 215 | 193.5 | 26% | 1950 | 150000 | 7,12,0,0 | 13 | 15 |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
@@ -120,3 +121,5 @@ const tableExtraInfo = [
     <TimelineItem :historyBottom="true" />
 </Timeline>
 <p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Apprentice_Warden?oldid=624360" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>
+
+<small>2026 年 11 月旧等级费用与时间参考[玩家整理](https://mp.weixin.qq.com/s/1C8VxevkSERrS2x1vJd8aA)（用户提供原文）及 [ClashKing 游戏数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)。本站保留表格结构并按等级核对。</small>

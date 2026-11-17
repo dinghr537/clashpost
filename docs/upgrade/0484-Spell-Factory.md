@@ -45,9 +45,11 @@ dataVersionUpdatedOn: 2026-11-16
 <SmallTitle>建筑数量对照表</SmallTitle>
 
 <BuildingNum>
-    <BuildingNumRow title="大本等级" num="1 - 4, 5 - 18" />
+    <BuildingNumRow title="大本等级" num="1 - 4, 5 - 19" />
     <BuildingNumRow title="建筑数量" num="    0,      1" />
 </BuildingNum>
+
+<small>19 本数量参考 [官方更新公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)和 [ClashRecord](https://www.clashrecord.com/max-levels/th19)；可合并建筑按全部合并后计算。</small>
 
 <SmallTitle>属性</SmallTitle>
 
@@ -57,6 +59,8 @@ dataVersionUpdatedOn: 2026-11-16
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
+
+<small>10 级法术容量参考 [部落冲突维基](https://clashofclans.fandom.com/wiki/Spell_Factory)（2026-11-16 核对）。</small>
 
 <small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为未知。</small>
 
@@ -94,7 +98,7 @@ const tableExtraInfo = [
 | 7 | 10 | 960 | 9000000 | 7,0,0,0 |  | 13 | <a href="/upgrade/0107-Recall-Spell">回溯法术</a> |
 | 8 | 10 | 1080 | 14000000 | 8,0,0,0 |  | 15 | <a href="/upgrade/0108-Revive-Spell">复苏法术</a> |
 | 9 | 10 | 1150 | 16000000 | 9,0,0,0 |  | 16 | <a href="/upgrade/0109-Totem-Spell">图腾法术</a> |
-| 10 | 未知 | 1220 | 18500000 | 10,12,0,0 |  | 17 | <a href="/upgrade/010a-Heroic-Spell">英雄法术</a> |
+| 10 | 10 | 1220 | 18500000 | 10,12,0,0 |  | 17 | <a href="/upgrade/010a-Heroic-Spell">英雄法术</a> |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>

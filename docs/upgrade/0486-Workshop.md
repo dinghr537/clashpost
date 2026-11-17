@@ -32,9 +32,11 @@ dataVersionUpdatedOn: 2026-11-16
 <SmallTitle>建筑数量对照表</SmallTitle>
 
 <BuildingNum>
-    <BuildingNumRow title="大本等级" num="1 - 11, 12 - 18" />
+    <BuildingNumRow title="大本等级" num="1 - 11, 12 - 19" />
     <BuildingNumRow title="建筑数量" num="     0,       1" />
 </BuildingNum>
+
+<small>19 本数量参考 [官方更新公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)和 [ClashRecord](https://www.clashrecord.com/max-levels/th19)；可合并建筑按全部合并后计算。</small>
 
 <SmallTitle>属性</SmallTitle>
 
@@ -73,12 +75,12 @@ const tableExtraInfo = [
 | 等级 |可容纳的攻<br>城机器数量| 生命值 | 升级费用 | 升级时间 |升级后可获<br>得的经验|所需<br>大本等级|解锁的<br>攻城机器|
 | ---- |          ---         |   --- |    ---   |   ---   |         ---        |       ---     |        ----     |
 | 1 | 1 | 1000 | 2400000 | 2,0,0,0 |  | 12 | <a href="/upgrade/0240-Wall-Wrecker">攻城战车</a> |
-| 2 | 2 | 1100 | 3700000 | 3,0,0,0 |  | 12 | <a href="/upgrade/0241-Battle-Blimp">攻城飞艇</a> |
-| 3 | 3 | 1200 | 5000000 | 3,12,0,0 |  | 12 | <a href="/upgrade/0242-Stone-Slammer">攻城气球</a> |
-| 4 | 3 | 1300 | 8700000 | 4,0,0,0 |  | 13 | <a href="/upgrade/0243-Siege-Barracks">攻城训练营</a> |
-| 5 | 3 | 1400 | 9000000 | 5,0,0,0 |  | 13 | <a href="/upgrade/0244-Log-Launcher">攻城滚木车</a> |
-| 6 | 3 | 1500 | 10000000 | 5,12,0,0 |  | 14 | <a href="/upgrade/0245-Flame-Flinger">攻城烈焰车</a> |
-| 7 | 3 | 1600 | 11000000 | 6,0,0,0 |  | 15 | <a href="/upgrade/0246-Battle-Drill">攻城钻机</a> |
+| 2 | 2 | 1100 | 3100000 | 2,12,0,0 |  | 12 | <a href="/upgrade/0241-Battle-Blimp">攻城飞艇</a> |
+| 3 | 3 | 1200 | 3600000 | 2,18,0,0 |  | 12 | <a href="/upgrade/0242-Stone-Slammer">攻城气球</a> |
+| 4 | 3 | 1300 | 6500000 | 3,0,0,0 |  | 13 | <a href="/upgrade/0243-Siege-Barracks">攻城训练营</a> |
+| 5 | 3 | 1400 | 8000000 | 4,12,0,0 |  | 13 | <a href="/upgrade/0244-Log-Launcher">攻城滚木车</a> |
+| 6 | 3 | 1500 | 8500000 | 4,18,0,0 |  | 14 | <a href="/upgrade/0245-Flame-Flinger">攻城烈焰车</a> |
+| 7 | 3 | 1600 | 9500000 | 5,0,0,0 |  | 15 | <a href="/upgrade/0246-Battle-Drill">攻城钻机</a> |
 | 8 | 3 | 1700 | 13000000 | 7,0,0,0 |  | 16 | <a href="/upgrade/0247-Troop-Launcher">部队发射器</a> |
 | 9 | 3 | 1800 | 18500000 | 10,12,0,0 |  | 17 | [空中战车](/upgrade/0248-Sky-Wagon) |
 </UnitTable>
@@ -134,3 +136,5 @@ const tableExtraInfo = [
     <TimelineItem :historyBottom="true" />
 </Timeline>
 <p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Workshop?oldid=624497" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>
+
+<small>2026 年 11 月旧等级费用与时间参考[玩家整理](https://mp.weixin.qq.com/s/1C8VxevkSERrS2x1vJd8aA)（用户提供原文）及 [ClashKing 游戏数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)。本站保留表格结构并按等级核对。</small>

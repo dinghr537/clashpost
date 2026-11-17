@@ -31,8 +31,47 @@
       "checkedOn": "2026-11-16",
       "source": "ClashKing Assets (selected game facts)",
       "sourceUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json",
-      "scope": "Selected new levels and baseline-matched cost/time adjustments; missing fields remain unknown."
-    }
+      "scope": "Selected new levels and baseline-matched cost/time adjustments; missing fields remain unknown.",
+      "oldLevelCostTimeReference": {
+        "checkedOn": "2026-11-16",
+        "source": "用户提供的玩家整理与 ClashKing Assets 固定修订逐项对照",
+        "articleUrl": "https://mp.weixin.qq.com/s/1C8VxevkSERrS2x1vJd8aA",
+        "snapshotUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json"
+      }
+    },
+    "reviewedTableCorrections": [
+      {
+        "table": 3,
+        "reviewedOn": "2026-11-16",
+        "cells": [
+          {
+            "level": 11,
+            "header": "Research Cost",
+            "originalRaw": "107,500",
+            "correctedRaw": "95000"
+          },
+          {
+            "level": 11,
+            "header": "Research Time",
+            "originalRaw": "5d",
+            "correctedRaw": "4d 12h"
+          },
+          {
+            "level": 12,
+            "header": "Research Cost",
+            "originalRaw": "125,000",
+            "correctedRaw": "115000"
+          },
+          {
+            "level": 12,
+            "header": "Research Time",
+            "originalRaw": "5d 12h",
+            "correctedRaw": "5d"
+          }
+        ],
+        "reason": "Review against the user-provided November 2026 reference, current game-data snapshot, or the linked source documented on the page; do not silently restore an older snapshot."
+      }
+    ]
   },
   "tables": [
     {
@@ -514,15 +553,15 @@
           },
           {
             "status": "known",
-            "value": 107500,
-            "raw": "107,500"
+            "value": 95000,
+            "raw": "95000"
           },
           {
             "status": "known",
-            "value": 432000,
-            "raw": "5d",
+            "value": 388800,
+            "raw": "4d 12h",
             "unit": "seconds",
-            "displayInput": "5,0,0,0"
+            "displayInput": "4,12,0,0"
           },
           {
             "status": "known",
@@ -553,15 +592,15 @@
           },
           {
             "status": "known",
-            "value": 125000,
-            "raw": "125,000"
+            "value": 115000,
+            "raw": "115000"
           },
           {
             "status": "known",
-            "value": 475200,
-            "raw": "5d 12h",
+            "value": 432000,
+            "raw": "5d",
             "unit": "seconds",
-            "displayInput": "5,12,0,0"
+            "displayInput": "5,0,0,0"
           },
           {
             "status": "known",

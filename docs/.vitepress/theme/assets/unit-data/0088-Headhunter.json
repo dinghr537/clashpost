@@ -36,13 +36,38 @@
           }
         ],
         "reason": "The user reported the in-game movement speed as 24; the saved Wiki revision lists 32."
+      },
+      {
+        "table": 3,
+        "reviewedOn": "2026-11-16",
+        "cells": [
+          {
+            "level": 2,
+            "header": "Research Cost",
+            "originalRaw": "57,500",
+            "correctedRaw": "45000"
+          },
+          {
+            "level": 2,
+            "header": "Research Time",
+            "originalRaw": "5d",
+            "correctedRaw": "4d"
+          }
+        ],
+        "reason": "Review against the user-provided November 2026 reference, current game-data snapshot, or the linked source documented on the page; do not silently restore an older snapshot."
       }
     ],
     "th19Update": {
       "checkedOn": "2026-11-16",
       "source": "ClashKing Assets (selected game facts)",
       "sourceUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json",
-      "scope": "Selected new levels and baseline-matched cost/time adjustments; missing fields remain unknown."
+      "scope": "Selected new levels and baseline-matched cost/time adjustments; missing fields remain unknown.",
+      "oldLevelCostTimeReference": {
+        "checkedOn": "2026-11-16",
+        "source": "用户提供的玩家整理与 ClashKing Assets 固定修订逐项对照",
+        "articleUrl": "https://mp.weixin.qq.com/s/1C8VxevkSERrS2x1vJd8aA",
+        "snapshotUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json"
+      }
     }
   },
   "tables": [
@@ -218,15 +243,15 @@
           },
           {
             "status": "known",
-            "value": 57500,
-            "raw": "57,500"
+            "value": 45000,
+            "raw": "45000"
           },
           {
             "status": "known",
-            "value": 432000,
-            "raw": "5d",
+            "value": 345600,
+            "raw": "4d",
             "unit": "seconds",
-            "displayInput": "5,0,0,0"
+            "displayInput": "4,0,0,0"
           },
           {
             "status": "known",

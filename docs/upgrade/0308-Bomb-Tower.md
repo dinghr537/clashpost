@@ -38,9 +38,11 @@ dataVersionUpdatedOn: 2026-11-16
 <SmallTitle>建筑数量对照表</SmallTitle>
 
 <BuildingNum>
-    <BuildingNumRow title="大本等级" num="1 - 7, 8 - 9, 10 - 18" />
+    <BuildingNumRow title="大本等级" num="1 - 7, 8 - 9, 10 - 19" />
     <BuildingNumRow title="建筑数量" num="    0,     1,       2" />
 </BuildingNum>
+
+<small>19 本数量参考 [官方更新公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)和 [ClashRecord](https://www.clashrecord.com/max-levels/th19)；可合并建筑按全部合并后计算。</small>
 
 <SmallTitle>属性</SmallTitle>
 
@@ -91,10 +93,10 @@ const tableExtraInfo = [
 | 4 | 40 | 44 | 260 | 850 | 1800000 | 1,12,0,0 |  | 10 |
 | 5 | 48 | 52.8 | 300 | 1050 | 1900000 | 1,18,0,0 |  | 11 |
 | 6 | 56 | 61.6 | 350 | 1300 | 2000000 | 2,0,0,0 |  | 11 |
-| 7 | 64 | 70.4 | 400 | 1600 | 4000000 | 3,0,0,0 |  | 12 |
-| 8 | 72 | 79.2 | 450 | 1900 | 5000000 | 3,12,0,0 |  | 13 |
-| 9 | 84 | 92.4 | 500 | 2300 | 6000000 | 4,0,0,0 |  | 14 |
-| 10 | 94 | 103.4 | 550 | 2500 | 7000000 | 4,12,0,0 |  | 15 |
+| 7 | 64 | 70.4 | 400 | 1600 | 3300000 | 2,12,0,0 |  | 12 |
+| 8 | 72 | 79.2 | 450 | 1900 | 3600000 | 2,18,0,0 |  | 13 |
+| 9 | 84 | 92.4 | 500 | 2300 | 5000000 | 3,12,0,0 |  | 14 |
+| 10 | 94 | 103.4 | 550 | 2500 | 5500000 | 3,18,0,0 |  | 15 |
 | 11 | 104 | 114.4 | 600 | 2700 | 7000000 | 4,0,0,0 |  | 16 |
 | 12 | 114 | 125.4 | 650 | 2900 | 13500000 | 7,0,0,0 |  | 17 |
 | 13 | 122 | 134.2 | 700 | 3050 | 16500000 | 9,0,0,0 |  | 18 |
@@ -166,3 +168,5 @@ const tableExtraInfo = [
     <TimelineItem :historyBottom="true" />
 </Timeline>
 <p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Bomb_Tower?oldid=592098" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>
+
+<small>2026 年 11 月旧等级费用与时间参考[玩家整理](https://mp.weixin.qq.com/s/1C8VxevkSERrS2x1vJd8aA)（用户提供原文）及 [ClashKing 游戏数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)。本站保留表格结构并按等级核对。</small>

@@ -35,9 +35,11 @@ dataVersionUpdatedOn: 2026-11-16
 <SmallTitle>建筑数量对照表</SmallTitle>
 
 <BuildingNum>
-    <BuildingNumRow title="大本等级" num="1 - 4, 5 - 7, 8 - 9, 10 - 11, 12 - 13, 14 - 17, 18" />
+    <BuildingNumRow title="大本等级" num="1 - 4, 5 - 7, 8 - 9, 10 - 11, 12 - 13, 14 - 17, 18 - 19" />
     <BuildingNumRow title="建筑数量" num="    0,     2,     4,       5,       6,       7,  8" />
 </BuildingNum>
+
+<small>18 本已有 8 个空中炸弹；[官方更新公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)只列出隐形弹簧新增数量，本表按 19 本仍为 8 个整理。部分资料写为 7，待游戏内确认。</small>
 
 <SmallTitle>属性</SmallTitle>
 

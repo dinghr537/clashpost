@@ -60,6 +60,9 @@ class OriginalContentTests(unittest.TestCase):
                     expected = table['headers'][:]
                     if path.stem == '030a-Inferno-Tower':
                         expected = [h.replace('1.25', '1.5') for h in expected]
+                    if path.stem == '07c6-Frost-Flake' and index == 0:
+                        # The 19 update added a hero damage bonus to this equipment.
+                        expected.append('英雄<br>秒伤增加')
                     self.assertEqual(after[index]['headers'], expected)
                     self.assertGreaterEqual(len(after[index]['rows']), len(table['rows']))
                     old_links = set(re.findall(r'(?:href="|\]\()(/[^"\s)]+)', str(table['rows'])))

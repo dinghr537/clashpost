@@ -8,6 +8,7 @@ imgFolder: home_tech/0103
 wiki: https://clashofclans.fandom.com/wiki/Jump_Spell
 canonical: /upgrade/0103-Jump-Spell
 dataSyncedOn: 2026-10-13
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 - *如想查看都城的弹跳法术，请访问：[都城弹跳法术](/upgrade/2101-Jump-Spell)。*
@@ -60,7 +61,7 @@ const tableExtraInfo = [
 | 2 | 40 秒 | 133 | 1000000 | 1,0,0,0 | 5 | 9 |
 | 3 | 60 秒 | 199 | 2000000 | 2,0,0,0 | 8 | 10 |
 | 4 | 80 秒 | 266 | 5000000 | 4,0,0,0 | 11 | 13 |
-| 5 | 100 秒 | 333 | 8000000 | 5,0,0,0 | 13 | 15 |
+| 5 | 100 秒 | 333 | 7500000 | 4,12,0,0 | 13 | 15 |
 </UnitTable>
 
 注：实际上 3 级弹跳法术的持续时间约为 199 * 0.3 = 59.7 秒，60 秒是四舍五入的结果。把弹跳法术从 2 级升到 3 级时，游戏面板可能会显示3级弹跳的持续时间是
@@ -107,3 +108,5 @@ const tableExtraInfo = [
     <TimelineItem :historyBottom="true" />
 </Timeline>
 <p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Jump_Spell?oldid=588156" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>
+
+<small>2026 年 11 月旧等级费用与时间参考[玩家整理](https://mp.weixin.qq.com/s/1C8VxevkSERrS2x1vJd8aA)（用户提供原文）及 [ClashKing 游戏数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)。本站保留表格结构并按等级核对。</small>

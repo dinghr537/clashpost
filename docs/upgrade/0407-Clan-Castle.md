@@ -38,9 +38,11 @@ dataVersionUpdatedOn: 2026-11-16
 <SmallTitle>建筑数量对照表</SmallTitle>
 
 <BuildingNum>
-    <BuildingNumRow title="大本等级" num="1, 2 - 18" />
+    <BuildingNumRow title="大本等级" num="1, 2 - 19" />
     <BuildingNumRow title="建筑数量" num="    0,      1" />
 </BuildingNum>
+
+<small>19 本数量参考 [官方更新公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)和 [ClashRecord](https://www.clashrecord.com/max-levels/th19)；可合并建筑按全部合并后计算。</small>
 
 <SmallTitle>重要说明</SmallTitle>
 
@@ -58,6 +60,8 @@ dataVersionUpdatedOn: 2026-11-16
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
+
+<small>15 级的法术容量与攻城机器容量参考 [部落冲突维基](https://clashofclans.fandom.com/wiki/Clan_Castle)（2026-11-16 核对）。</small>
 
 <small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为未知。</small>
 
@@ -100,13 +104,15 @@ const tableExtraInfo = [
 | 12 | 50 | 3 | 2 | 5600 | 14500000 | 9,0,0,0 |  | 16 |
 | 13 | 55 | 3 | 2 | 5800 | 17500000 | 10,0,0,0 |  | 17 |
 | 14 | 55 | 4 | 2 | 6000 | 25500000 | 13,0,0,0 |  | 18 |
-| 15 | 60 | 未知 | 未知 | 6200 | 31500000 | 16,0,0,0 |  | 19 |
+| 15 | 60 | 4 | 2 | 6200 | 31500000 | 16,0,0,0 |  | 19 |
 </UnitTable>
 
 ① 理论上来说，玩家只有升级到 3 级大本营才能达到 10 000 的资源储量用来修复城堡，但是如果玩家在 2 级大本营时遇到夯木节（升级建筑的费用减半）活动，或者购买资源礼包，那么就可以提前解锁城堡。\
 ② 将部落城堡升到 12 级并不意味着你能在战斗中同时使用两种攻城机器，只是可以装两种不同的攻城机器，供你在战斗时切换。
 
 <SmallTitle>宝库可容纳的资源量</SmallTitle>
+
+<small>19 本宝库容量尚无可核实的数值，暂列为未知；部落等级会影响宝库容量。<a href="https://sc-clashofclans.zendesk.com/hc/en-us/articles/49529078545691-Clan-Games-Rewards">官方说明</a>。</small>
 
 <SwitchTabs contentClass="cp-upgrade-clan-level">
     <SwitchTab tabId="cp-upgrade-clan-0" :activeTab="true">无部落或 1 级部落</SwitchTab>
@@ -141,6 +147,7 @@ const tableExtraInfo = [
 |    16   |    520 万     |  26 000  |
 |    17   |    560 万     |  30 000  |
 |    18   |    600 万     |  32 000  |
+|    19   |     未知      |   未知   |
 </Table>
 </SwitchTabGroup>
 
@@ -168,6 +175,7 @@ const tableExtraInfo = [
 |    16   |    572 万     |  28 600  |
 |    17   |    616 万     |  33 000  |
 |    18   |    660 万     |  35 200  |
+|    19   |     未知      |   未知   |
 </Table>
 </SwitchTabGroup>
 
@@ -195,6 +203,7 @@ const tableExtraInfo = [
 |    16   |    624 万     |  31 200  |
 |    17   |    672 万     |  36 000  |
 |    18   |    720 万     |  38 400  |
+|    19   |     未知      |   未知   |
 </Table>
 </SwitchTabGroup>
 
@@ -222,6 +231,7 @@ const tableExtraInfo = [
 |    16   |    676 万     |  33 800  |
 |    17   |    728 万     |  39 000  |
 |    18   |    780 万     |  41 600  |
+|    19   |     未知      |   未知   |
 </Table>
 </SwitchTabGroup>
 
@@ -249,6 +259,7 @@ const tableExtraInfo = [
 |    16   |    728 万     |  36 400  |
 |    17   |    784 万     |  42 000  |
 |    18   |    840 万     |  44 800  |
+|    19   |     未知      |   未知   |
 </Table>
 </SwitchTabGroup>
 
@@ -276,6 +287,7 @@ const tableExtraInfo = [
 |    16   |    780 万     |  39 000  |
 |    17   |    840 万     |  45 000  |
 |    18   |    900 万     |  48 000  |
+|    19   |     未知      |   未知   |
 </Table>
 </SwitchTabGroup>
 

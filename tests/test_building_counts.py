@@ -1,11 +1,12 @@
 """Regression checks for authored count tables and reviewed source corrections."""
 from copy import deepcopy
 from pathlib import Path
+from tempfile import TemporaryDirectory
 import sys
 import unittest
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
-from check_building_counts import compare_page, expand_groups
+from check_building_counts import check_th19_building_counts, compare_page, expand_groups
 from check_district_counts import compare_district_page
 from sync_wiki_data import preserve_table_corrections, source_cell
 
@@ -87,6 +88,19 @@ class BuildingCountTests(unittest.TestCase):
             expand_groups('1 - 3, 3 - 4', '0, 1')
         with self.assertRaisesRegex(ValueError, 'wrong number'):
             expand_groups('1 - 3, 4', '0')
+
+    def test_th19_checker_requires_every_mode_and_explicit_unknown(self):
+        with TemporaryDirectory() as directory:
+            pages = Path(directory)
+            path = pages / 'unit.md'
+            path.write_text(page('1 - 18', '1') + page('1 - 19', '1'))
+            result = check_th19_building_counts(pages, {'unit': 1})
+            self.assertEqual(result['blocks'], 2)
+            self.assertEqual(result['errors'], ['unit: block 1: missing TH19'])
+            path.write_text(page('1 - 18, 19', '1, 未知'))
+            self.assertEqual(check_th19_building_counts(pages, {'unit': None})['errors'], [])
+            path.write_text(page('1 - 18, 19', '1, '))
+            self.assertIn('must say 未知', check_th19_building_counts(pages, {'unit': None})['errors'][0])
 
     def test_old_snapshot_cannot_restore_reviewed_count(self):
         table = {'sourceTableIndex': 1, 'headers': ['Town Hall Level', '4'],

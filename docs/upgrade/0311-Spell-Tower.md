@@ -37,9 +37,11 @@ dataVersionUpdatedOn: 2026-11-16
 <SmallTitle>各大本等级的法术塔数量</SmallTitle>
 
 <BuildingNum>
-    <BuildingNumRow title="大本等级" num="1 - 14, 15 - 18" />
+    <BuildingNumRow title="大本等级" num="1 - 14, 15 - 19" />
     <BuildingNumRow title="建筑数量" num="     0,       2" />
 </BuildingNum>
+
+<small>19 本数量参考 [官方更新公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)和 [ClashRecord](https://www.clashrecord.com/max-levels/th19)；可合并建筑按全部合并后计算。</small>
 
 <SmallTitle>重要说明</SmallTitle>
 
@@ -81,9 +83,11 @@ dataVersionUpdatedOn: 2026-11-16
 <SmallTitle>各大本等级的法术塔数量</SmallTitle>
 
 <BuildingNum>
-    <BuildingNumRow title="大本等级" num="1 - 14, 15 - 18" />
+    <BuildingNumRow title="大本等级" num="1 - 14, 15 - 19" />
     <BuildingNumRow title="建筑数量" num="     0,       2" />
 </BuildingNum>
+
+<small>19 本数量参考 [官方更新公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)和 [ClashRecord](https://www.clashrecord.com/max-levels/th19)；可合并建筑按全部合并后计算。</small>
 
 <SmallTitle>毒药法术塔的属性</SmallTitle>
 
@@ -122,9 +126,11 @@ dataVersionUpdatedOn: 2026-11-16
 <SmallTitle>各大本等级的法术塔数量</SmallTitle>
 
 <BuildingNum>
-    <BuildingNumRow title="大本等级" num="1 - 14, 15 - 18" />
+    <BuildingNumRow title="大本等级" num="1 - 14, 15 - 19" />
     <BuildingNumRow title="建筑数量" num="     0,       2" />
 </BuildingNum>
+
+<small>19 本数量参考 [官方更新公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)和 [ClashRecord](https://www.clashrecord.com/max-levels/th19)；可合并建筑按全部合并后计算。</small>
 
 <SmallTitle>隐形法术塔的属性</SmallTitle>
 
@@ -160,9 +166,11 @@ dataVersionUpdatedOn: 2026-11-16
 <SmallTitle>各大本等级的法术塔数量</SmallTitle>
 
 <BuildingNum>
-    <BuildingNumRow title="大本等级" num="1 - 14, 15 - 18" />
+    <BuildingNumRow title="大本等级" num="1 - 14, 15 - 19" />
     <BuildingNumRow title="建筑数量" num="     0,       2" />
 </BuildingNum>
+
+<small>19 本数量参考 [官方更新公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)和 [ClashRecord](https://www.clashrecord.com/max-levels/th19)；可合并建筑按全部合并后计算。</small>
 
 <SmallTitle>地震法术塔的属性</SmallTitle>
 
@@ -210,8 +218,8 @@ const tableExtraInfo = [
 | 等级 | 生命值 | 升级费用 | 升级时间 | 升级后可<br>获得的经验| 所需<br>大本等级 | 解锁的法术 |
 | ---- |   --- |   ---   |   ---    |        ---          |       ---       |    ---    |
 | 1 | 2500 | 9000000 | 7,0,0,0 |  | 15 | <a href="/upgrade/0102-Rage-Spell">狂暴法术</a> |
-| 2 | 2800 | 11000000 | 8,0,0,0 |  | 15 | <a href="/upgrade/0180-Poison-Spell">毒药法术</a> |
-| 3 | 3100 | 12000000 | 8,12,0,0 |  | 15 | <a href="/upgrade/0106-Invisibility-Spell">隐形法术</a> |
+| 2 | 2800 | 11000000 | 7,12,0,0 |  | 15 | <a href="/upgrade/0180-Poison-Spell">毒药法术</a> |
+| 3 | 3100 | 12000000 | 8,0,0,0 |  | 15 | <a href="/upgrade/0106-Invisibility-Spell">隐形法术</a> |
 | 4 | 3200 | 17000000 | 10,0,0,0 |  | 17 | <a href="/upgrade/0181-Earthquake-Spell">地震法术</a> |
 </UnitTable>
 
@@ -255,3 +263,5 @@ const tableExtraInfo = [
     <TimelineItem :historyBottom="true" />
 </Timeline>
 <p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Spell_Tower?oldid=624787" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>
+
+<small>2026 年 11 月旧等级费用与时间参考[玩家整理](https://mp.weixin.qq.com/s/1C8VxevkSERrS2x1vJd8aA)（用户提供原文）及 [ClashKing 游戏数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)。本站保留表格结构并按等级核对。</small>

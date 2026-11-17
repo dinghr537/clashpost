@@ -21,8 +21,71 @@
         "source": "ClashPerk Wiki",
         "sourceUrl": "https://wiki.clashperk.com/resources/dark-elixir-storage",
         "scope": "New level storage capacity."
+      },
+      "oldLevelCostTimeReference": {
+        "checkedOn": "2026-11-16",
+        "source": "用户提供的玩家整理与 ClashKing Assets 固定修订逐项对照",
+        "articleUrl": "https://mp.weixin.qq.com/s/1C8VxevkSERrS2x1vJd8aA",
+        "snapshotUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json"
       }
-    }
+    },
+    "reviewedTableCorrections": [
+      {
+        "table": 3,
+        "reviewedOn": "2026-11-16",
+        "cells": [
+          {
+            "level": 7,
+            "header": "Build Cost",
+            "originalRaw": "3,800,000",
+            "correctedRaw": "3200000"
+          },
+          {
+            "level": 7,
+            "header": "Build Time",
+            "originalRaw": "3d",
+            "correctedRaw": "2d 12h"
+          },
+          {
+            "level": 8,
+            "header": "Build Cost",
+            "originalRaw": "5,400,000",
+            "correctedRaw": "3800000"
+          },
+          {
+            "level": 8,
+            "header": "Build Time",
+            "originalRaw": "3d 12h",
+            "correctedRaw": "2d 18h"
+          },
+          {
+            "level": 9,
+            "header": "Build Cost",
+            "originalRaw": "6,600,000",
+            "correctedRaw": "4800000"
+          },
+          {
+            "level": 9,
+            "header": "Build Time",
+            "originalRaw": "4d",
+            "correctedRaw": "3d 12h"
+          },
+          {
+            "level": 10,
+            "header": "Build Cost",
+            "originalRaw": "8,000,000",
+            "correctedRaw": "6000000"
+          },
+          {
+            "level": 10,
+            "header": "Build Time",
+            "originalRaw": "4d 12h",
+            "correctedRaw": "3d 18h"
+          }
+        ],
+        "reason": "Review against the user-provided November 2026 reference, current game-data snapshot, or the linked source documented on the page; do not silently restore an older snapshot."
+      }
+    ]
   },
   "tables": [
     {
@@ -485,15 +548,15 @@
           },
           {
             "status": "known",
-            "value": 3800000,
-            "raw": "3,800,000"
+            "value": 3200000,
+            "raw": "3200000"
           },
           {
             "status": "known",
-            "value": 259200,
-            "raw": "3d",
+            "value": 216000,
+            "raw": "2d 12h",
             "unit": "seconds",
-            "displayInput": "3,0,0,0"
+            "displayInput": "2,12,0,0"
           },
           {
             "status": "known",
@@ -524,15 +587,15 @@
           },
           {
             "status": "known",
-            "value": 5400000,
-            "raw": "5,400,000"
+            "value": 3800000,
+            "raw": "3800000"
           },
           {
             "status": "known",
-            "value": 302400,
-            "raw": "3d 12h",
+            "value": 237600,
+            "raw": "2d 18h",
             "unit": "seconds",
-            "displayInput": "3,12,0,0"
+            "displayInput": "2,18,0,0"
           },
           {
             "status": "known",
@@ -563,15 +626,15 @@
           },
           {
             "status": "known",
-            "value": 6600000,
-            "raw": "6,600,000"
+            "value": 4800000,
+            "raw": "4800000"
           },
           {
             "status": "known",
-            "value": 345600,
-            "raw": "4d",
+            "value": 302400,
+            "raw": "3d 12h",
             "unit": "seconds",
-            "displayInput": "4,0,0,0"
+            "displayInput": "3,12,0,0"
           },
           {
             "status": "known",
@@ -602,15 +665,15 @@
           },
           {
             "status": "known",
-            "value": 8000000,
-            "raw": "8,000,000"
+            "value": 6000000,
+            "raw": "6000000"
           },
           {
             "status": "known",
-            "value": 388800,
-            "raw": "4d 12h",
+            "value": 324000,
+            "raw": "3d 18h",
             "unit": "seconds",
-            "displayInput": "4,12,0,0"
+            "displayInput": "3,18,0,0"
           },
           {
             "status": "known",

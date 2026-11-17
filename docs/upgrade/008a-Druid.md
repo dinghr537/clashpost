@@ -92,8 +92,8 @@ const tableExtraInfo = [
 | 等级 | 每秒治疗量 | 每次治疗量 | 生命值 | 升级花费| 升级时间 |所需<br>实验室等级|所需<br>大本等级|
 |  --- |    ---    |    ---    |  ---- |  ----   |  ---    |       ----      |      ----     |
 | 1 | 80 | 80 | 1300 | \ | \ | 1 | 14 |
-| 2 | 85 | 85 | 1400 | 125000 | 8,0,0,0 | 12 | 14 |
-| 3 | 90 | 90 | 1500 | 175000 | 9,0,0,0 | 13 | 15 |
+| 2 | 85 | 85 | 1400 | 110000 | 7,0,0,0 | 12 | 14 |
+| 3 | 90 | 90 | 1500 | 130000 | 7,12,0,0 | 13 | 15 |
 | 4 | 95 | 95 | 1600 | 150000 | 8,0,0,0 | 14 | 16 |
 | 5 | 105 | 105 | 1700 | 215000 | 8,12,0,0 | 15 | 17 |
 | 6 | 115 | 115 | 1850 | 340000 | 12,12,0,0 | 16 | 18 |
@@ -157,9 +157,10 @@ const tableExtraInfo = [
 |   4  |   185   |   185   |  2300  |
 |   5  |   205   |   205   |  2500  |
 |   6  |   225   |   225   |  2750  |
+|   7  |   未知  |   未知  |  未知  |
 </UnitTable>
 
-<p><small>巨熊形态数据来源：<a href="https://clashofclans.fandom.com/wiki/Druid/Bear#Statistics" target="_blank" rel="noopener noreferrer">部落冲突维基：巨熊</a>。</small></p>
+<p><small>7 级巨熊属性尚未找到可核实数据。巨熊形态数据来源：<a href="https://clashofclans.fandom.com/wiki/Druid/Bear#Statistics" target="_blank" rel="noopener noreferrer">部落冲突维基：巨熊</a>。</small></p>
 </SwitchTabGroup>
 
 <!-- ↓↓↓ 公共部分 ↓↓↓ -->
@@ -218,3 +219,5 @@ const tableExtraInfo = [
     <TimelineItem :historyBottom="true" />
 </Timeline>
 <p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Druid?oldid=625361" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>
+
+<small>2026 年 11 月旧等级费用与时间参考[玩家整理](https://mp.weixin.qq.com/s/1C8VxevkSERrS2x1vJd8aA)（用户提供原文）及 [ClashKing 游戏数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)。本站保留表格结构并按等级核对。</small>

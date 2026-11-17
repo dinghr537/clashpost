@@ -88,8 +88,8 @@ const tableExtraInfo = [
 | 4 | 105 | 315 | 210 | 1500 | 2800000 | 2,0,0,0 | 8 | 10 |
 | 5 | 115 | 345 | 230 | 1600 | 3700000 | 2,18,0,0 | 9 | 11 |
 | 6 | 125 | 375 | 250 | 1700 | 4800000 | 3,0,0,0 | 10 | 12 |
-| 7 | 135 | 405 | 270 | 1800 | 6200000 | 4,0,0,0 | 11 | 13 |
-| 8 | 145 | 435 | 290 | 1900 | 9500000 | 6,0,0,0 | 12 | 14 |
+| 7 | 135 | 405 | 270 | 1800 | 5500000 | 3,12,0,0 | 11 | 13 |
+| 8 | 145 | 435 | 290 | 1900 | 8500000 | 5,12,0,0 | 12 | 14 |
 | 9 | 155 | 465 | 310 | 2000 | 11000000 | 7,0,0,0 | 13 | 15 |
 | 10 | 165 | 495 | 330 | 2100 | 13500000 | 7,6,0,0 | 14 | 16 |
 | 11 | 175 | 525 | 350 | 2200 | 15000000 | 7,12,0,0 | 15 | 17 |
@@ -169,3 +169,5 @@ const tableExtraInfo = [
     <TimelineItem :historyBottom="true" />
 </Timeline>
 <p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Baby_Dragon?oldid=574044" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>
+
+<small>2026 年 11 月旧等级费用与时间参考[玩家整理](https://mp.weixin.qq.com/s/1C8VxevkSERrS2x1vJd8aA)（用户提供原文）及 [ClashKing 游戏数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)。本站保留表格结构并按等级核对。</small>

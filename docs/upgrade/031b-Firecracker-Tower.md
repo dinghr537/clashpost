@@ -21,6 +21,13 @@ dataVersionUpdatedOn: 2026-11-16
     </UnitImgGroup>
 </Panel>
 
+<SmallTitle>建筑数量对照表</SmallTitle>
+
+<BuildingNum>
+    <BuildingNumRow title="大本等级" num="1 - 18, 19" />
+    <BuildingNumRow title="建筑数量" num="0, 2" />
+</BuildingNum>
+
 <SmallTitle>重要说明</SmallTitle>
 
 19 本可将 21 级箭塔和 7 级投石炮合并成烟花炮手塔，最多合并 2 座。其火箭能攻击地面和空中目标，在命中点及目标后方造成范围伤害，射程 10 格。

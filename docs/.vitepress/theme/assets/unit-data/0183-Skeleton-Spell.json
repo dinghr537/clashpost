@@ -11,7 +11,39 @@
     "revision": 623005,
     "revisionUrl": "https://clashofclans.fandom.com/wiki/Skeleton_Spell?oldid=623005",
     "syncedOn": "2026-10-13",
-    "scope": "Source statistics tables and available 2026 history; base values"
+    "scope": "Source statistics tables and available 2026 history; base values",
+    "th19Update": {
+      "checkedOn": "2026-11-16",
+      "source": "ClashKing Assets (selected game facts)",
+      "sourceUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json",
+      "oldLevelCostTimeReference": {
+        "checkedOn": "2026-11-16",
+        "source": "用户提供的玩家整理与 ClashKing Assets 固定修订逐项对照",
+        "articleUrl": "https://mp.weixin.qq.com/s/1C8VxevkSERrS2x1vJd8aA",
+        "snapshotUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json"
+      }
+    },
+    "reviewedTableCorrections": [
+      {
+        "table": 4,
+        "reviewedOn": "2026-11-16",
+        "cells": [
+          {
+            "level": 8,
+            "header": "Research Cost",
+            "originalRaw": "135,000",
+            "correctedRaw": "120000"
+          },
+          {
+            "level": 8,
+            "header": "Research Time",
+            "originalRaw": "6d",
+            "correctedRaw": "5d 6h"
+          }
+        ],
+        "reason": "Review against the user-provided November 2026 reference, current game-data snapshot, or the linked source documented on the page; do not silently restore an older snapshot."
+      }
+    ]
   },
   "tables": [
     {
@@ -336,15 +368,15 @@
           },
           {
             "status": "known",
-            "value": 135000,
-            "raw": "135,000"
+            "value": 120000,
+            "raw": "120000"
           },
           {
             "status": "known",
-            "value": 518400,
-            "raw": "6d",
+            "value": 453600,
+            "raw": "5d 6h",
             "unit": "seconds",
-            "displayInput": "6,0,0,0"
+            "displayInput": "5,6,0,0"
           },
           {
             "status": "known",

@@ -87,8 +87,8 @@ const tableExtraInfo = [
 | 2 | 290 | 1015 | 75 ×6 | 3900 | 6000000 | 4,0,0,0 | 9 | 11 |
 | 3 | 320 | 1120 | 85 ×6 | 4400 | 7000000 | 4,12,0,0 | 10 | 12 |
 | 4 | 350 | 1225 | 95 ×6 | 4700 | 9000000 | 7,0,0,0 | 11 | 13 |
-| 5 | 380 | 1330 | 105 ×6 | 5000 | 11000000 | 8,0,0,0 | 12 | 14 |
-| 6 | 410 | 1435 | 115 ×6 | 5400 | 14000000 | 8,12,0,0 | 13 | 15 |
+| 5 | 380 | 1330 | 105 ×6 | 5000 | 10500000 | 7,12,0,0 | 12 | 14 |
+| 6 | 410 | 1435 | 115 ×6 | 5400 | 13000000 | 8,0,0,0 | 13 | 15 |
 | 7 | 440 | 1540 | 125 ×6 | 5700 | 15000000 | 8,12,0,0 | 14 | 16 |
 | 8 | 475 | 1662.5 | 135 ×6 | 6400 | 18000000 | 9,0,0,0 | 15 | 17 |
 | 9 | 510 | 1785 | 145 ×6 | 6900 | 22500000 | 12,0,0,0 | 16 | 18 |
@@ -170,3 +170,5 @@ const tableExtraInfo = [
     <TimelineItem :historyBottom="true" />
 </Timeline>
 <p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Electro_Dragon?oldid=625283" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>
+
+<small>2026 年 11 月旧等级费用与时间参考[玩家整理](https://mp.weixin.qq.com/s/1C8VxevkSERrS2x1vJd8aA)（用户提供原文）及 [ClashKing 游戏数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)。本站保留表格结构并按等级核对。</small>

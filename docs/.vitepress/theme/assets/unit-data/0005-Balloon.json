@@ -16,8 +16,35 @@
       "checkedOn": "2026-11-16",
       "source": "ClashKing Assets (selected game facts)",
       "sourceUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json",
-      "scope": "Selected new levels and baseline-matched cost/time adjustments; missing fields remain unknown."
-    }
+      "scope": "Selected new levels and baseline-matched cost/time adjustments; missing fields remain unknown.",
+      "oldLevelCostTimeReference": {
+        "checkedOn": "2026-11-16",
+        "source": "用户提供的玩家整理与 ClashKing Assets 固定修订逐项对照",
+        "articleUrl": "https://mp.weixin.qq.com/s/1C8VxevkSERrS2x1vJd8aA",
+        "snapshotUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json"
+      }
+    },
+    "reviewedTableCorrections": [
+      {
+        "table": 3,
+        "reviewedOn": "2026-11-16",
+        "cells": [
+          {
+            "level": 9,
+            "header": "Research Cost",
+            "originalRaw": "7,000,000",
+            "correctedRaw": "6000000"
+          },
+          {
+            "level": 9,
+            "header": "Research Time",
+            "originalRaw": "4d 12h",
+            "correctedRaw": "4d"
+          }
+        ],
+        "reason": "Review against the user-provided November 2026 reference, current game-data snapshot, or the linked source documented on the page; do not silently restore an older snapshot."
+      }
+    ]
   },
   "tables": [
     {
@@ -473,15 +500,15 @@
           },
           {
             "status": "known",
-            "value": 7000000,
-            "raw": "7,000,000"
+            "value": 6000000,
+            "raw": "6000000"
           },
           {
             "status": "known",
-            "value": 388800,
-            "raw": "4d 12h",
+            "value": 345600,
+            "raw": "4d",
             "unit": "seconds",
-            "displayInput": "4,12,0,0"
+            "displayInput": "4,0,0,0"
           },
           {
             "status": "known",

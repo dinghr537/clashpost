@@ -16,8 +16,187 @@
       "checkedOn": "2026-11-16",
       "source": "ClashKing Assets (selected game facts)",
       "sourceUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json",
-      "scope": "Selected new levels and baseline-matched cost/time adjustments; missing fields remain unknown."
-    }
+      "scope": "Selected new levels and baseline-matched cost/time adjustments; missing fields remain unknown.",
+      "oldLevelCostTimeReference": {
+        "checkedOn": "2026-11-16",
+        "source": "用户提供的玩家整理与 ClashKing Assets 固定修订逐项对照",
+        "articleUrl": "https://mp.weixin.qq.com/s/1C8VxevkSERrS2x1vJd8aA",
+        "snapshotUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json"
+      },
+      "storageSource": "https://wiki.clashperk.com/other/town-hall",
+      "countMethod": "按本站各建筑和陷阱数量汇总；19 本精制台暂按 1 个，仍待核实。"
+    },
+    "reviewedTableCorrections": [
+      {
+        "table": 6,
+        "reviewedOn": "2026-11-16",
+        "cells": [
+          {
+            "level": 8,
+            "header": "Maximum Number of Buildings Available",
+            "originalRaw": "64",
+            "correctedRaw": "65"
+          },
+          {
+            "level": 9,
+            "header": "Maximum Number of Buildings Available",
+            "originalRaw": "77",
+            "correctedRaw": "78"
+          },
+          {
+            "level": 10,
+            "header": "Maximum Number of Buildings Available",
+            "originalRaw": "84",
+            "correctedRaw": "85"
+          },
+          {
+            "level": 11,
+            "header": "Maximum Number of Buildings Available",
+            "originalRaw": "89",
+            "correctedRaw": "91"
+          },
+          {
+            "level": 12,
+            "header": "Maximum Number of Buildings Available",
+            "originalRaw": "92",
+            "correctedRaw": "94"
+          },
+          {
+            "level": 13,
+            "header": "Build Time",
+            "originalRaw": "7d",
+            "correctedRaw": "6d 12h"
+          },
+          {
+            "level": 13,
+            "header": "Experience Gained",
+            "originalRaw": "777",
+            "correctedRaw": "749"
+          },
+          {
+            "level": 13,
+            "header": "Maximum Number of Buildings Available",
+            "originalRaw": "94",
+            "correctedRaw": "96"
+          },
+          {
+            "level": 14,
+            "header": "Build Cost",
+            "originalRaw": "12,000,000",
+            "correctedRaw": "11500000"
+          },
+          {
+            "level": 14,
+            "header": "Build Time",
+            "originalRaw": "7d 12h",
+            "correctedRaw": "7d"
+          },
+          {
+            "level": 14,
+            "header": "Experience Gained",
+            "originalRaw": "804",
+            "correctedRaw": "777"
+          },
+          {
+            "level": 14,
+            "header": "Maximum Number of Buildings Available",
+            "originalRaw": "95",
+            "correctedRaw": "97"
+          },
+          {
+            "level": 15,
+            "header": "Build Time",
+            "originalRaw": "8d",
+            "correctedRaw": "7d 12h"
+          },
+          {
+            "level": 15,
+            "header": "Experience Gained",
+            "originalRaw": "831",
+            "correctedRaw": "804"
+          },
+          {
+            "level": 15,
+            "header": "Maximum Number of Buildings Available",
+            "originalRaw": "98",
+            "correctedRaw": "100"
+          },
+          {
+            "level": 16,
+            "header": "Build Time",
+            "originalRaw": "9d",
+            "correctedRaw": "8d 12h"
+          },
+          {
+            "level": 16,
+            "header": "Experience Gained",
+            "originalRaw": "881",
+            "correctedRaw": "856"
+          },
+          {
+            "level": 16,
+            "header": "Maximum Number of Buildings Available",
+            "originalRaw": "94",
+            "correctedRaw": "96"
+          },
+          {
+            "level": 17,
+            "header": "Build Time",
+            "originalRaw": "10d",
+            "correctedRaw": "9d 12h"
+          },
+          {
+            "level": 17,
+            "header": "Experience Gained",
+            "originalRaw": "929",
+            "correctedRaw": "905"
+          },
+          {
+            "level": 17,
+            "header": "Maximum Number of Buildings Available",
+            "originalRaw": "93",
+            "correctedRaw": "95"
+          },
+          {
+            "level": 18,
+            "header": "Build Cost",
+            "originalRaw": "25,000,000",
+            "correctedRaw": "20000000"
+          },
+          {
+            "level": 18,
+            "header": "Build Time",
+            "originalRaw": "12d",
+            "correctedRaw": "10d"
+          },
+          {
+            "level": 18,
+            "header": "Experience Gained",
+            "originalRaw": "1,018",
+            "correctedRaw": "929"
+          },
+          {
+            "level": 18,
+            "header": "Maximum Number of Buildings Available",
+            "originalRaw": "94",
+            "correctedRaw": "95"
+          },
+          {
+            "level": 18,
+            "header": "Maximum Number of Traps Available",
+            "originalRaw": "47",
+            "correctedRaw": "48"
+          },
+          {
+            "level": 19,
+            "header": "Maximum Number of Traps Available",
+            "originalRaw": "48",
+            "correctedRaw": "49"
+          }
+        ],
+        "reason": "Review against the user-provided November 2026 reference, current game-data snapshot, or the linked source documented on the page; do not silently restore an older snapshot."
+      }
+    ]
   },
   "tables": [
     {
@@ -529,8 +708,8 @@
           },
           {
             "status": "known",
-            "value": 64,
-            "raw": "64"
+            "value": 65,
+            "raw": "65"
           },
           {
             "status": "known",
@@ -568,8 +747,8 @@
           },
           {
             "status": "known",
-            "value": 77,
-            "raw": "77"
+            "value": 78,
+            "raw": "78"
           },
           {
             "status": "known",
@@ -607,8 +786,8 @@
           },
           {
             "status": "known",
-            "value": 84,
-            "raw": "84"
+            "value": 85,
+            "raw": "85"
           },
           {
             "status": "known",
@@ -646,8 +825,8 @@
           },
           {
             "status": "known",
-            "value": 89,
-            "raw": "89"
+            "value": 91,
+            "raw": "91"
           },
           {
             "status": "known",
@@ -685,8 +864,8 @@
           },
           {
             "status": "known",
-            "value": 92,
-            "raw": "92"
+            "value": 94,
+            "raw": "94"
           },
           {
             "status": "known",
@@ -712,20 +891,20 @@
           },
           {
             "status": "known",
-            "value": 604800,
-            "raw": "7d",
+            "value": 561600,
+            "raw": "6d 12h",
             "unit": "seconds",
-            "displayInput": "7,0,0,0"
+            "displayInput": "6,12,0,0"
           },
           {
             "status": "known",
-            "value": 777,
-            "raw": "777"
+            "value": 749,
+            "raw": "749"
           },
           {
             "status": "known",
-            "value": 94,
-            "raw": "94"
+            "value": 96,
+            "raw": "96"
           },
           {
             "status": "known",
@@ -746,25 +925,25 @@
           },
           {
             "status": "known",
-            "value": 12000000,
-            "raw": "12,000,000"
+            "value": 11500000,
+            "raw": "11500000"
           },
           {
             "status": "known",
-            "value": 648000,
-            "raw": "7d 12h",
+            "value": 604800,
+            "raw": "7d",
             "unit": "seconds",
-            "displayInput": "7,12,0,0"
+            "displayInput": "7,0,0,0"
           },
           {
             "status": "known",
-            "value": 804,
-            "raw": "804"
+            "value": 777,
+            "raw": "777"
           },
           {
             "status": "known",
-            "value": 95,
-            "raw": "95"
+            "value": 97,
+            "raw": "97"
           },
           {
             "status": "known",
@@ -790,20 +969,20 @@
           },
           {
             "status": "known",
-            "value": 691200,
-            "raw": "8d",
+            "value": 648000,
+            "raw": "7d 12h",
             "unit": "seconds",
-            "displayInput": "8,0,0,0"
+            "displayInput": "7,12,0,0"
           },
           {
             "status": "known",
-            "value": 831,
-            "raw": "831"
+            "value": 804,
+            "raw": "804"
           },
           {
             "status": "known",
-            "value": 98,
-            "raw": "98"
+            "value": 100,
+            "raw": "100"
           },
           {
             "status": "known",
@@ -829,20 +1008,20 @@
           },
           {
             "status": "known",
-            "value": 777600,
-            "raw": "9d",
+            "value": 734400,
+            "raw": "8d 12h",
             "unit": "seconds",
-            "displayInput": "9,0,0,0"
+            "displayInput": "8,12,0,0"
           },
           {
             "status": "known",
-            "value": 881,
-            "raw": "881"
+            "value": 856,
+            "raw": "856"
           },
           {
             "status": "known",
-            "value": 94,
-            "raw": "94"
+            "value": 96,
+            "raw": "96"
           },
           {
             "status": "known",
@@ -868,20 +1047,20 @@
           },
           {
             "status": "known",
-            "value": 864000,
-            "raw": "10d",
+            "value": 820800,
+            "raw": "9d 12h",
             "unit": "seconds",
-            "displayInput": "10,0,0,0"
+            "displayInput": "9,12,0,0"
           },
           {
             "status": "known",
-            "value": 929,
-            "raw": "929"
+            "value": 905,
+            "raw": "905"
           },
           {
             "status": "known",
-            "value": 93,
-            "raw": "93"
+            "value": 95,
+            "raw": "95"
           },
           {
             "status": "known",
@@ -902,30 +1081,30 @@
           },
           {
             "status": "known",
-            "value": 25000000,
-            "raw": "25,000,000"
+            "value": 20000000,
+            "raw": "20000000"
           },
           {
             "status": "known",
-            "value": 1036800,
-            "raw": "12d",
+            "value": 864000,
+            "raw": "10d",
             "unit": "seconds",
-            "displayInput": "12,0,0,0"
+            "displayInput": "10,0,0,0"
           },
           {
             "status": "known",
-            "value": 1018,
-            "raw": "1,018"
+            "value": 929,
+            "raw": "929"
           },
           {
             "status": "known",
-            "value": 94,
-            "raw": "94"
+            "value": 95,
+            "raw": "95"
           },
           {
             "status": "known",
-            "value": 47,
-            "raw": "47"
+            "value": 48,
+            "raw": "48"
           }
         ],
         [
@@ -963,8 +1142,8 @@
           },
           {
             "status": "known",
-            "value": 48,
-            "raw": "48"
+            "value": 49,
+            "raw": "49"
           }
         ]
       ],
@@ -1571,6 +1750,38 @@
             "status": "known",
             "value": 500000,
             "raw": "500,000"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 19,
+            "raw": "19"
+          },
+          {
+            "status": "known",
+            "value": 5000000,
+            "raw": "5000000"
+          },
+          {
+            "status": "known",
+            "value": 5000000,
+            "raw": "5000000"
+          },
+          {
+            "status": "known",
+            "value": 50000,
+            "raw": "50000"
+          },
+          {
+            "status": "known",
+            "value": 33000000,
+            "raw": "33000000"
+          },
+          {
+            "status": "known",
+            "value": 530000,
+            "raw": "530000"
           }
         ]
       ],

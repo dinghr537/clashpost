@@ -16,8 +16,35 @@
       "checkedOn": "2026-11-16",
       "source": "ClashKing Assets (selected game facts)",
       "sourceUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json",
-      "scope": "Selected TH16–18 costs and times where the previous snapshot matched this site."
-    }
+      "scope": "Selected TH16–18 costs and times where the previous snapshot matched this site.",
+      "oldLevelCostTimeReference": {
+        "checkedOn": "2026-11-16",
+        "source": "用户提供的玩家整理与 ClashKing Assets 固定修订逐项对照",
+        "articleUrl": "https://mp.weixin.qq.com/s/1C8VxevkSERrS2x1vJd8aA",
+        "snapshotUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json"
+      }
+    },
+    "reviewedTableCorrections": [
+      {
+        "table": 5,
+        "reviewedOn": "2026-11-16",
+        "cells": [
+          {
+            "level": 2,
+            "header": "Build Time",
+            "originalRaw": "8d",
+            "correctedRaw": "7d 12h"
+          },
+          {
+            "level": 3,
+            "header": "Build Time",
+            "originalRaw": "8d 12h",
+            "correctedRaw": "8d"
+          }
+        ],
+        "reason": "Review against the user-provided November 2026 reference, current game-data snapshot, or the linked source documented on the page; do not silently restore an older snapshot."
+      }
+    ]
   },
   "tables": [
     {
@@ -290,10 +317,10 @@
           },
           {
             "status": "known",
-            "value": 691200,
-            "raw": "8d",
+            "value": 648000,
+            "raw": "7d 12h",
             "unit": "seconds",
-            "displayInput": "8,0,0,0"
+            "displayInput": "7,12,0,0"
           },
           {
             "status": "known",
@@ -329,10 +356,10 @@
           },
           {
             "status": "known",
-            "value": 734400,
-            "raw": "8d 12h",
+            "value": 691200,
+            "raw": "8d",
             "unit": "seconds",
-            "displayInput": "8,12,0,0"
+            "displayInput": "8,0,0,0"
           },
           {
             "status": "known",

@@ -85,8 +85,8 @@ const tableExtraInfo = [
 | 7 | 200 | 300 | 195 | 2500000 | 2,0,0,0 | 8 | 10 |
 | 8 | 215 | 322.5 | 210 | 3100000 | 2,6,0,0 | 9 | 11 |
 | 9 | 230 | 345 | 230 | 4000000 | 2,12,0,0 | 10 | 12 |
-| 10 | 245 | 367.5 | 250 | 5500000 | 3,12,0,0 | 11 | 13 |
-| 11 | 260 | 390 | 270 | 10000000 | 5,12,0,0 | 13 | 15 |
+| 10 | 245 | 367.5 | 250 | 4700000 | 3,0,0,0 | 11 | 13 |
+| 11 | 260 | 390 | 270 | 7000000 | 4,12,0,0 | 13 | 15 |
 | 12 | 275 | 412.5 | 290 | 9000000 | 7,0,0,0 | 14 | 16 |
 | 13 | 290 | 435 | 310 | 11500000 | 7,12,0,0 | 15 | 17 |
 | 14 | 310 | 465 | 330 | 21000000 | 9,0,0,0 | 16 | 18 |
@@ -154,3 +154,5 @@ const tableExtraInfo = [
     <TimelineItem :historyBottom="true" />
 </Timeline>
 <p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Wizard?oldid=625289" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>
+
+<small>2026 年 11 月旧等级费用与时间参考[玩家整理](https://mp.weixin.qq.com/s/1C8VxevkSERrS2x1vJd8aA)（用户提供原文）及 [ClashKing 游戏数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)。本站保留表格结构并按等级核对。</small>

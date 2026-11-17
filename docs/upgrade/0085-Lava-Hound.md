@@ -101,7 +101,7 @@ const tableExtraInfo = [
 | 2 | 12 | 24 | 150 | 10 / 9 | 6500 | 14000 | 2,0,0,0 | 7 | 9 |
 | 3 | 14 | 28 | 200 | 12 / 10 | 6800 | 21500 | 2,12,0,0 | 8 | 10 |
 | 4 | 16 | 32 | 250 | 14 / 11 | 7200 | 42500 | 3,0,0,0 | 9 | 11 |
-| 5 | 18 | 36 | 300 | 16 / 12 | 7600 | 60000 | 4,0,0,0 | 10 | 12 |
+| 5 | 18 | 36 | 300 | 16 / 12 | 7600 | 50000 | 3,12,0,0 | 10 | 12 |
 | 6 | 20 | 40 | 350 | 18 / 13 | 8000 | 80000 | 7,0,0,0 | 11 | 13 |
 | 7 | 22 | 44 | 400 | 20 / 14 | 8500 | 190000 | 7,12,0,0 | 14 | 16 |
 | 8 | 24 | 48 | 450 | 22 / 15 | 9500 | 285000 | 10,12,0,0 | 16 | 18 |
@@ -172,3 +172,5 @@ const tableExtraInfo = [
     <TimelineItem :historyBottom="true" />
 </Timeline>
 <p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Lava_Hound?oldid=624357" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>
+
+<small>2026 年 11 月旧等级费用与时间参考[玩家整理](https://mp.weixin.qq.com/s/1C8VxevkSERrS2x1vJd8aA)（用户提供原文）及 [ClashKing 游戏数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)。本站保留表格结构并按等级核对。</small>

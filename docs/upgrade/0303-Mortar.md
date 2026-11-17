@@ -88,9 +88,11 @@ const tableExtraInfoFastMode = tableExtraInfoStandardMode;
 <SmallTitle>各大本等级的迫击炮数量</SmallTitle>
 
 <BuildingNum>
-    <BuildingNumRow title="大本等级" num="1 - 2, 3 - 5, 6, 7, 8 - 18" />
+    <BuildingNumRow title="大本等级" num="1 - 2, 3 - 5, 6, 7, 8 - 19" />
     <BuildingNumRow title="建筑数量" num="    0,     1, 2, 3,      4" />
 </BuildingNum>
+
+<small>19 本数量参考 [官方更新公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)和 [ClashRecord](https://www.clashrecord.com/max-levels/th19)；可合并建筑按全部合并后计算。</small>
 
 <SmallTitle>属性</SmallTitle>
 
@@ -127,10 +129,10 @@ const tableExtraInfoFastMode = tableExtraInfoStandardMode;
 | 8 | 20 | 100 | 800 | 1200000 | 0,18,0,0 |  | 10 |
 | 9 | 25 | 125 | 950 | 1600000 | 0,20,0,0 |  | 11 |
 | 10 | 30 | 150 | 1100 | 1800000 | 1,0,0,0 |  | 11 |
-| 11 | 35 | 175 | 1300 | 2300000 | 1,6,0,0 |  | 12 |
-| 12 | 38 | 190 | 1500 | 2400000 | 1,12,0,0 |  | 12 |
+| 11 | 35 | 175 | 1300 | 2000000 | 1,6,0,0 |  | 12 |
+| 12 | 38 | 190 | 1500 | 2200000 | 1,12,0,0 |  | 12 |
 | 13 | 42 | 210 | 1700 | 2800000 | 2,0,0,0 |  | 13 |
-| 14 | 48 | 240 | 1950 | 4300000 | 2,12,0,0 |  | 14 |
+| 14 | 48 | 240 | 1950 | 3400000 | 2,6,0,0 |  | 14 |
 | 15 | 54 | 270 | 2150 | 5000000 | 3,0,0,0 |  | 15 |
 | 16 | 60 | 300 | 2300 | 7000000 | 4,0,0,0 |  | 16 |
 | 17 | 66 | 330 | 2450 | 8500000 | 4,6,0,0 |  | 17 |
@@ -167,9 +169,11 @@ const tableExtraInfoFastMode = tableExtraInfoStandardMode;
 <SmallTitle>各大本等级的迫击炮数量</SmallTitle>
 
 <BuildingNum>
-    <BuildingNumRow title="大本等级" num="1 - 2, 3 - 5, 6, 7, 8 - 18" />
+    <BuildingNumRow title="大本等级" num="1 - 2, 3 - 5, 6, 7, 8 - 19" />
     <BuildingNumRow title="建筑数量" num="    0,     1, 2, 3,      4" />
 </BuildingNum>
+
+<small>19 本数量参考 [官方更新公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)和 [ClashRecord](https://www.clashrecord.com/max-levels/th19)；可合并建筑按全部合并后计算。</small>
 
 <SmallTitle>属性</SmallTitle>
 
@@ -201,14 +205,14 @@ const tableExtraInfoFastMode = tableExtraInfoStandardMode;
 | 8 | 25 | 41.6 | 800 | 1200000 | 0,18,0,0 |  | 10 |
 | 9 | 30 | 51.58 | 950 | 1600000 | 0,20,0,0 |  | 11 |
 | 10 | 37 | 63.23 | 1100 | 1800000 | 1,0,0,0 |  | 11 |
-| 11 | 42 | 71.55 | 1300 | 2300000 | 1,6,0,0 |  | 12 |
-| 12 | 46 | 78.2 | 1500 | 2400000 | 1,12,0,0 |  | 12 |
+| 11 | 42 | 71.55 | 1300 | 2000000 | 1,6,0,0 |  | 12 |
+| 12 | 46 | 78.2 | 1500 | 2200000 | 1,12,0,0 |  | 12 |
 | 13 | 51 | 86.52 | 1700 | 2800000 | 2,0,0,0 |  | 13 |
-| 14 | 58 | 98.17 | 1950 | 4300000 | 2,12,0,0 |  | 14 |
+| 14 | 58 | 98.17 | 1950 | 3400000 | 2,6,0,0 |  | 14 |
 | 15 | 65 | 109.82 | 2150 | 5000000 | 3,0,0,0 |  | 15 |
 | 16 | 73 | 123.13 | 2300 | 7000000 | 4,0,0,0 |  | 16 |
-| 17 | 80 | 134.78 | 2450 | 13000000 | 5,0,0,0 |  | 17 |
-| 18 | 88 | 148.09 | 2550 | 21000000 | 12,12,0,0 |  | 18 |
+| 17 | 80 | 134.78 | 2450 | 8500000 | 4,6,0,0 |  | 17 |
+| 18 | 88 | 148.09 | 2550 | 15500000 | 8,12,0,0 |  | 18 |
 | ⚡1 | 91 | 153.08 | 2550 | 9000000 | 4,0,0,0 |  | 18 |
 | ⚡2 | 91 | 153.08 | 2625 | 7000000 | 6,0,0,0 |  | 18 |
 </UnitTable>
@@ -308,3 +312,5 @@ const tableExtraInfoFastMode = tableExtraInfoStandardMode;
     <TimelineItem :historyBottom="true" />
 </Timeline>
 <p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Mortar?oldid=625094" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>
+
+<small>2026 年 11 月旧等级费用与时间参考[玩家整理](https://mp.weixin.qq.com/s/1C8VxevkSERrS2x1vJd8aA)（用户提供原文）及 [ClashKing 游戏数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)。本站保留表格结构并按等级核对。</small>

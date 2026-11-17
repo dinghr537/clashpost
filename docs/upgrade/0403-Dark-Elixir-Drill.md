@@ -35,9 +35,11 @@ dataVersionUpdatedOn: 2026-11-16
 <SmallTitle>建筑数量对照表</SmallTitle>
 
 <BuildingNum>
-    <BuildingNumRow title="大本等级" num="1 - 6, 7, 8, 9 - 18" />
+    <BuildingNumRow title="大本等级" num="1 - 6, 7, 8, 9 - 19" />
     <BuildingNumRow title="建筑数量" num="    0, 1, 2,      3" />
 </BuildingNum>
+
+<small>19 本数量参考 [官方更新公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)和 [ClashRecord](https://www.clashrecord.com/max-levels/th19)；可合并建筑按全部合并后计算。</small>
 
 <SmallTitle>属性</SmallTitle>
 
@@ -98,8 +100,8 @@ const tableExtraInfo = [
 | 6 | 100 | 1800 | 0,18,0,0 | 3 | 30 | 1160 | 1800000 | 1,12,0,0 |  | 9 |
 | 7 | 120 | 2400 | 0,20,0,0 | 4 | 35 | 1280 | 2100000 | 1,18,0,0 |  | 10 |
 | 8 | 140 | 3000 | 0,21,25,43 | 5 | 40 | 1380 | 2400000 | 2,0,0,0 |  | 11 |
-| 9 | 160 | 3600 | 0,22,30,0 | 6 | 45 | 1480 | 3700000 | 2,12,0,0 |  | 12 |
-| 10 | 180 | 4200 | 0,23,20,0 | 7 | 50 | 1550 | 5300000 | 3,0,0,0 |  | 14 |
+| 9 | 160 | 3600 | 0,22,30,0 | 6 | 45 | 1480 | 3000000 | 2,6,0,0 |  | 12 |
+| 10 | 180 | 4200 | 0,23,20,0 | 7 | 50 | 1550 | 4400000 | 2,12,0,0 |  | 14 |
 | 11 | 200 | 4600 | 0,23,0,0 | 8 | 55 | 1600 | 8000000 | 5,0,0,0 |  | 16 |
 | 12 | 未知 | 未知 | \ | 未知 | 未知 | 1650 | 12500000 | 6,12,0,0 |  | 18 |
 | ⚡1 | 209 | 4807 | 0,23,0,0 | 8 | 55 | 1600 | 750000 | 0,14,30,0 |  | 18 |
@@ -157,3 +159,5 @@ const tableExtraInfo = [
     <TimelineItem :historyBottom="true" />
 </Timeline>
 <p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Dark_Elixir_Drill?oldid=624450" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>
+
+<small>2026 年 11 月旧等级费用与时间参考[玩家整理](https://mp.weixin.qq.com/s/1C8VxevkSERrS2x1vJd8aA)（用户提供原文）及 [ClashKing 游戏数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)。本站保留表格结构并按等级核对。</small>

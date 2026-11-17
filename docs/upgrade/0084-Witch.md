@@ -85,7 +85,7 @@ const tableExtraInfo = [
 | 3 | 140 | 98 | 4 | 1 | 10 | 400 | 29000 | 3,0,0,0 | 8 | 10 |
 | 4 | 165 | 115.5 | 4 | 1 | 12 | 470 | 45000 | 3,12,0,0 | 9 | 11 |
 | 5 | 185 | 129.5 | 4 | 1 | 14 | 520 | 62500 | 4,0,0,0 | 10 | 12 |
-| 6 | 200 | 140 | 4 | 1 | 15 | 540 | 150000 | 5,12,0,0 | 13 | 15 |
+| 6 | 200 | 140 | 4 | 1 | 15 | 540 | 125000 | 4,12,0,0 | 13 | 15 |
 | 7 | 220 | 154 | 5 | 1 | 16 | 560 | 175000 | 7,0,0,0 | 14 | 16 |
 | 8 | 260 | 182 | 5 | 2 | 16 | 650 | 300000 | 10,0,0,0 | 16 | 18 |
 | 9 | 300 | 210 | 未知 | 未知 | 未知 | 750 | 460000 | 14,12,0,0 | 17 | 19 |
@@ -194,3 +194,5 @@ const tableExtraInfo = [
     <TimelineItem :historyBottom="true" />
 </Timeline>
 <p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Witch?oldid=624601" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>
+
+<small>2026 年 11 月旧等级费用与时间参考[玩家整理](https://mp.weixin.qq.com/s/1C8VxevkSERrS2x1vJd8aA)（用户提供原文）及 [ClashKing 游戏数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)。本站保留表格结构并按等级核对。</small>

@@ -12,6 +12,13 @@ dataVersionUpdatedOn: 2026-11-16
 
 <UnitInfo folder="" imgSrc="/images/th19/0843-Guardian-Shrine/shrine.png" :imgAlt="$frontmatter.navTitle" />
 
+<SmallTitle>建筑数量对照表</SmallTitle>
+
+<BuildingNum>
+    <BuildingNumRow title="大本等级" num="1 - 18, 19" />
+    <BuildingNumRow title="建筑数量" num="0, 1" />
+</BuildingNum>
+
 <SmallTitle>重要说明</SmallTitle>
 
 19 本免费、立即建成，最多 1 座。守卫从大本营搬到守卫神殿：选择的守卫对所有阵型生效，大本营可以另外选择驻军。粉碎者可升至 10 级。

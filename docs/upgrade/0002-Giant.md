@@ -86,8 +86,8 @@ const tableExtraInfo = [
 | 7 | 55 | 110 | 1300 | 2300000 | 1,12,0,0 | 8 | 10 |
 | 8 | 62 | 124 | 1500 | 2600000 | 2,0,0,0 | 9 | 11 |
 | 9 | 70 | 140 | 1850 | 3400000 | 2,6,0,0 | 10 | 12 |
-| 10 | 78 | 156 | 2000 | 5000000 | 3,0,0,0 | 11 | 13 |
-| 11 | 86 | 172 | 2200 | 7500000 | 4,0,0,0 | 13 | 15 |
+| 10 | 78 | 156 | 2000 | 4600000 | 2,18,0,0 | 11 | 13 |
+| 11 | 86 | 172 | 2200 | 6500000 | 3,12,0,0 | 13 | 15 |
 | 12 | 94 | 188 | 2400 | 8000000 | 4,0,0,0 | 14 | 16 |
 | 13 | 104 | 208 | 2700 | 10500000 | 6,12,0,0 | 15 | 17 |
 | 14 | 114 | 228 | 3000 | 20000000 | 8,0,0,0 | 16 | 18 |
@@ -170,3 +170,5 @@ const tableExtraInfo = [
 </Timeline>
 
 <p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Giant?oldid=625274" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>
+
+<small>2026 年 11 月旧等级费用与时间参考[玩家整理](https://mp.weixin.qq.com/s/1C8VxevkSERrS2x1vJd8aA)（用户提供原文）及 [ClashKing 游戏数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)。本站保留表格结构并按等级核对。</small>

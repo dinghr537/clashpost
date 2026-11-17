@@ -41,7 +41,7 @@ dataVersionUpdatedOn: 2026-11-16
 
 19 本更新后，大雪怪受到 1,200 点伤害时才生成首个小雪怪（此前为 600）；总生成速度不变。<small>（[Supercell 官方公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)）</small>
 
-每受到 600 伤害，大雪怪就会释放一个小雪怪，大雪怪死亡后会释放剩余的全部小雪怪。
+大雪怪受伤时会释放小雪怪，死亡后会释放剩余的全部小雪怪。
 
 <SmallTitle>大雪怪的属性</SmallTitle>
 
@@ -86,13 +86,13 @@ const tableExtraInfo = [
 | ---- |   ----   |   ----  |        ----       |  ---- |   ----  |    ----   |      ----      |     ----      |
 | 1 | 230 | 230 | 8 | 2900 | \ | \ | 1 | 12 |
 | 2 | 250 | 250 | 9 | 3200 | 5000000 | 3,0,0,0 | 10 | 12 |
-| 3 | 270 | 270 | 10 | 3500 | 6500000 | 4,12,0,0 | 11 | 13 |
+| 3 | 270 | 270 | 10 | 3500 | 6000000 | 4,0,0,0 | 11 | 13 |
 | 4 | 290 | 290 | 11 | 3700 | 10000000 | 7,0,0,0 | 12 | 14 |
 | 5 | 310 | 310 | 12 | 3900 | 12000000 | 7,12,0,0 | 13 | 15 |
 | 6 | 330 | 330 | 13 | 4100 | 14000000 | 8,0,0,0 | 14 | 16 |
 | 7 | 350 | 350 | 13 | 4300 | 15500000 | 8,12,0,0 | 15 | 17 |
 | 8 | 380 | 380 | 14 | 4650 | 19000000 | 11,0,0,0 | 16 | 18 |
-| 9 | 410 | 410 | 未知 | 5300 | 25000000 | 11,12,0,0 | 17 | 19 |
+| 9 | 410 | 410 | 15 | 5300 | 25000000 | 11,12,0,0 | 17 | 19 |
 </UnitTable>
 </SwitchTabGroup>
 
@@ -155,10 +155,11 @@ const tableExtraInfo = [
 |    6    |   88   |          352         |            176          |          44          |   550  |
 |    7    |   90   |          360         |            180          |          45          |   575  |
 |    8    |   92   |          368         |            184          |          46          |   590  |
+|    9    |   94   |          376         |            188          |          47          |   600  |
 
 </UnitTable>
 
-<small>小雪怪数据来源：<a href="https://clashofclans.fandom.com/wiki/Yeti/Yetimite" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。</small>
+<small>9 级大雪怪携带 15 只小雪怪，9 级小雪怪属性参考 <a href="https://clashofclans.fandom.com/wiki/Yeti" target="_blank" rel="noopener noreferrer">大雪怪维基页面</a>及下列小雪怪页面（2026-11-16 核对）。小雪怪数据来源：<a href="https://clashofclans.fandom.com/wiki/Yeti/Yetimite" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。</small>
 </SwitchTabGroup>
 
 <!-- ↓↓↓ 公共部分 ↓↓↓ -->
@@ -231,3 +232,5 @@ const tableExtraInfo = [
     <TimelineItem :historyBottom="true" />
 </Timeline>
 <p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Yeti?oldid=624065" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>
+
+<small>2026 年 11 月旧等级费用与时间参考[玩家整理](https://mp.weixin.qq.com/s/1C8VxevkSERrS2x1vJd8aA)（用户提供原文）及 [ClashKing 游戏数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)。本站保留表格结构并按等级核对。</small>

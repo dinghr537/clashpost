@@ -106,8 +106,8 @@ const tableExtraInfo = [
 | 8 | 70 | 168 | 700 | 3 | 7500 | 50000 | 3,0,0,0 | 10 | 12 |
 | 9 | 75 | 180 | 750 | 3 | 7900 | 62500 | 3,12,0,0 | 10 | 12 |
 | 10 | 80 | 192 | 800 | 3 | 8200 | 80000 | 4,0,0,0 | 11 | 13 |
-| 11 | 85 | 204 | 850 | 3 | 8500 | 105000 | 5,0,0,0 | 12 | 14 |
-| 12 | 90 | 216 | 900 | 3 | 8800 | 122500 | 5,12,0,0 | 13 | 15 |
+| 11 | 85 | 204 | 850 | 3 | 8500 | 95000 | 4,12,0,0 | 12 | 14 |
+| 12 | 90 | 216 | 900 | 3 | 8800 | 110000 | 5,0,0,0 | 13 | 15 |
 | 13 | 95 | 228 | 950 | 4 | 9200 | 135000 | 5,12,0,0 | 14 | 16 |
 | 14 | 100 | 240 | 1000 | 4 | 9600 | 160000 | 6,12,0,0 | 15 | 17 |
 | 15 | 120 | 288 | 1050 | 4 | 10600 | 295000 | 10,12,0,0 | 16 | 18 |
@@ -273,3 +273,5 @@ const tableExtraInfo = [
     <TimelineItem :historyBottom="true" />
 </Timeline>
 <p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Golem?oldid=625101" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>
+
+<small>2026 年 11 月旧等级费用与时间参考[玩家整理](https://mp.weixin.qq.com/s/1C8VxevkSERrS2x1vJd8aA)（用户提供原文）及 [ClashKing 游戏数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)。本站保留表格结构并按等级核对。</small>

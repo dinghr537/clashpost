@@ -21,6 +21,13 @@ dataVersionUpdatedOn: 2026-11-16
     </UnitImgGroup>
 </Panel>
 
+<SmallTitle>建筑数量对照表</SmallTitle>
+
+<BuildingNum>
+    <BuildingNumRow title="大本等级" num="1 - 18, 19" />
+    <BuildingNumRow title="建筑数量" num="0, 2" />
+</BuildingNum>
+
 <SmallTitle>重要说明</SmallTitle>
 
 19 本解锁，最多建造 2 座。受敌方单位攻击后，尖刺会按攻击者生命值上限的百分比反击；敌军进入 11 格范围时激活。法术、装备技能及摧毁它的最后一击不触发反击，冰冻法术不能使其停转。

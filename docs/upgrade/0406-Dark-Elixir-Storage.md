@@ -36,9 +36,11 @@ dataVersionUpdatedOn: 2026-11-16
 <SmallTitle>建筑数量对照表</SmallTitle>
 
 <BuildingNum>
-    <BuildingNumRow title="大本等级" num="1 - 6, 7 - 18" />
+    <BuildingNumRow title="大本等级" num="1 - 6, 7 - 19" />
     <BuildingNumRow title="建筑数量" num="     0,     1" />
 </BuildingNum>
+
+<small>19 本数量参考 [官方更新公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)和 [ClashRecord](https://www.clashrecord.com/max-levels/th19)；可合并建筑按全部合并后计算。</small>
 
 <SmallTitle>重要说明</SmallTitle>
 
@@ -95,10 +97,10 @@ const tableExtraInfo = [
 | 4 | 75000 | 2600 | 1500000 | 1,12,0,0 |  | 8 |
 | 5 | 140000 | 2900 | 2000000 | 1,16,0,0 |  | 9 |
 | 6 | 180000 | 3200 | 2400000 | 2,0,0,0 |  | 9 |
-| 7 | 220000 | 3500 | 3800000 | 3,0,0,0 |  | 12 |
-| 8 | 280000 | 3800 | 5400000 | 3,12,0,0 |  | 13 |
-| 9 | 330000 | 4100 | 6600000 | 4,0,0,0 |  | 14 |
-| 10 | 360000 | 4300 | 8000000 | 4,12,0,0 |  | 15 |
+| 7 | 220000 | 3500 | 3200000 | 2,12,0,0 |  | 12 |
+| 8 | 280000 | 3800 | 3800000 | 2,18,0,0 |  | 13 |
+| 9 | 330000 | 4100 | 4800000 | 3,12,0,0 |  | 14 |
+| 10 | 360000 | 4300 | 6000000 | 3,18,0,0 |  | 15 |
 | 11 | 390000 | 4500 | 8000000 | 4,0,0,0 |  | 16 |
 | 12 | 420000 | 4700 | 15000000 | 7,0,0,0 |  | 17 |
 | 13 | 450000 | 4800 | 20000000 | 10,0,0,0 |  | 18 |
@@ -161,3 +163,5 @@ const tableExtraInfo = [
     <TimelineItem :historyBottom="true" />
 </Timeline>
 <p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Dark_Elixir_Storage?oldid=624451" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>
+
+<small>2026 年 11 月旧等级费用与时间参考[玩家整理](https://mp.weixin.qq.com/s/1C8VxevkSERrS2x1vJd8aA)（用户提供原文）及 [ClashKing 游戏数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)。本站保留表格结构并按等级核对。</small>

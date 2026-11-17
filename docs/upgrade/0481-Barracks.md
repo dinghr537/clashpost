@@ -46,9 +46,11 @@ dataVersionUpdatedOn: 2026-11-16
 <SmallTitle>建筑数量对照表</SmallTitle>
 
 <BuildingNum>
-    <BuildingNumRow title="大本等级" num="1 - 18" />
+    <BuildingNumRow title="大本等级" num="1 - 19" />
     <BuildingNumRow title="建筑数量" num="1" />
 </BuildingNum>
+
+<small>19 本数量参考 [官方更新公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)和 [ClashRecord](https://www.clashrecord.com/max-levels/th19)；可合并建筑按全部合并后计算。</small>
 
 <SmallTitle>属性</SmallTitle>
 
@@ -98,7 +100,7 @@ const tableExtraInfo = [
 | 10 | 730 | 1400000 | 1,12,0,0 |  | 8 | <a href="/upgrade/0009-P.E.K.K.A">皮卡超人</a> |
 | 11 | 810 | 2600000 | 2,0,0,0 |  | 9 | <a href="/upgrade/000a-Baby-Dragon">飞龙宝宝</a> |
 | 12 | 900 | 3700000 | 4,0,0,0 |  | 10 | <a href="/upgrade/000b-Miner">掘地矿工</a> |
-| 13 | 980 | 6000000 | 5,0,0,0 |  | 11 | <a href="/upgrade/000c-Electro-Dragon">雷电飞龙</a> |
+| 13 | 980 | 5500000 | 5,0,0,0 |  | 11 | <a href="/upgrade/000c-Electro-Dragon">雷电飞龙</a> |
 | 14 | 1050 | 7000000 | 6,0,0,0 |  | 12 | <a href="/upgrade/000d-Yeti">大雪怪</a> |
 | 15 | 1150 | 9000000 | 7,0,0,0 |  | 13 | <a href="/upgrade/000e-Dragon-Rider">龙骑士</a> |
 | 16 | 1250 | 11000000 | 7,12,0,0 |  | 14 | <a href="/upgrade/000f-Electro-Titan">雷霆泰坦</a> |
@@ -170,3 +172,5 @@ const tableExtraInfo = [
     <TimelineItem :historyBottom="true" />
 </Timeline>
 <p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Barracks?oldid=625112" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>
+
+<small>2026 年 11 月旧等级费用与时间参考[玩家整理](https://mp.weixin.qq.com/s/1C8VxevkSERrS2x1vJd8aA)（用户提供原文）及 [ClashKing 游戏数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)。本站保留表格结构并按等级核对。</small>

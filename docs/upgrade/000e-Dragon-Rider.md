@@ -70,8 +70,8 @@ const tableExtraInfo = [
 | 等级 |  每秒伤害 | 每次伤害 | 死亡伤害 | 生命值 | 升级花费| 升级时间 |所需实验室<br>等级|所需<br>大本等级|
 | ---- |   ----   |   ----  |   ----   |  ---- |   ----  |   ----  |       ----      |     ----      |
 | 1 | 340 | 408 | 700 | 4100 | \ | \ | 1 | 13 |
-| 2 | 370 | 444 | 800 | 4400 | 7500000 | 6,0,0,0 | 11 | 13 |
-| 3 | 400 | 480 | 900 | 4700 | 12000000 | 8,0,0,0 | 12 | 14 |
+| 2 | 370 | 444 | 800 | 4400 | 7000000 | 5,12,0,0 | 11 | 13 |
+| 3 | 400 | 480 | 900 | 4700 | 11000000 | 7,12,0,0 | 12 | 14 |
 | 4 | 430 | 516 | 1000 | 5100 | 13500000 | 8,12,0,0 | 14 | 16 |
 | 5 | 470 | 564 | 1100 | 5600 | 17500000 | 9,12,0,0 | 15 | 17 |
 | 6 | 490 | 588 | 1200 | 5900 | 21000000 | 11,12,0,0 | 16 | 18 |
@@ -139,3 +139,5 @@ const tableExtraInfo = [
     <TimelineItem :historyBottom="true" />
 </Timeline>
 <p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Dragon_Rider?oldid=625318" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>
+
+<small>2026 年 11 月旧等级费用与时间参考[玩家整理](https://mp.weixin.qq.com/s/1C8VxevkSERrS2x1vJd8aA)（用户提供原文）及 [ClashKing 游戏数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)。本站保留表格结构并按等级核对。</small>

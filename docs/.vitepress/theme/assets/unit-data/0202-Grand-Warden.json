@@ -16,8 +16,53 @@
       "checkedOn": "2026-11-16",
       "source": "ClashKing Assets (selected game facts)",
       "sourceUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json",
-      "scope": "Selected new levels and baseline-matched cost/time adjustments; missing fields remain unknown."
-    }
+      "scope": "Selected new levels and baseline-matched cost/time adjustments; missing fields remain unknown.",
+      "oldLevelCostTimeReference": {
+        "checkedOn": "2026-11-16",
+        "source": "用户提供的玩家整理与 ClashKing Assets 固定修订逐项对照",
+        "articleUrl": "https://mp.weixin.qq.com/s/1C8VxevkSERrS2x1vJd8aA",
+        "snapshotUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json"
+      }
+    },
+    "reviewedTableCorrections": [
+      {
+        "table": 4,
+        "reviewedOn": "2026-11-16",
+        "cells": [
+          {
+            "level": 76,
+            "header": "Upgrade Cost",
+            "originalRaw": "23,500,000",
+            "correctedRaw": "23000000"
+          },
+          {
+            "level": 77,
+            "header": "Upgrade Cost",
+            "originalRaw": "24,500,000",
+            "correctedRaw": "23500000"
+          },
+          {
+            "level": 78,
+            "header": "Upgrade Cost",
+            "originalRaw": "25,500,000",
+            "correctedRaw": "24000000"
+          },
+          {
+            "level": 79,
+            "header": "Upgrade Cost",
+            "originalRaw": "26,500,000",
+            "correctedRaw": "24500000"
+          },
+          {
+            "level": 80,
+            "header": "Upgrade Cost",
+            "originalRaw": "27,500,000",
+            "correctedRaw": "25500000"
+          }
+        ],
+        "reason": "Review against the user-provided November 2026 reference, current game-data snapshot, or the linked source documented on the page; do not silently restore an older snapshot."
+      }
+    ]
   },
   "tables": [
     {
@@ -4799,8 +4844,8 @@
           },
           {
             "status": "known",
-            "value": 23500000,
-            "raw": "23,500,000"
+            "value": 23000000,
+            "raw": "23000000"
           },
           {
             "status": "known",
@@ -4843,8 +4888,8 @@
           },
           {
             "status": "known",
-            "value": 24500000,
-            "raw": "24,500,000"
+            "value": 23500000,
+            "raw": "23500000"
           },
           {
             "status": "known",
@@ -4887,8 +4932,8 @@
           },
           {
             "status": "known",
-            "value": 25500000,
-            "raw": "25,500,000"
+            "value": 24000000,
+            "raw": "24000000"
           },
           {
             "status": "known",
@@ -4931,8 +4976,8 @@
           },
           {
             "status": "known",
-            "value": 26500000,
-            "raw": "26,500,000"
+            "value": 24500000,
+            "raw": "24500000"
           },
           {
             "status": "known",
@@ -4975,8 +5020,8 @@
           },
           {
             "status": "known",
-            "value": 27500000,
-            "raw": "27,500,000"
+            "value": 25500000,
+            "raw": "25500000"
           },
           {
             "status": "known",

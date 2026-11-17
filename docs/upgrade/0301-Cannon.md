@@ -95,9 +95,11 @@ const tableExtraInfoGearUpMode = tableExtraInfoStandardMode;
 <SmallTitle>各大本等级的加农炮数量</SmallTitle>
 
 <BuildingNum>
-    <BuildingNumRow title="大本等级" num="1, 2 - 4, 5 - 6,  7 - 9, 10, 11 - 15, 16, 17 - 18" />
+    <BuildingNumRow title="大本等级" num="1, 2 - 4, 5 - 6,  7 - 9, 10, 11 - 15, 16, 17 - 19" />
     <BuildingNumRow title="建筑数量" num="1,     2,     3,      5,  6,       7,  3,       0" />
 </BuildingNum>
+
+<small>19 本数量参考 [官方更新公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)和 [ClashRecord](https://www.clashrecord.com/max-levels/th19)；可合并建筑按全部合并后计算。</small>
 
 在 16 级大本营，游戏引入合并建筑功能，这里的建筑数量指的是将所有可合并的建筑都合并后的数量。
 
@@ -179,9 +181,11 @@ const tableExtraInfoGearUpMode = tableExtraInfoStandardMode;
 <SmallTitle>各大本等级的加农炮数量</SmallTitle>
 
 <BuildingNum>
-    <BuildingNumRow title="大本等级" num="1, 2 - 4, 5 - 6,  7 - 9, 10, 11 - 15, 16, 17 - 18" />
+    <BuildingNumRow title="大本等级" num="1, 2 - 4, 5 - 6,  7 - 9, 10, 11 - 15, 16, 17 - 19" />
     <BuildingNumRow title="建筑数量" num="1,     2,     3,      5,  6,       7,  3,       0" />
 </BuildingNum>
+
+<small>19 本数量参考 [官方更新公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)和 [ClashRecord](https://www.clashrecord.com/max-levels/th19)；可合并建筑按全部合并后计算。</small>
 
 在 16 级大本营，游戏引入合并建筑功能，这里的建筑数量指的是将所有可合并的建筑都合并后的数量。
 

@@ -81,8 +81,8 @@ const tableExtraInfo = [
 | ---- |       ----     |    ---   |    ---    |       ----      |      ----    |
 | 1 | 83 | \ | \ | 1 | 13 |
 | 2 | 89 | 7500000 | 7,0,0,0 | 11 | 13 |
-| 3 | 95 | 8000000 | 7,12,0,0 | 12 | 14 |
-| 4 | 101 | 9000000 | 8,0,0,0 | 13 | 15 |
+| 3 | 95 | 8000000 | 7,6,0,0 | 12 | 14 |
+| 4 | 101 | 9000000 | 7,12,0,0 | 13 | 15 |
 | 5 | 107 | 13000000 | 8,0,0,0 | 14 | 16 |
 | 6 | 113 | 17000000 | 9,6,0,0 | 15 | 17 |
 | 7 | 120 | 19500000 | 11,0,0,0 | 16 | 18 |
@@ -133,3 +133,5 @@ const tableExtraInfo = [
     <TimelineItem :historyBottom="true" />
 </Timeline>
 <p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Recall_Spell?oldid=625472" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>
+
+<small>2026 年 11 月旧等级费用与时间参考[玩家整理](https://mp.weixin.qq.com/s/1C8VxevkSERrS2x1vJd8aA)（用户提供原文）及 [ClashKing 游戏数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)。本站保留表格结构并按等级核对。</small>
