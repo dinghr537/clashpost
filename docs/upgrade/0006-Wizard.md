@@ -8,6 +8,7 @@ imgFolder: home_tech/0006
 wiki: https://clashofclans.fandom.com/wiki/Wizard
 canonical: /upgrade/0006-Wizard
 dataSyncedOn: 2026-10-13
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 - *如想查看该兵种的强化版本，请访问：[超级法师（超法）](/upgrade/0609-Super-Wizard)。*
@@ -53,6 +54,8 @@ dataSyncedOn: 2026-10-13
 
 <SmallTitle>升级数据</SmallTitle>
 
+<small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为未知。</small>
+
 <script setup>
 const tableExtraInfo = [
     {
@@ -84,14 +87,18 @@ const tableExtraInfo = [
 | 9 | 230 | 345 | 230 | 4000000 | 2,12,0,0 | 10 | 12 |
 | 10 | 245 | 367.5 | 250 | 5500000 | 3,12,0,0 | 11 | 13 |
 | 11 | 260 | 390 | 270 | 10000000 | 5,12,0,0 | 13 | 15 |
-| 12 | 275 | 412.5 | 290 | 11500000 | 7,0,0,0 | 14 | 16 |
-| 13 | 290 | 435 | 310 | 16000000 | 10,12,0,0 | 15 | 17 |
-| 14 | 310 | 465 | 330 | 27000000 | 14,0,0,0 | 16 | 18 |
+| 12 | 275 | 412.5 | 290 | 9000000 | 7,0,0,0 | 14 | 16 |
+| 13 | 290 | 435 | 310 | 11500000 | 7,12,0,0 | 15 | 17 |
+| 14 | 310 | 465 | 330 | 21000000 | 9,0,0,0 | 16 | 18 |
+| 15 | 330 | 495 | 350 | 32000000 | 14,12,0,0 | 17 | 19 |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/11/16">
+        <TimelineRow>19 本版本新增 15 级。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/11/17">
         <TimelineRow>18 本推出，并在 18 本新增 14 级法师。</TimelineRow>
         <TimelineRow>13 级法师的升级时间和升级费用减少。</TimelineRow>

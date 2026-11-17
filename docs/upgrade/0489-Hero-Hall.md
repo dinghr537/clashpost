@@ -8,6 +8,7 @@ imgFolder: home_buildings/0489
 wiki: https://clashofclans.fandom.com/wiki/Hero_Hall
 canonical: /upgrade/0489-Hero-Hall
 dataSyncedOn: 2026-10-13
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Hero_Hall12_hd.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
@@ -58,6 +59,8 @@ dataSyncedOn: 2026-10-13
 
 <SmallTitle>升级数据</SmallTitle>
 
+<small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为未知。</small>
+
 <script setup>
 const tableExtraInfo = [
     {
@@ -93,8 +96,9 @@ const tableExtraInfo = [
 | 8 | 4 | 4600 | 9500000 | 6,12,0,0 |  | 14 | \ |
 | 9 | 4 | 5000 | 11000000 | 7,0,0,0 |  | 15 | <a href="/upgrade/0205-Dragon-Duke">飞龙公爵</a> |
 | 10 | 4 | 5400 | 13000000 | 8,0,0,0 |  | 16 | \ |
-| 11 | 4 | 5800 | 17000000 | 9,0,0,0 |  | 17 | \ |
-| 12 | 4 | 6000 | 26000000 | 13,12,0,0 |  | 18 | \ |
+| 11 | 4 | 5800 | 15500000 | 9,0,0,0 |  | 17 | \ |
+| 12 | 4 | 6000 | 23500000 | 12,12,0,0 |  | 18 | \ |
+| 13 | 未知 | 6200 | 30500000 | 15,12,0,0 |  | 19 | 未知 |
 
 </UnitTable>
 
@@ -208,6 +212,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/11/16">
+        <TimelineRow>19 本版本新增 13 级。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2026/05/26">
         <TimelineRow>英雄殿堂解锁门槛7本→4本，建造费用800,000→30,000圣水，建造时间1天→1小时；生命值：1级2,000→800，2级2,400→1,600，3级2,800→2,400。</TimelineRow>
     </TimelineItem>

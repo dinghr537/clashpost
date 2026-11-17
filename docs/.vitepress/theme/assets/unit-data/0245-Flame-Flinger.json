@@ -11,7 +11,13 @@
     "revision": 624810,
     "revisionUrl": "https://clashofclans.fandom.com/wiki/Flame_Flinger?oldid=624810",
     "syncedOn": "2026-10-13",
-    "scope": "Source statistics tables and available 2026 history; base values"
+    "scope": "Source statistics tables and available 2026 history; base values",
+    "th19Update": {
+      "checkedOn": "2026-11-16",
+      "source": "ClashKing Assets (selected game facts)",
+      "sourceUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json",
+      "scope": "Selected new levels and baseline-matched cost/time adjustments; missing fields remain unknown."
+    }
   },
   "tables": [
     {
@@ -323,20 +329,69 @@
           },
           {
             "status": "known",
-            "value": 18000000,
-            "raw": "18,000,000"
+            "value": 14500000,
+            "raw": "14500000"
           },
           {
             "status": "known",
-            "value": 1036800,
-            "raw": "12d",
+            "value": 734400,
+            "raw": "8d 12h",
             "unit": "seconds",
-            "displayInput": "12,0,0,0"
+            "displayInput": "8,12,0,0"
           },
           {
             "status": "known",
             "value": 14,
             "raw": "14"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 210,
+            "raw": "210"
+          },
+          {
+            "status": "known",
+            "value": 1050.0,
+            "raw": "1050.0"
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": "?"
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": "?"
+          },
+          {
+            "status": "known",
+            "value": 2200,
+            "raw": "2200"
+          },
+          {
+            "status": "known",
+            "value": 31000000,
+            "raw": "31000000"
+          },
+          {
+            "status": "known",
+            "value": 1296000,
+            "raw": "15d",
+            "unit": "seconds",
+            "displayInput": "15,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 17,
+            "raw": "17"
           }
         ]
       ],
@@ -407,6 +462,12 @@
       "description": "攻城机器开始受到小火灵留下的火焰伤害；不再受到 14—16 本大本营毒药、生命宝石效果及守护者学徒光环的影响。",
       "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/",
       "sourcePublishedOn": "2026-04-27"
+    },
+    {
+      "date": "2026-11-16",
+      "description": "19 本版本新增 6 级。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/",
+      "sourcePublishedOn": "2026-11-16"
     }
   ],
   "facts": [

@@ -8,6 +8,7 @@ imgFolder: home_tech/060b
 wiki: https://clashofclans.fandom.com/wiki/Rocket_Balloon
 canonical: /upgrade/060b-Rocket-Balloon
 dataSyncedOn: 2026-10-13
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 - *如想查看该兵种的普通版本，请访问：[气球兵](/upgrade/0005-Balloon)。*
@@ -52,6 +53,8 @@ dataSyncedOn: 2026-10-13
 
 <SmallTitle>升级数据</SmallTitle>
 
+<small>19 本新增等级沿用本页与原兵种相同的编号：通过旧等级属性对照及原兵种等级，将 [ClashKing 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)重新编号后补入；本页新增的 14 级，对应官方公告和候选数据的 10 级；此对应关系仍待游戏内核对。缺失字段标为未知。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/">官方公告</a></small>
+
 <UnitTable>
 
 |      等级     |  每秒伤害  | 每次伤害 | 死亡伤害 | 生命值 |所需大本等级|
@@ -68,6 +71,7 @@ dataSyncedOn: 2026-10-13
 | 11 | 290 | 870 | 700 | 1140 | 16 |
 | 12 | 304 | 912 | 730 | 1240 | 17 |
 | 13 | 326 | 978 | 760 | 1360 | 18 |
+| 14 | 350 | 1050 | 790 | 1500 | 19 |
 </UnitTable>
 
 \* 5 - 7 级火箭气球兵只在 奖章活动 中出现，不能通过常规方式得到。
@@ -75,6 +79,9 @@ dataSyncedOn: 2026-10-13
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/11/16">
+        <TimelineRow>19 本版本对应的普通兵种新增等级，超级兵属性随之更新。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2026/04/27">
         <TimelineRow>气球兵新增 13 级，对应的火箭气球兵开放 13 级。 <a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
     </TimelineItem>

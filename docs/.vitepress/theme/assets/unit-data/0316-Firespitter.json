@@ -11,7 +11,13 @@
     "revision": 625397,
     "revisionUrl": "https://clashofclans.fandom.com/wiki/Firespitter?oldid=625397",
     "syncedOn": "2026-10-13",
-    "scope": "Source statistics tables and available 2026 history; base values"
+    "scope": "Source statistics tables and available 2026 history; base values",
+    "th19Update": {
+      "checkedOn": "2026-11-16",
+      "source": "ClashKing Assets (selected game facts)",
+      "sourceUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json",
+      "scope": "Selected TH16–18 costs and times where the previous snapshot matched this site."
+    }
   },
   "tables": [
     {
@@ -246,8 +252,8 @@
           },
           {
             "status": "known",
-            "value": 17000000,
-            "raw": "17,000,000"
+            "value": 15500000,
+            "raw": "15500000"
           },
           {
             "status": "known",
@@ -290,8 +296,8 @@
           },
           {
             "status": "known",
-            "value": 18000000,
-            "raw": "18,000,000"
+            "value": 17000000,
+            "raw": "17000000"
           },
           {
             "status": "known",
@@ -334,15 +340,15 @@
           },
           {
             "status": "known",
-            "value": 29000000,
-            "raw": "29,000,000"
+            "value": 22500000,
+            "raw": "22500000"
           },
           {
             "status": "known",
-            "value": 1296000,
-            "raw": "15d",
+            "value": 950400,
+            "raw": "11d",
             "unit": "seconds",
-            "displayInput": "15,0,0,0"
+            "displayInput": "11,0,0,0"
           },
           {
             "status": "known",

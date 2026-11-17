@@ -9,6 +9,7 @@ wiki: https://clashofclans.fandom.com/wiki/Super_Miner
 canonical: /upgrade/060e-Super-Miner
 dataSyncedOn: 2026-10-13
 dataBalanceUpdatedOn: 2026-10-20
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 - *如想查看该兵种的普通版本，请访问：[掘地矿工](/upgrade/000b-Miner)。*
@@ -52,6 +53,8 @@ dataBalanceUpdatedOn: 2026-10-20
 
 <SmallTitle>升级数据</SmallTitle>
 
+<small>19 本新增等级沿用本页与原兵种相同的编号：通过旧等级属性对照及原兵种等级，将 [ClashKing 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)重新编号后补入；不同来源的编号不一致，仍待游戏内核对。缺失字段标为未知。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/">官方公告</a></small>
+
 <UnitTable>
 
 | 等级 |  初始秒伤  |  1.5 秒后秒伤  | 3 秒后秒伤 |  死亡伤害 | 生命值 |所需大本等级|
@@ -62,11 +65,15 @@ dataBalanceUpdatedOn: 2026-10-20
 | 10 | 225 | 440 | 650 | 2000 | 4000 | 16 |
 | 11 | 245 | 475 | 695 | 2200 | 4650 | 17 |
 | 12 | 265 | 510 | 740 | 2400 | 5150 | 18 |
+| 13 | 285 | 未知 | 未知 | 2600 | 5600 | 19 |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/11/16">
+        <TimelineRow>19 本版本对应的普通兵种新增等级，超级兵属性随之更新。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2026/10/20">
         <TimelineRow>提高 11、12 级生命值，分别由 4400、5000 提高至 4650、5150。</TimelineRow>
         <TimelineRow><a href="https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/" target="_blank" rel="noopener noreferrer">官方公告</a>（10/17 发布） · <a href="https://clashfox.com/blog/balance-changes-before-town-hall-19-fire-heart-and-ruin-witch-nerfed-hogs-and-p-e-k-k-a-bu" target="_blank" rel="noopener noreferrer">数值参考</a> · <a href="https://x.com/ClashofClans/status/2112450159326179560" target="_blank" rel="noopener noreferrer">10/20 维护完成</a>。</TimelineRow>

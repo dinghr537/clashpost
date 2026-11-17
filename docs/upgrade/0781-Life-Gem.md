@@ -8,6 +8,7 @@ imgFolder: home_heroes/0781
 wiki: https://clashofclans.fandom.com/wiki/Life_Gem
 canonical: /upgrade/0781-Life-Gem
 dataSyncedOn: 2026-10-13
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Life_Gem_info.png" :imgAlt="$frontmatter.navTitle" description="附近友军单位获得额外生命值。" />
@@ -30,6 +31,8 @@ dataSyncedOn: 2026-10-13
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
+
+19 本更新后，生命宝石最多影响合计 260 人口的部队。<small>（[Supercell 官方公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)）</small>
 
 <script setup>
 const tableExtraInfo = [

@@ -8,6 +8,7 @@ imgFolder: home_heroes/0289
 wiki: https://clashofclans.fandom.com/wiki/Angry_Jelly
 canonical: /upgrade/0289-Angry-Jelly
 dataSyncedOn: 2026-10-13
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Angry_Jelly_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
@@ -46,6 +47,8 @@ dataSyncedOn: 2026-10-13
 
 <SmallTitle>升级数据</SmallTitle>
 
+<small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为未知。</small>
+
 <script setup>
 const tableExtraInfo = [
     {
@@ -77,15 +80,23 @@ const tableExtraInfo = [
 | 4 | 139 | 104.25 | 25秒 | 1675 | 170000 | 5,0,0,0 |  | 10 | 16 |
 | 5 | 148 | 111 | 30秒 | 1750 | 180000 | 6,0,0,0 |  | 10 | 16 |
 | 6 | 157 | 117.75 | 30秒 | 1825 | 190000 | 7,0,0,0 |  | 10 | 16 |
-| 7 | 166 | 124.5 | 30秒 | 1900 | 200000 | 8,0,0,0 |  | 10 | 16 |
-| 8 | 175 | 131.25 | 30秒 | 1975 | 210000 | 8,0,0,0 |  | 10 | 16 |
-| 9 | 184 | 138 | 30秒 | 2050 | 220000 | 8,0,0,0 |  | 10 | 16 |
-| 10 | 193 | 144.75 | 35秒 | 2125 | 230000 | 8,0,0,0 |  | 10 | 16 |
+| 7 | 166 | 124.5 | 30秒 | 1900 | 200000 | 7,0,0,0 |  | 10 | 16 |
+| 8 | 175 | 131.25 | 30秒 | 1975 | 210000 | 7,0,0,0 |  | 10 | 16 |
+| 9 | 184 | 138 | 30秒 | 2050 | 220000 | 7,12,0,0 |  | 10 | 16 |
+| 10 | 193 | 144.75 | 35秒 | 2125 | 230000 | 7,12,0,0 |  | 10 | 16 |
+| 11 | 202 | 151.5 | 未知 | 2200 | 260000 | 7,12,0,0 |  | 12 | 18 |
+| 12 | 211 | 158.25 | 未知 | 2275 | 290000 | 8,0,0,0 |  | 12 | 18 |
+| 13 | 220 | 165 | 未知 | 2350 | 320000 | 8,0,0,0 |  | 12 | 18 |
+| 14 | 229 | 171.75 | 未知 | 2425 | 350000 | 8,0,0,0 |  | 12 | 18 |
+| 15 | 238 | 178.5 | 未知 | 2500 | 380000 | 8,0,0,0 |  | 12 | 18 |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/11/16">
+        <TimelineRow>19 本版本新增 11–15 级。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/03/24">
         <TimelineRow>2 ~ 10 级愤怒水母的升级费用降低。</TimelineRow>
     </TimelineItem>

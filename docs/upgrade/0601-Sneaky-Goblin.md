@@ -8,6 +8,7 @@ imgFolder: home_tech/0601
 wiki: https://clashofclans.fandom.com/wiki/Sneaky_Goblin
 canonical: /upgrade/0601-Sneaky-Goblin
 dataSyncedOn: 2026-10-13
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 - *如想查看该兵种的普通版本，请访问：[哥布林](/upgrade/0003-Goblin)。*
@@ -49,6 +50,8 @@ dataSyncedOn: 2026-10-13
 
 <SmallTitle>升级数据</SmallTitle>
 
+<small>19 本新增等级沿用本页与原兵种相同的编号：通过旧等级属性对照及原兵种等级，将 [ClashKing 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)重新编号后补入；本页新增的 11 级，对应官方公告和候选数据的 7 级；此对应关系仍待游戏内核对。缺失字段标为未知。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/">官方公告</a></small>
+
 <UnitTable>
 
 | 等级 |  每秒伤害 | 每次伤害 |对资源建筑的<br>每次伤害| 生命值 |所需大本等级|
@@ -57,11 +60,15 @@ dataSyncedOn: 2026-10-13
 | 8 | 170 | 170 | 340 | 320 | 12 |
 | 9 | 180 | 180 | 360 | 350 | 15 |
 | 10 | 190 | 190 | 380 | 380 | 18 |
+| 11 | 200 | 200 | 400 | 410 | 19 |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/11/16">
+        <TimelineRow>19 本版本对应的普通兵种新增等级，超级兵属性随之更新。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2026/04/27">
         <TimelineRow>新增10级隐秘哥布林。</TimelineRow>
     </TimelineItem>

@@ -11,7 +11,13 @@
     "revision": 624686,
     "revisionUrl": "https://clashofclans.fandom.com/wiki/Sky_Wagon?oldid=624686",
     "syncedOn": "2026-10-13",
-    "scope": "Source statistics tables and available 2026 history; base values"
+    "scope": "Source statistics tables and available 2026 history; base values",
+    "th19Update": {
+      "checkedOn": "2026-11-16",
+      "source": "ClashKing Assets (selected game facts)",
+      "sourceUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json",
+      "scope": "Selected TH16–18 costs and times where the previous snapshot matched this site."
+    }
   },
   "tables": [
     {
@@ -185,15 +191,15 @@
           },
           {
             "status": "known",
-            "value": 26000000,
-            "raw": "26,000,000"
+            "value": 25000000,
+            "raw": "25000000"
           },
           {
             "status": "known",
-            "value": 1166400,
-            "raw": "13d 12h",
+            "value": 1123200,
+            "raw": "13d",
             "unit": "seconds",
-            "displayInput": "13,12,0,0"
+            "displayInput": "13,0,0,0"
           },
           {
             "status": "known",
@@ -229,15 +235,15 @@
           },
           {
             "status": "known",
-            "value": 29000000,
-            "raw": "29,000,000"
+            "value": 28000000,
+            "raw": "28000000"
           },
           {
             "status": "known",
-            "value": 1382400,
-            "raw": "16d",
+            "value": 1166400,
+            "raw": "13d 12h",
             "unit": "seconds",
-            "displayInput": "16,0,0,0"
+            "displayInput": "13,12,0,0"
           },
           {
             "status": "known",

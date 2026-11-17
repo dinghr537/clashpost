@@ -11,7 +11,13 @@
     "revision": 625289,
     "revisionUrl": "https://clashofclans.fandom.com/wiki/Wizard?oldid=625289",
     "syncedOn": "2026-10-13",
-    "scope": "Source statistics tables and available 2026 history; base values"
+    "scope": "Source statistics tables and available 2026 history; base values",
+    "th19Update": {
+      "checkedOn": "2026-11-16",
+      "source": "ClashKing Assets (selected game facts)",
+      "sourceUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json",
+      "scope": "Selected new levels and baseline-matched cost/time adjustments; missing fields remain unknown."
+    }
   },
   "tables": [
     {
@@ -532,8 +538,8 @@
           },
           {
             "status": "known",
-            "value": 11500000,
-            "raw": "11,500,000"
+            "value": 9000000,
+            "raw": "9000000"
           },
           {
             "status": "known",
@@ -571,15 +577,15 @@
           },
           {
             "status": "known",
-            "value": 16000000,
-            "raw": "16,000,000"
+            "value": 11500000,
+            "raw": "11500000"
           },
           {
             "status": "known",
-            "value": 907200,
-            "raw": "10d 12h",
+            "value": 648000,
+            "raw": "7d 12h",
             "unit": "seconds",
-            "displayInput": "10,12,0,0"
+            "displayInput": "7,12,0,0"
           },
           {
             "status": "known",
@@ -610,20 +616,59 @@
           },
           {
             "status": "known",
-            "value": 27000000,
-            "raw": "27,000,000"
+            "value": 21000000,
+            "raw": "21000000"
           },
           {
             "status": "known",
-            "value": 1209600,
-            "raw": "14d",
+            "value": 777600,
+            "raw": "9d",
             "unit": "seconds",
-            "displayInput": "14,0,0,0"
+            "displayInput": "9,0,0,0"
           },
           {
             "status": "known",
             "value": 16,
             "raw": "16"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 15,
+            "raw": "15"
+          },
+          {
+            "status": "known",
+            "value": 330,
+            "raw": "330"
+          },
+          {
+            "status": "known",
+            "value": 495.0,
+            "raw": "495.0"
+          },
+          {
+            "status": "known",
+            "value": 350,
+            "raw": "350"
+          },
+          {
+            "status": "known",
+            "value": 32000000,
+            "raw": "32000000"
+          },
+          {
+            "status": "known",
+            "value": 1252800,
+            "raw": "14d 12h",
+            "unit": "seconds",
+            "displayInput": "14,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 17,
+            "raw": "17"
           }
         ]
       ],
@@ -775,7 +820,14 @@
       "logicalPath": "/upgrade/home_tech/0006/Wizard14.png"
     }
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-11-16",
+      "description": "19 本版本新增 15 级。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/",
+      "sourcePublishedOn": "2026-11-16"
+    }
+  ],
   "facts": [
     "The Wizard is the seventh Elixir Troop unlocked at Barracks level 7, which requires Town Hall level 6. He is a fragile ground unit with high splash damage and range."
   ],

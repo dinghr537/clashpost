@@ -11,7 +11,13 @@
     "revision": 624597,
     "revisionUrl": "https://clashofclans.fandom.com/wiki/Royal_Champion?oldid=624597",
     "syncedOn": "2026-10-13",
-    "scope": "Source statistics tables and available 2026 history; base values"
+    "scope": "Source statistics tables and available 2026 history; base values",
+    "th19Update": {
+      "checkedOn": "2026-11-16",
+      "source": "ClashKing Assets (selected game facts)",
+      "sourceUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json",
+      "scope": "Selected new levels and baseline-matched cost/time adjustments; missing fields remain unknown."
+    }
   },
   "tables": [
     {
@@ -2044,10 +2050,10 @@
           },
           {
             "status": "known",
-            "value": 648000,
-            "raw": "7d 12h",
+            "value": 604800,
+            "raw": "7d",
             "unit": "seconds",
-            "displayInput": "7,12,0,0"
+            "displayInput": "7,0,0,0"
           },
           {
             "status": "known",
@@ -2088,10 +2094,10 @@
           },
           {
             "status": "known",
-            "value": 691200,
-            "raw": "8d",
+            "value": 604800,
+            "raw": "7d",
             "unit": "seconds",
-            "displayInput": "8,0,0,0"
+            "displayInput": "7,0,0,0"
           },
           {
             "status": "known",
@@ -2132,10 +2138,10 @@
           },
           {
             "status": "known",
-            "value": 691200,
-            "raw": "8d",
+            "value": 604800,
+            "raw": "7d",
             "unit": "seconds",
-            "displayInput": "8,0,0,0"
+            "displayInput": "7,0,0,0"
           },
           {
             "status": "known",
@@ -2176,10 +2182,10 @@
           },
           {
             "status": "known",
-            "value": 691200,
-            "raw": "8d",
+            "value": 604800,
+            "raw": "7d",
             "unit": "seconds",
-            "displayInput": "8,0,0,0"
+            "displayInput": "7,0,0,0"
           },
           {
             "status": "known",
@@ -2220,10 +2226,10 @@
           },
           {
             "status": "known",
-            "value": 691200,
-            "raw": "8d",
+            "value": 604800,
+            "raw": "7d",
             "unit": "seconds",
-            "displayInput": "8,0,0,0"
+            "displayInput": "7,0,0,0"
           },
           {
             "status": "known",
@@ -2264,10 +2270,10 @@
           },
           {
             "status": "known",
-            "value": 691200,
-            "raw": "8d",
+            "value": 604800,
+            "raw": "7d",
             "unit": "seconds",
-            "displayInput": "8,0,0,0"
+            "displayInput": "7,0,0,0"
           },
           {
             "status": "known",
@@ -2494,6 +2500,226 @@
             "value": 12,
             "raw": "12"
           }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 56,
+            "raw": "56"
+          },
+          {
+            "status": "known",
+            "value": 578,
+            "raw": "578"
+          },
+          {
+            "status": "known",
+            "value": 693.6,
+            "raw": "693.6"
+          },
+          {
+            "status": "known",
+            "value": 4324,
+            "raw": "4324"
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": "?"
+          },
+          {
+            "status": "known",
+            "value": 500000,
+            "raw": "500000"
+          },
+          {
+            "status": "known",
+            "value": 691200,
+            "raw": "8d",
+            "unit": "seconds",
+            "displayInput": "8,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 57,
+            "raw": "57"
+          },
+          {
+            "status": "known",
+            "value": 581,
+            "raw": "581"
+          },
+          {
+            "status": "known",
+            "value": 697.2,
+            "raw": "697.2"
+          },
+          {
+            "status": "known",
+            "value": 4350,
+            "raw": "4350"
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": "?"
+          },
+          {
+            "status": "known",
+            "value": 505000,
+            "raw": "505000"
+          },
+          {
+            "status": "known",
+            "value": 691200,
+            "raw": "8d",
+            "unit": "seconds",
+            "displayInput": "8,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 58,
+            "raw": "58"
+          },
+          {
+            "status": "known",
+            "value": 584,
+            "raw": "584"
+          },
+          {
+            "status": "known",
+            "value": 700.8,
+            "raw": "700.8"
+          },
+          {
+            "status": "known",
+            "value": 4376,
+            "raw": "4376"
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": "?"
+          },
+          {
+            "status": "known",
+            "value": 510000,
+            "raw": "510000"
+          },
+          {
+            "status": "known",
+            "value": 691200,
+            "raw": "8d",
+            "unit": "seconds",
+            "displayInput": "8,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 59,
+            "raw": "59"
+          },
+          {
+            "status": "known",
+            "value": 587,
+            "raw": "587"
+          },
+          {
+            "status": "known",
+            "value": 704.4,
+            "raw": "704.4"
+          },
+          {
+            "status": "known",
+            "value": 4402,
+            "raw": "4402"
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": "?"
+          },
+          {
+            "status": "known",
+            "value": 515000,
+            "raw": "515000"
+          },
+          {
+            "status": "known",
+            "value": 691200,
+            "raw": "8d",
+            "unit": "seconds",
+            "displayInput": "8,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 60,
+            "raw": "60"
+          },
+          {
+            "status": "known",
+            "value": 590,
+            "raw": "590"
+          },
+          {
+            "status": "known",
+            "value": 708.0,
+            "raw": "708.0"
+          },
+          {
+            "status": "known",
+            "value": 4428,
+            "raw": "4428"
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": "?"
+          },
+          {
+            "status": "known",
+            "value": 520000,
+            "raw": "520000"
+          },
+          {
+            "status": "known",
+            "value": 691200,
+            "raw": "8d",
+            "unit": "seconds",
+            "displayInput": "8,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          }
         ]
       ],
       "extraInfo": [
@@ -2522,7 +2748,14 @@
       "logicalPath": "/upgrade/home_heroes/0203/Royal_Champion_info.png"
     }
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-11-16",
+      "description": "19 本版本新增 56–60 级。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/",
+      "sourcePublishedOn": "2026-11-16"
+    }
+  ],
   "facts": [
     "The Royal Champion is the fifth Hero unlocked once the Hero Hall reaches Level 7, which is available at Town Hall level 13. She has moderately high damage per second, moderate health, and targets defenses. She can also jump over Walls, much like the Hog Rider and Headhunter.",
     "Upgrading the Blacksmith to level 7 and 8 unlocks the Hog Rider Puppet and Haste Vial respectively."

@@ -8,6 +8,7 @@ imgFolder: home_tech/0101
 wiki: https://clashofclans.fandom.com/wiki/Healing_Spell
 canonical: /upgrade/0101-Healing-Spell
 dataSyncedOn: 2026-10-13
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 - *如想查看都城的疗伤法术，请访问：[都城疗伤法术](/upgrade/2100-Healing-Spell)。*
@@ -42,6 +43,10 @@ dataSyncedOn: 2026-10-13
 
 <SmallTitle>升级数据</SmallTitle>
 
+<small>本级部分伤害或治疗量按本页已有倍率、攻速或治疗次数计算。</small>
+
+<small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为未知。</small>
+
 <script setup>
 const tableExtraInfo = [
     {
@@ -72,8 +77,9 @@ const tableExtraInfo = [
 | 8 | 2050 | 1127.5 | 6000000 | 5,0,0,0 | 11 | 13 |
 | 9 | 2255 | 1240.25 | 11000000 | 6,12,0,0 | 13 | 15 |
 | 10 | 2460 | 1353 | 14000000 | 7,0,0,0 | 14 | 16 |
-| 11 | 2747 | 1510.85 | 19000000 | 10,12,0,0 | 15 | 17 |
-| 12 | 3075 | 1691.25 | 29000000 | 15,0,0,0 | 16 | 18 |
+| 11 | 2747 | 1510.85 | 16000000 | 8,18,0,0 | 15 | 17 |
+| 12 | 3075 | 1691.25 | 19500000 | 10,12,0,0 | 16 | 18 |
+| 13 | 3485 | 1916.75 | 29500000 | 14,12,0,0 | 17 | 19 |
 </UnitTable>
 
 ① 表格中的总治疗量指的是每个兵都可以享受这么多治疗量。<br>
@@ -82,6 +88,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/11/16">
+        <TimelineRow>19 本版本新增 13 级。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/11/17">
         <TimelineRow>18 本推出，并在 18 本新增 12 级疗伤法术。</TimelineRow>
         <TimelineRow>11 级疗伤法术的升级时间减少。</TimelineRow>

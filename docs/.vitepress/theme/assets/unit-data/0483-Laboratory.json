@@ -11,7 +11,13 @@
     "revision": 625132,
     "revisionUrl": "https://clashofclans.fandom.com/wiki/Laboratory?oldid=625132",
     "syncedOn": "2026-10-13",
-    "scope": "Source statistics tables and available 2026 history; base values"
+    "scope": "Source statistics tables and available 2026 history; base values",
+    "th19Update": {
+      "checkedOn": "2026-11-16",
+      "source": "ClashKing Assets (selected game facts)",
+      "sourceUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json",
+      "scope": "Selected new levels and baseline-matched cost/time adjustments; missing fields remain unknown."
+    }
   },
   "tables": [
     {
@@ -710,8 +716,8 @@
           },
           {
             "status": "known",
-            "value": 18000000,
-            "raw": "18,000,000"
+            "value": 17000000,
+            "raw": "17000000"
           },
           {
             "status": "known",
@@ -744,25 +750,59 @@
           },
           {
             "status": "known",
-            "value": 27000000,
-            "raw": "27,000,000"
+            "value": 25000000,
+            "raw": "25000000"
           },
           {
             "status": "known",
-            "value": 1382400,
-            "raw": "16d",
+            "value": 1166400,
+            "raw": "13d 12h",
             "unit": "seconds",
-            "displayInput": "16,0,0,0"
+            "displayInput": "13,12,0,0"
           },
           {
             "status": "known",
-            "value": 1175,
-            "raw": "1,175"
+            "value": 1080,
+            "raw": "1080"
           },
           {
             "status": "known",
             "value": 18,
             "raw": "18"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 17,
+            "raw": "17"
+          },
+          {
+            "status": "known",
+            "value": 1550,
+            "raw": "1550"
+          },
+          {
+            "status": "known",
+            "value": 30500000,
+            "raw": "30500000"
+          },
+          {
+            "status": "known",
+            "value": 1296000,
+            "raw": "15d",
+            "unit": "seconds",
+            "displayInput": "15,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 1138,
+            "raw": "1138"
+          },
+          {
+            "status": "known",
+            "value": 19,
+            "raw": "19"
           }
         ]
       ],
@@ -904,7 +944,14 @@
       "logicalPath": "/upgrade/home_buildings/0483/Laboratory16.png"
     }
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-11-16",
+      "description": "19 本版本新增 17 级。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/",
+      "sourcePublishedOn": "2026-11-16"
+    }
+  ],
   "facts": [
     "The Laboratory is a building where you can upgrade your Troops, Spells and Siege Machines, improving their stats such as damage and hitpoints. The Laboratory is unlocked at Town Hall level 3.",
     "The Laboratories emit a purple (level 1-6), blue (level 7), red (level 8) or yellow (level 9-12) glow from the entrances when upgrading something."

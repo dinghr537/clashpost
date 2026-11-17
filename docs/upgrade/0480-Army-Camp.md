@@ -8,6 +8,7 @@ imgFolder: home_buildings/0480
 wiki: https://clashofclans.fandom.com/wiki/Army_Camp
 canonical: /upgrade/0480-Army-Camp
 dataSyncedOn: 2026-10-13
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 - *如想查看夜世界的兵营，请访问：[夜世界兵营](/upgrade/1281-Army-Camp)。*
@@ -52,6 +53,8 @@ dataSyncedOn: 2026-10-13
 
 <SmallTitle>升级数据</SmallTitle>
 
+<small>19 本版本对部分旧等级的费用、时间作了调整；变更数值参考 [ClashKing Assets](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)。</small>
+
 <script setup>
 const tableExtraInfo = [
     {
@@ -89,8 +92,8 @@ const tableExtraInfo = [
 | 10 | 70 | 700 | 4500000 | 4,0,0,0 |  | 12 |
 | 11 | 75 | 800 | 7500000 | 5,0,0,0 |  | 13 |
 | 12 | 80 | 850 | 10000000 | 6,0,0,0 |  | 15 |
-| 13 | 85 | 900 | 17000000 | 7,12,0,0 |  | 17 |
-| 14 | 88 | 950 | 26000000 | 15,0,0,0 |  | 18 |
+| 13 | 85 | 900 | 14500000 | 7,0,0,0 |  | 17 |
+| 14 | 88 | 950 | 24000000 | 13,0,0,0 |  | 18 |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>

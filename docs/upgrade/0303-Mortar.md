@@ -8,6 +8,7 @@ imgFolder: home_buildings/0303
 wiki: https://clashofclans.fandom.com/wiki/Mortar
 canonical: /upgrade/0303-Mortar
 dataSyncedOn: 2026-10-13
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 <script setup>
@@ -110,6 +111,8 @@ const tableExtraInfoFastMode = tableExtraInfoStandardMode;
 
 <SmallTitle>升级数据</SmallTitle>
 
+<small>19 本版本对部分旧等级的费用、时间作了调整；变更数值参考 [ClashKing Assets](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)。</small>
+
 <UnitTable :tableExtraInfo="tableExtraInfoStandardMode">
 
 | 等级 | 每秒伤害 | 每次伤害 | 生命值 | 升级费用 |  升级时间  |升级后可<br>获得的经验| 所需<br>大本等级 |
@@ -130,8 +133,8 @@ const tableExtraInfoFastMode = tableExtraInfoStandardMode;
 | 14 | 48 | 240 | 1950 | 4300000 | 2,12,0,0 |  | 14 |
 | 15 | 54 | 270 | 2150 | 5000000 | 3,0,0,0 |  | 15 |
 | 16 | 60 | 300 | 2300 | 7000000 | 4,0,0,0 |  | 16 |
-| 17 | 66 | 330 | 2450 | 13000000 | 5,0,0,0 |  | 17 |
-| 18 | 72 | 360 | 2550 | 21000000 | 12,12,0,0 |  | 18 |
+| 17 | 66 | 330 | 2450 | 8500000 | 4,6,0,0 |  | 17 |
+| 18 | 72 | 360 | 2550 | 15500000 | 8,12,0,0 |  | 18 |
 | ⚡1 | 75 | 375 | 2550 | 9000000 | 4,0,0,0 |  | 18 |
 | ⚡2 | 75 | 375 | 2625 | 7000000 | 6,0,0,0 |  | 18 |
 

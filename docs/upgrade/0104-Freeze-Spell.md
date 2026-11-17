@@ -8,6 +8,7 @@ imgFolder: home_tech/0104
 wiki: https://clashofclans.fandom.com/wiki/Freeze_Spell
 canonical: /upgrade/0104-Freeze-Spell
 dataSyncedOn: 2026-10-13
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 - *如想查看都城的冰霜法术，请访问：[都城冰霜法术](/upgrade/2103-Frost-Spell)。*
@@ -38,6 +39,8 @@ dataSyncedOn: 2026-10-13
 
 <SmallTitle>升级数据</SmallTitle>
 
+<small>19 本版本对部分旧等级的费用、时间作了调整；变更数值参考 [ClashKing Assets](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)。</small>
+
 <script setup>
 const tableExtraInfo = [
     {
@@ -65,7 +68,7 @@ const tableExtraInfo = [
 | 5 | 4.5秒 | 4200000 | 2,12,0,0 | 8 | 10 |
 | 6 | 5.0秒 | 6000000 | 3,12,0,0 | 9 | 11 |
 | 7 | 5.5秒 | 7000000 | 5,0,0,0 | 10 | 12 |
-| 8 | 6.0秒 | 28000000 | 15,12,0,0 | 16 | 18 |
+| 8 | 6.0秒 | 21500000 | 11,18,0,0 | 16 | 18 |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>

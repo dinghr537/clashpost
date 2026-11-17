@@ -11,7 +11,13 @@
     "revision": 625283,
     "revisionUrl": "https://clashofclans.fandom.com/wiki/Electro_Dragon?oldid=625283",
     "syncedOn": "2026-10-13",
-    "scope": "Source statistics tables and available 2026 history; base values"
+    "scope": "Source statistics tables and available 2026 history; base values",
+    "th19Update": {
+      "checkedOn": "2026-11-16",
+      "source": "ClashKing Assets (selected game facts)",
+      "sourceUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json",
+      "scope": "Selected new levels and baseline-matched cost/time adjustments; missing fields remain unknown."
+    }
   },
   "tables": [
     {
@@ -391,15 +397,15 @@
           },
           {
             "status": "known",
-            "value": 16000000,
-            "raw": "16,000,000"
+            "value": 15000000,
+            "raw": "15000000"
           },
           {
             "status": "known",
-            "value": 777600,
-            "raw": "9d",
+            "value": 734400,
+            "raw": "8d 12h",
             "unit": "seconds",
-            "displayInput": "9,0,0,0"
+            "displayInput": "8,12,0,0"
           },
           {
             "status": "known",
@@ -435,15 +441,15 @@
           },
           {
             "status": "known",
-            "value": 20000000,
-            "raw": "20,000,000"
+            "value": 18000000,
+            "raw": "18000000"
           },
           {
             "status": "known",
-            "value": 864000,
-            "raw": "10d",
+            "value": 777600,
+            "raw": "9d",
             "unit": "seconds",
-            "displayInput": "10,0,0,0"
+            "displayInput": "9,0,0,0"
           },
           {
             "status": "known",
@@ -479,20 +485,64 @@
           },
           {
             "status": "known",
-            "value": 30000000,
-            "raw": "30,000,000"
+            "value": 22500000,
+            "raw": "22500000"
           },
           {
             "status": "known",
-            "value": 1382400,
-            "raw": "16d",
+            "value": 1036800,
+            "raw": "12d",
             "unit": "seconds",
-            "displayInput": "16,0,0,0"
+            "displayInput": "12,0,0,0"
           },
           {
             "status": "known",
             "value": 16,
             "raw": "16"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 545,
+            "raw": "545"
+          },
+          {
+            "status": "known",
+            "value": 1907.5,
+            "raw": "1907.5"
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": "?"
+          },
+          {
+            "status": "known",
+            "value": 8000,
+            "raw": "8000"
+          },
+          {
+            "status": "known",
+            "value": 29500000,
+            "raw": "29500000"
+          },
+          {
+            "status": "known",
+            "value": 1123200,
+            "raw": "13d",
+            "unit": "seconds",
+            "displayInput": "13,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 17,
+            "raw": "17"
           }
         ]
       ],
@@ -575,6 +625,12 @@
     {
       "date": "2026-07-14",
       "description": "Increased hitpoint at levels 8 and 9: Level 8: 6,200 -> 6,400 Hitpoints Level 9: 6,700 -> 6,900 Hitpoints Increased damage at levels 8 and 9: Level 8: 460 -> 475 Damage Level 9: 500 -> 510 Damage"
+    },
+    {
+      "date": "2026-11-16",
+      "description": "19 本版本新增 10 级。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/",
+      "sourcePublishedOn": "2026-11-16"
     }
   ],
   "facts": [

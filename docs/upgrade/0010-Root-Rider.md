@@ -8,6 +8,7 @@ imgFolder: home_tech/0010
 wiki: https://clashofclans.fandom.com/wiki/Root_Rider
 canonical: /upgrade/0010-Root-Rider
 dataSyncedOn: 2026-10-13
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Root_Rider_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
@@ -47,6 +48,8 @@ dataSyncedOn: 2026-10-13
 
 <SmallTitle>升级数据</SmallTitle>
 
+<small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为未知。</small>
+
 <script setup>
 const tableExtraInfo = [
     {
@@ -69,13 +72,17 @@ const tableExtraInfo = [
 | ---- |          ---        |           ---        |  ---- |   ----  |   ----   |      ----      |     ----      |
 | 1 | 95 / 209 | 10000 / 4000 | 6200 | \ | \ | 1 | 15 |
 | 2 | 105 / 231 | 10000 / 4000 | 6350 | 15000000 | 8,0,0,0 | 13 | 15 |
-| 3 | 115 / 253 | 10000 / 4000 | 6500 | 17600000 | 10,0,0,0 | 14 | 16 |
-| 4 | 125 / 275 | 10000 / 4000 | 6700 | 30000000 | 16,0,0,0 | 16 | 18 |
+| 3 | 115 / 253 | 10000 / 4000 | 6500 | 16000000 | 9,0,0,0 | 14 | 16 |
+| 4 | 125 / 275 | 10000 / 4000 | 6700 | 23000000 | 12,12,0,0 | 16 | 18 |
+| 5 | 135 / 297 | 未知 / 未知 | 6900 | 29000000 | 13,0,0,0 | 17 | 19 |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/11/16">
+        <TimelineRow>19 本版本新增 5 级。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2026/04/27">
         <TimelineRow>新增 4 级根蔓骑士。 <a href="https://clashofclans.fandom.com/wiki/Root_Rider#History" target="_blank" rel="noopener noreferrer">来源</a></TimelineRow>
     </TimelineItem>

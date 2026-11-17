@@ -8,6 +8,7 @@ imgFolder: home_tech/0240
 wiki: https://clashofclans.fandom.com/wiki/Wall_Wrecker
 canonical: /upgrade/0240-Wall-Wrecker
 dataSyncedOn: 2026-10-13
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Wall_Wrecker_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
@@ -50,6 +51,8 @@ dataSyncedOn: 2026-10-13
 
 <SmallTitle>升级数据</SmallTitle>
 
+<small>19 本版本对部分旧等级的费用、时间作了调整；变更数值参考 [ClashKing Assets](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)。</small>
+
 <script setup>
 const tableExtraInfo = [
     {
@@ -75,7 +78,7 @@ const tableExtraInfo = [
 | 3 | 350 | 455 | 6500 | 3500000 | 3,0,0,0 | 10 | 12 |
 | 4 | 400 | 520 | 7000 | 6500000 | 7,0,0,0 | 11 | 13 |
 | 5 | 580 | 754 | 8500 | 10000000 | 9,0,0,0 | 13 | 15 |
-| 6 | 670 | 871 | 10000 | 26000000 | 13,12,0,0 | 16 | 18 |
+| 6 | 670 | 871 | 10000 | 17500000 | 10,0,0,0 | 16 | 18 |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>

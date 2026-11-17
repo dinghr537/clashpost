@@ -8,6 +8,7 @@ imgFolder: home_buildings/0481
 wiki: https://clashofclans.fandom.com/wiki/Barracks
 canonical: /upgrade/0481-Barracks
 dataSyncedOn: 2026-10-13
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 - *如想查看训练黑水兵的训练营，请访问：[暗黑训练营](/upgrade/0482-Dark-Barracks)。*
@@ -58,6 +59,8 @@ dataSyncedOn: 2026-10-13
 
 <SmallTitle>升级数据</SmallTitle>
 
+<small>19 本版本对部分旧等级的费用、时间作了调整；变更数值参考 [ClashKing Assets](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)。</small>
+
 <script setup>
 const tableExtraInfo = [
     {
@@ -101,7 +104,7 @@ const tableExtraInfo = [
 | 16 | 1250 | 11000000 | 7,12,0,0 |  | 14 | <a href="/upgrade/000f-Electro-Titan">雷霆泰坦</a> |
 | 17 | 1350 | 12600000 | 8,0,0,0 |  | 15 | <a href="/upgrade/0010-Root-Rider">根蔓骑士</a> |
 | 18 | 1450 | 15000000 | 9,0,0,0 |  | 16 | <a href="/upgrade/0011-Thrower">巨矛投手</a> |
-| 19 | 1520 | 26000000 | 10,12,0,0 |  | 17 | <a href="/upgrade/0012-Meteor-Golem">陨石戈仑</a> |
+| 19 | 1520 | 18000000 | 10,12,0,0 |  | 17 | <a href="/upgrade/0012-Meteor-Golem">陨石戈仑</a> |
 </UnitTable>
 
 \# 根据安装包解析的结果，玩家可以在 1 本把训练营升到 3 级，但这仅仅是理论上的，实际上新手教程会直接引导玩家升到 2 本，根本没有在 1 本升级训练营的机会。

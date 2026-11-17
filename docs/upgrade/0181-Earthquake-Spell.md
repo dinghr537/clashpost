@@ -8,6 +8,7 @@ imgFolder: home_tech/0181
 wiki: https://clashofclans.fandom.com/wiki/Earthquake_Spell
 canonical: /upgrade/0181-Earthquake-Spell
 dataSyncedOn: 2026-10-13
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Earthquake_Spell.png" :imgAlt="$frontmatter.navTitle"
@@ -135,6 +136,8 @@ $$
 
 <SmallTitle>升级数据</SmallTitle>
 
+<small>19 本版本对部分旧等级的费用、时间作了调整；变更数值参考 [ClashKing Assets](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)。</small>
+
 <script setup>
 const tableExtraInfo = [
     {
@@ -161,8 +164,8 @@ const tableExtraInfo = [
 | 4 | 25% | \ | 4.4格 | 25500 | 3,0,0,0 | 8 | 10 |
 | 5 | 29% | \ | 4.7格 | 42000 | 3,12,0,0 | 9 | 11 |
 | 6 | 29% | 5% | 4.7格 | 120000 | 8,0,0,0 | 12 | 14 |
-| 7 | 29% | 10% | 4.7格 | 200000 | 9,0,0,0 | 14 | 16 |
-| 8 | 29% | 14.5% | 4.7格 | 330000 | 13,12,0,0 | 16 | 18 |
+| 7 | 29% | 10% | 4.7格 | 200000 | 8,12,0,0 | 14 | 16 |
+| 8 | 29% | 14.5% | 4.7格 | 305000 | 12,0,0,0 | 16 | 18 |
 </UnitTable>
 
 ① 1 级地震对建筑的基准伤害是 14.5%，但游戏内显示 14%.<br>

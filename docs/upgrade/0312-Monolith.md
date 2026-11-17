@@ -8,6 +8,7 @@ imgFolder: home_buildings/0312
 wiki: https://clashofclans.fandom.com/wiki/Monolith
 canonical: /upgrade/0312-Monolith
 dataSyncedOn: 2026-10-13
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Monolith4_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
@@ -49,6 +50,8 @@ dataSyncedOn: 2026-10-13
 
 <SmallTitle>升级数据</SmallTitle>
 
+<small>19 本版本对部分旧等级的费用、时间作了调整；变更数值参考 [ClashKing Assets](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)。</small>
+
 <script setup>
 const tableExtraInfo = [
     {
@@ -78,7 +81,7 @@ const tableExtraInfo = [
 | 2 | 175 | 262.5 | 12% | 5050 | 250000 | 8,0,0,0 |  | 15 |
 | 3 | 193 | 289.5 | 13% | 5353 | 260000 | 9,0,0,0 |  | 16 |
 | 4 | 209 | 313.5 | 14% | 5656 | 300000 | 11,0,0,0 |  | 17 |
-| 5 | 225 | 337.5 | 15% | 5959 | 470000 | 15,0,0,0 |  | 18 |
+| 5 | 225 | 337.5 | 15% | 5959 | 405000 | 12,0,0,0 |  | 18 |
 | ⚡1 | 235 | 352.5 | 15% | 5959 | 220000 | 5,0,0,0 |  | 18 |
 | ⚡2 | 235 | 352.5 | 15% | 6161 | 200000 | 7,0,0,0 |  | 18 |
 </UnitTable>

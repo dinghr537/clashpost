@@ -8,6 +8,7 @@ imgFolder: home_tech/060d
 wiki: https://clashofclans.fandom.com/wiki/Super_Dragon
 canonical: /upgrade/060d-Super-Dragon
 dataSyncedOn: 2026-10-13
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 - *如想查看该兵种的普通版本，请访问：[飞龙](/upgrade/0008-Dragon)。*
@@ -54,6 +55,8 @@ dataSyncedOn: 2026-10-13
 
 <SmallTitle>升级数据</SmallTitle>
 
+<small>19 本新增等级沿用本页与原兵种相同的编号：通过旧等级属性对照及原兵种等级，将 [ClashKing 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)重新编号后补入；本页新增的 14 级，对应官方公告和候选数据的 12 级；此对应关系仍待游戏内核对。缺失字段标为未知。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/">官方公告</a></small>
+
 <UnitTable>
 
 |      等级     |  平均每秒伤害  | 每次伤害 | 生命值 |所需大本等级|
@@ -73,6 +76,7 @@ dataSyncedOn: 2026-10-13
 | 11 | 496 | 178.12 | 7600 | 16 |
 | 12 | 516 | 185.29 | 8000 | 17 |
 | 13 | 536 | 192.46 | 8400 | 18 |
+| 14 | 未知 | 未知 | 8800 | 19 |
 </UnitTable>
 
 \* 3 - 6 级超级飞龙只在 奖章活动 中出现，不能通过常规方式得到。
@@ -80,6 +84,9 @@ dataSyncedOn: 2026-10-13
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/11/16">
+        <TimelineRow>19 本版本对应的普通兵种新增等级，超级兵属性随之更新。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2026/04/27">
         <TimelineRow>飞龙新增 13 级，对应的超级飞龙开放 13 级。 <a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
     </TimelineItem>

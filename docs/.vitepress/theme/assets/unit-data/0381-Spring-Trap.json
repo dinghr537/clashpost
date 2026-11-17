@@ -11,7 +11,13 @@
     "revision": 576349,
     "revisionUrl": "https://clashofclans.fandom.com/wiki/Spring_Trap?oldid=576349",
     "syncedOn": "2026-10-13",
-    "scope": "Source statistics tables and available 2026 history; base values"
+    "scope": "Source statistics tables and available 2026 history; base values",
+    "th19Update": {
+      "checkedOn": "2026-11-16",
+      "source": "ClashKing Assets (selected game facts)",
+      "sourceUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json",
+      "scope": "Selected new levels and baseline-matched cost/time adjustments; missing fields remain unknown."
+    }
   },
   "tables": [
     {
@@ -185,6 +191,110 @@
             "status": "known",
             "value": 9,
             "raw": "9"
+          }
+        ],
+        [
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "known",
+            "value": 19,
+            "raw": "19"
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          }
+        ],
+        [
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
           }
         ]
       ],
@@ -667,20 +777,20 @@
           },
           {
             "status": "known",
-            "value": 13000000,
-            "raw": "13,000,000"
+            "value": 7000000,
+            "raw": "7000000"
           },
           {
             "status": "known",
-            "value": 259200,
-            "raw": "3d",
+            "value": 216000,
+            "raw": "2d 12h",
             "unit": "seconds",
-            "displayInput": "3,0,0,0"
+            "displayInput": "2,12,0,0"
           },
           {
             "status": "known",
-            "value": 509,
-            "raw": "509"
+            "value": 464,
+            "raw": "464"
           },
           {
             "status": "known",
@@ -706,25 +816,64 @@
           },
           {
             "status": "known",
-            "value": 16000000,
-            "raw": "16,000,000"
+            "value": 9500000,
+            "raw": "9500000"
           },
           {
             "status": "known",
-            "value": 950400,
-            "raw": "11d",
+            "value": 432000,
+            "raw": "5d",
             "unit": "seconds",
-            "displayInput": "11,0,0,0"
+            "displayInput": "5,0,0,0"
           },
           {
             "status": "known",
-            "value": 974,
-            "raw": "974"
+            "value": 657,
+            "raw": "657"
           },
           {
             "status": "known",
             "value": 18,
             "raw": "18"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": "?"
+          },
+          {
+            "status": "known",
+            "value": 1500,
+            "raw": "1500"
+          },
+          {
+            "status": "known",
+            "value": 17000000,
+            "raw": "17000000"
+          },
+          {
+            "status": "known",
+            "value": 691200,
+            "raw": "8d",
+            "unit": "seconds",
+            "displayInput": "8,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 831,
+            "raw": "831"
+          },
+          {
+            "status": "known",
+            "value": 19,
+            "raw": "19"
           }
         ]
       ],
@@ -866,7 +1015,14 @@
       "logicalPath": "/upgrade/home_buildings/0381/Spring_Trap7_unarmed.png"
     }
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-11-16",
+      "description": "19 本版本新增 14 级。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/",
+      "sourcePublishedOn": "2026-11-16"
+    }
+  ],
   "facts": [],
   "notices": []
 }

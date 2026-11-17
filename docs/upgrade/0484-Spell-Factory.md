@@ -8,6 +8,7 @@ imgFolder: home_buildings/0484
 wiki: https://clashofclans.fandom.com/wiki/Spell_Factory
 canonical: /upgrade/0484-Spell-Factory
 dataSyncedOn: 2026-10-13
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 - *如想查看配置暗黑法术的法术工厂，请访问：[暗黑法术工厂](/upgrade/0485-Dark-Spell-Factory)。*
@@ -57,6 +58,8 @@ dataSyncedOn: 2026-10-13
 
 <SmallTitle>升级数据</SmallTitle>
 
+<small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为未知。</small>
+
 <script setup>
 const tableExtraInfo = [
     {
@@ -90,12 +93,16 @@ const tableExtraInfo = [
 | 6 | 10 | 840 | 3500000 | 5,0,0,0 |  | 11 | <a href="/upgrade/0106-Invisibility-Spell">隐形法术</a> |
 | 7 | 10 | 960 | 9000000 | 7,0,0,0 |  | 13 | <a href="/upgrade/0107-Recall-Spell">回溯法术</a> |
 | 8 | 10 | 1080 | 14000000 | 8,0,0,0 |  | 15 | <a href="/upgrade/0108-Revive-Spell">复苏法术</a> |
-| 9 | 10 | 1150 | 24000000 | 9,0,0,0 |  | 16 | <a href="/upgrade/0109-Totem-Spell">图腾法术</a> |
+| 9 | 10 | 1150 | 16000000 | 9,0,0,0 |  | 16 | <a href="/upgrade/0109-Totem-Spell">图腾法术</a> |
+| 10 | 未知 | 1220 | 18500000 | 10,12,0,0 |  | 17 | <a href="/upgrade/010a-Heroic-Spell">英雄法术</a> |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/11/16">
+        <TimelineRow>19 本版本新增 10 级。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/11/17">
         <TimelineRow>16 本新增 9 级法术工厂。</TimelineRow>
     </TimelineItem>

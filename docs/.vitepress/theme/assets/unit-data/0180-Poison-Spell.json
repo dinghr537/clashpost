@@ -11,7 +11,18 @@
     "revision": 624974,
     "revisionUrl": "https://clashofclans.fandom.com/wiki/Poison_Spell?oldid=624974",
     "syncedOn": "2026-10-13",
-    "scope": "Source statistics tables and available 2026 history; base values"
+    "scope": "Source statistics tables and available 2026 history; base values",
+    "th19Update": {
+      "checkedOn": "2026-11-16",
+      "source": "ClashKing Assets (selected game facts)",
+      "sourceUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json",
+      "scope": "Selected new levels and baseline-matched cost/time adjustments; missing fields remain unknown.",
+      "additionalSource": {
+        "source": "ClashPerk Wiki",
+        "sourceUrl": "https://wiki.clashperk.com/spells/poison-spell",
+        "scope": "Level 13 speed and attack-speed decrease."
+      }
+    }
   },
   "tables": [
     {
@@ -453,10 +464,10 @@
           },
           {
             "status": "known",
-            "value": 691200,
-            "raw": "8d",
+            "value": 626400,
+            "raw": "7d 6h",
             "unit": "seconds",
-            "displayInput": "8,0,0,0"
+            "displayInput": "7,6,0,0"
           },
           {
             "status": "known",
@@ -487,15 +498,15 @@
           },
           {
             "status": "known",
-            "value": 230000,
-            "raw": "230,000"
+            "value": 200000,
+            "raw": "200000"
           },
           {
             "status": "known",
-            "value": 835200,
-            "raw": "9d 16h",
+            "value": 691200,
+            "raw": "8d",
             "unit": "seconds",
-            "displayInput": "9,16,0,0"
+            "displayInput": "8,0,0,0"
           },
           {
             "status": "known",
@@ -526,20 +537,59 @@
           },
           {
             "status": "known",
-            "value": 350000,
-            "raw": "350,000"
+            "value": 280000,
+            "raw": "280000"
           },
           {
             "status": "known",
-            "value": 1252800,
-            "raw": "14d 12h",
+            "value": 864000,
+            "raw": "10d",
             "unit": "seconds",
-            "displayInput": "14,12,0,0"
+            "displayInput": "10,0,0,0"
           },
           {
             "status": "known",
             "value": 16,
             "raw": "16"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          },
+          {
+            "status": "known",
+            "value": 400,
+            "raw": "400"
+          },
+          {
+            "status": "known",
+            "value": "53%",
+            "raw": "53%"
+          },
+          {
+            "status": "known",
+            "value": "75%",
+            "raw": "75%"
+          },
+          {
+            "status": "known",
+            "value": 425000,
+            "raw": "425000"
+          },
+          {
+            "status": "known",
+            "value": 1166400,
+            "raw": "13d 12h",
+            "unit": "seconds",
+            "displayInput": "13,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 17,
+            "raw": "17"
           }
         ]
       ],
@@ -581,6 +631,12 @@
       "description": "重新对大本营守卫生效，但只造成正常毒药伤害的 30%。",
       "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/",
       "sourcePublishedOn": "2026-04-27"
+    },
+    {
+      "date": "2026-11-16",
+      "description": "19 本版本新增 13 级。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/",
+      "sourcePublishedOn": "2026-11-16"
     }
   ],
   "facts": [

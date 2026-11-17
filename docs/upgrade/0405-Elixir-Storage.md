@@ -8,6 +8,7 @@ imgFolder: home_buildings/0405
 wiki: https://clashofclans.fandom.com/wiki/Elixir_Storage
 canonical: /upgrade/0405-Elixir-Storage
 dataSyncedOn: 2026-10-13
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 - *如想查看夜世界的圣水瓶，请访问：[夜世界圣水瓶](/upgrade/1204-Elixir-Storage)。*
@@ -61,6 +62,8 @@ dataSyncedOn: 2026-10-13
 
 <SmallTitle>升级数据</SmallTitle>
 
+<small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为未知。</small>
+
 <script setup>
 const tableExtraInfo = [
     {
@@ -109,13 +112,17 @@ const tableExtraInfo = [
 | 15 | 4500000 | 3700 | 3000000 | 2,0,0,0 |  | 14 |
 | 16 | 5000000 | 3900 | 4000000 | 3,0,0,0 |  | 15 |
 | 17 | 5500000 | 4050 | 5500000 | 4,0,0,0 |  | 16 |
-| 18 | 6000000 | 4200 | 10000000 | 5,0,0,0 |  | 17 |
-| 19 | 6500000 | 4300 | 18000000 | 12,12,0,0 |  | 18 |
+| 18 | 6000000 | 4200 | 8500000 | 4,6,0,0 |  | 17 |
+| 19 | 6500000 | 4300 | 12500000 | 7,12,0,0 |  | 18 |
+| 20 | 未知 | 4400 | 18000000 | 11,0,0,0 |  | 19 |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/11/16">
+        <TimelineRow>19 本版本新增 20 级。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/11/17">
         <TimelineRow>18 本推出，并在 18 本新增 19 级圣水瓶。</TimelineRow>
         <TimelineRow>18 级圣水瓶的升级时间减少。</TimelineRow>

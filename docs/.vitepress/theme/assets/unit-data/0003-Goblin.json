@@ -11,7 +11,13 @@
     "revision": 625104,
     "revisionUrl": "https://clashofclans.fandom.com/wiki/Goblin?oldid=625104",
     "syncedOn": "2026-10-13",
-    "scope": "Source statistics tables and available 2026 history; base values"
+    "scope": "Source statistics tables and available 2026 history; base values",
+    "th19Update": {
+      "checkedOn": "2026-11-16",
+      "source": "ClashKing Assets (selected game facts)",
+      "sourceUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json",
+      "scope": "Selected new levels and baseline-matched cost/time adjustments; missing fields remain unknown."
+    }
   },
   "tables": [
     {
@@ -505,20 +511,64 @@
           },
           {
             "status": "known",
-            "value": 26000000,
-            "raw": "26,000,000"
+            "value": 15000000,
+            "raw": "15000000"
           },
           {
             "status": "known",
-            "value": 1209600,
-            "raw": "14d",
+            "value": 734400,
+            "raw": "8d 12h",
             "unit": "seconds",
-            "displayInput": "14,0,0,0"
+            "displayInput": "8,12,0,0"
           },
           {
             "status": "known",
             "value": 16,
             "raw": "16"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          },
+          {
+            "status": "known",
+            "value": 92,
+            "raw": "92"
+          },
+          {
+            "status": "known",
+            "value": 92.0,
+            "raw": "92.0"
+          },
+          {
+            "status": "known",
+            "value": 184,
+            "raw": "184"
+          },
+          {
+            "status": "known",
+            "value": 186,
+            "raw": "186"
+          },
+          {
+            "status": "known",
+            "value": 22000000,
+            "raw": "22000000"
+          },
+          {
+            "status": "known",
+            "value": 907200,
+            "raw": "10d 12h",
+            "unit": "seconds",
+            "displayInput": "10,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 17,
+            "raw": "17"
           }
         ]
       ],
@@ -647,6 +697,12 @@
     {
       "date": "2026-04-27",
       "description": "Added the level 10 Goblin. Goblin10"
+    },
+    {
+      "date": "2026-11-16",
+      "description": "19 本版本新增 11 级。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/",
+      "sourcePublishedOn": "2026-11-16"
     }
   ],
   "facts": [

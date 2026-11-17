@@ -11,7 +11,13 @@
     "revision": 625328,
     "revisionUrl": "https://clashofclans.fandom.com/wiki/Ruin_Witch?oldid=625328",
     "syncedOn": "2026-10-13",
-    "scope": "Source statistics tables and available 2026 history; base values"
+    "scope": "Source statistics tables and available 2026 history; base values",
+    "th19Update": {
+      "checkedOn": "2026-11-16",
+      "source": "ClashKing Assets (selected game facts)",
+      "sourceUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json",
+      "scope": "Selected new levels and baseline-matched cost/time adjustments; missing fields remain unknown."
+    }
   },
   "tables": [
     {
@@ -250,20 +256,69 @@
           },
           {
             "status": "known",
-            "value": 380000,
-            "raw": "380,000"
+            "value": 355000,
+            "raw": "355000"
           },
           {
             "status": "known",
-            "value": 1339200,
-            "raw": "15d 12h",
+            "value": 1123200,
+            "raw": "13d",
             "unit": "seconds",
-            "displayInput": "15,12,0,0"
+            "displayInput": "13,0,0,0"
           },
           {
             "status": "known",
             "value": 16,
             "raw": "16"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": "?"
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": "?"
+          },
+          {
+            "status": "known",
+            "value": 3300,
+            "raw": "3300"
+          },
+          {
+            "status": "known",
+            "value": 29,
+            "raw": "29"
+          },
+          {
+            "status": "known",
+            "value": 58.0,
+            "raw": "58.0"
+          },
+          {
+            "status": "known",
+            "value": 435000,
+            "raw": "435000"
+          },
+          {
+            "status": "known",
+            "value": 1166400,
+            "raw": "13d 12h",
+            "unit": "seconds",
+            "displayInput": "13,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 17,
+            "raw": "17"
           }
         ]
       ],
@@ -340,6 +395,12 @@
       "dateSourceUrl": "https://x.com/ClashofClans/status/2112450159326179560",
       "dateEvidence": "Maintenance completion on October 20 UTC; adjusted stats confirmed in-game on October 20.",
       "type": "balance"
+    },
+    {
+      "date": "2026-11-16",
+      "description": "19 本版本新增 5 级。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/",
+      "sourcePublishedOn": "2026-11-16"
     }
   ],
   "facts": [

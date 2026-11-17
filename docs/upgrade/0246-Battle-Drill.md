@@ -8,6 +8,7 @@ imgFolder: home_tech/0246
 wiki: https://clashofclans.fandom.com/wiki/Battle_Drill
 canonical: /upgrade/0246-Battle-Drill
 dataSyncedOn: 2026-10-13
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Battle_Drill_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
@@ -57,6 +58,8 @@ dataSyncedOn: 2026-10-13
 
 <SmallTitle>升级数据</SmallTitle>
 
+<small>19 本版本对部分旧等级的费用、时间作了调整；变更数值参考 [ClashKing Assets](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)。</small>
+
 <script setup>
 const tableExtraInfo = [
     {
@@ -82,7 +85,7 @@ const tableExtraInfo = [
 | 3 | 510 | 867 | 5400 | 8500000 | 5,0,0,0 | 13 | 15 |
 | 4 | 550 | 935 | 5800 | 10000000 | 8,0,0,0 | 13 | 15 |
 | 5 | 590 | 1003 | 6300 | 17000000 | 9,0,0,0 | 15 | 17 |
-| 6 | 640 | 1088 | 6900 | 28000000 | 15,12,0,0 | 16 | 18 |
+| 6 | 640 | 1088 | 6900 | 24500000 | 13,0,0,0 | 16 | 18 |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>

@@ -11,7 +11,14 @@
     "revision": 613580,
     "revisionUrl": "https://clashofclans.fandom.com/wiki/Super_Dragon?oldid=613580",
     "syncedOn": "2026-10-13",
-    "scope": "Source statistics tables and available 2026 history; base values"
+    "scope": "Source statistics tables and available 2026 history; base values",
+    "th19Update": {
+      "checkedOn": "2026-11-16",
+      "source": "ClashKing Assets (selected game facts; level numbering mapped to older Wiki scale)",
+      "sourceUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json",
+      "scope": "Level mapping based on 11 matching earlier stat pairs and the base troop level; unverified fields remain unknown.",
+      "levelOffset": 2
+    }
   },
   "tables": [
     {
@@ -426,6 +433,33 @@
             "value": 18,
             "raw": "18"
           }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": "?"
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": "?"
+          },
+          {
+            "status": "known",
+            "value": 8800,
+            "raw": "8800"
+          },
+          {
+            "status": "known",
+            "value": 19,
+            "raw": "19"
+          }
         ]
       ],
       "extraInfo": []
@@ -453,6 +487,12 @@
       "description": "飞龙新增 13 级，对应的超级飞龙开放 13 级。",
       "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/",
       "sourcePublishedOn": "2026-04-27"
+    },
+    {
+      "date": "2026-11-16",
+      "description": "19 本版本对应的普通兵种新增等级，超级兵属性随之更新。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/",
+      "sourcePublishedOn": "2026-11-16"
     }
   ],
   "facts": [

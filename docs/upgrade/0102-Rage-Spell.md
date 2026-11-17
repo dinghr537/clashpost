@@ -8,6 +8,7 @@ imgFolder: home_tech/0102
 wiki: https://clashofclans.fandom.com/wiki/Rage_Spell
 canonical: /upgrade/0102-Rage-Spell
 dataSyncedOn: 2026-10-13
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 - *如想查看都城的狂暴法术，请访问：[都城狂暴法术](/upgrade/2104-Rage-Spell)。*
@@ -44,6 +45,8 @@ dataSyncedOn: 2026-10-13
 
 <SmallTitle>升级数据</SmallTitle>
 
+<small>19 本版本对部分旧等级的费用、时间作了调整；变更数值参考 [ClashKing Assets](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)。</small>
+
 <script setup>
 const tableExtraInfo = [
     {
@@ -70,7 +73,7 @@ const tableExtraInfo = [
 | 4 | 160% | 26 | 1000000 | 1,0,0,0 | 5 | 7 |
 | 5 | 170% | 28 | 2000000 | 2,0,0,0 | 6 | 8 |
 | 6 | 180% | 30 | 5000000 | 4,0,0,0 | 10 | 12 |
-| 7 | 190% | 32 | 26000000 | 14,0,0,0 | 16 | 18 |
+| 7 | 190% | 32 | 24000000 | 12,18,0,0 | 16 | 18 |
 </UnitTable>
 
 ① 伤害增加 170% 的意思是兵种的伤害是原来的 1 + 170% = 2.7 倍，其它同理。<br>

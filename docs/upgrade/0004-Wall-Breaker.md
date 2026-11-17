@@ -8,6 +8,7 @@ imgFolder: home_tech/0004
 wiki: https://clashofclans.fandom.com/wiki/Wall_Breaker
 canonical: /upgrade/0004-Wall-Breaker
 dataSyncedOn: 2026-10-13
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 - *如想查看该兵种的强化版本，请访问：[超级炸弹人（超炸）](/upgrade/0603-Super-Wall-Breaker)。*
@@ -67,6 +68,10 @@ dataSyncedOn: 2026-10-13
 
 <SmallTitle>升级数据</SmallTitle>
 
+<small>本级部分伤害或治疗量按本页已有倍率、攻速或治疗次数计算。</small>
+
+<small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为未知。</small>
+
 <script setup>
 const tableExtraInfo = [
     {
@@ -98,9 +103,10 @@ const tableExtraInfo = [
 | 9 | 86 | 1920 | 5360 | 112 | 5200000 | 3,0,0,0 | 11 | 13 |
 | 10 | 94 | 2160 | 5920 | 130 | 6500000 | 5,0,0,0 | 12 | 14 |
 | 11 | 102 | 2400 | 6480 | 140 | 9500000 | 5,12,0,0 | 13 | 15 |
-| 12 | 110 | 2640 | 7040 | 150 | 11000000 | 6,0,0,0 | 14 | 16 |
-| 13 | 118 | 2880 | 7600 | 160 | 15500000 | 10,0,0,0 | 15 | 17 |
-| 14 | 126 | 3120 | 8160 | 170 | 26000000 | 14,0,0,0 | 16 | 18 |
+| 12 | 110 | 2640 | 7040 | 150 | 9000000 | 5,0,0,0 | 14 | 16 |
+| 13 | 118 | 2880 | 7600 | 160 | 10000000 | 6,12,0,0 | 15 | 17 |
+| 14 | 126 | 3120 | 8160 | 170 | 19000000 | 9,0,0,0 | 16 | 18 |
+| 15 | 134 | 3360 | 8720 | 180 | 29000000 | 12,12,0,0 | 17 | 19 |
 </UnitTable>
 
 1. 上方的“面板伤害”解释："10/9" 表示主动伤害为 10，死亡伤害为 9.
@@ -109,6 +115,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/11/16">
+        <TimelineRow>19 本版本新增 15 级。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/11/17">
         <TimelineRow>18 本推出，并在 18 本新增 14 级炸弹人。</TimelineRow>
         <TimelineRow>13 级炸弹人的升级时间和升级费用减少。</TimelineRow>

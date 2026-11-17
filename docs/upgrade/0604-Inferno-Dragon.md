@@ -8,6 +8,7 @@ imgFolder: home_tech/0604
 wiki: https://clashofclans.fandom.com/wiki/Inferno_Dragon
 canonical: /upgrade/0604-Inferno-Dragon
 dataSyncedOn: 2026-10-13
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 - *如想查看该兵种的普通版本，请访问：[飞龙宝宝](/upgrade/000a-Baby-Dragon)。*
@@ -50,6 +51,8 @@ dataSyncedOn: 2026-10-13
 
 <SmallTitle>升级数据</SmallTitle>
 
+<small>19 本新增等级沿用本页与原兵种相同的编号：通过旧等级属性对照及原兵种等级，将 [ClashKing 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)重新编号后补入；不同来源的编号不一致，仍待游戏内核对。缺失字段标为未知。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/">官方公告</a></small>
+
 <UnitTable>
 
 | 等级 | 初始秒伤 | 1.7 秒后秒伤 | 3.2 秒后秒伤 | 生命值 |所需大本等级|
@@ -61,11 +64,15 @@ dataSyncedOn: 2026-10-13
 | 10 | 86 | 174 | 1740 | 2400 | 16 |
 | 11 | 88 | 178 | 1780 | 2500 | 17 |
 | 12 | 90 | 182 | 1820 | 2700 | 18 |
+| 13 | 未知 | 未知 | 未知 | 2900 | 19 |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/11/16">
+        <TimelineRow>19 本版本对应的普通兵种新增等级，超级兵属性随之更新。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2026/05/26">
         <TimelineRow>调整12级的伤害： 阶段1： 91 → 90</TimelineRow>
     </TimelineItem>

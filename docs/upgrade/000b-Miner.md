@@ -9,6 +9,7 @@ wiki: https://clashofclans.fandom.com/wiki/Miner
 canonical: /upgrade/000b-Miner
 dataSyncedOn: 2026-10-13
 dataBalanceUpdatedOn: 2026-10-20
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 - *如想查看该兵种的强化版本，请访问：[超级矿工](/upgrade/060e-Super-Miner)。*
@@ -59,6 +60,8 @@ dataBalanceUpdatedOn: 2026-10-20
 
 <SmallTitle>升级数据</SmallTitle>
 
+<small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为未知。</small>
+
 <script setup>
 const tableExtraInfo = [
     {
@@ -88,14 +91,18 @@ const tableExtraInfo = [
 | 7 | 128 | 217.6 | 1000 | 6000000 | 4,0,0,0 | 11 | 13 |
 | 8 | 136 | 231.2 | 1150 | 8600000 | 6,0,0,0 | 12 | 14 |
 | 9 | 144 | 244.8 | 1350 | 10500000 | 6,12,0,0 | 13 | 15 |
-| 10 | 160 | 272 | 1550 | 12500000 | 7,0,0,0 | 14 | 16 |
-| 11 | 175 | 297.5 | 1850 | 16500000 | 9,12,0,0 | 15 | 17 |
-| 12 | 195 | 331.5 | 2150 | 28000000 | 14,12,0,0 | 16 | 18 |
+| 10 | 160 | 272 | 1550 | 10500000 | 6,0,0,0 | 14 | 16 |
+| 11 | 175 | 297.5 | 1850 | 12000000 | 6,12,0,0 | 15 | 17 |
+| 12 | 195 | 331.5 | 2150 | 19000000 | 8,0,0,0 | 16 | 18 |
+| 13 | 215 | 365.5 | 2350 | 28000000 | 11,0,0,0 | 17 | 19 |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/11/16">
+        <TimelineRow>19 本版本新增 13 级。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2026/10/20">
         <TimelineRow>提高 11、12 级生命值，分别由 1750、2050 提高至 1850、2150。</TimelineRow>
         <TimelineRow><a href="https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/" target="_blank" rel="noopener noreferrer">官方公告</a>（10/17 发布） · <a href="https://clashfox.com/blog/balance-changes-before-town-hall-19-fire-heart-and-ruin-witch-nerfed-hogs-and-p-e-k-k-a-bu" target="_blank" rel="noopener noreferrer">数值参考</a> · <a href="https://x.com/ClashofClans/status/2112450159326179560" target="_blank" rel="noopener noreferrer">10/20 维护完成</a>。</TimelineRow>

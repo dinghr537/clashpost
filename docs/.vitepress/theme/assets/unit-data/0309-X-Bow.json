@@ -130,6 +130,12 @@
         }
       ],
       "scope": "October 20 supercharge cost and time reductions; experience and collector catch-up durations recalculated from the updated build times."
+    },
+    "th19Update": {
+      "checkedOn": "2026-11-16",
+      "source": "ClashKing Assets (selected game facts)",
+      "sourceUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json",
+      "scope": "Selected new levels and baseline-matched cost/time adjustments; missing fields remain unknown."
     }
   },
   "tables": [
@@ -787,20 +793,20 @@
           },
           {
             "status": "known",
-            "value": 10000000,
-            "raw": "10,000,000"
+            "value": 8500000,
+            "raw": "8500000"
           },
           {
             "status": "known",
-            "value": 518400,
-            "raw": "6d",
+            "value": 432000,
+            "raw": "5d",
             "unit": "seconds",
-            "displayInput": "6,0,0,0"
+            "displayInput": "5,0,0,0"
           },
           {
             "status": "known",
-            "value": 720,
-            "raw": "720"
+            "value": 657,
+            "raw": "657"
           },
           {
             "status": "known",
@@ -831,20 +837,20 @@
           },
           {
             "status": "known",
-            "value": 16000000,
-            "raw": "16,000,000"
+            "value": 13000000,
+            "raw": "13000000"
           },
           {
             "status": "known",
-            "value": 691200,
-            "raw": "8d",
+            "value": 604800,
+            "raw": "7d",
             "unit": "seconds",
-            "displayInput": "8,0,0,0"
+            "displayInput": "7,0,0,0"
           },
           {
             "status": "known",
-            "value": 831,
-            "raw": "831"
+            "value": 777,
+            "raw": "777"
           },
           {
             "status": "known",
@@ -875,25 +881,69 @@
           },
           {
             "status": "known",
-            "value": 26000000,
-            "raw": "26,000,000"
+            "value": 18500000,
+            "raw": "18500000"
           },
           {
             "status": "known",
-            "value": 1166400,
-            "raw": "13d 12h",
+            "value": 864000,
+            "raw": "10d",
             "unit": "seconds",
-            "displayInput": "13,12,0,0"
+            "displayInput": "10,0,0,0"
           },
           {
             "status": "known",
-            "value": 1080,
-            "raw": "1,080"
+            "value": 929,
+            "raw": "929"
           },
           {
             "status": "known",
             "value": 18,
             "raw": "18"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          },
+          {
+            "status": "known",
+            "value": 270,
+            "raw": "270"
+          },
+          {
+            "status": "known",
+            "value": 34.56,
+            "raw": "34.56"
+          },
+          {
+            "status": "known",
+            "value": 5450,
+            "raw": "5450"
+          },
+          {
+            "status": "known",
+            "value": 28000000,
+            "raw": "28000000"
+          },
+          {
+            "status": "known",
+            "value": 1209600,
+            "raw": "14d",
+            "unit": "seconds",
+            "displayInput": "14,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 1099,
+            "raw": "1099"
+          },
+          {
+            "status": "known",
+            "value": 19,
+            "raw": "19"
           }
         ]
       ],
@@ -1511,6 +1561,12 @@
       "sourceUrl": "https://x.com/ClashDotNinja/status/2112523574984446061",
       "sourcePublishedOn": "2026-10-20",
       "sourceType": "community-update"
+    },
+    {
+      "date": "2026-11-16",
+      "description": "19 本版本新增 14 级。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/",
+      "sourcePublishedOn": "2026-11-16"
     }
   ],
   "facts": [

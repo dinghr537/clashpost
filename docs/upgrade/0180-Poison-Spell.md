@@ -8,6 +8,7 @@ imgFolder: home_tech/0180
 wiki: https://clashofclans.fandom.com/wiki/Poison_Spell
 canonical: /upgrade/0180-Poison-Spell
 dataSyncedOn: 2026-10-13
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Poison_Spell.png" :imgAlt="$frontmatter.navTitle"
@@ -43,6 +44,12 @@ dataSyncedOn: 2026-10-13
 
 <SmallTitle>升级数据</SmallTitle>
 
+<small>13 级减速和攻速降低幅度参考 [ClashPerk Wiki](https://wiki.clashperk.com/spells/poison-spell)。</small>
+
+<small>本级部分伤害或治疗量按本页已有倍率、攻速或治疗次数计算。</small>
+
+<small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为未知。</small>
+
 <script setup>
 const tableExtraInfo = [
     {
@@ -72,14 +79,18 @@ const tableExtraInfo = [
 | 7 | 280 | 44% | 65% | 77500 | 5,0,0,0 | 11 | 13 |
 | 8 | 300 | 46% | 68% | 100000 | 6,12,0,0 | 12 | 14 |
 | 9 | 320 | 48% | 70% | 135000 | 7,0,0,0 | 13 | 15 |
-| 10 | 340 | 50% | 72% | 175000 | 8,0,0,0 | 14 | 16 |
-| 11 | 360 | 51% | 73% | 230000 | 9,16,0,0 | 15 | 17 |
-| 12 | 380 | 52% | 74% | 350000 | 14,12,0,0 | 16 | 18 |
+| 10 | 340 | 50% | 72% | 175000 | 7,6,0,0 | 14 | 16 |
+| 11 | 360 | 51% | 73% | 200000 | 8,0,0,0 | 15 | 17 |
+| 12 | 380 | 52% | 74% | 280000 | 10,0,0,0 | 16 | 18 |
+| 13 | 400 | 53% | 75% | 425000 | 13,12,0,0 | 17 | 19 |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/11/16">
+        <TimelineRow>19 本版本新增 13 级。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2026/04/27">
         <TimelineRow>重新对大本营守卫生效，但只造成正常毒药伤害的 30%。 <a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
     </TimelineItem>

@@ -11,7 +11,14 @@
     "revision": 624772,
     "revisionUrl": "https://clashofclans.fandom.com/wiki/Healer?oldid=624772",
     "syncedOn": "2026-10-13",
-    "scope": "Source statistics tables and available 2026 history; base values"
+    "scope": "Source statistics tables and available 2026 history; base values",
+    "th19Update": {
+      "checkedOn": "2026-11-16",
+      "source": "ClashKing Assets (selected game facts)",
+      "sourceUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json",
+      "scope": "Selected new levels and baseline-matched cost/time adjustments; missing fields remain unknown.",
+      "wikiChecked": "https://clashofclans.fandom.com/wiki/Healer"
+    }
   },
   "tables": [
     {
@@ -360,15 +367,15 @@
           },
           {
             "status": "known",
-            "value": 6000000,
-            "raw": "6,000,000"
+            "value": 5500000,
+            "raw": "5500000"
           },
           {
             "status": "known",
-            "value": 388800,
-            "raw": "4d 12h",
+            "value": 345600,
+            "raw": "4d",
             "unit": "seconds",
-            "displayInput": "4,12,0,0"
+            "displayInput": "4,0,0,0"
           },
           {
             "status": "known",
@@ -556,15 +563,15 @@
           },
           {
             "status": "known",
-            "value": 17000000,
-            "raw": "17,000,000"
+            "value": 15000000,
+            "raw": "15000000"
           },
           {
             "status": "known",
-            "value": 950400,
-            "raw": "11d",
+            "value": 820800,
+            "raw": "9d 12h",
             "unit": "seconds",
-            "displayInput": "11,0,0,0"
+            "displayInput": "9,12,0,0"
           },
           {
             "status": "known",
@@ -605,20 +612,69 @@
           },
           {
             "status": "known",
-            "value": 28500000,
-            "raw": "28,500,000"
+            "value": 20000000,
+            "raw": "20000000"
           },
           {
             "status": "known",
-            "value": 1296000,
-            "raw": "15d",
+            "value": 993600,
+            "raw": "11d 12h",
             "unit": "seconds",
-            "displayInput": "15,0,0,0"
+            "displayInput": "11,12,0,0"
           },
           {
             "status": "known",
             "value": 16,
             "raw": "16"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          },
+          {
+            "status": "known",
+            "value": 84,
+            "raw": "84"
+          },
+          {
+            "status": "known",
+            "value": 58.8,
+            "raw": "58.8"
+          },
+          {
+            "status": "known",
+            "value": 99,
+            "raw": "99"
+          },
+          {
+            "status": "known",
+            "value": 69.3,
+            "raw": "69.3"
+          },
+          {
+            "status": "known",
+            "value": 2200,
+            "raw": "2200"
+          },
+          {
+            "status": "known",
+            "value": 29500000,
+            "raw": "29500000"
+          },
+          {
+            "status": "known",
+            "value": 1123200,
+            "raw": "13d",
+            "unit": "seconds",
+            "displayInput": "13,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 17,
+            "raw": "17"
           }
         ]
       ],
@@ -711,7 +767,14 @@
       "logicalPath": "/upgrade/home_tech/0007/Healer11.png"
     }
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-11-16",
+      "description": "19 本版本新增 12 级。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/",
+      "sourcePublishedOn": "2026-11-16"
+    }
+  ],
   "facts": [
     "The Healer is the eighth Elixir Troop unlocked at Barracks level 8, which requires Town Hall level 6. She is a flying unit and the only troop with no attacking capabilities, but can heal any ground troops.",
     "The Healer will not heal if the ground troops have a combined housing space of 2 or less: this means she will not heal a single Barbarian, nor she will heal a Wall Breaker."

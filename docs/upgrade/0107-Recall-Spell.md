@@ -8,6 +8,7 @@ imgFolder: home_tech/0107
 wiki: https://clashofclans.fandom.com/wiki/Recall_Spell
 canonical: /upgrade/0107-Recall-Spell
 dataSyncedOn: 2026-10-13
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Recall_Spell.png" :imgAlt="$frontmatter.navTitle"
@@ -56,6 +57,8 @@ dataSyncedOn: 2026-10-13
 
 <SmallTitle>升级数据</SmallTitle>
 
+<small>19 本版本对部分旧等级的费用、时间作了调整；变更数值参考 [ClashKing Assets](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)。</small>
+
 <script setup>
 const tableExtraInfo = [
     {
@@ -80,9 +83,9 @@ const tableExtraInfo = [
 | 2 | 89 | 7500000 | 7,0,0,0 | 11 | 13 |
 | 3 | 95 | 8000000 | 7,12,0,0 | 12 | 14 |
 | 4 | 101 | 9000000 | 8,0,0,0 | 13 | 15 |
-| 5 | 107 | 13000000 | 9,0,0,0 | 14 | 16 |
-| 6 | 113 | 19000000 | 11,0,0,0 | 15 | 17 |
-| 7 | 120 | 29000000 | 16,0,0,0 | 16 | 18 |
+| 5 | 107 | 13000000 | 8,0,0,0 | 14 | 16 |
+| 6 | 113 | 17000000 | 9,6,0,0 | 15 | 17 |
+| 7 | 120 | 19500000 | 11,0,0,0 | 16 | 18 |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>

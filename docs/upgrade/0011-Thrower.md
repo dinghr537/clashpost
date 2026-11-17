@@ -8,6 +8,7 @@ imgFolder: home_tech/0011
 wiki: https://clashofclans.fandom.com/wiki/Thrower
 canonical: /upgrade/0011-Thrower
 dataSyncedOn: 2026-10-13
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Thrower_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
@@ -42,6 +43,8 @@ dataSyncedOn: 2026-10-13
 
 <SmallTitle>升级数据</SmallTitle>
 
+<small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为未知。</small>
+
 <script setup>
 const tableExtraInfo = [
     {
@@ -63,14 +66,18 @@ const tableExtraInfo = [
 | 等级 |  每秒伤害 | 每次伤害 | 生命值 | 升级花费|  升级时间  |所需实验室等级|所需大本等级|
 | ---- |   ----   |   ---   |  ---- |    ---  |     ---   |     ---     |   ----    |
 | 1 | 190 | 475 | 2200 | \ | \ | 1 | 16 |
-| 2 | 210 | 525 | 2350 | 16000000 | 9,12,0,0 | 14 | 16 |
-| 3 | 220 | 550 | 2500 | 18000000 | 10,12,0,0 | 15 | 17 |
-| 4 | 230 | 575 | 2650 | 27000000 | 15,0,0,0 | 16 | 18 |
+| 2 | 210 | 525 | 2350 | 15500000 | 9,0,0,0 | 14 | 16 |
+| 3 | 220 | 550 | 2500 | 16000000 | 9,12,0,0 | 15 | 17 |
+| 4 | 230 | 575 | 2650 | 20500000 | 11,12,0,0 | 16 | 18 |
+| 5 | 240 | 600 | 2800 | 29500000 | 13,0,0,0 | 17 | 19 |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/11/16">
+        <TimelineRow>19 本版本新增 5 级。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2026/09/22">
         <TimelineRow>移动速度从18降至16；3、4级生命值分别从2,600、2,800降至2,500、2,650，伤害分别从230、240降至220、230。</TimelineRow>
     </TimelineItem>

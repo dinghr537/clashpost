@@ -53,7 +53,13 @@
         "sourceUrl": "https://www.gibiarena.com/en/clash-of-clans/upgrades/hero-hall",
         "reason": "The saved Wiki count row still uses the pre-May-2026 Town Hall 7 unlock, although its level table and history record the Town Hall 4 unlock. The May 26 official update confirms the earlier hero unlock; game-file-derived data lists the Hero Hall at Town Hall 4."
       }
-    ]
+    ],
+    "th19Update": {
+      "checkedOn": "2026-11-16",
+      "source": "ClashKing Assets (selected game facts)",
+      "sourceUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json",
+      "scope": "Selected new levels and baseline-matched cost/time adjustments; missing fields remain unknown."
+    }
   },
   "tables": [
     {
@@ -728,8 +734,8 @@
           },
           {
             "status": "known",
-            "value": 17000000,
-            "raw": "17,000,000"
+            "value": 15500000,
+            "raw": "15500000"
           },
           {
             "status": "known",
@@ -772,25 +778,69 @@
           },
           {
             "status": "known",
-            "value": 26000000,
-            "raw": "26,000,000"
+            "value": 23500000,
+            "raw": "23500000"
           },
           {
             "status": "known",
-            "value": 1166400,
-            "raw": "13d 12h",
+            "value": 1080000,
+            "raw": "12d 12h",
             "unit": "seconds",
-            "displayInput": "13,12,0,0"
+            "displayInput": "12,12,0,0"
           },
           {
             "status": "known",
-            "value": 1080,
-            "raw": "1,080"
+            "value": 1039,
+            "raw": "1039"
           },
           {
             "status": "known",
             "value": 18,
             "raw": "18"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": "?"
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": "?"
+          },
+          {
+            "status": "known",
+            "value": 6200,
+            "raw": "6200"
+          },
+          {
+            "status": "known",
+            "value": 30500000,
+            "raw": "30500000"
+          },
+          {
+            "status": "known",
+            "value": 1339200,
+            "raw": "15d 12h",
+            "unit": "seconds",
+            "displayInput": "15,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 1157,
+            "raw": "1157"
+          },
+          {
+            "status": "known",
+            "value": 19,
+            "raw": "19"
           }
         ]
       ],
@@ -1430,6 +1480,12 @@
     {
       "date": "2026-05-26",
       "description": "Moved Hero Hall unlock requirement from Town Hall 7 to Town Hall 4. Hero Hall0 Reduced build cost from 800,000 to 30,000. Elixir Reduced build time from 1d to 1h. Time Reduced hitpoints at levels 1 to 3: Level 1: 2,000 -> 800 Hitpoints Level 2: 2,400 -> 1,600 Hitpoints Level 3: 2,800 -> 2,400 Hitpoints"
+    },
+    {
+      "date": "2026-11-16",
+      "description": "19 本版本新增 13 级。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/",
+      "sourcePublishedOn": "2026-11-16"
     }
   ],
   "facts": [

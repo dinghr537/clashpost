@@ -21,7 +21,7 @@ CC BY-SA 3.0 的 [4(b) 条](https://creativecommons.org/licenses/by-sa/3.0/legal
 
 ## ClashKing Assets：2026-11-16 核查
 
-[仓库 README](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/README.md)声明仓库采用 GPL-3.0，并欢迎在署名的情况下使用其托管素材。仓库包含游戏资料与素材，该声明不能自动解决上游权利、本站资料许可与批量转载的适配问题；尤其不能将 Supercell 游戏图片直接标为 GPL 或 CC 授权。本次只比对两个公开修订，记录数据覆盖、字段和差异，没有将该仓库的数据表或图片批量导入网站。结果见 [19 本逐等级核查](TH19_LEVEL_COVERAGE_2026-11-16.md)。
+[仓库 README](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/README.md)声明仓库采用 GPL-3.0，并欢迎在署名的情况下使用其托管素材。仓库包含游戏资料与素材，该声明不能自动解决上游权利、本站资料许可与批量转载的适配问题；尤其不能将 Supercell 游戏图片直接标为 GPL 或 CC 授权。比较两个公开修订后，本站针对本次版本新增等级及部分旧等级费用、时间引用了有限范围的游戏数值，按本站原有表格结构整理，并在单位页注明；没有复制该仓库的说明文字、原始数据结构或图片。结果及尚未核实的字段见 [19 本逐等级核查](TH19_LEVEL_COVERAGE_2026-11-16.md)和 [19 本实施记录](TH19_IMPLEMENTATION_2026-11-16.md)。
 
 ## Fandom 获取方式：待确认
 
@@ -78,3 +78,7 @@ CC BY-SA 3.0 的 [4(b) 条](https://creativecommons.org/licenses/by-sa/3.0/legal
 - 用户提供的 12 级超级亡灵游戏截图显示“范围：2.5 格”，截图未标注游戏版本；本站记录该显示值，不据此推断与其他来源 3.5 格、4 格之间的换算关系，也不转载截图。
 - 逐项检查原页面声明但未保存在本地的 127 个原图地址：126 个返回 PNG、1 个（`Miner12_hd.png`）返回 404。126 个中有 123 个比对应本地缩略图分辨率更大，另 3 个尺寸相同。根据用户要求和用户提供的[上游历史资料维护说明](https://github.com/lemonicy/clashpost#readme)，126 个原图已原样保存，并逐一核对与页面等级图片的视觉对应关系；每个文件的来源页、原始 URL、尺寸、SHA-256、导入时间及权利参考保存在 `docs/public/images/original-sources.json`。上游说明允许维护和迁移历史资料，未明确对每张图片的第三方加工权利作统一许可；游戏资产仍按 [Supercell 玩家内容政策](https://supercell.com/en/fan-content-policy/)处理，逐项权利判断未完成，不将图片统一标为 CC 授权。
 - 木屋子城名称、超级亡灵及其他射程来源冲突仍待确认；多来源相同并不自动证明数据分别来自独立测量。
+
+## ClashPerk Wiki：2026-11-16 定向参考
+
+[急速法术页面](https://wiki.clashperk.com/spells/haste-spell)显示 8 级的加速、持续时间和半径；另参考[毒药法术页面](https://wiki.clashperk.com/spells/poison-spell)的 13 级减速数据。本站仅引用这些相关游戏数值并注明来源，没有复制其文字、图片或整套数据。[其条款页](https://clashperk.com/terms)描述 Discord 机器人服务，不足以证明 Wiki 内容的转载许可；不把其页面统一标为开放许可。

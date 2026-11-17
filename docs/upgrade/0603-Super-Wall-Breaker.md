@@ -8,6 +8,7 @@ imgFolder: home_tech/0603
 wiki: https://clashofclans.fandom.com/wiki/Super_Wall_Breaker
 canonical: /upgrade/0603-Super-Wall-Breaker
 dataSyncedOn: 2026-10-13
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 - *如想查看该兵种的普通版本，请访问：[炸弹人](/upgrade/0004-Wall-Breaker)。*
@@ -61,6 +62,8 @@ dataSyncedOn: 2026-10-13
 
 <SmallTitle>升级数据</SmallTitle>
 
+<small>19 本新增等级沿用本页与原兵种相同的编号：通过旧等级属性对照及原兵种等级，将 [ClashKing 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)重新编号后补入；本页新增的 15 级，对应官方公告和候选数据的 11 级；此对应关系仍待游戏内核对。缺失字段标为未知。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/">官方公告</a></small>
+
 <UnitTable>
 
 |      等级     |  面板伤害  | 中途死亡<br>(对建筑) | 成功爆破<br>(对建筑) | 中途死亡<br>(对城墙) | 成功爆破<br>(对城墙) | 生命值 |所需大本等级|
@@ -75,6 +78,7 @@ dataSyncedOn: 2026-10-13
 | 12 | 150 | 363 | 513 | 14520 | 20520 | 525 | 16 |
 | 13 | 160 | 388 | 548 | 15520 | 21920 | 550 | 17 |
 | 14 | 170 | 413 | 583 | 16520 | 23320 | 575 | 18 |
+| 15 | 180 | 438 | 618 | 17520 | 24720 | 600 | 19 |
 </UnitTable>
 
 \* 5 - 6 级超级炸弹人只在 奖章活动 中出现，不能通过常规方式得到。
@@ -87,6 +91,9 @@ dataSyncedOn: 2026-10-13
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/11/16">
+        <TimelineRow>19 本版本对应的普通兵种新增等级，超级兵属性随之更新。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/11/17">
         <TimelineRow>18 本推出，并在 18 本新增 14 级炸弹人，超级部队的等级也相应更新。</TimelineRow>
     </TimelineItem>

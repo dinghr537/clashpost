@@ -8,6 +8,7 @@ imgFolder: home_heroes/0203
 wiki: https://clashofclans.fandom.com/wiki/Royal_Champion
 canonical: /upgrade/0203-Royal-Champion
 dataSyncedOn: 2026-10-13
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Royal_Champion_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
@@ -39,6 +40,8 @@ dataSyncedOn: 2026-10-13
 ② 在没有敌人的情况下，英雄也会走动，而这个走动的范围叫巡逻半径。
 
 <SmallTitle>升级数据</SmallTitle>
+
+<small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为未知。</small>
 
 <script setup>
 const tableExtraInfo = [
@@ -109,17 +112,22 @@ const tableExtraInfo = [
 | 42 | 536 | 643.2 | 3961 | 260000 | 6,0,0,0 |  | 10 | 16 |
 | 43 | 539 | 646.8 | 3987 | 280000 | 6,12,0,0 |  | 10 | 16 |
 | 44 | 542 | 650.4 | 4012 | 300000 | 7,0,0,0 |  | 10 | 16 |
-| 45 | 545 | 654 | 4038 | 320000 | 7,12,0,0 |  | 10 | 16 |
-| 46 | 548 | 657.6 | 4064 | 340000 | 8,0,0,0 |  | 11 | 17 |
-| 47 | 551 | 661.2 | 4090 | 350000 | 8,0,0,0 |  | 11 | 17 |
-| 48 | 554 | 664.8 | 4116 | 360000 | 8,0,0,0 |  | 11 | 17 |
-| 49 | 557 | 668.4 | 4142 | 370000 | 8,0,0,0 |  | 11 | 17 |
-| 50 | 560 | 672 | 4168 | 380000 | 8,0,0,0 |  | 11 | 17 |
+| 45 | 545 | 654 | 4038 | 320000 | 7,0,0,0 |  | 10 | 16 |
+| 46 | 548 | 657.6 | 4064 | 340000 | 7,0,0,0 |  | 11 | 17 |
+| 47 | 551 | 661.2 | 4090 | 350000 | 7,0,0,0 |  | 11 | 17 |
+| 48 | 554 | 664.8 | 4116 | 360000 | 7,0,0,0 |  | 11 | 17 |
+| 49 | 557 | 668.4 | 4142 | 370000 | 7,0,0,0 |  | 11 | 17 |
+| 50 | 560 | 672 | 4168 | 380000 | 7,0,0,0 |  | 11 | 17 |
 | 51 | 563 | 675.6 | 4194 | 400000 | 8,0,0,0 |  | 12 | 18 |
 | 52 | 566 | 679.2 | 4220 | 410000 | 8,0,0,0 |  | 12 | 18 |
 | 53 | 569 | 682.8 | 4246 | 420000 | 8,0,0,0 |  | 12 | 18 |
 | 54 | 572 | 686.4 | 4272 | 430000 | 8,0,0,0 |  | 12 | 18 |
 | 55 | 575 | 690 | 4298 | 450000 | 8,0,0,0 |  | 12 | 18 |
+| 56 | 578 | 693.6 | 4324 | 500000 | 8,0,0,0 |  | 13 | 19 |
+| 57 | 581 | 697.2 | 4350 | 505000 | 8,0,0,0 |  | 13 | 19 |
+| 58 | 584 | 700.8 | 4376 | 510000 | 8,0,0,0 |  | 13 | 19 |
+| 59 | 587 | 704.4 | 4402 | 515000 | 8,0,0,0 |  | 13 | 19 |
+| 60 | 590 | 708 | 4428 | 520000 | 8,0,0,0 |  | 13 | 19 |
 </UnitTable>
 
 <SmallTitle>技能回血数据</SmallTitle>
@@ -147,6 +155,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/11/16">
+        <TimelineRow>19 本版本新增 56–60 级。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/11/17">
         <TimelineRow>18 本推出，并在 18 本新增 51 ~ 55 级飞盾战神。</TimelineRow>
     </TimelineItem>

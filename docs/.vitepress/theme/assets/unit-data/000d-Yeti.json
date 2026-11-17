@@ -11,7 +11,13 @@
     "revision": 624065,
     "revisionUrl": "https://clashofclans.fandom.com/wiki/Yeti?oldid=624065",
     "syncedOn": "2026-10-13",
-    "scope": "Source statistics tables and available 2026 history; base values"
+    "scope": "Source statistics tables and available 2026 history; base values",
+    "th19Update": {
+      "checkedOn": "2026-11-16",
+      "source": "ClashKing Assets (selected game facts)",
+      "sourceUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json",
+      "scope": "Selected new levels and baseline-matched cost/time adjustments; missing fields remain unknown."
+    }
   },
   "tables": [
     {
@@ -329,15 +335,15 @@
           },
           {
             "status": "known",
-            "value": 14500000,
-            "raw": "14,500,000"
+            "value": 14000000,
+            "raw": "14000000"
           },
           {
             "status": "known",
-            "value": 712800,
-            "raw": "8d 6h",
+            "value": 691200,
+            "raw": "8d",
             "unit": "seconds",
-            "displayInput": "8,6,0,0"
+            "displayInput": "8,0,0,0"
           },
           {
             "status": "known",
@@ -373,15 +379,15 @@
           },
           {
             "status": "known",
-            "value": 17000000,
-            "raw": "17,000,000"
+            "value": 15500000,
+            "raw": "15500000"
           },
           {
             "status": "known",
-            "value": 864000,
-            "raw": "10d",
+            "value": 734400,
+            "raw": "8d 12h",
             "unit": "seconds",
-            "displayInput": "10,0,0,0"
+            "displayInput": "8,12,0,0"
           },
           {
             "status": "known",
@@ -417,20 +423,64 @@
           },
           {
             "status": "known",
-            "value": 27500000,
-            "raw": "27,500,000"
+            "value": 19000000,
+            "raw": "19000000"
           },
           {
             "status": "known",
-            "value": 1339200,
-            "raw": "15d 12h",
+            "value": 950400,
+            "raw": "11d",
             "unit": "seconds",
-            "displayInput": "15,12,0,0"
+            "displayInput": "11,0,0,0"
           },
           {
             "status": "known",
             "value": 16,
             "raw": "16"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          },
+          {
+            "status": "known",
+            "value": 410,
+            "raw": "410"
+          },
+          {
+            "status": "known",
+            "value": 410.0,
+            "raw": "410.0"
+          },
+          {
+            "status": "known",
+            "value": 5300,
+            "raw": "5300"
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": "?"
+          },
+          {
+            "status": "known",
+            "value": 25000000,
+            "raw": "25000000"
+          },
+          {
+            "status": "known",
+            "value": 993600,
+            "raw": "11d 12h",
+            "unit": "seconds",
+            "displayInput": "11,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 17,
+            "raw": "17"
           }
         ]
       ],
@@ -558,6 +608,12 @@
       "description": "新增 8 级大雪怪。",
       "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/",
       "sourcePublishedOn": "2026-04-27"
+    },
+    {
+      "date": "2026-11-16",
+      "description": "19 本版本新增 9 级。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/",
+      "sourcePublishedOn": "2026-11-16"
     }
   ],
   "facts": [

@@ -11,7 +11,13 @@
     "revision": 623397,
     "revisionUrl": "https://clashofclans.fandom.com/wiki/Angry_Jelly?oldid=623397",
     "syncedOn": "2026-10-13",
-    "scope": "Source statistics tables and available 2026 history; base values"
+    "scope": "Source statistics tables and available 2026 history; base values",
+    "th19Update": {
+      "checkedOn": "2026-11-16",
+      "source": "ClashKing Assets (selected game facts)",
+      "sourceUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json",
+      "scope": "Selected new levels and baseline-matched cost/time adjustments; missing fields remain unknown."
+    }
   },
   "tables": [
     {
@@ -384,10 +390,10 @@
           },
           {
             "status": "known",
-            "value": 691200,
-            "raw": "8d",
+            "value": 604800,
+            "raw": "7d",
             "unit": "seconds",
-            "displayInput": "8,0,0,0"
+            "displayInput": "7,0,0,0"
           },
           {
             "status": "known",
@@ -428,10 +434,10 @@
           },
           {
             "status": "known",
-            "value": 691200,
-            "raw": "8d",
+            "value": 604800,
+            "raw": "7d",
             "unit": "seconds",
-            "displayInput": "8,0,0,0"
+            "displayInput": "7,0,0,0"
           },
           {
             "status": "known",
@@ -472,10 +478,10 @@
           },
           {
             "status": "known",
-            "value": 691200,
-            "raw": "8d",
+            "value": 648000,
+            "raw": "7d 12h",
             "unit": "seconds",
-            "displayInput": "8,0,0,0"
+            "displayInput": "7,12,0,0"
           },
           {
             "status": "known",
@@ -516,6 +522,94 @@
           },
           {
             "status": "known",
+            "value": 648000,
+            "raw": "7d 12h",
+            "unit": "seconds",
+            "displayInput": "7,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          },
+          {
+            "status": "known",
+            "value": 202,
+            "raw": "202"
+          },
+          {
+            "status": "known",
+            "value": 151.5,
+            "raw": "151.5"
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": "?"
+          },
+          {
+            "status": "known",
+            "value": 2200,
+            "raw": "2200"
+          },
+          {
+            "status": "known",
+            "value": 260000,
+            "raw": "260000"
+          },
+          {
+            "status": "known",
+            "value": 648000,
+            "raw": "7d 12h",
+            "unit": "seconds",
+            "displayInput": "7,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          },
+          {
+            "status": "known",
+            "value": 211,
+            "raw": "211"
+          },
+          {
+            "status": "known",
+            "value": 158.25,
+            "raw": "158.25"
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": "?"
+          },
+          {
+            "status": "known",
+            "value": 2275,
+            "raw": "2275"
+          },
+          {
+            "status": "known",
+            "value": 290000,
+            "raw": "290000"
+          },
+          {
+            "status": "known",
             "value": 691200,
             "raw": "8d",
             "unit": "seconds",
@@ -523,8 +617,140 @@
           },
           {
             "status": "known",
-            "value": 10,
-            "raw": "10"
+            "value": 12,
+            "raw": "12"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          },
+          {
+            "status": "known",
+            "value": 220,
+            "raw": "220"
+          },
+          {
+            "status": "known",
+            "value": 165.0,
+            "raw": "165.0"
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": "?"
+          },
+          {
+            "status": "known",
+            "value": 2350,
+            "raw": "2350"
+          },
+          {
+            "status": "known",
+            "value": 320000,
+            "raw": "320000"
+          },
+          {
+            "status": "known",
+            "value": 691200,
+            "raw": "8d",
+            "unit": "seconds",
+            "displayInput": "8,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          },
+          {
+            "status": "known",
+            "value": 229,
+            "raw": "229"
+          },
+          {
+            "status": "known",
+            "value": 171.75,
+            "raw": "171.75"
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": "?"
+          },
+          {
+            "status": "known",
+            "value": 2425,
+            "raw": "2425"
+          },
+          {
+            "status": "known",
+            "value": 350000,
+            "raw": "350000"
+          },
+          {
+            "status": "known",
+            "value": 691200,
+            "raw": "8d",
+            "unit": "seconds",
+            "displayInput": "8,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 15,
+            "raw": "15"
+          },
+          {
+            "status": "known",
+            "value": 238,
+            "raw": "238"
+          },
+          {
+            "status": "known",
+            "value": 178.5,
+            "raw": "178.5"
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": "?"
+          },
+          {
+            "status": "known",
+            "value": 2500,
+            "raw": "2500"
+          },
+          {
+            "status": "known",
+            "value": 380000,
+            "raw": "380000"
+          },
+          {
+            "status": "known",
+            "value": 691200,
+            "raw": "8d",
+            "unit": "seconds",
+            "displayInput": "8,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 12,
+            "raw": "12"
           }
         ]
       ],
@@ -561,7 +787,14 @@
       "logicalPath": "/upgrade/home_heroes/0289/Angry_Jelly_image.png"
     }
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-11-16",
+      "description": "19 本版本新增 11–15 级。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/",
+      "sourcePublishedOn": "2026-11-16"
+    }
+  ],
   "facts": [
     "The Angry Jelly is the tenth pet unlocked when the Pet House is upgraded to level 10, which requires Town Hall level 16.",
     "However, if the Hero it is paired to is being damaged by a defense and the Angry Jelly is nearby, it will actually target the defense that is attacking the Hero in order to try and save it.[1]"

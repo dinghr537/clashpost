@@ -11,7 +11,13 @@
     "revision": 588153,
     "revisionUrl": "https://clashofclans.fandom.com/wiki/Healing_Spell?oldid=588153",
     "syncedOn": "2026-10-13",
-    "scope": "Source statistics tables and available 2026 history; base values"
+    "scope": "Source statistics tables and available 2026 history; base values",
+    "th19Update": {
+      "checkedOn": "2026-11-16",
+      "source": "ClashKing Assets (selected game facts)",
+      "sourceUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json",
+      "scope": "Selected new levels and baseline-matched cost/time adjustments; missing fields remain unknown."
+    }
   },
   "tables": [
     {
@@ -481,15 +487,15 @@
           },
           {
             "status": "known",
-            "value": 19000000,
-            "raw": "19,000,000"
+            "value": 16000000,
+            "raw": "16000000"
           },
           {
             "status": "known",
-            "value": 907200,
-            "raw": "10d 12h",
+            "value": 756000,
+            "raw": "8d 18h",
             "unit": "seconds",
-            "displayInput": "10,12,0,0"
+            "displayInput": "8,18,0,0"
           },
           {
             "status": "known",
@@ -520,20 +526,59 @@
           },
           {
             "status": "known",
-            "value": 29000000,
-            "raw": "29,000,000"
+            "value": 19500000,
+            "raw": "19500000"
           },
           {
             "status": "known",
-            "value": 1296000,
-            "raw": "15d",
+            "value": 907200,
+            "raw": "10d 12h",
             "unit": "seconds",
-            "displayInput": "15,0,0,0"
+            "displayInput": "10,12,0,0"
           },
           {
             "status": "known",
             "value": 16,
             "raw": "16"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          },
+          {
+            "status": "known",
+            "value": 3485,
+            "raw": "3485"
+          },
+          {
+            "status": "known",
+            "value": 85,
+            "raw": "85"
+          },
+          {
+            "status": "known",
+            "value": 1916.75,
+            "raw": "1916.75"
+          },
+          {
+            "status": "known",
+            "value": 29500000,
+            "raw": "29500000"
+          },
+          {
+            "status": "known",
+            "value": 1252800,
+            "raw": "14d 12h",
+            "unit": "seconds",
+            "displayInput": "14,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 17,
+            "raw": "17"
           }
         ]
       ],
@@ -563,7 +608,14 @@
       "logicalPath": "/upgrade/home_tech/0101/Healing_Spell.png"
     }
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-11-16",
+      "description": "19 本版本新增 13 级。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/",
+      "sourcePublishedOn": "2026-11-16"
+    }
+  ],
   "facts": [
     "The Healing Spell is the second spell unlocked at Level 2 Spell Factory, requiring the Town Hall to be at level 6.",
     "While Heroes can also be healed by the Healing Spell, the rate of healing is reduced to 55% the rate of normal troops. On the other hand, Siege Machines are completely unaffected by the Healing Spell.",

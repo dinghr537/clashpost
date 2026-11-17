@@ -8,6 +8,7 @@ imgFolder: home_tech/000f
 wiki: https://clashofclans.fandom.com/wiki/Electro_Titan
 canonical: /upgrade/000f-Electro-Titan
 dataSyncedOn: 2026-10-13
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Electro_Titan_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
@@ -61,6 +62,8 @@ dataSyncedOn: 2026-10-13
 
 <SmallTitle>升级数据</SmallTitle>
 
+<small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为未知。</small>
+
 <script setup>
 const tableExtraInfo = [
     {
@@ -84,13 +87,17 @@ const tableExtraInfo = [
 | 1 | 180 / 270 | 75 / 30 | 7200 | \ | \ | 1 | 14 |
 | 2 | 200 / 300 | 100 / 40 | 7700 | 14000000 | 8,0,0,0 | 12 | 14 |
 | 3 | 220 / 330 | 125 / 50 | 8200 | 16000000 | 9,0,0,0 | 13 | 15 |
-| 4 | 240 / 360 | 137.5 / 55 | 8700 | 18500000 | 11,0,0,0 | 14 | 16 |
-| 5 | 270 / 405 | 150 / 60 | 9200 | 30000000 | 16,0,0,0 | 16 | 18 |
+| 4 | 240 / 360 | 137.5 / 55 | 8700 | 15500000 | 9,0,0,0 | 14 | 16 |
+| 5 | 270 / 405 | 150 / 60 | 9200 | 18000000 | 11,12,0,0 | 16 | 18 |
+| 6 | 300 / 450 | 未知 / 未知 | 10000 | 28000000 | 12,0,0,0 | 17 | 19 |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/11/16">
+        <TimelineRow>19 本版本新增 6 级。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2026/02/23">
         <TimelineRow>在 18 本新增了 5 级雷霆泰坦。</TimelineRow>
     </TimelineItem>

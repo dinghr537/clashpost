@@ -11,7 +11,13 @@
     "revision": 618175,
     "revisionUrl": "https://clashofclans.fandom.com/wiki/Super_Wizard_Tower?oldid=618175",
     "syncedOn": "2026-10-13",
-    "scope": "Source statistics tables and available 2026 history; base values"
+    "scope": "Source statistics tables and available 2026 history; base values",
+    "th19Update": {
+      "checkedOn": "2026-11-16",
+      "source": "ClashKing Assets (selected game facts)",
+      "sourceUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json",
+      "scope": "Selected TH16–18 costs and times where the previous snapshot matched this site."
+    }
   },
   "tables": [
     {
@@ -252,15 +258,15 @@
           },
           {
             "status": "known",
-            "value": 29000000,
-            "raw": "29,000,000"
+            "value": 24000000,
+            "raw": "24000000"
           },
           {
             "status": "known",
-            "value": 1123200,
-            "raw": "13d",
+            "value": 864000,
+            "raw": "10d",
             "unit": "seconds",
-            "displayInput": "13,0,0,0"
+            "displayInput": "10,0,0,0"
           },
           {
             "status": "known",
@@ -301,15 +307,15 @@
           },
           {
             "status": "known",
-            "value": 30000000,
-            "raw": "30,000,000"
+            "value": 25500000,
+            "raw": "25500000"
           },
           {
             "status": "known",
-            "value": 1209600,
-            "raw": "14d",
+            "value": 950400,
+            "raw": "11d",
             "unit": "seconds",
-            "displayInput": "14,0,0,0"
+            "displayInput": "11,0,0,0"
           },
           {
             "status": "known",

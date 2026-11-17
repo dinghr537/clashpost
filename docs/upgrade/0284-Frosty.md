@@ -8,6 +8,7 @@ imgFolder: home_heroes/0284
 wiki: https://clashofclans.fandom.com/wiki/Frosty
 canonical: /upgrade/0284-Frosty
 dataSyncedOn: 2026-10-13
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Frosty_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
@@ -66,6 +67,8 @@ dataSyncedOn: 2026-10-13
 
 <SmallTitle>升级数据</SmallTitle>
 
+<small>19 本版本对部分旧等级的费用、时间作了调整；变更数值参考 [ClashKing Assets](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)。</small>
+
 <script setup>
 const tableExtraInfo = [
     {
@@ -102,10 +105,10 @@ const tableExtraInfo = [
 | 9 | 126 | 151.2 | 2 | 8 | 3200 | 170000 | 6,0,0,0 |  | 5 | 15 |
 | 10 | 130 | 156 | 2 | 10 | 3300 | 180000 | 6,12,0,0 |  | 5 | 15 |
 | 11 | 134 | 160.8 | 2 | 10 | 3400 | 200000 | 7,0,0,0 |  | 11 | 17 |
-| 12 | 138 | 165.6 | 2 | 10 | 3500 | 230000 | 8,0,0,0 |  | 11 | 17 |
-| 13 | 142 | 170.4 | 2 | 10 | 3600 | 260000 | 8,0,0,0 |  | 11 | 17 |
-| 14 | 146 | 175.2 | 2 | 10 | 3700 | 290000 | 8,0,0,0 |  | 11 | 17 |
-| 15 | 150 | 180 | 3 | 12 | 3800 | 320000 | 8,0,0,0 |  | 11 | 17 |
+| 12 | 138 | 165.6 | 2 | 10 | 3500 | 230000 | 7,12,0,0 |  | 11 | 17 |
+| 13 | 142 | 170.4 | 2 | 10 | 3600 | 260000 | 7,12,0,0 |  | 11 | 17 |
+| 14 | 146 | 175.2 | 2 | 10 | 3700 | 290000 | 7,12,0,0 |  | 11 | 17 |
+| 15 | 150 | 180 | 3 | 12 | 3800 | 320000 | 7,12,0,0 |  | 11 | 17 |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>

@@ -8,6 +8,7 @@ imgFolder: home_tech/0086
 wiki: https://clashofclans.fandom.com/wiki/Bowler
 canonical: /upgrade/0086-Bowler
 dataSyncedOn: 2026-10-13
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 - *如想查看该兵种的强化版本，请访问：[超级巨石投手](/upgrade/060c-Super-Bowler)。*
@@ -53,6 +54,8 @@ dataSyncedOn: 2026-10-13
 
 <SmallTitle>升级数据</SmallTitle>
 
+<small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为未知。</small>
+
 <script setup>
 const tableExtraInfo = [
     {
@@ -81,13 +84,17 @@ const tableExtraInfo = [
 | 6 | 108 | 237.6 | 530 | 110000 | 6,0,0,0 | 12 | 14 |
 | 7 | 114 | 250.8 | 565 | 145000 | 7,0,0,0 | 13 | 15 |
 | 8 | 126 | 277.2 | 600 | 175000 | 7,12,0,0 | 14 | 16 |
-| 9 | 140 | 308 | 700 | 260000 | 10,0,0,0 | 15 | 17 |
-| 10 | 160 | 352 | 860 | 360000 | 15,0,0,0 | 16 | 18 |
+| 9 | 140 | 308 | 700 | 205000 | 8,0,0,0 | 15 | 17 |
+| 10 | 160 | 352 | 860 | 245000 | 9,0,0,0 | 16 | 18 |
+| 11 | 180 | 396 | 1050 | 385000 | 11,12,0,0 | 17 | 19 |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/11/16">
+        <TimelineRow>19 本版本新增 11 级。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2026/04/27">
         <TimelineRow>10 级巨石投手每秒伤害由 156 增至 160，生命值由 850 增至 860。 <a href="https://clashofclans.fandom.com/wiki/Bowler#History" target="_blank" rel="noopener noreferrer">来源</a></TimelineRow>
     </TimelineItem>

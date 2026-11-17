@@ -26,6 +26,13 @@
           "levels": "10–15"
         }
       ]
+    },
+    "th19Update": {
+      "checkedOn": "2026-11-16",
+      "source": "ClashKing Assets (selected game facts; level numbering mapped to older Wiki scale)",
+      "sourceUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json",
+      "scope": "Level mapping based on 12 matching earlier stat pairs and the base troop level; unverified fields remain unknown.",
+      "levelOffset": 3
     }
   },
   "tables": [
@@ -129,7 +136,8 @@
         "Level",
         "Damage per Second",
         "Damage per Hit",
-        "Hitpoints"
+        "Hitpoints",
+        "Town Hall Level Required"
       ],
       "rows": [
         [
@@ -152,6 +160,11 @@
             "status": "known",
             "value": 1600,
             "raw": "1600"
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": "?"
           }
         ],
         [
@@ -174,6 +187,11 @@
             "status": "known",
             "value": 1700,
             "raw": "1700"
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": "?"
           }
         ],
         [
@@ -196,6 +214,11 @@
             "status": "known",
             "value": 1900,
             "raw": "1900"
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": "?"
           }
         ],
         [
@@ -218,6 +241,11 @@
             "status": "known",
             "value": 2050,
             "raw": "2050"
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": "?"
           }
         ],
         [
@@ -240,6 +268,11 @@
             "status": "known",
             "value": 2250,
             "raw": "2250"
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": "?"
           }
         ],
         [
@@ -262,6 +295,38 @@
             "status": "known",
             "value": 2500,
             "raw": "2500"
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": "?"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          },
+          {
+            "status": "known",
+            "value": 330,
+            "raw": "330"
+          },
+          {
+            "status": "known",
+            "value": 330.0,
+            "raw": "330.0"
+          },
+          {
+            "status": "known",
+            "value": 2750,
+            "raw": "2750"
+          },
+          {
+            "status": "known",
+            "value": 19,
+            "raw": "19"
           }
         ]
       ],
@@ -326,6 +391,12 @@
       "dateSourceUrl": "https://x.com/ClashofClans/status/2112450159326179560",
       "dateEvidence": "Maintenance completion on October 20 UTC; adjusted stats confirmed in-game on October 20.",
       "type": "balance"
+    },
+    {
+      "date": "2026-11-16",
+      "description": "19 本版本对应的普通兵种新增等级，超级兵属性随之更新。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/",
+      "sourcePublishedOn": "2026-11-16"
     }
   ],
   "facts": [

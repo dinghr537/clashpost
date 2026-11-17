@@ -8,6 +8,7 @@ imgFolder: home_buildings/030b
 wiki: https://clashofclans.fandom.com/wiki/Eagle_Artillery
 canonical: /upgrade/030b-Eagle-Artillery
 dataSyncedOn: 2026-10-13
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 - *如想查看大本营和天鹰火炮合并后的大本武器，请移步：[地狱火炮](/upgrade/0315-Inferno-Artillery)。*
@@ -88,6 +89,8 @@ dataSyncedOn: 2026-10-13
 
 <SmallTitle>升级数据</SmallTitle>
 
+<small>19 本版本对部分旧等级的费用、时间作了调整；变更数值参考 [ClashKing Assets](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)。</small>
+
 <script setup>
 const tableExtraInfo = [
     {
@@ -119,7 +122,7 @@ const tableExtraInfo = [
 | 4 | 350 | 35 | 105 | 5200 | 10000000 | 7,12,0,0 |  | 13 |
 | 5 | 425 | 40 | 127.5 | 5600 | 12000000 | 8,0,0,0 |  | 14 |
 | 6 | 475 | 45 | 142.5 | 5900 | 13000000 | 9,0,0,0 |  | 15 |
-| 7 | 525 | 50 | 157.5 | 6200 | 14000000 | 9,12,0,0 |  | 16 |
+| 7 | 525 | 50 | 157.5 | 6200 | 14000000 | 9,0,0,0 |  | 16 |
 </UnitTable>
 
 ③ 这里的平均秒伤是以 10 秒一轮为攻速计算出的，由于天鹰火炮的实际攻速比游戏面板慢，因此实际秒伤会低于这个值。

@@ -8,6 +8,7 @@ imgFolder: home_buildings/0382
 wiki: https://clashofclans.fandom.com/wiki/Air_Bomb
 canonical: /upgrade/0382-Air-Bomb
 dataSyncedOn: 2026-10-13
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 - 本页内容不是搜空地雷，如想查看搜空地雷的数据，请访问：[搜空地雷](/upgrade/0384-Seeking-Air-Mine)。
@@ -51,6 +52,8 @@ dataSyncedOn: 2026-10-13
 
 <SmallTitle>升级数据</SmallTitle>
 
+<small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为未知。</small>
+
 <script setup>
 const tableExtraInfo = [
     {
@@ -87,13 +90,17 @@ const tableExtraInfo = [
 | 9 | 325 | 2000000 | 1,0,0,0 |  | 14 |
 | 10 | 350 | 3000000 | 1,12,0,0 |  | 15 |
 | 11 | 375 | 5000000 | 2,0,0,0 |  | 16 |
-| 12 | 400 | 9500000 | 3,0,0,0 |  | 17 |
-| 13 | 425 | 15000000 | 9,0,0,0 |  | 18 |
+| 12 | 400 | 6500000 | 2,12,0,0 |  | 17 |
+| 13 | 425 | 9000000 | 5,0,0,0 |  | 18 |
+| 14 | 450 | 17500000 | 8,12,0,0 |  | 19 |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/11/16">
+        <TimelineRow>19 本版本新增 14 级。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2026/04/27">
         <TimelineRow>18 本增加 1 个空中炸弹的建造名额。 <a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
     </TimelineItem>

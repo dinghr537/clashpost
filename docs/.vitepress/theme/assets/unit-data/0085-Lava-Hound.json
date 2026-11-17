@@ -11,7 +11,13 @@
     "revision": 624357,
     "revisionUrl": "https://clashofclans.fandom.com/wiki/Lava_Hound?oldid=624357",
     "syncedOn": "2026-10-13",
-    "scope": "Source statistics tables and available 2026 history; base values"
+    "scope": "Source statistics tables and available 2026 history; base values",
+    "th19Update": {
+      "checkedOn": "2026-11-16",
+      "source": "ClashKing Assets (selected game facts)",
+      "sourceUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json",
+      "scope": "Selected new levels and baseline-matched cost/time adjustments; missing fields remain unknown."
+    }
   },
   "tables": [
     {
@@ -445,15 +451,15 @@
           },
           {
             "status": "known",
-            "value": 200000,
-            "raw": "200,000"
+            "value": 190000,
+            "raw": "190000"
           },
           {
             "status": "known",
-            "value": 691200,
-            "raw": "8d",
+            "value": 648000,
+            "raw": "7d 12h",
             "unit": "seconds",
-            "displayInput": "8,0,0,0"
+            "displayInput": "7,12,0,0"
           },
           {
             "status": "known",
@@ -499,20 +505,74 @@
           },
           {
             "status": "known",
-            "value": 345000,
-            "raw": "345,000"
+            "value": 285000,
+            "raw": "285000"
           },
           {
             "status": "known",
-            "value": 1317600,
-            "raw": "15d 6h",
+            "value": 907200,
+            "raw": "10d 12h",
             "unit": "seconds",
-            "displayInput": "15,6,0,0"
+            "displayInput": "10,12,0,0"
           },
           {
             "status": "known",
             "value": 16,
             "raw": "16"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          },
+          {
+            "status": "known",
+            "value": 26,
+            "raw": "26"
+          },
+          {
+            "status": "known",
+            "value": 52.0,
+            "raw": "52.0"
+          },
+          {
+            "status": "known",
+            "value": 500,
+            "raw": "500"
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": "?"
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": "?"
+          },
+          {
+            "status": "known",
+            "value": 11000,
+            "raw": "11000"
+          },
+          {
+            "status": "known",
+            "value": 375000,
+            "raw": "375000"
+          },
+          {
+            "status": "known",
+            "value": 950400,
+            "raw": "11d",
+            "unit": "seconds",
+            "displayInput": "11,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 17,
+            "raw": "17"
           }
         ]
       ],
@@ -640,6 +700,12 @@
     {
       "date": "2026-02-23",
       "description": "Added the level 8 Lava hound. Lava Hound8"
+    },
+    {
+      "date": "2026-11-16",
+      "description": "19 本版本新增 9 级。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/",
+      "sourcePublishedOn": "2026-11-16"
     }
   ],
   "facts": [

@@ -8,6 +8,7 @@ imgFolder: home_tech/0105
 wiki: https://clashofclans.fandom.com/wiki/Clone_Spell
 canonical: /upgrade/0105-Clone-Spell
 dataSyncedOn: 2026-10-13
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Clone_Spell.png" :imgAlt="$frontmatter.navTitle"
@@ -37,6 +38,8 @@ dataSyncedOn: 2026-10-13
 
 <SmallTitle>升级数据</SmallTitle>
 
+<small>19 本版本对部分旧等级的费用、时间作了调整；变更数值参考 [ClashKing Assets](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)。</small>
+
 <script setup>
 const tableExtraInfo = [
     {
@@ -65,7 +68,7 @@ const tableExtraInfo = [
 | 6 | 34 | 5000000 | 4,0,0,0 | 11 | 13 |
 | 7 | 38 | 8000000 | 5,0,0,0 | 12 | 14 |
 | 8 | 42 | 9000000 | 7,0,0,0 | 13 | 15 |
-| 9 | 48 | 26000000 | 13,12,0,0 | 16 | 18 |
+| 9 | 48 | 21000000 | 11,6,0,0 | 16 | 18 |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>

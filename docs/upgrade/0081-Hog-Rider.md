@@ -9,6 +9,7 @@ wiki: https://clashofclans.fandom.com/wiki/Hog_Rider
 canonical: /upgrade/0081-Hog-Rider
 dataSyncedOn: 2026-10-13
 dataBalanceUpdatedOn: 2026-10-20
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 - *如想查看该兵种的强化版本，请访问：[超级野猪骑士](/upgrade/060f-Super-Hog-Rider)。*
@@ -56,6 +57,8 @@ dataBalanceUpdatedOn: 2026-10-20
 
 <SmallTitle>升级数据</SmallTitle>
 
+<small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为未知。</small>
+
 <script setup>
 const tableExtraInfo = [
     {
@@ -88,14 +91,18 @@ const tableExtraInfo = [
 | 10 | 176 | 176 | 1050 | 85000 | 4,0,0,0 | 11 | 13 |
 | 11 | 187 | 187 | 1150 | 107500 | 5,0,0,0 | 12 | 14 |
 | 12 | 200 | 200 | 1350 | 125000 | 5,12,0,0 | 13 | 15 |
-| 13 | 213 | 213 | 1500 | 175000 | 6,12,0,0 | 14 | 16 |
-| 14 | 225 | 225 | 1600 | 240000 | 10,0,0,0 | 15 | 17 |
-| 15 | 250 | 250 | 1950 | 340000 | 14,12,0,0 | 16 | 18 |
+| 13 | 213 | 213 | 1500 | 135000 | 5,12,0,0 | 14 | 16 |
+| 14 | 225 | 225 | 1600 | 155000 | 6,12,0,0 | 15 | 17 |
+| 15 | 250 | 250 | 1950 | 285000 | 10,12,0,0 | 16 | 18 |
+| 16 | 275 | 275 | 2150 | 440000 | 13,12,0,0 | 17 | 19 |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/11/16">
+        <TimelineRow>19 本版本新增 16 级。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2026/10/20">
         <TimelineRow>提高 8–15 级生命值：810→870、890→960、970→1050、1080→1150、1230→1350、1380→1500、1500→1600、1750→1950（依等级顺序）。</TimelineRow>
         <TimelineRow><a href="https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/" target="_blank" rel="noopener noreferrer">官方公告</a>（10/17 发布） · <a href="https://clashfox.com/blog/balance-changes-before-town-hall-19-fire-heart-and-ruin-witch-nerfed-hogs-and-p-e-k-k-a-bu" target="_blank" rel="noopener noreferrer">数值参考</a> · <a href="https://x.com/ClashofClans/status/2112450159326179560" target="_blank" rel="noopener noreferrer">10/20 维护完成</a>。</TimelineRow>

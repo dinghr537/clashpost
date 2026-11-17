@@ -8,6 +8,7 @@ imgFolder: home_heroes/0283
 wiki: https://clashofclans.fandom.com/wiki/Unicorn
 canonical: /upgrade/0283-Unicorn
 dataSyncedOn: 2026-10-13
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Unicorn_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
@@ -43,6 +44,8 @@ dataSyncedOn: 2026-10-13
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
+
+<small>19 本版本对部分旧等级的费用、时间作了调整；变更数值参考 [ClashKing Assets](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)。</small>
 
 <script setup>
 const tableExtraInfo = [
@@ -80,10 +83,10 @@ const tableExtraInfo = [
 | 9 | 68 | 68 | 1875 | 155000 | 6,0,0,0 |  | 4 | 14 |
 | 10 | 70 | 70 | 1950 | 170000 | 6,12,0,0 |  | 4 | 14 |
 | 11 | 71 | 71 | 2025 | 200000 | 7,0,0,0 |  | 11 | 17 |
-| 12 | 72 | 72 | 2100 | 230000 | 8,0,0,0 |  | 11 | 17 |
-| 13 | 73 | 73 | 2175 | 260000 | 8,0,0,0 |  | 11 | 17 |
-| 14 | 74 | 74 | 2250 | 290000 | 8,0,0,0 |  | 11 | 17 |
-| 15 | 75 | 75 | 2325 | 320000 | 8,0,0,0 |  | 11 | 17 |
+| 12 | 72 | 72 | 2100 | 230000 | 7,12,0,0 |  | 11 | 17 |
+| 13 | 73 | 73 | 2175 | 260000 | 7,12,0,0 |  | 11 | 17 |
+| 14 | 74 | 74 | 2250 | 290000 | 7,12,0,0 |  | 11 | 17 |
+| 15 | 75 | 75 | 2325 | 320000 | 7,12,0,0 |  | 11 | 17 |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>

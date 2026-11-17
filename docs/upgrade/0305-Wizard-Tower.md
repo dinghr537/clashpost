@@ -8,6 +8,7 @@ imgFolder: home_buildings/0305
 wiki: https://clashofclans.fandom.com/wiki/Wizard_Tower
 canonical: /upgrade/0305-Wizard-Tower
 dataSyncedOn: 2026-10-13
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 - *如想查看由两个法师塔合成的超级法师塔，请访问 [超级法师塔](/upgrade/0318-Super-Wizard-Tower)。*
@@ -64,6 +65,8 @@ dataSyncedOn: 2026-10-13
 
 <SmallTitle>升级数据</SmallTitle>
 
+<small>19 本版本对部分旧等级的费用、时间作了调整；变更数值参考 [ClashKing Assets](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)。</small>
+
 <script setup>
 const tableExtraInfo = [
     {
@@ -105,7 +108,7 @@ const tableExtraInfo = [
 | 14 | 90 | 117 | 2800 | 4500000 | 3,0,0,0 |  | 14 |
 | 15 | 95 | 123.5 | 3000 | 5500000 | 4,0,0,0 |  | 15 |
 | 16 | 102 | 132.6 | 3150 | 8000000 | 4,12,0,0 |  | 16 |
-| 17 | 110 | 143 | 3300 | 14000000 | 5,12,0,0 |  | 17 |
+| 17 | 110 | 143 | 3300 | 12000000 | 5,0,0,0 |  | 17 |
 | ⚡1 | 114 | 148.2 | 3300 | 8M | 3,12 |  | 17 |
 | ⚡2 | 114 | 148.2 | 3375 | 4M | 5,12 |  | 17 |
 </UnitTable>

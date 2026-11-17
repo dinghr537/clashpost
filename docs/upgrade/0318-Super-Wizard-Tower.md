@@ -8,6 +8,7 @@ imgFolder: home_buildings/0318
 wiki: https://clashofclans.fandom.com/wiki/Super_Wizard_Tower
 canonical: /upgrade/0318-Super-Wizard-Tower
 dataSyncedOn: 2026-10-13
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 - *如想查看合并前的建筑，请移步：[法师塔](/upgrade/0305-Wizard-Tower)。*
@@ -58,6 +59,8 @@ dataSyncedOn: 2026-10-13
 
 <SmallTitle>升级数据</SmallTitle>
 
+<small>19 本版本对部分旧等级的费用、时间作了调整；变更数值参考 [ClashKing Assets](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)。</small>
+
 <script setup>
 const tableExtraInfo = [
     {
@@ -83,8 +86,8 @@ const tableExtraInfo = [
 
 | 等级 | 每秒伤害 | 直接伤害 | 连锁伤害 | 生命值 | 升级费用 | 升级时间 |升级后可<br>获得的经验| 所需<br>大本等级 |
 | ---- |   ---   |   ---   |   ---   |   ---  |   ---   |   ---   |        ---         |      ----      |
-| 1 | 290 | 377 | 150.8 | 6000 | 29000000 | 13,0,0,0 |  | 18 |
-| 2 | 320 | 416 | 166.4 | 6300 | 30000000 | 14,0,0,0 |  | 18 |
+| 1 | 290 | 377 | 150.8 | 6000 | 24000000 | 10,0,0,0 |  | 18 |
+| 2 | 320 | 416 | 166.4 | 6300 | 25500000 | 11,0,0,0 |  | 18 |
 | ⚡1 | 327 | 425.1 | 170.04 | 6300 | 12000000 | 6,0,0,0 |  | 18 |
 | ⚡2 | 327 | 425.1 | 170.04 | 6450 | 14000000 | 7,0,0,0 |  | 18 |
 </UnitTable>

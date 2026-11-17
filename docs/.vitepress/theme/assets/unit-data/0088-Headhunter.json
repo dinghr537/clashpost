@@ -17,7 +17,15 @@
         "table": 2,
         "reviewedOn": "2026-10-29",
         "originalRows": [
-          ["Heroes (x4 Damage)", "Single Target", "6", "32", "0.6s", "9", "3 tiles"]
+          [
+            "Heroes (x4 Damage)",
+            "Single Target",
+            "6",
+            "32",
+            "0.6s",
+            "9",
+            "3 tiles"
+          ]
         ],
         "cells": [
           {
@@ -29,7 +37,13 @@
         ],
         "reason": "The user reported the in-game movement speed as 24; the saved Wiki revision lists 32."
       }
-    ]
+    ],
+    "th19Update": {
+      "checkedOn": "2026-11-16",
+      "source": "ClashKing Assets (selected game facts)",
+      "sourceUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json",
+      "scope": "Selected new levels and baseline-matched cost/time adjustments; missing fields remain unknown."
+    }
   },
   "tables": [
     {
@@ -322,20 +336,79 @@
           },
           {
             "status": "known",
-            "value": 370000,
-            "raw": "370,000"
+            "value": 275000,
+            "raw": "275000"
           },
           {
             "status": "known",
-            "value": 1339200,
-            "raw": "15d 12h",
+            "value": 864000,
+            "raw": "10d",
             "unit": "seconds",
-            "displayInput": "15,12,0,0"
+            "displayInput": "10,0,0,0"
           },
           {
             "status": "known",
             "value": 16,
             "raw": "16"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 145,
+            "raw": "145"
+          },
+          {
+            "status": "known",
+            "value": 87.0,
+            "raw": "87.0"
+          },
+          {
+            "status": "known",
+            "value": 580,
+            "raw": "580"
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": "?"
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": "?"
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": "?"
+          },
+          {
+            "status": "known",
+            "value": 560,
+            "raw": "560"
+          },
+          {
+            "status": "known",
+            "value": 425000,
+            "raw": "425000"
+          },
+          {
+            "status": "known",
+            "value": 1080000,
+            "raw": "12d 12h",
+            "unit": "seconds",
+            "displayInput": "12,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 17,
+            "raw": "17"
           }
         ]
       ],
@@ -398,6 +471,12 @@
     {
       "date": "2026-04-27",
       "description": "Added the level 4 Headhunter. Headhunter4"
+    },
+    {
+      "date": "2026-11-16",
+      "description": "19 本版本新增 5 级。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/",
+      "sourcePublishedOn": "2026-11-16"
     }
   ],
   "facts": [

@@ -22,6 +22,12 @@ Wiki 文字与表格整理来自 **Clash of Clans Wiki 的贡献者**，除另�
 
 本站的修改包括中文翻译、表格字段整理、数值格式转换，以及与原部落驿站资料合并。对这些文字和表格的改编采用 CC BY-SA 4.0；采用后续同要素版本的依据是 [CC BY-SA 3.0 第 4(b) 条](https://creativecommons.org/licenses/by-sa/3.0/legalcode.en#s4b)。保留的未改编 Wiki 原文仍适用其原 CC BY-SA 3.0 许可。
 
+## COC Wiki 与 19 本资料
+
+[COC Wiki 19 本指南](https://cocwiki.com/guides/town-hall-19)中的部分资料注明源自 Clash of Clans Wiki。依据 [COC Wiki 使用条款](https://cocwiki.com/terms)，本站在使用这些资料的页面同时注明 COC Wiki 和原 Wiki，并保留相应的相同方式共享许可。两站的资料并非每个页面都已更新，具体来源以单位页说明为准。
+
+19 本新增等级和部分旧等级的游戏数值也参考了 [ClashKing Assets 的固定修订](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)。它的仓库声明采用 GPL-3.0；本站只引用本次更新相关的游戏事实，没有复制其说明文字或图片，也不据此宣称这些第三方材料采用本站的 CC 许可。尚未核实的字段标为“未知”。
+
 ## 官方资料与图片
 
 Supercell 公告和帮助页面用于核对游戏数值与机制，对应链接标在正文中。Supercell 的游戏图片、图标、名称和商标仍归其权利人所有，使用条件见 [Supercell 玩家内容政策](https://supercell.com/en/fan-content-policy/)。

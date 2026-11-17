@@ -11,7 +11,13 @@
     "revision": 625333,
     "revisionUrl": "https://clashofclans.fandom.com/wiki/Bowler?oldid=625333",
     "syncedOn": "2026-10-13",
-    "scope": "Source statistics tables and available 2026 history; base values"
+    "scope": "Source statistics tables and available 2026 history; base values",
+    "th19Update": {
+      "checkedOn": "2026-11-16",
+      "source": "ClashKing Assets (selected game facts)",
+      "sourceUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json",
+      "scope": "Selected new levels and baseline-matched cost/time adjustments; missing fields remain unknown."
+    }
   },
   "tables": [
     {
@@ -415,15 +421,15 @@
           },
           {
             "status": "known",
-            "value": 260000,
-            "raw": "260,000"
+            "value": 205000,
+            "raw": "205000"
           },
           {
             "status": "known",
-            "value": 864000,
-            "raw": "10d",
+            "value": 691200,
+            "raw": "8d",
             "unit": "seconds",
-            "displayInput": "10,0,0,0"
+            "displayInput": "8,0,0,0"
           },
           {
             "status": "known",
@@ -454,20 +460,59 @@
           },
           {
             "status": "known",
-            "value": 360000,
-            "raw": "360,000"
+            "value": 245000,
+            "raw": "245000"
           },
           {
             "status": "known",
-            "value": 1296000,
-            "raw": "15d",
+            "value": 777600,
+            "raw": "9d",
             "unit": "seconds",
-            "displayInput": "15,0,0,0"
+            "displayInput": "9,0,0,0"
           },
           {
             "status": "known",
             "value": 16,
             "raw": "16"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 11,
+            "raw": "11"
+          },
+          {
+            "status": "known",
+            "value": 180,
+            "raw": "180"
+          },
+          {
+            "status": "known",
+            "value": 396.0,
+            "raw": "396.0"
+          },
+          {
+            "status": "known",
+            "value": 1050,
+            "raw": "1050"
+          },
+          {
+            "status": "known",
+            "value": 385000,
+            "raw": "385000"
+          },
+          {
+            "status": "known",
+            "value": 993600,
+            "raw": "11d 12h",
+            "unit": "seconds",
+            "displayInput": "11,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 17,
+            "raw": "17"
           }
         ]
       ],
@@ -602,6 +647,12 @@
     {
       "date": "2026-04-27",
       "description": "Increased damage at level 10 from 156 to 160 Damage Increased Hitpoints at level 10 from 850 to 860 Hitpoints"
+    },
+    {
+      "date": "2026-11-16",
+      "description": "19 本版本新增 11 级。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/",
+      "sourcePublishedOn": "2026-11-16"
     }
   ],
   "facts": [

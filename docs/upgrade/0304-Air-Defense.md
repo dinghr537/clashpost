@@ -9,6 +9,7 @@ wiki: https://clashofclans.fandom.com/wiki/Air_Defense
 canonical: /upgrade/0304-Air-Defense
 dataSyncedOn: 2026-10-13
 dataBalanceUpdatedOn: 2026-10-20
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 - *如想查看夜世界的多管防空火炮，请访问：[夜世界防空火炮](/upgrade/1104-Firecrackers)。*
@@ -42,8 +43,8 @@ dataBalanceUpdatedOn: 2026-10-20
 <SmallTitle>建筑数量对照表</SmallTitle>
 
 <BuildingNum>
-    <BuildingNumRow title="大本等级" num="1 - 3, 4 - 5, 6, 7 - 8, 9 - 18" />
-    <BuildingNumRow title="建筑数量" num="    0,     1, 2,     3,      4" />
+    <BuildingNumRow title="大本等级" num="1 - 3, 4 - 5, 6, 7 - 8, 9 - 18, 19" />
+    <BuildingNumRow title="建筑数量" num="    0,     1, 2,     3,      4,  5" />
 </BuildingNum>
 
 <SmallTitle>属性</SmallTitle>
@@ -58,6 +59,8 @@ dataBalanceUpdatedOn: 2026-10-20
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
+
+<small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为未知。</small>
 
 <script setup>
 const tableExtraInfo = [
@@ -80,6 +83,8 @@ const tableExtraInfo = [
 ];
 </script>
 
+<p><small>2026 年 19 本更新后，本建筑此前的超级充能已移除；下方带 ⚡ 的行仅供查阅历史数据。正在进行的充能会全额退款，已完成的充能不退款。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/">官方公告</a></small></p>
+
 <UnitTable :tableExtraInfo="tableExtraInfo">
 
 | 等级 | 每秒伤害 | 每次伤害 | 生命值 | 升级费用 |  升级时间  |升级后可<br>获得的经验| 所需<br>大本等级 |
@@ -97,9 +102,10 @@ const tableExtraInfo = [
 | 11 | 440 | 440 | 1500 | 5600000 | 4,12,0,0 |  | 13 |
 | 12 | 500 | 500 | 1650 | 6500000 | 5,0,0,0 |  | 14 |
 | 13 | 540 | 540 | 1750 | 8000000 | 6,0,0,0 |  | 15 |
-| 14 | 600 | 600 | 1850 | 9000000 | 6,12,0,0 |  | 16 |
-| 15 | 650 | 650 | 1950 | 15000000 | 7,0,0,0 |  | 17 |
-| 16 | 700 | 700 | 2000 | 26000000 | 13,6,0,0 |  | 18 |
+| 14 | 600 | 600 | 1850 | 8500000 | 5,12,0,0 |  | 16 |
+| 15 | 650 | 650 | 1950 | 13500000 | 7,0,0,0 |  | 17 |
+| 16 | 700 | 700 | 2050 | 18500000 | 10,0,0,0 |  | 18 |
+| 17 | 790 | 790 | 2150 | 28500000 | 14,0,0,0 |  | 19 |
 | ⚡1 | 720 | 720 | 2000 | 2500000 | 1,2,0,0 |  | 18 |
 | ⚡2 | 740 | 740 | 2000 | 1250000 | 1,17,0,0 |  | 18 |
 </UnitTable>
@@ -107,6 +113,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/11/16">
+        <TimelineRow>19 本版本新增 17 级。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2026/10/20">
         <TimelineRow>充能 1 级：费用由 600 万降至 250 万，时间由 2天18小时缩短至 1天2小时。</TimelineRow>
         <TimelineRow>充能 2 级：费用由 300 万降至 125 万，时间由 4天6小时缩短至 1天17小时。</TimelineRow>

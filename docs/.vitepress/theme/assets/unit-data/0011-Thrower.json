@@ -11,7 +11,13 @@
     "revision": 625391,
     "revisionUrl": "https://clashofclans.fandom.com/wiki/Thrower?oldid=625391",
     "syncedOn": "2026-10-13",
-    "scope": "Source statistics tables and available 2026 history; base values"
+    "scope": "Source statistics tables and available 2026 history; base values",
+    "th19Update": {
+      "checkedOn": "2026-11-16",
+      "source": "ClashKing Assets (selected game facts)",
+      "sourceUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json",
+      "scope": "Selected new levels and baseline-matched cost/time adjustments; missing fields remain unknown."
+    }
   },
   "tables": [
     {
@@ -142,15 +148,15 @@
           },
           {
             "status": "known",
-            "value": 16000000,
-            "raw": "16,000,000"
+            "value": 15500000,
+            "raw": "15500000"
           },
           {
             "status": "known",
-            "value": 820800,
-            "raw": "9d 12h",
+            "value": 777600,
+            "raw": "9d",
             "unit": "seconds",
-            "displayInput": "9,12,0,0"
+            "displayInput": "9,0,0,0"
           },
           {
             "status": "known",
@@ -181,15 +187,15 @@
           },
           {
             "status": "known",
-            "value": 18000000,
-            "raw": "18,000,000"
+            "value": 16000000,
+            "raw": "16000000"
           },
           {
             "status": "known",
-            "value": 907200,
-            "raw": "10d 12h",
+            "value": 820800,
+            "raw": "9d 12h",
             "unit": "seconds",
-            "displayInput": "10,12,0,0"
+            "displayInput": "9,12,0,0"
           },
           {
             "status": "known",
@@ -220,20 +226,59 @@
           },
           {
             "status": "known",
-            "value": 27000000,
-            "raw": "27,000,000"
+            "value": 20500000,
+            "raw": "20500000"
           },
           {
             "status": "known",
-            "value": 1296000,
-            "raw": "15d",
+            "value": 993600,
+            "raw": "11d 12h",
             "unit": "seconds",
-            "displayInput": "15,0,0,0"
+            "displayInput": "11,12,0,0"
           },
           {
             "status": "known",
             "value": 16,
             "raw": "16"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "known",
+            "value": 240,
+            "raw": "240"
+          },
+          {
+            "status": "known",
+            "value": 600.0,
+            "raw": "600.0"
+          },
+          {
+            "status": "known",
+            "value": 2800,
+            "raw": "2800"
+          },
+          {
+            "status": "known",
+            "value": 29500000,
+            "raw": "29500000"
+          },
+          {
+            "status": "known",
+            "value": 1123200,
+            "raw": "13d",
+            "unit": "seconds",
+            "displayInput": "13,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 17,
+            "raw": "17"
           }
         ]
       ],
@@ -299,6 +344,12 @@
     {
       "date": "2026-09-22",
       "description": "Reduced movement speed from 18 to 16. Movement Speed Reduced hitpoints at levels 3 and 4: Level 3: 2,600 -> 2,500 Hitpoints Level 4: 2,800 -> 2,650 Hitpoints Reduced damages at levels 3 and 4: Level 3: 230 -> 220 Damage Level 4: 240 -> 230 Damage"
+    },
+    {
+      "date": "2026-11-16",
+      "description": "19 本版本新增 5 级。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/",
+      "sourcePublishedOn": "2026-11-16"
     }
   ],
   "facts": [

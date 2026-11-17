@@ -8,6 +8,7 @@ imgFolder: home_tech/0108
 wiki: https://clashofclans.fandom.com/wiki/Revive_Spell
 canonical: /upgrade/0108-Revive-Spell
 dataSyncedOn: 2026-10-13
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Revive_Spell_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
@@ -44,6 +45,8 @@ dataSyncedOn: 2026-10-13
 
 <SmallTitle>升级数据</SmallTitle>
 
+<small>19 本版本对部分旧等级的费用、时间作了调整；变更数值参考 [ClashKing Assets](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)。</small>
+
 <script setup>
 const tableExtraInfo = [
     {
@@ -66,9 +69,9 @@ const tableExtraInfo = [
 | ---- |        ---       |    ---   |    ---    |       ----      |      ----    |
 | 1 | 60% | \ | \ | 1 | 15 |
 | 2 | 65% | 18000000 | 7,0,0,0 | 13 | 15 |
-| 3 | 70% | 19000000 | 8,0,0,0 | 14 | 16 |
-| 4 | 75% | 20000000 | 11,12,0,0 | 15 | 17 |
-| 5 | 80% | 29500000 | 16,0,0,0 | 16 | 18 |
+| 3 | 70% | 18500000 | 7,12,0,0 | 14 | 16 |
+| 4 | 75% | 19000000 | 10,12,0,0 | 15 | 17 |
+| 5 | 80% | 24000000 | 12,18,0,0 | 16 | 18 |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>

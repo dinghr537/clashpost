@@ -8,6 +8,7 @@ imgFolder: home_tech/0082
 wiki: https://clashofclans.fandom.com/wiki/Valkyrie
 canonical: /upgrade/0082-Valkyrie
 dataSyncedOn: 2026-10-13
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 - *如想查看该兵种的强化版本，请访问：[超级瓦基丽武神](/upgrade/0607-Super-Valkyrie)。*
@@ -52,6 +53,8 @@ dataSyncedOn: 2026-10-13
 
 <SmallTitle>升级数据</SmallTitle>
 
+<small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为未知。</small>
+
 <script setup>
 const tableExtraInfo = [
     {
@@ -82,13 +85,17 @@ const tableExtraInfo = [
 | 8 | 196 | 352.8 | 1800 | 77500 | 3,0,0,0 | 11 | 13 |
 | 9 | 208 | 374.4 | 2000 | 105000 | 4,12,0,0 | 12 | 14 |
 | 10 | 223 | 401.4 | 2400 | 120000 | 5,0,0,0 | 13 | 15 |
-| 11 | 238 | 428.4 | 2600 | 170000 | 6,0,0,0 | 14 | 16 |
-| 12 | 255 | 459 | 2900 | 340000 | 14,0,0,0 | 15 | 17 |
+| 11 | 238 | 428.4 | 2600 | 140000 | 5,0,0,0 | 14 | 16 |
+| 12 | 255 | 459 | 2900 | 235000 | 9,12,0,0 | 15 | 17 |
+| 13 | 272 | 489.6 | 3400 | 370000 | 10,12,0,0 | 17 | 19 |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/11/16">
+        <TimelineRow>19 本版本新增 13 级。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2026/04/27">
         <TimelineRow>新增 12 级瓦基丽武神。 <a href="https://clashofclans.fandom.com/wiki/Valkyrie#History" target="_blank" rel="noopener noreferrer">来源</a></TimelineRow>
     </TimelineItem>

@@ -8,6 +8,7 @@ imgFolder: home_tech/0007
 wiki: https://clashofclans.fandom.com/wiki/Healer
 canonical: /upgrade/0007-Healer
 dataSyncedOn: 2026-10-13
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Healer_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
@@ -57,6 +58,8 @@ dataSyncedOn: 2026-10-13
 
 <SmallTitle>升级数据</SmallTitle>
 
+<small>19 本数据补充参考 [部落冲突 Wiki](https://clashofclans.fandom.com/wiki/Healer) 和 [ClashKing Assets](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为未知。</small>
+
 <script setup>
 const tableExtraInfo = [
     {
@@ -82,17 +85,21 @@ const tableExtraInfo = [
 | 3 | 60 | 33 | 900 | 900000 | 1,0,0,0 | 6 | 8 |
 | 4 | 66 | 36 | 1200 | 2500000 | 2,0,0,0 | 7 | 9 |
 | 5 | 72 | 48 | 1500 | 4000000 | 3,0,0,0 | 9 | 11 |
-| 6 | 72 | 56 | 1600 | 6000000 | 4,12,0,0 | 11 | 13 |
+| 6 | 72 | 56 | 1600 | 5500000 | 4,0,0,0 | 11 | 13 |
 | 7 | 72 | 62 | 1700 | 9500000 | 6,12,0,0 | 12 | 14 |
 | 8 | 76 | 68 | 1800 | 11000000 | 7,0,0,0 | 13 | 15 |
 | 9 | 80 | 75 | 1900 | 13000000 | 7,6,0,0 | 14 | 16 |
-| 10 | 80 | 78 | 2000 | 17000000 | 11,0,0,0 | 15 | 17 |
-| 11 | 82 | 88 | 2100 | 28500000 | 15,0,0,0 | 16 | 18 |
+| 10 | 80 | 78 | 2000 | 15000000 | 9,12,0,0 | 15 | 17 |
+| 11 | 82 | 88 | 2100 | 20000000 | 11,12,0,0 | 16 | 18 |
+| 12 | 84 | 99 | 2200 | 29500000 | 13,0,0,0 | 17 | 19 |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/11/16">
+        <TimelineRow>19 本版本新增 12 级。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/11/17">
         <TimelineRow>18 本推出，并在 18 本新增 11 级天使。</TimelineRow>
         <TimelineRow>10 级天使的升级时间和升级费用减少。</TimelineRow>

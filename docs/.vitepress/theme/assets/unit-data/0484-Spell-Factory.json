@@ -11,7 +11,13 @@
     "revision": 624556,
     "revisionUrl": "https://clashofclans.fandom.com/wiki/Spell_Factory?oldid=624556",
     "syncedOn": "2026-10-13",
-    "scope": "Source statistics tables and available 2026 history; base values"
+    "scope": "Source statistics tables and available 2026 history; base values",
+    "th19Update": {
+      "checkedOn": "2026-11-16",
+      "source": "ClashKing Assets (selected game facts)",
+      "sourceUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json",
+      "scope": "Selected new levels and baseline-matched cost/time adjustments; missing fields remain unknown."
+    }
   },
   "tables": [
     {
@@ -598,8 +604,8 @@
           },
           {
             "status": "known",
-            "value": 24000000,
-            "raw": "24,000,000"
+            "value": 16000000,
+            "raw": "16000000"
           },
           {
             "status": "known",
@@ -617,6 +623,50 @@
             "status": "known",
             "value": 16,
             "raw": "16"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 1220,
+            "raw": "1220"
+          },
+          {
+            "status": "known",
+            "value": "Heroic Spell",
+            "raw": "Heroic Spell"
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": "?"
+          },
+          {
+            "status": "known",
+            "value": 18500000,
+            "raw": "18500000"
+          },
+          {
+            "status": "known",
+            "value": 907200,
+            "raw": "10d 12h",
+            "unit": "seconds",
+            "displayInput": "10,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 952,
+            "raw": "952"
+          },
+          {
+            "status": "known",
+            "value": 17,
+            "raw": "17"
           }
         ]
       ],
@@ -765,7 +815,14 @@
       "logicalPath": "/upgrade/home_buildings/0484/Spell_Factory9_Active.png"
     }
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-11-16",
+      "description": "19 本版本新增 10 级。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/",
+      "sourcePublishedOn": "2026-11-16"
+    }
+  ],
   "facts": [
     "The Spell Factory is an army building that allows the player to create spells. It is unlocked at Town Hall level 5.",
     "The Spell Factory takes up a 3x3 space.",

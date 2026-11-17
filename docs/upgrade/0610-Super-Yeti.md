@@ -8,6 +8,7 @@ imgFolder: home_tech/0610
 wiki: https://clashofclans.fandom.com/wiki/Super_Yeti
 canonical: /upgrade/0610-Super-Yeti
 dataSyncedOn: 2026-10-13
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 - *如想查看该兵种的普通版本，请访问：[大雪怪](/upgrade/000d-Yeti)。*
@@ -33,6 +34,8 @@ dataSyncedOn: 2026-10-13
 
 <SmallTitle>重要说明</SmallTitle>
 
+19 本更新后，超级大雪怪受到 800 点伤害时才生成首个小雪怪（此前为 400）；总生成速度不变。<small>（[Supercell 官方公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)）</small>
+
 超级大雪怪的技能（闪电狂袭）：超级大雪怪受伤时会分裂出雷电小雪怪，具体来说是每受到 400 点伤害分裂一个，分裂完为止。
 
 <SmallTitle>属性</SmallTitle>
@@ -57,6 +60,8 @@ dataSyncedOn: 2026-10-13
 
 <SmallTitle>升级数据</SmallTitle>
 
+<small>19 本新增等级沿用本页与原兵种相同的编号：通过旧等级属性对照及原兵种等级，将 [ClashKing 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)重新编号后补入；不同来源的编号不一致，仍待游戏内核对。缺失字段标为未知。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/">官方公告</a></small>
+
 <UnitTable>
 
 |     等级    | 每秒伤害 | 每次伤害 |分裂的雷电<br>小雪怪数量| 生命值 |所需大本等级|
@@ -69,6 +74,7 @@ dataSyncedOn: 2026-10-13
 | 6 | 495 | 495 | 12 | 6600 | 16 |
 | 7 | 525 | 525 | 13 | 7000 | 17 |
 | 8 | 550 | 550 | 14 | 7400 | 18 |
+| 9 | 560 | 560 | 未知 | 7600 | 19 |
 </UnitTable>
 
 \* 1 - 2 级超级大雪怪只在 奖章活动 中出现，不能通过常规方式得到。
@@ -141,6 +147,9 @@ dataSyncedOn: 2026-10-13
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/11/16">
+        <TimelineRow>19 本版本对应的普通兵种新增等级，超级兵属性随之更新。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2026/04/27">
         <TimelineRow>大雪怪新增 8 级，对应的超级雪怪开放 8 级。 <a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
     </TimelineItem>

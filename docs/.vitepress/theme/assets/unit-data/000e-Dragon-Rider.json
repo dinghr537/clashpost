@@ -11,7 +11,13 @@
     "revision": 625318,
     "revisionUrl": "https://clashofclans.fandom.com/wiki/Dragon_Rider?oldid=625318",
     "syncedOn": "2026-10-13",
-    "scope": "Source statistics tables and available 2026 history; base values"
+    "scope": "Source statistics tables and available 2026 history; base values",
+    "th19Update": {
+      "checkedOn": "2026-11-16",
+      "source": "ClashKing Assets (selected game facts)",
+      "sourceUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json",
+      "scope": "Selected new levels and baseline-matched cost/time adjustments; missing fields remain unknown."
+    }
   },
   "tables": [
     {
@@ -247,15 +253,15 @@
           },
           {
             "status": "known",
-            "value": 14500000,
-            "raw": "14,500,000"
+            "value": 13500000,
+            "raw": "13500000"
           },
           {
             "status": "known",
-            "value": 777600,
-            "raw": "9d",
+            "value": 734400,
+            "raw": "8d 12h",
             "unit": "seconds",
-            "displayInput": "9,0,0,0"
+            "displayInput": "8,12,0,0"
           },
           {
             "status": "known",
@@ -291,15 +297,15 @@
           },
           {
             "status": "known",
-            "value": 19000000,
-            "raw": "19,000,000"
+            "value": 17500000,
+            "raw": "17500000"
           },
           {
             "status": "known",
-            "value": 885600,
-            "raw": "10d 6h",
+            "value": 820800,
+            "raw": "9d 12h",
             "unit": "seconds",
-            "displayInput": "10,6,0,0"
+            "displayInput": "9,12,0,0"
           },
           {
             "status": "known",
@@ -335,20 +341,64 @@
           },
           {
             "status": "known",
-            "value": 29500000,
-            "raw": "29,500,000"
+            "value": 21000000,
+            "raw": "21000000"
           },
           {
             "status": "known",
-            "value": 1339200,
-            "raw": "15d 12h",
+            "value": 993600,
+            "raw": "11d 12h",
             "unit": "seconds",
-            "displayInput": "15,12,0,0"
+            "displayInput": "11,12,0,0"
           },
           {
             "status": "known",
             "value": 16,
             "raw": "16"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": 510,
+            "raw": "510"
+          },
+          {
+            "status": "known",
+            "value": 612.0,
+            "raw": "612.0"
+          },
+          {
+            "status": "known",
+            "value": 1300,
+            "raw": "1300"
+          },
+          {
+            "status": "known",
+            "value": 6200,
+            "raw": "6200"
+          },
+          {
+            "status": "known",
+            "value": 28500000,
+            "raw": "28500000"
+          },
+          {
+            "status": "known",
+            "value": 1080000,
+            "raw": "12d 12h",
+            "unit": "seconds",
+            "displayInput": "12,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 17,
+            "raw": "17"
           }
         ]
       ],
@@ -428,6 +478,12 @@
     {
       "date": "2026-07-14",
       "description": "Reduced hitpoints at level 6 from 6,000 to 5,900. Hitpoints Reduced damage at level 6 from 510 to 490. Damage"
+    },
+    {
+      "date": "2026-11-16",
+      "description": "19 本版本新增 7 级。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/",
+      "sourcePublishedOn": "2026-11-16"
     }
   ],
   "facts": [

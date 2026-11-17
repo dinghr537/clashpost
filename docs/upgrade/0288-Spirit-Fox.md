@@ -8,6 +8,7 @@ imgFolder: home_heroes/0288
 wiki: https://clashofclans.fandom.com/wiki/Spirit_Fox
 canonical: /upgrade/0288-Spirit-Fox
 dataSyncedOn: 2026-10-13
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Spirit_Fox_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
@@ -45,6 +46,8 @@ dataSyncedOn: 2026-10-13
 
 <SmallTitle>升级数据</SmallTitle>
 
+<small>19 本版本对部分旧等级的费用、时间作了调整；变更数值参考 [ClashKing Assets](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)。</small>
+
 <script setup>
 const tableExtraInfo = [
     {
@@ -79,7 +82,7 @@ const tableExtraInfo = [
 | 7 | 156 | 249.6 | 3.5秒 | 2500 | 200000 | 6,12,0,0 |  | 9 | 16 |
 | 8 | 164 | 262.4 | 3.5秒 | 2600 | 210000 | 7,0,0,0 |  | 9 | 16 |
 | 9 | 172 | 275.6 | 3.5秒 | 2700 | 220000 | 7,12,0,0 |  | 9 | 16 |
-| 10 | 180 | 288 | 4秒 | 2800 | 230000 | 8,0,0,0 |  | 9 | 16 |
+| 10 | 180 | 288 | 4秒 | 2800 | 230000 | 7,12,0,0 |  | 9 | 16 |
 </UnitTable>
 
 <p><small>9 级每次伤害的来源存在差异：<a href="https://clashofclans.fandom.com/wiki/Spirit_Fox#Statistics" target="_blank" rel="noopener noreferrer">维基</a>记为 275.6；按每秒伤害 172 和攻击间隔 1.6 秒计算为 275.2，<a href="https://clashtroops.com/pets/spirit-fox/" target="_blank" rel="noopener noreferrer">另一资料</a>也列为 275.2。实际值待进一步核实。</small></p>

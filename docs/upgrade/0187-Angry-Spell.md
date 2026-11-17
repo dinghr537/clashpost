@@ -8,6 +8,7 @@ imgFolder: home_tech/0187
 wiki: https://clashofclans.fandom.com/wiki/Angry_Spell
 canonical: /upgrade/0187-Angry-Spell
 dataSyncedOn: 2026-10-13
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 <script setup>
@@ -46,14 +47,16 @@ const tableExtraInfo0 = [
 
 <SmallTitle>升级数据</SmallTitle>
 
+<small>19 本版本对部分旧等级的费用、时间作了调整；变更数值参考 [ClashKing Assets](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)。</small>
+
 <UnitTable :tableExtraInfo="tableExtraInfo0">
 
 | 等级 | 愤怒持续时间 | 陷阱<br>持续时间 | 升级花费 | 升级时间 | 所需<br>实验室等级 | 所需<br>大本等级 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | 7秒 | 5秒 | \ | \ | \ | \ |
-| 2 | 8秒 | 5秒 | 150000 | 9,8,0,0 | 14 | 16 |
+| 2 | 8秒 | 5秒 | 150000 | 9,0,0,0 | 14 | 16 |
 | 3 | 10秒 | 5秒 | 250000 | 12,0,0,0 | 15 | 17 |
-| 4 | 12秒 | 5秒 | 400000 | 15,0,0,0 | 16 | 18 |
+| 4 | 12秒 | 5秒 | 350000 | 13,0,0,0 | 16 | 18 |
 </UnitTable>
 
 

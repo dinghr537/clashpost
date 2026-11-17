@@ -8,6 +8,7 @@ imgFolder: home_tech/0008
 wiki: https://clashofclans.fandom.com/wiki/Dragon
 canonical: /upgrade/0008-Dragon
 dataSyncedOn: 2026-10-13
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 - *如想查看该兵种的强化版本，请访问：[超级飞龙](/upgrade/060d-Super-Dragon)。*
@@ -54,6 +55,8 @@ dataSyncedOn: 2026-10-13
 
 <SmallTitle>升级数据</SmallTitle>
 
+<small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为未知。</small>
+
 <script setup>
 const tableExtraInfo = [
     {
@@ -84,14 +87,18 @@ const tableExtraInfo = [
 | 8 | 330 | 412.5 | 4200 | 7500000 | 5,0,0,0 | 11 | 13 |
 | 9 | 350 | 437.5 | 4500 | 10500000 | 7,0,0,0 | 12 | 14 |
 | 10 | 370 | 462.5 | 4900 | 12000000 | 7,12,0,0 | 13 | 15 |
-| 11 | 390 | 487.5 | 5300 | 14000000 | 8,12,0,0 | 14 | 16 |
-| 12 | 410 | 512.5 | 5700 | 18500000 | 10,0,0,0 | 15 | 17 |
-| 13 | 430 | 537.5 | 6000 | 28500000 | 15,0,0,0 | 16 | 18 |
+| 11 | 390 | 487.5 | 5300 | 13500000 | 8,0,0,0 | 14 | 16 |
+| 12 | 410 | 512.5 | 5700 | 15500000 | 8,12,0,0 | 15 | 17 |
+| 13 | 430 | 537.5 | 6000 | 21000000 | 11,12,0,0 | 16 | 18 |
+| 14 | 450 | 562.5 | 6300 | 28500000 | 12,12,0,0 | 17 | 19 |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/11/16">
+        <TimelineRow>19 本版本新增 14 级。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2026/04/27">
         <TimelineRow>新增 13 级飞龙。 <a href="https://clashofclans.fandom.com/wiki/Dragon#History" target="_blank" rel="noopener noreferrer">来源</a></TimelineRow>
     </TimelineItem>

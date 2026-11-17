@@ -7,6 +7,7 @@ imgFolder: home_heroes/0842
 wiki: https://clashofclans.fandom.com/wiki/Logger
 canonical: /upgrade/0842-Logger
 dataSyncedOn: 2026-10-13
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 <script setup>
@@ -50,15 +51,17 @@ const tableExtraInfo0 = [
 
 <SmallTitle>升级数据</SmallTitle>
 
+<small>2–5 级费用已按 [Supercell 19 本更新公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)调整。</small>
+
 <UnitTable :tableExtraInfo="tableExtraInfo0">
 
 | 等级 | 每秒伤害 | 每次伤害 | 生命值 | 命中后穿透距离（格） | 升级费用 | 升级时间 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | 230 | 575 | 8000 | 5格 | \ | \ |
-| 2 | 260 | 650 | 9000 | 5格 | 18000000 | 7,0,0,0 |
-| 3 | 290 | 725 | 10000 | 5格 | 22000000 | 9,0,0,0 |
-| 4 | 320 | 800 | 11000 | 6格 | 26000000 | 11,0,0,0 |
-| 5 | 350 | 875 | 12000 | 6格 | 28000000 | 13,0,0,0 |
+| 2 | 260 | 650 | 9000 | 5格 | 16500000 | 7,0,0,0 |
+| 3 | 290 | 725 | 10000 | 5格 | 20000000 | 9,0,0,0 |
+| 4 | 320 | 800 | 11000 | 6格 | 23000000 | 11,0,0,0 |
+| 5 | 350 | 875 | 12000 | 6格 | 25000000 | 13,0,0,0 |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>

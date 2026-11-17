@@ -8,6 +8,7 @@ imgFolder: home_buildings/0319
 wiki: https://clashofclans.fandom.com/wiki/Revenge_Tower
 canonical: /upgrade/0319-Revenge-Tower
 dataSyncedOn: 2026-10-13
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 <script setup>
@@ -130,12 +131,14 @@ const tableExtraInfoStage3 = [
 
 <SmallTitle>升级数据</SmallTitle>
 
+<small>19 本版本对部分旧等级的费用、时间作了调整；变更数值参考 [ClashKing Assets](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)。</small>
+
 <UnitTable :tableExtraInfo="tableExtraInfoDormant">
 
 | 等级 | 生命值 | 升级费用 |   升级时间  |升级后可<br>获得的经验| 所需<br>大本等级 |
 | ---- |  ---  |   ---   |     ---     |        ---         |       ---       |
-| 1 | 5800 | 430000 | 13,0,0,5 |  | 18 |
-| 2 | 6200 | 460000 | 14,0,0,0 |  | 18 |
+| 1 | 5800 | 335000 | 10,0,0,0 |  | 18 |
+| 2 | 6200 | 365000 | 11,0,0,0 |  | 18 |
 | ⚡1 | 6200 | 220000 | 7,0,0,0 |  | 18 |
 | ⚡2 | 6300 | 200000 | 8,0,0,0 |  | 18 |
 </UnitTable>

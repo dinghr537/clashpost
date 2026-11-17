@@ -11,7 +11,14 @@
     "revision": 624690,
     "revisionUrl": "https://clashofclans.fandom.com/wiki/Super_Wall_Breaker?oldid=624690",
     "syncedOn": "2026-10-13",
-    "scope": "Source statistics tables and available 2026 history; base values"
+    "scope": "Source statistics tables and available 2026 history; base values",
+    "th19Update": {
+      "checkedOn": "2026-11-16",
+      "source": "ClashKing Assets (selected game facts; level numbering mapped to older Wiki scale)",
+      "sourceUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json",
+      "scope": "Level mapping based on 10 matching earlier stat pairs and the base troop level; unverified fields remain unknown.",
+      "levelOffset": 4
+    }
   },
   "tables": [
     {
@@ -432,6 +439,38 @@
             "value": 575,
             "raw": "575"
           }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 15,
+            "raw": "15"
+          },
+          {
+            "status": "known",
+            "value": 180,
+            "raw": "180"
+          },
+          {
+            "status": "known",
+            "value": 438,
+            "raw": "438"
+          },
+          {
+            "status": "known",
+            "value": 7200,
+            "raw": "7200"
+          },
+          {
+            "status": "known",
+            "value": 17520,
+            "raw": "17520"
+          },
+          {
+            "status": "known",
+            "value": 600,
+            "raw": "600"
+          }
         ]
       ],
       "extraInfo": []
@@ -453,7 +492,14 @@
       "logicalPath": "/upgrade/home_tech/0603/Super_Wall_Breaker7.png"
     }
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-11-16",
+      "description": "19 本版本对应的普通兵种新增等级，超级兵属性随之更新。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/",
+      "sourcePublishedOn": "2026-11-16"
+    }
+  ],
   "facts": [
     "The Super Wall Breaker is a Super Troop based on the Wall Breaker. It can be unlocked by boosting the Wall Breaker when the Wall Breaker is at least level 7.",
     "Boosting the Wall Breaker requires 25,000 Dark Elixir or a Super Potion, and doing so allows the Wall Breaker to be boosted for 3 days. The level of Super Wall Breaker you obtain from the boost corresponds to the level of Wall Breaker you have.",

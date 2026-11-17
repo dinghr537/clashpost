@@ -8,6 +8,7 @@ imgFolder: home_buildings/0381
 wiki: https://clashofclans.fandom.com/wiki/Spring_Trap
 canonical: /upgrade/0381-Spring-Trap
 dataSyncedOn: 2026-10-13
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 - 如想查看夜世界的隐形弹簧，请访问：[夜世界隐形弹簧](/upgrade/1181-Spring-Trap)。
@@ -36,8 +37,8 @@ dataSyncedOn: 2026-10-13
 <SmallTitle>建筑数量对照表</SmallTitle>
 
 <BuildingNum>
-    <BuildingNumRow title="大本等级" num="1 - 3, 4 - 5, 6 - 7, 8 - 11, 12, 13 - 18" />
-    <BuildingNumRow title="建筑数量" num="    0,     2,     4,      6,  8,       9" />
+    <BuildingNumRow title="大本等级" num="1 - 3, 4 - 5, 6 - 7, 8 - 11, 12, 13 - 18, 19" />
+    <BuildingNumRow title="建筑数量" num="    0,     2,     4,      6,  8,       9, 10" />
 </BuildingNum>
 
 <SmallTitle>重要说明</SmallTitle>
@@ -67,6 +68,8 @@ dataSyncedOn: 2026-10-13
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
+
+<small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为未知。</small>
 
 <script setup>
 const tableExtraInfo = [
@@ -104,14 +107,18 @@ const tableExtraInfo = [
 | 9 | 18 | 900 | 3000000 | 0,18,0,0 |  | 14 |
 | 10 | 18 | 1050 | 4000000 | 1,0,0,0 |  | 15 |
 | 11 | 18 | 1200 | 6000000 | 2,0,0,0 |  | 16 |
-| 12 | 18 | 1300 | 13000000 | 3,0,0,0 |  | 17 |
-| 13 | 18 | 1400 | 16000000 | 11,0,0,0 |  | 18 |
+| 12 | 18 | 1300 | 7000000 | 2,12,0,0 |  | 17 |
+| 13 | 18 | 1400 | 9500000 | 5,0,0,0 |  | 18 |
+| 14 | 未知 | 1500 | 17000000 | 8,0,0,0 |  | 19 |
 
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/11/16">
+        <TimelineRow>19 本版本新增 14 级。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/11/17">
         <TimelineRow>18 本推出，并在 18 本新增 13 级隐形弹簧。</TimelineRow>
     </TimelineItem>

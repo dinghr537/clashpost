@@ -11,7 +11,13 @@
     "revision": 623006,
     "revisionUrl": "https://clashofclans.fandom.com/wiki/Bat_Spell?oldid=623006",
     "syncedOn": "2026-10-13",
-    "scope": "Source statistics tables and available 2026 history; base values"
+    "scope": "Source statistics tables and available 2026 history; base values",
+    "th19Update": {
+      "checkedOn": "2026-11-16",
+      "source": "ClashKing Assets (selected game facts)",
+      "sourceUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json",
+      "scope": "Selected new levels and baseline-matched cost/time adjustments; missing fields remain unknown."
+    }
   },
   "tables": [
     {
@@ -307,15 +313,15 @@
           },
           {
             "status": "known",
-            "value": 220000,
-            "raw": "220,000"
+            "value": 190000,
+            "raw": "190000"
           },
           {
             "status": "known",
-            "value": 734400,
-            "raw": "8d 12h",
+            "value": 626400,
+            "raw": "7d 6h",
             "unit": "seconds",
-            "displayInput": "8,12,0,0"
+            "displayInput": "7,6,0,0"
           },
           {
             "status": "known",
@@ -336,8 +342,37 @@
           },
           {
             "status": "known",
-            "value": 300000,
-            "raw": "300,000"
+            "value": 245000,
+            "raw": "245000"
+          },
+          {
+            "status": "known",
+            "value": 799200,
+            "raw": "9d 6h",
+            "unit": "seconds",
+            "displayInput": "9,6,0,0"
+          },
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          },
+          {
+            "status": "known",
+            "value": 29,
+            "raw": "29"
+          },
+          {
+            "status": "known",
+            "value": 415000,
+            "raw": "415000"
           },
           {
             "status": "known",
@@ -348,8 +383,8 @@
           },
           {
             "status": "known",
-            "value": 16,
-            "raw": "16"
+            "value": 17,
+            "raw": "17"
           }
         ]
       ],
@@ -386,7 +421,14 @@
       "logicalPath": "/upgrade/home_tech/0184/Spell_Bat.png"
     }
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-11-16",
+      "description": "19 本版本新增 9 级。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/",
+      "sourcePublishedOn": "2026-11-16"
+    }
+  ],
   "facts": [],
   "notices": []
 }

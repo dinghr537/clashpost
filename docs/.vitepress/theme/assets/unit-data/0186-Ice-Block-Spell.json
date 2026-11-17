@@ -11,7 +11,13 @@
     "revision": 623794,
     "revisionUrl": "https://clashofclans.fandom.com/wiki/Ice_Block_Spell?oldid=623794",
     "syncedOn": "2026-10-13",
-    "scope": "Source statistics tables and available 2026 history; base values"
+    "scope": "Source statistics tables and available 2026 history; base values",
+    "th19Update": {
+      "checkedOn": "2026-11-16",
+      "source": "ClashKing Assets (selected game facts)",
+      "sourceUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json",
+      "scope": "Selected TH16–18 costs and times where the previous snapshot matched this site."
+    }
   },
   "tables": [
     {
@@ -187,15 +193,15 @@
           },
           {
             "status": "known",
-            "value": 280000,
-            "raw": "280,000"
+            "value": 230000,
+            "raw": "230000"
           },
           {
             "status": "known",
-            "value": 1036800,
-            "raw": "12d",
+            "value": 864000,
+            "raw": "10d",
             "unit": "seconds",
-            "displayInput": "12,0,0,0"
+            "displayInput": "10,0,0,0"
           },
           {
             "status": "known",
@@ -221,15 +227,15 @@
           },
           {
             "status": "known",
-            "value": 320000,
-            "raw": "320,000"
+            "value": 250000,
+            "raw": "250000"
           },
           {
             "status": "known",
-            "value": 1209600,
-            "raw": "14d",
+            "value": 907200,
+            "raw": "10d 12h",
             "unit": "seconds",
-            "displayInput": "14,0,0,0"
+            "displayInput": "10,12,0,0"
           },
           {
             "status": "known",
@@ -255,15 +261,15 @@
           },
           {
             "status": "known",
-            "value": 380000,
-            "raw": "380,000"
+            "value": 290000,
+            "raw": "290000"
           },
           {
             "status": "known",
-            "value": 1382400,
-            "raw": "16d",
+            "value": 950400,
+            "raw": "11d",
             "unit": "seconds",
-            "displayInput": "16,0,0,0"
+            "displayInput": "11,0,0,0"
           },
           {
             "status": "known",

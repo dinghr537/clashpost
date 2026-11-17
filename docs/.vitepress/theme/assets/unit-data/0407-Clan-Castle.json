@@ -11,7 +11,13 @@
     "revision": 623293,
     "revisionUrl": "https://clashofclans.fandom.com/wiki/Clan_Castle?oldid=623293",
     "syncedOn": "2026-10-13",
-    "scope": "Source statistics tables and available 2026 history; base values"
+    "scope": "Source statistics tables and available 2026 history; base values",
+    "th19Update": {
+      "checkedOn": "2026-11-16",
+      "source": "ClashKing Assets (selected game facts)",
+      "sourceUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json",
+      "scope": "Selected new levels and baseline-matched cost/time adjustments; missing fields remain unknown."
+    }
   },
   "tables": [
     {
@@ -904,8 +910,8 @@
           },
           {
             "status": "known",
-            "value": 19000000,
-            "raw": "19,000,000"
+            "value": 17500000,
+            "raw": "17500000"
           },
           {
             "status": "known",
@@ -958,25 +964,79 @@
           },
           {
             "status": "known",
-            "value": 28000000,
-            "raw": "28,000,000"
+            "value": 25500000,
+            "raw": "25500000"
           },
           {
             "status": "known",
-            "value": 1209600,
-            "raw": "14d",
+            "value": 1123200,
+            "raw": "13d",
             "unit": "seconds",
-            "displayInput": "14,0,0,0"
+            "displayInput": "13,0,0,0"
           },
           {
             "status": "known",
-            "value": 1099,
-            "raw": "1,099"
+            "value": 1059,
+            "raw": "1059"
           },
           {
             "status": "known",
             "value": 18,
             "raw": "18"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 15,
+            "raw": "15"
+          },
+          {
+            "status": "known",
+            "value": 6200,
+            "raw": "6200"
+          },
+          {
+            "status": "known",
+            "value": 60,
+            "raw": "60"
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": "?"
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": "?"
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": "?"
+          },
+          {
+            "status": "known",
+            "value": 31500000,
+            "raw": "31500000"
+          },
+          {
+            "status": "known",
+            "value": 1382400,
+            "raw": "16d",
+            "unit": "seconds",
+            "displayInput": "16,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 1175,
+            "raw": "1175"
+          },
+          {
+            "status": "known",
+            "value": 19,
+            "raw": "19"
           }
         ]
       ],
@@ -3254,7 +3314,14 @@
       "logicalPath": "/upgrade/home_buildings/0407/Clan_Castle14.png"
     }
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-11-16",
+      "description": "19 本版本新增 15 级。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/",
+      "sourcePublishedOn": "2026-11-16"
+    }
+  ],
   "facts": [
     "Starting at level 4, players can request for one housing space's worth of Spells from their clanmates; the spell capacity is increased by one space at levels 7, 10 and 14.",
     "Starting at level 6, players can request for Siege Machines from their clanmates. One Siege Machine can be held at levels 6 through 11; at level 12, a second Siege Machine can also be held, though you can only use one Siege Machine per battle.",

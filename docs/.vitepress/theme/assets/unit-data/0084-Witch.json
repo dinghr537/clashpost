@@ -11,7 +11,13 @@
     "revision": 624601,
     "revisionUrl": "https://clashofclans.fandom.com/wiki/Witch?oldid=624601",
     "syncedOn": "2026-10-13",
-    "scope": "Source statistics tables and available 2026 history; base values"
+    "scope": "Source statistics tables and available 2026 history; base values",
+    "th19Update": {
+      "checkedOn": "2026-11-16",
+      "source": "ClashKing Assets (selected game facts)",
+      "sourceUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json",
+      "scope": "Selected new levels and baseline-matched cost/time adjustments; missing fields remain unknown."
+    }
   },
   "tables": [
     {
@@ -451,15 +457,15 @@
           },
           {
             "status": "known",
-            "value": 180000,
-            "raw": "180,000"
+            "value": 175000,
+            "raw": "175000"
           },
           {
             "status": "known",
-            "value": 626400,
-            "raw": "7d 6h",
+            "value": 604800,
+            "raw": "7d",
             "unit": "seconds",
-            "displayInput": "7,6,0,0"
+            "displayInput": "7,0,0,0"
           },
           {
             "status": "known",
@@ -505,20 +511,74 @@
           },
           {
             "status": "known",
-            "value": 355000,
-            "raw": "355,000"
+            "value": 300000,
+            "raw": "300000"
           },
           {
             "status": "known",
-            "value": 1339200,
-            "raw": "15d 12h",
+            "value": 864000,
+            "raw": "10d",
             "unit": "seconds",
-            "displayInput": "15,12,0,0"
+            "displayInput": "10,0,0,0"
           },
           {
             "status": "known",
             "value": 16,
             "raw": "16"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          },
+          {
+            "status": "known",
+            "value": 300,
+            "raw": "300"
+          },
+          {
+            "status": "known",
+            "value": 210.0,
+            "raw": "210.0"
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": "?"
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": "?"
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": "?"
+          },
+          {
+            "status": "known",
+            "value": 750,
+            "raw": "750"
+          },
+          {
+            "status": "known",
+            "value": 460000,
+            "raw": "460000"
+          },
+          {
+            "status": "known",
+            "value": 1252800,
+            "raw": "14d 12h",
+            "unit": "seconds",
+            "displayInput": "14,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 17,
+            "raw": "17"
           }
         ]
       ],
@@ -642,7 +702,14 @@
       "logicalPath": "/upgrade/home_tech/0084/Skeleton1.png"
     }
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-11-16",
+      "description": "19 本版本新增 9 级。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/",
+      "sourcePublishedOn": "2026-11-16"
+    }
+  ],
   "facts": [
     "The Witch is the fifth Dark Elixir Troop unlocked in the Dark Barracks when it is upgraded to level 5, which requires Town Hall level 9. She is a splash-damaging ground troop."
   ],

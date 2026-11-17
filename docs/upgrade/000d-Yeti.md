@@ -8,6 +8,7 @@ imgFolder: home_tech/000d
 wiki: https://clashofclans.fandom.com/wiki/Yeti
 canonical: /upgrade/000d-Yeti
 dataSyncedOn: 2026-10-13
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 - *如想查看该兵种的强化版本，请访问：[超级大雪怪](/upgrade/0610-Super-Yeti)。*
@@ -38,6 +39,8 @@ dataSyncedOn: 2026-10-13
 
 <SmallTitle>重要说明</SmallTitle>
 
+19 本更新后，大雪怪受到 1,200 点伤害时才生成首个小雪怪（此前为 600）；总生成速度不变。<small>（[Supercell 官方公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)）</small>
+
 每受到 600 伤害，大雪怪就会释放一个小雪怪，大雪怪死亡后会释放剩余的全部小雪怪。
 
 <SmallTitle>大雪怪的属性</SmallTitle>
@@ -58,6 +61,8 @@ dataSyncedOn: 2026-10-13
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
+
+<small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为未知。</small>
 
 <script setup>
 const tableExtraInfo = [
@@ -84,9 +89,10 @@ const tableExtraInfo = [
 | 3 | 270 | 270 | 10 | 3500 | 6500000 | 4,12,0,0 | 11 | 13 |
 | 4 | 290 | 290 | 11 | 3700 | 10000000 | 7,0,0,0 | 12 | 14 |
 | 5 | 310 | 310 | 12 | 3900 | 12000000 | 7,12,0,0 | 13 | 15 |
-| 6 | 330 | 330 | 13 | 4100 | 14500000 | 8,6,0,0 | 14 | 16 |
-| 7 | 350 | 350 | 13 | 4300 | 17000000 | 10,0,0,0 | 15 | 17 |
-| 8 | 380 | 380 | 14 | 4650 | 27500000 | 15,12,0,0 | 16 | 18 |
+| 6 | 330 | 330 | 13 | 4100 | 14000000 | 8,0,0,0 | 14 | 16 |
+| 7 | 350 | 350 | 13 | 4300 | 15500000 | 8,12,0,0 | 15 | 17 |
+| 8 | 380 | 380 | 14 | 4650 | 19000000 | 11,0,0,0 | 16 | 18 |
+| 9 | 410 | 410 | 未知 | 5300 | 25000000 | 11,12,0,0 | 17 | 19 |
 </UnitTable>
 </SwitchTabGroup>
 
@@ -159,6 +165,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/11/16">
+        <TimelineRow>19 本版本新增 9 级。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2026/04/27">
         <TimelineRow>新增 8 级大雪怪。 <a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
     </TimelineItem>

@@ -11,7 +11,14 @@
     "revision": 623218,
     "revisionUrl": "https://clashofclans.fandom.com/wiki/Super_Witch?oldid=623218",
     "syncedOn": "2026-10-13",
-    "scope": "Source statistics tables and available 2026 history; base values"
+    "scope": "Source statistics tables and available 2026 history; base values",
+    "th19Update": {
+      "checkedOn": "2026-11-16",
+      "source": "ClashKing Assets (selected game facts; level numbering mapped to older Wiki scale)",
+      "sourceUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json",
+      "scope": "Level mapping based on 8 matching earlier stat pairs and the base troop level; unverified fields remain unknown.",
+      "levelOffset": 0
+    }
   },
   "tables": [
     {
@@ -292,6 +299,28 @@
             "value": 4100,
             "raw": "4,100"
           }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          },
+          {
+            "status": "known",
+            "value": 510,
+            "raw": "510"
+          },
+          {
+            "status": "known",
+            "value": 357.0,
+            "raw": "357.0"
+          },
+          {
+            "status": "known",
+            "value": 4450,
+            "raw": "4450"
+          }
         ]
       ],
       "extraInfo": []
@@ -324,6 +353,12 @@
     {
       "date": "2026-02-23",
       "description": "Added the level 8 Super Witch."
+    },
+    {
+      "date": "2026-11-16",
+      "description": "19 本版本对应的普通兵种新增等级，超级兵属性随之更新。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/",
+      "sourcePublishedOn": "2026-11-16"
     }
   ],
   "facts": [

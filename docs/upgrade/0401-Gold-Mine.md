@@ -9,6 +9,7 @@ wiki: https://clashofclans.fandom.com/wiki/Gold_Mine
 canonical: /upgrade/0401-Gold-Mine
 dataSyncedOn: 2026-10-13
 dataBalanceUpdatedOn: 2026-10-20
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 - *如想查看夜世界的金矿，请访问：[夜世界金矿](/upgrade/1201-Gold-Mine)。*
@@ -56,6 +57,8 @@ dataBalanceUpdatedOn: 2026-10-20
 
 <SmallTitle>升级数据</SmallTitle>
 
+<small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为未知。</small>
+
 <script setup>
 const tableExtraInfo = [
     {
@@ -89,6 +92,8 @@ const tableExtraInfo = [
 ];
 </script>
 
+<p><small>2026 年 19 本更新后，本建筑此前的超级充能已移除；下方带 ⚡ 的行仅供查阅历史数据。正在进行的充能会全额退款，已完成的充能不退款。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/">官方公告</a></small></p>
+
 <UnitTable :tableExtraInfo="tableExtraInfo">
 
 | 等级 |每小时产量|采集器<br>容量<sup>*</sup>|填满容量<br>所需时间|出现收集标志<br>时的储量|每个采集器<br>提速所需宝石|  生命值  | 升级费用 |   升级时间   |升级后可<br>获得的经验| 所需<br>大本等级 |
@@ -109,7 +114,8 @@ const tableExtraInfo = [
 | 14 | 5600 | 300000 | 2,5,34,18 | 800 | 11 | 1180 | 800000 | 0,6,0,0 |  | 11 |
 | 15 | 6300 | 350000 | 2,7,33,20 | 900 | 11 | 1280 | 1200000 | 0,10,0,0 |  | 12 |
 | 16 | 7000 | 385000 | 2,7,0,0 | 1000 | 11 | 1350 | 2000000 | 1,0,0,0 |  | 14 |
-| 17 | 7560 | 420000 | 2,7,33,20 | 1000 | 11 | 1400 | 8000000 | 2,0,0,0 |  | 16 |
+| 17 | 7560 | 420000 | 2,7,33,20 | 1000 | 11 | 1400 | 4200000 | 2,0,0,0 |  | 16 |
+| 18 | 未知 | 未知 | \ | 未知 | 未知 | 1450 | 8500000 | 3,0,0,0 |  | 18 |
 | ⚡1 | 7857 | 436500 | 2,7,33,20 | 1000 | 11 | 1400 | 250000 | 0,9,30,0 |  | 18 |
 | ⚡2 | 8154 | 453000 | 2,7,33,20 | 1000 | 11 | 1400 | 250000 | 0,14,30,0 |  | 18 |
 | ⚡3 | 8154 | 453000 | 2,7,33,20 | 1000 | 11 | 1450 | 250000 | 0,19,0,0 |  | 18 |
@@ -120,6 +126,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/11/16">
+        <TimelineRow>19 本版本新增 18 级。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2026/10/20">
         <TimelineRow>充能 1 级：费用由 170 万降至 25 万，时间由 2天缩短至 9小时30分。</TimelineRow>
         <TimelineRow>充能 2 级：费用由 150 万降至 25 万，时间由 3天缩短至 14小时30分。</TimelineRow>

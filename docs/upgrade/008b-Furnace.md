@@ -8,6 +8,7 @@ imgFolder: home_tech/008b
 wiki: https://clashofclans.fandom.com/wiki/Furnace
 canonical: /upgrade/008b-Furnace
 dataSyncedOn: 2026-10-13
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 <SwitchTabs contentClass="cp-unit-items" :stickyTabs="true" :pageTabs="true">
@@ -57,6 +58,8 @@ dataSyncedOn: 2026-10-13
 
 <SmallTitle>升级数据</SmallTitle>
 
+<small>19 本版本对部分旧等级的费用、时间作了调整；变更数值参考 [ClashKing Assets](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)。</small>
+
 <script setup>
 const tableExtraInfo = [
     {
@@ -79,8 +82,8 @@ const tableExtraInfo = [
 |  --- |          ---           |  ---- |  ----   |    ----   |       ----      |      ----     |
 | 1 | 19 | 1530 | \ | \ | 1 | 15 |
 | 2 | 20 | 1620 | 200000 | 9,0,0,0 | 13 | 15 |
-| 3 | 21 | 1710 | 260000 | 11,0,0,0 | 14 | 16 |
-| 4 | 22 | 1800 | 320000 | 15,0,0,0 | 15 | 17 |
+| 3 | 21 | 1710 | 200000 | 9,0,0,0 | 14 | 16 |
+| 4 | 22 | 1800 | 265000 | 11,12,0,0 | 15 | 17 |
 </UnitTable>
 </SwitchTabGroup>
 

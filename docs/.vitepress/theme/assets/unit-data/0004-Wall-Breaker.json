@@ -11,7 +11,13 @@
     "revision": 624864,
     "revisionUrl": "https://clashofclans.fandom.com/wiki/Wall_Breaker?oldid=624864",
     "syncedOn": "2026-10-13",
-    "scope": "Source statistics tables and available 2026 history; base values"
+    "scope": "Source statistics tables and available 2026 history; base values",
+    "th19Update": {
+      "checkedOn": "2026-11-16",
+      "source": "ClashKing Assets (selected game facts)",
+      "sourceUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json",
+      "scope": "Selected new levels and baseline-matched cost/time adjustments; missing fields remain unknown."
+    }
   },
   "tables": [
     {
@@ -660,15 +666,15 @@
           },
           {
             "status": "known",
-            "value": 11000000,
-            "raw": "11,000,000"
+            "value": 9000000,
+            "raw": "9000000"
           },
           {
             "status": "known",
-            "value": 518400,
-            "raw": "6d",
+            "value": 432000,
+            "raw": "5d",
             "unit": "seconds",
-            "displayInput": "6,0,0,0"
+            "displayInput": "5,0,0,0"
           },
           {
             "status": "known",
@@ -709,15 +715,15 @@
           },
           {
             "status": "known",
-            "value": 15500000,
-            "raw": "15,500,000"
+            "value": 10000000,
+            "raw": "10000000"
           },
           {
             "status": "known",
-            "value": 864000,
-            "raw": "10d",
+            "value": 561600,
+            "raw": "6d 12h",
             "unit": "seconds",
-            "displayInput": "10,0,0,0"
+            "displayInput": "6,12,0,0"
           },
           {
             "status": "known",
@@ -758,20 +764,69 @@
           },
           {
             "status": "known",
-            "value": 26000000,
-            "raw": "26,000,000"
+            "value": 19000000,
+            "raw": "19000000"
           },
           {
             "status": "known",
-            "value": 1209600,
-            "raw": "14d",
+            "value": 777600,
+            "raw": "9d",
             "unit": "seconds",
-            "displayInput": "14,0,0,0"
+            "displayInput": "9,0,0,0"
           },
           {
             "status": "known",
             "value": 16,
             "raw": "16"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 15,
+            "raw": "15"
+          },
+          {
+            "status": "known",
+            "value": 134.0,
+            "raw": "134.0"
+          },
+          {
+            "status": "known",
+            "value": 84,
+            "raw": "84"
+          },
+          {
+            "status": "known",
+            "value": 5360,
+            "raw": "5360"
+          },
+          {
+            "status": "known",
+            "value": 3360,
+            "raw": "3360"
+          },
+          {
+            "status": "known",
+            "value": 180,
+            "raw": "180"
+          },
+          {
+            "status": "known",
+            "value": 29000000,
+            "raw": "29000000"
+          },
+          {
+            "status": "known",
+            "value": 1080000,
+            "raw": "12d 12h",
+            "unit": "seconds",
+            "displayInput": "12,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 17,
+            "raw": "17"
           }
         ]
       ],
@@ -871,7 +926,14 @@
       "logicalPath": "/upgrade/home_tech/0004/Wall_Breaker14.png"
     }
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-11-16",
+      "description": "19 本版本新增 15 级。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/",
+      "sourcePublishedOn": "2026-11-16"
+    }
+  ],
   "facts": [
     "The Wall Breaker is the fifth Elixir Troop unlocked at Barracks level 4, which requires Town Hall level 3. As his name suggests, Wall Breakers favor going after Walls, dealing massive damage to them.",
     "The Wall Breaker attacks by locating the nearest protected (read: Wall enclosed) building and destroying its protective Walls, blowing himself up in the process. He deals splash damage around his target and deals 40x damage to Walls."

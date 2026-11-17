@@ -11,7 +11,13 @@
     "revision": 622989,
     "revisionUrl": "https://clashofclans.fandom.com/wiki/Bomb?oldid=622989",
     "syncedOn": "2026-10-13",
-    "scope": "Source statistics tables and available 2026 history; base values"
+    "scope": "Source statistics tables and available 2026 history; base values",
+    "th19Update": {
+      "checkedOn": "2026-11-16",
+      "source": "ClashKing Assets (selected game facts)",
+      "sourceUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json",
+      "scope": "Selected TH16–18 costs and times where the previous snapshot matched this site."
+    }
   },
   "tables": [
     {
@@ -640,8 +646,8 @@
           },
           {
             "status": "known",
-            "value": 8500000,
-            "raw": "8,500,000"
+            "value": 6500000,
+            "raw": "6500000"
           },
           {
             "status": "known",
@@ -674,15 +680,15 @@
           },
           {
             "status": "known",
-            "value": 14000000,
-            "raw": "14,000,000"
+            "value": 9000000,
+            "raw": "9000000"
           },
           {
             "status": "known",
-            "value": 691200,
-            "raw": "8d",
+            "value": 432000,
+            "raw": "5d",
             "unit": "seconds",
-            "displayInput": "8,0,0,0"
+            "displayInput": "5,0,0,0"
           },
           {
             "status": "known",

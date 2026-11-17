@@ -8,6 +8,7 @@ imgFolder: home_tech/0602
 wiki: https://clashofclans.fandom.com/wiki/Super_Giant
 canonical: /upgrade/0602-Super-Giant
 dataSyncedOn: 2026-10-13
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 - *如想查看该兵种的普通版本，请访问：[巨人](/upgrade/0002-Giant)。*
@@ -50,6 +51,8 @@ dataSyncedOn: 2026-10-13
 
 <SmallTitle>升级数据</SmallTitle>
 
+<small>19 本新增等级沿用本页与原兵种相同的编号：通过旧等级属性对照及原兵种等级，将 [ClashKing 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)重新编号后补入；本页新增的 15 级，对应官方公告和候选数据的 11 级；此对应关系仍待游戏内核对。缺失字段标为未知。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/">官方公告</a></small>
+
 <UnitTable>
 
 | 等级 |  每秒伤害 | 每次伤害 | 对墙的每次伤害 | 生命值 |所需大本等级|
@@ -60,11 +63,15 @@ dataSyncedOn: 2026-10-13
 | 12 | 160 | 320 | 1600 | 4600 | 16 |
 | 13 | 175 | 350 | 1750 | 4900 | 17 |
 | 14 | 205 | 410 | 2050 | 5600 | 18 |
+| 15 | 235 | 470 | 2350 | 6300 | 19 |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/11/16">
+        <TimelineRow>19 本版本对应的普通兵种新增等级，超级兵属性随之更新。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2026/01/12">
         <TimelineRow>14 级超级巨人的每秒伤害和生命值增加。</TimelineRow>
     </TimelineItem>

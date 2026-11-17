@@ -8,6 +8,7 @@ imgFolder: home_tech/0085
 wiki: https://clashofclans.fandom.com/wiki/Lava_Hound
 canonical: /upgrade/0085-Lava-Hound
 dataSyncedOn: 2026-10-13
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 - *如想查看该兵种的强化版本，请访问：[寒冰猎犬](/upgrade/060a-Ice-Hound)。*
@@ -74,6 +75,8 @@ dataSyncedOn: 2026-10-13
 
 <SmallTitle>升级数据</SmallTitle>
 
+<small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为未知。</small>
+
 <script setup>
 const tableExtraInfo = [
     {
@@ -100,13 +103,17 @@ const tableExtraInfo = [
 | 4 | 16 | 32 | 250 | 14 / 11 | 7200 | 42500 | 3,0,0,0 | 9 | 11 |
 | 5 | 18 | 36 | 300 | 16 / 12 | 7600 | 60000 | 4,0,0,0 | 10 | 12 |
 | 6 | 20 | 40 | 350 | 18 / 13 | 8000 | 80000 | 7,0,0,0 | 11 | 13 |
-| 7 | 22 | 44 | 400 | 20 / 14 | 8500 | 200000 | 8,0,0,0 | 14 | 16 |
-| 8 | 24 | 48 | 450 | 22 / 15 | 9500 | 345000 | 15,6,0,0 | 16 | 18 |
+| 7 | 22 | 44 | 400 | 20 / 14 | 8500 | 190000 | 7,12,0,0 | 14 | 16 |
+| 8 | 24 | 48 | 450 | 22 / 15 | 9500 | 285000 | 10,12,0,0 | 16 | 18 |
+| 9 | 26 | 52 | 500 | 未知 / 未知 | 11000 | 375000 | 11,0,0,0 | 17 | 19 |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/11/16">
+        <TimelineRow>19 本版本新增 9 级。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2026/02/23">
         <TimelineRow>在 18 本新增 8 级熔岩猎犬。</TimelineRow>
     </TimelineItem>

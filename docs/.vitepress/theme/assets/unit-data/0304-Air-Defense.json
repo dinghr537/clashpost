@@ -130,6 +130,12 @@
         }
       ],
       "scope": "October 20 supercharge cost and time reductions; experience and collector catch-up durations recalculated from the updated build times."
+    },
+    "th19Update": {
+      "checkedOn": "2026-11-16",
+      "source": "ClashKing Assets (selected game facts)",
+      "sourceUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json",
+      "scope": "Selected new levels and baseline-matched cost/time adjustments; missing fields remain unknown."
     }
   },
   "tables": [
@@ -304,6 +310,110 @@
             "status": "known",
             "value": 4,
             "raw": "4"
+          }
+        ],
+        [
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "known",
+            "value": 19,
+            "raw": "19"
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          }
+        ],
+        [
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "known",
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": ""
           }
         ]
       ],
@@ -937,20 +1047,20 @@
           },
           {
             "status": "known",
-            "value": 9000000,
-            "raw": "9,000,000"
+            "value": 8500000,
+            "raw": "8500000"
           },
           {
             "status": "known",
-            "value": 561600,
-            "raw": "6d 12h",
+            "value": 475200,
+            "raw": "5d 12h",
             "unit": "seconds",
-            "displayInput": "6,12,0,0"
+            "displayInput": "5,12,0,0"
           },
           {
             "status": "known",
-            "value": 749,
-            "raw": "749"
+            "value": 689,
+            "raw": "689"
           },
           {
             "status": "known",
@@ -981,8 +1091,8 @@
           },
           {
             "status": "known",
-            "value": 15000000,
-            "raw": "15,000,000"
+            "value": 13500000,
+            "raw": "13500000"
           },
           {
             "status": "known",
@@ -1020,30 +1130,74 @@
           },
           {
             "status": "known",
-            "value": 2000,
-            "raw": "2,000"
+            "value": 2050,
+            "raw": "2050"
           },
           {
             "status": "known",
-            "value": 26000000,
-            "raw": "26,000,000"
+            "value": 18500000,
+            "raw": "18500000"
           },
           {
             "status": "known",
-            "value": 1144800,
-            "raw": "13d 6h",
+            "value": 864000,
+            "raw": "10d",
             "unit": "seconds",
-            "displayInput": "13,6,0,0"
+            "displayInput": "10,0,0,0"
           },
           {
             "status": "known",
-            "value": 1069,
-            "raw": "1,069"
+            "value": 929,
+            "raw": "929"
           },
           {
             "status": "known",
             "value": 18,
             "raw": "18"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 17,
+            "raw": "17"
+          },
+          {
+            "status": "known",
+            "value": 790,
+            "raw": "790"
+          },
+          {
+            "status": "known",
+            "value": 790.0,
+            "raw": "790.0"
+          },
+          {
+            "status": "known",
+            "value": 2150,
+            "raw": "2150"
+          },
+          {
+            "status": "known",
+            "value": 28500000,
+            "raw": "28500000"
+          },
+          {
+            "status": "known",
+            "value": 1209600,
+            "raw": "14d",
+            "unit": "seconds",
+            "displayInput": "14,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 1099,
+            "raw": "1099"
+          },
+          {
+            "status": "known",
+            "value": 19,
+            "raw": "19"
           }
         ]
       ],
@@ -1350,6 +1504,12 @@
       "sourceUrl": "https://x.com/ClashDotNinja/status/2112523574984446061",
       "sourcePublishedOn": "2026-10-20",
       "sourceType": "community-update"
+    },
+    {
+      "date": "2026-11-16",
+      "description": "19 本版本新增 17 级。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/",
+      "sourcePublishedOn": "2026-11-16"
     }
   ],
   "facts": [

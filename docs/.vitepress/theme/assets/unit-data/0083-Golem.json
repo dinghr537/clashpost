@@ -11,7 +11,13 @@
     "revision": 625101,
     "revisionUrl": "https://clashofclans.fandom.com/wiki/Golem?oldid=625101",
     "syncedOn": "2026-10-13",
-    "scope": "Source statistics tables and available 2026 history; base values"
+    "scope": "Source statistics tables and available 2026 history; base values",
+    "th19Update": {
+      "checkedOn": "2026-11-16",
+      "source": "ClashKing Assets (selected game facts)",
+      "sourceUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json",
+      "scope": "Selected new levels and baseline-matched cost/time adjustments; missing fields remain unknown."
+    }
   },
   "tables": [
     {
@@ -709,15 +715,15 @@
           },
           {
             "status": "known",
-            "value": 175000,
-            "raw": "175,000"
+            "value": 135000,
+            "raw": "135000"
           },
           {
             "status": "known",
-            "value": 518400,
-            "raw": "6d",
+            "value": 475200,
+            "raw": "5d 12h",
             "unit": "seconds",
-            "displayInput": "6,0,0,0"
+            "displayInput": "5,12,0,0"
           },
           {
             "status": "known",
@@ -758,15 +764,15 @@
           },
           {
             "status": "known",
-            "value": 230000,
-            "raw": "230,000"
+            "value": 160000,
+            "raw": "160000"
           },
           {
             "status": "known",
-            "value": 864000,
-            "raw": "10d",
+            "value": 561600,
+            "raw": "6d 12h",
             "unit": "seconds",
-            "displayInput": "10,0,0,0"
+            "displayInput": "6,12,0,0"
           },
           {
             "status": "known",
@@ -807,20 +813,69 @@
           },
           {
             "status": "known",
-            "value": 350000,
-            "raw": "350,000"
+            "value": 295000,
+            "raw": "295000"
           },
           {
             "status": "known",
-            "value": 1252800,
-            "raw": "14d 12h",
+            "value": 907200,
+            "raw": "10d 12h",
             "unit": "seconds",
-            "displayInput": "14,12,0,0"
+            "displayInput": "10,12,0,0"
           },
           {
             "status": "known",
             "value": 16,
             "raw": "16"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 16,
+            "raw": "16"
+          },
+          {
+            "status": "known",
+            "value": 140,
+            "raw": "140"
+          },
+          {
+            "status": "known",
+            "value": 336.0,
+            "raw": "336.0"
+          },
+          {
+            "status": "known",
+            "value": 1100,
+            "raw": "1100"
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": "?"
+          },
+          {
+            "status": "known",
+            "value": 11800,
+            "raw": "11800"
+          },
+          {
+            "status": "known",
+            "value": 455000,
+            "raw": "455000"
+          },
+          {
+            "status": "known",
+            "value": 1209600,
+            "raw": "14d",
+            "unit": "seconds",
+            "displayInput": "14,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 17,
+            "raw": "17"
           }
         ]
       ],
@@ -955,6 +1010,12 @@
       "description": "新增 15 级戈仑石人。",
       "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/",
       "sourcePublishedOn": "2026-04-27"
+    },
+    {
+      "date": "2026-11-16",
+      "description": "19 本版本新增 16 级。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/",
+      "sourcePublishedOn": "2026-11-16"
     }
   ],
   "facts": [

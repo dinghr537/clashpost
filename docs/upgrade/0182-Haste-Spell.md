@@ -8,6 +8,7 @@ imgFolder: home_tech/0182
 wiki: https://clashofclans.fandom.com/wiki/Haste_Spell
 canonical: /upgrade/0182-Haste-Spell
 dataSyncedOn: 2026-10-13
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Haste_Spell.png" :imgAlt="$frontmatter.navTitle"
@@ -31,6 +32,10 @@ dataSyncedOn: 2026-10-13
 \* 脉冲有效时间比脉冲间隔时间要长，这意味着部队离开法术范围后，仍然会保持效果 0.7 到 1 秒。
 
 <SmallTitle>升级数据</SmallTitle>
+
+<small>8 级加速、持续时间与半径参考 [ClashPerk Wiki](https://wiki.clashperk.com/spells/haste-spell)。</small>
+
+<small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为未知。</small>
 
 <script setup>
 const tableExtraInfo = [
@@ -57,8 +62,9 @@ const tableExtraInfo = [
 | 3 | 40 | 20秒 | 4格 | 17000 | 2,0,0,0 | 8 | 10 |
 | 4 | 46 | 25秒 | 4格 | 30000 | 3,0,0,0 | 8 | 10 |
 | 5 | 52 | 30秒 | 4格 | 38500 | 4,0,0,0 | 9 | 11 |
-| 6 | 56 | 30秒 | 4格 | 200000 | 9,0,0,0 | 15 | 17 |
-| 7 | 56 | 30秒 | 5格 | 320000 | 12,12,0,0 | 16 | 18 |
+| 6 | 56 | 30秒 | 4格 | 165000 | 7,12,0,0 | 15 | 17 |
+| 7 | 56 | 30秒 | 5格 | 255000 | 9,6,0,0 | 16 | 18 |
+| 8 | 60 | 30秒 | 5格 | 415000 | 13,0,0,0 | 17 | 19 |
 </UnitTable>
 
 \# 表格中每 8 点速度值代表 1 格/秒。
@@ -66,6 +72,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/11/16">
+        <TimelineRow>19 本版本新增 8 级。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/11/17">
         <TimelineRow>18 本推出，并在 18 本新增 7 级急速法术。</TimelineRow>
         <TimelineRow>6 级急速法术的升级时间减少。</TimelineRow>

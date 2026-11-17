@@ -11,7 +11,13 @@
     "revision": 574044,
     "revisionUrl": "https://clashofclans.fandom.com/wiki/Baby_Dragon?oldid=574044",
     "syncedOn": "2026-10-13",
-    "scope": "Source statistics tables and available 2026 history; base values"
+    "scope": "Source statistics tables and available 2026 history; base values",
+    "th19Update": {
+      "checkedOn": "2026-11-16",
+      "source": "ClashKing Assets (selected game facts)",
+      "sourceUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json",
+      "scope": "Selected new levels and baseline-matched cost/time adjustments; missing fields remain unknown."
+    }
   },
   "tables": [
     {
@@ -617,15 +623,15 @@
           },
           {
             "status": "known",
-            "value": 16500000,
-            "raw": "16,500,000"
+            "value": 15000000,
+            "raw": "15000000"
           },
           {
             "status": "known",
-            "value": 864000,
-            "raw": "10d",
+            "value": 648000,
+            "raw": "7d 12h",
             "unit": "seconds",
-            "displayInput": "10,0,0,0"
+            "displayInput": "7,12,0,0"
           },
           {
             "status": "known",
@@ -666,20 +672,69 @@
           },
           {
             "status": "known",
-            "value": 29000000,
-            "raw": "29,000,000"
+            "value": 21000000,
+            "raw": "21000000"
           },
           {
             "status": "known",
-            "value": 1317600,
-            "raw": "15d 6h",
+            "value": 950400,
+            "raw": "11d",
             "unit": "seconds",
-            "displayInput": "15,6,0,0"
+            "displayInput": "11,0,0,0"
           },
           {
             "status": "known",
             "value": 16,
             "raw": "16"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          },
+          {
+            "status": "known",
+            "value": 195,
+            "raw": "195"
+          },
+          {
+            "status": "known",
+            "value": 585,
+            "raw": "585"
+          },
+          {
+            "status": "known",
+            "value": 195.0,
+            "raw": "195.0"
+          },
+          {
+            "status": "known",
+            "value": 390,
+            "raw": "390"
+          },
+          {
+            "status": "known",
+            "value": 2500,
+            "raw": "2500"
+          },
+          {
+            "status": "known",
+            "value": 29000000,
+            "raw": "29000000"
+          },
+          {
+            "status": "known",
+            "value": 1080000,
+            "raw": "12d 12h",
+            "unit": "seconds",
+            "displayInput": "12,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 17,
+            "raw": "17"
           }
         ]
       ],
@@ -825,7 +880,14 @@
       "sourceAlt": "12 级"
     }
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-11-16",
+      "description": "19 本版本新增 13 级。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/",
+      "sourcePublishedOn": "2026-11-16"
+    }
+  ],
   "facts": [
     "The Baby Dragon is the eleventh Elixir Troop unlocked at Barracks level 11, which requires Town Hall level 9. He is a fearsome flying unit and is capable of attacking both ground and air units with splash damage.",
     "When no allied aerial units are within 4.5 tiles from the Baby Dragon, his Tantrum ability becomes active, increasing his attack rate and doubling his damage, though, his movement speed still remains the same."

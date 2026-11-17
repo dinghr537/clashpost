@@ -8,6 +8,7 @@ imgFolder: home_heroes/0782
 wiki: https://clashofclans.fandom.com/wiki/Rage_Gem
 canonical: /upgrade/0782-Rage-Gem
 dataSyncedOn: 2026-10-13
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Rage_Gem_info.png" :imgAlt="$frontmatter.navTitle" description="附近友军单位会造成额外伤害。" />
@@ -31,6 +32,8 @@ dataSyncedOn: 2026-10-13
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
+
+19 本更新后，狂暴宝石最多影响合计 260 人口的部队。<small>（[Supercell 官方公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)）</small>
 
 <script setup>
 const tableExtraInfo = [

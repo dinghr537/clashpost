@@ -11,7 +11,13 @@
     "revision": 624089,
     "revisionUrl": "https://clashofclans.fandom.com/wiki/Valkyrie?oldid=624089",
     "syncedOn": "2026-10-13",
-    "scope": "Source statistics tables and available 2026 history; base values"
+    "scope": "Source statistics tables and available 2026 history; base values",
+    "th19Update": {
+      "checkedOn": "2026-11-16",
+      "source": "ClashKing Assets (selected game facts)",
+      "sourceUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json",
+      "scope": "Selected new levels and baseline-matched cost/time adjustments; missing fields remain unknown."
+    }
   },
   "tables": [
     {
@@ -493,15 +499,15 @@
           },
           {
             "status": "known",
-            "value": 170000,
-            "raw": "170,000"
+            "value": 140000,
+            "raw": "140000"
           },
           {
             "status": "known",
-            "value": 518400,
-            "raw": "6d",
+            "value": 432000,
+            "raw": "5d",
             "unit": "seconds",
-            "displayInput": "6,0,0,0"
+            "displayInput": "5,0,0,0"
           },
           {
             "status": "known",
@@ -532,20 +538,59 @@
           },
           {
             "status": "known",
-            "value": 340000,
-            "raw": "340,000"
+            "value": 235000,
+            "raw": "235000"
           },
           {
             "status": "known",
-            "value": 1209600,
-            "raw": "14d",
+            "value": 820800,
+            "raw": "9d 12h",
             "unit": "seconds",
-            "displayInput": "14,0,0,0"
+            "displayInput": "9,12,0,0"
           },
           {
             "status": "known",
             "value": 15,
             "raw": "15"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          },
+          {
+            "status": "known",
+            "value": 272,
+            "raw": "272"
+          },
+          {
+            "status": "known",
+            "value": 489.6,
+            "raw": "489.6"
+          },
+          {
+            "status": "known",
+            "value": 3400,
+            "raw": "3400"
+          },
+          {
+            "status": "known",
+            "value": 370000,
+            "raw": "370000"
+          },
+          {
+            "status": "known",
+            "value": 907200,
+            "raw": "10d 12h",
+            "unit": "seconds",
+            "displayInput": "10,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 17,
+            "raw": "17"
           }
         ]
       ],
@@ -681,6 +726,12 @@
     {
       "date": "2026-04-27",
       "description": "Added the level 12 Valkyrie. Valkyrie12"
+    },
+    {
+      "date": "2026-11-16",
+      "description": "19 本版本新增 13 级。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/",
+      "sourcePublishedOn": "2026-11-16"
     }
   ],
   "facts": [

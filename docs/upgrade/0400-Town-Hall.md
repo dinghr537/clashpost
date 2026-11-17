@@ -8,6 +8,7 @@ imgFolder: home_buildings/0400
 wiki: https://clashofclans.fandom.com/wiki/Town_Hall
 canonical: /upgrade/0400-Town-Hall
 dataSyncedOn: 2026-10-13
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 - *如想查看大本营的自带武器，请访问：[巨型特斯拉电磁塔](/upgrade/030c-Giga-Tesla)、[巨型地狱之塔](/upgrade/030d-Giga-Inferno)、[地狱火炮](/upgrade/0315-Inferno-Artillery)。*
@@ -37,14 +38,14 @@ dataSyncedOn: 2026-10-13
         <UnitImg imgTitle="14 本" imgSrc="Town_Hall14.png" imgHd="Town_Hall14_hd.png" />
         <UnitImg imgTitle="15 本" imgSrc="Town_Hall15.png" imgHd="Town_Hall15_hd.png" />
         <UnitImg imgTitle="16 本" imgSrc="Town_Hall16.png" imgHd="Town_Hall16_hd.png" />
+        <UnitImg imgTitle="17 本" imgSrc="Town_Hall17_5.png" imgHd="Town_Hall17_5_hd.png" />
+        <UnitImg imgTitle="18 本" imgSrc="Town_Hall18.png" imgHd="Town_Hall18_hd.png" />
+    </UnitImgGroup>
+    <UnitImgGroup :folder="$frontmatter.imgFolder" title="老版本使用的模型">
         <UnitImg imgTitle="17 本 1 星" imgSrc="Town_Hall17_1.png" imgHd="Town_Hall17_1_hd.png" />
         <UnitImg imgTitle="17 本 2 星" imgSrc="Town_Hall17_2.png" imgHd="Town_Hall17_2_hd.png" />
         <UnitImg imgTitle="17 本 3 星" imgSrc="Town_Hall17_3.png" imgHd="Town_Hall17_3_hd.png" />
         <UnitImg imgTitle="17 本 4 星" imgSrc="Town_Hall17_4.png" imgHd="Town_Hall17_4_hd.png" />
-        <UnitImg imgTitle="17 本 5 星" imgSrc="Town_Hall17_5.png" imgHd="Town_Hall17_5_hd.png" />
-        <UnitImg imgTitle="18 本" imgSrc="Town_Hall18.png" imgHd="Town_Hall18_hd.png" />
-    </UnitImgGroup>
-    <UnitImgGroup :folder="$frontmatter.imgFolder" title="老版本使用的模型">
         <UnitImg imgTitle="12 本 1 星" imgSrc="Town_Hall12_1.png" imgHd="Town_Hall12_1_hd.png" />
         <UnitImg imgTitle="12 本 2 星" imgSrc="Town_Hall12_2.png" imgHd="Town_Hall12_2_hd.png" />
         <UnitImg imgTitle="12 本 3 星" imgSrc="Town_Hall12_3.png" imgHd="Town_Hall12_3_hd.png" />
@@ -72,6 +73,8 @@ dataSyncedOn: 2026-10-13
 
 [雷电法术](/upgrade/0100-Lightning-Spell) 不能对大本营造成伤害，[地震法术](/upgrade/0181-Earthquake-Spell) 可以。
 
+19 本可为不同阵型选择大本营驻军：原始外观无驻军；野蛮人大厅驻扎 15 名野蛮人，直接可用；弓箭手大厅驻扎 15 名弓箭手，需要研究 15 级弓箭手；法师大厅驻扎 4 名法师，需要研究 15 级法师。驻军使用玩家已研究的兵种等级，敌军进入 13 格范围后触发。守卫改由[守卫神殿](/upgrade/0843-Guardian-Shrine)安置。<small>（[COC Wiki](https://cocwiki.com/guides/town-hall-19)、[Clash of Clans Wiki](https://clashofclans.fandom.com/wiki/Town_Hall)、[Supercell](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)）</small>
+
 <SmallTitle>属性</SmallTitle>
 
 <UnitProperties>
@@ -80,6 +83,8 @@ dataSyncedOn: 2026-10-13
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
+
+<small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为未知。</small>
 
 <script setup>
 const tableExtraInfo1 = [
@@ -138,6 +143,7 @@ const tableExtraInfo2 = [
 | 16 | 10000 | 15000000 | 9,0,0,0 | 881 | 94 | 44 |
 | 17 | 10400 | 16000000 | 10,0,0,0 | 929 | 93 | 47 |
 | 18 | 10800 | 25000000 | 12,0,0,0 | 1018 | 94 | 47 |
+| 19 | 11200 | 27000000 | 13,0,0,0 | 1059 | 97 | 48 |
 </UnitTable>
 
 **\* 关于建筑数量和陷阱数量的说明：**
@@ -189,6 +195,9 @@ const tableExtraInfo2 = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/11/16">
+        <TimelineRow>19 本版本新增 19 级。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/11/17">
         <TimelineRow>游戏新增 18 级大本营。</TimelineRow>
     </TimelineItem>

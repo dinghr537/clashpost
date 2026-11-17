@@ -9,6 +9,7 @@ wiki: https://clashofclans.fandom.com/wiki/Dark_Elixir_Drill
 canonical: /upgrade/0403-Dark-Elixir-Drill
 dataSyncedOn: 2026-10-13
 dataBalanceUpdatedOn: 2026-10-20
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Dark_Elixir_Drill11.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
@@ -48,6 +49,8 @@ dataBalanceUpdatedOn: 2026-10-20
 
 <SmallTitle>升级数据</SmallTitle>
 
+<small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为未知。</small>
+
 <script setup>
 const tableExtraInfo = [
     {
@@ -81,6 +84,8 @@ const tableExtraInfo = [
 ];
 </script>
 
+<p><small>2026 年 19 本更新后，本建筑此前的超级充能已移除；下方带 ⚡ 的行仅供查阅历史数据。正在进行的充能会全额退款，已完成的充能不退款。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/">官方公告</a></small></p>
+
 <UnitTable :tableExtraInfo="tableExtraInfo">
 
 | 等级 |每小时产量|采集器<br>容量<sup>*</sup>|填满容量<br>所需时间|出现收集标志<br>时的储量|每个采集器<br>提速所需宝石|  生命值  | 升级费用  | 升级时间|升级后可<br>获得的经验| 所需<br>大本等级 |
@@ -95,7 +100,8 @@ const tableExtraInfo = [
 | 8 | 140 | 3000 | 0,21,25,43 | 5 | 40 | 1380 | 2400000 | 2,0,0,0 |  | 11 |
 | 9 | 160 | 3600 | 0,22,30,0 | 6 | 45 | 1480 | 3700000 | 2,12,0,0 |  | 12 |
 | 10 | 180 | 4200 | 0,23,20,0 | 7 | 50 | 1550 | 5300000 | 3,0,0,0 |  | 14 |
-| 11 | 200 | 4600 | 0,23,0,0 | 8 | 55 | 1600 | 12000000 | 6,0,0,0 |  | 16 |
+| 11 | 200 | 4600 | 0,23,0,0 | 8 | 55 | 1600 | 8000000 | 5,0,0,0 |  | 16 |
+| 12 | 未知 | 未知 | \ | 未知 | 未知 | 1650 | 12500000 | 6,12,0,0 |  | 18 |
 | ⚡1 | 209 | 4807 | 0,23,0,0 | 8 | 55 | 1600 | 750000 | 0,14,30,0 |  | 18 |
 | ⚡2 | 218 | 5014 | 0,23,0,0 | 8 | 55 | 1600 | 750000 | 0,19,0,0 |  | 18 |
 | ⚡3 | 218 | 5014 | 0,23,0,0 | 8 | 55 | 1650 | 500000 | 1,0,0,0 |  | 18 |
@@ -106,6 +112,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/11/16">
+        <TimelineRow>19 本版本新增 12 级。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2026/10/20">
         <TimelineRow>充能 1 级：费用由 510 万降至 75 万，时间由 3天缩短至 14小时30分。</TimelineRow>
         <TimelineRow>充能 2 级：费用由 450 万降至 75 万，时间由 4天缩短至 19小时。</TimelineRow>

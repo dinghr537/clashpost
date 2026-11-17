@@ -11,7 +11,13 @@
     "revision": 623233,
     "revisionUrl": "https://clashofclans.fandom.com/wiki/Seeking_Air_Mine?oldid=623233",
     "syncedOn": "2026-10-13",
-    "scope": "Source statistics tables and available 2026 history; base values"
+    "scope": "Source statistics tables and available 2026 history; base values",
+    "th19Update": {
+      "checkedOn": "2026-11-16",
+      "source": "ClashKing Assets (selected game facts)",
+      "sourceUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json",
+      "scope": "Selected TH16–18 costs and times where the previous snapshot matched this site."
+    }
   },
   "tables": [
     {
@@ -436,15 +442,15 @@
           },
           {
             "status": "known",
-            "value": 12000000,
-            "raw": "12,000,000"
+            "value": 7500000,
+            "raw": "7500000"
           },
           {
             "status": "known",
-            "value": 432000,
-            "raw": "5d",
+            "value": 345600,
+            "raw": "4d",
             "unit": "seconds",
-            "displayInput": "5,0,0,0"
+            "displayInput": "4,0,0,0"
           },
           {
             "status": "known",
@@ -470,15 +476,15 @@
           },
           {
             "status": "known",
-            "value": 19000000,
-            "raw": "19,000,000"
+            "value": 11500000,
+            "raw": "11500000"
           },
           {
             "status": "known",
-            "value": 993600,
-            "raw": "11d 12h",
+            "value": 604800,
+            "raw": "7d",
             "unit": "seconds",
-            "displayInput": "11,12,0,0"
+            "displayInput": "7,0,0,0"
           },
           {
             "status": "known",

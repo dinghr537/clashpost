@@ -8,6 +8,7 @@ imgFolder: home_tech/0244
 wiki: https://clashofclans.fandom.com/wiki/Log_Launcher
 canonical: /upgrade/0244-Log-Launcher
 dataSyncedOn: 2026-10-13
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Log_Launcher.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
@@ -56,6 +57,8 @@ dataSyncedOn: 2026-10-13
 
 <SmallTitle>升级数据</SmallTitle>
 
+<small>19 本版本对部分旧等级的费用、时间作了调整；变更数值参考 [ClashKing Assets](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)。</small>
+
 <script setup>
 const tableExtraInfo = [
     {
@@ -80,8 +83,8 @@ const tableExtraInfo = [
 | 2 | 160 | 480 | 3000 | 4400 | 3200000 | 3,0,0,0 | 10 | 13 |
 | 3 | 180 | 540 | 3100 | 4800 | 4500000 | 4,0,0,0 | 10 | 13 |
 | 4 | 200 | 600 | 3200 | 5200 | 7500000 | 7,0,0,0 | 11 | 13 |
-| 5 | 220 | 660 | 3400 | 5500 | 18000000 | 12,0,0,0 | 14 | 16 |
-| 6 | 230 | 690 | 3600 | 5800 | 27000000 | 15,0,0,0 | 16 | 18 |
+| 5 | 220 | 660 | 3400 | 5500 | 14500000 | 8,12,0,0 | 14 | 16 |
+| 6 | 230 | 690 | 3600 | 5800 | 21500000 | 12,0,0,0 | 16 | 18 |
 </UnitTable>
 
 \# 攻城滚木车会对近距离（具体几格不知道）的建筑造成额外伤害，我们将其称为“贴脸伤害”，而且“贴脸伤害”对 [城墙](/upgrade/0300-Walls) 仍然有 4 倍伤害。在近距离下，滚木车造成的伤害 = 每次伤害 + 贴脸伤害。

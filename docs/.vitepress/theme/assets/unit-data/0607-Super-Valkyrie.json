@@ -11,7 +11,14 @@
     "revision": 622824,
     "revisionUrl": "https://clashofclans.fandom.com/wiki/Super_Valkyrie?oldid=622824",
     "syncedOn": "2026-10-13",
-    "scope": "Source statistics tables and available 2026 history; base values"
+    "scope": "Source statistics tables and available 2026 history; base values",
+    "th19Update": {
+      "checkedOn": "2026-11-16",
+      "source": "ClashKing Assets (selected game facts; level numbering mapped to older Wiki scale)",
+      "sourceUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json",
+      "scope": "Level mapping based on 12 matching earlier stat pairs and the base troop level; unverified fields remain unknown.",
+      "levelOffset": 0
+    }
   },
   "tables": [
     {
@@ -248,6 +255,28 @@
             "value": 4500,
             "raw": "4,500"
           }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          },
+          {
+            "status": "known",
+            "value": 435,
+            "raw": "435"
+          },
+          {
+            "status": "known",
+            "value": 478.5,
+            "raw": "478.5"
+          },
+          {
+            "status": "known",
+            "value": 5100,
+            "raw": "5100"
+          }
         ]
       ],
       "extraInfo": []
@@ -273,6 +302,12 @@
     {
       "date": "2026-04-27",
       "description": "Added the level 12 Super Valkyrie."
+    },
+    {
+      "date": "2026-11-16",
+      "description": "19 本版本对应的普通兵种新增等级，超级兵属性随之更新。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/",
+      "sourcePublishedOn": "2026-11-16"
     }
   ],
   "facts": [

@@ -8,6 +8,7 @@ imgFolder: home_tech/0186
 wiki: https://clashofclans.fandom.com/wiki/Ice_Block_Spell
 canonical: /upgrade/0186-Ice-Block-Spell
 dataSyncedOn: 2026-10-13
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Ice_Block_Spell_info.png" :imgAlt="$frontmatter.navTitle"
@@ -43,6 +44,8 @@ dataSyncedOn: 2026-10-13
 
 <SmallTitle>升级数据</SmallTitle>
 
+<small>19 本版本对部分旧等级的费用、时间作了调整；变更数值参考 [ClashKing Assets](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)。</small>
+
 <script setup>
 const tableExtraInfo = [
     {
@@ -66,9 +69,9 @@ const tableExtraInfo = [
 | 1 | 86% | 7秒 | \ | \ | 1 | 14 |
 | 2 | 88% | 7秒 | 140000 | 10,0,0,0 | 12 | 14 |
 | 3 | 90% | 7秒 | 200000 | 11,0,0,0 | 13 | 15 |
-| 4 | 92% | 7秒 | 280000 | 12,0,0,0 | 14 | 16 |
-| 5 | 94% | 7秒 | 320000 | 14,0,0,0 | 15 | 17 |
-| 6 | 96% | 7秒 | 380000 | 16,0,0,0 | 16 | 18 |
+| 4 | 92% | 7秒 | 230000 | 10,0,0,0 | 14 | 16 |
+| 5 | 94% | 7秒 | 250000 | 10,12,0,0 | 15 | 17 |
+| 6 | 96% | 7秒 | 290000 | 11,0,0,0 | 16 | 18 |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>

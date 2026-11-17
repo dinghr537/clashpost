@@ -9,6 +9,7 @@ wiki: https://clashofclans.fandom.com/wiki/Hidden_Tesla
 canonical: /upgrade/0307-Hidden-Tesla
 dataSyncedOn: 2026-10-13
 dataBalanceUpdatedOn: 2026-10-20
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 - *如想查看 12 本的自带武器，请访问 [巨型特斯拉电磁塔](/upgrade/030c-Giga-Tesla)。*
@@ -61,6 +62,8 @@ dataBalanceUpdatedOn: 2026-10-20
 
 <SmallTitle>升级数据</SmallTitle>
 
+<small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为未知。</small>
+
 <script setup>
 const tableExtraInfo = [
     {
@@ -82,6 +85,8 @@ const tableExtraInfo = [
 ];
 </script>
 
+<p><small>2026 年 19 本更新后，本建筑此前的超级充能已移除；下方带 ⚡ 的行仅供查阅历史数据。正在进行的充能会全额退款，已完成的充能不退款。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/">官方公告</a></small></p>
+
 <UnitTable :tableExtraInfo="tableExtraInfo">
 
 | 等级 | 每秒伤害 | 每次伤害 | 生命值 | 升级费用 |  升级时间  |升级后可<br>获得的经验| 所需<br>大本等级 |
@@ -100,9 +105,10 @@ const tableExtraInfo = [
 | 12 | 140 | 84 | 1200 | 3700000 | 3,0,0,0 |  | 13 |
 | 13 | 150 | 90 | 1350 | 5100000 | 3,12,0,0 |  | 14 |
 | 14 | 160 | 96 | 1450 | 6500000 | 4,0,0,0 |  | 15 |
-| 15 | 170 | 102 | 1550 | 8200000 | 5,0,0,0 |  | 16 |
-| 16 | 180 | 108 | 1650 | 15000000 | 7,0,0,0 |  | 17 |
-| 17 | 190 | 114 | 1750 | 25000000 | 13,0,0,0 |  | 18 |
+| 15 | 170 | 102 | 1550 | 7000000 | 4,6,0,0 |  | 16 |
+| 16 | 180 | 108 | 1650 | 13500000 | 7,0,0,0 |  | 17 |
+| 17 | 190 | 114 | 1750 | 16500000 | 9,0,0,0 |  | 18 |
+| 18 | 210 | 126 | 1950 | 27500000 | 14,0,0,0 |  | 19 |
 | ⚡1 | 195 | 117 | 1750 | 4750000 | 1,19,0,0 |  | 18 |
 | ⚡2 | 195 | 117 | 1800 | 3250000 | 2,14,0,0 |  | 18 |
 
@@ -111,6 +117,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/11/16">
+        <TimelineRow>19 本版本新增 18 级。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2026/10/20">
         <TimelineRow>充能 1 级：费用由 1200 万降至 475 万，时间由 4天12小时缩短至 1天19小时。</TimelineRow>
         <TimelineRow>充能 2 级：费用由 800 万降至 325 万，时间由 6天12小时缩短至 2天14小时。</TimelineRow>

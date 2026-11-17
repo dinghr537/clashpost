@@ -8,6 +8,7 @@ imgFolder: home_tech/0185
 wiki: https://clashofclans.fandom.com/wiki/Overgrowth_Spell
 canonical: /upgrade/0185-Overgrowth-Spell
 dataSyncedOn: 2026-10-13
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Overgrowth_Spell.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
@@ -43,6 +44,8 @@ dataSyncedOn: 2026-10-13
 
 <SmallTitle>升级数据</SmallTitle>
 
+<small>19 本版本对部分旧等级的费用、时间作了调整；变更数值参考 [ClashKing Assets](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)。</small>
+
 <script setup>
 const tableExtraInfo = [
     {
@@ -66,8 +69,8 @@ const tableExtraInfo = [
 | 1 | 22秒 | \ | \ | 1 | 12 |
 | 2 | 23秒 | 62500 | 5,0,0,0 | 10 | 12 |
 | 3 | 24秒 | 125000 | 8,12,0,0 | 12 | 14 |
-| 4 | 25秒 | 175000 | 10,0,0,0 | 14 | 16 |
-| 5 | 26秒 | 360000 | 16,0,0,0 | 16 | 18 |
+| 4 | 25秒 | 175000 | 9,0,0,0 | 14 | 16 |
+| 5 | 26秒 | 295000 | 11,6,0,0 | 16 | 18 |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>

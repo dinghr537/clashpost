@@ -8,6 +8,7 @@ imgFolder: home_tech/000e
 wiki: https://clashofclans.fandom.com/wiki/Dragon_Rider
 canonical: /upgrade/000e-Dragon-Rider
 dataSyncedOn: 2026-10-13
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Dragon_Rider_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
@@ -46,6 +47,8 @@ dataSyncedOn: 2026-10-13
 
 <SmallTitle>升级数据</SmallTitle>
 
+<small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为未知。</small>
+
 <script setup>
 const tableExtraInfo = [
     {
@@ -69,14 +72,18 @@ const tableExtraInfo = [
 | 1 | 340 | 408 | 700 | 4100 | \ | \ | 1 | 13 |
 | 2 | 370 | 444 | 800 | 4400 | 7500000 | 6,0,0,0 | 11 | 13 |
 | 3 | 400 | 480 | 900 | 4700 | 12000000 | 8,0,0,0 | 12 | 14 |
-| 4 | 430 | 516 | 1000 | 5100 | 14500000 | 9,0,0,0 | 14 | 16 |
-| 5 | 470 | 564 | 1100 | 5600 | 19000000 | 10,6,0,0 | 15 | 17 |
-| 6 | 490 | 588 | 1200 | 5900 | 29500000 | 15,12,0,0 | 16 | 18 |
+| 4 | 430 | 516 | 1000 | 5100 | 13500000 | 8,12,0,0 | 14 | 16 |
+| 5 | 470 | 564 | 1100 | 5600 | 17500000 | 9,12,0,0 | 15 | 17 |
+| 6 | 490 | 588 | 1200 | 5900 | 21000000 | 11,12,0,0 | 16 | 18 |
+| 7 | 510 | 612 | 1300 | 6200 | 28500000 | 12,12,0,0 | 17 | 19 |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/11/16">
+        <TimelineRow>19 本版本新增 7 级。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2026/07/14">
         <TimelineRow>6 级龙骑士生命值由 6000 降至 5900，每秒伤害由 510 降至 490。 <a href="https://clashofclans.fandom.com/wiki/Dragon_Rider#History" target="_blank" rel="noopener noreferrer">来源</a></TimelineRow>
     </TimelineItem>

@@ -11,7 +11,14 @@
     "revision": 625037,
     "revisionUrl": "https://clashofclans.fandom.com/wiki/Smasher?oldid=625037",
     "syncedOn": "2026-10-13",
-    "scope": "Source statistics tables and available 2026 history; base values"
+    "scope": "Source statistics tables and available 2026 history; base values",
+    "th19Update": {
+      "checkedOn": "2026-11-16",
+      "source": "ClashKing Assets (selected game facts)",
+      "sourceUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json",
+      "scope": "Selected new levels and baseline-matched cost/time adjustments; missing fields remain unknown.",
+      "wikiChecked": "https://clashofclans.fandom.com/wiki/Smasher"
+    }
   },
   "tables": [
     {
@@ -160,15 +167,15 @@
           },
           {
             "status": "known",
-            "value": 18000000,
-            "raw": "18,000,000"
+            "value": 13000000,
+            "raw": "13000000"
           },
           {
             "status": "known",
-            "value": 604800,
-            "raw": "7d",
+            "value": 432000,
+            "raw": "5d",
             "unit": "seconds",
-            "displayInput": "7,0,0,0"
+            "displayInput": "5,0,0,0"
           }
         ],
         [
@@ -194,15 +201,15 @@
           },
           {
             "status": "known",
-            "value": 22000000,
-            "raw": "22,000,000"
+            "value": 16000000,
+            "raw": "16000000"
           },
           {
             "status": "known",
-            "value": 777600,
-            "raw": "9d",
+            "value": 604800,
+            "raw": "7d",
             "unit": "seconds",
-            "displayInput": "9,0,0,0"
+            "displayInput": "7,0,0,0"
           }
         ],
         [
@@ -228,15 +235,15 @@
           },
           {
             "status": "known",
-            "value": 26000000,
-            "raw": "26,000,000"
+            "value": 19000000,
+            "raw": "19000000"
           },
           {
             "status": "known",
-            "value": 950400,
-            "raw": "11d",
+            "value": 777600,
+            "raw": "9d",
             "unit": "seconds",
-            "displayInput": "11,0,0,0"
+            "displayInput": "9,0,0,0"
           }
         ],
         [
@@ -262,8 +269,110 @@
           },
           {
             "status": "known",
-            "value": 28000000,
-            "raw": "28,000,000"
+            "value": 21500000,
+            "raw": "21500000"
+          },
+          {
+            "status": "known",
+            "value": 950400,
+            "raw": "11d",
+            "unit": "seconds",
+            "displayInput": "11,0,0,0"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "status": "known",
+            "value": 750,
+            "raw": "750"
+          },
+          {
+            "status": "known",
+            "value": 1350.0,
+            "raw": "1350.0"
+          },
+          {
+            "status": "known",
+            "value": 17000,
+            "raw": "17000"
+          },
+          {
+            "status": "known",
+            "value": 24000000,
+            "raw": "24000000"
+          },
+          {
+            "status": "known",
+            "value": 1036800,
+            "raw": "12d",
+            "unit": "seconds",
+            "displayInput": "12,0,0,0"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": 800,
+            "raw": "800"
+          },
+          {
+            "status": "known",
+            "value": 1440.0,
+            "raw": "1440.0"
+          },
+          {
+            "status": "known",
+            "value": 18000,
+            "raw": "18000"
+          },
+          {
+            "status": "known",
+            "value": 25000000,
+            "raw": "25000000"
+          },
+          {
+            "status": "known",
+            "value": 1080000,
+            "raw": "12d 12h",
+            "unit": "seconds",
+            "displayInput": "12,12,0,0"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": 850,
+            "raw": "850"
+          },
+          {
+            "status": "known",
+            "value": 1530.0,
+            "raw": "1530.0"
+          },
+          {
+            "status": "known",
+            "value": 19000,
+            "raw": "19000"
+          },
+          {
+            "status": "known",
+            "value": 26000000,
+            "raw": "26000000"
           },
           {
             "status": "known",
@@ -271,6 +380,74 @@
             "raw": "13d",
             "unit": "seconds",
             "displayInput": "13,0,0,0"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          },
+          {
+            "status": "known",
+            "value": 900,
+            "raw": "900"
+          },
+          {
+            "status": "known",
+            "value": 1620.0,
+            "raw": "1620.0"
+          },
+          {
+            "status": "known",
+            "value": 20000,
+            "raw": "20000"
+          },
+          {
+            "status": "known",
+            "value": 27000000,
+            "raw": "27000000"
+          },
+          {
+            "status": "known",
+            "value": 1166400,
+            "raw": "13d 12h",
+            "unit": "seconds",
+            "displayInput": "13,12,0,0"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "status": "known",
+            "value": 950,
+            "raw": "950"
+          },
+          {
+            "status": "known",
+            "value": 1710.0,
+            "raw": "1710.0"
+          },
+          {
+            "status": "known",
+            "value": 21000,
+            "raw": "21000"
+          },
+          {
+            "status": "known",
+            "value": 28000000,
+            "raw": "28000000"
+          },
+          {
+            "status": "known",
+            "value": 1209600,
+            "raw": "14d",
+            "unit": "seconds",
+            "displayInput": "14,0,0,0"
           }
         ]
       ],
@@ -323,6 +500,12 @@
       "description": "守卫被冻结时，不再触发激活。",
       "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/",
       "sourcePublishedOn": "2026-04-27"
+    },
+    {
+      "date": "2026-11-16",
+      "description": "19 本版本新增 6–10 级。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/",
+      "sourcePublishedOn": "2026-11-16"
     }
   ],
   "facts": [

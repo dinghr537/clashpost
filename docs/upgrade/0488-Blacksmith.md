@@ -8,6 +8,7 @@ imgFolder: home_buildings/0488
 wiki: https://clashofclans.fandom.com/wiki/Blacksmith
 canonical: /upgrade/0488-Blacksmith
 dataSyncedOn: 2026-10-13
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Blacksmith9.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
@@ -48,6 +49,8 @@ dataSyncedOn: 2026-10-13
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
+
+<small>19 本版本对部分旧等级的费用、时间作了调整；变更数值参考 [ClashKing Assets](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)。</small>
 
 <script setup>
 const tableExtraInfo = [
@@ -101,7 +104,7 @@ const tableExtraInfo = [
 | 7 | 1300 | 40000 | 4000 | 800 | 9200000 | 5,0,0,0 |  | 14 | <a href="/upgrade/07c2-Hog-Rider-Puppet">野猪骑士木偶</a> |
 | 8 | 1400 | 45000 | 4500 | 900 | 10000000 | 6,0,0,0 |  | 15 | <a href="/upgrade/07c3-Haste-Vial">急速药水瓶</a> |
 | 9 | 1500 | 50000 | 5000 | 1000 | 11000000 | 7,0,0,0 |  | 16 | [爆震器](/upgrade/07e2-Stun-Blaster) |
-| 10 | 1600 | 50000 | 5000 | 1000 | 18000000 | 10,0,0,0 |  | 17 | [雷电獠牙](/upgrade/07e4-Electro-Fangs) |
+| 10 | 1600 | 50000 | 5000 | 1000 | 17000000 | 10,0,0,0 |  | 17 | [雷电獠牙](/upgrade/07e4-Electro-Fangs) |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>

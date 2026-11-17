@@ -8,6 +8,7 @@ imgFolder: home_tech/0184
 wiki: https://clashofclans.fandom.com/wiki/Bat_Spell
 canonical: /upgrade/0184-Bat-Spell
 dataSyncedOn: 2026-10-13
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Bat_Spell.png" :imgAlt="$frontmatter.navTitle"
@@ -62,6 +63,8 @@ dataSyncedOn: 2026-10-13
 
 <SmallTitle>升级数据</SmallTitle>
 
+<small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为未知。</small>
+
 <script setup>
 const tableExtraInfo = [
     {
@@ -88,13 +91,17 @@ const tableExtraInfo = [
 | 4 | 16 | 35000 | 2,6,0,0 | 9 | 11 |
 | 5 | 21 | 47500 | 4,0,0,0 | 10 | 12 |
 | 6 | 22 | 140000 | 7,0,0,0 | 13 | 15 |
-| 7 | 23 | 220000 | 8,12,0,0 | 15 | 17 |
-| 8 | 25 | 300000 | 13,0,0,0 | 16 | 18 |
+| 7 | 23 | 190000 | 7,6,0,0 | 15 | 17 |
+| 8 | 25 | 245000 | 9,6,0,0 | 16 | 18 |
+| 9 | 29 | 415000 | 13,0,0,0 | 17 | 19 |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/11/16">
+        <TimelineRow>19 本版本新增 9 级。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/11/17">
         <TimelineRow>18 本推出，并在 18 本新增 8 级蝙蝠法术。</TimelineRow>
         <TimelineRow>7 级蝙蝠法术的升级时间和升级费用减少。</TimelineRow>

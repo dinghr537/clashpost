@@ -530,13 +530,15 @@
           "Level",
           "Damage per Second",
           "Damage per Attack",
-          "Hitpoints"
+          "Hitpoints",
+          "Town Hall Level Required"
         ],
         "columns": {
           "0": 0,
           "1": 1,
           "2": 2,
-          "3": 3
+          "3": 3,
+          "4": 4
         },
         "preserveUnmatchedRows": true
       }
@@ -629,7 +631,8 @@
           "Damage per Second / After 1.5s",
           "Damage per Second / After 3s",
           "Damage when Destroyed",
-          "Hitpoints"
+          "Hitpoints",
+          "Town Hall Level Required"
         ],
         "columns": {
           "0": 0,
@@ -637,7 +640,8 @@
           "4": 4,
           "5": 5,
           "2": 2,
-          "3": 3
+          "3": 3,
+          "6": 6
         },
         "preserveUnmatchedRows": true
       }
@@ -1872,14 +1876,16 @@
           "Damage per Second",
           "Damage per Attack",
           "Damage vs Walls",
-          "Hitpoints"
+          "Hitpoints",
+          "Town Hall Level Required"
         ],
         "columns": {
           "0": 0,
           "1": 1,
           "2": 2,
           "4": 4,
-          "3": 3
+          "3": 3,
+          "5": 5
         },
         "preserveUnmatchedRows": true
       }
@@ -4769,7 +4775,8 @@
           "升级费用",
           "升级费用",
           "所需<br>铁匠铺等级",
-          "所需<br>大本等级"
+          "所需<br>大本等级",
+          "英雄<br>秒伤增加"
         ],
         "sourceTableIndex": 3,
         "sourceHeaders": [
@@ -4781,7 +4788,8 @@
           "Upgrade Cost / Shiny Ore",
           "Upgrade Cost / Glowy Ore",
           "Upgrade Cost / Starry Ore",
-          "Blacksmith Level Required"
+          "Blacksmith Level Required",
+          "Hero DPS Increase (2026)"
         ],
         "columns": {
           "0": 0,
@@ -4796,7 +4804,8 @@
           "9": {
             "requirement": "Blacksmith Level Required",
             "unit": "0488-Blacksmith"
-          }
+          },
+          "10": 9
         },
         "preserveUnmatchedRows": true
       },
@@ -4829,14 +4838,16 @@
           "Damage per Second",
           "Damage per Hit (Primary)",
           "Damage per Hit (Secondary)",
-          "Hitpoints"
+          "Hitpoints",
+          "Town Hall Level Required"
         ],
         "columns": {
           "0": 0,
           "1": 1,
           "2": 2,
           "3": 3,
-          "4": 4
+          "4": 4,
+          "5": 5
         },
         "preserveUnmatchedRows": true
       }
@@ -9955,13 +9966,15 @@
           "Level",
           "Damage per Second",
           "Damage per Hit",
-          "Hitpoints"
+          "Hitpoints",
+          "Town Hall Level Required"
         ],
         "columns": {
           "0": 0,
           "1": 1,
           "2": 2,
-          "3": 3
+          "3": 3,
+          "4": 4
         },
         "preserveUnmatchedRows": true
       },
@@ -10795,13 +10808,15 @@
           "Level",
           "Damage per Second",
           "Damage per Hit",
-          "Hitpoints"
+          "Hitpoints",
+          "Town Hall Level Required"
         ],
         "columns": {
           "0": 0,
           "1": 1,
           "2": 2,
-          "3": 3
+          "3": 3,
+          "4": 4
         },
         "preserveUnmatchedRows": true
       }
@@ -12626,14 +12641,16 @@
           "Damage per Second / Initial",
           "Damage per Second / After 1.7s",
           "Damage per Second / After 3.2s",
-          "Hitpoints"
+          "Hitpoints",
+          "Town Hall Level Required"
         ],
         "columns": {
           "0": 0,
           "1": 1,
           "4": 4,
           "2": 2,
-          "3": 3
+          "3": 3,
+          "5": 5
         },
         "preserveUnmatchedRows": true
       }

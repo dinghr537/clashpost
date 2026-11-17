@@ -11,7 +11,13 @@
     "revision": 624451,
     "revisionUrl": "https://clashofclans.fandom.com/wiki/Dark_Elixir_Storage?oldid=624451",
     "syncedOn": "2026-10-13",
-    "scope": "Source statistics tables and available 2026 history; base values"
+    "scope": "Source statistics tables and available 2026 history; base values",
+    "th19Update": {
+      "checkedOn": "2026-11-16",
+      "source": "ClashKing Assets (selected game facts)",
+      "sourceUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json",
+      "scope": "Selected new levels and baseline-matched cost/time adjustments; missing fields remain unknown."
+    }
   },
   "tables": [
     {
@@ -630,20 +636,20 @@
           },
           {
             "status": "known",
-            "value": 10000000,
-            "raw": "10,000,000"
+            "value": 8000000,
+            "raw": "8000000"
           },
           {
             "status": "known",
-            "value": 432000,
-            "raw": "5d",
+            "value": 345600,
+            "raw": "4d",
             "unit": "seconds",
-            "displayInput": "5,0,0,0"
+            "displayInput": "4,0,0,0"
           },
           {
             "status": "known",
-            "value": 657,
-            "raw": "657"
+            "value": 587,
+            "raw": "587"
           },
           {
             "status": "known",
@@ -669,8 +675,8 @@
           },
           {
             "status": "known",
-            "value": 16000000,
-            "raw": "16,000,000"
+            "value": 15000000,
+            "raw": "15000000"
           },
           {
             "status": "known",
@@ -708,8 +714,47 @@
           },
           {
             "status": "known",
-            "value": 25000000,
-            "raw": "25,000,000"
+            "value": 20000000,
+            "raw": "20000000"
+          },
+          {
+            "status": "known",
+            "value": 864000,
+            "raw": "10d",
+            "unit": "seconds",
+            "displayInput": "10,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 929,
+            "raw": "929"
+          },
+          {
+            "status": "known",
+            "value": 18,
+            "raw": "18"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": "?"
+          },
+          {
+            "status": "known",
+            "value": 4900,
+            "raw": "4900"
+          },
+          {
+            "status": "known",
+            "value": 24000000,
+            "raw": "24000000"
           },
           {
             "status": "known",
@@ -721,12 +766,12 @@
           {
             "status": "known",
             "value": 1059,
-            "raw": "1,059"
+            "raw": "1059"
           },
           {
             "status": "known",
-            "value": 18,
-            "raw": "18"
+            "value": 19,
+            "raw": "19"
           }
         ]
       ],
@@ -1140,7 +1185,14 @@
       "logicalPath": "/upgrade/home_buildings/0406/Dark_Elixir_Storage12.png"
     }
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-11-16",
+      "description": "19 本版本新增 14 级。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/",
+      "sourcePublishedOn": "2026-11-16"
+    }
+  ],
   "facts": [
     "This Dark Elixir Storage is a resource building that expands the player's Dark Elixir capacity. It is unlocked at Town Hall level 7, along with the Dark Elixir Drill.",
     "6% or 5% (depending on your Town Hall level) of the total Dark Elixir in the storage (up to 9,000, or none if you are in the Legend League) can be stolen by attackers, although loot penalties may change this amount (see Raids)."

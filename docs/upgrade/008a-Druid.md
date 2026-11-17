@@ -8,6 +8,7 @@ imgFolder: home_tech/008a
 wiki: https://clashofclans.fandom.com/wiki/Druid
 canonical: /upgrade/008a-Druid
 dataSyncedOn: 2026-10-13
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 <SwitchTabs contentClass="cp-unit-items" :stickyTabs="true" :pageTabs="true">
@@ -66,6 +67,10 @@ dataSyncedOn: 2026-10-13
 
 <SmallTitle>升级数据</SmallTitle>
 
+<small>本级部分伤害或治疗量按本页已有倍率、攻速或治疗次数计算。</small>
+
+<small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为未知。</small>
+
 <script setup>
 const tableExtraInfo = [
     {
@@ -89,9 +94,10 @@ const tableExtraInfo = [
 | 1 | 80 | 80 | 1300 | \ | \ | 1 | 14 |
 | 2 | 85 | 85 | 1400 | 125000 | 8,0,0,0 | 12 | 14 |
 | 3 | 90 | 90 | 1500 | 175000 | 9,0,0,0 | 13 | 15 |
-| 4 | 95 | 95 | 1600 | 187500 | 11,0,0,0 | 14 | 16 |
-| 5 | 105 | 105 | 1700 | 300000 | 12,0,0,0 | 15 | 17 |
-| 6 | 115 | 115 | 1850 | 380000 | 15,12,0,0 | 16 | 18 |
+| 4 | 95 | 95 | 1600 | 150000 | 8,0,0,0 | 14 | 16 |
+| 5 | 105 | 105 | 1700 | 215000 | 8,12,0,0 | 15 | 17 |
+| 6 | 115 | 115 | 1850 | 340000 | 12,12,0,0 | 16 | 18 |
+| 7 | 125 | 125 | 2000 | 415000 | 13,0,0,0 | 17 | 19 |
 </UnitTable>
 </SwitchTabGroup>
 
@@ -160,6 +166,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/11/16">
+        <TimelineRow>19 本版本新增 7 级。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2026/07/14">
         <TimelineRow>调整5至6级的每秒治疗量： 5级： 100 → 105 6级： 105 → 115</TimelineRow>
     </TimelineItem>

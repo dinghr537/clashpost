@@ -11,7 +11,13 @@
     "revision": 625673,
     "revisionUrl": "https://clashofclans.fandom.com/wiki/Barbarian_King?oldid=625673",
     "syncedOn": "2026-10-13",
-    "scope": "Source statistics tables and available 2026 history; base values"
+    "scope": "Source statistics tables and available 2026 history; base values",
+    "th19Update": {
+      "checkedOn": "2026-11-16",
+      "source": "ClashKing Assets (selected game facts)",
+      "sourceUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json",
+      "scope": "Selected new levels and baseline-matched cost/time adjustments; missing fields remain unknown."
+    }
   },
   "tables": [
     {
@@ -4858,10 +4864,10 @@
           },
           {
             "status": "known",
-            "value": 691200,
-            "raw": "8d",
+            "value": 604800,
+            "raw": "7d",
             "unit": "seconds",
-            "displayInput": "8,0,0,0"
+            "displayInput": "7,0,0,0"
           },
           {
             "status": "known",
@@ -4907,10 +4913,10 @@
           },
           {
             "status": "known",
-            "value": 691200,
-            "raw": "8d",
+            "value": 604800,
+            "raw": "7d",
             "unit": "seconds",
-            "displayInput": "8,0,0,0"
+            "displayInput": "7,0,0,0"
           },
           {
             "status": "known",
@@ -4956,10 +4962,10 @@
           },
           {
             "status": "known",
-            "value": 691200,
-            "raw": "8d",
+            "value": 604800,
+            "raw": "7d",
             "unit": "seconds",
-            "displayInput": "8,0,0,0"
+            "displayInput": "7,0,0,0"
           },
           {
             "status": "known",
@@ -5005,10 +5011,10 @@
           },
           {
             "status": "known",
-            "value": 691200,
-            "raw": "8d",
+            "value": 604800,
+            "raw": "7d",
             "unit": "seconds",
-            "displayInput": "8,0,0,0"
+            "displayInput": "7,0,0,0"
           },
           {
             "status": "known",
@@ -5054,10 +5060,10 @@
           },
           {
             "status": "known",
-            "value": 691200,
-            "raw": "8d",
+            "value": 604800,
+            "raw": "7d",
             "unit": "seconds",
-            "displayInput": "8,0,0,0"
+            "displayInput": "7,0,0,0"
           },
           {
             "status": "known",
@@ -5294,8 +5300,8 @@
           },
           {
             "status": "known",
-            "value": 450000,
-            "raw": "450,000"
+            "value": 440000,
+            "raw": "440000"
           },
           {
             "status": "known",
@@ -5343,8 +5349,8 @@
           },
           {
             "status": "known",
-            "value": 460000,
-            "raw": "460,000"
+            "value": 445000,
+            "raw": "445000"
           },
           {
             "status": "known",
@@ -5392,8 +5398,8 @@
           },
           {
             "status": "known",
-            "value": 470000,
-            "raw": "470,000"
+            "value": 450000,
+            "raw": "450000"
           },
           {
             "status": "known",
@@ -5441,8 +5447,8 @@
           },
           {
             "status": "known",
-            "value": 475000,
-            "raw": "475,000"
+            "value": 455000,
+            "raw": "455000"
           },
           {
             "status": "known",
@@ -5490,8 +5496,8 @@
           },
           {
             "status": "known",
-            "value": 485000,
-            "raw": "485,000"
+            "value": 460000,
+            "raw": "460000"
           },
           {
             "status": "known",
@@ -5539,8 +5545,8 @@
           },
           {
             "status": "known",
-            "value": 490000,
-            "raw": "490,000"
+            "value": 465000,
+            "raw": "465000"
           },
           {
             "status": "known",
@@ -5558,6 +5564,251 @@
             "status": "known",
             "value": 18,
             "raw": "18"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 111,
+            "raw": "111"
+          },
+          {
+            "status": "known",
+            "value": 720,
+            "raw": "720"
+          },
+          {
+            "status": "known",
+            "value": 864.0,
+            "raw": "864.0"
+          },
+          {
+            "status": "known",
+            "value": 13475,
+            "raw": "13475"
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": "?"
+          },
+          {
+            "status": "known",
+            "value": 500000,
+            "raw": "500000"
+          },
+          {
+            "status": "known",
+            "value": 691200,
+            "raw": "8d",
+            "unit": "seconds",
+            "displayInput": "8,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          },
+          {
+            "status": "known",
+            "value": 19,
+            "raw": "19"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 112,
+            "raw": "112"
+          },
+          {
+            "status": "known",
+            "value": 727,
+            "raw": "727"
+          },
+          {
+            "status": "known",
+            "value": 872.4,
+            "raw": "872.4"
+          },
+          {
+            "status": "known",
+            "value": 13600,
+            "raw": "13600"
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": "?"
+          },
+          {
+            "status": "known",
+            "value": 505000,
+            "raw": "505000"
+          },
+          {
+            "status": "known",
+            "value": 691200,
+            "raw": "8d",
+            "unit": "seconds",
+            "displayInput": "8,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          },
+          {
+            "status": "known",
+            "value": 19,
+            "raw": "19"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 113,
+            "raw": "113"
+          },
+          {
+            "status": "known",
+            "value": 734,
+            "raw": "734"
+          },
+          {
+            "status": "known",
+            "value": 880.8,
+            "raw": "880.8"
+          },
+          {
+            "status": "known",
+            "value": 13725,
+            "raw": "13725"
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": "?"
+          },
+          {
+            "status": "known",
+            "value": 510000,
+            "raw": "510000"
+          },
+          {
+            "status": "known",
+            "value": 691200,
+            "raw": "8d",
+            "unit": "seconds",
+            "displayInput": "8,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          },
+          {
+            "status": "known",
+            "value": 19,
+            "raw": "19"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 114,
+            "raw": "114"
+          },
+          {
+            "status": "known",
+            "value": 741,
+            "raw": "741"
+          },
+          {
+            "status": "known",
+            "value": 889.2,
+            "raw": "889.2"
+          },
+          {
+            "status": "known",
+            "value": 13850,
+            "raw": "13850"
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": "?"
+          },
+          {
+            "status": "known",
+            "value": 515000,
+            "raw": "515000"
+          },
+          {
+            "status": "known",
+            "value": 691200,
+            "raw": "8d",
+            "unit": "seconds",
+            "displayInput": "8,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          },
+          {
+            "status": "known",
+            "value": 19,
+            "raw": "19"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 115,
+            "raw": "115"
+          },
+          {
+            "status": "known",
+            "value": 748,
+            "raw": "748"
+          },
+          {
+            "status": "known",
+            "value": 897.6,
+            "raw": "897.6"
+          },
+          {
+            "status": "known",
+            "value": 13975,
+            "raw": "13975"
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": "?"
+          },
+          {
+            "status": "known",
+            "value": 520000,
+            "raw": "520000"
+          },
+          {
+            "status": "known",
+            "value": 691200,
+            "raw": "8d",
+            "unit": "seconds",
+            "displayInput": "8,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          },
+          {
+            "status": "known",
+            "value": 19,
+            "raw": "19"
           }
         ]
       ],
@@ -5595,6 +5846,12 @@
     {
       "date": "2026-06-15",
       "description": "Added levels 106 to 110 Barbarian King."
+    },
+    {
+      "date": "2026-11-16",
+      "description": "19 本版本新增 111–115 级。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/",
+      "sourcePublishedOn": "2026-11-16"
     }
   ],
   "facts": [

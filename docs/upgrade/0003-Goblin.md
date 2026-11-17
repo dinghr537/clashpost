@@ -8,6 +8,7 @@ imgFolder: home_tech/0003
 wiki: https://clashofclans.fandom.com/wiki/Goblin
 canonical: /upgrade/0003-Goblin
 dataSyncedOn: 2026-10-13
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 - *如想查看该兵种的强化版本，请访问：[隐秘哥布林（超哥）](/upgrade/0601-Sneaky-Goblin)。*
@@ -54,6 +55,10 @@ dataSyncedOn: 2026-10-13
 
 <SmallTitle>升级数据</SmallTitle>
 
+<small>本级部分伤害或治疗量按本页已有倍率、攻速或治疗次数计算。</small>
+
+<small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为未知。</small>
+
 <script setup>
 const tableExtraInfo = [
     {
@@ -83,12 +88,16 @@ const tableExtraInfo = [
 | 7 | 52 | 52 | 104 | 105 | 2200000 | 1,12,0,0 | 8 | 10 |
 | 8 | 62 | 62 | 124 | 126 | 3700000 | 2,6,0,0 | 10 | 12 |
 | 9 | 72 | 72 | 144 | 146 | 8000000 | 5,0,0,0 | 13 | 15 |
-| 10 | 82 | 82 | 164 | 166 | 26000000 | 14,0,0,0 | 16 | 18 |
+| 10 | 82 | 82 | 164 | 166 | 15000000 | 8,12,0,0 | 16 | 18 |
+| 11 | 92 | 92 | 184 | 186 | 22000000 | 10,12,0,0 | 17 | 19 |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/11/16">
+        <TimelineRow>19 本版本新增 11 级。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2026/04/27">
         <TimelineRow>新增10级哥布林。</TimelineRow>
     </TimelineItem>

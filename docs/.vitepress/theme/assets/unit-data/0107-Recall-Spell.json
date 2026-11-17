@@ -11,7 +11,13 @@
     "revision": 625472,
     "revisionUrl": "https://clashofclans.fandom.com/wiki/Recall_Spell?oldid=625472",
     "syncedOn": "2026-10-13",
-    "scope": "Source statistics tables and available 2026 history; base values"
+    "scope": "Source statistics tables and available 2026 history; base values",
+    "th19Update": {
+      "checkedOn": "2026-11-16",
+      "source": "ClashKing Assets (selected game facts)",
+      "sourceUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json",
+      "scope": "Selected TH16–18 costs and times where the previous snapshot matched this site."
+    }
   },
   "tables": [
     {
@@ -194,10 +200,10 @@
           },
           {
             "status": "known",
-            "value": 777600,
-            "raw": "9d",
+            "value": 691200,
+            "raw": "8d",
             "unit": "seconds",
-            "displayInput": "9,0,0,0"
+            "displayInput": "8,0,0,0"
           },
           {
             "status": "known",
@@ -218,15 +224,15 @@
           },
           {
             "status": "known",
-            "value": 19000000,
-            "raw": "19,000,000"
+            "value": 17000000,
+            "raw": "17000000"
           },
           {
             "status": "known",
-            "value": 950400,
-            "raw": "11d",
+            "value": 799200,
+            "raw": "9d 6h",
             "unit": "seconds",
-            "displayInput": "11,0,0,0"
+            "displayInput": "9,6,0,0"
           },
           {
             "status": "known",
@@ -247,15 +253,15 @@
           },
           {
             "status": "known",
-            "value": 29000000,
-            "raw": "29,000,000"
+            "value": 19500000,
+            "raw": "19500000"
           },
           {
             "status": "known",
-            "value": 1382400,
-            "raw": "16d",
+            "value": 950400,
+            "raw": "11d",
             "unit": "seconds",
-            "displayInput": "16,0,0,0"
+            "displayInput": "11,0,0,0"
           },
           {
             "status": "known",

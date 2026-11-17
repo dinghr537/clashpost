@@ -8,6 +8,7 @@ imgFolder: home_buildings/0486
 wiki: https://clashofclans.fandom.com/wiki/Workshop
 canonical: /upgrade/0486-Workshop
 dataSyncedOn: 2026-10-13
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Workshop8.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
@@ -44,6 +45,8 @@ dataSyncedOn: 2026-10-13
 
 <SmallTitle>升级数据</SmallTitle>
 
+<small>19 本版本对部分旧等级的费用、时间作了调整；变更数值参考 [ClashKing Assets](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)。</small>
+
 <script setup>
 const tableExtraInfo = [
     {
@@ -77,7 +80,7 @@ const tableExtraInfo = [
 | 6 | 3 | 1500 | 10000000 | 5,12,0,0 |  | 14 | <a href="/upgrade/0245-Flame-Flinger">攻城烈焰车</a> |
 | 7 | 3 | 1600 | 11000000 | 6,0,0,0 |  | 15 | <a href="/upgrade/0246-Battle-Drill">攻城钻机</a> |
 | 8 | 3 | 1700 | 13000000 | 7,0,0,0 |  | 16 | <a href="/upgrade/0247-Troop-Launcher">部队发射器</a> |
-| 9 | 3 | 1800 | 26000000 | 13,12,0,0 |  | 17 | [空中战车](/upgrade/0248-Sky-Wagon) |
+| 9 | 3 | 1800 | 18500000 | 10,12,0,0 |  | 17 | [空中战车](/upgrade/0248-Sky-Wagon) |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>

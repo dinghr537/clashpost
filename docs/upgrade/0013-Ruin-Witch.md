@@ -9,6 +9,7 @@ wiki: https://clashofclans.fandom.com/wiki/Ruin_Witch
 canonical: /upgrade/0013-Ruin-Witch
 dataSyncedOn: 2026-10-13
 dataBalanceUpdatedOn: 2026-10-20
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 <script setup>
@@ -51,6 +52,8 @@ const tableExtraInfo0 = [
 
 <SmallTitle>重要说明</SmallTitle>
 
+19 本更新后，废墟女巫不再受仅增加伤害的增益影响。<small>（[Supercell 官方公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)）</small>
+
 1. 解锁条件：13级暗黑训练营、16级大本营。
 
 2. 召唤物废墟骑士的等级随废墟女巫变化，不能单独训练或升级。
@@ -67,6 +70,8 @@ const tableExtraInfo0 = [
 
 <SmallTitle>升级数据</SmallTitle>
 
+<small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为未知。</small>
+
 <UnitTable :tableExtraInfo="tableExtraInfo0">
 
 | 等级 | 召唤骑士等级 | 最多召唤骑士数 | 生命值 | 每秒伤害 | 每次伤害 | 升级花费 | 升级时间 | 所需<br>实验室等级 | 所需<br>大本等级 |
@@ -74,12 +79,16 @@ const tableExtraInfo0 = [
 | 1 | 1 | 10 | 2300 | 25 | 50 | \ | \ | 14 | 16 |
 | 2 | 2 | 10 | 2550 | 26 | 52 | 220000 | 11,0,0,0 | 14 | 16 |
 | 3 | 3 | 10 | 2800 | 27 | 54 | 300000 | 12,0,0,0 | 15 | 17 |
-| 4 | 4 | 10 | 3050 | 28 | 56 | 380000 | 15,12,0,0 | 16 | 18 |
+| 4 | 4 | 10 | 3050 | 28 | 56 | 355000 | 13,0,0,0 | 16 | 18 |
+| 5 | 未知 | 未知 | 3300 | 29 | 58 | 435000 | 13,12,0,0 | 17 | 19 |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/11/16">
+        <TimelineRow>19 本版本新增 5 级。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2026/10/20">
         <TimelineRow>削弱召唤物废墟骑士的生命值、伤害和移动速度，并将其占据人口由 20 降至 18；具体数值见废墟骑士标签页。</TimelineRow>
         <TimelineRow><a href="https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/" target="_blank" rel="noopener noreferrer">官方公告</a>（10/17 发布） · <a href="https://clashfox.com/blog/balance-changes-before-town-hall-19-fire-heart-and-ruin-witch-nerfed-hogs-and-p-e-k-k-a-bu" target="_blank" rel="noopener noreferrer">数值参考</a> · <a href="https://x.com/ClashofClans/status/2112450159326179560" target="_blank" rel="noopener noreferrer">10/20 维护完成</a>。</TimelineRow>

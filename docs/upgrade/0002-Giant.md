@@ -8,6 +8,7 @@ imgFolder: home_tech/0002
 wiki: https://clashofclans.fandom.com/wiki/Giant
 canonical: /upgrade/0002-Giant
 dataSyncedOn: 2026-10-13
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 - *如想查看该兵种的强化版本，请访问：[超级巨人](/upgrade/0602-Super-Giant)。*
@@ -54,6 +55,8 @@ dataSyncedOn: 2026-10-13
 
 <SmallTitle>升级数据</SmallTitle>
 
+<small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为未知。</small>
+
 <script setup>
 const tableExtraInfo = [
     {
@@ -85,9 +88,10 @@ const tableExtraInfo = [
 | 9 | 70 | 140 | 1850 | 3400000 | 2,6,0,0 | 10 | 12 |
 | 10 | 78 | 156 | 2000 | 5000000 | 3,0,0,0 | 11 | 13 |
 | 11 | 86 | 172 | 2200 | 7500000 | 4,0,0,0 | 13 | 15 |
-| 12 | 94 | 188 | 2400 | 10000000 | 5,0,0,0 | 14 | 16 |
-| 13 | 104 | 208 | 2700 | 15000000 | 9,12,0,0 | 15 | 17 |
-| 14 | 114 | 228 | 3000 | 25000000 | 13,12,0,0 | 16 | 18 |
+| 12 | 94 | 188 | 2400 | 8000000 | 4,0,0,0 | 14 | 16 |
+| 13 | 104 | 208 | 2700 | 10500000 | 6,12,0,0 | 15 | 17 |
+| 14 | 114 | 228 | 3000 | 20000000 | 8,0,0,0 | 16 | 18 |
+| 15 | 124 | 248 | 3600 | 29500000 | 13,0,0,0 | 17 | 19 |
 </UnitTable>
 
 \# 根据安装包解析的结果，玩家可以在 1 本把训练营升到 3 级以解锁巨人，但这仅仅是理论上的，实际上新手教程会直接引导玩家升到 2 本，根本没有在 1 本升级训练营的机会。
@@ -95,6 +99,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/11/16">
+        <TimelineRow>19 本版本新增 15 级。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/11/17">
         <TimelineRow>18 本推出，并在 18 本新增 14 级巨人。</TimelineRow>
         <TimelineRow>13 级巨人的升级时间和升级费用减少。</TimelineRow>

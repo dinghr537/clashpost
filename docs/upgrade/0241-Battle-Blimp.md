@@ -8,6 +8,7 @@ imgFolder: home_tech/0241
 wiki: https://clashofclans.fandom.com/wiki/Battle_Blimp
 canonical: /upgrade/0241-Battle-Blimp
 dataSyncedOn: 2026-10-13
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Battle_Blimp_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
@@ -50,6 +51,8 @@ dataSyncedOn: 2026-10-13
 
 <SmallTitle>升级数据</SmallTitle>
 
+<small>19 本版本对部分旧等级的费用、时间作了调整；变更数值参考 [ClashKing Assets](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)。</small>
+
 <script setup>
 const tableExtraInfo = [
     {
@@ -75,7 +78,7 @@ const tableExtraInfo = [
 | 3 | 180 | 270 | 900 | 4000 | 3500000 | 3,0,0,0 | 10 | 12 |
 | 4 | 220 | 330 | 1000 | 4500 | 6500000 | 7,0,0,0 | 11 | 13 |
 | 5 | 260 | 390 | 1100 | 5000 | 10000000 | 9,0,0,0 | 13 | 15 |
-| 6 | 300 | 450 | 1200 | 5500 | 26000000 | 13,12,0,0 | 16 | 18 |
+| 6 | 300 | 450 | 1200 | 5500 | 18500000 | 10,12,0,0 | 16 | 18 |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>

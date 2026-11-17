@@ -8,6 +8,7 @@ imgFolder: home_buildings/0311
 wiki: https://clashofclans.fandom.com/wiki/Spell_Tower
 canonical: /upgrade/0311-Spell-Tower
 dataSyncedOn: 2026-10-13
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 <SwitchTabs contentClass="cp-unit-items" :stickyTabs="true" :pageTabs="true">
@@ -181,6 +182,8 @@ dataSyncedOn: 2026-10-13
 <!-- ↓↓↓ 法术塔的公共部分是从升级数据开始的，不是更新历史 ↓↓↓ -->
 <SmallTitle>升级数据</SmallTitle>
 
+<small>19 本版本对部分旧等级的费用、时间作了调整；变更数值参考 [ClashKing Assets](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)。</small>
+
 <script setup>
 const tableExtraInfo = [
     {
@@ -209,7 +212,7 @@ const tableExtraInfo = [
 | 1 | 2500 | 9000000 | 7,0,0,0 |  | 15 | <a href="/upgrade/0102-Rage-Spell">狂暴法术</a> |
 | 2 | 2800 | 11000000 | 8,0,0,0 |  | 15 | <a href="/upgrade/0180-Poison-Spell">毒药法术</a> |
 | 3 | 3100 | 12000000 | 8,12,0,0 |  | 15 | <a href="/upgrade/0106-Invisibility-Spell">隐形法术</a> |
-| 4 | 3200 | 27000000 | 10,0,0,0 |  | 17 | <a href="/upgrade/0181-Earthquake-Spell">地震法术</a> |
+| 4 | 3200 | 17000000 | 10,0,0,0 |  | 17 | <a href="/upgrade/0181-Earthquake-Spell">地震法术</a> |
 </UnitTable>
 
 注：法术塔释放的法术与 [法术工厂](/upgrade/0484-Spell-Factory) / [暗黑法术工厂](/upgrade/0485-Dark-Spell-Factory) 中释放的法术并不完全相同，上述链接只是方便对照，切勿生搬硬套。

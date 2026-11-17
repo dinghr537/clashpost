@@ -8,6 +8,7 @@ imgFolder: home_buildings/0483
 wiki: https://clashofclans.fandom.com/wiki/Laboratory
 canonical: /upgrade/0483-Laboratory
 dataSyncedOn: 2026-10-13
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 - *如想查看夜世界的星空实验室，请访问：[夜世界星空实验室](/upgrade/1282-Star-Laboratory)。*
@@ -57,6 +58,8 @@ dataSyncedOn: 2026-10-13
 
 <SmallTitle>升级数据</SmallTitle>
 
+<small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为未知。</small>
+
 <script setup>
 const tableExtraInfo = [
     {
@@ -96,13 +99,17 @@ const tableExtraInfo = [
 | 12 | 1280 | 8100000 | 7,0,0,0 |  | 14 |
 | 13 | 1350 | 10800000 | 8,0,0,0 |  | 15 |
 | 14 | 1400 | 13000000 | 9,0,0,0 |  | 16 |
-| 15 | 1450 | 18000000 | 10,0,0,0 |  | 17 |
-| 16 | 1500 | 27000000 | 16,0,0,0 |  | 18 |
+| 15 | 1450 | 17000000 | 10,0,0,0 |  | 17 |
+| 16 | 1500 | 25000000 | 13,12,0,0 |  | 18 |
+| 17 | 1550 | 30500000 | 15,0,0,0 |  | 19 |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/11/16">
+        <TimelineRow>19 本版本新增 17 级。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/11/17">
         <TimelineRow>18 本推出，并在 18 本新增 16 级实验室。</TimelineRow>
         <TimelineRow>15 级实验室的升级时间和升级费用减少。</TimelineRow>

@@ -8,6 +8,7 @@ imgFolder: home_th/0840
 wiki: https://clashofclans.fandom.com/wiki/Longshot
 canonical: /upgrade/0840-Longshot
 dataSyncedOn: 2026-10-13
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Longshot_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
@@ -51,6 +52,8 @@ dataSyncedOn: 2026-10-13
 
 <SmallTitle>升级数据</SmallTitle>
 
+<small>2–5 级费用已按 [Supercell 19 本更新公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)调整。</small>
+
 <script setup>
 const tableExtraInfo = [
     {
@@ -73,10 +76,10 @@ const tableExtraInfo = [
 | 等级 | 每秒伤害 | 每次伤害 | 生命值 | 升级费用 | 升级时间 | 所需大本等级 |
 |  --- |   ---   |   ---   |   ---  |   ---   |   ---   |     ---     |
 | 1 | 330 | 594 | 7000 | \ | \ | 18 |
-| 2 | 360 | 648 | 8000 | 18000000 | 7,0,0,0 | 18 |
-| 3 | 390 | 702 | 9000 | 22000000 | 9,0,0,0 | 18 |
-| 4 | 420 | 756 | 10000 | 26000000 | 11,0,0,0 | 18 |
-| 5 | 450 | 810 | 11000 | 28000000 | 13,0,0,0 | 18 |
+| 2 | 360 | 648 | 8000 | 16500000 | 7,0,0,0 | 18 |
+| 3 | 390 | 702 | 9000 | 20000000 | 9,0,0,0 | 18 |
+| 4 | 420 | 756 | 10000 | 23000000 | 11,0,0,0 | 18 |
+| 5 | 450 | 810 | 11000 | 25000000 | 13,0,0,0 | 18 |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>

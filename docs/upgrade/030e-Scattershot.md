@@ -8,6 +8,7 @@ imgFolder: home_buildings/030e
 wiki: https://clashofclans.fandom.com/wiki/Scattershot
 canonical: /upgrade/030e-Scattershot
 dataSyncedOn: 2026-10-13
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 - *玩家所说的投石车指的是攻城烈焰车，而不是投石炮，攻城烈焰车的数据请参考： [攻城烈焰车](/upgrade/0245-Flame-Flinger)。*
@@ -70,6 +71,8 @@ dataSyncedOn: 2026-10-13
 
 <SmallTitle>升级数据</SmallTitle>
 
+<small>19 本版本对部分旧等级的费用、时间作了调整；变更数值参考 [ClashKing Assets](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)。</small>
+
 <script setup>
 const tableExtraInfo = [
     {
@@ -100,8 +103,8 @@ const tableExtraInfo = [
 | 3 | 170 | 380-544 | 130-380 | 4800 | 11000000 | 7,12,0,0 |  | 14 |
 | 4 | 175 | 400-560 | 140-400 | 5100 | 11500000 | 8,0,0,0 |  | 15 |
 | 5 | 180 | 420-576 | 150-420 | 5410 | 12000000 | 8,12,0,0 |  | 16 |
-| 6 | 185 | 440-592 | 155-440 | 5600 | 16500000 | 9,0,0,0 |  | 17 |
-| 7 | 190 | 450-608 | 160-450 | 5800 | 26500000 | 15,0,0,0 |  | 18 |
+| 6 | 185 | 440-592 | 155-440 | 5600 | 15500000 | 9,0,0,0 |  | 17 |
+| 7 | 190 | 450-608 | 160-450 | 5800 | 19500000 | 10,12,0,0 |  | 18 |
 | ⚡1 | 193 | 450-617.6 | 160-450 | 5800 | 14500000 | 5,0,0,0 |  | 18 |
 | ⚡2 | 193 | 450-617.6 | 160-450 | 5950 | 9500000 | 7,0,0,0 |  | 18 |
 </UnitTable>

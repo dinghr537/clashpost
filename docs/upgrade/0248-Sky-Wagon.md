@@ -8,6 +8,7 @@ imgFolder: home_tech/0248
 wiki: https://clashofclans.fandom.com/wiki/Sky_Wagon
 canonical: /upgrade/0248-Sky-Wagon
 dataSyncedOn: 2026-10-13
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Sky_Wagon_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
@@ -48,6 +49,8 @@ dataSyncedOn: 2026-10-13
 
 <SmallTitle>升级数据</SmallTitle>
 
+<small>19 本版本对部分旧等级的费用、时间作了调整；变更数值参考 [ClashKing Assets](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)。</small>
+
 <script setup>
 const tableExtraInfo = [
     {
@@ -70,8 +73,8 @@ const tableExtraInfo = [
 |  --- |            ---            |         ---       |  ---  |   ---    |    ---  |   ---   |       ---       |      ---      |
 | 1 | 1 | 8 | 3600 | 4 | \ | \ | 1 | 17 |
 | 2 | 2 | 16 | 3800 | 4 | 22000000 | 10,0,0,0 | 15 | 17 |
-| 3 | 3 | 24 | 4000 | 5 | 26000000 | 13,12,0,0 | 16 | 18 |
-| 4 | 4 | 32 | 4200 | 5 | 29000000 | 16,0,0,0 | 16 | 18 |
+| 3 | 3 | 24 | 4000 | 5 | 25000000 | 13,0,0,0 | 16 | 18 |
+| 4 | 4 | 32 | 4200 | 5 | 28000000 | 13,12,0,0 | 16 | 18 |
 </UnitTable>
 
 \* 空中战车的面板里不会直接显示平均每秒伤害，这个伤害值实际上使用与等级相同的值。

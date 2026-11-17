@@ -11,7 +11,13 @@
     "revision": 588160,
     "revisionUrl": "https://clashofclans.fandom.com/wiki/Lightning_Spell?oldid=588160",
     "syncedOn": "2026-10-13",
-    "scope": "Source statistics tables and available 2026 history; base values"
+    "scope": "Source statistics tables and available 2026 history; base values",
+    "th19Update": {
+      "checkedOn": "2026-11-16",
+      "source": "ClashKing Assets (selected game facts)",
+      "sourceUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json",
+      "scope": "Selected new levels and baseline-matched cost/time adjustments; missing fields remain unknown."
+    }
   },
   "tables": [
     {
@@ -392,15 +398,15 @@
           },
           {
             "status": "known",
-            "value": 18500000,
-            "raw": "18,500,000"
+            "value": 17000000,
+            "raw": "17000000"
           },
           {
             "status": "known",
-            "value": 864000,
-            "raw": "10d",
+            "value": 799200,
+            "raw": "9d 6h",
             "unit": "seconds",
-            "displayInput": "10,0,0,0"
+            "displayInput": "9,6,0,0"
           },
           {
             "status": "known",
@@ -421,20 +427,49 @@
           },
           {
             "status": "known",
-            "value": 27000000,
-            "raw": "27,000,000"
+            "value": 20000000,
+            "raw": "20000000"
           },
           {
             "status": "known",
-            "value": 1209600,
-            "raw": "14d",
+            "value": 950400,
+            "raw": "11d",
             "unit": "seconds",
-            "displayInput": "14,0,0,0"
+            "displayInput": "11,0,0,0"
           },
           {
             "status": "known",
             "value": 16,
             "raw": "16"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          },
+          {
+            "status": "known",
+            "value": 760,
+            "raw": "760"
+          },
+          {
+            "status": "known",
+            "value": 31000000,
+            "raw": "31000000"
+          },
+          {
+            "status": "known",
+            "value": 1296000,
+            "raw": "15d",
+            "unit": "seconds",
+            "displayInput": "15,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 17,
+            "raw": "17"
           }
         ]
       ],
@@ -464,7 +499,14 @@
       "logicalPath": "/upgrade/home_tech/0100/Lightning_Spell.png"
     }
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-11-16",
+      "description": "19 本版本新增 14 级。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/",
+      "sourcePublishedOn": "2026-11-16"
+    }
+  ],
   "facts": [],
   "notices": []
 }

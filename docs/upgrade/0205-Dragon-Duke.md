@@ -8,6 +8,7 @@ imgFolder: home_heroes/0205
 wiki: https://clashofclans.fandom.com/wiki/Dragon_Duke
 canonical: /upgrade/0205-Dragon-Duke
 dataSyncedOn: 2026-10-13
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 - *如想查看飞龙公爵的创作原型，请访问：[飞龙](/upgrade/0008-Dragon)。*
@@ -46,6 +47,8 @@ dataSyncedOn: 2026-10-13
 ③ <a href="https://clash-markets.com/dragon-duke-coc/" target="_blank" rel="noopener noreferrer">Clash Markets</a>记为 1.25 格，<a href="https://clashofclans.fandom.com/wiki/Dragon_Duke" target="_blank" rel="noopener noreferrer">部落冲突维基</a>记为 0.3 格；测量口径和当前值尚待核实。
 
 <SmallTitle>升级数据</SmallTitle>
+
+<small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为未知。</small>
 
 <script setup>
 const tableExtraInfo = [
@@ -89,14 +92,19 @@ const tableExtraInfo = [
 | 15 | 360 | 432 | 10150 | 250000 | 6,0,0,0 |  | 10 | 16 |
 | 16 | 364 | 436.8 | 10225 | 275000 | 7,0,0,0 |  | 11 | 17 |
 | 17 | 368 | 441.6 | 10300 | 300000 | 7,0,0,0 |  | 11 | 17 |
-| 18 | 372 | 446.4 | 10375 | 325000 | 8,0,0,0 |  | 11 | 17 |
-| 19 | 376 | 451.2 | 10450 | 350000 | 8,0,0,0 |  | 11 | 17 |
-| 20 | 380 | 456 | 10525 | 375000 | 8,0,0,0 |  | 11 | 17 |
+| 18 | 372 | 446.4 | 10375 | 325000 | 7,0,0,0 |  | 11 | 17 |
+| 19 | 376 | 451.2 | 10450 | 350000 | 7,0,0,0 |  | 11 | 17 |
+| 20 | 380 | 456 | 10525 | 375000 | 7,0,0,0 |  | 11 | 17 |
 | 21 | 384 | 460.8 | 10600 | 400000 | 8,0,0,0 |  | 12 | 18 |
-| 22 | 388 | 465.6 | 10675 | 420000 | 8,0,0,0 |  | 12 | 18 |
-| 23 | 392 | 470.4 | 10750 | 440000 | 8,0,0,0 |  | 12 | 18 |
-| 24 | 396 | 475.2 | 10825 | 460000 | 8,0,0,0 |  | 12 | 18 |
-| 25 | 400 | 480 | 10900 | 480000 | 8,0,0,0 |  | 12 | 18 |
+| 22 | 388 | 465.6 | 10675 | 415000 | 8,0,0,0 |  | 12 | 18 |
+| 23 | 392 | 470.4 | 10750 | 430000 | 8,0,0,0 |  | 12 | 18 |
+| 24 | 396 | 475.2 | 10825 | 445000 | 8,0,0,0 |  | 12 | 18 |
+| 25 | 400 | 480 | 10900 | 460000 | 8,0,0,0 |  | 12 | 18 |
+| 26 | 404 | 484.8 | 10975 | 500000 | 8,0,0,0 |  | 13 | 19 |
+| 27 | 408 | 489.6 | 11050 | 505000 | 8,0,0,0 |  | 13 | 19 |
+| 28 | 412 | 494.4 | 11125 | 510000 | 8,0,0,0 |  | 13 | 19 |
+| 29 | 416 | 499.2 | 11200 | 515000 | 8,0,0,0 |  | 13 | 19 |
+| 30 | 420 | 504 | 11275 | 520000 | 8,0,0,0 |  | 13 | 19 |
 
 </UnitTable>
 
@@ -121,6 +129,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/11/16">
+        <TimelineRow>19 本版本新增 26–30 级。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2026/08/31">
         <TimelineRow>修复火箭背包冲刺缺少火焰效果或过早结束、助燃器朝向错误的问题；冲刺途中凤凰临时复活结束时，公爵仍会先完成冲刺再被击败。 <a href="https://supercell.com/en/games/clashofclans/blog/release-notes/august-update-3/" target="_blank" rel="noopener noreferrer">官方公告</a>（08/30 发布；<a href="https://clashofclans.fandom.com/wiki/Diggy?oldid=625147#History" target="_blank" rel="noopener noreferrer">更新日期</a>）</TimelineRow>
     </TimelineItem>

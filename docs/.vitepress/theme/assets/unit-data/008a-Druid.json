@@ -11,7 +11,13 @@
     "revision": 625361,
     "revisionUrl": "https://clashofclans.fandom.com/wiki/Druid?oldid=625361",
     "syncedOn": "2026-10-13",
-    "scope": "Source statistics tables and available 2026 history; base values"
+    "scope": "Source statistics tables and available 2026 history; base values",
+    "th19Update": {
+      "checkedOn": "2026-11-16",
+      "source": "ClashKing Assets (selected game facts)",
+      "sourceUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json",
+      "scope": "Selected new levels and baseline-matched cost/time adjustments; missing fields remain unknown."
+    }
   },
   "tables": [
     {
@@ -253,15 +259,15 @@
           },
           {
             "status": "known",
-            "value": 187500,
-            "raw": "187,500"
+            "value": 150000,
+            "raw": "150000"
           },
           {
             "status": "known",
-            "value": 950400,
-            "raw": "11d",
+            "value": 691200,
+            "raw": "8d",
             "unit": "seconds",
-            "displayInput": "11,0,0,0"
+            "displayInput": "8,0,0,0"
           },
           {
             "status": "known",
@@ -297,15 +303,15 @@
           },
           {
             "status": "known",
-            "value": 300000,
-            "raw": "300,000"
+            "value": 215000,
+            "raw": "215000"
           },
           {
             "status": "known",
-            "value": 1036800,
-            "raw": "12d",
+            "value": 734400,
+            "raw": "8d 12h",
             "unit": "seconds",
-            "displayInput": "12,0,0,0"
+            "displayInput": "8,12,0,0"
           },
           {
             "status": "known",
@@ -341,20 +347,64 @@
           },
           {
             "status": "known",
-            "value": 380000,
-            "raw": "380,000"
+            "value": 340000,
+            "raw": "340000"
           },
           {
             "status": "known",
-            "value": 1339200,
-            "raw": "15d 12h",
+            "value": 1080000,
+            "raw": "12d 12h",
             "unit": "seconds",
-            "displayInput": "15,12,0,0"
+            "displayInput": "12,12,0,0"
           },
           {
             "status": "known",
             "value": 16,
             "raw": "16"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "status": "known",
+            "value": 125,
+            "raw": "125"
+          },
+          {
+            "status": "known",
+            "value": 125,
+            "raw": "125"
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": "?"
+          },
+          {
+            "status": "known",
+            "value": 2000,
+            "raw": "2000"
+          },
+          {
+            "status": "known",
+            "value": 415000,
+            "raw": "415000"
+          },
+          {
+            "status": "known",
+            "value": 1123200,
+            "raw": "13d",
+            "unit": "seconds",
+            "displayInput": "13,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 17,
+            "raw": "17"
           }
         ]
       ],
@@ -449,6 +499,12 @@
     {
       "date": "2026-07-14",
       "description": "Increased healing per second at levels 5 and 6: Level 5: 100 -> 105 Hitpoints Level 6: 105 -> 115 Hitpoints"
+    },
+    {
+      "date": "2026-11-16",
+      "description": "19 本版本新增 7 级。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/",
+      "sourcePublishedOn": "2026-11-16"
     }
   ],
   "facts": [

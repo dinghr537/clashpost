@@ -8,6 +8,7 @@ imgFolder: home_tech/0109
 wiki: https://clashofclans.fandom.com/wiki/Totem_Spell
 canonical: /upgrade/0109-Totem-Spell
 dataSyncedOn: 2026-10-13
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Totem_Spell_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
@@ -44,6 +45,8 @@ dataSyncedOn: 2026-10-13
 
 <SmallTitle>升级数据</SmallTitle>
 
+<small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为未知。</small>
+
 <script setup>
 const tableExtraInfo = [
     {
@@ -65,15 +68,19 @@ const tableExtraInfo = [
 | 等级 |图腾生命值|升级花费|升级时间|所需<br>实验室等级|所需<br>大本等级|
 | ---- |   ---   |   ---  |  ---  |       ---       |      ---      |
 | 1 | 10000 | \ | \ | 1 | 16 |
-| 2 | 11000 | 21000000 | 12,0,0,0 | 14 | 16 |
-| 3 | 12000 | 22000000 | 14,0,0,0 | 15 | 17 |
-| 4 | 13000 | 23000000 | 16,0,0,0 | 16 | 18 |
+| 2 | 11000 | 18500000 | 9,12,0,0 | 14 | 16 |
+| 3 | 12000 | 19000000 | 12,0,0,0 | 15 | 17 |
+| 4 | 13000 | 22000000 | 12,6,0,0 | 16 | 18 |
+| 5 | 未知 | 31000000 | 15,0,0,0 | 17 | 19 |
 
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/11/16">
+        <TimelineRow>19 本版本新增 5 级。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2026/08/31">
         <TimelineRow>修复图腾被错误按 20 人口计算的问题，改为 1 人口，避免过快触发暗黑皇冠或消耗擎天箭矢的部署人口额度。 <a href="https://supercell.com/en/games/clashofclans/blog/release-notes/august-update-3/" target="_blank" rel="noopener noreferrer">官方公告</a>（08/30 发布；<a href="https://clashofclans.fandom.com/wiki/Diggy?oldid=625147#History" target="_blank" rel="noopener noreferrer">更新日期</a>）</TimelineRow>
     </TimelineItem>

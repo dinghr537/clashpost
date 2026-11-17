@@ -8,6 +8,7 @@ imgFolder: home_tech/0608
 wiki: https://clashofclans.fandom.com/wiki/Super_Minion
 canonical: /upgrade/0608-Super-Minion
 dataSyncedOn: 2026-10-13
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 - *如想查看该兵种的普通版本，请访问：[亡灵](/upgrade/0080-Minion)。*
@@ -23,6 +24,8 @@ dataSyncedOn: 2026-10-13
 </Panel>
 
 <SmallTitle>重要说明</SmallTitle>
+
+19 本更新后，部落城堡内防守超级亡灵的属性与进攻时一致。按本站沿用的等级编号，官方所列的 10 级、11 级分别对应 13 级和 14 级；其生命值为 2,100、每秒伤害为 400，编号对应仍待游戏内核对。<small>（[Supercell 官方公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)）</small>
 
 超级亡灵的技能（远程狙杀）：当超级亡灵作进攻方时，其前 8 次攻击为远距离攻击；作防守方时，其前 3 次攻击为远距离攻击。
 
@@ -52,6 +55,8 @@ dataSyncedOn: 2026-10-13
 
 <SmallTitle>升级数据</SmallTitle>
 
+<small>19 本新增等级沿用本页与原兵种相同的编号：通过旧等级属性对照及原兵种等级，将 [ClashKing 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)重新编号后补入；本页新增的 15 级，对应官方公告和候选数据的 12 级；此对应关系仍待游戏内核对。缺失字段标为未知。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/">官方公告</a></small>
+
 <UnitTable>
 
 |     等级      |  每秒伤害  |  每次伤害  | 生命值 |所需大本等级|
@@ -71,6 +76,7 @@ dataSyncedOn: 2026-10-13
 | 12 | 370 | 370 | 1900 | 16 |
 | 13 | 385 | 385 | 2100 | 17 |
 | 14 | 400 | 400 | 2300 | 18 |
+| 15 | 415 | 415 | 2500 | 19 |
 </UnitTable>
 
 \* 4 - 7 级超级亡灵只在 奖章活动 中出现，不能通过常规方式得到。
@@ -78,6 +84,9 @@ dataSyncedOn: 2026-10-13
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/11/16">
+        <TimelineRow>19 本版本对应的普通兵种新增等级，超级兵属性随之更新。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2026/01/28">
         <TimelineRow>超级亡灵的“远程狙杀”技能在进攻时的远距离攻击次数由 7 次改为 8 次，防守时保持 3 次不变。</TimelineRow>
         <TimelineRow>超级亡灵的“远程狙杀”技能的射程由 10 格提升到 10.25 格。</TimelineRow>

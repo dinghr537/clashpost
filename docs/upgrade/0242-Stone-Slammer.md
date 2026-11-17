@@ -8,6 +8,7 @@ imgFolder: home_tech/0242
 wiki: https://clashofclans.fandom.com/wiki/Stone_Slammer
 canonical: /upgrade/0242-Stone-Slammer
 dataSyncedOn: 2026-10-13
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Stone_Slammer.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
@@ -57,6 +58,8 @@ dataSyncedOn: 2026-10-13
 
 <SmallTitle>升级数据</SmallTitle>
 
+<small>19 本版本对部分旧等级的费用、时间作了调整；变更数值参考 [ClashKing Assets](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)。</small>
+
 <script setup>
 const tableExtraInfo = [
     {
@@ -82,7 +85,7 @@ const tableExtraInfo = [
 | 3 | 600 | 1500 | 200~400 | 6200 | 3500000 | 3,0,0,0 | 10 | 12 |
 | 4 | 700 | 1750 | 250~500 | 6500 | 6500000 | 7,0,0,0 | 11 | 13 |
 | 5 | 750 | 1875 | 300~600 | 6800 | 10000000 | 9,0,0,0 | 13 | 15 |
-| 6 | 820 | 2050 | 350~700? | 7200 | 26000000 | 13,12,0,0 | 16 | 18 |
+| 6 | 820 | 2050 | 350~700? | 7200 | 19500000 | 11,0,0,0 | 16 | 18 |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>

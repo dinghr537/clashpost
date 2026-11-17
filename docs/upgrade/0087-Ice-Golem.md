@@ -8,6 +8,7 @@ imgFolder: home_tech/0087
 wiki: https://clashofclans.fandom.com/wiki/Ice_Golem
 canonical: /upgrade/0087-Ice-Golem
 dataSyncedOn: 2026-10-13
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 - *本页面的内容不是戈仑石人，如想查看戈仑石人的页面，请访问：[戈仑石人](/upgrade/0083-Golem)。*
@@ -54,6 +55,8 @@ dataSyncedOn: 2026-10-13
 
 <SmallTitle>升级数据</SmallTitle>
 
+<small>19 本版本对部分旧等级的费用、时间作了调整；变更数值参考 [ClashKing Assets](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)。</small>
+
 <script setup>
 const tableExtraInfo = [
     {
@@ -81,8 +84,8 @@ const tableExtraInfo = [
 | 5 | 40 | 80 | 7.0秒 | 3.0秒 | 3400 | 62500 | 4,0,0,0 | 10 | 12 |
 | 6 | 44 | 88 | 7.5秒 | 3.25秒 | 3600 | 110000 | 6,12,0,0 | 12 | 14 |
 | 7 | 48 | 96 | 8秒 | 3.5秒 | 3900 | 140000 | 7,12,0,0 | 13 | 15 |
-| 8 | 52 | 104 | 8.5秒 | 3.5秒 | 4200 | 180000 | 8,0,0,0 | 14 | 16 |
-| 9 | 56 | 112 | 9秒 | 3.5秒 | 4350 | 280000 | 10,14,0,0 | 15 | 17 |
+| 8 | 52 | 104 | 8.5秒 | 3.5秒 | 4200 | 170000 | 7,12,0,0 | 14 | 16 |
+| 9 | 56 | 112 | 9秒 | 3.5秒 | 4350 | 225000 | 8,12,0,0 | 15 | 17 |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>

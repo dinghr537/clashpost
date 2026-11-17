@@ -8,6 +8,7 @@ imgFolder: home_buildings/0385
 wiki: https://clashofclans.fandom.com/wiki/Skeleton_Trap
 canonical: /upgrade/0385-Skeleton-Trap
 dataSyncedOn: 2026-10-13
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 - 本页内容不是空中炸弹，如想查看空中炸弹的数据，请访问：[空中炸弹](/upgrade/0382-Air-Bomb)。
@@ -61,6 +62,8 @@ dataSyncedOn: 2026-10-13
 
 <SmallTitle>升级数据</SmallTitle>
 
+<small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为未知。</small>
+
 <script setup>
 const tableExtraInfo = [
     {
@@ -90,7 +93,8 @@ const tableExtraInfo = [
 | 2 | 3 | 1 | 250000 | 0,5,0,0 |  | 8 |
 | 3 | 4 | 1 | 400000 | 0,8,0,0 |  | 9 |
 | 4 | 5 | 1 | 1000000 | 0,12,0,0 |  | 10 |
-| 5 | 5 | 2 | 18000000 | 7,0,0,0 |  | 18 |
+| 5 | 5 | 2 | 10500000 | 5,12,0,0 |  | 18 |
+| 6 | 未知 | 未知 | 18000000 | 9,0,0,0 |  | 19 |
 
 </UnitTable>
 </SwitchTabGroup>
@@ -147,6 +151,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/11/16">
+        <TimelineRow>19 本版本新增 6 级。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/11/17">
         <TimelineRow>18 本推出，并在 18 本新增 5 级骷髅陷阱。</TimelineRow>
     </TimelineItem>

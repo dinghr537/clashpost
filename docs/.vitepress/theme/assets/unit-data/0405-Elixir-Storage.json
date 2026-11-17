@@ -11,7 +11,13 @@
     "revision": 592138,
     "revisionUrl": "https://clashofclans.fandom.com/wiki/Elixir_Storage?oldid=592138",
     "syncedOn": "2026-10-13",
-    "scope": "Source statistics tables and available 2026 history; base values"
+    "scope": "Source statistics tables and available 2026 history; base values",
+    "th19Update": {
+      "checkedOn": "2026-11-16",
+      "source": "ClashKing Assets (selected game facts)",
+      "sourceUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json",
+      "scope": "Selected new levels and baseline-matched cost/time adjustments; missing fields remain unknown."
+    }
   },
   "tables": [
     {
@@ -903,20 +909,20 @@
           },
           {
             "status": "known",
-            "value": 10000000,
-            "raw": "10,000,000"
+            "value": 8500000,
+            "raw": "8500000"
           },
           {
             "status": "known",
-            "value": 432000,
-            "raw": "5d",
+            "value": 367200,
+            "raw": "4d 6h",
             "unit": "seconds",
-            "displayInput": "5,0,0,0"
+            "displayInput": "4,6,0,0"
           },
           {
             "status": "known",
-            "value": 657,
-            "raw": "657"
+            "value": 605,
+            "raw": "605"
           },
           {
             "status": "known",
@@ -942,25 +948,64 @@
           },
           {
             "status": "known",
-            "value": 18000000,
-            "raw": "18,000,000"
+            "value": 12500000,
+            "raw": "12500000"
           },
           {
             "status": "known",
-            "value": 1080000,
-            "raw": "12d 12h",
+            "value": 648000,
+            "raw": "7d 12h",
             "unit": "seconds",
-            "displayInput": "12,12,0,0"
+            "displayInput": "7,12,0,0"
           },
           {
             "status": "known",
-            "value": 1039,
-            "raw": "1,039"
+            "value": 804,
+            "raw": "804"
           },
           {
             "status": "known",
             "value": 18,
             "raw": "18"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 20,
+            "raw": "20"
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": "?"
+          },
+          {
+            "status": "known",
+            "value": 4400,
+            "raw": "4400"
+          },
+          {
+            "status": "known",
+            "value": 18000000,
+            "raw": "18000000"
+          },
+          {
+            "status": "known",
+            "value": 950400,
+            "raw": "11d",
+            "unit": "seconds",
+            "displayInput": "11,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 974,
+            "raw": "974"
+          },
+          {
+            "status": "known",
+            "value": 19,
+            "raw": "19"
           }
         ]
       ],
@@ -1526,7 +1571,14 @@
       "logicalPath": "/upgrade/home_buildings/0405/Elixir_Storage18.png"
     }
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-11-16",
+      "description": "19 本版本新增 20 级。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/",
+      "sourcePublishedOn": "2026-11-16"
+    }
+  ],
   "facts": [],
   "notices": []
 }

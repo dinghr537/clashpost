@@ -8,6 +8,7 @@ imgFolder: home_heroes/0281
 wiki: https://clashofclans.fandom.com/wiki/Electro_Owl
 canonical: /upgrade/0281-Electro-Owl
 dataSyncedOn: 2026-10-13
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Electro_Owl_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
@@ -47,6 +48,8 @@ dataSyncedOn: 2026-10-13
 
 <SmallTitle>升级数据</SmallTitle>
 
+<small>19 本版本对部分旧等级的费用、时间作了调整；变更数值参考 [ClashKing Assets](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)。</small>
+
 <script setup>
 const tableExtraInfo = [
     {
@@ -83,10 +86,10 @@ const tableExtraInfo = [
 | 9 | 140 | 196 | 2400 | 135000 | 6,0,0,0 |  | 2 | 14 |
 | 10 | 145 | 203 | 2500 | 150000 | 6,12,0,0 |  | 2 | 14 |
 | 11 | 150 | 210 | 2600 | 165000 | 7,0,0,0 |  | 9 | 16 |
-| 12 | 155 | 217 | 2700 | 180000 | 8,0,0,0 |  | 9 | 16 |
-| 13 | 160 | 224 | 2800 | 195000 | 8,0,0,0 |  | 9 | 16 |
-| 14 | 165 | 231 | 2900 | 210000 | 8,0,0,0 |  | 9 | 16 |
-| 15 | 170 | 238 | 3000 | 225000 | 8,0,0,0 |  | 9 | 16 |
+| 12 | 155 | 217 | 2700 | 180000 | 7,12,0,0 |  | 9 | 16 |
+| 13 | 160 | 224 | 2800 | 195000 | 7,12,0,0 |  | 9 | 16 |
+| 14 | 165 | 231 | 2900 | 210000 | 7,12,0,0 |  | 9 | 16 |
+| 15 | 170 | 238 | 3000 | 225000 | 7,12,0,0 |  | 9 | 16 |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>

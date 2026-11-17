@@ -11,7 +11,13 @@
     "revision": 625278,
     "revisionUrl": "https://clashofclans.fandom.com/wiki/Minion?oldid=625278",
     "syncedOn": "2026-10-13",
-    "scope": "Source statistics tables and available 2026 history; base values"
+    "scope": "Source statistics tables and available 2026 history; base values",
+    "th19Update": {
+      "checkedOn": "2026-11-16",
+      "source": "ClashKing Assets (selected game facts)",
+      "sourceUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json",
+      "scope": "Selected new levels and baseline-matched cost/time adjustments; missing fields remain unknown."
+    }
   },
   "tables": [
     {
@@ -532,15 +538,15 @@
           },
           {
             "status": "known",
-            "value": 160000,
-            "raw": "160,000"
+            "value": 120000,
+            "raw": "120000"
           },
           {
             "status": "known",
-            "value": 432000,
-            "raw": "5d",
+            "value": 388800,
+            "raw": "4d 12h",
             "unit": "seconds",
-            "displayInput": "5,0,0,0"
+            "displayInput": "4,12,0,0"
           },
           {
             "status": "known",
@@ -571,15 +577,15 @@
           },
           {
             "status": "known",
-            "value": 220000,
-            "raw": "220,000"
+            "value": 150000,
+            "raw": "150000"
           },
           {
             "status": "known",
-            "value": 777600,
-            "raw": "9d",
+            "value": 518400,
+            "raw": "6d",
             "unit": "seconds",
-            "displayInput": "9,0,0,0"
+            "displayInput": "6,0,0,0"
           },
           {
             "status": "known",
@@ -610,20 +616,59 @@
           },
           {
             "status": "known",
-            "value": 335000,
-            "raw": "335,000"
+            "value": 280000,
+            "raw": "280000"
           },
           {
             "status": "known",
-            "value": 1209600,
-            "raw": "14d",
+            "value": 734400,
+            "raw": "8d 12h",
             "unit": "seconds",
-            "displayInput": "14,0,0,0"
+            "displayInput": "8,12,0,0"
           },
           {
             "status": "known",
             "value": 16,
             "raw": "16"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 15,
+            "raw": "15"
+          },
+          {
+            "status": "known",
+            "value": 100,
+            "raw": "100"
+          },
+          {
+            "status": "known",
+            "value": 100.0,
+            "raw": "100.0"
+          },
+          {
+            "status": "known",
+            "value": 150,
+            "raw": "150"
+          },
+          {
+            "status": "known",
+            "value": 430000,
+            "raw": "430000"
+          },
+          {
+            "status": "known",
+            "value": 1080000,
+            "raw": "12d 12h",
+            "unit": "seconds",
+            "displayInput": "12,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 17,
+            "raw": "17"
           }
         ]
       ],
@@ -769,7 +814,14 @@
       "sourceAlt": "14 级"
     }
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-11-16",
+      "description": "19 本版本新增 15 级。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/",
+      "sourcePublishedOn": "2026-11-16"
+    }
+  ],
   "facts": [
     "Minions are immune to being targeted by Seeking Air Mines due to them taking 2 housing space."
   ],

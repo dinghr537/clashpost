@@ -11,7 +11,14 @@
     "revision": 623186,
     "revisionUrl": "https://clashofclans.fandom.com/wiki/Super_Yeti?oldid=623186",
     "syncedOn": "2026-10-13",
-    "scope": "Source statistics tables and available 2026 history; base values"
+    "scope": "Source statistics tables and available 2026 history; base values",
+    "th19Update": {
+      "checkedOn": "2026-11-16",
+      "source": "ClashKing Assets (selected game facts; level numbering mapped to older Wiki scale)",
+      "sourceUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json",
+      "scope": "Level mapping based on 8 matching earlier stat pairs and the base troop level; unverified fields remain unknown.",
+      "levelOffset": 0
+    }
   },
   "tables": [
     {
@@ -339,6 +346,33 @@
             "value": 14,
             "raw": "14"
           }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 9,
+            "raw": "9"
+          },
+          {
+            "status": "known",
+            "value": 560,
+            "raw": "560"
+          },
+          {
+            "status": "known",
+            "value": 560.0,
+            "raw": "560.0"
+          },
+          {
+            "status": "known",
+            "value": 7600,
+            "raw": "7600"
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": "?"
+          }
         ]
       ],
       "extraInfo": []
@@ -388,6 +422,12 @@
       "description": "大雪怪新增 8 级，对应的超级雪怪开放 8 级。",
       "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/",
       "sourcePublishedOn": "2026-04-27"
+    },
+    {
+      "date": "2026-11-16",
+      "description": "19 本版本对应的普通兵种新增等级，超级兵属性随之更新。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/",
+      "sourcePublishedOn": "2026-11-16"
     }
   ],
   "facts": [

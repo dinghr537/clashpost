@@ -24,6 +24,8 @@ if (activeTabCookieValue === "home-techniques") {
 
 如需查看其他村庄（夜世界、都城）的内容，请使用左侧菜单栏。
 
+19 本新内容可在“科技”查看小队与新法术，在“大本”查看守卫神殿，在“建筑”查看新防御和小队训练营。部分数据仍在核对，页面中以“未知”标出。
+
 <SwitchTabs contentClass="cp-upgrade-item" :stickyTabs="true" :averageTabs="true" :pageTabs="true">
     <SwitchTab tabId="cp-upgrade-heroes"
         :activeTab="activeTabIndex === 0"
@@ -175,6 +177,20 @@ if (activeTabCookieValue === "home-techniques") {
         <ListItem name="寒冰猎犬" imgSrc="060a/Ice_Hound_thumb.png" link="060a-Ice-Hound" />
         <ListItem name="超级巨石投手" imgSrc="060c/Super_Bowler_thumb.png" link="060c-Super-Bowler" />
     </ListItems>
+    <ListItems title="小队" imgFolder="home_tech">
+        <ListItem name="野蛮人弓箭手小队" link="0020-Barch-Squad" />
+        <ListItem name="巨人法师小队" link="0021-Giant-Wizard-Squad" />
+        <ListItem name="炸弹人小队" link="0022-Wall-Breaker-Squad" />
+        <ListItem name="亡灵小队" link="0023-Minion-Squad" />
+        <ListItem name="气球兵小队" link="0024-Balloon-Squad" />
+        <ListItem name="戈仑女巫小队" link="0025-Golem-Witch-Squad" />
+        <ListItem name="野猪骑士小队" link="0026-Hog-Rider-Squad" />
+        <ListItem name="矿工小队" link="0027-Miner-Squad" />
+        <ListItem name="天使小队" link="0028-Healer-Squad" />
+        <ListItem name="皮卡泰坦小队" link="0029-PEKKA-Titan-Squad" />
+        <ListItem name="飞龙小队" link="002a-Dragon-Squad" />
+        <ListItem name="飞龙宝宝小队" link="002b-Baby-Dragon-Squad" />
+    </ListItems>
     <ListItems title="法术" imgFolder="home_tech">
         <ListItem name="雷电法术" imgSrc="0100/Lightning_Spell.png" link="0100-Lightning-Spell" />
         <ListItem name="疗伤法术" imgSrc="0101/Healing_Spell.png" link="0101-Healing-Spell" />
@@ -186,6 +202,7 @@ if (activeTabCookieValue === "home-techniques") {
         <ListItem name="回溯法术" imgSrc="0107/Recall_Spell.png" link="0107-Recall-Spell" />
         <ListItem name="复苏法术" imgSrc="0108/Revive_Spell_thumb.png" link="0108-Revive-Spell" />
         <ListItem name="图腾法术" imgSrc="0109/Totem_Spell_thumb.png" link="0109-Totem-Spell"/>
+        <ListItem name="英雄法术" link="010a-Heroic-Spell" />
         <ListItem name="毒药法术" imgSrc="0180/Poison_Spell.png" link="0180-Poison-Spell" />
         <ListItem name="地震法术" imgSrc="0181/Earthquake_Spell.png" link="0181-Earthquake-Spell" />
         <ListItem name="急速法术" imgSrc="0182/Haste_Spell.png" link="0182-Haste-Spell" />
@@ -222,6 +239,7 @@ if (activeTabCookieValue === "home-techniques") {
         <ListItem name="地狱火炮" imgSrc="0315/Inferno_Artillery5.png" link="0315-Inferno-Artillery" />
     </ListItems>
     <ListItems title="守卫" imgFolder="home_th">
+        <ListItem name="守卫神殿" link="0843-Guardian-Shrine" />
         <ListItem name="远袭者" imgSrc="0840/Longshot_thumb.png" link="0840-Longshot" />
         <ListItem name="粉碎者" imgSrc="0841/Smasher_thumb.png" link="0841-Smasher" />
         <ListItem name="滚木守卫" imgSrc="/images/wiki/0842-Logger/f2babe6c6c-Logger1.png" link="0842-Logger" />
@@ -230,6 +248,8 @@ if (activeTabCookieValue === "home-techniques") {
 
 <SwitchTabGroup id="cp-upgrade-buildings" class="cp-upgrade-item">
     <ListItems title="防御建筑" imgFolder="home_buildings">
+        <ListItem name="尖刺塔" link="031a-Spiky-Tower" />
+        <ListItem name="烟花炮手塔" link="031b-Firecracker-Tower" />
         <ListItem name="城墙" imgSrc="0300/Wall19.png" link="0300-Walls" />
         <ListItem name="加农炮" imgSrc="0301/Cannon21.png" link="0301-Cannon" />
         <ListItem name="箭塔" imgSrc="0302/Archer_Tower21.png" link="0302-Archer-Tower" />
@@ -274,6 +294,7 @@ if (activeTabCookieValue === "home-techniques") {
     </ListItems>
     <ListItems title="军事建筑" imgFolder="home_buildings">
         <ListItem name="兵营" imgSrc="0480/Army_Camp13.png" link="0480-Army-Camp" />
+        <ListItem name="小队训练营" link="048b-Squad-Barracks" />
         <ListItem name="训练营" imgSrc="0481/Barracks19.png" link="0481-Barracks" />
         <ListItem name="暗黑训练营" imgSrc="0482/Dark_Barracks12.png" link="0482-Dark-Barracks" />
         <ListItem name="实验室" imgSrc="0483/Laboratory16.png" link="0483-Laboratory" />

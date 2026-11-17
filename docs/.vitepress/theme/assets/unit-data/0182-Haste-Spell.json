@@ -11,7 +11,18 @@
     "revision": 620321,
     "revisionUrl": "https://clashofclans.fandom.com/wiki/Haste_Spell?oldid=620321",
     "syncedOn": "2026-10-13",
-    "scope": "Source statistics tables and available 2026 history; base values"
+    "scope": "Source statistics tables and available 2026 history; base values",
+    "th19Update": {
+      "checkedOn": "2026-11-16",
+      "source": "ClashKing Assets (selected game facts)",
+      "sourceUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json",
+      "scope": "Selected new levels and baseline-matched cost/time adjustments; missing fields remain unknown.",
+      "additionalSource": {
+        "source": "ClashPerk Wiki",
+        "sourceUrl": "https://wiki.clashperk.com/spells/haste-spell",
+        "scope": "Level 8 speed bonus, duration and radius."
+      }
+    }
   },
   "tables": [
     {
@@ -280,15 +291,15 @@
           },
           {
             "status": "known",
-            "value": 200000,
-            "raw": "200,000"
+            "value": 165000,
+            "raw": "165000"
           },
           {
             "status": "known",
-            "value": 777600,
-            "raw": "9d",
+            "value": 648000,
+            "raw": "7d 12h",
             "unit": "seconds",
-            "displayInput": "9,0,0,0"
+            "displayInput": "7,12,0,0"
           },
           {
             "status": "known",
@@ -319,20 +330,59 @@
           },
           {
             "status": "known",
-            "value": 320000,
-            "raw": "320,000"
+            "value": 255000,
+            "raw": "255000"
           },
           {
             "status": "known",
-            "value": 1080000,
-            "raw": "12d 12h",
+            "value": 799200,
+            "raw": "9d 6h",
             "unit": "seconds",
-            "displayInput": "12,12,0,0"
+            "displayInput": "9,6,0,0"
           },
           {
             "status": "known",
             "value": 16,
             "raw": "16"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "status": "known",
+            "value": 60,
+            "raw": "60"
+          },
+          {
+            "status": "known",
+            "value": "30 seconds",
+            "raw": "30 seconds"
+          },
+          {
+            "status": "known",
+            "value": "5 tiles",
+            "raw": "5 tiles"
+          },
+          {
+            "status": "known",
+            "value": 415000,
+            "raw": "415000"
+          },
+          {
+            "status": "known",
+            "value": 1123200,
+            "raw": "13d",
+            "unit": "seconds",
+            "displayInput": "13,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 17,
+            "raw": "17"
           }
         ]
       ],
@@ -362,7 +412,14 @@
       "logicalPath": "/upgrade/home_tech/0182/Haste_Spell.png"
     }
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-11-16",
+      "description": "19 本版本新增 8 级。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/",
+      "sourcePublishedOn": "2026-11-16"
+    }
+  ],
   "facts": [
     "Like with Healing Spells and Rage Spells, the Haste Spell has a reduced effect on Heroes, only granting 50% of its speed boost to them."
   ],

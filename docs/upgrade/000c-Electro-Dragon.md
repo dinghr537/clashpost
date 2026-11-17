@@ -8,6 +8,7 @@ imgFolder: home_tech/000c
 wiki: https://clashofclans.fandom.com/wiki/Electro_Dragon
 canonical: /upgrade/000c-Electro-Dragon
 dataSyncedOn: 2026-10-13
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Electro_Dragon_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
@@ -60,6 +61,8 @@ dataSyncedOn: 2026-10-13
 
 <SmallTitle>升级数据</SmallTitle>
 
+<small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为未知。</small>
+
 <script setup>
 const tableExtraInfo = [
     {
@@ -86,14 +89,18 @@ const tableExtraInfo = [
 | 4 | 350 | 1225 | 95 ×6 | 4700 | 9000000 | 7,0,0,0 | 11 | 13 |
 | 5 | 380 | 1330 | 105 ×6 | 5000 | 11000000 | 8,0,0,0 | 12 | 14 |
 | 6 | 410 | 1435 | 115 ×6 | 5400 | 14000000 | 8,12,0,0 | 13 | 15 |
-| 7 | 440 | 1540 | 125 ×6 | 5700 | 16000000 | 9,0,0,0 | 14 | 16 |
-| 8 | 475 | 1662.5 | 135 ×6 | 6400 | 20000000 | 10,0,0,0 | 15 | 17 |
-| 9 | 510 | 1785 | 145 ×6 | 6900 | 30000000 | 16,0,0,0 | 16 | 18 |
+| 7 | 440 | 1540 | 125 ×6 | 5700 | 15000000 | 8,12,0,0 | 14 | 16 |
+| 8 | 475 | 1662.5 | 135 ×6 | 6400 | 18000000 | 9,0,0,0 | 15 | 17 |
+| 9 | 510 | 1785 | 145 ×6 | 6900 | 22500000 | 12,0,0,0 | 16 | 18 |
+| 10 | 545 | 1907.5 | 未知 | 8000 | 29500000 | 13,0,0,0 | 17 | 19 |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/11/16">
+        <TimelineRow>19 本版本新增 10 级。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2026/07/14">
         <TimelineRow>8 级雷电飞龙生命值由 6200 增至 6400，每秒伤害由 460 增至 475；9 级生命值由 6700 增至 6900，每秒伤害由 500 增至 510。 <a href="https://clashofclans.fandom.com/wiki/Electro_Dragon#History" target="_blank" rel="noopener noreferrer">来源</a></TimelineRow>
     </TimelineItem>

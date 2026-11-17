@@ -8,6 +8,7 @@ imgFolder: home_tech/0245
 wiki: https://clashofclans.fandom.com/wiki/Flame_Flinger
 canonical: /upgrade/0245-Flame-Flinger
 dataSyncedOn: 2026-10-13
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 - *玩家所说的投石车指的是攻城烈焰车，而不是投石炮，投石炮的数据请参考：[投石炮](/upgrade/030e-Scattershot)。*
@@ -63,6 +64,8 @@ dataSyncedOn: 2026-10-13
 
 <SmallTitle>升级数据</SmallTitle>
 
+<small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为未知。</small>
+
 <script setup>
 const tableExtraInfo = [
     {
@@ -87,7 +90,8 @@ const tableExtraInfo = [
 | 2 | 137 | 250 | 95 | 105.88秒 | 1800 | 5500000 | 3,0,0,0 | 10 | 14 |
 | 3 | 151 | 275 | 105 | 111.76秒 | 1900 | 8000000 | 4,0,0,0 | 10 | 14 |
 | 4 | 165 | 300 | 120 | 117.64秒 | 2000 | 10000000 | 7,0,0,0 | 11 | 14 |
-| 5 | 179 | 325 | 130 | 123.52秒 | 2100 | 18000000 | 12,0,0,0 | 14 | 16 |
+| 5 | 179 | 325 | 130 | 123.52秒 | 2100 | 14500000 | 8,12,0,0 | 14 | 16 |
+| 6 | 210 | 1050 | 未知 | 未知 | 2200 | 31000000 | 15,0,0,0 | 17 | 19 |
 </UnitTable>
 
 ④ 攻城烈焰车发射出的熔岩伤害类似于 [毒药法术](/upgrade/0180-Poison-Spell)，也就是前期伤害低，兵种或建筑待在熔岩里的时间越长瞬时伤害越高。<br>
@@ -96,6 +100,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/11/16">
+        <TimelineRow>19 本版本新增 6 级。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2026/04/27">
         <TimelineRow>攻城机器开始受到小火灵留下的火焰伤害；不再受到 14—16 本大本营毒药、生命宝石效果及守护者学徒光环的影响。 <a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
     </TimelineItem>

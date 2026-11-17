@@ -8,6 +8,7 @@ imgFolder: home_tech/0080
 wiki: https://clashofclans.fandom.com/wiki/Minion
 canonical: /upgrade/0080-Minion
 dataSyncedOn: 2026-10-13
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 - *如想查看该兵种的强化版本，请访问：[超级亡灵（马云）](/upgrade/0608-Super-Minion)。*
@@ -58,6 +59,8 @@ dataSyncedOn: 2026-10-13
 
 <SmallTitle>升级数据</SmallTitle>
 
+<small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为未知。</small>
+
 <script setup>
 const tableExtraInfo = [
     {
@@ -89,14 +92,18 @@ const tableExtraInfo = [
 | 9 | 66 | 66 | 102 | 75000 | 3,0,0,0 | 11 | 13 |
 | 10 | 70 | 70 | 108 | 100000 | 4,0,0,0 | 12 | 14 |
 | 11 | 74 | 74 | 114 | 115000 | 4,12,0,0 | 13 | 15 |
-| 12 | 78 | 78 | 120 | 160000 | 5,0,0,0 | 14 | 16 |
-| 13 | 84 | 84 | 130 | 220000 | 9,0,0,0 | 15 | 17 |
-| 14 | 92 | 92 | 140 | 335000 | 14,0,0,0 | 16 | 18 |
+| 12 | 78 | 78 | 120 | 120000 | 4,12,0,0 | 14 | 16 |
+| 13 | 84 | 84 | 130 | 150000 | 6,0,0,0 | 15 | 17 |
+| 14 | 92 | 92 | 140 | 280000 | 8,12,0,0 | 16 | 18 |
+| 15 | 100 | 100 | 150 | 430000 | 12,12,0,0 | 17 | 19 |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/11/16">
+        <TimelineRow>19 本版本新增 15 级。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/11/17">
         <TimelineRow>18 本推出，并在 18 本新增 14 级亡灵。</TimelineRow>
         <TimelineRow>13 级亡灵的升级时间和升级费用减少。</TimelineRow>

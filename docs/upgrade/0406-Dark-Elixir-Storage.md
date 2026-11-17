@@ -8,6 +8,7 @@ imgFolder: home_buildings/0406
 wiki: https://clashofclans.fandom.com/wiki/Dark_Elixir_Storage
 canonical: /upgrade/0406-Dark-Elixir-Storage
 dataSyncedOn: 2026-10-13
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Dark_Elixir_Storage13.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
@@ -53,6 +54,8 @@ dataSyncedOn: 2026-10-13
 
 <SmallTitle>升级数据</SmallTitle>
 
+<small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为未知。</small>
+
 <script setup>
 const tableExtraInfo = [
     {
@@ -94,14 +97,18 @@ const tableExtraInfo = [
 | 8 | 280000 | 3800 | 5400000 | 3,12,0,0 |  | 13 |
 | 9 | 330000 | 4100 | 6600000 | 4,0,0,0 |  | 14 |
 | 10 | 360000 | 4300 | 8000000 | 4,12,0,0 |  | 15 |
-| 11 | 390000 | 4500 | 10000000 | 5,0,0,0 |  | 16 |
-| 12 | 420000 | 4700 | 16000000 | 7,0,0,0 |  | 17 |
-| 13 | 450000 | 4800 | 25000000 | 13,0,0,0 |  | 18 |
+| 11 | 390000 | 4500 | 8000000 | 4,0,0,0 |  | 16 |
+| 12 | 420000 | 4700 | 15000000 | 7,0,0,0 |  | 17 |
+| 13 | 450000 | 4800 | 20000000 | 10,0,0,0 |  | 18 |
+| 14 | 未知 | 4900 | 24000000 | 13,0,0,0 |  | 19 |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/11/16">
+        <TimelineRow>19 本版本新增 14 级。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/11/17">
         <TimelineRow>18 本推出，并在 18 本新增 13 级暗黑重油罐。</TimelineRow>
         <TimelineRow>12 级暗黑重油罐的升级时间减少。</TimelineRow>

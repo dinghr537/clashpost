@@ -8,6 +8,7 @@ imgFolder: home_tech/0001
 wiki: https://clashofclans.fandom.com/wiki/Archer
 canonical: /upgrade/0001-Archer
 dataSyncedOn: 2026-10-13
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 - *如想查看以弓箭手为原型的英雄，请访问：[弓箭女皇（女王）](/upgrade/0201-Archer-Queen)。*
@@ -54,6 +55,8 @@ dataSyncedOn: 2026-10-13
 
 <SmallTitle>升级数据</SmallTitle>
 
+<small>19 本数据补充参考 [部落冲突 Wiki](https://clashofclans.fandom.com/wiki/Archer) 和 [ClashKing Assets](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为未知。</small>
+
 <script setup>
 const tableExtraInfo = [
     {
@@ -85,9 +88,10 @@ const tableExtraInfo = [
 | 9 | 31 | 31 | 56 | 3000000 | 2,0,0,0 | 10 | 12 |
 | 10 | 34 | 34 | 60 | 4500000 | 3,0,0,0 | 12 | 14 |
 | 11 | 37 | 37 | 64 | 6500000 | 4,0,0,0 | 13 | 15 |
-| 12 | 40 | 40 | 68 | 9000000 | 4,12,0,0 | 14 | 16 |
-| 13 | 43 | 43 | 72 | 14000000 | 9,0,0,0 | 15 | 17 |
-| 14 | 46 | 46 | 76 | 25000000 | 13,12,0,0 | 16 | 18 |
+| 12 | 40 | 40 | 68 | 8000000 | 4,0,0,0 | 14 | 16 |
+| 13 | 43 | 43 | 72 | 11000000 | 7,0,0,0 | 15 | 17 |
+| 14 | 46 | 46 | 76 | 19000000 | 9,0,0,0 | 16 | 18 |
+| 15 | 49 | 49 | 80 | 31000000 | 14,0,0,0 | 17 | 19 |
 </UnitTable>
 
 \# 根据安装包解析的结果，玩家可以在 1 本把训练营升到 2 级以解锁弓箭手，但这仅仅是理论上的，实际上新手教程会直接引导玩家升到 2 本，根本没有在 1 本升级训练营的机会。
@@ -95,6 +99,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/11/16">
+        <TimelineRow>19 本版本新增 15 级。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2026/02/23">
         <TimelineRow>在 18 本新增 14 级弓箭手。</TimelineRow>
     </TimelineItem>

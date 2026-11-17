@@ -11,7 +11,13 @@
     "revision": 623237,
     "revisionUrl": "https://clashofclans.fandom.com/wiki/Air_Bomb?oldid=623237",
     "syncedOn": "2026-10-13",
-    "scope": "Source statistics tables and available 2026 history; base values"
+    "scope": "Source statistics tables and available 2026 history; base values",
+    "th19Update": {
+      "checkedOn": "2026-11-16",
+      "source": "ClashKing Assets (selected game facts)",
+      "sourceUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json",
+      "scope": "Selected new levels and baseline-matched cost/time adjustments; missing fields remain unknown."
+    }
   },
   "tables": [
     {
@@ -606,20 +612,20 @@
           },
           {
             "status": "known",
-            "value": 9500000,
-            "raw": "9,500,000"
+            "value": 6500000,
+            "raw": "6500000"
           },
           {
             "status": "known",
-            "value": 259200,
-            "raw": "3d",
+            "value": 216000,
+            "raw": "2d 12h",
             "unit": "seconds",
-            "displayInput": "3,0,0,0"
+            "displayInput": "2,12,0,0"
           },
           {
             "status": "known",
-            "value": 509,
-            "raw": "509"
+            "value": 464,
+            "raw": "464"
           },
           {
             "status": "known",
@@ -640,25 +646,59 @@
           },
           {
             "status": "known",
-            "value": 15000000,
-            "raw": "15,000,000"
+            "value": 9000000,
+            "raw": "9000000"
           },
           {
             "status": "known",
-            "value": 777600,
-            "raw": "9d",
+            "value": 432000,
+            "raw": "5d",
             "unit": "seconds",
-            "displayInput": "9,0,0,0"
+            "displayInput": "5,0,0,0"
           },
           {
             "status": "known",
-            "value": 881,
-            "raw": "881"
+            "value": 657,
+            "raw": "657"
           },
           {
             "status": "known",
             "value": 18,
             "raw": "18"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 14,
+            "raw": "14"
+          },
+          {
+            "status": "known",
+            "value": 450,
+            "raw": "450"
+          },
+          {
+            "status": "known",
+            "value": 17500000,
+            "raw": "17500000"
+          },
+          {
+            "status": "known",
+            "value": 734400,
+            "raw": "8d 12h",
+            "unit": "seconds",
+            "displayInput": "8,12,0,0"
+          },
+          {
+            "status": "known",
+            "value": 856,
+            "raw": "856"
+          },
+          {
+            "status": "known",
+            "value": 19,
+            "raw": "19"
           }
         ]
       ],
@@ -792,6 +832,12 @@
       "description": "18 本增加 1 个空中炸弹的建造名额。",
       "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/",
       "sourcePublishedOn": "2026-04-27"
+    },
+    {
+      "date": "2026-11-16",
+      "description": "19 本版本新增 14 级。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/",
+      "sourcePublishedOn": "2026-11-16"
     }
   ],
   "facts": [

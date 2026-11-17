@@ -8,6 +8,7 @@ imgFolder: home_buildings/0308
 wiki: https://clashofclans.fandom.com/wiki/Bomb_Tower
 canonical: /upgrade/0308-Bomb-Tower
 dataSyncedOn: 2026-10-13
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 - *如想查看都城的炸弹塔，请访问：[都城炸弹塔](/upgrade/2205-Bomb-Tower)。*
@@ -57,6 +58,8 @@ dataSyncedOn: 2026-10-13
 
 <SmallTitle>升级数据</SmallTitle>
 
+<small>19 本版本对部分旧等级的费用、时间作了调整；变更数值参考 [ClashKing Assets](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)。</small>
+
 <script setup>
 const tableExtraInfo = [
     {
@@ -92,9 +95,9 @@ const tableExtraInfo = [
 | 8 | 72 | 79.2 | 450 | 1900 | 5000000 | 3,12,0,0 |  | 13 |
 | 9 | 84 | 92.4 | 500 | 2300 | 6000000 | 4,0,0,0 |  | 14 |
 | 10 | 94 | 103.4 | 550 | 2500 | 7000000 | 4,12,0,0 |  | 15 |
-| 11 | 104 | 114.4 | 600 | 2700 | 8500000 | 5,0,0,0 |  | 16 |
-| 12 | 114 | 125.4 | 650 | 2900 | 14500000 | 7,0,0,0 |  | 17 |
-| 13 | 122 | 134.2 | 700 | 3050 | 25000000 | 13,0,0,0 |  | 18 |
+| 11 | 104 | 114.4 | 600 | 2700 | 7000000 | 4,0,0,0 |  | 16 |
+| 12 | 114 | 125.4 | 650 | 2900 | 13500000 | 7,0,0,0 |  | 17 |
+| 13 | 122 | 134.2 | 700 | 3050 | 16500000 | 9,0,0,0 |  | 18 |
 | ⚡1 | 127 | 139.7 | 700 | 3050 | 6000000 | 2,12,0,0 |  | 18 |
 | ⚡2 | 127 | 139.7 | 700 | 3150 | 3000000 | 4,0,0,0 |  | 18 |
 </UnitTable>

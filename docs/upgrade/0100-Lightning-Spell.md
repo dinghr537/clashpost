@@ -8,6 +8,7 @@ imgFolder: home_tech/0100
 wiki: https://clashofclans.fandom.com/wiki/Lightning_Spell
 canonical: /upgrade/0100-Lightning-Spell
 dataSyncedOn: 2026-10-13
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 - *如想查看都城的雷电法术，请访问：[都城雷电法术](/upgrade/2102-Lightning-Spell)。*
@@ -46,6 +47,8 @@ dataSyncedOn: 2026-10-13
 
 <SmallTitle>升级数据</SmallTitle>
 
+<small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为未知。</small>
+
 <script setup>
 const tableExtraInfo = [
     {
@@ -77,8 +80,9 @@ const tableExtraInfo = [
 | 9 | 560 | 6300000 | 5,0,0,0 | 10 | 12 |
 | 10 | 600 | 10000000 | 6,0,0,0 | 13 | 15 |
 | 11 | 640 | 13500000 | 7,0,0,0 | 14 | 16 |
-| 12 | 680 | 18500000 | 10,0,0,0 | 15 | 17 |
-| 13 | 720 | 27000000 | 14,0,0,0 | 16 | 18 |
+| 12 | 680 | 17000000 | 9,6,0,0 | 15 | 17 |
+| 13 | 720 | 20000000 | 11,0,0,0 | 16 | 18 |
+| 14 | 760 | 31000000 | 15,0,0,0 | 17 | 19 |
 </UnitTable>
 
 \* 如果玩家升级到 5 级大本营并且解锁了雷电法术，即使玩家没有立即升实验室也可以升级雷电法术。
@@ -86,6 +90,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/11/16">
+        <TimelineRow>19 本版本新增 14 级。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/11/17">
         <TimelineRow>18 本推出，并在 18 本新增 13 级雷电法术。</TimelineRow>
         <TimelineRow>12 级雷电法术的升级时间减少。</TimelineRow>

@@ -11,7 +11,13 @@
     "revision": 625396,
     "revisionUrl": "https://clashofclans.fandom.com/wiki/Town_Hall?oldid=625396",
     "syncedOn": "2026-10-13",
-    "scope": "Source statistics tables and available 2026 history; base values"
+    "scope": "Source statistics tables and available 2026 history; base values",
+    "th19Update": {
+      "checkedOn": "2026-11-16",
+      "source": "ClashKing Assets (selected game facts)",
+      "sourceUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json",
+      "scope": "Selected new levels and baseline-matched cost/time adjustments; missing fields remain unknown."
+    }
   },
   "tables": [
     {
@@ -920,6 +926,45 @@
             "status": "known",
             "value": 47,
             "raw": "47"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 19,
+            "raw": "19"
+          },
+          {
+            "status": "known",
+            "value": 11200,
+            "raw": "11200"
+          },
+          {
+            "status": "known",
+            "value": 27000000,
+            "raw": "27000000"
+          },
+          {
+            "status": "known",
+            "value": 1123200,
+            "raw": "13d",
+            "unit": "seconds",
+            "displayInput": "13,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 1059,
+            "raw": "1059"
+          },
+          {
+            "status": "known",
+            "value": 97,
+            "raw": "97"
+          },
+          {
+            "status": "known",
+            "value": 48,
+            "raw": "48"
           }
         ]
       ],
@@ -10121,7 +10166,14 @@
       "logicalPath": "/upgrade/home_buildings/0400/Town_Hall15_5.png"
     }
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-11-16",
+      "description": "19 本版本新增 19 级。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/",
+      "sourcePublishedOn": "2026-11-16"
+    }
+  ],
   "facts": [
     "The Town Hall also serves as a resource storage of Gold, Elixir, and Dark Elixir (the latter only when the Town Hall is level 7 or above). Unlike other resource storages, the loot stored in the Town Hall can only be looted if it is destroyed."
   ],

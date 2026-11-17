@@ -8,6 +8,7 @@ imgFolder: home_buildings/0315
 wiki: https://clashofclans.fandom.com/wiki/Town_Hall/Inferno_Artillery
 canonical: /upgrade/0315-Inferno-Artillery
 dataSyncedOn: 2026-10-13
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 - 如想查看大本营的相关数据，请访问：[大本营](/upgrade/0400-Town-Hall)。
@@ -33,7 +34,7 @@ dataSyncedOn: 2026-10-13
     - 升级 17 级大本营时要求天鹰火炮达到 7 级，升级完成后天鹰火炮会被移除。
     - 合并建筑的操作是永久性的，一旦合并就无法拆开。
 2. 当玩家升到 17 本后，就拥有了一个地狱火炮，而 [巨型地狱之塔](/upgrade/030d-Giga-Inferno) 会消失。如果玩家将大本营升到 18 级，则地狱火炮会被守卫系统替代。
-3. 和 16 本及以下的大本营武器不同，地狱火炮可以升级，升级武器可提高地狱火炮的伤害。
+3. 2026 年 19 本更新后，17 本地狱火炮不再分级升级，而是直接拥有原 5 级的完整威力（每秒伤害 60）。
 4. 和 16 本及以下的大本营武器不同，地狱火炮在战斗一开始就会出现，而不会等到被攻击或达到 51% 摧毁率，这一点类似于 [都城大本营](/upgrade/2400-Capital-Hall)。
 5. 与天鹰火炮不同，地狱火炮没有攻击盲区，也没有触发人口数的要求。
 6. 地狱火炮自身发射的火球只能对单个目标造成伤害，火球留下的灼烧区域可以对一个范围内的目标造成持续伤害，其原理类似于 [熔岩发射器](/upgrade/110d-Lava-Launcher)。
@@ -60,7 +61,9 @@ dataSyncedOn: 2026-10-13
     <UnitProperty pKey="灼烧持续时间" pValue="6.8 秒" />
 </UnitProperties>
 
-<SmallTitle>升级数据</SmallTitle>
+<SmallTitle>历史升级数据</SmallTitle>
+
+2026 年 19 本更新后，下表 1–5 级和对应费用、时间已成为历史。现有 17 本地狱火炮直接使用原 5 级的伤害：每秒 60、每次 210。<small>（[Supercell 官方公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)）</small>
 
 <script setup>
 const tableExtraInfo = [

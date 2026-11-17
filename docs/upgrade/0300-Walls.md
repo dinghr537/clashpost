@@ -8,6 +8,7 @@ imgFolder: home_buildings/0300
 wiki: https://clashofclans.fandom.com/wiki/Wall
 canonical: /upgrade/0300-Walls
 dataSyncedOn: 2026-10-13
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 - *如想查看夜世界的城墙，请访问：[夜世界城墙](/upgrade/110c-Walls)。*
@@ -44,9 +45,11 @@ dataSyncedOn: 2026-10-13
 <SmallTitle>建筑数量对照表</SmallTitle>
 
 <BuildingNum>
-    <BuildingNumRow title="大本等级" num="1,  2,  3,  4,   5,   6,   7,   8,   9,  10, 11 - 13, 14 - 18" />
-    <BuildingNumRow title="建筑数量" num="0, 25, 50, 75, 100, 125, 175, 225, 250, 275,     300,     325" />
+    <BuildingNumRow title="大本等级" num="1,  2,  3,  4,   5,   6,   7,   8,   9,  10, 11 - 13, 14 - 18, 19" />
+    <BuildingNumRow title="建筑数量" num="0, 25, 50, 75, 100, 125, 175, 225, 250, 275,     300,     325, 350" />
 </BuildingNum>
+
+19 本最多拥有 350 块城墙，其中最多 150 块可升至 20 级。
 
 <SmallTitle>属性</SmallTitle>
 
@@ -56,6 +59,8 @@ dataSyncedOn: 2026-10-13
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
+
+<small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为未知。</small>
 
 <script setup>
 const tableExtraInfo = [
@@ -102,8 +107,9 @@ const tableExtraInfo = [
 | 15 | 10000 | 3000000 | 3000000 | 3 | 14 |
 | 16 | 11000 | 4000000 | 4000000 | 4 | 15 |
 | 17 | 12000 | 5000000 | 5000000 | 5 | 16 |
-| 18 | 13000 | 7000000 | 7000000 | 7 | 17 |
-| 19 | 14000 | 10000000 | 10000000 | 10 | 18 |
+| 18 | 13000 | 6000000 | 7000000 | 7 | 17 |
+| 19 | 14000 | 8000000 | 10000000 | 10 | 18 |
+| 20 | 15000 | 10000000 | 10000000 | 10 | 19 |
 </UnitTable>
 
 注：升级城墙时，金币、圣水、戒指任选其一即可。
@@ -111,6 +117,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/11/16">
+        <TimelineRow>19 本版本新增 20 级。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2026/06/16">
         <TimelineRow>开放十八本剩余城墙升至 19 级。 <a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-anime-fury-update-is-here/" target="_blank" rel="noopener noreferrer">官方公告</a>（06/15 发布；<a href="https://clashofclans.fandom.com/wiki/X-Bow?oldid=596696#History" target="_blank" rel="noopener noreferrer">更新日期</a>）</TimelineRow>
     </TimelineItem>

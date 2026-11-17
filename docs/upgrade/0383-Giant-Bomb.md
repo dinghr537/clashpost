@@ -8,6 +8,7 @@ imgFolder: home_buildings/0383
 wiki: https://clashofclans.fandom.com/wiki/Giant_Bomb
 canonical: /upgrade/0383-Giant-Bomb
 dataSyncedOn: 2026-10-13
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 - 游戏中还存在另一种大炸弹，详见：[终极炸弹](/upgrade/0387-Giga-Bomb)。
@@ -54,6 +55,8 @@ dataSyncedOn: 2026-10-13
 
 <SmallTitle>升级数据</SmallTitle>
 
+<small>19 本版本对部分旧等级的费用、时间作了调整；变更数值参考 [ClashKing Assets](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)。</small>
+
 <script setup>
 const tableExtraInfo = [
     {
@@ -89,8 +92,8 @@ const tableExtraInfo = [
 | 8 | 400 | 4格 | 2000000 | 1,0,0,0 |  | 14 |
 | 9 | 425 | 4格 | 3200000 | 2,0,0,0 |  | 15 |
 | 10 | 450 | 4格 | 5500000 | 2,12,0,0 |  | 16 |
-| 11 | 475 | 4格 | 10000000 | 4,0,0,0 |  | 17 |
-| 12 | 490 | 4.2格 | 17000000 | 10,12,0,0 |  | 18 |
+| 11 | 475 | 4格 | 7000000 | 3,0,0,0 |  | 17 |
+| 12 | 490 | 4.2格 | 9000000 | 5,0,0,0 |  | 18 |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>

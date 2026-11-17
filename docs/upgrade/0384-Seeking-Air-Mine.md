@@ -8,6 +8,7 @@ imgFolder: home_buildings/0384
 wiki: https://clashofclans.fandom.com/wiki/Seeking_Air_Mine
 canonical: /upgrade/0384-Seeking-Air-Mine
 dataSyncedOn: 2026-10-13
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 - *本页内容不是空中炸弹，如想查看空中炸弹的数据，请访问：[空中炸弹](/upgrade/0382-Air-Bomb)。*
@@ -48,6 +49,8 @@ dataSyncedOn: 2026-10-13
 
 <SmallTitle>升级数据</SmallTitle>
 
+<small>19 本版本对部分旧等级的费用、时间作了调整；变更数值参考 [ClashKing Assets](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)。</small>
+
 <script setup>
 const tableExtraInfo = [
     {
@@ -79,8 +82,8 @@ const tableExtraInfo = [
 | 4 | 2500 | 2500000 | 1,12,0,0 |  | 13 |
 | 5 | 2800 | 5000000 | 2,0,0,0 |  | 15 |
 | 6 | 3000 | 6500000 | 3,0,0,0 |  | 16 |
-| 7 | 3200 | 12000000 | 5,0,0,0 |  | 17 |
-| 8 | 3350 | 19000000 | 11,12,0,0 |  | 18 |
+| 7 | 3200 | 7500000 | 4,0,0,0 |  | 17 |
+| 8 | 3350 | 11500000 | 7,0,0,0 |  | 18 |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>

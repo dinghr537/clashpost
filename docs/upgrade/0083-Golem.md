@@ -8,6 +8,7 @@ imgFolder: home_tech/0083
 wiki: https://clashofclans.fandom.com/wiki/Golem
 canonical: /upgrade/0083-Golem
 dataSyncedOn: 2026-10-13
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 - *本页面的内容不是戈仑冰人，如想查看戈仑冰人的页面，请访问：[戈仑冰人](/upgrade/0087-Ice-Golem)。*
@@ -46,6 +47,8 @@ dataSyncedOn: 2026-10-13
 
 <SmallTitle>重要说明</SmallTitle>
 
+19 本更新加强了部分等级的小戈仑：15 级小戈仑生命值 2,120、每秒伤害 24；戈仑石人本体数值不变。<small>（[Supercell 官方公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)）</small>
+
 1. 戈仑石人死亡后会分裂成若干小戈仑石人（小石头人）。
 2. 根据玩家解安装包的结果，小石头人占用 6 空间，可被 [隐形弹簧](/upgrade/0381-Spring-Trap) 弹飞。
 3. 自 2024 年 6 月平衡性调整起，小石头人的生命值不再固定为大石头人的五分之一，但游戏内的介绍还是保留了五分之一这个说法。
@@ -70,6 +73,8 @@ dataSyncedOn: 2026-10-13
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
+
+<small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为未知。</small>
 
 <script setup>
 const tableExtraInfo = [
@@ -103,9 +108,10 @@ const tableExtraInfo = [
 | 10 | 80 | 192 | 800 | 3 | 8200 | 80000 | 4,0,0,0 | 11 | 13 |
 | 11 | 85 | 204 | 850 | 3 | 8500 | 105000 | 5,0,0,0 | 12 | 14 |
 | 12 | 90 | 216 | 900 | 3 | 8800 | 122500 | 5,12,0,0 | 13 | 15 |
-| 13 | 95 | 228 | 950 | 4 | 9200 | 175000 | 6,0,0,0 | 14 | 16 |
-| 14 | 100 | 240 | 1000 | 4 | 9600 | 230000 | 10,0,0,0 | 15 | 17 |
-| 15 | 120 | 288 | 1050 | 4 | 10600 | 350000 | 14,12,0,0 | 16 | 18 |
+| 13 | 95 | 228 | 950 | 4 | 9200 | 135000 | 5,12,0,0 | 14 | 16 |
+| 14 | 100 | 240 | 1000 | 4 | 9600 | 160000 | 6,12,0,0 | 15 | 17 |
+| 15 | 120 | 288 | 1050 | 4 | 10600 | 295000 | 10,12,0,0 | 16 | 18 |
+| 16 | 140 | 336 | 1100 | 未知 | 11800 | 455000 | 14,0,0,0 | 17 | 19 |
 </UnitTable>
 </SwitchTabGroup>
 
@@ -166,24 +172,28 @@ const tableExtraInfo = [
 |   4  |     10   |    30   |     100     |  1200  |
 |   5  |     11   |    33   |     110     |  1260  |
 |   6  |     12   |    36   |     120     |  1320  |
-|   7  |     13   |    39   |     130     |  1380  |
-|   8  |     14   |    42   |     140     |  1440  |
-|   9  |     15   |    45   |     150     |  1500  |
-|  10  |     16   |    48   |     160     |  1600  |
-|  11  |     17   |    51   |     170     |  1680  |
+|   7  |     13   |    39   |     130     |  未知  |
+|   8  |     14   |    42   |     140     |  未知  |
+|   9  |     15   |    45   |     150     |  未知  |
+|  10  |     16   |    48   |     160     |  未知  |
+|  11  |     17   |    51   |     170     |  未知  |
 |  12  |     18   |    54   |     180     |  1760  |
 |  13  |     19   |    57   |     190     |  1840  |
 |  14  |     20   |    60   |     200     |  1920  |
-|  15  |     22   |    66   |     210     |  2040  |
+|  15  |     24   |    72   |     210     |  2120  |
+|  16  |     未知  |   未知  |     未知    |  未知  |
 </UnitTable>
 
-<small>小戈仑石人数据来源：<a href="https://clashofclans.fandom.com/wiki/Golem/Golemite" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。</small>
+<small>小戈仑石人数据来源：<a href="https://clashofclans.fandom.com/wiki/Golem/Golemite" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。19 本更新调整了 7–11 级和 15 级生命值以及 15 级伤害；已确认的数值依据<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/" target="_blank" rel="noopener noreferrer">官方公告</a>补充，尚未确认的显示为未知。</small>
 </SwitchTabGroup>
 
 <!-- ↓↓↓ 公共部分 ↓↓↓ -->
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/11/16">
+        <TimelineRow>19 本版本新增 16 级。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2026/04/27">
         <TimelineRow>新增 15 级戈仑石人。 <a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
     </TimelineItem>

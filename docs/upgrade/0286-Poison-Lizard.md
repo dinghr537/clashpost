@@ -8,6 +8,7 @@ imgFolder: home_heroes/0286
 wiki: https://clashofclans.fandom.com/wiki/Poison_Lizard
 canonical: /upgrade/0286-Poison-Lizard
 dataSyncedOn: 2026-10-13
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Poison_Lizard_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
@@ -46,6 +47,8 @@ dataSyncedOn: 2026-10-13
 
 <SmallTitle>升级数据</SmallTitle>
 
+<small>19 本版本对部分旧等级的费用、时间作了调整；变更数值参考 [ClashKing Assets](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)。</small>
+
 <script setup>
 const tableExtraInfo = [
     {
@@ -83,9 +86,9 @@ const tableExtraInfo = [
 | 10 | 280 | 120 | 38% | 50% | 2050 | 150000 | 5,0,0,0 |  | 7 | 15 |
 | 11 | 291 | 120 | 38% | 50% | 2100 | 180000 | 6,0,0,0 |  | 11 | 17 |
 | 12 | 302 | 120 | 38% | 50% | 2150 | 200000 | 7,0,0,0 |  | 11 | 17 |
-| 13 | 313 | 120 | 38% | 50% | 2200 | 220000 | 8,0,0,0 |  | 11 | 17 |
-| 14 | 324 | 120 | 38% | 50% | 2250 | 240000 | 8,0,0,0 |  | 11 | 17 |
-| 15 | 335 | 140 | 42% | 55% | 2300 | 260000 | 8,0,0,0 |  | 11 | 17 |
+| 13 | 313 | 120 | 38% | 50% | 2200 | 220000 | 7,12,0,0 |  | 11 | 17 |
+| 14 | 324 | 120 | 38% | 50% | 2250 | 240000 | 7,12,0,0 |  | 11 | 17 |
+| 15 | 335 | 140 | 42% | 55% | 2300 | 260000 | 7,12,0,0 |  | 11 | 17 |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>

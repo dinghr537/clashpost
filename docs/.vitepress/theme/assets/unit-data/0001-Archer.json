@@ -11,7 +11,14 @@
     "revision": 624208,
     "revisionUrl": "https://clashofclans.fandom.com/wiki/Archer?oldid=624208",
     "syncedOn": "2026-10-13",
-    "scope": "Source statistics tables and available 2026 history; base values"
+    "scope": "Source statistics tables and available 2026 history; base values",
+    "th19Update": {
+      "checkedOn": "2026-11-16",
+      "source": "ClashKing Assets (selected game facts)",
+      "sourceUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json",
+      "scope": "Selected new levels and baseline-matched cost/time adjustments; missing fields remain unknown.",
+      "wikiChecked": "https://clashofclans.fandom.com/wiki/Archer"
+    }
   },
   "tables": [
     {
@@ -532,15 +539,15 @@
           },
           {
             "status": "known",
-            "value": 9000000,
-            "raw": "9,000,000"
+            "value": 8000000,
+            "raw": "8000000"
           },
           {
             "status": "known",
-            "value": 388800,
-            "raw": "4d 12h",
+            "value": 345600,
+            "raw": "4d",
             "unit": "seconds",
-            "displayInput": "4,12,0,0"
+            "displayInput": "4,0,0,0"
           },
           {
             "status": "known",
@@ -571,15 +578,15 @@
           },
           {
             "status": "known",
-            "value": 14000000,
-            "raw": "14,000,000"
+            "value": 11000000,
+            "raw": "11000000"
           },
           {
             "status": "known",
-            "value": 777600,
-            "raw": "9d",
+            "value": 604800,
+            "raw": "7d",
             "unit": "seconds",
-            "displayInput": "9,0,0,0"
+            "displayInput": "7,0,0,0"
           },
           {
             "status": "known",
@@ -610,20 +617,59 @@
           },
           {
             "status": "known",
-            "value": 25000000,
-            "raw": "25,000,000"
+            "value": 19000000,
+            "raw": "19000000"
           },
           {
             "status": "known",
-            "value": 1166400,
-            "raw": "13d 12h",
+            "value": 777600,
+            "raw": "9d",
             "unit": "seconds",
-            "displayInput": "13,12,0,0"
+            "displayInput": "9,0,0,0"
           },
           {
             "status": "known",
             "value": 16,
             "raw": "16"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 15,
+            "raw": "15"
+          },
+          {
+            "status": "known",
+            "value": 49,
+            "raw": "49"
+          },
+          {
+            "status": "known",
+            "value": 49.0,
+            "raw": "49.0"
+          },
+          {
+            "status": "known",
+            "value": 80,
+            "raw": "80"
+          },
+          {
+            "status": "known",
+            "value": 31000000,
+            "raw": "31000000"
+          },
+          {
+            "status": "known",
+            "value": 1209600,
+            "raw": "14d",
+            "unit": "seconds",
+            "displayInput": "14,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 17,
+            "raw": "17"
           }
         ]
       ],
@@ -779,6 +825,12 @@
     {
       "date": "2026-02-23",
       "description": "Added the level 14 Archer. Archer14"
+    },
+    {
+      "date": "2026-11-16",
+      "description": "19 本版本新增 15 级。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/",
+      "sourcePublishedOn": "2026-11-16"
     }
   ],
   "facts": [

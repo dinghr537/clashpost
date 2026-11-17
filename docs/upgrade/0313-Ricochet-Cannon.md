@@ -9,6 +9,7 @@ wiki: https://clashofclans.fandom.com/wiki/Ricochet_Cannon
 canonical: /upgrade/0313-Ricochet-Cannon
 dataSyncedOn: 2026-10-13
 dataBalanceUpdatedOn: 2026-10-20
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 - *如想查看合并前的建筑，请访问 [加农炮](/upgrade/0301-Cannon)。*
@@ -58,6 +59,10 @@ dataBalanceUpdatedOn: 2026-10-20
 
 <SmallTitle>升级数据</SmallTitle>
 
+<small>本级部分伤害或治疗量按本页已有倍率、攻速或治疗次数计算。</small>
+
+<small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为未知。</small>
+
 <script setup>
 const tableExtraInfo = [
     {
@@ -79,6 +84,8 @@ const tableExtraInfo = [
 ];
 </script>
 
+<p><small>2026 年 19 本更新后，本建筑此前的超级充能已移除；下方带 ⚡ 的行仅供查阅历史数据。正在进行的充能会全额退款，已完成的充能不退款。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/">官方公告</a></small></p>
+
 <UnitTable :tableExtraInfo="tableExtraInfo">
 
 | 等级 | 每秒伤害 | 每次伤害 | 第二个目标的<br>每次伤害 | 生命值 | 升级费用 | 升级时间 |升级后可<br>获得的经验| 所需<br>大本等级 |
@@ -86,7 +93,8 @@ const tableExtraInfo = [
 | 1 | 360 | 288 | 201.6 | 5400 | 12000000 | 7,0,0,0 |  | 16 |
 | 2 | 390 | 312 | 218.4 | 5700 | 13000000 | 8,0,0,0 |  | 16 |
 | 3 | 405 | 324 | 226.8 | 6000 | 17500000 | 9,0,0,0 |  | 17 |
-| 4 | 412 | 329.6 | 230.72 | 6100 | 26500000 | 13,12,0,0 |  | 18 |
+| 4 | 412 | 329.6 | 230.72 | 6100 | 22000000 | 10,0,0,0 |  | 18 |
+| 5 | 440 | 352 | 246.4 | 6500 | 28000000 | 14,0,0,0 |  | 19 |
 | ⚡1 | 420 | 336 | 235.2 | 6100 | 4750000 | 2,10,0,0 |  | 18 |
 | ⚡2 | 420 | 336 | 235.2 | 6250 | 4000000 | 2,19,0,0 |  | 18 |
 </UnitTable>
@@ -94,6 +102,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/11/16">
+        <TimelineRow>19 本版本新增 5 级。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2026/10/20">
         <TimelineRow>充能 1 级：费用由 1200 万降至 475 万，时间由 6天缩短至 2天10小时。</TimelineRow>
         <TimelineRow>充能 2 级：费用由 1000 万降至 400 万，时间由 7天缩短至 2天19小时。</TimelineRow>

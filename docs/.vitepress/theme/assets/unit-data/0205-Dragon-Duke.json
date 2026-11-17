@@ -11,7 +11,13 @@
     "revision": 625384,
     "revisionUrl": "https://clashofclans.fandom.com/wiki/Dragon_Duke?oldid=625384",
     "syncedOn": "2026-10-13",
-    "scope": "Source statistics tables and available 2026 history; base values"
+    "scope": "Source statistics tables and available 2026 history; base values",
+    "th19Update": {
+      "checkedOn": "2026-11-16",
+      "source": "ClashKing Assets (selected game facts)",
+      "sourceUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json",
+      "scope": "Selected new levels and baseline-matched cost/time adjustments; missing fields remain unknown."
+    }
   },
   "tables": [
     {
@@ -874,10 +880,10 @@
           },
           {
             "status": "known",
-            "value": 691200,
-            "raw": "8d",
+            "value": 604800,
+            "raw": "7d",
             "unit": "seconds",
-            "displayInput": "8,0,0,0"
+            "displayInput": "7,0,0,0"
           },
           {
             "status": "known",
@@ -918,10 +924,10 @@
           },
           {
             "status": "known",
-            "value": 691200,
-            "raw": "8d",
+            "value": 604800,
+            "raw": "7d",
             "unit": "seconds",
-            "displayInput": "8,0,0,0"
+            "displayInput": "7,0,0,0"
           },
           {
             "status": "known",
@@ -962,10 +968,10 @@
           },
           {
             "status": "known",
-            "value": 691200,
-            "raw": "8d",
+            "value": 604800,
+            "raw": "7d",
             "unit": "seconds",
-            "displayInput": "8,0,0,0"
+            "displayInput": "7,0,0,0"
           },
           {
             "status": "known",
@@ -1045,8 +1051,8 @@
           },
           {
             "status": "known",
-            "value": 420000,
-            "raw": "420,000"
+            "value": 415000,
+            "raw": "415000"
           },
           {
             "status": "known",
@@ -1089,8 +1095,8 @@
           },
           {
             "status": "known",
-            "value": 440000,
-            "raw": "440,000"
+            "value": 430000,
+            "raw": "430000"
           },
           {
             "status": "known",
@@ -1133,8 +1139,8 @@
           },
           {
             "status": "known",
-            "value": 460000,
-            "raw": "460,000"
+            "value": 445000,
+            "raw": "445000"
           },
           {
             "status": "known",
@@ -1177,8 +1183,8 @@
           },
           {
             "status": "known",
-            "value": 480000,
-            "raw": "480,000"
+            "value": 460000,
+            "raw": "460000"
           },
           {
             "status": "known",
@@ -1191,6 +1197,226 @@
             "status": "known",
             "value": 12,
             "raw": "12"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 26,
+            "raw": "26"
+          },
+          {
+            "status": "known",
+            "value": 404,
+            "raw": "404"
+          },
+          {
+            "status": "known",
+            "value": 484.8,
+            "raw": "484.8"
+          },
+          {
+            "status": "known",
+            "value": 10975,
+            "raw": "10975"
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": "?"
+          },
+          {
+            "status": "known",
+            "value": 500000,
+            "raw": "500000"
+          },
+          {
+            "status": "known",
+            "value": 691200,
+            "raw": "8d",
+            "unit": "seconds",
+            "displayInput": "8,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 27,
+            "raw": "27"
+          },
+          {
+            "status": "known",
+            "value": 408,
+            "raw": "408"
+          },
+          {
+            "status": "known",
+            "value": 489.6,
+            "raw": "489.6"
+          },
+          {
+            "status": "known",
+            "value": 11050,
+            "raw": "11050"
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": "?"
+          },
+          {
+            "status": "known",
+            "value": 505000,
+            "raw": "505000"
+          },
+          {
+            "status": "known",
+            "value": 691200,
+            "raw": "8d",
+            "unit": "seconds",
+            "displayInput": "8,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 28,
+            "raw": "28"
+          },
+          {
+            "status": "known",
+            "value": 412,
+            "raw": "412"
+          },
+          {
+            "status": "known",
+            "value": 494.4,
+            "raw": "494.4"
+          },
+          {
+            "status": "known",
+            "value": 11125,
+            "raw": "11125"
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": "?"
+          },
+          {
+            "status": "known",
+            "value": 510000,
+            "raw": "510000"
+          },
+          {
+            "status": "known",
+            "value": 691200,
+            "raw": "8d",
+            "unit": "seconds",
+            "displayInput": "8,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 29,
+            "raw": "29"
+          },
+          {
+            "status": "known",
+            "value": 416,
+            "raw": "416"
+          },
+          {
+            "status": "known",
+            "value": 499.2,
+            "raw": "499.2"
+          },
+          {
+            "status": "known",
+            "value": 11200,
+            "raw": "11200"
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": "?"
+          },
+          {
+            "status": "known",
+            "value": 515000,
+            "raw": "515000"
+          },
+          {
+            "status": "known",
+            "value": 691200,
+            "raw": "8d",
+            "unit": "seconds",
+            "displayInput": "8,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
+          }
+        ],
+        [
+          {
+            "status": "known",
+            "value": 30,
+            "raw": "30"
+          },
+          {
+            "status": "known",
+            "value": 420,
+            "raw": "420"
+          },
+          {
+            "status": "known",
+            "value": 504.0,
+            "raw": "504.0"
+          },
+          {
+            "status": "known",
+            "value": 11275,
+            "raw": "11275"
+          },
+          {
+            "status": "unknown",
+            "value": null,
+            "raw": "?"
+          },
+          {
+            "status": "known",
+            "value": 520000,
+            "raw": "520000"
+          },
+          {
+            "status": "known",
+            "value": 691200,
+            "raw": "8d",
+            "unit": "seconds",
+            "displayInput": "8,0,0,0"
+          },
+          {
+            "status": "known",
+            "value": 13,
+            "raw": "13"
           }
         ]
       ],
@@ -1257,6 +1483,12 @@
       "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/august-update-3/",
       "sourcePublishedOn": "2026-08-30",
       "dateSourceUrl": "https://clashofclans.fandom.com/wiki/Diggy?oldid=625147#History"
+    },
+    {
+      "date": "2026-11-16",
+      "description": "19 本版本新增 26–30 级。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/",
+      "sourcePublishedOn": "2026-11-16"
     }
   ],
   "facts": [

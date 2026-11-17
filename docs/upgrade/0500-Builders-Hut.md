@@ -9,6 +9,7 @@ wiki: https://clashofclans.fandom.com/wiki/Builder%27s_Hut
 canonical: /upgrade/0500-Builders-Hut
 dataSyncedOn: 2026-10-13
 dataBalanceUpdatedOn: 2026-10-20
+dataVersionUpdatedOn: 2026-11-16
 ---
 
 - *如想查看村庄内类似于建筑工人小屋的另一种建筑，请访问：[小博木屋（巴布小屋）](/upgrade/0501-B.O.Bs-Hut)。*
@@ -49,6 +50,8 @@ dataBalanceUpdatedOn: 2026-10-20
 
 <SmallTitle>重要说明</SmallTitle>
 
+9 级建筑工人小屋派出 8 级防守建筑工人，每秒修复 100 点生命值。<small>（[Supercell 官方公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)）</small>
+
 1. 建筑工人小屋的建造不限制大本营等级，也就是说你可以在刚注册游戏账号时就买够 5 个建筑工人。
 2. 2021 年 4 月更新后，建筑工人小屋可以升级了。升级后，建筑工人小屋自带武器，可以反击了，同时建筑工人会在战斗过程中围绕受损的建筑敲敲打打，尽力修复建筑。
 3. **激活后的建筑工人小屋属于防御建筑**，[气球兵](/upgrade/0005-Balloon)、[野猪骑士](/upgrade/0081-Hog-Rider) 等兵种会优先攻击它。
@@ -77,6 +80,8 @@ dataBalanceUpdatedOn: 2026-10-20
 
 <SmallTitle>升级数据</SmallTitle>
 
+<small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为未知。</small>
+
 <script setup>
 const tableExtraInfo = [
     {
@@ -98,6 +103,8 @@ const tableExtraInfo = [
 ];
 </script>
 
+<p><small>2026 年 19 本更新后，本建筑此前的超级充能已移除；下方带 ⚡ 的行仅供查阅历史数据。正在进行的充能会全额退款，已完成的充能不退款。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/">官方公告</a></small></p>
+
 <UnitTable :tableExtraInfo="tableExtraInfo">
 
 | 等级 | 每秒伤害 | 每次伤害 |每秒<br>修复值|每次敲锤子<br>的修复值| 生命值 | 升级费用 | 升级时间|升级后可<br>获得的经验|所需<br>大本等级|
@@ -107,9 +114,10 @@ const tableExtraInfo = [
 | 3 | 100 | 40 | 60 | 45 | 1300 | 4000000 | 3,0,0,0 |  | 14 |
 | 4 | 120 | 48 | 70 | 52.5 | 1600 | 6000000 | 4,0,0,0 |  | 14 |
 | 5 | 135 | 54 | 80 | 60 | 1800 | 7000000 | 5,0,0,0 |  | 15 |
-| 6 | 150 | 60 | 85 | 63.75 | 1900 | 8000000 | 5,12,0,0 |  | 16 |
-| 7 | 165 | 66 | 90 | 67.5 | 2000 | 15500000 | 7,0,0,0 |  | 17 |
-| 8 | 180 | 72 | 95 | 71.25 | 2100 | 24000000 | 13,0,0,0 |  | 18 |
+| 6 | 150 | 60 | 85 | 63.75 | 1900 | 7000000 | 4,12,0,0 |  | 16 |
+| 7 | 165 | 66 | 90 | 67.5 | 2000 | 13500000 | 7,0,0,0 |  | 17 |
+| 8 | 180 | 72 | 95 | 71.25 | 2100 | 20000000 | 11,0,0,0 |  | 18 |
+| 9 | 195 | 78 | 100 | 75 | 2200 | 26000000 | 14,0,0,0 |  | 19 |
 | ⚡1 | 187 | 74.8 | 95 | 71.25 | 2100 | 4000000 | 1,14,0,0 |  | 18 |
 | ⚡2 | 187 | 74.8 | 95 | 71.25 | 2150 | 3250000 | 2,10,0,0 |  | 18 |
 </UnitTable>
@@ -130,6 +138,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/11/16">
+        <TimelineRow>19 本版本新增 9 级。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2026/10/20">
         <TimelineRow>充能 1 级：费用由 1000 万降至 400 万，时间由 4天缩短至 1天14小时。</TimelineRow>
         <TimelineRow>充能 2 级：费用由 800 万降至 325 万，时间由 6天缩短至 2天10小时。</TimelineRow>
