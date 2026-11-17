@@ -40,15 +40,16 @@ dataVersionUpdatedOn: 2026-11-16
     <UnitProperty pKey="移动速度" pValue="1.5 格/秒" />
     <UnitProperty pKey="攻击速度" pValue="1.8 秒/次" />
     <UnitProperty pKey="攻击距离" pValue="11 格" />
-    <UnitProperty pKey="警戒半径" pValue="19 格<sup>①</sup>" />
-    <UnitProperty pKey="巡逻半径" pValue="17 格<sup>②</sup>" />
+    <UnitProperty pKey="警戒半径" pValue="19 格" />
+    <UnitProperty pKey="巡逻半径" pValue="17 格" />
     <UnitProperty pKey="死亡伤害" pValue="1000" />
     <UnitProperty pKey="死亡伤害半径" pValue="3.5 格" />
     <UnitProperty pKey="所需大本等级" pValue="18" />
 </UnitProperties>
 
-① （待证实）如果敌军进入这个范围，守卫会看向部队的方向，准备反击。<br>
-② （待证实）在没有敌人的情况下，守卫也会走动，而这个走动的范围叫巡逻半径。
+<small>警戒半径：敌军进入后，守卫会看向部队的方向，准备反击。</small>
+
+<small>巡逻半径：没有敌人时守卫的走动范围。</small>
 
 <SmallTitle>升级数据</SmallTitle>
 

@@ -14,15 +14,10 @@
     "scope": "Source statistics tables and available 2026 history; base values",
     "th19Update": {
       "checkedOn": "2026-11-16",
-      "source": "ClashKing Assets (selected game facts)",
-      "sourceUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json",
-      "scope": "Selected new levels and baseline-matched cost/time adjustments; missing fields remain unknown.",
-      "oldLevelCostTimeReference": {
-        "checkedOn": "2026-11-16",
-        "source": "用户提供的玩家整理与 ClashKing Assets 固定修订逐项对照",
-        "articleUrl": "https://mp.weixin.qq.com/s/1C8VxevkSERrS2x1vJd8aA",
-        "snapshotUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json"
-      }
+      "source": "Supercell 官方公告、部落冲突 Wiki 及玩家提供的信息（按字段核对）",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/",
+      "scope": "采用已核实的字段；未通过上述来源核实的候选数据标为待更新。原候选来源和历史过程记于 SOURCE_PERMISSIONS.md。",
+      "activePolicy": "按官方公告、Wiki 或玩家提供的信息保留已核实数据；尚未核实的字段不展示候选值。原始候选来源记录于 SOURCE_PERMISSIONS.md。"
     },
     "reviewedTableCorrections": [
       {
@@ -33,31 +28,31 @@
             "level": 76,
             "header": "Upgrade Cost",
             "originalRaw": "23,500,000",
-            "correctedRaw": "23000000"
+            "correctedRaw": "?"
           },
           {
             "level": 77,
             "header": "Upgrade Cost",
             "originalRaw": "24,500,000",
-            "correctedRaw": "23500000"
+            "correctedRaw": "?"
           },
           {
             "level": 78,
             "header": "Upgrade Cost",
             "originalRaw": "25,500,000",
-            "correctedRaw": "24000000"
+            "correctedRaw": "?"
           },
           {
             "level": 79,
             "header": "Upgrade Cost",
             "originalRaw": "26,500,000",
-            "correctedRaw": "24500000"
+            "correctedRaw": "?"
           },
           {
             "level": 80,
             "header": "Upgrade Cost",
             "originalRaw": "27,500,000",
-            "correctedRaw": "25500000"
+            "correctedRaw": "?"
           }
         ],
         "reason": "Review against the user-provided November 2026 reference, current game-data snapshot, or the linked source documented on the page; do not silently restore an older snapshot."
@@ -4588,7 +4583,8 @@
             "value": 604800,
             "raw": "7d",
             "unit": "seconds",
-            "displayInput": "7,0,0,0"
+            "displayInput": "7,0,0,0",
+            "source": "ClashKing"
           },
           {
             "status": "known",
@@ -4632,7 +4628,8 @@
             "value": 604800,
             "raw": "7d",
             "unit": "seconds",
-            "displayInput": "7,0,0,0"
+            "displayInput": "7,0,0,0",
+            "source": "ClashKing"
           },
           {
             "status": "known",
@@ -4676,7 +4673,8 @@
             "value": 604800,
             "raw": "7d",
             "unit": "seconds",
-            "displayInput": "7,0,0,0"
+            "displayInput": "7,0,0,0",
+            "source": "ClashKing"
           },
           {
             "status": "known",
@@ -4720,7 +4718,8 @@
             "value": 604800,
             "raw": "7d",
             "unit": "seconds",
-            "displayInput": "7,0,0,0"
+            "displayInput": "7,0,0,0",
+            "source": "ClashKing"
           },
           {
             "status": "known",
@@ -4764,7 +4763,8 @@
             "value": 604800,
             "raw": "7d",
             "unit": "seconds",
-            "displayInput": "7,0,0,0"
+            "displayInput": "7,0,0,0",
+            "source": "ClashKing"
           },
           {
             "status": "known",
@@ -4808,7 +4808,8 @@
             "value": 604800,
             "raw": "7d",
             "unit": "seconds",
-            "displayInput": "7,0,0,0"
+            "displayInput": "7,0,0,0",
+            "source": "ClashKing"
           },
           {
             "status": "known",
@@ -4845,7 +4846,8 @@
           {
             "status": "known",
             "value": 23000000,
-            "raw": "23000000"
+            "raw": "23,000,000",
+            "source": "ClashKing"
           },
           {
             "status": "known",
@@ -4889,7 +4891,8 @@
           {
             "status": "known",
             "value": 23500000,
-            "raw": "23500000"
+            "raw": "23,500,000",
+            "source": "ClashKing"
           },
           {
             "status": "known",
@@ -4933,7 +4936,8 @@
           {
             "status": "known",
             "value": 24000000,
-            "raw": "24000000"
+            "raw": "24,000,000",
+            "source": "ClashKing"
           },
           {
             "status": "known",
@@ -4977,7 +4981,8 @@
           {
             "status": "known",
             "value": 24500000,
-            "raw": "24500000"
+            "raw": "24,500,000",
+            "source": "ClashKing"
           },
           {
             "status": "known",
@@ -5021,7 +5026,8 @@
           {
             "status": "known",
             "value": 25500000,
-            "raw": "25500000"
+            "raw": "25,500,000",
+            "source": "ClashKing"
           },
           {
             "status": "known",
@@ -5065,7 +5071,8 @@
           {
             "status": "known",
             "value": 26500000,
-            "raw": "26500000"
+            "raw": "26,500,000",
+            "source": "ClashKing"
           },
           {
             "status": "known",
@@ -5109,7 +5116,8 @@
           {
             "status": "known",
             "value": 27500000,
-            "raw": "27500000"
+            "raw": "27,500,000",
+            "source": "ClashKing"
           },
           {
             "status": "known",
@@ -5153,7 +5161,8 @@
           {
             "status": "known",
             "value": 28500000,
-            "raw": "28500000"
+            "raw": "28,500,000",
+            "source": "ClashKing"
           },
           {
             "status": "known",
@@ -5197,7 +5206,8 @@
           {
             "status": "known",
             "value": 29000000,
-            "raw": "29000000"
+            "raw": "29,000,000",
+            "source": "ClashKing"
           },
           {
             "status": "known",
@@ -5241,7 +5251,8 @@
           {
             "status": "known",
             "value": 29500000,
-            "raw": "29500000"
+            "raw": "29,500,000",
+            "source": "ClashKing"
           },
           {
             "status": "known",
@@ -5265,17 +5276,20 @@
           {
             "status": "known",
             "value": 357,
-            "raw": "357"
+            "raw": "357",
+            "source": "ClashKing"
           },
           {
             "status": "known",
             "value": 642.6,
-            "raw": "642.6"
+            "raw": "642.6",
+            "source": "ClashKing"
           },
           {
             "status": "known",
             "value": 2686,
-            "raw": "2686"
+            "raw": "2,686",
+            "source": "ClashKing"
           },
           {
             "status": "unknown",
@@ -5285,14 +5299,16 @@
           {
             "status": "known",
             "value": 31000000,
-            "raw": "31000000"
+            "raw": "31,000,000",
+            "source": "ClashKing"
           },
           {
             "status": "known",
             "value": 691200,
             "raw": "8d",
             "unit": "seconds",
-            "displayInput": "8,0,0,0"
+            "displayInput": "8,0,0,0",
+            "source": "ClashKing"
           },
           {
             "status": "known",
@@ -5309,17 +5325,20 @@
           {
             "status": "known",
             "value": 360,
-            "raw": "360"
+            "raw": "360",
+            "source": "ClashKing"
           },
           {
             "status": "known",
-            "value": 648.0,
-            "raw": "648.0"
+            "value": 648,
+            "raw": "648",
+            "source": "ClashKing"
           },
           {
             "status": "known",
             "value": 2703,
-            "raw": "2703"
+            "raw": "2,703",
+            "source": "ClashKing"
           },
           {
             "status": "unknown",
@@ -5329,14 +5348,16 @@
           {
             "status": "known",
             "value": 31250000,
-            "raw": "31250000"
+            "raw": "31,250,000",
+            "source": "ClashKing"
           },
           {
             "status": "known",
             "value": 691200,
             "raw": "8d",
             "unit": "seconds",
-            "displayInput": "8,0,0,0"
+            "displayInput": "8,0,0,0",
+            "source": "ClashKing"
           },
           {
             "status": "known",
@@ -5353,17 +5374,20 @@
           {
             "status": "known",
             "value": 363,
-            "raw": "363"
+            "raw": "363",
+            "source": "ClashKing"
           },
           {
             "status": "known",
             "value": 653.4,
-            "raw": "653.4"
+            "raw": "653.4",
+            "source": "ClashKing"
           },
           {
             "status": "known",
             "value": 2720,
-            "raw": "2720"
+            "raw": "2,720",
+            "source": "ClashKing"
           },
           {
             "status": "unknown",
@@ -5373,14 +5397,16 @@
           {
             "status": "known",
             "value": 31500000,
-            "raw": "31500000"
+            "raw": "31,500,000",
+            "source": "ClashKing"
           },
           {
             "status": "known",
             "value": 691200,
             "raw": "8d",
             "unit": "seconds",
-            "displayInput": "8,0,0,0"
+            "displayInput": "8,0,0,0",
+            "source": "ClashKing"
           },
           {
             "status": "known",
@@ -5397,17 +5423,20 @@
           {
             "status": "known",
             "value": 366,
-            "raw": "366"
+            "raw": "366",
+            "source": "ClashKing"
           },
           {
             "status": "known",
             "value": 658.8,
-            "raw": "658.8"
+            "raw": "658.8",
+            "source": "ClashKing"
           },
           {
             "status": "known",
             "value": 2737,
-            "raw": "2737"
+            "raw": "2,737",
+            "source": "ClashKing"
           },
           {
             "status": "unknown",
@@ -5417,14 +5446,16 @@
           {
             "status": "known",
             "value": 31750000,
-            "raw": "31750000"
+            "raw": "31,750,000",
+            "source": "ClashKing"
           },
           {
             "status": "known",
             "value": 691200,
             "raw": "8d",
             "unit": "seconds",
-            "displayInput": "8,0,0,0"
+            "displayInput": "8,0,0,0",
+            "source": "ClashKing"
           },
           {
             "status": "known",
@@ -5441,17 +5472,20 @@
           {
             "status": "known",
             "value": 369,
-            "raw": "369"
+            "raw": "369",
+            "source": "ClashKing"
           },
           {
             "status": "known",
             "value": 664.2,
-            "raw": "664.2"
+            "raw": "664.2",
+            "source": "ClashKing"
           },
           {
             "status": "known",
             "value": 2754,
-            "raw": "2754"
+            "raw": "2,754",
+            "source": "ClashKing"
           },
           {
             "status": "unknown",
@@ -5461,14 +5495,16 @@
           {
             "status": "known",
             "value": 32000000,
-            "raw": "32000000"
+            "raw": "32,000,000",
+            "source": "ClashKing"
           },
           {
             "status": "known",
             "value": 691200,
             "raw": "8d",
             "unit": "seconds",
-            "displayInput": "8,0,0,0"
+            "displayInput": "8,0,0,0",
+            "source": "ClashKing"
           },
           {
             "status": "known",

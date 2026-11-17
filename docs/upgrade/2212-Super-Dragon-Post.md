@@ -10,7 +10,7 @@ canonical: /upgrade/2212-Super-Dragon-Post
 dataSyncedOn: 2026-10-13
 ---
 
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Super_Dragon_Post4.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Super_Dragon_Post5.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
 
 <SmallTitle>各等级图片</SmallTitle>
 
@@ -20,6 +20,8 @@ dataSyncedOn: 2026-10-13
         <UnitImg imgTitle="1 级" imgSrc="Super_Dragon_Post1.png" />
         <UnitImg imgTitle="2 级" imgSrc="Super_Dragon_Post2.png" />
         <UnitImg imgTitle="3 级" imgSrc="Super_Dragon_Post3.png" />
+        <UnitImg imgTitle="4 级" imgSrc="Super_Dragon_Post4.png" />
+        <UnitImg imgTitle="5 级" imgSrc="Super_Dragon_Post5.png" />
         <UnitImg imgTitle="4 - 5 级" imgSrc="Super_Dragon_Post4.png" />
     </UnitImgGroup>
 </Panel>

@@ -26,7 +26,8 @@
           "levels": "1–27",
           "added": true
         }
-      ]
+      ],
+      "followupVerification": "2026-11-17 人工核对当前 Wiki 表与更新历史，补回已核实字段。"
     }
   },
   "tables": [
@@ -1637,14 +1638,11 @@
       "description": "Made the Portal Pendant available in the Portal Panic Medal Event."
     },
     {
-      "date": "2026-10-20",
-      "description": "新增被动生命值加成：1 级增加 550，每升一级增加 25，27 级增加 1200；原有回血加成保留。",
+      "date": "2026-10-17",
+      "description": "官方预告：新增英雄生命值加成，满级为 1200。",
       "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/",
       "sourcePublishedOn": "2026-10-17",
-      "numericSourceUrl": "https://clashfox.com/blog/balance-changes-before-town-hall-19-fire-heart-and-ruin-witch-nerfed-hogs-and-p-e-k-k-a-bu",
-      "dateSourceUrl": "https://x.com/ClashofClans/status/2112450159326179560",
-      "dateEvidence": "Maintenance completion on October 20 UTC; adjusted stats confirmed in-game on October 20.",
-      "type": "balance"
+      "type": "announcement"
     }
   ],
   "facts": [

@@ -133,15 +133,11 @@
     },
     "th19Update": {
       "checkedOn": "2026-11-16",
-      "source": "ClashKing Assets (selected game facts)",
-      "sourceUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json",
-      "scope": "Selected new levels and baseline-matched cost/time adjustments; missing fields remain unknown.",
-      "oldLevelCostTimeReference": {
-        "checkedOn": "2026-11-16",
-        "source": "用户提供的玩家整理与 ClashKing Assets 固定修订逐项对照",
-        "articleUrl": "https://mp.weixin.qq.com/s/1C8VxevkSERrS2x1vJd8aA",
-        "snapshotUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json"
-      }
+      "source": "Supercell 官方公告、部落冲突 Wiki 及玩家提供的信息（按字段核对）",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/",
+      "scope": "采用已核实的字段；未通过上述来源核实的候选数据标为待更新。原候选来源和历史过程记于 SOURCE_PERMISSIONS.md。",
+      "activePolicy": "按官方公告、Wiki 或玩家提供的信息保留已核实数据；尚未核实的字段不展示候选值。原始候选来源记录于 SOURCE_PERMISSIONS.md。",
+      "followupVerification": "2026-11-17 已逐行核对本次选定等级的 Wiki 升级表；经验由升级时间按秒开平方取整计算。"
     },
     "reviewedTableCorrections": [
       {
@@ -152,61 +148,61 @@
             "level": 6,
             "header": "Cost",
             "originalRaw": "5,000,000",
-            "correctedRaw": "4300000"
+            "correctedRaw": "?"
           },
           {
             "level": 6,
             "header": "Build Time",
             "originalRaw": "3d 12h",
-            "correctedRaw": "3d 6h"
+            "correctedRaw": "?"
           },
           {
             "level": 7,
             "header": "Cost",
             "originalRaw": "6,000,000",
-            "correctedRaw": "4600000"
+            "correctedRaw": "?"
           },
           {
             "level": 7,
             "header": "Build Time",
             "originalRaw": "4d",
-            "correctedRaw": "3d 12h"
+            "correctedRaw": "?"
           },
           {
             "level": 8,
             "header": "Cost",
             "originalRaw": "7,000,000",
-            "correctedRaw": "5500000"
+            "correctedRaw": "?"
           },
           {
             "level": 8,
             "header": "Build Time",
             "originalRaw": "4d 12h",
-            "correctedRaw": "3d 18h"
+            "correctedRaw": "?"
           },
           {
             "level": 9,
             "header": "Cost",
             "originalRaw": "9,000,000",
-            "correctedRaw": "7000000"
+            "correctedRaw": "?"
           },
           {
             "level": 9,
             "header": "Build Time",
             "originalRaw": "5d",
-            "correctedRaw": "4d"
+            "correctedRaw": "?"
           },
           {
             "level": 10,
             "header": "Cost",
             "originalRaw": "9,500,000",
-            "correctedRaw": "8000000"
+            "correctedRaw": "?"
           },
           {
             "level": 10,
             "header": "Build Time",
             "originalRaw": "5d 12h",
-            "correctedRaw": "4d 12h"
+            "correctedRaw": "?"
           }
         ],
         "reason": "Review against the user-provided November 2026 reference, current game-data snapshot, or the linked source documented on the page; do not silently restore an older snapshot."
@@ -649,19 +645,22 @@
           {
             "status": "known",
             "value": 4300000,
-            "raw": "4300000"
+            "raw": "4,300,000",
+            "source": "ClashKing"
           },
           {
             "status": "known",
             "value": 280800,
             "raw": "3d 6h",
             "unit": "seconds",
-            "displayInput": "3,6,0,0"
+            "displayInput": "3,6,0,0",
+            "source": "ClashKing"
           },
           {
             "status": "known",
-            "value": 549,
-            "raw": "549"
+            "value": 529,
+            "raw": "529",
+            "source": "ClashKing"
           },
           {
             "status": "known",
@@ -693,19 +692,22 @@
           {
             "status": "known",
             "value": 4600000,
-            "raw": "4600000"
+            "raw": "4,600,000",
+            "source": "ClashKing"
           },
           {
             "status": "known",
             "value": 302400,
             "raw": "3d 12h",
             "unit": "seconds",
-            "displayInput": "3,12,0,0"
+            "displayInput": "3,12,0,0",
+            "source": "ClashKing"
           },
           {
             "status": "known",
-            "value": 587,
-            "raw": "587"
+            "value": 549,
+            "raw": "549",
+            "source": "ClashKing"
           },
           {
             "status": "known",
@@ -737,19 +739,22 @@
           {
             "status": "known",
             "value": 5500000,
-            "raw": "5500000"
+            "raw": "5,500,000",
+            "source": "ClashKing"
           },
           {
             "status": "known",
             "value": 324000,
             "raw": "3d 18h",
             "unit": "seconds",
-            "displayInput": "3,18,0,0"
+            "displayInput": "3,18,0,0",
+            "source": "ClashKing"
           },
           {
             "status": "known",
-            "value": 623,
-            "raw": "623"
+            "value": 569,
+            "raw": "569",
+            "source": "ClashKing"
           },
           {
             "status": "known",
@@ -781,19 +786,22 @@
           {
             "status": "known",
             "value": 7000000,
-            "raw": "7000000"
+            "raw": "7,000,000",
+            "source": "ClashKing"
           },
           {
             "status": "known",
             "value": 345600,
             "raw": "4d",
             "unit": "seconds",
-            "displayInput": "4,0,0,0"
+            "displayInput": "4,0,0,0",
+            "source": "ClashKing"
           },
           {
             "status": "known",
-            "value": 657,
-            "raw": "657"
+            "value": 587,
+            "raw": "587",
+            "source": "ClashKing"
           },
           {
             "status": "known",
@@ -825,19 +833,22 @@
           {
             "status": "known",
             "value": 8000000,
-            "raw": "8000000"
+            "raw": "8,000,000",
+            "source": "ClashKing"
           },
           {
             "status": "known",
             "value": 388800,
             "raw": "4d 12h",
             "unit": "seconds",
-            "displayInput": "4,12,0,0"
+            "displayInput": "4,12,0,0",
+            "source": "ClashKing"
           },
           {
             "status": "known",
-            "value": 689,
-            "raw": "689"
+            "value": 623,
+            "raw": "623",
+            "source": "ClashKing"
           },
           {
             "status": "known",
@@ -869,19 +880,22 @@
           {
             "status": "known",
             "value": 8500000,
-            "raw": "8500000"
+            "raw": "8,500,000",
+            "source": "ClashKing"
           },
           {
             "status": "known",
             "value": 432000,
             "raw": "5d",
             "unit": "seconds",
-            "displayInput": "5,0,0,0"
+            "displayInput": "5,0,0,0",
+            "source": "ClashKing"
           },
           {
             "status": "known",
             "value": 657,
-            "raw": "657"
+            "raw": "657",
+            "source": "ClashKing"
           },
           {
             "status": "known",
@@ -913,19 +927,22 @@
           {
             "status": "known",
             "value": 13000000,
-            "raw": "13000000"
+            "raw": "13,000,000",
+            "source": "ClashKing"
           },
           {
             "status": "known",
             "value": 604800,
             "raw": "7d",
             "unit": "seconds",
-            "displayInput": "7,0,0,0"
+            "displayInput": "7,0,0,0",
+            "source": "ClashKing"
           },
           {
             "status": "known",
             "value": 777,
-            "raw": "777"
+            "raw": "777",
+            "source": "ClashKing"
           },
           {
             "status": "known",
@@ -957,19 +974,22 @@
           {
             "status": "known",
             "value": 18500000,
-            "raw": "18500000"
+            "raw": "18,500,000",
+            "source": "ClashKing"
           },
           {
             "status": "known",
             "value": 864000,
             "raw": "10d",
             "unit": "seconds",
-            "displayInput": "10,0,0,0"
+            "displayInput": "10,0,0,0",
+            "source": "ClashKing"
           },
           {
             "status": "known",
             "value": 929,
-            "raw": "929"
+            "raw": "929",
+            "source": "ClashKing"
           },
           {
             "status": "known",
@@ -986,34 +1006,40 @@
           {
             "status": "known",
             "value": 270,
-            "raw": "270"
+            "raw": "270",
+            "source": "ClashKing"
           },
           {
             "status": "known",
             "value": 34.56,
-            "raw": "34.56"
+            "raw": "34.56",
+            "source": "ClashKing"
           },
           {
             "status": "known",
             "value": 5450,
-            "raw": "5450"
+            "raw": "5,450",
+            "source": "ClashKing"
           },
           {
             "status": "known",
             "value": 28000000,
-            "raw": "28000000"
+            "raw": "28,000,000",
+            "source": "ClashKing"
           },
           {
             "status": "known",
             "value": 1209600,
             "raw": "14d",
             "unit": "seconds",
-            "displayInput": "14,0,0,0"
+            "displayInput": "14,0,0,0",
+            "source": "ClashKing"
           },
           {
             "status": "known",
             "value": 1099,
-            "raw": "1099"
+            "raw": "1,099",
+            "source": "ClashKing"
           },
           {
             "status": "known",
@@ -1037,200 +1063,6 @@
           "noGoldPass": false
         }
       ]
-    },
-    {
-      "sourceTableIndex": 5,
-      "section": "Statistics",
-      "title": "Supercharges",
-      "headers": [
-        "Charge Level ⚡",
-        "Damage per Second",
-        "Damage per Shot",
-        "Hitpoints",
-        "Cost",
-        "Build Time",
-        "Experience Gained",
-        "Town Hall Level Required"
-      ],
-      "rows": [
-        [
-          {
-            "status": "known",
-            "value": 1,
-            "raw": "1"
-          },
-          {
-            "status": "known",
-            "value": 255,
-            "raw": "255"
-          },
-          {
-            "status": "known",
-            "value": 32.64,
-            "raw": "32.64"
-          },
-          {
-            "status": "known",
-            "value": 5000,
-            "raw": "5,000"
-          },
-          {
-            "status": "known",
-            "value": 5500000,
-            "raw": "5,500,000"
-          },
-          {
-            "status": "known",
-            "value": 190800,
-            "raw": "2d 5h",
-            "unit": "seconds",
-            "displayInput": "2,5,0,0"
-          },
-          {
-            "status": "known",
-            "value": 436,
-            "raw": "436",
-            "derivedFrom": "floor(sqrt(Build Time in seconds))"
-          },
-          {
-            "status": "known",
-            "value": 18,
-            "raw": "18"
-          }
-        ],
-        [
-          {
-            "status": "known",
-            "value": 2,
-            "raw": "2"
-          },
-          {
-            "status": "known",
-            "value": 255,
-            "raw": "255"
-          },
-          {
-            "status": "known",
-            "value": 32.64,
-            "raw": "32.64"
-          },
-          {
-            "status": "known",
-            "value": 5100,
-            "raw": "5,100"
-          },
-          {
-            "status": "known",
-            "value": 3500000,
-            "raw": "3,500,000"
-          },
-          {
-            "status": "known",
-            "value": 259200,
-            "raw": "3d",
-            "unit": "seconds",
-            "displayInput": "3,0,0,0"
-          },
-          {
-            "status": "known",
-            "value": 509,
-            "raw": "509",
-            "derivedFrom": "floor(sqrt(Build Time in seconds))"
-          },
-          {
-            "status": "known",
-            "value": 18,
-            "raw": "18"
-          }
-        ]
-      ],
-      "extraInfo": [
-        {
-          "column": 4,
-          "type": "cost",
-          "icon": "Gold",
-          "gpClass": "building",
-          "noGoldPass": false
-        },
-        {
-          "column": 5,
-          "type": "time",
-          "gpClass": "building",
-          "noGoldPass": false
-        }
-      ]
-    },
-    {
-      "sourceTableIndex": 6,
-      "section": "Statistics",
-      "title": "Supercharges",
-      "headers": [
-        "Range",
-        "Attack Speed",
-        "Damage Type",
-        "Number of Rounds"
-      ],
-      "rows": [
-        [
-          {
-            "status": "known",
-            "value": 14,
-            "raw": "14"
-          },
-          {
-            "status": "known",
-            "value": "0.128s",
-            "raw": "0.128s"
-          },
-          {
-            "status": "known",
-            "value": "Single Target",
-            "raw": "Single Target"
-          },
-          {
-            "status": "known",
-            "value": 1500,
-            "raw": "1,500"
-          }
-        ]
-      ],
-      "extraInfo": []
-    },
-    {
-      "sourceTableIndex": 7,
-      "section": "Statistics",
-      "title": "Supercharges",
-      "headers": [
-        "Range",
-        "Attack Speed",
-        "Damage Type",
-        "Number of Rounds"
-      ],
-      "rows": [
-        [
-          {
-            "status": "known",
-            "value": 11.5,
-            "raw": "11.5"
-          },
-          {
-            "status": "known",
-            "value": "0.128s",
-            "raw": "0.128s"
-          },
-          {
-            "status": "known",
-            "value": "Single Target",
-            "raw": "Single Target"
-          },
-          {
-            "status": "known",
-            "value": 1500,
-            "raw": "1,500"
-          }
-        ]
-      ],
-      "extraInfo": []
     }
   ],
   "images": [
@@ -1622,20 +1454,6 @@
     {
       "date": "2026-06-16",
       "description": "Added 2 Supercharge levels for the X-Bow. Icon Supercharge ⚡"
-    },
-    {
-      "date": "2026-10-20",
-      "description": "充能 1 级：费用由 900 万降至 550 万，时间由 5天12小时缩短至 2天5小时。",
-      "sourceUrl": "https://x.com/ClashDotNinja/status/2112523574984446061",
-      "sourcePublishedOn": "2026-10-20",
-      "sourceType": "community-update"
-    },
-    {
-      "date": "2026-10-20",
-      "description": "充能 2 级：费用由 700 万降至 350 万，时间由 7天12小时缩短至 3天。",
-      "sourceUrl": "https://x.com/ClashDotNinja/status/2112523574984446061",
-      "sourcePublishedOn": "2026-10-20",
-      "sourceType": "community-update"
     },
     {
       "date": "2026-11-16",

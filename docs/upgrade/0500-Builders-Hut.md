@@ -14,7 +14,7 @@ dataVersionUpdatedOn: 2026-11-16
 
 - *如想查看村庄内类似于建筑工人小屋的另一种建筑，请访问：[小博木屋（巴布小屋）](/upgrade/0501-B.O.Bs-Hut)。*
 
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Builders_Hut7_hd.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Builders_Hut9.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
 
 <SmallTitle>各等级图片</SmallTitle>
 
@@ -28,6 +28,7 @@ dataVersionUpdatedOn: 2026-11-16
         <UnitImg imgTitle="6 级" imgSrc="Builders_Hut6.png" imgHd="Builders_Hut6_hd.png" />
         <UnitImg imgTitle="7 级" imgSrc="Builders_Hut7.png" imgHd="Builders_Hut7_hd.png" />
             <UnitImg imgTitle="8 级" imgSrc="Builders_Hut8.png" />
+            <UnitImg imgTitle="9 级" imgSrc="Builders_Hut9.png" />
 </UnitImgGroup>
     <UnitImgGroup title="激活状态" :folder="$frontmatter.imgFolder">
         <UnitImg imgTitle="1 级" imgSrc="Builders_Hut1.png" />
@@ -38,6 +39,7 @@ dataVersionUpdatedOn: 2026-11-16
         <UnitImg imgTitle="6 级" imgSrc="Builders_Hut6_Active.png" />
         <UnitImg imgTitle="7 级" imgSrc="Builders_Hut7_Active.png" />
             <UnitImg imgTitle="8 级（工作状态）" imgSrc="Builders_Hut8_Active.png" />
+            <UnitImg imgTitle="9 级" imgSrc="Builders_Hut9_Active.png" />
 </UnitImgGroup>
 </Panel>
 
@@ -48,7 +50,7 @@ dataVersionUpdatedOn: 2026-11-16
     <BuildingNumRow title="建筑数量" num="5" />
 </BuildingNum>
 
-<small>19 本数量参考 [官方更新公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)和 [ClashRecord](https://www.clashrecord.com/max-levels/th19)；可合并建筑按全部合并后计算。</small>
+<small>19 本数量以 [部落冲突 Wiki](https://clashofclans.fandom.com/wiki/Builder%27s_Hut) 的既有数量为基础，结合 [Supercell 官方更新公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)中的新增和合并项目，按合并后数量计算。</small>
 
 <SmallTitle>重要说明</SmallTitle>
 
@@ -82,7 +84,7 @@ dataVersionUpdatedOn: 2026-11-16
 
 <SmallTitle>升级数据</SmallTitle>
 
-<small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为待更新。</small>
+<small>19 本资料参考 [Supercell 官方公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)、[部落冲突 Wiki](https://clashofclans.fandom.com/wiki/Builder%27s_Hut)与 [ClashKing 游戏数据](https://github.com/ClashKingInc/ClashKingAssets)。</small>
 
 <script setup>
 const tableExtraInfo = [
@@ -105,8 +107,6 @@ const tableExtraInfo = [
 ];
 </script>
 
-<p><small>2026 年 19 本更新后，本建筑此前的超级充能已移除；下方带 ⚡ 的行仅供查阅历史数据。正在进行的充能会全额退款，已完成的充能不退款。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/">官方公告</a></small></p>
-
 <UnitTable :tableExtraInfo="tableExtraInfo">
 
 | 等级 | 每秒伤害 | 每次伤害 |每秒<br>修复值|每次敲锤子<br>的修复值| 生命值 | 升级费用 | 升级时间|升级后可<br>获得的经验|所需<br>大本等级|
@@ -120,8 +120,6 @@ const tableExtraInfo = [
 | 7 | 165 | 66 | 90 | 67.5 | 2000 | 13500000 | 7,0,0,0 |  | 17 |
 | 8 | 180 | 72 | 95 | 71.25 | 2100 | 20000000 | 11,0,0,0 |  | 18 |
 | 9 | 195 | 78 | 100 | 75 | 2200 | 26000000 | 14,0,0,0 |  | 19 |
-| ⚡1 | 187 | 74.8 | 95 | 71.25 | 2100 | 4000000 | 1,14,0,0 |  | 18 |
-| ⚡2 | 187 | 74.8 | 95 | 71.25 | 2150 | 3250000 | 2,10,0,0 |  | 18 |
 </UnitTable>
 
 <SmallTitle>新建费用</SmallTitle>
@@ -142,11 +140,6 @@ const tableExtraInfo = [
 <Timeline>
     <TimelineItem date="2026/11/16">
         <TimelineRow>19 本版本新增 9 级。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
-    </TimelineItem>
-    <TimelineItem date="2026/10/20">
-        <TimelineRow>充能 1 级：费用由 1000 万降至 400 万，时间由 4天缩短至 1天14小时。</TimelineRow>
-        <TimelineRow>充能 2 级：费用由 800 万降至 325 万，时间由 6天缩短至 2天10小时。</TimelineRow>
-        <TimelineRow><a href="https://x.com/ClashDotNinja/status/2112523574984446061" target="_blank" rel="noopener noreferrer">来源：Clash Ninja 充能调整公告</a>。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2026/08/31">
         <TimelineRow>建筑工人小屋新增2个蓄能等级。</TimelineRow>
@@ -207,5 +200,3 @@ const tableExtraInfo = [
     <TimelineItem :historyBottom="true" />
 </Timeline>
 <p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Builder%27s_Hut?oldid=625149" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>
-
-<small>2026 年 11 月旧等级费用与时间参考[玩家整理](https://mp.weixin.qq.com/s/1C8VxevkSERrS2x1vJd8aA)（用户提供原文）及 [ClashKing 游戏数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)。本站保留表格结构并按等级核对。</small>

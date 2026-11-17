@@ -46,6 +46,12 @@ class AuthoredTableTests(unittest.TestCase):
         result, _ = self.update()
         self.assertEqual(parse_tables(result)[0]['rows'][0][1], '100')
 
+    def test_explicitly_pending_source_does_not_restore_old_value(self):
+        self.source['rows'][0][1] = {'status': 'unknown', 'value': None, 'raw': '?',
+                                      'verification': 'pending'}
+        result, _ = self.update()
+        self.assertEqual(parse_tables(result)[0]['rows'][0][1], '待更新')
+
     def test_derived_table_is_not_replaced_with_parent_data(self):
         self.mapping = {'table': 0, 'keepOriginal': True, 'reason': '召唤物单独维护'}
         self.assertEqual(self.update()[0], self.text)

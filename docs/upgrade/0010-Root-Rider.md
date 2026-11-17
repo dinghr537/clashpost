@@ -21,6 +21,7 @@ dataVersionUpdatedOn: 2026-11-16
         <UnitImg imgTitle="2 级" imgSrc="Root_Rider2.png" />
         <UnitImg imgTitle="3 级" imgSrc="Root_Rider3.png" />
             <UnitImg imgTitle="4 级" imgSrc="Root_Rider4.png" />
+            <UnitImg imgTitle="5 级" imgSrc="Root_Rider5.png" />
 </UnitImgGroup>
 </Panel>
 
@@ -48,7 +49,7 @@ dataVersionUpdatedOn: 2026-11-16
 
 <SmallTitle>升级数据</SmallTitle>
 
-<small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为待更新。</small>
+<small>19 本资料参考 [Supercell 官方公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)与 [部落冲突 Wiki](https://clashofclans.fandom.com/wiki/Root_Rider)。</small>
 
 <script setup>
 const tableExtraInfo = [
@@ -74,7 +75,7 @@ const tableExtraInfo = [
 | 2 | 105 / 231 | 10000 / 4000 | 6350 | 14000000 | 7,12,0,0 | 13 | 15 |
 | 3 | 115 / 253 | 10000 / 4000 | 6500 | 16000000 | 9,0,0,0 | 14 | 16 |
 | 4 | 125 / 275 | 10000 / 4000 | 6700 | 23000000 | 12,12,0,0 | 16 | 18 |
-| 5 | 135 / 297 | 待更新 / 待更新 | 6900 | 29000000 | 13,0,0,0 | 17 | 19 |
+| 5 | 135 / 297 | 10000 / 4000 | 6900 | 29000000 | 13,0,0,0 | 17 | 19 |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
@@ -120,5 +121,3 @@ const tableExtraInfo = [
 </Timeline>
 
 <p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Root_Rider?oldid=625331" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>
-
-<small>2026 年 11 月旧等级费用与时间参考[玩家整理](https://mp.weixin.qq.com/s/1C8VxevkSERrS2x1vJd8aA)（用户提供原文）及 [ClashKing 游戏数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)。本站保留表格结构并按等级核对。</small>

@@ -26,6 +26,7 @@ dataVersionUpdatedOn: 2026-11-16
         <UnitImg imgTitle="9 级" imgSrc="Healer9.png" />
         <UnitImg imgTitle="10 级" imgSrc="Healer10.png" />
         <UnitImg imgTitle="11 级" imgSrc="Healer11.png" />
+        <UnitImg imgTitle="12 级" imgSrc="Healer12.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -58,7 +59,7 @@ dataVersionUpdatedOn: 2026-11-16
 
 <SmallTitle>升级数据</SmallTitle>
 
-<small>19 本数据补充参考 [部落冲突 Wiki](https://clashofclans.fandom.com/wiki/Healer) 和 [ClashKing Assets](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为待更新。</small>
+<small>19 本资料参考 [Supercell 官方公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)与 [部落冲突 Wiki](https://clashofclans.fandom.com/wiki/Healer)。</small>
 
 <script setup>
 const tableExtraInfo = [

@@ -26,7 +26,7 @@ dataSyncedOn: 2026-10-13
     <UnitProperty pKey="占据的法术空间" pValue="2" />
     <UnitProperty pKey="所需法术工厂等级" pValue="1" />
     <UnitProperty pKey="所需大本等级" pValue="5" />
-    <UnitProperty pKey="法术配置费用" pValue="待更新<sup>*</sup>" />
+    <UnitProperty pKey="法术配置费用" pValue="未知<sup>*</sup>" />
     <UnitProperty pKey="法术配置时间" pValue="360" trainingSystem="legacy" :noGoldPass="true" />
 </UnitProperties>
 

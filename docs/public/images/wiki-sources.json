@@ -1469,5 +1469,425 @@
     "sourcePage": "https://clashofclans.fandom.com/wiki/Prospector?oldid=623235",
     "importedOn": "2026-10-13",
     "sourceFilePage": "https://clashofclans.fandom.com/wiki/File:Prospector_info3.png"
+  },
+  "/images/wiki/0000-Barbarian/1168ece977-Barbarian14.png": {
+    "unitId": "0000-Barbarian",
+    "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/0/0b/Barbarian14.png/revision/latest?cb=20261113185311",
+    "sourcePage": "https://clashofclans.fandom.com/wiki/Barbarian?oldid=617333",
+    "importedOn": "2026-11-17",
+    "sourceFilePage": "https://clashofclans.fandom.com/wiki/File:Barbarian14.png"
+  },
+  "/images/wiki/0001-Archer/abd0e820fd-Archer15.png": {
+    "unitId": "0001-Archer",
+    "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/9/97/Archer15.png/revision/latest?cb=20261113185227",
+    "sourcePage": "https://clashofclans.fandom.com/wiki/Archer?oldid=626270",
+    "importedOn": "2026-11-17",
+    "sourceFilePage": "https://clashofclans.fandom.com/wiki/File:Archer15.png"
+  },
+  "/images/wiki/0002-Giant/754c6cc30f-Giant15.png": {
+    "unitId": "0002-Giant",
+    "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/2/20/Giant15.png/revision/latest?cb=20261113185849",
+    "sourcePage": "https://clashofclans.fandom.com/wiki/Giant?oldid=626271",
+    "importedOn": "2026-11-17",
+    "sourceFilePage": "https://clashofclans.fandom.com/wiki/File:Giant15.png"
+  },
+  "/images/wiki/0003-Goblin/f3678013b1-Goblin11.png": {
+    "unitId": "0003-Goblin",
+    "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/3/30/Goblin11.png/revision/latest?cb=20261113185729",
+    "sourcePage": "https://clashofclans.fandom.com/wiki/Goblin?oldid=626272",
+    "importedOn": "2026-11-17",
+    "sourceFilePage": "https://clashofclans.fandom.com/wiki/File:Goblin11.png"
+  },
+  "/images/wiki/0004-Wall-Breaker/1161964ccd-Wall_Breaker15.png": {
+    "unitId": "0004-Wall-Breaker",
+    "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/4/4a/Wall_Breaker15.png/revision/latest?cb=20261113145437",
+    "sourcePage": "https://clashofclans.fandom.com/wiki/Wall_Breaker?oldid=626275",
+    "importedOn": "2026-11-17",
+    "sourceFilePage": "https://clashofclans.fandom.com/wiki/File:Wall_Breaker15.png"
+  },
+  "/images/wiki/0005-Balloon/17f21877a5-Balloon14.png": {
+    "unitId": "0005-Balloon",
+    "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/1/17/Balloon14.png/revision/latest?cb=20261113190028",
+    "sourcePage": "https://clashofclans.fandom.com/wiki/Balloon?oldid=626276",
+    "importedOn": "2026-11-17",
+    "sourceFilePage": "https://clashofclans.fandom.com/wiki/File:Balloon14.png"
+  },
+  "/images/wiki/0006-Wizard/ca9e4c1598-Wizard15.png": {
+    "unitId": "0006-Wizard",
+    "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/1/1f/Wizard15.png/revision/latest?cb=20261113145417",
+    "sourcePage": "https://clashofclans.fandom.com/wiki/Wizard?oldid=626287",
+    "importedOn": "2026-11-17",
+    "sourceFilePage": "https://clashofclans.fandom.com/wiki/File:Wizard15.png"
+  },
+  "/images/wiki/0007-Healer/c7f4829a1c-Healer12.png": {
+    "unitId": "0007-Healer",
+    "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/6/62/Healer12.png/revision/latest?cb=20261116053349",
+    "sourcePage": "https://clashofclans.fandom.com/wiki/Healer?oldid=626288",
+    "importedOn": "2026-11-17",
+    "sourceFilePage": "https://clashofclans.fandom.com/wiki/File:Healer12.png"
+  },
+  "/images/wiki/0008-Dragon/b9ed52891b-Dragon14.png": {
+    "unitId": "0008-Dragon",
+    "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/9/98/Dragon14.png/revision/latest?cb=20261113145213",
+    "sourcePage": "https://clashofclans.fandom.com/wiki/Dragon?oldid=626290",
+    "importedOn": "2026-11-17",
+    "sourceFilePage": "https://clashofclans.fandom.com/wiki/File:Dragon14.png"
+  },
+  "/images/wiki/0009-P.E.K.K.A/5a8cf197ff-PEKKA14.png": {
+    "unitId": "0009-P.E.K.K.A",
+    "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/1/18/PEKKA14.png/revision/latest?cb=20261113145250",
+    "sourcePage": "https://clashofclans.fandom.com/wiki/P.E.K.K.A?oldid=626291",
+    "importedOn": "2026-11-17",
+    "sourceFilePage": "https://clashofclans.fandom.com/wiki/File:PEKKA14.png"
+  },
+  "/images/wiki/000a-Baby-Dragon/cc1199595f-Baby_Dragon13.png": {
+    "unitId": "000a-Baby-Dragon",
+    "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/f/f6/Baby_Dragon13.png/revision/latest?cb=20261113185913",
+    "sourcePage": "https://clashofclans.fandom.com/wiki/Baby_Dragon?oldid=574044",
+    "importedOn": "2026-11-17",
+    "sourceFilePage": "https://clashofclans.fandom.com/wiki/File:Baby_Dragon13.png"
+  },
+  "/images/wiki/000b-Miner/11b7355312-Miner13.png": {
+    "unitId": "000b-Miner",
+    "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/e/ef/Miner13.png/revision/latest?cb=20261113185950",
+    "sourcePage": "https://clashofclans.fandom.com/wiki/Miner?oldid=626293",
+    "importedOn": "2026-11-17",
+    "sourceFilePage": "https://clashofclans.fandom.com/wiki/File:Miner13.png"
+  },
+  "/images/wiki/000c-Electro-Dragon/8a279e988a-Electro_Dragon10.png": {
+    "unitId": "000c-Electro-Dragon",
+    "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/f/fc/Electro_Dragon10.png/revision/latest?cb=20261113185800",
+    "sourcePage": "https://clashofclans.fandom.com/wiki/Electro_Dragon?oldid=626298",
+    "importedOn": "2026-11-17",
+    "sourceFilePage": "https://clashofclans.fandom.com/wiki/File:Electro_Dragon10.png"
+  },
+  "/images/wiki/000d-Yeti/9b2a740f4d-Yeti9.png": {
+    "unitId": "000d-Yeti",
+    "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/5/51/Yeti9.png/revision/latest?cb=20261113145457",
+    "sourcePage": "https://clashofclans.fandom.com/wiki/Yeti?oldid=626299",
+    "importedOn": "2026-11-17",
+    "sourceFilePage": "https://clashofclans.fandom.com/wiki/File:Yeti9.png"
+  },
+  "/images/wiki/000e-Dragon-Rider/9f5627b8eb-Dragon_Rider7.png": {
+    "unitId": "000e-Dragon-Rider",
+    "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/1/16/Dragon_Rider7.png/revision/latest?cb=20261113190054",
+    "sourcePage": "https://clashofclans.fandom.com/wiki/Dragon_Rider?oldid=626301",
+    "importedOn": "2026-11-17",
+    "sourceFilePage": "https://clashofclans.fandom.com/wiki/File:Dragon_Rider7.png"
+  },
+  "/images/wiki/000f-Electro-Titan/9ef0937bc7-Electro_Titan6.png": {
+    "unitId": "000f-Electro-Titan",
+    "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/2/20/Electro_Titan6.png/revision/latest?cb=20261113145355",
+    "sourcePage": "https://clashofclans.fandom.com/wiki/Electro_Titan?oldid=626307",
+    "importedOn": "2026-11-17",
+    "sourceFilePage": "https://clashofclans.fandom.com/wiki/File:Electro_Titan6.png"
+  },
+  "/images/wiki/0010-Root-Rider/2687a95359-Root_Rider5.png": {
+    "unitId": "0010-Root-Rider",
+    "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/7/75/Root_Rider5.png/revision/latest?cb=20261113190126",
+    "sourcePage": "https://clashofclans.fandom.com/wiki/Root_Rider?oldid=626327",
+    "importedOn": "2026-11-17",
+    "sourceFilePage": "https://clashofclans.fandom.com/wiki/File:Root_Rider5.png"
+  },
+  "/images/wiki/0011-Thrower/de9eaf115b-Thrower5.png": {
+    "unitId": "0011-Thrower",
+    "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/f/f8/Thrower5.png/revision/latest?cb=20261113190159",
+    "sourcePage": "https://clashofclans.fandom.com/wiki/Thrower?oldid=626417",
+    "importedOn": "2026-11-17",
+    "sourceFilePage": "https://clashofclans.fandom.com/wiki/File:Thrower5.png"
+  },
+  "/images/wiki/0013-Ruin-Witch/49c5e511c9-Ruin_Witch5.png": {
+    "unitId": "0013-Ruin-Witch",
+    "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/9/96/Ruin_Witch5.png/revision/latest?cb=20261113185630",
+    "sourcePage": "https://clashofclans.fandom.com/wiki/Ruin_Witch?oldid=626054",
+    "importedOn": "2026-11-17",
+    "sourceFilePage": "https://clashofclans.fandom.com/wiki/File:Ruin_Witch5.png"
+  },
+  "/images/wiki/0080-Minion/c928a3e787-Minion15.png": {
+    "unitId": "0080-Minion",
+    "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/5/5e/Minion15.png/revision/latest?cb=20261113185343",
+    "sourcePage": "https://clashofclans.fandom.com/wiki/Minion?oldid=626000",
+    "importedOn": "2026-11-17",
+    "sourceFilePage": "https://clashofclans.fandom.com/wiki/File:Minion15.png"
+  },
+  "/images/wiki/0081-Hog-Rider/762261428e-Hog_Rider16.png": {
+    "unitId": "0081-Hog-Rider",
+    "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/7/75/Hog_Rider16.png/revision/latest?cb=20261113185657",
+    "sourcePage": "https://clashofclans.fandom.com/wiki/Hog_Rider?oldid=625994",
+    "importedOn": "2026-11-17",
+    "sourceFilePage": "https://clashofclans.fandom.com/wiki/File:Hog_Rider16.png"
+  },
+  "/images/wiki/0082-Valkyrie/5ff4265f12-Valkyrie13.png": {
+    "unitId": "0082-Valkyrie",
+    "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/a/aa/Valkyrie13.png/revision/latest?cb=20261113145316",
+    "sourcePage": "https://clashofclans.fandom.com/wiki/Valkyrie?oldid=626149",
+    "importedOn": "2026-11-17",
+    "sourceFilePage": "https://clashofclans.fandom.com/wiki/File:Valkyrie13.png"
+  },
+  "/images/wiki/0083-Golem/c264796b40-Golem16.png": {
+    "unitId": "0083-Golem",
+    "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/3/3c/Golem16.png/revision/latest?cb=20261113145303",
+    "sourcePage": "https://clashofclans.fandom.com/wiki/Golem?oldid=625989",
+    "importedOn": "2026-11-17",
+    "sourceFilePage": "https://clashofclans.fandom.com/wiki/File:Golem16.png"
+  },
+  "/images/wiki/0084-Witch/d5e93b4fde-Witch9.png": {
+    "unitId": "0084-Witch",
+    "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/c/cc/Witch9.png/revision/latest?cb=20261113185553",
+    "sourcePage": "https://clashofclans.fandom.com/wiki/Witch?oldid=625991",
+    "importedOn": "2026-11-17",
+    "sourceFilePage": "https://clashofclans.fandom.com/wiki/File:Witch9.png"
+  },
+  "/images/wiki/0085-Lava-Hound/3324eb00a0-Lava_Hound9.png": {
+    "unitId": "0085-Lava-Hound",
+    "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/3/30/Lava_Hound9.png/revision/latest?cb=20261113185524",
+    "sourcePage": "https://clashofclans.fandom.com/wiki/Lava_Hound?oldid=626008",
+    "importedOn": "2026-11-17",
+    "sourceFilePage": "https://clashofclans.fandom.com/wiki/File:Lava_Hound9.png"
+  },
+  "/images/wiki/0086-Bowler/e593981c18-Bowler11.png": {
+    "unitId": "0086-Bowler",
+    "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/7/73/Bowler11.png/revision/latest?cb=20261113185141",
+    "sourcePage": "https://clashofclans.fandom.com/wiki/Bowler?oldid=626147",
+    "importedOn": "2026-11-17",
+    "sourceFilePage": "https://clashofclans.fandom.com/wiki/File:Bowler11.png"
+  },
+  "/images/wiki/0088-Headhunter/8803788f4d-Headhunter5.png": {
+    "unitId": "0088-Headhunter",
+    "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/6/68/Headhunter5.png/revision/latest?cb=20261113185418",
+    "sourcePage": "https://clashofclans.fandom.com/wiki/Headhunter?oldid=626434",
+    "importedOn": "2026-11-17",
+    "sourceFilePage": "https://clashofclans.fandom.com/wiki/File:Headhunter5.png"
+  },
+  "/images/wiki/008a-Druid/5b1d84c147-Druid7.png": {
+    "unitId": "008a-Druid",
+    "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/8/88/Druid7.png/revision/latest?cb=20261113185450",
+    "sourcePage": "https://clashofclans.fandom.com/wiki/Druid?oldid=625985",
+    "importedOn": "2026-11-17",
+    "sourceFilePage": "https://clashofclans.fandom.com/wiki/File:Druid7.png"
+  },
+  "/images/wiki/0245-Flame-Flinger/e8cd2e0a6b-Flame_Flinger6.png": {
+    "unitId": "0245-Flame-Flinger",
+    "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/a/aa/Flame_Flinger6.png/revision/latest?cb=20261115170506",
+    "sourcePage": "https://clashofclans.fandom.com/wiki/Flame_Flinger?oldid=626019",
+    "importedOn": "2026-11-17",
+    "sourceFilePage": "https://clashofclans.fandom.com/wiki/File:Flame_Flinger6.png"
+  },
+  "/images/wiki/0300-Walls/2121299129-Wall20.png": {
+    "unitId": "0300-Walls",
+    "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/6/6d/Wall20.png/revision/latest?cb=20261115165822",
+    "sourcePage": "https://clashofclans.fandom.com/wiki/Wall?oldid=609922",
+    "importedOn": "2026-11-17",
+    "sourceFilePage": "https://clashofclans.fandom.com/wiki/File:Wall20.png"
+  },
+  "/images/wiki/0304-Air-Defense/b8affb079e-Air_Defense17.png": {
+    "unitId": "0304-Air-Defense",
+    "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/4/4f/Air_Defense17.png/revision/latest?cb=20261113191122",
+    "sourcePage": "https://clashofclans.fandom.com/wiki/Air_Defense?oldid=603809",
+    "importedOn": "2026-11-17",
+    "sourceFilePage": "https://clashofclans.fandom.com/wiki/File:Air_Defense17.png"
+  },
+  "/images/wiki/0307-Hidden-Tesla/63056938a4-Hidden_Tesla18.png": {
+    "unitId": "0307-Hidden-Tesla",
+    "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/f/f1/Hidden_Tesla18.png/revision/latest?cb=20261113190308",
+    "sourcePage": "https://clashofclans.fandom.com/wiki/Hidden_Tesla?oldid=592092",
+    "importedOn": "2026-11-17",
+    "sourceFilePage": "https://clashofclans.fandom.com/wiki/File:Hidden_Tesla18.png"
+  },
+  "/images/wiki/0313-Ricochet-Cannon/793cfd7e4c-Ricochet_Cannon5.png": {
+    "unitId": "0313-Ricochet-Cannon",
+    "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/a/a6/Ricochet_Cannon5.png/revision/latest?cb=20261113190713",
+    "sourcePage": "https://clashofclans.fandom.com/wiki/Ricochet_Cannon?oldid=626308",
+    "importedOn": "2026-11-17",
+    "sourceFilePage": "https://clashofclans.fandom.com/wiki/File:Ricochet_Cannon5.png"
+  },
+  "/images/wiki/0314-Multi-Archer-Tower/ecde3a9408-Multi-Archer_Tower5.png": {
+    "unitId": "0314-Multi-Archer-Tower",
+    "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/0/02/Multi-Archer_Tower5.png/revision/latest?cb=20261113190647",
+    "sourcePage": "https://clashofclans.fandom.com/wiki/Multi-Archer_Tower?oldid=626309",
+    "importedOn": "2026-11-17",
+    "sourceFilePage": "https://clashofclans.fandom.com/wiki/File:Multi-Archer_Tower5.png"
+  },
+  "/images/wiki/0381-Spring-Trap/95e61a1ef0-Spring_Trap14.png": {
+    "unitId": "0381-Spring-Trap",
+    "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/f/f6/Spring_Trap14.png/revision/latest?cb=20261113191532",
+    "sourcePage": "https://clashofclans.fandom.com/wiki/Spring_Trap?oldid=576349",
+    "importedOn": "2026-11-17",
+    "sourceFilePage": "https://clashofclans.fandom.com/wiki/File:Spring_Trap14.png"
+  },
+  "/images/wiki/0382-Air-Bomb/27053abc0b-Air_Bomb14.png": {
+    "unitId": "0382-Air-Bomb",
+    "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/5/55/Air_Bomb14.png/revision/latest?cb=20261115170336",
+    "sourcePage": "https://clashofclans.fandom.com/wiki/Air_Bomb?oldid=623237",
+    "importedOn": "2026-11-17",
+    "sourceFilePage": "https://clashofclans.fandom.com/wiki/File:Air_Bomb14.png"
+  },
+  "/images/wiki/0401-Gold-Mine/e09b3dfc3e-Gold_Mine18.png": {
+    "unitId": "0401-Gold-Mine",
+    "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/f/f8/Gold_Mine18.png/revision/latest?cb=20261115165423",
+    "sourcePage": "https://clashofclans.fandom.com/wiki/Gold_Mine?oldid=592132",
+    "importedOn": "2026-11-17",
+    "sourceFilePage": "https://clashofclans.fandom.com/wiki/File:Gold_Mine18.png"
+  },
+  "/images/wiki/0402-Elixir-Collector/1e8d52d36b-Elixir_Collector18.png": {
+    "unitId": "0402-Elixir-Collector",
+    "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/b/bd/Elixir_Collector18.png/revision/latest?cb=20261115165605",
+    "sourcePage": "https://clashofclans.fandom.com/wiki/Elixir_Collector?oldid=619075",
+    "importedOn": "2026-11-17",
+    "sourceFilePage": "https://clashofclans.fandom.com/wiki/File:Elixir_Collector18.png"
+  },
+  "/images/wiki/0403-Dark-Elixir-Drill/1c0646938c-Dark_Elixir_Drill12.png": {
+    "unitId": "0403-Dark-Elixir-Drill",
+    "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/d/da/Dark_Elixir_Drill12.png/revision/latest?cb=20261115165536",
+    "sourcePage": "https://clashofclans.fandom.com/wiki/Dark_Elixir_Drill?oldid=626023",
+    "importedOn": "2026-11-17",
+    "sourceFilePage": "https://clashofclans.fandom.com/wiki/File:Dark_Elixir_Drill12.png"
+  },
+  "/images/wiki/0404-Gold-Storage/5fb9257bff-Gold_Storage20.png": {
+    "unitId": "0404-Gold-Storage",
+    "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/e/ea/Gold_Storage20.png/revision/latest?cb=20261113190912",
+    "sourcePage": "https://clashofclans.fandom.com/wiki/Gold_Storage?oldid=611745",
+    "importedOn": "2026-11-17",
+    "sourceFilePage": "https://clashofclans.fandom.com/wiki/File:Gold_Storage20.png"
+  },
+  "/images/wiki/0405-Elixir-Storage/8728adbb85-Elixir_Storage20.png": {
+    "unitId": "0405-Elixir-Storage",
+    "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/7/70/Elixir_Storage20.png/revision/latest?cb=20261113190849",
+    "sourcePage": "https://clashofclans.fandom.com/wiki/Elixir_Storage?oldid=592138",
+    "importedOn": "2026-11-17",
+    "sourceFilePage": "https://clashofclans.fandom.com/wiki/File:Elixir_Storage20.png"
+  },
+  "/images/wiki/0406-Dark-Elixir-Storage/fa89bf5227-Dark_Elixir_Storage14.png": {
+    "unitId": "0406-Dark-Elixir-Storage",
+    "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/9/9c/Dark_Elixir_Storage14.png/revision/latest?cb=20261113190943",
+    "sourcePage": "https://clashofclans.fandom.com/wiki/Dark_Elixir_Storage?oldid=626088",
+    "importedOn": "2026-11-17",
+    "sourceFilePage": "https://clashofclans.fandom.com/wiki/File:Dark_Elixir_Storage14.png"
+  },
+  "/images/wiki/0407-Clan-Castle/d8fd8628e5-Clan_Castle15.png": {
+    "unitId": "0407-Clan-Castle",
+    "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/4/4c/Clan_Castle15.png/revision/latest?cb=20261113191019",
+    "sourcePage": "https://clashofclans.fandom.com/wiki/Clan_Castle?oldid=626403",
+    "importedOn": "2026-11-17",
+    "sourceFilePage": "https://clashofclans.fandom.com/wiki/File:Clan_Castle15.png"
+  },
+  "/images/wiki/0483-Laboratory/4c92320a11-Laboratory17.png": {
+    "unitId": "0483-Laboratory",
+    "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/7/7a/Laboratory17.png/revision/latest?cb=20261113191213",
+    "sourcePage": "https://clashofclans.fandom.com/wiki/Laboratory?oldid=626315",
+    "importedOn": "2026-11-17",
+    "sourceFilePage": "https://clashofclans.fandom.com/wiki/File:Laboratory17.png"
+  },
+  "/images/wiki/0484-Spell-Factory/3d0950ebb4-Spell_Factory10.png": {
+    "unitId": "0484-Spell-Factory",
+    "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/7/7d/Spell_Factory10.png/revision/latest?cb=20261115165921",
+    "sourcePage": "https://clashofclans.fandom.com/wiki/Spell_Factory?oldid=626306",
+    "importedOn": "2026-11-17",
+    "sourceFilePage": "https://clashofclans.fandom.com/wiki/File:Spell_Factory10.png"
+  },
+  "/images/wiki/0489-Hero-Hall/53d0a8265a-Hero_Hall13.png": {
+    "unitId": "0489-Hero-Hall",
+    "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/d/d2/Hero_Hall13.png/revision/latest?cb=20261113191048",
+    "sourcePage": "https://clashofclans.fandom.com/wiki/Hero_Hall?oldid=626169",
+    "importedOn": "2026-11-17",
+    "sourceFilePage": "https://clashofclans.fandom.com/wiki/File:Hero_Hall13.png"
+  },
+  "/images/wiki/0500-Builders-Hut/e0aabc79b4-Builders_Hut9.png": {
+    "unitId": "0500-Builders-Hut",
+    "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/f/fa/Builders_Hut9.png/revision/latest?cb=20261115170054",
+    "sourcePage": "https://clashofclans.fandom.com/wiki/Builder%27s_Hut?oldid=626326",
+    "importedOn": "2026-11-17",
+    "sourceFilePage": "https://clashofclans.fandom.com/wiki/File:Builders_Hut9.png"
+  },
+  "/images/wiki/0309-X-Bow/f4a7921507-X-Bow14_Ground.png": {
+    "unitId": "0309-X-Bow",
+    "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/2/20/X-Bow14_Ground.png/revision/latest?cb=20261113190605",
+    "sourcePage": "https://clashofclans.fandom.com/wiki/X-Bow?oldid=596696",
+    "importedOn": "2026-11-17",
+    "sourceFilePage": "https://clashofclans.fandom.com/wiki/File:X-Bow14_Ground.png"
+  },
+  "/images/wiki/0309-X-Bow/cd5a028c12-X-Bow14_Air.png": {
+    "unitId": "0309-X-Bow",
+    "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/f/fa/X-Bow14_Air.png/revision/latest?cb=20261115165347",
+    "sourcePage": "https://clashofclans.fandom.com/wiki/X-Bow?oldid=596696",
+    "importedOn": "2026-11-17",
+    "sourceFilePage": "https://clashofclans.fandom.com/wiki/File:X-Bow14_Air.png"
+  },
+  "/images/wiki/000d-Yeti/bd2333e274-Yetimite8.png": {
+    "unitId": "000d-Yeti",
+    "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/5/5d/Yetimite8.png/revision/latest?cb=20260430181829",
+    "sourcePage": "https://clashofclans.fandom.com/wiki/Yeti?oldid=626299",
+    "importedOn": "2026-11-17",
+    "sourceFilePage": "https://clashofclans.fandom.com/wiki/File:Yetimite8.png"
+  },
+  "/images/wiki/008a-Druid/0af7be770f-Bear6.png": {
+    "unitId": "008a-Druid",
+    "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/0/00/Bear6.png/revision/latest?cb=20260427191804",
+    "sourcePage": "https://clashofclans.fandom.com/wiki/Druid?oldid=625985",
+    "importedOn": "2026-11-17",
+    "sourceFilePage": "https://clashofclans.fandom.com/wiki/File:Bear6.png"
+  },
+  "/images/wiki/0243-Siege-Barracks/0be5d0a351-Parachute_Barracks6.png": {
+    "unitId": "0243-Siege-Barracks",
+    "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/5/5d/Parachute_Barracks6.png/revision/latest?cb=20260428172636",
+    "sourcePage": "https://clashofclans.fandom.com/wiki/Siege_Barracks?oldid=626013",
+    "importedOn": "2026-11-17",
+    "sourceFilePage": "https://clashofclans.fandom.com/wiki/File:Parachute_Barracks6.png"
+  },
+  "/images/wiki/0303-Mortar/95a258df65-Mortar18.png": {
+    "unitId": "0303-Mortar",
+    "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/6/69/Mortar18.png/revision/latest?cb=20260225092946",
+    "sourcePage": "https://clashofclans.fandom.com/wiki/Mortar?oldid=626249",
+    "importedOn": "2026-11-17",
+    "sourceFilePage": "https://clashofclans.fandom.com/wiki/File:Mortar18.png"
+  },
+  "/images/wiki/0317-Multi-Gear-Tower/ca47153863-Multi-Gear_Tower4_LongRange.png": {
+    "unitId": "0317-Multi-Gear-Tower",
+    "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/d/d2/Multi-Gear_Tower4_LongRange.png/revision/latest?cb=20261113150034",
+    "sourcePage": "https://clashofclans.fandom.com/wiki/Multi-Gear_Tower?oldid=626303",
+    "importedOn": "2026-11-17",
+    "sourceFilePage": "https://clashofclans.fandom.com/wiki/File:Multi-Gear_Tower4_LongRange.png"
+  },
+  "/images/wiki/0317-Multi-Gear-Tower/b63ba41cbe-Multi-Gear_Tower4_FastAttack.png": {
+    "unitId": "0317-Multi-Gear-Tower",
+    "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/a/a9/Multi-Gear_Tower4_FastAttack.png/revision/latest?cb=20261113150020",
+    "sourcePage": "https://clashofclans.fandom.com/wiki/Multi-Gear_Tower?oldid=626303",
+    "importedOn": "2026-11-17",
+    "sourceFilePage": "https://clashofclans.fandom.com/wiki/File:Multi-Gear_Tower4_FastAttack.png"
+  },
+  "/images/wiki/0386-Tornado-Trap/ddaf47587f-Tornado_Trap2.png": {
+    "unitId": "0386-Tornado-Trap",
+    "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/a/ab/Tornado_Trap2.png/revision/latest?cb=20181022220256",
+    "sourcePage": "https://clashofclans.fandom.com/wiki/Tornado_Trap?oldid=619079",
+    "importedOn": "2026-11-17",
+    "sourceFilePage": "https://clashofclans.fandom.com/wiki/File:Tornado_Trap2.png"
+  },
+  "/images/wiki/0484-Spell-Factory/798e9e78ed-Spell_Factory10_Active.png": {
+    "unitId": "0484-Spell-Factory",
+    "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/8/8a/Spell_Factory10_Active.png/revision/latest?cb=20261115165955",
+    "sourcePage": "https://clashofclans.fandom.com/wiki/Spell_Factory?oldid=626306",
+    "importedOn": "2026-11-17",
+    "sourceFilePage": "https://clashofclans.fandom.com/wiki/File:Spell_Factory10_Active.png"
+  },
+  "/images/wiki/0500-Builders-Hut/02f2e3f059-Builders_Hut9_Active.png": {
+    "unitId": "0500-Builders-Hut",
+    "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/7/70/Builders_Hut9_Active.png/revision/latest?cb=20261113190812",
+    "sourcePage": "https://clashofclans.fandom.com/wiki/Builder%27s_Hut?oldid=626326",
+    "importedOn": "2026-11-17",
+    "sourceFilePage": "https://clashofclans.fandom.com/wiki/File:Builders_Hut9_Active.png"
+  },
+  "/images/wiki/2212-Super-Dragon-Post/08c2d18d6a-Super_Dragon_Post4.png": {
+    "unitId": "2212-Super-Dragon-Post",
+    "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/a/a2/Super_Dragon_Post4.png/revision/latest?cb=20231217051011",
+    "sourcePage": "https://clashofclans.fandom.com/wiki/Super_Dragon_Post?oldid=609246",
+    "importedOn": "2026-11-17",
+    "sourceFilePage": "https://clashofclans.fandom.com/wiki/File:Super_Dragon_Post4.png"
+  },
+  "/images/wiki/2212-Super-Dragon-Post/71dbea5f5f-Super_Dragon_Post5.png": {
+    "unitId": "2212-Super-Dragon-Post",
+    "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/b/bf/Super_Dragon_Post5.png/revision/latest?cb=20231217051024",
+    "sourcePage": "https://clashofclans.fandom.com/wiki/Super_Dragon_Post?oldid=609246",
+    "importedOn": "2026-11-17",
+    "sourceFilePage": "https://clashofclans.fandom.com/wiki/File:Super_Dragon_Post5.png"
   }
 }

@@ -12,7 +12,7 @@ dataSyncedOn: 2026-10-13
 
 - *如想查看配置圣水法术的法术工厂，请访问：[法术工厂](/upgrade/0484-Spell-Factory)。*
 
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Dark_Spell_Factory7_hd.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Dark_Spell_Factory8.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
 
 <SmallTitle>各等级图片</SmallTitle>
 
@@ -46,7 +46,7 @@ dataSyncedOn: 2026-10-13
     <BuildingNumRow title="建筑数量" num="    0,      1" />
 </BuildingNum>
 
-<small>19 本数量参考 [官方更新公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)和 [ClashRecord](https://www.clashrecord.com/max-levels/th19)；可合并建筑按全部合并后计算。</small>
+<small>19 本数量以 [部落冲突 Wiki](https://clashofclans.fandom.com/wiki/Dark_Spell_Factory) 的既有数量为基础，结合 [Supercell 官方更新公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)中的新增和合并项目，按合并后数量计算。</small>
 
 <SmallTitle>属性</SmallTitle>
 

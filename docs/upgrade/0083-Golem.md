@@ -42,6 +42,7 @@ dataVersionUpdatedOn: 2026-11-16
         <UnitImg imgTitle="13 级" imgSrc="Golem13.png" />
         <UnitImg imgTitle="14 级" imgSrc="Golem14.png" />
             <UnitImg imgTitle="15 级" imgSrc="Golem15.png" />
+            <UnitImg imgTitle="16 级" imgSrc="Golem16.png" />
 </UnitImgGroup>
 </Panel>
 
@@ -74,7 +75,7 @@ dataVersionUpdatedOn: 2026-11-16
 
 <SmallTitle>升级数据</SmallTitle>
 
-<small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为待更新。</small>
+<small>19 本资料参考 [Supercell 官方公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)、[部落冲突 Wiki](https://clashofclans.fandom.com/wiki/Golem)与 [ClashKing 游戏数据](https://github.com/ClashKingInc/ClashKingAssets)；暂缺的字段标为待更新。</small>
 
 <script setup>
 const tableExtraInfo = [
@@ -111,7 +112,7 @@ const tableExtraInfo = [
 | 13 | 95 | 228 | 950 | 4 | 9200 | 135000 | 5,12,0,0 | 14 | 16 |
 | 14 | 100 | 240 | 1000 | 4 | 9600 | 160000 | 6,12,0,0 | 15 | 17 |
 | 15 | 120 | 288 | 1050 | 4 | 10600 | 295000 | 10,12,0,0 | 16 | 18 |
-| 16 | 140 | 336 | 1100 | 待更新 | 11800 | 455000 | 14,0,0,0 | 17 | 19 |
+| 16 | 140 | 336 | 待更新 | 待更新 | 11800 | 455000 | 14,0,0,0 | 17 | 19 |
 </UnitTable>
 </SwitchTabGroup>
 
@@ -172,11 +173,11 @@ const tableExtraInfo = [
 |   4  |     10   |    30   |     100     |  1200  |
 |   5  |     11   |    33   |     110     |  1260  |
 |   6  |     12   |    36   |     120     |  1320  |
-|   7  |     13   |    39   |     130     |  待更新  |
-|   8  |     14   |    42   |     140     |  待更新  |
-|   9  |     15   |    45   |     150     |  待更新  |
-|  10  |     16   |    48   |     160     |  待更新  |
-|  11  |     17   |    51   |     170     |  待更新  |
+|   7  |     13   |    39   |     130     |  1380<span class="cp-outdated"></span>  |
+|   8  |     14   |    42   |     140     |  1440<span class="cp-outdated"></span>  |
+|   9  |     15   |    45   |     150     |  1500<span class="cp-outdated"></span>  |
+|  10  |     16   |    48   |     160     |  1600<span class="cp-outdated"></span>  |
+|  11  |     17   |    51   |     170     |  1680<span class="cp-outdated"></span>  |
 |  12  |     18   |    54   |     180     |  1760  |
 |  13  |     19   |    57   |     190     |  1840  |
 |  14  |     20   |    60   |     200     |  1920  |
@@ -184,7 +185,7 @@ const tableExtraInfo = [
 |  16  |     待更新  |   待更新  |     待更新    |  待更新  |
 </UnitTable>
 
-<small>小戈仑石人数据来源：<a href="https://clashofclans.fandom.com/wiki/Golem/Golemite" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。19 本更新调整了 7–11 级和 15 级生命值以及 15 级伤害；已确认的数值依据<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/" target="_blank" rel="noopener noreferrer">官方公告</a>补充，尚未确认的显示为待更新。</small>
+<small>小戈仑石人数据来源：<a href="https://clashofclans.fandom.com/wiki/Golem/Golemite" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。19 本更新调整了 7–11 级和 15 级生命值以及 15 级伤害；已确认的数值依据<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/" target="_blank" rel="noopener noreferrer">官方公告</a>补充；7–11 级生命值暂列更新前数值，以 * 标出。</small>
 </SwitchTabGroup>
 
 <!-- ↓↓↓ 公共部分 ↓↓↓ -->
@@ -273,5 +274,3 @@ const tableExtraInfo = [
     <TimelineItem :historyBottom="true" />
 </Timeline>
 <p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Golem?oldid=625101" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>
-
-<small>2026 年 11 月旧等级费用与时间参考[玩家整理](https://mp.weixin.qq.com/s/1C8VxevkSERrS2x1vJd8aA)（用户提供原文）及 [ClashKing 游戏数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)。本站保留表格结构并按等级核对。</small>

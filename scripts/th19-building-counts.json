@@ -3,11 +3,10 @@
   "scope": "19 本建筑、陷阱数量；可合并建筑按全部合并后统计；null 表示暂未确认。",
   "sources": {
     "official": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/",
-    "counts": "https://www.clashrecord.com/max-levels/th19",
-    "airBombAtTH18": "https://coc.tools/item?kind=building&name=air-bomb&th=18",
-    "craftingStationDiscrepancy": "https://clashclock.com/en/town-hall/19",
+    "airBombAtTH18": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/",
     "craftedDefensesUserConfirmation": "用户于 2026-11-16 提供：19 本三项精工防御的可用数量与 18 本相同。",
-    "craftingStationUserConfirmation": "用户于 2026-11-16 确认 19 本精制台为 1 个。"
+    "craftingStationUserConfirmation": "用户于 2026-11-16 确认 19 本精制台为 1 个。",
+    "wikiBaseline": "既有维基记录的 18 本数量，19 本按官方公告新增与合并；玩家提供的精制台及精工防御数量单独记录。"
   },
   "counts": {
     "0300-Walls": 350,

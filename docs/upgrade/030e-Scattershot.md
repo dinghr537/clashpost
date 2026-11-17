@@ -13,7 +13,7 @@ dataVersionUpdatedOn: 2026-11-16
 
 - *玩家所说的投石车指的是攻城烈焰车，而不是投石炮，攻城烈焰车的数据请参考： [攻城烈焰车](/upgrade/0245-Flame-Flinger)。*
 
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Scattershot6_hd.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Scattershot7.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
 
 <SmallTitle>各等级图片</SmallTitle>
 
@@ -45,7 +45,7 @@ dataVersionUpdatedOn: 2026-11-16
     <BuildingNumRow title="建筑数量" num="     0,       2, 0" />
 </BuildingNum>
 
-<small>19 本数量参考 [官方更新公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)和 [ClashRecord](https://www.clashrecord.com/max-levels/th19)；可合并建筑按全部合并后计算。</small>
+<small>19 本数量以 [部落冲突 Wiki](https://clashofclans.fandom.com/wiki/Scattershot) 的既有数量为基础，结合 [Supercell 官方更新公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)中的新增和合并项目，按合并后数量计算。</small>
 
 <SmallTitle>重要说明</SmallTitle>
 
@@ -73,7 +73,7 @@ dataVersionUpdatedOn: 2026-11-16
 
 <SmallTitle>升级数据</SmallTitle>
 
-<small>19 本版本对部分旧等级的费用、时间作了调整；变更数值参考 [ClashKing Assets](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)。</small>
+<small>19 本版本调整了部分旧等级的费用和时间，调整范围见<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/">官方公告</a>。</small>
 
 <script setup>
 const tableExtraInfo = [
@@ -107,8 +107,6 @@ const tableExtraInfo = [
 | 5 | 180 | 420-576 | 150-420 | 5410 | 12000000 | 8,12,0,0 |  | 16 |
 | 6 | 185 | 440-592 | 155-440 | 5600 | 15500000 | 9,0,0,0 |  | 17 |
 | 7 | 190 | 450-608 | 160-450 | 5800 | 19500000 | 10,12,0,0 |  | 18 |
-| ⚡1 | 193 | 450-617.6 | 160-450 | 5800 | 14500000 | 5,0,0,0 |  | 18 |
-| ⚡2 | 193 | 450-617.6 | 160-450 | 5950 | 9500000 | 7,0,0,0 |  | 18 |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>

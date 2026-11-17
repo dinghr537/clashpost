@@ -32,7 +32,7 @@ dataVersionUpdatedOn: 2026-11-16
     <BuildingNumRow title="建筑数量" num="     0,       2" />
 </BuildingNum>
 
-<small>19 本数量参考 [官方更新公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)和 [ClashRecord](https://www.clashrecord.com/max-levels/th19)；可合并建筑按全部合并后计算。</small>
+<small>19 本数量以 [部落冲突 Wiki](https://clashofclans.fandom.com/wiki/Firespitter) 的既有数量为基础，结合 [Supercell 官方更新公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)中的新增和合并项目，按合并后数量计算。</small>
 
 <SmallTitle>重要说明</SmallTitle>
 
@@ -59,7 +59,7 @@ dataVersionUpdatedOn: 2026-11-16
 
 <SmallTitle>升级数据</SmallTitle>
 
-<small>19 本版本对部分旧等级的费用、时间作了调整；变更数值参考 [ClashKing Assets](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)。</small>
+<small>19 本版本调整了部分旧等级的费用和时间，调整范围见<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/">官方公告</a>。</small>
 
 <script setup>
 const tableExtraInfo = [
@@ -88,7 +88,7 @@ const tableExtraInfo = [
 | ---- |      ---      |   ---   |  ---  |   ---   |   ---    |         ---        |      ---      |
 | 1 | 410 | 46.03 | 4500 | 15500000 | 8,12,0,0 | 856 | 17 |
 | 2 | 437 | 49.05 | 5000 | 17000000 | 10,0,0,0 | 929 | 17 |
-| 3 | 455 | 51.07 | 5300 | 22500000 | 11,0,0,0 | 1138 | 18 |
+| 3 | 455 | 51.07 | 5300 | 22500000 | 11,0,0,0 | 974 | 18 |
 | ⚡1 | 473 | 53.08 | 5300 | 14000000 | 6,12,0,0 | 749 | 18 |
 | ⚡2 | 473 | 53.08 | 5550 | 12000000 | 7,12,0,0 | 804 | 18 |
 

@@ -33,10 +33,12 @@ function setTocHeadings() {
         const tocId = "cp-toc-" + index;
         el.setAttribute("id", domId);
 
+        const label = el.cloneNode(true);
+        label.querySelectorAll(".cp-source-ref").forEach(item => item.remove());
         nextHeadings.push({
             id: tocId,
             level: parseInt(el.tagName.charAt(1), 10),
-            content: el.innerText,
+            content: label.textContent.trim(),
             subheadings: []
         });
     });

@@ -24,6 +24,7 @@ dataVersionUpdatedOn: 2026-11-16
         <UnitImg imgTitle="3 级" imgSrc="Flame_Flinger3.png" />
         <UnitImg imgTitle="4 级" imgSrc="Flame_Flinger4.png" />
         <UnitImg imgTitle="5 级" imgSrc="Flame_Flinger5.png" />
+        <UnitImg imgTitle="6 级" imgSrc="Flame_Flinger6.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -64,7 +65,7 @@ dataVersionUpdatedOn: 2026-11-16
 
 <SmallTitle>升级数据</SmallTitle>
 
-<small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为待更新。</small>
+<small>19 本资料参考 [Supercell 官方公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)、[部落冲突 Wiki](https://clashofclans.fandom.com/wiki/Flame_Flinger)与 [ClashKing 游戏数据](https://github.com/ClashKingInc/ClashKingAssets)；暂缺的字段标为待更新。</small>
 
 <script setup>
 const tableExtraInfo = [
@@ -91,7 +92,7 @@ const tableExtraInfo = [
 | 3 | 151 | 275 | 105 | 111.76秒 | 1900 | 8000000 | 4,0,0,0 | 10 | 14 |
 | 4 | 165 | 300 | 120 | 117.64秒 | 2000 | 10000000 | 7,0,0,0 | 11 | 14 |
 | 5 | 179 | 325 | 130 | 123.52秒 | 2100 | 14500000 | 8,12,0,0 | 14 | 16 |
-| 6 | 210 | 1050 | 待更新 | 待更新 | 2200 | 31000000 | 15,0,0,0 | 17 | 19 |
+| 6 | 待更新 | 待更新 | 待更新 | 待更新 | 2200 | 31000000 | 15,0,0,0 | 17 | 19 |
 </UnitTable>
 
 ④ 攻城烈焰车发射出的熔岩伤害类似于 [毒药法术](/upgrade/0180-Poison-Spell)，也就是前期伤害低，兵种或建筑待在熔岩里的时间越长瞬时伤害越高。<br>

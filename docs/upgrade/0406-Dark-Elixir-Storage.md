@@ -11,7 +11,7 @@ dataSyncedOn: 2026-10-13
 dataVersionUpdatedOn: 2026-11-16
 ---
 
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Dark_Elixir_Storage13.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Dark_Elixir_Storage14.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
 
 <SmallTitle>各等级图片</SmallTitle>
 
@@ -30,6 +30,7 @@ dataVersionUpdatedOn: 2026-11-16
         <UnitImg imgTitle="11 级" imgSrc="Dark_Elixir_Storage11.png" imgHd="Dark_Elixir_Storage11_hd.png" />
         <UnitImg imgTitle="12 级" imgSrc="Dark_Elixir_Storage12.png" />
         <UnitImg imgTitle="13 级" imgSrc="Dark_Elixir_Storage13.png" />
+        <UnitImg imgTitle="14 级" imgSrc="Dark_Elixir_Storage14.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -40,7 +41,7 @@ dataVersionUpdatedOn: 2026-11-16
     <BuildingNumRow title="建筑数量" num="     0,     1" />
 </BuildingNum>
 
-<small>19 本数量参考 [官方更新公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)和 [ClashRecord](https://www.clashrecord.com/max-levels/th19)；可合并建筑按全部合并后计算。</small>
+<small>19 本数量以 [部落冲突 Wiki](https://clashofclans.fandom.com/wiki/Dark_Elixir_Storage) 的既有数量为基础，结合 [Supercell 官方更新公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)中的新增和合并项目，按合并后数量计算。</small>
 
 <SmallTitle>重要说明</SmallTitle>
 
@@ -56,9 +57,9 @@ dataVersionUpdatedOn: 2026-11-16
 
 <SmallTitle>升级数据</SmallTitle>
 
-<small>新增等级的储量参考 [ClashPerk Wiki](https://wiki.clashperk.com/resources/dark-elixir-storage)。</small>
 
-<small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为待更新。</small>
+
+<small>19 本资料参考 [Supercell 官方公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)、[部落冲突 Wiki](https://clashofclans.fandom.com/wiki/Dark_Elixir_Storage)与 [ClashKing 游戏数据](https://github.com/ClashKingInc/ClashKingAssets)；暂缺的字段标为待更新。</small>
 
 <script setup>
 const tableExtraInfo = [
@@ -104,7 +105,7 @@ const tableExtraInfo = [
 | 11 | 390000 | 4500 | 8000000 | 4,0,0,0 |  | 16 |
 | 12 | 420000 | 4700 | 15000000 | 7,0,0,0 |  | 17 |
 | 13 | 450000 | 4800 | 20000000 | 10,0,0,0 |  | 18 |
-| 14 | 480000 | 4900 | 24000000 | 13,0,0,0 |  | 19 |
+| 14 | 待更新 | 4900 | 24000000 | 13,0,0,0 |  | 19 |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
@@ -163,5 +164,3 @@ const tableExtraInfo = [
     <TimelineItem :historyBottom="true" />
 </Timeline>
 <p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Dark_Elixir_Storage?oldid=624451" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>
-
-<small>2026 年 11 月旧等级费用与时间参考[玩家整理](https://mp.weixin.qq.com/s/1C8VxevkSERrS2x1vJd8aA)（用户提供原文）及 [ClashKing 游戏数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)。本站保留表格结构并按等级核对。</small>

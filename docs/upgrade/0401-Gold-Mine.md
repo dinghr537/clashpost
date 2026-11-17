@@ -14,7 +14,7 @@ dataVersionUpdatedOn: 2026-11-16
 
 - *如想查看夜世界的金矿，请访问：[夜世界金矿](/upgrade/1201-Gold-Mine)。*
 
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Gold_Mine17.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Gold_Mine18.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
 
 <SmallTitle>各等级图片</SmallTitle>
 
@@ -37,6 +37,7 @@ dataVersionUpdatedOn: 2026-11-16
         <UnitImg imgTitle="15 级" imgSrc="Gold_Mine15.png" />
         <UnitImg imgTitle="16 级" imgSrc="Gold_Mine16.png" />
         <UnitImg imgTitle="17 级" imgSrc="Gold_Mine17.png" />
+        <UnitImg imgTitle="18 级" imgSrc="Gold_Mine18.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -47,7 +48,7 @@ dataVersionUpdatedOn: 2026-11-16
     <BuildingNumRow title="建筑数量" num="1, 2, 3, 4, 5,     6,      7" />
 </BuildingNum>
 
-<small>19 本数量参考 [官方更新公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)和 [ClashRecord](https://www.clashrecord.com/max-levels/th19)；可合并建筑按全部合并后计算。</small>
+<small>19 本数量以 [部落冲突 Wiki](https://clashofclans.fandom.com/wiki/Gold_Mine) 的既有数量为基础，结合 [Supercell 官方更新公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)中的新增和合并项目，按合并后数量计算。</small>
 
 <SmallTitle>属性</SmallTitle>
 
@@ -59,7 +60,7 @@ dataVersionUpdatedOn: 2026-11-16
 
 <SmallTitle>升级数据</SmallTitle>
 
-<small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为待更新。</small>
+<small>19 本资料参考 [Supercell 官方公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)、[部落冲突 Wiki](https://clashofclans.fandom.com/wiki/Gold_Mine)与 [ClashKing 游戏数据](https://github.com/ClashKingInc/ClashKingAssets)；暂缺的字段标为待更新。</small>
 
 <script setup>
 const tableExtraInfo = [
@@ -94,8 +95,6 @@ const tableExtraInfo = [
 ];
 </script>
 
-<p><small>2026 年 19 本更新后，本建筑此前的超级充能已移除；下方带 ⚡ 的行仅供查阅历史数据。正在进行的充能会全额退款，已完成的充能不退款。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/">官方公告</a></small></p>
-
 <UnitTable :tableExtraInfo="tableExtraInfo">
 
 | 等级 |每小时产量|采集器<br>容量<sup>*</sup>|填满容量<br>所需时间|出现收集标志<br>时的储量|每个采集器<br>提速所需宝石|  生命值  | 升级费用 |   升级时间   |升级后可<br>获得的经验| 所需<br>大本等级 |
@@ -118,9 +117,6 @@ const tableExtraInfo = [
 | 16 | 7000 | 385000 | 2,7,0,0 | 1000 | 11 | 1350 | 2000000 | 1,0,0,0 |  | 14 |
 | 17 | 7560 | 420000 | 2,7,33,20 | 1000 | 11 | 1400 | 4200000 | 2,0,0,0 |  | 16 |
 | 18 | 待更新 | 待更新 | \ | 待更新 | 待更新 | 1450 | 8500000 | 3,0,0,0 |  | 18 |
-| ⚡1 | 7857 | 436500 | 2,7,33,20 | 1000 | 11 | 1400 | 250000 | 0,9,30,0 |  | 18 |
-| ⚡2 | 8154 | 453000 | 2,7,33,20 | 1000 | 11 | 1400 | 250000 | 0,14,30,0 |  | 18 |
-| ⚡3 | 8154 | 453000 | 2,7,33,20 | 1000 | 11 | 1450 | 250000 | 0,19,0,0 |  | 18 |
 </UnitTable>
 
 \* 采集器容量满后将停止工作，直到玩家收集采集器内的资源。
@@ -130,12 +126,6 @@ const tableExtraInfo = [
 <Timeline>
     <TimelineItem date="2026/11/16">
         <TimelineRow>19 本版本新增 18 级。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
-    </TimelineItem>
-    <TimelineItem date="2026/10/20">
-        <TimelineRow>充能 1 级：费用由 170 万降至 25 万，时间由 2天缩短至 9小时30分。</TimelineRow>
-        <TimelineRow>充能 2 级：费用由 150 万降至 25 万，时间由 3天缩短至 14小时30分。</TimelineRow>
-        <TimelineRow>充能 3 级：费用由 130 万降至 25 万，时间由 4天缩短至 19小时。</TimelineRow>
-        <TimelineRow><a href="https://x.com/ClashDotNinja/status/2112523574984446061" target="_blank" rel="noopener noreferrer">来源：Clash Ninja 充能调整公告</a>。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/11/17">
         <TimelineRow>新增 17 级金矿，16 本可解锁。</TimelineRow>

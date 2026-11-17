@@ -47,6 +47,7 @@ const tableExtraInfo0 = [
         <UnitImg imgTitle="2 级" imgSrc="Ruin_Witch2.png" />
         <UnitImg imgTitle="3 级" imgSrc="Ruin_Witch3.png" />
         <UnitImg imgTitle="4 级" imgSrc="Ruin_Witch4.png" />
+        <UnitImg imgTitle="5 级" imgSrc="Ruin_Witch5.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -70,7 +71,7 @@ const tableExtraInfo0 = [
 
 <SmallTitle>升级数据</SmallTitle>
 
-<small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为待更新。</small>
+<small>19 本资料参考 [Supercell 官方公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)、[部落冲突 Wiki](https://clashofclans.fandom.com/wiki/Ruin_Witch)与 [ClashKing 游戏数据](https://github.com/ClashKingInc/ClashKingAssets)；暂缺的字段标为待更新。</small>
 
 <UnitTable :tableExtraInfo="tableExtraInfo0">
 
@@ -89,9 +90,8 @@ const tableExtraInfo0 = [
     <TimelineItem date="2026/11/16">
         <TimelineRow>19 本版本新增 5 级。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
     </TimelineItem>
-    <TimelineItem date="2026/10/20">
-        <TimelineRow>削弱召唤物废墟骑士的生命值、伤害和移动速度，并将其占据人口由 20 降至 18；具体数值见废墟骑士标签页。</TimelineRow>
-        <TimelineRow><a href="https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/" target="_blank" rel="noopener noreferrer">官方公告</a>（10/17 发布） · <a href="https://clashfox.com/blog/balance-changes-before-town-hall-19-fire-heart-and-ruin-witch-nerfed-hogs-and-p-e-k-k-a-bu" target="_blank" rel="noopener noreferrer">数值参考</a> · <a href="https://x.com/ClashofClans/status/2112450159326179560" target="_blank" rel="noopener noreferrer">10/20 维护完成</a>。</TimelineRow>
+    <TimelineItem date="2026/10/17">
+        <TimelineRow>官方预告：废墟骑士占用人口从 20 降至 18；移动速度、生命值和伤害降低。 <a href="https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
     </TimelineItem>
     <TimelineItem date="2026/08/31">
         <TimelineRow>全部等级的废墟骑士召唤上限从8提高到10。</TimelineRow>

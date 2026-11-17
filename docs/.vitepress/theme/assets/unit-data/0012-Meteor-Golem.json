@@ -35,16 +35,11 @@
     },
     "th19Update": {
       "checkedOn": "2026-11-16",
-      "source": "ClashKing Assets (selected game facts)",
-      "sourceUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json",
-      "scope": "Selected new levels and baseline-matched cost/time adjustments; missing fields remain unknown.",
-      "oldLevelCostTimeReference": {
-        "checkedOn": "2026-11-16",
-        "source": "用户提供的玩家整理与 ClashKing Assets 固定修订逐项对照",
-        "articleUrl": "https://mp.weixin.qq.com/s/1C8VxevkSERrS2x1vJd8aA",
-        "snapshotUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json"
-      },
-      "followupVerification": "小陨石戈仑 1–3 级伤害参考 https://clashofclans.fandom.com/wiki/Meteor_Golem/Meteormite ；4 级满血分裂生命值为母体的一半。"
+      "source": "Supercell 官方公告、部落冲突 Wiki 及玩家提供的信息（按字段核对）",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/",
+      "scope": "采用已核实的字段；未通过上述来源核实的候选数据标为待更新。原候选来源和历史过程记于 SOURCE_PERMISSIONS.md。",
+      "followupVerification": "2026-11-17 人工逐项核对对应 Wiki 页面升级表及更新历史中本次补回的等级及字段。",
+      "activePolicy": "按官方公告、Wiki 或玩家提供的信息保留已核实数据；尚未核实的字段不展示候选值。原始候选来源记录于 SOURCE_PERMISSIONS.md。"
     },
     "reviewedTableCorrections": [
       {
@@ -635,7 +630,9 @@
           {
             "status": "known",
             "value": 7650,
-            "raw": "7650"
+            "raw": "7650",
+            "verification": "outdated",
+            "verificationReason": "19 本更新后可能已调整；Wiki 尚未更新，暂列更新前数值"
           }
         ],
         [
@@ -657,7 +654,9 @@
           {
             "status": "known",
             "value": 8450,
-            "raw": "8450"
+            "raw": "8450",
+            "verification": "outdated",
+            "verificationReason": "19 本更新后可能已调整；Wiki 尚未更新，暂列更新前数值"
           }
         ],
         [
@@ -679,7 +678,9 @@
           {
             "status": "known",
             "value": 9250,
-            "raw": "9250"
+            "raw": "9250",
+            "verification": "outdated",
+            "verificationReason": "19 本更新后可能已调整；Wiki 尚未更新，暂列更新前数值"
           }
         ],
         [
@@ -700,8 +701,8 @@
           },
           {
             "status": "known",
-            "value": 10000,
-            "raw": "10000"
+            "value": 20000,
+            "raw": "20,000"
           }
         ]
       ],
@@ -787,20 +788,17 @@
       "dateSourceUrl": "https://clashofclans.fandom.com/wiki/Diggy?oldid=625147#History"
     },
     {
-      "date": "2026-10-20",
-      "description": "提高 1–3 级生命值，分别由 14500、16000、17500 提高至 15300、16900、18500；满血分裂后的小陨石戈仑生命值相应提高至 7650、8450、9250。",
-      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/",
-      "sourcePublishedOn": "2026-10-17",
-      "numericSourceUrl": "https://clashfox.com/blog/balance-changes-before-town-hall-19-fire-heart-and-ruin-witch-nerfed-hogs-and-p-e-k-k-a-bu",
-      "dateSourceUrl": "https://x.com/ClashofClans/status/2112450159326179560",
-      "dateEvidence": "Maintenance completion on October 20 UTC; adjusted stats confirmed in-game on October 20.",
-      "type": "balance"
-    },
-    {
       "date": "2026-11-16",
       "description": "19 本版本新增 4 级。",
       "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/",
       "sourcePublishedOn": "2026-11-16"
+    },
+    {
+      "date": "2026-10-17",
+      "description": "官方预告：陨石戈仑及其召唤物的生命值提高。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/",
+      "sourcePublishedOn": "2026-10-17",
+      "type": "announcement"
     }
   ],
   "facts": [

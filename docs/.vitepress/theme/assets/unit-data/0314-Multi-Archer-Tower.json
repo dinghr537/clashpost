@@ -133,9 +133,11 @@
     },
     "th19Update": {
       "checkedOn": "2026-11-16",
-      "source": "ClashKing Assets (selected game facts)",
-      "sourceUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json",
-      "scope": "Selected new levels and baseline-matched cost/time adjustments; missing fields remain unknown."
+      "source": "Supercell 官方公告、部落冲突 Wiki 及玩家提供的信息（按字段核对）",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/",
+      "scope": "采用已核实的字段；未通过上述来源核实的候选数据标为待更新。原候选来源和历史过程记于 SOURCE_PERMISSIONS.md。",
+      "activePolicy": "按官方公告、Wiki 或玩家提供的信息保留已核实数据；尚未核实的字段不展示候选值。原始候选来源记录于 SOURCE_PERMISSIONS.md。",
+      "followupVerification": "2026-11-17 人工逐项核对 Wiki 更新历史及升级表中本次补回的字段；升级经验按已核实的秒数开平方取整计算。"
     }
   },
   "tables": [
@@ -543,7 +545,8 @@
           {
             "status": "known",
             "value": 5900,
-            "raw": "5900"
+            "raw": "5,900",
+            "source": "ClashKing"
           },
           {
             "status": "known",
@@ -584,170 +587,6 @@
           "noGoldPass": false
         }
       ]
-    },
-    {
-      "sourceTableIndex": 6,
-      "section": "Statistics",
-      "title": "Supercharges",
-      "headers": [
-        "Charge Level ⚡",
-        "Damage per Second per Archer",
-        "Damage per Shot",
-        "Hitpoints",
-        "Build Cost",
-        "Build Time",
-        "Experience Gained",
-        "Town Hall Level Required"
-      ],
-      "rows": [
-        [
-          {
-            "status": "known",
-            "value": 1,
-            "raw": "1"
-          },
-          {
-            "status": "known",
-            "value": 126,
-            "raw": "126"
-          },
-          {
-            "status": "known",
-            "value": 76,
-            "raw": "76"
-          },
-          {
-            "status": "known",
-            "value": 5500,
-            "raw": "5,500"
-          },
-          {
-            "status": "known",
-            "value": 4750000,
-            "raw": "4,750,000"
-          },
-          {
-            "status": "known",
-            "value": 208800,
-            "raw": "2d 10h",
-            "unit": "seconds",
-            "displayInput": "2,10,0,0"
-          },
-          {
-            "status": "known",
-            "value": 456,
-            "raw": "456",
-            "derivedFrom": "floor(sqrt(Build Time in seconds))"
-          },
-          {
-            "status": "known",
-            "value": 18,
-            "raw": "18"
-          }
-        ],
-        [
-          {
-            "status": "known",
-            "value": 2,
-            "raw": "2"
-          },
-          {
-            "status": "known",
-            "value": 126,
-            "raw": "126"
-          },
-          {
-            "status": "known",
-            "value": 76,
-            "raw": "76"
-          },
-          {
-            "status": "known",
-            "value": 5600,
-            "raw": "5,600"
-          },
-          {
-            "status": "known",
-            "value": 4000000,
-            "raw": "4,000,000"
-          },
-          {
-            "status": "known",
-            "value": 241200,
-            "raw": "2d 19h",
-            "unit": "seconds",
-            "displayInput": "2,19,0,0"
-          },
-          {
-            "status": "known",
-            "value": 491,
-            "raw": "491",
-            "derivedFrom": "floor(sqrt(Build Time in seconds))"
-          },
-          {
-            "status": "known",
-            "value": 18,
-            "raw": "18"
-          }
-        ]
-      ],
-      "extraInfo": [
-        {
-          "column": 4,
-          "type": "cost",
-          "icon": "Gold",
-          "gpClass": "building",
-          "noGoldPass": false
-        },
-        {
-          "column": 5,
-          "type": "time",
-          "gpClass": "building",
-          "noGoldPass": false
-        }
-      ]
-    },
-    {
-      "sourceTableIndex": 7,
-      "section": "Statistics",
-      "title": "Supercharges",
-      "headers": [
-        "Number of Targets",
-        "Range",
-        "Attack Speed",
-        "Damage Type",
-        "Unit Type Targeted"
-      ],
-      "rows": [
-        [
-          {
-            "status": "known",
-            "value": 3,
-            "raw": "3"
-          },
-          {
-            "status": "known",
-            "value": 10,
-            "raw": "10"
-          },
-          {
-            "status": "known",
-            "value": "0.6s",
-            "raw": "0.6s"
-          },
-          {
-            "status": "known",
-            "value": "Multiple Targets",
-            "raw": "Multiple Targets"
-          },
-          {
-            "status": "known",
-            "value": "Ground & Air",
-            "raw": "Ground & Air"
-          }
-        ]
-      ],
-      "extraInfo": []
     }
   ],
   "images": [
@@ -788,20 +627,6 @@
     }
   ],
   "history": [
-    {
-      "date": "2026-10-20",
-      "description": "充能 1 级：费用由 1200 万降至 475 万，时间由 6天缩短至 2天10小时。",
-      "sourceUrl": "https://x.com/ClashDotNinja/status/2112523574984446061",
-      "sourcePublishedOn": "2026-10-20",
-      "sourceType": "community-update"
-    },
-    {
-      "date": "2026-10-20",
-      "description": "充能 2 级：费用由 1000 万降至 400 万，时间由 7天缩短至 2天19小时。",
-      "sourceUrl": "https://x.com/ClashDotNinja/status/2112523574984446061",
-      "sourcePublishedOn": "2026-10-20",
-      "sourceType": "community-update"
-    },
     {
       "date": "2026-11-16",
       "description": "19 本版本新增 5 级。",

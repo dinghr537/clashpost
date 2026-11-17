@@ -15,7 +15,7 @@ dataVersionUpdatedOn: 2026-11-16
 - *如想查看夜世界的多管防空火炮，请访问：[夜世界防空火炮](/upgrade/1104-Firecrackers)。*
 - *如想查看都城的多管防空火箭，请访问：[都城防空火箭](/upgrade/2203-Air-Defense)。*
 
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Air_Defense16.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Air_Defense17.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
 
 <SmallTitle>各等级图片</SmallTitle>
 
@@ -37,6 +37,7 @@ dataVersionUpdatedOn: 2026-11-16
         <UnitImg imgTitle="14 级" imgSrc="Air_Defense14.png" />
         <UnitImg imgTitle="15 级" imgSrc="Air_Defense15.png" />
         <UnitImg imgTitle="16 级" imgSrc="Air_Defense16.png" />
+        <UnitImg imgTitle="17 级" imgSrc="Air_Defense17.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -60,7 +61,7 @@ dataVersionUpdatedOn: 2026-11-16
 
 <SmallTitle>升级数据</SmallTitle>
 
-<small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为待更新。</small>
+<small>19 本资料参考 [Supercell 官方公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)与 [部落冲突 Wiki](https://clashofclans.fandom.com/wiki/Air_Defense)。</small>
 
 <script setup>
 const tableExtraInfo = [
@@ -83,8 +84,6 @@ const tableExtraInfo = [
 ];
 </script>
 
-<p><small>2026 年 19 本更新后，本建筑此前的超级充能已移除；下方带 ⚡ 的行仅供查阅历史数据。正在进行的充能会全额退款，已完成的充能不退款。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/">官方公告</a></small></p>
-
 <UnitTable :tableExtraInfo="tableExtraInfo">
 
 | 等级 | 每秒伤害 | 每次伤害 | 生命值 | 升级费用 |  升级时间  |升级后可<br>获得的经验| 所需<br>大本等级 |
@@ -106,8 +105,6 @@ const tableExtraInfo = [
 | 15 | 650 | 650 | 1950 | 13500000 | 7,0,0,0 |  | 17 |
 | 16 | 700 | 700 | 2050 | 18500000 | 10,0,0,0 |  | 18 |
 | 17 | 790 | 790 | 2150 | 28500000 | 14,0,0,0 |  | 19 |
-| ⚡1 | 720 | 720 | 2000 | 2500000 | 1,2,0,0 |  | 18 |
-| ⚡2 | 740 | 740 | 2000 | 1250000 | 1,17,0,0 |  | 18 |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
@@ -115,11 +112,6 @@ const tableExtraInfo = [
 <Timeline>
     <TimelineItem date="2026/11/16">
         <TimelineRow>19 本版本新增 17 级。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
-    </TimelineItem>
-    <TimelineItem date="2026/10/20">
-        <TimelineRow>充能 1 级：费用由 600 万降至 250 万，时间由 2天18小时缩短至 1天2小时。</TimelineRow>
-        <TimelineRow>充能 2 级：费用由 300 万降至 125 万，时间由 4天6小时缩短至 1天17小时。</TimelineRow>
-        <TimelineRow><a href="https://x.com/ClashDotNinja/status/2112523574984446061" target="_blank" rel="noopener noreferrer">来源：Clash Ninja 充能调整公告</a>。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2025/11/17">
         <TimelineRow>18 本推出，并在 18 本新增 16 级防空火箭。</TimelineRow>
@@ -190,5 +182,3 @@ const tableExtraInfo = [
     <TimelineItem :historyBottom="true" />
 </Timeline>
 <p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Air_Defense?oldid=603809" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>
-
-<small>2026 年 11 月旧等级费用与时间参考[玩家整理](https://mp.weixin.qq.com/s/1C8VxevkSERrS2x1vJd8aA)（用户提供原文）及 [ClashKing 游戏数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)。本站保留表格结构并按等级核对。</small>

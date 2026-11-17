@@ -29,7 +29,9 @@ dataVersionUpdatedOn: 2026-11-16
 
 <SmallTitle>升级数据</SmallTitle>
 
-19 本更新后，冷冽冰晶还会为飞盾战神提供每秒伤害加成：1–27 级从 +18 增至 +84。中间各等级参考 [ClashKing Assets](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)。<small>（[Supercell 官方公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)）</small>
+<small>2026 年调整数据参考 [部落冲突 Wiki](https://clashofclans.fandom.com/wiki/Frost_Flake)（2026-11-17 核对）。</small>
+
+19 本更新后，冷冽冰晶还会为飞盾战神提供每秒伤害加成：1–27 级从 +18 增至 +84，各级数值见下表。<small>（[Supercell 官方公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)）</small>
 
 <script setup>
 const tableExtraInfo = [

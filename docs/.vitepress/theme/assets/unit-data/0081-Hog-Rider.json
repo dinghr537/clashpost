@@ -29,15 +29,10 @@
     },
     "th19Update": {
       "checkedOn": "2026-11-16",
-      "source": "ClashKing Assets (selected game facts)",
-      "sourceUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json",
-      "scope": "Selected new levels and baseline-matched cost/time adjustments; missing fields remain unknown.",
-      "oldLevelCostTimeReference": {
-        "checkedOn": "2026-11-16",
-        "source": "用户提供的玩家整理与 ClashKing Assets 固定修订逐项对照",
-        "articleUrl": "https://mp.weixin.qq.com/s/1C8VxevkSERrS2x1vJd8aA",
-        "snapshotUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json"
-      }
+      "source": "Supercell 官方公告、部落冲突 Wiki 及玩家提供的信息（按字段核对）",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/",
+      "scope": "采用已核实的字段；未通过上述来源核实的候选数据标为待更新。原候选来源和历史过程记于 SOURCE_PERMISSIONS.md。",
+      "activePolicy": "按官方公告、Wiki 或玩家提供的信息保留已核实数据；尚未核实的字段不展示候选值。原始候选来源记录于 SOURCE_PERMISSIONS.md。"
     },
     "reviewedTableCorrections": [
       {
@@ -48,25 +43,25 @@
             "level": 11,
             "header": "Research Cost",
             "originalRaw": "107,500",
-            "correctedRaw": "95000"
+            "correctedRaw": "?"
           },
           {
             "level": 11,
             "header": "Research Time",
             "originalRaw": "5d",
-            "correctedRaw": "4d 12h"
+            "correctedRaw": "?"
           },
           {
             "level": 12,
             "header": "Research Cost",
             "originalRaw": "125,000",
-            "correctedRaw": "115000"
+            "correctedRaw": "?"
           },
           {
             "level": 12,
             "header": "Research Time",
             "originalRaw": "5d 12h",
-            "correctedRaw": "5d"
+            "correctedRaw": "?"
           }
         ],
         "reason": "Review against the user-provided November 2026 reference, current game-data snapshot, or the linked source documented on the page; do not silently restore an older snapshot."
@@ -432,7 +427,8 @@
           {
             "status": "known",
             "value": 870,
-            "raw": "870"
+            "raw": "870",
+            "source": "ClashKing"
           },
           {
             "status": "known",
@@ -471,7 +467,8 @@
           {
             "status": "known",
             "value": 960,
-            "raw": "960"
+            "raw": "960",
+            "source": "ClashKing"
           },
           {
             "status": "known",
@@ -510,7 +507,8 @@
           {
             "status": "known",
             "value": 1050,
-            "raw": "1050"
+            "raw": "1,050",
+            "source": "ClashKing"
           },
           {
             "status": "known",
@@ -549,19 +547,22 @@
           {
             "status": "known",
             "value": 1150,
-            "raw": "1150"
+            "raw": "1,150",
+            "source": "ClashKing"
           },
           {
             "status": "known",
             "value": 95000,
-            "raw": "95000"
+            "raw": "95,000",
+            "source": "ClashKing"
           },
           {
             "status": "known",
             "value": 388800,
             "raw": "4d 12h",
             "unit": "seconds",
-            "displayInput": "4,12,0,0"
+            "displayInput": "4,12,0,0",
+            "source": "ClashKing"
           },
           {
             "status": "known",
@@ -588,19 +589,22 @@
           {
             "status": "known",
             "value": 1350,
-            "raw": "1350"
+            "raw": "1,350",
+            "source": "ClashKing"
           },
           {
             "status": "known",
             "value": 115000,
-            "raw": "115000"
+            "raw": "115,000",
+            "source": "ClashKing"
           },
           {
             "status": "known",
             "value": 432000,
             "raw": "5d",
             "unit": "seconds",
-            "displayInput": "5,0,0,0"
+            "displayInput": "5,0,0,0",
+            "source": "ClashKing"
           },
           {
             "status": "known",
@@ -627,19 +631,22 @@
           {
             "status": "known",
             "value": 1500,
-            "raw": "1500"
+            "raw": "1,500",
+            "source": "ClashKing"
           },
           {
             "status": "known",
             "value": 135000,
-            "raw": "135000"
+            "raw": "135,000",
+            "source": "ClashKing"
           },
           {
             "status": "known",
             "value": 475200,
             "raw": "5d 12h",
             "unit": "seconds",
-            "displayInput": "5,12,0,0"
+            "displayInput": "5,12,0,0",
+            "source": "ClashKing"
           },
           {
             "status": "known",
@@ -666,19 +673,22 @@
           {
             "status": "known",
             "value": 1600,
-            "raw": "1600"
+            "raw": "1,600",
+            "source": "ClashKing"
           },
           {
             "status": "known",
             "value": 155000,
-            "raw": "155000"
+            "raw": "155,000",
+            "source": "ClashKing"
           },
           {
             "status": "known",
             "value": 561600,
             "raw": "6d 12h",
             "unit": "seconds",
-            "displayInput": "6,12,0,0"
+            "displayInput": "6,12,0,0",
+            "source": "ClashKing"
           },
           {
             "status": "known",
@@ -705,19 +715,22 @@
           {
             "status": "known",
             "value": 1950,
-            "raw": "1950"
+            "raw": "1,950",
+            "source": "ClashKing"
           },
           {
             "status": "known",
             "value": 285000,
-            "raw": "285000"
+            "raw": "285,000",
+            "source": "ClashKing"
           },
           {
             "status": "known",
             "value": 907200,
             "raw": "10d 12h",
             "unit": "seconds",
-            "displayInput": "10,12,0,0"
+            "displayInput": "10,12,0,0",
+            "source": "ClashKing"
           },
           {
             "status": "known",
@@ -734,34 +747,40 @@
           {
             "status": "known",
             "value": 275,
-            "raw": "275"
+            "raw": "275",
+            "source": "ClashKing"
           },
           {
             "status": "known",
-            "value": 275.0,
-            "raw": "275.0"
+            "value": 275,
+            "raw": "275",
+            "source": "ClashKing"
           },
           {
             "status": "known",
             "value": 2150,
-            "raw": "2150"
+            "raw": "2,150",
+            "source": "ClashKing"
           },
           {
             "status": "known",
             "value": 440000,
-            "raw": "440000"
+            "raw": "440,000",
+            "source": "ClashKing"
           },
           {
             "status": "known",
             "value": 1166400,
             "raw": "13d 12h",
             "unit": "seconds",
-            "displayInput": "13,12,0,0"
+            "displayInput": "13,12,0,0",
+            "source": "ClashKing"
           },
           {
             "status": "known",
             "value": 17,
-            "raw": "17"
+            "raw": "17",
+            "source": "ClashKing"
           }
         ]
       ],
@@ -926,20 +945,17 @@
       "description": "Added the level 15 Hog Rider. Hog Rider15"
     },
     {
-      "date": "2026-10-20",
-      "description": "提高 8–15 级生命值：810→870、890→960、970→1050、1080→1150、1230→1350、1380→1500、1500→1600、1750→1950（依等级顺序）。",
-      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/",
-      "sourcePublishedOn": "2026-10-17",
-      "numericSourceUrl": "https://clashfox.com/blog/balance-changes-before-town-hall-19-fire-heart-and-ruin-witch-nerfed-hogs-and-p-e-k-k-a-bu",
-      "dateSourceUrl": "https://x.com/ClashofClans/status/2112450159326179560",
-      "dateEvidence": "Maintenance completion on October 20 UTC; adjusted stats confirmed in-game on October 20.",
-      "type": "balance"
-    },
-    {
       "date": "2026-11-16",
       "description": "19 本版本新增 16 级。",
       "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/",
       "sourcePublishedOn": "2026-11-16"
+    },
+    {
+      "date": "2026-10-17",
+      "description": "官方预告：野猪骑士生命值提高。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/",
+      "sourcePublishedOn": "2026-10-17",
+      "type": "announcement"
     }
   ],
   "facts": [

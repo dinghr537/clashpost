@@ -27,6 +27,7 @@ dataVersionUpdatedOn: 2026-11-16
         <UnitImg imgTitle="6 级" imgSrc="Lava_Hound6.png" />
         <UnitImg imgTitle="7 级" imgSrc="Lava_Hound7.png" imgHd="Lava_Hound7_hd.png" />
         <UnitImg imgTitle="8 级" imgSrc="Lava_Hound8.png" imgHd="Lava_Hound8_hd.png" />
+        <UnitImg imgTitle="9 级" imgSrc="Lava_Hound9.png" />
         <UnitImg imgTitle="迷你熔岩猎犬" imgSrc="Lava_Pup.png" />
     </UnitImgGroup>
 </Panel>
@@ -75,7 +76,7 @@ dataVersionUpdatedOn: 2026-11-16
 
 <SmallTitle>升级数据</SmallTitle>
 
-<small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为待更新。</small>
+<small>19 本资料参考 [Supercell 官方公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)、[部落冲突 Wiki](https://clashofclans.fandom.com/wiki/Lava_Hound)与 [ClashKing 游戏数据](https://github.com/ClashKingInc/ClashKingAssets)；暂缺的字段标为待更新。</small>
 
 <script setup>
 const tableExtraInfo = [
@@ -105,7 +106,7 @@ const tableExtraInfo = [
 | 6 | 20 | 40 | 350 | 18 / 13 | 8000 | 80000 | 7,0,0,0 | 11 | 13 |
 | 7 | 22 | 44 | 400 | 20 / 14 | 8500 | 190000 | 7,12,0,0 | 14 | 16 |
 | 8 | 24 | 48 | 450 | 22 / 15 | 9500 | 285000 | 10,12,0,0 | 16 | 18 |
-| 9 | 26 | 52 | 500 | 待更新 / 待更新 | 11000 | 375000 | 11,0,0,0 | 17 | 19 |
+| 9 | 26 | 52 | 待更新 | 待更新 / 待更新 | 11000 | 375000 | 11,0,0,0 | 17 | 19 |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
@@ -172,5 +173,3 @@ const tableExtraInfo = [
     <TimelineItem :historyBottom="true" />
 </Timeline>
 <p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Lava_Hound?oldid=624357" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>
-
-<small>2026 年 11 月旧等级费用与时间参考[玩家整理](https://mp.weixin.qq.com/s/1C8VxevkSERrS2x1vJd8aA)（用户提供原文）及 [ClashKing 游戏数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)。本站保留表格结构并按等级核对。</small>

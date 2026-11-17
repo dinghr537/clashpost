@@ -29,10 +29,11 @@
     },
     "th19Update": {
       "checkedOn": "2026-11-16",
-      "source": "ClashKing Assets (selected game facts; level numbering mapped to older Wiki scale)",
-      "sourceUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json",
-      "scope": "Level mapping based on 12 matching earlier stat pairs and the base troop level; unverified fields remain unknown.",
-      "levelOffset": 0
+      "source": "Supercell 官方公告、部落冲突 Wiki 及玩家提供的信息（按字段核对）",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/",
+      "scope": "采用已核实的字段；未通过上述来源核实的候选数据标为待更新。原候选来源和历史过程记于 SOURCE_PERMISSIONS.md。",
+      "levelOffset": 0,
+      "activePolicy": "按官方公告、Wiki 或玩家提供的信息保留已核实数据；尚未核实的字段不展示候选值。原始候选来源记录于 SOURCE_PERMISSIONS.md。"
     }
   },
   "tables": [
@@ -319,7 +320,8 @@
           {
             "status": "known",
             "value": 4650,
-            "raw": "4650"
+            "raw": "4,650",
+            "source": "ClashKing"
           },
           {
             "status": "unknown",
@@ -356,7 +358,8 @@
           {
             "status": "known",
             "value": 5150,
-            "raw": "5150"
+            "raw": "5,150",
+            "source": "ClashKing"
           },
           {
             "status": "unknown",
@@ -371,9 +374,11 @@
             "raw": "13"
           },
           {
-            "status": "known",
-            "value": 285,
-            "raw": "285"
+            "status": "unknown",
+            "value": null,
+            "raw": "?",
+            "verification": "pending",
+            "verificationReason": "新增等级尚待官方、Wiki 或玩家核实"
           },
           {
             "status": "unknown",
@@ -386,14 +391,17 @@
             "raw": "?"
           },
           {
-            "status": "known",
-            "value": 2600,
-            "raw": "2600"
+            "status": "unknown",
+            "value": null,
+            "raw": "?",
+            "verification": "pending",
+            "verificationReason": "新增等级尚待官方、Wiki 或玩家核实"
           },
           {
             "status": "known",
             "value": 5600,
-            "raw": "5600"
+            "raw": "5,600",
+            "source": "ClashKing"
           },
           {
             "status": "known",
@@ -423,20 +431,17 @@
   ],
   "history": [
     {
-      "date": "2026-10-20",
-      "description": "提高 11、12 级生命值，分别由 4400、5000 提高至 4650、5150。",
-      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/",
-      "sourcePublishedOn": "2026-10-17",
-      "numericSourceUrl": "https://clashfox.com/blog/balance-changes-before-town-hall-19-fire-heart-and-ruin-witch-nerfed-hogs-and-p-e-k-k-a-bu",
-      "dateSourceUrl": "https://x.com/ClashofClans/status/2112450159326179560",
-      "dateEvidence": "Maintenance completion on October 20 UTC; adjusted stats confirmed in-game on October 20.",
-      "type": "balance"
-    },
-    {
       "date": "2026-11-16",
       "description": "19 本版本对应的普通兵种新增等级，超级兵属性随之更新。",
       "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/",
       "sourcePublishedOn": "2026-11-16"
+    },
+    {
+      "date": "2026-10-17",
+      "description": "官方预告：高等级超级矿工生命值提高。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/",
+      "sourcePublishedOn": "2026-10-17",
+      "type": "announcement"
     }
   ],
   "facts": [

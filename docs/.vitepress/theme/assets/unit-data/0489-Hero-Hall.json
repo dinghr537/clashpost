@@ -75,9 +75,10 @@
     ],
     "th19Update": {
       "checkedOn": "2026-11-16",
-      "source": "ClashKing Assets (selected game facts)",
-      "sourceUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json",
-      "scope": "Selected new levels and baseline-matched cost/time adjustments; missing fields remain unknown."
+      "source": "Supercell 官方公告、部落冲突 Wiki 及玩家提供的信息（按字段核对）",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/",
+      "scope": "采用已核实的字段；未通过上述来源核实的候选数据标为待更新。原候选来源和历史过程记于 SOURCE_PERMISSIONS.md。",
+      "activePolicy": "按官方公告、Wiki 或玩家提供的信息保留已核实数据；尚未核实的字段不展示候选值。原始候选来源记录于 SOURCE_PERMISSIONS.md。"
     }
   },
   "tables": [
@@ -754,7 +755,8 @@
           {
             "status": "known",
             "value": 15500000,
-            "raw": "15500000"
+            "raw": "15,500,000",
+            "source": "ClashKing"
           },
           {
             "status": "known",
@@ -798,19 +800,23 @@
           {
             "status": "known",
             "value": 23500000,
-            "raw": "23500000"
+            "raw": "23,500,000",
+            "source": "ClashKing"
           },
           {
             "status": "known",
             "value": 1080000,
             "raw": "12d 12h",
             "unit": "seconds",
-            "displayInput": "12,12,0,0"
+            "displayInput": "12,12,0,0",
+            "source": "ClashKing"
           },
           {
             "status": "known",
-            "value": 1039,
-            "raw": "1039"
+            "value": 1080,
+            "raw": "1,080",
+            "verification": "outdated",
+            "verificationReason": "19 本更新后可能已调整；Wiki 尚未更新，暂列更新前数值"
           },
           {
             "status": "known",
@@ -837,24 +843,29 @@
           {
             "status": "known",
             "value": 6200,
-            "raw": "6200"
+            "raw": "6,200",
+            "source": "ClashKing"
           },
           {
             "status": "known",
             "value": 30500000,
-            "raw": "30500000"
+            "raw": "30,500,000",
+            "source": "ClashKing"
           },
           {
             "status": "known",
             "value": 1339200,
             "raw": "15d 12h",
             "unit": "seconds",
-            "displayInput": "15,12,0,0"
+            "displayInput": "15,12,0,0",
+            "source": "ClashKing"
           },
           {
-            "status": "known",
-            "value": 1157,
-            "raw": "1157"
+            "status": "unknown",
+            "value": null,
+            "raw": "?",
+            "verification": "pending",
+            "verificationReason": "新增等级尚待官方、Wiki 或玩家核实"
           },
           {
             "status": "known",

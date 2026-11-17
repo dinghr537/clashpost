@@ -14,7 +14,7 @@ dataVersionUpdatedOn: 2026-11-16
 - *如想查看夜世界的城墙，请访问：[夜世界城墙](/upgrade/110c-Walls)。*
 - *如想查看都城的城墙，请访问：[都城城墙](/upgrade/2200-Walls)。*
 
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Wall19.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Wall20.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
 
 <SmallTitle>各等级图片</SmallTitle>
 
@@ -39,6 +39,7 @@ dataVersionUpdatedOn: 2026-11-16
         <UnitImg imgTitle="17 级" imgSrc="Wall17_thumb.png" imgHd="Wall17.png"/>
         <UnitImg imgTitle="18 级" imgSrc="Wall18.png" />
         <UnitImg imgTitle="19 级" imgSrc="Wall19.png" />
+        <UnitImg imgTitle="20 级" imgSrc="Wall20.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -60,7 +61,7 @@ dataVersionUpdatedOn: 2026-11-16
 
 <SmallTitle>升级数据</SmallTitle>
 
-<small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为待更新。</small>
+<small>19 本资料参考 [Supercell 官方公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)与 [部落冲突 Wiki](https://clashofclans.fandom.com/wiki/Wall)。</small>
 
 <script setup>
 const tableExtraInfo = [
@@ -107,8 +108,8 @@ const tableExtraInfo = [
 | 15 | 10000 | 3000000 | 3000000 | 3 | 14 |
 | 16 | 11000 | 4000000 | 4000000 | 4 | 15 |
 | 17 | 12000 | 5000000 | 5000000 | 5 | 16 |
-| 18 | 13000 | 6000000 | 7000000 | 7 | 17 |
-| 19 | 14000 | 8000000 | 10000000 | 10 | 18 |
+| 18 | 13000 | 6000000 | 6000000 | 7 | 17 |
+| 19 | 14000 | 8000000 | 8000000 | 10 | 18 |
 | 20 | 15000 | 10000000 | 10000000 | 10 | 19 |
 </UnitTable>
 

@@ -43,11 +43,11 @@ dataVersionUpdatedOn: 2026-11-16
     <UnitProperty pKey="所需大本等级" pValue="16" />
 </UnitProperties>
 
-① 攻击距离的资料存在差异：<a href="https://wiki.clashperk.com/pets/angry-jelly" target="_blank" rel="noopener noreferrer">ClashPerk</a>记为 5 格，<a href="https://blooing.com/the-best-hero-pets-in-clash-of-clans/" target="_blank" rel="noopener noreferrer">Blooing</a>及页面所列维基资料记为 1.5 格；测量口径和当前值尚待更新。
+① 攻击距离的资料存在差异：<a href="https://wiki.clashperk.com/pets/angry-jelly" target="_blank" rel="noopener noreferrer">ClashPerk</a>记为 5 格，<a href="https://blooing.com/the-best-hero-pets-in-clash-of-clans/" target="_blank" rel="noopener noreferrer">Blooing</a>及页面所列维基资料记为 1.5 格；测量口径和当前值尚待核实。
 
 <SmallTitle>升级数据</SmallTitle>
 
-<small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为待更新。</small>
+<small>19 本资料参考 [Supercell 官方公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)、[部落冲突 Wiki](https://clashofclans.fandom.com/wiki/Angry_Jelly)与 [ClashKing 游戏数据](https://github.com/ClashKingInc/ClashKingAssets)；暂缺的字段标为待更新。</small>
 
 <script setup>
 const tableExtraInfo = [
@@ -84,7 +84,7 @@ const tableExtraInfo = [
 | 8 | 175 | 131.25 | 30秒 | 1975 | 210000 | 7,0,0,0 |  | 10 | 16 |
 | 9 | 184 | 138 | 30秒 | 2050 | 220000 | 7,12,0,0 |  | 10 | 16 |
 | 10 | 193 | 144.75 | 35秒 | 2125 | 230000 | 7,12,0,0 |  | 10 | 16 |
-| 11 | 202 | 151.5 | 待更新 | 2200 | 260000 | 7,12,0,0 |  | 12 | 18 |
+| 11 | 202 | 151.5 | 待更新 | 2200 | 260000 | 7,12,0,0 |  | 10 | 16 |
 | 12 | 211 | 158.25 | 待更新 | 2275 | 290000 | 8,0,0,0 |  | 12 | 18 |
 | 13 | 220 | 165 | 待更新 | 2350 | 320000 | 8,0,0,0 |  | 12 | 18 |
 | 14 | 229 | 171.75 | 待更新 | 2425 | 350000 | 8,0,0,0 |  | 12 | 18 |

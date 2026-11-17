@@ -30,6 +30,7 @@ dataVersionUpdatedOn: 2026-11-16
         <UnitImg imgTitle="1 - 2 级" imgSrc="Skeleton_Trap1.png" />
         <UnitImg imgTitle="3 - 4 级" imgSrc="Skeleton_Trap3.png" />
         <UnitImg imgTitle="5 级" imgSrc="Skeleton_Trap5.png" />
+        <UnitImg imgTitle="6 级" imgSrc="Skeleton_Trap6.png" />
     </UnitImgGroup>
     <UnitImgGroup title="空中模式" :folder="$frontmatter.imgFolder">
         <UnitImg imgTitle="1 - 2 级" imgSrc="Skeleton_Trap1_Air.png" />
@@ -50,7 +51,7 @@ dataVersionUpdatedOn: 2026-11-16
     <BuildingNumRow title="建筑数量" num="    0,     2,       3,       4" />
 </BuildingNum>
 
-<small>19 本数量参考 [官方更新公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)和 [ClashRecord](https://www.clashrecord.com/max-levels/th19)；可合并建筑按全部合并后计算。</small>
+<small>19 本数量以 [部落冲突 Wiki](https://clashofclans.fandom.com/wiki/Skeleton_Trap) 的既有数量为基础，结合 [Supercell 官方更新公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)中的新增和合并项目，按合并后数量计算。</small>
 
 <SmallTitle>骷髅陷阱的属性</SmallTitle>
 
@@ -64,7 +65,7 @@ dataVersionUpdatedOn: 2026-11-16
 
 <SmallTitle>升级数据</SmallTitle>
 
-<small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为待更新。</small>
+<small>19 本资料参考 [Supercell 官方公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)、[部落冲突 Wiki](https://clashofclans.fandom.com/wiki/Skeleton_Trap)与 [ClashKing 游戏数据](https://github.com/ClashKingInc/ClashKingAssets)；暂缺的字段标为待更新。</small>
 
 <script setup>
 const tableExtraInfo = [

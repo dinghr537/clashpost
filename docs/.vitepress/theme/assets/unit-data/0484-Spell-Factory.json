@@ -14,10 +14,11 @@
     "scope": "Source statistics tables and available 2026 history; base values",
     "th19Update": {
       "checkedOn": "2026-11-16",
-      "source": "ClashKing Assets (selected game facts)",
-      "sourceUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json",
-      "scope": "Selected new levels and baseline-matched cost/time adjustments; missing fields remain unknown.",
-      "followupVerification": "10 级容量参考 https://clashofclans.fandom.com/wiki/Spell_Factory ，2026-11-16 核对。"
+      "source": "Supercell 官方公告、部落冲突 Wiki 及玩家提供的信息（按字段核对）",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/",
+      "scope": "采用已核实的字段；未通过上述来源核实的候选数据标为待更新。原候选来源和历史过程记于 SOURCE_PERMISSIONS.md。",
+      "followupVerification": "10 级容量参考 https://clashofclans.fandom.com/wiki/Spell_Factory ，2026-11-16 核对。",
+      "activePolicy": "按官方公告、Wiki 或玩家提供的信息保留已核实数据；尚未核实的字段不展示候选值。原始候选来源记录于 SOURCE_PERMISSIONS.md。"
     },
     "reviewedTableCorrections": [
       {
@@ -621,7 +622,7 @@
           {
             "status": "known",
             "value": 16000000,
-            "raw": "16000000"
+            "raw": "16,000,000"
           },
           {
             "status": "known",
@@ -650,7 +651,7 @@
           {
             "status": "known",
             "value": 1220,
-            "raw": "1220"
+            "raw": "1,220"
           },
           {
             "status": "known",
@@ -665,7 +666,7 @@
           {
             "status": "known",
             "value": 18500000,
-            "raw": "18500000"
+            "raw": "18,500,000"
           },
           {
             "status": "known",

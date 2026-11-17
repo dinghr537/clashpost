@@ -110,9 +110,35 @@ def prerequisite(records, unit, level):
     return None
 
 
+OUTDATED = '<span class="cp-outdated"></span>'
+
+
+def outdated_inputs(spec, source, row, records):
+    """Source cells behind a value; pre-update values awaiting a Wiki update are flagged."""
+    if isinstance(spec, int):
+        cells = [row[spec]]
+    elif 'duration' in spec:
+        cells = [row[spec['duration']]]
+    elif 'sum' in spec or 'multiply' in spec:
+        cells = [row[i] for i in spec.get('sum', [spec.get('multiply')])]
+    elif 'percentOffset' in spec:
+        cells = [row[spec['percentOffset']]]
+    elif 'sameLevelSource' in spec:
+        ref = spec['sameLevelSource']
+        table = next((t for t in records[ref['unit']]['tables'] if t['sourceTableIndex'] == ref['table']), None)
+        cells = [r[ref['column']] for r in (table or {}).get('rows', []) if r[0]['value'] == row[0]['value']]
+    else:
+        cells = []
+    return any(cell.get('verification') == 'outdated' for cell in cells)
+
+
 def evaluate(spec, source, row, translated, old, header, meta, records, min_town_hall=0):
     if isinstance(spec, int):
         cell = row[spec]
+        # Explicitly withheld values must not be revived from an older authored
+        # table merely because a source field is unavailable.
+        if cell.get('verification') == 'pending':
+            return '待更新'
         # N/A means no research is performed for the initial unlocked level; it does
         # not invalidate the original page's separately supplied unlock condition.
         if cell['status'] != 'known' and plain(header).startswith('所需') and old:
@@ -128,6 +154,8 @@ def evaluate(spec, source, row, translated, old, header, meta, records, min_town
         return ''  # UnitTable derives experience/daily cost from the updated cost/time cells.
     if 'requirement' in spec:
         cell = row[source['headers'].index(spec['requirement'])]
+        if cell.get('verification') == 'pending':
+            return number(cell['confirmedTownHall']) if 'confirmedTownHall' in cell else '待更新'
         if cell['status'] != 'known' or not isinstance(cell['value'], (int, float)):
             return old or '待更新'
         result = prerequisite(records, spec['unit'], cell['value'])
@@ -137,7 +165,10 @@ def evaluate(spec, source, row, translated, old, header, meta, records, min_town
         table = next(t for t in base['tables'] if t['headers'][0] == 'Level' and 'Laboratory Level Required' in t['headers'])
         match = next((r for r in table['rows'] if r[0]['value'] == row[0]['value']), None)
         if match:
-            lab = match[table['headers'].index('Laboratory Level Required')]['value']
+            lab_cell = match[table['headers'].index('Laboratory Level Required')]
+            if lab_cell.get('verification') == 'pending':
+                return number(lab_cell['confirmedTownHall']) if 'confirmedTownHall' in lab_cell else '待更新'
+            lab = lab_cell['value']
             result = prerequisite(records, '0483-Laboratory', lab) if isinstance(lab, (int, float)) else None
             if result is not None:
                 return number(max(result, min_town_hall, 11))
@@ -152,12 +183,18 @@ def evaluate(spec, source, row, translated, old, header, meta, records, min_town
         if len(matches) != 1:
             raise ValueError('Referenced source level is missing or ambiguous')
         cell = matches[0][ref['column']]
+        if cell.get('verification') == 'pending':
+            return '待更新'
         return cell_text(cell, cell['raw'], meta) if cell['status'] == 'known' else old or '待更新'
     if 'duration' in spec:
         cell = row[spec['duration']]
+        if cell.get('verification') == 'pending':
+            return '待更新'
         return duration(cell['raw']) if cell['status'] == 'known' else '\\'
     if 'sum' in spec or 'multiply' in spec:
         columns = spec.get('sum', [spec.get('multiply')])
+        if any(row[i].get('verification') == 'pending' for i in columns):
+            return '待更新'
         if any(row[i]['status'] != 'known' or not isinstance(row[i]['value'], (int, float)) for i in columns):
             return old or '待更新'
         value = sum(row[i]['value'] for i in columns)
@@ -167,7 +204,10 @@ def evaluate(spec, source, row, translated, old, header, meta, records, min_town
     if 'join' in spec:
         return ' / '.join(cell_text(row[i], translated[i]) for i in spec['join'])
     if 'percentOffset' in spec:
-        raw = row[spec['percentOffset']]['raw']
+        cell = row[spec['percentOffset']]
+        if cell.get('verification') == 'pending':
+            return '待更新'
+        raw = cell['raw']
         if not re.fullmatch(r'[\d.]+%', raw):
             raise ValueError('Conversion bonus is no longer a percentage')
         return number(float(raw[:-1]) + spec['offset']) + '%'
@@ -213,13 +253,15 @@ def update_table(old, mapping, record, translated, records, min_town_hall=0):
                 previous = matches[0] if matches else previous
             out = []
             for col, heading in enumerate(old['headers']):
-                fallback = previous[col] if previous else ''
+                fallback = previous[col].replace(OUTDATED, '') if previous else ''
                 spec = source_map['columns'].get(str(col))
                 if spec is None:
                     value = fallback or '待更新'
                     preserved.append(heading)
                 else:
                     value = evaluate(spec, source, row, label, fallback, heading, metas.get(col), records, min_town_hall)
+                    if value and '待更新' not in value and value != '\\' and outdated_inputs(spec, source, row, records):
+                        value += OUTDATED
                 value = value.replace('未知', '待更新').replace('待核实', '待更新')
                 if col == 0:
                     value = prefix + value if prefix else value

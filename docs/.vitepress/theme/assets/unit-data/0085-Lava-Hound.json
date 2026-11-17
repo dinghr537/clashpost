@@ -14,15 +14,10 @@
     "scope": "Source statistics tables and available 2026 history; base values",
     "th19Update": {
       "checkedOn": "2026-11-16",
-      "source": "ClashKing Assets (selected game facts)",
-      "sourceUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json",
-      "scope": "Selected new levels and baseline-matched cost/time adjustments; missing fields remain unknown.",
-      "oldLevelCostTimeReference": {
-        "checkedOn": "2026-11-16",
-        "source": "用户提供的玩家整理与 ClashKing Assets 固定修订逐项对照",
-        "articleUrl": "https://mp.weixin.qq.com/s/1C8VxevkSERrS2x1vJd8aA",
-        "snapshotUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json"
-      }
+      "source": "Supercell 官方公告、部落冲突 Wiki 及玩家提供的信息（按字段核对）",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/",
+      "scope": "采用已核实的字段；未通过上述来源核实的候选数据标为待更新。原候选来源和历史过程记于 SOURCE_PERMISSIONS.md。",
+      "activePolicy": "按官方公告、Wiki 或玩家提供的信息保留已核实数据；尚未核实的字段不展示候选值。原始候选来源记录于 SOURCE_PERMISSIONS.md。"
     },
     "reviewedTableCorrections": [
       {
@@ -33,13 +28,13 @@
             "level": 5,
             "header": "Research Cost",
             "originalRaw": "60,000",
-            "correctedRaw": "50000"
+            "correctedRaw": "?"
           },
           {
             "level": 5,
             "header": "Research Time",
             "originalRaw": "4d",
-            "correctedRaw": "3d 12h"
+            "correctedRaw": "?"
           }
         ],
         "reason": "Review against the user-provided November 2026 reference, current game-data snapshot, or the linked source documented on the page; do not silently restore an older snapshot."
@@ -371,14 +366,16 @@
           {
             "status": "known",
             "value": 50000,
-            "raw": "50000"
+            "raw": "50,000",
+            "source": "ClashKing"
           },
           {
             "status": "known",
             "value": 302400,
             "raw": "3d 12h",
             "unit": "seconds",
-            "displayInput": "3,12,0,0"
+            "displayInput": "3,12,0,0",
+            "source": "ClashKing"
           },
           {
             "status": "known",
@@ -479,14 +476,16 @@
           {
             "status": "known",
             "value": 190000,
-            "raw": "190000"
+            "raw": "190,000",
+            "source": "ClashKing"
           },
           {
             "status": "known",
             "value": 648000,
             "raw": "7d 12h",
             "unit": "seconds",
-            "displayInput": "7,12,0,0"
+            "displayInput": "7,12,0,0",
+            "source": "ClashKing"
           },
           {
             "status": "known",
@@ -533,14 +532,16 @@
           {
             "status": "known",
             "value": 285000,
-            "raw": "285000"
+            "raw": "285,000",
+            "source": "ClashKing"
           },
           {
             "status": "known",
             "value": 907200,
             "raw": "10d 12h",
             "unit": "seconds",
-            "displayInput": "10,12,0,0"
+            "displayInput": "10,12,0,0",
+            "source": "ClashKing"
           },
           {
             "status": "known",
@@ -557,17 +558,21 @@
           {
             "status": "known",
             "value": 26,
-            "raw": "26"
+            "raw": "26",
+            "source": "ClashKing"
           },
           {
             "status": "known",
-            "value": 52.0,
-            "raw": "52.0"
+            "value": 52,
+            "raw": "52",
+            "source": "ClashKing"
           },
           {
-            "status": "known",
-            "value": 500,
-            "raw": "500"
+            "status": "unknown",
+            "value": null,
+            "raw": "?",
+            "verification": "pending",
+            "verificationReason": "新增等级尚待官方、Wiki 或玩家核实"
           },
           {
             "status": "unknown",
@@ -582,24 +587,28 @@
           {
             "status": "known",
             "value": 11000,
-            "raw": "11000"
+            "raw": "11,000",
+            "source": "ClashKing"
           },
           {
             "status": "known",
             "value": 375000,
-            "raw": "375000"
+            "raw": "375,000",
+            "source": "ClashKing"
           },
           {
             "status": "known",
             "value": 950400,
             "raw": "11d",
             "unit": "seconds",
-            "displayInput": "11,0,0,0"
+            "displayInput": "11,0,0,0",
+            "source": "ClashKing"
           },
           {
             "status": "known",
             "value": 17,
-            "raw": "17"
+            "raw": "17",
+            "source": "ClashKing"
           }
         ]
       ],

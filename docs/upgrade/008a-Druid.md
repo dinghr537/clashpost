@@ -29,6 +29,7 @@ dataVersionUpdatedOn: 2026-11-16
         <UnitImg imgTitle="3 - 4 级" imgSrc="Druid3.png" />
         <UnitImg imgTitle="5 级" imgSrc="Druid5.png" imgHd="Druid5_hd.png" />
             <UnitImg imgTitle="6 级" imgSrc="Druid6.png" />
+            <UnitImg imgTitle="7 级" imgSrc="Druid7.png" />
 </UnitImgGroup>
 </Panel>
 
@@ -69,7 +70,7 @@ dataVersionUpdatedOn: 2026-11-16
 
 <small>本级部分伤害或治疗量按本页已有倍率、攻速或治疗次数计算。</small>
 
-<small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为待更新。</small>
+<small>19 本资料参考 [Supercell 官方公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)、[部落冲突 Wiki](https://clashofclans.fandom.com/wiki/Druid)与 [ClashKing 游戏数据](https://github.com/ClashKingInc/ClashKingAssets)；暂缺的字段标为待更新。</small>
 
 <script setup>
 const tableExtraInfo = [
@@ -97,7 +98,7 @@ const tableExtraInfo = [
 | 4 | 95 | 95 | 1600 | 150000 | 8,0,0,0 | 14 | 16 |
 | 5 | 105 | 105 | 1700 | 215000 | 8,12,0,0 | 15 | 17 |
 | 6 | 115 | 115 | 1850 | 340000 | 12,12,0,0 | 16 | 18 |
-| 7 | 125 | 125 | 2000 | 415000 | 13,0,0,0 | 17 | 19 |
+| 7 | 待更新 | 待更新 | 2000 | 415000 | 13,0,0,0 | 17 | 19 |
 </UnitTable>
 </SwitchTabGroup>
 
@@ -113,6 +114,7 @@ const tableExtraInfo = [
         <UnitImg imgTitle="1 - 2 级" imgSrc="Bear1.png" />
         <UnitImg imgTitle="3 - 4 级" imgSrc="Bear3.png" />
         <UnitImg imgTitle="5 级" imgSrc="Bear5.png" imgHd="Bear5_hd.png" />
+        <UnitImg imgTitle="6 级" imgSrc="Bear6.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -219,5 +221,3 @@ const tableExtraInfo = [
     <TimelineItem :historyBottom="true" />
 </Timeline>
 <p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Druid?oldid=625361" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>
-
-<small>2026 年 11 月旧等级费用与时间参考[玩家整理](https://mp.weixin.qq.com/s/1C8VxevkSERrS2x1vJd8aA)（用户提供原文）及 [ClashKing 游戏数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)。本站保留表格结构并按等级核对。</small>

@@ -45,7 +45,7 @@ dataVersionUpdatedOn: 2026-11-16
 
 <small>本级部分伤害或治疗量按本页已有倍率、攻速或治疗次数计算。</small>
 
-<small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为待更新。</small>
+<small>19 本资料参考 [Supercell 官方公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)与 [部落冲突 Wiki](https://clashofclans.fandom.com/wiki/Healing_Spell)。</small>
 
 <script setup>
 const tableExtraInfo = [
@@ -79,7 +79,7 @@ const tableExtraInfo = [
 | 10 | 2460 | 1353 | 14000000 | 7,0,0,0 | 14 | 16 |
 | 11 | 2747 | 1510.85 | 16000000 | 8,18,0,0 | 15 | 17 |
 | 12 | 3075 | 1691.25 | 19500000 | 10,12,0,0 | 16 | 18 |
-| 13 | 3485 | 1916.75 | 29500000 | 14,12,0,0 | 17 | 19 |
+| 13 | 3485 | 1916 | 29500000 | 14,12,0,0 | 17 | 19 |
 </UnitTable>
 
 ① 表格中的总治疗量指的是每个兵都可以享受这么多治疗量。<br>
@@ -143,5 +143,3 @@ const tableExtraInfo = [
     <TimelineItem :historyBottom="true" />
 </Timeline>
 <p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Healing_Spell?oldid=588153" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>
-
-<small>2026 年 11 月旧等级费用与时间参考[玩家整理](https://mp.weixin.qq.com/s/1C8VxevkSERrS2x1vJd8aA)（用户提供原文）及 [ClashKing 游戏数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)。本站保留表格结构并按等级核对。</small>

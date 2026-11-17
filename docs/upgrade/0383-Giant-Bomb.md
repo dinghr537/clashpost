@@ -25,6 +25,7 @@ dataVersionUpdatedOn: 2026-11-16
         <UnitImg imgTitle="7 - 8 级" imgSrc="Giant_Bomb7.png" />
         <UnitImg imgTitle="9 - 10 级" imgSrc="Giant_Bomb9.png" />
         <UnitImg imgTitle="11 级" imgSrc="Giant_Bomb11.png" />
+        <UnitImg imgTitle="12 级" imgSrc="Giant_Bomb12.png" />
     </UnitImgGroup>
     <UnitImgGroup title="未重新布置" :folder="$frontmatter.imgFolder">
         <UnitImg imgTitle="1 - 2 级" imgSrc="Giant_Bomb1_unarmed.png" />
@@ -43,7 +44,7 @@ dataVersionUpdatedOn: 2026-11-16
     <BuildingNumRow title="建筑数量" num="    0, 1, 2, 3, 4,       5,       6,       7,       8" />
 </BuildingNum>
 
-<small>19 本数量参考 [官方更新公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)和 [ClashRecord](https://www.clashrecord.com/max-levels/th19)；可合并建筑按全部合并后计算。</small>
+<small>19 本数量以 [部落冲突 Wiki](https://clashofclans.fandom.com/wiki/Giant_Bomb) 的既有数量为基础，结合 [Supercell 官方更新公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)中的新增和合并项目，按合并后数量计算。</small>
 
 <SmallTitle>属性</SmallTitle>
 
@@ -57,7 +58,7 @@ dataVersionUpdatedOn: 2026-11-16
 
 <SmallTitle>升级数据</SmallTitle>
 
-<small>19 本版本对部分旧等级的费用、时间作了调整；变更数值参考 [ClashKing Assets](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)。</small>
+<small>19 本版本调整了部分旧等级的费用和时间，调整范围见<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/">官方公告</a>，调整后的数值来自<a href="https://github.com/ClashKingInc/ClashKingAssets" target="_blank" rel="noopener noreferrer">ClashKing 游戏数据</a>。</small>
 
 <script setup>
 const tableExtraInfo = [

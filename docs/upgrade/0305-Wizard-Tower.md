@@ -47,7 +47,7 @@ dataVersionUpdatedOn: 2026-11-16
     <BuildingNumRow title="建筑数量" num="    0, 1,     2, 3,      4,       5,  2" />
 </BuildingNum>
 
-<small>19 本数量参考 [官方更新公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)和 [ClashRecord](https://www.clashrecord.com/max-levels/th19)；可合并建筑按全部合并后计算。</small>
+<small>19 本数量以 [部落冲突 Wiki](https://clashofclans.fandom.com/wiki/Wizard_Tower) 的既有数量为基础，结合 [Supercell 官方更新公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)中的新增和合并项目，按合并后数量计算。</small>
 
 注：18 本可新建一个法师塔，合并两个超级法师塔，因此法师塔的数量为 5 + 1 - 2 * 2 = 2 个。
 
@@ -67,7 +67,7 @@ dataVersionUpdatedOn: 2026-11-16
 
 <SmallTitle>升级数据</SmallTitle>
 
-<small>19 本版本对部分旧等级的费用、时间作了调整；变更数值参考 [ClashKing Assets](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)。</small>
+<small>19 本版本调整了部分旧等级的费用和时间，调整范围见<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/">官方公告</a>。</small>
 
 <script setup>
 const tableExtraInfo = [
@@ -118,9 +118,6 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
-    <TimelineItem date="2026/04/27">
-        <TimelineRow>十七级升级时间从 8 天 12 小时缩短为 5 天 12 小时。 <a href="https://clashofclans.fandom.com/wiki/Wizard_Tower?oldid=625327" target="_blank" rel="noopener noreferrer">新旧数值来源</a>；生效日期参考 <a href="https://www.clash.ninja/blog/april-2026-update-is-live" target="_blank" rel="noopener noreferrer">当日更新公告</a>。</TimelineRow>
-    </TimelineItem>
     <TimelineItem date="2025/11/17">
         <TimelineRow>17 级法师塔的升级时间和升级费用减少。</TimelineRow>
     </TimelineItem>
@@ -188,5 +185,3 @@ const tableExtraInfo = [
 </Timeline>
 
 <p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Wizard_Tower?oldid=625327" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>
-
-<small>2026 年 11 月旧等级费用与时间参考[玩家整理](https://mp.weixin.qq.com/s/1C8VxevkSERrS2x1vJd8aA)（用户提供原文）及 [ClashKing 游戏数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)。本站保留表格结构并按等级核对。</small>

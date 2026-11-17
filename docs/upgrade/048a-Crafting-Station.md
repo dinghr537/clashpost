@@ -19,8 +19,6 @@ dataSyncedOn: 2026-10-13
     <BuildingNumRow title="建筑数量" num="     0,       1" />
 </BuildingNum>
 
-<small>19 本的精制台数量为 1，依据玩家提供的信息。[ClashClock](https://clashclock.com/en/town-hall/19) 和 [ClashPerk](https://wiki.clashperk.com/other/town-hall) 将精制台列为 19 本新增，两个网站的数据也可能同源。</small>
-
 <SmallTitle>重要说明</SmallTitle>
 
 1. 2026 年 8 月开放的第四批精工防御期间，11 本及以上玩家可以使用精制台。开放条件可能随下一批精工防御调整。<small>（来源：<a href="https://supercell.com/en/games/clashofclans/blog/news/the-awesome-quest-is-here/" target="_blank" rel="noopener noreferrer">Supercell 官方赛季安排</a>）</small>

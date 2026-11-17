@@ -14,7 +14,7 @@ dataVersionUpdatedOn: 2026-11-16
 
 - *如想查看合并前的建筑，请访问 [箭塔](/upgrade/0302-Archer-Tower)。*
 
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Multi-Archer_Tower4.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Multi-Archer_Tower5.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
 
 <SmallTitle>各等级图片</SmallTitle>
 
@@ -25,6 +25,7 @@ dataVersionUpdatedOn: 2026-11-16
         <UnitImg imgTitle="2 级" imgSrc="Multi-Archer_Tower2.png" />
         <UnitImg imgTitle="3 级" imgSrc="Multi-Archer_Tower3.png" />
         <UnitImg imgTitle="4 级" imgSrc="Multi-Archer_Tower4.png" />
+        <UnitImg imgTitle="5 级" imgSrc="Multi-Archer_Tower5.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -35,7 +36,7 @@ dataVersionUpdatedOn: 2026-11-16
     <BuildingNumRow title="建筑数量" num="     0,  2,       3" />
 </BuildingNum>
 
-<small>19 本数量参考 [官方更新公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)和 [ClashRecord](https://www.clashrecord.com/max-levels/th19)；可合并建筑按全部合并后计算。</small>
+<small>19 本数量以 [部落冲突 Wiki](https://clashofclans.fandom.com/wiki/Multi-Archer_Tower) 的既有数量为基础，结合 [Supercell 官方更新公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)中的新增和合并项目，按合并后数量计算。</small>
 
 <SmallTitle>重要说明</SmallTitle>
 
@@ -61,7 +62,7 @@ dataVersionUpdatedOn: 2026-11-16
 
 <small>本级部分伤害或治疗量按本页已有倍率、攻速或治疗次数计算。</small>
 
-<small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为待更新。</small>
+<small>19 本资料参考 [Supercell 官方公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)与 [部落冲突 Wiki](https://clashofclans.fandom.com/wiki/Multi-Archer_Tower)。</small>
 
 <script setup>
 const tableExtraInfo = [
@@ -84,8 +85,6 @@ const tableExtraInfo = [
 ];
 </script>
 
-<p><small>2026 年 19 本更新后，本建筑此前的超级充能已移除；下方带 ⚡ 的行仅供查阅历史数据。正在进行的充能会全额退款，已完成的充能不退款。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/">官方公告</a></small></p>
-
 <UnitTable :tableExtraInfo="tableExtraInfo">
 
 | 等级 |每个弓箭手的<br>每秒伤害|每个弓箭手的<br>每次伤害| 生命值 | 升级费用 | 升级时间 |升级后可<br>获得的经验| 所需<br>大本等级 |
@@ -95,8 +94,6 @@ const tableExtraInfo = [
 | 3 | 116 | 70 | 5400 | 17500000 | 9,0,0,0 |  | 17 |
 | 4 | 121 | 73 | 5500 | 23000000 | 11,0,0,0 |  | 18 |
 | 5 | 136 | 82 | 5900 | 29000000 | 14,12,0,0 |  | 19 |
-| ⚡1 | 126 | 76 | 5500 | 4750000 | 2,10,0,0 |  | 18 |
-| ⚡2 | 126 | 76 | 5600 | 4000000 | 2,19,0,0 |  | 18 |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
@@ -104,11 +101,6 @@ const tableExtraInfo = [
 <Timeline>
     <TimelineItem date="2026/11/16">
         <TimelineRow>19 本版本新增 5 级。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
-    </TimelineItem>
-    <TimelineItem date="2026/10/20">
-        <TimelineRow>充能 1 级：费用由 1200 万降至 475 万，时间由 6天缩短至 2天10小时。</TimelineRow>
-        <TimelineRow>充能 2 级：费用由 1000 万降至 400 万，时间由 7天缩短至 2天19小时。</TimelineRow>
-        <TimelineRow><a href="https://x.com/ClashDotNinja/status/2112523574984446061" target="_blank" rel="noopener noreferrer">来源：Clash Ninja 充能调整公告</a>。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2026/01/28">
         <TimelineRow>多人箭塔的攻速由 0.5 秒/次 降低到 0.6 秒/次。</TimelineRow>

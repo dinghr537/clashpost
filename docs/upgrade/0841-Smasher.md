@@ -38,19 +38,20 @@ dataVersionUpdatedOn: 2026-11-16
     <UnitProperty pKey="移动速度" pValue="2.5 格/秒" />
     <UnitProperty pKey="攻击速度" pValue="1.8 秒/次" />
     <UnitProperty pKey="攻击距离" pValue="1.25 格" />
-    <UnitProperty pKey="警戒半径" pValue="14 格<sup>①</sup>" />
-    <UnitProperty pKey="巡逻半径" pValue="12 格<sup>②</sup>" />
+    <UnitProperty pKey="警戒半径" pValue="14 格" />
+    <UnitProperty pKey="巡逻半径" pValue="12 格" />
     <UnitProperty pKey="狂暴状态下移动速度提升" pValue="1.5 格/秒" />
     <UnitProperty pKey="狂暴状态下伤害提升" pValue="60%" />
     <UnitProperty pKey="所需大本等级" pValue="18" />
 </UnitProperties>
 
-① （待证实）如果敌军进入这个范围，守卫会看向部队的方向，准备反击。<br>
-② （待证实）在没有敌人的情况下，守卫也会走动，而这个走动的范围叫巡逻半径。
+<small>警戒半径：敌军进入后，守卫会看向部队的方向，准备反击。</small>
+
+<small>巡逻半径：没有敌人时守卫的走动范围。</small>
 
 <SmallTitle>升级数据</SmallTitle>
 
-<small>19 本数据补充参考 [部落冲突 Wiki](https://clashofclans.fandom.com/wiki/Smasher) 和 [ClashKing Assets](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为待更新。</small>
+<small>19 本资料参考 [Supercell 官方公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)与 [部落冲突 Wiki](https://clashofclans.fandom.com/wiki/Smasher)。</small>
 
 <small>2–5 级费用采用 [Supercell 19 本更新公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)中的数值；维基列出的费用不同。</small>
 

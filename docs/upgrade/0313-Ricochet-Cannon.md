@@ -14,7 +14,7 @@ dataVersionUpdatedOn: 2026-11-16
 
 - *如想查看合并前的建筑，请访问 [加农炮](/upgrade/0301-Cannon)。*
 
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Ricochet_Cannon4.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Ricochet_Cannon5.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
 
 <SmallTitle>各等级图片</SmallTitle>
 
@@ -25,6 +25,7 @@ dataVersionUpdatedOn: 2026-11-16
         <UnitImg imgTitle="2 级" imgSrc="Ricochet_Cannon2.png" />
         <UnitImg imgTitle="3 级" imgSrc="Ricochet_Cannon3.png" />
         <UnitImg imgTitle="4 级" imgSrc="Ricochet_Cannon4.png" />
+        <UnitImg imgTitle="5 级" imgSrc="Ricochet_Cannon5.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -35,7 +36,7 @@ dataVersionUpdatedOn: 2026-11-16
     <BuildingNumRow title="建筑数量" num="     0,  2,       3" />
 </BuildingNum>
 
-<small>19 本数量参考 [官方更新公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)和 [ClashRecord](https://www.clashrecord.com/max-levels/th19)；可合并建筑按全部合并后计算。</small>
+<small>19 本数量以 [部落冲突 Wiki](https://clashofclans.fandom.com/wiki/Ricochet_Cannon) 的既有数量为基础，结合 [Supercell 官方更新公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)中的新增和合并项目，按合并后数量计算。</small>
 
 <SmallTitle>重要说明</SmallTitle>
 
@@ -63,7 +64,7 @@ dataVersionUpdatedOn: 2026-11-16
 
 <small>本级部分伤害或治疗量按本页已有倍率、攻速或治疗次数计算。</small>
 
-<small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为待更新。</small>
+<small>19 本资料参考 [Supercell 官方公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)与 [部落冲突 Wiki](https://clashofclans.fandom.com/wiki/Ricochet_Cannon)。</small>
 
 <script setup>
 const tableExtraInfo = [
@@ -86,8 +87,6 @@ const tableExtraInfo = [
 ];
 </script>
 
-<p><small>2026 年 19 本更新后，本建筑此前的超级充能已移除；下方带 ⚡ 的行仅供查阅历史数据。正在进行的充能会全额退款，已完成的充能不退款。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/">官方公告</a></small></p>
-
 <UnitTable :tableExtraInfo="tableExtraInfo">
 
 | 等级 | 每秒伤害 | 每次伤害 | 第二个目标的<br>每次伤害 | 生命值 | 升级费用 | 升级时间 |升级后可<br>获得的经验| 所需<br>大本等级 |
@@ -97,8 +96,6 @@ const tableExtraInfo = [
 | 3 | 405 | 324 | 226.8 | 6000 | 17500000 | 9,0,0,0 |  | 17 |
 | 4 | 412 | 329.6 | 230.72 | 6100 | 22000000 | 10,0,0,0 |  | 18 |
 | 5 | 440 | 352 | 246.4 | 6500 | 28000000 | 14,0,0,0 |  | 19 |
-| ⚡1 | 420 | 336 | 235.2 | 6100 | 4750000 | 2,10,0,0 |  | 18 |
-| ⚡2 | 420 | 336 | 235.2 | 6250 | 4000000 | 2,19,0,0 |  | 18 |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
@@ -106,11 +103,6 @@ const tableExtraInfo = [
 <Timeline>
     <TimelineItem date="2026/11/16">
         <TimelineRow>19 本版本新增 5 级。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
-    </TimelineItem>
-    <TimelineItem date="2026/10/20">
-        <TimelineRow>充能 1 级：费用由 1200 万降至 475 万，时间由 6天缩短至 2天10小时。</TimelineRow>
-        <TimelineRow>充能 2 级：费用由 1000 万降至 400 万，时间由 7天缩短至 2天19小时。</TimelineRow>
-        <TimelineRow><a href="https://x.com/ClashDotNinja/status/2112523574984446061" target="_blank" rel="noopener noreferrer">来源：Clash Ninja 充能调整公告</a>。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2026/01/28">
         <TimelineRow>跳弹加农炮第二个目标受到的伤害由 100% 降低到 70%.</TimelineRow>

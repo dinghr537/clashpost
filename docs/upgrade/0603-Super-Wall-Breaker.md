@@ -62,7 +62,7 @@ dataVersionUpdatedOn: 2026-11-16
 
 <SmallTitle>升级数据</SmallTitle>
 
-<small>19 本新增等级沿用本页与原兵种相同的编号：通过旧等级属性对照及原兵种等级，将 [ClashKing 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)重新编号后补入；本页新增的 15 级，对应官方公告和候选数据的 11 级；此对应关系仍待游戏内核对。缺失字段标为待更新。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/">官方公告</a></small>
+<small>超级兵等级暂沿用与普通兵种相同的编号；与官方公告中的编号对应关系待更新。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/">官方公告</a></small>
 
 <UnitTable>
 
@@ -78,7 +78,7 @@ dataVersionUpdatedOn: 2026-11-16
 | 12 | 150 | 363 | 513 | 14520 | 20520 | 525 | 16 |
 | 13 | 160 | 388 | 548 | 15520 | 21920 | 550 | 17 |
 | 14 | 170 | 413 | 583 | 16520 | 23320 | 575 | 18 |
-| 15 | 180 | 438 | 618 | 17520 | 24720 | 600 | 19 |
+| 15 | 待更新 | 待更新 | 待更新 | 待更新 | 待更新 | 待更新 | 19 |
 </UnitTable>
 
 \* 5 - 6 级超级炸弹人只在 奖章活动 中出现，不能通过常规方式得到。

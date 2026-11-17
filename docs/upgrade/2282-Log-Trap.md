@@ -48,7 +48,7 @@ dataSyncedOn: 2026-10-13
 
 </DistrictTable>
 
-<p><small>子城数量核对：2026-11-03 · <a href="https://clash-of-clans.1337wiki.com/wizard-valley/" target="_blank" rel="noopener noreferrer">法师山谷资料</a>、<a href="https://clash-of-clans.1337wiki.com/balloon-lagoon/" target="_blank" rel="noopener noreferrer">气球环礁资料</a>；另与页面所列维基修订一致。</small></p>
+<p><small>子城资料依据 [部落冲突 Wiki](https://clashofclans.fandom.com/wiki/Log_Trap) 核对。</small></p>
 
 <SmallTitle>属性</SmallTitle>
 

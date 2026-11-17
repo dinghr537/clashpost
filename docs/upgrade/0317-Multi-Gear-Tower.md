@@ -43,7 +43,7 @@ const tableExtraInfoFastAttackMode = tableExtraInfoLongRageMode;
 
 <!-- ↓↓↓ 远程攻击模式 ↓↓↓ -->
 <SwitchTabGroup id="cp-unit-item-0" class="cp-unit-items">
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Multi-Gear_Tower3_LongRange_hd.png" imgAlt="复合机械塔（远程攻击模式）" :description="$frontmatter.description" :isSmallImg="true" />
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Multi-Gear_Tower4_LongRange.png" imgAlt="复合机械塔（远程攻击模式）" :description="$frontmatter.description" :isSmallImg="true" />
 
 <SmallTitle>各等级图片</SmallTitle>
 
@@ -53,6 +53,7 @@ const tableExtraInfoFastAttackMode = tableExtraInfoLongRageMode;
         <UnitImg imgTitle="1 级" imgSrc="Multi-Gear_Tower1_LongRange.png" imgHd="Multi-Gear_Tower1_LongRange_hd.png" />
         <UnitImg imgTitle="2 级" imgSrc="Multi-Gear_Tower2_LongRange.png" imgHd="Multi-Gear_Tower2_LongRange_hd.png" />
         <UnitImg imgTitle="3 级" imgSrc="Multi-Gear_Tower3_LongRange.png" imgHd="Multi-Gear_Tower3_LongRange_hd.png" />
+        <UnitImg imgTitle="4 级" imgSrc="Multi-Gear_Tower4_LongRange.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -63,7 +64,7 @@ const tableExtraInfoFastAttackMode = tableExtraInfoLongRageMode;
     <BuildingNumRow title="建筑数量" num="     0,       1" />
 </BuildingNum>
 
-<small>19 本数量参考 [官方更新公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)和 [ClashRecord](https://www.clashrecord.com/max-levels/th19)；可合并建筑按全部合并后计算。</small>
+<small>19 本数量以 [部落冲突 Wiki](https://clashofclans.fandom.com/wiki/Multi-Gear_Tower) 的既有数量为基础，结合 [Supercell 官方更新公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)中的新增和合并项目，按合并后数量计算。</small>
 
 <SmallTitle>重要说明</SmallTitle>
 
@@ -87,9 +88,7 @@ const tableExtraInfoFastAttackMode = tableExtraInfoLongRageMode;
 
 <SmallTitle>升级数据</SmallTitle>
 
-<small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为待更新。</small>
-
-<p><small>2026 年 19 本更新后，本建筑此前的超级充能已移除；下方带 ⚡ 的行仅供查阅历史数据。正在进行的充能会全额退款，已完成的充能不退款。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/">官方公告</a></small></p>
+<small>19 本资料参考 [Supercell 官方公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)与 [部落冲突 Wiki](https://clashofclans.fandom.com/wiki/Multi-Gear_Tower)。</small>
 
 <UnitTable :tableExtraInfo="tableExtraInfoLongRageMode">
 
@@ -99,14 +98,12 @@ const tableExtraInfoFastAttackMode = tableExtraInfoLongRageMode;
 | 2 | 370 | 370 | 4200 | 18000000 | 9,0,0,0 |  | 17 |
 | 3 | 390 | 390 | 4350 | 23500000 | 11,0,0,0 |  | 18 |
 | 4 | 430 | 430 | 4700 | 30000000 | 14,12,0,0 |  | 19 |
-| ⚡1 | 400 | 400 | 4350 | 4750000 | 2,10,0,0 |  | 18 |
-| ⚡2 | 400 | 400 | 4500 | 4000000 | 2,19,0,0 |  | 18 |
 </UnitTable>
 </SwitchTabGroup>
 
 <!-- ↓↓↓ 快速攻击模式 ↓↓↓ -->
 <SwitchTabGroup id="cp-unit-item-1" class="cp-unit-items">
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Multi-Gear_Tower3_FastAttack_hd.png" imgAlt="复合机械塔（快速攻击模式）" :description="$frontmatter.description" :isSmallImg="true" />
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Multi-Gear_Tower4_FastAttack.png" imgAlt="复合机械塔（快速攻击模式）" :description="$frontmatter.description" :isSmallImg="true" />
 
 <SmallTitle>各等级图片</SmallTitle>
 
@@ -116,6 +113,7 @@ const tableExtraInfoFastAttackMode = tableExtraInfoLongRageMode;
         <UnitImg imgTitle="1 级" imgSrc="Multi-Gear_Tower1_FastAttack.png" imgHd="Multi-Gear_Tower1_FastAttack_hd.png" />
         <UnitImg imgTitle="2 级" imgSrc="Multi-Gear_Tower2_FastAttack.png" imgHd="Multi-Gear_Tower2_FastAttack_hd.png" />
         <UnitImg imgTitle="3 级" imgSrc="Multi-Gear_Tower3_FastAttack.png" imgHd="Multi-Gear_Tower3_FastAttack_hd.png" />
+        <UnitImg imgTitle="4 级" imgSrc="Multi-Gear_Tower4_FastAttack.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -126,7 +124,7 @@ const tableExtraInfoFastAttackMode = tableExtraInfoLongRageMode;
     <BuildingNumRow title="建筑数量" num="     0,       1" />
 </BuildingNum>
 
-<small>19 本数量参考 [官方更新公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)和 [ClashRecord](https://www.clashrecord.com/max-levels/th19)；可合并建筑按全部合并后计算。</small>
+<small>19 本数量以 [部落冲突 Wiki](https://clashofclans.fandom.com/wiki/Multi-Gear_Tower) 的既有数量为基础，结合 [Supercell 官方更新公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)中的新增和合并项目，按合并后数量计算。</small>
 
 <SmallTitle>重要说明</SmallTitle>
 
@@ -151,8 +149,6 @@ const tableExtraInfoFastAttackMode = tableExtraInfoLongRageMode;
 
 <SmallTitle>升级数据</SmallTitle>
 
-<small>4 级平均每秒伤害参考 [ClashKing 游戏数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)，每次伤害按每轮 4 次、约 0.96 秒计算。⚡ 行为已移除的超级充能历史数据。</small>
-
 <UnitTable :tableExtraInfo="tableExtraInfoFastAttackMode">
 
 | 等级 | 平均每秒伤害 | 每次伤害 | 生命值 | 升级费用 | 升级时间 |升级后可<br>获得的经验| 所需<br>大本等级 |
@@ -160,9 +156,7 @@ const tableExtraInfoFastAttackMode = tableExtraInfoLongRageMode;
 | 1 | 650 | 156 | 4000 | 17000000 | 8,0,0,0 |  | 17 |
 | 2 | 690 | 165.6 | 4200 | 18000000 | 9,0,0,0 |  | 17 |
 | 3 | 710 | 170.4 | 4350 | 23500000 | 11,0,0,0 |  | 18 |
-| 4 | 770 | 184.8 | 4700 | 30000000 | 14,12,0,0 |  | 19 |
-| ⚡1 | 720 | 172.8 | 4350 | 4750000 | 2,10,0,0 |  | 18 |
-| ⚡2 | 720 | 172.8 | 4500 | 4000000 | 2,19,0,0 |  | 18 |
+| 4 | 770 | 184 | 4700 | 30000000 | 14,12,0,0 |  | 19 |
 </UnitTable>
 </SwitchTabGroup>
 
@@ -172,11 +166,6 @@ const tableExtraInfoFastAttackMode = tableExtraInfoLongRageMode;
 <Timeline>
     <TimelineItem date="2026/11/16">
         <TimelineRow>19 本版本新增 4 级。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
-    </TimelineItem>
-    <TimelineItem date="2026/10/20">
-        <TimelineRow>充能 1 级：费用由 1200 万降至 475 万，时间由 6天缩短至 2天10小时。</TimelineRow>
-        <TimelineRow>充能 2 级：费用由 1000 万降至 400 万，时间由 7天缩短至 2天19小时。</TimelineRow>
-        <TimelineRow><a href="https://x.com/ClashDotNinja/status/2112523574984446061" target="_blank" rel="noopener noreferrer">来源：Clash Ninja 充能调整公告</a>。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2026/02/23">
         <TimelineRow>复合防御塔快速攻击模式每秒伤害显示调整：1级540→650，2级574→690，3级588→710，蓄能1级600→720。每次伤害显示调整：1级155→156，3级169→170。</TimelineRow>
@@ -197,5 +186,3 @@ const tableExtraInfoFastAttackMode = tableExtraInfoLongRageMode;
     <TimelineItem :historyBottom="true" />
 </Timeline>
 <p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Multi-Gear_Tower?oldid=624494" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>
-
-<small>2026 年 11 月旧等级费用与时间参考[玩家整理](https://mp.weixin.qq.com/s/1C8VxevkSERrS2x1vJd8aA)（用户提供原文）及 [ClashKing 游戏数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)。本站保留表格结构并按等级核对。</small>

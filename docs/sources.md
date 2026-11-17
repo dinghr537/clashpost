@@ -26,15 +26,11 @@ Wiki 文字与表格整理来自 **Clash of Clans Wiki 的贡献者**，除另�
 
 [COC Wiki 19 本指南](https://cocwiki.com/guides/town-hall-19)中的部分资料注明源自 Clash of Clans Wiki。依据 [COC Wiki 使用条款](https://cocwiki.com/terms)，本站在使用这些资料的页面同时注明 COC Wiki 和原 Wiki，并保留相应的相同方式共享许可。两站的资料并非每个页面都已更新，具体来源以单位页说明为准。
 
-19 本新增等级和部分旧等级的游戏数值也参考了 [ClashKing Assets 的固定修订](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)。本站按原有表格整理相关游戏事实，没有复制其说明文字；尚未核实的字段标为“待更新”。
-
-旧等级费用与时间还对照了用户提供原文的[玩家整理](https://mp.weixin.qq.com/s/1C8VxevkSERrS2x1vJd8aA)，并与上述 ClashKing 固定修订逐项比较。本站仅参考游戏数值，不据此声明取得文章的转载许可。
-
-部分新等级的储量和法术效果参考 [ClashPerk Wiki](https://wiki.clashperk.com/)，各单位页注明具体条目。本站仅引用相关游戏数值，不将其页面文字或图片视为已获开放转载许可。
+19 本更新优先采用 Supercell 官方公告和上述 Wiki。Wiki 尚未更新的数值，采用 [ClashKing Assets](https://github.com/ClashKingInc/ClashKingAssets) 从游戏数据文件导出的数据，感谢该项目的维护者；本站只引用页面所需的单个数值，并在对应单位页注明。ClashKing 仓库采用 GPL-3.0，本站未复制其数据文件。玩家亲自从游戏核实或向其他玩家确认的事实，在对应页面标为“玩家提供”。仍然没有数据的新等级标为“待更新”；更新后可能已经调整、但暂时只有旧数值的，以 * 标出。
 
 ## 官方资料与图片
 
-Supercell 公告和帮助页面用于核对游戏数值与机制，对应链接标在正文中。Supercell 的游戏图片、图标、名称和商标仍归其权利人所有，使用条件见 [Supercell 玩家内容政策](https://supercell.com/en/fan-content-policy/)。
+Supercell 公告和帮助页面用于核对游戏数值与机制，对应链接列在各页底部的资料说明中。Supercell 的游戏图片、图标、名称和商标仍归其权利人所有，使用条件见 [Supercell 玩家内容政策](https://supercell.com/en/fan-content-policy/)。
 
 图片不因出现在 Wiki 或被保存到本站就自动采用文字的 CC 许可。其他作者制作的图片、图解等按各自授权处理，不包含在本站的文字与表格改编许可内。图片出处可查阅[原站图片来源记录](/images/original-sources.json)和 [Wiki 补图来源记录](/images/wiki-sources.json)；来源记录不等同于单独授权书。
 
@@ -48,7 +44,7 @@ Supercell 公告和帮助页面用于核对游戏数值与机制，对应链接�
 
 > 本文采用部落驿站原作者及 Clash of Clans Wiki 贡献者的资料，经部落驿站继承项目中文整理与更新；改编内容采用 CC BY-SA 4.0。Wiki 未改编原文采用 CC BY-SA 3.0，图片及其他第三方材料按其各自许可处理。
 
-上述许可只覆盖相应的资料内容，不是对整个网站代码、界面设计、商标或第三方素材的统一授权。Clash Ninja、ClashFox 等未提供开放转载许可的网站仅作为注明用途的事实参考，本站不据此向读者授予其内容的转载权。2026 年 10 月的平衡调整范围采用 Supercell 公告，公告未列出的完整等级数值参考 ClashFox 同次整理，链接见对应单位的更新历史。
+上述许可只覆盖相应的资料内容，不是对整个网站代码、界面设计、商标或第三方素材的统一授权。
 
 本站与 Supercell、Fandom 或其他参考网站没有赞助、认可或代理关系。
 

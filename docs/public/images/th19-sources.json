@@ -70,7 +70,7 @@
     {
       "path": "/images/th19/0025-Golem-Witch-Squad/icon.webp",
       "unitId": "0025-Golem-Witch-Squad",
-      "caption": "戈仑女巫小队",
+      "caption": "女巫戈仑小队",
       "sourceUrl": "https://raw.githubusercontent.com/ClashKingInc/ClashKingAssets/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/troops/golem_witch_squad/icon.webp",
       "sourcePage": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/troops/golem_witch_squad/icon.webp",
       "sha256": "f259e9bff3ebedadae376943a53be48a91f01a16a656e87b3af41cd0e92a0d29",
@@ -96,7 +96,7 @@
     {
       "path": "/images/th19/0027-Miner-Squad/icon.webp",
       "unitId": "0027-Miner-Squad",
-      "caption": "矿工小队",
+      "caption": "掘地矿工小队",
       "sourceUrl": "https://raw.githubusercontent.com/ClashKingInc/ClashKingAssets/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/troops/miner_squad/icon.webp",
       "sourcePage": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/troops/miner_squad/icon.webp",
       "sha256": "92b33cb3cbeb01695e059d35594356bc65b3e6479db844488e2b2bf2f0eb8741",
@@ -161,7 +161,7 @@
     {
       "path": "/images/th19/010a-Heroic-Spell/icon.webp",
       "unitId": "010a-Heroic-Spell",
-      "caption": "英雄法术",
+      "caption": "英勇法术",
       "sourceUrl": "https://raw.githubusercontent.com/ClashKingInc/ClashKingAssets/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/spells/heroic_spell.webp",
       "sourcePage": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/spells/heroic_spell.webp",
       "sha256": "7bdf1f8c1c5c6a492fd9075ef142bfbb1680e1a8c840b47cd58c44e3f9354eb3",
@@ -442,6 +442,45 @@
       "rightsHolder": "Supercell（游戏素材）",
       "policy": "https://supercell.com/en/fan-content-policy/",
       "repository": "Supercell 官方帮助中心"
+    },
+    {
+      "path": "/images/th19/0383-Giant-Bomb/level_12.webp",
+      "unitId": "0383-Giant-Bomb",
+      "caption": "巨型炸弹 12 级",
+      "sourceUrl": "https://raw.githubusercontent.com/ClashKingInc/ClashKingAssets/6da8ce864afe2b4510d3342e1c7374e48d7f5a49/assets/traps/home-village/giant_bomb/level_12.webp",
+      "sourcePage": "https://github.com/ClashKingInc/ClashKingAssets/blob/6da8ce864afe2b4510d3342e1c7374e48d7f5a49/assets/traps/home-village/giant_bomb/level_12.webp",
+      "sha256": "468fc3cc5811aab38ea9246490d0202a8c304137ae4ea73888180f49039c060a",
+      "reviewedOn": "2026-11-17",
+      "rightsHolder": "Supercell（游戏素材）",
+      "policy": "https://supercell.com/en/fan-content-policy/",
+      "hostedUrl": "https://assets.clashk.ing/traps/home-village/giant_bomb/level_12.webp",
+      "repository": "ClashKing Assets，仓库声明 GPL-3.0；Supercell 游戏素材权利另行适用"
+    },
+    {
+      "path": "/images/th19/0385-Skeleton-Trap/level_6.webp",
+      "unitId": "0385-Skeleton-Trap",
+      "caption": "骷髅陷阱 6 级（地面模式）",
+      "sourceUrl": "https://raw.githubusercontent.com/ClashKingInc/ClashKingAssets/6da8ce864afe2b4510d3342e1c7374e48d7f5a49/assets/traps/home-village/skeleton_trap/level_6.webp",
+      "sourcePage": "https://github.com/ClashKingInc/ClashKingAssets/blob/6da8ce864afe2b4510d3342e1c7374e48d7f5a49/assets/traps/home-village/skeleton_trap/level_6.webp",
+      "sha256": "880ef7b0daaf1212459d45c45fa4b83765022daf960c38fc7f07548301a182b2",
+      "reviewedOn": "2026-11-17",
+      "rightsHolder": "Supercell（游戏素材）",
+      "policy": "https://supercell.com/en/fan-content-policy/",
+      "hostedUrl": "https://assets.clashk.ing/traps/home-village/skeleton_trap/level_6.webp",
+      "repository": "ClashKing Assets，仓库声明 GPL-3.0；Supercell 游戏素材权利另行适用"
+    },
+    {
+      "path": "/images/th19/0488-Blacksmith/level_10.webp",
+      "unitId": "0488-Blacksmith",
+      "caption": "铁匠铺 10 级",
+      "sourceUrl": "https://raw.githubusercontent.com/ClashKingInc/ClashKingAssets/6da8ce864afe2b4510d3342e1c7374e48d7f5a49/assets/buildings/home-village/blacksmith/level_10.webp",
+      "sourcePage": "https://github.com/ClashKingInc/ClashKingAssets/blob/6da8ce864afe2b4510d3342e1c7374e48d7f5a49/assets/buildings/home-village/blacksmith/level_10.webp",
+      "sha256": "04d5d2a729f3dc81ef2e7201565f1b4f7ba5224a8914c8049d28b17415efeac7",
+      "reviewedOn": "2026-11-17",
+      "rightsHolder": "Supercell（游戏素材）",
+      "policy": "https://supercell.com/en/fan-content-policy/",
+      "hostedUrl": "https://assets.clashk.ing/buildings/home-village/blacksmith/level_10.webp",
+      "repository": "ClashKing Assets，仓库声明 GPL-3.0；Supercell 游戏素材权利另行适用"
     }
   ]
 }

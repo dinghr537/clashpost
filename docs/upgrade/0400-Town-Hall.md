@@ -88,7 +88,7 @@ dataVersionUpdatedOn: 2026-11-16
 
 <SmallTitle>升级数据</SmallTitle>
 
-<small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为待更新。</small>
+<small>19 本资料参考 [Supercell 官方公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)与 [部落冲突 Wiki](https://clashofclans.fandom.com/wiki/Town_Hall)。</small>
 
 <script setup>
 const tableExtraInfo1 = [
@@ -156,8 +156,10 @@ const tableExtraInfo2 = [
 2. 理论上来说，[部落城堡](/upgrade/0407-Clan-Castle) 在 2 级大本营也有可能解锁，但这种情况过于刁钻，为了让数据更具普遍性，这里将城堡视为 3 级大本营解锁。
 3. 当商店里的所有建筑都已建造，且所有可以合并的建筑都已经合并时，建筑数量才会等于表格中的数字。
 4. 战旗 不视为建筑。
-5. 8 本起的建筑数量按本次新增的小队训练营，以及各建筑页的可建数量重新汇总。19 本按玩家提供的信息计入一个精制台。
-6. 18、19 本陷阱数量按各陷阱页面相加，其中 18 本有 8 个空中炸弹；19 本还新增 1 个隐形弹簧。<small>（[18 本空中炸弹](https://coc.tools/item?kind=building&name=air-bomb&th=18)、[官方公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)）</small>
+
+<small>8 本起的建筑数量按本次新增的小队训练营，以及各建筑页的可建数量重新汇总。</small>
+
+<small>18、19 本陷阱数量按各陷阱页面相加，其中 18 本有 8 个空中炸弹；19 本还新增 1 个隐形弹簧。（[18 本更新公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/)、[官方公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)）</small>
 
 <SmallTitle>各大本等级的资源储量</SmallTitle>
 
@@ -186,7 +188,7 @@ const tableExtraInfo2 = [
 | 19 | 5000000 | 50000 |
 </UnitTable>
 
-<small>各级大本营自身储量参考 [ClashPerk](https://wiki.clashperk.com/other/town-hall)（2026-11-16 核对）。</small>
+<small>各级大本营自身储量参考 [部落冲突 Wiki](https://clashofclans.fandom.com/wiki/Town_Hall)（2026-11-16 核对）。</small>
 
 <SmallTitle>大本营升级提速情况一览</SmallTitle>
 
@@ -264,5 +266,3 @@ const tableExtraInfo2 = [
     <TimelineItem :historyBottom="true" />
 </Timeline>
 <p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Town_Hall?oldid=625396" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>
-
-<small>2026 年 11 月旧等级费用与时间参考[玩家整理](https://mp.weixin.qq.com/s/1C8VxevkSERrS2x1vJd8aA)（用户提供原文）及 [ClashKing 游戏数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)。本站保留表格结构并按等级核对。</small>

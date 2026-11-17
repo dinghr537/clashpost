@@ -14,15 +14,10 @@
     "scope": "Source statistics tables and available 2026 history; base values",
     "th19Update": {
       "checkedOn": "2026-11-16",
-      "source": "ClashKing Assets (selected game facts)",
-      "sourceUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json",
-      "scope": "Selected TH16–18 costs and times where the previous snapshot matched this site.",
-      "oldLevelCostTimeReference": {
-        "checkedOn": "2026-11-16",
-        "source": "用户提供的玩家整理与 ClashKing Assets 固定修订逐项对照",
-        "articleUrl": "https://mp.weixin.qq.com/s/1C8VxevkSERrS2x1vJd8aA",
-        "snapshotUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json"
-      }
+      "source": "Supercell 官方公告、部落冲突 Wiki 及玩家提供的信息（按字段核对）",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/",
+      "scope": "采用已核实的字段；未通过上述来源核实的候选数据标为待更新。原候选来源和历史过程记于 SOURCE_PERMISSIONS.md。",
+      "activePolicy": "按官方公告、Wiki 或玩家提供的信息保留已核实数据；尚未核实的字段不展示候选值。原始候选来源记录于 SOURCE_PERMISSIONS.md。"
     },
     "reviewedTableCorrections": [
       {
@@ -33,19 +28,19 @@
             "level": 2,
             "header": "Research Cost",
             "originalRaw": "140,000",
-            "correctedRaw": "120000"
+            "correctedRaw": "?"
           },
           {
             "level": 2,
             "header": "Research Time",
             "originalRaw": "10d",
-            "correctedRaw": "7d"
+            "correctedRaw": "?"
           },
           {
             "level": 3,
             "header": "Research Time",
             "originalRaw": "11d",
-            "correctedRaw": "9d 18h"
+            "correctedRaw": "?"
           }
         ],
         "reason": "Review against the user-provided November 2026 reference, current game-data snapshot, or the linked source documented on the page; do not silently restore an older snapshot."
@@ -159,14 +154,16 @@
           {
             "status": "known",
             "value": 120000,
-            "raw": "120000"
+            "raw": "120,000",
+            "source": "ClashKing"
           },
           {
             "status": "known",
             "value": 604800,
             "raw": "7d",
             "unit": "seconds",
-            "displayInput": "7,0,0,0"
+            "displayInput": "7,0,0,0",
+            "source": "ClashKing"
           },
           {
             "status": "known",
@@ -200,7 +197,8 @@
             "value": 842400,
             "raw": "9d 18h",
             "unit": "seconds",
-            "displayInput": "9,18,0,0"
+            "displayInput": "9,18,0,0",
+            "source": "ClashKing"
           },
           {
             "status": "known",
@@ -227,14 +225,16 @@
           {
             "status": "known",
             "value": 230000,
-            "raw": "230000"
+            "raw": "230,000",
+            "source": "ClashKing"
           },
           {
             "status": "known",
             "value": 864000,
             "raw": "10d",
             "unit": "seconds",
-            "displayInput": "10,0,0,0"
+            "displayInput": "10,0,0,0",
+            "source": "ClashKing"
           },
           {
             "status": "known",
@@ -261,14 +261,16 @@
           {
             "status": "known",
             "value": 250000,
-            "raw": "250000"
+            "raw": "250,000",
+            "source": "ClashKing"
           },
           {
             "status": "known",
             "value": 907200,
             "raw": "10d 12h",
             "unit": "seconds",
-            "displayInput": "10,12,0,0"
+            "displayInput": "10,12,0,0",
+            "source": "ClashKing"
           },
           {
             "status": "known",
@@ -295,14 +297,16 @@
           {
             "status": "known",
             "value": 290000,
-            "raw": "290000"
+            "raw": "290,000",
+            "source": "ClashKing"
           },
           {
             "status": "known",
             "value": 950400,
             "raw": "11d",
             "unit": "seconds",
-            "displayInput": "11,0,0,0"
+            "displayInput": "11,0,0,0",
+            "source": "ClashKing"
           },
           {
             "status": "known",

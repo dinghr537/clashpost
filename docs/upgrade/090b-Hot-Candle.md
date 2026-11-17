@@ -86,8 +86,6 @@ const tableExtraInfo2 = [
     <BuildingNumRow title="建筑数量" num="0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1" />
 </BuildingNum>
 
-<small>19 本数量按玩家提供的信息与 18 本保持一致。</small>
-
 <SmallTitle>重要说明</SmallTitle>
 
 火热蜡烛从战斗开始时计时衰减，侦察阶段不会提前衰减。<small>（来源：<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/august-update-3/" target="_blank" rel="noopener noreferrer">Supercell 八月更新公告</a>）</small>

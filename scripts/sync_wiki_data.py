@@ -368,6 +368,24 @@ def preserve_table_corrections(reviewed, tables):
                 raise ValueError(f'已修正表 {index} 的数值发生变化，请人工核对：{row_key} / {header}')
 
 
+def preserve_pending_verification(reviewed, tables):
+    """Require review before a later snapshot can replace a withheld value."""
+    for old in (reviewed or {}).get('tables', []):
+        pending = [(row, i) for row in old['rows'] for i, cell in enumerate(row)
+                   if cell.get('verification') == 'pending']
+        if not pending:
+            continue
+        new = next((table for table in tables
+                    if table['sourceTableIndex'] == old['sourceTableIndex']), None)
+        if new is None or new['headers'] != old['headers']:
+            raise ValueError(f"待核实表 {old['sourceTableIndex']} 的结构变化，请人工核对")
+        for row, column in pending:
+            matches = [candidate for candidate in new['rows'] if candidate[0]['value'] == row[0]['value']]
+            if len(matches) != 1 or matches[0][column]['status'] != 'unknown':
+                raise ValueError(f"待核实数值发生变化，请人工核对：{row[0]['value']} / {old['headers'][column]}")
+            matches[0][column] = dict(row[column])
+
+
 def preserve_balance_update(reviewed, tables, date):
     """Require manual review before a source snapshot can undo a newer correction."""
     update = reviewed.get('sync', {}).get('balanceUpdate') if reviewed else None
@@ -465,6 +483,7 @@ def make_record(item, date):
     if not tables:
         raise ValueError('No usable data tables; existing page preserved')
     validate_table_levels(tables, (reviewed or {}).get('levelReferences', []))
+    preserve_pending_verification(reviewed, tables)
     preserve_table_corrections(reviewed, tables)
     preserve_balance_update(reviewed, tables, date)
     # Only images belonging to this exact unit page; do not match across villages.
@@ -545,11 +564,6 @@ def make_record(item, date):
             '愤怒水母正在对主人施加洗脑效果时，会随主人一起召回，且不额外占用人口。',
             '容量不足时优先召回英雄，再按人口从高到低召回；同人口优先召回先部署的单位。战宠不继承主人的优先权，可能与主人分开召回。',
         ])
-    if item['unitId'] == '0305-Wizard-Tower' and not any(item['date'] == '2026-04-27' for item in history):
-        # This pinned Wiki revision verifies both values, but does not date the change.
-        history.append({'date': '2026-04-27', 'description': '十七级升级时间从 8 天 12 小时缩短为 5 天 12 小时。',
-                        'sourceUrl': 'https://clashofclans.fandom.com/wiki/Wizard_Tower?oldid=625327',
-                        'dateSourceUrl': 'https://www.clash.ninja/blog/april-2026-update-is-live', 'type': 'announcement'})
     if item['unitId'] == '0e1d-Totem-Thrower' and not any(event['date'] == '2026-10-08' for event in history):
         history.append({'date': '2026-10-08', 'description': '在 Portal Panic 活动中开放使用，活动截至 10 月 25 日。',
                         'sourceUrl': 'https://supercell.com/en/games/clashofclans/blog/news/the-portal-panic-medal-event-rifts-its-way-into-clash/', 'type': 'availability'})

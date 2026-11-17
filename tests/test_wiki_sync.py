@@ -4,10 +4,24 @@ import sys
 import unittest
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
-from sync_wiki_data import VillageFilter, SourceTables, headers_and_rows, source_cell, extra_info, duration_value, is_unit_image, REVIEWED_IMAGES, page_content, history_rows, preserve_balance_update
+from sync_wiki_data import VillageFilter, SourceTables, headers_and_rows, source_cell, extra_info, duration_value, is_unit_image, REVIEWED_IMAGES, page_content, history_rows, preserve_balance_update, preserve_pending_verification
 
 
 class WikiSyncTests(unittest.TestCase):
+    def test_pending_value_cannot_be_silently_reintroduced(self):
+        from copy import deepcopy
+        table = {'sourceTableIndex': 3, 'headers': ['Level', 'Cost'],
+                 'rows': [[source_cell('1'), {'status': 'unknown', 'value': None, 'raw': '?',
+                                               'verification': 'pending'}]]}
+        reviewed = {'tables': [table]}
+        incoming = deepcopy(table)
+        incoming['rows'][0][1] = source_cell('100')
+        with self.assertRaisesRegex(ValueError, '待核实数值发生变化'):
+            preserve_pending_verification(reviewed, [incoming])
+        incoming['rows'][0][1] = source_cell('?')
+        preserve_pending_verification(reviewed, [incoming])
+        self.assertEqual(incoming['rows'][0][1]['verification'], 'pending')
+
     def test_old_snapshot_cannot_undo_reviewed_balance_update(self):
         from copy import deepcopy
         child = {'sourceTableIndex': -1, 'headers': ['Level', 'Hitpoints'],

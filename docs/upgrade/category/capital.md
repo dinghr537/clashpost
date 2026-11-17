@@ -91,7 +91,7 @@ if (activeTabCookieValue === "capital-buildings") {
         <ListItem name="哥布林发射器" imgSrc="2215/Goblin_Thrower4.png" link="2215-Goblin-Thrower" />
         <ListItem name="超级巨人岗哨" imgSrc="2210/Super_Giant_Post5.png" link="2210-Super-Giant-Post" />
         <ListItem name="突袭炮车岗哨" imgSrc="2211/Raid_Cart_Post5.png" link="2211-Raid-Cart-Post" />
-        <ListItem name="超级飞龙岗哨" imgSrc="2212/Super_Dragon_Post4.png" link="2212-Super-Dragon-Post" />
+        <ListItem name="超级飞龙岗哨" imgSrc="2212/Super_Dragon_Post5.png" link="2212-Super-Dragon-Post" />
     </ListItems>
     <ListItems title="陷阱" imgFolder="capital_buildings">
         <ListItem name="地雷" imgSrc="2280/Mine5.png" link="2280-Mine" />

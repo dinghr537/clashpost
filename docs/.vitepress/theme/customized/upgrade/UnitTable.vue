@@ -45,6 +45,14 @@ function setTbodyValue(targetTd, targetValue, item) {
     const type = item.type;
     const noGoldPass = item.noGoldPass;
 
+    // Derived values cannot be calculated while an input is still pending.
+    const row = targetTd.parentNode;
+    if ((type === "exp" && row.dataset.pendingTime === "true") ||
+        (type === "dailyCost" && (row.dataset.pendingTime === "true" || row.dataset.pendingCost === "true"))) {
+        targetTd.innerHTML = "待更新";
+        return;
+    }
+
     // 如果 type 为空，或者单元格内是一个反斜杠，说明不需要任何操作
     if (!type || targetValue.includes("待更新") || targetValue.includes("待核实") || targetValue.includes("未知") ||
         ["\\", "不适用", "N/A", "—"].includes(targetValue)) {
@@ -135,8 +143,51 @@ function setTbodyValue(targetTd, targetValue, item) {
  * 修改表格本体的值，使数据格式符合用户需求，其中数据格式指的是“xx万”这种方便用户阅读的格式。
  * 兵种属性的数据已经在 Property 部分添加过 class 和资源图标了，所以这里只处理升级数据表格。
  */
+const OUTDATED_TITLE = "19 本更新后可能已调整；Wiki 尚未更新，暂列更新前数值";
+
+function markOutdated(cell) {
+    cell.classList.add("cp-maybe-outdated");
+    cell.setAttribute("title", OUTDATED_TITLE);
+}
+
 function setSpecialItems(table, tableExtraInfo) {
     const allRows = table.querySelectorAll("tr");
+    // Pre-update values are flagged in the page source; strip the flag before parsing numbers.
+    table.querySelectorAll(".cp-outdated").forEach(flag => {
+        const cell = flag.closest("td, th");
+        flag.remove();
+        if (cell) markOutdated(cell);
+    });
+    allRows.forEach((row, index) => {
+        if (index === 0) return;
+        const cells = row.querySelectorAll("td, th");
+        tableExtraInfo.forEach(item => {
+            const cell = cells[item.column];
+            if (!cell) return;
+            if (cell.classList.contains("cp-maybe-outdated")) {
+                if (item.type === "time") row.dataset.outdatedTime = "true";
+                if (item.type === "cost" || item.type === "trainingCost") row.dataset.outdatedCost = "true";
+            }
+            if (!/待更新|待核实|未知/.test(cell.textContent)) return;
+            if (item.type === "time") row.dataset.pendingTime = "true";
+            if (item.type === "cost" || item.type === "trainingCost") row.dataset.pendingCost = "true";
+        });
+        // Values derived from a pre-update input are equally provisional.
+        tableExtraInfo.forEach(item => {
+            const cell = cells[item.column];
+            if (!cell) return;
+            if ((item.type === "exp" && row.dataset.outdatedTime === "true") ||
+                (item.type === "dailyCost" && (row.dataset.outdatedTime === "true" || row.dataset.outdatedCost === "true"))) {
+                markOutdated(cell);
+            }
+        });
+    });
+    if (table.querySelector(".cp-maybe-outdated")) {
+        const note = document.createElement("p");
+        note.className = "cp-outdated-legend";
+        note.textContent = "* 19 本更新后可能已调整；Wiki 尚未更新，暂列更新前数值。";
+        table.closest(".cp-table-container").after(note);
+    }
     tableExtraInfo.forEach(item => {
         const column = item.column;
         // 遍历每一行，给指定的单元格添加 class
@@ -213,9 +264,28 @@ onMounted(() => {
 
 <style lang="scss">
 .cp-upgrade-table {
+    td.cp-maybe-outdated {
+        color: var(--cp-grey-text-light);
+        &:not(.cp-gp-item)::after,
+        &.cp-gp-item > div::after {
+            content: "*";
+            margin-left: 1px;
+        }
+    }
     a {
         white-space: nowrap; // a 元素内部不换行
         line-height: 2.25;
+    }
+}
+.cp-outdated-legend {
+    margin: 4px 0 16px;
+    font-size: 0.75rem;
+    color: var(--cp-grey-text-light);
+}
+.cp-theme-dark {
+    .cp-upgrade-table td.cp-maybe-outdated,
+    .cp-outdated-legend {
+        color: var(--cp-grey-text-dark);
     }
 }
 </style>

@@ -11,7 +11,7 @@ dataSyncedOn: 2026-10-13
 dataVersionUpdatedOn: 2026-11-16
 ---
 
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Clan_Castle14_hd.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Clan_Castle15.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
 
 <SmallTitle>各等级图片</SmallTitle>
 
@@ -32,6 +32,7 @@ dataVersionUpdatedOn: 2026-11-16
         <UnitImg imgTitle="12 级" imgSrc="Clan_Castle12.png" imgHd="Clan_Castle12_hd.png" />
         <UnitImg imgTitle="13 级" imgSrc="Clan_Castle13.png" imgHd="Clan_Castle13_hd.png" />
         <UnitImg imgTitle="14 级" imgSrc="Clan_Castle14.png" imgHd="Clan_Castle14_hd.png" />
+        <UnitImg imgTitle="15 级" imgSrc="Clan_Castle15.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -42,7 +43,7 @@ dataVersionUpdatedOn: 2026-11-16
     <BuildingNumRow title="建筑数量" num="    0,      1" />
 </BuildingNum>
 
-<small>19 本数量参考 [官方更新公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)和 [ClashRecord](https://www.clashrecord.com/max-levels/th19)；可合并建筑按全部合并后计算。</small>
+<small>19 本数量以 [部落冲突 Wiki](https://clashofclans.fandom.com/wiki/Clan_Castle) 的既有数量为基础，结合 [Supercell 官方更新公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)中的新增和合并项目，按合并后数量计算。</small>
 
 <SmallTitle>重要说明</SmallTitle>
 
@@ -63,7 +64,7 @@ dataVersionUpdatedOn: 2026-11-16
 
 <small>15 级的法术容量与攻城机器容量参考 [部落冲突维基](https://clashofclans.fandom.com/wiki/Clan_Castle)（2026-11-16 核对）。</small>
 
-<small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为待更新。</small>
+<small>19 本资料参考 [Supercell 官方公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)与 [部落冲突 Wiki](https://clashofclans.fandom.com/wiki/Clan_Castle)；暂缺的字段标为待更新。</small>
 
 <script setup>
 const tableExtraInfo = [
@@ -112,7 +113,7 @@ const tableExtraInfo = [
 
 <SmallTitle>宝库可容纳的资源量</SmallTitle>
 
-<small>1–18 本数据参考 [Treasury 数据表](https://clash-of-clans.1337wiki.com/treasury/)及各部落等级加成；19 本宝库容量尚无可核实的数值，暂列为待更新。<a href="https://sc-clashofclans.zendesk.com/hc/en-us/articles/49529078545691-Clan-Games-Rewards">官方说明</a>。</small>
+<small>1–18 本数据参考 [部落冲突 Wiki 宝库数据](https://clashofclans.fandom.com/wiki/Treasury)及各部落等级加成；19 本宝库容量暂列为待更新。<a href="https://sc-clashofclans.zendesk.com/hc/en-us/articles/49529078545691-Clan-Games-Rewards">官方说明</a>。</small>
 
 <SwitchTabs contentClass="cp-upgrade-clan-level">
     <SwitchTab tabId="cp-upgrade-clan-0" :activeTab="true">无部落或 1 级部落</SwitchTab>

@@ -28,6 +28,7 @@ dataVersionUpdatedOn: 2026-11-16
         <UnitImg imgTitle="9 - 10 级" imgSrc="Air_Bomb9.png" />
         <UnitImg imgTitle="11 - 12 级" imgSrc="Air_Bomb11.png" />
         <UnitImg imgTitle="13 级" imgSrc="Air_Bomb13.png" />
+        <UnitImg imgTitle="14 级" imgSrc="Air_Bomb14.png" />
         <UnitImg imgTitle="未重新布置" imgSrc="Air_Bomb_unarmed.png" />
     </UnitImgGroup>
 </Panel>
@@ -39,7 +40,7 @@ dataVersionUpdatedOn: 2026-11-16
     <BuildingNumRow title="建筑数量" num="    0,     2,     4,       5,       6,       7,  8" />
 </BuildingNum>
 
-<small>18 本已有 8 个空中炸弹，本表按 19 本仍为 8 个整理；部分资料的 7 个可能沿用了旧数据。参考 [18 本数量变更公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/)和 [ClashClock](https://clashclock.com/en/town-hall/19)。</small>
+<small>18 本已有 8 个空中炸弹，本表按 19 本仍为 8 个整理；部分资料的 7 个可能沿用了旧数据。参考 [18 本数量变更公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/)和本页维基数据。</small>
 
 <SmallTitle>属性</SmallTitle>
 
@@ -54,7 +55,7 @@ dataVersionUpdatedOn: 2026-11-16
 
 <SmallTitle>升级数据</SmallTitle>
 
-<small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为待更新。</small>
+<small>19 本资料参考 [Supercell 官方公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)、[部落冲突 Wiki](https://clashofclans.fandom.com/wiki/Air_Bomb)与 [ClashKing 游戏数据](https://github.com/ClashKingInc/ClashKingAssets)；暂缺的字段标为待更新。</small>
 
 <script setup>
 const tableExtraInfo = [
@@ -94,7 +95,7 @@ const tableExtraInfo = [
 | 11 | 375 | 5000000 | 2,0,0,0 |  | 16 |
 | 12 | 400 | 6500000 | 2,12,0,0 |  | 17 |
 | 13 | 425 | 9000000 | 5,0,0,0 |  | 18 |
-| 14 | 450 | 17500000 | 8,12,0,0 |  | 19 |
+| 14 | 待更新 | 17500000 | 8,12,0,0 |  | 19 |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>

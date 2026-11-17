@@ -14,15 +14,11 @@
     "scope": "Source statistics tables and available 2026 history; base values",
     "th19Update": {
       "checkedOn": "2026-11-16",
-      "source": "ClashKing Assets (selected game facts)",
-      "sourceUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json",
-      "scope": "Selected TH16–18 costs and times where the previous snapshot matched this site.",
-      "oldLevelCostTimeReference": {
-        "checkedOn": "2026-11-16",
-        "source": "用户提供的玩家整理与 ClashKing Assets 固定修订逐项对照",
-        "articleUrl": "https://mp.weixin.qq.com/s/1C8VxevkSERrS2x1vJd8aA",
-        "snapshotUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json"
-      }
+      "source": "Supercell 官方公告、部落冲突 Wiki 及玩家提供的信息（按字段核对）",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/",
+      "scope": "采用已核实的字段；未通过上述来源核实的候选数据标为待更新。原候选来源和历史过程记于 SOURCE_PERMISSIONS.md。",
+      "activePolicy": "按官方公告、Wiki 或玩家提供的信息保留已核实数据；尚未核实的字段不展示候选值。原始候选来源记录于 SOURCE_PERMISSIONS.md。",
+      "followupVerification": "2026-11-17 人工逐项核对 Wiki 更新历史及升级表中本次补回的字段；升级经验按已核实的秒数开平方取整计算。"
     },
     "reviewedTableCorrections": [
       {
@@ -875,8 +871,8 @@
           },
           {
             "status": "known",
-            "value": 509,
-            "raw": "509"
+            "value": 464,
+            "raw": "464"
           },
           {
             "status": "known",
@@ -1007,8 +1003,8 @@
           },
           {
             "status": "known",
-            "value": 689,
-            "raw": "689"
+            "value": 657,
+            "raw": "657"
           },
           {
             "status": "known",
@@ -1191,15 +1187,7 @@
       "logicalPath": "/upgrade/home_buildings/0305/Wizard_Tower16.png"
     }
   ],
-  "history": [
-    {
-      "date": "2026-04-27",
-      "description": "十七级升级时间从 8 天 12 小时缩短为 5 天 12 小时。",
-      "sourceUrl": "https://clashofclans.fandom.com/wiki/Wizard_Tower?oldid=625327",
-      "dateSourceUrl": "https://www.clash.ninja/blog/april-2026-update-is-live",
-      "type": "announcement"
-    }
-  ],
+  "history": [],
   "facts": [
     "At Town Hall 18, two level 17 Wizard Towers can be merged to form a Super Wizard Tower."
   ],

@@ -3,6 +3,7 @@ import { appendFile, readFile } from 'node:fs/promises'
 import { createRequire } from 'node:module'
 import { dirname, resolve } from 'node:path'
 import { publicWikiLinks } from './theme/assets/wiki-links.mjs'
+import { sourceNotes } from './theme/assets/source-notes.mjs'
 
 const siteUrl = "https://cocpost.com";
 const require = createRequire(import.meta.url);
@@ -45,7 +46,10 @@ export default defineConfig({
         return head;
     },
     markdown: {
-        config: publicWikiLinks,
+        config: (md) => {
+            publicWikiLinks(md);
+            sourceNotes(md);
+        },
         math: true,
         image: {
             lazyLoad: true

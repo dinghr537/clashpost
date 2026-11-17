@@ -13,7 +13,7 @@ dataVersionUpdatedOn: 2026-11-16
 
 - *如想查看夜世界的储金罐，请访问：[夜世界储金罐](/upgrade/1203-Gold-Storage)。*
 
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Gold_Storage19.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Gold_Storage20.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
 
 <SmallTitle>各等级图片</SmallTitle>
 
@@ -38,6 +38,7 @@ dataVersionUpdatedOn: 2026-11-16
         <UnitImg imgTitle="17 级" imgSrc="Gold_Storage17.png" />
         <UnitImg imgTitle="18 级" imgSrc="Gold_Storage18.png" />
         <UnitImg imgTitle="19 级" imgSrc="Gold_Storage19.png" />
+        <UnitImg imgTitle="20 级" imgSrc="Gold_Storage20.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -48,7 +49,7 @@ dataVersionUpdatedOn: 2026-11-16
     <BuildingNumRow title="建筑数量" num="    1,     2, 3,      4" />
 </BuildingNum>
 
-<small>19 本数量参考 [官方更新公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)和 [ClashRecord](https://www.clashrecord.com/max-levels/th19)；可合并建筑按全部合并后计算。</small>
+<small>19 本数量以 [部落冲突 Wiki](https://clashofclans.fandom.com/wiki/Gold_Storage) 的既有数量为基础，结合 [Supercell 官方更新公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)中的新增和合并项目，按合并后数量计算。</small>
 
 <SmallTitle>重要说明</SmallTitle>
 
@@ -64,9 +65,9 @@ dataVersionUpdatedOn: 2026-11-16
 
 <SmallTitle>升级数据</SmallTitle>
 
-<small>新增等级的储量参考 [ClashPerk Wiki](https://wiki.clashperk.com/resources/gold-storage)。</small>
 
-<small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为待更新。</small>
+
+<small>19 本资料参考 [Supercell 官方公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)、[部落冲突 Wiki](https://clashofclans.fandom.com/wiki/Gold_Storage)与 [ClashKing 游戏数据](https://github.com/ClashKingInc/ClashKingAssets)；暂缺的字段标为待更新。</small>
 
 <script setup>
 const tableExtraInfo = [
@@ -118,7 +119,7 @@ const tableExtraInfo = [
 | 17 | 5500000 | 4050 | 5500000 | 4,0,0,0 |  | 16 |
 | 18 | 6000000 | 4200 | 8500000 | 4,6,0,0 |  | 17 |
 | 19 | 6500000 | 4300 | 12500000 | 7,12,0,0 |  | 18 |
-| 20 | 7000000 | 4400 | 18000000 | 11,0,0,0 |  | 19 |
+| 20 | 待更新 | 4400 | 18000000 | 11,0,0,0 |  | 19 |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>

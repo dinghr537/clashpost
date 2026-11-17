@@ -44,11 +44,11 @@ dataVersionUpdatedOn: 2026-11-16
 
 ① 如果敌军进入这个范围，英雄会奔向敌军，并进行反击。<br>
 ② 在没有敌人的情况下，英雄也会走动，而这个走动的范围叫巡逻半径。<br>
-③ <a href="https://clash-markets.com/dragon-duke-coc/" target="_blank" rel="noopener noreferrer">Clash Markets</a>记为 1.25 格，<a href="https://clashofclans.fandom.com/wiki/Dragon_Duke" target="_blank" rel="noopener noreferrer">部落冲突维基</a>记为 0.3 格；测量口径和当前值尚未确认。
+③ <a href="https://clash-markets.com/dragon-duke-coc/" target="_blank" rel="noopener noreferrer">Clash Markets</a>记为 1.25 格，<a href="https://clashofclans.fandom.com/wiki/Dragon_Duke" target="_blank" rel="noopener noreferrer">部落冲突维基</a>记为 0.3 格；测量口径和当前值尚待核实。
 
 <SmallTitle>升级数据</SmallTitle>
 
-<small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为待更新。</small>
+<small>19 本资料参考 [Supercell 官方公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)、[部落冲突 Wiki](https://clashofclans.fandom.com/wiki/Dragon_Duke)与 [ClashKing 游戏数据](https://github.com/ClashKingInc/ClashKingAssets)。</small>
 
 <script setup>
 const tableExtraInfo = [

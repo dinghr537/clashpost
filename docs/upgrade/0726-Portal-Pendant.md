@@ -54,6 +54,8 @@ const tableExtraInfo0 = [
 
 <SmallTitle>升级数据</SmallTitle>
 
+<small>2026 年调整数据参考 [部落冲突 Wiki](https://clashofclans.fandom.com/wiki/Portal_Pendant)（2026-11-17 核对）。</small>
+
 <UnitTable :tableExtraInfo="tableExtraInfo0">
 
 | 等级 | 技能<br>传送门半径（格） | 技能<br>重新部署回血比例 | 技能<br>重新部署加速 | 技能<br>召回人口容量 | 英雄<br>回血增加 | 英雄<br>生命值增加 | 升级费用 | 升级费用 | 升级费用 | 所需<br>铁匠铺等级 | 所需<br>大本等级 |
@@ -90,9 +92,8 @@ const tableExtraInfo0 = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
-    <TimelineItem date="2026/10/20">
-        <TimelineRow>新增被动生命值加成：1 级增加 550，每升一级增加 25，27 级增加 1200；原有回血加成保留。</TimelineRow>
-        <TimelineRow><a href="https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/" target="_blank" rel="noopener noreferrer">官方公告</a>（10/17 发布） · <a href="https://clashfox.com/blog/balance-changes-before-town-hall-19-fire-heart-and-ruin-witch-nerfed-hogs-and-p-e-k-k-a-bu" target="_blank" rel="noopener noreferrer">数值参考</a> · <a href="https://x.com/ClashofClans/status/2112450159326179560" target="_blank" rel="noopener noreferrer">10/20 维护完成</a>。</TimelineRow>
+    <TimelineItem date="2026/10/17">
+        <TimelineRow>官方预告：新增英雄生命值加成，满级为 1200。 <a href="https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
     </TimelineItem>
     <TimelineItem date="2026/10/08">
         <TimelineRow>传送吊坠在裂隙之乱奖章活动中开放。</TimelineRow>

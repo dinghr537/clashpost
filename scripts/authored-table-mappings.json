@@ -1791,41 +1791,6 @@
           },
           "5": 4
         },
-        "additionalSourceTables": [
-          {
-            "sourceTableIndex": 7,
-            "sourceHeaders": [
-              "Charge Level ⚡",
-              "Capacity",
-              "Production Rate",
-              "Hitpoints",
-              "Boost Cost",
-              "Time to Fill",
-              "Build Cost",
-              "Build Time",
-              "Experience Gained",
-              "Catch-Up Point",
-              "Town Hall Level Required"
-            ],
-            "columns": {
-              "0": 0,
-              "1": 2,
-              "2": 1,
-              "6": 3,
-              "7": 6,
-              "8": 7,
-              "9": {
-                "computed": "exp"
-              },
-              "10": 10,
-              "3": {
-                "duration": 5
-              },
-              "5": 4
-            },
-            "levelPrefix": "⚡"
-          }
-        ],
         "preserveUnmatchedRows": true
       }
     ],
@@ -2911,34 +2876,6 @@
           },
           "7": 7
         },
-        "additionalSourceTables": [
-          {
-            "sourceTableIndex": 7,
-            "sourceHeaders": [
-              "Level",
-              "Damage per Second",
-              "Damage per Hit",
-              "Hitpoints",
-              "Build Cost",
-              "Build Time",
-              "Experience Gained",
-              "Town Hall Level Required"
-            ],
-            "columns": {
-              "0": 0,
-              "1": 1,
-              "2": 2,
-              "3": 3,
-              "4": 4,
-              "5": 5,
-              "6": {
-                "computed": "exp"
-              },
-              "7": 7
-            },
-            "levelPrefix": "⚡"
-          }
-        ],
         "preserveUnmatchedRows": true
       },
       {
@@ -2976,34 +2913,6 @@
           },
           "7": 7
         },
-        "additionalSourceTables": [
-          {
-            "sourceTableIndex": 9,
-            "sourceHeaders": [
-              "Level",
-              "Damage per Second",
-              "Damage per Hit",
-              "Hitpoints",
-              "Build Cost",
-              "Build Time",
-              "Experience Gained",
-              "Town Hall Level Required"
-            ],
-            "columns": {
-              "0": 0,
-              "1": 1,
-              "2": 2,
-              "3": 3,
-              "4": 4,
-              "5": 5,
-              "6": {
-                "computed": "exp"
-              },
-              "7": 7
-            },
-            "levelPrefix": "⚡"
-          }
-        ],
         "preserveUnmatchedRows": true
       }
     ],
@@ -3537,34 +3446,6 @@
           },
           "7": 7
         },
-        "additionalSourceTables": [
-          {
-            "sourceTableIndex": 5,
-            "sourceHeaders": [
-              "Charge Level ⚡",
-              "Damage per Second",
-              "Damage per Shot",
-              "Hitpoints",
-              "Cost",
-              "Build Time",
-              "Experience Gained",
-              "Town Hall Level Required"
-            ],
-            "columns": {
-              "0": 0,
-              "1": 1,
-              "2": 2,
-              "3": 3,
-              "4": 4,
-              "5": 5,
-              "6": {
-                "computed": "exp"
-              },
-              "7": 7
-            },
-            "levelPrefix": "⚡"
-          }
-        ],
         "preserveUnmatchedRows": true
       }
     ],
@@ -4949,33 +4830,6 @@
           },
           "7": 7
         },
-        "additionalSourceTables": [
-          {
-            "sourceTableIndex": 6,
-            "sourceHeaders": [
-              "Charge Level ⚡",
-              "Damage per Second",
-              "Damage per Shot",
-              "Hitpoints",
-              "Cost",
-              "Build Time",
-              "Experience Gained",
-              "Town Hall Level Required"
-            ],
-            "columns": {
-              "0": 0,
-              "1": 1,
-              "3": 3,
-              "4": 4,
-              "5": 5,
-              "6": {
-                "computed": "exp"
-              },
-              "7": 7
-            },
-            "levelPrefix": "⚡"
-          }
-        ],
         "preserveUnmatchedRows": true
       }
     ],
@@ -5670,41 +5524,6 @@
           },
           "5": 4
         },
-        "additionalSourceTables": [
-          {
-            "sourceTableIndex": 7,
-            "sourceHeaders": [
-              "Charge Level ⚡",
-              "Capacity",
-              "Production Rate",
-              "Hitpoints",
-              "Boost Cost",
-              "Time to Fill",
-              "Build Cost",
-              "Build Time",
-              "Experience Gained",
-              "Catch-Up Point",
-              "Town Hall Level Required"
-            ],
-            "columns": {
-              "0": 0,
-              "1": 2,
-              "2": 1,
-              "6": 3,
-              "7": 6,
-              "8": 7,
-              "9": {
-                "computed": "exp"
-              },
-              "10": 10,
-              "3": {
-                "duration": 5
-              },
-              "5": 4
-            },
-            "levelPrefix": "⚡"
-          }
-        ],
         "preserveUnmatchedRows": true
       }
     ],
@@ -6336,34 +6155,6 @@
           },
           "7": 7
         },
-        "additionalSourceTables": [
-          {
-            "sourceTableIndex": 6,
-            "sourceHeaders": [
-              "Charge Level ⚡",
-              "Damage per Second",
-              "Damage per Shot",
-              "Hitpoints",
-              "Cost",
-              "Build Time",
-              "Experience Gained",
-              "Town Hall Level Required"
-            ],
-            "columns": {
-              "0": 0,
-              "1": 1,
-              "2": 2,
-              "3": 3,
-              "4": 4,
-              "5": 5,
-              "6": {
-                "computed": "exp"
-              },
-              "7": 7
-            },
-            "levelPrefix": "⚡"
-          }
-        ],
         "preserveUnmatchedRows": true
       }
     ],
@@ -6739,36 +6530,6 @@
           },
           "8": 8
         },
-        "additionalSourceTables": [
-          {
-            "sourceTableIndex": 6,
-            "sourceHeaders": [
-              "Charge Level ⚡",
-              "Damage per Second",
-              "Damage per Shot (Primary Target)",
-              "Secondary Chain Damage",
-              "Hitpoints",
-              "Build Cost",
-              "Build Time",
-              "Experience Gained",
-              "Town Hall Level Required"
-            ],
-            "columns": {
-              "0": 0,
-              "1": 1,
-              "2": 2,
-              "3": 3,
-              "4": 4,
-              "5": 5,
-              "6": 6,
-              "7": {
-                "computed": "exp"
-              },
-              "8": 8
-            },
-            "levelPrefix": "⚡"
-          }
-        ],
         "preserveUnmatchedRows": true
       }
     ],
@@ -7122,41 +6883,6 @@
           },
           "5": 4
         },
-        "additionalSourceTables": [
-          {
-            "sourceTableIndex": 7,
-            "sourceHeaders": [
-              "Charge Level ⚡",
-              "Capacity",
-              "Production Rate",
-              "Hitpoints",
-              "Boost Cost",
-              "Time to Fill",
-              "Build Cost",
-              "Build Time",
-              "Experience Gained",
-              "Catch-Up Point",
-              "Town Hall Level Required"
-            ],
-            "columns": {
-              "0": 0,
-              "1": 2,
-              "2": 1,
-              "6": 3,
-              "7": 6,
-              "8": 7,
-              "9": {
-                "computed": "exp"
-              },
-              "10": 10,
-              "3": {
-                "duration": 5
-              },
-              "5": 4
-            },
-            "levelPrefix": "⚡"
-          }
-        ],
         "preserveUnmatchedRows": true
       }
     ],
@@ -7434,38 +7160,6 @@
           "9": 9,
           "4": 4
         },
-        "additionalSourceTables": [
-          {
-            "sourceTableIndex": 6,
-            "sourceHeaders": [
-              "Charge Level ⚡",
-              "Damage per Second",
-              "Damage per Shot",
-              "Repair per Second",
-              "Repair per Hit",
-              "Hitpoints",
-              "Build Cost",
-              "Build Time",
-              "Experience Gained",
-              "Town Hall Level Required"
-            ],
-            "columns": {
-              "0": 0,
-              "1": 1,
-              "2": 2,
-              "3": 3,
-              "5": 5,
-              "6": 6,
-              "7": 7,
-              "8": {
-                "computed": "exp"
-              },
-              "9": 9,
-              "4": 4
-            },
-            "levelPrefix": "⚡"
-          }
-        ],
         "preserveUnmatchedRows": true
       }
     ],
@@ -12229,36 +11923,6 @@
           "2": 2,
           "3": 3
         },
-        "additionalSourceTables": [
-          {
-            "sourceTableIndex": 6,
-            "sourceHeaders": [
-              "Charge ⚡",
-              "Damage per Second",
-              "Damage per Shot",
-              "Splash Damage",
-              "Hitpoints",
-              "Build Cost",
-              "Build Time",
-              "Experience Gained",
-              "Town Hall Level Required"
-            ],
-            "columns": {
-              "0": 0,
-              "1": 1,
-              "4": 4,
-              "5": 5,
-              "6": 6,
-              "7": {
-                "computed": "exp"
-              },
-              "8": 8,
-              "2": 2,
-              "3": 3
-            },
-            "levelPrefix": "⚡"
-          }
-        ],
         "preserveUnmatchedRows": true
       }
     ],
@@ -13440,34 +13104,6 @@
           },
           "7": 7
         },
-        "additionalSourceTables": [
-          {
-            "sourceTableIndex": 6,
-            "sourceHeaders": [
-              "Charge Level ⚡",
-              "Damage per Second per Archer",
-              "Damage per Shot",
-              "Hitpoints",
-              "Build Cost",
-              "Build Time",
-              "Experience Gained",
-              "Town Hall Level Required"
-            ],
-            "columns": {
-              "0": 0,
-              "1": 1,
-              "2": 2,
-              "3": 3,
-              "4": 4,
-              "5": 5,
-              "6": {
-                "computed": "exp"
-              },
-              "7": 7
-            },
-            "levelPrefix": "⚡"
-          }
-        ],
         "preserveUnmatchedRows": true
       }
     ],

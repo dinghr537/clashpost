@@ -14,9 +14,10 @@
     "scope": "Source statistics tables and available 2026 history; base values",
     "th19Update": {
       "checkedOn": "2026-11-16",
-      "source": "ClashKing Assets (selected game facts)",
-      "sourceUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json",
-      "scope": "Selected new levels and baseline-matched cost/time adjustments; missing fields remain unknown."
+      "source": "Supercell 官方公告、部落冲突 Wiki 及玩家提供的信息（按字段核对）",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/",
+      "scope": "采用已核实的字段；未通过上述来源核实的候选数据标为待更新。原候选来源和历史过程记于 SOURCE_PERMISSIONS.md。",
+      "activePolicy": "按官方公告、Wiki 或玩家提供的信息保留已核实数据；尚未核实的字段不展示候选值。原始候选来源记录于 SOURCE_PERMISSIONS.md。"
     }
   },
   "tables": [
@@ -257,14 +258,16 @@
           {
             "status": "known",
             "value": 355000,
-            "raw": "355000"
+            "raw": "355,000",
+            "source": "ClashKing"
           },
           {
             "status": "known",
             "value": 1123200,
             "raw": "13d",
             "unit": "seconds",
-            "displayInput": "13,0,0,0"
+            "displayInput": "13,0,0,0",
+            "source": "ClashKing"
           },
           {
             "status": "known",
@@ -291,34 +294,40 @@
           {
             "status": "known",
             "value": 3300,
-            "raw": "3300"
+            "raw": "3,300",
+            "source": "ClashKing"
           },
           {
             "status": "known",
             "value": 29,
-            "raw": "29"
+            "raw": "29",
+            "source": "ClashKing"
           },
           {
             "status": "known",
-            "value": 58.0,
-            "raw": "58.0"
+            "value": 58,
+            "raw": "58",
+            "source": "ClashKing"
           },
           {
             "status": "known",
             "value": 435000,
-            "raw": "435000"
+            "raw": "435,000",
+            "source": "ClashKing"
           },
           {
             "status": "known",
             "value": 1166400,
             "raw": "13d 12h",
             "unit": "seconds",
-            "displayInput": "13,12,0,0"
+            "displayInput": "13,12,0,0",
+            "source": "ClashKing"
           },
           {
             "status": "known",
             "value": 17,
-            "raw": "17"
+            "raw": "17",
+            "source": "ClashKing"
           }
         ]
       ],
@@ -387,20 +396,17 @@
       "description": "Increased the numbers of Ruin Knight summoned at all levels from 8 to 10. Skeleton"
     },
     {
-      "date": "2026-10-20",
-      "description": "削弱召唤物废墟骑士的生命值、伤害和移动速度，并将其占据人口由 20 降至 18；具体数值见废墟骑士标签页。",
-      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/",
-      "sourcePublishedOn": "2026-10-17",
-      "numericSourceUrl": "https://clashfox.com/blog/balance-changes-before-town-hall-19-fire-heart-and-ruin-witch-nerfed-hogs-and-p-e-k-k-a-bu",
-      "dateSourceUrl": "https://x.com/ClashofClans/status/2112450159326179560",
-      "dateEvidence": "Maintenance completion on October 20 UTC; adjusted stats confirmed in-game on October 20.",
-      "type": "balance"
-    },
-    {
       "date": "2026-11-16",
       "description": "19 本版本新增 5 级。",
       "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/",
       "sourcePublishedOn": "2026-11-16"
+    },
+    {
+      "date": "2026-10-17",
+      "description": "官方预告：废墟骑士占用人口从 20 降至 18；移动速度、生命值和伤害降低。",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/",
+      "sourcePublishedOn": "2026-10-17",
+      "type": "announcement"
     }
   ],
   "facts": [

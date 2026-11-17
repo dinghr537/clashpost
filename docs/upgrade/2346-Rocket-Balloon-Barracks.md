@@ -37,7 +37,7 @@ dataSyncedOn: 2026-10-13
 
 </DistrictTable>
 
-<p><small>子城位置核对：2026-11-03 · <a href="https://clash-of-clans.1337wiki.com/balloon-lagoon/" target="_blank" rel="noopener noreferrer">气球环礁资料</a>；另与页面所列维基修订一致。</small></p>
+<p><small>子城资料依据 [部落冲突 Wiki](https://clashofclans.fandom.com/wiki/Clan_Capital_Barracks#Rocket_Balloon_Barracks) 核对。</small></p>
 
 <SmallTitle>属性</SmallTitle>
 

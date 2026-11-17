@@ -2,6 +2,37 @@
 
 本文件记录实际查阅的条款、收录范围和仍需确认的事项，不把来源链接、可访问的 API 或视觉检查当作授权。面向读者的署名与许可见 [NOTICE.md](NOTICE.md) 和 [来源与许可](docs/sources.md)。
 
+## 2026-11-17 用户决定：采用 ClashKing 数据，允许访问 Fandom
+
+用户决定：
+
+- **采用 ClashKing 游戏数据。** Wiki 尚未更新的 19 本数值，改用 [ClashKing Assets](https://github.com/ClashKingInc/ClashKingAssets) 发布的 `static_data.json`（下载地址 `https://assets.clashk.ing/static_data.json`，2026-11-17 下载）。该仓库的 `update_static.py` 从游戏安装包提取数据表格后生成此文件。README 欢迎他人使用其托管文件并请求署名，仓库采用 GPL-3.0。本站只把所需的单个数值填入自有表格，并在单位页注明 ClashKing，不复制其数据文件。
+  - 采用前已与 Wiki 及官方核实过的数值比对：19 本新增和调整的 482 个重叠数值中有 479 个一致。不一致的 3 个中，2 个是 Wiki 的笔误或取整，1 个是多人箭塔 5 级生命值（Wiki 5,400，ClashKing 5,900）。1–4 级生命值依次为 5,000、5,200、5,400、5,500，Wiki 的 5 级值与 3 级相同，且低于 4 级，经用户决定采用 ClashKing 的 5,900。
+  - 等级对应规则：兵种、法术、英雄、战宠的升级费用和时间取 ClashKing 前一级的记录，建筑和陷阱取同一级的记录。每个单位的每一列，须先与本站已核实数值完全一致才会填入；没有通过比对的列不填，并保留原状。
+- **Fandom 可以访问，可以使用其数据。** 下文《Fandom 获取方式：待确认》一节中“不再执行批量联网抓取和补图”的限制，按用户本次决定不再适用。2026-11-17 已经通过公开 API 刷新 Wiki 快照，并下载了新等级图片；图片来源记录在 `docs/public/images/wiki-sources.json`。
+
+## 2026-11-16 来源收缩：当前执行方式
+
+以下各节保留此前真实的查找、对照和使用记录；它们不是对当前仍使用所有候选数值的声明。按用户要求，当前版本优先使用 Supercell 官方、Clash of Clans Wiki（使用 COC Wiki 的 Wiki 改编资料时保留两站署名）、原部落驿站资料，以及用户或其他玩家核实的事实。用户亲自查看游戏提供的信息也统一标为“玩家提供”。此前来自小站或第三方整理、尚未通过这些来源确认的候选数值不再作为当前表格数值，相关字段标为“待更新”。用户提供的第三方文章和截图不自动等于玩家亲自核实。
+
+本轮人工查看 Wiki，确认 12 种小队的研究表、小队训练营 1–12 级、尖刺塔和烟花炮手塔 1–2 级、英雄法术、野蛮人、弓箭手、巨人，以及大本营和部落城堡已核对字段，可使用对应 Wiki 页面；粉碎者 2–5 级费用仍以官方公告为准。Wiki 的实验室升级总表仍有旧值。储金罐、圣水瓶、暗黑重油罐和骷髅陷阱所查看的 Wiki 页面尚未列出各自新增等级；19 本宝库基础容量亦未在已查看的 Wiki 表中找到。其他标为待更新的字段中有的尚未逐页核查，不能由此断言 Wiki 没有，详见 [待更新数据核对清单](docs/verification.md)。
+
+19 本图片仍使用本文件下文列出的 33 张 ClashKing 素材及一张官方素材，图片出处与数据来源分开记录，并没有因为精简游戏数值来源而移除图片署名。
+
+2026-11-17 复查 [Wiki 宝库](https://clashofclans.fandom.com/wiki/Treasury)、[储金罐](https://clashofclans.fandom.com/wiki/Gold_Storage)和[骷髅陷阱](https://clashofclans.fandom.com/wiki/Skeleton_Trap)页面，相关表格仍分别只列至 18 本、19 级和 5 级。圣水瓶、暗黑重油罐的最后一次人工检查是 11 月 16 日，不能套用 11 月 17 日的复查日期。
+
+同日逐行核对 [实验室](https://clashofclans.fandom.com/wiki/Laboratory)、[防空火箭](https://clashofclans.fandom.com/wiki/Air_Defense)、[特斯拉电磁塔](https://clashofclans.fandom.com/wiki/Hidden_Tesla)、[建筑工人小屋](https://clashofclans.fandom.com/wiki/Builder%27s_Hut)的部分旧等级和新增等级，及 [X 连弩](https://clashofclans.fandom.com/wiki/X-Bow)的历史充能费用和时间；已将这些与 Wiki 一致的字段补回。Wiki 的英雄殿堂和隐形弹簧页面仍未列出新增等级，旧等级也有未跟上此次调整的数值，不能用整页替换。升级经验由已确认的升级秒数开平方取整计算，修正了九处本地数据中的旧经验值。
+
+同日还核对了 [哥布林](https://clashofclans.fandom.com/wiki/Goblin)、[法师](https://clashofclans.fandom.com/wiki/Wizard)、[天使](https://clashofclans.fandom.com/wiki/Healer)、[掘地矿工](https://clashofclans.fandom.com/wiki/Miner)的升级表，以及 [大雪怪](https://clashofclans.fandom.com/wiki/Yeti)更新历史中的旧等级减免，补回页面中直接列出的数值。又核对了[金矿](https://clashofclans.fandom.com/wiki/Gold_Mine)、[圣水收集器](https://clashofclans.fandom.com/wiki/Elixir_Collector)、[暗黑重油钻井](https://clashofclans.fandom.com/wiki/Dark_Elixir_Drill)的历史充能费用和部分时间；金矿、圣水收集器第 3 次充能时间与此前候选记录不一致，暂不采用；回本时间没有照搬其他来源。
+
+同日进一步核对了[野蛮人之王](https://clashofclans.fandom.com/wiki/Barbarian_King)、[弓箭女皇](https://clashofclans.fandom.com/wiki/Archer_Queen)、[炸弹人](https://clashofclans.fandom.com/wiki/Wall_Breaker)、[气球兵](https://clashofclans.fandom.com/wiki/Balloon)、[飞龙](https://clashofclans.fandom.com/wiki/Dragon)和[皮卡超人](https://clashofclans.fandom.com/wiki/P.E.K.K.A)的升级表。炸弹人 15 级死亡后对墙伤害仍未在表中列出，保留待更新；[大守护者](https://clashofclans.fandom.com/wiki/Grand_Warden)、[飞盾战神](https://clashofclans.fandom.com/wiki/Royal_Champion)、[亡灵王子](https://clashofclans.fandom.com/wiki/Minion_Prince)和[飞龙公爵](https://clashofclans.fandom.com/wiki/Dragon_Duke)的表仍是此次更新前的等级与费用。
+
+同日核对了[飞龙宝宝](https://clashofclans.fandom.com/wiki/Baby_Dragon)、[雷电飞龙](https://clashofclans.fandom.com/wiki/Electro_Dragon)、[龙骑士](https://clashofclans.fandom.com/wiki/Dragon_Rider)、[雷霆泰坦](https://clashofclans.fandom.com/wiki/Electro_Titan)、[根蔓骑士](https://clashofclans.fandom.com/wiki/Root_Rider)、[巨矛投手](https://clashofclans.fandom.com/wiki/Thrower)、[陨石戈仑](https://clashofclans.fandom.com/wiki/Meteor_Golem)和[瓦基丽武神](https://clashofclans.fandom.com/wiki/Valkyrie)的部分等级。瓦基丽武神的旧等级减免见更新历史，升级表尚未同步；雷电飞龙 5 级表格亦仍是旧值，因此没有用其覆盖待更新项。
+
+同日核对了多种法术及防御建筑的 Wiki 升级表和 11 月更新历史，补回其中直接列出的费用、时间和已确认属性。多人箭塔 5 级生命值在 Wiki 表中为 5,400，而此前候选记录为 5,900；因为存在差异，当前保留待更新，等待玩家从游戏核实。所有随时间变化的升级经验均由已核对的升级时间重新计算。
+
+同日逐级核对了 [冷冽冰晶](https://clashofclans.fandom.com/wiki/Frost_Flake)、[传送吊坠](https://clashofclans.fandom.com/wiki/Portal_Pendant)、[冰封箭矢](https://clashofclans.fandom.com/wiki/Frozen_Arrow)、[烈焰之心](https://clashofclans.fandom.com/wiki/Fire_Heart)和[废墟骑士](https://clashofclans.fandom.com/wiki/Ruin_Witch/Ruin_Knight)的当前 Wiki 数据及更新历史，补回对应字段。攻城战车、飞艇、气球、训练营、滚木车、烈焰车和钻机的相关等级表仍显示调整前的费用与时间，已在核对清单列出。
+
 ## 已确认的内容许可
 
 | 来源 | 依据 | 本项目处理 |
@@ -25,7 +56,7 @@ CC BY-SA 3.0 的 [4(b) 条](https://creativecommons.org/licenses/by-sa/3.0/legal
 
 随后为本地预览补充了 33 张该仓库固定修订中的游戏图片，并从 [Supercell 官方帮助中心](https://sc-clashofclans.zendesk.com/hc/en-us/articles/49529107397403-Guardians)补充守卫神殿图片。每张图的精确地址、画面说明、核对日期和权利依据见 [19 本图片记录](docs/public/images/th19-sources.json)；图片不按文字的 CC 许可处理。Supercell 的[玩家内容政策](https://supercell.com/en/fan-content-policy/)及 ClashKing 仓库声明与本站发布形式、许可的适配仍需在正式发布前确认。
 
-## Fandom 获取方式：待确认
+## Fandom 获取方式：待确认（2026-11-17 已由用户决定，见上文）
 
 2026-10-16 已通过浏览器读取[当前使用条款](https://www.fandom.com/terms-of-use)，页面修订日期为 **2025-12-19**。`User conduct` 包含自动抓取/提取限制、未经书面许可使用自动工具访问的限制，以及未经书面同意将内容用于软件开发（包括训练 AI）的限制。本文不自行断定这些条款与社区 CC 许可的法律适用关系，也不将 AI 整理资料等同于训练模型。
 

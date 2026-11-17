@@ -17,6 +17,13 @@ BASELINE = '9e77a85'
 # This date contained two Seeking Air Mine events copied into the Skeleton Trap page.
 # The actual level 4 Skeleton Trap was added on 2018-03-05.
 REVIEWED_REMOVED_DATES = {'docs/upgrade/0385-Skeleton-Trap.md': Counter({'2019/12/09': 1})}
+# The Town Hall 19 update removed Supercharges from every building that gained a new
+# level (official release notes); their ⚡ rows were removed from these pages on review.
+REVIEWED_REMOVED_SUPERCHARGES = {
+    '0304-Air-Defense', '0307-Hidden-Tesla', '0309-X-Bow', '0314-Multi-Archer-Tower',
+    '0401-Gold-Mine', '0313-Ricochet-Cannon', '0317-Multi-Gear-Tower', '0402-Elixir-Collector',
+    '0403-Dark-Elixir-Drill', '0500-Builders-Hut', '030e-Scattershot',
+}
 
 
 class OriginalContentTests(unittest.TestCase):
@@ -64,7 +71,11 @@ class OriginalContentTests(unittest.TestCase):
                         # The 19 update added a hero damage bonus to this equipment.
                         expected.append('英雄<br>秒伤增加')
                     self.assertEqual(after[index]['headers'], expected)
-                    self.assertGreaterEqual(len(after[index]['rows']), len(table['rows']))
+                    expected_rows = table['rows']
+                    if path.stem in REVIEWED_REMOVED_SUPERCHARGES:
+                        expected_rows = [row for row in expected_rows if not row[0].startswith('⚡')]
+                        self.assertFalse([row for row in after[index]['rows'] if row[0].startswith('⚡')])
+                    self.assertGreaterEqual(len(after[index]['rows']), len(expected_rows))
                     old_links = set(re.findall(r'(?:href="|\]\()(/[^"\s)]+)', str(table['rows'])))
                     new_links = set(re.findall(r'(?:href="|\]\()(/[^"\s)]+)', str(after[index]['rows'])))
                     self.assertFalse(old_links - new_links)

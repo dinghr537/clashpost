@@ -26,6 +26,7 @@ dataVersionUpdatedOn: 2026-11-16
         <UnitImg imgTitle="9 - 10 级" imgSrc="Spring_Trap9.png" />
         <UnitImg imgTitle="11 - 12 级" imgSrc="Spring_Trap11.png" />
         <UnitImg imgTitle="13 级" imgSrc="Spring_Trap13.png" />
+        <UnitImg imgTitle="14 级" imgSrc="Spring_Trap14.png" />
     </UnitImgGroup>
     <UnitImgGroup title="未重新布置" :folder="$frontmatter.imgFolder">
         <UnitImg imgTitle="1 - 2 级" imgSrc="Spring_Trap1_unarmed.png" />
@@ -69,9 +70,7 @@ dataVersionUpdatedOn: 2026-11-16
 
 <SmallTitle>升级数据</SmallTitle>
 
-<small>14 级弹飞人口上限为 18，依据玩家提供的信息。</small>
-
-<small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为待更新。</small>
+<small>19 本资料参考 [Supercell 官方公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)、[部落冲突 Wiki](https://clashofclans.fandom.com/wiki/Spring_Trap)与 [ClashKing 游戏数据](https://github.com/ClashKingInc/ClashKingAssets)；暂缺的字段标为待更新。</small>
 
 <script setup>
 const tableExtraInfo = [
@@ -111,7 +110,7 @@ const tableExtraInfo = [
 | 11 | 18 | 1200 | 6000000 | 2,0,0,0 |  | 16 |
 | 12 | 18 | 1300 | 7000000 | 2,12,0,0 |  | 17 |
 | 13 | 18 | 1400 | 9500000 | 5,0,0,0 |  | 18 |
-| 14 | 18 | 1500 | 17000000 | 8,0,0,0 |  | 19 |
+| 14 | 18 | 待更新 | 17000000 | 8,0,0,0 |  | 19 |
 
 </UnitTable>
 

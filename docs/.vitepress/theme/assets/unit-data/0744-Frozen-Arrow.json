@@ -30,7 +30,8 @@
           "header": "Hero Boosts / Damage per Second Increase",
           "levels": "21–27"
         }
-      ]
+      ],
+      "followupVerification": "2026-11-17 人工核对当前 Wiki 表与更新历史，补回已核实字段。"
     }
   },
   "tables": [
@@ -1220,24 +1221,11 @@
   ],
   "history": [
     {
-      "date": "2026-10-20",
-      "description": "所有等级减速比例提高 5 个百分点，1–2 级由 25% 提高至 30%，27 级由 65% 提高至 70%。",
+      "date": "2026-10-17",
+      "description": "官方预告：所有等级减速效果增加 5 个百分点；21–27 级伤害提高，满级提高至 175。",
       "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/",
       "sourcePublishedOn": "2026-10-17",
-      "numericSourceUrl": "https://clashfox.com/blog/balance-changes-before-town-hall-19-fire-heart-and-ruin-witch-nerfed-hogs-and-p-e-k-k-a-bu",
-      "dateSourceUrl": "https://x.com/ClashofClans/status/2112450159326179560",
-      "dateEvidence": "Maintenance completion on October 20 UTC; adjusted stats confirmed in-game on October 20.",
-      "type": "balance"
-    },
-    {
-      "date": "2026-10-20",
-      "description": "提高 21–27 级每秒伤害加成：144→145、148→150、152→155、156→160、160→165、164→170、168→175（依等级顺序）。",
-      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/",
-      "sourcePublishedOn": "2026-10-17",
-      "numericSourceUrl": "https://clashfox.com/blog/balance-changes-before-town-hall-19-fire-heart-and-ruin-witch-nerfed-hogs-and-p-e-k-k-a-bu",
-      "dateSourceUrl": "https://x.com/ClashofClans/status/2112450159326179560",
-      "dateEvidence": "Maintenance completion on October 20 UTC; adjusted stats confirmed in-game on October 20.",
-      "type": "balance"
+      "type": "announcement"
     }
   ],
   "facts": [],

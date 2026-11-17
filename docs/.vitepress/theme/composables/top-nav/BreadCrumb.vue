@@ -37,6 +37,9 @@ function getBreadcrumbArr(moduleCode, finalTitle, path) {
     } else if (moduleCode === "sources") {
         items[1] = setBreadcrumbItem(null, "来源与许可");
 
+    } else if (moduleCode === "verification") {
+        items[1] = setBreadcrumbItem(null, "待更新数据核对清单");
+
     } else if (moduleCode === "notice") {
         items[1] = setBreadcrumbItem(null, "用户须知");
 

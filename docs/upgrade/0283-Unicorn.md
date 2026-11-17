@@ -45,7 +45,7 @@ dataVersionUpdatedOn: 2026-11-16
 
 <SmallTitle>升级数据</SmallTitle>
 
-<small>19 本版本对部分旧等级的费用、时间作了调整；变更数值参考 [ClashKing Assets](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)。</small>
+<small>19 本版本调整了部分旧等级的费用和时间，调整范围见<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/">官方公告</a>，调整后的数值来自<a href="https://github.com/ClashKingInc/ClashKingAssets" target="_blank" rel="noopener noreferrer">ClashKing 游戏数据</a>。</small>
 
 <script setup>
 const tableExtraInfo = [

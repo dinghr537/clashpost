@@ -58,19 +58,19 @@ dataVersionUpdatedOn: 2026-11-16
 
 <SmallTitle>升级数据</SmallTitle>
 
-<small>19 本新增等级沿用本页与原兵种相同的编号：通过旧等级属性对照及原兵种等级，将 [ClashKing 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)重新编号后补入；本页新增的 16 级，对应官方公告和候选数据的 13 级；此对应关系仍待游戏内核对。缺失字段标为待更新。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/">官方公告</a></small>
+<small>超级兵等级暂沿用与普通兵种相同的编号；与官方公告中的编号对应关系待更新。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/">官方公告</a></small>
 
 <UnitTable>
 
 | 等级 |  每秒伤害  |  每次伤害  | 生命值 |所需大本等级|
 | ---- |    ----   |    ----   |  ---- |    ----   |
-| 10 | 180 | 180 | 1600 | 13 |
-| 11 | 200 | 200 | 1700 | 14 |
-| 12 | 230 | 230 | 1900 | 15 |
-| 13 | 250 | 250 | 2050 | 16 |
-| 14 | 270 | 270 | 2250 | 17 |
-| 15 | 300 | 300 | 2500 | 18 |
-| 16 | 330 | 330 | 2750 | 19 |
+| 10 | 180 | 180 | 1600<span class="cp-outdated"></span> | 13 |
+| 11 | 200 | 200 | 1700<span class="cp-outdated"></span> | 14 |
+| 12 | 230 | 230 | 1900<span class="cp-outdated"></span> | 15 |
+| 13 | 250 | 250 | 2050<span class="cp-outdated"></span> | 16 |
+| 14 | 270 | 270 | 2250<span class="cp-outdated"></span> | 17 |
+| 15 | 300 | 300 | 2500<span class="cp-outdated"></span> | 18 |
+| 16 | 待更新 | 待更新 | 待更新 | 19 |
 </UnitTable>
 </SwitchTabGroup>
 
@@ -171,9 +171,8 @@ dataVersionUpdatedOn: 2026-11-16
     <TimelineItem date="2026/11/16">
         <TimelineRow>19 本版本对应的普通兵种新增等级，超级兵属性随之更新。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
     </TimelineItem>
-    <TimelineItem date="2026/10/20">
-        <TimelineRow>提高 10–15 级生命值：1500→1600、1600→1700、1750→1900、1900→2050、2100→2250、2350→2500（依等级顺序）。</TimelineRow>
-        <TimelineRow><a href="https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/" target="_blank" rel="noopener noreferrer">官方公告</a>（10/17 发布） · <a href="https://clashfox.com/blog/balance-changes-before-town-hall-19-fire-heart-and-ruin-witch-nerfed-hogs-and-p-e-k-k-a-bu" target="_blank" rel="noopener noreferrer">数值参考</a> · <a href="https://x.com/ClashofClans/status/2112450159326179560" target="_blank" rel="noopener noreferrer">10/20 维护完成</a>。</TimelineRow>
+    <TimelineItem date="2026/10/17">
+        <TimelineRow>官方预告：超级野猪骑士生命值提高。 <a href="https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
     </TimelineItem>
     <TimelineItem date="2026/02/23">
         <TimelineRow>18 本新增 15 级野猪骑士，超级部队的等级也相应更新。</TimelineRow>

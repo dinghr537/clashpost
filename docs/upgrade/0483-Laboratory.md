@@ -13,7 +13,7 @@ dataVersionUpdatedOn: 2026-11-16
 
 - *如想查看夜世界的星空实验室，请访问：[夜世界星空实验室](/upgrade/1282-Star-Laboratory)。*
 
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Laboratory16_hd.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Laboratory17.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
 
 <SmallTitle>各等级图片</SmallTitle>
 
@@ -35,6 +35,7 @@ dataVersionUpdatedOn: 2026-11-16
         <UnitImg imgTitle="14 级" imgSrc="Laboratory14.png" />
         <UnitImg imgTitle="15 级" imgSrc="Laboratory15.png" />
         <UnitImg imgTitle="16 级" imgSrc="Laboratory16.png" imgHd="Laboratory16_hd.png" />
+        <UnitImg imgTitle="17 级" imgSrc="Laboratory17.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -45,7 +46,7 @@ dataVersionUpdatedOn: 2026-11-16
     <BuildingNumRow title="建筑数量" num="    0,      1" />
 </BuildingNum>
 
-<small>19 本数量参考 [官方更新公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)和 [ClashRecord](https://www.clashrecord.com/max-levels/th19)；可合并建筑按全部合并后计算。</small>
+<small>19 本数量以 [部落冲突 Wiki](https://clashofclans.fandom.com/wiki/Laboratory) 的既有数量为基础，结合 [Supercell 官方更新公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)中的新增和合并项目，按合并后数量计算。</small>
 
 <SmallTitle>重要说明</SmallTitle>
 
@@ -60,7 +61,7 @@ dataVersionUpdatedOn: 2026-11-16
 
 <SmallTitle>升级数据</SmallTitle>
 
-<small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为待更新。</small>
+<small>19 本资料参考 [Supercell 官方公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)与 [部落冲突 Wiki](https://clashofclans.fandom.com/wiki/Laboratory)。</small>
 
 <script setup>
 const tableExtraInfo = [

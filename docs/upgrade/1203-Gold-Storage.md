@@ -41,7 +41,7 @@ dataSyncedOn: 2026-10-13
     <BuildingNumRow title="第二区域的建筑数量上限" num="\, \, 1" />
 </BuildingNum>
 
-<p><small>5 本数量和 6 本后的区域上限在<a href="https://clashofclans.fandom.com/wiki/Gold_Storage/Builder_Base" target="_blank" rel="noopener noreferrer">维基</a>、<a href="https://supercell.com/en/games/clashofclans/blog/news/new-battle-copter-and-troop-abilities/" target="_blank" rel="noopener noreferrer">夜世界 2.0 官方说明</a>及<a href="https://www.reddit.com/r/ClashOfClans/comments/13j985e/weekly_questions_megathread/" target="_blank" rel="noopener noreferrer">玩家记录</a>中存在差异；此处暂沿用原表，待游戏内核实。</small></p>
+<p><small>5 本数量和 6 本后的区域上限在<a href="https://clashofclans.fandom.com/wiki/Gold_Storage/Builder_Base" target="_blank" rel="noopener noreferrer">维基</a>、<a href="https://supercell.com/en/games/clashofclans/blog/news/new-battle-copter-and-troop-abilities/" target="_blank" rel="noopener noreferrer">夜世界 2.0 官方说明</a>中存在差异；此处暂沿用原表，待游戏内核实。</small></p>
 
 <SmallTitle>属性</SmallTitle>
 

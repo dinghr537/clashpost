@@ -15,7 +15,7 @@ dataVersionUpdatedOn: 2026-11-16
 - *如想查看 12 本的自带武器，请访问 [巨型特斯拉电磁塔](/upgrade/030c-Giga-Tesla)。*
 - *如想查看夜世界的特斯拉电磁塔，请访问：[夜世界特斯拉电磁塔](/upgrade/1103-Hidden-Tesla)。*
 
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Hidden_Tesla17.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Hidden_Tesla18.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
 
 <SmallTitle>各等级图片</SmallTitle>
 
@@ -38,6 +38,7 @@ dataVersionUpdatedOn: 2026-11-16
         <UnitImg imgTitle="15 级" imgSrc="Hidden_Tesla15.png" />
         <UnitImg imgTitle="16 级" imgSrc="Hidden_Tesla16.png" />
         <UnitImg imgTitle="17 级" imgSrc="Hidden_Tesla17.png" />
+        <UnitImg imgTitle="18 级" imgSrc="Hidden_Tesla18.png" />
     </UnitImgGroup>
 </Panel>
 
@@ -48,7 +49,7 @@ dataVersionUpdatedOn: 2026-11-16
     <BuildingNumRow title="建筑数量" num="    0, 2, 3,      4,       5" />
 </BuildingNum>
 
-<small>19 本数量参考 [官方更新公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)和 [ClashRecord](https://www.clashrecord.com/max-levels/th19)；可合并建筑按全部合并后计算。</small>
+<small>19 本数量以 [部落冲突 Wiki](https://clashofclans.fandom.com/wiki/Hidden_Tesla) 的既有数量为基础，结合 [Supercell 官方更新公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)中的新增和合并项目，按合并后数量计算。</small>
 
 <SmallTitle>属性</SmallTitle>
 
@@ -64,7 +65,7 @@ dataVersionUpdatedOn: 2026-11-16
 
 <SmallTitle>升级数据</SmallTitle>
 
-<small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为待更新。</small>
+<small>19 本资料参考 [Supercell 官方公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)与 [部落冲突 Wiki](https://clashofclans.fandom.com/wiki/Hidden_Tesla)。</small>
 
 <script setup>
 const tableExtraInfo = [
@@ -86,8 +87,6 @@ const tableExtraInfo = [
     }
 ];
 </script>
-
-<p><small>2026 年 19 本更新后，本建筑此前的超级充能已移除；下方带 ⚡ 的行仅供查阅历史数据。正在进行的充能会全额退款，已完成的充能不退款。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/">官方公告</a></small></p>
 
 <UnitTable :tableExtraInfo="tableExtraInfo">
 
@@ -111,8 +110,6 @@ const tableExtraInfo = [
 | 16 | 180 | 108 | 1650 | 13500000 | 7,0,0,0 |  | 17 |
 | 17 | 190 | 114 | 1750 | 16500000 | 9,0,0,0 |  | 18 |
 | 18 | 210 | 126 | 1950 | 27500000 | 14,0,0,0 |  | 19 |
-| ⚡1 | 195 | 117 | 1750 | 4750000 | 1,19,0,0 |  | 18 |
-| ⚡2 | 195 | 117 | 1800 | 3250000 | 2,14,0,0 |  | 18 |
 
 </UnitTable>
 
@@ -121,11 +118,6 @@ const tableExtraInfo = [
 <Timeline>
     <TimelineItem date="2026/11/16">
         <TimelineRow>19 本版本新增 18 级。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
-    </TimelineItem>
-    <TimelineItem date="2026/10/20">
-        <TimelineRow>充能 1 级：费用由 1200 万降至 475 万，时间由 4天12小时缩短至 1天19小时。</TimelineRow>
-        <TimelineRow>充能 2 级：费用由 800 万降至 325 万，时间由 6天12小时缩短至 2天14小时。</TimelineRow>
-        <TimelineRow><a href="https://x.com/ClashDotNinja/status/2112523574984446061" target="_blank" rel="noopener noreferrer">来源：Clash Ninja 充能调整公告</a>。</TimelineRow>
     </TimelineItem>
     <TimelineItem date="2026/04/27">
         <TimelineRow>为 17 级特斯拉电磁塔新增两级超级充能。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/" target="_blank" rel="noopener noreferrer">来源：Supercell 官方更新公告</a>。</TimelineRow>
@@ -198,5 +190,3 @@ const tableExtraInfo = [
     <TimelineItem :historyBottom="true" />
 </Timeline>
 <p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Hidden_Tesla?oldid=592092" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>
-
-<small>2026 年 11 月旧等级费用与时间参考[玩家整理](https://mp.weixin.qq.com/s/1C8VxevkSERrS2x1vJd8aA)（用户提供原文）及 [ClashKing 游戏数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)。本站保留表格结构并按等级核对。</small>

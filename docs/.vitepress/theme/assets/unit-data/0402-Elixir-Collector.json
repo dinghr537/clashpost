@@ -227,9 +227,11 @@
     },
     "th19Update": {
       "checkedOn": "2026-11-16",
-      "source": "ClashKing Assets (selected game facts)",
-      "sourceUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json",
-      "scope": "Selected new levels and baseline-matched cost/time adjustments; missing fields remain unknown."
+      "source": "Supercell 官方公告、部落冲突 Wiki 及玩家提供的信息（按字段核对）",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/",
+      "scope": "采用已核实的字段；未通过上述来源核实的候选数据标为待更新。原候选来源和历史过程记于 SOURCE_PERMISSIONS.md。",
+      "activePolicy": "按官方公告、Wiki 或玩家提供的信息保留已核实数据；尚未核实的字段不展示候选值。原始候选来源记录于 SOURCE_PERMISSIONS.md。",
+      "followupVerification": "2026-11-17 人工逐项核对对应 Wiki 页面中本次补回的等级及字段；经验由已核实的升级时间计算。"
     }
   },
   "tables": [
@@ -1423,7 +1425,8 @@
           {
             "status": "known",
             "value": 4200000,
-            "raw": "4200000"
+            "raw": "4,200,000",
+            "source": "ClashKing"
           },
           {
             "status": "known",
@@ -1467,7 +1470,8 @@
           {
             "status": "known",
             "value": 1450,
-            "raw": "1450"
+            "raw": "1,450",
+            "source": "ClashKing"
           },
           {
             "status": "unknown",
@@ -1482,248 +1486,27 @@
           {
             "status": "known",
             "value": 8500000,
-            "raw": "8500000"
+            "raw": "8,500,000",
+            "source": "ClashKing"
           },
           {
             "status": "known",
             "value": 259200,
             "raw": "3d",
             "unit": "seconds",
-            "displayInput": "3,0,0,0"
+            "displayInput": "3,0,0,0",
+            "source": "ClashKing"
           },
           {
             "status": "known",
             "value": 509,
-            "raw": "509"
+            "raw": "509",
+            "source": "ClashKing"
           },
           {
             "status": "unknown",
             "value": null,
             "raw": "?"
-          },
-          {
-            "status": "known",
-            "value": 18,
-            "raw": "18"
-          }
-        ]
-      ],
-      "extraInfo": [
-        {
-          "column": 4,
-          "type": "cost",
-          "icon": "Gem",
-          "gpClass": "building",
-          "noGoldPass": true
-        },
-        {
-          "column": 6,
-          "type": "cost",
-          "icon": "Gold",
-          "gpClass": "building",
-          "noGoldPass": false
-        },
-        {
-          "column": 7,
-          "type": "time",
-          "gpClass": "building",
-          "noGoldPass": false
-        }
-      ]
-    },
-    {
-      "sourceTableIndex": 7,
-      "section": "Statistics",
-      "title": "Supercharges",
-      "headers": [
-        "Charge Level ⚡",
-        "Capacity",
-        "Production Rate",
-        "Hitpoints",
-        "Boost Cost",
-        "Time to Fill",
-        "Build Cost",
-        "Build Time",
-        "Experience Gained",
-        "Catch-Up Point",
-        "Town Hall Level Required"
-      ],
-      "rows": [
-        [
-          {
-            "status": "known",
-            "value": 1,
-            "raw": "1"
-          },
-          {
-            "status": "known",
-            "value": 436500,
-            "raw": "436,500"
-          },
-          {
-            "status": "known",
-            "value": "7,857/hr",
-            "raw": "7,857/hr"
-          },
-          {
-            "status": "known",
-            "value": 1400,
-            "raw": "1,400"
-          },
-          {
-            "status": "known",
-            "value": 11,
-            "raw": "11"
-          },
-          {
-            "status": "known",
-            "value": "2d 7h 33m 20s",
-            "raw": "2d 7h 33m 20s"
-          },
-          {
-            "status": "known",
-            "value": 250000,
-            "raw": "250,000"
-          },
-          {
-            "status": "known",
-            "value": 34200,
-            "raw": "9h 30m",
-            "unit": "seconds",
-            "displayInput": "0,9,30,0"
-          },
-          {
-            "status": "known",
-            "value": 184,
-            "raw": "184",
-            "derivedFrom": "floor(sqrt(Build Time in seconds))"
-          },
-          {
-            "status": "known",
-            "value": "10d 1h 49m 5s",
-            "raw": "10d 1h 49m 5s",
-            "derivedFrom": "Build Time × previous production rate ÷ production rate increase; excludes cost paid in another resource"
-          },
-          {
-            "status": "known",
-            "value": 18,
-            "raw": "18"
-          }
-        ],
-        [
-          {
-            "status": "known",
-            "value": 2,
-            "raw": "2"
-          },
-          {
-            "status": "known",
-            "value": 453000,
-            "raw": "453,000"
-          },
-          {
-            "status": "known",
-            "value": "8,154/hr",
-            "raw": "8,154/hr"
-          },
-          {
-            "status": "known",
-            "value": 1400,
-            "raw": "1,400"
-          },
-          {
-            "status": "known",
-            "value": 11,
-            "raw": "11"
-          },
-          {
-            "status": "known",
-            "value": "2d 7h 33m 20s",
-            "raw": "2d 7h 33m 20s"
-          },
-          {
-            "status": "known",
-            "value": 250000,
-            "raw": "250,000"
-          },
-          {
-            "status": "known",
-            "value": 52200,
-            "raw": "14h 30m",
-            "unit": "seconds",
-            "displayInput": "0,14,30,0"
-          },
-          {
-            "status": "known",
-            "value": 228,
-            "raw": "228",
-            "derivedFrom": "floor(sqrt(Build Time in seconds))"
-          },
-          {
-            "status": "known",
-            "value": "15d 23h 35m 27s",
-            "raw": "15d 23h 35m 27s",
-            "derivedFrom": "Build Time × previous production rate ÷ production rate increase; excludes cost paid in another resource"
-          },
-          {
-            "status": "known",
-            "value": 18,
-            "raw": "18"
-          }
-        ],
-        [
-          {
-            "status": "known",
-            "value": 3,
-            "raw": "3"
-          },
-          {
-            "status": "known",
-            "value": 453000,
-            "raw": "453,000"
-          },
-          {
-            "status": "known",
-            "value": "8,154/hr",
-            "raw": "8,154/hr"
-          },
-          {
-            "status": "known",
-            "value": 1450,
-            "raw": "1,450"
-          },
-          {
-            "status": "known",
-            "value": 11,
-            "raw": "11"
-          },
-          {
-            "status": "known",
-            "value": "2d 7h 33m 20s",
-            "raw": "2d 7h 33m 20s"
-          },
-          {
-            "status": "known",
-            "value": 250000,
-            "raw": "250,000"
-          },
-          {
-            "status": "known",
-            "value": 68400,
-            "raw": "19h",
-            "unit": "seconds",
-            "displayInput": "0,19,0,0"
-          },
-          {
-            "status": "known",
-            "value": 261,
-            "raw": "261",
-            "derivedFrom": "floor(sqrt(Build Time in seconds))"
-          },
-          {
-            "status": "not_applicable",
-            "value": null,
-            "raw": "N/A"
           },
           {
             "status": "known",
@@ -1878,27 +1661,6 @@
     }
   ],
   "history": [
-    {
-      "date": "2026-10-20",
-      "description": "充能 1 级：费用由 170 万降至 25 万，时间由 2天缩短至 9小时30分。",
-      "sourceUrl": "https://x.com/ClashDotNinja/status/2112523574984446061",
-      "sourcePublishedOn": "2026-10-20",
-      "sourceType": "community-update"
-    },
-    {
-      "date": "2026-10-20",
-      "description": "充能 2 级：费用由 150 万降至 25 万，时间由 3天缩短至 14小时30分。",
-      "sourceUrl": "https://x.com/ClashDotNinja/status/2112523574984446061",
-      "sourcePublishedOn": "2026-10-20",
-      "sourceType": "community-update"
-    },
-    {
-      "date": "2026-10-20",
-      "description": "充能 3 级：费用由 130 万降至 25 万，时间由 4天缩短至 19小时。",
-      "sourceUrl": "https://x.com/ClashDotNinja/status/2112523574984446061",
-      "sourcePublishedOn": "2026-10-20",
-      "sourceType": "community-update"
-    },
     {
       "date": "2026-11-16",
       "description": "19 本版本新增 18 级。",

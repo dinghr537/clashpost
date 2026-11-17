@@ -67,7 +67,7 @@ dataVersionUpdatedOn: 2026-11-16
 
 <SmallTitle>升级数据</SmallTitle>
 
-<small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为待更新。</small>
+<small>19 本资料参考 [Supercell 官方公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)与 [部落冲突 Wiki](https://clashofclans.fandom.com/wiki/Meteor_Golem)；暂缺的字段标为待更新。</small>
 
 <script setup>
 const tableExtraInfo = [
@@ -131,10 +131,10 @@ const tableExtraInfo = [
 
 | 等级 | 每秒伤害 | 每次伤害 | 生命值 |
 | ---- |   ---   |   ---   |  ----  |
-| 1 | 190 | 285 | 7650 |
-| 2 | 210 | 315 | 8450 |
-| 3 | 230 | 345 | 9250 |
-| 4 | 待更新 | 待更新 | 10000 |
+| 1 | 190 | 285 | 7650<span class="cp-outdated"></span> |
+| 2 | 210 | 315 | 8450<span class="cp-outdated"></span> |
+| 3 | 230 | 345 | 9250<span class="cp-outdated"></span> |
+| 4 | 待更新 | 待更新 | 20000 |
 </UnitTable>
 
 <small>1–3 级伤害参考 [小陨石戈仑维基](https://clashofclans.fandom.com/wiki/Meteor_Golem/Meteormite)；4 级生命值按母体满血 20000 分裂时各为一半计算，母体受损时会更低，4 级伤害尚待更新。</small>
@@ -146,9 +146,8 @@ const tableExtraInfo = [
     <TimelineItem date="2026/11/16">
         <TimelineRow>19 本版本新增 4 级。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
     </TimelineItem>
-    <TimelineItem date="2026/10/20">
-        <TimelineRow>提高 1–3 级生命值，分别由 14500、16000、17500 提高至 15300、16900、18500；满血分裂后的小陨石戈仑生命值相应提高至 7650、8450、9250。</TimelineRow>
-        <TimelineRow><a href="https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/" target="_blank" rel="noopener noreferrer">官方公告</a>（10/17 发布） · <a href="https://clashfox.com/blog/balance-changes-before-town-hall-19-fire-heart-and-ruin-witch-nerfed-hogs-and-p-e-k-k-a-bu" target="_blank" rel="noopener noreferrer">数值参考</a> · <a href="https://x.com/ClashofClans/status/2112450159326179560" target="_blank" rel="noopener noreferrer">10/20 维护完成</a>。</TimelineRow>
+    <TimelineItem date="2026/10/17">
+        <TimelineRow>官方预告：陨石戈仑及其召唤物的生命值提高。 <a href="https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
     </TimelineItem>
     <TimelineItem date="2026/08/31">
         <TimelineRow>修复陨石戈仑在分裂、被投掷或合体时丢失愤怒法术效果及目标的问题。 <a href="https://supercell.com/en/games/clashofclans/blog/release-notes/august-update-3/" target="_blank" rel="noopener noreferrer">官方公告</a>（08/30 发布；<a href="https://clashofclans.fandom.com/wiki/Diggy?oldid=625147#History" target="_blank" rel="noopener noreferrer">更新日期</a>）</TimelineRow>
@@ -174,5 +173,3 @@ const tableExtraInfo = [
     <TimelineItem :historyBottom="true" />
 </Timeline>
 <p><small>数值核对：2026-10-13 · <a href="https://clashofclans.fandom.com/wiki/Meteor_Golem?oldid=624499" target="_blank" rel="noopener noreferrer">部落冲突维基</a>。部分附加字段沿用原记录。</small></p>
-
-<small>2026 年 11 月旧等级费用与时间参考[玩家整理](https://mp.weixin.qq.com/s/1C8VxevkSERrS2x1vJd8aA)（用户提供原文）及 [ClashKing 游戏数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)。本站保留表格结构并按等级核对。</small>

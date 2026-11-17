@@ -33,9 +33,9 @@ dataVersionUpdatedOn: 2026-11-16
 
 <SmallTitle>升级数据</SmallTitle>
 
-<small>8 级加速、持续时间与半径参考 [ClashPerk Wiki](https://wiki.clashperk.com/spells/haste-spell)。</small>
 
-<small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为待更新。</small>
+
+<small>19 本资料参考 [Supercell 官方公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)、[部落冲突 Wiki](https://clashofclans.fandom.com/wiki/Haste_Spell)与 [ClashKing 游戏数据](https://github.com/ClashKingInc/ClashKingAssets)；暂缺的字段标为待更新。</small>
 
 <script setup>
 const tableExtraInfo = [
@@ -64,7 +64,7 @@ const tableExtraInfo = [
 | 5 | 52 | 30秒 | 4格 | 38500 | 4,0,0,0 | 9 | 11 |
 | 6 | 56 | 30秒 | 4格 | 165000 | 7,12,0,0 | 15 | 17 |
 | 7 | 56 | 30秒 | 5格 | 255000 | 9,6,0,0 | 16 | 18 |
-| 8 | 60 | 30秒 | 5格 | 415000 | 13,0,0,0 | 17 | 19 |
+| 8 | 待更新 | 待更新 | 待更新 | 415000 | 13,0,0,0 | 17 | 19 |
 </UnitTable>
 
 \# 表格中每 8 点速度值代表 1 格/秒。

@@ -78,8 +78,6 @@ const tableExtraInfo2 = [
     <BuildingNumRow title="建筑数量" num="0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1" />
 </BuildingNum>
 
-<small>19 本数量按玩家提供的信息与 18 本保持一致。</small>
-
 <SmallTitle>属性</SmallTitle>
 
 <UnitProperties>

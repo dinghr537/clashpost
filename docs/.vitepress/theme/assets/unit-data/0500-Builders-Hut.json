@@ -153,15 +153,11 @@
     },
     "th19Update": {
       "checkedOn": "2026-11-16",
-      "source": "ClashKing Assets (selected game facts)",
-      "sourceUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json",
-      "scope": "Selected new levels and baseline-matched cost/time adjustments; missing fields remain unknown.",
-      "oldLevelCostTimeReference": {
-        "checkedOn": "2026-11-16",
-        "source": "用户提供的玩家整理与 ClashKing Assets 固定修订逐项对照",
-        "articleUrl": "https://mp.weixin.qq.com/s/1C8VxevkSERrS2x1vJd8aA",
-        "snapshotUrl": "https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json"
-      }
+      "source": "Supercell 官方公告、部落冲突 Wiki 及玩家提供的信息（按字段核对）",
+      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/",
+      "scope": "采用已核实的字段；未通过上述来源核实的候选数据标为待更新。原候选来源和历史过程记于 SOURCE_PERMISSIONS.md。",
+      "activePolicy": "按官方公告、Wiki 或玩家提供的信息保留已核实数据；尚未核实的字段不展示候选值。原始候选来源记录于 SOURCE_PERMISSIONS.md。",
+      "followupVerification": "2026-11-17 已逐行核对本次选定等级的 Wiki 升级表；经验由升级时间按秒开平方取整计算。"
     },
     "reviewedTableCorrections": [
       {
@@ -172,13 +168,13 @@
             "level": 3,
             "header": "Build Cost",
             "originalRaw": "4,000,000",
-            "correctedRaw": "3400000"
+            "correctedRaw": "?"
           },
           {
             "level": 3,
             "header": "Build Time",
             "originalRaw": "3d",
-            "correctedRaw": "2d 12h"
+            "correctedRaw": "?"
           },
           {
             "level": 4,
@@ -206,6 +202,32 @@
           }
         ],
         "reason": "Review against the user-provided November 2026 reference, current game-data snapshot, or the linked source documented on the page; do not silently restore an older snapshot."
+      },
+      {
+        "table": 4,
+        "reviewedOn": "2026-11-17",
+        "cells": [
+          {
+            "level": 4,
+            "header": "Experience Gained",
+            "originalRaw": "587",
+            "correctedRaw": "549"
+          }
+        ],
+        "reason": "经验由已核实的升级时间按秒数开平方取整计算，不能沿用旧升级时间的经验值。"
+      },
+      {
+        "table": 4,
+        "reviewedOn": "2026-11-17",
+        "cells": [
+          {
+            "level": 5,
+            "header": "Experience Gained",
+            "originalRaw": "657",
+            "correctedRaw": "587"
+          }
+        ],
+        "reason": "经验由已核实的升级时间按秒数开平方取整计算，不能沿用旧升级时间的经验值。"
       }
     ]
   },
@@ -561,7 +583,7 @@
           {
             "status": "known",
             "value": 3400000,
-            "raw": "3400000"
+            "raw": "3,400,000"
           },
           {
             "status": "known",
@@ -572,8 +594,9 @@
           },
           {
             "status": "known",
-            "value": 509,
-            "raw": "509"
+            "value": 464,
+            "raw": "464",
+            "source": "ClashKing"
           },
           {
             "status": "known",
@@ -626,8 +649,8 @@
           },
           {
             "status": "known",
-            "value": 587,
-            "raw": "587"
+            "value": 549,
+            "raw": "549"
           },
           {
             "status": "known",
@@ -680,8 +703,8 @@
           },
           {
             "status": "known",
-            "value": 657,
-            "raw": "657"
+            "value": 587,
+            "raw": "587"
           },
           {
             "status": "known",
@@ -864,8 +887,8 @@
           },
           {
             "status": "known",
-            "value": 78.0,
-            "raw": "78.0"
+            "value": 78,
+            "raw": "78"
           },
           {
             "status": "known",
@@ -921,186 +944,6 @@
           "noGoldPass": false
         }
       ]
-    },
-    {
-      "sourceTableIndex": 6,
-      "section": "Statistics",
-      "title": "Supercharges",
-      "headers": [
-        "Charge Level ⚡",
-        "Damage per Second",
-        "Damage per Shot",
-        "Repair per Second",
-        "Repair per Hit",
-        "Hitpoints",
-        "Build Cost",
-        "Build Time",
-        "Experience Gained",
-        "Town Hall Level Required"
-      ],
-      "rows": [
-        [
-          {
-            "status": "known",
-            "value": 1,
-            "raw": "1"
-          },
-          {
-            "status": "known",
-            "value": 187,
-            "raw": "187"
-          },
-          {
-            "status": "known",
-            "value": 74.8,
-            "raw": "74.8"
-          },
-          {
-            "status": "known",
-            "value": 95,
-            "raw": "95"
-          },
-          {
-            "status": "known",
-            "value": 71.25,
-            "raw": "71.25"
-          },
-          {
-            "status": "known",
-            "value": 2100,
-            "raw": "2,100"
-          },
-          {
-            "status": "known",
-            "value": 4000000,
-            "raw": "4,000,000"
-          },
-          {
-            "status": "known",
-            "value": 136800,
-            "raw": "1d 14h",
-            "unit": "seconds",
-            "displayInput": "1,14,0,0"
-          },
-          {
-            "status": "known",
-            "value": 369,
-            "raw": "369",
-            "derivedFrom": "floor(sqrt(Build Time in seconds))"
-          },
-          {
-            "status": "known",
-            "value": 18,
-            "raw": "18"
-          }
-        ],
-        [
-          {
-            "status": "known",
-            "value": 2,
-            "raw": "2"
-          },
-          {
-            "status": "known",
-            "value": 187,
-            "raw": "187"
-          },
-          {
-            "status": "known",
-            "value": 74.8,
-            "raw": "74.8"
-          },
-          {
-            "status": "known",
-            "value": 95,
-            "raw": "95"
-          },
-          {
-            "status": "known",
-            "value": 71.25,
-            "raw": "71.25"
-          },
-          {
-            "status": "known",
-            "value": 2150,
-            "raw": "2,150"
-          },
-          {
-            "status": "known",
-            "value": 3250000,
-            "raw": "3,250,000"
-          },
-          {
-            "status": "known",
-            "value": 208800,
-            "raw": "2d 10h",
-            "unit": "seconds",
-            "displayInput": "2,10,0,0"
-          },
-          {
-            "status": "known",
-            "value": 456,
-            "raw": "456",
-            "derivedFrom": "floor(sqrt(Build Time in seconds))"
-          },
-          {
-            "status": "known",
-            "value": 18,
-            "raw": "18"
-          }
-        ]
-      ],
-      "extraInfo": [
-        {
-          "column": 6,
-          "type": "cost",
-          "icon": "Gold",
-          "gpClass": "building",
-          "noGoldPass": false
-        },
-        {
-          "column": 7,
-          "type": "time",
-          "gpClass": "building",
-          "noGoldPass": false
-        }
-      ]
-    },
-    {
-      "sourceTableIndex": 7,
-      "section": "Statistics",
-      "title": "Supercharges",
-      "headers": [
-        "Range",
-        "Attack Speed",
-        "Damage Type",
-        "Unit Type Targeted"
-      ],
-      "rows": [
-        [
-          {
-            "status": "known",
-            "value": 7,
-            "raw": "7"
-          },
-          {
-            "status": "known",
-            "value": "0.4s",
-            "raw": "0.4s"
-          },
-          {
-            "status": "known",
-            "value": "Single Target",
-            "raw": "Single Target"
-          },
-          {
-            "status": "known",
-            "value": "Ground & Air",
-            "raw": "Ground & Air"
-          }
-        ]
-      ],
-      "extraInfo": []
     },
     {
       "sourceTableIndex": 8,
@@ -1343,20 +1186,6 @@
     {
       "date": "2026-08-31",
       "description": "Added 2 Supercharge levels to the Builder's Hut. Icon Supercharge ⚡"
-    },
-    {
-      "date": "2026-10-20",
-      "description": "充能 1 级：费用由 1000 万降至 400 万，时间由 4天缩短至 1天14小时。",
-      "sourceUrl": "https://x.com/ClashDotNinja/status/2112523574984446061",
-      "sourcePublishedOn": "2026-10-20",
-      "sourceType": "community-update"
-    },
-    {
-      "date": "2026-10-20",
-      "description": "充能 2 级：费用由 800 万降至 325 万，时间由 6天缩短至 2天10小时。",
-      "sourceUrl": "https://x.com/ClashDotNinja/status/2112523574984446061",
-      "sourcePublishedOn": "2026-10-20",
-      "sourceType": "community-update"
     },
     {
       "date": "2026-11-16",

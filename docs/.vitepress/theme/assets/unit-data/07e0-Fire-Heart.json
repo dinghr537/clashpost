@@ -35,7 +35,8 @@
           "header": "Hero Boosts / Self Healing Per Second",
           "levels": "12–18"
         }
-      ]
+      ],
+      "followupVerification": "2026-11-17 人工核对当前 Wiki 表与更新历史，补回已核实字段。"
     }
   },
   "tables": [
@@ -874,24 +875,11 @@
       "description": "Decreased self healing per second at levels 15 to 18: Level 15-17: 155 -> 140 Troop Healing Level 18: 175 -> 150 Troop Healing Decreased damage per second at levels 2 to 18: Level 2: 12 -> 10 Damage Level 3: 14 -> 12 Damage Level 4: 16 -> 12 Damage Level 5: 18 -> 12 Damage Level 6: 20 -> 14 Damage Level 7: 22 -> 14 Damage Level 8: 24 -> 14 Damage Level 9: 26 -> 16 Damage Level 10: 28 -> 16 Damage Level 11: 30 -> 16 Damage Level 12: 32 -> 18 Damage Level 13: 34 -> 18 Damage Level 14: 36 -> 18 Damage Level 15: 38 -> 20 Damage Level 16: 40 -> 20 Damage Level 17: 42 -> 20 Damage Level 18: 45 -> 23 Damage"
     },
     {
-      "date": "2026-10-20",
-      "description": "移除所有等级的每秒伤害加成；各等级生命值加成降低，18 级由 5600 降至 5150。",
+      "date": "2026-10-17",
+      "description": "官方预告：不再提供伤害加成；生命值加成降低，高等级治疗量降低，满级每秒治疗量从 150 降至 140。",
       "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/",
       "sourcePublishedOn": "2026-10-17",
-      "numericSourceUrl": "https://clashfox.com/blog/balance-changes-before-town-hall-19-fire-heart-and-ruin-witch-nerfed-hogs-and-p-e-k-k-a-bu",
-      "dateSourceUrl": "https://x.com/ClashofClans/status/2112450159326179560",
-      "dateEvidence": "Maintenance completion on October 20 UTC; adjusted stats confirmed in-game on October 20.",
-      "type": "balance"
-    },
-    {
-      "date": "2026-10-20",
-      "description": "每秒恢复血量降低：12–14 级由 130 降至 120，15–17 级由 140 降至 130，18 级由 150 降至 140。",
-      "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/",
-      "sourcePublishedOn": "2026-10-17",
-      "numericSourceUrl": "https://clashfox.com/blog/balance-changes-before-town-hall-19-fire-heart-and-ruin-witch-nerfed-hogs-and-p-e-k-k-a-bu",
-      "dateSourceUrl": "https://x.com/ClashofClans/status/2112450159326179560",
-      "dateEvidence": "Maintenance completion on October 20 UTC; adjusted stats confirmed in-game on October 20.",
-      "type": "balance"
+      "type": "announcement"
     }
   ],
   "facts": [],

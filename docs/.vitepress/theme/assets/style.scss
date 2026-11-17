@@ -87,6 +87,56 @@ body.cp-theme-dark {
     color: var(--cp-text-dark);
 }
 
+.cp-source-ref {
+    display: inline-block;
+    margin-left: 0.2rem;
+    vertical-align: super;
+    font-size: 0.68rem;
+    line-height: 1;
+    font-weight: 600;
+}
+
+.cp-source-ref a {
+    color: var(--cp-primary-light);
+    text-decoration: none;
+}
+
+.cp-source-notes {
+    margin: 2.5rem 0 1.5rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--cp-border-color-light);
+    font-size: 0.8125rem;
+    line-height: 1.6;
+}
+
+.cp-source-notes-title {
+    margin: 0 0 0.5rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+}
+
+.cp-source-notes ol {
+    margin: 0;
+    padding-left: 1.5rem;
+}
+
+.cp-source-notes li {
+    margin: 0.35rem 0;
+    scroll-margin-top: 5rem;
+}
+
+.cp-source-ref, .cp-source-notes li {
+    scroll-margin-top: 5rem;
+}
+
+.cp-source-ref a:focus-visible, .cp-source-back:focus-visible {
+    outline: 2px solid currentColor;
+    outline-offset: 2px;
+}
+
+.cp-theme-dark .cp-source-notes { border-color: var(--cp-border-color-dark); }
+.cp-theme-dark .cp-source-ref a { color: var(--cp-primary-dark); }
+
 /* 屏蔽 UC 浏览器的广告，仅允许个别 iframe 显示 */
 iframe {
     display: none !important;
