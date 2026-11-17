@@ -8,7 +8,7 @@ imgFolder: home_tech/0088
 wiki: https://clashofclans.fandom.com/wiki/Headhunter
 canonical: /upgrade/0088-Headhunter
 dataSyncedOn: 2026-10-13
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Headhunter_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />

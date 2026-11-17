@@ -8,7 +8,7 @@ imgFolder: home_buildings/0484
 wiki: https://clashofclans.fandom.com/wiki/Spell_Factory
 canonical: /upgrade/0484-Spell-Factory
 dataSyncedOn: 2026-10-13
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 - *如想查看配置暗黑法术的法术工厂，请访问：[暗黑法术工厂](/upgrade/0485-Dark-Spell-Factory)。*

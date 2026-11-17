@@ -7,7 +7,7 @@ description: "巨人法师小队的属性、解锁条件和升级数据。"
 module: upgrade-home
 wiki: https://clashofclans.fandom.com/wiki/Giant_Wizard_Squad
 canonical: /upgrade/0021-Giant-Wizard-Squad
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 <UnitInfo folder="" imgSrc="/images/th19/0021-Giant-Wizard-Squad/icon.webp" :imgAlt="$frontmatter.navTitle" />

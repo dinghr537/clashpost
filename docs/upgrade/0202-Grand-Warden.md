@@ -8,7 +8,7 @@ imgFolder: home_heroes/0202
 wiki: https://clashofclans.fandom.com/wiki/Grand_Warden
 canonical: /upgrade/0202-Grand-Warden
 dataSyncedOn: 2026-10-13
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 - *如想查看守护者学徒，请访问：[守护者学徒](/upgrade/0089-Apprentice-Warden)。*

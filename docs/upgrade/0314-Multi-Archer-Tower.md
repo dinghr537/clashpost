@@ -9,7 +9,7 @@ wiki: https://clashofclans.fandom.com/wiki/Multi-Archer_Tower
 canonical: /upgrade/0314-Multi-Archer-Tower
 dataSyncedOn: 2026-10-13
 dataBalanceUpdatedOn: 2026-10-20
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 - *如想查看合并前的建筑，请访问 [箭塔](/upgrade/0302-Archer-Tower)。*

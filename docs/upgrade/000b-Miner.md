@@ -9,7 +9,7 @@ wiki: https://clashofclans.fandom.com/wiki/Miner
 canonical: /upgrade/000b-Miner
 dataSyncedOn: 2026-10-13
 dataBalanceUpdatedOn: 2026-10-20
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 - *如想查看该兵种的强化版本，请访问：[超级矿工](/upgrade/060e-Super-Miner)。*

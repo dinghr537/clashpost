@@ -8,7 +8,7 @@ imgFolder: home_heroes/0281
 wiki: https://clashofclans.fandom.com/wiki/Electro_Owl
 canonical: /upgrade/0281-Electro-Owl
 dataSyncedOn: 2026-10-13
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Electro_Owl_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />

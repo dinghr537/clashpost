@@ -8,7 +8,7 @@ imgFolder: home_tech/0607
 wiki: https://clashofclans.fandom.com/wiki/Super_Valkyrie
 canonical: /upgrade/0607-Super-Valkyrie
 dataSyncedOn: 2026-10-13
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 - *如想查看该兵种的普通版本，请访问：[瓦基丽武神](/upgrade/0082-Valkyrie)。*

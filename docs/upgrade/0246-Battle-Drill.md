@@ -8,7 +8,7 @@ imgFolder: home_tech/0246
 wiki: https://clashofclans.fandom.com/wiki/Battle_Drill
 canonical: /upgrade/0246-Battle-Drill
 dataSyncedOn: 2026-10-13
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Battle_Drill_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />

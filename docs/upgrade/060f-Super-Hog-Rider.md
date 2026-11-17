@@ -9,7 +9,7 @@ wiki: https://clashofclans.fandom.com/wiki/Super_Hog_Rider
 canonical: /upgrade/060f-Super-Hog-Rider
 dataSyncedOn: 2026-10-13
 dataBalanceUpdatedOn: 2026-10-20
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 - *如想查看该兵种的普通版本，请访问：[野猪骑士](/upgrade/0081-Hog-Rider)。*
@@ -64,13 +64,13 @@ dataVersionUpdatedOn: 2026-11-16
 
 | 等级 |  每秒伤害  |  每次伤害  | 生命值 |所需大本等级|
 | ---- |    ----   |    ----   |  ---- |    ----   |
-| 10 | 180 | 180 | 1600<span class="cp-outdated"></span> | 13 |
-| 11 | 200 | 200 | 1700<span class="cp-outdated"></span> | 14 |
-| 12 | 230 | 230 | 1900<span class="cp-outdated"></span> | 15 |
-| 13 | 250 | 250 | 2050<span class="cp-outdated"></span> | 16 |
-| 14 | 270 | 270 | 2250<span class="cp-outdated"></span> | 17 |
-| 15 | 300 | 300 | 2500<span class="cp-outdated"></span> | 18 |
-| 16 | 待更新 | 待更新 | 待更新 | 19 |
+| 10 | 180 | 180 | 1600 | 13 |
+| 11 | 200 | 200 | 1700 | 14 |
+| 12 | 230 | 230 | 1900 | 15 |
+| 13 | 250 | 250 | 2050 | 16 |
+| 14 | 270 | 270 | 2250 | 17 |
+| 15 | 300 | 300 | 2500 | 18 |
+| 16 | 330 | 330 | 2750 | 19 |
 </UnitTable>
 </SwitchTabGroup>
 

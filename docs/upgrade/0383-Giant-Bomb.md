@@ -8,7 +8,7 @@ imgFolder: home_buildings/0383
 wiki: https://clashofclans.fandom.com/wiki/Giant_Bomb
 canonical: /upgrade/0383-Giant-Bomb
 dataSyncedOn: 2026-10-13
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 - 游戏中还存在另一种大炸弹，详见：[终极炸弹](/upgrade/0387-Giga-Bomb)。

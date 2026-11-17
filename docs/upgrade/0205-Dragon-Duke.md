@@ -8,7 +8,7 @@ imgFolder: home_heroes/0205
 wiki: https://clashofclans.fandom.com/wiki/Dragon_Duke
 canonical: /upgrade/0205-Dragon-Duke
 dataSyncedOn: 2026-10-13
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 - *如想查看飞龙公爵的创作原型，请访问：[飞龙](/upgrade/0008-Dragon)。*

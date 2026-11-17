@@ -9,7 +9,7 @@ wiki: https://clashofclans.fandom.com/wiki/Hog_Rider
 canonical: /upgrade/0081-Hog-Rider
 dataSyncedOn: 2026-10-13
 dataBalanceUpdatedOn: 2026-10-20
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 - *如想查看该兵种的强化版本，请访问：[超级野猪骑士](/upgrade/060f-Super-Hog-Rider)。*

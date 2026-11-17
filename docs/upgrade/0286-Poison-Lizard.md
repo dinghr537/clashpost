@@ -8,7 +8,7 @@ imgFolder: home_heroes/0286
 wiki: https://clashofclans.fandom.com/wiki/Poison_Lizard
 canonical: /upgrade/0286-Poison-Lizard
 dataSyncedOn: 2026-10-13
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Poison_Lizard_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />

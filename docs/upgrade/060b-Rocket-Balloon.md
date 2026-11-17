@@ -8,7 +8,7 @@ imgFolder: home_tech/060b
 wiki: https://clashofclans.fandom.com/wiki/Rocket_Balloon
 canonical: /upgrade/060b-Rocket-Balloon
 dataSyncedOn: 2026-10-13
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 - *如想查看该兵种的普通版本，请访问：[气球兵](/upgrade/0005-Balloon)。*
@@ -71,7 +71,7 @@ dataVersionUpdatedOn: 2026-11-16
 | 11 | 290 | 870 | 700 | 1140 | 16 |
 | 12 | 304 | 912 | 730 | 1240 | 17 |
 | 13 | 326 | 978 | 760 | 1360 | 18 |
-| 14 | 待更新 | 待更新 | 待更新 | 待更新 | 19 |
+| 14 | 350 | 1050 | 790 | 1500 | 19 |
 </UnitTable>
 
 \* 5 - 7 级火箭气球兵只在 奖章活动 中出现，不能通过常规方式得到。

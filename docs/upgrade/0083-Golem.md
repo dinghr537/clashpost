@@ -8,7 +8,7 @@ imgFolder: home_tech/0083
 wiki: https://clashofclans.fandom.com/wiki/Golem
 canonical: /upgrade/0083-Golem
 dataSyncedOn: 2026-10-13
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 - *本页面的内容不是戈仑冰人，如想查看戈仑冰人的页面，请访问：[戈仑冰人](/upgrade/0087-Ice-Golem)。*
@@ -112,7 +112,7 @@ const tableExtraInfo = [
 | 13 | 95 | 228 | 950 | 4 | 9200 | 135000 | 5,12,0,0 | 14 | 16 |
 | 14 | 100 | 240 | 1000 | 4 | 9600 | 160000 | 6,12,0,0 | 15 | 17 |
 | 15 | 120 | 288 | 1050 | 4 | 10600 | 295000 | 10,12,0,0 | 16 | 18 |
-| 16 | 140 | 336 | 待更新 | 待更新 | 11800 | 455000 | 14,0,0,0 | 17 | 19 |
+| 16 | 140 | 336 | 1100 | 待更新 | 11800 | 455000 | 14,0,0,0 | 17 | 19 |
 </UnitTable>
 </SwitchTabGroup>
 

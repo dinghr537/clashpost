@@ -8,7 +8,7 @@ imgFolder: home_tech/0101
 wiki: https://clashofclans.fandom.com/wiki/Healing_Spell
 canonical: /upgrade/0101-Healing-Spell
 dataSyncedOn: 2026-10-13
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 - *如想查看都城的疗伤法术，请访问：[都城疗伤法术](/upgrade/2100-Healing-Spell)。*

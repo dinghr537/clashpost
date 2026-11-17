@@ -8,7 +8,7 @@ imgFolder: home_buildings/030b
 wiki: https://clashofclans.fandom.com/wiki/Eagle_Artillery
 canonical: /upgrade/030b-Eagle-Artillery
 dataSyncedOn: 2026-10-13
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 - *如想查看大本营和天鹰火炮合并后的大本武器，请移步：[地狱火炮](/upgrade/0315-Inferno-Artillery)。*

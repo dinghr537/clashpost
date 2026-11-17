@@ -8,7 +8,7 @@ imgFolder: home_buildings/0407
 wiki: https://clashofclans.fandom.com/wiki/Clan_Castle
 canonical: /upgrade/0407-Clan-Castle
 dataSyncedOn: 2026-10-13
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Clan_Castle15.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />

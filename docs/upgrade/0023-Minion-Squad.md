@@ -7,7 +7,7 @@ description: "亡灵小队的属性、解锁条件和升级数据。"
 module: upgrade-home
 wiki: https://clashofclans.fandom.com/wiki/Minion_Squad
 canonical: /upgrade/0023-Minion-Squad
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 <UnitInfo folder="" imgSrc="/images/th19/0023-Minion-Squad/icon.webp" :imgAlt="$frontmatter.navTitle" />

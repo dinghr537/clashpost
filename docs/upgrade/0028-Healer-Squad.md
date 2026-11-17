@@ -7,7 +7,7 @@ description: "天使小队的属性、解锁条件和升级数据。"
 module: upgrade-home
 wiki: https://clashofclans.fandom.com/wiki/Healer_Squad
 canonical: /upgrade/0028-Healer-Squad
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 <UnitInfo folder="" imgSrc="/images/th19/0028-Healer-Squad/icon.webp" :imgAlt="$frontmatter.navTitle" />

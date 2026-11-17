@@ -8,7 +8,7 @@ imgFolder: home_tech/0010
 wiki: https://clashofclans.fandom.com/wiki/Root_Rider
 canonical: /upgrade/0010-Root-Rider
 dataSyncedOn: 2026-10-13
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Root_Rider_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />

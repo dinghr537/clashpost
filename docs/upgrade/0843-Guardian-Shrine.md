@@ -7,7 +7,7 @@ description: "守卫神殿的属性、解锁条件和升级数据。"
 module: upgrade-home
 wiki: https://clashofclans.fandom.com/wiki/Guardian_Shrine
 canonical: /upgrade/0843-Guardian-Shrine
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 <UnitInfo folder="" imgSrc="/images/th19/0843-Guardian-Shrine/shrine.png" :imgAlt="$frontmatter.navTitle" />

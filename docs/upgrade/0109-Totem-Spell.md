@@ -8,7 +8,7 @@ imgFolder: home_tech/0109
 wiki: https://clashofclans.fandom.com/wiki/Totem_Spell
 canonical: /upgrade/0109-Totem-Spell
 dataSyncedOn: 2026-10-13
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Totem_Spell_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />

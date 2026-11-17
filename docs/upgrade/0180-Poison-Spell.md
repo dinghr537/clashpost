@@ -8,7 +8,7 @@ imgFolder: home_tech/0180
 wiki: https://clashofclans.fandom.com/wiki/Poison_Spell
 canonical: /upgrade/0180-Poison-Spell
 dataSyncedOn: 2026-10-13
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Poison_Spell.png" :imgAlt="$frontmatter.navTitle"
@@ -82,7 +82,7 @@ const tableExtraInfo = [
 | 10 | 340 | 50% | 72% | 175000 | 7,6,0,0 | 14 | 16 |
 | 11 | 360 | 51% | 73% | 200000 | 8,0,0,0 | 15 | 17 |
 | 12 | 380 | 52% | 74% | 280000 | 10,0,0,0 | 16 | 18 |
-| 13 | 待更新 | 待更新 | 待更新 | 425000 | 13,12,0,0 | 17 | 19 |
+| 13 | 400 | 待更新 | 待更新 | 425000 | 13,12,0,0 | 17 | 19 |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>

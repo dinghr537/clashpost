@@ -448,11 +448,16 @@
             "raw": "15"
           },
           {
-            "status": "unknown",
-            "value": null,
-            "raw": "?",
-            "verification": "pending",
-            "verificationReason": "新增等级尚待官方、Wiki 或玩家核实"
+            "status": "known",
+            "value": 180,
+            "raw": "180",
+            "source": "ClashKing"
+          },
+          {
+            "status": "known",
+            "value": 438,
+            "raw": "438",
+            "source": "ClashKing"
           },
           {
             "status": "unknown",
@@ -469,18 +474,10 @@
             "verificationReason": "新增等级尚待官方、Wiki 或玩家核实"
           },
           {
-            "status": "unknown",
-            "value": null,
-            "raw": "?",
-            "verification": "pending",
-            "verificationReason": "新增等级尚待官方、Wiki 或玩家核实"
-          },
-          {
-            "status": "unknown",
-            "value": null,
-            "raw": "?",
-            "verification": "pending",
-            "verificationReason": "新增等级尚待官方、Wiki 或玩家核实"
+            "status": "known",
+            "value": 600,
+            "raw": "600",
+            "source": "ClashKing"
           }
         ]
       ],

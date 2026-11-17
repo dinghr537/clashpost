@@ -8,7 +8,7 @@ imgFolder: home_buildings/0381
 wiki: https://clashofclans.fandom.com/wiki/Spring_Trap
 canonical: /upgrade/0381-Spring-Trap
 dataSyncedOn: 2026-10-13
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 - 如想查看夜世界的隐形弹簧，请访问：[夜世界隐形弹簧](/upgrade/1181-Spring-Trap)。
@@ -110,7 +110,7 @@ const tableExtraInfo = [
 | 11 | 18 | 1200 | 6000000 | 2,0,0,0 |  | 16 |
 | 12 | 18 | 1300 | 7000000 | 2,12,0,0 |  | 17 |
 | 13 | 18 | 1400 | 9500000 | 5,0,0,0 |  | 18 |
-| 14 | 18 | 待更新 | 17000000 | 8,0,0,0 |  | 19 |
+| 14 | 18 | 1500 | 17000000 | 8,0,0,0 |  | 19 |
 
 </UnitTable>
 

@@ -372,11 +372,10 @@
             "verificationReason": "新增等级尚待官方、Wiki 或玩家核实"
           },
           {
-            "status": "unknown",
-            "value": null,
-            "raw": "?",
-            "verification": "pending",
-            "verificationReason": "新增等级尚待官方、Wiki 或玩家核实"
+            "status": "known",
+            "value": 5,
+            "raw": "5 tiles",
+            "source": "ClashKing"
           },
           {
             "status": "known",

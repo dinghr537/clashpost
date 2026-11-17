@@ -8,7 +8,7 @@ imgFolder: home_tech/0600
 wiki: https://clashofclans.fandom.com/wiki/Super_Barbarian
 canonical: /upgrade/0600-Super-Barbarian
 dataSyncedOn: 2026-10-13
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 - *如想查看该兵种的普通版本，请访问：[野蛮人](/upgrade/0000-Barbarian)。*
@@ -62,7 +62,7 @@ dataVersionUpdatedOn: 2026-11-16
 | 11 | 240 | 192 | 408 | 326.4 | 1300 | 15 |
 | 12 | 250 | 200 | 425 | 340 | 1350 | 16 |
 | 13 | 270 | 216 | 459 | 367.2 | 1450 | 18 |
-| 14 | 待更新 | 待更新 | 待更新 | 待更新 | 待更新 | 19 |
+| 14 | 290 | 232 | 493 | 394.4 | 1550 | 19 |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>

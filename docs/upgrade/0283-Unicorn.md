@@ -8,7 +8,7 @@ imgFolder: home_heroes/0283
 wiki: https://clashofclans.fandom.com/wiki/Unicorn
 canonical: /upgrade/0283-Unicorn
 dataSyncedOn: 2026-10-13
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Unicorn_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />

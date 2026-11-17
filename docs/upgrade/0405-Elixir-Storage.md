@@ -8,7 +8,7 @@ imgFolder: home_buildings/0405
 wiki: https://clashofclans.fandom.com/wiki/Elixir_Storage
 canonical: /upgrade/0405-Elixir-Storage
 dataSyncedOn: 2026-10-13
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 - *如想查看夜世界的圣水瓶，请访问：[夜世界圣水瓶](/upgrade/1204-Elixir-Storage)。*

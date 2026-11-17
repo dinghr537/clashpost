@@ -8,7 +8,7 @@ imgFolder: home_tech/0608
 wiki: https://clashofclans.fandom.com/wiki/Super_Minion
 canonical: /upgrade/0608-Super-Minion
 dataSyncedOn: 2026-10-13
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 - *如想查看该兵种的普通版本，请访问：[亡灵](/upgrade/0080-Minion)。*
@@ -76,7 +76,7 @@ dataVersionUpdatedOn: 2026-11-16
 | 12 | 370 | 370 | 1900 | 16 |
 | 13 | 385 | 385 | 2100 | 17 |
 | 14 | 400 | 400 | 2300 | 18 |
-| 15 | 待更新 | 待更新 | 待更新 | 19 |
+| 15 | 415 | 415 | 2500 | 19 |
 </UnitTable>
 
 \* 4 - 7 级超级亡灵只在 奖章活动 中出现，不能通过常规方式得到。

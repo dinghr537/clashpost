@@ -8,7 +8,7 @@ imgFolder: home_heroes/0201
 wiki: https://clashofclans.fandom.com/wiki/Archer_Queen
 canonical: /upgrade/0201-Archer-Queen
 dataSyncedOn: 2026-10-13
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 - *如想查看弓箭女皇的创作原型，请访问：[弓箭手](/upgrade/0001-Archer)。*

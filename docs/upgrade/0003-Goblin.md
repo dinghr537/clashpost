@@ -8,7 +8,7 @@ imgFolder: home_tech/0003
 wiki: https://clashofclans.fandom.com/wiki/Goblin
 canonical: /upgrade/0003-Goblin
 dataSyncedOn: 2026-10-13
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 - *如想查看该兵种的强化版本，请访问：[隐秘哥布林（超哥）](/upgrade/0601-Sneaky-Goblin)。*

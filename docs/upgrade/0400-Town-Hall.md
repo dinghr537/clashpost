@@ -8,7 +8,7 @@ imgFolder: home_buildings/0400
 wiki: https://clashofclans.fandom.com/wiki/Town_Hall
 canonical: /upgrade/0400-Town-Hall
 dataSyncedOn: 2026-10-13
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 - *如想查看大本营的自带武器，请访问：[巨型特斯拉电磁塔](/upgrade/030c-Giga-Tesla)、[巨型地狱之塔](/upgrade/030d-Giga-Inferno)、[地狱火炮](/upgrade/0315-Inferno-Artillery)。*

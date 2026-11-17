@@ -8,7 +8,7 @@ imgFolder: home_tech/0243
 wiki: https://clashofclans.fandom.com/wiki/Siege_Barracks
 canonical: /upgrade/0243-Siege-Barracks
 dataSyncedOn: 2026-10-13
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Siege_Barracks.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />

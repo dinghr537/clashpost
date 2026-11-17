@@ -9,7 +9,7 @@ wiki: https://clashofclans.fandom.com/wiki/Ruin_Witch
 canonical: /upgrade/0013-Ruin-Witch
 dataSyncedOn: 2026-10-13
 dataBalanceUpdatedOn: 2026-10-20
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 <script setup>

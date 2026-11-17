@@ -8,7 +8,7 @@ imgFolder: home_buildings/030a
 wiki: https://clashofclans.fandom.com/wiki/Inferno_Tower/Home_Village
 canonical: /upgrade/030a-Inferno-Tower
 dataSyncedOn: 2026-10-13
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 <script setup>

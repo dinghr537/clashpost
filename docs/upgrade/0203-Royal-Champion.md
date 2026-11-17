@@ -8,7 +8,7 @@ imgFolder: home_heroes/0203
 wiki: https://clashofclans.fandom.com/wiki/Royal_Champion
 canonical: /upgrade/0203-Royal-Champion
 dataSyncedOn: 2026-10-13
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Royal_Champion_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />

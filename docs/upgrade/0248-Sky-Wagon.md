@@ -8,7 +8,7 @@ imgFolder: home_tech/0248
 wiki: https://clashofclans.fandom.com/wiki/Sky_Wagon
 canonical: /upgrade/0248-Sky-Wagon
 dataSyncedOn: 2026-10-13
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Sky_Wagon_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />

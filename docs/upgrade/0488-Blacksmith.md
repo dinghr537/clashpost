@@ -8,7 +8,7 @@ imgFolder: home_buildings/0488
 wiki: https://clashofclans.fandom.com/wiki/Blacksmith
 canonical: /upgrade/0488-Blacksmith
 dataSyncedOn: 2026-10-13
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Blacksmith10.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />

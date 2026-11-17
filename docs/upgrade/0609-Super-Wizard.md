@@ -8,7 +8,7 @@ imgFolder: home_tech/0609
 wiki: https://clashofclans.fandom.com/wiki/Super_Wizard
 canonical: /upgrade/0609-Super-Wizard
 dataSyncedOn: 2026-10-13
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 - *如想查看该兵种的普通版本，请访问：[法师](/upgrade/0006-Wizard)。*
@@ -67,7 +67,7 @@ dataVersionUpdatedOn: 2026-11-16
 | 12 | 285 | 570 | 228 | 815 | 16 |
 | 13 | 305 | 610 | 244 | 870 | 17 |
 | 14 | 335 | 670 | 268 | 925 | 18 |
-| 15 | 待更新 | 待更新 | 待更新 | 待更新 | 19 |
+| 15 | 365 | 待更新 | 待更新 | 980 | 19 |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>

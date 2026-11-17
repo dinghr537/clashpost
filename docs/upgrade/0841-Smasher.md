@@ -8,7 +8,7 @@ imgFolder: home_th/0841
 wiki: https://clashofclans.fandom.com/wiki/Smasher
 canonical: /upgrade/0841-Smasher
 dataSyncedOn: 2026-10-13
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Smasher_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />

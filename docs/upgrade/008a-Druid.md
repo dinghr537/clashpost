@@ -8,7 +8,7 @@ imgFolder: home_tech/008a
 wiki: https://clashofclans.fandom.com/wiki/Druid
 canonical: /upgrade/008a-Druid
 dataSyncedOn: 2026-10-13
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 <SwitchTabs contentClass="cp-unit-items" :stickyTabs="true" :pageTabs="true">

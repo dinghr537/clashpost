@@ -7,7 +7,7 @@ description: "英勇法术的属性、解锁条件和升级数据。"
 module: upgrade-home
 wiki: https://clashofclans.fandom.com/wiki/Heroic_Spell
 canonical: /upgrade/010a-Heroic-Spell
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 <UnitInfo folder="" imgSrc="/images/th19/010a-Heroic-Spell/icon.webp" :imgAlt="$frontmatter.navTitle" />

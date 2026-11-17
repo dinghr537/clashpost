@@ -9,7 +9,7 @@ wiki: https://clashofclans.fandom.com/wiki/Super_Miner
 canonical: /upgrade/060e-Super-Miner
 dataSyncedOn: 2026-10-13
 dataBalanceUpdatedOn: 2026-10-20
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 - *如想查看该兵种的普通版本，请访问：[掘地矿工](/upgrade/000b-Miner)。*
@@ -65,7 +65,7 @@ dataVersionUpdatedOn: 2026-11-16
 | 10 | 225 | 440 | 650 | 2000 | 4000 | 16 |
 | 11 | 245 | 475 | 695 | 2200 | 4650 | 17 |
 | 12 | 265 | 510 | 740 | 2400 | 5150 | 18 |
-| 13 | 待更新 | 待更新 | 待更新 | 待更新 | 5600 | 19 |
+| 13 | 285 | 待更新 | 待更新 | 2600 | 5600 | 19 |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>

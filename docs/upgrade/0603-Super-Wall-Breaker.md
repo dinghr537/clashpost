@@ -8,7 +8,7 @@ imgFolder: home_tech/0603
 wiki: https://clashofclans.fandom.com/wiki/Super_Wall_Breaker
 canonical: /upgrade/0603-Super-Wall-Breaker
 dataSyncedOn: 2026-10-13
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 - *如想查看该兵种的普通版本，请访问：[炸弹人](/upgrade/0004-Wall-Breaker)。*
@@ -78,7 +78,7 @@ dataVersionUpdatedOn: 2026-11-16
 | 12 | 150 | 363 | 513 | 14520 | 20520 | 525 | 16 |
 | 13 | 160 | 388 | 548 | 15520 | 21920 | 550 | 17 |
 | 14 | 170 | 413 | 583 | 16520 | 23320 | 575 | 18 |
-| 15 | 待更新 | 待更新 | 待更新 | 待更新 | 待更新 | 待更新 | 19 |
+| 15 | 180 | 438 | 618 | 待更新 | 待更新 | 600 | 19 |
 </UnitTable>
 
 \* 5 - 6 级超级炸弹人只在 奖章活动 中出现，不能通过常规方式得到。

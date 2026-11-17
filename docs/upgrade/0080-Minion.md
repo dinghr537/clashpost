@@ -8,7 +8,7 @@ imgFolder: home_tech/0080
 wiki: https://clashofclans.fandom.com/wiki/Minion
 canonical: /upgrade/0080-Minion
 dataSyncedOn: 2026-10-13
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 - *如想查看该兵种的强化版本，请访问：[超级亡灵（马云）](/upgrade/0608-Super-Minion)。*

@@ -161,8 +161,7 @@
             "status": "known",
             "value": 1600,
             "raw": "1,600",
-            "verification": "outdated",
-            "verificationReason": "19 本更新后可能已调整；Wiki 尚未更新，暂列更新前数值"
+            "source": "ClashKing"
           },
           {
             "status": "unknown",
@@ -190,8 +189,7 @@
             "status": "known",
             "value": 1700,
             "raw": "1,700",
-            "verification": "outdated",
-            "verificationReason": "19 本更新后可能已调整；Wiki 尚未更新，暂列更新前数值"
+            "source": "ClashKing"
           },
           {
             "status": "unknown",
@@ -219,8 +217,7 @@
             "status": "known",
             "value": 1900,
             "raw": "1,900",
-            "verification": "outdated",
-            "verificationReason": "19 本更新后可能已调整；Wiki 尚未更新，暂列更新前数值"
+            "source": "ClashKing"
           },
           {
             "status": "unknown",
@@ -248,8 +245,7 @@
             "status": "known",
             "value": 2050,
             "raw": "2,050",
-            "verification": "outdated",
-            "verificationReason": "19 本更新后可能已调整；Wiki 尚未更新，暂列更新前数值"
+            "source": "ClashKing"
           },
           {
             "status": "unknown",
@@ -277,8 +273,7 @@
             "status": "known",
             "value": 2250,
             "raw": "2,250",
-            "verification": "outdated",
-            "verificationReason": "19 本更新后可能已调整；Wiki 尚未更新，暂列更新前数值"
+            "source": "ClashKing"
           },
           {
             "status": "unknown",
@@ -306,8 +301,7 @@
             "status": "known",
             "value": 2500,
             "raw": "2,500",
-            "verification": "outdated",
-            "verificationReason": "19 本更新后可能已调整；Wiki 尚未更新，暂列更新前数值"
+            "source": "ClashKing"
           },
           {
             "status": "unknown",
@@ -322,25 +316,22 @@
             "raw": "16"
           },
           {
-            "status": "unknown",
-            "value": null,
-            "raw": "?",
-            "verification": "pending",
-            "verificationReason": "新增等级尚待官方、Wiki 或玩家核实"
+            "status": "known",
+            "value": 330,
+            "raw": "330",
+            "source": "ClashKing"
           },
           {
-            "status": "unknown",
-            "value": null,
-            "raw": "?",
-            "verification": "pending",
-            "verificationReason": "新增等级尚待官方、Wiki 或玩家核实"
+            "status": "known",
+            "value": 330,
+            "raw": "330",
+            "source": "ClashKing"
           },
           {
-            "status": "unknown",
-            "value": null,
-            "raw": "?",
-            "verification": "pending",
-            "verificationReason": "新增等级尚待官方、Wiki 或玩家核实"
+            "status": "known",
+            "value": 2750,
+            "raw": "2,750",
+            "source": "ClashKing"
           },
           {
             "status": "known",

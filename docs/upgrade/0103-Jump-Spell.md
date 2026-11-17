@@ -8,7 +8,7 @@ imgFolder: home_tech/0103
 wiki: https://clashofclans.fandom.com/wiki/Jump_Spell
 canonical: /upgrade/0103-Jump-Spell
 dataSyncedOn: 2026-10-13
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 - *如想查看都城的弹跳法术，请访问：[都城弹跳法术](/upgrade/2101-Jump-Spell)。*

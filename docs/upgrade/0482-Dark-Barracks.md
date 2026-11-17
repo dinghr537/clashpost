@@ -8,7 +8,7 @@ imgFolder: home_buildings/0482
 wiki: https://clashofclans.fandom.com/wiki/Dark_Barracks
 canonical: /upgrade/0482-Dark-Barracks
 dataSyncedOn: 2026-10-13
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 - *如想查看训练圣水兵的训练营，请访问：[训练营](/upgrade/0481-Barracks)。*

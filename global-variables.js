@@ -7,11 +7,11 @@
 export const notificationInfo = {
     "hasNotification": true,
     "notificationCount": 1,
-    "currentNotificationId": 18,
-    "notificationTitle": "升级数据同步至 2026-10-13",
+    "currentNotificationId": 19,
+    "notificationTitle": "升级数据更新至 19 本（2026-11-16 版本）",
     "notificationHTML": "<p>本项目作为部落驿站的继承项目，专注于升级等级、费用、时间与前置条件查询。</p>" +
-        "<p>常驻单位、精工防御及本次同步的临时单位已采用 Clash of Clans Wiki 表格，补充新增单位与 2026 年更新记录。页面标注核对日期和来源条目。</p>" +
-        "<p>未重新核对的往期临时单位仍保留历史数据，并在页面上说明。</p>" +
+        "<p>已收录 19 本更新：19 级大本营、12 种小队与小队训练营、尖刺塔、烟花炮手塔、英勇法术、守卫神殿，以及各单位的新等级和旧等级降价。出了新等级的建筑已按官方公告移除超级充能。</p>" +
+        "<p>数值依次参考 Supercell 官方公告、Clash of Clans Wiki 和 ClashKing 整理的游戏数据，各页底部注明来源。新等级暂缺的数据显示为“待更新”；可能已调整、但暂时只有旧数值的以 * 标出。</p>" +
         "<p>安装包下载入口通往原部落驿站，点击后会先显示跳转说明。</p>"
 };
 

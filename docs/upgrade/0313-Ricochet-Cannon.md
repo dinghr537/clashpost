@@ -9,7 +9,7 @@ wiki: https://clashofclans.fandom.com/wiki/Ricochet_Cannon
 canonical: /upgrade/0313-Ricochet-Cannon
 dataSyncedOn: 2026-10-13
 dataBalanceUpdatedOn: 2026-10-20
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 - *如想查看合并前的建筑，请访问 [加农炮](/upgrade/0301-Cannon)。*

@@ -8,7 +8,7 @@ imgFolder: home_tech/0011
 wiki: https://clashofclans.fandom.com/wiki/Thrower
 canonical: /upgrade/0011-Thrower
 dataSyncedOn: 2026-10-13
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Thrower_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />

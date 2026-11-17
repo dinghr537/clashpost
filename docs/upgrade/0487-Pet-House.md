@@ -8,7 +8,7 @@ imgFolder: home_buildings/0487
 wiki: https://clashofclans.fandom.com/wiki/Pet_House
 canonical: /upgrade/0487-Pet-House
 dataSyncedOn: 2026-10-13
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Pet_House12_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />

@@ -8,7 +8,7 @@ imgFolder: home_tech/0007
 wiki: https://clashofclans.fandom.com/wiki/Healer
 canonical: /upgrade/0007-Healer
 dataSyncedOn: 2026-10-13
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Healer_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />

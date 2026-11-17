@@ -8,7 +8,7 @@ imgFolder: home_buildings/0311
 wiki: https://clashofclans.fandom.com/wiki/Spell_Tower
 canonical: /upgrade/0311-Spell-Tower
 dataSyncedOn: 2026-10-13
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 <SwitchTabs contentClass="cp-unit-items" :stickyTabs="true" :pageTabs="true">

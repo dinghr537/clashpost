@@ -8,7 +8,7 @@ imgFolder: home_tech/060d
 wiki: https://clashofclans.fandom.com/wiki/Super_Dragon
 canonical: /upgrade/060d-Super-Dragon
 dataSyncedOn: 2026-10-13
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 - *如想查看该兵种的普通版本，请访问：[飞龙](/upgrade/0008-Dragon)。*
@@ -76,7 +76,7 @@ dataVersionUpdatedOn: 2026-11-16
 | 11 | 496 | 178.12 | 7600 | 16 |
 | 12 | 516 | 185.29 | 8000 | 17 |
 | 13 | 536 | 192.46 | 8400 | 18 |
-| 14 | 待更新 | 待更新 | 待更新 | 19 |
+| 14 | 待更新 | 待更新 | 8800 | 19 |
 </UnitTable>
 
 \* 3 - 6 级超级飞龙只在 奖章活动 中出现，不能通过常规方式得到。

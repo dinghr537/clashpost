@@ -8,7 +8,7 @@ imgFolder: home_tech/0606
 wiki: https://clashofclans.fandom.com/wiki/Super_Archer
 canonical: /upgrade/0606-Super-Archer
 dataSyncedOn: 2026-10-13
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 - *如想查看该兵种的普通版本，请访问：[弓箭手](/upgrade/0001-Archer)。*
@@ -62,7 +62,7 @@ dataVersionUpdatedOn: 2026-11-16
 | 12 | 162 | 243 | 645 | 16 |
 | 13 | 166 | 249 | 685 | 17 |
 | 14 | 170 | 255 | 725 | 18 |
-| 15 | 待更新 | 待更新 | 待更新 | 19 |
+| 15 | 174 | 261 | 765 | 19 |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>

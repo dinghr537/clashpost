@@ -8,7 +8,7 @@ imgFolder: home_tech/0087
 wiki: https://clashofclans.fandom.com/wiki/Ice_Golem
 canonical: /upgrade/0087-Ice-Golem
 dataSyncedOn: 2026-10-13
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 - *本页面的内容不是戈仑石人，如想查看戈仑石人的页面，请访问：[戈仑石人](/upgrade/0083-Golem)。*

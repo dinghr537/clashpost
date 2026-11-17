@@ -8,7 +8,7 @@ imgFolder: home_buildings/0382
 wiki: https://clashofclans.fandom.com/wiki/Air_Bomb
 canonical: /upgrade/0382-Air-Bomb
 dataSyncedOn: 2026-10-13
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 - 本页内容不是搜空地雷，如想查看搜空地雷的数据，请访问：[搜空地雷](/upgrade/0384-Seeking-Air-Mine)。
@@ -95,7 +95,7 @@ const tableExtraInfo = [
 | 11 | 375 | 5000000 | 2,0,0,0 |  | 16 |
 | 12 | 400 | 6500000 | 2,12,0,0 |  | 17 |
 | 13 | 425 | 9000000 | 5,0,0,0 |  | 18 |
-| 14 | 待更新 | 17500000 | 8,12,0,0 |  | 19 |
+| 14 | 450 | 17500000 | 8,12,0,0 |  | 19 |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>

@@ -7,7 +7,7 @@ description: "小队训练营的属性、解锁条件和升级数据。"
 module: upgrade-home
 wiki: https://clashofclans.fandom.com/wiki/Squad_Barracks
 canonical: /upgrade/048b-Squad-Barracks
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 <UnitInfo folder="" imgSrc="/images/th19/048b-Squad-Barracks/level_12.webp" :imgAlt="$frontmatter.navTitle" />

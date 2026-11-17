@@ -7,7 +7,7 @@ description: "尖刺塔的属性、解锁条件和升级数据。"
 module: upgrade-home
 wiki: https://clashofclans.fandom.com/wiki/Spiky_Tower
 canonical: /upgrade/031a-Spiky-Tower
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 <UnitInfo folder="" imgSrc="/images/th19/031a-Spiky-Tower/level_2.webp" :imgAlt="$frontmatter.navTitle" />

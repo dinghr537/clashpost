@@ -8,7 +8,7 @@ imgFolder: home_tech/0183
 wiki: https://clashofclans.fandom.com/wiki/Skeleton_Spell
 canonical: /upgrade/0183-Skeleton-Spell
 dataSyncedOn: 2026-10-13
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Skeleton_Spell.png" :imgAlt="$frontmatter.navTitle"

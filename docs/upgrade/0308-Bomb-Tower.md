@@ -8,7 +8,7 @@ imgFolder: home_buildings/0308
 wiki: https://clashofclans.fandom.com/wiki/Bomb_Tower
 canonical: /upgrade/0308-Bomb-Tower
 dataSyncedOn: 2026-10-13
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 - *如想查看都城的炸弹塔，请访问：[都城炸弹塔](/upgrade/2205-Bomb-Tower)。*

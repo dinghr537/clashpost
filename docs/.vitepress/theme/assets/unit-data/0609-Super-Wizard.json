@@ -338,11 +338,10 @@
             "raw": "15"
           },
           {
-            "status": "unknown",
-            "value": null,
-            "raw": "?",
-            "verification": "pending",
-            "verificationReason": "新增等级尚待官方、Wiki 或玩家核实"
+            "status": "known",
+            "value": 365,
+            "raw": "365",
+            "source": "ClashKing"
           },
           {
             "status": "unknown",
@@ -359,11 +358,10 @@
             "verificationReason": "新增等级尚待官方、Wiki 或玩家核实"
           },
           {
-            "status": "unknown",
-            "value": null,
-            "raw": "?",
-            "verification": "pending",
-            "verificationReason": "新增等级尚待官方、Wiki 或玩家核实"
+            "status": "known",
+            "value": 980,
+            "raw": "980",
+            "source": "ClashKing"
           },
           {
             "status": "known",

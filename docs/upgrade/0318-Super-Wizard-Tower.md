@@ -8,7 +8,7 @@ imgFolder: home_buildings/0318
 wiki: https://clashofclans.fandom.com/wiki/Super_Wizard_Tower
 canonical: /upgrade/0318-Super-Wizard-Tower
 dataSyncedOn: 2026-10-13
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 - *如想查看合并前的建筑，请移步：[法师塔](/upgrade/0305-Wizard-Tower)。*

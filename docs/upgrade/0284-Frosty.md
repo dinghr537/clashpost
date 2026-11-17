@@ -8,7 +8,7 @@ imgFolder: home_heroes/0284
 wiki: https://clashofclans.fandom.com/wiki/Frosty
 canonical: /upgrade/0284-Frosty
 dataSyncedOn: 2026-10-13
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Frosty_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />

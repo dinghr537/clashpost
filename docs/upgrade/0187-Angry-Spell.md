@@ -8,7 +8,7 @@ imgFolder: home_tech/0187
 wiki: https://clashofclans.fandom.com/wiki/Angry_Spell
 canonical: /upgrade/0187-Angry-Spell
 dataSyncedOn: 2026-10-13
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 <script setup>

@@ -8,7 +8,7 @@ imgFolder: home_tech/0001
 wiki: https://clashofclans.fandom.com/wiki/Archer
 canonical: /upgrade/0001-Archer
 dataSyncedOn: 2026-10-13
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 - *如想查看以弓箭手为原型的英雄，请访问：[弓箭女皇（女王）](/upgrade/0201-Archer-Queen)。*

@@ -8,7 +8,7 @@ imgFolder: home_buildings/0483
 wiki: https://clashofclans.fandom.com/wiki/Laboratory
 canonical: /upgrade/0483-Laboratory
 dataSyncedOn: 2026-10-13
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 - *如想查看夜世界的星空实验室，请访问：[夜世界星空实验室](/upgrade/1282-Star-Laboratory)。*

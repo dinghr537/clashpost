@@ -8,7 +8,7 @@ imgFolder: home_buildings/0404
 wiki: https://clashofclans.fandom.com/wiki/Gold_Storage
 canonical: /upgrade/0404-Gold-Storage
 dataSyncedOn: 2026-10-13
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 - *如想查看夜世界的储金罐，请访问：[夜世界储金罐](/upgrade/1203-Gold-Storage)。*

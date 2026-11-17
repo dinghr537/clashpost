@@ -8,7 +8,7 @@ imgFolder: home_tech/0082
 wiki: https://clashofclans.fandom.com/wiki/Valkyrie
 canonical: /upgrade/0082-Valkyrie
 dataSyncedOn: 2026-10-13
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 - *如想查看该兵种的强化版本，请访问：[超级瓦基丽武神](/upgrade/0607-Super-Valkyrie)。*

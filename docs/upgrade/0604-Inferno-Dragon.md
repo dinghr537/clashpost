@@ -8,7 +8,7 @@ imgFolder: home_tech/0604
 wiki: https://clashofclans.fandom.com/wiki/Inferno_Dragon
 canonical: /upgrade/0604-Inferno-Dragon
 dataSyncedOn: 2026-10-13
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 - *如想查看该兵种的普通版本，请访问：[飞龙宝宝](/upgrade/000a-Baby-Dragon)。*

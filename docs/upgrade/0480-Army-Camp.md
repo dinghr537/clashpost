@@ -8,7 +8,7 @@ imgFolder: home_buildings/0480
 wiki: https://clashofclans.fandom.com/wiki/Army_Camp
 canonical: /upgrade/0480-Army-Camp
 dataSyncedOn: 2026-10-13
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 - *如想查看夜世界的兵营，请访问：[夜世界兵营](/upgrade/1281-Army-Camp)。*

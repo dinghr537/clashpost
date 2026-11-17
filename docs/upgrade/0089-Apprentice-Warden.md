@@ -8,7 +8,7 @@ imgFolder: home_tech/0089
 wiki: https://clashofclans.fandom.com/wiki/Apprentice_Warden
 canonical: /upgrade/0089-Apprentice-Warden
 dataSyncedOn: 2026-10-13
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 - *如想查看大守护者，请访问：[大守护者（咏王）](/upgrade/0202-Grand-Warden)。*

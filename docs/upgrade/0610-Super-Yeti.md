@@ -8,7 +8,7 @@ imgFolder: home_tech/0610
 wiki: https://clashofclans.fandom.com/wiki/Super_Yeti
 canonical: /upgrade/0610-Super-Yeti
 dataSyncedOn: 2026-10-13
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 - *如想查看该兵种的普通版本，请访问：[大雪怪](/upgrade/000d-Yeti)。*

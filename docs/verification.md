@@ -36,31 +36,19 @@ hasUpdateTime: false
 | 单位 | 等级 | 待核对字段 |
 | --- | --- | --- |
 | [炸弹人](/upgrade/0004-Wall-Breaker) | 15 | 中途死亡(对城墙)、成功爆破(对城墙) |
-| [戈仑石人](/upgrade/0083-Golem) | 16 | 死亡溅射伤害 |
-| [熔岩猎犬](/upgrade/0085-Lava-Hound) | 9 | 死亡溅射伤害 |
 | [英雄猎手](/upgrade/0088-Headhunter) | 5 | 每次伤害(对英雄)、每秒伤害(对英雄) |
 | [德鲁伊](/upgrade/008a-Druid) | 7 | 每次治疗量、每秒治疗量 |
-| [毒药法术](/upgrade/0180-Poison-Spell) | 13 | 攻击速度降低幅度、每秒最大伤害、移动速度降低幅度 |
-| [急速法术](/upgrade/0182-Haste-Spell) | 8 | 作用半径、持续时间、速度提升 |
+| [毒药法术](/upgrade/0180-Poison-Spell) | 13 | 攻击速度降低幅度、移动速度降低幅度 |
+| [急速法术](/upgrade/0182-Haste-Spell) | 8 | 持续时间、速度提升 |
 | [攻城烈焰车](/upgrade/0245-Flame-Flinger) | 6 | 每次伤害、每秒伤害 |
-| [隐形弹簧](/upgrade/0381-Spring-Trap) | 14 | 对大单位部队的伤害 |
-| [空中炸弹](/upgrade/0382-Air-Bomb) | 14 | 爆炸伤害 |
 | [储金罐](/upgrade/0404-Gold-Storage) | 20 | 最大储量 |
 | [圣水瓶](/upgrade/0405-Elixir-Storage) | 20 | 最大储量 |
 | [暗黑重油罐](/upgrade/0406-Dark-Elixir-Storage) | 14 | 最大储量 |
-| [超级野蛮人](/upgrade/0600-Super-Barbarian) | 14 | 每次伤害、每秒伤害、狂暴状态每次伤害、狂暴状态每秒伤害、生命值 |
-| [超级炸弹人](/upgrade/0603-Super-Wall-Breaker) | 15 | 中途死亡(对城墙)、中途死亡(对建筑)、成功爆破(对城墙)、成功爆破(对建筑)、生命值、面板伤害 |
-| [超级弓箭手](/upgrade/0606-Super-Archer) | 15 | 每次伤害、每秒伤害、生命值 |
-| [超级亡灵](/upgrade/0608-Super-Minion) | 15 | 每次伤害、每秒伤害、生命值 |
-| [超级法师](/upgrade/0609-Super-Wizard) | 15 | 每秒伤害、生命值、直接伤害、连锁伤害 |
-| [火箭气球兵](/upgrade/060b-Rocket-Balloon) | 14 | 死亡伤害、每次伤害、每秒伤害、生命值 |
-| [超级飞龙](/upgrade/060d-Super-Dragon) | 14 | 生命值 |
-| [超级矿工](/upgrade/060e-Super-Miner) | 13 | 初始秒伤、死亡伤害 |
-| [超级野猪骑士](/upgrade/060f-Super-Hog-Rider) | 16 | 每次伤害、每秒伤害、生命值 |
+| [超级炸弹人](/upgrade/0603-Super-Wall-Breaker) | 15 | 中途死亡(对城墙)、成功爆破(对城墙) |
+| [超级法师](/upgrade/0609-Super-Wizard) | 15 | 直接伤害、连锁伤害 |
 
 ## 可能需要更新（暂列更新前数值，页面以 * 标出）
 
 | 单位 | 等级 | 待核对字段 |
 | --- | --- | --- |
 | [陨石戈仑](/upgrade/0012-Meteor-Golem) | 1–3 | 生命值 |
-| [超级野猪骑士](/upgrade/060f-Super-Hog-Rider) | 10–15 | 生命值 |

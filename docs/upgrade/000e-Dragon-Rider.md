@@ -8,7 +8,7 @@ imgFolder: home_tech/000e
 wiki: https://clashofclans.fandom.com/wiki/Dragon_Rider
 canonical: /upgrade/000e-Dragon-Rider
 dataSyncedOn: 2026-10-13
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Dragon_Rider_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />

@@ -7,7 +7,7 @@ description: "掘地矿工小队的属性、解锁条件和升级数据。"
 module: upgrade-home
 wiki: https://clashofclans.fandom.com/wiki/Miner_Squad
 canonical: /upgrade/0027-Miner-Squad
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 <UnitInfo folder="" imgSrc="/images/th19/0027-Miner-Squad/icon.webp" :imgAlt="$frontmatter.navTitle" />

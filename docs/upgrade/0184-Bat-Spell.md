@@ -8,7 +8,7 @@ imgFolder: home_tech/0184
 wiki: https://clashofclans.fandom.com/wiki/Bat_Spell
 canonical: /upgrade/0184-Bat-Spell
 dataSyncedOn: 2026-10-13
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Bat_Spell.png" :imgAlt="$frontmatter.navTitle"

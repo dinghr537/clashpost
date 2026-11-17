@@ -8,7 +8,7 @@ imgFolder: home_tech/0105
 wiki: https://clashofclans.fandom.com/wiki/Clone_Spell
 canonical: /upgrade/0105-Clone-Spell
 dataSyncedOn: 2026-10-13
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Clone_Spell.png" :imgAlt="$frontmatter.navTitle"

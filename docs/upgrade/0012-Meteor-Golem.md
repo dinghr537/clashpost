@@ -9,7 +9,7 @@ wiki: https://clashofclans.fandom.com/wiki/Meteor_Golem
 canonical: /upgrade/0012-Meteor-Golem
 dataSyncedOn: 2026-10-13
 dataBalanceUpdatedOn: 2026-10-20
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 - *如想查看陨石戈仑的设计原型，请访问：[戈仑石人](/upgrade/0083-Golem)。*

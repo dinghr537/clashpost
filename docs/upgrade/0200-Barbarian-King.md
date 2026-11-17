@@ -8,7 +8,7 @@ imgFolder: home_heroes/0200
 wiki: https://clashofclans.fandom.com/wiki/Barbarian_King
 canonical: /upgrade/0200-Barbarian-King
 dataSyncedOn: 2026-10-13
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 - *如想查看野蛮人之王的创作原型，请访问：[野蛮人](/upgrade/0000-Barbarian)。*

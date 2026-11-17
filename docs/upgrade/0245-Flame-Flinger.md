@@ -8,7 +8,7 @@ imgFolder: home_tech/0245
 wiki: https://clashofclans.fandom.com/wiki/Flame_Flinger
 canonical: /upgrade/0245-Flame-Flinger
 dataSyncedOn: 2026-10-13
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 - *玩家所说的投石车指的是攻城烈焰车，而不是投石炮，投石炮的数据请参考：[投石炮](/upgrade/030e-Scattershot)。*

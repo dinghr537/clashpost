@@ -8,7 +8,7 @@ imgFolder: home_buildings/0489
 wiki: https://clashofclans.fandom.com/wiki/Hero_Hall
 canonical: /upgrade/0489-Hero-Hall
 dataSyncedOn: 2026-10-13
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Hero_Hall13.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />

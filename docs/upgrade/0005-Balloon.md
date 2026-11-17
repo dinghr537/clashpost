@@ -8,7 +8,7 @@ imgFolder: home_tech/0005
 wiki: https://clashofclans.fandom.com/wiki/Balloon
 canonical: /upgrade/0005-Balloon
 dataSyncedOn: 2026-10-13
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 - *如想查看该兵种的强化版本，请访问：[火箭气球兵（超球）](/upgrade/060b-Rocket-Balloon)。*

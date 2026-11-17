@@ -8,7 +8,7 @@ imgFolder: home_heroes/0288
 wiki: https://clashofclans.fandom.com/wiki/Spirit_Fox
 canonical: /upgrade/0288-Spirit-Fox
 dataSyncedOn: 2026-10-13
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Spirit_Fox_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />

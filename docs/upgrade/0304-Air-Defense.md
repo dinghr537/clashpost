@@ -9,7 +9,7 @@ wiki: https://clashofclans.fandom.com/wiki/Air_Defense
 canonical: /upgrade/0304-Air-Defense
 dataSyncedOn: 2026-10-13
 dataBalanceUpdatedOn: 2026-10-20
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 - *如想查看夜世界的多管防空火炮，请访问：[夜世界防空火炮](/upgrade/1104-Firecrackers)。*

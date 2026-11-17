@@ -8,7 +8,7 @@ imgFolder: home_th/0840
 wiki: https://clashofclans.fandom.com/wiki/Longshot
 canonical: /upgrade/0840-Longshot
 dataSyncedOn: 2026-10-13
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Longshot_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />

@@ -8,7 +8,7 @@ imgFolder: home_tech/0241
 wiki: https://clashofclans.fandom.com/wiki/Battle_Blimp
 canonical: /upgrade/0241-Battle-Blimp
 dataSyncedOn: 2026-10-13
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Battle_Blimp_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />

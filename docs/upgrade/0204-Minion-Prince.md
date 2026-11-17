@@ -8,7 +8,7 @@ imgFolder: home_heroes/0204
 wiki: https://clashofclans.fandom.com/wiki/Minion_Prince
 canonical: /upgrade/0204-Minion-Prince
 dataSyncedOn: 2026-10-13
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 - *如想查看亡灵王子的创作原型，请访问：[亡灵](/upgrade/0080-Minion)。*

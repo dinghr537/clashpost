@@ -9,7 +9,7 @@ wiki: https://clashofclans.fandom.com/wiki/Elixir_Collector
 canonical: /upgrade/0402-Elixir-Collector
 dataSyncedOn: 2026-10-13
 dataBalanceUpdatedOn: 2026-10-20
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 - *如想查看夜世界的圣水收集器，请访问：[夜世界圣水收集器](/upgrade/1202-Elixir-Collector)。*

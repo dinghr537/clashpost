@@ -8,7 +8,7 @@ imgFolder: home_tech/0186
 wiki: https://clashofclans.fandom.com/wiki/Ice_Block_Spell
 canonical: /upgrade/0186-Ice-Block-Spell
 dataSyncedOn: 2026-10-13
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Ice_Block_Spell_info.png" :imgAlt="$frontmatter.navTitle"

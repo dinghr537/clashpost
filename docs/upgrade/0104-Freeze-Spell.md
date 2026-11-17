@@ -8,7 +8,7 @@ imgFolder: home_tech/0104
 wiki: https://clashofclans.fandom.com/wiki/Freeze_Spell
 canonical: /upgrade/0104-Freeze-Spell
 dataSyncedOn: 2026-10-13
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 - *如想查看都城的冰霜法术，请访问：[都城冰霜法术](/upgrade/2103-Frost-Spell)。*

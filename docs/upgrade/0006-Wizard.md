@@ -8,7 +8,7 @@ imgFolder: home_tech/0006
 wiki: https://clashofclans.fandom.com/wiki/Wizard
 canonical: /upgrade/0006-Wizard
 dataSyncedOn: 2026-10-13
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 - *如想查看该兵种的强化版本，请访问：[超级法师（超法）](/upgrade/0609-Super-Wizard)。*

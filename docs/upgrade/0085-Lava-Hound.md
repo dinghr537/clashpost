@@ -8,7 +8,7 @@ imgFolder: home_tech/0085
 wiki: https://clashofclans.fandom.com/wiki/Lava_Hound
 canonical: /upgrade/0085-Lava-Hound
 dataSyncedOn: 2026-10-13
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 - *如想查看该兵种的强化版本，请访问：[寒冰猎犬](/upgrade/060a-Ice-Hound)。*
@@ -106,7 +106,7 @@ const tableExtraInfo = [
 | 6 | 20 | 40 | 350 | 18 / 13 | 8000 | 80000 | 7,0,0,0 | 11 | 13 |
 | 7 | 22 | 44 | 400 | 20 / 14 | 8500 | 190000 | 7,12,0,0 | 14 | 16 |
 | 8 | 24 | 48 | 450 | 22 / 15 | 9500 | 285000 | 10,12,0,0 | 16 | 18 |
-| 9 | 26 | 52 | 待更新 | 待更新 / 待更新 | 11000 | 375000 | 11,0,0,0 | 17 | 19 |
+| 9 | 26 | 52 | 500 | 待更新 / 待更新 | 11000 | 375000 | 11,0,0,0 | 17 | 19 |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>

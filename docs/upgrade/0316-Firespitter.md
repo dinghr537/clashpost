@@ -8,7 +8,7 @@ imgFolder: home_buildings/0316
 wiki: https://clashofclans.fandom.com/wiki/Firespitter
 canonical: /upgrade/0316-Firespitter
 dataSyncedOn: 2026-10-13
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 - 如想查看夜世界的一座机制类似的建筑，请访问：[夜世界熔岩火炮](/upgrade/1109-Roaster)。

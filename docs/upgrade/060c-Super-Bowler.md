@@ -8,7 +8,7 @@ imgFolder: home_tech/060c
 wiki: https://clashofclans.fandom.com/wiki/Super_Bowler
 canonical: /upgrade/060c-Super-Bowler
 dataSyncedOn: 2026-10-13
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 - *如想查看该兵种的普通版本，请访问：[巨石投手](/upgrade/0086-Bowler)。*

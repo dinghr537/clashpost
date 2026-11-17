@@ -78,11 +78,14 @@ onBeforeUnmount(() => clearInterval(intervalId));
 - 4 瓶任意等级的[地震法术](/upgrade/0181-Earthquake-Spell)都能摧毁任意等级的城墙；从 6 级开始，地震法术还能伤害地面部队。
 - [飞龙公爵](/upgrade/0205-Dragon-Duke)远离友方飞行单位时会进入狂暴状态，机制类似于[飞龙宝宝](/upgrade/000a-Baby-Dragon)。
 - [愤怒水母](/upgrade/0289-Angry-Jelly)和[阿啾](/upgrade/028a-Sneezy)跟随的英雄未被击倒时，不占用[回溯法术](/upgrade/0107-Recall-Spell)的召回人口。
+- 19 本更新后，出了新等级的建筑（如[防空火箭](/upgrade/0304-Air-Defense)、[X 连弩](/upgrade/0309-X-Bow)）不再有超级充能；更新时正在进行的充能全额退款，已完成的不退。
 
 </div>
 <div class="homepage-recommend-item">
 <SmallTitle>最新动态</SmallTitle>
 
+- 2026/11/16：19 本更新。新增 [19 级大本营](/upgrade/0400-Town-Hall)、[小队训练营](/upgrade/048b-Squad-Barracks)和 12 种小队、[尖刺塔](/upgrade/031a-Spiky-Tower)、[烟花炮手塔](/upgrade/031b-Firecracker-Tower)、[英勇法术](/upgrade/010a-Heroic-Spell)、[守卫神殿](/upgrade/0843-Guardian-Shrine)；兵种、法术、英雄、战宠、防御和资源建筑新增等级，大量旧等级降价、缩短时间。
+- 同次更新：出了新等级的建筑移除超级充能；[粉碎者](/upgrade/0841-Smasher)新增 6–10 级，其余守卫 2–5 级降价；[冰霜晶片](/upgrade/07c6-Frost-Flake)新增对[飞盾战神](/upgrade/0203-Royal-Champion)的伤害加成。
 - 2026/10/20：[烈焰之心](/upgrade/07e0-Fire-Heart)和[废墟骑士](/upgrade/0013-Ruin-Witch)削弱；[冰封箭矢](/upgrade/0744-Frozen-Arrow)增强，[传送吊坠](/upgrade/0726-Portal-Pendant)新增生命值加成。
 - 同次维护：[野猪骑士](/upgrade/0081-Hog-Rider)、[超级野猪骑士](/upgrade/060f-Super-Hog-Rider)、[掘地矿工](/upgrade/000b-Miner)、[超级矿工](/upgrade/060e-Super-Miner)和[陨石戈仑](/upgrade/0012-Meteor-Golem)生命值提高，[皮卡超人](/upgrade/0009-P.E.K.K.A)伤害提高。
 - 同日充能调整：[复合机械塔](/upgrade/0317-Multi-Gear-Tower)、[跳弹加农炮](/upgrade/0313-Ricochet-Cannon)、[多箭塔](/upgrade/0314-Multi-Archer-Tower)、[防空火箭](/upgrade/0304-Air-Defense)、[建筑工人小屋](/upgrade/0500-Builders-Hut)、[特斯拉电磁塔](/upgrade/0307-Hidden-Tesla)、[X 连弩](/upgrade/0309-X-Bow)、[金矿](/upgrade/0401-Gold-Mine)、[圣水收集器](/upgrade/0402-Elixir-Collector)和[暗黑重油钻井](/upgrade/0403-Dark-Elixir-Drill)的充能费用和时间降低。
@@ -99,17 +102,17 @@ onBeforeUnmount(() => clearInterval(intervalId));
 
 - 倒计时依赖设备时间，按国际服常规日程计算；特殊活动调整以游戏内时间为准。
 - 排位周赛每周一北京时间 13:00 结算，不含传奇 I 的四周赛季。[规则来源](https://support.supercell.com/clash-of-clans/en/articles/ranked-leagues-4.html)。
-- 最新动态手动维护，目前整理至 2026/10/20；点击单位名称可查看详细变化与来源。
+- 最新动态手动维护，目前整理至 2026/11/16；点击单位名称可查看详细变化与来源。
 
 </div>
 
 <SmallTitle>数据说明</SmallTitle>
 
-2026-10-13 已同步 357 个单位的数据页，包含 17 个新增单位：常驻单位、今年两批精工防御以及新增和回归的临时单位。费用、时间、属性和前置条件以当时的 Clash of Clans Wiki 表格为基础，同步页面标注来源和核对日期，并保留可取得的 2026 年更新历史。
+升级数据以 Clash of Clans Wiki 表格为基础，2026-10-13 同步了 357 个单位的数据页，并整理了 2026 年 10 月的平衡调整。
 
-2026 年 10 月的平衡调整范围依据 [Supercell 公告](https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/)整理；尚未完成核实的具体等级数值暂列为“待更新”。
+2026-11-17 更新至 19 本：数值依次参考 [Supercell 官方公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)、Clash of Clans Wiki，以及 [ClashKing](https://github.com/ClashKingInc/ClashKingAssets) 整理的游戏数据，各页底部注明来源。新等级暂缺的数据显示为“待更新”；可能已调整、但暂时只有旧数值的以 * 标出，汇总见[待更新数据核对清单](/verification)。
 
-其余 31 个往期活动单位保留历史数据，并在页首标注。来源缺项显示为“未知”或“不适用”，19 本新等级暂缺的数据显示为“待更新”；同步日期不表示游戏更新生效日期。
+其余 31 个往期活动单位保留历史数据，并在页首标注。来源缺项显示为“未知”或“不适用”；同步日期不表示游戏更新生效日期。
 
 本项目作为「部落驿站」的继承项目继续整理升级数据。本地网站仅提供数据查询。
 

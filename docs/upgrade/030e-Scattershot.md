@@ -8,7 +8,7 @@ imgFolder: home_buildings/030e
 wiki: https://clashofclans.fandom.com/wiki/Scattershot
 canonical: /upgrade/030e-Scattershot
 dataSyncedOn: 2026-10-13
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 - *玩家所说的投石车指的是攻城烈焰车，而不是投石炮，攻城烈焰车的数据请参考： [攻城烈焰车](/upgrade/0245-Flame-Flinger)。*

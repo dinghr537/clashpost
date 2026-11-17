@@ -7,7 +7,7 @@ description: "炸弹人小队的属性、解锁条件和升级数据。"
 module: upgrade-home
 wiki: https://clashofclans.fandom.com/wiki/Wall_Breaker_Squad
 canonical: /upgrade/0022-Wall-Breaker-Squad
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 <UnitInfo folder="" imgSrc="/images/th19/0022-Wall-Breaker-Squad/icon.webp" :imgAlt="$frontmatter.navTitle" />

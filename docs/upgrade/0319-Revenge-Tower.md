@@ -8,7 +8,7 @@ imgFolder: home_buildings/0319
 wiki: https://clashofclans.fandom.com/wiki/Revenge_Tower
 canonical: /upgrade/0319-Revenge-Tower
 dataSyncedOn: 2026-10-13
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 <script setup>

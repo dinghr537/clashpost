@@ -7,7 +7,7 @@ description: "气球兵小队的属性、解锁条件和升级数据。"
 module: upgrade-home
 wiki: https://clashofclans.fandom.com/wiki/Balloon_Squad
 canonical: /upgrade/0024-Balloon-Squad
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 <UnitInfo folder="" imgSrc="/images/th19/0024-Balloon-Squad/icon.webp" :imgAlt="$frontmatter.navTitle" />

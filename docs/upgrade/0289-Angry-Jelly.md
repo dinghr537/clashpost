@@ -8,7 +8,7 @@ imgFolder: home_heroes/0289
 wiki: https://clashofclans.fandom.com/wiki/Angry_Jelly
 canonical: /upgrade/0289-Angry-Jelly
 dataSyncedOn: 2026-10-13
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Angry_Jelly_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />

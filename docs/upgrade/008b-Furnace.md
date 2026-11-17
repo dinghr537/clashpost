@@ -8,7 +8,7 @@ imgFolder: home_tech/008b
 wiki: https://clashofclans.fandom.com/wiki/Furnace
 canonical: /upgrade/008b-Furnace
 dataSyncedOn: 2026-10-13
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 <SwitchTabs contentClass="cp-unit-items" :stickyTabs="true" :pageTabs="true">

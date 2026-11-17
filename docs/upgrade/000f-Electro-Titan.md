@@ -8,7 +8,7 @@ imgFolder: home_tech/000f
 wiki: https://clashofclans.fandom.com/wiki/Electro_Titan
 canonical: /upgrade/000f-Electro-Titan
 dataSyncedOn: 2026-10-13
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Electro_Titan_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />

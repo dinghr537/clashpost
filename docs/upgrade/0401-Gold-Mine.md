@@ -9,7 +9,7 @@ wiki: https://clashofclans.fandom.com/wiki/Gold_Mine
 canonical: /upgrade/0401-Gold-Mine
 dataSyncedOn: 2026-10-13
 dataBalanceUpdatedOn: 2026-10-20
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 - *如想查看夜世界的金矿，请访问：[夜世界金矿](/upgrade/1201-Gold-Mine)。*

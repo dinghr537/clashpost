@@ -8,7 +8,7 @@ imgFolder: home_buildings/0303
 wiki: https://clashofclans.fandom.com/wiki/Mortar
 canonical: /upgrade/0303-Mortar
 dataSyncedOn: 2026-10-13
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 <script setup>

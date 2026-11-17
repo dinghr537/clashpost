@@ -8,7 +8,7 @@ imgFolder: home_buildings/0384
 wiki: https://clashofclans.fandom.com/wiki/Seeking_Air_Mine
 canonical: /upgrade/0384-Seeking-Air-Mine
 dataSyncedOn: 2026-10-13
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 - *本页内容不是空中炸弹，如想查看空中炸弹的数据，请访问：[空中炸弹](/upgrade/0382-Air-Bomb)。*

@@ -8,7 +8,7 @@ imgFolder: home_tech/0000
 wiki: https://clashofclans.fandom.com/wiki/Barbarian
 canonical: /upgrade/0000-Barbarian
 dataSyncedOn: 2026-10-13
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 - *如想查看该兵种的强化版本，请访问：[超级野蛮人](/upgrade/0600-Super-Barbarian)。*

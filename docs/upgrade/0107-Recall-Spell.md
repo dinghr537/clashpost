@@ -8,7 +8,7 @@ imgFolder: home_tech/0107
 wiki: https://clashofclans.fandom.com/wiki/Recall_Spell
 canonical: /upgrade/0107-Recall-Spell
 dataSyncedOn: 2026-10-13
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Recall_Spell.png" :imgAlt="$frontmatter.navTitle"

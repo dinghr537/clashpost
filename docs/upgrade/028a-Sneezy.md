@@ -8,7 +8,7 @@ imgFolder: home_heroes/028a
 wiki: https://clashofclans.fandom.com/wiki/Sneezy
 canonical: /upgrade/028a-Sneezy
 dataSyncedOn: 2026-10-13
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 <SwitchTabs contentClass="cp-unit-items" :stickyTabs="true" :pageTabs="true">

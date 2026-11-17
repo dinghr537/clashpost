@@ -8,7 +8,7 @@ imgFolder: home_tech/0605
 wiki: https://clashofclans.fandom.com/wiki/Super_Witch
 canonical: /upgrade/0605-Super-Witch
 dataSyncedOn: 2026-10-13
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 - *如想查看该兵种的普通版本，请访问：[女巫](/upgrade/0084-Witch)。*

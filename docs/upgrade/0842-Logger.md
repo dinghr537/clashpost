@@ -7,7 +7,7 @@ imgFolder: home_heroes/0842
 wiki: https://clashofclans.fandom.com/wiki/Logger
 canonical: /upgrade/0842-Logger
 dataSyncedOn: 2026-10-13
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 <script setup>

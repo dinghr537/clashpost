@@ -8,7 +8,7 @@ imgFolder: home_tech/0182
 wiki: https://clashofclans.fandom.com/wiki/Haste_Spell
 canonical: /upgrade/0182-Haste-Spell
 dataSyncedOn: 2026-10-13
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Haste_Spell.png" :imgAlt="$frontmatter.navTitle"
@@ -64,7 +64,7 @@ const tableExtraInfo = [
 | 5 | 52 | 30秒 | 4格 | 38500 | 4,0,0,0 | 9 | 11 |
 | 6 | 56 | 30秒 | 4格 | 165000 | 7,12,0,0 | 15 | 17 |
 | 7 | 56 | 30秒 | 5格 | 255000 | 9,6,0,0 | 16 | 18 |
-| 8 | 待更新 | 待更新 | 待更新 | 415000 | 13,0,0,0 | 17 | 19 |
+| 8 | 待更新 | 待更新 | 5 | 415000 | 13,0,0,0 | 17 | 19 |
 </UnitTable>
 
 \# 表格中每 8 点速度值代表 1 格/秒。

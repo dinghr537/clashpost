@@ -8,7 +8,7 @@ imgFolder: home_tech/0100
 wiki: https://clashofclans.fandom.com/wiki/Lightning_Spell
 canonical: /upgrade/0100-Lightning-Spell
 dataSyncedOn: 2026-10-13
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 - *如想查看都城的雷电法术，请访问：[都城雷电法术](/upgrade/2102-Lightning-Spell)。*

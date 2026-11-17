@@ -8,7 +8,7 @@ imgFolder: home_tech/0102
 wiki: https://clashofclans.fandom.com/wiki/Rage_Spell
 canonical: /upgrade/0102-Rage-Spell
 dataSyncedOn: 2026-10-13
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 - *如想查看都城的狂暴法术，请访问：[都城狂暴法术](/upgrade/2104-Rage-Spell)。*

@@ -8,7 +8,7 @@ imgFolder: home_buildings/0300
 wiki: https://clashofclans.fandom.com/wiki/Wall
 canonical: /upgrade/0300-Walls
 dataSyncedOn: 2026-10-13
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 - *如想查看夜世界的城墙，请访问：[夜世界城墙](/upgrade/110c-Walls)。*

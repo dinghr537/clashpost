@@ -9,7 +9,7 @@ wiki: https://clashofclans.fandom.com/wiki/Builder%27s_Hut
 canonical: /upgrade/0500-Builders-Hut
 dataSyncedOn: 2026-10-13
 dataBalanceUpdatedOn: 2026-10-20
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 - *如想查看村庄内类似于建筑工人小屋的另一种建筑，请访问：[小博木屋（巴布小屋）](/upgrade/0501-B.O.Bs-Hut)。*

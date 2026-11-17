@@ -8,7 +8,7 @@ imgFolder: home_buildings/0305
 wiki: https://clashofclans.fandom.com/wiki/Wizard_Tower
 canonical: /upgrade/0305-Wizard-Tower
 dataSyncedOn: 2026-10-13
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 - *如想查看由两个法师塔合成的超级法师塔，请访问 [超级法师塔](/upgrade/0318-Super-Wizard-Tower)。*

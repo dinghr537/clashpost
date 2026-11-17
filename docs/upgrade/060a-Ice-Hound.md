@@ -8,7 +8,7 @@ imgFolder: home_tech/060a
 wiki: https://clashofclans.fandom.com/wiki/Ice_Hound
 canonical: /upgrade/060a-Ice-Hound
 dataSyncedOn: 2026-10-13
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 - *如想查看该兵种的普通版本，请访问：[熔岩猎犬](/upgrade/0085-Lava-Hound)。*

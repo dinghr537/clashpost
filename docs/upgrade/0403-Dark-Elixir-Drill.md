@@ -9,7 +9,7 @@ wiki: https://clashofclans.fandom.com/wiki/Dark_Elixir_Drill
 canonical: /upgrade/0403-Dark-Elixir-Drill
 dataSyncedOn: 2026-10-13
 dataBalanceUpdatedOn: 2026-10-20
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-17
 ---
 
 <UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Dark_Elixir_Drill12.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" :isSmallImg="true" />
