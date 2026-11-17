@@ -612,7 +612,259 @@
     "0843-Guardian-Shrine/shrine.png": {
       "sourceUrl": "https://sc-clashofclans.zendesk.com/hc/article_attachments/58720150691995",
       "caption": "守卫神殿"
+    },
+    "0383-Giant-Bomb/level_12.webp": {
+      "sourceUrl": "https://raw.githubusercontent.com/ClashKingInc/ClashKingAssets/6da8ce864afe2b4510d3342e1c7374e48d7f5a49/assets/traps/home-village/giant_bomb/level_12.webp",
+      "caption": "巨型炸弹 12 级"
+    },
+    "0385-Skeleton-Trap/level_6.webp": {
+      "sourceUrl": "https://raw.githubusercontent.com/ClashKingInc/ClashKingAssets/6da8ce864afe2b4510d3342e1c7374e48d7f5a49/assets/traps/home-village/skeleton_trap/level_6.webp",
+      "caption": "骷髅陷阱 6 级（地面模式）"
+    },
+    "0488-Blacksmith/level_10.webp": {
+      "sourceUrl": "https://raw.githubusercontent.com/ClashKingInc/ClashKingAssets/6da8ce864afe2b4510d3342e1c7374e48d7f5a49/assets/buildings/home-village/blacksmith/level_10.webp",
+      "caption": "铁匠铺 10 级"
+    },
+    "0000-Barbarian/Barbarian14.png": {
+      "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/0/0b/Barbarian14.png/revision/latest?cb=20261113185311",
+      "caption": "14 级"
+    },
+    "0001-Archer/Archer15.png": {
+      "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/9/97/Archer15.png/revision/latest?cb=20261113185227",
+      "caption": "15 级"
+    },
+    "0002-Giant/Giant15.png": {
+      "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/2/20/Giant15.png/revision/latest?cb=20261113185849",
+      "caption": "15 级"
+    },
+    "0003-Goblin/Goblin11.png": {
+      "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/3/30/Goblin11.png/revision/latest?cb=20261113185729",
+      "caption": "11 级"
+    },
+    "0004-Wall-Breaker/Wall_Breaker15.png": {
+      "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/4/4a/Wall_Breaker15.png/revision/latest?cb=20261113145437",
+      "caption": "15 级"
+    },
+    "0005-Balloon/Balloon14.png": {
+      "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/1/17/Balloon14.png/revision/latest?cb=20261113190028",
+      "caption": "14 级"
+    },
+    "0006-Wizard/Wizard15.png": {
+      "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/1/1f/Wizard15.png/revision/latest?cb=20261113145417",
+      "caption": "15 级"
+    },
+    "0007-Healer/Healer12.png": {
+      "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/6/62/Healer12.png/revision/latest?cb=20261116053349",
+      "caption": "12 级"
+    },
+    "0008-Dragon/Dragon14.png": {
+      "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/9/98/Dragon14.png/revision/latest?cb=20261113145213",
+      "caption": "14 级"
+    },
+    "0009-P.E.K.K.A/PEKKA14.png": {
+      "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/1/18/PEKKA14.png/revision/latest?cb=20261113145250",
+      "caption": "14 级"
+    },
+    "000a-Baby-Dragon/Baby_Dragon13.png": {
+      "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/f/f6/Baby_Dragon13.png/revision/latest?cb=20261113185913",
+      "caption": "13 级"
+    },
+    "000b-Miner/Miner13.png": {
+      "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/e/ef/Miner13.png/revision/latest?cb=20261113185950",
+      "caption": "13 级"
+    },
+    "000c-Electro-Dragon/Electro_Dragon10.png": {
+      "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/f/fc/Electro_Dragon10.png/revision/latest?cb=20261113185800",
+      "caption": "10 级"
+    },
+    "000d-Yeti/Yeti9.png": {
+      "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/5/51/Yeti9.png/revision/latest?cb=20261113145457",
+      "caption": "9 级"
+    },
+    "000d-Yeti/Yetimite8.png": {
+      "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/5/5d/Yetimite8.png/revision/latest?cb=20260430181829",
+      "caption": "8 级"
+    },
+    "000e-Dragon-Rider/Dragon_Rider7.png": {
+      "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/1/16/Dragon_Rider7.png/revision/latest?cb=20261113190054",
+      "caption": "7 级"
+    },
+    "000f-Electro-Titan/Electro_Titan6.png": {
+      "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/2/20/Electro_Titan6.png/revision/latest?cb=20261113145355",
+      "caption": "6 级"
+    },
+    "0010-Root-Rider/Root_Rider5.png": {
+      "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/7/75/Root_Rider5.png/revision/latest?cb=20261113190126",
+      "caption": "5 级"
+    },
+    "0011-Thrower/Thrower5.png": {
+      "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/f/f8/Thrower5.png/revision/latest?cb=20261113190159",
+      "caption": "5 级"
+    },
+    "0013-Ruin-Witch/Ruin_Witch5.png": {
+      "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/9/96/Ruin_Witch5.png/revision/latest?cb=20261113185630",
+      "caption": "5 级"
+    },
+    "0080-Minion/Minion15.png": {
+      "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/5/5e/Minion15.png/revision/latest?cb=20261113185343",
+      "caption": "15 级"
+    },
+    "0081-Hog-Rider/Hog_Rider16.png": {
+      "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/7/75/Hog_Rider16.png/revision/latest?cb=20261113185657",
+      "caption": "16 级"
+    },
+    "0082-Valkyrie/Valkyrie13.png": {
+      "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/a/aa/Valkyrie13.png/revision/latest?cb=20261113145316",
+      "caption": "13 级"
+    },
+    "0083-Golem/Golem16.png": {
+      "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/3/3c/Golem16.png/revision/latest?cb=20261113145303",
+      "caption": "16 级"
+    },
+    "0084-Witch/Witch9.png": {
+      "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/c/cc/Witch9.png/revision/latest?cb=20261113185553",
+      "caption": "9 级"
+    },
+    "0085-Lava-Hound/Lava_Hound9.png": {
+      "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/3/30/Lava_Hound9.png/revision/latest?cb=20261113185524",
+      "caption": "9 级"
+    },
+    "0086-Bowler/Bowler11.png": {
+      "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/7/73/Bowler11.png/revision/latest?cb=20261113185141",
+      "caption": "11 级"
+    },
+    "0088-Headhunter/Headhunter5.png": {
+      "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/6/68/Headhunter5.png/revision/latest?cb=20261113185418",
+      "caption": "5 级"
+    },
+    "008a-Druid/Bear6.png": {
+      "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/0/00/Bear6.png/revision/latest?cb=20260427191804",
+      "caption": "6 级"
+    },
+    "008a-Druid/Druid7.png": {
+      "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/8/88/Druid7.png/revision/latest?cb=20261113185450",
+      "caption": "7 级"
+    },
+    "0243-Siege-Barracks/Parachute_Barracks6.png": {
+      "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/5/5d/Parachute_Barracks6.png/revision/latest?cb=20260428172636",
+      "caption": "6 级"
+    },
+    "0245-Flame-Flinger/Flame_Flinger6.png": {
+      "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/a/aa/Flame_Flinger6.png/revision/latest?cb=20261115170506",
+      "caption": "6 级"
+    },
+    "0300-Walls/Wall20.png": {
+      "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/6/6d/Wall20.png/revision/latest?cb=20261115165822",
+      "caption": "20 级"
+    },
+    "0303-Mortar/Mortar18.png": {
+      "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/6/69/Mortar18.png/revision/latest?cb=20260225092946",
+      "caption": "18 级"
+    },
+    "0304-Air-Defense/Air_Defense17.png": {
+      "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/4/4f/Air_Defense17.png/revision/latest?cb=20261113191122",
+      "caption": "17 级"
+    },
+    "0307-Hidden-Tesla/Hidden_Tesla18.png": {
+      "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/f/f1/Hidden_Tesla18.png/revision/latest?cb=20261113190308",
+      "caption": "18 级"
+    },
+    "0309-X-Bow/X-Bow14_Air.png": {
+      "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/f/fa/X-Bow14_Air.png/revision/latest?cb=20261115165347",
+      "caption": "14 级（空中模式）"
+    },
+    "0309-X-Bow/X-Bow14_Ground.png": {
+      "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/2/20/X-Bow14_Ground.png/revision/latest?cb=20261113190605",
+      "caption": "14 级（地面模式）"
+    },
+    "0313-Ricochet-Cannon/Ricochet_Cannon5.png": {
+      "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/a/a6/Ricochet_Cannon5.png/revision/latest?cb=20261113190713",
+      "caption": "5 级"
+    },
+    "0314-Multi-Archer-Tower/Multi-Archer_Tower5.png": {
+      "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/0/02/Multi-Archer_Tower5.png/revision/latest?cb=20261113190647",
+      "caption": "5 级"
+    },
+    "0317-Multi-Gear-Tower/Multi-Gear_Tower4_FastAttack.png": {
+      "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/a/a9/Multi-Gear_Tower4_FastAttack.png/revision/latest?cb=20261113150020",
+      "caption": "4 级（快速攻击模式）"
+    },
+    "0317-Multi-Gear-Tower/Multi-Gear_Tower4_LongRange.png": {
+      "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/d/d2/Multi-Gear_Tower4_LongRange.png/revision/latest?cb=20261113150034",
+      "caption": "4 级（远程攻击模式）"
+    },
+    "0381-Spring-Trap/Spring_Trap14.png": {
+      "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/f/f6/Spring_Trap14.png/revision/latest?cb=20261113191532",
+      "caption": "14 级"
+    },
+    "0382-Air-Bomb/Air_Bomb14.png": {
+      "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/5/55/Air_Bomb14.png/revision/latest?cb=20261115170336",
+      "caption": "14 级"
+    },
+    "0386-Tornado-Trap/Tornado_Trap2.png": {
+      "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/a/ab/Tornado_Trap2.png/revision/latest?cb=20181022220256",
+      "caption": "2 级"
+    },
+    "0401-Gold-Mine/Gold_Mine18.png": {
+      "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/f/f8/Gold_Mine18.png/revision/latest?cb=20261115165423",
+      "caption": "18 级"
+    },
+    "0402-Elixir-Collector/Elixir_Collector18.png": {
+      "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/b/bd/Elixir_Collector18.png/revision/latest?cb=20261115165605",
+      "caption": "18 级"
+    },
+    "0403-Dark-Elixir-Drill/Dark_Elixir_Drill12.png": {
+      "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/d/da/Dark_Elixir_Drill12.png/revision/latest?cb=20261115165536",
+      "caption": "12 级"
+    },
+    "0404-Gold-Storage/Gold_Storage20.png": {
+      "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/e/ea/Gold_Storage20.png/revision/latest?cb=20261113190912",
+      "caption": "20 级"
+    },
+    "0405-Elixir-Storage/Elixir_Storage20.png": {
+      "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/7/70/Elixir_Storage20.png/revision/latest?cb=20261113190849",
+      "caption": "20 级"
+    },
+    "0406-Dark-Elixir-Storage/Dark_Elixir_Storage14.png": {
+      "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/9/9c/Dark_Elixir_Storage14.png/revision/latest?cb=20261113190943",
+      "caption": "14 级"
+    },
+    "0407-Clan-Castle/Clan_Castle15.png": {
+      "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/4/4c/Clan_Castle15.png/revision/latest?cb=20261113191019",
+      "caption": "15 级"
+    },
+    "0483-Laboratory/Laboratory17.png": {
+      "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/7/7a/Laboratory17.png/revision/latest?cb=20261113191213",
+      "caption": "17 级"
+    },
+    "0484-Spell-Factory/Spell_Factory10.png": {
+      "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/7/7d/Spell_Factory10.png/revision/latest?cb=20261115165921",
+      "caption": "10 级"
+    },
+    "0484-Spell-Factory/Spell_Factory10_Active.png": {
+      "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/8/8a/Spell_Factory10_Active.png/revision/latest?cb=20261115165955",
+      "caption": "10 级（工作中）"
+    },
+    "0489-Hero-Hall/Hero_Hall13.png": {
+      "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/d/d2/Hero_Hall13.png/revision/latest?cb=20261113191048",
+      "caption": "13 级"
+    },
+    "0500-Builders-Hut/Builders_Hut9_Active.png": {
+      "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/7/70/Builders_Hut9_Active.png/revision/latest?cb=20261113190812",
+      "caption": "9 级（工作中）"
+    },
+    "0500-Builders-Hut/Builders_Hut9.png": {
+      "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/f/fa/Builders_Hut9.png/revision/latest?cb=20261115170054",
+      "caption": "9 级"
+    },
+    "2212-Super-Dragon-Post/Super_Dragon_Post4.png": {
+      "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/a/a2/Super_Dragon_Post4.png/revision/latest?cb=20231217051011",
+      "caption": "4 级"
+    },
+    "2212-Super-Dragon-Post/Super_Dragon_Post5.png": {
+      "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/b/bf/Super_Dragon_Post5.png/revision/latest?cb=20231217051024",
+      "caption": "5 级"
     }
   },
-  "lastAdditionalReviewOn": "2026-11-16"
+  "lastAdditionalReviewOn": "2026-11-17"
 }
