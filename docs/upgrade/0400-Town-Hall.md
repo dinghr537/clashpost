@@ -15,7 +15,7 @@ dataVersionUpdatedOn: 2026-11-16
 - *如想查看夜世界的大本营，请访问：[建筑大师大本营](/upgrade/1200-Builder-Hall)、[夜世界奥仔哨站](/upgrade/1240-O.T.T.O's-Outpost)。*
 - *如想查看都城的大本营，请访问：[都城大本营](/upgrade/2400-Capital-Hall)、[子城大本营](/upgrade/2401-District-Hall)。*
 
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Town_Hall18_hd.png" :imgAlt="$frontmatter.navTitle"
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="/images/th19/0400-Town-Hall/level_19.webp" :imgAlt="$frontmatter.navTitle"
     description="大本营是村庄的核心。升级大本营，可解锁新的防御、建筑、陷阱和更多内容。<br>在战斗中摧毁敌军大本营，您将获得一颗星。<br>把大本营建在村庄中心，并在其周围建造城墙、陷阱以及其他防御是最安全的举措。" />
 
 <SmallTitle>各等级图片</SmallTitle>
@@ -40,6 +40,10 @@ dataVersionUpdatedOn: 2026-11-16
         <UnitImg imgTitle="16 本" imgSrc="Town_Hall16.png" imgHd="Town_Hall16_hd.png" />
         <UnitImg imgTitle="17 本" imgSrc="Town_Hall17_5.png" imgHd="Town_Hall17_5_hd.png" />
         <UnitImg imgTitle="18 本" imgSrc="Town_Hall18.png" imgHd="Town_Hall18_hd.png" />
+        <UnitImg imgTitle="19 本（原始）" imgSrc="/images/th19/0400-Town-Hall/level_19.webp" />
+        <UnitImg imgTitle="19 本（野蛮人大厅）" imgSrc="/images/th19/0400-Town-Hall/level_19_barbarian.webp" />
+        <UnitImg imgTitle="19 本（弓箭手大厅）" imgSrc="/images/th19/0400-Town-Hall/level_19_archer.webp" />
+        <UnitImg imgTitle="19 本（法师大厅）" imgSrc="/images/th19/0400-Town-Hall/level_19_wizard.webp" />
     </UnitImgGroup>
     <UnitImgGroup :folder="$frontmatter.imgFolder" title="老版本使用的模型">
         <UnitImg imgTitle="17 本 1 星" imgSrc="Town_Hall17_1.png" imgHd="Town_Hall17_1_hd.png" />

@@ -26,7 +26,7 @@ Wiki 文字与表格整理来自 **Clash of Clans Wiki 的贡献者**，除另�
 
 [COC Wiki 19 本指南](https://cocwiki.com/guides/town-hall-19)中的部分资料注明源自 Clash of Clans Wiki。依据 [COC Wiki 使用条款](https://cocwiki.com/terms)，本站在使用这些资料的页面同时注明 COC Wiki 和原 Wiki，并保留相应的相同方式共享许可。两站的资料并非每个页面都已更新，具体来源以单位页说明为准。
 
-19 本新增等级和部分旧等级的游戏数值也参考了 [ClashKing Assets 的固定修订](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)。它的仓库声明采用 GPL-3.0；本站只引用本次更新相关的游戏事实，没有复制其说明文字或图片，也不据此宣称这些第三方材料采用本站的 CC 许可。尚未核实的字段标为“未知”。
+19 本新增等级和部分旧等级的游戏数值也参考了 [ClashKing Assets 的固定修订](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)。本站按原有表格整理相关游戏事实，没有复制其说明文字；尚未核实的字段标为“未知”。
 
 部分新等级的储量和法术效果参考 [ClashPerk Wiki](https://wiki.clashperk.com/)，各单位页注明具体条目。本站仅引用相关游戏数值，不将其页面文字或图片视为已获开放转载许可。
 
@@ -35,6 +35,8 @@ Wiki 文字与表格整理来自 **Clash of Clans Wiki 的贡献者**，除另�
 Supercell 公告和帮助页面用于核对游戏数值与机制，对应链接标在正文中。Supercell 的游戏图片、图标、名称和商标仍归其权利人所有，使用条件见 [Supercell 玩家内容政策](https://supercell.com/en/fan-content-policy/)。
 
 图片不因出现在 Wiki 或被保存到本站就自动采用文字的 CC 许可。其他作者制作的图片、图解等按各自授权处理，不包含在本站的文字与表格改编许可内。图片出处可查阅[原站图片来源记录](/images/original-sources.json)和 [Wiki 补图来源记录](/images/wiki-sources.json)；来源记录不等同于单独授权书。
+
+19 本新增单位和大本营的部分图片来自 [ClashKing Assets](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/README.md)，感谢该项目整理素材；守卫神殿图片来自 [Supercell 官方帮助中心](https://sc-clashofclans.zendesk.com/hc/en-us/articles/49529107397403-Guardians)。每张图片的文件地址、来源和核查日期见 [19 本图片来源记录](/images/th19-sources.json)。ClashKing 仓库声明 GPL-3.0，其声明不能代替游戏素材权利人的授权；游戏素材按 Supercell 的玩家内容政策处理，不属于本站文字的 CC 许可。
 
 部分等级图片提供本地保存的原站大图；每张新增原图的来源页面、文件地址和核查记录见[原站图片来源记录](/images/original-sources.json)。图片权利范围仍需按各权利人的条款分别确认。
 

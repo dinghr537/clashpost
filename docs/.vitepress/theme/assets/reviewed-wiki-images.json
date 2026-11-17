@@ -476,6 +476,143 @@
     "0014-Ruin-Knight/Ruin_Knight_info.png": {
       "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/9/94/Ruin_Knight_info.png/revision/latest/scale-to-width-down/300?cb=20260615150319",
       "caption": "废墟骑士"
+    },
+    "0020-Barch-Squad/icon.webp": {
+      "sourceUrl": "https://raw.githubusercontent.com/ClashKingInc/ClashKingAssets/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/troops/barch_squad/icon.webp",
+      "caption": "野蛮人弓箭手小队"
+    },
+    "0021-Giant-Wizard-Squad/icon.webp": {
+      "sourceUrl": "https://raw.githubusercontent.com/ClashKingInc/ClashKingAssets/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/troops/giant_wizard_squad/icon.webp",
+      "caption": "巨人法师小队"
+    },
+    "0022-Wall-Breaker-Squad/icon.webp": {
+      "sourceUrl": "https://raw.githubusercontent.com/ClashKingInc/ClashKingAssets/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/troops/wall_breaker_squad/icon.webp",
+      "caption": "炸弹人小队"
+    },
+    "0023-Minion-Squad/icon.webp": {
+      "sourceUrl": "https://raw.githubusercontent.com/ClashKingInc/ClashKingAssets/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/troops/minion_squad/icon.webp",
+      "caption": "亡灵小队"
+    },
+    "0024-Balloon-Squad/icon.webp": {
+      "sourceUrl": "https://raw.githubusercontent.com/ClashKingInc/ClashKingAssets/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/troops/balloon_squad/icon.webp",
+      "caption": "气球兵小队"
+    },
+    "0025-Golem-Witch-Squad/icon.webp": {
+      "sourceUrl": "https://raw.githubusercontent.com/ClashKingInc/ClashKingAssets/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/troops/golem_witch_squad/icon.webp",
+      "caption": "戈仑女巫小队"
+    },
+    "0026-Hog-Rider-Squad/icon.webp": {
+      "sourceUrl": "https://raw.githubusercontent.com/ClashKingInc/ClashKingAssets/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/troops/hog_rider_squad/icon.webp",
+      "caption": "野猪骑士小队"
+    },
+    "0027-Miner-Squad/icon.webp": {
+      "sourceUrl": "https://raw.githubusercontent.com/ClashKingInc/ClashKingAssets/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/troops/miner_squad/icon.webp",
+      "caption": "矿工小队"
+    },
+    "0028-Healer-Squad/icon.webp": {
+      "sourceUrl": "https://raw.githubusercontent.com/ClashKingInc/ClashKingAssets/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/troops/healer_squad/icon.webp",
+      "caption": "天使小队"
+    },
+    "0029-PEKKA-Titan-Squad/icon.webp": {
+      "sourceUrl": "https://raw.githubusercontent.com/ClashKingInc/ClashKingAssets/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/troops/pekka_titan_squad/icon.webp",
+      "caption": "皮卡泰坦小队"
+    },
+    "002a-Dragon-Squad/icon.webp": {
+      "sourceUrl": "https://raw.githubusercontent.com/ClashKingInc/ClashKingAssets/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/troops/dragons_squad/icon.webp",
+      "caption": "飞龙小队"
+    },
+    "002b-Baby-Dragon-Squad/icon.webp": {
+      "sourceUrl": "https://raw.githubusercontent.com/ClashKingInc/ClashKingAssets/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/troops/baby_dragon_squad/icon.webp",
+      "caption": "飞龙宝宝小队"
+    },
+    "010a-Heroic-Spell/icon.webp": {
+      "sourceUrl": "https://raw.githubusercontent.com/ClashKingInc/ClashKingAssets/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/spells/heroic_spell.webp",
+      "caption": "英雄法术"
+    },
+    "031a-Spiky-Tower/level_1.webp": {
+      "sourceUrl": "https://raw.githubusercontent.com/ClashKingInc/ClashKingAssets/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/buildings/home-village/spiky_tower/level_1.webp",
+      "caption": "尖刺塔 1 级"
+    },
+    "031a-Spiky-Tower/level_2.webp": {
+      "sourceUrl": "https://raw.githubusercontent.com/ClashKingInc/ClashKingAssets/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/buildings/home-village/spiky_tower/level_2.webp",
+      "caption": "尖刺塔 2 级"
+    },
+    "031b-Firecracker-Tower/level_1.webp": {
+      "sourceUrl": "https://raw.githubusercontent.com/ClashKingInc/ClashKingAssets/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/buildings/home-village/firecracker_tower/level_1.webp",
+      "caption": "烟花炮手塔 1 级"
+    },
+    "031b-Firecracker-Tower/level_2.webp": {
+      "sourceUrl": "https://raw.githubusercontent.com/ClashKingInc/ClashKingAssets/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/buildings/home-village/firecracker_tower/level_2.webp",
+      "caption": "烟花炮手塔 2 级"
+    },
+    "0400-Town-Hall/level_19.webp": {
+      "sourceUrl": "https://raw.githubusercontent.com/ClashKingInc/ClashKingAssets/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/buildings/home-village/town_hall/level_19.webp",
+      "caption": "19 本原始外观"
+    },
+    "0400-Town-Hall/level_19_archer.webp": {
+      "sourceUrl": "https://raw.githubusercontent.com/ClashKingInc/ClashKingAssets/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/buildings/home-village/town_hall/level_19_archer.webp",
+      "caption": "19 本弓箭手大厅"
+    },
+    "0400-Town-Hall/level_19_barbarian.webp": {
+      "sourceUrl": "https://raw.githubusercontent.com/ClashKingInc/ClashKingAssets/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/buildings/home-village/town_hall/level_19_barbarian.webp",
+      "caption": "19 本野蛮人大厅"
+    },
+    "0400-Town-Hall/level_19_wizard.webp": {
+      "sourceUrl": "https://raw.githubusercontent.com/ClashKingInc/ClashKingAssets/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/buildings/home-village/town_hall/level_19_wizard.webp",
+      "caption": "19 本法师大厅"
+    },
+    "048b-Squad-Barracks/level_1.webp": {
+      "sourceUrl": "https://raw.githubusercontent.com/ClashKingInc/ClashKingAssets/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/buildings/home-village/squad_barracks/level_1.webp",
+      "caption": "小队训练营 1 级"
+    },
+    "048b-Squad-Barracks/level_10.webp": {
+      "sourceUrl": "https://raw.githubusercontent.com/ClashKingInc/ClashKingAssets/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/buildings/home-village/squad_barracks/level_10.webp",
+      "caption": "小队训练营 10 级"
+    },
+    "048b-Squad-Barracks/level_11.webp": {
+      "sourceUrl": "https://raw.githubusercontent.com/ClashKingInc/ClashKingAssets/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/buildings/home-village/squad_barracks/level_11.webp",
+      "caption": "小队训练营 11 级"
+    },
+    "048b-Squad-Barracks/level_12.webp": {
+      "sourceUrl": "https://raw.githubusercontent.com/ClashKingInc/ClashKingAssets/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/buildings/home-village/squad_barracks/level_12.webp",
+      "caption": "小队训练营 12 级"
+    },
+    "048b-Squad-Barracks/level_2.webp": {
+      "sourceUrl": "https://raw.githubusercontent.com/ClashKingInc/ClashKingAssets/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/buildings/home-village/squad_barracks/level_2.webp",
+      "caption": "小队训练营 2 级"
+    },
+    "048b-Squad-Barracks/level_3.webp": {
+      "sourceUrl": "https://raw.githubusercontent.com/ClashKingInc/ClashKingAssets/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/buildings/home-village/squad_barracks/level_3.webp",
+      "caption": "小队训练营 3 级"
+    },
+    "048b-Squad-Barracks/level_4.webp": {
+      "sourceUrl": "https://raw.githubusercontent.com/ClashKingInc/ClashKingAssets/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/buildings/home-village/squad_barracks/level_4.webp",
+      "caption": "小队训练营 4 级"
+    },
+    "048b-Squad-Barracks/level_5.webp": {
+      "sourceUrl": "https://raw.githubusercontent.com/ClashKingInc/ClashKingAssets/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/buildings/home-village/squad_barracks/level_5.webp",
+      "caption": "小队训练营 5 级"
+    },
+    "048b-Squad-Barracks/level_6.webp": {
+      "sourceUrl": "https://raw.githubusercontent.com/ClashKingInc/ClashKingAssets/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/buildings/home-village/squad_barracks/level_6.webp",
+      "caption": "小队训练营 6 级"
+    },
+    "048b-Squad-Barracks/level_7.webp": {
+      "sourceUrl": "https://raw.githubusercontent.com/ClashKingInc/ClashKingAssets/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/buildings/home-village/squad_barracks/level_7.webp",
+      "caption": "小队训练营 7 级"
+    },
+    "048b-Squad-Barracks/level_8.webp": {
+      "sourceUrl": "https://raw.githubusercontent.com/ClashKingInc/ClashKingAssets/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/buildings/home-village/squad_barracks/level_8.webp",
+      "caption": "小队训练营 8 级"
+    },
+    "048b-Squad-Barracks/level_9.webp": {
+      "sourceUrl": "https://raw.githubusercontent.com/ClashKingInc/ClashKingAssets/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/buildings/home-village/squad_barracks/level_9.webp",
+      "caption": "小队训练营 9 级"
+    },
+    "0843-Guardian-Shrine/shrine.png": {
+      "sourceUrl": "https://sc-clashofclans.zendesk.com/hc/article_attachments/58720150691995",
+      "caption": "守卫神殿"
     }
-  }
+  },
+  "lastAdditionalReviewOn": "2026-11-16"
 }

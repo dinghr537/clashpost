@@ -10,6 +10,17 @@ canonical: /upgrade/031a-Spiky-Tower
 dataVersionUpdatedOn: 2026-11-16
 ---
 
+<UnitInfo folder="" imgSrc="/images/th19/031a-Spiky-Tower/level_2.webp" :imgAlt="$frontmatter.navTitle" />
+
+<SmallTitle>各等级图片</SmallTitle>
+
+<Panel>
+    <UnitImgGroup folder="">
+        <UnitImg imgTitle="1 级" imgSrc="/images/th19/031a-Spiky-Tower/level_1.webp" />
+        <UnitImg imgTitle="2 级" imgSrc="/images/th19/031a-Spiky-Tower/level_2.webp" />
+    </UnitImgGroup>
+</Panel>
+
 <SmallTitle>重要说明</SmallTitle>
 
 19 本解锁，最多建造 2 座。受敌方单位攻击后，尖刺会按攻击者生命值上限的百分比反击；敌军进入 11 格范围时激活。法术、装备技能及摧毁它的最后一击不触发反击，冰冻法术不能使其停转。

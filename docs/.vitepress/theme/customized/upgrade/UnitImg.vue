@@ -28,9 +28,10 @@ onMounted(() => {
     const refDom = imgItemRef.value;
     const folder = refDom.parentNode.getAttribute("data-folder");
     const linkPrefix = "https://static.clashpost.com/upgrade/" + folder + "/";
-    imageSrc.value = resolveImage(linkPrefix + imgSrcOriginal);
+    const imagePath = (src) => src.startsWith("/images/") ? src : linkPrefix + src;
+    imageSrc.value = resolveImage(imagePath(imgSrcOriginal));
 
-    const sourceHd = props.imgHd ? linkPrefix + props.imgHd : "";
+    const sourceHd = props.imgHd ? imagePath(props.imgHd) : "";
     const localHd = sourceHd ? resolveImage(sourceHd) : imagePlaceholder;
     previewSrc.value = localHd !== imagePlaceholder ? localHd : imageSrc.value;
 });

@@ -25,7 +25,7 @@ const props = defineProps({
 });
 
 const linkPrefix = "https://static.clashpost.com/upgrade/" + props.folder + "/";
-const imgLinkOriginal = resolveImage(linkPrefix + props.imgSrc);
+const imgLinkOriginal = resolveImage(props.imgSrc.startsWith("/images/") ? props.imgSrc : linkPrefix + props.imgSrc);
 </script>
 
 <template>

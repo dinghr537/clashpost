@@ -10,6 +10,8 @@ canonical: /upgrade/010a-Heroic-Spell
 dataVersionUpdatedOn: 2026-11-16
 ---
 
+<UnitInfo folder="" imgSrc="/images/th19/010a-Heroic-Spell/icon.webp" :imgAlt="$frontmatter.navTitle" />
+
 <SmallTitle>重要说明</SmallTitle>
 
 英雄法术（Heroic Spell，暂译）在 17 本、10 级法术工厂解锁，占用 2 格法术空间，作用半径 5 格。范围内友军受到的伤害减少、移动速度提高；地面单位可穿过城墙。英雄、战宠和偏好特定建筑的部队获得较小的加速；攻城机器和图腾不受影响。

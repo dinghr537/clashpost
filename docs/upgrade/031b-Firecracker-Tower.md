@@ -10,6 +10,17 @@ canonical: /upgrade/031b-Firecracker-Tower
 dataVersionUpdatedOn: 2026-11-16
 ---
 
+<UnitInfo folder="" imgSrc="/images/th19/031b-Firecracker-Tower/level_2.webp" :imgAlt="$frontmatter.navTitle" />
+
+<SmallTitle>各等级图片</SmallTitle>
+
+<Panel>
+    <UnitImgGroup folder="">
+        <UnitImg imgTitle="1 级" imgSrc="/images/th19/031b-Firecracker-Tower/level_1.webp" />
+        <UnitImg imgTitle="2 级" imgSrc="/images/th19/031b-Firecracker-Tower/level_2.webp" />
+    </UnitImgGroup>
+</Panel>
+
 <SmallTitle>重要说明</SmallTitle>
 
 19 本可将 21 级箭塔和 7 级投石炮合并成烟花炮手塔，最多合并 2 座。其火箭能攻击地面和空中目标，在命中点及目标后方造成范围伤害，射程 10 格。

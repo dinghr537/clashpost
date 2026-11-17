@@ -10,6 +10,8 @@ canonical: /upgrade/0028-Healer-Squad
 dataVersionUpdatedOn: 2026-11-16
 ---
 
+<UnitInfo folder="" imgSrc="/images/th19/0028-Healer-Squad/icon.webp" :imgAlt="$frontmatter.navTitle" />
+
 <SmallTitle>重要说明</SmallTitle>
 
 小队组成：1 个气球兵、5 个天使。通过 9 级[小队训练营](/upgrade/048b-Squad-Barracks)解锁。一次部署整个小队；成员的兵种等级跟随玩家研究进度。小队不能捐赠，小队自身升级在 19 本开放。

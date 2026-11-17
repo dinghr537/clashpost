@@ -9,7 +9,7 @@ const props = defineProps({
     },
     imgSrc: {
         type: String,
-        default: ""
+        required: true
     },
     link: {
         type: String,
@@ -29,7 +29,6 @@ const imgSrcOriginal = props.imgSrc;
 const loadingValue = props.lazyLoading ? "lazy" : "eager";
 
 onMounted(() => {
-    if (!imgSrcOriginal) return;
     // 确定图片链接
     const refDom = unitLinkRef.value;
     const folder = refDom.parentNode.getAttribute("data-folder");
@@ -41,10 +40,9 @@ onMounted(() => {
 
 <template>
     <a class="cp-unit-card" :href="link" ref="unitLinkRef">
-        <picture v-if="imgSrc" class="cp-unit-media">
+        <picture class="cp-unit-media">
             <img :loading="loadingValue" :src="imagePlaceholder" alt="" />
         </picture>
-        <span v-else class="cp-unit-media cp-unit-media-text" aria-hidden="true">新</span>
         <div class="cp-unit-text">{{ name }}</div>
     </a>
 </template>
@@ -97,12 +95,6 @@ onMounted(() => {
     width: 100%;
     height: 4.5rem;
     padding: 0.375rem 0;
-}
-
-.cp-unit-media-text {
-    align-items: center;
-    color: var(--cp-primary-light);
-    font-weight: 600;
 }
 
 @media (min-width: 600px) {

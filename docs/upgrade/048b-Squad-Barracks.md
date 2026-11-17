@@ -10,6 +10,27 @@ canonical: /upgrade/048b-Squad-Barracks
 dataVersionUpdatedOn: 2026-11-16
 ---
 
+<UnitInfo folder="" imgSrc="/images/th19/048b-Squad-Barracks/level_12.webp" :imgAlt="$frontmatter.navTitle" />
+
+<SmallTitle>各等级图片</SmallTitle>
+
+<Panel>
+    <UnitImgGroup folder="">
+        <UnitImg imgTitle="1 级" imgSrc="/images/th19/048b-Squad-Barracks/level_1.webp" />
+        <UnitImg imgTitle="2 级" imgSrc="/images/th19/048b-Squad-Barracks/level_2.webp" />
+        <UnitImg imgTitle="3 级" imgSrc="/images/th19/048b-Squad-Barracks/level_3.webp" />
+        <UnitImg imgTitle="4 级" imgSrc="/images/th19/048b-Squad-Barracks/level_4.webp" />
+        <UnitImg imgTitle="5 级" imgSrc="/images/th19/048b-Squad-Barracks/level_5.webp" />
+        <UnitImg imgTitle="6 级" imgSrc="/images/th19/048b-Squad-Barracks/level_6.webp" />
+        <UnitImg imgTitle="7 级" imgSrc="/images/th19/048b-Squad-Barracks/level_7.webp" />
+        <UnitImg imgTitle="8 级" imgSrc="/images/th19/048b-Squad-Barracks/level_8.webp" />
+        <UnitImg imgTitle="9 级" imgSrc="/images/th19/048b-Squad-Barracks/level_9.webp" />
+        <UnitImg imgTitle="10 级" imgSrc="/images/th19/048b-Squad-Barracks/level_10.webp" />
+        <UnitImg imgTitle="11 级" imgSrc="/images/th19/048b-Squad-Barracks/level_11.webp" />
+        <UnitImg imgTitle="12 级" imgSrc="/images/th19/048b-Squad-Barracks/level_12.webp" />
+    </UnitImgGroup>
+</Panel>
+
 <SmallTitle>重要说明</SmallTitle>
 
 小队训练营从 8 本开放，每升一级解锁一种小队。小队成员使用玩家已研究的对应兵种等级；尚未解锁的成员按 1 级出战。小队不能捐赠，19 本可研究小队本身的等级，2 级解锁小队能力。

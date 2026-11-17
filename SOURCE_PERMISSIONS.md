@@ -21,7 +21,9 @@ CC BY-SA 3.0 的 [4(b) 条](https://creativecommons.org/licenses/by-sa/3.0/legal
 
 ## ClashKing Assets：2026-11-16 核查
 
-[仓库 README](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/README.md)声明仓库采用 GPL-3.0，并欢迎在署名的情况下使用其托管素材。仓库包含游戏资料与素材，该声明不能自动解决上游权利、本站资料许可与批量转载的适配问题；尤其不能将 Supercell 游戏图片直接标为 GPL 或 CC 授权。比较两个公开修订后，本站针对本次版本新增等级及部分旧等级费用、时间引用了有限范围的游戏数值，按本站原有表格结构整理，并在单位页注明；没有复制该仓库的说明文字、原始数据结构或图片。结果及尚未核实的字段见 [19 本逐等级核查](TH19_LEVEL_COVERAGE_2026-11-16.md)和 [19 本实施记录](TH19_IMPLEMENTATION_2026-11-16.md)。
+[仓库 README](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/README.md)声明仓库采用 GPL-3.0，并欢迎在署名的情况下使用其托管素材。仓库包含游戏资料与素材，该声明不能自动解决上游权利、本站资料许可与批量转载的适配问题；尤其不能将 Supercell 游戏图片直接标为 GPL 或 CC 授权。比较两个公开修订后，本站针对本次版本新增等级及部分旧等级费用、时间引用了有限范围的游戏数值，按本站原有表格结构整理，并在单位页注明；没有复制该仓库的说明文字或原始数据结构。结果及尚未核实的字段见 [19 本逐等级核查](TH19_LEVEL_COVERAGE_2026-11-16.md)和 [19 本实施记录](TH19_IMPLEMENTATION_2026-11-16.md)。
+
+随后为本地预览补充了 33 张该仓库固定修订中的游戏图片，并从 [Supercell 官方帮助中心](https://sc-clashofclans.zendesk.com/hc/en-us/articles/49529107397403-Guardians)补充守卫神殿图片。每张图的精确地址、画面说明、核对日期和权利依据见 [19 本图片记录](docs/public/images/th19-sources.json)；图片不按文字的 CC 许可处理。Supercell 的[玩家内容政策](https://supercell.com/en/fan-content-policy/)及 ClashKing 仓库声明与本站发布形式、许可的适配仍需在正式发布前确认。
 
 ## Fandom 获取方式：待确认
 
