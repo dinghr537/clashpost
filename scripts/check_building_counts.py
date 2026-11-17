@@ -57,7 +57,7 @@ def expand_groups(groups, values):
     expanded = {}
     for group, count in zip(levels, counts):
         match = re.fullmatch(r'(\d+)\s*(?:[-~–—]\s*(\d+))?', group)
-        if not match or not (count.isdigit() or count in ('', '\\', '未知', '待核实')):
+        if not match or not (count.isdigit() or count in ('', '\\', '未知', '待核实', '待更新')):
             raise ValueError(f'unrecognized building-count cell: {group} / {count}')
         start = int(match[1])
         end = int(match[2] or start)
@@ -200,9 +200,9 @@ def check_th19_building_counts(pages=None, expectations=None):
             elif expected is None:
                 group_labels = [part.strip() for part in rows[0][1].split(',')]
                 count_labels = [part.strip() for part in rows[1][1].split(',')]
-                if not any(19 in expand_groups(group, count) and count == '待核实'
+                if not any(19 in expand_groups(group, count) and count == '待更新'
                            for group, count in zip(group_labels, count_labels)):
-                    result['errors'].append(f'{label}: unconfirmed TH19 must say 待核实')
+                    result['errors'].append(f'{label}: unconfirmed TH19 must say 待更新')
     return result
 
 

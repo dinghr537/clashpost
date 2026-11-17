@@ -39,7 +39,7 @@ dataVersionUpdatedOn: 2026-11-16
     <UnitProperty pKey="占据人口" pValue="12" />
     <UnitProperty pKey="移动速度" pValue="2 格/秒" />
     <UnitProperty pKey="攻击速度" pValue="1 秒/次" />
-    <UnitProperty pKey="普攻攻击距离" pValue="待核实<sup>①</sup>" />
+    <UnitProperty pKey="普攻攻击距离" pValue="待更新<sup>①</sup>" />
     <UnitProperty pKey="游戏面板范围" pValue="2.5 格<sup>①</sup>" />
     <UnitProperty pKey="远程狙杀次数" pValue="8 次（进攻）<br>3 次（防守）" />
     <UnitProperty pKey="远程狙杀射程" pValue="10.25 格" />
@@ -55,7 +55,7 @@ dataVersionUpdatedOn: 2026-11-16
 
 <SmallTitle>升级数据</SmallTitle>
 
-<small>19 本新增等级沿用本页与原兵种相同的编号：通过旧等级属性对照及原兵种等级，将 [ClashKing 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)重新编号后补入；本页新增的 15 级，对应官方公告和候选数据的 12 级；此对应关系仍待游戏内核对。缺失字段标为待核实。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/">官方公告</a></small>
+<small>19 本新增等级沿用本页与原兵种相同的编号：通过旧等级属性对照及原兵种等级，将 [ClashKing 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)重新编号后补入；本页新增的 15 级，对应官方公告和候选数据的 12 级；此对应关系仍待游戏内核对。缺失字段标为待更新。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/">官方公告</a></small>
 
 <UnitTable>
 

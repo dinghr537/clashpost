@@ -40,7 +40,7 @@ dataVersionUpdatedOn: 2026-11-16
     <UnitProperty pKey="捐赠费用" pValue="3,3,135,Dark_Elixir" :isDonationCost="true" />
 </UnitProperties>
 
-① 作用半径的资料存在差异：<a href="https://www.9game.cn/coc/555437.html" target="_blank" rel="noopener noreferrer">旧版游戏资料</a>记为 3.5 格，<a href="https://clashdaddy.com/poison-spell-max-levels-and-upgrade-cost" target="_blank" rel="noopener noreferrer">ClashDaddy</a>及页面所列维基资料记为 4 格；当前值及测量口径尚待核实。
+① 作用半径的资料存在差异：<a href="https://www.9game.cn/coc/555437.html" target="_blank" rel="noopener noreferrer">旧版游戏资料</a>记为 3.5 格，<a href="https://clashdaddy.com/poison-spell-max-levels-and-upgrade-cost" target="_blank" rel="noopener noreferrer">ClashDaddy</a>及页面所列维基资料记为 4 格；当前值及测量口径尚未确认。
 
 <SmallTitle>升级数据</SmallTitle>
 
@@ -48,7 +48,7 @@ dataVersionUpdatedOn: 2026-11-16
 
 <small>本级部分伤害或治疗量按本页已有倍率、攻速或治疗次数计算。</small>
 
-<small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为待核实。</small>
+<small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为待更新。</small>
 
 <script setup>
 const tableExtraInfo = [

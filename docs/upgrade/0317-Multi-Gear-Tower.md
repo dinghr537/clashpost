@@ -87,7 +87,7 @@ const tableExtraInfoFastAttackMode = tableExtraInfoLongRageMode;
 
 <SmallTitle>升级数据</SmallTitle>
 
-<small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为待核实。</small>
+<small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为待更新。</small>
 
 <p><small>2026 年 19 本更新后，本建筑此前的超级充能已移除；下方带 ⚡ 的行仅供查阅历史数据。正在进行的充能会全额退款，已完成的充能不退款。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/">官方公告</a></small></p>
 

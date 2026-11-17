@@ -58,7 +58,7 @@ dataVersionUpdatedOn: 2026-11-16
 
 <SmallTitle>升级数据</SmallTitle>
 
-<small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为待核实。</small>
+<small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为待更新。</small>
 
 <script setup>
 const tableExtraInfo = [
@@ -88,7 +88,7 @@ const tableExtraInfo = [
 | 6 | 200 | 140 | 4 | 1 | 15 | 540 | 125000 | 4,12,0,0 | 13 | 15 |
 | 7 | 220 | 154 | 5 | 1 | 16 | 560 | 175000 | 7,0,0,0 | 14 | 16 |
 | 8 | 260 | 182 | 5 | 2 | 16 | 650 | 300000 | 10,0,0,0 | 16 | 18 |
-| 9 | 300 | 210 | 待核实 | 待核实 | 待核实 | 750 | 460000 | 14,12,0,0 | 17 | 19 |
+| 9 | 300 | 210 | 待更新 | 待更新 | 待更新 | 750 | 460000 | 14,12,0,0 | 17 | 19 |
 </UnitTable>
 
 \* 女巫并不是每次召唤都可以召唤出这么多骷髅，当一只女巫召唤的骷髅达到上表的限制时，除非骷髅兵死亡，否则女巫不会继续召唤。这个上限指的是每只女巫召唤的骷髅，如果有两只女巫，那么场上的最大骷髅数量为 2 倍上限。

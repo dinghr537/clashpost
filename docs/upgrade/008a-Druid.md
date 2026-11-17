@@ -69,7 +69,7 @@ dataVersionUpdatedOn: 2026-11-16
 
 <small>本级部分伤害或治疗量按本页已有倍率、攻速或治疗次数计算。</small>
 
-<small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为待核实。</small>
+<small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为待更新。</small>
 
 <script setup>
 const tableExtraInfo = [
@@ -157,7 +157,7 @@ const tableExtraInfo = [
 |   4  |   185   |   185   |  2300  |
 |   5  |   205   |   205   |  2500  |
 |   6  |   225   |   225   |  2750  |
-|   7  |   待核实  |   待核实  |  待核实  |
+|   7  |   待更新  |   待更新  |  待更新  |
 </UnitTable>
 
 <p><small>7 级巨熊属性尚未找到可核实数据。巨熊形态数据来源：<a href="https://clashofclans.fandom.com/wiki/Druid/Bear#Statistics" target="_blank" rel="noopener noreferrer">部落冲突维基：巨熊</a>。</small></p>

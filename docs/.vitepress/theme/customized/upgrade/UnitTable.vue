@@ -46,7 +46,7 @@ function setTbodyValue(targetTd, targetValue, item) {
     const noGoldPass = item.noGoldPass;
 
     // 如果 type 为空，或者单元格内是一个反斜杠，说明不需要任何操作
-    if (!type || targetValue.includes("待核实") || targetValue.includes("未知") ||
+    if (!type || targetValue.includes("待更新") || targetValue.includes("待核实") || targetValue.includes("未知") ||
         ["\\", "不适用", "N/A", "—"].includes(targetValue)) {
         return;
     }

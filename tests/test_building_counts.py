@@ -97,10 +97,10 @@ class BuildingCountTests(unittest.TestCase):
             result = check_th19_building_counts(pages, {'unit': 1})
             self.assertEqual(result['blocks'], 2)
             self.assertEqual(result['errors'], ['unit: block 1: missing TH19'])
-            path.write_text(page('1 - 18, 19', '1, 待核实'))
+            path.write_text(page('1 - 18, 19', '1, 待更新'))
             self.assertEqual(check_th19_building_counts(pages, {'unit': None})['errors'], [])
             path.write_text(page('1 - 18, 19', '1, '))
-            self.assertIn('must say 待核实', check_th19_building_counts(pages, {'unit': None})['errors'][0])
+            self.assertIn('must say 待更新', check_th19_building_counts(pages, {'unit': None})['errors'][0])
             (pages / 'new.md').write_text('---\nmodule: upgrade-home\n---\n' + page('1 - 19', '1'))
             self.assertIn('new: home count table has no TH19 expectation',
                           check_th19_building_counts(pages, {'unit': None})['errors'])

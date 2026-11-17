@@ -50,7 +50,7 @@ dataVersionUpdatedOn: 2026-11-16
 
 <SmallTitle>升级数据</SmallTitle>
 
-<small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为待核实。</small>
+<small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为待更新。</small>
 
 <small>76–80 级费用采用用户提供的玩家整理及 ClashKing 数据中一致的新值；2026-11-16 查看的 [Wiki 页面](https://clashofclans.fandom.com/wiki/Grand_Warden)只列到 85 级，且这几级费用不同，仍需游戏内核对差异原因。</small>
 

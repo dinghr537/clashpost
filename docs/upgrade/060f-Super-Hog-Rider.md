@@ -58,7 +58,7 @@ dataVersionUpdatedOn: 2026-11-16
 
 <SmallTitle>升级数据</SmallTitle>
 
-<small>19 本新增等级沿用本页与原兵种相同的编号：通过旧等级属性对照及原兵种等级，将 [ClashKing 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)重新编号后补入；本页新增的 16 级，对应官方公告和候选数据的 13 级；此对应关系仍待游戏内核对。缺失字段标为待核实。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/">官方公告</a></small>
+<small>19 本新增等级沿用本页与原兵种相同的编号：通过旧等级属性对照及原兵种等级，将 [ClashKing 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)重新编号后补入；本页新增的 16 级，对应官方公告和候选数据的 13 级；此对应关系仍待游戏内核对。缺失字段标为待更新。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/">官方公告</a></small>
 
 <UnitTable>
 
@@ -111,10 +111,10 @@ dataVersionUpdatedOn: 2026-11-16
 |  13  |     65    |     65    |  1050 |     16    |
 |  14  |     70    |     70    |  1100 |     17    |
 |  15  |     80    |     80    |  1200 |     18    |
-|  16  |   待核实    |   待核实    |  待核实 |     19    |
+|  16  |   待更新    |   待更新    |  待更新 |     19    |
 </UnitTable>
 
-<small>16 级超级野猪的属性尚待核实；等级编号沿用本站对应的原兵种等级。</small>
+<small>16 级超级野猪的属性尚待更新；等级编号沿用本站对应的原兵种等级。</small>
 </SwitchTabGroup>
 
 <!-- ↓↓↓ 超级骑士 ↓↓↓ -->
@@ -158,10 +158,10 @@ dataVersionUpdatedOn: 2026-11-16
 |  13  |   250   |   250   |     500     |  750  |     16    |
 |  14  |   270   |   270   |     540     |  800  |     17    |
 |  15  |   300   |   300   |     600     |  900  |     18    |
-|  16  |   待核实  |   待核实  |     待核实    |  待核实 |     19    |
+|  16  |   待更新  |   待更新  |     待更新    |  待更新 |     19    |
 </UnitTable>
 
-<small>16 级超级骑士的属性尚待核实；等级编号沿用本站对应的原兵种等级。</small>
+<small>16 级超级骑士的属性尚待更新；等级编号沿用本站对应的原兵种等级。</small>
 </SwitchTabGroup>
 
 <!-- ↓↓↓ 公共部分 ↓↓↓ -->

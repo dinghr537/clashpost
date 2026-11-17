@@ -39,7 +39,7 @@ dataSyncedOn: 2026-10-13
     <UnitProperty pKey="作用方式" pValue="给进攻方投放增援部队" />
     <UnitProperty pKey="作用目标" pValue="最近的进攻方部队" />
     <UnitProperty pKey="占据人口" pValue="不占用（使用独立栏位）" />
-    <UnitProperty pKey="最远投放距离" pValue="待核实" />
+    <UnitProperty pKey="最远投放距离" pValue="待更新" />
     <UnitProperty pKey="投放速度" pValue="6 秒/次" />
     <UnitProperty pKey="移动速度" pValue="0 (无法移动)" />
     <UnitProperty pKey="所需攻城机器工坊等级" pValue="8" />

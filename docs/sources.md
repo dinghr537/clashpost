@@ -26,7 +26,7 @@ Wiki 文字与表格整理来自 **Clash of Clans Wiki 的贡献者**，除另�
 
 [COC Wiki 19 本指南](https://cocwiki.com/guides/town-hall-19)中的部分资料注明源自 Clash of Clans Wiki。依据 [COC Wiki 使用条款](https://cocwiki.com/terms)，本站在使用这些资料的页面同时注明 COC Wiki 和原 Wiki，并保留相应的相同方式共享许可。两站的资料并非每个页面都已更新，具体来源以单位页说明为准。
 
-19 本新增等级和部分旧等级的游戏数值也参考了 [ClashKing Assets 的固定修订](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)。本站按原有表格整理相关游戏事实，没有复制其说明文字；尚未核实的字段标为“待核实”。
+19 本新增等级和部分旧等级的游戏数值也参考了 [ClashKing Assets 的固定修订](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)。本站按原有表格整理相关游戏事实，没有复制其说明文字；尚未核实的字段标为“待更新”。
 
 旧等级费用与时间还对照了用户提供原文的[玩家整理](https://mp.weixin.qq.com/s/1C8VxevkSERrS2x1vJd8aA)，并与上述 ClashKing 固定修订逐项比较。本站仅参考游戏数值，不据此声明取得文章的转载许可。
 

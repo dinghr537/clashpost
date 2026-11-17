@@ -63,7 +63,7 @@ dataVersionUpdatedOn: 2026-11-16
 
 <small>15 级的法术容量与攻城机器容量参考 [部落冲突维基](https://clashofclans.fandom.com/wiki/Clan_Castle)（2026-11-16 核对）。</small>
 
-<small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为待核实。</small>
+<small>19 本新增等级及部分费用、时间参考 [ClashKing Assets 数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为待更新。</small>
 
 <script setup>
 const tableExtraInfo = [
@@ -112,7 +112,7 @@ const tableExtraInfo = [
 
 <SmallTitle>宝库可容纳的资源量</SmallTitle>
 
-<small>1–18 本数据参考 [Treasury 数据表](https://clash-of-clans.1337wiki.com/treasury/)及各部落等级加成；19 本宝库容量尚无可核实的数值，暂列为待核实。<a href="https://sc-clashofclans.zendesk.com/hc/en-us/articles/49529078545691-Clan-Games-Rewards">官方说明</a>。</small>
+<small>1–18 本数据参考 [Treasury 数据表](https://clash-of-clans.1337wiki.com/treasury/)及各部落等级加成；19 本宝库容量尚无可核实的数值，暂列为待更新。<a href="https://sc-clashofclans.zendesk.com/hc/en-us/articles/49529078545691-Clan-Games-Rewards">官方说明</a>。</small>
 
 <SwitchTabs contentClass="cp-upgrade-clan-level">
     <SwitchTab tabId="cp-upgrade-clan-0" :activeTab="true">无部落或 1 级部落</SwitchTab>
@@ -147,7 +147,7 @@ const tableExtraInfo = [
 |    16   |    520 万     |  26 000  |
 |    17   |    560 万     |  30 000  |
 |    18   |    600 万     |  32 000  |
-|    19   |     待核实      |   待核实   |
+|    19   |     待更新      |   待更新   |
 </Table>
 </SwitchTabGroup>
 
@@ -175,7 +175,7 @@ const tableExtraInfo = [
 |    16   |    572 万     |  28 600  |
 |    17   |    616 万     |  33 000  |
 |    18   |    660 万     |  35 200  |
-|    19   |     待核实      |   待核实   |
+|    19   |     待更新      |   待更新   |
 </Table>
 </SwitchTabGroup>
 
@@ -203,7 +203,7 @@ const tableExtraInfo = [
 |    16   |    624 万     |  31 200  |
 |    17   |    672 万     |  36 000  |
 |    18   |    720 万     |  38 400  |
-|    19   |     待核实      |   待核实   |
+|    19   |     待更新      |   待更新   |
 </Table>
 </SwitchTabGroup>
 
@@ -231,7 +231,7 @@ const tableExtraInfo = [
 |    16   |    676 万     |  33 800  |
 |    17   |    728 万     |  39 000  |
 |    18   |    780 万     |  41 600  |
-|    19   |     待核实      |   待核实   |
+|    19   |     待更新      |   待更新   |
 </Table>
 </SwitchTabGroup>
 
@@ -259,7 +259,7 @@ const tableExtraInfo = [
 |    16   |    728 万     |  36 400  |
 |    17   |    784 万     |  42 000  |
 |    18   |    840 万     |  44 800  |
-|    19   |     待核实      |   待核实   |
+|    19   |     待更新      |   待更新   |
 </Table>
 </SwitchTabGroup>
 
@@ -287,7 +287,7 @@ const tableExtraInfo = [
 |    16   |    780 万     |  39 000  |
 |    17   |    840 万     |  45 000  |
 |    18   |    900 万     |  48 000  |
-|    19   |     待核实      |   待核实   |
+|    19   |     待更新      |   待更新   |
 </Table>
 </SwitchTabGroup>
 

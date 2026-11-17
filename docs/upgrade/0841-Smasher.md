@@ -50,7 +50,7 @@ dataVersionUpdatedOn: 2026-11-16
 
 <SmallTitle>升级数据</SmallTitle>
 
-<small>19 本数据补充参考 [部落冲突 Wiki](https://clashofclans.fandom.com/wiki/Smasher) 和 [ClashKing Assets](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为待核实。</small>
+<small>19 本数据补充参考 [部落冲突 Wiki](https://clashofclans.fandom.com/wiki/Smasher) 和 [ClashKing Assets](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)；来源未提供的字段标为待更新。</small>
 
 <small>2–5 级费用采用 [Supercell 19 本更新公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)中的数值；维基列出的费用不同。</small>
 

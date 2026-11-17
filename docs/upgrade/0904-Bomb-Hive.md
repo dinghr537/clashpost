@@ -34,7 +34,7 @@ canonical: /upgrade/0904-Bomb-Hive
     <UnitProperty pKey="占地面积" pValue="3×3" />
     <UnitProperty pKey="判定面积" pValue="2×2" :isJudgeSquare="true" />
     <UnitProperty pKey="伤害类型" pValue="范围伤害" />
-    <UnitProperty pKey="伤害半径" pValue="待核实" />
+    <UnitProperty pKey="伤害半径" pValue="待更新" />
     <UnitProperty pKey="攻击的目标" pValue="地面和空中目标" />
     <UnitProperty pKey="射程" pValue="随升级提升" />
     <UnitProperty pKey="攻击速度" pValue="1 秒/次" />
