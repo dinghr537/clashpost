@@ -5,7 +5,7 @@ shownTitle: "飞龙小队"
 englishName: "Dragons Squad"
 description: "飞龙小队的属性、解锁条件和升级数据。"
 module: upgrade-home
-wiki: https://clashofclans.fandom.com/wiki/Dragon_Squad
+wiki: https://clashofclans.fandom.com/wiki/Dragons_Squad
 canonical: /upgrade/002a-Dragon-Squad
 dataVersionUpdatedOn: 2026-11-17
 ---
@@ -32,4 +32,4 @@ const tableExtraInfo = [{"column": 3, "type": "cost", "gpClass": "research", "ic
 </UnitTable>
 
 
-<small>资料参考：[Supercell 更新公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)、[COC Wiki 19 本指南](https://cocwiki.com/guides/town-hall-19)、[Clash of Clans Wiki](https://clashofclans.fandom.com/wiki/Dragon_Squad)。COC Wiki 引用的 Wiki 资料依 CC BY-SA 3.0 整理，改编资料按 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) 分享。</small>
+<small>资料参考：[Supercell 更新公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)、[COC Wiki 19 本指南](https://cocwiki.com/guides/town-hall-19)、[Clash of Clans Wiki](https://clashofclans.fandom.com/wiki/Dragons_Squad)。COC Wiki 引用的 Wiki 资料依 CC BY-SA 3.0 整理，改编资料按 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) 分享。</small>

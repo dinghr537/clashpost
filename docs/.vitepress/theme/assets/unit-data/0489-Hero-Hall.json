@@ -813,10 +813,8 @@
           },
           {
             "status": "known",
-            "value": 1080,
-            "raw": "1,080",
-            "verification": "outdated",
-            "verificationReason": "19 本更新后可能已调整；Wiki 尚未更新，暂列更新前数值"
+            "value": 1039,
+            "raw": "1,039"
           },
           {
             "status": "known",
