@@ -21,6 +21,7 @@ dataVersionUpdatedOn: 2026-11-16
 4. 狂暴宝石的效果不能与 [狂暴法术](/upgrade/0102-Rage-Spell) 叠加。如果在光环内使用狂暴法术，则狂暴法术的效果会覆盖狂暴宝石的效果。
 5. 与狂暴法术一样，狂暴宝石的效果对英雄减半，对攻城机器无效。
 6. 与狂暴法术不同的是，狂暴宝石的光环不能提高部队的移动速度和攻击速度。
+7. 狂暴宝石的光环最多影响合计 260 人口的部队。<small>（来源：<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/" target="_blank" rel="noopener noreferrer">Supercell 19 本更新公告</a>）</small>
 
 <SmallTitle>属性</SmallTitle>
 
@@ -32,8 +33,6 @@ dataVersionUpdatedOn: 2026-11-16
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
-
-19 本更新后，狂暴宝石最多影响合计 260 人口的部队。<small>（[Supercell 官方公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)）</small>
 
 <script setup>
 const tableExtraInfo = [
@@ -81,6 +80,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/11/16">
+        <TimelineRow>19 本更新：狂暴宝石的光环最多影响合计 260 人口的部队。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2024/09/09">
         <TimelineRow>1 - 14 级狂暴宝石装备给光环内部队提供的伤害加成比例提升。</TimelineRow>
     </TimelineItem>

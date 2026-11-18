@@ -21,6 +21,7 @@ dataVersionUpdatedOn: 2026-11-16
 3. 生命宝石装备可以让大守护者自己获得更高的每秒伤害和生命值，但这不是光环的效果，是装备本身的属性。
 4. 当 [守护者学徒](/upgrade/0089-Apprentice-Warden) 的光环与生命宝石装备的光环叠加时，以加血百分比高的那个为准。守护者学徒的光环在生命值更高的单位上会更强，因为守护者学徒的加血没有上限。
 5. 什么是加血上限呢？18 级生命宝石的加血比例为 120%，上限为 1 200。100 血的部队会增加 120 血；10 000 血的部队按比例本应增加 12 000 血，但受到上限限制，实际只增加 1 200 血。
+6. 生命宝石的光环最多影响合计 260 人口的部队。<small>（来源：<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/" target="_blank" rel="noopener noreferrer">Supercell 19 本更新公告</a>）</small>
 
 <SmallTitle>属性</SmallTitle>
 
@@ -31,8 +32,6 @@ dataVersionUpdatedOn: 2026-11-16
 </UnitProperties>
 
 <SmallTitle>升级数据</SmallTitle>
-
-19 本更新后，生命宝石最多影响合计 260 人口的部队。<small>（[Supercell 官方公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)）</small>
 
 <script setup>
 const tableExtraInfo = [
@@ -108,6 +107,9 @@ const tableExtraInfo = [
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/11/16">
+        <TimelineRow>19 本更新：生命宝石的光环最多影响合计 260 人口的部队。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2026/04/27">
         <TimelineRow>生命宝石效果不再影响攻城机器。 <a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-sound-of-clash-update/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
     </TimelineItem>
