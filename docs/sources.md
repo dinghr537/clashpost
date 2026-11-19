@@ -30,10 +30,6 @@ hasUpdateTime: false
 
 ClashKing 的维护者从游戏文件中提取并公开数据。本站用这些数据补充或核对个别升级数值，也使用该项目整理的部分建筑和兵种图片。其代码仓库采用 GPL-3.0，游戏素材的使用另按 Supercell 玩家内容政策处理。[ClashKing Assets](https://github.com/ClashKingInc/ClashKingAssets) · [所用素材版本](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/README.md) · [该批图片来源记录](/images/th19-sources.json)
 
-## 玩家提供
-
-玩家在游戏内核实的数值和解锁条件，在对应单位页注明“玩家提供”。
-
 ## 转载本站资料
 
 转载上述开放许可资料时，请保留原作者、原始来源和许可链接，注明采用了本项目的中文整理或更新，并说明你自己的修改。改编内容须按适用的相同方式共享要求发布。署名时可采用下例，并补上实际单位页和原始来源链接。
