@@ -1,6 +1,6 @@
 {
   "unitId": "0312-Monolith",
-  "title": "巨石碑",
+  "title": "擎天巨柱",
   "originalName": "Monolith",
   "module": "upgrade-home",
   "imgFolder": "home_buildings/0312",
@@ -666,7 +666,7 @@
     {
       "name": "Monolith4_info.png",
       "url": "https://static.clashpost.com/upgrade/home_buildings/0312/Monolith4_info.png",
-      "alt": "巨石碑",
+      "alt": "擎天巨柱",
       "localPath": "/images/original/upgrade/home_buildings/0312/Monolith4_info.webp",
       "logicalPath": "/upgrade/home_buildings/0312/Monolith4_info.png"
     },

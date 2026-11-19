@@ -265,7 +265,7 @@ if (activeTabCookieValue === "home-techniques") {
         <ListItem name="投石炮" imgSrc="030e/Scattershot7.png" link="030e-Scattershot" />
         <ListItem name="建筑工人小屋" imgSrc="0500/Builders_Hut9.png" link="0500-Builders-Hut" />
         <ListItem name="法术塔" imgSrc="0311/Spell_Tower4_Rage.png" link="0311-Spell-Tower" />
-        <ListItem name="巨石碑" imgSrc="0312/Monolith5.png" link="0312-Monolith" />
+        <ListItem name="擎天巨柱" imgSrc="0312/Monolith5.png" link="0312-Monolith" />
         <ListItem name="跳弹加农炮" imgSrc="0313/Ricochet_Cannon5.png" link="0313-Ricochet-Cannon" />
         <ListItem name="多人箭塔" imgSrc="0314/Multi-Archer_Tower5.png" link="0314-Multi-Archer-Tower" />
         <ListItem name="火焰喷射器" imgSrc="0316/Firespitter3.png" link="0316-Firespitter" />
