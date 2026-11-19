@@ -24,6 +24,9 @@ REVIEWED_REMOVED_SUPERCHARGES = {
     '0401-Gold-Mine', '0313-Ricochet-Cannon', '0317-Multi-Gear-Tower', '0402-Elixir-Collector',
     '0403-Dark-Elixir-Drill', '0500-Builders-Hut', '030e-Scattershot',
 }
+# The Town Hall 19 update removed the Inferno Artillery's levels; like the Giga
+# Inferno before it, the page now lists the max-level stats instead of a table.
+REVIEWED_REMOVED_TABLES = {'0315-Inferno-Artillery'}
 
 
 class OriginalContentTests(unittest.TestCase):
@@ -61,6 +64,9 @@ class OriginalContentTests(unittest.TestCase):
                 if path.stem == '0487-Pet-House':
                     columns = json.loads(re.search(r'const columns = (.*?);', current, re.S)[1])
                     self.assertEqual([c['heading'] for c in columns], before[0]['headers'])
+                    continue
+                if path.stem in REVIEWED_REMOVED_TABLES:
+                    self.assertEqual(after, [])
                     continue
                 self.assertGreaterEqual(len(after), len(before))
                 for index, table in enumerate(before):

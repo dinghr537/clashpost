@@ -8,7 +8,7 @@ imgFolder: home_buildings/0315
 wiki: https://clashofclans.fandom.com/wiki/Town_Hall/Inferno_Artillery
 canonical: /upgrade/0315-Inferno-Artillery
 dataSyncedOn: 2026-10-13
-dataVersionUpdatedOn: 2026-11-16
+dataVersionUpdatedOn: 2026-11-18
 ---
 
 - 如想查看大本营的相关数据，请访问：[大本营](/upgrade/0400-Town-Hall)。
@@ -19,7 +19,10 @@ dataVersionUpdatedOn: 2026-11-16
 <SmallTitle>各等级图片</SmallTitle>
 
 <Panel>
-    <UnitImgGroup :folder="$frontmatter.imgFolder">
+    <UnitImgGroup :folder="$frontmatter.imgFolder" title="当前版本使用的模型">
+        <UnitImg imgTitle="1 级" imgSrc="Inferno_Artillery5.png" />
+    </UnitImgGroup>
+    <UnitImgGroup :folder="$frontmatter.imgFolder" title="老版本使用的模型">
         <UnitImg imgTitle="1 级" imgSrc="Inferno_Artillery1.png" />
         <UnitImg imgTitle="2 级" imgSrc="Inferno_Artillery2.png" />
         <UnitImg imgTitle="3 级" imgSrc="Inferno_Artillery3.png" />
@@ -34,7 +37,7 @@ dataVersionUpdatedOn: 2026-11-16
     - 升级 17 级大本营时要求天鹰火炮达到 7 级，升级完成后天鹰火炮会被移除。
     - 合并建筑的操作是永久性的，一旦合并就无法拆开。
 2. 当玩家升到 17 本后，就拥有了一个地狱火炮，而 [巨型地狱之塔](/upgrade/030d-Giga-Inferno) 会消失。如果玩家将大本营升到 18 级，则地狱火炮会被守卫系统替代。
-3. 2026 年 19 本更新后，17 本地狱火炮不再分级升级，而是直接拥有原 5 级的完整威力（每秒伤害 60）。
+3. 地狱火炮没有等级，不需要升级。它的属性等于 19 本更新前的满级（5 级）数据。<small>（来源：<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/" target="_blank" rel="noopener noreferrer">Supercell 19 本更新公告</a>）</small>
 4. 和 16 本及以下的大本营武器不同，地狱火炮在战斗一开始就会出现，而不会等到被攻击或达到 51% 摧毁率，这一点类似于 [都城大本营](/upgrade/2400-Capital-Hall)。
 5. 与天鹰火炮不同，地狱火炮没有攻击盲区，也没有触发人口数的要求。
 6. 地狱火炮自身发射的火球只能对单个目标造成伤害，火球留下的灼烧区域可以对一个范围内的目标造成持续伤害，其原理类似于 [熔岩发射器](/upgrade/110d-Lava-Launcher)。
@@ -56,50 +59,19 @@ dataVersionUpdatedOn: 2026-11-16
     <UnitProperty pKey="目标数量" pValue="4 (地面和空中目标)" />
     <UnitProperty pKey="射程" pValue="12 格" />
     <UnitProperty pKey="攻速" pValue="3.5 秒一轮" />
+    <UnitProperty pKey="每个目标的平均每秒伤害" pValue="60" />
+    <UnitProperty pKey="每个目标的每次攻击伤害" pValue="210" />
     <UnitProperty pKey="目标数量" pValue="4" />
     <UnitProperty pKey="火球的每秒最大灼烧伤害" pValue="75" />
     <UnitProperty pKey="灼烧持续时间" pValue="6.8 秒" />
 </UnitProperties>
 
-<SmallTitle>历史升级数据</SmallTitle>
-
-2026 年 19 本更新后，下表 1–5 级和对应费用、时间已成为历史。现有 17 本地狱火炮直接使用原 5 级的伤害：每秒 60、每次 210。<small>（[Supercell 官方公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)）</small>
-
-<script setup>
-const tableExtraInfo = [
-    {
-        "column": 3,
-        "type": "cost",
-        "gpClass": "building",
-        "icon": "Gold"
-    },
-    {
-        "column": 4,
-        "type": "time",
-        "gpClass": "building"
-    },
-    {
-        "column": 5,
-        "type": "exp",
-        "icon": "Exp"
-    },
-];
-</script>
-
-<UnitTable :tableExtraInfo="tableExtraInfo">
-
-| 等级 |平均<br>每秒伤害|每次<br>攻击伤害| 升级费用 | 升级时间 |升级后可<br>获得的经验|所需<br>大本等级|
-| ---- |      ---     |      ---      |   ---   |   ---    |         ---        |      ---      |
-| 1 | 40 | 140 | \ | \ | \ | 17 |
-| 2 | 45 | 157.5 | 10000000 | 6,0,0,0 | 720 | 17 |
-| 3 | 50 | 175 | 12000000 | 7,0,0,0 | 777 | 17 |
-| 4 | 55 | 192.5 | 14000000 | 8,0,0,0 | 831 | 17 |
-| 5 | 60 | 210 | 18000000 | 10,0,0,0 | 929 | 17 |
-</UnitTable>
-
 <SmallTitle>更新历史</SmallTitle>
 
 <Timeline>
+    <TimelineItem date="2026/11/16">
+        <TimelineRow>取消地狱火炮的等级，更新后的数据等于更新前的满级数据。<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/" target="_blank" rel="noopener noreferrer">官方公告</a></TimelineRow>
+    </TimelineItem>
     <TimelineItem date="2025/11/17">
         <TimelineRow>2 ~ 5 级地狱火炮的升级时间减少。</TimelineRow>
         <TimelineRow>3 ~ 5 级地狱火炮的升级费用降低。</TimelineRow>

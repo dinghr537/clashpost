@@ -10198,40 +10198,7 @@
         "preserveUnmatchedRows": true
       }
     ],
-    "0315-Inferno-Artillery": [
-      {
-        "table": 0,
-        "headers": [
-          "等级",
-          "平均<br>每秒伤害",
-          "每次<br>攻击伤害",
-          "升级费用",
-          "升级时间",
-          "升级后可<br>获得的经验",
-          "所需<br>大本等级"
-        ],
-        "sourceTableIndex": 2,
-        "sourceHeaders": [
-          "Level",
-          "Damage per Second per Target",
-          "Damage per Hit per Target",
-          "Cost",
-          "Build Time",
-          "Experience Gained",
-          "Town Hall Level Required"
-        ],
-        "columns": {
-          "0": 0,
-          "3": 3,
-          "4": 4,
-          "5": 5,
-          "6": 6,
-          "1": 1,
-          "2": 2
-        },
-        "preserveUnmatchedRows": true
-      }
-    ],
+    "0315-Inferno-Artillery": [],
     "200b-Hog-Raiders": [
       {
         "table": 0,
