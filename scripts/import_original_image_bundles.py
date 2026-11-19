@@ -16,7 +16,7 @@ def main():
     args = parser.parse_args()
     since = args.since_manifest.stat().st_mtime
     manifest_path = ROOT / 'docs/.vitepress/theme/assets/original-image-manifest.json'
-    sources_path = ROOT / 'docs/public/images/original-sources.json'
+    sources_path = ROOT / 'scripts/image-sources/original-sources.json'
     mapping = json.loads(manifest_path.read_text()) if manifest_path.exists() else {}
     sources = json.loads(sources_path.read_text()) if sources_path.exists() else {}
     for metadata in args.directory.glob('*/manifest.json'):

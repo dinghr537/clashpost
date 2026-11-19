@@ -11,7 +11,7 @@ from urllib.request import Request, urlopen
 
 ROOT = Path(__file__).resolve().parents[1]
 MANIFEST = ROOT / 'docs/.vitepress/theme/assets/supplemental-image-manifest.json'
-SOURCES = ROOT / 'docs/public/images/wiki-sources.json'
+SOURCES = ROOT / 'scripts/image-sources/wiki-sources.json'
 
 
 def source_file_page(url):

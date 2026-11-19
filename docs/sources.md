@@ -12,7 +12,7 @@ hasUpdateTime: false
 
 原资料由部落驿站（原部落冲突指导）的作者与贡献者整理，Copyright © 2018–2026 部落驿站。原单位页可按相同的 `/upgrade/单位编号` 路径查阅。[部落驿站](https://clashpost.com/) · [原项目归档与维护者 lemonicy](https://github.com/lemonicy/clashpost)
 
-除另有声明外，原站的游戏数据和文章采用 CC BY-SA 4.0。本站对这些资料的更新和整理沿用该许可，由本项目维护者负责。原站图片和本地保存的等级大图可逐张查询出处。[原站版权和共享协议](https://clashpost.com/p/260) · [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hans) · [原站图片来源记录](/images/original-sources.json)
+除另有声明外，原站的游戏数据和文章采用 CC BY-SA 4.0。本站对这些资料的更新和整理沿用该许可，由本项目维护者负责。部分单位图和等级大图沿用部落驿站的图片。[原站版权和共享协议](https://clashpost.com/p/260) · [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hans)
 
 ## Supercell 官方资料
 
@@ -22,13 +22,13 @@ hasUpdateTime: false
 
 ## Clash of Clans Wiki
 
-本站根据 Clash of Clans Wiki 贡献者编写的条目核对升级表和玩法细节。单位页链接到公开的当前条目，编辑历史可查到贡献者。多数同步记录保存了核对时的固定修订地址，个别缺项在单位页说明。补充的图片另有逐图记录。[Wiki 版权说明](https://clashofclans.fandom.com/wiki/Clash_of_Clans_Wiki:Copyrights) · [Fandom 转载与署名说明](https://community.fandom.com/wiki/Help:Licensing) · [Wiki 图片来源记录](/images/wiki-sources.json)
+本站根据 Clash of Clans Wiki 贡献者编写的条目核对升级表和玩法细节。单位页链接到公开的当前条目，编辑历史可查到贡献者。多数同步记录保存了核对时的固定修订地址，个别缺项在单位页说明。部分单位的等级图取自相应 Wiki 条目。[Wiki 版权说明](https://clashofclans.fandom.com/wiki/Clash_of_Clans_Wiki:Copyrights) · [Fandom 转载与署名说明](https://community.fandom.com/wiki/Help:Licensing)
 
 除另有声明外，Wiki 文字与表格采用 CC BY-SA 3.0。本站对这些资料的中文翻译、字段整理、数值格式转换及与原站资料合并后的改编采用 CC BY-SA 4.0。保留的 Wiki 原文沿用其原许可。[CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/deed.zh-hans) · [原许可第 4(b) 条](https://creativecommons.org/licenses/by-sa/3.0/legalcode.en#s4b)
 
 ## ClashKing Assets
 
-ClashKing 的维护者从游戏文件中提取并公开数据。本站用这些数据补充或核对个别升级数值，也使用该项目整理的部分建筑和兵种图片。其代码仓库采用 GPL-3.0，游戏素材的使用另按 Supercell 玩家内容政策处理。[ClashKing Assets](https://github.com/ClashKingInc/ClashKingAssets) · [所用素材版本](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/README.md) · [该批图片来源记录](/images/th19-sources.json)
+ClashKing 的维护者从游戏文件中提取并公开数据。本站用这些数据补充或核对个别升级数值，也使用该项目整理的部分建筑和兵种图片。其代码仓库采用 GPL-3.0，游戏素材的使用另按 Supercell 玩家内容政策处理。[ClashKing Assets](https://github.com/ClashKingInc/ClashKingAssets) · [所用素材版本](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/README.md)
 
 ## 转载本站资料
 

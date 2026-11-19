@@ -9,7 +9,7 @@
 - **采用 ClashKing 游戏数据。** Wiki 尚未更新的 19 本数值，改用 [ClashKing Assets](https://github.com/ClashKingInc/ClashKingAssets) 发布的 `static_data.json`（下载地址 `https://assets.clashk.ing/static_data.json`，2026-11-17 下载）。该仓库的 `update_static.py` 从游戏安装包提取数据表格后生成此文件。README 欢迎他人使用其托管文件并请求署名，仓库采用 GPL-3.0。本站只把所需的单个数值填入自有表格，并在单位页注明 ClashKing，不复制其数据文件。
   - 采用前已与 Wiki 及官方核实过的数值比对：19 本新增和调整的 482 个重叠数值中有 479 个一致。不一致的 3 个中，2 个是 Wiki 的笔误或取整，1 个是多人箭塔 5 级生命值（Wiki 5,400，ClashKing 5,900）。1–4 级生命值依次为 5,000、5,200、5,400、5,500，Wiki 的 5 级值与 3 级相同，且低于 4 级，经用户决定采用 ClashKing 的 5,900。
   - 等级对应规则：兵种、法术、英雄、战宠的升级费用和时间取 ClashKing 前一级的记录，建筑和陷阱取同一级的记录。每个单位的每一列，须先与本站已核实数值完全一致才会填入；没有通过比对的列不填，并保留原状。
-- **Fandom 可以访问，可以使用其数据。** 下文《Fandom 获取方式：待确认》一节中“不再执行批量联网抓取和补图”的限制，按用户本次决定不再适用。2026-11-17 已经通过公开 API 刷新 Wiki 快照，并下载了新等级图片；图片来源记录在 `docs/public/images/wiki-sources.json`。
+- **Fandom 可以访问，可以使用其数据。** 下文《Fandom 获取方式：待确认》一节中“不再执行批量联网抓取和补图”的限制，按用户本次决定不再适用。2026-11-17 已经通过公开 API 刷新 Wiki 快照，并下载了新等级图片；图片来源记录在 `scripts/image-sources/wiki-sources.json`。
 
 ## 2026-11-16 来源收缩：当前执行方式
 
@@ -54,7 +54,7 @@ CC BY-SA 3.0 的 [4(b) 条](https://creativecommons.org/licenses/by-sa/3.0/legal
 
 [仓库 README](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/README.md)声明仓库采用 GPL-3.0，并欢迎在署名的情况下使用其托管素材。仓库包含游戏资料与素材，该声明不能自动解决上游权利、本站资料许可与批量转载的适配问题；尤其不能将 Supercell 游戏图片直接标为 GPL 或 CC 授权。比较两个公开修订后，本站针对本次版本新增等级及部分旧等级费用、时间引用了有限范围的游戏数值，按本站原有表格结构整理，并在单位页注明；没有复制该仓库的说明文字或原始数据结构。结果及尚未核实的字段见 [19 本逐等级核查](TH19_LEVEL_COVERAGE_2026-11-16.md)和 [19 本实施记录](TH19_IMPLEMENTATION_2026-11-16.md)。
 
-随后为本地预览补充了 33 张该仓库固定修订中的游戏图片，并从 [Supercell 官方帮助中心](https://sc-clashofclans.zendesk.com/hc/en-us/articles/49529107397403-Guardians)补充守卫神殿图片。每张图的精确地址、画面说明、核对日期和权利依据见 [19 本图片记录](docs/public/images/th19-sources.json)；图片不按文字的 CC 许可处理。Supercell 的[玩家内容政策](https://supercell.com/en/fan-content-policy/)及 ClashKing 仓库声明与本站发布形式、许可的适配仍需在正式发布前确认。
+随后为本地预览补充了 33 张该仓库固定修订中的游戏图片，并从 [Supercell 官方帮助中心](https://sc-clashofclans.zendesk.com/hc/en-us/articles/49529107397403-Guardians)补充守卫神殿图片。每张图的精确地址、画面说明、核对日期和权利依据见 [19 本图片记录](scripts/image-sources/th19-sources.json)；图片不按文字的 CC 许可处理。Supercell 的[玩家内容政策](https://supercell.com/en/fan-content-policy/)及 ClashKing 仓库声明与本站发布形式、许可的适配仍需在正式发布前确认。
 
 ## Fandom 获取方式：待确认（2026-11-17 已由用户决定，见上文）
 
@@ -109,7 +109,7 @@ CC BY-SA 3.0 的 [4(b) 条](https://creativecommons.org/licenses/by-sa/3.0/legal
 - 超级巨人岗哨、都城地雷、滚木陷阱及火箭气球兵训练营的子城数量或名称，依据各页已有的 Wiki 固定修订核对，并定向查看 1337Wiki 对应子城资料；引用链接已放在各表旁。只采用相关游戏数值，没有复制该站文章、图片或整套数据；两个站的数据是否独立采集没有确认。
 - 夜世界隐形弹簧的触发半径按已有 Wiki 修订与 1337Wiki 对应页面核对；巨型地狱之塔 2024 年 6 月历史的 13 本标记及攻城机器的人口说明依据页面内 Supercell 链接核对。都城超级矿工 3 级生命值来源已替换成 Supercell 官方 2024 年 2 月公告。
 - 用户提供的 12 级超级亡灵游戏截图显示“范围：2.5 格”，截图未标注游戏版本；本站记录该显示值，不据此推断与其他来源 3.5 格、4 格之间的换算关系，也不转载截图。
-- 逐项检查原页面声明但未保存在本地的 127 个原图地址：126 个返回 PNG、1 个（`Miner12_hd.png`）返回 404。126 个中有 123 个比对应本地缩略图分辨率更大，另 3 个尺寸相同。根据用户要求和用户提供的[上游历史资料维护说明](https://github.com/lemonicy/clashpost#readme)，126 个原图已原样保存，并逐一核对与页面等级图片的视觉对应关系；每个文件的来源页、原始 URL、尺寸、SHA-256、导入时间及权利参考保存在 `docs/public/images/original-sources.json`。上游说明允许维护和迁移历史资料，未明确对每张图片的第三方加工权利作统一许可；游戏资产仍按 [Supercell 玩家内容政策](https://supercell.com/en/fan-content-policy/)处理，逐项权利判断未完成，不将图片统一标为 CC 授权。
+- 逐项检查原页面声明但未保存在本地的 127 个原图地址：126 个返回 PNG、1 个（`Miner12_hd.png`）返回 404。126 个中有 123 个比对应本地缩略图分辨率更大，另 3 个尺寸相同。根据用户要求和用户提供的[上游历史资料维护说明](https://github.com/lemonicy/clashpost#readme)，126 个原图已原样保存，并逐一核对与页面等级图片的视觉对应关系；每个文件的来源页、原始 URL、尺寸、SHA-256、导入时间及权利参考保存在 `scripts/image-sources/original-sources.json`。上游说明允许维护和迁移历史资料，未明确对每张图片的第三方加工权利作统一许可；游戏资产仍按 [Supercell 玩家内容政策](https://supercell.com/en/fan-content-policy/)处理，逐项权利判断未完成，不将图片统一标为 CC 授权。
 - 木屋子城名称、超级亡灵及其他射程来源冲突仍待确认；多来源相同并不自动证明数据分别来自独立测量。
 
 ## ClashPerk Wiki：2026-11-16 定向参考

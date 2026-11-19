@@ -95,11 +95,11 @@ npm run docs:build
 
 全站结构回归测试以 `9e77a85` 为更新前基线，检查原页面、属性、表头顺序、表格链接、模式分组、公式折叠区、高清图入口和历史日期。检查需要包含该提交的 Git 历史。页面仍须在浏览器中检查模式切换、月卡计算和图片显示。
 
-图片检查分别报告普通图片和 `imgHd` 原图。普通图片缺失会阻止检查通过；高清文件缺项在 `missingHd` 中单独列出，不得把已有缩略图登记成高清原图。2026-11-03 经用户要求，从原站保存了 126 个可访问的原图，其中 123 个比对应小图分辨率更大，3 个尺寸相同；12 级矿工原图地址返回 404，仍未取得。查看器优先展示本地原图，地址和核查记录保存在 `original-sources.json`。
+图片检查分别报告普通图片和 `imgHd` 原图。普通图片缺失会阻止检查通过；高清文件缺项在 `missingHd` 中单独列出，不得把已有缩略图登记成高清原图。2026-11-03 经用户要求，从原站保存了 126 个可访问的原图，其中 123 个比对应小图分辨率更大，3 个尺寸相同；12 级矿工原图地址返回 404，仍未取得。查看器优先展示本地原图，地址和核查记录保存在 `scripts/image-sources/original-sources.json`。
 
 补图必须先查看实际图片，再将对应单位、准确来源 URL 和中文说明登记到 `docs/.vitepress/theme/assets/reviewed-wiki-images.json`，随后导入。文件名含有单位名或数字不代表它是等级图；范围示意图、攻略截图、旧模型及其他单位的图片不能混入图集。图片说明采用已核对的中文含义，不根据文件名自动编造「外观」编号。原有已确认图片继续保留。
 
-19 本另有来自 ClashKing Assets 与 Supercell 官方帮助中心的图片；审核登记沿用上述清单，完整出处与权利记录另见 `docs/public/images/th19-sources.json`，不能将其误记为 Wiki 图片。
+19 本另有来自 ClashKing Assets 与 Supercell 官方帮助中心的图片；审核登记沿用上述清单，完整出处与权利记录另见 `scripts/image-sources/th19-sources.json`，不能将其误记为 Wiki 图片。
 
 上述图像审核仅确认画面含义。新增图片还需记录文件说明页、权利人、具体许可或 Supercell 玩家内容政策的适用依据与核对日期。来源清单只有下载 URL 时不能自动标记为“授权通过”；Wiki 的 fair use 标签也不是 CC 许可。已保存图片的权利核查范围与未决项见来源权限文档。
 
@@ -109,9 +109,9 @@ npm run docs:build
 
 开发服务器默认只监听本机，固定使用 5174 端口；端口被占用时会报错。需要其他端口时可运行 `npm run docs:dev -- --port 5175`。
 
-首页、搜索和升级图片均从本地加载。原站图片文件位于 `docs/public/images/original`，映射位于 `docs/.vitepress/theme/assets/original-image-manifest.json`，来源记录在 `docs/public/images/original-sources.json`。
+首页、搜索和升级图片均从本地加载。原站图片文件位于 `docs/public/images/original`，映射位于 `docs/.vitepress/theme/assets/original-image-manifest.json`，来源记录在 `scripts/image-sources/original-sources.json`。
 
-已通过浏览器下载 2,641 个原站图片文件，保留村庄与单位目录，包含分类缩略图、单位图、各等级图、高清原图及资源图标。原站页面使用的 WebP 和 PNG 图片直接保存，不重新生成，优先继续使用原图。新增单位、等级及缺失图片的补充图下载到 `docs/public/images/wiki`，来源及 Wiki 修订链接保存在 `docs/public/images/wiki-sources.json`。
+已通过浏览器下载 2,641 个原站图片文件，保留村庄与单位目录，包含分类缩略图、单位图、各等级图、高清原图及资源图标。原站页面使用的 WebP 和 PNG 图片直接保存，不重新生成，优先继续使用原图。新增单位、等级及缺失图片的补充图下载到 `docs/public/images/wiki`，来源及 Wiki 修订链接保存在 `scripts/image-sources/wiki-sources.json`。
 
 当前仍有 3 个主图引用无法取得：都城攻城槌爆出的野蛮人、12 级龙宝宝和 14 级亡灵；原站页面的对应 WebP 也加载失败。这些原图缺项保留在清单中；同步后的图集仅展示已取得的图片，当前页面引用已全部解析为本地文件。具体路径见 `docs/public/images/missing-original-images.json`。未用于当前显示的可选高清 PNG 不属于此次图片导出范围。
 

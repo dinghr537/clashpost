@@ -44,7 +44,7 @@
 
 ## 图片和历史
 
-`images` 保存确切单位的本地路径及来源。优先使用原站图片，只从同一单位的 Wiki 页面补充新单位、新等级或缺失图片；不跨村庄匹配同名建筑。补图来源和修订链接保存于 `docs/public/images/wiki-sources.json`。
+`images` 保存确切单位的本地路径及来源。优先使用原站图片，只从同一单位的 Wiki 页面补充新单位、新等级或缺失图片；不跨村庄匹配同名建筑。补图来源和修订链接保存于 `scripts/image-sources/wiki-sources.json`。
 
 补图来源记录的 `sourceFilePage` 指向文件说明页，供核对作者与许可；该字段只是出处，不代表授权已经确认。`reviewed-wiki-images.json` 的检查只确认画面与单位相符。内容及图片的许可范围见 [NOTICE.md](NOTICE.md)，联网获取条件见 [来源权限核查](SOURCE_PERMISSIONS.md)。
 

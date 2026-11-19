@@ -136,7 +136,7 @@ def main():
                     errors.append(record['unitId'] + ': supplemental image has not been visually reviewed: ' + image['name'])
                 elif image['alt'] != REVIEWED_IMAGES[record['unitId'] + '/' + image['name']]['caption']:
                     errors.append(record['unitId'] + ': image caption differs from reviewed description: ' + image['name'])
-    image_sources = json.loads((ROOT / 'docs/public/images/wiki-sources.json').read_text())
+    image_sources = json.loads((ROOT / 'scripts/image-sources/wiki-sources.json').read_text())
     reviewed_sources = {(key.split('/')[0], review['sourceUrl']) for key, review in REVIEWED_IMAGES.items()}
     for page in (ROOT / 'docs/upgrade/category').glob('*.md'):
         for local in re.findall(r'imgSrc="(/images/wiki/[^"]+)"', page.read_text()):
