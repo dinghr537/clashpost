@@ -6,45 +6,41 @@ robots: noindex, nofollow
 hasUpdateTime: false
 ---
 
-本项目是「部落驿站」的继承项目。数据页保留原资料，并由本项目维护者补充数值、翻译和说明。已同步单位的 Wiki 页面和核对日期见单位页；其他参考资料在对应说明旁标注。
+本站在部落驿站原资料的基础上更新升级数据。单位页的「资料与说明」列出该页使用的来源。表中“待更新”表示暂缺数值，星号（\*）表示暂时沿用更新前的数值。[数据说明](/faq)
 
 ## 部落驿站原资料
 
-原资料由部落驿站（原部落冲突指导）的作者与贡献者整理，Copyright © 2018–2026 部落驿站。原站的游戏数据和文章除另有声明外，采用 [知识共享署名—相同方式共享 4.0 国际许可协议（CC BY-SA 4.0）](https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hans)。
+原资料由部落驿站（原部落冲突指导）的作者与贡献者整理，Copyright © 2018–2026 部落驿站。原单位页可按相同的 `/upgrade/单位编号` 路径查阅。[部落驿站](https://clashpost.com/) · [原项目归档与维护者 lemonicy](https://github.com/lemonicy/clashpost)
 
-来源：[部落驿站](https://clashpost.com/)、[原项目归档与维护者 lemonicy](https://github.com/lemonicy/clashpost)、[原站版权和共享协议](https://clashpost.com/p/260)。原单位页可按相同的 `/upgrade/单位编号` 路径在原站或归档中查阅；新增单位以本站标注的来源为准。
+除另有声明外，原站的游戏数据和文章采用 CC BY-SA 4.0。本站对这些资料的更新和整理沿用该许可，由本项目维护者负责。原站图片和本地保存的等级大图可逐张查询出处。[原站版权和共享协议](https://clashpost.com/p/260) · [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hans) · [原站图片来源记录](/images/original-sources.json)
 
-本项目对原数据进行了更新、补充与整理，原作者未参与的修改由本项目维护者负责。本项目对这些资料的改编继续采用 CC BY-SA 4.0；原资料中另有声明的部分仍按其原许可处理。
+## Supercell 官方资料
+
+本站依据 Supercell 的更新公告和帮助文章整理玩法、解锁条件、等级调整及官方公布的数值。单位页链接到对应公告。守卫神殿的图片取自官方帮助中心。[部落冲突官方公告](https://supercell.com/en/games/clashofclans/zh-hans/blog/) · [官方帮助中心的守卫说明](https://sc-clashofclans.zendesk.com/hc/en-us/articles/49529107397403-Guardians)
+
+游戏图片、图标、名称和商标归相应权利人所有。使用 Supercell 游戏素材时，请参阅[玩家内容政策](https://supercell.com/en/fan-content-policy/)。
 
 ## Clash of Clans Wiki
 
-Wiki 文字与表格整理来自 **Clash of Clans Wiki 的贡献者**，除另有声明外，原文采用 [CC BY-SA 3.0 Unported](https://creativecommons.org/licenses/by-sa/3.0/deed.zh-hans)。单位页的来源链接打开公开的当前条目，编辑历史记录了贡献者。由于 Fandom 的历史修订页可能要求登录，读者入口不带 `oldid` 参数；多数同步记录保留了固定修订地址，个别未取得的页面另有说明。当前条目可能已更新。[Wiki 版权说明](https://clashofclans.fandom.com/wiki/Clash_of_Clans_Wiki:Copyrights) · [Fandom 转载与署名说明](https://community.fandom.com/wiki/Help:Licensing)
+本站根据 Clash of Clans Wiki 贡献者编写的条目核对升级表和玩法细节。单位页链接到公开的当前条目，编辑历史可查到贡献者。多数同步记录保存了核对时的固定修订地址，个别缺项在单位页说明。补充的图片另有逐图记录。[Wiki 版权说明](https://clashofclans.fandom.com/wiki/Clash_of_Clans_Wiki:Copyrights) · [Fandom 转载与署名说明](https://community.fandom.com/wiki/Help:Licensing) · [Wiki 图片来源记录](/images/wiki-sources.json)
 
-本站的修改包括中文翻译、表格字段整理、数值格式转换，以及与原部落驿站资料合并。对这些文字和表格的改编采用 CC BY-SA 4.0；采用后续同要素版本的依据是 [CC BY-SA 3.0 第 4(b) 条](https://creativecommons.org/licenses/by-sa/3.0/legalcode.en#s4b)。保留的未改编 Wiki 原文仍适用其原 CC BY-SA 3.0 许可。
+除另有声明外，Wiki 文字与表格采用 CC BY-SA 3.0。本站对这些资料的中文翻译、字段整理、数值格式转换及与原站资料合并后的改编采用 CC BY-SA 4.0。保留的 Wiki 原文沿用其原许可。[CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/deed.zh-hans) · [原许可第 4(b) 条](https://creativecommons.org/licenses/by-sa/3.0/legalcode.en#s4b)
 
-## 19 本升级资料
+## ClashKing Assets
 
-小队组成、技能、解锁条件及新建筑的玩法依据[Supercell 更新公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)整理。升级表和驻军人数、触发距离等细节直接核对 Clash of Clans Wiki 贡献者编写的相应条目。单位页注明各项来源，源码链接保留此次核对的 Wiki 修订号。
+ClashKing 的维护者从游戏文件中提取并公开数据。本站用这些数据补充或核对个别升级数值，也使用该项目整理的部分建筑和兵种图片。其代码仓库采用 GPL-3.0，游戏素材的使用另按 Supercell 玩家内容政策处理。[ClashKing Assets](https://github.com/ClashKingInc/ClashKingAssets) · [所用素材版本](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/README.md) · [该批图片来源记录](/images/th19-sources.json)
 
-需要从游戏数据文件补充或交叉核对的数值取自 [ClashKing Assets](https://github.com/ClashKingInc/ClashKingAssets)。感谢该项目维护者整理并公开数据，其仓库采用 GPL-3.0。玩家在游戏中核实的信息在单位页标为“玩家提供”。缺少的新等级数值标为“待更新”，沿用更新前数值的项目以 * 标出。
+## 玩家提供
 
-## 官方资料与图片
-
-Supercell 公告和帮助页面用于核对游戏数值与机制，对应链接列在各页底部的资料说明中。Supercell 的游戏图片、图标、名称和商标仍归其权利人所有，使用条件见 [Supercell 玩家内容政策](https://supercell.com/en/fan-content-policy/)。
-
-图片不因出现在 Wiki 或被保存到本站就自动采用文字的 CC 许可。其他作者制作的图片、图解等按各自授权处理，不包含在本站的文字与表格改编许可内。图片出处可查阅[原站图片来源记录](/images/original-sources.json)和 [Wiki 补图来源记录](/images/wiki-sources.json)；来源记录不等同于单独授权书。
-
-19 本新增单位和大本营的部分图片来自 [ClashKing Assets](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/README.md)，感谢该项目整理素材；守卫神殿图片来自 [Supercell 官方帮助中心](https://sc-clashofclans.zendesk.com/hc/en-us/articles/49529107397403-Guardians)。每张图片的文件地址、来源和核查日期见 [19 本图片来源记录](/images/th19-sources.json)。ClashKing 仓库声明 GPL-3.0，其声明不能代替游戏素材权利人的授权；游戏素材按 Supercell 的玩家内容政策处理，不属于本站文字的 CC 许可。
-
-部分等级图片提供本地保存的原站大图；每张新增原图的来源页面、文件地址和核查记录见[原站图片来源记录](/images/original-sources.json)。图片权利范围仍需按各权利人的条款分别确认。
+玩家在游戏内核实的数值和解锁条件，在对应单位页注明“玩家提供”。
 
 ## 转载本站资料
 
-转载上述开放许可资料时，请保留原作者、原始来源和许可链接，注明采用了本项目的中文整理或更新，并说明你自己的修改。改编内容须按适用的相同方式共享要求发布。可使用以下署名格式，并补上实际单位页和原始来源链接：
+转载上述开放许可资料时，请保留原作者、原始来源和许可链接，注明采用了本项目的中文整理或更新，并说明你自己的修改。改编内容须按适用的相同方式共享要求发布。署名时可采用下例，并补上实际单位页和原始来源链接。
 
-> 本文采用部落驿站原作者及 Clash of Clans Wiki 贡献者的资料，经部落驿站继承项目中文整理与更新；改编内容采用 CC BY-SA 4.0。Wiki 未改编原文采用 CC BY-SA 3.0，图片及其他第三方材料按其各自许可处理。
+> 本文采用部落驿站原作者及 Clash of Clans Wiki 贡献者的资料，经部落驿站继承项目中文整理与更新。改编内容采用 CC BY-SA 4.0。Wiki 未改编原文采用 CC BY-SA 3.0，图片及其他第三方材料按其各自许可处理。
 
-上述许可只覆盖相应的资料内容，不是对整个网站代码、界面设计、商标或第三方素材的统一授权。
+上述开放许可适用于相应的文字与表格。网站代码、界面设计、商标、图片及第三方图解各自适用其权利人的条款。
 
 本站与 Supercell、Fandom 或其他参考网站没有赞助、认可或代理关系。
 
