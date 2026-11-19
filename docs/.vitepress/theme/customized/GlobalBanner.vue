@@ -4,22 +4,18 @@ import { useData } from "vitepress";
 import Callout from "@/components/Callout.vue";
 
 const props = defineProps({ link: { type: String, default: "" } });
-const isUpgrade = computed(() => props.link === "/upgrade" || props.link.startsWith("/upgrade/"));
 const { frontmatter } = useData();
-const syncedDate = computed(() => String(frontmatter.value.dataSyncedOn || "").slice(0, 10));
-const reviewedDate = computed(() => String(frontmatter.value.dataReviewedOn || "").slice(0, 10));
-const balanceDate = computed(() => String(frontmatter.value.dataBalanceUpdatedOn || "").slice(0, 10));
-const versionDate = computed(() => String(frontmatter.value.dataVersionUpdatedOn || "").slice(0, 10));
-const isCategory = computed(() => props.link === "/upgrade" || props.link.startsWith("/upgrade/category/"));
+// Data dates and sources are listed at the bottom of each unit page. The banner
+// only warns on unit pages that still carry the original project's historical
+// data and have not been re-checked against a current source.
+const isLegacyUnit = computed(() =>
+    props.link.startsWith("/upgrade/") && !props.link.startsWith("/upgrade/category/") &&
+    !frontmatter.value.dataSyncedOn && !frontmatter.value.dataVersionUpdatedOn && !frontmatter.value.dataReviewedOn);
 </script>
 
 <template>
-    <Callout type="info" class="cp-callout-global-mark" v-if="isUpgrade">
-        <template v-if="syncedDate">来源表格同步于 {{ syncedDate }}<template v-if="balanceDate">，另整理了 {{ balanceDate }} 的平衡调整</template><template v-if="versionDate">，{{ versionDate }} 更新了 19 本版本数据</template>。以下费用和时间为基础值，月卡减免另行计算。</template>
-        <template v-else-if="versionDate">本页 19 本版本资料整理于 {{ versionDate }}，来源见页底说明。</template>
-        <template v-else-if="reviewedDate">本页基础属性核对日期：{{ reviewedDate }}；其余资料请参见本页来源。</template>
-        <template v-else-if="isCategory">数据已更新至 19 本（2026-11-16 版本），以 Wiki 表格为基础，参考官方公告与 ClashKing 游戏数据。往期临时单位的历史数据会单独标注。</template>
-        <template v-else>本页保留原项目历史数据，尚未重新核对当前来源；不能视为最新版本数据。</template>
+    <Callout type="info" class="cp-callout-global-mark" v-if="isLegacyUnit">
+        本页保留原项目历史数据，尚未重新核对当前来源；不能视为最新版本数据。
     </Callout>
 </template>
 
