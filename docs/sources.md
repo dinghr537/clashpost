@@ -22,11 +22,11 @@ Wiki 文字与表格整理来自 **Clash of Clans Wiki 的贡献者**，除另�
 
 本站的修改包括中文翻译、表格字段整理、数值格式转换，以及与原部落驿站资料合并。对这些文字和表格的改编采用 CC BY-SA 4.0；采用后续同要素版本的依据是 [CC BY-SA 3.0 第 4(b) 条](https://creativecommons.org/licenses/by-sa/3.0/legalcode.en#s4b)。保留的未改编 Wiki 原文仍适用其原 CC BY-SA 3.0 许可。
 
-## COC Wiki 与 19 本资料
+## 19 本升级资料
 
-[COC Wiki 19 本指南](https://cocwiki.com/guides/town-hall-19)中的部分资料注明源自 Clash of Clans Wiki。依据 [COC Wiki 使用条款](https://cocwiki.com/terms)，本站在使用这些资料的页面同时注明 COC Wiki 和原 Wiki，并保留相应的相同方式共享许可。两站的资料并非每个页面都已更新，具体来源以单位页说明为准。
+小队组成、技能、解锁条件及新建筑的玩法依据[Supercell 更新公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)整理。升级表和驻军人数、触发距离等细节直接核对 Clash of Clans Wiki 贡献者编写的相应条目。单位页注明各项来源，源码链接保留此次核对的 Wiki 修订号。
 
-19 本更新优先采用 Supercell 官方公告和上述 Wiki。Wiki 尚未更新的数值，采用 [ClashKing Assets](https://github.com/ClashKingInc/ClashKingAssets) 从游戏数据文件导出的数据，感谢该项目的维护者；本站只引用页面所需的单个数值，并在对应单位页注明。ClashKing 仓库采用 GPL-3.0，本站未复制其数据文件。玩家亲自从游戏核实或向其他玩家确认的事实，在对应页面标为“玩家提供”。仍然没有数据的新等级标为“待更新”；更新后可能已经调整、但暂时只有旧数值的，以 * 标出。
+需要从游戏数据文件补充或交叉核对的数值取自 [ClashKing Assets](https://github.com/ClashKingInc/ClashKingAssets)。感谢该项目维护者整理并公开数据，其仓库采用 GPL-3.0。玩家在游戏中核实的信息在单位页标为“玩家提供”。缺少的新等级数值标为“待更新”，沿用更新前数值的项目以 * 标出。
 
 ## 官方资料与图片
 

@@ -40,7 +40,7 @@ dataVersionUpdatedOn: 2026-11-17
 
 <SmallTitle>重要说明</SmallTitle>
 
-小队训练营从 8 本开放，每升一级解锁一种小队。小队成员使用玩家已研究的对应兵种等级；尚未解锁的成员按 1 级出战。小队不能捐赠，19 本可研究小队本身的等级，2 级解锁小队能力。
+8 本可建造小队训练营，之后每升一级训练营就开放一种新小队。出战成员沿用玩家的兵种研究等级，尚未解锁的兵种以 1 级出战。小队只能由自己部署，不能捐赠。到 19 本后可研究小队，升至 2 级即可获得小队能力。
 
 全部 12 种小队可在[升级数据目录](/upgrade/category/home)的“科技”分类中查看。
 
@@ -68,5 +68,4 @@ const tableExtraInfo = [{"column": 2, "type": "cost", "gpClass": "building", "ic
 | 12 | 1160 | 32000000 | 16,0,0,0 | 19 |
 </UnitTable>
 
-
-<small>资料参考：[Supercell 更新公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)、[COC Wiki 19 本指南](https://cocwiki.com/guides/town-hall-19)、[Clash of Clans Wiki](https://clashofclans.fandom.com/wiki/Squad_Barracks)。部分中文名称为便于查询的暂译。COC Wiki 引用的 Wiki 资料依 CC BY-SA 3.0 整理，改编资料按 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) 分享。</small>
+<small>小队的部署、研究与解锁规则见[Supercell 更新公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)。训练营各级生命值、升级费用、时间及大本营要求见[Clash of Clans Wiki](https://clashofclans.fandom.com/wiki/Squad_Barracks?oldid=626398)。</small>

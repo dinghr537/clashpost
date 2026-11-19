@@ -14,7 +14,7 @@ dataVersionUpdatedOn: 2026-11-17
 
 <SmallTitle>重要说明</SmallTitle>
 
-英勇法术（Heroic Spell）在 17 本、10 级法术工厂解锁，占用 2 格法术空间，作用半径 5 格。范围内友军受到的伤害减少、移动速度提高；地面单位可穿过城墙。英雄、战宠和偏好特定建筑的部队获得较小的加速；攻城机器和图腾不受影响。
+升至 17 本并建成 10 级法术工厂即可使用英勇法术，每次占用 2 格法术空间。法术覆盖半径 5 格，进攻方地面部队在范围内可以穿墙。受影响的单位获得减伤和移速加成，英雄、战宠和优先攻击特定建筑的兵种使用表中较低的移速加成。攻城机器和图腾不受影响。
 
 <SmallTitle>升级数据</SmallTitle>
 
@@ -32,5 +32,4 @@ const tableExtraInfo = [{"column": 5, "type": "cost", "gpClass": "research", "ic
 | 4 | 40% | +8 | +4 | 12.75 | 32000000 | 15,12,0,0 | 17 | 19 |
 </UnitTable>
 
-
-<small>资料参考：[Supercell 更新公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)、[COC Wiki 19 本指南](https://cocwiki.com/guides/town-hall-19)、[Clash of Clans Wiki](https://clashofclans.fandom.com/wiki/Heroic_Spell)。COC Wiki 引用的 Wiki 资料依 CC BY-SA 3.0 整理，改编资料按 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) 分享。</small>
+<small>各级持续时间、减伤和移速见[Supercell 更新公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)。研究费用、时间与实验室要求见[Clash of Clans Wiki](https://clashofclans.fandom.com/wiki/Heroic_Spell?oldid=626426)。</small>

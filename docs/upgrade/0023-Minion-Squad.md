@@ -14,7 +14,7 @@ dataVersionUpdatedOn: 2026-11-17
 
 <SmallTitle>重要说明</SmallTitle>
 
-小队组成：8 个亡灵。通过 4 级[小队训练营](/upgrade/048b-Squad-Barracks)解锁。一次部署整个小队；成员的兵种等级跟随玩家研究进度。小队不能捐赠，小队自身升级在 19 本开放。
+4 级[小队训练营](/upgrade/048b-Squad-Barracks)解锁这支小队。一次部署会派出8 个亡灵，成员沿用对应兵种的研究等级。小队不能捐赠。达到 19 本后，可在实验室研究小队自身的能力。
 
 <SmallTitle>升级数据</SmallTitle>
 
@@ -27,9 +27,8 @@ const tableExtraInfo = [{"column": 3, "type": "cost", "gpClass": "research", "ic
 | 小队等级 | 占用人口 | 小队能力 | 升级花费 | 升级时间 | 所需实验室等级 | 所需大本等级 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | 12 | 无 | — | — | — | 11 |
-| 2 | 12 | 范围伤害最多命中本小队 3 个单位 | 370000 | 11,12,0,0 | 17 | 19 |
-| 3 | 12 | 范围伤害最多命中本小队 2 个单位 | 465000 | 14,0,0,0 | 17 | 19 |
+| 2 | 12 | 每次范围攻击最多击中队内 3 个单位 | 370000 | 11,12,0,0 | 17 | 19 |
+| 3 | 12 | 每次范围攻击最多击中队内 2 个单位 | 465000 | 14,0,0,0 | 17 | 19 |
 </UnitTable>
 
-
-<small>资料参考：[Supercell 更新公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)、[COC Wiki 19 本指南](https://cocwiki.com/guides/town-hall-19)、[Clash of Clans Wiki](https://clashofclans.fandom.com/wiki/Minion_Squad)。COC Wiki 引用的 Wiki 资料依 CC BY-SA 3.0 整理，改编资料按 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) 分享。</small>
+<small>成员、解锁顺序、人口与能力见[Supercell 更新公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)。逐级研究费用、时间和实验室要求见[Clash of Clans Wiki](https://clashofclans.fandom.com/wiki/Minion_Squad?oldid=626377)。</small>

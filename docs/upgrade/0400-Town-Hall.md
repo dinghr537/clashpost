@@ -77,7 +77,7 @@ dataVersionUpdatedOn: 2026-11-17
 
 [雷电法术](/upgrade/0100-Lightning-Spell) 不能对大本营造成伤害，[地震法术](/upgrade/0181-Earthquake-Spell) 可以。
 
-19 本可为不同阵型选择大本营驻军：原始外观无驻军；野蛮人大厅驻扎 15 名野蛮人，直接可用；弓箭手大厅驻扎 15 名弓箭手，需要研究 15 级弓箭手；法师大厅驻扎 4 名法师，需要研究 15 级法师。驻军使用玩家已研究的兵种等级，敌军进入 13 格范围后触发。守卫改由[守卫神殿](/upgrade/0843-Guardian-Shrine)安置。<small>（[COC Wiki](https://cocwiki.com/guides/town-hall-19)、[Clash of Clans Wiki](https://clashofclans.fandom.com/wiki/Town_Hall)、[Supercell](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)）</small>
+升到 19 本后，每套阵型都能单独设置大本营驻军。野蛮人大厅直接开放，可驻扎 15 名野蛮人。研究出 15 级弓箭手或 15 级法师后，可分别选择驻扎 15 名弓箭手或 4 名法师。保留原始外观时没有驻军。敌军进入大本营 13 格范围后，驻军按玩家已研究的兵种等级出战。防守的守卫在[守卫神殿](/upgrade/0843-Guardian-Shrine)中选择。<small>驻军的解锁和阵型设置见[Supercell 更新公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)。各兵种人数与触发距离见[Clash of Clans Wiki](https://clashofclans.fandom.com/wiki/Town_Hall?oldid=626453)。</small>
 
 <SmallTitle>属性</SmallTitle>
 
@@ -88,7 +88,7 @@ dataVersionUpdatedOn: 2026-11-17
 
 <SmallTitle>升级数据</SmallTitle>
 
-<small>19 本资料参考 [Supercell 官方公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)与 [部落冲突 Wiki](https://clashofclans.fandom.com/wiki/Town_Hall)。</small>
+<small>19 级大本营的生命值、升级费用和时间据[Clash of Clans Wiki](https://clashofclans.fandom.com/wiki/Town_Hall?oldid=626453)整理，并与[ClashKing 游戏数据](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)核对。</small>
 
 <script setup>
 const tableExtraInfo1 = [

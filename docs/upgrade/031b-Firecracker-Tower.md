@@ -30,7 +30,7 @@ dataVersionUpdatedOn: 2026-11-17
 
 <SmallTitle>重要说明</SmallTitle>
 
-19 本可将 21 级箭塔和 7 级投石炮合并成烟花炮手塔，最多合并 2 座。其火箭能攻击地面和空中目标，在命中点及目标后方造成范围伤害，射程 10 格。
+每座烟花炮手塔由一座 21 级箭塔和一座 7 级投石炮合并而成，19 本最多拥有两座。火箭可命中 10 格内的地面或空中目标。命中时先造成范围伤害，然后向目标后方散射火花。
 
 <SmallTitle>升级数据</SmallTitle>
 
@@ -46,5 +46,4 @@ const tableExtraInfo = [{"column": 5, "type": "cost", "gpClass": "building", "ic
 | 2 | 280 | 385–501.76 | 200–385 | 6700 | 32000000 | 15,0,0,0 | 19 |
 </UnitTable>
 
-
-<small>资料参考：[Supercell 更新公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)、[COC Wiki 19 本指南](https://cocwiki.com/guides/town-hall-19)、[Clash of Clans Wiki](https://clashofclans.fandom.com/wiki/Firecracker_Tower)。COC Wiki 引用的 Wiki 资料依 CC BY-SA 3.0 整理，改编资料按 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) 分享。</small>
+<small>合并条件和攻击方式见[Supercell 更新公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)。各级伤害范围、生命值、费用和时间见[Clash of Clans Wiki](https://clashofclans.fandom.com/wiki/Firecracker_Tower?oldid=626491)。</small>

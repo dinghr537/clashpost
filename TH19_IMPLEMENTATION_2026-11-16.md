@@ -4,7 +4,7 @@
 
 ## 已处理
 
-- 新增 12 种小队、小队训练营、尖刺塔、烟花炮手塔、守卫神殿和英雄法术，接入家乡目录和搜索。技能和组成依据 [Supercell 更新公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)及 [COC Wiki 19 本指南](https://cocwiki.com/guides/town-hall-19)，遵照后者要求同时注明 [Clash of Clans Wiki](https://clashofclans.fandom.com/)及许可。
+- 新增 12 种小队、小队训练营、尖刺塔、烟花炮手塔、守卫神殿和英勇法术，接入家乡目录和搜索。2026-11-18 按[Supercell 更新公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)复核机制，并按 Fandom 各单位固定修订复核升级表，详见[来源复核记录](SOURCE_PERMISSIONS.md)。
 - 在既有升级表中补充本次新等级，以及旧等级的价格、时间变化。另将用户提供原文的[玩家整理](https://mp.weixin.qq.com/s/1C8VxevkSERrS2x1vJd8aA)全部 410 条逐项对照本站表格及 [ClashKing Assets 固定修订](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)，所列新值均与该快照一致；修正遗漏值，并同步相关数据记录。不能据此宣称所有数据均由 Wiki 核实。英雄、研究和守卫数据的升级费用按前一级记录读取，建筑、陷阱按目标等级读取。
 - 补充大本营自身储量、建筑及陷阱数量表的 19 本数据，并按小队训练营和现有建筑数量修正大本营建筑总数；19 本精制台按用户确认的一座计入总数。六张宝库表的 19 本容量暂列待更新。
 - 根据 Wiki 补全 15 级部落城堡的法术、攻城机器容量、10 级法术工厂容量和 9 级小雪怪；同时检查召唤物与不同模式的表格，来源未提供的数值标为待更新。

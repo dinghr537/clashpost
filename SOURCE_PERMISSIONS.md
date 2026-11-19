@@ -13,7 +13,7 @@
 
 ## 2026-11-16 来源收缩：当前执行方式
 
-以下各节保留此前真实的查找、对照和使用记录；它们不是对当前仍使用所有候选数值的声明。按用户要求，当前版本优先使用 Supercell 官方、Clash of Clans Wiki（使用 COC Wiki 的 Wiki 改编资料时保留两站署名）、原部落驿站资料，以及用户或其他玩家核实的事实。用户亲自查看游戏提供的信息也统一标为“玩家提供”。此前来自小站或第三方整理、尚未通过这些来源确认的候选数值不再作为当前表格数值，相关字段标为“待更新”。用户提供的第三方文章和截图不自动等于玩家亲自核实。
+以下各节保留此前真实的查找、对照和使用记录；它们不是对当前仍使用所有候选数值的声明。按用户要求，当前版本优先使用 Supercell 官方、Clash of Clans Wiki、原部落驿站资料，以及用户或其他玩家核实的事实。用户亲自查看游戏提供的信息也统一标为“玩家提供”。此前来自小站或第三方整理、尚未通过这些来源确认的候选数值不再作为当前表格数值，相关字段标为“待更新”。用户提供的第三方文章和截图不自动等于玩家亲自核实。
 
 本轮人工查看 Wiki，确认 12 种小队的研究表、小队训练营 1–12 级、尖刺塔和烟花炮手塔 1–2 级、英雄法术、野蛮人、弓箭手、巨人，以及大本营和部落城堡已核对字段，可使用对应 Wiki 页面；粉碎者 2–5 级费用仍以官方公告为准。Wiki 的实验室升级总表仍有旧值。储金罐、圣水瓶、暗黑重油罐和骷髅陷阱所查看的 Wiki 页面尚未列出各自新增等级；19 本宝库基础容量亦未在已查看的 Wiki 表中找到。其他标为待更新的字段中有的尚未逐页核查，不能由此断言 Wiki 没有，详见 [待更新数据核对清单](docs/verification.md)。
 
@@ -44,11 +44,11 @@
 
 CC BY-SA 3.0 的 [4(b) 条](https://creativecommons.org/licenses/by-sa/3.0/legalcode.en#s4b)允许改编采用后续同要素版本；这不改变未改编原文的原许可，也不覆盖第三方图片和游戏资产。
 
-## COC Wiki：2026-11-16 核查
+## 2026-11-18 19 本资料来源复核
 
-[COC Wiki 使用条款](https://cocwiki.com/terms)称，其源自 Clash of Clans Wiki 的游戏数据按相同 CC BY-SA 许可分享；复制或改编需同时注明 COC Wiki 和 Clash of Clans Wiki、链接来源，并按相同许可共享改编内容。其[19 本指南](https://cocwiki.com/guides/town-hall-19)明确将大本营费用、时间、生命值与驻军数据归于原 Wiki 的 CC BY-SA 3.0 内容。其他页面仍需逐项核对来源和许可版本，不能把此说明扩大到所有站点内容。游戏图片不在该数据许可内。
+大本营、12 种小队、小队训练营、英勇法术、尖刺塔、烟花炮手塔和守卫神殿共 18 页，现按[Supercell 更新公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)与 Fandom 原条目整理。单位页的 Markdown 保存各自的固定修订链接。43 条有升级费用和时间的研究或建筑记录已逐行比对 Fandom 表格。19 级大本营的生命值、升级费用和时间另与 [ClashKing 数据快照](https://github.com/ClashKingInc/ClashKingAssets/blob/fa40345986d5c862480e6fa34aa5100ab8eee345/assets/static_data.json)交叉核对。Fandom 文字、表格的署名和改编许可见[来源与许可](docs/sources.md)。
 
-其条款允许遵守 robots.txt、不过载网站的合理自动访问；2026-11-16 查看 [robots.txt](https://cocwiki.com/robots.txt) 为允许所有路径。此条件只针对 COC Wiki，**不授予对 Fandom 自动访问的许可**。具体数据是否更新需另查：其[关于页面](https://cocwiki.com/about)标示主体数据为 2026-10-22 的 Fandom 快照，部分单页历史更早；新 19 本指南另有来源说明。具体覆盖与待核查项见 [19 本来源核查](TH19_SOURCE_AUDIT_2026-11-16.md)。
+早期版本所用来源及当时的许可核查保存在[迁移前的记录](https://github.com/dinghr537/clashpost/blob/626b6db7a26597c35a9581b6df9c98e19cd3a9bf/SOURCE_PERMISSIONS.md)。
 
 ## ClashKing Assets：2026-11-16 核查
 

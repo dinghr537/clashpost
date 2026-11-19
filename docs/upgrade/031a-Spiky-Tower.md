@@ -30,7 +30,7 @@ dataVersionUpdatedOn: 2026-11-17
 
 <SmallTitle>重要说明</SmallTitle>
 
-19 本解锁，最多建造 2 座。受敌方单位攻击后，尖刺会按攻击者生命值上限的百分比反击；敌军进入 11 格范围时激活。法术、装备技能及摧毁它的最后一击不触发反击，冰冻法术不能使其停转。
+19 本最多可放置两座尖刺塔。有敌军进入 11 格范围时，尖刺塔开始启动。启动后，每次受到部队攻击，它都会按攻击者自身的最大生命值造成反伤。法术伤害、英雄装备技能和摧毁塔的最后一击不会触发反伤。冰冻法术对塔无效。
 
 <SmallTitle>升级数据</SmallTitle>
 
@@ -46,5 +46,4 @@ const tableExtraInfo = [{"column": 3, "type": "cost", "gpClass": "building", "ic
 | 2 | 9% | 6363 | 510000 | 15,12,0,0 | 19 |
 </UnitTable>
 
-
-<small>资料参考：[Supercell 更新公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)、[COC Wiki 19 本指南](https://cocwiki.com/guides/town-hall-19)、[Clash of Clans Wiki](https://clashofclans.fandom.com/wiki/Spiky_Tower)。COC Wiki 引用的 Wiki 资料依 CC BY-SA 3.0 整理，改编资料按 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) 分享。</small>
+<small>反伤的触发条件见[Supercell 更新公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)。各级反伤比例、生命值、升级费用和时间见[Clash of Clans Wiki](https://clashofclans.fandom.com/wiki/Spiky_Tower?oldid=626489)。</small>
