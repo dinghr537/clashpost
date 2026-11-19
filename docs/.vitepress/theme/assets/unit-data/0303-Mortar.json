@@ -2521,7 +2521,7 @@
     {
       "name": "Mortar18A.png",
       "url": "https://static.clashpost.com/upgrade/home_buildings/0303/Mortar18A.png",
-      "alt": "17 级",
+      "alt": "18 级（已改装，标准模式）",
       "localPath": "/images/original/upgrade/home_buildings/0303/Mortar18A.webp",
       "logicalPath": "/upgrade/home_buildings/0303/Mortar18A.png"
     },
@@ -2605,7 +2605,7 @@
     {
       "name": "Mortar18G.png",
       "url": "https://static.wikia.nocookie.net/clashofclans/images/e/e8/Mortar18G.png/revision/latest/scale-to-width-down/200?cb=20260225093037",
-      "alt": "18 级（改装）",
+      "alt": "18 级（已改装，快速模式）",
       "localPath": "/images/wiki/0303-Mortar/f90520d18f-Mortar18G.png",
       "logicalPath": "/upgrade/home_buildings/0303/Mortar18G.png",
       "sourceAlt": "Mortar18G"

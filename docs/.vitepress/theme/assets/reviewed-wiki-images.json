@@ -91,7 +91,7 @@
     },
     "0303-Mortar/Mortar18G.png": {
       "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/e/e8/Mortar18G.png/revision/latest/scale-to-width-down/200?cb=20260225093037",
-      "caption": "18 级（改装）"
+      "caption": "18 级（已改装，快速模式）"
     },
     "0309-X-Bow/X-Bow13_Ground.png": {
       "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/1/1e/X-Bow13_Ground.png/revision/latest/scale-to-width-down/200?cb=20260503184459",
@@ -121,6 +121,10 @@
       "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/9/96/Monolith5.png/revision/latest/scale-to-width-down/192?cb=20260906195022",
       "caption": "5 级"
     },
+    "0312-Monolith/Monolith5_info.webp": {
+      "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/9/96/Monolith5.png/revision/latest?cb=20260906195022",
+      "caption": "5 级擎天巨柱"
+    },
     "0480-Army-Camp/Army_Camp14.png": {
       "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/c/c6/Army_Camp14.png/revision/latest/scale-to-width-down/200?cb=20260425143241",
       "caption": "14 级"
@@ -128,6 +132,10 @@
     "0482-Dark-Barracks/Dark_Barracks13.png": {
       "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/1/1e/Dark_Barracks13.png/revision/latest/scale-to-width-down/210?cb=20260614153906",
       "caption": "13 级"
+    },
+    "0482-Dark-Barracks/Dark_Barracks13_info.webp": {
+      "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/1/1e/Dark_Barracks13.png/revision/latest?cb=20260614153906",
+      "caption": "13 级暗黑训练营"
     },
     "0485-Dark-Spell-Factory/Dark_Spell_Factory8.png": {
       "sourceUrl": "https://static.wikia.nocookie.net/clashofclans/images/9/93/Dark_Spell_Factory8.png/revision/latest/scale-to-width-down/200?cb=20260613130339",

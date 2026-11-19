@@ -15,7 +15,7 @@ dataVersionUpdatedOn: 2026-11-17
 - *如想查看夜世界的建筑大师训练营，请访问：[夜世界建筑大师训练营](/upgrade/1280-Builder-Barracks)。*
 - *都城的训练营比较多，这里就不放链接了，如有需求请自行前往相关页面查看。*
 
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Dark_Barracks12_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Dark_Barracks13_info.webp" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
 
 <SmallTitle>各等级图片</SmallTitle>
 
@@ -33,8 +33,8 @@ dataVersionUpdatedOn: 2026-11-17
         <UnitImg imgTitle="10 级" imgSrc="Dark_Barracks10.png" />
         <UnitImg imgTitle="11 级" imgSrc="Dark_Barracks11.png" />
         <UnitImg imgTitle="12 级" imgSrc="Dark_Barracks12.png" imgHd="Dark_Barracks12_hd.png" />
-            <UnitImg imgTitle="13 级" imgSrc="Dark_Barracks13.png" />
-</UnitImgGroup>
+        <UnitImg imgTitle="13 级" imgSrc="Dark_Barracks13.png" imgHd="Dark_Barracks13_info.webp" />
+    </UnitImgGroup>
 </Panel>
 
 <SmallTitle>建筑数量对照表</SmallTitle>

@@ -780,11 +780,11 @@
   ],
   "images": [
     {
-      "name": "Dark_Barracks12_info.png",
-      "url": "https://static.clashpost.com/upgrade/home_buildings/0482/Dark_Barracks12_info.png",
+      "name": "Dark_Barracks13_info.webp",
+      "url": "https://static.wikia.nocookie.net/clashofclans/images/1/1e/Dark_Barracks13.png/revision/latest?cb=20260614153906",
       "alt": "暗黑训练营",
-      "localPath": "/images/original/upgrade/home_buildings/0482/Dark_Barracks12_info.webp",
-      "logicalPath": "/upgrade/home_buildings/0482/Dark_Barracks12_info.png"
+      "localPath": "/images/wiki/0482-Dark-Barracks/47a1aa824a-Dark_Barracks13_info.webp",
+      "logicalPath": "/upgrade/home_buildings/0482/Dark_Barracks13_info.webp"
     },
     {
       "name": "Dark_Barracks1.png",

@@ -11,7 +11,7 @@ dataSyncedOn: 2026-10-13
 dataVersionUpdatedOn: 2026-11-17
 ---
 
-<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Monolith4_info.png" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
+<UnitInfo :folder="$frontmatter.imgFolder" imgSrc="Monolith5_info.webp" :imgAlt="$frontmatter.navTitle" :description="$frontmatter.description" />
 
 <SmallTitle>各等级图片</SmallTitle>
 
@@ -21,8 +21,8 @@ dataVersionUpdatedOn: 2026-11-17
         <UnitImg imgTitle="2 级" imgSrc="Monolith2.png" />
         <UnitImg imgTitle="3 级" imgSrc="Monolith3.png" imgHd="Monolith3_hd.png" />
         <UnitImg imgTitle="4 级" imgSrc="Monolith4.png" imgHd="Monolith4_hd.png" />
-            <UnitImg imgTitle="5 级" imgSrc="Monolith5.png" />
-</UnitImgGroup>
+        <UnitImg imgTitle="5 级" imgSrc="Monolith5.png" imgHd="Monolith5_info.webp" />
+    </UnitImgGroup>
 </Panel>
 
 <SmallTitle>建筑数量对照表</SmallTitle>

@@ -68,7 +68,6 @@ const tableExtraInfoFastMode = tableExtraInfoStandardMode;
         <UnitImg imgTitle="16 级" imgSrc="Mortar16.png" />
         <UnitImg imgTitle="17 级" imgSrc="Mortar17.png" />
         <UnitImg imgTitle="18 级" imgSrc="Mortar18.png" />
-        <UnitImg imgTitle="17 级" imgSrc="Mortar18.png" />
     </UnitImgGroup>
     <UnitImgGroup title="已改装，处于标准模式" :folder="$frontmatter.imgFolder">
         <UnitImg imgTitle="8 级" imgSrc="Mortar8A.png" />
@@ -81,9 +80,8 @@ const tableExtraInfoFastMode = tableExtraInfoStandardMode;
         <UnitImg imgTitle="15 级" imgSrc="Mortar15A.png" />
         <UnitImg imgTitle="16 级" imgSrc="Mortar16A.png" />
         <UnitImg imgTitle="17 级" imgSrc="Mortar17A.png" />
-        <UnitImg imgTitle="17 级" imgSrc="Mortar18A.png" />
-            <UnitImg imgTitle="18 级（改装）" imgSrc="Mortar18G.png" />
-</UnitImgGroup>
+        <UnitImg imgTitle="18 级" imgSrc="Mortar18A.png" />
+    </UnitImgGroup>
 </Panel>
 
 <SmallTitle>各大本等级的迫击炮数量</SmallTitle>
@@ -163,7 +161,7 @@ const tableExtraInfoFastMode = tableExtraInfoStandardMode;
         <UnitImg imgTitle="15 级" imgSrc="Mortar15B.png" />
         <UnitImg imgTitle="16 级" imgSrc="Mortar16B.png" />
         <UnitImg imgTitle="17 级" imgSrc="Mortar17B.png" />
-        <UnitImg imgTitle="18 级" imgSrc="Mortar18B.png" />
+        <UnitImg imgTitle="18 级" imgSrc="Mortar18B.png" imgHd="Mortar18G.png" />
     </UnitImgGroup>
 </Panel>
 
