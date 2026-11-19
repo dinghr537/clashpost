@@ -63,8 +63,6 @@ dataVersionUpdatedOn: 2026-11-17
     <UnitProperty pKey="攻速" pValue="1.3 秒/次" />
 </UnitProperties>
 
-<p>该单位的蓄能已停用；表中 ⚡ 行保留为原有记录。</p>
-
 <SmallTitle>升级数据</SmallTitle>
 
 <small>19 本版本调整了部分旧等级的费用和时间，调整范围见<a href="https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/">官方公告</a>。</small>
@@ -111,8 +109,6 @@ const tableExtraInfo = [
 | 15 | 95 | 123.5 | 3000 | 5500000 | 4,0,0,0 |  | 15 |
 | 16 | 102 | 132.6 | 3150 | 8000000 | 4,12,0,0 |  | 16 |
 | 17 | 110 | 143 | 3300 | 12000000 | 5,0,0,0 |  | 17 |
-| ⚡1 | 114 | 148.2 | 3300 | 8M | 3,12 |  | 17 |
-| ⚡2 | 114 | 148.2 | 3375 | 4M | 5,12 |  | 17 |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>
