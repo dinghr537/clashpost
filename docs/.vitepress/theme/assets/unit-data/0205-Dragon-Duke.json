@@ -1232,9 +1232,9 @@
             "source": "ClashKing"
           },
           {
-            "status": "unknown",
-            "value": null,
-            "raw": "?"
+            "status": "known",
+            "value": 4750,
+            "raw": "4,750"
           },
           {
             "status": "known",
@@ -1281,9 +1281,9 @@
             "source": "ClashKing"
           },
           {
-            "status": "unknown",
-            "value": null,
-            "raw": "?"
+            "status": "known",
+            "value": 4750,
+            "raw": "4,750"
           },
           {
             "status": "known",
@@ -1330,9 +1330,9 @@
             "source": "ClashKing"
           },
           {
-            "status": "unknown",
-            "value": null,
-            "raw": "?"
+            "status": "known",
+            "value": 4750,
+            "raw": "4,750"
           },
           {
             "status": "known",
@@ -1379,9 +1379,9 @@
             "source": "ClashKing"
           },
           {
-            "status": "unknown",
-            "value": null,
-            "raw": "?"
+            "status": "known",
+            "value": 4750,
+            "raw": "4,750"
           },
           {
             "status": "known",
@@ -1428,9 +1428,9 @@
             "source": "ClashKing"
           },
           {
-            "status": "unknown",
-            "value": null,
-            "raw": "?"
+            "status": "known",
+            "value": 5000,
+            "raw": "5,000"
           },
           {
             "status": "known",

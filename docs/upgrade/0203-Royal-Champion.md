@@ -149,7 +149,8 @@ const tableExtraInfo = [
 |   40 - 44   |        1200        |
 |   45 - 49   |        1300        |
 |   50 - 54   |        1400        |
-|      55     |        1500        |
+|   55 - 59   |        1500        |
+|      60     |        1600        |
 </Table>
 
 <SmallTitle>更新历史</SmallTitle>

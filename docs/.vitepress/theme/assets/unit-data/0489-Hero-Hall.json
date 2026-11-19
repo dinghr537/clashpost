@@ -859,11 +859,9 @@
             "source": "ClashKing"
           },
           {
-            "status": "unknown",
-            "value": null,
-            "raw": "?",
-            "verification": "pending",
-            "verificationReason": "新增等级尚待官方、Wiki 或玩家核实"
+            "status": "known",
+            "value": 1157,
+            "raw": "1,157"
           },
           {
             "status": "known",

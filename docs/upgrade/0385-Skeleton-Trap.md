@@ -65,7 +65,7 @@ dataVersionUpdatedOn: 2026-11-17
 
 <SmallTitle>升级数据</SmallTitle>
 
-<small>19 本资料参考 [Supercell 官方公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)、[部落冲突 Wiki](https://clashofclans.fandom.com/wiki/Skeleton_Trap)与 [ClashKing 游戏数据](https://github.com/ClashKingInc/ClashKingAssets)；暂缺的字段标为待更新。</small>
+<small>19 本资料参考 [Supercell 官方公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)、[部落冲突 Wiki](https://clashofclans.fandom.com/wiki/Skeleton_Trap)与 [ClashKing 游戏数据](https://github.com/ClashKingInc/ClashKingAssets)。</small>
 
 <script setup>
 const tableExtraInfo = [
@@ -97,7 +97,7 @@ const tableExtraInfo = [
 | 3 | 4 | 1 | 400000 | 0,8,0,0 |  | 9 |
 | 4 | 5 | 1 | 1000000 | 0,12,0,0 |  | 10 |
 | 5 | 5 | 2 | 10500000 | 5,12,0,0 |  | 18 |
-| 6 | 待更新 | 待更新 | 18000000 | 9,0,0,0 |  | 19 |
+| 6 | 6 | 2 | 18000000 | 9,0,0,0 |  | 19 |
 
 </UnitTable>
 </SwitchTabGroup>
