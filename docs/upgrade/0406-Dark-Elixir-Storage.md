@@ -59,7 +59,7 @@ dataVersionUpdatedOn: 2026-11-17
 
 
 
-<small>19 本资料参考 [Supercell 官方公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)、[部落冲突 Wiki](https://clashofclans.fandom.com/wiki/Dark_Elixir_Storage)与 [ClashKing 游戏数据](https://github.com/ClashKingInc/ClashKingAssets)；暂缺的字段标为待更新。</small>
+<small>19 本资料参考 [Supercell 官方公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)、[部落冲突 Wiki](https://clashofclans.fandom.com/wiki/Dark_Elixir_Storage)与 [ClashKing 游戏数据](https://github.com/ClashKingInc/ClashKingAssets)。</small>
 
 <script setup>
 const tableExtraInfo = [
@@ -105,7 +105,7 @@ const tableExtraInfo = [
 | 11 | 390000 | 4500 | 8000000 | 4,0,0,0 |  | 16 |
 | 12 | 420000 | 4700 | 15000000 | 7,0,0,0 |  | 17 |
 | 13 | 450000 | 4800 | 20000000 | 10,0,0,0 |  | 18 |
-| 14 | 待更新 | 4900 | 24000000 | 13,0,0,0 |  | 19 |
+| 14 | 480000 | 4900 | 24000000 | 13,0,0,0 |  | 19 |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>

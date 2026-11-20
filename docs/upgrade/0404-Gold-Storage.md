@@ -67,7 +67,7 @@ dataVersionUpdatedOn: 2026-11-17
 
 
 
-<small>19 本资料参考 [Supercell 官方公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)、[部落冲突 Wiki](https://clashofclans.fandom.com/wiki/Gold_Storage)与 [ClashKing 游戏数据](https://github.com/ClashKingInc/ClashKingAssets)；暂缺的字段标为待更新。</small>
+<small>19 本资料参考 [Supercell 官方公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)、[部落冲突 Wiki](https://clashofclans.fandom.com/wiki/Gold_Storage)与 [ClashKing 游戏数据](https://github.com/ClashKingInc/ClashKingAssets)。</small>
 
 <script setup>
 const tableExtraInfo = [
@@ -119,7 +119,7 @@ const tableExtraInfo = [
 | 17 | 5500000 | 4050 | 5500000 | 4,0,0,0 |  | 16 |
 | 18 | 6000000 | 4200 | 8500000 | 4,6,0,0 |  | 17 |
 | 19 | 6500000 | 4300 | 12500000 | 7,12,0,0 |  | 18 |
-| 20 | 待更新 | 4400 | 18000000 | 11,0,0,0 |  | 19 |
+| 20 | 7000000 | 4400 | 18000000 | 11,0,0,0 |  | 19 |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>

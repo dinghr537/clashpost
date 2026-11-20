@@ -1005,10 +1005,8 @@
           },
           {
             "status": "known",
-            "value": "17d 12h",
-            "raw": "17d 12h",
-            "verification": "outdated",
-            "verificationReason": "19 本更新后可能已调整；Wiki 尚未更新，暂列更新前数值"
+            "value": "15d 18h",
+            "raw": "15d 18h"
           },
           {
             "status": "known",
@@ -1069,10 +1067,8 @@
           },
           {
             "status": "known",
-            "value": "24d",
-            "raw": "24d",
-            "verification": "outdated",
-            "verificationReason": "19 本更新后可能已调整；Wiki 尚未更新，暂列更新前数值"
+            "value": "20d",
+            "raw": "20d"
           },
           {
             "status": "known",
@@ -1133,10 +1129,8 @@
           },
           {
             "status": "known",
-            "value": "54d",
-            "raw": "54d",
-            "verification": "outdated",
-            "verificationReason": "19 本更新后可能已调整；Wiki 尚未更新，暂列更新前数值"
+            "value": "45d",
+            "raw": "45d"
           },
           {
             "status": "known",
@@ -1151,14 +1145,14 @@
             "raw": "12"
           },
           {
-            "status": "unknown",
-            "value": null,
-            "raw": "?"
+            "status": "known",
+            "value": 5060,
+            "raw": "5,060"
           },
           {
-            "status": "unknown",
-            "value": null,
-            "raw": "?"
+            "status": "known",
+            "value": "220/hr",
+            "raw": "220/hr"
           },
           {
             "status": "known",
@@ -1167,14 +1161,14 @@
             "source": "ClashKing"
           },
           {
-            "status": "unknown",
-            "value": null,
-            "raw": "?"
+            "status": "known",
+            "value": 60,
+            "raw": "60"
           },
           {
-            "status": "unknown",
-            "value": null,
-            "raw": "?"
+            "status": "known",
+            "value": "23h",
+            "raw": "23h"
           },
           {
             "status": "known",
@@ -1197,9 +1191,9 @@
             "source": "ClashKing"
           },
           {
-            "status": "unknown",
-            "value": null,
-            "raw": "?"
+            "status": "known",
+            "value": "65d",
+            "raw": "65d"
           },
           {
             "status": "known",

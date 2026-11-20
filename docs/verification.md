@@ -25,12 +25,9 @@ hasUpdateTime: false
 | [毒药法术](/upgrade/0180-Poison-Spell) | 13 | 移动速度降低幅度、攻击速度降低幅度 |
 | [急速法术](/upgrade/0182-Haste-Spell) | 8 | 速度提升、持续时间 |
 | [攻城烈焰车](/upgrade/0245-Flame-Flinger) | 6 | 每秒伤害、每次伤害、熔岩的最大伤害、最大存活时间 |
-| [金矿](/upgrade/0401-Gold-Mine) | 18 | 每小时产量、采集器容量、出现收集标志时的储量、每个采集器提速所需宝石 |
-| [圣水收集器](/upgrade/0402-Elixir-Collector) | 18 | 每小时产量、采集器容量、出现收集标志时的储量、每个采集器提速所需宝石 |
-| [暗黑重油钻井](/upgrade/0403-Dark-Elixir-Drill) | 12 | 每小时产量、采集器容量、出现收集标志时的储量、每个采集器提速所需宝石 |
-| [储金罐](/upgrade/0404-Gold-Storage) | 20 | 最大储量 |
-| [圣水瓶](/upgrade/0405-Elixir-Storage) | 20 | 最大储量 |
-| [暗黑重油罐](/upgrade/0406-Dark-Elixir-Storage) | 14 | 最大储量 |
+| [金矿](/upgrade/0401-Gold-Mine) | 18 | 出现收集标志时的储量 |
+| [圣水收集器](/upgrade/0402-Elixir-Collector) | 18 | 出现收集标志时的储量 |
+| [暗黑重油钻井](/upgrade/0403-Dark-Elixir-Drill) | 12 | 出现收集标志时的储量 |
 | [部落城堡](/upgrade/0407-Clan-Castle) | 19 | 金币和圣水储量、黑油储量 |
 | [超级炸弹人](/upgrade/0603-Super-Wall-Breaker) | 15 | 中途死亡(对城墙)、成功爆破(对城墙) |
 | [地狱飞龙](/upgrade/0604-Inferno-Dragon) | 13 | 初始秒伤、1.7秒后秒伤、3.2秒后秒伤 |

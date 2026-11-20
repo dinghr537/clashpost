@@ -1458,14 +1458,14 @@
             "raw": "18"
           },
           {
-            "status": "unknown",
-            "value": null,
-            "raw": "?"
+            "status": "known",
+            "value": 455000,
+            "raw": "455,000"
           },
           {
-            "status": "unknown",
-            "value": null,
-            "raw": "?"
+            "status": "known",
+            "value": "8,190/hr",
+            "raw": "8,190/hr"
           },
           {
             "status": "known",
@@ -1474,14 +1474,14 @@
             "source": "ClashKing"
           },
           {
-            "status": "unknown",
-            "value": null,
-            "raw": "?"
+            "status": "known",
+            "value": 11,
+            "raw": "11"
           },
           {
-            "status": "unknown",
-            "value": null,
-            "raw": "?"
+            "status": "known",
+            "value": "2d 7h 33m 20s",
+            "raw": "2d 7h 33m 20s"
           },
           {
             "status": "known",
@@ -1504,9 +1504,9 @@
             "source": "ClashKing"
           },
           {
-            "status": "unknown",
-            "value": null,
-            "raw": "?"
+            "status": "known",
+            "value": "36d",
+            "raw": "36d"
           },
           {
             "status": "known",

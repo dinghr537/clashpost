@@ -273,10 +273,8 @@
           },
           {
             "status": "known",
-            "value": 1059,
-            "raw": "1,059",
-            "verification": "outdated",
-            "verificationReason": "19 本更新后可能已调整；Wiki 尚未更新，暂列更新前数值"
+            "value": 929,
+            "raw": "929"
           },
           {
             "status": "known",
@@ -326,10 +324,8 @@
           },
           {
             "status": "known",
-            "value": 1099,
-            "raw": "1,099",
-            "verification": "outdated",
-            "verificationReason": "19 本更新后可能已调整；Wiki 尚未更新，暂列更新前数值"
+            "value": 974,
+            "raw": "974"
           },
           {
             "status": "known",
