@@ -484,19 +484,19 @@
             "source": "ClashKing"
           },
           {
-            "status": "unknown",
-            "value": null,
-            "raw": "?"
+            "status": "known",
+            "value": "5.75s",
+            "raw": "5.75s"
           },
           {
-            "status": "unknown",
-            "value": null,
-            "raw": "?"
+            "status": "known",
+            "value": 18,
+            "raw": "18"
           },
           {
-            "status": "unknown",
-            "value": null,
-            "raw": "?"
+            "status": "known",
+            "value": 14,
+            "raw": "14"
           },
           {
             "status": "known",

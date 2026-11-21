@@ -574,14 +574,14 @@
             "source": "ClashKing"
           },
           {
-            "status": "unknown",
-            "value": null,
-            "raw": "?"
+            "status": "known",
+            "value": 24,
+            "raw": "24"
           },
           {
-            "status": "unknown",
-            "value": null,
-            "raw": "?"
+            "status": "known",
+            "value": 16,
+            "raw": "16"
           },
           {
             "status": "known",

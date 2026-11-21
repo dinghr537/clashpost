@@ -442,14 +442,14 @@
             "raw": "14"
           },
           {
-            "status": "unknown",
-            "value": null,
-            "raw": "?"
+            "status": "known",
+            "value": 556,
+            "raw": "556"
           },
           {
-            "status": "unknown",
-            "value": null,
-            "raw": "?"
+            "status": "known",
+            "value": 199.63,
+            "raw": "199.63"
           },
           {
             "status": "known",

@@ -414,23 +414,19 @@
             "raw": "7"
           },
           {
-            "status": "unknown",
-            "value": null,
-            "raw": "?",
-            "verification": "pending",
-            "verificationReason": "新增等级尚待官方、Wiki 或玩家核实"
+            "status": "known",
+            "value": 125,
+            "raw": "125"
           },
           {
-            "status": "unknown",
-            "value": null,
-            "raw": "?",
-            "verification": "pending",
-            "verificationReason": "新增等级尚待官方、Wiki 或玩家核实"
+            "status": "known",
+            "value": 125,
+            "raw": "125"
           },
           {
-            "status": "unknown",
-            "value": null,
-            "raw": "?"
+            "status": "known",
+            "value": 150,
+            "raw": "150"
           },
           {
             "status": "known",

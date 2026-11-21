@@ -898,9 +898,9 @@
             "source": "ClashKing"
           },
           {
-            "status": "unknown",
-            "value": null,
-            "raw": "?"
+            "status": "known",
+            "value": 4,
+            "raw": "4"
           },
           {
             "status": "known",

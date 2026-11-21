@@ -395,26 +395,24 @@
             "source": "ClashKing"
           },
           {
-            "status": "unknown",
-            "value": null,
-            "raw": "?",
-            "verification": "pending",
-            "verificationReason": "新增等级尚待官方、Wiki 或玩家核实"
+            "status": "known",
+            "value": 580,
+            "raw": "580"
           },
           {
-            "status": "unknown",
-            "value": null,
-            "raw": "?"
+            "status": "known",
+            "value": 320,
+            "raw": "320"
           },
           {
-            "status": "unknown",
-            "value": null,
-            "raw": "?"
+            "status": "known",
+            "value": "48%",
+            "raw": "48%"
           },
           {
-            "status": "unknown",
-            "value": null,
-            "raw": "?"
+            "status": "known",
+            "value": "70%",
+            "raw": "70%"
           },
           {
             "status": "known",

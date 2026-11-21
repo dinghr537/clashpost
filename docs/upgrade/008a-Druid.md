@@ -41,7 +41,7 @@ dataVersionUpdatedOn: 2026-11-17
 3. 在人类形态下，德鲁伊的治疗效果可以最多弹射到 4 个目标（含第一个治疗目标）身上。
    - 德鲁伊的治疗效果无法弹射到攻城机器身上（攻城机器免疫所有治疗效果）。
    - 德鲁伊可以同时治疗地面和空中部队，而天使只能治疗地面部队。
-   - 与天使和 [疗伤法术](/upgrade/0101-Healing-Spell) 不同，德鲁伊对英雄的治疗量高于对普通部队的治疗量。1～6 级对英雄的每秒治疗量分别为 84、89.25、99、104.5、120.75、132.25。
+   - 与天使和 [疗伤法术](/upgrade/0101-Healing-Spell) 不同，德鲁伊对英雄的治疗量高于对普通部队的治疗量。1～7 级对英雄的每秒治疗量分别为 84、89.25、99、104.5、120.75、132.25、150。
    - 同一目标受到多个治疗单位治疗时，新增单位的治疗效益会递减。按原站记录，第 1～8 个单位依次为 100%、100%、90%、90%、70%、40%、10%、0%；第 8 个起不再增加治疗量。此规则包含天使、独角和人形德鲁伊，不能直接用单个治疗量乘以单位数量。<small>（来源：<a href="https://clashpost.com/p/6925" target="_blank" rel="noopener noreferrer">原站治疗叠加记录（2025-02-14）</a>）</small>
    - 在人类形态下，德鲁伊不能反击。在没有治疗目标时，即使受到伤害也会保持静止。
 4. 在巨熊形态下，德鲁伊是一种优先攻击防御建筑的兵种。
@@ -70,7 +70,7 @@ dataVersionUpdatedOn: 2026-11-17
 
 <small>本级部分伤害或治疗量按本页已有倍率、攻速或治疗次数计算。</small>
 
-<small>19 本资料参考 [Supercell 官方公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)、[部落冲突 Wiki](https://clashofclans.fandom.com/wiki/Druid)与 [ClashKing 游戏数据](https://github.com/ClashKingInc/ClashKingAssets)；暂缺的字段标为待更新。</small>
+<small>19 本资料参考 [Supercell 官方公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)、[部落冲突 Wiki](https://clashofclans.fandom.com/wiki/Druid)与 [ClashKing 游戏数据](https://github.com/ClashKingInc/ClashKingAssets)。</small>
 
 <script setup>
 const tableExtraInfo = [
@@ -98,7 +98,7 @@ const tableExtraInfo = [
 | 4 | 95 | 95 | 1600 | 150000 | 8,0,0,0 | 14 | 16 |
 | 5 | 105 | 105 | 1700 | 215000 | 8,12,0,0 | 15 | 17 |
 | 6 | 115 | 115 | 1850 | 340000 | 12,12,0,0 | 16 | 18 |
-| 7 | 待更新 | 待更新 | 2000 | 415000 | 13,0,0,0 | 17 | 19 |
+| 7 | 125 | 125 | 2000 | 415000 | 13,0,0,0 | 17 | 19 |
 </UnitTable>
 </SwitchTabGroup>
 
@@ -126,7 +126,7 @@ const tableExtraInfo = [
 3. 在人类形态下，德鲁伊的治疗效果可以最多弹射到 4 个目标（含第一个治疗目标）身上。
    - 德鲁伊的治疗效果无法弹射到攻城机器身上（攻城机器免疫所有治疗效果）。
    - 德鲁伊可以同时治疗地面和空中部队，而天使只能治疗地面部队。
-   - 与天使和 [疗伤法术](/upgrade/0101-Healing-Spell) 不同，德鲁伊对英雄的治疗量高于对普通部队的治疗量。1～6 级对英雄的每秒治疗量分别为 84、89.25、99、104.5、120.75、132.25。
+   - 与天使和 [疗伤法术](/upgrade/0101-Healing-Spell) 不同，德鲁伊对英雄的治疗量高于对普通部队的治疗量。1～7 级对英雄的每秒治疗量分别为 84、89.25、99、104.5、120.75、132.25、150。
    - 同一目标受到多个治疗单位治疗时，新增单位的治疗效益会递减。按原站记录，第 1～8 个单位依次为 100%、100%、90%、90%、70%、40%、10%、0%；第 8 个起不再增加治疗量。此规则包含天使、独角和人形德鲁伊，不能直接用单个治疗量乘以单位数量。<small>（来源：<a href="https://clashpost.com/p/6925" target="_blank" rel="noopener noreferrer">原站治疗叠加记录（2025-02-14）</a>）</small>
    - 在人类形态下，德鲁伊不能反击。在没有治疗目标时，即使受到伤害也会保持静止。
 4. 在巨熊形态下，德鲁伊是一种优先攻击防御建筑的兵种。
@@ -159,10 +159,10 @@ const tableExtraInfo = [
 |   4  |   185   |   185   |  2300  |
 |   5  |   205   |   205   |  2500  |
 |   6  |   225   |   225   |  2750  |
-|   7  |   待更新  |   待更新  |  待更新  |
+|   7  |   245   |   245   |  3000  |
 </UnitTable>
 
-<p><small>7 级巨熊属性尚未找到可核实数据。巨熊形态数据来源：<a href="https://clashofclans.fandom.com/wiki/Druid/Bear#Statistics" target="_blank" rel="noopener noreferrer">部落冲突维基：巨熊</a>。</small></p>
+<p><small>巨熊形态数据来源：<a href="https://clashofclans.fandom.com/wiki/Druid/Bear#Statistics" target="_blank" rel="noopener noreferrer">部落冲突维基：巨熊</a>。</small></p>
 </SwitchTabGroup>
 
 <!-- ↓↓↓ 公共部分 ↓↓↓ -->

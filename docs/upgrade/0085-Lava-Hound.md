@@ -76,7 +76,7 @@ dataVersionUpdatedOn: 2026-11-17
 
 <SmallTitle>升级数据</SmallTitle>
 
-<small>19 本资料参考 [Supercell 官方公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)、[部落冲突 Wiki](https://clashofclans.fandom.com/wiki/Lava_Hound)与 [ClashKing 游戏数据](https://github.com/ClashKingInc/ClashKingAssets)；暂缺的字段标为待更新。</small>
+<small>19 本资料参考 [Supercell 官方公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)、[部落冲突 Wiki](https://clashofclans.fandom.com/wiki/Lava_Hound)与 [ClashKing 游戏数据](https://github.com/ClashKingInc/ClashKingAssets)。</small>
 
 <script setup>
 const tableExtraInfo = [
@@ -106,7 +106,7 @@ const tableExtraInfo = [
 | 6 | 20 | 40 | 350 | 18 / 13 | 8000 | 80000 | 7,0,0,0 | 11 | 13 |
 | 7 | 22 | 44 | 400 | 20 / 14 | 8500 | 190000 | 7,12,0,0 | 14 | 16 |
 | 8 | 24 | 48 | 450 | 22 / 15 | 9500 | 285000 | 10,12,0,0 | 16 | 18 |
-| 9 | 26 | 52 | 500 | 待更新 / 待更新 | 11000 | 375000 | 11,0,0,0 | 17 | 19 |
+| 9 | 26 | 52 | 500 | 24 / 16 | 11000 | 375000 | 11,0,0,0 | 17 | 19 |
 </UnitTable>
 
 <SmallTitle>更新历史</SmallTitle>

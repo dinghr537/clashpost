@@ -416,19 +416,19 @@
             "raw": "13"
           },
           {
-            "status": "unknown",
-            "value": null,
-            "raw": "?"
+            "status": "known",
+            "value": 92,
+            "raw": "92"
           },
           {
-            "status": "unknown",
-            "value": null,
-            "raw": "?"
+            "status": "known",
+            "value": 186,
+            "raw": "186"
           },
           {
-            "status": "unknown",
-            "value": null,
-            "raw": "?"
+            "status": "known",
+            "value": 1860,
+            "raw": "1,860"
           },
           {
             "status": "known",

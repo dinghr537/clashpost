@@ -111,10 +111,10 @@ dataVersionUpdatedOn: 2026-11-17
 |  13  |     65    |     65    |  1050 |     16    |
 |  14  |     70    |     70    |  1100 |     17    |
 |  15  |     80    |     80    |  1200 |     18    |
-|  16  |   待更新    |   待更新    |  待更新 |     19    |
+|  16  |     90    |     90    |  1300 |     19    |
 </UnitTable>
 
-<small>16 级超级野猪的属性尚待更新；等级编号沿用本站对应的原兵种等级。</small>
+<small>超级野猪数据来源：<a href="https://clashofclans.fandom.com/wiki/Super_Hog_Rider/Super_Hog" target="_blank" rel="noopener noreferrer">部落冲突维基</a>；等级编号沿用本站对应的原兵种等级。</small>
 </SwitchTabGroup>
 
 <!-- ↓↓↓ 超级骑士 ↓↓↓ -->
@@ -158,10 +158,10 @@ dataVersionUpdatedOn: 2026-11-17
 |  13  |   250   |   250   |     500     |  750  |     16    |
 |  14  |   270   |   270   |     540     |  800  |     17    |
 |  15  |   300   |   300   |     600     |  900  |     18    |
-|  16  |   待更新  |   待更新  |     待更新    |  待更新 |     19    |
+|  16  |   330   |   330   |     660     |  1000 |     19    |
 </UnitTable>
 
-<small>16 级超级骑士的属性尚待更新；等级编号沿用本站对应的原兵种等级。</small>
+<small>超级骑士数据来源：<a href="https://clashofclans.fandom.com/wiki/Super_Hog_Rider/Super_Rider" target="_blank" rel="noopener noreferrer">部落冲突维基</a>；等级编号沿用本站对应的原兵种等级。</small>
 </SwitchTabGroup>
 
 <!-- ↓↓↓ 公共部分 ↓↓↓ -->

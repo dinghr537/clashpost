@@ -55,7 +55,7 @@ dataVersionUpdatedOn: 2026-11-17
 
 <small>本级部分伤害或治疗量按本页已有倍率、攻速或治疗次数计算。</small>
 
-<small>19 本资料参考 [Supercell 官方公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)、[部落冲突 Wiki](https://clashofclans.fandom.com/wiki/Headhunter)与 [ClashKing 游戏数据](https://github.com/ClashKingInc/ClashKingAssets)；暂缺的字段标为待更新。</small>
+<small>19 本资料参考 [Supercell 官方公告](https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/)、[部落冲突 Wiki](https://clashofclans.fandom.com/wiki/Headhunter)与 [ClashKing 游戏数据](https://github.com/ClashKingInc/ClashKingAssets)。</small>
 
 <script setup>
 const tableExtraInfo = [
@@ -81,7 +81,7 @@ const tableExtraInfo = [
 | 2 | 115 | 69 | 460 | 276 | 42% / 60% | 400 | 45000 | 4,0,0,0 | 10 | 12 |
 | 3 | 125 | 75 | 500 | 300 | 44% / 65% | 440 | 90000 | 7,0,0,0 | 11 | 13 |
 | 4 | 135 | 81 | 540 | 324 | 46% / 68% | 500 | 275000 | 10,0,0,0 | 16 | 18 |
-| 5 | 145 | 87 | 待更新 | 待更新 | 待更新 / 待更新 | 560 | 425000 | 12,12,0,0 | 17 | 19 |
+| 5 | 145 | 87 | 580 | 348 | 48% / 70% | 560 | 425000 | 12,12,0,0 | 17 | 19 |
 </UnitTable>
 
 \* 毒药法术效果：移动速度降低 / 攻击速度降低。
