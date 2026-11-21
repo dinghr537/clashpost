@@ -18,7 +18,7 @@ hasUpdateTime: false
 
 “待更新”表示来源未给出可用数值，“不适用”表示来源明确标记不适用，二者都不等同于零。不同模式和同等级的条件分支保留原行，不合并。缺少某项前置条件时不会从其他数值推测补齐。
 
-数据主要参考 Supercell 官方资料、部落驿站原资料和 Clash of Clans Wiki。来源详情和转载许可见[来源与许可](/sources)。
+数据统一采用部落驿站原资料、Supercell 官方资料、Clash of Clans Wiki 和 ClashKing Assets。来源详情和转载许可见[来源与许可](/sources)。
 
 ## 月卡减免
 

@@ -8,7 +8,6 @@ imgFolder: home_buildings/0402
 wiki: https://clashofclans.fandom.com/wiki/Elixir_Collector
 canonical: /upgrade/0402-Elixir-Collector
 dataSyncedOn: 2026-10-13
-dataBalanceUpdatedOn: 2026-10-20
 dataVersionUpdatedOn: 2026-11-17
 ---
 

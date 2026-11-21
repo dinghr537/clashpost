@@ -17,11 +17,6 @@
       "source": "Supercell 官方公告、部落冲突 Wiki 及玩家提供的信息（按字段核对）",
       "sourceUrl": "https://supercell.com/en/games/clashofclans/blog/release-notes/the-clash-of-titans-update-is-rolling-out/",
       "scope": "采用已核实的字段；未通过上述来源核实的候选数据标为待更新。原候选来源和历史过程记于 SOURCE_PERMISSIONS.md。",
-      "additionalSource": {
-        "source": "ClashPerk Wiki",
-        "sourceUrl": "https://wiki.clashperk.com/resources/dark-elixir-storage",
-        "scope": "New level storage capacity."
-      },
       "activePolicy": "按官方公告、Wiki 或玩家提供的信息保留已核实数据；尚未核实的字段不展示候选值。原始候选来源记录于 SOURCE_PERMISSIONS.md。"
     },
     "reviewedTableCorrections": [

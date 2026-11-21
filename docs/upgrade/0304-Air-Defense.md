@@ -8,7 +8,6 @@ imgFolder: home_buildings/0304
 wiki: https://clashofclans.fandom.com/wiki/Air_Defense
 canonical: /upgrade/0304-Air-Defense
 dataSyncedOn: 2026-10-13
-dataBalanceUpdatedOn: 2026-10-20
 dataVersionUpdatedOn: 2026-11-17
 ---
 

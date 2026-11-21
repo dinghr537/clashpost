@@ -16,7 +16,7 @@
       "appliedOn": "2026-10-20",
       "effectiveOn": "2026-10-20",
       "announcementUrl": "https://supercell.com/en/games/clashofclans/blog/news/balance-changes-incoming-october-2026/",
-      "numericSourceUrl": "https://clashfox.com/blog/balance-changes-before-town-hall-19-fire-heart-and-ruin-witch-nerfed-hogs-and-p-e-k-k-a-bu",
+      "numericSourceUrl": "https://clashofclans.fandom.com/wiki/Super_Hog_Rider",
       "dateSourceUrl": "https://x.com/ClashofClans/status/2112450159326179560",
       "dateEvidence": "Adjusted stats confirmed in-game after maintenance on October 20, 2026 (UTC).",
       "fields": [
@@ -25,7 +25,8 @@
           "header": "Hitpoints",
           "levels": "10–15"
         }
-      ]
+      ],
+      "followupVerification": "2026-11-21 核对当前 Clash of Clans Wiki 表格生命值一致，数值来源改记为 Wiki。"
     },
     "th19Update": {
       "checkedOn": "2026-11-16",

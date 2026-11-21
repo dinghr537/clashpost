@@ -26,12 +26,14 @@
 
 ## 来源与准确性目标
 
+本站数据与素材来源统一限定为以下 4 项，不再引入或保留 Clash Ninja、ClashFox、1337Wiki、ClashPerk Wiki 及其他零星第三方站点引用：
+
 | 来源 | 用途 | 当前状态 |
 | --- | --- | --- |
-| [Supercell 官网](https://supercell.com/en/games/clashofclans/blog/) | 查看更新范围，采用官方公开数值 | 已读取公开公告；部分公告有费用和时间表 |
-| [Clash of Clans Wiki](https://clashofclans.fandom.com/wiki/Clash_of_Clans_Wiki) | 采用开放许可的等级表格和历史 | 已保存 357 页固定修订；文字默认 CC BY-SA 3.0；后续批量 API 获取授权待确认 |
-| [Clash Ninja](https://www.clash.ninja/upgrade-tracker/overview) | 发现更新、辅助核对 | 不作为批量导入来源；法师塔新旧数值已改用 Wiki，四月生效日期仍注明参考 Ninja 公告 |
-| 其他数据网站 | 用户指定来源、填补缺项 | 先确认许可和访问方式，再记录对应页面与同步范围 |
+| [部落驿站原资料](https://github.com/lemonicy/clashpost) | 基础底稿、中文正文、表格结构、历史活动单位与原站图片 | 继承保留原作者署名与 CC BY-SA 4.0 数据许可 |
+| [Supercell 官网](https://supercell.com/en/games/clashofclans/blog/) | 查看更新范围、玩法与解锁规则，采用官方公开数值及帮助中心说明 | 已读取公开公告与帮助中心；部分公告有费用、时间表与官方素材 |
+| [Clash of Clans Wiki](https://clashofclans.fandom.com/wiki/Clash_of_Clans_Wiki) | 采用开放许可的等级表格、属性、更新历史与补充等级图 | 已保存 357 页固定修订并持续同步 19 本更新；文字默认 CC BY-SA 3.0 |
+| [ClashKing Assets](https://github.com/ClashKingInc/ClashKingAssets) | 补充或核对 Wiki 尚未更新的游戏提取数值及部分 19 本新增素材 | 2026-11-17 经用户决定采用，按列比对一致后填入单格数值并署名 |
 
 ## 来源许可与获取方式
 

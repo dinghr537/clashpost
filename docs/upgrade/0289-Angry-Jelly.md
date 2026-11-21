@@ -43,7 +43,7 @@ dataVersionUpdatedOn: 2026-11-17
     <UnitProperty pKey="所需大本等级" pValue="16" />
 </UnitProperties>
 
-① 攻击距离的资料存在差异：<a href="https://wiki.clashperk.com/pets/angry-jelly" target="_blank" rel="noopener noreferrer">ClashPerk</a>记为 5 格，<a href="https://blooing.com/the-best-hero-pets-in-clash-of-clans/" target="_blank" rel="noopener noreferrer">Blooing</a>及页面所列维基资料记为 1.5 格；测量口径和当前值尚待核实。
+① 攻击距离的资料存在差异：<a href="https://clashpost.com/upgrade/0289-Angry-Jelly" target="_blank" rel="noopener noreferrer">原站资料</a>记为 5 格，<a href="https://clashofclans.fandom.com/wiki/Angry_Jelly" target="_blank" rel="noopener noreferrer">部落冲突维基</a>记为 1.5 格；测量口径和当前值尚待核实。
 
 <SmallTitle>升级数据</SmallTitle>
 

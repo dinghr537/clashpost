@@ -8,7 +8,6 @@ imgFolder: home_buildings/0403
 wiki: https://clashofclans.fandom.com/wiki/Dark_Elixir_Drill
 canonical: /upgrade/0403-Dark-Elixir-Drill
 dataSyncedOn: 2026-10-13
-dataBalanceUpdatedOn: 2026-10-20
 dataVersionUpdatedOn: 2026-11-17
 ---
 

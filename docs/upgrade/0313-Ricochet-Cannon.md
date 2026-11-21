@@ -8,7 +8,6 @@ imgFolder: home_buildings/0313
 wiki: https://clashofclans.fandom.com/wiki/Ricochet_Cannon
 canonical: /upgrade/0313-Ricochet-Cannon
 dataSyncedOn: 2026-10-13
-dataBalanceUpdatedOn: 2026-10-20
 dataVersionUpdatedOn: 2026-11-17
 ---
 

@@ -44,7 +44,7 @@ dataVersionUpdatedOn: 2026-11-17
 
 ① 如果敌军进入这个范围，英雄会奔向敌军，并进行反击。<br>
 ② 在没有敌人的情况下，英雄也会走动，而这个走动的范围叫巡逻半径。<br>
-③ <a href="https://clash-markets.com/dragon-duke-coc/" target="_blank" rel="noopener noreferrer">Clash Markets</a>记为 1.25 格，<a href="https://clashofclans.fandom.com/wiki/Dragon_Duke" target="_blank" rel="noopener noreferrer">部落冲突维基</a>记为 0.3 格；测量口径和当前值尚待核实。
+③ <a href="https://clashpost.com/upgrade/0205-Dragon-Duke" target="_blank" rel="noopener noreferrer">原站资料</a>记为 1.25 格，<a href="https://clashofclans.fandom.com/wiki/Dragon_Duke" target="_blank" rel="noopener noreferrer">部落冲突维基</a>记为 0.3 格；测量口径和当前值尚待核实。
 
 <SmallTitle>升级数据</SmallTitle>
 

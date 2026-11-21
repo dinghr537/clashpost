@@ -8,7 +8,6 @@ imgFolder: home_buildings/0500
 wiki: https://clashofclans.fandom.com/wiki/Builder%27s_Hut
 canonical: /upgrade/0500-Builders-Hut
 dataSyncedOn: 2026-10-13
-dataBalanceUpdatedOn: 2026-10-20
 dataVersionUpdatedOn: 2026-11-17
 ---
 

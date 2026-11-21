@@ -8,7 +8,6 @@ imgFolder: home_buildings/0314
 wiki: https://clashofclans.fandom.com/wiki/Multi-Archer_Tower
 canonical: /upgrade/0314-Multi-Archer-Tower
 dataSyncedOn: 2026-10-13
-dataBalanceUpdatedOn: 2026-10-20
 dataVersionUpdatedOn: 2026-11-17
 ---
 

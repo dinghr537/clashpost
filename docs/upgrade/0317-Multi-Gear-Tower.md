@@ -8,7 +8,6 @@ imgFolder: home_buildings/0317
 wiki: https://clashofclans.fandom.com/wiki/Multi-Gear_Tower
 canonical: /upgrade/0317-Multi-Gear-Tower
 dataSyncedOn: 2026-10-13
-dataBalanceUpdatedOn: 2026-10-20
 dataVersionUpdatedOn: 2026-11-17
 ---
 

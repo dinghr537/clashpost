@@ -2,6 +2,18 @@
 
 本文件记录实际查阅的条款、收录范围和仍需确认的事项，不把来源链接、可访问的 API 或视觉检查当作授权。面向读者的署名与许可见 [NOTICE.md](NOTICE.md) 和 [来源与许可](docs/sources.md)。
 
+## 2026-11-21 来源收口：统一仅采用四项来源
+
+按用户要求，全站活跃数据与页面引用统一收口为 **4 项来源**：**部落驿站原资料**、**Supercell 官方资料**、**Clash of Clans Wiki**、**ClashKing Assets**。下文早期的第三方参考记录仅作为历史审计档案保留，不再作为当前数据或页面引用来源：
+
+- **Clash Ninja**：2026 年 4 月法师塔已无引用；2026-10-20 调整的 10 种建筑超级充能均已在 19 本退役并从页面移除，本次一并清理 10 个单位 JSON 中过期的 `sync.balanceUpdate` 及对应页面前置元数据 `dataBalanceUpdatedOn`。
+- **ClashFox**：2026-10-20 平衡调整涉及的 10 个单位均已逐一核对 **Clash of Clans Wiki** 当前表格一致（其中 8 个于 2026-11-17 核对，超级矿工与超级野猪骑士于 2026-11-21 核对），对应 JSON 的 `numericSourceUrl` 及小陨石戈仑派生表来源均已替换为 Wiki 页面地址。
+- **1337Wiki**：活跃页面与脚本中已无任何引用，正式停用。
+- **ClashPerk Wiki 与其他零星站点**（`9game.cn`、`clashdaddy.com`、`cocwarbase.com`、`clash-markets.com`、`blooing.com`、`gibiarena.com`、`goblinsfarm.com`、`reddit.com`）：
+  - 移除毒药法术、急速法术及三座资源库 JSON 中残留的 `additionalSource`（ClashPerk）。
+  - 毒药法术、亡灵王子、飞龙公爵、愤怒水母 4 页属性差异脚注改以**原站资料**与**部落冲突维基**对照说明。
+  - `0301-Cannon.json`、`0489-Hero-Hall.json`、`200f-Super-Miner.json` 及 `scripts/reviewed-building-count-differences.json` 中的修正依据，按实际对应关系改记为**部落驿站原资料**、**Clash of Clans Wiki** 或 **Supercell 官方公告**。
+
 ## 2026-11-17 用户决定：采用 ClashKing 数据，允许访问 Fandom
 
 用户决定：
